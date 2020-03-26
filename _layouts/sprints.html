@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="default-container">
+  <main id="main-content" class="main-content">
+    <div class="styleguide-content usa-prose site-prose">
+      <!-- hero section  -->
+      <h2>
+        {{ site.data.sprints[page.title]["Theme"] }}
+      </h2>
+
+      <!-- outcomes -->
+      <h3>Outcomes</h3>
+      {% for outcome in site.data.sprints[page.title]["Outcomes"] %}
+        <p>
+          {{ outcome.stat }}
+        </p>
+        <p>
+          {{ outcome.details }}
+        </p>
+      {% endfor %}
+
+      <!-- agency sponsors -->
+      <h3>Agency Sponsors</h3>
+      {% for sponsor in site.data.sprints[page.title]["Agency Sponsors"] %}
+        <p>
+          {{ sponsor }}
+        </p>
+      {% endfor %}
+
+      <!-- problem statements -->
+      <h3>Problem Statements</h3>
+      {% for problem_statement in site.data.sprints[page.title]["Problem Statements"] %}
+        {% if problem_statement.statement %}
+          <p>
+            <b>{{ problem_statement.statement }}</b>
+          </p>
+        {% endif %}
+        {% if problem_statement.agency %}
+          <p>
+            {{ problem_statement.agency}}
+          </p>
+        {% endif %}
+        [Read the full problem statement →](/getting-started/showcase/)
+      {% endfor %}
+
+      <!-- CTA: Join a sprint -->
+    </div>
+  </main>
+</div>

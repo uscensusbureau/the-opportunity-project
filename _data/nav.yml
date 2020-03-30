@@ -1,30 +1,16 @@
 primary:
   - text: How to use USWDS
     href: /how-to-use-uswds/
-  - text: Principles
-    href: /design-principles/
-  - href: /components/
-  - href: /design-tokens/
+
   - href: /utilities/
   - href: /page-templates/
-  - text: About
-    href: /about/
 
 mobile:
   - href: /how-to-use-uswds/
     collapsible: true
-  - text: Principles
-    href: /design-principles/
-  - href: /components/
-    collapsible: true
-  - href: /design-tokens/
-    collapsible: true
   - href: /utilities/
     collapsible: true
   - href: /page-templates/
-  - text: About
-    href: /about/
-    collapsible: true
 
 Components:
   - text: Overview
@@ -113,7 +99,3 @@ About USWDS:
   - href: /about/updates/
   - href: /about/product-roadmap/
   - href: /about/research/
-
-Design principles:
-  - text: Design principles
-    href: /design-principles/

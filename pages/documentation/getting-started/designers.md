@@ -20,16 +20,13 @@ The site contains HTML mockups of common UI components designed to follow USWDSâ
 
 USWDS components and tokens are available as an Adobe XD components file and as a suite of Sketch files and libraries. Download the assets and all associated fonts and images from the link below. Find more complete installation instructions at [our USWDS for designers GitHub repo](https://www.github.com/uswds/uswds-for-designers):
 
-{% include download-buttons-design.html %}
 
 ### Retired design files
 USWDS no longer maintains the following design files. The most recent versions remain available for download at the links below. While USWDS is no longer maintaining these files, we'd love to hear from any teams that are using them and adding new components when new versions of USWDS are released. [Send us an email](mailto:@uswds@support.digitalgov.gov).
 
 #### 1.6.10
-{% include download-buttons-design-retired-1.6.10.html %}
 
 #### 1.0.0
-{% include download-buttons-design-retired-1.0.0.html %}
 
 ## Accessibility requirements
 

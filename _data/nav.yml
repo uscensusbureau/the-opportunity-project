@@ -2,9 +2,6 @@ primary:
   - text: How to use USWDS
     href: /how-to-use-uswds/
 
-  - href: /utilities/
-  - href: /page-templates/
-
 mobile:
   - href: /how-to-use-uswds/
     collapsible: true

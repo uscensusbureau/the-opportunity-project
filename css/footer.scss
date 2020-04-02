@@ -1,0 +1,100 @@
+.usa-footer {
+  background-color: $color-primary;
+  text-align: center;
+  padding: 20rem 0 10rem 0;
+  border-bottom: 1rem solid $color-primary;
+
+  .data-source__button {
+    background-color: transparent;
+    border: none;
+    &:hover {
+      .data-source p {
+        border-bottom-style: solid;
+      }
+    }
+  }
+  .data-source {
+
+    p {
+      font-family: $font-sans;
+      font-weight: 500;
+      color: $color-white;
+      font-size: $font-size-s;
+      line-height: 30px;
+      border-bottom: 1.5px dotted $color-secondary;
+      transition: border-bottom 400ms ease;
+    }
+  }
+}
+
+
+@keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.modal {
+  background-color: RGB($color-primary-dark-rgb, 0.9);
+  position: fixed;
+  z-index: 12;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation-name: show;
+  animation-fill-mode: forwards;
+  animation-duration: 400ms;
+  &--hidden {
+    display: none;
+  }
+  &__contents {
+    max-width: 53rem;
+    background-color: $color-primary;
+    padding: 2rem 4rem;
+    color: $color-white;
+    font-family: $font-sans;
+    h3 {
+      font-weight: 700;
+      font-size: $font-size-xl;
+      margin-bottom: 1.5rem;
+    }
+    &-p {
+      font-weight: 400;
+      font-size: $font-size-s;
+      line-height: $line-height-s;
+      a {
+        text-decoration: none;
+        font-weight: 500;
+        color: $color-white;
+        transition: font-style 400ms ease;
+        text-decoration: underline;
+        &:visited {
+          color: inherit;
+        }
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+    &-close {
+      font-size: $font-size-xxs;
+      background-color: $color-primary;
+      border: none;
+      border-bottom: 1.5px dotted $color-secondary;
+      padding: 0 0 0.4rem 0;
+      text-align: center;
+      font-weight: 700;
+      display: block;
+      margin: 3rem auto;
+      color: $color-white;
+      transition: all 400ms ease;
+      &:hover {
+        cursor: pointer;
+        border-bottom-style: solid;
+      }
+    }
+  }
+}

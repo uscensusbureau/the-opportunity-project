@@ -1,0 +1,102 @@
+.usa-hero {
+  background-image: none;
+  margin: 5rem 0;
+  padding-bottom: 0;
+  @include media-sm {
+    margin: 0rem 5rem;
+    padding-top: 3rem;
+  }
+  .grid-container {
+    border-bottom: 5px solid $color-secondary;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &__callout {
+    max-width: 60rem;
+    background-color: $color-primary;
+    padding: 2rem 0 0 0;
+      p {
+        font-family: $font-sans;
+        font-size: $font-size-m;
+        font-weight: 400;
+        line-height: 31px;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+      }
+      h6 {
+        font-family: $font-sans;
+        margin: 0;
+        font-size: $font-size-xs;
+        font-weight: 400;
+        opacity: 0.65;
+        line-height:1.8rem;
+        span {
+          font-style: italic;
+        }
+      }
+    }
+  &__heading {
+    font-size: $font-size-xxl;
+    font-family: $font-sans;
+    font-weight: 700;
+    ::after {
+      content: 'Beta';
+      text-transform: uppercase;
+      font-size: $font-size-xxs;
+      color: $color-primary-dark;
+      letter-spacing: 0.8px;
+      padding: 0.5rem;
+      background-color: $color-secondary;
+      border-radius: 4px;
+      margin-left: 1.5rem;
+      vertical-align: baseline;
+      position: relative;
+      top: -8px;
+    }
+    @include media-sm {
+      line-height: 4.7rem;
+    }
+  }
+}
+
+
+.interior-hero {
+  position: relative;
+  z-index: 5;
+  padding-top: 8rem;
+  @include media-sm {
+    padding-top: 4rem;
+  }
+  &__bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 4.5rem;
+    border-radius: 10px;
+  }
+  &__callout {
+    @extend .usa-hero__callout;
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+    background-color: transparent;
+    color: $color-white;
+    &:first-child::before {
+      content: 'Theme';
+      text-transform: uppercase;
+      font-size: $font-size-xxs;
+      color: $color-primary-dark;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      padding: 0.7rem;
+      border-radius: 4px;
+      background-color: $color-secondary;
+    }
+  }
+  &__title {
+    font-size: $font-size-xxl;
+    font-family: $font-sans;
+    font-weight: 700;
+    color: $color-white;
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,21 @@
+{% if page.title == "Home" %}
+{% assign hero = page.hero %}
+<section class="usa-hero">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+      <h2 class="usa-hero__heading"><span class="usa-hero__heading--alt">{{ hero.text}}</span>
+      </h2>
+      <h6><span>by </span>{{ hero.caption }}</h6>
+      <p>{{ hero.subtext }}</p>
+    </div>
+  </div>
+{% else %}
+<section class="interior-hero">
+  <div class="grid-container interior-hero__bg"  style="background-image: url('{{page.hero.image | prepend: site.baseurl}}');">
+    <div class="interior-hero__callout">
+      <h2 class="interior-hero__title">{{ page.hero.text}}</h2>
+      <p>{{ page.hero.subtext }}</p>
+    </div>
+  </div>
+{% endif %}
+</section>

@@ -1,11 +1,11 @@
 - title: Workforce Challenges
-  image: /assets/images/data-kits/workforce.png
+  image: /img/data-kits/workforce.png
   link: /workforce/
   description: Data on workers, businesses, jobs, credentials, and more
   upcoming: false
   datasets: 57
 
 - title: Geospatial Challenges
-  image: /assets/images/data-kits/gis.png
+  image: /img/data-kits/gis.png
   description: Geospatial data from across the federal government
   upcoming: true

@@ -6,7 +6,7 @@ hero:
   text: Workforce Challenges
   subtext: Datasets on workers, businesses, jobs, credentials, and more, recommended by government experts for solving key workforce challenges.
   tag: Theme
-  image: /assets/images/hero/workforce.png
+  image: /img/hero/workforce.png
 ---
 
 {% include hero.html %}

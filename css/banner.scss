@@ -1,0 +1,26 @@
+.usa-banner {
+  background-color: $color-primary-dark;
+  &__inner {
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 100%;
+  }
+  &__header-text {
+    font-size: $font-size-xxs;
+  }
+  &__header-flag {
+    float: left ;
+    margin-right: 8px;
+    width: 16px; }
+  }
+  @include media-sm {
+    display: block;
+    margin-right: 8px;
+    padding-top: 0;
+  }
+
+.usa-accordion {
+  color: $color-white;
+  opacity: 0.7;
+}

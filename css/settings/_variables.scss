@@ -10,8 +10,8 @@ $external-href: '[href^="http"]:not([href*=".gov"])';
 
 $z-nav-secondary: 100;
 
-// Site image path, relative to /assets/css/
-$site-image-path: '../../img';
+// Site image path, relative to css
+$site-image-path: '../img';
 
 // Custom Variables
 $media-block-header-font-size: 'md';

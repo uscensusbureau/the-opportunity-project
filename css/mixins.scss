@@ -1,0 +1,28 @@
+@mixin fontFace($family,$src,$style: normal,$weight: normal) {
+	@font-face {
+		font-family: $family;
+		src: url('#{$src}.eot'), // IE9 compat
+			   url('#{$src}.woff') format('woff'), // standards
+			   url('#{$src}.ttf') format('truetype'), // Safari, Android, iOS
+         url('#{$src}.woff2') format('woff2'); // Modern browsers
+
+		font-style: $style;
+		font-weight: $weight;
+	}
+}
+
+@mixin borderBottomOpacity($color, $opacity, $px: 2px) {
+	border-bottom: $px solid RGB($color, $opacity);
+}
+
+@mixin borderOpacity($color, $opacity, $px: 3px) {
+	border: $px solid RGB($color, $opacity);
+}
+
+@mixin divOpacity($color, $opacity) {
+	background: RGB($color, $opacity);
+}
+
+@mixin media-sm {
+	@media (max-width: $large-screen) { @content; }
+}

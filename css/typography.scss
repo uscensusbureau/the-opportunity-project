@@ -1,0 +1,34 @@
+// Import silka font
+$path-to-fonts: '../fonts';
+// Regular
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-black', normal, 800);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-bold', normal, 700);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-semibold', normal, 600);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-medium', normal, 500);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-regular', normal, 400);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-light', normal, 300);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-extralight', normal, 200);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/roman/silka-thin', normal, 100);
+
+// Italic
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-black-italic', italic, 800);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-bold-italic', italic, 700);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-semibold-italic', italic, 600);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-medium-italic', italic, 500);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-regular-italic', italic, 400);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-light-italic', italic, 300);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-extralight-italic', italic, 200);
+@include fontFace('Silka', '#{$path-to-fonts}/silka/italic/silka-thin-italic', italic, 100);
+
+
+// Setting responsive rem type
+html {
+  font-size: 10px;
+  font-family: $font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  @include media-sm {
+    font-size: 9px;
+  }
+}

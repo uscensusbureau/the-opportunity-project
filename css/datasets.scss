@@ -1,0 +1,260 @@
+@keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.topics {
+  background-color: $color-primary;
+  position: relative;
+  top: -10rem;
+  margin-bottom: -13.2rem;
+  &__container {
+    padding-top: 10rem;
+  }
+  &__row {
+    margin: 3rem auto;
+    padding-bottom: 3rem;
+    border-bottom: 5px solid $color-secondary;
+  }
+  &__card {
+    background-color: $color-primary-light;
+    padding: 2.5rem 2rem;
+    border-radius: 4px;
+    margin-right: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid $color-primary-light;
+    transition: border 400ms ease;
+    @include media-sm {
+      width: 80%;
+      margin: 1rem auto;
+    }
+    p {
+      font-family: $font-sans;
+      font-size: $font-size-s;
+      font-weight: 500;
+      color: $color-white;
+      line-height: $line-height-m;
+    }
+    &:hover {
+      cursor: pointer;
+      border: 1.5px solid $color-secondary;
+    }
+    &--active {
+      border: 1.5px solid $color-secondary;
+    }
+  }
+}
+
+.challenge {
+    background-color: $color-primary;
+    margin-bottom: -0.2rem;
+    &__container {
+      padding: 3.5rem 0;
+      display: none;
+      @include media-sm {
+        width: 80%;
+        margin: auto;
+      }
+      &--show {
+        display: block;
+        opacity: 0;
+        animation-name: show;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+      }
+    }
+    &__image {
+      display: inline-block;
+      max-height: 165px;
+      border-radius: 4px;
+    }
+    &__text {
+      display: inline-block;
+      color: $color-white;
+      font-family: $font-sans;
+      vertical-align: top;
+      margin-left: 3rem;
+      @include media-sm {
+        vertical-align: bottom;
+      }
+      &-caption {
+        font-size: $font-size-xxs;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $color-secondary;
+        font-weight: 700;
+        margin: 0;
+      }
+      &-title {
+        font-size: $font-size-xxs*2;
+        font-weight: 700;
+        margin: 1rem 0;
+      }
+      &-description {
+        font-size: $font-size-s;
+        font-weight: 400;
+        margin: 0;
+        line-height: $line-height-l;
+        @include media-sm {
+          display: none;
+        }
+      }
+      &-link {
+        font-size: $font-size-s;
+        font-weight: 400;
+        transition: all 400ms ease;
+        a {
+          color: $color-white;
+          -webkit-text-decoration: $color-secondary dotted underline;
+          text-decoration: $color-secondary dotted underline;
+          -webkit-text-underline-position: under;
+          text-underline-position: under;
+
+          &:hover {
+            text-decoration-style: solid;
+          }
+        }
+      }
+    }
+    &__text-description-mobile {
+      display: none;
+      font-family: $font-sans;
+      font-size: $font-size-s;
+      font-weight: 400;
+      color: $color-white;
+      margin: 0;
+      line-height: $line-height-l;
+      @include media-sm {
+        display: block;
+        margin-top: 2rem;
+      }
+    }
+    &__text-link-mobile {
+      display: none;
+      font-size: $font-size-s;
+      font-weight: 400;
+      transition: all 400ms ease;
+      a {
+        color: $color-white;
+        -webkit-text-decoration: $color-secondary dotted underline;
+        text-decoration: $color-secondary dotted underline;
+        -webkit-text-underline-position: under;
+        text-underline-position: under;
+      }
+      @include media-sm {
+        display: block;
+      }
+    }
+}
+
+.datasets {
+  background-color: $color-primary;
+  margin-bottom: -1rem;
+  &__container {
+    padding: 2rem 0.5rem;
+  }
+  &__row {
+    justify-content: center;
+  }
+  &__card {
+    display: none;
+    position: relative;
+    margin: 1.5rem;
+    width: 30%;
+    padding: 2.5rem;
+    background-color: $color-primary-medium;
+    border-radius: 10px;
+    border: 2px solid $color-primary-medium;
+    color: $color-white;
+    font-family: $font-sans;
+    transition: border 400ms ease;
+    @include media-sm {
+      width: 80%;
+    }
+    &-link {
+      text-decoration: none;
+      color: $color-white;
+    }
+    &-title {
+      font-size: $font-size-s;
+      font-weight: 600;
+      line-height: $line-height-s;
+      margin-bottom: 0.8rem;
+    }
+    &-subtitle {
+      margin: 0;
+      font-size: $font-size-xs;
+      font-weight: 400;
+      opacity: 0.65;
+      line-height:1.8rem;
+      span {
+        font-style: italic;
+      }
+    }
+    &-description {
+      font-size: 1.4rem;
+      line-height: $line-height-s;
+      opacity: 0.9;
+    }
+    &-arrow {
+      opacity: 0;
+      float: right;
+      position: relative;
+      top: -1rem;
+      right: -1rem;
+      transition: opacity 400ms ease;
+      @include media-sm {
+        opacity: 1;
+      }
+    }
+    &-email {
+      opacity: 0;
+      transition: all 400ms ease;
+      background-color: $color-white;
+      border-radius: 4px;
+      width: 9.5rem;
+      position: absolute;
+      padding: 0.8rem;
+      text-align: right;
+      right: 2rem;
+      bottom: -1rem;
+      font-size: $font-size-xs;
+      color: $color-primary-dark;
+      font-weight: 500;
+      @include media-sm {
+        opacity: 1;
+      }
+      &::before {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 13px;
+        float: left;
+        background-image: url('../images/icons/email.svg');
+        background-repeat: no-repeat;
+        margin-top: 1px;
+      }
+    }
+
+    &--show {
+      display: block;
+      opacity: 0;
+      animation-name: show;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+    }
+
+    &:hover {
+      border: 2px solid $color-secondary;
+      .datasets__card-arrow {
+        opacity: 1;
+      }
+      .datasets__card-email {
+        opacity: 1;
+      }
+    }
+  }
+}

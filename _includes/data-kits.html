@@ -1,9 +1,9 @@
 {% assign data-kits = site.data.data-kits %}
 
 <div class="data-kit grid-container">
-  <div class="grid-row grid-gap-lg">
+  <div class="grid-row">
     {% for kit in data-kits limit:3 %}
-    <div class="tablet:grid-col data-kit__container">
+    <div class="data-kit__container">
       <a class="data-kit__button" href="{{site.baseurl}}{{kit.link}}">
         {% if kit.upcoming %}
         <div class="data-kit__card" style="background-image: url('{{ kit.image | relative_url }}')">

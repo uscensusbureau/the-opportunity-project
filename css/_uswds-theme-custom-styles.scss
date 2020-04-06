@@ -74,6 +74,7 @@ $site-primary-vivid: "#{$site-primary-family}-50v";
 $site-primary-dark: "#{$site-primary-family}-70";
 $site-primary-darker: "#{$site-primary-family}-80";
 $site-ink: "black-transparent-80";
+$site-ink-alt: "white";
 
 $site-border-width: 2px;
 $site-base-transparent-light: "black-transparent-10";
@@ -81,6 +82,10 @@ $site-background-color: "gray-1";
 
 .default-container {
   @include u-bg($site-background-color);
+}
+
+.alt-container {
+  @include u-bg($theme-color-base);
 }
 
 html,
@@ -504,6 +509,218 @@ body {
     margin-top: units(1.5);
   }
 }
+
+.interior-hero {
+  color: #ffffff;
+  position: relative;
+  z-index: 5;
+
+  &__bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 4.5rem;
+    border-radius: 10px;
+  }
+  &__callout {
+    color: #ffffff;
+  }
+  &__heading {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+}
+
+// Datakit hub //
+
+.data-kit {
+  background-color: #004280;
+  .data-kit__grid-container {
+    position: relative;
+
+    a {
+      .data-kit__card {
+        width: 90%;
+        position: relative;
+        height: 35rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: white;
+        z-index: 2;
+        padding: 9rem 3.5rem 3.5rem 3.5rem;
+        border-radius: 10px;
+        cursor: default;
+
+        h2 {
+          margin-top: 0;
+          margin-bottom: 0;
+          font-family: $theme-font-type-sans;
+          font-size: $theme-type-scale-xl;
+          font-weight: 700;
+          line-height: units(5);
+          color: #ffffff;
+        }
+        p {
+          font-family: $theme-font-type-sans;
+          font-size: $theme-type-scale-sm;
+          color: #ffffff;
+          line-height: units(3);
+          margin-bottom: 2rem;
+        }
+        .data-kit__arrow {
+          float: right;
+          transition: all 500ms ease;
+        }
+        h2,
+        p,
+        .data-kit__arrow {
+          position: relative;
+          z-index: 10;
+        }
+        &::after {
+          transition: opacity 400ms ease;
+          content: " ";
+          z-index: 5;
+          display: block;
+          position: absolute;
+          height: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          border-radius: 10px;
+          background: RGB(19, 25, 47, 0.6);
+        }
+      }
+    }
+
+    .data-kit__active {
+      transition: transform 400ms ease;
+      cursor: pointer;
+      &:hover {
+        transform: translate(-5px, -10px);
+        .data-kit__arrow {
+          animation: bounce 2s infinite;
+        }
+        &::after {
+          opacity: 0.65;
+        }
+      }
+    }
+
+    .data-kit__bg {
+      height: 40rem;
+      width: 90%;
+      background-color: $theme-color-primary;
+      position: absolute;
+      z-index: 1;
+      border-radius: 10px;
+      top: 1.5rem;
+      left: 1.5rem;
+
+    }
+    .data-kit__upcoming {
+      text-transform: uppercase;
+      font-size: $theme-type-scale-2xs;
+      color: $theme-color-primary-dark;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      padding: 1rem 1.2rem;
+      background-color: $theme-color-secondary;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+    }
+    .data-kit__stats {
+      color: $theme-color-primary-dark;
+      font-weight: 500;
+      letter-spacing: 0.8px;
+      padding: 1rem 1.2rem;
+      background-color: #ffffff;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      .data-kit__icon-items {
+        display: inline-block;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+      }
+      p {
+        display: inline-block;
+        margin: 0;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+.data-kit__button {
+  text-decoration: none;
+}
+
+.data-kit__suggest {
+  transition: all 400ms ease;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 12em 0;
+
+  .data-kit__icon-suggestion {
+    opacity: 0.8;
+  }
+  p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: $theme-type-scale-lg;
+    opacity: 0.8;
+  }
+
+  &:hover {
+    .data-kit__icon-suggestion,
+    p {
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(2px);
+  }
+}
+
+    .usa-banner__content{
+      display: hidden;
+    }
+
+/* Re-style usa banner */
+
+.usa-accordion {
+  margin: 0;
+  list-style-type: none;
+  background-color: #13192F;
+  color: #ffffff;
+  opacity: .75;
+  padding: 4px 0;
+  width: 100%;
+  }
+
+.usa-banner__header-text {
+  font-size: 11px;
+  font-weight: 500;
+}
+
 
 // Styleguide Content -------- //
 

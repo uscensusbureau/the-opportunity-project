@@ -22,21 +22,11 @@ layout: default
   <!-- create a multi-select dropdown (confirm this should be a multi-select); don't auto-update! (accessibility) -->
     <!-- on submit, what is the field value? -->
   <section class="usa-section usa-graphic-list grid-container">
-    <input type="text" id="productSearch" onkeyup="filterProducts()" title="Search for a product" label="Search for a product created through The Opportunity Project">
-    <script>
-    function filterProducts() {
-        var input, filter, ul, li, a, i, txtValue;
-        input = document.getElementById("productSearch");
-        filter = input.value.toUpperCase();
-        products = document.getElementsByName("productCard");
-        for (i = 0; i < products.length; i++) {
-            name = products[i].getElementsByTagName("h2")[0].innerText
-            if (name.includes(filter)) {
-              console.log("name includes:", name)
-            }
-        }
-    }
-    </script>
+    <!-- <form action="filterProducts()">
+      <label for="searchField">Search for a product created through The Opportunity Project:</label>
+      <input type="text" id="searchField" name="search" value="">
+      <input type="submit" value="Search Products">
+    </form> -->
     <div class="">
       <div class="grid-row grid-gap">
         {% assign products = site.data.products %}
@@ -44,19 +34,18 @@ layout: default
           <div
            class="desktop:grid-col-3 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
           >
-            <img
-              class="usa-media-block__img"
-              src="{{ list_item.image.src | relative_url }}"
-              alt="{{ list_item.image.alt }}"
-            />
             <div name="productCard" class="usa-media-block__body">
-
-                <h2>{{ product.product_name }}</h2>
-                <h3>{{ product.tech_team}}</h3>
-                <span class="usa-tag">{{ product.cohort}}</span>
-                <p>
-                  {{ product.description_new }}
-                </p>
+              <h3><a href="{{product.link}}">{{ product.product_name }}</a></h3>
+              <p><b>by {{ product.tech_team}}</b></p>
+              <span class="usa-tag">{{ product.cohort}}</span>
+              <!-- <p>
+                {{ product.description_new }}
+              </p> -->
+              <img
+                class="usa-media-block__img"
+                src="{{ site.baseurl }}/img/products/test.png"
+                alt="screenshot of City Builder website"
+              />
             </div>
           </div>
         {% endfor %}

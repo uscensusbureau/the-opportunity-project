@@ -5,6 +5,13 @@ layout: case-study
 product: Job Opportunity Tool
 tech_team: Redfin
 lead: Helps job seekers better understand opportunities and tradeoffs when deciding where to live
+sidebar:
+  cohort: 2019 Workforce
+  problem_statement: Modernizing Talent Discovery for High Growth Entrepreneurship
+  agency: U.S. Economic Development Administration (EDA)
+  target_audience: Startups, People relocating for work
+  open_data: "Wages by Occupation - U.S. Bureau of Labor Statistics; Location-specific Housing, Urban and Employment data - U.S. Department of Housing and Urban Development"
+  how_top_helped: "Within the structured and highly engaged TOP process, the team at Redfin successfully launched a product that had been on the backlog for months."       
 ---
 
 ### Transforming Talent Discovery in Mid-Size American Cities

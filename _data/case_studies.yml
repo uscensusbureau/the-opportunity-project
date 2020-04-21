@@ -1,4 +1,5 @@
 - product_name: iCASA
+  short_url: icasa
   tech_team: iCASA PR
   cohort: Geocohort
   problem_statement:
@@ -21,6 +22,7 @@
   product_advisors: nil
   participants: nil
 - product_name: Job Opportunity Tool
+  short_url: job-opportunity-tool
   tech_team: Redfin
   cohort: Workforce
   problem_statement: Talent Discovery
@@ -45,6 +47,7 @@
   open_data: "Wages by Occupation - U.S. Bureau of Labor Statistics; Location-specific Housing, Urban and Employment data - U.S. Department of Housing and Urban Development"
   how_top_helped: "Within the structured and highly engaged TOP process, the team at Redfin successfully launched a product that had been on the backlog for months."
 - product_name: Sille
+  short_url: sille
   tech_team: Datel Ovela
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters

@@ -1,0 +1,70 @@
+- product_name: iCASA
+  short_url: icasa
+  tech_team: iCASA PR
+  cohort: Geocohort
+  problem_statement:
+    "Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"
+  link: 'https://www.zipdatum.com/prcivicaddress/'
+  description_new:
+    Helps the municipalities and communities in Puerto Rico enhance their
+    address infrastructure to support the reconstruction process, improve
+    emergency response and foster a more resilient future
+  data_sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
+  prize_status: Winner
+  category: addressing
+  description_old:
+    ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service,
+    and the National Address Database (NAD) schema to help the municipalities
+    and communities in Puerto Rico enhance their address infrastructure to
+    support the reconstruction process, improve emergency response and foster a
+    more resilient future.
+  product_advisors: nil
+  participants: nil
+- product_name: Job Opportunity Tool
+  short_url: job-opportunity-tool
+  tech_team: Redfin
+  cohort: Workforce
+  problem_statement: Talent Discovery
+  link: 'https://www.redfin.com/blog/job-opportunity-tool/'
+  description_new:
+    Helps Redfin’s millions of users better understand the opportunities and
+    tradeoffs in terms of housing, employment and other factors when looking to
+    relocate for work or find workers for startups
+  data_sets: 'Bureau of Labor Statistics '
+  prize_status: nil
+  category: employment
+  description_old:
+    Redfin's job opportunity tool uses datasets on employment clusters, pay
+    ranges, housing costs, and more to help better inform Redfin’s millions of
+    users looking to relocate for work or even startups looking to find workers.
+  product_advisors: nil
+  participants: nil
+  problem_statement: Modernizing Talent Discovery for High Growth Entrepreneurship
+  year: 2019
+  agency: U.S. Economic Development Administration (EDA)
+  target_audience: Startups, People relocating for work
+  open_data: "Wages by Occupation - U.S. Bureau of Labor Statistics; Location-specific Housing, Urban and Employment data - U.S. Department of Housing and Urban Development"
+  how_top_helped: "Within the structured and highly engaged TOP process, the team at Redfin successfully launched a product that had been on the backlog for months."
+- product_name: Sille
+  short_url: sille
+  tech_team: Datel Ovela
+  cohort: Geocohort
+  problem_statement: Using Geospatial Data to Help People Prepare for Disasters
+  link: 'https://sille.space/app_fema/'
+  description_new:
+    'Block level structural risk product that encourages local stakeholders to
+    prepare for crisis through increased awareness of the likelihood of
+    catastrophic failure of their structures in a disaster. Public access using
+    login: fema@sille.space, password: Planahead2019'
+  data_sets: 'ensus block data; Open EU Sentinel 1 InSAR '
+  prize_status: nil
+  category: disasters
+  description_old:
+    'Datel Ovela’s tool uses census block data with open EU sentinel 1 InSAR to
+    build a block level structural risk product that encourages local
+    stakeholders to prepare for crisis through increased awareness of the
+    likelihood of catastrophic failure of their structures in a disaster. Public
+    access using login: fema@sille.space, password: Planahead2019'
+  product_advisors: nil
+  participants: nil

@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<main id="main-content">
+  <section>
+    <div class="grid-container">
+      <div class="maxw-mobile-lg">
+        <h1
+          class="hero--heading margin-y-10 line-height-sans-3 text-thin font-lang-13"
+        >
+          {{ page.lead }}
+        </h1>
+      </div>
+    </div>
+  </section>
+  <!-- time for some javascript! -->
+  <!-- default display all cards -->
+  <!-- add a text input field (clearly labeled) -->
+  <!-- if the name, cohort, or tech team contains the values in the field, display it -->
+  <!-- for the filters: first standardize the topics (maybe convert to arrays?), sponsors, and add separate "year" value outside of the cohort -->
+  <!-- create a multi-select dropdown (confirm this should be a multi-select); don't auto-update! (accessibility) -->
+    <!-- on submit, what is the field value? -->
+  <section class="usa-section usa-graphic-list grid-container">
+    <div class="grid-row grid-gap">
+      {% assign case_studies = site.data.case_studies %}
+      {% for case in case_studies %}
+        <div
+         class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+        >
+          <div name="productCard" class="usa-media-block__body">
+            <img
+              class="usa-media-block__img"
+              src="{{ site.baseurl }}/img/products/test.png"
+              alt="screenshot of City Builder website"
+            />
+            <h3><a href="{{site.baseurl}}/case-studies/{{case.short_url}}">{{ case.product_name }}</a></h3>
+            <p><b>by {{ case.tech_team}}</b></p>
+            <span class="usa-tag">{{ case.cohort}}</span>
+            <p>
+              {{ case.description_new }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <!-- <form action="filterProducts()">
+      <label for="searchField">Search for a product created through The Opportunity Project:</label>
+      <input type="text" id="searchField" name="search" value="">
+      <input type="submit" value="Search Products">
+    </form> -->
+    <hr>
+    <p> PLACEHOLDER SEARCH</p>
+    <p> PLACEHOLDER FILTER</p>
+
+    <hr>
+    <div class="grid-row grid-gap">
+      {% assign products = site.data.products %}
+      {% for product in products %}
+        <div
+         class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+        >
+          <div name="productCard" class="usa-media-block__body">
+            <h3><a href="{{product.link}}">{{ product.product_name }}</a></h3>
+            <p><b>by {{ product.tech_team}}</b></p>
+            <span class="usa-tag">{{ product.cohort}}</span>
+            <!-- <p>
+              {{ product.description_new }}
+            </p> -->
+            <img
+              class="usa-media-block__img"
+              src="{{ site.baseurl }}/img/products/test.png"
+              alt="screenshot of City Builder website"
+            />
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+
+{{ content }}

@@ -4,7 +4,7 @@ permalink: /case-studies/sille
 layout: case-study
 product: Sille
 tech_team: Data Ovela
-lead: Helps job seekers better understand opportunities and tradeoffs when deciding where to live
+lead: Block level structural risk product that encourages local stakeholders to prepare for crisis through increased awareness of the likelihood of catastrophic failure of their structures in a disaster
 sidebar:
   cohort: 2018 Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters

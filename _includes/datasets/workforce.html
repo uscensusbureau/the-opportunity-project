@@ -1,0 +1,66 @@
+{% assign datasets = site.data.workforce %}
+{% assign topics = site.data.workforce-topics %}
+
+<div class="topics">
+  <div id="topics" class="topics__container grid-container">
+    <div class="topics__row grid-row">
+      {% for topic in topics %}
+      {% if topic.filter == "all" %}
+        <div class="topics__card grid-col-auto topics__card--active" onclick="filterSelection('{{topic.filter}}')">
+      {% else %}
+        <div class="topics__card grid-col-auto" onclick="filterSelection('{{topic.filter}}')">
+      {% endif %}
+          <p>{{topic.name}}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% for topic in topics %}
+{% if topic.filter == "all" %}
+{% else %}
+<div class="challenge">
+  <div class="grid-container">
+    <div class="challenge__container {{topic.filter}} grid-row">
+      <div class="challenge__image grid-col-4 tablet:grid-col-2">
+          <img class="" src="{{site.baseurl}}/img/challenges/{{topic.image}}" alt="{{topic.title}}">
+      </div>
+      <div class="challenge__text grid-col-5">
+        <p class="challenge__text-caption">Challenge</p>
+        <h3 class="challenge__text-title">{{topic.title}}</h3>
+        <p class="challenge__text-description">{{topic.description}} <span class="challenge__text-link"><a href="https://opportunity.census.gov/data/2019_workforce_problem_statements.pdf" target="_blank">Learn more</a></span></p>
+      </div>
+      <p class="challenge__text-description-mobile">{{topic.description}} <span class="challenge__text-link-mobile"><a href="https://opportunity.census.gov/data/2019_workforce_problem_statements.pdf" target="_blank">Learn more</a></span></p>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<div class="datasets">
+  <div id="data-to-filter" class="datasets__container grid-container">
+    <input type="text" id="myInput" onkeyup="searchDatasets()" placeholder="Type some keywords">
+    <div class="datasets__row grid-row">
+      {% for data in datasets %}
+      <div class="datasets__card grid-col-12 tablet:grid-col-4 {{data.problem-statement}} ">
+        <a class="datasets__card-link" href="{{data.link}}" target="_blank">
+        <div class="datasets__card-arrow">
+          <img src="{{site.baseurl}}/img/icons/arrow-tab.svg" alt="Arrow Icon">
+        </div>
+        <h3 class="datasets__card-title">{{data.name}}</h3>
+        <p class="datasets__card-subtitle"><span>by </span>{{data.agency}}</p>
+        <p class="datasets__card-description">{{data.description}}</p>
+        {% if data.poc %}
+        <a href="mailto:{{data.email}}?subject=Inquiry:%20{{data.name}}&body=Hi%20{{data.poc}},">
+          <div class="datasets__card-email">
+            Contact
+          </div>
+        </a>
+        {% endif %}
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

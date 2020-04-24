@@ -1,14 +1,9 @@
 # Site settings
-title: U.S. Web Design System (USWDS)
+title: The Opportunity Project
 description: USWDS makes it easier to build accessible, mobile-friendly government websites for the American public.
 google_analytics_ua: UA-48605964-43
-components_url: "https://components.designsystem.digital.gov"
-components_url_v2_preview: "https://federalist-3b6ba08e-0df4-44c9-ac73-6fc193b0e19c.app.cloud.gov/preview/uswds/uswds/release-2.6.0/components/preview"
 meta:
   og:image: /img/uswds-logo/lg-black.png
-
-# this is for pages that don't have a permalink (primarily posts)
-permalink: /whats-new/updates/:year/:month/:day/:title/
 
 # this ensure that posts with future dates are published
 future: true
@@ -23,26 +18,6 @@ incremental_regeneration_fixer:
 jekyll_get:
   - data: releases
     json: "https://api.github.com/repos/uswds/uswds/releases"
-  - data: contributing
-    json: "https://api.github.com/repos/uswds/uswds/contents/CONTRIBUTING.md"
-    decode_content: true
-  - data: install-readme
-    json: "https://api.github.com/repos/uswds/uswds/contents/README.md?ref=develop"
-    decode_content: true
-  - data: standards-sites
-    json: "https://api.github.com/repos/uswds/uswds/contents/docs/WHO_IS_USING_USWDS.md"
-    decode_content: true
-
-repos:
-  - name: USWDS
-    description: Main repository for the U.S. Web Design System package
-    url: https://github.com/uswds/uswds
-  - name: USWDS site
-    description: USWDS website
-    url: https://github.com/uswds/uswds-site
-  - name: USWDS for designers
-    description: USWDS visual design assets
-    url: https://github.com/uswds/uswds-for-designers
 
 collections:
   components:

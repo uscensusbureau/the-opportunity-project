@@ -6,9 +6,26 @@ primary:
   - text: Showcase
     href: /showcase/
   - text: Curated Datasets
-    href: curated-datasets
+    href: /curated-datasets/
   - text: Get Involved
-    href: get-involved
+    href: /get-involved/
+    accordion:
+      - text: Join a Sprint
+        href: /join-a-sprint/  
+
+mobile:
+  - text: Home
+    href: /
+  - text: About
+    href: /about/
+  - text: Our Process
+    href: /our-process/
+  - text: Showcase
+    href: /showcase/
+  - text: Curated Datasets
+    href: /curated-datasets/
+  - text: Get Involved
+    href: /get-involved/
 
 Problem statement:
   - text: Challenge

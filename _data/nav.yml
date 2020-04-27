@@ -6,12 +6,12 @@ primary:
   - text: Showcase
     href: /showcase/
   - text: Curated Datasets
-    href: /curated-datasets/
+    href: /data-kit/
   - text: Get Involved
-    href: /get-involved/
+    href: /get-involved
     accordion:
       - text: Join a Sprint
-        href: /join-a-sprint/  
+        href: join-a-sprint/
 
 mobile:
   - text: Home

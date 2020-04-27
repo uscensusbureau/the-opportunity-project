@@ -1,10 +1,7 @@
 ---
 permalink: /
-redirect_from:
-  - /getting-started/
-
 layout: landing
-title: "USWDS: The United States Web Design System"
+title: "The Opportunity Project"
 class: home
 hero:
   callout: A design system for the federal government

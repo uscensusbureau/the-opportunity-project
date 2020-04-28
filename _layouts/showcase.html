@@ -44,23 +44,20 @@ layout: default
         </div>
       {% endfor %}
     </div>
-    <!-- <form action="filterProducts()">
+    <hr>
+    <form id="showcase-search-form">
       <label for="searchField">Search for a product created through The Opportunity Project:</label>
-      <input type="text" id="searchField" name="search" value="">
+      <input type="text" id="searchField" name="search">
       <input type="submit" value="Search Products">
-    </form> -->
+    </form>
     <hr>
-    <p> PLACEHOLDER SEARCH</p>
-    <p> PLACEHOLDER FILTER</p>
-
-    <hr>
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap" id="product-grid">
       {% assign products = site.data.products %}
       {% for product in products %}
-        <div
+        <div name="productCard"
          class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
         >
-          <div name="productCard" class="usa-media-block__body">
+          <div class="usa-media-block__body">
             <h3><a href="{{product.link}}">{{ product.product_name }}</a></h3>
             <p><b>by {{ product.tech_team}}</b></p>
             <span class="usa-tag">{{ product.cohort}}</span>

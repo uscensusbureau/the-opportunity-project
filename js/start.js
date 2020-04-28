@@ -3,6 +3,7 @@
 require('./form-disable');
 require('./scroll-to-top-for-hash');
 require('./sidenav');
+require('./filter-cards');
 require('./vendor/stickyfill.min.js');
 
 

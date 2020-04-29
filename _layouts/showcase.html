@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <main id="main-content">
   <section>
     <div class="grid-container">
@@ -75,5 +74,44 @@ layout: default
     </div>
   </section>
 </main>
+
+
+<script>
+  console.log("connected!")
+  var showcaseSearchForm = document.getElementById('showcase-search-form');
+  console.log(showcaseSearchForm);
+  showcaseSearchForm.addEventListener('submit', function (event) {
+    console.log("searching");
+    event.preventDefault();
+    var input, filter, i, filteredProducts, productGrid;
+    input = document.getElementById('searchField');
+    filter = input.value.toLowerCase();
+    products = {{site.data.products | jsonify}};
+    console.log("products", products)
+    productGrid = document.getElementById('product-grid');
+    filteredProducts = [];
+    for (i = 0; i < products.length; i++) {
+      productName = products[ i ].product_name.toLowerCase();
+      if (productName.includes(filter)) {
+        filteredProducts.push("".concat(
+        '<div name="productCard" class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"><div class="usa-media-block__body"><h3><a href="'
+          + products[i].link +
+          '">'
+          + products[i].product_name +
+          '</a></h3><p><b>by '
+          +  products[i].tech_team +
+          '</b></p><span class="usa-tag">'
+          +  products[i].cohort +
+          '</span><img class="usa-media-block__img" src="{{ site.baseurl }}/img/products/test.png" alt="screenshot of City Builder website"/></div></div>'
+        ));
+      }
+    }
+    newHtml = filteredProducts.join('');
+    productGrid.innerHTML = newHtml;
+    input.value = '';
+  }
+  );
+
+</script>
 
 {{ content }}

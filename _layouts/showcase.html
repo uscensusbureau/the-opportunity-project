@@ -81,13 +81,11 @@ layout: default
   var showcaseSearchForm = document.getElementById('showcase-search-form');
   console.log(showcaseSearchForm);
   showcaseSearchForm.addEventListener('submit', function (event) {
-    console.log("searching");
     event.preventDefault();
     var input, filter, i, filteredProducts, productGrid;
     input = document.getElementById('searchField');
     filter = input.value.toLowerCase();
     products = {{site.data.products | jsonify}};
-    console.log("products", products)
     productGrid = document.getElementById('product-grid');
     filteredProducts = [];
     for (i = 0; i < products.length; i++) {

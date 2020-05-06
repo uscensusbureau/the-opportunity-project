@@ -15,7 +15,7 @@
     communicate needs to their care team in real time, identifying high-risk
     veterans for suicide, homelessness and substance use for improved follow-up,
     transparency, and accountability.
-  - product_name: PAIRIN Pathways
+- product_name: PAIRIN Pathways
   tech_team: Pairin
   cohort: 2017 - ED/HUD/VA
   problem_statement: Veterans Homelessness and Employment
@@ -32,7 +32,7 @@
     and more to help veterans translate their developed skills into private
     sector careers and connect them to the education, soft skills development,
     and employers that can ensure their success.
-  - product_name: MySpot
+- product_name: MySpot
   tech_team: Excella
   cohort: 2017 - ED/HUD/VA
   problem_statement: Youth Homelessness
@@ -47,7 +47,7 @@
     Excella Consulting's tool uses data_sets from the DC Department of Human
     Services to help youth experiencing homelessness find and access services in
     the Washington, DC area.
-  - product_name: My City Data Learning Tool
+- product_name: My City Data Learning Tool
   tech_team: Cisco
   cohort: 2017 - Census/OMB/Treasury
   problem_statement: Engaging communities in the Census
@@ -64,7 +64,7 @@
     Bureau to drive awareness of Census Bureau data for mobile millennials and
     application developers so they can solve social problems using open data
     available for their communities and cities.
-  - product_name: Bayes BD
+- product_name: Bayes BD
   tech_team: MIT
   cohort: 2017 - Census/OMB/Treasury
   problem_statement: Engaging communities in the Census
@@ -83,7 +83,7 @@
     journalists, philanthropists, public servants, and policy advocates to
     search Census Bureau, FBI, and CDC public data on demographics, criminal
     justice, public health, and elections.
-  - product_name: Grants Intelligence
+- product_name: Grants Intelligence
   tech_team: eCivis
   cohort: 2017 - Census/OMB/Treasury
   problem_statement: Making federal grants data user-friendly for local leaders
@@ -101,7 +101,7 @@
     Federal Domestic Assistance data to help local, state, federal, and tribal
     governments navigate federal grants and maximize the return on investment of
     federal grant dollars.
-  - product_name: Social Impact Reporting Platform
+- product_name: Social Impact Reporting Platform
   tech_team: True Impact
   cohort: 2017 - Census/OMB/Treasury
   problem_statement: Making federal grants data user-friendly for local leaders
@@ -116,7 +116,7 @@
     True Impact used federal data to enhance its Social Impact Reporting
     Platform, enabling users to automatically query the federal grants.gov
     database to find funding opportunities they may qualify for.
-  - product_name: PopCount
+- product_name: PopCount
   tech_team: IBM
   cohort: 2017 - Census/OMB/Treasury
   problem_statement: Engaging communities in the Census
@@ -132,7 +132,7 @@
     IBM's tool is an iOS application to support the logistical planning,
     coordination, execution, and data collection effort undertaken by Census
     Bureau employees conducting the homeless count.
-  - product_name: Data2Go for Census Outreach
+- product_name: Data2Go for Census Outreach
   tech_team: Measure of America
   cohort: 2017 - Census/OMB/Treasury
   problem_statement: Engaging communities in the Census
@@ -150,7 +150,7 @@
     that can help with decennial Census outreach in NYC communities by answering
     questions like 'What happens with Census data?' and 'Why does the Census
     matter to me?'
-  - product_name: Career Nav
+- product_name: Career Nav
   tech_team: Shift.org
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
@@ -166,7 +166,7 @@
     Database and Bureau of Labor Statistics to help veterans translate their
     skills and visualize career and educational steps toward reaching their
     dream jobs in desired locations.
-  - product_name: Grants Impact and Story Tool
+- product_name: Grants Impact and Story Tool
   tech_team: REI
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Improving Access to and Management of Federal Grants
@@ -186,7 +186,7 @@
     Education to visually showcase how federal grants spending leads to desired
     performance outcomes, enhancing federal accountability and transparency for
     the American public.
-  - product_name: Watson Employment Manager
+- product_name: Watson Employment Manager
   tech_team: IBM
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
@@ -205,7 +205,7 @@
     center, Walkingscore.com, and Google maps data to provide career
     recommendations on potential job/apprenticeship matches based on conceptual
     search and training recommendations, and skill gap analysis.
-  - product_name: Grants Intelligence
+- product_name: Grants Intelligence
   tech_team: eCivis
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Improving Access to and Management of Federal Grants
@@ -225,7 +225,7 @@
     stats and related funding data easily accessible for grants professionals,
     researchers, government finance professionals, and citizens interested in
     transparency and accountability.
-  - product_name: Socrata Citizen Education Data Cloud
+- product_name: Socrata Citizen Education Data Cloud
   tech_team: Socrata
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Helping States Develop Education Report Cards
@@ -246,7 +246,7 @@
     disparate, nonstandardized data, to provide nationwide analysis of metrics
     for federal and state decision-makers to support the Every Student Succeeds
     Act (ESSA).
-  - product_name: Veteran Apprenticeship Matcher
+- product_name: Veteran Apprenticeship Matcher
   tech_team: Civis Analytics
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
@@ -265,7 +265,7 @@
     data and Natural Language Processing to show veterans the most relevant
     registered apprenticeships based on their declared skills, interests, and
     military history.
-  - product_name: Nepris Industry Connections
+- product_name: Nepris Industry Connections
   tech_team: Nepris
   cohort: 2018 - ED/DOL/OMB/Treasury
   problem_statement: Promoting Access to and Interest in STEM Fields
@@ -283,7 +283,7 @@
     provide learners and job seekers opportunity for career exploration and
     exposure. Content is organized into the Department of Education’s 16 career
     clusters.
-  - product_name: Census Intelligence Center
+- product_name: Census Intelligence Center
   tech_team: Civis Analytics
   cohort: 2020 Census
   problem_statement: Reaching Hard-to-Count Communities
@@ -301,7 +301,7 @@
     and Census Barriers, Attitudes, and Motivators studies with Civis Analytics’
     survey and message testing technology to empower local leaders and Census
     coordinators to run data-driven outreach campaigns and avoid an undercount.
-  - product_name: Voatz
+- product_name: Voatz
   tech_team: Voatz
   cohort: 2020 Census
   problem_statement: Bridging the Digital Divide
@@ -318,7 +318,7 @@
     across the United States to allow the convenience, security and
     accessibility of smartphone and blockchain technology to ensure that
     hard-to-reach populations are counted in future censuses.
-  - product_name: Tract by Tract
+- product_name: Tract by Tract
   tech_team: Columbia
   cohort: 2020 Census
   problem_statement: Reaching Hard-to-Count Communities
@@ -334,7 +334,7 @@
     Columbia university's product supports policymakers in resource allocation
     by predicting decennial Census response rates by day for each census tract,
     and comparing them to the true rates.
-  - product_name: Community Counts
+- product_name: Community Counts
   tech_team: Excella
   cohort: 2020 Census
   problem_statement: Reaching Hard-to-Count Communities
@@ -349,7 +349,7 @@
     Community Counts leverages data from HUD and Community Partners to help Area
     Census Office Staff visualize and verify potential locations of individuals
     experiencing homelessness for enumeration.
-  - product_name: California Latino Power Map
+- product_name: California Latino Power Map
   tech_team: Measure of America
   cohort: 2020 Census
   problem_statement: Reaching Hard-to-Count Communities
@@ -367,7 +367,7 @@
     plain both the opportunities and the challenges that Latino communities
     encounter for anyone who works to improve the quality of life for Latino and
     Hispanic residents of California.
-  - product_name: Data.World Workspace
+- product_name: Data.World Workspace
   tech_team: Data.World
   cohort: Agency
   problem_statement: Data Discovery
@@ -384,7 +384,7 @@
     Uses data from eleven federal agencies and twelve cities to facilitate
     finding, viewing and collaborating over data for Opportunity Project sprint
     participants.
-  - product_name: Visualizing Youth Disconnection
+- product_name: Visualizing Youth Disconnection
   tech_team: Measure of America
   cohort: Agency
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
@@ -398,7 +398,7 @@
   description_old:
     This tool from Measure of America combines various data critical to the well
     being of New Yorkers.
-  - product_name: Job Crowdsourcing Tool
+- product_name: Job Crowdsourcing Tool
   tech_team: Ushahidi
   cohort: Agency
   problem_statement: Connecting Americans to skills and jobs
@@ -410,7 +410,7 @@
   description_old:
     Ushahidi Job Postings combines crowdsourced job reports to share alerts of
     local job openings.
-  - product_name: FindHome
+- product_name: FindHome
   tech_team: Loveland Technologies
   cohort: Agency
   problem_statement: Ending Homelessness
@@ -426,7 +426,7 @@
     Helping low income families overcome the stress of finding affordable
     housing this tool combines transit access, walkability and school
     information into one unique feed of available properties.
-  - product_name: Housing Calculator
+- product_name: Housing Calculator
   tech_team: Airbnb
   cohort: Agency
   problem_statement: Ending Homelessness
@@ -441,7 +441,7 @@
     Uses HUD rental data to identify areas that present a high-opportunity for
     families to supplement their housing costs through renting excess rooms or
     units.
-  - product_name: Neighborhood Opportunity
+- product_name: Neighborhood Opportunity
   tech_team: Mapbox
   cohort: Agency
   problem_statement: Ending Homelessness
@@ -458,7 +458,7 @@
     Uses Fair Market Rent data from HUD, along with OpenStreetMap, to rapidly
     and easily assess neighborhood family amenities and voucher amounts for
     Section 8 Housing Seekers.
-  - product_name: Opportunity Dashboard
+- product_name: Opportunity Dashboard
   tech_team: Great Schools
   cohort: Agency
   problem_statement: Identifying Equity Scores and Gaps
@@ -473,7 +473,7 @@
     Great Schools and Education Cities' uses college readiness data to measure
     gaps in access to educational opportunities across student groups to help
     advocates increase equity.
-  - product_name: Training Finder
+- product_name: Training Finder
   tech_team: linkedIn
   cohort: Agency
   problem_statement: Connecting Americans to skills and jobs
@@ -485,7 +485,7 @@
   description_old:
     Uses data from eligible training provider lists (ETPL) to surface education
     options that lead to in-demand careers for job seekers.
-  - product_name: School ResourceMapper
+- product_name: School ResourceMapper
   tech_team: 'Data Society,Kitamba'
   cohort: Agency
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
@@ -502,7 +502,7 @@
   description_old:
     Brings together economic, health center, and community institution data to
     help school leaders find and develop community partnerships.
-  - product_name: LiveStories
+- product_name: LiveStories
   tech_team: LiveStories
   cohort: Agency
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
@@ -518,7 +518,7 @@
     Customizable data briefs use school-level data to help local school
     districts and education foundations inform parents and the electorate about
     the need for more funding.
-  - product_name: mySidewalk
+- product_name: mySidewalk
   tech_team: My Sidewalk
   cohort: Agency
   problem_statement: Increasing safety and mobility across the nation
@@ -533,7 +533,7 @@
     Uses a combination of 30 datasets to generate instant insights that address
     accessibility of opportunity and emotional well-being for citizens across
     the county.
-  - product_name: Create
+- product_name: Create
   tech_team: Create
   cohort: Agency
   problem_statement: Increasing safety and mobility across the nation
@@ -548,7 +548,7 @@
     Uses traffic accident and fatality data to provide dynamic location-based
     visualizations of hazardous traffic corridors for citizens and community
     decision makers.
-  - product_name: Commuter Map
+- product_name: Commuter Map
   tech_team: Split
   cohort: Agency
   problem_statement: Increasing safety and mobility across the nation
@@ -563,7 +563,7 @@
     Uses commuting data from the LEHD Origin-Destination Employment Statistics,
     bus & rail transit routes to show commuter flows and gaps in access to
     transit.
-  - product_name: Findyour.town
+- product_name: Findyour.town
   tech_team: Ovela
   cohort: Agency
   problem_statement: Small Town Resource Guide
@@ -580,7 +580,7 @@
     Uses live spatial and development funding data from USDA, Census, DOT, and
     HUD to simplify funding eligibility with virtual story telling of our rural
     American communities.
-  - product_name: Fitbit
+- product_name: Fitbit
   tech_team: Fitbit
   cohort: Agency
   problem_statement: Promoting Health and Wellbeing Nationwide
@@ -597,7 +597,7 @@
     Lets users see how average activity relates to common health issues in each
     state, combining CDC health data with aggregated and anonymous Fitbit
     activity data from over 10 million users.
-  - product_name: EARS
+- product_name: EARS
   tech_team: University of Oregon
   cohort: Agency
   problem_statement: Veterans Suicide Prevention
@@ -613,7 +613,7 @@
     Enables researchers to unobtrusively measure everyday behavior and integrate
     open data on local hazards & resources to build a risk state detection
     algorithm that powers precise, life-saving mental health interventions.
-  - product_name: TextHelp
+- product_name: TextHelp
   tech_team: Open Medicine Institute
   cohort: Agency
   problem_statement: Veterans Suicide Prevention
@@ -628,7 +628,7 @@
     Uses anonymized mental health data from the VA Health System to assess
     suicide and other risk in patients and guide them through crisis to
     available support resources.
-  - product_name: Opportunity.hackernest.com
+- product_name: Opportunity.hackernest.com
   tech_team: Hackernest
   cohort: Agency
   problem_statement: Connecting Americans to skills and jobs
@@ -642,7 +642,7 @@
   description_old:
     Uses labor/employment info from multiple federal data sources to help
     navigate careers in government for Americans.
-  - product_name: Opportunity Enabler
+- product_name: Opportunity Enabler
   tech_team: Esri
   cohort: Agency
   problem_statement: nil
@@ -658,7 +658,7 @@
   description_old:
     Uses nationwide opportunity indexes to make search for opportunity more
     easily obtainable.
-  - product_name: Wolfram Data Repository
+- product_name: Wolfram Data Repository
   tech_team: Wolfram
   cohort: Agency
   problem_statement: Data Discovery
@@ -671,7 +671,7 @@
     Uses datasets from multiple agencies to help researchers and developers
     rapidly prototype and deploy tools that address a variety of problems
     surrounding access to opportunity.
-  - product_name: CareerSpark
+- product_name: CareerSpark
   tech_team: Flatiron School
   cohort: Agency
   problem_statement: Connecting Americans to skills and jobs
@@ -684,7 +684,7 @@
     A mobile application that uses employment statistics and occupational data
     from the Bureau of Labor Statistics to make career exploration easy and
     accessible for high school students.
-  - product_name: iCASA - Civic Address and Governance Platform for Puerto Rico
+- product_name: iCASA - Civic Address and Governance Platform for Puerto Rico
   tech_team: iCASA PR
   cohort: Geocohort
   problem_statement:
@@ -704,7 +704,7 @@
     and communities in Puerto Rico enhance their address infrastructure to
     support the reconstruction process, improve emergency response and foster a
     more resilient future.
-  - product_name: Sille
+- product_name: Sille
   tech_team: Datel Ovela
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
@@ -723,7 +723,7 @@
     stakeholders to prepare for crisis through increased awareness of the
     likelihood of catastrophic failure of their structures in a disaster. Public
     access using login: fema@sille.space, password: Planahead2019'
-  - product_name: Insight for ArcGIS
+- product_name: Insight for ArcGIS
   tech_team: Esri
   cohort: Geocohort
   problem_statement: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
@@ -740,7 +740,7 @@
     to predict geographic areas where opioid emergencies are likely to occur to
     help public safety and health officials pre-position the appropriate
     response units in order to save lives at the moment of crisis.
-  - product_name: The TomTom Centaur Data Logging App
+- product_name: The TomTom Centaur Data Logging App
   tech_team: TomTom
   cohort: Geocohort
   problem_statement:
@@ -757,7 +757,7 @@
     TomTom’s open source mobile app is an address point capture tool that
     incorporates the U.S. National Grid to assign coordinates, in an online or
     offline mode, to make nontraditionally addressed locations addressable.
-  - product_name: Puerto Rico Land Grid
+- product_name: Puerto Rico Land Grid
   tech_team: Loveland Technologies
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
@@ -777,7 +777,7 @@
     sets and overlays. An accompanying survey plan and budget details an
     approach to assessing the occupancy, condition, land use, and needs of all
     1.5 million properties on the island.
-  - product_name: STEWMAP Explorer
+- product_name: STEWMAP Explorer
   tech_team: Mapbox
   cohort: Geocohort
   problem_statement: Identifying and Strengthening Civic Environmental Stewardship
@@ -794,7 +794,7 @@
     STEWMAP Explorer which makes it simple to see what organizations are working
     in which turfs for local groups to better connect with others caring for
     their local environment.
-  - product_name: 'Bloomberg DEVOP: Demographic Environmental Volunteer Opportunity Plotter'
+- product_name: 'Bloomberg DEVOP: Demographic Environmental Volunteer Opportunity Plotter'
   tech_team: Bloomberg
   cohort: Geocohort
   problem_statement: Identifying and Strengthening Civic Environmental Stewardship
@@ -812,7 +812,7 @@
     Baltimore, coupled with self-reported volunteer activity, to allow
     organizations to target areas to volunteer in and potential partners to
     successfully steward the environment.
-  - product_name: Fulcrum Community for Addressing and Disaster Preparedness
+- product_name: Fulcrum Community for Addressing and Disaster Preparedness
   tech_team: Spatial Networks
   cohort: Geocohort
   problem_statement:
@@ -832,7 +832,7 @@
     to create a Community account for The Opportunity Project, which provides a
     field data crowdsourcing platform for government or agency stakeholders with
     gaps in their address data on the ground.
-  - product_name: Disaster Awareness Games
+- product_name: Disaster Awareness Games
   tech_team: 'Geoslug- UC Santa Barbara,Motivf'
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
@@ -845,7 +845,7 @@
     Geoslug, a partnership between UC Santa Cruz and Motivf, created a serious
     game that uses federal disaster declaration and protective actions data to
     engage young adults in preparing for emergencies.
-  - product_name: Data2GO.NYC
+- product_name: Data2GO.NYC
   tech_team: Measure of America
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -865,7 +865,7 @@
     Census Bureau, state, and city data that can help with decennial Census
     outreach in NYC communities by answering questions like 'What happens with
     Census data?' and 'Why does the Census matter to me?'
-  - product_name: Opportunity Score
+- product_name: Opportunity Score
   tech_team: Redfin
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -879,7 +879,7 @@
   description_old:
     This tool from Redfin shows jobs you can get to in 30 minutes, without a
     car, from any address.
-  - product_name: GreatSchools
+- product_name: GreatSchools
   tech_team: Great Schools
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -891,7 +891,7 @@
   description_old:
     A collaboration with Zillow to help families find housing near high
     opportunity schools.
-  - product_name: PolicyMap Tool
+- product_name: PolicyMap Tool
   tech_team: Policy Map
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -905,7 +905,7 @@
   description_old:
     A tool that allows users to identify areas of opportunity by specifying
     their most important priorities.
-  - product_name: Transit Analyst
+- product_name: Transit Analyst
   tech_team: Azavea
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -923,7 +923,7 @@
   description_old:
     An interactive tool from Azavea for exploring transit accessibility to
     target resources from focus areas.
-  - product_name: diversitydatakids.org
+- product_name: diversitydatakids.org
   tech_team: diversitydatakids.org
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -935,7 +935,7 @@
   description_old:
     Story maps providing visibility into the affordability of opportunity for
     children in U.S. metro areas.
-  - product_name: Baltimore Explorer
+- product_name: Baltimore Explorer
   tech_team: Zillow
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -947,7 +947,7 @@
   description_old:
     A tool by Zillow for exploring the opportunity and growth potential of
     Baltimore's neighborhoods.
-  - product_name: Community Commons
+- product_name: Community Commons
   tech_team: Community Commons
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -959,7 +959,7 @@
   description_old:
     A new tool for finding areas of opportunity through geographic
     visualizations and reports.
-  - product_name: Streetwyze
+- product_name: Streetwyze
   tech_team: Streetwyze
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -972,7 +972,7 @@
   prize_status: nil
   category: 'housing,employment,transportation'
   description_old: A "ground-truthing" neighborhood navigator powered by local knowledge.
-  - product_name: National Equity Atlas
+- product_name: National Equity Atlas
   tech_team: National Equity Atlas
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -990,7 +990,7 @@
   description_old:
     A Policylink tool to allow comparison of disaggregated demographic
     indicators.
-  - product_name: OpenData Network
+- product_name: OpenData Network
   tech_team: Socrata
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -1003,7 +1003,7 @@
   description_old:
     A tool from Socrata that allows for comparison and similarity detection of
     geographic regions.
-  - product_name: Affordable Housing Finder
+- product_name: Affordable Housing Finder
   tech_team: Esri
   cohort: 2016 - Sprint 1
   problem_statement: nil
@@ -1016,7 +1016,7 @@
   description_old:
     A tool from Esri that shows where opportunities are for low income citizens
     with children.
-  - product_name: Inclusive Growth Score
+- product_name: Inclusive Growth Score
   tech_team: Mastercard
   cohort: Workforce
   problem_statement: Opportunity Zones
@@ -1035,7 +1035,7 @@
     layer of aggregated and anonymized Mastercard Data to measure the degree to
     which place, economy and community in a given Opportunity Zone benefit from
     equitable growth.
-  - product_name: City Builder
+- product_name: City Builder
   tech_team: Citi Ventures
   cohort: Workforce
   problem_statement: Opportunity Zones
@@ -1053,7 +1053,7 @@
     Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
     Commission data to bring transparency to the Opportunity Zone ecosystem for
     investors, fund manager, wealth managers, and cities.
-  - product_name: Solve
+- product_name: Solve
   tech_team: Solve.is
   cohort: Workforce
   problem_statement: Talent Discovery
@@ -1071,7 +1071,7 @@
     Solve uses NAICs codes and National Certifications Table to organize
     industries to better connect skills, certifications, industries and outcomes
     of training programs towards the right jobs in the right industry.
-  - product_name: Kanarys
+- product_name: Kanarys
   tech_team: Kanarys
   cohort: Workforce
   problem_statement: Multiple Pathways
@@ -1085,7 +1085,7 @@
   description_old:
     Kanarys uses open EEOC data and Census Bureau data and reports to create
     more inclusive, nontoxic workplaces for individuals and their employers.
-  - product_name: Talent Finder Tool
+- product_name: Talent Finder Tool
   tech_team: Emsi
   cohort: Workforce
   problem_statement: Talent Discovery
@@ -1104,7 +1104,7 @@
     Labor Statistics, StatsAmerica, American Community Survey, and Internal
     Revenue Service to solve talent discovery issues for entrepreneurs and small
     businesses seeking to hire high-tech workers.
-  - product_name: Inclusive Development Dashboards
+- product_name: Inclusive Development Dashboards
   tech_team: Burning Glass
   cohort: Workforce
   problem_statement: Talent Discovery
@@ -1127,7 +1127,7 @@
     prioritize initiatives to achieve inclusive development in their regions and
     to build an inclusive development network that includes leaders from the
     civic sector, government, and industry.
-  - product_name: Practical Business Skills
+- product_name: Practical Business Skills
   tech_team: Visa
   cohort: Workforce
   problem_statement: Entrepreneurship
@@ -1144,7 +1144,7 @@
     Small Business Administration’s ‘Find Local Assistance’ resource, to empower
     growth-minded entrepreneurs with the financial and business knowledge to
     better manage their money and make confident, informed business decisions.
-  - product_name: Rural Startup Scout
+- product_name: Rural Startup Scout
   tech_team: Center on Rural Innovation
   cohort: Workforce
   problem_statement: Opportunity Zones
@@ -1165,7 +1165,7 @@
     and patent activity to reveal Opportunity Zones with emerging tech sectors
     so investors can discover promising rural startups ready to scale that
     otherwise would have been overlooked.
-  - product_name: Job Opportunity Tool
+- product_name: Job Opportunity Tool
   tech_team: Redfin
   cohort: Workforce
   problem_statement: Talent Discovery
@@ -1181,7 +1181,7 @@
     Redfin's job opportunity tool uses datasets on employment clusters, pay
     ranges, housing costs, and more to help better inform Redfin’s millions of
     users looking to relocate for work or even startups looking to find workers.
-  - product_name: Community Led Opportunity Zones
+- product_name: Community Led Opportunity Zones
   tech_team: Public Democracy
   cohort: Workforce
   problem_statement: Opportunity Zones
@@ -1201,4 +1201,3 @@
     their survey tool, which ensures that community priorities inform OZ
     strategies for policy decision-makers, economic development officials, and
     investors in Birmingham, Alabama.
-  

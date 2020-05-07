@@ -1,0 +1,29 @@
+{% for item in page.featured_items %}
+  <main class="usa-section bg-primary-darkest" aria-label="Products built with The Opportunity Project">
+    <div class="grid-container">
+      <div class="grid-row grid-gap margin-top-3">
+        {% if item.text_align == "right" %}
+          <div class="grid-col-8">
+            <img src="{{ site.baseurl }}/img/data-kits/hero/workforce.png" alt="">
+          </div>
+          <div class="grid-col-4">
+            <h2>{{ item.name}}</h2>
+            <p>{{ item.team}}</p>
+            <p>{{ item.description}}</p>
+            <button type="button" name="button">View Case Study</button>
+          </div>
+        {% else %}
+          <div class="grid-col-4">
+            <h2>{{ item.name}}</h2>
+            <p>{{ item.team}}</p>
+            <p>{{ item.description}}</p>
+            <button type="button" name="button">View Case Study</button>
+          </div>
+          <div class="grid-col-8">
+            <img src="{{ site.baseurl }}/img/data-kits/hero/workforce.png" alt="">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </main>
+{% endfor %}

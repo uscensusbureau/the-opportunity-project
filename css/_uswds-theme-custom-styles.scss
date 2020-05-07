@@ -84,10 +84,6 @@ $site-background-color: "gray-1";
   @include u-bg($site-background-color);
 }
 
-.alt-container {
-  @include u-bg($theme-color-base);
-}
-
 html,
 body {
   @include typeset("lang");
@@ -1280,7 +1276,7 @@ body {
 
 .grid-example {
   .usa-grid {
-    background: color($theme-color-primary-light);
+    background: color($theme-color-primary-lighter);
 
     > * {
       @include u-margin-y(0.5);
@@ -1308,7 +1304,7 @@ body {
     background: color($theme-color-primary-dark);
 
     > * {
-      background: color($theme-color-primary-light);
+      background: color($theme-color-primary-lighter);
       color: color("black");
     }
 
@@ -3454,6 +3450,7 @@ $theme-table-column-gap: 4;
 
 .site-banner {
   @include typeset("lang");
+  background-color: color("primary-dark");
 
   .usa-accordion {
     @include typeset("lang");

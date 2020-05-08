@@ -117,7 +117,7 @@ body {
 }
 
 .site-header {
-  background-color: color($site-primary-darker);
+  background-color: color("base-darkest");
 
   @include at-media("desktop") {
     border-bottom: none;
@@ -140,6 +140,7 @@ body {
       }
     }
   }
+
 
   .usa-button-list {
     display: none;
@@ -186,14 +187,14 @@ body {
 }
 
 .site-banner {
-  background-color: color("gray-90");
+  background-color: color("primary-lightest");
+  color: color("primary-dark");
 
   .usa-banner__inner {
     max-width: 100%;
   }
 
   .usa-banner__content {
-    color: color("white");
     margin-left: 0;
   }
 
@@ -206,7 +207,7 @@ body {
   }
 
   .usa-banner__header-text {
-    color: color("white");
+    color: color("primary-dark");
   }
 
   .usa-banner__header-action {
@@ -215,7 +216,6 @@ body {
 }
 
 .site-header-navbar {
-  background-color: color("white");
   border-bottom: none !important; // scss-lint:disable ImportantRule
 
   @include at-media("desktop") {
@@ -537,185 +537,11 @@ body {
   }
 }
 
-// Datakit hub //
-
-.data-kit {
-  background-color: #004280;
-
-  .data-kit__grid-container {
-    position: relative;
-
-    .data-kit__card {
-        width: 90%;
-        position: relative;
-        height: 35rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: white;
-        z-index: 2;
-        padding: 9rem 3.5rem 3.5rem 3.5rem;
-        border-radius: 10px;
-        cursor: default;
-
-        h2 {
-          margin-top: 0;
-          margin-bottom: 0;
-          font-family: $theme-font-type-sans;
-          font-size: $theme-type-scale-3xl;
-          font-weight: 700;
-          line-height: units(5);
-          color: #ffffff;
-        }
-        p {
-          font-family: $theme-font-type-sans;
-          font-size: $theme-type-scale-sm;
-          color: #ffffff;
-          line-height: units(3);
-          margin-bottom: 2rem;
-        }
-        .data-kit__arrow {
-          float: right;
-          transition: all 500ms ease;
-        }
-        h2,
-        p,
-        .data-kit__arrow {
-          position: relative;
-          z-index: 10;
-        }
-        &::after {
-          transition: opacity 400ms ease;
-          content: " ";
-          z-index: 5;
-          display: block;
-          position: absolute;
-          height: 100%;
-          top: 0;
-          left: 0;
-          right: 0;
-          border-radius: 10px;
-          background: RGB(19, 25, 47, 0.6);
-        }
-      }
-    }
-
-    .data-kit__active {
-      transition: transform 400ms ease;
-      cursor: pointer;
-      &:hover {
-        transform: translate(-5px, -10px);
-        .data-kit__arrow {
-          animation: bounce 2s infinite;
-        }
-        &::after {
-          opacity: 0.65;
-        }
-      }
-    }
-
-    .data-kit__bg {
-      height: 40rem;
-      width: 90%;
-      background-color: $theme-color-primary;
-      position: absolute;
-      z-index: 1;
-      border-radius: 10px;
-      top: 1.5rem;
-      left: 1.5rem;
-
-    }
-    .data-kit__upcoming {
-      text-transform: uppercase;
-      font-size: $theme-type-scale-2xs;
-      color: $theme-color-primary-dark;
-      font-weight: 700;
-      letter-spacing: 0.8px;
-      padding: 1rem 1.2rem;
-      background-color: $theme-color-secondary;
-      border-radius: 4px;
-      position: absolute;
-      bottom: 2rem;
-      right: 2rem;
-    }
-    .data-kit__stats {
-      color: $theme-color-primary-dark;
-      font-weight: 500;
-      letter-spacing: 0.8px;
-      padding: 1rem 1.2rem;
-      background-color: #ffffff;
-      border-radius: 4px;
-      position: absolute;
-      bottom: 2rem;
-      right: 2rem;
-      .data-kit__icon-items {
-        display: inline-block;
-        margin-right: 0.5rem;
-        vertical-align: middle;
-      }
-      p {
-        display: inline-block;
-        margin: 0;
-        font-size: 1.4rem;
-        line-height: 1.4rem;
-        vertical-align: middle;
-      }
-    }
-
-}
-
-
-.data-kit__button {
-  text-decoration: none;
-}
-
-.data-kit__suggest {
-  transition: all 400ms ease;
-  border-radius: 10px;
-  width: 100%;
-  text-align: center;
-  padding: 12em 0;
-
-  .data-kit__icon-suggestion {
-    opacity: 0.8;
-  }
-  p {
-    color: #ffffff;
-    font-weight: 600;
-    font-size: $theme-type-scale-lg;
-    opacity: 0.8;
-  }
-
-  &:hover {
-    .data-kit__icon-suggestion,
-    p {
-      opacity: 1;
-    }
-  }
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateX(0);
-  }
-  40% {
-    transform: translateX(5px);
-  }
-  60% {
-    transform: translateX(2px);
-  }
-}
-
-    .usa-banner__content{
-      display: hidden;
-    }
-
 /* Re-style usa banner */
 
 .usa-accordion {
   margin: 0;
   list-style-type: none;
-  background-color: #13192F;
-  color: #ffffff;
   opacity: .75;
   padding: 4px 0;
   width: 100%;
@@ -725,7 +551,9 @@ body {
   font-size: 11px;
   font-weight: 500;
 }
-
+.usa-banner__button-text {
+  color: color("primary-dark");
+}
 
 @keyframes show {
   0% { opacity: 0; }
@@ -2845,6 +2673,17 @@ h6 + div:not(.usa-accordion__content) {
     }
   }
 
+  .usa-nav__link {
+    color: color("white");
+    &:hover {
+      color: color("primary-light");
+    }
+
+    &:visited {
+      color: color("primary-light");
+    }
+  }
+
   .usa-button.site-button-outline-secondary {
     @include inner-border($site-border-width, "primary");
     background-color: color("transparent");
@@ -2864,7 +2703,7 @@ h6 + div:not(.usa-accordion__content) {
 
 .site-header-dark {
   .site-header-navbar {
-    background-color: color("blue-warm-80");
+    background-color: color("base-darkest");
   }
   .site-logo {
     a {
@@ -3431,6 +3270,7 @@ $theme-table-column-gap: 4;
   }
 
   .usa-nav__link {
+    color: color("white");
     &[aria-expanded="true"] {
       @include add-background-svg("minus-thin-ink");
     }
@@ -3440,10 +3280,12 @@ $theme-table-column-gap: 4;
   }
 
   .usa-nav__primary button {
+    color: color("white");
     line-height: lh("lang", 2);
   }
 
   .usa-nav__submenu-item {
+    color: color("white");
     @include typeset("lang", "2xs", 2);
   }
 }
@@ -3451,6 +3293,7 @@ $theme-table-column-gap: 4;
 .site-banner {
   @include typeset("lang");
   background-color: color("primary-lightest");
+  color: color("primary-dark");
 
   .usa-accordion {
     @include typeset("lang");
@@ -3526,9 +3369,26 @@ $theme-table-column-gap: 4;
   text-decoration: none;
 }
 
-.usa-hero__callout p {
-  @include typeset("lang");
-  margin-bottom: 0;
+.usa-hero {
+  background-image: none;
+  background-color: color("base-darkest");
+  @include u-padding-top(15);
+  @include u-padding-bottom(15);
+
+}
+
+.usa-hero__title {
+    font-family: "Silka";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.35;
+    @include u-padding-top(7);
+
+}
+
+.usa-hero__subtitle {
+    @include u-padding-bottom(7);
+
 }
 
 figure.highlight {

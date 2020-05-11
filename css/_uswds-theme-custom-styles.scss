@@ -801,11 +801,6 @@ body {
   position: relative;
 
   header {
-    > h1 {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-
     & + p {
       margin-top: units(1.5);
     }
@@ -1751,30 +1746,9 @@ code {
 // Homepage styles --------------------- //
 
 .page-home {
-  .usa-graphic-list {
-    .usa-media-block__body {
-      // scss-lint:disable SelectorDepth
-      > *:first-child {
-        @include u-font("lang", $media-block-header-font-size);
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-
-      > p {
-        @include u-font("lang", $media-block-body-font-size);
-        margin: units(0.5) 0;
-      }
-    }
-
-    .usa-media-block__img {
-      margin-bottom: units(1);
-      margin-right: units(2.5);
-      max-width: units(9);
-
-      @include at-media("desktop") {
-        float: none;
-      }
-    }
+  .usa-media-block__body {
+    // scss-lint:disable SelectorDepth
+    color: color("white");
   }
 
   // Override for 4x1 media grid when it collapses to 2x2

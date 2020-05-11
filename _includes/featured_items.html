@@ -1,29 +1,43 @@
-{% for item in page.featured_items %}
-  <main class="usa-section bg-primary-darkest" aria-label="Products built with The Opportunity Project">
+<main class="bg-base-darkest">
+  {% for item in page.featured_items %}
+  <section class="usa-section usa-graphic-list grid-container" aria-label="Products built with The Opportunity Project">
     <div class="grid-container">
       <div class="grid-row grid-gap margin-top-3">
         {% if item.text_align == "right" %}
-          <div class="grid-col-8">
+          <div
+            class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          >
             <img src="{{ site.baseurl }}/img/data-kits/hero/workforce.png" alt="">
           </div>
-          <div class="grid-col-4">
-            <h2>{{ item.name}}</h2>
-            <p>{{ item.team}}</p>
-            <p>{{ item.description}}</p>
-            <button type="button" name="button">View Case Study</button>
+          <div
+            class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <div class="usa-media-block__body">
+              <h2>{{ item.name}}</h2>
+              <p>{{ item.team}}</p>
+              <p>{{ item.description}}</p>
+              <button type="button" name="button">View Case Study</button>
+            </div>
           </div>
         {% else %}
-          <div class="grid-col-4">
-            <h2>{{ item.name}}</h2>
-            <p>{{ item.team}}</p>
-            <p>{{ item.description}}</p>
-            <button type="button" name="button">View Case Study</button>
+          <div
+            class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <div class="usa-media-block__body">
+              <h2>{{ item.name}}</h2>
+              <p>{{ item.team}}</p>
+              <p>{{ item.description}}</p>
+              <button type="button" name="button">View Case Study</button>
+            </div>
           </div>
-          <div class="grid-col-8">
+          <div
+            class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          >
             <img src="{{ site.baseurl }}/img/data-kits/hero/workforce.png" alt="">
           </div>
         {% endif %}
       </div>
     </div>
-  </main>
-{% endfor %}
+  </section>
+  {% endfor %}
+</main>

@@ -1751,6 +1751,40 @@ code {
     color: color("white");
   }
 
+  .usa-media-block__background-image {
+    display: inline-block;
+    position: relative;
+
+    img + .content {
+    width: auto;
+    position: absolute;
+    bottom: units(1);
+    background-color: color("base-darkest");
+    color: color("white");
+    margin-right: units(5);
+    margin-bottom: units(3);
+    padding-left: units(6);
+    padding-right: units(6);
+    padding-top: units(8);
+    padding-bottom: units(9);
+
+    a {
+      text-decoration: none;
+      padding-top: units(4);
+      padding-bottom: units(4);
+      color: color("white");
+      &:visited {
+        color: color("base-light");
+      }
+      &:hover {
+        color: color("base-light");
+        text-decoration: underline;
+      }
+    }
+    }
+  }
+
+
   // Override for 4x1 media grid when it collapses to 2x2
   @media screen and (max-width: units("desktop")) and (min-width: units("tablet")) {
     // scss-lint:disable SelectorDepth
@@ -1808,6 +1842,18 @@ code {
 .font-display {
   font-size: font-size("lang", "3xl");
 }
+
+
+// Logo Garden
+
+.logo-garden {
+  max-height: 40px;
+  max-width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 // Fancy Horizontal Rule
 
@@ -1891,25 +1937,6 @@ code {
   }
 }
 
-.page-product-roadmap,
-.page-for-developers,
-.page-for-designers,
-.page-component-maturity-scale {
-  .usa-content {
-    > ul:not(.usa-content-list) {
-      max-width: measure(3);
-    }
-  }
-}
-
-.page-product-roadmap {
-  .main-content {
-    .usa-tag {
-      display: inline-block;
-      position: relative;
-    }
-  }
-}
 
 // Layout grid page
 .docs-grid-example {
@@ -1939,120 +1966,6 @@ code {
       padding: units(2);
     }
   }
-}
-
-// Example images on headers and page templates pages -------------- //
-.page-header,
-.page-page-templates {
-  .preview {
-    img {
-      @include u-shadow(2);
-      margin-bottom: units(2);
-    }
-  }
-}
-
-.layout-demo {
-  margin-bottom: units(10);
-
-  @include at-media("tablet") {
-    margin-bottom: units(8);
-  }
-}
-
-// Demo fixed footer
-.demo-footer {
-  @include add-knockout-font-smoothing;
-  @include u-padding-y(1);
-  background-color: color("gray-cool-80");
-  // TODO: figure this out
-  box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5); // scss-lint:disable ColorVariable
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-
-  .usa-button {
-    background-image: url("#{$site-image-path}/angle-arrow-left-inverse.png");
-    background-image: url("#{$site-image-path}/angle-arrow-left-inverse.svg");
-    background-repeat: no-repeat;
-    background-position: left units(2.5) center;
-    background-size: units(1);
-    padding-left: units(4);
-
-    @include at-media("tablet") {
-      margin-right: units(2);
-      margin-top: 0;
-    }
-  }
-}
-
-.demo-footer-title {
-  margin-bottom: units(1);
-  margin-top: 0;
-  color: color("white");
-  display: inline-block;
-
-  @include at-media("tablet") {
-    @include u-margin-y(1);
-  }
-}
-
-.demo-footer-content {
-  @include add-responsive-site-margins;
-}
-
-hr {
-  background: color("gray-cool-10");
-  border: none;
-  height: units(1px);
-  margin: units(4) 0;
-}
-
-iframe {
-  margin-bottom: units(4);
-}
-
-.post-excerpt {
-  margin-top: units(5);
-
-  .post-title {
-    margin-top: 0;
-    margin-bottom: 0;
-
-    a {
-      color: inherit;
-      text-decoration: none;
-
-      &:hover {
-        color: color($site-primary);
-        text-decoration: underline;
-      }
-    }
-  }
-
-  .post-category {
-    margin-top: 0;
-  }
-
-  .post-category + .post-title {
-    margin-top: 0;
-  }
-
-  .post-content p {
-    margin-bottom: 0;
-    margin-top: units(0.5);
-  }
-} // .post-excerpt
-
-.post-date {
-  display: block;
-  letter-spacing: normal;
-  text-transform: none;
-}
-
-.post-title {
-  @include typeset-h2;
-  @include u-measure(1);
 }
 
 // Utilities CSS --------------------- //
@@ -2626,6 +2539,7 @@ h6 + div:not(.usa-accordion__content) {
 
 .usa-nav__inner {
   margin-bottom: 0;
+  color: color("white");
 
   .usa-button {
     &:hover {
@@ -3245,6 +3159,11 @@ $theme-table-column-gap: 4;
 
   .usa-nav__link {
     color: color("white");
+
+    .usa-nav__primary-item a {
+      color: color("white");
+      line-height: lh("lang", 2);
+    }
     &[aria-expanded="true"] {
       @include add-background-svg("minus-thin-ink");
     }
@@ -3352,7 +3271,6 @@ $theme-table-column-gap: 4;
 }
 
 .usa-hero__title {
-    font-family: "Silka";
     font-size: 48px;
     font-weight: 600;
     line-height: 1.35;
@@ -3362,7 +3280,6 @@ $theme-table-column-gap: 4;
 
 .usa-hero__subtitle {
     @include u-padding-bottom(7);
-
 }
 
 figure.highlight {

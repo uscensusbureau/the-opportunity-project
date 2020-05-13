@@ -82,9 +82,96 @@ featured_items:
     alt: Dashboard view on Job Opportunity Tool showing a map of the United States and colored circles indicating the total number and concentration of web developers in geographic areas across the country
     text_align: right
 
+# three column layout of testimonials
+testimonials:
+  - text: TOP is building something that is new and really powerful. With government as a convener, it can get people  together around a problem who wouldn’t otherwise be working together.
+    person: Rob Lalka
+    organization: Public Democracy
+    image:
+  - text: TOP sprint really represents the best of what government can be — a platform for engagement that is so core to our democracy.
+    person: Denice Ross
+    organization: Georgetown University
+    image:
+  - text: The emphasis on human-centered design and the opportunity to speak to all of these different advocates and stakeholders was key in creating a product that would actually help the end user.
+    person: Ryan Harper
+    organization: CITI VENTURES
+    image:
+
+# get involved
+get_involved:
+  title-image:
+  title-image-alt:
+  title: Get Involved
+  subtitle:
+    - p: Join a community of hundreds working to transform America’s data into America’s innovation.
+    - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
+  buttons:
+    - b: Stay in the loop
+    - b: Contact us
+  text:
+    - number: 1
+      number_display: false
+      title: Build with open data
+      description: Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.
+      button: Go To Toolkit
+    - number: 2
+      number_display: false
+      title: Run a TOPx sprint
+      description: Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.
+      button: Go To Toolkit
+
+#news
+news_item:
+  - title: The Opportunity Project Marks 100 Product Milestone
+    date: MARCH 2020
+    organization: Meritalk
+    image: /photos/placeholder-home-portrait-half-width-photo.png
+    # two possible sizes, either a large, portrait orientation card which has an in-set text box, or a small, landscape card with text directly overlaid on the image
+    size: large
+    link:
+    number: 1
+  - title: Census Project Matches Your Agency's Data with Civic Innovators
+    date: December 2019
+    organization: NextGov
+    image:
+    size: small
+    link:
+    align: right
+    number: 2
+  - title: How Federal Agencies Can Use Agile Development to Apply Open Data
+    date: June 2019
+    organization: Fedscoop
+    image:
+    size: small
+    link:
+    align: right
+    number: 3
+  - title:
+    date:
+    organization: Want to write a story about TOP?
+    image:
+    size: small
+    # default is that the title of the news article is clickable. to add another card (either that is not a news item or that uses a button) add "button text" and the text will appear on the button and the link will be attached there, not on any other part of the card
+    button_text: Let's Talk
+    link:
+    align: left
+    number: 4
+  - title: President Obama's new open data initiative could help cities help themselves
+    date: March 2016
+    organization: NextGov
+    image:
+    size: small
+    link:
+    align: right
+    number: 5
+
 ---
 {% include hero.html %}
 {% include text-callout-centered.html %}
 {% include two-column-wide-text.html %}
 {% include three-column-narrow-text.html %}
 {% include featured_items.html %}
+{% include logo-garden.html %}
+{% include three-column-wide-text.html %}
+{% include get-involved.html %}
+{% include news.html %}

@@ -1660,7 +1660,8 @@ code {
   }
 
   h2 {
-    font-size: font-size("sans", 13);
+    font-size: font-size("sans", 12);
+    line-height: 1.2;
   }
 
   h3 {
@@ -1739,6 +1740,10 @@ code {
   }
 }
 
+.split-background-primary {
+  background: linear-gradient(color("primary"),color("primary"))0 0/100% 40% no-repeat;
+}
+
 // ========================================
 // 3. Custom page styles
 // ----------------------------------------
@@ -1749,6 +1754,35 @@ code {
   .usa-media-block__body {
     // scss-lint:disable SelectorDepth
     color: color("white");
+  }
+
+  .usa-media-block__body-outlined {
+    // scss-lint:disable SelectorDepth
+    color: color("white");
+    padding: units(6);
+    border: solid 1px color("base-lightest");
+
+  }
+
+  .usa-media-block__inline-items {
+    // scss-lint:disable SelectorDepth
+    display: flex;
+
+   .inline-number {
+     display: inline-block;
+     p {
+       color: color("white");
+       background-color: color("secondary");
+       font-size: font-size("lang", "xs");
+       padding-left: units(1);
+     }
+   }
+
+   .inline-text {
+     display: inline-block;
+     padding-left: units(3);
+   }
+
   }
 
   .usa-media-block__background-image {
@@ -2944,8 +2978,9 @@ $theme-table-column-gap: 4;
 
   & > {
     p {
-      line-height: lh("lang", 5);
       max-width: measure($site-measure);
+      @include typeset("lang", "sm", 4);
+      line-height: 1.75;
     }
 
     p + * {

@@ -1,0 +1,23 @@
+<main class="bg-base-darkest">
+  <section class="usa-section usa-graphic-list grid-container" aria-label="Testimonials">
+    <div class="grid-row grid-gap">
+      {% for item in page.testimonials %}
+      <div
+        class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      >
+        <div class="usa-media-block__body">
+          {% if item.text %}
+            <p>{{ item.text }}</p>
+          {% endif %}
+          {% if item.person %}
+            <p>{{ item.person }}</p>
+          {% endif %}
+          {% if item.organization %}
+            <p>{{ item.organization }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>

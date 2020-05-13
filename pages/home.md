@@ -13,18 +13,20 @@ hero:
 # content centered with outline, on blue background
 callout:
   text: The Opportunity Project
-  subtext: Our Mission
+  subtext: OUR MISSION
   body:
     # for each separate portion of text, add a "p" (short for paragraph)
     - p: Finding federal data is hard. Making a difference with it is even harder.
     - p: That’s where we come in.
     - p: We connect you with experts from industry, communities and government to help you turn federal open data into life-changing tech, faster.
 
+connecting-banner:
+  image: placeholder-home-banner-photo.png
+  alt: "placeholder image"
 
 # used here for the "how it works" section
 explanation:
   title: How It Works
-  image:
   # two column layout of text; the text layout is wide; items build left to right and top to bottom, meaning the first item listed will be left aligned, the next will be next to it (in the right column), the third will be in a new row below, left aligned under the first item, and so on.
   #         |    
   #    1    |    2
@@ -168,6 +170,7 @@ news_item:
 ---
 {% include hero.html %}
 {% include text-callout-centered.html %}
+{% include connecting-banner.html %}
 {% include two-column-wide-text.html %}
 {% include three-column-narrow-text.html %}
 {% include featured_items.html %}

@@ -1,61 +1,65 @@
-<footer class="usa-footer site-footer" role="contentinfo">
-  <div class="usa-footer__secondary-section">
+<footer class="usa-footer site-footer bg-base-darkest" role="contentinfo">
+  <div class="usa-footer__secondary-section  bg-base-darkest">
     <div class="grid-container footer-content">
-      <a href="{{site.baseurl}}">
-        Return to top
-      </a>
-      <h3>The Opportunity Project</h3>
-      <div class="grid-row footer-contact-links">
-        <div class="grid-col-3">
+      <div class="usa-media-block__body usa-media-block__footer">
+        <p class="font-sans-2xs">
+          <a href="{{ site.baseurl }}">
+            Return to Top
+          </a>
+        </p>
+        <p class="font-sans-sm">The Opportunity Project</p>
+      </div>
+      <div class="grid-row footer-contact-links margin-top-0">
+        <div class="grid-col-4">
           <div class="usa-media-block">
-            <div class="usa-media-block__body">
-              <a href="{{ site.repos[0].url }}/issues/new">
-                Report an issue
-              </a>
-            </div>
+            <img
+              class="usa-media-block__img"
+              src="{{ site.baseurl }}/img/home/icon-question.svg"
+              alt=""
+            />
           </div>
         </div>
         <div class="grid-col-2">
-          <div class="usa-media-block">
-            <div class="usa-media-block__body">
+          <div class="usa-media-block__footer">
+            <p>
               <a href="{{ site.baseurl }}/about">
                 About
               </a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-col-2">
-          <div class="usa-media-block">
-            <div class="usa-media-block__body">
-              <a href="{{ site.baseurl }}/sprints">
-                Get Involved
+            </p>
+            <p>
+              <a href="{{ site.baseurl }}/our-process">
+                Our Process
               </a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-col-2">
-          <div class="usa-media-block">
-            <div class="usa-media-block__body">
-              <a href="{{ site.baseurl }}/showcase">
+            </p>
+            <p>
+              <a href="{{ site.baseurl }}/products">
                 Products
               </a>
-            </div>
+            </p>
           </div>
         </div>
-        <div class="grid-col-3">
-          <div class="usa-media-block">
-            <div class="usa-media-block__body">
-              <p>Stay in the loop</p>
-              <p>Subscribe to an email list to be notified of news and opportunities.</p>
-              <a href="#">
-                Join Email List
+        <div class="grid-col-2">
+          <div class="usa-media-block__footer">
+            <p>
+              <a href="{{ site.baseurl }}/datasets">
+                Datasets
               </a>
-            </div>
+            </p>
+            <p>
+              <a href="{{ site.baseurl }}/news">
+                News
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="grid-col-4">
+          <div class="usa-media-block__body">
+            <p class="font-sans-2xs">Stay in the Loop</p>
+            <p class="font-sans-2xs">Subscribe to an email list to be notified of news and opportunities.</p>
+            <button class="usa-button__secondary-white"type="button" name="button">Join Email List</button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-section-bottom">
     </div>
   </div>
 </footer>

@@ -1797,121 +1797,123 @@ code {
 // 3. Custom page styles
 // ----------------------------------------
 
+.usa-media-block__body {
+  // scss-lint:disable SelectorDepth
+  color: color("white");
+  @include at-media("desktop") {
+    .border-right {
+      border-right: solid 1px color("base-lightest");
+    }
+  }
+}
+
+.usa-media-block__footer {
+  a {
+    text-decoration: none;
+    color: color("white");
+  }
+
+  h3 {
+    color: color("white");
+  }
+}
+
+.usa-media-block__body-outlined {
+  // scss-lint:disable SelectorDepth
+  color: color("white");
+  padding: units(6);
+  border: solid 1px color("base-lightest");
+
+}
+
+.usa-media-block__inline-items {
+  // scss-lint:disable SelectorDepth
+  display: flex;
+
+ .inline-number {
+   display: inline-block;
+   p {
+     color: color("white");
+     background-color: color("secondary");
+     font-size: font-size("lang", "xs");
+     padding-left: units(1);
+   }
+ }
+
+ .inline-text {
+   display: inline-block;
+   padding-left: units(3);
+ }
+
+}
+
+.usa-media-block__background-image-landscape {
+  display: inline-block;
+  position: relative;
+
+  img + .content {
+  width: auto;
+  position: absolute;
+  top: 0;
+  // use rba for opacity overlay rather than base-darkest token
+  background-color: rgb(18,25,35,0.7);
+  color: color("white");
+  padding: units(1) units(5);
+  margin-right: units(2);
+
+  a {
+    text-decoration: none;
+    padding-top: units(4);
+    padding-bottom: units(4);
+    color: color("white");
+    &:visited {
+      color: color("base-light");
+    }
+    &:hover {
+      color: color("base-light");
+      text-decoration: underline;
+    }
+  }
+  }
+}
+
+.usa-media-block__background-image-portrait {
+  display: inline-block;
+  position: relative;
+
+  img + .content {
+  width: auto;
+  position: absolute;
+  bottom: units(1);
+  background-color: color("base-darkest");
+  color: color("white");
+  margin-right: units(5);
+  margin-bottom: units(3);
+  padding-left: units(6);
+  padding-right: units(6);
+  padding-top: units(8);
+  padding-bottom: units(9);
+
+  a {
+    text-decoration: none;
+    padding-top: units(4);
+    padding-bottom: units(4);
+    color: color("white");
+    &:visited {
+      color: color("base-light");
+    }
+    &:hover {
+      color: color("base-light");
+      text-decoration: underline;
+    }
+  }
+  }
+}
+
+
 // Homepage styles --------------------- //
 
 .page-home {
-  .usa-media-block__body {
-    // scss-lint:disable SelectorDepth
-    color: color("white");
-    @include at-media("desktop") {
-      .border-right {
-        border-right: solid 1px color("base-lightest");
-      }
-    }
-  }
-
-  .usa-media-block__footer {
-    a {
-      text-decoration: none;
-      color: color("white");
-    }
-
-    h3 {
-      color: color("white");
-    }
-  }
-
-  .usa-media-block__body-outlined {
-    // scss-lint:disable SelectorDepth
-    color: color("white");
-    padding: units(6);
-    border: solid 1px color("base-lightest");
-
-  }
-
-  .usa-media-block__inline-items {
-    // scss-lint:disable SelectorDepth
-    display: flex;
-
-   .inline-number {
-     display: inline-block;
-     p {
-       color: color("white");
-       background-color: color("secondary");
-       font-size: font-size("lang", "xs");
-       padding-left: units(1);
-     }
-   }
-
-   .inline-text {
-     display: inline-block;
-     padding-left: units(3);
-   }
-
-  }
-
-  .usa-media-block__background-image-landscape {
-    display: inline-block;
-    position: relative;
-
-    img + .content {
-    width: auto;
-    position: absolute;
-    top: 0;
-    // use rba for opacity overlay rather than base-darkest token
-    background-color: rgb(18,25,35,0.7);
-    color: color("white");
-    padding: units(1) units(5);
-    margin-right: units(2);
-
-    a {
-      text-decoration: none;
-      padding-top: units(4);
-      padding-bottom: units(4);
-      color: color("white");
-      &:visited {
-        color: color("base-light");
-      }
-      &:hover {
-        color: color("base-light");
-        text-decoration: underline;
-      }
-    }
-    }
-  }
-
-  .usa-media-block__background-image-portrait {
-    display: inline-block;
-    position: relative;
-
-    img + .content {
-    width: auto;
-    position: absolute;
-    bottom: units(1);
-    background-color: color("base-darkest");
-    color: color("white");
-    margin-right: units(5);
-    margin-bottom: units(3);
-    padding-left: units(6);
-    padding-right: units(6);
-    padding-top: units(8);
-    padding-bottom: units(9);
-
-    a {
-      text-decoration: none;
-      padding-top: units(4);
-      padding-bottom: units(4);
-      color: color("white");
-      &:visited {
-        color: color("base-light");
-      }
-      &:hover {
-        color: color("base-light");
-        text-decoration: underline;
-      }
-    }
-    }
-  }
 
 
   // Override for 4x1 media grid when it collapses to 2x2

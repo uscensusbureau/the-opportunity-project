@@ -2,8 +2,7 @@
 permalink: /
 title: "The Opportunity Project"
 #class and layout determines page structure. Do not edit except for major updates!
-layout: landing
-class: home
+layout: default
 
 # full span, top of page section
 hero:

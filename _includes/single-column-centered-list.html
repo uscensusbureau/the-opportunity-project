@@ -1,0 +1,34 @@
+<section class="usa-section usa-graphic-list grid-container">
+  {% for item in page.explanation.text %}
+    <div class="grid-row">
+      <div
+        class="desktop:grid-col-2 tablet:grid-col-2 grid-offset-2 usa-media-block border-bottom desktop:padding-top-4 desktop:padding-bottom-5"
+      >
+        <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
+      </div>
+      <div
+        class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-items border-bottom padding-left-4 desktop:padding-top-4 desktop:padding-bottom-5"
+      >
+        <div class="inline-number">
+          {% if item.number %}
+            <p class="circle-3">{{ item.number }}</p>
+          {% endif %}
+        </div>
+        <div class="inline-text">
+          {% if item.title %}
+            <h4>{{ item.title }}</h4>
+          {% endif %}
+          {% if item.subtitle %}
+            <p class="font-mono-3xs text-ls-2 text-light">{{ item.subtitle }}</p>
+          {% endif %}
+        {% if item.description %}
+          <p>{{ item.description }}</p>
+        {% endif %}
+        {% for link in item.links %}
+          <a href="{{ link.link-path}}">{{ link.link-text}}</a><br>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>

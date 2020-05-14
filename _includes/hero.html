@@ -6,11 +6,11 @@
     <p class="usa-hero__subtitle grid-col-6">{{ page.hero.subtext }}</p>
   </div>
 {% else %}
-<section class="interior-hero">
-  <div class="grid-container interior-hero__bg"  style="background-image: url('{{page.hero.image | prepend: site.baseurl}}');">
-    <div class="interior-hero__callout">
-      <h2 class="interior-hero__title">{{ page.hero.text}}</h2>
-      <p>{{ page.hero.subtext }}</p>
+<section class="interior-hero bg-base-darkest">
+  <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+    <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
+    <div class="grid-col-6">
+      <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
     </div>
   </div>
 {% endif %}

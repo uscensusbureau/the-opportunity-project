@@ -8,10 +8,10 @@
         <div
           class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
         >
-          <div class="usa-media-block__body">
+          <div class="usa-media-block__body-outlined">
             {% assign callout = page.callout %}
             <h2>{{ callout.text }}</h2>
-            <p>{{ callout.subtext }}</p>
+            <p class="font-mono-sm margin-bottom-4">{{ callout.subtext }}</p>
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}

@@ -53,63 +53,66 @@ impact:
   - statistic: '100+'
     underline: short yellow accent
     description: Consumer-facing digital tools built through our sprints since 2016
-    border: none
+    border: border-right
   - statistic: '800+'
     underline: short yellow accent
     description: People who have contributed to products built through TOP
-    border: right
+    border: border-right
   - statistic: '34'
     underline: short yellow accent
     description: Unique problem statements addressed through TOP
-    border: right
+    border: none
 
 # content with large image and a smaller portion of text next to it. How the image and text are placed next to each other is determined by the value for the "text align"
 featured_items:
   - name: City Builder
     team: Citi Ventures
     description: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
-    img:
+    img: products/homepage/city-builder.png
     alt: Dashboard view on City Builder website displaying occupancy and land use statistics next to a map of several outlined city blocks
     text_align: right
   - name: SILLE
     team: Data Ovela
-    description: Helping leaders prepare for crisis by identifying whether local infrastrature is at risk of catastrophic failure
-    img:
+    description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
+    img: products/homepage/sille.png
     alt: Map view on SILLE website showing Bytom, Poland
     text_align: left
   - name: Job Opportunity Tool
     team: Redfin
     description: Helping job seekers understand the opportunities and tradeoffs when deciding where to relocate
-    img:
+    img: products/homepage/redfin.png
     alt: Dashboard view on Job Opportunity Tool showing a map of the United States and colored circles indicating the total number and concentration of web developers in geographic areas across the country
     text_align: right
 
 # three column layout of testimonials
 testimonials:
-  - text: TOP is building something that is new and really powerful. With government as a convener, it can get people  together around a problem who wouldn’t otherwise be working together.
+  - text: 'TOP is building something that is new and really powerful. With government as a convener, it can get people    
+    together around a problem who wouldn’t otherwise be working together.'
     person: Rob Lalka
     organization: Public Democracy
-    image:
+    image: photos/headshots/rob-lalka.png
   - text: TOP sprint really represents the best of what government can be — a platform for engagement that is so core to our democracy.
     person: Denice Ross
     organization: Georgetown University
-    image:
+    image: photos/headshots/denice-ross.png
   - text: The emphasis on human-centered design and the opportunity to speak to all of these different advocates and stakeholders was key in creating a product that would actually help the end user.
     person: Ryan Harper
     organization: CITI VENTURES
-    image:
+    image: photos/headshots/ryan-harper.png
 
 # get involved
 get_involved:
-  title-image:
-  title-image-alt:
+  title-image: photos/placeholder-home-portrait-half-width-photo.png
+  title-image-alt: Workshop participants sitting at a table
   title: Get Involved
   subtitle:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
     - b: Stay in the loop
+      style: primary dark
     - b: Contact us
+      style: secondary white
   text:
     - number: 1
       number_display: false

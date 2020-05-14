@@ -1,6 +1,17 @@
-<main class="bg-base-darkest">
+<section class="bg-base-darkest border-white border-top">
   <section class="usa-section usa-graphic-list grid-container">
-    <h2>Past Participants</h2>
+    <div
+      class="usa-media-block__inline-items margin-bottom-9 display-flex flex-column flex-align-center"
+    >
+      <div class="usa-media-block__body">
+        <div class="inline-number">
+          <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+        </div>
+        <div class="inline-text  padding-left-05">
+          <p class="font-mono-3xs text-ls-2 text-light"> PAST PARTICIPANTS </p>
+        </div>
+      </div>
+    </div>
     <div class="grid-row grid-gap">
       {% for item in site.data.logos-partners %}
       <div
@@ -13,4 +24,4 @@
       {% endfor %}
     </div>
   </section>
-</main>
+</section>

@@ -1875,6 +1875,29 @@ code {
     }
   }
   }
+
+  img + .content-large {
+  width: 65%;
+  position: absolute;
+  bottom: units(5);
+  background-color: color("base-darkest");
+  color: color("white");
+  padding: units(3) units(5);
+
+  a {
+    text-decoration: none;
+    padding-top: units(4);
+    padding-bottom: units(4);
+    color: color("white");
+    &:visited {
+      color: color("base-light");
+    }
+    &:hover {
+      color: color("base-light");
+      text-decoration: underline;
+    }
+  }
+  }
 }
 
 .usa-media-block__background-image-portrait {

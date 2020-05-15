@@ -2,12 +2,12 @@
   {% for item in page.explanation.text %}
     <div class="grid-row">
       <div
-        class="desktop:grid-col-2 tablet:grid-col-2 grid-offset-2 usa-media-block border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
+        class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block desktop:border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
       >
         <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
       </div>
       <div
-        class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-items border-bottom padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5"
+        class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-items desktop:border-bottom desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
       >
         <div class="inline-number">
           {% if item.number %}

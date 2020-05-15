@@ -8,9 +8,13 @@ hero:
   text: Join a Sprint
   subtext: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
 
-connecting-banner:
-  image: placeholder-home-banner-photo.png
-  alt: "placeholder image"
+photo:
+  image: photos/sprints/2020-earth-sprints-banner.jpg
+  img-alt: overhead view of beach with sand, large rocks, and bright blue water
+  overlay:
+    title: 2020 Earth Sprints
+    subtitle: LAUNCHED JUNE 2020
+    text: This year, teams will leverage technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
 
 # used here for the active sprints section
 explanation:
@@ -328,6 +332,7 @@ get_involved:
 
 ---
 {% include hero.html %}
+{% include single-column-centered-photo-with-overlay.html %}
 {% include single-column-centered-list.html %}
 {% include single-column-centered-list-dark.html %}
 {% include get-involved.html %}

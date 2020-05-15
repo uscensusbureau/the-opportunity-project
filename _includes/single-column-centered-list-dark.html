@@ -1,6 +1,6 @@
 <section class="bg-base-darkest">
   <section class="usa-section usa-graphic-list grid-container">
-    <div class="grid-row grid-offset-2 desktop:margin-bottom-3 problem-statements">
+    <div class="grid-row desktop:grid-offset-2 margin-bottom-3 problem-statements">
       <span><h3 class="yr-btn yr-btn-active" id="2019"> 2019 </h3></span>
       <span><h3 class="yr-btn" id="2018"> 2018 </h3></span>
       <span><h3 class="yr-btn" id="2017"> 2017 </h3></span>
@@ -9,12 +9,12 @@
     {% for item in page.explanation-alt.text %}
       <div class="grid-row ps-{{ item.year }} {{ item.default }}" >
         <div
-          class="desktop:grid-col-2 tablet:grid-col-2 grid-offset-2 usa-media-block border-white border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
+          class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block border-white desktop:border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
         >
           <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
         </div>
         <div
-          class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__body usa-media-block__inline-items border-white border-bottom padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5"
+          class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__body usa-media-block__inline-items border-white desktop:border-bottom desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
         >
           <div class="inline-number">
             {% if item.number %}

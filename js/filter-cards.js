@@ -1,23 +1,40 @@
-// var yaml = require('js-yaml');
-// var fs   = require('fs');
-//
-// var showcaseSearchForm = document.getElementById('showcase-search-form');
-// showcaseSearchForm.addEventListener('submit', function (event) {
-//   event.preventDefault();
-//   var input, filter, i, filteredProducts, productGrid;
-//   input = document.getElementById('searchField');
-//   filter = input.value.toLowerCase();
-//   products = document.getElementsByName('productCard');
-//   productGrid = document.getElementById('product-grid');
-//   filteredProducts = [];
-//   for (i = 0; i < products.length; i++) {
-//     productName = products[ i ].getElementsByTagName('h3')[ 0 ].innerText.toLowerCase();
-//     if (productName.includes(filter)) {
-//       filteredProducts.push((products[ i ]).outerHTML);
-//     }
-//   }
-//   newHtml = filteredProducts.join('');
-//   productGrid.innerHTML = newHtml;
-//   input.value = '';
-// }
-// );
+// Update display to seach and filter products
+var $ = require('jquery');
+
+$('#product-search-form').submit(function (e) {
+  e.preventDefault();
+  var filter = $( '#search-field').val();
+  var products = document.getElementsByName('productCard');
+  for (i = 0; i < products.length; i++) {
+    if (products[ i ].getElementsByTagName('h4')[ 0 ]) {
+      productName = products[ i ].getElementsByTagName('h4')[ 0 ].innerText.toLowerCase();
+      productNameSlugified = productName.replace(/\s/g, '-');
+      if (productName.includes(filter)) {
+        $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
+        console.log(productName);
+      } else {
+        $('#product-card-' + productNameSlugified).addClass('pc-inactive');
+        console.log("no match", productName);
+      }
+    }
+  }
+});
+
+$('#product-filter-form').submit(function (e) {
+  e.preventDefault();
+  var filter = $( '#search-field').val();
+  var products = document.getElementsByName('productCard');
+  for (i = 0; i < products.length; i++) {
+    if (products[ i ].getElementsByTagName('h4')[ 0 ]) {
+      productName = products[ i ].getElementsByTagName('h4')[ 0 ].innerText.toLowerCase();
+      productNameSlugified = productName.replace(/\s/g, '-');
+      if (productName.includes(filter)) {
+        $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
+        console.log(productName);
+      } else {
+        $('#product-card-' + productNameSlugified).addClass('pc-inactive');
+        console.log("no match", productName);
+      }
+    }
+  }
+});

@@ -2,11 +2,11 @@
 var $ = require('jquery');
 
 
-console.log('toggle problem statement connected');
+// console.log('toggle problem statement connected');
 
 $('.problem-statements').on('click', function (e) {
     var problemSet = e.target.id
-    console.log(problemSet)
+    // console.log(problemSet)
     $('.yr-btn').removeClass('yr-btn-active');
     $('.ps-active').addClass('ps-inactive');
     $('.ps-active').removeClass('ps-active');

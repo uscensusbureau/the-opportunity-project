@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{{ content }}
+
 <main id="main-content">
   <section>
     <div class="grid-container">
@@ -13,13 +16,6 @@ layout: default
       </div>
     </div>
   </section>
-  <!-- time for some javascript! -->
-  <!-- default display all cards -->
-  <!-- add a text input field (clearly labeled) -->
-  <!-- if the name, cohort, or tech team contains the values in the field, display it -->
-  <!-- for the filters: first standardize the topics (maybe convert to arrays?), sponsors, and add separate "year" value outside of the cohort -->
-  <!-- create a multi-select dropdown (confirm this should be a multi-select); don't auto-update! (accessibility) -->
-    <!-- on submit, what is the field value? -->
   <section class="usa-section usa-graphic-list grid-container">
     <div class="grid-row grid-gap">
       {% assign case_studies = site.data.case_studies %}
@@ -44,72 +40,65 @@ layout: default
       {% endfor %}
     </div>
     <hr>
-    <form id="showcase-search-form">
+    <form id="product-search-form">
       <label for="searchField">Search for a product created through The Opportunity Project:</label>
-      <input type="text" id="searchField" name="search">
+      <input type="text" id="search-field" name="search">
       <input type="submit" value="Search Products">
     </form>
+
+    <div class="usa-accordion usa-accordion--bordered">
+      <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="b-a1">
+          Filter Products
+        </button>
+      </h2>
+      <div id="b-a1" class="usa-accordion usa-width-one-half">
+        <form id="product-filter-form">
+          <div class="grid-row grid-gap">
+            <div class="desktop:grid-col-6 tablet:grid-col-6 margin-left-2">
+              <h4>Topic</h4>
+                {% for topic in site.data.product-filters.topics %}
+                  <div class="usa-checkbox">
+                    <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="problem-statement-topics" value="{{ topic }}">
+                    <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
+                  </div>
+                {% endfor %}
+            </div>
+            <div class="desktop:grid-col-3 tablet:grid-col-3 margin-left-2">
+              <h4>Year</h4>
+                {% for year in site.data.product-filters.years %}
+                  <div class="usa-checkbox">
+                    <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="problem-statement-topics" value="{{ year }}">
+                    <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
+                  </div>
+                {% endfor %}
+            </div>
+          </div>
+          <input class="usa-button__secondary float-right margin-right-4" type="submit" value="Filter Products">
+        </form>
+      </div>
+    </div>
+
     <hr>
-    <div class="grid-row grid-gap" id="product-grid">
+    <div class="grid-row">
       {% assign products = site.data.products %}
       {% for product in products %}
-        <div name="productCard"
-         class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-        >
-          <div class="usa-media-block__body">
-            <h3><a href="{{product.link}}">{{ product.product_name }}</a></h3>
-            <p><b>by {{ product.tech_team}}</b></p>
-            <span class="usa-tag">{{ product.cohort}}</span>
-            <!-- <p>
-              {{ product.description_new }}
-            </p> -->
-            <img
-              class="usa-media-block__img"
-              src="{{ site.baseurl }}/img/products/test.png"
-              alt="screenshot of City Builder website"
-            />
+          <div name="productCard" id="product-card-{{ product.product_name | slugify }}"
+           class="desktop:grid-col-3 tablet:grid-col-4 usa-media-block margin-2 border"
+          >
+            <div class="usa-media-block__body bg-base-darkest">
+              <h4 class=" margin-top-6 padding-left-2 padding-right-2" >{{ product.product_name }}</h4>
+              <p class="font-mono-xs padding-left-2 padding-right-2">{{ product.tech_team | upcase }}</p>
+              <img
+                class="usa-media-block__img"
+                src="{{ site.baseurl }}/img/products/test.png"
+                alt="screenshot of City Builder website"
+              />
+            </div>
           </div>
-        </div>
-      {% endfor %}
-    </div>
+        {% endfor %}
+      </div>
   </section>
 </main>
-
-
-<script>
-  console.log("connected!")
-  var showcaseSearchForm = document.getElementById('showcase-search-form');
-  console.log(showcaseSearchForm);
-  showcaseSearchForm.addEventListener('submit', function (event) {
-    event.preventDefault();
-    var input, filter, i, filteredProducts, productGrid;
-    input = document.getElementById('searchField');
-    filter = input.value.toLowerCase();
-    products = {{site.data.products | jsonify}};
-    productGrid = document.getElementById('product-grid');
-    filteredProducts = [];
-    for (i = 0; i < products.length; i++) {
-      productName = products[ i ].product_name.toLowerCase();
-      if (productName.includes(filter)) {
-        filteredProducts.push("".concat(
-        '<div name="productCard" class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"><div class="usa-media-block__body"><h3><a href="'
-          + products[i].link +
-          '">'
-          + products[i].product_name +
-          '</a></h3><p><b>by '
-          +  products[i].tech_team +
-          '</b></p><span class="usa-tag">'
-          +  products[i].cohort +
-          '</span><img class="usa-media-block__img" src="{{ site.baseurl }}/img/products/test.png" alt="screenshot of City Builder website"/></div></div>'
-        ));
-      }
-    }
-    newHtml = filteredProducts.join('');
-    productGrid.innerHTML = newHtml;
-    input.value = '';
-  }
-  );
-
-</script>
-
-{{ content }}

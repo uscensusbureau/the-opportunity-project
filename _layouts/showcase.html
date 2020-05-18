@@ -80,25 +80,28 @@ layout: default
         </form>
       </div>
     </div>
-
     <hr>
-    <div class="grid-row">
+    <h6>Products</h6>
+    <ul class="usa-card-group">
       {% assign products = site.data.products %}
       {% for product in products %}
-          <div name="productCard" id="product-card-{{ product.product_name | slugify }}"
-           class="desktop:grid-col-3 tablet:grid-col-4 usa-media-block margin-2 border"
-          >
-            <div class="usa-media-block__body bg-base-darkest">
-              <h4 class=" margin-top-6 padding-left-2 padding-right-2" >{{ product.product_name }}</h4>
-              <p class="font-mono-xs padding-left-2 padding-right-2">{{ product.tech_team | upcase }}</p>
+        <li class="desktop:grid-col-3 tablet:grid-col-3 usa-card">
+          <div class="usa-card__container bg-base-darkest">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading">{{ product.product_name }}</h2>
+            </header>
+            <div class="usa-card__body">
+              <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
+            </div>
+            <div class="usa-card__img">
               <img
-                class="usa-media-block__img"
                 src="{{ site.baseurl }}/img/products/test.png"
                 alt="screenshot of City Builder website"
               />
             </div>
           </div>
-        {% endfor %}
-      </div>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 </main>

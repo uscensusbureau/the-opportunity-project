@@ -17,28 +17,33 @@ layout: default
     </div>
   </section>
   <section class="usa-section usa-graphic-list grid-container">
-    <div class="grid-row grid-gap">
-      {% assign case_studies = site.data.case_studies %}
-      {% for case in case_studies %}
-        <div
-         class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-        >
-          <div name="productCard" class="usa-media-block__body">
+    {% assign case_studies = site.data.case_studies %}
+      <div class="grid-row grid-gap">
+        {% for case in case_studies %}
+          <div
+            class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <!-- {% if case.image %}
+              <img src="{{ site.baseurl}}/assets/img/{{ photo.image }}" alt="{{ photo.image-alt }}">
+            {% endif %} -->
             <img
-              class="usa-media-block__img"
               src="{{ site.baseurl }}/img/products/test.png"
               alt="screenshot of City Builder website"
             />
-            <h3><a href="{{site.baseurl}}/case-studies/{{case.short_url}}">{{ case.product_name }}</a></h3>
-            <p><b>by {{ case.tech_team}}</b></p>
-            <span class="usa-tag">{{ case.cohort}}</span>
-            <p>
-              {{ case.description_new }}
-            </p>
+            <div class="content-grid-one-third">
+              {% if case.product_name %}
+                <h2>{{ case.product_name }}</h2>
+              {% endif %}
+              {% if case.tech_team %}
+                <p class="font-mono-sm">{{ case.tech_team }}</p>
+              {% endif %}
+              {% if case.overlay_text%}
+                <p class="font-sans-2xs">{{ case.overlay_text}}</p>
+              {% endif %}
+            </div>
           </div>
-        </div>
-      {% endfor %}
-    </div>
+        {% endfor %}
+      </div>
     <hr>
     <form id="product-search-form">
       <label for="searchField">Search for a product created through The Opportunity Project:</label>

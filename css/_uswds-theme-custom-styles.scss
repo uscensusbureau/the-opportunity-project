@@ -1898,6 +1898,15 @@ code {
     }
   }
   }
+
+  img + .content-grid-one-third {
+  width: 85%;
+  position: absolute;
+  bottom: units(0);
+  background-color: color("base-darkest");
+  color: color("white");
+  padding: units(2);
+  }
 }
 
 .usa-media-block__background-image-portrait {

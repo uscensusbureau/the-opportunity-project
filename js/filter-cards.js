@@ -23,7 +23,7 @@ console.log("connected!")
 // });
 
 $('.usa-card').on('click', function () {
-  $( this ).find('.modal').removeClass('modal-inactive').addClass('modal-active');
+  $( this ).next('.modal').removeClass('modal-inactive').addClass('modal-active');
 });
 
 

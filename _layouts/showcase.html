@@ -105,32 +105,32 @@ layout: default
               />
             </div>
           </div>
-          <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive">
-            <div class="grid-row">
-              <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
-                <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
-                  <img
-                    src="{{ site.baseurl }}/img/products/test.png"
-                    alt="screenshot of City Builder website"
-                  />
-                </div>
-                <div class="display-inline-block desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
-                  <span class="close">&times;</span>
-                  <h2 class="font-sans-md">{{ product.product_name }}</h2>
-                  <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
-                  <p>{{ product.description_new }}</p>
-                  <p>Datasets Used</p>
-                  <p>
-                    {% for dataset in product.data_sets %}
-                      {{ dataset }}
-                    {% endfor %}
-                  </p>
-                  <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
-                </div>
+        </li>
+        <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive">
+          <div class="grid-row">
+            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
+              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
+                <img
+                  src="{{ site.baseurl }}/img/products/test.png"
+                  alt="screenshot of City Builder website"
+                />
+              </div>
+              <div class="display-inline-block desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
+                <span class="close">&times;</span>
+                <h2 class="font-sans-md">{{ product.product_name }}</h2>
+                <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
+                <p>{{ product.description_new }}</p>
+                <p>Datasets Used</p>
+                <p>
+                  {% for dataset in product.data_sets %}
+                    {{ dataset }}
+                  {% endfor %}
+                </p>
+                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
               </div>
             </div>
           </div>
-        </li>
+        </div>
       {% endfor %}
     </ul>
   </section>

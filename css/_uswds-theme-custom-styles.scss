@@ -1850,6 +1850,11 @@ code {
   display: block;
 }
 
+.pc-inactive {
+  display: none !important;
+}
+
+
 .usa-media-block__body {
   // scss-lint:disable SelectorDepth
   color: color("white");

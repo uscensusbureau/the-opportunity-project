@@ -90,26 +90,6 @@
     journalists, philanthropists, public servants, and policy advocates to
     search Census Bureau, FBI, and CDC public data on demographics, criminal
     justice, public health, and elections.
-- product_name: Grants Intelligence
-  tech_team: eCivis
-  cohort: 2017 - Census/OMB/Treasury
-  problem_statement: Making federal grants data user-friendly for local leaders
-  link: 'https://intel.ecivis.com'
-  description_new:
-    Helps local, state, federal, and tribal governments navigate federal grants
-    and maximize the return on investment of federal grant dollars
-  data_sets:
-    - USA Spending
-    - Single Audit
-    - Census Bureau
-    - Catalog of Federal Domestic Assistance
-  prize_status: nil
-  category: grants
-  description_old:
-    eCivis's tool uses USA Spending, Single Audit, Census Bureau and Catalog of
-    Federal Domestic Assistance data to help local, state, federal, and tribal
-    governments navigate federal grants and maximize the return on investment of
-    federal grant dollars.
 - product_name: Social Impact Reporting Platform
   tech_team: True Impact
   cohort: 2017 - Census/OMB/Treasury

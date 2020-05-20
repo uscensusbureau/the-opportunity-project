@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-permalink: /case-studies/icasa
+permalink: /case-studies/prados
 layout: default-internal-page
 class: case-study
 

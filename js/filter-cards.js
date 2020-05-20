@@ -24,6 +24,29 @@ $('#product-search-form').submit(function (e) {
   }
 });
 
+$('#product-filter-form').submit(function (e) {
+  e.preventDefault();
+  var selectedValues = document.getElementsByName('filter-checkbox');
+  var products = document.getElementsByName('productCard');
+  for (i = 0; i < selectedValues.length; i++) {
+    for (j = 0; j < products.length; j++ ) {
+      if (selectedValues[ i ].checked == true ) {
+        var productTopic = products[ j ].getElementsByTagName('h4')[ 0 ].innerText;
+        var filter = selectedValues[ i ].value
+        if (filter == productTopic) {
+          // $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
+          console.log("matching", selectedValues[ i ], productTopic);
+        }
+    }
+
+      // else {
+    //     $('#product-card-' + productNameSlugified).addClass('pc-inactive');
+    //     console.log("no match", productNameSlugified);
+    //   }
+    }
+  }
+});
+
 $('.usa-card').on('click', function () {
   $( this ).next('.modal').removeClass('modal-inactive').addClass('modal-active');
 });

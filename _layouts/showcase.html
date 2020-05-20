@@ -66,7 +66,7 @@ layout: default
               <h4>Topic</h4>
                 {% for topic in site.data.product-filters.topics %}
                   <div class="usa-checkbox">
-                    <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="problem-statement-topics" value="{{ topic }}">
+                    <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
                     <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
                   </div>
                 {% endfor %}
@@ -75,7 +75,7 @@ layout: default
               <h4>Year</h4>
                 {% for year in site.data.product-filters.years %}
                   <div class="usa-checkbox">
-                    <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="problem-statement-topics" value="{{ year }}">
+                    <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
                     <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
                   </div>
                 {% endfor %}
@@ -94,6 +94,8 @@ layout: default
           <div class="usa-card__container bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.product_name | slugify}}">{{ product.product_name }}</h2>
+              <h3 class="hidden" value="{{ product.year }}"></h3>
+              <h4 class="hidden">{{ product.cohort }}</h4>
             </header>
             <div class="usa-card__body">
               <p class="font-mono-xs text-white">{{ product.tech_team | upcase }}</p>

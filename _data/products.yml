@@ -1,6 +1,6 @@
 - product_name: Get Vets Help
   tech_team: Care Partners Plus
-  cohort: 2017 - ED/HUD/VA
+  cohort: 2017 - ED HUD VA
   problem_statement: Veterans Homelessness and Employment
   link: 'https://www.carepartnersplus.com/'
   description_new:
@@ -19,7 +19,7 @@
     transparency, and accountability.
 - product_name: PAIRIN Pathways
   tech_team: Pairin
-  cohort: 2017 - ED/HUD/VA
+  cohort: 2017 - ED HUD VA
   problem_statement: Veterans Homelessness and Employment
   link: 'https://www.pairin.com/pairin-pathways/'
   description_new:
@@ -38,7 +38,7 @@
     and employers that can ensure their success.
 - product_name: MySpot
   tech_team: Excella
-  cohort: 2017 - ED/HUD/VA
+  cohort: 2017 - ED HUD VA
   problem_statement: Youth Homelessness
   link: 'https://www.findmyspot.org'
   description_new:
@@ -62,7 +62,7 @@
     application developers so they can solve social problems using open data
     available for their communities and cities
   data_sets:
-    -     - Census Bureau American Community Survey
+    - Census Bureau American Community Survey
   prize_status: nil
   category: 'census,discovery'
   description_old:
@@ -143,7 +143,7 @@
     matter to me?'
 - product_name: Career Nav
   tech_team: Shift.org
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   link: 'https://www.shift.org/careernav'
   description_new:
@@ -161,7 +161,7 @@
     dream jobs in desired locations.
 - product_name: Grants Impact and Story Tool
   tech_team: REI
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Improving Access to and Management of Federal Grants
   link: 'https://gist.reisystems.io'
   description_new:
@@ -185,7 +185,7 @@
     the American public.
 - product_name: Watson Employment Manager
   tech_team: IBM
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   link: 'https://apprenticeships.mybluemix.net'
   description_new:
@@ -206,7 +206,7 @@
     search and training recommendations, and skill gap analysis.
 - product_name: Grants Intelligence
   tech_team: eCivis
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Improving Access to and Management of Federal Grants
   link: 'https://intel.ecivis.com/homelessness'
   description_new:
@@ -229,7 +229,7 @@
     transparency and accountability.
 - product_name: Socrata Citizen Education Data Cloud
   tech_team: Socrata
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Helping States Develop Education Report Cards
   link: 'https://top.demo.socrata.com'
   description_new:
@@ -252,7 +252,7 @@
     Act (ESSA).
 - product_name: Veteran Apprenticeship Matcher
   tech_team: Civis Analytics
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   link: 'https://www.civisanalytics.com/custom-services/'
   description_new:
@@ -272,7 +272,7 @@
     military history.
 - product_name: Nepris Industry Connections
   tech_team: Nepris
-  cohort: 2018 - ED/DOL/OMB/Treasury
+  cohort: 2018 - ED DOL OMB/Treasury
   problem_statement: Promoting Access to and Interest in STEM Fields
   link: 'https://nepris.com/misc/careersearch'
   description_new:

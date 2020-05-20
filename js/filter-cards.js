@@ -15,10 +15,8 @@ $('#product-search-form').submit(function (e) {
       productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
       if (productName.includes(filter)) {
         $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
-        console.log(productName);
       } else {
         $('#product-card-' + productNameSlugified).addClass('pc-inactive');
-        console.log("no match", productNameSlugified);
       }
     }
   }
@@ -30,19 +28,19 @@ $('#product-filter-form').submit(function (e) {
   var products = document.getElementsByName('productCard');
   for (i = 0; i < selectedValues.length; i++) {
     for (j = 0; j < products.length; j++ ) {
+      productTopic = products[ j ].getElementsByTagName('h4')[ 0 ].innerText;
+      productName = products[ j ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
+      productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
       if (selectedValues[ i ].checked == true ) {
-        var productTopic = products[ j ].getElementsByTagName('h4')[ 0 ].innerText;
         var filter = selectedValues[ i ].value
         if (filter == productTopic) {
-          // $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
-          console.log("matching", selectedValues[ i ], productTopic);
+          console.log("match", filter, productTopic, productNameSlugified)
+          $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
+        } else {
+          console.log("no match", filter, productTopic, productNameSlugified)
+          $('#product-card-' + productNameSlugified).addClass('pc-inactive');
         }
-    }
-
-      // else {
-    //     $('#product-card-' + productNameSlugified).addClass('pc-inactive');
-    //     console.log("no match", productNameSlugified);
-    //   }
+      }
     }
   }
 });

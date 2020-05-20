@@ -54,7 +54,7 @@
     the Washington, DC area.
 - product_name: My City Data Learning Tool
   tech_team: Cisco
-  cohort: 2017 - Census/OMB/Treasury
+  cohort: 2017 - Census OMB/Treasury
   problem_statement: Engaging communities in the Census
   link: 'https://developer.cisco.com/site/census/'
   description_new:
@@ -72,7 +72,7 @@
     available for their communities and cities.
 - product_name: Bayes BD
   tech_team: MIT
-  cohort: 2017 - Census/OMB/Treasury
+  cohort: 2017 - Census OMB/Treasury
   problem_statement: Engaging communities in the Census
   link: 'https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0'
   description_new:
@@ -92,7 +92,7 @@
     justice, public health, and elections.
 - product_name: Social Impact Reporting Platform
   tech_team: True Impact
-  cohort: 2017 - Census/OMB/Treasury
+  cohort: 2017 - Census OMB/Treasury
   problem_statement: Making federal grants data user-friendly for local leaders
   link: 'http://www.trueimpact.com'
   description_new:
@@ -108,7 +108,7 @@
     database to find funding opportunities they may qualify for.
 - product_name: PopCount
   tech_team: IBM
-  cohort: 2017 - Census/OMB/Treasury
+  cohort: 2017 - Census OMB/Treasury
   problem_statement: Engaging communities in the Census
   link: nil
   description_new:
@@ -124,7 +124,7 @@
     Bureau employees conducting the homeless count.
 - product_name: Data2Go for Census Outreach
   tech_team: Measure of America
-  cohort: 2017 - Census/OMB/Treasury
+  cohort: 2017 - Census OMB/Treasury
   problem_statement: Engaging communities in the Census
   link: nil
   description_new:

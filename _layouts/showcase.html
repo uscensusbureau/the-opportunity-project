@@ -1,21 +1,9 @@
 ---
-layout: default
+layout: default-internal-page
 ---
 
 {{ content }}
 
-<main id="main-content">
-  <section>
-    <div class="grid-container">
-      <div class="maxw-mobile-lg">
-        <h1
-          class="hero--heading margin-y-10 line-height-sans-3 text-thin font-lang-13"
-        >
-          {{ page.lead }}
-        </h1>
-      </div>
-    </div>
-  </section>
   <section class="usa-section usa-graphic-list grid-container">
     {% assign case_studies = site.data.case_studies %}
       <div class="grid-row grid-gap">
@@ -51,36 +39,66 @@ layout: default
       <input type="submit" value="Search Products">
     </form>
 
-    <div class="usa-accordion usa-accordion--bordered">
-      <h2 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="b-a1">
-          Filter Products
-        </button>
-      </h2>
-      <div id="b-a1" class="usa-accordion usa-width-one-half">
-        <form id="product-filter-form">
-          <div class="grid-row grid-gap">
-            <div class="desktop:grid-col-6 tablet:grid-col-6 margin-left-2">
-              <h4>Topic</h4>
-                {% for topic in site.data.product-filters.topics %}
-                  <div class="usa-checkbox">
-                    <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
-                    <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
-                  </div>
-                {% endfor %}
-            </div>
-            <div class="desktop:grid-col-3 tablet:grid-col-3 margin-left-2">
-              <h4>Year</h4>
-                {% for year in site.data.product-filters.years %}
-                  <div class="usa-checkbox">
-                    <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
-                    <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
-                  </div>
-                {% endfor %}
-            </div>
-            <div class="desktop:grid-col-3 tablet:grid-col-3 margin-left-2">
+    <form id="product-filter-form">
+      <div class="desktop:grid-col-3 tablet:grid-col-3">
+        <div class="usa-accordion usa-accordion--bordered">
+          <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="topics">
+              Topic
+            </button>
+          </h2>
+          <div id="topics" class="usa-accordion">
+            {% for topic in site.data.product-filters.topics %}
+                <div class="usa-checkbox">
+                  <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
+                  <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="desktop:grid-col-3 tablet:grid-col-3">
+        <div class="usa-accordion usa-accordion--bordered">
+          <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="year">
+              Year
+            </button>
+          </h2>
+          <div id="year" class="usa-accordion">
+            {% for year in site.data.product-filters.years %}
+                <div class="usa-checkbox">
+                  <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
+                  <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="desktop:grid-col-3 tablet:grid-col-3">
+        <div class="usa-accordion usa-accordion--bordered">
+          <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="agency">
+              Agency
+            </button>
+          </h2>
+          <div id="agency" class="usa-accordion">
+            {% for agency in site.data.product-filters.agencies %}
+                <div class="usa-checkbox">
+                  <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
+                  <label class="usa-checkbox__label" for="{{ agency }}">{{ agency }}</label>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+            <!-- <div class="desktop:grid-col-3 tablet:grid-col-3 margin-left-2">
               <h4>Agency</h4>
                 {% for agency in site.data.product-filters.agencies %}
                   <div class="usa-checkbox">
@@ -88,12 +106,10 @@ layout: default
                     <label class="usa-checkbox__label" for="{{ agency }}">{{ agency }}</label>
                   </div>
                 {% endfor %}
-            </div>
-          </div>
+            </div> -->
           <input class="usa-button__secondary float-right margin-right-4" type="submit" value="Filter Products">
         </form>
-      </div>
-    </div>
+
     <hr>
     <h6>Products</h6>
     <ul class="usa-card-group">

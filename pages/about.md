@@ -1,14 +1,41 @@
 ---
-title: About TOP
+title: About
+class: about
 permalink: /about/
 layout: default-internal-page
-lead: The Opportunity Project at the U.S. Census Bureau helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.
+
+# hero section
+lead:
+  - 'The Opportunity Project at the U.S. Census Bureau helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
+  - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 100 consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
+
+#blue background section
+content-primary:
+  title: How America’s Data Becomes America’s Innovation
+  description:
+    - 'We facilitate 12-week product development cycles (called “sprints”) that pull together innovators from every sector. Tech teams join a sprint to build data-powered solutions to critical problems facing the public. Then, we match them with subject-matter experts, who offer valuable information and feedback. '
+  subsections:
+    - title: Collaboration, Simplified
+      description: We facilitate virtual collaboration across government, industry, and communities. In our sprints, cross-sector expertise is only an email, chat room, or call away.
+      image:
+      image-alt:
+    - title: Federal Data, Explained
+      description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
+      image:
+      image-alt:
+  button:
+    - link:
+      text: Learn More
+
+#white background section
+content-light:
+  title: Our History
+  description:
+    - 'The Opportunity Project launched in March 2016 as a White House initiative to catalyze new technologies that use federal and local data to empower communities with information about critical resources, such as affordable housing, quality schools, and jobs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through data, technology, and user centered design.'
+    - 'In the past 4 years, TOP’s hundreds of participants have created 100 digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the Federal Data Strategy, the President’s Management Agenda, performance.gov,  Department of Commerce’s Strategic Plan, the Task Force on Agriculture and Rural Prosperity Report. and many others. In 2019, The Opportunity  Project Act of 2019 was introduced to permanently authorize the program. '
+
 ---
 
-### Collaboration Simplified
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.** Lectus nulla at volutpat diam ut. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Auctor urna nunc id cursus metus. Nec dui nunc mattis enim ut tellus elementum. Consectetur adipiscing elit ut aliquam purus sit. Vitae congue mauris rhoncus aenean vel elit scelerisque. Felis eget nunc lobortis mattis aliquam faucibus purus. Scelerisque purus semper eget duis at tellus. Volutpat diam ut venenatis tellus in metus. Maecenas sed enim ut sem viverra aliquet eget sit amet. Est velit egestas dui id ornare arcu odio ut. Porta nibh venenatis cras sed felis eget. Neque vitae tempus quam pellentesque nec nam aliquam. Pharetra massa massa ultricies mi quis hendrerit. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.** Lectus nulla at volutpat diam ut. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Auctor urna nunc id cursus metus. Nec dui nunc mattis enim ut tellus elementum. Consectetur adipiscing elit ut aliquam purus sit. Vitae congue mauris rhoncus aenean vel elit scelerisque. Felis eget nunc lobortis mattis aliquam faucibus purus. Scelerisque purus semper eget duis at tellus. Volutpat diam ut venenatis tellus in metus. Maecenas sed enim ut sem viverra aliquet eget sit amet. Est velit egestas dui id ornare arcu odio ut. Porta nibh venenatis cras sed felis eget. Neque vitae tempus quam pellentesque nec nam aliquam. Pharetra massa massa ultricies mi quis hendrerit. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.
-
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.** Lectus nulla at volutpat diam ut. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Auctor urna nunc id cursus metus. Nec dui nunc mattis enim ut tellus elementum. Consectetur adipiscing elit ut aliquam purus sit. Vitae congue mauris rhoncus aenean vel elit scelerisque.
+{% include hero.html %}
+{% include sidebar-and-content-primary.html %}
+{% include sidebar-and-content-light.html %}

@@ -32,10 +32,21 @@ content-light:
   title: Our History
   description:
     - 'The Opportunity Project launched in March 2016 as a White House initiative to catalyze new technologies that use federal and local data to empower communities with information about critical resources, such as affordable housing, quality schools, and jobs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through data, technology, and user centered design.'
-    - 'In the past 4 years, TOP’s hundreds of participants have created 100 digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the Federal Data Strategy, the President’s Management Agenda, performance.gov,  Department of Commerce’s Strategic Plan, the Task Force on Agriculture and Rural Prosperity Report. and many others. In 2019, The Opportunity  Project Act of 2019 was introduced to permanently authorize the program. '
+    - 'In the past 4 years, TOP’s hundreds of participants have created 100 digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the Federal Data Strategy, the President’s Management Agenda, performance.gov,  Department of Commerce’s Strategic Plan, the Task Force on Agriculture and Rural Prosperity Report. and many others. In 2019, The Opportunity  Project Act of 2019 was introduced to permanently authorize the program.'
+
+# centered photo with overlay
+photo:
+  image: photos/sprints/2020-earth-sprints-banner.jpg
+  img-alt:
+  overlay:
+    title: An Initiative of the Census Open Innovation Labs
+    text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.
+  background: bg-base-lightest
+
 
 ---
 
 {% include hero.html %}
 {% include sidebar-and-content-primary.html %}
 {% include sidebar-and-content-light.html %}
+{% include single-column-centered-photo-with-overlay.html %}

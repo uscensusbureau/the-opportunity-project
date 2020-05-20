@@ -1801,6 +1801,10 @@ code {
   background: linear-gradient(color("primary"),color("primary"))0 0/100% 40% no-repeat;
 }
 
+.split-background-dark {
+  background: linear-gradient(color("base-darkest"),color("base-darkest"))0 0/100% 40% no-repeat;
+}
+
 // ========================================
 // 3. Custom page styles
 // ----------------------------------------

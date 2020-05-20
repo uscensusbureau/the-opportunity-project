@@ -3,6 +3,7 @@ permalink: /
 title: "The Opportunity Project"
 #class and layout determines page structure. Do not edit except for major updates!
 layout: default
+class: home
 
 # full span, top of page section
 hero:
@@ -20,6 +21,7 @@ callout:
     - p: We connect you with experts from industry, communities and government to help you turn federal open data into life-changing tech, faster.
 
 connecting-banner:
+  background-color: primary
   image: placeholder-home-banner-photo.png
   alt: "placeholder image"
 

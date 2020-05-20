@@ -6,7 +6,7 @@ class: case-study
 
 hero:
   product: Sille
-  tech_team: Data Ovela
+  tech_team: Datel Ovela
 
 connecting-banner:
   background-color: dark

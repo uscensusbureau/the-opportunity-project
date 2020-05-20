@@ -2,9 +2,9 @@
   <div class="grid-row grid-gap">
     <div class="desktop:grid-col-4 tablet:grid-col-4">
       {% for item in page.sidebar %}
-        <div class="usa-media-block border-right border-bottom border-base-lighter padding-right-2">
+        <div class="usa-media-block desktop:border-right border-bottom desktop:border-base-lighter padding-2 desktop:padding-left-0">
           {% if item.title %}
-            <p class="font-mono-xs text-secondary">{{ item.title | upcase }}</p>
+            <p class="font-mono-xs text-secondary  margin-top-0">{{ item.title | upcase }}</p>
           {% endif %}
           {% if item.text %}
             {% for p in item.text %}
@@ -12,7 +12,7 @@
             {% endfor %}
           {% endif %}
           {% if item.button %}
-            <button class="usa-button__primary-red margin-bottom-3 margin-top-0" type="button" name="button"><a href="{{ item.button.link }}">Go to Product</a></button>
+            <button class="usa-button__primary-red margin-bottom-3" type="button" name="button"><a href="{{ item.button.link }}">Go to Product</a></button>
           {% endif %}
           {% if item.list %}
             <ul class="padding-left-3">

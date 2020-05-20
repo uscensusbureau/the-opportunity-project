@@ -1,6 +1,7 @@
 - product_name: Get Vets Help
   tech_team: Care Partners Plus
   cohort: 2017 - ED HUD VA
+  year: 2017
   problem_statement: Veterans Homelessness and Employment
   link: 'https://www.carepartnersplus.com/'
   description_new:
@@ -20,6 +21,7 @@
 - product_name: PAIRIN Pathways
   tech_team: Pairin
   cohort: 2017 - ED HUD VA
+  year: 2017
   problem_statement: Veterans Homelessness and Employment
   link: 'https://www.pairin.com/pairin-pathways/'
   description_new:
@@ -39,6 +41,7 @@
 - product_name: MySpot
   tech_team: Excella
   cohort: 2017 - ED HUD VA
+  year: 2017
   problem_statement: Youth Homelessness
   link: 'https://www.findmyspot.org'
   description_new:
@@ -55,6 +58,7 @@
 - product_name: My City Data Learning Tool
   tech_team: Cisco
   cohort: 2017 - Census OMB/Treasury
+  year: 2017
   problem_statement: Engaging communities in the Census
   link: 'https://developer.cisco.com/site/census/'
   description_new:
@@ -73,6 +77,7 @@
 - product_name: Bayes BD
   tech_team: MIT
   cohort: 2017 - Census OMB/Treasury
+  year: 2017
   problem_statement: Engaging communities in the Census
   link: 'https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0'
   description_new:
@@ -93,6 +98,7 @@
 - product_name: Social Impact Reporting Platform
   tech_team: True Impact
   cohort: 2017 - Census OMB/Treasury
+  year: 2017
   problem_statement: Making federal grants data user-friendly for local leaders
   link: 'http://www.trueimpact.com'
   description_new:
@@ -109,6 +115,7 @@
 - product_name: PopCount
   tech_team: IBM
   cohort: 2017 - Census OMB/Treasury
+  year: 2017
   problem_statement: Engaging communities in the Census
   link: nil
   description_new:
@@ -125,6 +132,7 @@
 - product_name: Data2Go for Census Outreach
   tech_team: Measure of America
   cohort: 2017 - Census OMB/Treasury
+  year: 2017
   problem_statement: Engaging communities in the Census
   link: nil
   description_new:
@@ -144,6 +152,7 @@
 - product_name: Career Nav
   tech_team: Shift.org
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   link: 'https://www.shift.org/careernav'
   description_new:
@@ -162,6 +171,7 @@
 - product_name: Grants Impact and Story Tool
   tech_team: REI
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Improving Access to and Management of Federal Grants
   link: 'https://gist.reisystems.io'
   description_new:
@@ -186,6 +196,7 @@
 - product_name: Watson Employment Manager
   tech_team: IBM
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   link: 'https://apprenticeships.mybluemix.net'
   description_new:
@@ -207,6 +218,7 @@
 - product_name: Grants Intelligence
   tech_team: eCivis
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Improving Access to and Management of Federal Grants
   link: 'https://intel.ecivis.com/homelessness'
   description_new:
@@ -230,6 +242,7 @@
 - product_name: Socrata Citizen Education Data Cloud
   tech_team: Socrata
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Helping States Develop Education Report Cards
   link: 'https://top.demo.socrata.com'
   description_new:
@@ -253,6 +266,7 @@
 - product_name: Veteran Apprenticeship Matcher
   tech_team: Civis Analytics
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   link: 'https://www.civisanalytics.com/custom-services/'
   description_new:
@@ -273,6 +287,7 @@
 - product_name: Nepris Industry Connections
   tech_team: Nepris
   cohort: 2018 - ED DOL OMB/Treasury
+  year: 2018
   problem_statement: Promoting Access to and Interest in STEM Fields
   link: 'https://nepris.com/misc/careersearch'
   description_new:
@@ -293,6 +308,7 @@
 - product_name: Census Intelligence Center
   tech_team: Civis Analytics
   cohort: 2020 Census
+  year: 2019
   problem_statement: Reaching Hard-to-Count Communities
   link: 'https://www.civisanalytics.com/census/'
   description_new:
@@ -312,6 +328,7 @@
 - product_name: Voatz
   tech_team: Voatz
   cohort: 2020 Census
+  year: 2019
   problem_statement: Bridging the Digital Divide
   link: 'https://www.voatz.com'
   description_new: ' Allows the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in future censuses'
@@ -330,6 +347,7 @@
 - product_name: Tract by Tract
   tech_team: Columbia
   cohort: 2020 Census
+  year: 2019
   problem_statement: Reaching Hard-to-Count Communities
   link: 'http://tractbytract.com/'
   description_new:
@@ -347,6 +365,7 @@
 - product_name: Community Counts
   tech_team: Excella
   cohort: 2020 Census
+  year: 2019
   problem_statement: Reaching Hard-to-Count Communities
   link: 'https://2020counts.org/'
   description_new:
@@ -364,6 +383,7 @@
 - product_name: California Latino Power Map
   tech_team: Measure of America
   cohort: 2020 Census
+  year: 2019
   problem_statement: Reaching Hard-to-Count Communities
   link: 'https://latinocf.org/map'
   description_new:
@@ -383,6 +403,7 @@
 - product_name: Data.World Workspace
   tech_team: Data.World
   cohort: Agency
+  year: 2016
   problem_statement: Data Discovery
   link: 'https://data.world/opportunity'
   description_new:
@@ -402,6 +423,7 @@
 - product_name: Visualizing Youth Disconnection
   tech_team: Measure of America
   cohort: Agency
+  year: 2016
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
   link: 'http://www.measureofamerica.org/SegregatedOpportunity/'
   description_new: Combines various data critical to the well being of New Yorkers
@@ -416,6 +438,7 @@
 - product_name: Job Crowdsourcing Tool
   tech_team: Ushahidi
   cohort: Agency
+  year: 2016
   problem_statement: Connecting Americans to skills and jobs
   link: 'https://jobpostings.ushahidi.io/'
   description_new: Shares alerts of local job openings
@@ -430,6 +453,7 @@
 - product_name: FindHome
   tech_team: Loveland Technologies
   cohort: Agency
+  year: 2016
   problem_statement: Ending Homelessness
   link: nil
   description_new:
@@ -446,6 +470,7 @@
 - product_name: Housing Calculator
   tech_team: Airbnb
   cohort: Agency
+  year: 2016
   problem_statement: Ending Homelessness
   link: nil
   description_new:
@@ -462,6 +487,7 @@
 - product_name: Neighborhood Opportunity
   tech_team: Mapbox
   cohort: Agency
+  year: 2016
   problem_statement: Ending Homelessness
   link: 'https://labs.mapbox.com/labs/opportunity/'
   description_new:
@@ -479,6 +505,7 @@
 - product_name: Opportunity Dashboard
   tech_team: Great Schools
   cohort: Agency
+  year: 2016
   problem_statement: Identifying Equity Scores and Gaps
   link: nil
   description_new:
@@ -495,6 +522,7 @@
 - product_name: Training Finder
   tech_team: linkedIn
   cohort: Agency
+  year: 2016
   problem_statement: Connecting Americans to skills and jobs
   link: nil
   description_new: ' Surfaces education options that lead to in-demand careers for job seekers'
@@ -508,6 +536,7 @@
 - product_name: School ResourceMapper
   tech_team: 'Data Society,Kitamba'
   cohort: Agency
+  year: 2016
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
   link: 'https://learn.datasociety.com/kitamba-the-opportunity-project/'
   description_new:
@@ -527,6 +556,7 @@
 - product_name: LiveStories
   tech_team: LiveStories
   cohort: Agency
+  year: 2016
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
   link: nil
   description_new:
@@ -544,6 +574,7 @@
 - product_name: mySidewalk
   tech_team: My Sidewalk
   cohort: Agency
+  year: 2016
   problem_statement: Increasing safety and mobility across the nation
   link: 'https://theopportunityproject.mysidewalk.com/'
   description_new:
@@ -561,6 +592,7 @@
 - product_name: Create
   tech_team: Create
   cohort: Agency
+  year: 2016
   problem_statement: Increasing safety and mobility across the nation
   link: 'https://www.facebook.com/createrealestate/'
   description_new:
@@ -577,6 +609,7 @@
 - product_name: Commuter Map
   tech_team: Split
   cohort: Agency
+  year: 2016
   problem_statement: Increasing safety and mobility across the nation
   link: 'http://split.us/opportunity-project'
   description_new:
@@ -593,6 +626,7 @@
 - product_name: Findyour.town
   tech_team: Ovela
   cohort: Agency
+  year: 2016
   problem_statement: Small Town Resource Guide
   link: 'https://findyour.town'
   description_new:
@@ -612,6 +646,7 @@
 - product_name: Fitbit
   tech_team: Fitbit
   cohort: Agency
+  year: 2016
   problem_statement: Promoting Health and Wellbeing Nationwide
   link: 'https://www.fitbit.com/us/activity-index'
   description_new:
@@ -629,6 +664,7 @@
 - product_name: EARS
   tech_team: University of Oregon
   cohort: Agency
+  year: 2016
   problem_statement: Veterans Suicide Prevention
   link: nil
   description_new:
@@ -646,6 +682,7 @@
 - product_name: TextHelp
   tech_team: Open Medicine Institute
   cohort: Agency
+  year: 2016
   problem_statement: Veterans Suicide Prevention
   link: nil
   description_new:
@@ -662,6 +699,7 @@
 - product_name: Opportunity. hackernest.com
   tech_team: Hackernest
   cohort: Agency
+  year: 2016
   problem_statement: Connecting Americans to skills and jobs
   link: 'http://opportunity.hackernest.com'
   description_new:
@@ -677,6 +715,7 @@
 - product_name: Opportunity Enabler
   tech_team: Esri
   cohort: Agency
+  year: 2016
   problem_statement: nil
   link: 'http://bit.ly/2aWs865'
   description_new:
@@ -693,6 +732,7 @@
 - product_name: Wolfram Data Repository
   tech_team: Wolfram
   cohort: Agency
+  year: 2016
   problem_statement: Data Discovery
   link: nil
   description_new: ' Helps researchers and developers rapidly prototype and deploy tools that address a variety of problems surrounding access to opportunity'
@@ -706,6 +746,7 @@
 - product_name: CareerSpark
   tech_team: Flatiron School
   cohort: Agency
+  year: 2016
   problem_statement: Connecting Americans to skills and jobs
   link: 'https://itunes.apple.com/us/app/careerspark/id1146518762?mt=8'
   description_new: Makes career exploration easy and accessible for high school students
@@ -720,6 +761,7 @@
 - product_name: iCASA - Civic Address and Governance Platform for Puerto Rico
   tech_team: iCASA PR
   cohort: Geocohort
+  year: 2018
   problem_statement:
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
@@ -743,6 +785,7 @@
 - product_name: Sille
   tech_team: Datel Ovela
   cohort: Geocohort
+  year: 2018
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'https://sille.space/app_fema/'
   description_new:
@@ -764,6 +807,7 @@
 - product_name: Insight for ArcGIS
   tech_team: Esri
   cohort: Geocohort
+  year: 2018
   problem_statement: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   link: 'https://go.esri.com/opioidprediction'
   description_new:
@@ -783,6 +827,7 @@
 - product_name: The TomTom Centaur Data Logging App
   tech_team: TomTom
   cohort: Geocohort
+  year: 2018
   problem_statement:
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
@@ -801,6 +846,7 @@
 - product_name: Puerto Rico Land Grid
   tech_team: Loveland Technologies
   cohort: Geocohort
+  year: 2018
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'https://landgrid.com/us/pr#b=admin'
   description_new:
@@ -821,6 +867,7 @@
 - product_name: STEWMAP Explorer
   tech_team: Mapbox
   cohort: Geocohort
+  year: 2018
   problem_statement: Identifying and Strengthening Civic Environmental Stewardship
   link: 'https://labs.mapbox.com/narratives/stewards/'
   description_new:
@@ -839,6 +886,7 @@
 - product_name: 'Bloomberg DEVOP: Demographic Environmental Volunteer Opportunity Plotter'
   tech_team: Bloomberg
   cohort: Geocohort
+  year: 2018
   problem_statement: Identifying and Strengthening Civic Environmental Stewardship
   link: 'https://communityanalyst.arcgis.com/esriCA/login/index.html'
   description_new:
@@ -857,6 +905,7 @@
 - product_name: Fulcrum Community for Addressing and Disaster Preparedness
   tech_team: Spatial Networks
   cohort: Geocohort
+  year: 2018
   problem_statement:
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
@@ -877,6 +926,7 @@
 - product_name: Disaster Awareness Games
   tech_team: 'Geoslug- UC Santa Barbara,Motivf'
   cohort: Geocohort
+  year: 2018
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'http://www.thedagames.com/'
   description_new: Serious game that engages young adults in preparing for emergencies
@@ -891,6 +941,7 @@
 - product_name: Data2GO.NYC
   tech_team: Measure of America
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: 'https://data2go.nyc/'
   description_new:
@@ -912,6 +963,7 @@
 - product_name: Opportunity Score
   tech_team: Redfin
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: 'https://labs.redfin.com/opportunity-score'
   description_new:
@@ -927,6 +979,7 @@
 - product_name: GreatSchools
   tech_team: Great Schools
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: nil
   description_new: '!!! Broken link'
@@ -939,6 +992,7 @@
 - product_name: PolicyMap Tool
   tech_team: Policy Map
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: 'https://opportunity.policymap.com/'
   description_new:
@@ -954,6 +1008,7 @@
 - product_name: Transit Analyst
   tech_team: Azavea
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: 'https://transitanalyst.com/'
   description_new:
@@ -975,6 +1030,7 @@
 - product_name: diversitydatakids.org
   tech_team: diversitydatakids.org
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: nil
   description_new: ' Provides visibility into the affordability of opportunity for children in U.S. metro areas'
@@ -987,6 +1043,7 @@
 - product_name: Baltimore Explorer
   tech_team: Zillow
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: nil
   description_new: Explores the opportunity and growth potential of Baltimore's neighborhoods
@@ -999,6 +1056,7 @@
 - product_name: Community Commons
   tech_team: Community Commons
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: nil
   description_new: Finds areas of opportunity through geographic visualizations and reports
@@ -1011,6 +1069,7 @@
 - product_name: Streetwyze
   tech_team: Streetwyze
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: 'http://www.streetwyze.com/'
   description_new:
@@ -1024,6 +1083,7 @@
 - product_name: National Equity Atlas
   tech_team: National Equity Atlas
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link: 'https://www.nationalequityatlas.org/'
   description_new:
@@ -1046,6 +1106,7 @@
 - product_name: OpenData Network
   tech_team: Socrata
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link:
     https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
@@ -1059,6 +1120,7 @@
 - product_name: Affordable Housing Finder
   tech_team: Esri
   cohort: 2016 - Sprint 1
+  year: 2016
   problem_statement: nil
   link:
     https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG
@@ -1073,6 +1135,7 @@
 - product_name: Inclusive Growth Score
   tech_team: Mastercard
   cohort: Workforce
+  year: 2019
   problem_statement: Opportunity Zones
   link: 'https://inclusivegrowthscore.com/'
   description_new:
@@ -1092,6 +1155,7 @@
 - product_name: City Builder
   tech_team: Citi Ventures
   cohort: Workforce
+  year: 2019
   problem_statement: Opportunity Zones
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
   description_new:
@@ -1112,6 +1176,7 @@
 - product_name: Solve
   tech_team: Solve.is
   cohort: Workforce
+  year: 2019
   problem_statement: Talent Discovery
   link: 'https://solve.is/'
   description_new:
@@ -1131,6 +1196,7 @@
 - product_name: Kanarys
   tech_team: Kanarys
   cohort: Workforce
+  year: 2019
   problem_statement: Multiple Pathways
   link: 'https://app.kanarys.com/'
   description_new:
@@ -1147,6 +1213,7 @@
 - product_name: Talent Finder Tool
   tech_team: Emsi
   cohort: Workforce
+  year: 2019
   problem_statement: Talent Discovery
   link:
     https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes
@@ -1168,6 +1235,7 @@
 - product_name: Inclusive Development Dashboards
   tech_team: Burning Glass
   cohort: Workforce
+  year: 2019
   problem_statement: Talent Discovery
   link: 'https://www.burning-glass.com/census/community.html'
   description_new:
@@ -1193,6 +1261,7 @@
 - product_name: Practical Business Skills
   tech_team: Visa
   cohort: Workforce
+  year: 2019
   problem_statement: Entrepreneurship
   link: 'https://www.practicalbusinessskills.com'
   description_new:
@@ -1211,6 +1280,7 @@
 - product_name: Rural Startup Scout
   tech_team: Center on Rural Innovation
   cohort: Workforce
+  year: 2019
   problem_statement: Opportunity Zones
   link: 'https://oz.ruralopportunitymap.us/'
   description_new:
@@ -1233,6 +1303,7 @@
 - product_name: Job Opportunity Tool
   tech_team: Redfin
   cohort: Workforce
+  year: 2019
   problem_statement: Talent Discovery
   link: 'https://www.redfin.com/blog/job-opportunity-tool/'
   description_new:
@@ -1250,6 +1321,7 @@
 - product_name: Community Led Opportunity Zones
   tech_team: Public Democracy
   cohort: Workforce
+  year: 2019
   problem_statement: Opportunity Zones
   link: 'https://www.publicdemocracy.io/opportunity-zones-local-impact'
   description_new:

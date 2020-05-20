@@ -33,7 +33,7 @@ main-content:
     - title: Today, their work continues to “support the creation of authoritative address datasets for Puerto Rico that preserve [its] cultural heritage and comply with Federal Standards” and is funded by two grants.
       list:
       - In September 2019, Raúl Ríos-Díaz, Founder of iCasaPR, was awarded a Research Grant from the Advanced Research Grants Program (ARG) to continue the development of PRADOS. This grant is sponsored by the Puerto Rico Science, Technology & Research Trust.
-      - In October 2019, iCasaPR was awarded a second grant by Philanthropy Puerto Rico, to launch the Puerto Rico Civic Address Vulnerability Evaluation (PRCAVE) Project. PRCAVE will be the first systematic study of the addressing infrastructure problems in Puerto Rico and its effect on disadvantaged communities. 
+      - In October 2019, iCasaPR was awarded a second grant by Philanthropy Puerto Rico, to launch the Puerto Rico Civic Address Vulnerability Evaluation (PRCAVE) Project. PRCAVE will be the first systematic study of the addressing infrastructure problems in Puerto Rico and its effect on disadvantaged communities.
       - Since the TOP sprint, iCasaPR has served as an advisor for the Puerto Rico Addressing Working Group (PRAWG) that includes FEMA, EPA, NASA, the U.S. Census Bureau
       - iCasaPR continues to engage local experts around a group called the Puerto Rico Civic Address Standards Implementation Technical Advisory (PRCasita) task force to improve the addressing infrastructure of Puerto Rico.
 
@@ -64,8 +64,11 @@ sidebar:
       - U.S. Department of Transportation
       - U.S. Postal Service data
 
+footer: iCasaPR is a 501(c)(3) organization that continues to help communities overcome the problem of “data invisibility” through the evaluation and improvement of their civic addresses. Their goal is to deploy their toolkit to municipios around the island, with the ultimate goal of reaching all of the 78 municipios. The ultimate goal of iCasaPR is to create authoritative address datasets at the municipio level that can be collected in a centralized address repository to support the reconstruction process, improve emergency response, and foster a more resilient future for Puerto Rico.
+
 ---
 
 {% include hero.html %}
 {% include connecting-banner.html %}
 {% include sidebar-and-wide-content.html %}
+{% include offset-footer.html %}

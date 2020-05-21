@@ -9,9 +9,12 @@
     {% for item in page.explanation-alt.text %}
       <div class="grid-row ps-{{ item.year }} {{ item.default }}" >
         <div
-          class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block border-white desktop:border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
+          class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block__body border-white desktop:border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
         >
           <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
+          {% for link in item.links %}
+            <a class="text-white" href="{{ link.link-path}}">{{ link.link-text}}</a><br>
+          {% endfor %}
         </div>
         <div
           class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__body usa-media-block__inline-items border-white desktop:border-bottom desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
@@ -29,11 +32,13 @@
               <p class="font-mono-3xs text-ls-2 text-light">{{ item.subtitle }}</p>
             {% endif %}
           {% if item.description %}
+            <p class="font-mono-3xs text-ls-2 text-secondary text-accent-warm">CHALLENGE</p>
             <p>{{ item.description }}</p>
           {% endif %}
-          {% for link in item.links %}
-            <a href="{{ link.link-path}}">{{ link.link-text}}</a><br>
-          {% endfor %}
+          {% if item.audience %}
+            <p class="font-mono-3xs text-ls-2 text-secondary text-accent-warm">TARGET AUDIENCE</p>
+            <p>{{ item.description }}</p>
+          {% endif %}
           </div>
         </div>
       </div>

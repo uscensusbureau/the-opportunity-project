@@ -1,6 +1,5 @@
 // Update display to seach and filter products
 var $ = require('jquery');
-var slugify = require('slugify')
 
 // console.log("connected!")
 

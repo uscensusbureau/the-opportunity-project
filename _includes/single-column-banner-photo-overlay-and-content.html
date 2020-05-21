@@ -1,0 +1,40 @@
+<section class="usa-section usa-graphic-list grid-container">
+  <div class="grid-row grid-gap">
+    <div class="desktop:grid-offset-2 desktop:grid-col-8">
+      {% for item in page.role-descriptions %}
+        {% if item.description %}
+          <p>{{ item.description }}</p>
+        {% endif %}
+        {% if item.accordions %}
+          {% for accordion in item.accordions %}
+            <div class="usa-accordion usa-accordion--bordered">
+              <h2 class="usa-accordion__heading">
+                <button class="usa-accordion__button"
+                  aria-expanded="false"
+                  aria-controls="{{ accordion.aria }}">
+                  {{ accordion.title }}
+                </button>
+              </h2>
+              <div id="{{ accordion.aria }}" class="usa-accordion bg-base-lightest margin-top-0 padding-left-2">
+                {% if accordion.steps %}
+                  {% for step in accordion.steps %}
+                    {% if step.title %}
+                      <p><b>{{ step.title }}</b></p>
+                    {% endif %}
+                    {% if step.description %}
+                      <ul>
+                        {% for substep in step.description %}
+                          <li>{{ substep }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+<section>

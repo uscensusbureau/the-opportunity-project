@@ -18,18 +18,18 @@
           {% for link in links %}
             {% if link.accordion %}
               <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text }}</span></button>
+                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-white" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text | upcase}}</span></button>
                 <ul id="extended-nav-section-one" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
-                      <a href="{{link.href}}/{{subnav.href}}">{{ subnav.text}}</a>
+                      <a href="{{link.href}}/{{subnav.href}} font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                     </li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link" href="{{ link.href }}"><span>{{ link.text}}</span></a>
+                <a class="usa-nav__link font-mono-xs text-white" href="{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
               </li>
             {% endif %}
           {% endfor %}
@@ -37,7 +37,7 @@
       </nav>
       <form
         id="search_form"
-        class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-none text-middle"
+        class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-right text-middle"
         action="https://search.usa.gov/search"
         accept-charset="UTF-8"
         method="get">

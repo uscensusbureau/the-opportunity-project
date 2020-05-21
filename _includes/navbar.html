@@ -5,16 +5,39 @@
     <div class="usa-logo site-logo" id="logo">
       <em class="usa-logo__text">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span aria-hidden="true" class="site-title-short">USWDS</span>
+          <span aria-hidden="true" class="site-title-short">The Opportunity Project</span>
           <span class="site-title">{{ site.title }}</span>
         </a>
       </em>
     </div>
     <button class="usa-menu-btn">Menu</button>
     <div class="navbar--container">
+      <nav class="usa-nav sticky">
+        <ul class="usa-nav__primary usa-accordion">
+          {% assign links = site.data.nav.primary %}
+          {% for link in links %}
+            {% if link.accordion %}
+              <li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text }}</span></button>
+                <ul id="extended-nav-section-one" class="usa-nav__submenu">
+                  {% for subnav in link.accordion %}
+                    <li class="usa-nav__submenu-item">
+                      <a href="{{link.href}}/{{subnav.href}}">{{ subnav.text}}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="usa-nav__primary-item">
+                <a class="usa-nav__link" href="{{ link.href }}"><span>{{ link.text}}</span></a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
       <form
         id="search_form"
-        class="navbar__search usa-search usa-search--small desktop:margin-right-2 display-none desktop:display-inline-block float-none text-middle"
+        class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-none text-middle"
         action="https://search.usa.gov/search"
         accept-charset="UTF-8"
         method="get">
@@ -36,21 +59,10 @@
           </button>
         </div>
       </form>
-      {% include download-buttons.html %}
     </div>
   </div>
 </header>
-<nav class="site-nav-secondary sticky">
-  <ul>
-    {%
-      include nav/list.html
-      links=site.data.nav.primary
-      rel='contains'
-      flat=true
-      primary=true
-    %}
-  </ul>
-</nav>
+
 <div class="usa-overlay"></div>
 
 <nav role="navigation" class="usa-nav site-nav sidenav-mobile">
@@ -86,6 +98,5 @@
     <ul class="usa-nav__primary usa-accordion">
       {% include nav/sections.html sections=site.data.nav.mobile %}
     </ul>
-    {% include download-buttons.html %}
   </div>
 </nav>

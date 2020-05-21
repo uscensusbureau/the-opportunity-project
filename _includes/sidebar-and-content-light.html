@@ -1,0 +1,29 @@
+{% assign content = page.content-light %}
+<section class="bg-base-lightest">
+  <section class="usa-section grid-container bg-white">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-3 tablet:grid-col-3 grid-offset-1">
+        {% if content.title %}
+          <h2>{{ content.title }}</h2>
+        {% endif %}
+      </div>
+      <div class="desktop:grid-col-8 tablet:grid-col-6  desktop:margin-top-3 border-top border-base-lighter">
+        {% if content.description %}
+          {% for p in content.description %}
+            <p class="padding-top-05">{{ p }}</p>
+          {% endfor %}
+        {% endif %}
+        {% if content.subsections %}
+          {% for section in content.subsections %}
+            {% if subsection.title %}
+              <h3>{{ subsection.title }}</h3>
+            {% endif %}
+            {% if subsection.description %}
+              <h3>{{ subsection.description }}</h3>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
+</section>

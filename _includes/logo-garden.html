@@ -1,0 +1,27 @@
+<section class="bg-base-darkest border-white border-top">
+  <section class="usa-section usa-graphic-list grid-container">
+    <div
+      class="usa-media-block__inline-items margin-bottom-9 display-flex flex-column flex-align-center"
+    >
+      <div class="usa-media-block__body">
+        <div class="inline-number">
+          <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+        </div>
+        <div class="inline-text  padding-left-05">
+          <p class="font-mono-3xs text-ls-2 text-light"> PAST PARTICIPANTS </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-row grid-gap">
+      {% for item in site.data.logos-partners %}
+      <div
+        class="desktop:grid-col-2 tablet:grid-col-2 usa-media-block margin-bottom-3"
+      >
+        {% if item.image %}
+          <img class="logo-garden" src="{{site.baseurl}}/assets/img/logos-partners/{{item.image}}" alt="{{item.alt}}">
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>

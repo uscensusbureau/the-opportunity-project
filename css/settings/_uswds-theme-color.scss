@@ -25,21 +25,21 @@ Theme palette colors
 
 // Base colors
 $theme-color-base-family:           'gray';
-$theme-color-base-lightest:         'gray-5';
+$theme-color-base-lightest:         #f3f3f4;
 $theme-color-base-lighter:          'gray-10';
 $theme-color-base-light:            'gray-30';
-$theme-color-base:                  'gray-50';
+$theme-color-base:                  #545e6a;
 $theme-color-base-dark:             'gray-60';
 $theme-color-base-darker:           'gray-80';
-$theme-color-base-darkest:          'gray-90';
+$theme-color-base-darkest:          #121923;
 $theme-color-base-ink:              'gray-90';
 
 // Primary colors
 $theme-color-primary-family:        'blue';
-$theme-color-primary-lightest:      false;
+$theme-color-primary-lightest:      #f8fafd;
 $theme-color-primary-lighter:       'blue-10';
-$theme-color-primary-light:         'blue-30';
-$theme-color-primary:               'blue-60v';
+$theme-color-primary-light:         #3380c8;
+$theme-color-primary:               #0048ad;
 $theme-color-primary-vivid:         'blue-warm-60v';
 $theme-color-primary-dark:          'blue-warm-70v';
 $theme-color-primary-darker:        'blue-warm-80v';
@@ -50,7 +50,7 @@ $theme-color-secondary-family:      'red';
 $theme-color-secondary-lightest:    false;
 $theme-color-secondary-lighter:     'red-cool-10';
 $theme-color-secondary-light:       'red-30';
-$theme-color-secondary:             'red-50';
+$theme-color-secondary:             #ce482d;
 $theme-color-secondary-vivid:       'red-cool-50v';
 $theme-color-secondary-dark:        'red-60v';
 $theme-color-secondary-darker:      'red-70v';
@@ -61,7 +61,7 @@ $theme-color-accent-warm-family:    'orange';
 $theme-color-accent-warm-lightest:  false;
 $theme-color-accent-warm-lighter:   'orange-10';
 $theme-color-accent-warm-light:     'orange-20v';
-$theme-color-accent-warm:           'orange-30v';
+$theme-color-accent-warm:           #ffd67f;
 $theme-color-accent-warm-dark:      'orange-50v';
 $theme-color-accent-warm-darker:    'orange-60';
 $theme-color-accent-warm-darkest:   false;

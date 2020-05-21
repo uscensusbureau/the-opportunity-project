@@ -1,0 +1,23 @@
+<main class="bg-base-darkest">
+  <section class="usa-section usa-graphic-list grid-container" aria-label="Impact statistics">
+    <div class="grid-row grid-gap">
+      <div
+        class="desktop:grid-col-2 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      ></div>
+      {% for item in page.impact %}
+      <div
+        class="desktop:grid-col-3 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      >
+        <div class="usa-media-block__body {{item.border}}">
+          {% if item.statistic %}
+            <p class="font-sans-3xl">{{ item.statistic }}</p>
+          {% endif %}
+          {% if item.description %}
+            <p class="padding-right-4">{{ item.description }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>

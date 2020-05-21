@@ -1,121 +1,40 @@
 primary:
-  - text: How to use USWDS
-    href: /how-to-use-uswds/
-  - text: Principles
-    href: /design-principles/
-  - href: /components/
-  - href: /design-tokens/
-  - href: /utilities/
-  - href: /page-templates/
   - text: About
     href: /about/
+  - text: Our Process
+    href: /our-process/
+  - text: Showcase
+    href: /showcase/
+  - text: Curated Datasets
+    href: /data-kit/
+  - text: Get Involved
+    href: /get-involved
+    accordion:
+      - text: Join a Sprint
+        href: join-a-sprint/
 
 mobile:
-  - href: /how-to-use-uswds/
-    collapsible: true
-  - text: Principles
-    href: /design-principles/
-  - href: /components/
-    collapsible: true
-  - href: /design-tokens/
-    collapsible: true
-  - href: /utilities/
-    collapsible: true
-  - href: /page-templates/
+  - text: Home
+    href: /
   - text: About
     href: /about/
-    collapsible: true
+  - text: Our Process
+    href: /our-process/
+  - text: Showcase
+    href: /showcase/
+  - text: Curated Datasets
+    href: /curated-datasets/
+  - text: Get Involved
+    href: /get-involved/
 
-Components:
-  - text: Overview
-    href: /components/
-  - href: /components/accordion/
-  - href: /components/alert/
-  - href: /components/banner/
-  - href: /components/button/
-  - href: /components/footer/
-  - href: /components/form-controls/
-  - href: /components/form-templates/
-  - text: Grid
-    href: /utilities/layout-grid/
-  - href: /components/header/
-  - href: /components/icons/
-  - href: /components/search/
-  - href: /components/sidenav/
-  - href: /components/table/
-  - href: /components/tag/
-  - href: /components/typography/
-
-How to use USWDS:
-  - text: How to use USWDS
-    href: /how-to-use-uswds/
-  - href: /website-standards/
-  - href: /maturity-model/
-  - href: /documentation/developers/
-  - href: /documentation/designers/
-  - href: /documentation/accessibility/
-  - href: /documentation/settings/
-  - href: /performance/
-  - href: /documentation/code-guidelines/
-  - text: Migrating to USWDS 2
-    href: /documentation/migration/
-  - href: /documentation/video-tutorials/
-  - href: /documentation/implementations/
-  - href: /documentation/showcase/
-
-Design tokens:
-  - text: Overview
-    href: /design-tokens/
-  - text: Color
-    href: /design-tokens/color/
-  - text: Typesetting
-    href: /design-tokens/typesetting/
-  - text: Flex
-    href: /design-tokens/flex/
-  - text: Opacity
-    href: /design-tokens/opacity/
-  - text: Order
-    href: /design-tokens/order/
-  - text: Shadow
-    href: /design-tokens/shadow/
-  - text: Spacing units
-    href: /design-tokens/spacing-units/
-  - text: Z-index
-    href: /design-tokens/z-index/
-
-Utilities:
-  - text: Overview
-    href: /utilities/
-  - href: /utilities/layout-grid/
-  - href: /utilities/color/
-  - href: /utilities/height-and-width/
-  - href: /utilities/margin-and-padding/
-  - href: /utilities/border/
-  - href: /utilities/outline/
-  - href: /utilities/font-size-and-family/
-  - href: /utilities/text-styles/
-  - href: /utilities/paragraph-styles/
-  - href: /utilities/display/
-  - href: /utilities/flex/
-  - href: /utilities/shadow/
-  - href: /utilities/float/
-  - href: /utilities/clearfix/
-  - href: /utilities/list-reset/
-
-Page templates:
-  - href: /page-templates/
-
-About USWDS:
-  - text: Overview
-    href: /about/
-  - href: /about/history/
-  - href: /about/product-principles/
-  - href: /about/whats-new/
-  - href: /about/releases/
-  - href: /about/updates/
-  - href: /about/product-roadmap/
-  - href: /about/research/
-
-Design principles:
-  - text: Design principles
-    href: /design-principles/
+Problem statement:
+  - text: Challenge
+    href: "#challenge"
+  - text: Background
+    href: "#background"
+  - text: Why this problem matters
+    href: "#impact"
+  - text: Vision
+    href: "#vision"
+  - text: Target Audience
+    href: "#audience"

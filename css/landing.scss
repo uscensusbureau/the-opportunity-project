@@ -1,0 +1,10 @@
+.landing-container {
+  background-color: #004280;
+  height: auto;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: -2rem;
+  @include media-sm {
+    margin-top: 1.5rem;
+  }
+}

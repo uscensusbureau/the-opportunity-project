@@ -1,0 +1,60 @@
+<section class="bg-base-darkest">
+  {% for item in page.featured_items %}
+  <section class="usa-section usa-graphic-list grid-container" aria-label="Products built with The Opportunity Project">
+    <div class="grid-container">
+      <div class="grid-row grid-gap desktop:margin-top-9">
+        {% if item.text_align == "right" %}
+          <div
+            class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.alt }}">
+          </div>
+          <div
+            class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block__inline-items margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <div class="usa-media-block__body">
+              <div class="inline-number">
+                <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+              </div>
+              <div class="inline-text  padding-left-05">
+                <p class="font-mono-3xs text-ls-2 text-light"> FEATURED </p>
+              </div>
+              <h2 class="font-sans-xl">{{ item.name}}</h2>
+              <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
+              <p>{{ item.description}}</p>
+              <button class="usa-button__secondary-white" type="button" name="button">View Case Study</button>
+            </div>
+          </div>
+        {% else %}
+          <div
+            class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block__inline-items margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <div class="usa-media-block__body">
+              <div class="inline-number">
+                <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+              </div>
+              <div class="inline-text padding-left-05">
+                <p class="font-mono-3xs text-ls-2 text-light"> FEATURED </p>
+              </div>
+              <h2 class="font-sans-xl">{{ item.name}}</h2>
+              <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
+              <p>{{ item.description}}</p>
+              <button class="usa-button__secondary-white" type="button" name="button">View Case Study</button>
+            </div>
+          </div>
+          <div
+            class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          >
+            <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.alt }}">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+  <div
+    class="usa-media-block padding-top-11 padding-bottom-9 display-flex flex-column flex-align-center"
+  >
+    <button class="usa-button__primary-red" type="button" name="button">All Products</button>
+  </div>
+</section>

@@ -1,0 +1,64 @@
+{% assign item = page.get_involved %}
+<main class="bg-primary">
+  <section class="usa-section usa-graphic-list grid-container desktop:margin-top-11">
+    <div class="grid-row grid-gap">
+      <div
+      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3"
+      ></div>
+      <!-- header image -->
+      <div
+        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block margin-bottom-3"
+      >
+      {% if item.title-image %}
+        <img src="{{site.baseurl}}/assets/img/{{ item.title-image }}" alt="{{ item.title-image-alt }}">
+      {% endif %}
+      </div>
+      <div
+        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3"
+      >
+        {% if item.title %}
+          <h1 class="font-sans-3xl">{{ item.title }}</h1>
+        {% endif %}
+        {% if item.subtitle %}
+          {% for p in item.subtitle %}
+            <p class="font-sans-2xs">{{ p.p }}</p>
+          {% endfor %}
+        {% endif %}
+        {% for button in item.buttons %}
+          <button class="usa-button__{{ button.style | slugify }}">{{ button.b }}</button><br>
+        {% endfor %}
+      </div>
+      <div
+      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3"
+      ></div>
+    </div>
+    <div class="grid-row grid-gap desktop:margin-top-9">
+      <div
+        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3"
+      ></div>
+      {% for text in item.text %}
+        <div
+          class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3"
+        >
+          {% if text.number.display == true %}
+            <p>{{ text.number }}</p>
+          {% endif %}
+          {% if text.title %}
+            <h3>{{ text.title }}</h3>
+          {% endif %}
+          {% if text.description %}
+            <p>{{ text.description }}</p>
+          {% endif %}
+          {% if text.button %}
+            <button class="usa-button__primary-dark">{{ text.button }}</button>
+          {% endif %}
+        </div>
+      {% endfor %}
+      {% if text.number == 2 or text.number == 4 %}
+        <div
+          class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3"
+        ></div>
+      {% endif %}
+    </div>
+  </section>
+</main>

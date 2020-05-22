@@ -1,0 +1,100 @@
+<section class=" bg-primary-dark">
+<section class="usa-section usa-graphic-list grid-container">
+  {% assign data-topics = site.data.workforce-topics %}
+    <div class="grid-row grid-gap">
+      <ul class="usa-card-group data-card-group margin-top-7">
+        {% for data in data-topics %}
+          <li id="data-card-{{data.name | slugify}}" class="usa-card" name="productCard">
+            <div class="usa-card__container bg-primary-darker">
+              <header class="usa-card__header">
+                <p class="text-white font-sans-sm" value="{{ data.name | slugify}}">{{ data.name }}</p>
+              </header>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="grid-row grid-gap">
+      {% for data in data-topics %}
+        {% if data.description%}
+          <div id="modal-data-card-{{ data.name | slugify }}" class="data-modal modal-inactive">
+            <div class="grid-row">
+              <div class="desktop:grid-col-8 tablet:grid-col-8">
+                <div class="display-inline-block desktop:grid-col-4 tablet:grid-col-4">
+                  <img
+                    src="{{ site.baseurl }}/img/products/test.png"
+                    alt="screenshot of City Builder website"
+                  />
+                </div>
+                <div class="display-inline-block float-right desktop:grid-col-8 tablet:grid-col-8 padding-bottom-5 padding-left-5">
+                  {% if data.title %}
+                    <p class="font-sans-md text-white">{{ data.title }}</p>
+                  {% endif %}
+                  {% if data.description %}
+                    <p class="font-mono-xs text-accent-warm">CHALLENGE</p>
+                    <p class="font-sans-2xs text-white">{{ data.description}}</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  <hr class="margin-top-9 margin-bottom-7">
+  <form id="product-search-form" class="usa-search usa-search--small" role="search">
+    <label class="usa-sr-only" for="search-field">Search by product name</label>
+    <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search by product name">
+    <button class="usa-button__primary-dark" type="submit">
+      <span class="usa-sr-only">Search</span>
+    </button>
+  </form>
+</section>
+<section class="bg-primary-dark margin-top-0">
+  <section class="usa-section usa-graphic-list grid-container">
+    <ul class="usa-card-group">
+      {% assign workforce-data = site.data.workforce %}
+      {% for item in workforce-data %}
+        <li id="data-card-{{data.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card data-card-active" name="productCard">
+          <div class="usa-card__container bg-primary-darker">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
+              <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
+            </header>
+            <div class="usa-card__body">
+              <p class="font-sans-xs text-white">{{ item.description}}</p>
+            </div>
+            <div class="usa-card__footer">
+              <a href="mailto:{{ item.email }}" class="font-sans-xs text-white">Contact</a>
+            </div>
+          </div>
+        </li>
+        <div id="modal-{{ data.name | slugify }}" class="modal modal-inactive">
+          <div class="grid-row">
+            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
+              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
+                <img
+                  src="{{ site.baseurl }}/img/products/test.png"
+                  alt="screenshot of City Builder website"
+                />
+              </div>
+              <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
+                <span class="close">&times;</span>
+                <h2 class="font-sans-md">{{ data.name }}</h2>
+                <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
+                <p>{{ product.description_new }}</p>
+                <p>Datasets Used</p>
+                <p>
+                  {% for dataset in product.data_sets %}
+                    {{ dataset }}
+                  {% endfor %}
+                </p>
+                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </ul>
+  </section>
+</section>

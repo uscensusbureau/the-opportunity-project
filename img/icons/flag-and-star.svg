@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="12px" viewBox="0 0 61 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Flag Stripe and Star</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Caption-+-Flag-Stripe">
+            <g id="Flag-Stripe-and-Star">
+                <g id="1.-Flag-Stripe">
+                    <rect id="Rectangle" fill="#CE482D" x="0" y="0" width="40" height="12"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="4.5" width="40" height="3"></rect>
+                </g>
+                <polygon id="Path" fill="#FFD67F" points="54.5 0 56.03439 4.58360759 61 4.58360759 56.98274 7.41639241 58.51726 12 54.5 9.16721518 50.48274 12 52.01726 7.41639241 48 4.58360759 52.96561 4.58360759"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

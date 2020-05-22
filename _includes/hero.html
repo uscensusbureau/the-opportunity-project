@@ -1,0 +1,43 @@
+{% if page.class == "home" %}
+{% assign hero = page.hero %}
+<section class="usa-hero">
+  <div class="grid-container usa-hero__bg">
+    <h1 class="usa-hero__title grid-col-8">{{ page.hero.text}}</h1>
+    <p class="usa-hero__subtitle grid-col-6">{{ page.hero.subtext }}</p>
+  </div>
+{% elsif page.class == "about" or  page.class == "our-process" %}
+<section class="interior-hero bg-base-darkest desktop:padding-bottom-9 tablet:padding-bottom-5">
+  <div class="grid-container">
+    <div class="maxw-mobile-lg grid-offset-1">
+      <h1
+        class="hero--heading margin-top-10 line-height-sans-3 text-thin font-lang-13 text-white"
+      >
+        {{ page.title }}
+      </h1>
+      {% for p in page.lead %}
+        <p class="font-sans-md text-white">{{ p }}</p>
+      {% endfor %}
+    </div>
+  </div>
+{% elsif page.class == "case-study" %}
+  <section class="interior-hero bg-base-darkest">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+      <div class="inline-number">
+        <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+      </div>
+      <div class="display-inline-block padding-left-05">
+        <p class="font-mono-2xs text-ls-2 text-white"> FEATURED CASE STUDY</p>
+      </div>
+      <h1 class="font-sans-3xl margin-bottom-0">{{ page.hero.product}}</h1>
+      <p class="font-mono-xs text-ls-2 text-white"> {{ page.hero.tech_team}}</p>
+    </div>
+{% else %}
+  <section class="interior-hero bg-base-darkest">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+      <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
+      <div class="grid-col-6">
+        <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
+{% endif %}
+</section>

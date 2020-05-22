@@ -1,0 +1,66 @@
+- product_name: PRADOS
+  short_url: icasa
+  tech_team: iCASA PR
+  cohort: Geocohort
+  problem_statement:
+    "Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"
+  link: 'https://www.zipdatum.com/prcivicaddress/'
+  overlay_text: Helps municipalities and communities in Puerto Rico enhance their address data infrastructure to improve emergency response
+  description_new:
+    Helps the municipalities and communities in Puerto Rico enhance their
+    address infrastructure to support the reconstruction process, improve
+    emergency response and foster a more resilient future
+  data_sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
+  prize_status: Winner
+  category: addressing
+  description_old:
+    ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service,
+    and the National Address Database (NAD) schema to help the municipalities
+    and communities in Puerto Rico enhance their address infrastructure to
+    support the reconstruction process, improve emergency response and foster a
+    more resilient future.
+  product_advisors: nil
+  participants: nil
+- product_name: City Builder
+  tech_team: Citi Ventures
+  cohort: Workforce
+  problem_statement: Opportunity Zones
+  link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
+  overlay_text: Brings transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers and municipalities
+  description_new:
+    Brings transparency to the Opportunity Zone ecosystem for investors, fund
+    manager, wealth managers, and cities
+  data_sets:
+    Census Bureau; Department of Agriculture; Department of Education; U.S.
+    Securities and Exchange Commission
+  prize_status: Winner
+  category: economic-development
+  description_old:
+    Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department of
+    Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
+    Commission data to bring transparency to the Opportunity Zone ecosystem for
+    investors, fund manager, wealth managers, and cities.
+- product_name: Sille
+  short_url: sille
+  tech_team: Datel Ovela
+  cohort: Geocohort
+  problem_statement: Using Geospatial Data to Help People Prepare for Disasters
+  link: 'https://sille.space/app_fema/'
+  overlay_text: Helps leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
+  description_new:
+    'Block level structural risk product that encourages local stakeholders to
+    prepare for crisis through increased awareness of the likelihood of
+    catastrophic failure of their structures in a disaster. Public access using
+    login: fema@sille.space, password: Planahead2019'
+  data_sets: 'ensus block data; Open EU Sentinel 1 InSAR '
+  prize_status: nil
+  category: disasters
+  description_old:
+    'Datel Ovela’s tool uses census block data with open EU sentinel 1 InSAR to
+    build a block level structural risk product that encourages local
+    stakeholders to prepare for crisis through increased awareness of the
+    likelihood of catastrophic failure of their structures in a disaster. Public
+    access using login: fema@sille.space, password: Planahead2019'
+  product_advisors: nil
+  participants: nil

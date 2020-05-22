@@ -1,0 +1,29 @@
+<section class="bg-base-darkest">
+  <section class="usa-section usa-graphic-list grid-container" aria-label="Testimonials">
+    <div class="grid-row grid-gap">
+      {% for item in page.testimonials %}
+      <div class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__body">
+        <p class="font-serif-xl">&#8220;</p>
+        <div class="">
+          {% if item.text %}
+            <p class="border-white border-right border-bottom padding-2">{{ item.text }}</p>
+          {% endif %}
+        </div>
+        <div class="inline-number">
+          {% if item.image %}
+            <img src="{{ site.baseurl}}/assets/img/{{item.image}}" alt="{{ item.person }}">
+          {% endif %}
+        </div>
+        <div class="inline-text">
+          {% if item.person %}
+            <p>{{ item.person }}</p>
+          {% endif %}
+          {% if item.organization %}
+            <p>{{ item.organization }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>

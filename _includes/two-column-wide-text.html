@@ -1,0 +1,39 @@
+<section class="usa-section usa-graphic-list grid-container">
+  <div class="grid-row grid-gap">
+    <div
+      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
+    ></div>
+    <h2>{{ page.explanation.title}}</h2>
+  </div>
+  <div class="grid-row grid-gap">
+    {% for item in page.explanation.text %}
+      {% if item.number == 1 or item.number == 3 %}
+        <div
+          class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
+        ></div>
+      {% endif %}
+      <div
+        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__inline-items desktop:margin-bottom-0"
+      >
+        <div class="inline-number">
+          {% if item.number %}
+            <p class="circle-3">{{ item.number }}</p>
+          {% endif %}
+        </div>
+        <div class="inline-text">
+          {% if item.title %}
+            <h4>{{ item.title }}</h4>
+          {% endif %}
+        {% if item.description %}
+          <p>{{ item.description }}</p>
+        {% endif %}
+        </div>
+      </div>
+      {% if item.number == 2 or item.number == 4 %}
+        <div
+          class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
+        ></div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

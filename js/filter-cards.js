@@ -52,9 +52,10 @@ $(".close").on("click", function () {
   $(".modal-active").removeClass('modal-active').addClass('modal-inactive');
 });
 
-//
-// $(window).onclick = function(e) {
-//   if (e.target !== $("#modal")) {
-//     $(".modal-active").removeClass('modal-active').addClass('modal-inactive');
-//   }
-// }
+$('.data-card-group').on('click', function (e) {
+    var dataCard = e.target.closest("li").id
+    console.log(dataCard)
+    $('.modal-active').addClass('modal-inactive');
+    $('.modal-active').removeClass('modal-active');
+    $("#modal-" + dataCard).removeClass('modal-inactive').addClass('modal-active');
+});

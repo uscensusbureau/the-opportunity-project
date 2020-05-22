@@ -215,7 +215,7 @@ body {
 }
 
 .site-header-navbar {
-  border-bottom: none !important; // scss-lint:disable ImportantRule
+  border-bottom: color("base-light");
 
   @include at-media("desktop") {
     height: units(10);
@@ -2736,7 +2736,7 @@ h6 + div:not(.usa-accordion__content) {
     @include at-media("desktop") {
       align-items: center;
       display: flex;
-      float: right;
+      padding-right: units(3);
       height: units(10);
     }
 

@@ -5,6 +5,7 @@
   problem_statement: Veterans Homelessness and Employment
   agency: U.S. Department of Veterans Affairs
   link: 'https://www.carepartnersplus.com/'
+  image: get-vets-help.jpg
   description_new:
     Helps veterans communicate needs to their care team in real time,
     identifying high-risk veterans for suicide, homelessness and substance use
@@ -26,6 +27,7 @@
   problem_statement: Veterans Homelessness and Employment
   agency: U.S. Department of Veterans Affairs
   link: 'https://www.pairin.com/pairin-pathways/'
+  image: pairin-pathways.jpg
   description_new:
     Helps veterans translate their developed skills into private sector careers
     and connect them to the education, soft skills development, and employers
@@ -47,6 +49,7 @@
   problem_statement: Youth Homelessness
   agency: U.S. Department of Education
   link: 'https://www.findmyspot.org'
+  image: my-spot.jpg
   description_new:
     Helps youth experiencing homelessness find and access services in the
     Washington, DC area
@@ -65,6 +68,7 @@
   problem_statement: Engaging communities in the Census
   agency: U.S. Census Bureau
   link: 'https://developer.cisco.com/site/census/'
+  image: my-city-data-learning-tool.jpg
   description_new:
     Drives awareness of Census Bureau data for mobile millennials and
     application developers so they can solve social problems using open data
@@ -85,6 +89,7 @@
   problem_statement: Engaging communities in the Census
   agency: U.S. Census Bureau
   link: 'https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0'
+  image: bayes-bd.jpg
   description_new:
     Web-based artificial intelligence tool that helps journalists,
     philanthropists, public servants, and policy advocates to search public data
@@ -107,6 +112,7 @@
   problem_statement: Making federal grants data user-friendly for local leaders
   agency: Office of Management and Budget, U.S. Department of the Treasury
   link: 'http://www.trueimpact.com'
+  image: social-impact-reporting-platform.jpg
   description_new:
     Enables donors, nonprofits, and intermediary users to find funding
     opportunities they may qualify for
@@ -118,13 +124,23 @@
     True Impact used federal data to enhance its Social Impact Reporting
     Platform, enabling users to automatically query the federal grants.gov
     database to find funding opportunities they may qualify for.
+- product_name: '#WhyWeCount'
+  tech_team: NextDayBetter
+  cohort: 2020 Census
+  year: 2019
+  problem_statement: Reaching Hard-to-Count Communities
+  link: 'https://www.whywecount.org'
+  image: whywecount.jpg
+  description_new: Defines demographic profiles and psychographic barriers to design culturally relevant stories that community organizations can use to engage seniors and young adults from the Puerto Rican and Filipino diasporas and raise awareness of how the Census impacts their lives
+  category: census
+  description_old: NextDayBetter used open data overlaying low-response census tracts with low broadband access and CBAMS insights to define demographic profiles and psychographic barriers to design stories that are culturally relevant to engage Seniors and Young Adults from the Puerto Rican and Filipino diasporas, and  raise awareness of how the census impacts their lives.
 - product_name: PopCount
   tech_team: IBM
   cohort: 2017 - Census OMB/Treasury
   year: 2017
   problem_statement: Engaging communities in the Census
   agency: U.S. Census Bureau
-  link: nil
+
   description_new:
     iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting
@@ -142,7 +158,8 @@
   year: 2017
   problem_statement: Engaging communities in the Census
   agency: U.S. Census Bureau
-  link: nil
+  link: 'https://data2go.nyc/'
+  image: data2gonyc.jpg
   description_new:
     Free mapping and data tool for visualizing data that can help with decennial
     Census outreach in NYC communities by answering questions like 'What happens
@@ -164,6 +181,7 @@
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   agency: U.S. Department of Labor
   link: 'https://www.shift.org/careernav'
+  image: career-nav.jpg
   description_new:
     Helps veterans translate their skills and visualize career and educational
     steps toward reaching their dream jobs in desired locations
@@ -184,6 +202,7 @@
   problem_statement: Improving Access to and Management of Federal Grants
   agency: Office of Management and Budget, U.S. Department of the Treasury
   link: 'https://gist.reisystems.io'
+  image: grants-impact-and-story-tool.jpg
   description_new:
     Visually showcases how federal grants spending leads to desired performance
     outcomes, enhancing federal accountability and transparency for the American
@@ -210,6 +229,7 @@
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   agency: U.S. Department of Labor
   link: 'https://apprenticeships.mybluemix.net'
+  image: watson-employment.jpg
   description_new:
     Provides career recommendations to veterans on potential job/apprenticeship
     matches based on conceptual search, training recommendations, and skill gap
@@ -233,6 +253,7 @@
   problem_statement: Improving Access to and Management of Federal Grants
   agency: Office of Management and Budget, U.S. Department of the Treasury
   link: 'https://intel.ecivis.com/homelessness'
+  image: grants-intelligence.jpg
   description_new:
     Makes homelessness statistics and related funding data easily accessible for
     grants professionals, researchers, government finance professionals, and
@@ -258,6 +279,7 @@
   problem_statement: Helping States Develop Education Report Cards
   agency: U.S. Department of Education
   link: 'https://top.demo.socrata.com'
+  image: citizen-education-data-cloud.jpg
   description_new:
     Fuses together disparate, non-standardized data, to provide nationwide
     analysis of metrics for federal and state decision-makers to support the
@@ -283,6 +305,7 @@
   problem_statement: Using AI to Connect Veterans with Registered Apprenticeships
   agency: U.S. Department of Labor
   link: 'https://www.civisanalytics.com/custom-services/'
+  image: veteran-apprenticeship-matcher.jpg
   description_new:
     An algorithm developed in partnership with SkillsEngine, a workforce
     development and technology nonprofit, shows veterans the most relevant
@@ -305,6 +328,7 @@
   problem_statement: Promoting Access to and Interest in STEM Fields
   agency: U.S. Department of Education
   link: 'https://nepris.com/misc/careersearch'
+  image: nepris-industry.jpg
   description_new:
     links relevant and authentic industry content to actual job descriptions to
     provide learners and job seekers opportunity for career exploration and
@@ -327,6 +351,7 @@
   problem_statement: Reaching Hard-to-Count Communities
   agency: U.S. Census Bureau
   link: 'https://www.civisanalytics.com/census/'
+  image: census-intelligence.jpg
   description_new:
     Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
@@ -348,6 +373,7 @@
   problem_statement: Bridging the Digital Divide
   agency: U.S. Census Bureau
   link: 'https://www.voatz.com'
+  image: voatz.jpg
   description_new: ' Allows the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in future censuses'
   data_sets:
     - Number of Americans overseas
@@ -368,6 +394,7 @@
   problem_statement: Reaching Hard-to-Count Communities
   agency: U.S. Census Bureau
   link: 'http://tractbytract.com/'
+  image: tract-by-tract.jpg
   description_new:
     Supports policymakers in resource allocation by predicting decennial Census
     response rates by day for each census tract, and comparing them to the true
@@ -387,6 +414,7 @@
   problem_statement: Reaching Hard-to-Count Communities
   agency: U.S. Census Bureau
   link: 'https://2020counts.org/'
+  image: community-counts.jpg
   description_new:
     Helps Area Census Office Staff visualize and verify potential locations of
     individuals experiencing homelessness for enumeration
@@ -406,6 +434,7 @@
   problem_statement: Reaching Hard-to-Count Communities
   agency: U.S. Census Bureau
   link: 'https://latinocf.org/map'
+  image: california-latino-power-map.jpg
   description_new:
     Showcases Latino leadership across California and helps anyone working to
     improve the quality of life for Latino and Hispanic residents of California
@@ -426,6 +455,7 @@
   year: 2016
   problem_statement: Data Discovery
   link: 'https://data.world/opportunity'
+  image: dataworld-workspace.jpg
   description_new:
     Facilitates finding, viewing, and collaborating over data for Opportunity
     Project sprint participants
@@ -447,6 +477,7 @@
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
   agency: U.S. Department of Education, U.S. Department of Housing and Urban Development
   link: 'http://www.measureofamerica.org/SegregatedOpportunity/'
+  image: visualizing-youth-disconnection.jpg
   description_new: Combines various data critical to the well being of New Yorkers
   data_sets:
     - Department of Housing and Urban Development
@@ -463,6 +494,7 @@
   problem_statement: Connecting Americans to skills and jobs
   agency: U.S. Department of Labor
   link: 'https://jobpostings.ushahidi.io/'
+  image: job-crowdsourcing-tool.jpg
   description_new: Shares alerts of local job openings
   data_sets:
     - Virginia Open Data Catalogue
@@ -478,7 +510,7 @@
   year: 2016
   problem_statement: Ending Homelessness
   agency: U.S. Department of Housing and Urban Development
-  link: nil
+
   description_new:
     Helping low income families overcome the stress of finding affordable
     housing, this tool combines transit access, walkability and school
@@ -496,7 +528,7 @@
   year: 2016
   problem_statement: Ending Homelessness
   agency: U.S. Department of Housing and Urban Development
-  link: nil
+
   description_new:
     Identifies areas that present a high-opportunity for families to supplement
     their housing costs through renting excess rooms or units
@@ -515,6 +547,7 @@
   problem_statement: Ending Homelessness
   agency: U.S. Department of Housing and Urban Development
   link: 'https://labs.mapbox.com/labs/opportunity/'
+  image: neighborhood-opportunity.jpg
   description_new:
     Rapidly and easily assess neighborhood family amenities and voucher amounts
     for Section 8 Housing Seekers
@@ -533,7 +566,7 @@
   year: 2016
   problem_statement: Identifying Equity Scores and Gaps
   agency: U.S. Department of Education
-  link: nil
+
   description_new:
     Measures gaps in access to educational opportunities across student groups
     to help advocates increased equity
@@ -551,7 +584,7 @@
   year: 2016
   problem_statement: Connecting Americans to skills and jobs
   agency: U.S. Department of Labor
-  link: nil
+
   description_new: ' Surfaces education options that lead to in-demand careers for job seekers'
   data_sets:
     - 'Eligible Training Provider Lists (ETPL) '
@@ -567,6 +600,7 @@
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
   agency: U.S. Department of Education,U.S. Department of Housing and Urban Development
   link: 'https://learn.datasociety.com/kitamba-the-opportunity-project/'
+  image: school-resourcemapper.jpg
   description_new:
     Brings together economic, health center, and community institution data to
     help school leaders find and develop community partnerships
@@ -587,7 +621,7 @@
   year: 2016
   problem_statement: Supporting Decision-Making for Student Sub-populations and their Families
   agency: U.S. Department of Education,U.S. Department of Housing and Urban Development
-  link: nil
+
   description_new:
     Customizable data briefs that help local school districts and education
     foundations inform parents and the electorate about the need for more
@@ -607,6 +641,7 @@
   problem_statement: Increasing safety and mobility across the nation
   agency: U.S. Department of Transportation
   link: 'https://theopportunityproject.mysidewalk.com/'
+  image: mysidewalk.jpg
   description_new:
     Generates instant insights that address accessibility of opportunity and
     emotional well-being for citizens across the county
@@ -626,6 +661,7 @@
   problem_statement: Increasing safety and mobility across the nation
   agency: U.S. Department of Transportation
   link: 'https://www.facebook.com/createrealestate/'
+  image: create.jpg
   description_new:
     Provides dynamic location-based visualizations of hazardous traffic
     corridors for citizens and community decision makers
@@ -644,6 +680,7 @@
   problem_statement: Increasing safety and mobility across the nation
   agency: U.S. Department of Transportation
   link: 'http://split.us/opportunity-project'
+  image: commuter-map.jpg
   description_new:
     Uses commuting data and bus & rail transit routes to show commuter flows and
     gaps in access to transit
@@ -662,6 +699,7 @@
   problem_statement: Small Town Resource Guide
   agency: U.S. Department of Agriculture
   link: 'https://findyour.town'
+  image: findyourtown.jpg
   description_new:
     Uses live spatial and development funding data to simplify funding
     eligibility with virtual storytelling of our rural American communities
@@ -683,9 +721,9 @@
   problem_statement: Promoting Health and Wellbeing Nationwide
   agency: Office of the U.S. Surgeon General, U.S. Department of Health and Human Services
   link: 'https://www.fitbit.com/us/activity-index'
+  image: fitbit.jpg
   description_new:
-    Lets users see how average activity relates to common health issues in each
-    state
+    Lets users see how average activity relates to common health issues in each state
   data_sets:
     - Centers for Disease Control and Prevention
     - Aggregated and anonymous Fitbit activity data from over 10 million users
@@ -701,7 +739,7 @@
   year: 2016
   problem_statement: Veterans Suicide Prevention
   agency: U.S. Department of Veterans Affairs
-  link: nil
+
   description_new:
     Enables researchers to unobtrusively measure everyday behavior to build a
     risk state detection algorithm that powers precise, life-saving mental
@@ -720,7 +758,7 @@
   year: 2016
   problem_statement: Veterans Suicide Prevention
   Agency: U.S. Department of Veterans Affairs
-  link: nil
+
   description_new:
     Assesses suicide and other risk in patients and guides them through crisis
     to available support resource
@@ -739,6 +777,7 @@
   problem_statement: Connecting Americans to skills and jobs
   agency: U.S. Department of Labor
   link: 'http://opportunity.hackernest.com'
+  image: opportunityhackernest.jpg
   description_new:
     Displays current government job listings, relevant resources and shows
     statistics
@@ -755,6 +794,7 @@
   year: 2016
   problem_statement: nil
   link: 'http://bit.ly/2aWs865'
+  image: opportunity-enabler.jpg
   description_new:
     Uses nationwide opportunity indexes to make search for opportunity more
     easily obtainable
@@ -771,7 +811,7 @@
   cohort: Agency
   year: 2016
   problem_statement: Data Discovery
-  link: nil
+
   description_new: ' Helps researchers and developers rapidly prototype and deploy tools that address a variety of problems surrounding access to opportunity'
   data_sets:
   prize_status: nil
@@ -787,6 +827,7 @@
   problem_statement: Connecting Americans to skills and jobs
   agency: U.S. Department of Labor
   link: 'https://itunes.apple.com/us/app/careerspark/id1146518762?mt=8'
+  image: careerspark.jpg
   description_new: Makes career exploration easy and accessible for high school students
   data_sets:
     - Bureau of Labor Statistics
@@ -796,7 +837,7 @@
     A mobile application that uses employment statistics and occupational data
     from the Bureau of Labor Statistics to make career exploration easy and
     accessible for high school students.
-- product_name: iCASA - Civic Address and Governance Platform for Puerto Rico
+- product_name: PRADOS
   tech_team: iCASA PR
   cohort: Geocohort
   year: 2018
@@ -805,6 +846,7 @@
     Collection"
   agency: U.S. Census Bureau and U.S. Department of Transportation
   link: 'https://www.zipdatum.com/prcivicaddress/'
+  image: prados.jpg
   description_new:
     Helps the municipalities and communities in Puerto Rico enhance their
     address infrastructure to support the reconstruction process, improve
@@ -828,6 +870,7 @@
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   agency: U.S. Department of Homeland Security,Federal Emergency Management Agency
   link: 'https://sille.space/app_fema/'
+  image: sille.jpg
   description_new:
     'Block level structural risk product that encourages local stakeholders to
     prepare for crisis through increased awareness of the likelihood of
@@ -851,6 +894,7 @@
   problem_statement: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   agency: White House Office of Science and Technology Policy
   link: 'https://go.esri.com/opioidprediction'
+  image: insight-for-arcgis.jpg
   description_new:
     Predicts geographic areas where opioid emergencies are likely to occur to
     help public safety and health officials pre-position the appropriate
@@ -874,6 +918,7 @@
     Collection"
   agency: U.S. Census Bureau and U.S. Department of Transportation
   link: 'https://s3.amazonaws.com/centaur-web/html/index.html'
+  image: the-tomtom-centaur-data-logging-app.jpg
   description_new:
     Address point capture tool that assigns coordinates, in an online or offline
     mode, to make non-traditionally addressed locations addressable
@@ -892,6 +937,7 @@
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   agency: U.S. Department of Homeland Security,Federal Emergency Management Agency
   link: 'https://landgrid.com/us/pr#b=admin'
+  image: puerto-rico-land-grid.jpg
   description_new:
     Assesses the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island of Puerto Rico
@@ -914,6 +960,7 @@
   problem_statement: Identifying and Strengthening Civic Environmental Stewardship
   agency: U.S. Forest Service
   link: 'https://labs.mapbox.com/narratives/stewards/'
+  image: stewmap-explorer.jpg
   description_new:
     Makes it simple to see what organizations are working in which turfs for
     local groups to better connect with others caring for their local
@@ -934,6 +981,7 @@
   problem_statement: Identifying and Strengthening Civic Environmental Stewardship
   agency: U.S. Forest Service
   link: 'https://communityanalyst.arcgis.com/esriCA/login/index.html'
+  image: bloomberg-devop.jpg
   description_new:
     Allows organizations to target areas to volunteer in and potential partners
     to successfully steward the environment
@@ -956,6 +1004,7 @@
     Collection"
   agency: U.S. Census Bureau, U.S. Department of Transportation
   link: 'https://web.fulcrumapp.com/communities/opportunity-project'
+  image: fulcrum-community-for-addressing-and-disaster-preparedness.jpg
   description_new: ' Provides a field data crowdsourcing platform for government or agency stakeholders with gaps in their address data on the ground '
   data_sets:
     - Census Bureau’s National Address Database Schema
@@ -976,6 +1025,7 @@
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   agency: U.S. Department of Homeland Security, Federal Emergency Management Agency
   link: 'http://www.thedagames.com/'
+  image: disaster-awareness-games.jpg
   description_new: Serious game that engages young adults in preparing for emergencies
   data_sets:
     - Federal disaster declaration and protective actions data
@@ -990,7 +1040,7 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link: 'https://data2go.nyc/'
+  image: data2gonyc.jpg
   description_new:
     Free mapping and data tool for visualizing data that can help with decennial
     Census outreach in NYC communities by answering questions like 'What happens
@@ -1013,6 +1063,7 @@
   year: 2016
   problem_statement: nil
   link: 'https://labs.redfin.com/opportunity-score'
+  image: opportunity-score.jpg
   description_new:
     Shows jobs individuals can get to in 30 minutes, without a car, from any
     address
@@ -1028,7 +1079,7 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link: nil
+
   description_new: '!!! Broken link'
   data_sets:
   prize_status: nil
@@ -1042,6 +1093,7 @@
   year: 2016
   problem_statement: nil
   link: 'https://opportunity.policymap.com/'
+  image: policymap-tool.jpg
   description_new:
     Allows users to identify areas of opportunity by specifying their most
     important priorities, including housing, jobs, schools, and transportation
@@ -1058,6 +1110,7 @@
   year: 2016
   problem_statement: nil
   link: 'https://transitanalyst.com/'
+  image: transit-analyst.jpg
   description_new:
     Allows users to explore transit accessibility of resources including parks,
     daycare centers, and health clinics
@@ -1079,7 +1132,7 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link: nil
+
   description_new: ' Provides visibility into the affordability of opportunity for children in U.S. metro areas'
   data_sets:
   prize_status: nil
@@ -1092,7 +1145,7 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link: nil
+
   description_new: Explores the opportunity and growth potential of Baltimore's neighborhoods
   data_sets:
   prize_status: nil
@@ -1105,7 +1158,7 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link: nil
+
   description_new: Finds areas of opportunity through geographic visualizations and reports
   data_sets:
   prize_status: nil
@@ -1119,6 +1172,7 @@
   year: 2016
   problem_statement: nil
   link: 'http://www.streetwyze.com/'
+  image: streetwyze.jpg
   description_new:
     '"Ground-truthing" neighborhood navigator powered by local knowledge,
     answering questions including “how walkable is my city?” and “who provides
@@ -1133,6 +1187,7 @@
   year: 2016
   problem_statement: nil
   link: 'https://www.nationalequityatlas.org/'
+  image: national-equity-atlas.jpg
   description_new:
     Allows community leaders and policy makers to compare disaggregated
     demographic indicators that describe the state of equity in cities, regions,
@@ -1155,8 +1210,8 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link:
-    https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
+  link: 'https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013'
+  image: opendata-network.jpg
   description_new: Allows for comparison and similarity detection of geographic regions
   data_sets:
   prize_status: nil
@@ -1169,8 +1224,8 @@
   cohort: 2016 - Sprint 1
   year: 2016
   problem_statement: nil
-  link:
-    https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG
+  link: 'https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG'
+  image: affordable-housing.jpg
   description_new: Shows where opportunities are for low income citizens with children
   data_sets:
     - 'Department of Housing and Urban Development '
@@ -1186,6 +1241,7 @@
   problem_statement: Opportunity Zones
   agency: U.S. Department of Housing and Urban Development, White House Council of Economic Advisors
   link: 'https://inclusivegrowthscore.com/'
+  image: inclusive-growth-score.jpg
   description_new:
     Provides community leaders with local, data-driven insights that measure the
     degree to which place, economy and community in a given Opportunity Zone
@@ -1207,6 +1263,7 @@
   problem_statement: Opportunity Zones
   agency: U.S. Department of Housing and Urban Development, White House Council of Economic Advisors
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
+  image: city-builder.jpg
   description_new:
     Brings transparency to the Opportunity Zone ecosystem for investors, fund
     manager, wealth managers, and cities
@@ -1229,6 +1286,7 @@
   problem_statement: Talent Discovery
   agency: U.S. Economic Development Administration
   link: 'https://solve.is/'
+  image: solve.jpg
   description_new:
     Helps small businesses, nonprofit resource centers, and institutions to
     better connect skills, certifications, industries and outcomes of training
@@ -1250,6 +1308,7 @@
   problem_statement: Multiple Pathways
   agency: U.S. Department of Education
   link: 'https://app.kanarys.com/'
+  image: kanarys.jpg
   description_new:
     Creates more inclusive, nontoxic workplaces for individuals and their
     employers
@@ -1267,8 +1326,8 @@
   year: 2019
   problem_statement: Talent Discovery
   agency: U.S. Economic Development Administration
-  link:
-    https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes
+  link: 'https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes'
+  image: talent-finder-tool.jpg
   description_new:
     Solves talent discovery issues for entrepreneurs and small businesses
     seeking to hire high-tech workers
@@ -1291,6 +1350,7 @@
   problem_statement: Talent Discovery
   agency: U.S. Economic Development Administration
   link: 'https://www.burning-glass.com/census/community.html'
+  image: inclusive-development-dashboards.jpg
   description_new:
     Assists regional workforce and economic development conveners develop
     strategies and prioritize initiatives to achieve inclusive development in
@@ -1317,6 +1377,7 @@
   year: 2019
   problem_statement: Entrepreneurship
   link: 'https://www.practicalbusinessskills.com'
+  image: practical-business-skills.jpg
   description_new:
     Chatbot that empowers growth-minded entrepreneurs with the financial and
     business knowledge to better manage their money and make confident, informed
@@ -1337,6 +1398,7 @@
   problem_statement: Opportunity Zones
   agency: U.S. Department of Housing and Urban Development, White House Council of Economic Advisors
   link: 'https://oz.ruralopportunitymap.us/'
+  image: rural-startup-scout.jpg
   description_new:
     Reveals Opportunity Zones with emerging tech sectors so investors can
     discover promising rural startups ready to scale that otherwise would have
@@ -1361,6 +1423,7 @@
   problem_statement: Talent Discovery
   agency: U.S. Economic Development Administration
   link: 'https://www.redfin.com/blog/job-opportunity-tool/'
+  image: job-opportunity-tool.jpg
   description_new:
     Helps Redfin’s millions of users better understand the opportunities and
     tradeoffs in terms of housing, employment and other factors when looking to
@@ -1380,6 +1443,7 @@
   problem_statement: Opportunity Zones
   agency: U.S. Department of Housing and Urban Development,White House Council of Economic Advisors
   link: 'https://www.publicdemocracy.io/opportunity-zones-local-impact'
+  image: community-led-opportunity-zones.jpg
   description_new:
     Ensures that community priorities inform Opportunity Zones strategies
     employed by policy decision-makers, economic development officials, and

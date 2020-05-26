@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "jquery": "^3.5.0",
+    "slugify": "^1.4.0",
     "uswds": "^2.7.0"
   },
   "devDependencies": {
@@ -74,7 +75,7 @@
     "merge-stream": "^1.0.0",
     "minimist": "^1.2.3",
     "node-notifier": "^5.4.3",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "nswatch": "^0.2.0",
     "postcss-csso": "^4.0.0",
     "sass": "^1.25.0",

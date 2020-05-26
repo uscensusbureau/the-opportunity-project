@@ -1,5 +1,6 @@
 // Update display to seach and filter products
 var $ = require('jquery');
+var slugify = require('slugify');
 
 // console.log("connected!")
 
@@ -51,10 +52,19 @@ $('.usa-card').on('click', function () {
 $(".close").on("click", function () {
   $(".modal-active").removeClass('modal-active').addClass('modal-inactive');
 });
-
 //
-// $(window).onclick = function(e) {
-//   if (e.target !== $("#modal")) {
-//     $(".modal-active").removeClass('modal-active').addClass('modal-inactive');
-//   }
-// }
+// $('.data-card-group').on('click', function (e) {
+//     var dataCard = e.target.closest("li").id;
+//     // toggle the description of the challenge at top of page
+//     $('.modal-active').addClass('modal-inactive');
+//     $('.modal-active').removeClass('modal-active');
+//     $("#modal-" + dataCard).removeClass('modal-inactive').addClass('modal-active');
+//
+//     var datasets = document.getElementsByClassName("data-card");
+//     for (i = 0; i < datasets.length; i++) {
+//       $(datasets[i]).removeClass('modal-active').addClass('modal-inactive');
+//       if (dataCard.includes(datasets[i].getElementsByTagName('h3')[ 0 ].innerText)) {
+//         $(datasets[i]).removeClass('modal-inactive').addClass('modal-active');
+//       }
+//     }
+//   });

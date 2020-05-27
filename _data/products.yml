@@ -6,6 +6,7 @@
   agency: U.S. Department of Veterans Affairs
   link: 'https://www.carepartnersplus.com/'
   image: get-vets-help.jpg
+  image-alt: Bright red background with white bell icon, with text underneath that reads Safety Net Emergencies
   description_new:
     Helps veterans communicate needs to their care team in real time,
     identifying high-risk veterans for suicide, homelessness and substance use
@@ -28,6 +29,7 @@
   agency: U.S. Department of Veterans Affairs
   link: 'https://www.pairin.com/pairin-pathways/'
   image: pairin-pathways.jpg
+  image-alt: Screenshot of Pairin Pathways webmaster or administrator dashboard with gradient blue background. Horizontally across the top is a waving, dashed yellow line that with a series of icons. Below, a blue square labeled moderate difficulty and the statistics 68 readiness and 1 to 3 years appear in a row.
   description_new:
     Helps veterans translate their developed skills into private sector careers
     and connect them to the education, soft skills development, and employers
@@ -50,6 +52,7 @@
   agency: U.S. Department of Education
   link: 'https://www.findmyspot.org'
   image: my-spot.jpg
+  image-alt: Screenshot of MySpot with a turquoise background that reads MySpot. Makig it easy to find your next spot. Enter your location below and we'll help you find the resources closest to you. Below this text is a search field with two tabs, one labeled Servies and one labeled Public Wifi. The leading text in the search field says Enter your location to find homeless service facilities nearby.
   description_new:
     Helps youth experiencing homelessness find and access services in the
     Washington, DC area
@@ -69,6 +72,7 @@
   agency: U.S. Census Bureau
   link: 'https://developer.cisco.com/site/census/'
   image: my-city-data-learning-tool.jpg
+  image-alt: Screenshot of a computer game birdseye view of several city blocks, with a bright color palette. The scene includes several shorter buildings, a taller building that is on fire, a red pagoda with a Chinatown sign, vehicles including trucks, buses, and taxis, and several people.
   description_new:
     Drives awareness of Census Bureau data for mobile millennials and
     application developers so they can solve social problems using open data
@@ -90,6 +94,7 @@
   agency: U.S. Census Bureau
   link: 'https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0'
   image: bayes-bd.jpg
+  image-alt: A spreadsheet with rows and columns filled with numbers. On the right is an open panel labeled BayesDB. The panel includes a settings icon, and options to set target column, set context columns, add columns, visualize, find predictive columns, find peer rows, find anomalous rows, estimate missing values, and download model summary.
   description_new:
     Web-based artificial intelligence tool that helps journalists,
     philanthropists, public servants, and policy advocates to search public data
@@ -113,6 +118,7 @@
   agency: Office of Management and Budget, U.S. Department of the Treasury
   link: 'http://www.trueimpact.com'
   image: social-impact-reporting-platform.jpg
+  image-alt: A smiling school-aged girl wearing safety goggles holds a beaker in one hand and test tube in the other. Another girl stands besides her and looks on, also smiling. Overlaid on the photo is an text box that reads Beter philanthropy through better data. True Impact is a web-based measurement tool and benchmaking netowrk for the chritable sector. Donors and nonprofits use True Impat to measure the social impact of their grants, volunteerism, and other philanthropic investments, to demonstrate success and identify opportunities for improvement. True impact integrates with any grants or volunteer management system. At the bottom of the text is a yellow button that reads Schedule a Demo.
   description_new:
     Enables donors, nonprofits, and intermediary users to find funding
     opportunities they may qualify for
@@ -131,6 +137,7 @@
   problem_statement: Reaching Hard-to-Count Communities
   link: 'https://www.whywecount.org'
   image: whywecount.jpg
+  image-alt: Seated, smiling, middle-aged woman in a pink collared shirt. Behind her, out of focus, is a window and a houseplant. Across the bottom of the photo is the logo of Why We Count, and below it is text that reads Being Counted Saves Lives.
   description_new: Defines demographic profiles and psychographic barriers to design culturally relevant stories that community organizations can use to engage seniors and young adults from the Puerto Rican and Filipino diasporas and raise awareness of how the Census impacts their lives
   category: census
   description_old: NextDayBetter used open data overlaying low-response census tracts with low broadband access and CBAMS insights to define demographic profiles and psychographic barriers to design stories that are culturally relevant to engage Seniors and Young Adults from the Puerto Rican and Filipino diasporas, and  raise awareness of how the census impacts their lives.
@@ -140,7 +147,6 @@
   year: 2017
   problem_statement: Engaging communities in the Census
   agency: U.S. Census Bureau
-
   description_new:
     iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting
@@ -160,6 +166,7 @@
   agency: U.S. Census Bureau
   link: 'https://data2go.nyc/'
   image: data2gonyc.jpg
+  image-alt: Screenshot of Data 2 Go app showing a map. The map shows neighborhoods with sections in gradient shades of white, yellow and orange. On the left is a legend labeled Elderly Population that shows a curve with the same gradient colors with white narrow at the bottom and orange wide at the top. On the top right is another legend labeled Flushing, Murray Hill and Whitestone. Below is a green and red grid with additional text that is illegible.
   description_new:
     Free mapping and data tool for visualizing data that can help with decennial
     Census outreach in NYC communities by answering questions like 'What happens
@@ -182,6 +189,7 @@
   agency: U.S. Department of Labor
   link: 'https://www.shift.org/careernav'
   image: career-nav.jpg
+  image-alt: Screenshot of Career Nav application shows a bright purple top navigation, Shift logo in the left corner, Career Nav in the right corner, and a white main background. The main body of the app has bright purple text. The header reads See how your military experience translates. Below reads 15W Unmanned Aircraft Systems Operator, Army, Enlisted, with the option to select. Below there are two buttons, one labeled Operations Research Analytics and one labeled electro mechanical technicians, and both with a link that says explore.
   description_new:
     Helps veterans translate their skills and visualize career and educational
     steps toward reaching their dream jobs in desired locations
@@ -203,6 +211,7 @@
   agency: Office of Management and Budget, U.S. Department of the Treasury
   link: 'https://gist.reisystems.io'
   image: grants-impact-and-story-tool.jpg
+  image-alt: Screenshot of Grants Impact and Story Tool application. Across the top is an illustrated banner with a blue background with clouds. In the center right is a large jar of coins. To the left is a small floating piggy bank and an open laptop computer with some charts on the screen. To the right, in the background is a person holding an oversided hourglass. In the main body below the illustration, there is the header "explore featured programs" and under it is a row of three cards, each with statistics and a Learn More button at the bottom. The first card on the left is bright turquoise and reads Health Centere Program 1400 health centeres that were operated in 2017. The next card to its right is red and reads Hazard Mitigation program. 4 times in future benefits for every $1 spent. The last card is green and says 21st Century Community Learning Centers. 31 States or territires report improvement in reading and mathematics.
   description_new:
     Visually showcases how federal grants spending leads to desired performance
     outcomes, enhancing federal accountability and transparency for the American
@@ -230,6 +239,7 @@
   agency: U.S. Department of Labor
   link: 'https://apprenticeships.mybluemix.net'
   image: watson-employment.jpg
+  image-alt: Close-up of Watson Employment Manager apprenticeship dashboard. The header is cut off, as is some of the main content of the page to the left and right. Two cards in the center display apprenticeship recommendations, with a short description and a corresponding numeric code. At the bottom of each card is a green semi-circle labeled good match.
   description_new:
     Provides career recommendations to veterans on potential job/apprenticeship
     matches based on conceptual search, training recommendations, and skill gap
@@ -254,6 +264,7 @@
   agency: Office of Management and Budget, U.S. Department of the Treasury
   link: 'https://intel.ecivis.com/homelessness'
   image: grants-intelligence.jpg
+  image-alt: A map of the United State with each state colored in a blue scale, from very light blue, to very dark. The darkest states include Alaska, Oregon, New Mexico, Wyoming, Kentucky, West Virginia, New York, Vermont, and Rhode Island. The lightest are Utah, Nebraska, and Virginia. The remaining states fall in between.
   description_new:
     Makes homelessness statistics and related funding data easily accessible for
     grants professionals, researchers, government finance professionals, and
@@ -280,6 +291,7 @@
   agency: U.S. Department of Education
   link: 'https://top.demo.socrata.com'
   image: citizen-education-data-cloud.jpg
+  image-alt: Screenshot of Socrata Citizen Education Data Cloud dashboard. The top of the webpage is titled The Opportunity Project and has a background image of a teacher in a classroom of young children. Below is a grid of cards. In the first row, each card contains an icon corresponding with All Data, School Totals, Disciplinary, Harrassment, and Bulying Data, and Stem Class enrollment, performance, and AP classes. Below is another row of cards that display images and short descriptions of various web applications.
   description_new:
     Fuses together disparate, non-standardized data, to provide nationwide
     analysis of metrics for federal and state decision-makers to support the
@@ -306,6 +318,7 @@
   agency: U.S. Department of Labor
   link: 'https://www.civisanalytics.com/custom-services/'
   image: veteran-apprenticeship-matcher.jpg
+  image-alt: Screenshot of Veteran Apprenticeship Matcher. Header reads Welcome to Veteran Apprenticeship Matcher. Below, on the left, is a side panel with a form for the user to input information about themself, their interests, and what skills they want to learn. The right displays match results in a table. The table is cut off. The visple table headers are program name, occupation, and match strength, with program information listed in the rows below.
   description_new:
     An algorithm developed in partnership with SkillsEngine, a workforce
     development and technology nonprofit, shows veterans the most relevant
@@ -329,10 +342,9 @@
   agency: U.S. Department of Education
   link: 'https://nepris.com/misc/careersearch'
   image: nepris-industry.jpg
+  image-alt: A classroom, seen from the rear of the room. Students face towards the front, some sitting and some standing, many with their hands raised. At the front of the room, a projector screen is pulled down, and a video call is displayed on the screen, with an adult visible.
   description_new:
-    links relevant and authentic industry content to actual job descriptions to
-    provide learners and job seekers opportunity for career exploration and
-    exposure
+    links relevant and authentic industry content to actual job descriptions to provide learners and job seekers opportunity for career exploration and exposure
   data_sets:
     - 'Department of Labor O*NET Database
     - Department of Education '
@@ -352,6 +364,7 @@
   agency: U.S. Census Bureau
   link: 'https://www.civisanalytics.com/census/'
   image: census-intelligence.jpg
+  image-alt: Map of a region, with sub-districts colored in varying shades of blue. No legend or title is included.
   description_new:
     Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
@@ -374,6 +387,7 @@
   agency: U.S. Census Bureau
   link: 'https://www.voatz.com'
   image: voatz.jpg
+  image-alt: A hand holding up a mobile phone with an app open. In the background, out of focus, is a line of people in a room. Overlaid on the image, to the left, is text that reads the future is mobile. How might mobile voding facilitate the future of the U.S. Census regarding identity and data security?
   description_new: ' Allows the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in future censuses'
   data_sets:
     - Number of Americans overseas

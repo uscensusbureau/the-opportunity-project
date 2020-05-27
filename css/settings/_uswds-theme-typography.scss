@@ -122,12 +122,15 @@ names to something more descriptive.
 */
 
 $theme-typeface-tokens: (
-  example-serif-token: (
-    display-name: "Example Serif Display Name",
+  silka: (
+    display-name: "Silka",
     cap-height: 364px
-  ),
-  example-sans-token: (
-    display-name: "Example Sans Display Name",
+  )
+);
+
+$theme-typeface-tokens: (
+  silka-mono: (
+    display-name: "Silka-Mono",
     cap-height: 364px
   )
 );
@@ -196,9 +199,9 @@ font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans;
 
 $theme-font-cond-custom-stack: false;
 $theme-font-icon-custom-stack: false;
-$theme-font-lang-custom-stack: false;
-$theme-font-mono-custom-stack: false;
-$theme-font-sans-custom-stack: false;
+$theme-font-lang-custom-stack: "Silka", Helvetica, Arial, sans;
+$theme-font-mono-custom-stack: "Silka-Mono", roboto-mono;
+$theme-font-sans-custom-stack: "Silka", Helvetica, Arial, sans;
 $theme-font-serif-custom-stack: false;
 
 /*
@@ -260,11 +263,52 @@ $theme-font-serif-custom-src: (
 ----------------------------------------
 */
 
+
+
 $theme-font-cond-custom-src: false;
 $theme-font-icon-custom-src: false;
-$theme-font-lang-custom-src: false;
-$theme-font-mono-custom-src: false;
-$theme-font-sans-custom-src: false;
+$theme-font-lang-custom-src: (
+  dir: 'silka',
+  roman: (
+    100: false,
+    200: false,
+    300: false,
+    400: 'silka-regular',
+    500: false,
+    600: 'silka-semibold',
+    700: false,
+    800: false,
+    900: false,
+  )
+);
+$theme-font-mono-custom-src:  (
+  dir: 'silka-mono',
+  roman: (
+    100: false,
+    200: false,
+    300: false,
+    400: 'silkamono-regular',
+    500: false,
+    600: false,
+    700: false,
+    800: false,
+    900: false,
+  )
+);;
+$theme-font-sans-custom-src: (
+  dir: 'silka',
+  roman: (
+    100: false,
+    200: false,
+    300: false,
+    400: 'silka-regular',
+    500: false,
+    600: 'silka-semibold',
+    700: false,
+    800: false,
+    900: false,
+  )
+);
 $theme-font-serif-custom-src: false;
 
 /*
@@ -324,8 +368,8 @@ $theme-font-weight-thin: 200;
 $theme-font-weight-light: 300;
 $theme-font-weight-normal: 400;
 $theme-font-weight-medium: 500;
-$theme-font-weight-semibold: 600;
-$theme-font-weight-bold: 700;
+$theme-font-weight-semibold: false;
+$theme-font-weight-bold: 600;
 $theme-font-weight-heavy: 800;
 
 // If USWDS is generating your @font-face rules,

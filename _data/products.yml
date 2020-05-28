@@ -29,7 +29,7 @@
   agency: U.S. Department of Veterans Affairs
   link: 'https://www.pairin.com/pairin-pathways/'
   image: pairin-pathways.jpg
-  image-alt: Screenshot of Pairin Pathways webmaster or administrator dashboard with gradient blue background. Horizontally across the top is a waving, dashed yellow line that with a series of icons. Below, a blue square labeled moderate difficulty and the statistics 68 readiness and 1 to 3 years appear in a row.
+  image-alt: Screenshot of Pairin Pathways webmaster dashboard. Across the top is a dashed yellow line with a series of icons, and statistics are listed below.
   description_new:
     Helps veterans translate their developed skills into private sector careers
     and connect them to the education, soft skills development, and employers
@@ -409,6 +409,7 @@
   agency: U.S. Census Bureau
   link: 'http://tractbytract.com/'
   image: tract-by-tract.jpg
+  image-alt: Map of a region, with sub-districts colored in varying shades of green, yellow, and red. To the left is an open side panel with New York selected.
   description_new:
     Supports policymakers in resource allocation by predicting decennial Census
     response rates by day for each census tract, and comparing them to the true
@@ -429,6 +430,7 @@
   agency: U.S. Census Bureau
   link: 'https://2020counts.org/'
   image: community-counts.jpg
+  image-alt: 'Two open laptops with a web application open. The background of the image is a blue monochrome city skyline. Below the laptop is the text Community Counts, hashtag 2020Census'
   description_new:
     Helps Area Census Office Staff visualize and verify potential locations of
     individuals experiencing homelessness for enumeration

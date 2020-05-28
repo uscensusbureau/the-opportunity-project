@@ -1850,12 +1850,36 @@ code {
 
 // Logo Garden
 
-.logo-garden {
-  max-height: 40px;
+.logo-garden-container {
+  margin-top: units(6);
+  opacity: 0.5;
+
+}
+
+.logo-garden-item {
+  max-height: 30px;
   max-width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.logo-garden-large {
+  max-height: 100px;
+  max-width: auto;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+// process page header overlay banner
+
+.header-overlay {
+  width: 60%;
+  position: absolute;
+  top: units(5);
+  background-color: color("base-darkest");
+  color: color("white");
 }
 
 

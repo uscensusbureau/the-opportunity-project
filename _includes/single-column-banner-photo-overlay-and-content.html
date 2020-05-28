@@ -1,7 +1,15 @@
 <section class="usa-section usa-graphic-list grid-container">
-  <div class="grid-row grid-gap">
-    <div class="desktop:grid-offset-2 desktop:grid-col-8">
-      {% for item in page.role-descriptions %}
+  {% for item in page.role-descriptions %}
+    <div
+      class="desktop:grid-offset-2 desktop:grid-col-8 usa-media-block__background-image-landscape margin-bottom-5"
+    >
+        <img src="{{site.baseurl}}/assets/img/photos/{{ item.image}}" alt="{{ item.image-alt}}">
+      <div class="header-overlay">
+        <h3 class="text-white padding-left-3 padding-1">{{ item.title }}</h3>
+      </div>
+    </div>
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-offset-2 desktop:grid-col-8 desktop:margin-bottom-9">
         {% if item.description %}
           <p>{{ item.description }}</p>
         {% endif %}
@@ -34,7 +42,7 @@
             </div>
           {% endfor %}
         {% endif %}
-      {% endfor %}
+      </div>
     </div>
-  </div>
+  {% endfor %}
 <section>

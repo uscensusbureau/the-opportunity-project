@@ -62,17 +62,17 @@ progress-bar:
 # roles "quadrant"
 card-explanation:
   title: Roles
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+  description: What participants do in each sprint varies depending on their role.
   card-color: primary-lightest
   cards:
     - title: Tech Teams
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+      description: Tech teams build a product through the sprint — whether new or within an existing  product or platform—that uses open data to solve one of our sprint problem statements.
     - title: Government
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+      description: Federal agencies identify challenges. Policy and federal data experts provide feedback and share insights about federal data and the policy context.
     - title: User Advocates
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+      description: User advocates offer feedback and insights throughout the sprint. They are community leaders, local or national advocates, and people with direct lived experience in the target challenges.
     - title: Product Advisors
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+      description: Product advisors help tech teams develop products with a viable long term strategy that enables them to reach end users.
 
 # role section with collapsible accordions
 role-descriptions:

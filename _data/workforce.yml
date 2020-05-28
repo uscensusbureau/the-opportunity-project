@@ -32,7 +32,7 @@
     email: Andrew.W.Hait@census.gov
     problem-statement: zones
 -
-    name: American Community Survey &ndash; Demographic Data
+    name: American Community Survey Demographic Data
     description: Tract-level data on household characteristics; industry and occupation, broken out by demographic characteristics of workers.
     agency: U.S. Census Bureau
     link: https://www.census.gov/data/developers/data-sets/acs-5year.html
@@ -176,7 +176,7 @@
     email: ipedstools@rti.org
     problem-statement: talent
 -
-    name: Regional Innovation Strategies (RIS) Program
+    name: Regional Innovation Strategies Program
     description: Annual awards data since 2014 for The i6 Chllange and Seed Fund Support Competitions. The grants help to create and expand high-growth entrepreneurship and increase access to capital in regions across the country.
     agency: Economic Development Administration
     link: https://www.eda.gov/oie/ris/i6/
@@ -200,7 +200,7 @@
     email:
     problem-statement: talent
 -
-    name: Inventor and entrepreneur resources
+    name: Inventor and Entrepreneur Resources
     description: Resources about protecting intellectual property, including listings for pro bono attorney representation.
     agency: U.S. Patent and Trademark Office
     link: https://www.uspto.gov/learning-and-resources/inventors-entrepreneurs-resources
@@ -208,7 +208,7 @@
     email:
     problem-statement: talent
 -
-    name: List of Federal efforts supporting entrepreneurship
+    name: List of Federal Efforts Supporting Entrepreneurship
     description: Federal organizations, programs, policies, and statistics focused on entrepreneurship.
     agency: George Washington University
     link: https://gwipp.gwu.edu/sites/g/files/zaxdzs2181/f/downloads/Reamer%20federal%20entrepreneurship%20reference%20draft%2004-13-17.pdf
@@ -222,22 +222,6 @@
     link: https://www.census.gov/economic-indicators/
     poc: Andy Hait
     email: Andrew.W.Hait@census.gov
-    problem-statement: entrepreneurship
--
-    name: Inventor and entrepreneur resources
-    description: Resources about protecting intellectual property, including listings for pro bono attorney representation.
-    agency: U.S. Patent and Trademark Office
-    link: https://www.uspto.gov/learning-and-resources/inventors-entrepreneurs-resources
-    poc:
-    email:
-    problem-statement: entrepreneurship
--
-    name: List of Federal efforts supporting entrepreneurship
-    description: Federal organizations, programs, policies, and statistics focused on entrepreneurship.
-    agency: George Washington University
-    link: https://gwipp.gwu.edu/sites/g/files/zaxdzs2181/f/downloads/Reamer%20federal%20entrepreneurship%20reference%20draft%2004-13-17.pdf
-    poc:
-    email:
     problem-statement: entrepreneurship
 -
     name: National Center for Science and Engineering Statistics
@@ -328,7 +312,7 @@
     email:
     problem-statement: entrepreneurship
 -
-    name: TechLink&#58; DoD and VA Inventions
+    name: TechLink DoD and VA Inventions
     description: Over 5,000 DoD and VA inventions available in virtually all technology fields, searchable by keyword.
     agency:
     link: https://techlinkcenter.org/technologies-all/
@@ -424,7 +408,7 @@
     email:
     problem-statement: zones talent pathways entrepreneurship
 -
-    name: TIGER&#58; Line Roads Data
+    name: TIGER Line Roads Data
     description: Data on roads covering the entire United States.
     agency: U.S. Census Bureau
     link: ftp://ftp2.census.gov/geo/tiger/TIGER2017/ROADS/
@@ -432,7 +416,7 @@
     email:
     problem-statement: zones talent pathways entrepreneurship
 -
-    name: TIGER&#58; Line Address Range-Feature
+    name: TIGER Line Address Range-Feature
     description: The TIGER/Line Shapefiles contain potential address ranges for city-style addresses.
     agency: U.S. Census Bureau
     link: ftp://ftp2.census.gov/geo/tiger/TIGER2017/ADDRFEAT/
@@ -440,7 +424,7 @@
     email:
     problem-statement: zones talent pathways entrepreneurship
 -
-    name: American Community Survey - Population Data
+    name: American Community Survey Population Data
     description: The American Community Survey is the premier source for detailed population and housing information about the U.S.
     agency: U.S. Census Bureau
     link: https://www.census.gov/programs-surveys/acs/

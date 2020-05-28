@@ -619,6 +619,14 @@ body {
   }
 }
 
+.data-card {
+  border: none;
+  &:hover {
+    border: 2px solid color("accent-warm");
+  }
+}
+
+
 .contact-card {
   border: none;
   &:hover {

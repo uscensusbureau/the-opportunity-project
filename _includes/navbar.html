@@ -1,6 +1,6 @@
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 {% include banner.html %}
-<header class="usa-header site-header site-header-dark" role="banner">
+<header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom" role="banner">
   <div class="usa-navbar site-header-navbar">
     <div class="usa-logo site-logo" id="logo">
       <em class="usa-logo__text">
@@ -12,7 +12,7 @@
     </div>
     <button class="usa-menu-btn">Menu</button>
     <div class="navbar--container">
-      <nav class="usa-nav sticky">
+      <nav class="usa-nav">
         <ul class="usa-nav__primary usa-accordion">
           {% assign links = site.data.nav.primary %}
           {% for link in links %}

@@ -1,70 +1,72 @@
 <!-- this section still needs to be refactored into a more reusable component -->
+<section class="bg-white">
+  <section class="usa-section usa-graphic-list grid-container">
+    <div class="grid-row grid-gap">
+      <div
+        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      ></div>
+      <h2>News</h2>
+    </div>
+    <div class="grid-row grid-gap">
+      <div
+        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      ></div>
+      <div
+        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__background-image-portrait margin-bottom-3 desktop:margin-bottom-0"
+      >
+        <img src="{{ site.baseurl}}/assets/img/photos/home/news/news-main.png" alt="American flag against blue background">
+        <div class="content">
+          <p>Meritalk</p>
+          <h3><a href="https://www.meritalk.com/articles/the-opportunity-project-marks-100-product-milestone/">The Opportunity Project Marks 100 Product Milestone</a></h3>
+          <p>MARCH 2020</p>
+        </div>
+      </div>
+      <div
+      class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
+      >
+        <div class="usa-media-block__background-image-landscape margin-bottom-1">
+          <img src="{{ site.baseurl}}/assets/img/photos/home/news/news-01.png" alt="People seated in groups at tables, listening and taking notes">
+          <div class="content">
+            <p>NextGov</p>
+            <h3><a href="https://www.nextgov.com/analytics-data/2018/12/census-project-matches-your-agencys-data-civic-innovators/153183/">Census Project Matches Your Agency's Data with Civic Innovators</a></h3>
+            <p>DECEMBER 2019</p>
+          </div>
+        </div>
+        <div class="usa-media-block__background-image-landscape  margin-bottom-1">
+          <img src="{{ site.baseurl}}/assets/img/photos/home/news/news-02.png" alt="Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him">
+          <div class="content">
+            <p>Fedscoop</p>
+            <h3><a href="https://www.fedscoop.com/the-opportunity-project-report-center-for-open-data-enterprise/">How Federal Agencies Can Use Agile Development to Apply Open Data</a></h3>
+            <p>JUNE 2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-row grid-gap">
+      <div
+        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      ></div>
+      <div
+      class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
+      >
+        <div class="usa-media-block padding-top-2 display-flex flex-column flex-align-center">
+          <p>Want to write a story TOP?</p>
+          <button class="usa-button__secondary-gray" type="button" name="button">Let's Talk</button>
+        </div>
+      </div>
+      <div
+      class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
+      >
+        <div class="usa-media-block__background-image-landscape">
+          <img src="{{ site.baseurl}}/assets/img/photos/home/news/news-03.png" alt="birdseye view of a city coastline">
+          <div class="content">
+            <p>TechRepublic</p>
+            <h3><a href="https://www.techrepublic.com/article/president-obamas-new-open-data-initiative-could-help-cities-help-themselves/">President Obama's new open data initiative could help cities help themselves</a></h3>
+            <p>MARCH 2016 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="usa-section usa-graphic-list grid-container">
-  <div class="grid-row grid-gap">
-    <div
-      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-    ></div>
-    <h2>News</h2>
-  </div>
-  <div class="grid-row grid-gap">
-    <div
-      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-    ></div>
-    <div
-      class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__background-image-portrait margin-bottom-3 desktop:margin-bottom-0"
-    >
-      <img src="{{ site.baseurl}}/assets/img/photos/placeholder-home-portrait-half-width-photo.png" alt="">
-      <div class="content">
-        <p>Meritalk</p>
-        <h3><a href="{{ item.link }}">The Opportunity Project Marks 100 Product Milestone</a></h3>
-        <p>MARCH 2020 </p>
-      </div>
-    </div>
-    <div
-    class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-    >
-      <div class="usa-media-block__background-image-landscape margin-bottom-1">
-        <img src="{{ site.baseurl}}/assets/img/photos/placeholder-home-landscape-half-width-photo.png" alt="">
-        <div class="content">
-          <p>Meritalk</p>
-          <h3><a href="{{ item.link }}">The Opportunity Project Marks 100 Product Milestone</a></h3>
-          <p>MARCH 2020 </p>
-        </div>
-      </div>
-      <div class="usa-media-block__background-image-landscape  margin-bottom-1">
-        <img src="{{ site.baseurl}}/assets/img/photos/placeholder-home-landscape-half-width-photo.png" alt="">
-        <div class="content">
-          <p>Meritalk</p>
-          <h3><a href="{{ item.link }}">The Opportunity Project Marks 100 Product Milestone</a></h3>
-          <p>MARCH 2020 </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="grid-row grid-gap">
-    <div
-      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-    ></div>
-    <div
-    class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-    >
-      <div class="usa-media-block padding-top-2 display-flex flex-column flex-align-center">
-        <p>Want to write a story TOP?</p>
-        <button class="usa-button__secondary-gray" type="button" name="button">Let's Talk</button>
-      </div>
-    </div>
-    <div
-    class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-    >
-      <div class="usa-media-block__background-image-landscape">
-        <img src="{{ site.baseurl}}/assets/img/photos/placeholder-home-landscape-half-width-photo.png" alt="">
-        <div class="content">
-          <p>Meritalk</p>
-          <h3><a href="{{ item.link }}">The Opportunity Project Marks 100 Product Milestone</a></h3>
-          <p>MARCH 2020 </p>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>

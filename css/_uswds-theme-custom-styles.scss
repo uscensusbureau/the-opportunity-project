@@ -1715,8 +1715,6 @@ code {
   width: auto;
   position: absolute;
   top: 0;
-  // use rba for opacity overlay rather than base-darkest token
-  background-color: rgb(18,25,35,0.7);
   color: color("white");
   padding: units(1) units(5);
   margin-right: units(2);

@@ -1,6 +1,6 @@
 # The Opportunity Project Website 2.0 documentation
 
-This repo includes code and documentation for the TOP website.
+This repo includes code for the new TOP website. Documentation about how the project is organized is forthcoming.
 
 ## Running locally
 

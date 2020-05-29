@@ -35,30 +35,33 @@
           {% endfor %}
         </ul>
       </nav>
-      <form
-        id="search_form"
-        class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-right text-middle"
-        action="https://search.usa.gov/search"
-        accept-charset="UTF-8"
-        method="get">
-        <input name="utf8" type="hidden" value="&#x2713;" />
-        <input type="hidden" name="affiliate" id="affiliate" value="uswds" />
-        <div role="search">
-          <label class="usa-sr-only" for="query">Search</label>
-          <input
-            id="query"
-            class="usa-input usagov-search-autocomplete"
-            name="query"
-            type="search"
-            autocomplete="off"/>
-          <button
-            class="usa-button"
-            type="submit"
-            name="commit">
-            <span class="usa-sr-only">Search</span>
-          </button>
-        </div>
-      </form>
+      <div class="get-involved">
+        <form
+          id="search_form"
+          class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-left text-middle"
+          action="https://search.usa.gov/search"
+          accept-charset="UTF-8"
+          method="get">
+          <input name="utf8" type="hidden" value="&#x2713;" />
+          <input type="hidden" name="affiliate" id="affiliate" value="uswds" />
+          <div role="search">
+            <label class="usa-sr-only" for="query">Search</label>
+            <input
+              id="query"
+              class="usa-input usagov-search-autocomplete"
+              name="query"
+              type="search"
+              autocomplete="off"/>
+            <button
+              class="usa-button"
+              type="submit"
+              name="commit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+        <a href="{{site.baseurl}}/get-involved/join-a-sprint"><button type="button" name="get-involved" class="usa-button__primary-red margin-0 padding-4">Get Involved</button></a>
+      </div>
     </div>
   </div>
 </header>

@@ -27,7 +27,6 @@ connecting-banner:
 
 # used here for the "how it works" section
 explanation:
-  title: How It Works
   # two column layout of text; the text layout is wide; items build left to right and top to bottom, meaning the first item listed will be left aligned, the next will be next to it (in the right column), the third will be in a new row below, left aligned under the first item, and so on.
   #         |    
   #    1    |    2
@@ -72,18 +71,21 @@ featured_items:
     img: photos/home/products/city-builder.png
     alt: Dashboard view on City Builder website displaying occupancy and land use statistics next to a map of several outlined city blocks
     text_align: right
+    button-link: case-studies/city-builder
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
     img: photos/home/products/sille.png
     alt: Map view on SILLE website showing Bytom, Poland
     text_align: left
-  - name: Job Opportunity Tool
-    team: Redfin
-    description: Helping job seekers understand the opportunities and tradeoffs when deciding where to relocate
-    img: photos/home/products/redfin.png
-    alt: Dashboard view on Job Opportunity Tool showing a map of the United States and colored circles indicating the total number and concentration of web developers in geographic areas across the country
+    button-link: case-studies/sille
+  - name: PRADOS
+    team: iCASAPR
+    description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
+    img: photos/home/products/prados.png
+    alt:
     text_align: right
+    button-link: case-studies/prados
 
 # three column layout of testimonials
 # alt text is added using the name of the person

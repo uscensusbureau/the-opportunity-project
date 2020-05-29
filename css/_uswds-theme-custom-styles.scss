@@ -608,6 +608,13 @@ body {
   background-color: color("transparent");
   color: color("white");
 
+  a {
+    text-decoration: none;
+    color: color("white");
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .usa-button__secondary-gray {
@@ -620,6 +627,13 @@ body {
   font-size: font-size("mono", "3xs");
   background-color: color("transparent");
   color: color("base");
+  a {
+    text-decoration: none;
+    color: color("base");
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
 }
 

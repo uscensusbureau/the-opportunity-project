@@ -10,7 +10,7 @@ hero:
 
 connecting-banner:
   background-color: dark
-  image: placeholder-home-banner-photo.png
+  image: case-studies/prados-01.png
   alt: "placeholder image"
 
 main-content:
@@ -20,6 +20,8 @@ main-content:
       text: Since there is no centralized database of addresses for Puerto Rico and most municipios do not have address data that follow federal standards, there are significant inconsistencies between federal, state and local datasets. To complicate the issue, addresses in Puerto Rico have unique characteristics that require special handling, and over half of the population of Puerto Rico rely on rural or post office box addresses that cannot be geolocated.
     - title: Without a reliable database of addresses, local and federal leaders are unable to effectively manage catastrophic events.
       text: During catastrophic events such as hurricanes and earthquakes, residences and businesses cannot be located using traditional means of address navigation since structures, street signs, and landmarks no longer exist. Without addresses that can be geolocated, emergency respondents aren’t able to locate households affected by disasters or effectively respond to calls for help. An easily accessible database of reliable, accurate, and uniform address point data can meet the immediate needs of emergency responders and communities in crisis.
+    - image: case-studies/prados-02.png
+      image-alt:
     - title: Through The Opportunity Project,  iCasaPR was able to  validate an approach for collecting and standardizing addresses in Puerto Rico through collaborative engagements with key stakeholders and local leaders.
       text: 'The Opportunity Project created a unique platform for disparate groups of people to collaborate on a singular challenge. The collaborative spirit of the TOP user engagement workshop in Puerto Rico inspired iCasaPR to collaborate with key stakeholders and gain valuable insights to ensure that their approach could meet existing needs. These efforts included:'
       list:

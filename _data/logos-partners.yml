@@ -1,49 +1,75 @@
-# alt text is required for all logos. The alt text should describe the organization depicted by the logo
-- image: 1200px-Seal_of_the_State_of_Hawaii.png
-  alt: State of Hawaii
-- image: LinkedIn-Logo.png
-  alt: LinkedIn
-- image: ESRI_logo_color.png
-  alt: ESRI
-- image: NALEO-logo-white.png
-  alt: National Association of Latino Appointed and Elected Officials
-- image: Choctaw-Nation.png
-  alt: Choctaw Nation
-- image: 1280px-MIT_logo.png
-  alt: MIT
-- image: bloomberg-logo-white-1.png
-  alt: Bloomberg
-- image: Fitbit-Logo.png
-  alt: Fitbit
-- image: citi-logo-1100x715.png
-  alt: citi
-- image: IBM-Logo.png
-  alt: IBM
-- image: excella-logo.png
-  alt: excella
-- image: MCIG-Interim.png
-  alt: Mastercard Center for Inclusive Growth
-- image: main-SNI-logo.png
-  alt: Spatial Networks
-- image: mapbox-logo.png
+- image: mapbox.png
+  size: small
   alt: Mapbox
-- image: moa_logo_2016.png
-  alt: Measure of America
-- image: Cisco-logo.png
-  alt: Cisco
-- image: Redfin-Logo.png
+- image: linkedin.png
+  size: small
+  alt: LinkedIn
+- image: ibm.png
+  size: small
+  alt: IBM
+- image: citi.png
+  size: small
+  alt: Citi
+- image: mit.png
+  size: small
+  alt: MIT
+- image: esri.png
+  size: small
+  alt: Esri
+- image: redfin.png
+  size: small
   alt: Redfin
-- image: motif-logo.png
-  alt: motif
-- image: Citi Ventures.png
-  alt: Citi Ventures
-- image: WEB-Homestretch-4color-tag.png
-  alt: Homestretch
-- image: ndb-logo.png
-  alt: Next Day Better
-- image: Columbia_University_Shield.png
-  alt: Columbia University
-- image: airbnb-2.png
+
+- image: cisco.png
+  size: small
+  alt: Cisco
+- image: airbnb.png
+  size: small
   alt: Airbnb
-- image: Council-School-Officers.png
+- image: bloomberg.png
+  size: small
+  alt: Bloomberg
+- image: nextdaybetter.png
+  size: small
+  alt: Next Day Better
+- image: spatialnetworks.png
+  size: small
+  alt: Spatial Networks
+- image: motivf.png
+  size: small
+  alt: Motif
+- image: fitbit.png
+  size: small
+  alt: Fitbit
+
+- image: cori.png
+  size: small
+  alt: Center on Rural Innovation
+- image: mastercard.png
+  size: small
+  alt: Mastercard
+- image: excella.png
+  size: small
+  alt: Excella
+- image: ccsso.png
+  size: small
   alt: Council of Chief State School Officers
+- image: measure-of-america.png
+  size: small
+  alt: Measure of America
+- image: homestretch.png
+  size: small
+  alt: Homestretch
+  
+- image: naleo.png
+  size: large
+  alt: National Association of Latino Elected & Appointed Officials
+- image: columbia.png
+  size: large
+  alt: Columbia university
+- image: choctaw-nation.png
+  size: large
+  alt: Choctaw Nation
+- image: state-of-hawaii.png
+  size: large
+  alt: State of Hawaii

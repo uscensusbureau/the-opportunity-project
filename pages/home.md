@@ -22,12 +22,11 @@ callout:
 
 connecting-banner:
   background-color: primary
-  image: placeholder-home-banner-photo.png
-  alt: "placeholder image"
+  image: home/homepage-01.png
+  alt: Room of people sitting in groups at tables and focus on a man standing in the center.
 
 # used here for the "how it works" section
 explanation:
-  title: How It Works
   # two column layout of text; the text layout is wide; items build left to right and top to bottom, meaning the first item listed will be left aligned, the next will be next to it (in the right column), the third will be in a new row below, left aligned under the first item, and so on.
   #         |    
   #    1    |    2
@@ -69,42 +68,46 @@ featured_items:
   - name: City Builder
     team: Citi Ventures
     description: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
-    img: products/homepage/city-builder.png
+    img: photos/home/products/city-builder.png
     alt: Dashboard view on City Builder website displaying occupancy and land use statistics next to a map of several outlined city blocks
     text_align: right
+    button-link: case-studies/city-builder
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
-    img: products/homepage/sille.png
+    img: photos/home/products/sille.png
     alt: Map view on SILLE website showing Bytom, Poland
     text_align: left
-  - name: Job Opportunity Tool
-    team: Redfin
-    description: Helping job seekers understand the opportunities and tradeoffs when deciding where to relocate
-    img: products/homepage/redfin.png
-    alt: Dashboard view on Job Opportunity Tool showing a map of the United States and colored circles indicating the total number and concentration of web developers in geographic areas across the country
+    button-link: case-studies/sille
+  - name: PRADOS
+    team: iCASAPR
+    description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
+    img: photos/home/products/prados.png
+    alt:
     text_align: right
+    button-link: case-studies/prados
 
 # three column layout of testimonials
+# alt text is added using the name of the person
 testimonials:
   - text: 'TOP is building something that is new and really powerful. With government as a convener, it can get people    
     together around a problem who wouldn’t otherwise be working together.'
     person: Rob Lalka
     organization: Public Democracy
-    image: photos/headshots/rob-lalka.png
+    image: photos/home/headshots/rob-lalka.png
   - text: TOP sprint really represents the best of what government can be — a platform for engagement that is so core to our democracy.
     person: Denice Ross
     organization: Georgetown University
-    image: photos/headshots/denice-ross.png
+    image: photos/home/headshots/denice-ross.png
   - text: The emphasis on human-centered design and the opportunity to speak to all of these different advocates and stakeholders was key in creating a product that would actually help the end user.
     person: Ryan Harper
     organization: CITI VENTURES
-    image: photos/headshots/ryan-harper.png
+    image: photos/home/headshots/ryan-harper.png
 
 # get involved
 get_involved:
-  title-image: photos/placeholder-home-portrait-half-width-photo.png
-  title-image-alt: Workshop participants sitting at a table
+  title-image: photos/get-involved.png
+  title-image-alt: Man seated holding a microphone and smiling, with people seated at other tables in the background
   title: Get Involved
   subtitle:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
@@ -117,21 +120,20 @@ get_involved:
   text:
     - number: 1
       number_display: false
-      title: Build with open data
-      description: Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.
-      button: Go To Toolkit
+      title: Build with open data (Coming Soon)
+      description: 'Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.'
     - number: 2
       number_display: false
-      title: Run a TOPx sprint
-      description: Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.
-      button: Go To Toolkit
+      title: Run a TOPx sprint (Coming Soon)
+      description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
 #news
 news_item:
   - title: The Opportunity Project Marks 100 Product Milestone
     date: MARCH 2020
     organization: Meritalk
-    image: /photos/placeholder-home-portrait-half-width-photo.png
+    image: /photos/home/news/news-main.png
+    image-alt: American flag against blue background
     # two possible sizes, either a large, portrait orientation card which has an in-set text box, or a small, landscape card with text directly overlaid on the image
     size: large
     link:
@@ -139,7 +141,8 @@ news_item:
   - title: Census Project Matches Your Agency's Data with Civic Innovators
     date: December 2019
     organization: NextGov
-    image:
+    image: /photos/home/news/news-01.png
+    image-alt: People seated in groups at tables, listening and taking notes
     size: small
     link:
     align: right
@@ -147,7 +150,8 @@ news_item:
   - title: How Federal Agencies Can Use Agile Development to Apply Open Data
     date: June 2019
     organization: Fedscoop
-    image:
+    image: /photos/home/news/news-02.png
+    image-alt: man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
     size: small
     link:
     align: right
@@ -165,7 +169,8 @@ news_item:
   - title: President Obama's new open data initiative could help cities help themselves
     date: March 2016
     organization: NextGov
-    image:
+    image: /photos/home/news/news-03.png
+    image-alt: birdseye view of a city coastline
     size: small
     link:
     align: right

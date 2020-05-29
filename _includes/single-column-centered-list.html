@@ -6,7 +6,7 @@
       >
         <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
         {% for link in item.links %}
-          <a class="text-black" href="{{ link.link-path}}">{{ link.link-text}}</a>
+          <a class="text-black" href="{{ link.link-path}}" target="_blank">{{ link.link-text}}</a>
         {% endfor %}
       </div>
       <div
@@ -28,9 +28,9 @@
           <p>{{ item.description }}</p>
         {% endif %}
         {% for accordion in item.accordions %}
-          <div class="usa-accordion usa-accordion--bordered text-black">
+          <div class="usa-accordion usa-accordion--bordered text-black margin-0">
             <h2 class="usa-accordion__heading text-normal">
-              <button class="usa-accordion__button"
+              <button class="usa-accordion__button font-sans-sm text-normal"
                 aria-expanded="false"
                 aria-controls="{{ accordion.aria }}">
                 {{ accordion.title }}

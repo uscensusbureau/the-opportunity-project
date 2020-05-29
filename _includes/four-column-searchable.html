@@ -3,15 +3,11 @@
     <div class="grid-row grid-gap">
       {% for case in case_studies %}
         <div
-          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape margin-bottom-3 desktop:margin-bottom-0"
+          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
         >
-          <!-- {% if case.image %}
-            <img src="{{ site.baseurl}}/assets/img/{{ photo.image }}" alt="{{ photo.image-alt }}">
-          {% endif %} -->
-          <img
-            src="{{ site.baseurl }}/img/products/test.png"
-            alt="screenshot of City Builder website"
-          />
+          {% if case.image %}
+            <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
+          {% endif %}
           <div class="content-grid-one-third">
             {% if case.product_name %}
               <h2>{{ case.product_name }}</h2>

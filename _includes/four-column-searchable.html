@@ -121,20 +121,20 @@
         </li>
         <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive">
           <div class="grid-row">
-            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
-              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
+            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8  text-middle">
+              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6 padding-left-2">
                 <img
                   src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
                   alt="screenshot of City Builder website"
                 />
               </div>
-              <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
+              <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-2">
                 <span class="close">&times;</span>
-                <h2 class="font-sans-md">{{ product.product_name }}</h2>
+                <h3 class="font-sans-md">{{ product.product_name }}</h3>
                 <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
                 <p>{{ product.description_new }}</p>
-                <p>Datasets Used</p>
-                <p>
+                <p class="font-sans-2xs">Datasets Used</p>
+                <p class="font-sans-2xs">
                   {% for dataset in product.data_sets %}
                     {{ dataset }}
                   {% endfor %}

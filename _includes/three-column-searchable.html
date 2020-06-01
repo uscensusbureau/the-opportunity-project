@@ -4,8 +4,8 @@
     <div class="grid-row grid-gap">
       <ul class="usa-card-group data-card-group margin-top-7">
         {% for data in data-topics %}
-          <li id="data-card-{{data.name | slugify}}" class="usa-card" name="productCard">
-            <div class="usa-card__container bg-primary-darker">
+          <li id="{{ data.filter }}" class="usa-card" name="productCard">
+            <div class="usa-card__container border-accent-warm bg-primary-darker">
               <header class="usa-card__header">
                 <p class="text-white font-sans-sm" value="{{ data.name | slugify}}">{{ data.name }}</p>
               </header>
@@ -17,7 +17,7 @@
     <div class="grid-row grid-gap">
       {% for data in data-topics %}
         {% if data.description%}
-          <div id="modal-data-card-{{ data.name | slugify }}" class="data-modal modal-inactive">
+          <div id="modal-{ data.filter }}" class="data-modal modal-inactive">
             <div class="grid-row">
               <div class="desktop:grid-col-8 tablet:grid-col-8">
                 <div class="display-inline-block desktop:grid-col-4 tablet:grid-col-4">
@@ -41,10 +41,10 @@
         {% endif %}
       {% endfor %}
     </div>
-  <hr class="margin-top-9 margin-bottom-7">
-  <form id="product-search-form" class="usa-search usa-search--small" role="search">
-    <label class="usa-sr-only" for="search-field">Search by product name</label>
-    <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search by product name">
+  <hr class="margin-top-3 margin-bottom-4 border-accent-warm">
+  <form id="data-search-form" class="usa-search usa-search--small" role="search">
+    <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
+    <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
     <button class="usa-button__primary-dark" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
@@ -55,17 +55,24 @@
     <ul class="usa-card-group">
       {% assign workforce-data = site.data.workforce %}
       {% for item in workforce-data %}
-        <li id="data-card-{{data.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card data-card-active" name="productCard">
-          <div class="usa-card__container bg-primary-darker">
+        <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card data-set-card" name="data-set-card">
+          <div class="usa-card__container data-card bg-primary-darker">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
+              <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
               <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
             </header>
             <div class="usa-card__body">
               <p class="font-sans-xs text-white">{{ item.description}}</p>
             </div>
             <div class="usa-card__footer">
-              <a href="mailto:{{ item.email }}" class="font-sans-xs text-white">Contact</a>
+              <div class="usa-card__container bg-white width-15 contact-card">
+                <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
+                  <a href="mailto:{{ item.email }}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                    <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </li>

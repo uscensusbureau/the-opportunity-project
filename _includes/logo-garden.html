@@ -1,7 +1,7 @@
 <section class="bg-base-darkest border-base-darker border-top">
-  <section class="usa-section usa-graphic-list grid-container">
+  <section class="usa-section usa-graphic-list grid-container margin-bottom-0">
     <div
-      class="usa-media-block__inline-items margin-bottom-9 display-flex flex-column flex-align-center"
+      class="usa-media-block__inline-items display-flex flex-column flex-align-center"
     >
       <div class="usa-media-block__body">
         <div class="inline-number">
@@ -12,16 +12,40 @@
         </div>
       </div>
     </div>
-    <div class="grid-row grid-gap">
-      {% for item in site.data.logos-partners %}
-      <div
-        class="desktop:grid-col-2 tablet:grid-col-2 usa-media-block margin-bottom-3"
-      >
-        {% if item.image %}
-          <img class="logo-garden" src="{{site.baseurl}}/assets/img/logos-partners/{{item.image}}" alt="{{item.alt}}">
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
   </section>
+  <div>
+  <section class="display-flex flex-column flex-align-center margin-bottom-9">
+    <div class="logo-garden-container">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mapbox.png" alt="Mapbox logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/linkedin.png" alt="LinkedIn logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/ibm.png" alt="IBM logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/citi.png" alt="Citi logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mit.png" alt="MIT logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/esri.png" alt="Esri logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/redfin.png" alt="Redfin logo">
+    </div>
+    <div class="logo-garden-container">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/cisco.png" alt="Cisco logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/airbnb.png" alt="Airbnb logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/bloomberg.png" alt="Bloomberg logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/nextdaybetter.png" alt="Next Day Better logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/spatialnetworks.png" alt="Spatial Networks logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/motivf.png" alt="Motivf logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/fitbit.png" alt="Fitbit logo">
+    </div>
+    <div class="logo-garden-container">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/cori.png" alt="Center on Rural Innovation logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mastercard.png" alt="mastercard logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/excella.png" alt="Excella logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/ccsso.png" alt="Council of Chief State School Officers logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/measure-of-america.png" alt="Measure of America logo">
+      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/homestretch.png" alt="homestretch logo">
+    </div>
+    <div class="logo-garden-container">
+      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/naleo.png" alt="National Association of Latino Elected & Appointed Officials seal">
+      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/columbia.png" alt="Columbia University crest">
+      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/choctaw-nation.png" alt="Choctaw Nation seal">
+      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/state-of-hawaii.png" alt="State of Hawaii seal">
+    </div>
+
 </section>

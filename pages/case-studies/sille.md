@@ -10,7 +10,7 @@ hero:
 
 connecting-banner:
   background-color: dark
-  image: case-studies/sille-01.png
+  image: placeholder-home-banner-photo.png
   alt: "placeholder image"
 
 main-content:
@@ -18,8 +18,6 @@ main-content:
   subsections:
     - title: Younger and minority populations are less likely to have an emergency plan.
       text: Personal and family preparedness can greatly impact the ability that individuals and communities have to successfully and rapidly recover from a disaster. However, in the 2016 National Household Preparedness Survey, only 45% of respondents reported having a household emergency plan. Additionally, people who consider preparedness part of everyday life tend to be 65 years of age or older, white and male, while people who intend to prepare but have yet to get started tend to be 45 years of age or younger, black or Hispanic, and have children.
-    - image: case-studies/sille-02.png
-      image-alt:
     - title: The Opportunity Project brought together tech teams, policy and data experts, and community groups to build products using geospatial data to help all people prepare for disasters.
       text: Over 50 participants joined the 2018 Geospatial sprint in different roles. Each role contributed a different set of knowledge and skills that can help create better-informed digital products like Sille. Built by Ovela and informed by multiple product and data experts, Sille uses satellite data and Census block data so stakeholders can understand when a vulnerable structure, like a bridge or a building, has shifted and therefore might be more susceptible to failure or collapse in a disaster. This allows for first responders to prepare and target specific areas where they can target their emergency response to during or after a natural disaster.
     - title: Today, Ovela’s connections from TOP have turned into a lasting partnership.

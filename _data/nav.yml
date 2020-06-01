@@ -7,11 +7,11 @@ primary:
     href: /showcase/
   - text: Curated Datasets
     href: /data-kit/
-  # - text: Get Involved
-  #   href: /get-involved
-  #   accordion:
-  #     - text: Join a Sprint
-  #       href: join-a-sprint/
+  - text: Get Involved
+    href: /get-involved
+    accordion:
+      - text: Join a Sprint
+        href: join-a-sprint/
 
 mobile:
   - text: Home
@@ -27,14 +27,14 @@ mobile:
   - text: Get Involved
     href: /get-involved/
 
-# Problem statement:
-#   - text: Challenge
-#     href: "#challenge"
-#   - text: Background
-#     href: "#background"
-#   - text: Why this problem matters
-#     href: "#impact"
-#   - text: Vision
-#     href: "#vision"
-#   - text: Target Audience
-#     href: "#audience"
+Problem statement:
+  - text: Challenge
+    href: "#challenge"
+  - text: Background
+    href: "#background"
+  - text: Why this problem matters
+    href: "#impact"
+  - text: Vision
+    href: "#vision"
+  - text: Target Audience
+    href: "#audience"

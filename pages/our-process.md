@@ -11,23 +11,23 @@ lead:
 
 connecting-banner:
   background-color: dark
-  image: process/process-banner.png
-  alt: "Man in suit on stage presenting with two large screens projecting a slide deck"
+  image: placeholder-home-banner-photo.png
+  alt: "placeholder image"
 
 # main explanation section
 explanation:
   text:
   - title: Sprint Cycle
-    image: photos/process/process-01.png
-    image-alt: Man and woman standing behind a computer monitor facing each other and smiling.
+    image: photos/sprints/2020-natural-sprint.jpg
+    image-alt: mountains
     description: In 12 weeks, tech teams build solutions to urgent problems identified by federal agencies and advocacy organizations. Along the way, we create opportunities for teams to hear from experts in federal data and policy and the communities they’re trying to help.
   - title: Share Insights
-    image: photos/process/process-02.png
-    image-alt: group of four people in conversation
+    image: photos/sprints/2020-built-sprint.jpg
+    image-alt: overhead view of suburban residential block
     description: Tech teams get the insight they need to wrangle federal data, navigate policy contexts, and authentically address the needs of a community. They retain full control of their team, technical vision, business strategy, and resulting intellectual property.
   - title: Launch Products
-    image: photos/process/process-03.png
-    image-alt: Man presenting on stage with presentation slide displayed on a screen behind him
+    image: photos/sprints/2020-university-sprint.jpg
+    image-alt: lecture hall
     description: Sprints typically run through the summer and fall and culminate in an annual Demo Day, where press, data enthusiasts, technologists, and people in government gather to celebrate the launch of products built through The Opportunity Project that year.
 
 # sprint timeline
@@ -62,24 +62,24 @@ progress-bar:
 # roles "quadrant"
 card-explanation:
   title: Roles
-  description: What participants do in each sprint varies depending on their role.
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
   card-color: primary-lightest
   cards:
     - title: Tech Teams
-      description: Tech teams build a product through the sprint — whether new or within an existing  product or platform—that uses open data to solve one of our sprint problem statements.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
     - title: Government
-      description: Federal agencies identify challenges. Policy and federal data experts provide feedback and share insights about federal data and the policy context.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
     - title: User Advocates
-      description: User advocates offer feedback and insights throughout the sprint. They are community leaders, local or national advocates, and people with direct lived experience in the target challenges.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
     - title: Product Advisors
-      description: Product advisors help tech teams develop products with a viable long term strategy that enables them to reach end users.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
 
 # role section with collapsible accordions
 role-descriptions:
   #tech
   - title: Tech teams
-    image: process/exploding-data-motif.png
-    image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
+    image:
+    image-alt:
     description: 'Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and typically own and maintain the products after the sprints. The role of tech team includes:'
     accordions:
       - aria: 1
@@ -125,8 +125,8 @@ role-descriptions:
             description: Designers, developers, and engineers from your organization have the opportunity to drive the design and build of the product
   # government           
   - title: Government
-    image: process/exploding-data-motif.png
-    image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
+    image:
+    image-alt:
     description: 'Federal agencies define major challenges facing the public within their mission areas. During the 12-week sprint, policy experts and data stewards from each agency provide feedback to the participating teams and assistance working with federal open data.'
     accordions:
       - aria: 3
@@ -156,8 +156,8 @@ role-descriptions:
 
   # user advocates
   - title: User Advocates
-    image: process/exploding-data-motif.png
-    image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
+    image:
+    image-alt:
     description: User advocates are community leaders, local or national advocates, and people with direct lived experience in the target challenges. Past user advocates have represented state and local government, non-profits, service providers, or individual experts. Their role is to guide tech teams in designing solutions that are realistic and useful for the target end users.
     accordions:
       - aria: 5
@@ -197,8 +197,8 @@ role-descriptions:
             - A tech team is experimenting with the language on their website. You offer guidance on which messages will resonate with your community.
 
   - title: Product Advisors
-    image: process/exploding-data-motif.png
-    image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
+    image:
+    image-alt:
     description: 'Product advisors come from outside of government to help the teams to ensure that the products they create continue after the sprints, so that they can reach their target end users and have real impact.'
     accordions:
       - aria: 8

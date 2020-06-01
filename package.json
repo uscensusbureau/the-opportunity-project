@@ -1,31 +1,17 @@
 {
   "private": true,
-  "homepage": "https://github.com/uswds/uswds-site#readme",
+  "homepage": "https://github.com/uscensusbureau/temporary-repo-top-v2",
   "bugs": {
-    "url": "https://github.com/uswds/uswds-site/issues"
+    "url": "https://github.com/uscensusbureau/temporary-repo-top-v2/issues"
   },
   "license": "SEE LICENSE IN LICENSE.md",
-  "author": "18F",
+  "author": "COIL",
   "contributors": [
-    "Adam Biagianti <adam.biagianti@gsa.gov>",
-    "Atul Varma <atul.varma@gsa.gov>",
-    "Brian Hurst <brian.hurst@gsa.gov>",
-    "Erica Deahl <erica.deahl@gsa.gov>",
-    "Jeremia Kimelman <jeremia.kimelman@gsa.gov>",
-    "John Donmoyer <john.donmoyer@gsa.gov>",
-    "Julia Elman <julia.elman@gsa.gov>",
-    "Katherine Garklavs <katherine.garklavs@gsa.gov>",
-    "Marco Segreto <marco.segreto@gsa.gov>",
-    "Maya Benari <maya.ben-ari@gsa.gov>",
-    "Roger Steve Ruiz <roger.ruiz@gsa.gov>",
-    "Ryan Thurwell <ryan.thurwell@gsa.gov>",
-    "Shawn Allen <shawn.allen@gsa.gov>",
-    "Will Sullivan <william.sullivan@gsa.gov>",
-    "Yoz Grahame <jeremy.grahame@gsa.gov>"
+    "Marcella Maki <marcella.l.maki@census.gov>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uswds/uswds-site.git"
+    "url": "git+https://github.com/uscensusbureau/temporary-repo-top-v2"
   },
   "scripts": {
     "axe": "node config/run-axe.js",

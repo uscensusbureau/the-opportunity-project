@@ -17,13 +17,12 @@ content-primary:
   subsections:
     - title: Collaboration, Simplified
       description: We facilitate virtual collaboration across government, industry, and communities. In our sprints, cross-sector expertise is only an email, chat room, or call away.
-      image: photos/about/about-01.png
-      image-alt: Three people analyzing sticky notes on the wall at a workshop
+      image:
+      image-alt:
     - title: Federal Data, Explained
       description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
-      image: photos/about/about-02.png
-      image-alt: A man writing on a poster at a workshop
-
+      image:
+      image-alt:
   button:
     - link:
       text: Learn More
@@ -37,8 +36,8 @@ content-light:
 
 # centered photo with overlay
 photo:
-  image: photos/about/about-coil.png
-  img-alt: Abstract exploding data with vibrant red and blue lines
+  image: photos/sprints/2020-earth-sprints-banner.jpg
+  img-alt:
   overlay:
     title: An Initiative of the Census Open Innovation Labs
     text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.

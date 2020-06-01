@@ -3,15 +3,11 @@
     <div class="grid-row grid-gap">
       {% for case in case_studies %}
         <div
-          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape margin-bottom-3 desktop:margin-bottom-0"
+          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
         >
-          <!-- {% if case.image %}
-            <img src="{{ site.baseurl}}/assets/img/{{ photo.image }}" alt="{{ photo.image-alt }}">
-          {% endif %} -->
-          <img
-            src="{{ site.baseurl }}/img/products/test.png"
-            alt="screenshot of City Builder website"
-          />
+          {% if case.image %}
+            <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
+          {% endif %}
           <div class="content-grid-one-third">
             {% if case.product_name %}
               <h2>{{ case.product_name }}</h2>
@@ -36,8 +32,8 @@
   </form>
 
   <form id="product-filter-form">
-    <div class="grid-row grid-gap margin-top-3">
-      <div class="desktop:grid-col-3 tablet:grid-col-3  display-inline-block">
+    <div class="grid-row grid-gap margin-top-3 margin-bottom-3 border-base-light border-bottom">
+      <div class="desktop:grid-col-3 tablet:grid-col-3  display-inline-block height-card-lg">
         <div class="usa-accordion usa-accordion--bordered">
           <h2 class="usa-accordion__heading">
             <button class="usa-accordion__button"
@@ -46,7 +42,7 @@
               Topic
             </button>
           </h2>
-          <div id="topics" class="usa-accordion">
+          <div id="topics" class="usa-accordion width-mobile height-card padding-2 overflow-auto border-05 border-base-light">
             {% for topic in site.data.product-filters.topics %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
@@ -56,7 +52,7 @@
           </div>
         </div>
       </div>
-      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block">
+      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block height-card">
         <div class="usa-accordion usa-accordion--bordered">
           <h2 class="usa-accordion__heading">
             <button class="usa-accordion__button"
@@ -65,7 +61,7 @@
               Year
             </button>
           </h2>
-          <div id="year" class="usa-accordion">
+          <div id="year" class="usa-accordion width-mobile height-card padding-2 overflow-auto border-05 border-base-light">
             {% for year in site.data.product-filters.years %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
@@ -75,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block">
+      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block height-card">
         <div class="usa-accordion usa-accordion--bordered">
           <h2 class="usa-accordion__heading">
             <button class="usa-accordion__button"
@@ -84,7 +80,7 @@
               Agency
             </button>
           </h2>
-          <div id="agency" class="usa-accordion">
+          <div id="agency" class="usa-accordion width-mobile height-card padding-2 overflow-auto border-05 border-base-light">
             {% for agency in site.data.product-filters.agencies %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
@@ -103,50 +99,52 @@
   <ul class="usa-card-group margin-top-7">
     {% assign products = site.data.products %}
     {% for product in products %}
-      <li id="product-card-{{product.product_name | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active" name="productCard">
-        <div class="usa-card__container bg-base-darkest">
-          <header class="usa-card__header">
-            <h2 class="usa-card__heading text-white font-sans-md" value="{{product.product_name | slugify}}">{{ product.product_name }}</h2>
-            <h3 class="pc-inactive">{{ product.year }}</h3>
-            <h4 class="pc-inactive">{{ product.cohort }}</h4>
-            <h5 class="pc-inactive">{{ product.agency }}</h5>
-          </header>
-          <div class="usa-card__body">
-            <p class="font-mono-xs text-white">{{ product.tech_team | upcase }}</p>
-          </div>
-          <div class="usa-card__img">
-            <img
-              src="{{ site.baseurl }}/img/products/test.png"
-              alt="screenshot of City Builder website"
-            />
-          </div>
-        </div>
-      </li>
-      <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive">
-        <div class="grid-row">
-          <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
-            <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
+      {% if product.link %}
+        <li id="product-card-{{product.product_name | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active" name="productCard">
+          <div class="usa-card__container bg-base-darkest">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading text-white font-sans-md" value="{{product.product_name | slugify}}">{{ product.product_name }}</h2>
+              <h3 class="pc-inactive">{{ product.year }}</h3>
+              <h4 class="pc-inactive">{{ product.category }}</h4>
+              <h5 class="pc-inactive">{{ product.agency }}</h5>
+            </header>
+            <div class="usa-card__body">
+              <p class="font-mono-xs text-white">{{ product.tech_team | upcase }}</p>
+            </div>
+            <div class="usa-card__img">
               <img
-                src="{{ site.baseurl }}/img/products/test.png"
-                alt="screenshot of City Builder website"
+                src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
+                alt="{{ product.image_alt }}"
               />
             </div>
-            <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
-              <span class="close">&times;</span>
-              <h2 class="font-sans-md">{{ product.product_name }}</h2>
-              <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
-              <p>{{ product.description_new }}</p>
-              <p>Datasets Used</p>
-              <p>
-                {% for dataset in product.data_sets %}
-                  {{ dataset }}
-                {% endfor %}
-              </p>
-              <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+          </div>
+        </li>
+        <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive">
+          <div class="grid-row">
+            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8  text-middle">
+              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6 padding-left-2">
+                <img
+                  src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
+                  alt="screenshot of City Builder website"
+                />
+              </div>
+              <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-2">
+                <span class="close">&times;</span>
+                <h3 class="font-sans-md">{{ product.product_name }}</h3>
+                <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
+                <p>{{ product.description_new }}</p>
+                <p class="font-sans-2xs">Datasets Used</p>
+                <p class="font-sans-2xs">
+                  {% for dataset in product.data_sets %}
+                    {{ dataset }}
+                  {% endfor %}
+                </p>
+                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>

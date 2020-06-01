@@ -61,19 +61,20 @@ $('.data-card-group').on('click', function (e) {
     $("#modal-" + dataCard).removeClass('modal-inactive').addClass('modal-active');
 
     var datasets = document.getElementsByClassName("data-set-card");
-
-    for (i = 0; i < datasets.length; i++ ) {
-      dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-      dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').split(" ").join("-"));
-      dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
-      dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
-      if ( dataCategoryArray.includes(dataCard) ) {
-        console.log("display match!", dataCard, dataCategoryArray)
-        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-      } else {
-        console.log("no match!", dataCard, dataCategoryArray)
-        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
-      }
+    if (datasets) {
+      for (i = 0; i < datasets.length; i++ ) {
+        dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').split(" ").join("-"));
+        dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
+        dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
+        if ( dataCategoryArray.includes(dataCard) ) {
+          console.log("display match!", dataCard, dataCategoryArray)
+          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+        } else {
+          console.log("no match!", dataCard, dataCategoryArray)
+          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+        }
+      }  
     }
   });
 
@@ -83,18 +84,20 @@ $('.data-card-group').on('click', function (e) {
     e.preventDefault();
     var filter = $( '#search-field').val();
     var dataSets = document.getElementsByName('data-set-card');
-    for (i = 0; i < dataSets.length; i++) {
-      if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
-        dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
-        dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
-        if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-          console.log(dataNameSlugified);
-          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-        } else {
-          console.log("mismatch", dataNameSlugified);
-          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+    if (dataSets) {
+      for (i = 0; i < dataSets.length; i++) {
+        if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
+          dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+          dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
+          dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
+          dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+          if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
+            console.log(dataNameSlugified);
+            $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+          } else {
+            console.log("mismatch", dataNameSlugified);
+            $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+          }
         }
       }
     }

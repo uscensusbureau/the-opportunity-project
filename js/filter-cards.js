@@ -74,31 +74,31 @@ $('.data-card-group').on('click', function (e) {
           console.log("no match!", dataCard, dataCategoryArray)
           $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
         }
-      }  
-    }
-  });
-
-
-
-  $('#data-search-form').submit(function (e) {
-    e.preventDefault();
-    var filter = $( '#search-field').val();
-    var dataSets = document.getElementsByName('data-set-card');
-    if (dataSets) {
-      for (i = 0; i < dataSets.length; i++) {
-        if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
-          dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-          dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
-          dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-          dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
-          if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-            console.log(dataNameSlugified);
-            $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-          } else {
-            console.log("mismatch", dataNameSlugified);
-            $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
-          }
-        }
       }
     }
   });
+
+  // 
+  //
+  // $('#data-search-form').submit(function (e) {
+  //   e.preventDefault();
+  //   var filter = $( '#search-field').val();
+  //   var dataSets = document.getElementsByName('data-set-card');
+  //   if (dataSets) {
+  //     for (i = 0; i < dataSets.length; i++) {
+  //       if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
+  //         dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+  //         dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
+  //         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
+  //         dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+  //         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
+  //           console.log(dataNameSlugified);
+  //           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+  //         } else {
+  //           console.log("mismatch", dataNameSlugified);
+  //           $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+  //         }
+  //       }
+  //     }
+  //   }
+  // });

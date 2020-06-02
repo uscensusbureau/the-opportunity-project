@@ -15,11 +15,11 @@
       </div>
     {% endfor %}
   </div>
-  <div class="display-flex flex-column flex-align-center margin-bottom-6">
+  <div class="display-flex flex-column flex-align-center desktop:margin-top-6 desktop:margin-bottom-6">
     <div class="grid-row grid-col-4">
       <p>{{ page.explanation.icon-description }}</p>
     </div>
-    <div class="grid-row grid-col-10 grid-offset-1">
+    <div class="grid-row grid-col-10 grid-offset-1 desktop:margin-top-4">
       {% for item in page.explanation.icons %}
         <div class="grid-col-2 display-inline-block padding-2 margin-1">
           <img src="{{site.baseurl}}/assets/img/icons/{{ item.title | slugify }}.png" alt="{{ item.title }}">

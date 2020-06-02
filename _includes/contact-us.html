@@ -1,0 +1,37 @@
+{% assign item = page.contact_us %}
+<section class="bg-primary">
+  <section class="usa-section usa-graphic-list grid-container usa-media-block__body display-flex flex-column flex-align-center">
+    <div class="grid-row grid-gap">
+      {% if item.title %}
+        <h2 class="font-sans-3xl">{{ item.title }}</h2>
+      {% endif %}
+    </div>
+    <div class="grid-row grid-gap">
+      {% if item.subtitle %}
+        {% for p in item.subtitle %}
+          <p>{{ p.p }}</p>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div class="grid-row grid-gap">
+      {% for item in page.contact_us.people %}
+        <div
+          class="usa-media-block__inline-items desktop:margin-bottom-0"
+        >
+          <div class="inline-text margin-3">
+            {% if item.name %}
+              <h3>{{ item.name }}</h3>
+            {% endif %}
+            {% if item.job_title %}
+              <h4>{{ item.job_title }}</h4>
+            {% endif %}
+            {% if item.contact %}
+              <p><a href="mailto:{{ item.contact }}?subject=coil%20contact%20page" class="text-white">Get in touch</a></p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+</section>

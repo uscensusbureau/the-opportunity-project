@@ -69,20 +69,13 @@ contact_us:
   title: Contact Us
   subtitle:
     - p: "For questions about our programs or inquiries about partnerships, please reach out to:"
-  buttons:
-    - b: Stay in the loop
-      style: primary dark
-    - b: Contact us
-      style: secondary white
-  text:
-    - number: 1
-      number_display: false
-      title: Build with open data (Coming Soon)
-      description: 'Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.'
-    - number: 2
-      number_display: false
-      title: Run a TOPx sprint (Coming Soon)
-      description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
+  people:
+    - name: Mara Abrams
+      job_title: Founder and Co-Director
+      contact: 'Census.Accelerate@census.gov'
+    - name: Drew Zachary
+      job_title: Co-Director
+      contact: 'Census.opportunityproject@census.gov'
 
 #news
 news_item:
@@ -139,5 +132,5 @@ news_item:
 {% include two-column-and-icon-garden.html %}
 {% include featured_items_even.html %}
 {% include three-column-wide-text.html %}
-{% include get-involved.html %}
+{% include contact-us.html %}
 {% include news.html %}

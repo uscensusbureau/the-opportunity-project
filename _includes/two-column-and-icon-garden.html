@@ -1,0 +1,37 @@
+<section class="usa-section usa-graphic-list grid-container">
+  <div class="grid-row grid-gap">
+    {% for item in page.explanation.text %}
+      <div
+        class="desktop:grid-col-5 tablet:grid-col-5 {{item.offset}} usa-media-block__inline-items desktop:margin-bottom-0"
+      >
+        <div class="inline-text">
+          {% if item.title %}
+            <h4>{{ item.title }}</h4>
+          {% endif %}
+          {% if item.description %}
+            <p>{{ item.description }}</p>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="display-flex flex-column flex-align-center margin-bottom-6">
+    <div class="grid-row grid-col-4">
+      <p>{{ page.explanation.icon-description }}</p>
+    </div>
+    <div class="grid-row grid-col-10 grid-offset-1">
+      {% for item in page.explanation.icons %}
+        <div class="grid-col-2 display-inline-block padding-2 margin-1">
+          <img src="{{site.baseurl}}/assets/img/icons/{{ item.title | slugify }}.png" alt="{{ item.title }}">
+        </div>
+      {% endfor %}
+    </div>
+    <div class="grid-row grid-col-10 grid-offset-1">
+      {% for item in page.explanation.icons %}
+        <div class="grid-col-2 display-inline-block padding-2 margin-1 padding-top-0">
+          <h4>{{ item.title }}</h4>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

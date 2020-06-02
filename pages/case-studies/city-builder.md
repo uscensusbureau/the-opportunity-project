@@ -11,7 +11,7 @@ hero:
 connecting-banner:
   background-color: dark
   image: case-studies/city-builder-01.png
-  alt: "placeholder image"
+  alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
 
 main-content:
   title: Increasing Transparency for Opportunity Zones in the U.S.
@@ -21,7 +21,7 @@ main-content:
     - title: Congress created Opportunity Zones to bring investment and opportunity to communities bypassed by recent economic growth.
       text: Opportunity Zones are a new community development program established by Congress in the Tax Cuts and Jobs Act of 2017 to encourage long-term investments in low-income urban and rural communities nationwide. Yet there are several challenges among key stakeholders for effective capital deployment in Opportunity Zones, including a lack of transparency, difficulty sourcing capital, and no standardized way for cities and communities to showcase their needs, priorities, and projects. In addition, investors have a growing interest to ensure their capital is reaching places where it can have a real, economic, and societal impact.
     - image: case-studies/city-builder-02.png
-      image-alt:
+      image-alt: The Citi Ventures team at Demo Day presented with a big check prize of $20,000 for winning in one category of the 2019 TOP Prize Competition 
     - title: The Opportunity Project brought together tech teams, policy and data experts, and community groups to build products that improve access to data on Opportunity Zones in the 2019 Workforce Sprint.  
       text: Through The Opportunity Project, the Citi Ventures team had the opportunity to interview representatives from a wide variety of user groups during their research. They were able to meet with community advocates, fund managers, investors, and other stakeholders to make sure that the data, design, and final product of City Builder would meet multi-stakeholder needs. During the sprint, they conducted over 60 remote, in-depth interviews with research participants across the U.S. to validate and debunk hypotheses, understand behaviors and motivations, and gain feedback on the product. This body of work led to the development of critical persona deliverables and continual UI, UX, and content refinements in the product.
     - title: Citi Ventures launched City Builder at The Opportunity Project’s 2019 Demo Day, where they won a $20,000 prize to encourage future development.

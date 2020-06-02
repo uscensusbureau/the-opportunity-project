@@ -11,7 +11,7 @@ hero:
 connecting-banner:
   background-color: dark
   image: case-studies/prados-01.png
-  alt: "placeholder image"
+  alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
 
 main-content:
   title: Standardizing Addressing in Puerto Rico to Improve Emergency Response
@@ -21,7 +21,7 @@ main-content:
     - title: Without a reliable database of addresses, local and federal leaders are unable to effectively manage catastrophic events.
       text: During catastrophic events such as hurricanes and earthquakes, residences and businesses cannot be located using traditional means of address navigation since structures, street signs, and landmarks no longer exist. Without addresses that can be geolocated, emergency respondents aren’t able to locate households affected by disasters or effectively respond to calls for help. An easily accessible database of reliable, accurate, and uniform address point data can meet the immediate needs of emergency responders and communities in crisis.
     - image: case-studies/prados-02.png
-      image-alt:
+      image-alt: Raúl Rios, founder of iCASA PR, presenting at an event 
     - title: Through The Opportunity Project,  iCasaPR was able to  validate an approach for collecting and standardizing addresses in Puerto Rico through collaborative engagements with key stakeholders and local leaders.
       text: 'The Opportunity Project created a unique platform for disparate groups of people to collaborate on a singular challenge. The collaborative spirit of the TOP user engagement workshop in Puerto Rico inspired iCasaPR to collaborate with key stakeholders and gain valuable insights to ensure that their approach could meet existing needs. These efforts included:'
       list:

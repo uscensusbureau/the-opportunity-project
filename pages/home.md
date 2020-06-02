@@ -23,7 +23,7 @@ callout:
 connecting-banner:
   background-color: primary
   image: home/homepage-01.png
-  alt: Room of people sitting in groups at tables and focus on a man standing in the center.
+  alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
 # used here for the "how it works" section
 explanation:
@@ -69,21 +69,21 @@ featured_items:
     team: Citi Ventures
     description: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
     img: photos/home/products/city-builder.png
-    alt: Dashboard view on City Builder website displaying occupancy and land use statistics next to a map of several outlined city blocks
+    alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
     button-link: case-studies/city-builder
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
     img: photos/home/products/sille.png
-    alt: Map view on SILLE website showing Bytom, Poland
+    alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features 
     text_align: left
     button-link: case-studies/sille
   - name: PRADOS
     team: iCASAPR
     description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
     img: photos/home/products/prados.png
-    alt:
+    alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
     button-link: case-studies/prados
 
@@ -107,7 +107,7 @@ testimonials:
 # get involved
 get_involved:
   title-image: photos/get-involved.png
-  title-image-alt: Man seated holding a microphone and smiling, with people seated at other tables in the background
+  title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Get Involved
   subtitle:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
@@ -133,8 +133,7 @@ news_item:
     date: MARCH 2020
     organization: Meritalk
     image: /photos/home/news/news-main.png
-    image-alt: American flag against blue background
-    # two possible sizes, either a large, portrait orientation card which has an in-set text box, or a small, landscape card with text directly overlaid on the image
+    image-alt: American flag waving in a blue sky
     size: large
     link:
     number: 1
@@ -142,7 +141,7 @@ news_item:
     date: December 2019
     organization: NextGov
     image: /photos/home/news/news-01.png
-    image-alt: People seated in groups at tables, listening and taking notes
+    image-alt: Participants at a workshop
     size: small
     link:
     align: right
@@ -151,7 +150,7 @@ news_item:
     date: June 2019
     organization: Fedscoop
     image: /photos/home/news/news-02.png
-    image-alt: man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
+    image-alt: Man writing on a poster at a user engagement workshop
     size: small
     link:
     align: right
@@ -170,7 +169,7 @@ news_item:
     date: March 2016
     organization: NextGov
     image: /photos/home/news/news-03.png
-    image-alt: birdseye view of a city coastline
+    image-alt: New York City skyline
     size: small
     link:
     align: right

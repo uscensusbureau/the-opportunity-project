@@ -1,29 +1,34 @@
 <section class="bg-base-darkest">
   <section class="usa-section usa-graphic-list grid-container" aria-label="Testimonials">
     <div class="grid-row grid-gap">
-      {% for item in page.testimonials %}
-      <div class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__body">
-        <p class="font-serif-xl">&#8220;</p>
-        <div class="">
-          {% if item.text %}
-            <p class="border-white border-right border-bottom padding-2">{{ item.text }}</p>
-          {% endif %}
-        </div>
-        <div class="inline-number">
-          {% if item.image %}
-            <img src="{{ site.baseurl}}/assets/img/{{item.image}}" alt="{{ item.person }}">
-          {% endif %}
-        </div>
-        <div class="inline-text">
-          {% if item.person %}
-            <p>{{ item.person }}</p>
-          {% endif %}
-          {% if item.organization %}
-            <p>{{ item.organization }}</p>
-          {% endif %}
-        </div>
-      </div>
-      {% endfor %}
+      <ul class="usa-card-group">
+        {% for item in page.testimonials %}
+          <li class="desktop:grid-col-4 tablet:grid-col-4 usa-card " name="data-set-card">
+            <div class="usa-card__container usa-media-block__body border-0 bg-transparent">
+              <div class="usa-card__body">
+                {% if item.text %}
+                  <p class="padding-2">{{ item.text }}</p>
+                {% endif %}
+              </div>
+              <div class="usa-card__footer border-base-darker border-top margin-05">
+                <div class="display-inline-block">
+                  {% if item.image %}
+                    <img src="{{ site.baseurl}}/assets/img/{{item.image}}" alt="{{ item.person }}" class="width-7">
+                  {% endif %}
+                </div>
+                <div class="display-inline-block padding-left-2">
+                  {% if item.person %}
+                    <p class="font-sans-2xs margin-top-0 margin-bottom-0">{{ item.person }}</p>
+                  {% endif %}
+                  {% if item.organization %}
+                    <p class="font-sans-2xs margin-top-0">{{ item.organization }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </section>
 </section>

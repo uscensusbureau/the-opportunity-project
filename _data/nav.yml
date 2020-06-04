@@ -1,12 +1,12 @@
 primary:
   - text: About
-    href: /about/
+    href: about/
   - text: Our Process
-    href: /our-process/
+    href: our-process/
   - text: Showcase
-    href: /showcase/
+    href: showcase/
   - text: Curated Datasets
-    href: /data-kit/
+    href: data-kit/
   # - text: Get Involved
   #   href: /get-involved
   #   accordion:
@@ -17,15 +17,15 @@ mobile:
   - text: Home
     href: /
   - text: About
-    href: /about/
+    href: about/
   - text: Our Process
-    href: /our-process/
+    href: our-process/
   - text: Showcase
-    href: /showcase/
+    href: showcase/
   - text: Curated Datasets
-    href: /curated-datasets/
+    href: curated-datasets/
   - text: Get Involved
-    href: /get-involved/
+    href: get-involved/
 
 # Problem statement:
 #   - text: Challenge

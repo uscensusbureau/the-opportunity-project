@@ -2,8 +2,11 @@
 {% assign hero = page.hero %}
 <section class="usa-hero">
   <div class="grid-container usa-hero__bg">
-    <h1 class="usa-hero__title grid-col-8">{{ page.hero.text}}</h1>
+    <img class="maxw-tablet-lg position-absolute right-0 top-3 padding-top-9 padding-right-5 opacity-60" src="{{site.baseurl}}/assets/img/{{ page.hero.image}}" alt="{{ page.hero.image-alt}}">
+    <h1 class="usa-hero__title grid-col-6
+     display-inline-block">{{ page.hero.text}}</h1>
     <p class="usa-hero__subtitle grid-col-6">{{ page.hero.subtext }}</p>
+
   </div>
 {% elsif page.class == "about" or  page.class == "our-process" %}
 <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 tablet:padding-bottom-5">

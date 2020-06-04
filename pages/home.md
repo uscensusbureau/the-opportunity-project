@@ -7,8 +7,10 @@ class: home
 
 # full span, top of page section
 hero:
-  text: Putting America's data to work for veterans
+  text: Putting America's data to work for the people
   subtext: We help teams use federal open data to build solutions to our nation’s toughest challenges
+  image: photos/home/hero.png
+  image-alt: Collage of a veteran, student, father and daughter on the beach, workshop participants, and a conference speaker.
 
 # content centered with outline, on blue background
 callout:
@@ -76,7 +78,7 @@ featured_items:
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
     img: photos/home/products/sille.png
-    alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features 
+    alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
     button-link: case-studies/sille
   - name: PRADOS

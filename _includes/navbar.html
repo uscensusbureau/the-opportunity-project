@@ -22,14 +22,14 @@
                 <ul id="extended-nav-section-one" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
-                      <a href="{{link.href}}/{{subnav.href}} font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                      <a href="{{ site.baseurl }}/{{link.href}}/{{subnav.href}} font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                     </li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-mono-xs text-white" href="{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+                <a class="usa-nav__link font-mono-xs text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
               </li>
             {% endif %}
           {% endfor %}

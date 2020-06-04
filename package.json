@@ -54,10 +54,6 @@
     "watch": "NODE_ENV=development nswatch"
   },
   "dependencies": {
-    "jquery": "^3.5.0",
-    "uswds": "^2.7.0"
-  },
-  "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "ansi-colors": "^4.1.1",
@@ -84,6 +80,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "highlight.js": "^9.15.10",
+    "jquery": "^3.5.0",
     "json-format": "^1.0.1",
     "merge-stream": "^1.0.0",
     "minimist": "^1.2.3",
@@ -93,7 +90,9 @@
     "postcss-csso": "^4.0.0",
     "sass": "^1.25.0",
     "simplecrawler": "^1.1.8",
+    "slugify": "^1.4.0",
     "snyk": "^1.299.0",
+    "uswds": "^2.7.0",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "yamljs": "^0.3.0"

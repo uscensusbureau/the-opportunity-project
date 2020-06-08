@@ -42,6 +42,7 @@ explanation:
   #    3    |    4
   #         |    
   # This layout can be used for two side-by-side pieces of text or for a "quad" style layout. If items should be numbered, follow this pattern. If no numbers are needed, the "number" item should marked false
+  title: Our Process
   text:
   - number: 1
     title: Identify challenges

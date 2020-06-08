@@ -544,6 +544,20 @@ body {
   }
 }
 
+// styling for the alternative h2 so that the correct header tags can still be used even though they are visually distinct
+.tag-header {
+  padding: units(1);
+  background-color: color("primary");
+  color: color("white");
+  margin-top: -19px;
+  font-family: font-family("mono");
+  font-size: font-size("mono", "3xs");
+  width: 130px;
+  text-align: center;
+}
+
+
+
 /* Re-style usa banner */
 
 .usa-accordion {

@@ -188,13 +188,10 @@ body {
 .site-banner {
   background-color: color("primary-lightest");
   color: color("primary-dark");
+  align-items: center;
 
   .usa-banner__inner {
-    max-width: 100%;
-  }
-
-  .usa-banner__content {
-    margin-left: 0;
+    max-width: fit-content;
   }
 
   .usa-banner__button {
@@ -635,6 +632,11 @@ body {
     }
   }
 
+}
+
+.border-stars {
+  margin-top: -57px;
+  margin-bottom: units(7);
 }
 
 .data-card {

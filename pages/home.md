@@ -12,6 +12,12 @@ hero:
   image: photos/home/hero.png
   image-alt: Collage of a veteran, student, father and daughter on the beach, workshop participants, and a conference speaker.
 
+circuit-banner:
+  background-color: primary
+  image: icons/circuity-pattern.svg
+  sidebar-color: base-darkest
+
+
 # content centered with outline, on blue background
 callout:
   text: The Opportunity Project
@@ -179,6 +185,7 @@ news_item:
 
 ---
 {% include hero.html %}
+{% include circuit-banner.html %}
 {% include text-callout-centered.html %}
 {% include connecting-banner.html %}
 {% include two-column-wide-text.html %}

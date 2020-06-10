@@ -24,9 +24,10 @@ callout:
   subtext: OUR MISSION
   body:
     # for each separate portion of text, add a "p" (short for paragraph)
-    - p: Finding federal data is hard. Making a difference with it is even harder.
+    - p: Finding federal data is hard. Making an impact with it is even harder.
     - p: That’s where we come in.
-    - p: We connect you with experts from industry, communities and government to help you turn federal open data into life-changing tech, faster.
+    - p: We connect you with experts from the tech industry, communities and government to help you turn federal open data into life-changing tech, faster.
+
 
 connecting-banner:
   background-color: primary
@@ -65,7 +66,7 @@ impact:
     border: border-right
   - statistic: '800+'
     underline: short yellow accent
-    description: People who have contributed to products built through TOP
+    description: Contributors including designers, developers, data stewards and community advocates
     border: border-right
   - statistic: '34'
     underline: short yellow accent
@@ -104,7 +105,7 @@ testimonials:
     person: Rob Lalka
     organization: Public Democracy
     image: photos/home/headshots/rob-lalka.png
-  - text: TOP sprint really represents the best of what government can be — a platform for engagement that is so core to our democracy.
+  - text: '[TOP] really represents the best of what government can be — a platform for engagement that is so core to our democracy.'
     person: Denice Ross
     organization: Georgetown University
     image: photos/home/headshots/denice-ross.png
@@ -122,10 +123,12 @@ get_involved:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
-    - b: Stay in the loop
+    - b: View Sprints
       style: primary dark
-    - b: Contact us
+      link:
+    - b: Get Updates
       style: secondary white
+      link:
   text:
     - number: 1
       number_display: false

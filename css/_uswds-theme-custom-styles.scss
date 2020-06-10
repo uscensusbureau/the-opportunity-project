@@ -556,7 +556,32 @@ body {
   text-align: center;
 }
 
+.tag-subheader {
+  padding: units(1);
+  background-color: color("primary");
+  color: color("white");
+  font-family: font-family("mono");
+  font-size: font-size("mono", "3xs");
+  width: 130px;
+  text-align: center;
+}
 
+
+.vertical-line-light {
+  border-left: 1px solid color("white");
+  position: relative;
+  height: units(7);
+  left: 50%;
+  top: 0;
+}
+
+.vertical-line {
+  border-left: 1px solid;
+  position: relative;
+  height: units(7);
+  left: 50%;
+  top: 0;
+}
 
 /* Re-style usa banner */
 
@@ -645,11 +670,40 @@ body {
       text-decoration: underline;
     }
   }
+}
 
+.usa-button__secondary-dark {
+  margin-top: units(3);
+  border: 1px solid color("base-darkest");
+  text-transform: uppercase;
+  padding: units(2) units(4);
+  font-family: font-family("mono");
+  font-size: font-size("mono", "3xs");
+  background-color: color("transparent");
+  color: color("base-darkest");
+  &:hover {
+    color: color("base");
+    text-decoration: underline;
+  }
+}
+
+.usa-button__secondary-red {
+  margin-top: units(3);
+  border: 0;
+  text-transform: uppercase;
+  padding: units(2);
+  font-family: font-family("mono");
+  font-size: font-size("mono", "3xs");
+  background-color: color("transparent");
+  color: color("secondary");
+  &:hover {
+    color: color("base");
+    text-decoration: underline;
+  }
 }
 
 .border-stars {
-  margin-top: -57px;
+  margin-top: units(-7);
   margin-bottom: units(7);
 }
 
@@ -2012,6 +2066,41 @@ code {
   }
 }
 
+
+// Products Showcase Page
+
+#product-search-form {
+  @include u-width('mobile');
+
+  .usa-input {
+    border-color: color("base-light");
+  }
+}
+
+.usa-accordion {
+  opacity: 1;
+}
+
+.usa-accordion__button {
+  background-image: url(../img/icons/up-arrow.png);
+  background-repeat: no-repeat;
+}
+
+.usa-accordion__button[aria-expanded="false"] {
+  background-image: url(../img/icons/down-arrow.png);
+  background-repeat: no-repeat;
+}
+
+
+.dropdown-menu {
+  @include u-width('mobile');
+  @include u-height('card');
+  padding: units(2);
+  overflow: auto;
+  border: 1px solid color("base-light");
+  background-color: color("white");
+  opacity: 1;
+}
 
 // Sprints page
 

@@ -30,6 +30,15 @@ explanation:
     image-alt: Man presenting on stage with presentation slide displayed on a screen behind him
     description: Sprints typically run through the summer and fall and culminate in an annual Demo Day, where press, data enthusiasts, technologists, and people in government gather to celebrate the launch of products built through The Opportunity Project that year.
 
+
+banner-subheader:
+  top:
+    background: white
+  bottom:
+    background: base-darkest
+    line: '-light'
+    subheader: Our Process
+
 # sprint timeline
 progress-bar:
   - number: 1
@@ -218,6 +227,7 @@ role-descriptions:
 {% include hero.html %}
 {% include connecting-banner.html %}
 {% include single-column-centered-list.html %}
+{% include connecting-banner-with-subheader.html %}
 {% include timeline-progress-section-dark.html %}
 {% include two-column-card-text.html %}
 {% include single-column-banner-photo-overlay-and-content.html %}

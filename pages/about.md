@@ -9,6 +9,12 @@ lead:
   - 'The Opportunity Project at the U.S. Census Bureau helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
   - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 100 consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
 
+circuit-banner:
+  background-color: primary
+  image: icons/circuity-pattern.svg
+  sidebar-color: base-darkest
+
+
 #blue background section
 content-primary:
   title: How America’s Data Becomes America’s Innovation
@@ -51,6 +57,7 @@ photo:
 ---
 
 {% include hero.html %}
+{% include circuit-banner.html %}
 {% include sidebar-and-content-primary.html %}
 {% include sidebar-and-content-light.html %}
 {% include single-column-centered-photo-with-overlay.html %}

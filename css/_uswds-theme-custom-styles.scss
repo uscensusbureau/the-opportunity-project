@@ -583,6 +583,15 @@ body {
   top: 0;
 }
 
+.circuit-banner {
+  @include at-media("mobile-lg") {
+    display: none;
+  }
+  @include at-media("mobile") {
+    display: none;
+  }
+}
+
 /* Re-style usa banner */
 
 .usa-accordion {

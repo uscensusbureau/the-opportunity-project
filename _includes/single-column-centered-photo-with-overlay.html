@@ -21,6 +21,9 @@
           {% if photo.overlay.text %}
             <p>{{ photo.overlay.text }}</p>
           {% endif %}
+          {% if photo.overlay.button-text %}
+            <a href="{{ site.baseurl }}/{{photo.overlay.button-link}}"><button type="button" name="button" class="usa-button__secondary-white">{{photo.overlay.button-text}}</button></a>
+          {% endif %}
         </div>
       </div>
     </div>

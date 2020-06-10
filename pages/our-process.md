@@ -37,7 +37,7 @@ banner-subheader:
   bottom:
     background: base-darkest
     line: '-light'
-    subheader: Our Process
+    subheader: How it Works
 
 # sprint timeline
 progress-bar:

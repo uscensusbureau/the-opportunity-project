@@ -27,11 +27,11 @@
                       {{ accordion.title }}
                     </button>
                   </h2>
-                  <div id="{{ accordion.aria }}" class="usa-accordion bg-base-lightest margin-top-0">
+                  <div id="{{ accordion.aria }}" class="usa-accordion margin-top-0">
                     {% if accordion.steps %}
                       <ol>
                         {% for step in accordion.steps %}
-                          <li>{{ step }}</li>
+                          <li class="text-white padding-2">{{ step }}</li>
                         {% endfor %}
                       </ol>
                     {% endif %}

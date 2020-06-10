@@ -40,9 +40,12 @@ photo:
   image: photos/about/about-coil.png
   img-alt: Abstract exploding data with vibrant red and blue lines
   overlay:
-    title: An Initiative of the Census Open Innovation Labs
+    title: From the Census Open Innovation Labs
     text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.
+    button-text: Learn More
+    button-link: coil
   background: bg-base-lightest
+
 
 
 ---

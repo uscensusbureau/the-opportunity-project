@@ -80,7 +80,7 @@ explanation:
         title: Assisting recently resettled refugees
         agency: USA for UNHCR
         challenge: Create a tool that connects resettled refugees with resources and vital services, such as access to medical care and mental health treatment, English language learning, job training, education, etc. These resources might be available through government agencies, nonprofits, community based organizations, private sector actors and the like.
-        audience: Resettled refugees in the United States, nonprofits that provide help to refugee
+        audience: Resettled refugees in the United States, nonprofits that provide help to refugees
       - aria: rural
         title: Facilitating sustainable rural economic development
         agency: U.S. Environmental Protection Agency
@@ -97,7 +97,7 @@ explanation:
     subtitle: RUNS SEPT-NOV
     image: photos/sprints/2020-university-sprint.jpg
     image-alt: lecture hall
-    description: Over 12 weeks, teams build their solutions. Experts  provide feedback on user needs, product strategy, and the best datasets available to solve each problem.
+    description: This cohort will focus on the same challenges from the natural and built environment sprints but will primarily include university-based teams.
     links:
       - link-path: "#"
         link-text: View brief (PDF)
@@ -110,7 +110,7 @@ banner-subheader:
   bottom:
     background: base-darkest
     line: '-light'
-    subheader: Past Sprints
+    subheader: Past Challenges
 # used here for the dark "past sprints" section. toggles based on year
 explanation-alt:
   text:

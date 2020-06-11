@@ -29,6 +29,9 @@
                     {% if step.title %}
                       <p><b>{{ step.title }}</b></p>
                     {% endif %}
+                    {% if step.text %}
+                      <p>{{ step.text }}</p>
+                    {% endif %}
                     {% if step.description %}
                       <ul>
                         {% for substep in step.description %}

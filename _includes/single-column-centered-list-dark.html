@@ -13,7 +13,9 @@
         >
           <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
           {% for link in item.links %}
-            <a class="text-white" href="{{ link.link-path}}" target="_blank">{{ link.link-text}}</a><br>
+            <div>
+              <a class="text-white" href="{{ link.link-path}}" target="_blank">{{ link.link-text}}</a><br>
+            </div>
           {% endfor %}
         </div>
         <div
@@ -33,11 +35,11 @@
             {% endif %}
           {% if item.description %}
             <p class="font-mono-3xs text-ls-2 text-secondary text-accent-warm">CHALLENGE</p>
-            <p>{{ item.description }}</p>
+            <p class="font-sans-2xs">{{ item.description }}</p>
           {% endif %}
           {% if item.audience %}
             <p class="font-mono-3xs text-ls-2 text-secondary text-accent-warm">TARGET AUDIENCE</p>
-            <p>{{ item.description }}</p>
+            <p class="font-sans-2xs">{{ item.audience }}</p>
           {% endif %}
           </div>
         </div>

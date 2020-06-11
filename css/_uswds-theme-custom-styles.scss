@@ -584,11 +584,8 @@ body {
 }
 
 .circuit-banner {
-  @include at-media("mobile-lg") {
-    display: none;
-  }
-  @include at-media("mobile") {
-    display: none;
+  @include at-media("desktop") {
+    display: block;
   }
 }
 
@@ -1827,28 +1824,46 @@ code {
   }
   }
 
-  img + .content-large {
-  width: 65%;
-  position: absolute;
-  bottom: units(5);
-  background-color: color("base-darkest");
-  color: color("white");
-  padding: units(3) units(5);
 
-  a {
-    text-decoration: none;
-    padding-top: units(4);
-    padding-bottom: units(4);
-    color: color("white");
-    &:visited {
-      color: color("base-light");
+  .overlay{
+    .overlay-image {
+      width: 100%;
+      @include at-media("mobile") {
+        height: 475px;
+      }
+      padding: 0;
+      padding-left: units(-2);
     }
-    &:hover {
-      color: color("base-light");
-      text-decoration: underline;
+
+    img + .overlay-content {
+      position: absolute;
+      bottom: units(5);
+      background-color: color("base-darkest");
+      color: color("white");
+      padding: units(3) units(5);
+
+      a {
+        text-decoration: none;
+        padding-top: units(4);
+        padding-bottom: units(4);
+        color: color("white");
+        &:visited {
+          color: color("base-light");
+        }
+        &:hover {
+          color: color("base-light");
+          text-decoration: underline;
+        }
+      }
+    }
+
+    @include at-media("desktop")  {
+      img + .overlay-content {
+        width: 65%;
+      }
     }
   }
-  }
+
 
   img + .content-grid-one-third {
   width: 85%;

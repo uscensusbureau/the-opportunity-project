@@ -22,27 +22,33 @@
         </div>
       {% endfor %}
     </div>
-  <hr class="margin-top-9 margin-bottom-7">
-  <form id="product-search-form" class="usa-search usa-search--small" role="search">
-    <label class="usa-sr-only" for="search-field">Search by product name</label>
-    <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search by product name">
+</section>
+<div
+  class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5"
+>
+  <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>
+</div>
+<div class="display-flex flex-column flex-align-center">
+  <form id="product-search-form" class="usa-search usa-search--small width-mobile-large" role="search">
+    <label class="usa-sr-only" for="search-field">Search all products</label>
+    <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search all products">
     <button class="usa-button__primary-dark" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
   </form>
 
-  <form id="product-filter-form">
-    <div class="grid-row grid-gap margin-top-3 margin-bottom-3 border-base-light border-bottom">
-      <div class="desktop:grid-col-3 tablet:grid-col-3  display-inline-block height-card-lg">
-        <div class="usa-accordion usa-accordion--bordered">
-          <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button"
+  <form id="product-filter-form"  class="margin-left-2 desktop:margin-0">
+    <div class="grid-row grid-gap margin-bottom-4">
+      <div class="display-inline-block height-5 z-top">
+        <div class="usa-accordion usa-accordion--bordered width-card">
+          <h2 class="font-mono-xs">
+            <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="topics">
-              Topic
+              TOPICS
             </button>
           </h2>
-          <div id="topics" class="usa-accordion width-mobile height-card padding-2 overflow-auto border-05 border-base-light">
+          <div id="topics" class="usa-accordion dropdown-menu">
             {% for topic in site.data.product-filters.topics %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
@@ -52,16 +58,16 @@
           </div>
         </div>
       </div>
-      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block height-card">
-        <div class="usa-accordion usa-accordion--bordered">
-          <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button"
+      <div class="display-inline-block height-5 z-top">
+        <div class="usa-accordion usa-accordion--bordered width-card">
+          <h2 class="font-mono-xs">
+            <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="year">
               Year
             </button>
           </h2>
-          <div id="year" class="usa-accordion width-mobile height-card padding-2 overflow-auto border-05 border-base-light">
+          <div id="year" class="usa-accordion dropdown-menu z-top">
             {% for year in site.data.product-filters.years %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
@@ -71,16 +77,16 @@
           </div>
         </div>
       </div>
-      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block height-card">
-        <div class="usa-accordion usa-accordion--bordered">
-          <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button"
+      <div class="display-inline-block height-5 z-top">
+        <div class="usa-accordion usa-accordion--bordered width-card">
+          <h2 class="font-mono-xs">
+            <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="agency">
               Agency
             </button>
           </h2>
-          <div id="agency" class="usa-accordion width-mobile height-card padding-2 overflow-auto border-05 border-base-light">
+          <div id="agency" class="usa-accordion dropdown-menu  z-top">
             {% for agency in site.data.product-filters.agencies %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
@@ -90,13 +96,18 @@
           </div>
         </div>
       </div>
-      <div class="desktop:grid-col-3 tablet:grid-col-3 display-inline-block">
-        <input class="usa-button__primary-dark margin-top-05" type="submit" value="Filter Products">
+      <div class="display-inline-block margin-top-2">
+        <input class="usa-button__secondary-dark padding-1" type="submit" value="Filter Products">
+      </div>
+      <div class="display-inline-block margin-top-2 text-middle">
+        <img src="{{ site.baseurl }}/assets/img/icons/red-x-circle.png" alt="X icon">
+        <input class="usa-button__secondary-red padding-1" value="Reset Filter">
       </div>
     </div>
   </form>
-
-  <ul class="usa-card-group margin-top-7">
+</div>
+<section class="usa-section usa-graphic-list grid-container">
+  <ul class="usa-card-group">
     {% assign products = site.data.products %}
     {% for product in products %}
       {% if product.link %}

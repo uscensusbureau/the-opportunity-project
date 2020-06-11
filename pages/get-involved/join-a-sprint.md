@@ -8,13 +8,23 @@ hero:
   text: Join a Sprint
   subtext: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
 
+banner-subheader-inverse:
+  top:
+    background: base-darkest
+    line: '-light'
+    subheader: Active Sprints
+  bottom:
+    background: white
+
 photo:
-  image: photos/sprints/2020-earth-sprints-banner.jpg
+  image: photos/sprints/2020-earth-sprint-banner.jpg
   img-alt: overhead view of beach with sand, large rocks, and bright blue water
   overlay:
     title: 2020 Earth Sprints
     subtitle: LAUNCHED JUNE 2020
     text: This year, teams will leverage technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
+    button-text: Join a sprint
+    button-link:
 
 # used here for the active sprints section
 explanation:
@@ -63,7 +73,7 @@ explanation:
     accordions:
       - aria: economic
         title: Economic self-sufficiency for low-income families
-        agency: U.S. Department of Housing & Urban Developmen
+        agency: U.S. Department of Housing & Urban Development
         challenge: Create digital collaboration platforms that enable low income families to holistically assess their needs and connect with the best federal, state and local programs to equip and empower them toward self-sufficiency and economic mobility.
         audience: Low to moderate income heads of households; case managers; guidance counselors; life coaches; community and ministry leaders; service providers; philanthropic organizations; federal, state and local government service program managers, policy makers, legislators
       - aria: refugees
@@ -93,6 +103,14 @@ explanation:
         link-text: View brief (PDF)
         link-icon:
 
+
+banner-subheader:
+  top:
+    background: white
+  bottom:
+    background: base-darkest
+    line: '-light'
+    subheader: Past Sprints
 # used here for the dark "past sprints" section. toggles based on year
 explanation-alt:
   text:
@@ -345,33 +363,43 @@ explanation-alt:
         - link-path: "#"
           link-text: View brief (PDF)
 
+circuit-banner:
+  background-color: primary
+  image: icons/circuity-pattern.svg
+  sidebar-color: base-darkest
+
 
 # get involved
 get_involved:
-  title-image: photos/placeholder-home-portrait-half-width-photo.png
-  title-image-alt: Workshop participants sitting at a table
+  title-image: photos/get-involved.png
+  title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Get Involved
   subtitle:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
-    - b: Stay in the loop
+    - b: View Sprints
       style: primary dark
-    - b: Contact us
+      link:
+    - b: Get Updates
       style: secondary white
+      link:
   text:
     - number: 1
       number_display: false
-      title: Build with open data
-      description: Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.
+      title: Build with open data (Coming Soon)
+      description: 'Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.'
     - number: 2
       number_display: false
-      title: Run a TOPx sprint
-      description: Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.
+      title: Run a TOPx sprint (Coming Soon)
+      description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
 ---
 {% include hero.html %}
+{% include connecting-banner-with-subheader-inverse.html %}
 {% include single-column-centered-photo-with-overlay.html %}
 {% include single-column-centered-list.html %}
+{% include connecting-banner-with-subheader.html %}
 {% include single-column-centered-list-dark.html %}
+{% include circuit-banner.html %}
 {% include get-involved.html %}

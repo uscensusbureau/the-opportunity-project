@@ -1,5 +1,5 @@
 {% assign banner = page.circuit-banner %}
-<section class="circuit-banner bg-{{ banner.sidebar-color }}">
+<section class="display-none desktop:display-block bg-{{ banner.sidebar-color }}">
   <section class="grid-container">
     <div class="grid-row margin-bottom-neg-1">
       <div
@@ -13,7 +13,7 @@
     </div>
   </section>
 </section>
-<section class="bg-{{ banner.background-color }}">
+<section class=" display-none desktop:display-block bg-{{ banner.background-color }}">
   <section class="grid-container">
     <div class="grid-row height-4">
       <div

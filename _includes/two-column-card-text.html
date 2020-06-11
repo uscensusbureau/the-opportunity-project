@@ -1,12 +1,12 @@
 <section class="usa-section usa-graphic-list grid-container">
   <div class="grid-row grid-gap">
-    <div class="grid-offset-2 desktop:grid-col-7">
+    <div class="desktop:grid-offset-2 desktop:grid-col-7 padding-2">
       <h2>{{ page.card-explanation.title}}</h2>
       <p>{{ page.card-explanation.description}}</p>
     </div>
   </div>
   <div class="grid-row grid-gap">
-    <div class="grid-offset-2">
+    <div class="desktop:grid-offset-2">
       <ul class="usa-card-group">
         {% for item in page.card-explanation.cards %}
           <li class="desktop:grid-col-5 tablet:grid-col-5 usa-card" name="role-card">

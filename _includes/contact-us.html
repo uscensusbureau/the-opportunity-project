@@ -6,32 +6,38 @@
         <h2 class="font-sans-3xl">{{ item.title }}</h2>
       {% endif %}
     </div>
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap desktop:grid-col-6 padding-bottom-3">
       {% if item.subtitle %}
         {% for p in item.subtitle %}
-          <p>{{ p.p }}</p>
+          <p class="font-sans-md">{{ p.p }}</p>
         {% endfor %}
       {% endif %}
     </div>
     <div class="grid-row grid-gap">
-      {% for item in page.contact_us.people %}
-        <div
-          class="usa-media-block__inline-items desktop:margin-bottom-0"
-        >
-          <div class="inline-text margin-3">
-            {% if item.name %}
-              <h3>{{ item.name }}</h3>
-            {% endif %}
-            {% if item.job_title %}
-              <h4>{{ item.job_title }}</h4>
-            {% endif %}
-            {% if item.contact %}
-              <p><a href="mailto:{{ item.contact }}?subject=coil%20contact%20page" class="text-white">Get in touch</a></p>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
+      <ul class="usa-card-group">
+        {% for item in page.contact_us.people %}
+          <li class="usa-card desktop:grid-col-6">
+            <div class="usa-card__container bg-primary border-white radius-0">
+              <header class="usa-card__header">
+                <img src="{{site.baseurl}}/assets/img/icons/thick_underline.svg" alt="">
+                {% if item.name %}
+                  <p class="font-sans-lg">{{ item.name }}</p>
+                {% endif %}
+              </header>
+              <div class="usa-card__body">
+                {% if item.job_title %}
+                  <p class="font-mono-md">{{ item.job_title | upcase }}</p>
+                {% endif %}
+              </div>
+              <div class="usa-card__footer">
+                {% if item.contact %}
+                  <p><a href="mailto:{{ item.contact }}?subject=coil%20contact%20page" class="text-white">Get in touch</a></p>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </section>
-
 </section>

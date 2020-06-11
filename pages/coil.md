@@ -3,7 +3,7 @@ permalink: /coil
 title: "Census Open Innovation Labs"
 #class and layout determines page structure. Do not edit except for major updates!
 layout: default
-class: home
+class: coil
 
 # full span, top of page section
 hero:
@@ -26,9 +26,9 @@ connecting-banner:
 # who we are
 explanation:
   text:
-  - offset: grid-offset-1
-    description: Census Open Innovation Labs (COIL) is a nimble, startup-like team within the U.S. Census Bureau with a portfolio of initiatives that are setting a standard for open innovation across government.
-  - description: We leverage the networks, talents, and expertise of companies, organizations and individuals outside our own walls and encourage disparate groups to innovate together.
+    - offset: grid-offset-1
+      description: Census Open Innovation Labs (COIL) is a nimble, startup-like team within the U.S. Census Bureau with a portfolio of initiatives that are setting a standard for open innovation across government.
+    - description: We leverage the networks, talents, and expertise of companies, organizations and individuals outside our own walls and encourage disparate groups to innovate together.
   icon-description: Our team is comprised of diverse backgrounds and skillsets. Our unique breadth of expertise allows us to engage effectively with a wide variety of stakeholders.
   icons:
     - title: Human-Centered Design
@@ -71,59 +71,12 @@ contact_us:
     - p: "For questions about our programs or inquiries about partnerships, please reach out to:"
   people:
     - name: Mara Abrams
-      job_title: Founder and Co-Director
+      job_title: 'Founder and Co&#8288;-&#8288;Director'
       contact: 'Census.Accelerate@census.gov'
     - name: Drew Zachary
       job_title: Co-Director
       contact: 'Census.opportunityproject@census.gov'
 
-#news
-news_item:
-  - title: The Opportunity Project Marks 100 Product Milestone
-    date: MARCH 2020
-    organization: Meritalk
-    image: /photos/home/news/news-main.png
-    image-alt: American flag waving in a blue sky
-    size: large
-    link:
-    number: 1
-  - title: Census Project Matches Your Agency's Data with Civic Innovators
-    date: December 2019
-    organization: NextGov
-    image: /photos/home/news/news-01.png
-    image-alt: Participants at a workshop
-    size: small
-    link:
-    align: right
-    number: 2
-  - title: How Federal Agencies Can Use Agile Development to Apply Open Data
-    date: June 2019
-    organization: Fedscoop
-    image: /photos/home/news/news-02.png
-    image-alt: Man writing on a poster at a user engagement workshop
-    size: small
-    link:
-    align: right
-    number: 3
-  - title:
-    date:
-    organization: Want to write a story about TOP?
-    image:
-    size: small
-    # default is that the title of the news article is clickable. to add another card (either that is not a news item or that uses a button) add "button text" and the text will appear on the button and the link will be attached there, not on any other part of the card
-    button_text: Let's Talk
-    link:
-    align: left
-    number: 4
-  - title: President Obama's new open data initiative could help cities help themselves
-    date: March 2016
-    organization: NextGov
-    image: /photos/home/news/news-03.png
-    image-alt: New York City skyline
-    size: small
-    link:
-    align: right
-    number: 5
 
 ---
 {% include hero.html %}
@@ -133,4 +86,3 @@ news_item:
 {% include featured_items_even.html %}
 {% include three-column-wide-text.html %}
 {% include contact-us.html %}
-{% include news.html %}

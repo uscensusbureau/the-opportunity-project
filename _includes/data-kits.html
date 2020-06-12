@@ -1,46 +1,65 @@
 {% assign data-kits = site.data.data-kits %}
-
-<div class="data-kit grid-container">
-  <div class="grid-row">
-    {% for kit in data-kits limit:3 %}
-    <div class="data-kit__container">
-      <a class="data-kit__button" href="{{site.baseurl}}{{kit.link}}">
-        {% if kit.upcoming %}
-        <div class="data-kit__card" style="background-image: url('{{ kit.image | relative_url }}')">
-        {% else %}
-        <div class="data-kit__card data-kit__active" style="background-image: url('{{ kit.image | relative_url }}')">
-          {% endif %}
-          <h2>{{kit.title}}</h2>
-          <p>{{kit.description}}</p>
+<section class="bg-primary-vivid">
+  <section class="usa-section usa-graphic-list grid-container">
+    <div class="maxw-mobile-lg desktop:margin-bottom-4">
+      <h1
+        class="hero--heading text-white"
+      >
+        {{ page.title }}
+      </h1>
+      <p class="font-sans-2xs text-white">{{ page.organization }}</p>
+      <p class="font-sans-md text-white">{{ page.lead }}</p>
+    </div>
+  </section>
+  <div class="data-kit  desktop:margin-left-9">
+    <div class="grid-row grid-gap-6">
+      {% for kit in data-kits limit:3 %}
+      <div class="tablet:grid-col data-kit__container margin-2">
+        <a class="data-kit__button" href="{{site.baseurl}}{{kit.link}}">
           {% if kit.upcoming %}
+          <div class="data-kit__card" style="background-image: url('{{ kit.image | relative_url }}')">
           {% else %}
-          <img class="data-kit__arrow" src="{{site.baseurl}}/img/icons/right-arrow.svg" alt="Right Arrow" />
+          <div class="data-kit__card data-kit__active" style="background-image: url('{{ kit.image | relative_url }}')">
+            {% endif %}
+            <h2>{{kit.title}}</h2>
+            <p>{{kit.description}}</p>
+            {% if kit.upcoming %}
+            {% else %}
+            <img class="data-kit__arrow" src="{{site.baseurl}}/assets/img/icons/right-arrow.svg" alt="Right Arrow" />
+            {% endif %}
+          </div>
+        </a>
+        <div class="data-kit__bg">
+          {% if kit.upcoming %}
+          <div class="data-kit__upcoming">
+            Coming Soon
+          </div>
+          {% else %}
+          <div class="data-kit__stats">
+            <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt="Icon for number of datasets"/>
+            <p>{{kit.datasets}}</p>
+          </div>
           {% endif %}
         </div>
-      </a>
-      <div class="data-kit__bg">
-        {% if kit.upcoming %}
-        <div class="data-kit__upcoming">
-          Coming Soon
-        </div>
-        {% else %}
-        <div class="data-kit__stats">
-          <img class="data-kit__icon-items" src="{{site.baseurl}}/img/icons/items.svg" alt="Icon for number of datasets"/>
-          <p>{{kit.datasets}}</p>
-        </div>
-        {% endif %}
+      </div>
+      {% endfor %}
+      <div class="tablet:grid-col">
+        <a class="data-kit__button" href="mailto:Census.opportunityproject@census.gov?subject=Suggest%20a%20theme%20&body=Hi%20there!%0D%0A%0D%0AI'd%20like%20to%20suggest%20a%20new%20theme%20for%20an%20upcoming%20sprint%20in%20the%20Opportunity%20Project.">
+          <div class="data-kit__suggest">
+            <img class="data-kit__icon-suggestion"
+            src="{{site.baseurl}}/assets/img/icons/suggestion.svg"
+            alt="Icon for suggestions" />
+            <p>Suggest a theme</p>
+          </div>
+        </a>
       </div>
     </div>
-    {% endfor %}
-    <div class="tablet:grid-col">
-      <a class="data-kit__button" href="mailto:Census.opportunityproject@census.gov?subject=Suggest%20a%20theme%20&body=Hi%20there!%0D%0A%0D%0AI'd%20like%20to%20suggest%20a%20new%20theme%20for%20an%20upcoming%20sprint%20in%20the%20Opportunity%20Project.">
-        <div class="data-kit__suggest">
-          <img class="data-kit__icon-suggestion"
-          src="{{site.baseurl}}/img/icons/suggestion.svg"
-          alt="Icon for suggestions" />
-          <p>Suggest a theme</p>
-        </div>
-      </a>
-    </div>
   </div>
-</div>
+  <div class="display-flex flex-column flex-align-center padding-9">
+    <button id="show-modal" class="data-source__button">
+      <div class="data-source">
+        <p>Learn more about this project</p>
+      </div>
+    </button>
+  </div>
+</section>

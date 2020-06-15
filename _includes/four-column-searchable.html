@@ -29,7 +29,7 @@
   <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>
 </div>
 <div class="display-flex flex-column flex-align-center">
-  <form id="product-search-form" class="usa-search usa-search--small width-mobile-large" role="search">
+  <form id="product-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
     <label class="usa-sr-only" for="search-field">Search all products</label>
     <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search all products">
     <button class="usa-button__primary-dark" type="submit">
@@ -37,17 +37,17 @@
     </button>
   </form>
 
-  <form id="product-filter-form"  class="margin-left-2 desktop:margin-0">
-    <div class="grid-row grid-gap margin-bottom-4">
+  <form id="product-filter-form"  class="display-flex flex-column flex-align-center">
+    <div class="grid-row grid-gap-sm margin-bottom-4">
       <div class="display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-card">
-          <h2 class="font-mono-xs">
-            <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
+        <div class="usa-accordion usa-accordion--bordered width-card margin-right-2">
+          <p class="font-mono-xs">
+            <button class="usa-accordion__button usa-banner__button width-card usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="topics">
               TOPICS
             </button>
-          </h2>
+          </p>
           <div id="topics" class="usa-accordion dropdown-menu">
             {% for topic in site.data.product-filters.topics %}
                 <div class="usa-checkbox">
@@ -59,14 +59,14 @@
         </div>
       </div>
       <div class="display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-card">
-          <h2 class="font-mono-xs">
-            <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
+        <div class="usa-accordion usa-accordion--bordered width-card margin-right-2">
+          <p class="font-mono-xs">
+            <button class="usa-accordion__button usa-banner__button width-card usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="year">
               Year
             </button>
-          </h2>
+          </p>
           <div id="year" class="usa-accordion dropdown-menu z-400">
             {% for year in site.data.product-filters.years %}
                 <div class="usa-checkbox">
@@ -78,14 +78,14 @@
         </div>
       </div>
       <div class="display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-card">
-          <h2 class="font-mono-xs">
-            <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
+        <div class="usa-accordion usa-accordion--bordered width-card margin-right-2">
+          <p class="font-mono-xs">
+            <button class="usa-accordion__button usa-banner__button width-card usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="agency">
               Agency
             </button>
-          </h2>
+          </p>
           <div id="agency" class="usa-accordion dropdown-menu  z-400">
             {% for agency in site.data.product-filters.agencies %}
                 <div class="usa-checkbox">
@@ -97,11 +97,12 @@
         </div>
       </div>
       <div class="display-inline-block margin-top-2">
-        <input class="usa-button__secondary-dark padding-1" type="submit" value="Filter Products">
+        <input class="usa-button__secondary-dark padding-1 border-0" type="submit" value="Filter Products">
       </div>
-      <div class="display-inline-block margin-top-2 text-middle">
-        <img src="{{ site.baseurl }}/assets/img/icons/red-x-circle.png" alt="X icon">
-        <input class="usa-button__secondary-red padding-1" id="reset-filter" value="Reset Filter">
+      <div class="display-inline-block margin-top-2">
+        <button class="usa-button__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
+          <!-- <img src="{{ site.baseurl }}/assets/img/icons/red-x-circle.png" alt="X icon"> -->
+        </button>
       </div>
     </div>
   </form>

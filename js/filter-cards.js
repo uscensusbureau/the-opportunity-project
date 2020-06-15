@@ -2,13 +2,11 @@
 var $ = require('jquery');
 var slugify = require('slugify');
 
-// console.log("connected!")
-
+// search
 $('#product-search-form').submit(function (e) {
   e.preventDefault();
   var filter = $( '#search-field').val();
   var products = document.getElementsByName('productCard');
-  console.log(products)
   for (i = 0; i < products.length; i++) {
     if (products[ i ].getElementsByTagName('h2')[ 0 ]) {
       productName = products[ i ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
@@ -22,6 +20,7 @@ $('#product-search-form').submit(function (e) {
   }
 });
 
+// filter
 $('#product-filter-form').submit(function (e) {
   e.preventDefault();
   var selectedValues = document.getElementsByName('filter-checkbox');
@@ -42,6 +41,21 @@ $('#product-filter-form').submit(function (e) {
         }
       }
     }
+  }
+});
+
+// reset filter
+
+$('#reset-filter').click(function (e) {
+  var selectedValues = document.getElementsByName('filter-checkbox');
+  for (i = 0; i < selectedValues.length; i++) {
+    selectedValues[i].checked = false;
+  }
+  var products = document.getElementsByName('productCard');
+  for (i = 0; i < products.length; i++) {
+    productName = products[ i ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
+    productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
+    $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
   }
 });
 

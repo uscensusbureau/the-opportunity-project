@@ -39,7 +39,7 @@
 
   <form id="product-filter-form"  class="margin-left-2 desktop:margin-0">
     <div class="grid-row grid-gap margin-bottom-4">
-      <div class="display-inline-block height-5 ">
+      <div class="display-inline-block height-5 z-400">
         <div class="usa-accordion usa-accordion--bordered width-card">
           <h2 class="font-mono-xs">
             <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
@@ -58,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div class="display-inline-block height-5 ">
+      <div class="display-inline-block height-5 z-400">
         <div class="usa-accordion usa-accordion--bordered width-card">
           <h2 class="font-mono-xs">
             <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
@@ -67,7 +67,7 @@
               Year
             </button>
           </h2>
-          <div id="year" class="usa-accordion dropdown-menu ">
+          <div id="year" class="usa-accordion dropdown-menu z-400">
             {% for year in site.data.product-filters.years %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="display-inline-block height-5 ">
+      <div class="display-inline-block height-5 z-400">
         <div class="usa-accordion usa-accordion--bordered width-card">
           <h2 class="font-mono-xs">
             <button class="usa-accordion__button usa-button__secondary-gray padding-1 text-center"
@@ -86,7 +86,7 @@
               Agency
             </button>
           </h2>
-          <div id="agency" class="usa-accordion dropdown-menu  ">
+          <div id="agency" class="usa-accordion dropdown-menu  z-400">
             {% for agency in site.data.product-filters.agencies %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
@@ -111,7 +111,7 @@
     {% assign products = site.data.products %}
     {% for product in products %}
       {% if product.link %}
-        <li id="product-card-{{product.product_name | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active z-bottom" name="productCard">
+        <li id="product-card-{{product.product_name | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active z-300" name="productCard">
           <div class="usa-card__container bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.product_name | slugify}}">{{ product.product_name }}</h2>
@@ -130,7 +130,7 @@
             </div>
           </div>
         </li>
-        <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive">
+        <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive z-500">
           <li class="usa-card usa-card--flag modal-content desktop:grid-col-8 tablet:grid-col-8">
             <div class="usa-card__container margin-0 border-0">
               <header class="usa-card__header desktop:grid-col-6 product-card-modal-text">

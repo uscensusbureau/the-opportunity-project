@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Workforce
 permalink: /data-kit/workforce
 layout: default-internal-page
@@ -13,5 +13,5 @@ photo:
 
 ---
 <!-- {% include hero.html %} -->
-{% include single-column-centered-photo-with-overlay.html %}
-{% include three-column-searchable.html %}
+<!-- {% include single-column-centered-photo-with-overlay.html %}
+{% include three-column-searchable.html %} -->

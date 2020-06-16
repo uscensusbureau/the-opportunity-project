@@ -46,6 +46,9 @@
           {% if text.title %}
             <h3>{{ text.title }}</h3>
           {% endif %}
+          {% if text.subtitle %}
+            <p class="font-mono-sm">{{ text.subtitle | upcase }}</p>
+          {% endif %}
           {% if text.description %}
             <p>{{ text.description }}</p>
           {% endif %}

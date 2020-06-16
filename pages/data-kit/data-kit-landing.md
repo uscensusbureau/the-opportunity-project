@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Curated Datasets
 layout: default
 permalink: /data-kit/
@@ -16,4 +16,4 @@ cards:
 
 ---
 <!-- {% include three-column-static-cards.html %} -->
-{% include data-kits.html %}
+{% include data-kits.html %} -->

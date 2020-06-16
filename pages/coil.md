@@ -9,6 +9,9 @@ class: coil
 hero:
   text: "We're transforming cross-sector collaboration"
   subtext: We bring together government, industry, and communities to unleash creativity and solve national challenges.
+  image: photos/coil/coil-hero.png
+  image-alt: Collage of photos of workshop participants.
+
 
 # content centered with outline, on blue background
 callout:

@@ -713,27 +713,27 @@ body {
   margin-bottom: units(7);
 }
 
-.data-card {
-  border: none;
-  &:hover {
-    border: 2px solid color("accent-warm");
-  }
-}
-
-.data-card {
-  border: none;
-  &:hover {
-    border: 2px solid color("accent-warm");
-  }
-}
-
-
-.contact-card {
-  border: none;
-  &:hover {
-    border: 2px solid color("base-light");
-  }
-}
+// .data-card {
+//   border: none;
+//   &:hover {
+//     border: 2px solid color("accent-warm");
+//   }
+// }
+//
+// .data-card {
+//   border: none;
+//   &:hover {
+//     border: 2px solid color("accent-warm");
+//   }
+// }
+//
+//
+// .contact-card {
+//   border: none;
+//   &:hover {
+//     border: 2px solid color("base-light");
+//   }
+// }
 
 .product-card-modal-image {
   @include at-media("desktop") {
@@ -768,9 +768,6 @@ body {
       padding: 9rem 3.5rem 3.5rem 3.5rem;
       border-radius: 10px;
       cursor: default;
-      @include at-media("mobile") {
-        width: 100%;
-      }
 
       h2 {
         margin-top: 0;
@@ -833,9 +830,7 @@ body {
       border-radius: 10px;
       top: 1.5rem;
       left: 1.5rem;
-      @include at-media("mobile")  {
-        width: 100%;
-      }
+      width: 90%;
     }
     .data-kit__upcoming {
       text-transform: uppercase;
@@ -843,7 +838,7 @@ body {
       color: #13192F;
       font-weight: 600;
       letter-spacing: 0.8px;
-      padding: 1rem 1.2rem;
+      padding: 0.5rem 0.8rem;
       background-color: #F7C636;
       border-radius: 4px;
       position: absolute;
@@ -854,7 +849,7 @@ body {
       color: color("primary-dark");
       font-weight: 400;
       letter-spacing: 0.8px;
-      padding: 0.8rem 1.2rem;
+      padding: 0.5rem 0.8rem;
       background-color: color("white");
       border-radius: 4px;
       position: absolute;
@@ -1029,7 +1024,7 @@ body {
     border-bottom: 5px solid #F7C636;
   }
   &__card {
-    background-color: color("primary-light");
+    background-color: color("primary-dark");
     padding: 2.5rem 2rem;
     border-radius: 4px;
     margin-right: 1.5rem;
@@ -1037,14 +1032,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1.5px solid color("primary-light");
+    border: 1.5px solid color("primary-dark");
     transition: border 400ms ease;
-    @include at-media("mobile") {
-      width: 80%;
-      margin: 1rem auto;
-    }
     p {
-      font-size: font-size("sans", "sm");
+      font-size: font-size("sans", "2xs");
       font-weight: 400;
       color: color("white");
     }
@@ -1064,10 +1055,6 @@ body {
     &__container {
       padding: 3.5rem 0;
       display: none;
-      @include at-media("mobile") {
-        width: 80%;
-        margin: auto;
-      }
       &--show {
         display: block;
         opacity: 0;
@@ -1087,9 +1074,6 @@ body {
       font-family: font-family("sans");
       vertical-align: top;
       margin-left: 3rem;
-      @include at-media("mobile"){
-        vertical-align: bottom;
-      }
       &-caption {
         font-size: font-size("sans", "2xs");
         text-transform: uppercase;
@@ -1104,15 +1088,12 @@ body {
         margin: 1rem 0;
       }
       &-description {
-        font-size: font-size("sans", "sm");
+        font-size: font-size("sans", "2xs");
         font-weight: 400;
         margin: 0;
-        @include at-media("mobile"){
-          display: none;
-        }
       }
       &-link {
-        font-size: font-size("sans", "sm");
+        font-size: font-size("sans", "2xs");
         font-weight: 400;
         transition: all 400ms ease;
         a {
@@ -1130,18 +1111,14 @@ body {
     }
     &__text-description-mobile {
       display: none;
-      font-size: font-size("sans", "sm");
+      font-size: font-size("sans", "2xs");
       font-weight: 400;
       color: color("white");
       margin: 0;
-      @include at-media("mobile") {
-        display: block;
-        margin-top: 2rem;
-      }
     }
     &__text-link-mobile {
       display: none;
-      font-size: font-size("sans", "sm");
+      font-size: font-size("sans", "2xs");
       font-weight: 400;
       transition: all 400ms ease;
       a {
@@ -1150,9 +1127,6 @@ body {
         text-decoration: #F7C636dotted underline;
         -webkit-text-underline-position: under;
         text-underline-position: under;
-      }
-      @include at-media("mobile") {
-        display: block;
       }
     }
 }
@@ -1167,26 +1141,23 @@ body {
     justify-content: center;
   }
   &__card {
-    display: none;
+    // display: none;
     position: relative;
     margin: 1.5rem;
     width: 30%;
-    padding: 2.5rem;
+    padding: 1.5rem 2.5rem;
     background-color: color("primary-dark");
     border-radius: 10px;
     border: 2px solid color("primary-dark");
     color: color("white");
-    font-size: font-size("sans", "sm");
+    font-size: font-size("sans", "2xs");
     transition: border 400ms ease;
-    @include at-media("mobile") {
-      width: 80%;
-    }
-    &-link {
+    a {
       text-decoration: none;
       color: color("white");
     }
     &-title {
-      font-size: font-size("sans", "sm");
+      font-size: font-size("sans", "2xs");
       font-weight: 600;
       margin-bottom: 0.8rem;
     }
@@ -1201,7 +1172,7 @@ body {
       }
     }
     &-description {
-      font-size: 1.4rem;
+      font-size: font-size("sans", "2xs");
       opacity: 0.9;
     }
     &-arrow {
@@ -1211,27 +1182,21 @@ body {
       top: -1rem;
       right: -1rem;
       transition: opacity 400ms ease;
-      @include at-media("mobile") {
-        opacity: 1;
-      }
     }
     &-email {
       opacity: 0;
       transition: all 400ms ease;
       background-color: color("white");
       border-radius: 4px;
-      width: 9.5rem;
+      width: 7rem;
       position: absolute;
-      padding: 0.8rem;
+      padding: 0.5rem;
       text-align: right;
       right: 2rem;
       bottom: -1rem;
-      font-size: font-size("sans", "sm");
+      font-size: font-size("sans", "3xs");
       color: color("primary-dark");
       font-weight: 500;
-      @include at-media("mobile") {
-        opacity: 1;
-      }
       &::before {
         content: '';
         display: block;
@@ -1240,7 +1205,7 @@ body {
         float: left;
         background-image: url('../img/icons/email.svg');
         background-repeat: no-repeat;
-        margin-top: 1px;
+        margin-top: 2px;
       }
     }
 
@@ -3229,6 +3194,8 @@ h6 + div:not(.usa-accordion__content) {
       display: flex;
       padding-right: units(3);
       height: units(10);
+      margin-top: -1px;
+      margin-bottom: -2px;
     }
 
     .usa-button {

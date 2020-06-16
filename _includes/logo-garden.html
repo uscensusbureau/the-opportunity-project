@@ -13,8 +13,14 @@
       </div>
     </div>
   </section>
-  <div>
-  <section class="display-flex flex-column flex-align-center margin-bottom-9">
+  <div class="logo-garden-mobile grid-container">
+  {% for logo in site.data.logos-partners %}
+    <div class="grid-col-2 margin-3 display-inline-block">
+      <img src="{{site.baseurl}}/assets/img/logos-partners/{{ logo.image }}" alt="{{ logo.alt }} logo">
+    </div>
+  {% endfor %}
+  </div>
+  <section class="logo-garden-desktop display-flex flex-column flex-align-center margin-bottom-9">
     <div class="logo-garden-container">
       <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mapbox.png" alt="Mapbox logo">
       <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/linkedin.png" alt="LinkedIn logo">
@@ -47,5 +53,4 @@
       <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/choctaw-nation.png" alt="Choctaw Nation seal">
       <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/state-of-hawaii.png" alt="State of Hawaii seal">
     </div>
-
 </section>

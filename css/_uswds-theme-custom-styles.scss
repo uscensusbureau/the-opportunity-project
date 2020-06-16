@@ -2469,9 +2469,19 @@ code {
 // Logo Garden
 
 .logo-garden-container {
-  margin-top: units(6);
-  opacity: 0.5;
+  display: none;
+  @include at-media("desktop") {
+    margin-top: units(6);
+    opacity: 0.5;
+    display: block;
+  }
+}
 
+.logo-garden-mobile {
+  opacity: 0.5;
+  @include at-media("desktop") {
+    display: none;
+  }
 }
 
 .logo-garden-item {
@@ -2489,6 +2499,7 @@ code {
   margin-left: 40px;
   margin-right: 40px;
 }
+
 
 // process page header overlay banner
 
@@ -3195,7 +3206,7 @@ h6 + div:not(.usa-accordion__content) {
       padding-right: units(3);
       height: units(10);
       margin-top: -1px;
-      margin-bottom: -2px;
+      margin-bottom: -4px;
     }
 
     .usa-button {

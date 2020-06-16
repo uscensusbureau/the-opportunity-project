@@ -7,7 +7,7 @@
         <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
         {% for link in item.links %}
           <div>
-            <a class="text-black" href="{{ link.link-path}}" target="_blank">{{ link.link-text}}</a>
+            <a class="text-black" href="{{ site.baseurl }}/assets/files/{{ link.link-path}}" target="_blank">{{ link.link-text}}</a>
           </div>
         {% endfor %}
       </div>

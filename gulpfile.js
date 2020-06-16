@@ -3,6 +3,7 @@
 
 require( './config/gulp/flags' );
 require( './config/gulp/fonts' );
+require( './config/gulp/files' );
 require( './config/gulp/images' );
 require( './config/gulp/javascript' );
 require( './config/gulp/sass' );

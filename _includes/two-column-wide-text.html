@@ -1,10 +1,9 @@
+<div
+  class="border-base-lighter border-top display-flex flex-column flex-align-center margin-top-5 desktop:margin-bottom-0"
+>
+  <h2 class="tag-header">{{ page.explanation.title | upcase }}</h2>
+</div>
 <section class="usa-section usa-graphic-list grid-container">
-  <div class="grid-row grid-gap">
-    <div
-      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
-    ></div>
-    <h2>{{ page.explanation.title}}</h2>
-  </div>
   <div class="grid-row grid-gap">
     {% for item in page.explanation.text %}
       {% if item.number == 1 or item.number == 3 %}

@@ -25,7 +25,7 @@
           {% endfor %}
         {% endif %}
         {% for button in item.buttons %}
-          <button class="usa-button__{{ button.style | slugify }}">{{ button.b }}</button><br>
+          <a href="{{ button.link }}"><button class="usa-button__{{ button.style | slugify }}">{{ button.b }}</button></a><br>
         {% endfor %}
       </div>
       <div
@@ -46,11 +46,14 @@
           {% if text.title %}
             <h3>{{ text.title }}</h3>
           {% endif %}
+          {% if text.subtitle %}
+            <p class="font-mono-sm">{{ text.subtitle | upcase }}</p>
+          {% endif %}
           {% if text.description %}
             <p>{{ text.description }}</p>
           {% endif %}
           {% if text.button %}
-            <button class="usa-button__primary-dark">{{ text.button }}</button>
+            <a href="{{ button.link }}"><button class="usa-button__{{ button.style | slugify }}">{{ text.button }}</button></a><br>
           {% endif %}
         </div>
       {% endfor %}

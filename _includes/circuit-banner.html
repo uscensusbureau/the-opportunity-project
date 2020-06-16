@@ -1,0 +1,30 @@
+{% assign banner = page.circuit-banner %}
+<section class="display-none desktop:display-block bg-{{ banner.sidebar-color }}">
+  <section class="grid-container">
+    <div class="grid-row margin-bottom-neg-1">
+      <div
+        class="desktop:grid-col-1"
+      ></div>
+      <div
+        class="desktop:grid-col-10  bg-{{banner.background-color}}"
+      >
+        <img src="{{ site.baseurl }}/assets/img/{{banner.image}}" alt="{{ banner.alt }}">
+      </div>
+    </div>
+  </section>
+</section>
+<section class=" display-none desktop:display-block bg-{{ banner.background-color }}">
+  <section class="grid-container">
+    <div class="grid-row height-4">
+      <div
+        class="desktop:grid-col-1 bg-{{ banner.sidebar-color }}"
+      >
+      <span></span>
+      </div>
+      <div
+        class="desktop:grid-col-10  bg-{{banner.background-color}} padding-0 margin-bottom-0"
+      >
+      </div>
+    </div>
+  </section>
+</section>

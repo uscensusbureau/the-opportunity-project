@@ -30,6 +30,15 @@ explanation:
     image-alt: Man presenting on stage with presentation slide displayed on a screen behind him
     description: Sprints typically run through the summer and fall and culminate in an annual Demo Day, where press, data enthusiasts, technologists, and people in government gather to celebrate the launch of products built through The Opportunity Project that year.
 
+
+banner-subheader:
+  top:
+    background: white
+  bottom:
+    background: base-darkest
+    line: '-light'
+    subheader: How it Works
+
 # sprint timeline
 progress-bar:
   - number: 1
@@ -163,7 +172,9 @@ role-descriptions:
       - aria: 5
         title: How you contribute
         steps:
-          - title: 'User Advocates (UAs) serve a critical role helping tech teams, federal agencies, and other partners understand the everyday people and communities The Opportunity Project seeks to empower. User Advocates communicate the needs, concerns, and realities of the communities they belong to or work with closely, ensuring that the perspective of end users drives how tech teams solve problems.  Being a user advocate can be a very lightweight time commitment.  Depending on your availability, you can expect to spend 1-3 hours per week working alongside tech teams and other sprint participants to co-create useful technology for your community.'
+          - text: 'User Advocates (UAs) serve a critical role helping tech teams, federal agencies, and other partners understand the everyday people and communities The Opportunity Project seeks to empower. User Advocates communicate the needs, concerns, and realities of the communities they belong to or work with closely, ensuring that the perspective of end users drives how tech teams solve problems.  Being a user advocate can be a very lightweight time commitment.  Depending on your availability, you can expect to spend 1-3 hours per week working alongside tech teams and other sprint participants to co-create useful technology for your community.
+
+          A user advocate’s role includes:'
           - description:
             - Provide insights to tech teams based on their expertise and community connections to shape the products built through the sprint
           - description:
@@ -218,6 +229,7 @@ role-descriptions:
 {% include hero.html %}
 {% include connecting-banner.html %}
 {% include single-column-centered-list.html %}
+{% include connecting-banner-with-subheader.html %}
 {% include timeline-progress-section-dark.html %}
 {% include two-column-card-text.html %}
 {% include single-column-banner-photo-overlay-and-content.html %}

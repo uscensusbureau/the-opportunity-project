@@ -39,7 +39,7 @@
               <h2 class="font-sans-xl">{{ item.name}}</h2>
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
               <p>{{ item.description}}</p>
-              <button class="usa-button__secondary-white" type="button" name="button">View Case Study</button>
+              <a href="{{ item.button-link }}"><button class="usa-button__secondary-white" type="button" name="button">View Case Study</button></a>
             </div>
           </div>
           <div
@@ -55,6 +55,9 @@
   <div
     class="usa-media-block padding-top-11 padding-bottom-9 display-flex flex-column flex-align-center"
   >
-    <a href="{{ site.baseurl }}/showcase"><button class="usa-button__primary-red" type="button" name="button">All Products</button></a>
+    <div>
+      <a href="{{ site.baseurl }}/showcase" class="display-inline-block margin-2"><button class="usa-button__primary-red" type="button" name="button">All Products</button></a>
+      <a href="{{ site.baseurl }}/assets/files/annual_report_2019.pdf" target="_blank" class="display-inline-block margin-2"><button class="usa-button__primary-red" type="button" name="button">View 2019 Annual Report (PDF)</button></a>
+    </div>
   </div>
 </section>

@@ -19,19 +19,19 @@
             {% endif %}
             {% if item.accordions %}
               {% for accordion in item.accordions %}
-                <div class="usa-accordion usa-accordion--bordered bg-base text-white">
+                <div class="usa-accordion usa-accordion--bordered bg-base-dark text-white">
                   <h2 class="usa-accordion__heading">
-                    <button class="usa-accordion__button bg-base text-white"
+                    <button class="usa-accordion__button bg-base-dark text-white"
                       aria-expanded="false"
                       aria-controls="{{ accordion.aria }}">
                       {{ accordion.title }}
                     </button>
                   </h2>
-                  <div id="{{ accordion.aria }}" class="usa-accordion bg-base-lightest margin-top-0">
+                  <div id="{{ accordion.aria }}" class="usa-accordion usa-accordion--bordered margin-top-0  bg-base-darkest border-solid border-base-dark">
                     {% if accordion.steps %}
                       <ol>
                         {% for step in accordion.steps %}
-                          <li>{{ step }}</li>
+                          <li class="text-white padding-2">{{ step }}</li>
                         {% endfor %}
                       </ol>
                     {% endif %}

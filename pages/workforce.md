@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Workforce
 layout: base
 permalink: /data-kit-hub/workforce/
@@ -10,4 +10,4 @@ hero:
 ---
 
 {% include hero.html %}
-{% include datasets/workforce.html %}
+{% include datasets/workforce.html %} -->

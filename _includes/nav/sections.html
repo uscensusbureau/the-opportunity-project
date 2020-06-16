@@ -1,10 +1,9 @@
-{% for section in include.sections %}
+{% assign links = site.data.nav.primary %}
+{% for link in links %}
   <li class="usa-nav__primary-item">
-  {% assign _page = section.href | resolve_permalink %}
-  {% if section.collapsible %}
-    {% include nav/page-collapsible.html text=section.text page=_page %}
-  {% else %}
-    {% include nav/page-item.html text=section.text page=_page %}
-  {% endif %}
+    <a href="{{ link.href }}"><span>{{ link.text }}</span></a>
   </li>
 {% endfor %}
+<li class="usa-nav__primary-item">
+  <a href="{{ site.baseurl }}/get-involved/join-a-sprint"><span>Get Involved</span></a>
+</li>

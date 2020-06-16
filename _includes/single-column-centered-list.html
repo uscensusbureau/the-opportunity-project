@@ -2,15 +2,17 @@
   {% for item in page.explanation.text %}
     <div class="grid-row">
       <div
-        class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block desktop:border-bottom desktop:padding-top-3 desktop:padding-bottom-5"
+        class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block desktop:border-bottom border-base-lighter desktop:padding-top-3 desktop:padding-bottom-5"
       >
         <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
         {% for link in item.links %}
-          <a class="text-black" href="{{ link.link-path}}" target="_blank">{{ link.link-text}}</a>
+          <div>
+            <a class="text-black" href="{{ site.baseurl }}/assets/files/{{ link.link-path}}" target="_blank">{{ link.link-text}}</a>
+          </div>
         {% endfor %}
       </div>
       <div
-        class="desktop:grid-col-7 tablet:grid-col-6 usa-media-block__inline-items desktop:border-bottom desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
+        class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-items desktop:border-bottom border-base-lighter desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
       >
         <div class="inline-number">
           {% if item.number %}

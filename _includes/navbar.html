@@ -1,6 +1,6 @@
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 {% include banner.html %}
-<header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom" role="banner">
+<header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
   <div class="usa-navbar site-header-navbar">
     <div class="usa-logo site-logo" id="logo">
       <em class="usa-logo__text">
@@ -36,7 +36,7 @@
         </ul>
       </nav>
       <div class="get-involved">
-        <form
+        <!-- <form
           id="search_form"
           class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-left text-middle"
           action="https://search.usa.gov/search"
@@ -59,7 +59,7 @@
               <span class="usa-sr-only">Search</span>
             </button>
           </div>
-        </form>
+        </form> -->
         <a href="{{site.baseurl}}/get-involved/join-a-sprint"><button type="button" name="get-involved" class="usa-button__primary-red margin-0 padding-4">Get Involved</button></a>
       </div>
     </div>
@@ -73,7 +73,7 @@
     <span class="usa-sr-only">Close</span>
   </button>
 
-  <form
+  <!-- <form
     id="search_form-mobile"
     class="usa-search usa-search--small desktop:margin-right-4"
     action="https://search.usa.gov/search"
@@ -96,7 +96,7 @@
         <span class="usa-sr-only">Search</span>
       </button>
     </div>
-  </form>
+  </form> -->
   <div class="usa-nav__inner">
     <ul class="usa-nav__primary usa-accordion">
       {% include nav/sections.html sections=site.data.nav.mobile %}

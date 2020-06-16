@@ -1,22 +1,30 @@
 <section class="usa-section usa-graphic-list grid-container">
   <div class="grid-row grid-gap">
-    <div class="grid-offset-2 desktop:grid-col-7">
+    <div class="desktop:grid-offset-2 desktop:grid-col-7 padding-2">
       <h2>{{ page.card-explanation.title}}</h2>
       <p>{{ page.card-explanation.description}}</p>
     </div>
   </div>
   <div class="grid-row grid-gap">
-    <div class="grid-offset-2">
-      {% for item in page.card-explanation.cards %}
-        <div class="bg-primary-lightest grid-col-5 display-inline-block padding-left-2 margin-right-4 margin-left-0 margin-bottom-4">
-          {% if item.title %}
-            <h4>{{ item.title }}</h4>
-          {% endif %}
-          {% if item.description %}
-            <p>{{ item.description }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
+    <div class="desktop:grid-offset-2">
+      <ul class="usa-card-group">
+        {% for item in page.card-explanation.cards %}
+          <li class="desktop:grid-col-5 tablet:grid-col-5 usa-card" name="role-card">
+            <div class="usa-card__container bg-primary-lightest border-0 radius-0">
+              <header class="usa-card__header">
+                {% if item.title %}
+                  <h4>{{ item.title }}</h4>
+                {% endif %}
+              </header>
+              <div class="usa-card__body">
+                {% if item.description %}
+                  <p>{{ item.description }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>

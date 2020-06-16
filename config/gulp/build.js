@@ -15,6 +15,10 @@ gulp.task('clean-images', function () {
   return del('assets/img/');
 });
 
+gulp.task('clean-files', function () {
+  return del('assets/files/');
+});
+
 gulp.task('clean-javascript', function () {
   return del('assets/js/');
 });
@@ -31,6 +35,7 @@ gulp.task('clean-assets',
   gulp.parallel(
     'clean-fonts',
     'clean-images',
+    'clean-files',
     'clean-javascript',
     'clean-styles',
     'remove-assets-folder'
@@ -99,6 +104,7 @@ gulp.task('build',
     'build-uswds-if-needed',
     gulp.parallel(
       'fonts',
+      'files',
       'images',
       'javascript',
       'sass',

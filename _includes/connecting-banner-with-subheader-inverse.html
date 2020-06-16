@@ -1,0 +1,21 @@
+{% assign banner = page.banner-subheader-inverse %}
+<section class="bg-{{ banner.top.background }}">
+  {% if banner.top.subheader %}
+    <div
+      class="display-flex flex-column flex-align-center"
+    >
+      <h2 class="tag-header margin-top-0 margin-bottom-0">{{ banner.top.subheader | upcase }}</h2>
+    </div>
+  {% endif %}
+  <div class="vertical-line{{ banner.top.line}}"></div>
+</section>
+<section class="bg-{{ banner.bottom.background }}">
+  <div class="vertical-line{{ banner.bottom.line}}"></div>
+  {% if banner.bottom.subheader %}
+    <div
+      class="display-flex flex-column flex-align-center"
+    >
+      <h2 class="tag-header margin-top-0">{{ banner.bottom.subheader | upcase }}</h2>
+    </div>
+  {% endif %}
+</section>

@@ -6,7 +6,7 @@ primary:
   - text: Showcase
     href: showcase/
   - text: Curated Datasets
-    href: data-kit/
+    href: /data/
   # - text: Get Involved
   #   href: /get-involved
   #   accordion:
@@ -23,7 +23,7 @@ mobile:
   - text: Showcase
     href: showcase/
   - text: Curated Datasets
-    href: curated-datasets/
+    href: /data/
   - text: Get Involved
     href: get-involved/
 

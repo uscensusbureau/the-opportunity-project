@@ -7,8 +7,16 @@ class: home
 
 # full span, top of page section
 hero:
-  text: Putting America's data to work for veterans
+  text: Putting America's data to work for the people
   subtext: We help teams use federal open data to build solutions to our nation’s toughest challenges
+  image: photos/home/hero.png
+  image-alt: Collage of a veteran, student, father and daughter on the beach, workshop participants, and a conference speaker.
+
+circuit-banner:
+  background-color: primary
+  image: icons/circuity-pattern.svg
+  sidebar-color: base-darkest
+
 
 # content centered with outline, on blue background
 callout:
@@ -16,9 +24,10 @@ callout:
   subtext: OUR MISSION
   body:
     # for each separate portion of text, add a "p" (short for paragraph)
-    - p: Finding federal data is hard. Making a difference with it is even harder.
+    - p: Finding federal data is hard. Making an impact with it is even harder.
     - p: That’s where we come in.
-    - p: We connect you with experts from industry, communities and government to help you turn federal open data into life-changing tech, faster.
+    - p: We connect you with experts from the tech industry, communities and government to help you turn federal open data into life-changing tech, faster.
+
 
 connecting-banner:
   background-color: primary
@@ -34,6 +43,7 @@ explanation:
   #    3    |    4
   #         |    
   # This layout can be used for two side-by-side pieces of text or for a "quad" style layout. If items should be numbered, follow this pattern. If no numbers are needed, the "number" item should marked false
+  title: Our Process
   text:
   - number: 1
     title: Identify challenges
@@ -56,7 +66,7 @@ impact:
     border: border-right
   - statistic: '800+'
     underline: short yellow accent
-    description: People who have contributed to products built through TOP
+    description: Contributors including designers, developers, data stewards and community advocates
     border: border-right
   - statistic: '34'
     underline: short yellow accent
@@ -76,7 +86,7 @@ featured_items:
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
     img: photos/home/products/sille.png
-    alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features 
+    alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
     button-link: case-studies/sille
   - name: PRADOS
@@ -95,7 +105,7 @@ testimonials:
     person: Rob Lalka
     organization: Public Democracy
     image: photos/home/headshots/rob-lalka.png
-  - text: TOP sprint really represents the best of what government can be — a platform for engagement that is so core to our democracy.
+  - text: '[TOP] really represents the best of what government can be — a platform for engagement that is so core to our democracy.'
     person: Denice Ross
     organization: Georgetown University
     image: photos/home/headshots/denice-ross.png
@@ -113,18 +123,22 @@ get_involved:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
-    - b: Stay in the loop
+    - b: View Sprints
       style: primary dark
-    - b: Contact us
+      link: '/get-involved/join-a-sprint'
+    - b: Get Updates
       style: secondary white
+      link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
   text:
     - number: 1
       number_display: false
-      title: Build with open data (Coming Soon)
+      title: Build with open data
+      subtitle: Coming Soon
       description: 'Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.'
     - number: 2
       number_display: false
-      title: Run a TOPx sprint (Coming Soon)
+      title: Run a TOPx sprint
+      subtitle: Coming Soon
       description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
 #news
@@ -177,6 +191,7 @@ news_item:
 
 ---
 {% include hero.html %}
+{% include circuit-banner.html %}
 {% include text-callout-centered.html %}
 {% include connecting-banner.html %}
 {% include two-column-wide-text.html %}

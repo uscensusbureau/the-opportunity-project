@@ -10,7 +10,7 @@
           {% endif %}
           <div class="content-grid-one-third">
             {% if case.product_name %}
-              <h2>{{ case.product_name }}</h2>
+              <a href="{{ site.baseurl}}/case-studies/{{ case.product_name | slugify }}" ><h2 class="text-white">{{ case.product_name }}</h2></a>
             {% endif %}
             {% if case.tech_team %}
               <p class="font-mono-sm">{{ case.tech_team }}</p>
@@ -39,10 +39,10 @@
 
   <form id="product-filter-form"  class="display-flex flex-column flex-align-center">
     <div class="grid-row grid-gap-sm margin-bottom-4">
-      <div class="display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-card margin-right-2">
+      <div class="desktop:display-inline-block height-5 z-400">
+        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
           <p class="font-mono-xs">
-            <button class="usa-accordion__button usa-banner__button width-card usa-button__secondary-gray padding-1 text-center"
+            <button class="usa-accordion__button width-15 desktop:width-card usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="topics">
               TOPICS
@@ -58,10 +58,10 @@
           </div>
         </div>
       </div>
-      <div class="display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-card margin-right-2">
+      <div class="desktop:display-inline-block height-5 z-400">
+        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
           <p class="font-mono-xs">
-            <button class="usa-accordion__button usa-banner__button width-card usa-button__secondary-gray padding-1 text-center"
+            <button class="usa-accordion__button width-15 desktop:width-card usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="year">
               Year
@@ -77,16 +77,16 @@
           </div>
         </div>
       </div>
-      <div class="display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-card margin-right-2">
+      <div class="desktop:display-inline-block height-5 z-400">
+        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
           <p class="font-mono-xs">
-            <button class="usa-accordion__button usa-banner__button width-card usa-button__secondary-gray padding-1 text-center"
+            <button class="usa-accordion__button width-15 desktop:width-card usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="agency">
               Agency
             </button>
           </p>
-          <div id="agency" class="usa-accordion dropdown-menu  z-400">
+          <div id="agency" class="usa-accordion dropdown-menu z-400">
             {% for agency in site.data.product-filters.agencies %}
                 <div class="usa-checkbox">
                   <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
@@ -96,12 +96,11 @@
           </div>
         </div>
       </div>
-      <div class="display-inline-block margin-top-2">
+      <div class="desktop:display-inline-block margin-top-2">
         <input class="usa-button__secondary-dark padding-1 border-0" type="submit" value="Filter Products">
       </div>
       <div class="display-inline-block margin-top-2">
         <button class="usa-button__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
-          <!-- <img src="{{ site.baseurl }}/assets/img/icons/red-x-circle.png" alt="X icon"> -->
         </button>
       </div>
     </div>

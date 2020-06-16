@@ -2605,19 +2605,52 @@ code {
   }
 }
 
+.product-filter-form-desktop {
+  visibility: hidden;
+  @include at-media("desktop") {
+    visibility: visible;
+  }
+}
+
+.product-filter-form-mobile {
+  @include at-media("desktop") {
+    visibility: hidden;
+  }
+}
+
+
 .usa-accordion {
   opacity: 1;
 }
 
-// .usa-accordion__button {
-//   background-image: url(../img/icons/up-arrow.png);
-//   background-repeat: no-repeat;
-// }
-//
-// .usa-accordion__button[aria-expanded="false"] {
-//   background-image: url(../img/icons/down-arrow.png);
-//   background-repeat: no-repeat;
-// }
+.usa-accordion__button {
+  background-image: none;
+  @include at-media("tablet") {
+    @include add-icon(
+      "angle-arrow-down-primary",
+      "after",
+      1,
+      1,
+      2px,
+      "no-hover"
+    );
+  }
+  &[aria-expanded="false"] {
+    background-image: none;
+  }
+  &[aria-expanded="true"] {
+    @include at-media("tablet") {
+      @include add-icon(
+        "angle-arrow-up-primary",
+        "after",
+        1,
+        1,
+        2px,
+        "no-hover"
+      );
+    }
+  }
+}
 
 
 .dropdown-menu {

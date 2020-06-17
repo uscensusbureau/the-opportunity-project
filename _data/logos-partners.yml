@@ -60,14 +60,14 @@
 - image: homestretch.png
   size: small
   alt: Homestretch
-  
+
 - image: naleo.png
   size: large
   alt: National Association of Latino Elected & Appointed Officials
 - image: columbia.png
   size: large
   alt: Columbia university
-- image: choctaw-nation.png
+- image: Choctaw-Nation.png
   size: large
   alt: Choctaw Nation
 - image: state-of-hawaii.png

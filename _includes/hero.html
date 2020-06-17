@@ -1,11 +1,9 @@
 {% if page.class == "home" or page.class == "coil" %}
 {% assign hero = page.hero %}
 <section class="usa-hero padding-top-0">
-  <div class="grid-container usa-hero__bg"
-  style="background-image: url({{site.baseurl}}/assets/img/{{ page.hero.image}});height: 600px; background-position: right;
-  background-repeat: no-repeat; background-size:contain;"
+  <div class="grid-container usa-hero__bg background-hero-image-home"
   >
-  <div class="padding-top-9">
+  <div class="desktop:padding-top-9">
     <h1 class="usa-hero__title grid-col-8
      display-inline-block  padding-top-9">{{ page.hero.text}}</h1>
     <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>

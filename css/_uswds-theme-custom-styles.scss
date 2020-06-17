@@ -2465,6 +2465,27 @@ code {
   font-size: font-size("lang", "3xl");
 }
 
+.background-hero-image-home {
+  @include at-media("desktop") {
+    background-image: url('../img/photos/home/hero.png');
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+}
+
+.background-hero-image-coil {
+  @include at-media("desktop") {
+    background-image: url('../img/photos/coil/coil-hero.png');
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+}
+
+
 
 // Logo Garden
 
@@ -2624,6 +2645,17 @@ code {
 }
 
 .usa-accordion__button {
+  background-image: url(../img/icons/remove-24px-icon-black.svg));
+  background-repeat: no-repeat;
+}
+
+
+.usa-accordion__button[aria-expanded="false"] {
+  background-image: url(../img/icons/add-24px-icon-black.svg);
+  background-repeat: no-repeat;
+}
+
+.usa-accordion__button-alt {
   background-image: none;
   @include at-media("tablet") {
     @include add-icon(

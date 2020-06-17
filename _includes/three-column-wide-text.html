@@ -5,6 +5,9 @@
         {% for item in page.testimonials %}
           <li class="desktop:grid-col-4 tablet:grid-col-4 usa-card " name="data-set-card">
             <div class="usa-card__container usa-media-block__body border-0 bg-transparent">
+              <div class="usa-card__header desktop:border-base-dark desktop:border-right">
+                <img src="{{ site.baseurl }}/assets/img/icons/1-quotation-mark.svg" alt="quotation mark icon">
+              </div>
               <div class="usa-card__body desktop:border-base-dark desktop:border-right">
                 {% if item.text %}
                   <p class="padding-2">{{ item.text }}</p>

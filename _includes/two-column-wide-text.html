@@ -21,10 +21,15 @@
         </div>
         <div class="inline-text">
           {% if item.title %}
-            <h4>{{ item.title }}</h4>
+            <h3>{{ item.title }}</h3>
           {% endif %}
         {% if item.description %}
           <p>{{ item.description }}</p>
+        {% endif %}
+        {% if item.button %}
+        <div >
+          <a href="{{site.baseurl}}/{{item.button.href}}" class="float-right"><button class="usa-button__secondary-gray" type="button" name="button">{{item.button.text | upcase }}</button></a>
+        </div>
         {% endif %}
         </div>
       </div>
@@ -34,5 +39,6 @@
         ></div>
       {% endif %}
     {% endfor %}
+
   </div>
 </section>

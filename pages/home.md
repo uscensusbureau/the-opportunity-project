@@ -57,6 +57,9 @@ explanation:
   - number: 4
     title: Launch & scale
     description: Teams launch their products at our annual Demo Day showcase. Afterward, we continue to help teams deploy their solutions to their target end users.
+    button:
+      link: our-process
+      text: Learn More
 
 # three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
 impact:

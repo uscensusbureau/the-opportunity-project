@@ -65,7 +65,7 @@ explanation:
 impact:
   - statistic: '100+'
     underline: short yellow accent
-    description: Consumer-facing digital tools built through our sprints since 2016
+    description: Consumer-facing digital tools built through our sprints since 2016 <br><br>
     border: border-right
   - statistic: '800+'
     underline: short yellow accent

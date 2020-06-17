@@ -4,22 +4,22 @@
       <ul class="usa-card-group">
         {% for item in page.testimonials %}
           <li class="desktop:grid-col-4 tablet:grid-col-4 usa-card " name="data-set-card">
-            <div class="usa-card__container usa-media-block__body border-0 bg-transparent">
-              <div class="usa-card__header desktop:border-base-dark desktop:border-right">
+            <div class="usa-card__container usa-media-block__body border-0 bg-transparent margin-right-4">
+              <div class="usa-card__header desktop:border-base-dark desktop:border-right padding-left-0">
                 <img src="{{ site.baseurl }}/assets/img/icons/1-quotation-mark.svg" alt="quotation mark icon">
               </div>
-              <div class="usa-card__body desktop:border-base-dark desktop:border-right">
+              <div class="usa-card__body desktop:border-base-dark desktop:border-right padding-left-0 padding-bottom-2">
                 {% if item.text %}
-                  <p class="padding-2">{{ item.text }}</p>
+                  <p class="padding-left-0">{{ item.text }}</p>
                 {% endif %}
               </div>
-              <div class="usa-card__footer border-base-dark border-top">
+              <div class="usa-card__footer border-base-dark border-top  padding-left-0">
                 <div class="display-inline-block">
                   {% if item.image %}
                     <img src="{{ site.baseurl}}/assets/img/{{item.image}}" alt="{{ item.person }}" class="width-7">
                   {% endif %}
                 </div>
-                <div class="display-inline-block padding-left-2">
+                <div class="display-inline-block padding-left-2 padding-top-2">
                   {% if item.person %}
                     <p class="font-sans-2xs margin-top-0 margin-bottom-0">{{ item.person }}</p>
                   {% endif %}

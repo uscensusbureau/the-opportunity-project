@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-permalink: /case-studies-city-builder
+permalink: /city-builder/
 layout: default-internal-page
 class: case-study
 

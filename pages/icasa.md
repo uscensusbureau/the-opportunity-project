@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-permalink: /case-studies-prados
+permalink: /prados/
 layout: default-internal-page
 class: case-study
 

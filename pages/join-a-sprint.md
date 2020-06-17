@@ -1,6 +1,6 @@
 ---
 title: Earth Cohort
-permalink: /join-a-sprint
+permalink: /join-a-sprint/
 layout: default
 
 # full span, top of page section

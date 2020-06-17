@@ -1,16 +1,20 @@
 {% if page.class == "home" or page.class == "coil" %}
 {% assign hero = page.hero %}
-<section class="usa-hero">
-  <div class="grid-container usa-hero__bg desktop:padding-bottom-9 desktop:margin-bottom-9  padding-bottom-5">
-    <img class="maxw-tablet-lg position-absolute right-0 top-3 padding-top-9 padding-right-5 opacity-60" src="{{site.baseurl}}/assets/img/{{ page.hero.image}}" alt="{{ page.hero.image-alt}}">
+<section class="usa-hero padding-top-0">
+  <div class="grid-container usa-hero__bg"
+  style="background-image: url({{site.baseurl}}/assets/img/{{ page.hero.image}});height: 600px; background-position: right;
+  background-repeat: no-repeat; background-size:contain;"
+  >
+  <div class="padding-top-9">
     <h1 class="usa-hero__title grid-col-8
-     display-inline-block">{{ page.hero.text}}</h1>
+     display-inline-block  padding-top-9">{{ page.hero.text}}</h1>
     <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
+    </div>
   </div>
 {% elsif page.class == "about" or  page.class == "our-process" %}
 <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
-    <div class="maxw-mobile-lg grid-offset-1">
+    <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
       <h1
         class="hero--heading margin-top-10 line-height-sans-3 text-thin font-lang-13 text-white"
       >

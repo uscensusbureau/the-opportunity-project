@@ -372,9 +372,6 @@ get_involved:
     - p: Join a community of hundreds working to transform America’s data into America’s innovation.
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
-    - b: View Sprints
-      style: primary dark
-      link: join-a-sprint/
     - b: Get Updates
       style: secondary white
       link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610

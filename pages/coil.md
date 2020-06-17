@@ -1,5 +1,5 @@
 ---
-permalink: /coil
+permalink: /coil/
 title: "Census Open Innovation Labs"
 #class and layout determines page structure. Do not edit except for major updates!
 layout: default

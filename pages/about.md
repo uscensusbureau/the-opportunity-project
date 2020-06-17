@@ -29,7 +29,6 @@ content-primary:
       description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
       image: photos/about/about-02.png
       image-alt: A man writing on a poster at a workshop
-
   button:
     - link:
       text: Learn More

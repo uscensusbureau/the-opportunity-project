@@ -1,12 +1,14 @@
 primary:
   - text: About
     href: about/
-  - text: Our Process
+  - text: Process
     href: our-process/
-  - text: Showcase
+  - text: Products
     href: showcase/
-  - text: Curated Datasets
+  - text: Datasets
     href: data/
+  - text: News
+    href: '#news'
   # - text: Get Involved
   #   href: /get-involved
   #   accordion:

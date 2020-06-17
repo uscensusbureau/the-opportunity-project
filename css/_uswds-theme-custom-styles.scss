@@ -312,59 +312,59 @@ body {
 .site-nav-secondary {
   display: none;
 
-  @include at-media("desktop") {
-    background-color: color("white");
-    border-bottom: units($site-border-width) solid
-      color($site-base-transparent-light);
-    clear: both;
-    display: block;
-    height: units($height-nav-secondary);
-    padding-left: units(2);
-    z-index: z-index($z-nav-secondary);
-  }
-
-  &.sticky {
-    @include u-z(200);
-  }
-
-  ul {
-    @include unstyled-list;
-
-    li {
-      display: inline;
-    }
-  }
-
-  a {
-    @include typeset("lang", "xs", 1);
-    color: color("gray-50");
-    display: inline-block;
-    font-weight: fw("normal");
-    height: units($height-nav-secondary);
-    padding: units(2);
-    position: relative;
-    text-decoration: none;
-
-    .page-home & {
-      color: color("ink");
+  .page-process & {
+    @include at-media("desktop") {
+      background-color: color("white");
+      border-bottom: units($site-border-width) solid
+        color($site-base-transparent-light);
+      clear: both;
+      display: block;
+      height: units($height-nav-secondary);
+      padding-left: units(2);
+      z-index: z-index($z-nav-secondary);
     }
 
-    &:hover {
+    &.sticky {
+      top: 5rem;
+      position: -webkit-sticky !important;
+    }
+
+    ul {
+      @include unstyled-list;
+
+      li {
+        display: inline;
+      }
+    }
+
+    a {
+      @include typeset("lang", "xs", 1);
+      color: color("gray-50");
+      display: inline-block;
+      font-weight: fw("normal");
+      height: units($height-nav-secondary);
+      padding: units(2);
+      position: relative;
+      text-decoration: none;
+
+      &:hover {
+        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
+        color: color($site-primary-vivid);
+      }
+    }
+
+    .usa-current {
       @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-      color: color($site-primary-vivid);
-    }
-  }
-
-  .usa-current {
-    @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-    color: color($site-ink);
-    font-weight: fw("bold");
-
-    &:hover {
       color: color($site-ink);
+      font-weight: fw("bold");
+
+      &:hover {
+        color: color($site-ink);
+      }
     }
   }
 }
+
 
 // Sidebar Nav --------- //
 
@@ -2482,6 +2482,12 @@ code {
     background-position: right;
     background-repeat: no-repeat;
     background-size:contain;
+  }
+}
+
+.statistic-border-right {
+  @include at-media("desktop") {
+    border-right: solid 1px color("base-darker");
   }
 }
 

@@ -4,7 +4,7 @@
       <ul class="usa-card-group">
         {% for item in page.testimonials %}
           <li class="desktop:grid-col-4 tablet:grid-col-4 usa-card " name="data-set-card">
-            <div class="usa-card__container usa-media-block__body border-0 bg-transparent margin-right-4">
+            <div class="usa-card__container usa-media-block__body border-0 bg-transparent margin-right-5">
               <div class="usa-card__header desktop:border-base-dark desktop:border-right padding-left-0">
                 <img src="{{ site.baseurl }}/assets/img/icons/1-quotation-mark.svg" alt="quotation mark icon">
               </div>
@@ -13,7 +13,7 @@
                   <p class="padding-left-0">{{ item.text }}</p>
                 {% endif %}
               </div>
-              <div class="usa-card__footer border-base-dark border-top  padding-left-0">
+              <div class="usa-card__footer border-base-dark border-top padding-left-0 padding-top-3">
                 <div class="display-inline-block">
                   {% if item.image %}
                     <img src="{{ site.baseurl}}/assets/img/{{item.image}}" alt="{{ item.person }}" class="width-7">

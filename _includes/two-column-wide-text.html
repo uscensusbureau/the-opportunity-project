@@ -5,40 +5,60 @@
 </div>
 <section class="usa-section usa-graphic-list grid-container">
   <div class="grid-row grid-gap">
-    {% for item in page.explanation.text %}
-      {% if item.number == 1 or item.number == 3 %}
-        <div
-          class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
-        ></div>
-      {% endif %}
-      <div
-        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__inline-items desktop:margin-bottom-0"
-      >
-        <div class="inline-number">
-          {% if item.number %}
-            <p class="circle-3">{{ item.number }}</p>
-          {% endif %}
-        </div>
-        <div class="inline-text">
-          {% if item.title %}
-            <h3>{{ item.title }}</h3>
-          {% endif %}
-        {% if item.description %}
-          <p>{{ item.description }}</p>
-        {% endif %}
-        {% if item.button %}
+    <div
+      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
+    ></div>
+    <div
+      class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__inline-items desktop:margin-bottom-0"
+    >
+      <div class="inline-number">
+        <p class="circle-3">1</p>
+      </div>
+      <div class="inline-text">
+        <h3 class="font-sans-lg">Identify challenges</h3>
+        <p>Federal agencies and advocacy organizations identify our nation’s most pressing social, economic, and environmental challenges.</p>
+      </div>
+    </div>
+    <div
+      class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__inline-items desktop:margin-bottom-0"
+    >
+      <div class="inline-number">
+        <p class="circle-3">2</p>
+      </div>
+      <div class="inline-text">
+        <h3 class="font-sans-lg">Team up</h3>
+        <p>Teams from companies, universities, and more sign up to build digital products that use federal open data to help solve these challenges.</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row grid-gap">
+    <div
+      class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
+    ></div>
+    <div
+      class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__inline-items desktop:margin-bottom-0 margin-top-2 padding-top-2 border-base-lighter border-top"
+    >
+      <div class="inline-number">
+        <p class="circle-3">3</p>
+      </div>
+      <div class="inline-text">
+        <h3 class="font-sans-lg">Build</h3>
+        <p>Over 12 weeks, teams build their solutions. Experts  provide feedback on user needs, product strategy, and the best datasets available to solve each problem.</p>
+      </div>
+    </div>
+    <div
+      class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__inline-items desktop:margin-bottom-0  margin-top-2 padding-top-2 border-base-lighter border-top"
+    >
+      <div class="inline-number">
+        <p class="circle-3">2</p>
+      </div>
+      <div class="inline-text">
+        <h3 class="font-sans-lg">Launch & scale</h3>
+        <p>Teams launch their products at our annual Demo Day showcase. Afterward, we continue to help teams deploy their solutions to their target end users.</p>
         <div >
-          <a href="{{site.baseurl}}/{{item.button.link}}" class="float-right"><button class="usa-button__secondary-gray" type="button" name="button">{{item.button.text | upcase }}</button></a>
-        </div>
-        {% endif %}
+          <a href="{{site.baseurl}}/our-process" class="float-right"><button class="usa-button__secondary-gray" type="button" name="button">Learn More</button></a>
         </div>
       </div>
-      {% if item.number == 2 or item.number == 4 %}
-        <div
-          class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block desktop:margin-bottom-0"
-        ></div>
-      {% endif %}
-    {% endfor %}
-
+    </div>
   </div>
 </section>

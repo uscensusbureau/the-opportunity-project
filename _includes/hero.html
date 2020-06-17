@@ -9,8 +9,22 @@
     <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
     </div>
   </div>
-{% elsif page.class == "about" or  page.class == "our-process" %}
+{% elsif page.class == "about" %}
 <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
+  <div class="grid-container">
+    <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
+      <h1
+        class="hero--heading margin-top-10 line-height-sans-3 text-thin font-lang-13 text-white"
+      >
+        {{ page.title }}
+      </h1>
+      {% for p in page.lead %}
+        <p class="font-sans-md text-white">{{ p }}</p>
+      {% endfor %}
+    </div>
+  </div>
+{% elsif page.class == "our-process" %}
+<section class="page-process interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
     <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
       <h1

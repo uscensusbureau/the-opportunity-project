@@ -45,36 +45,41 @@ explanation:
   # This layout can be used for two side-by-side pieces of text or for a "quad" style layout. If items should be numbered, follow this pattern. If no numbers are needed, the "number" item should marked false
   title: Our Process
   text:
-  - number: 1
-    title: Identify challenges
-    description: Federal agencies and advocacy organizations identify our nation’s most pressing social, economic, and environmental challenges.
-  - number: 2
-    title: Team up
-    description: Teams from companies, universities, and more sign up to build digital products that use federal open data to help solve these challenges.
-  - number: 3
-    title: Build
-    description: Over 12 weeks, teams build their solutions. Experts  provide feedback on user needs, product strategy, and the best datasets available to solve each problem.
-  - number: 4
-    title: Launch & scale
-    description: Teams launch their products at our annual Demo Day showcase. Afterward, we continue to help teams deploy their solutions to their target end users.
-    button:
-      link: our-process
-      text: Learn More
+    row:
+      - border: border-0
+        cards:
+          - number: 1
+            title: Identify challenges
+            description: Federal agencies and advocacy organizations identify our nation’s most pressing social, economic, and environmental challenges.
+          - number: 2
+            title: Team up
+            description: Teams from companies, universities, and more sign up to build digital products that use federal open data to help solve these challenges.
+      - border: border-base-light border-top
+        cards:
+          - number: 3
+            title: Build
+            description: Over 12 weeks, teams build their solutions. Experts  provide feedback on user needs, product strategy, and the best datasets available to solve each problem.
+          - number: 4
+            title: Launch & scale
+            description: Teams launch their products at our annual Demo Day showcase. Afterward, we continue to help teams deploy their solutions to their target end users.
+            button:
+              link: our-process
+              text: Learn More
 
 # three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
 impact:
   - statistic: '100+'
     underline: short yellow accent
     description: Consumer-facing digital tools built through our sprints since 2016 <br><br>
-    border: border-right
+    border: statistic-border-right
   - statistic: '800+'
     underline: short yellow accent
     description: Contributors including designers, developers, data stewards and community advocates
-    border: border-right
+    border: statistic-border-right
   - statistic: '34'
     underline: short yellow accent
     description: Unique problem statements addressed through TOP
-    border: none
+    border: padding-right-3
 
 # content with large image and a smaller portion of text next to it. How the image and text are placed next to each other is determined by the value for the "text align"
 featured_items:
@@ -202,5 +207,6 @@ news_item:
 {% include featured_items.html %}
 {% include logo-garden.html %}
 {% include three-column-wide-text.html %}
+{% include circuit-banner.html %}
 {% include get-involved.html %}
 {% include news.html %}

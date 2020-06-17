@@ -1,6 +1,6 @@
 ---
 title: Earth Cohort
-permalink: /get-involved/join-a-sprint
+permalink: /join-a-sprint
 layout: default
 
 # full span, top of page section
@@ -374,7 +374,7 @@ get_involved:
   buttons:
     - b: View Sprints
       style: primary dark
-      link: '/get-involved/join-a-sprint'
+      link: '/join-a-sprint'
     - b: Get Updates
       style: secondary white
       link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610

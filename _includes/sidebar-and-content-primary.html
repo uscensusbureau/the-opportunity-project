@@ -4,7 +4,7 @@
     <div class="grid-row grid-gap desktop:margin-top-6  desktop:margin-bottom-6">
       <div class="desktop:grid-col-3 tablet:grid-col-3 grid-offset-1">
         {% if content.title %}
-          <h2>{{ content.title }}</h2>
+          <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">{{ content.title }}</h2>
         {% endif %}
       </div>
       <div class="desktop:grid-col-6 tablet:grid-col-6">
@@ -16,11 +16,11 @@
       </div>
       {% if content.subsections %}
         {% for item in content.subsections %}
-          <div class="grid-row grid-gap">
-            <div class="desktop:grid-offset-4 tablet:grid-offset-4 desktop:grid-col-2 tablet:grid-col-2">
-              <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}" class="padding-top-2 padding-bottom-2">
+          <div class="grid-row grid-gap margin-top-neg-3">
+            <div class="desktop:grid-offset-4 tablet:grid-offset-4 desktop:grid-col-2 tablet:grid-col-2 margin-top-neg-1">
+              <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}" class="padding-top-2 padding-bottom-2 margin-top-neg-2 margin-bottom-2">
             </div>
-            <div class="desktop:grid-col-5 tablet:grid-col-4 display-inline-block">
+            <div class="desktop:grid-col-5 tablet:grid-col-4 display-inline-block margin-top-neg-3">
               {% if item.title %}
                 <h3>{{ item.title }}</h3>
               {% endif %}

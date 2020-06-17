@@ -617,6 +617,14 @@ body {
   font-size: font-size("mono", "3xs");
   background-color: color("base-darkest");
   color: color("white");
+
+  a {
+    text-decoration: none;
+    color: color("white");
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .usa-button__primary-red {

@@ -17,7 +17,7 @@ circuit-banner:
 
 #blue background section
 content-primary:
-  title: How America’s Data Becomes America’s Innovation
+  title: How America’s Data&nbsp;Becomes America’s Innovation
   description:
     - 'We facilitate 12-week product development cycles (called “sprints”) that pull together innovators from every sector. Tech teams join a sprint to build data-powered solutions to critical problems facing the public. Then, we match them with subject-matter experts, who offer valuable information and feedback. '
   subsections:

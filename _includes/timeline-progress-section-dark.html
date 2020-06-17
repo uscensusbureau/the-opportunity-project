@@ -3,23 +3,26 @@
     {% for item in page.progress-bar %}
       <div class="grid-row grid-gap" >
         <div
-          class="desktop:grid-col-6 tablet:grid-col-6 desktop:grid-offset-3 usa-media-block__body usa-media-block__inline-items border-base-darker border-left"
+          class="grid-col-4 usa-media-block__body usa-media-block__inline-items border-base-darker border-right margin-right-neg-05"
+        ></div>
+        <div
+          class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__body usa-media-block__inline-items margin-top-0 margin-left-neg-3"
         >
           <div class="inline-number">
             {% if item.number %}
-              <p class="circle-3">{{ item.number }}</p>
+              <p class="circle-3  margin-top-0">{{ item.number }}</p>
             {% endif %}
           </div>
           <div class="inline-text">
             {% if item.title %}
-              <h4 class="font-sans-lg">{{ item.title }}</h4>
+              <h4 class="font-sans-lg  margin-top-1">{{ item.title }}</h4>
             {% endif %}
             {% if item.description %}
               <p>{{ item.description }}</p>
             {% endif %}
             {% if item.accordions %}
               {% for accordion in item.accordions %}
-                <div class="usa-accordion usa-accordion--bordered bg-base-darker text-white">
+                <div class="usa-accordion usa-accordion--bordered bg-base-darker text-white margin-bottom-2 ">
                   <h2 class="usa-accordion__heading">
                     <button class="usa-accordion__button light bg-base-darker text-white"
                       aria-expanded="false"

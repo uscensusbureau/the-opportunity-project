@@ -351,9 +351,13 @@ body {
         @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
         color: color($site-primary-vivid);
       }
+      &:active {
+        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
+        color: color($site-primary-vivid);
+      }
     }
 
-    .usa-current {
+    &.usa-current {
       @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
       color: color($site-ink);
       font-weight: fw("bold");

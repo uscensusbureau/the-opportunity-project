@@ -312,7 +312,7 @@ body {
 .site-nav-secondary {
   display: none;
 
-  .page-process & {
+   &.page-our-process {
     @include at-media("desktop") {
       background-color: color("white");
       border-bottom: units($site-border-width) solid
@@ -545,9 +545,20 @@ body {
 }
 
 // styling for the alternative h2 so that the correct header tags can still be used even though they are visually distinct
-.tag-header {
+.tag-header-dark {
   padding: units(1);
   background-color: color("base-darkest");
+  color: color("white");
+  margin-top: -19px;
+  font-family: font-family("mono");
+  font-size: font-size("mono", "3xs");
+  width: 140px;
+  text-align: center;
+}
+
+.tag-header {
+  padding: units(1);
+  background-color: color("primary");
   color: color("white");
   margin-top: -19px;
   font-family: font-family("mono");
@@ -2499,6 +2510,11 @@ code {
   }
 }
 
+.translucent-bottom-border {
+  @include at-media("desktop") {
+    border-bottom: solid 1px color("base-lighter");
+  }
+}
 
 
 // Logo Garden
@@ -2661,13 +2677,22 @@ code {
 .usa-accordion__button {
   background-image: url(../img/icons/remove-24px-icon-black.svg);
   background-repeat: no-repeat;
+  &.light {
+    background-image: url(../img/icons/remove-24px-icon-white.svg);
+    background-repeat: no-repeat;
+  }
 }
-
 
 .usa-accordion__button[aria-expanded="false"] {
   background-image: url(../img/icons/add-24px-icon-black.svg);
   background-repeat: no-repeat;
+  &.light {
+    background-image: url(../img/icons/add-24px-icon-white.svg);
+    background-repeat: no-repeat;
+  }
 }
+
+
 
 .usa-accordion__button-alt {
   background-image: none;

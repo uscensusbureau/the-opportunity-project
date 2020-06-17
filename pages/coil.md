@@ -47,19 +47,19 @@ featured_items:
     img: photos/coil/top.jpg
     alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
-    button-link: case-studies-city-builder
+    button-link: city-builder/
   - name: Census Accelerate
     description: We mobilize the creative community and partner with influential stars to spread awareness about the importance of the 2020 Census and combat mis- and dis-information.
     img: photos/coil/accelerate.png
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
-    button-link: case-studies-sille
+    button-link: sille/
   - name: Civic Digital Fellowship
     description: We facilitate the U.S. Census Bureau’s participation in this first-of-its-kind internship program that empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces.
     img: photos/coil/cdf.png
     alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
-    button-link: case-studies-prados
+    button-link: prados/
   - name: Human-centered Design Training
     description: We teach human-centered design fundamentals to leaders at the U.S. Census Bureau to introduce new problem solving methods and methods for collaboration.
     img: photos/coil/hcd.png

@@ -10,7 +10,7 @@
           {% endif %}
           <div class="content-grid-one-third">
             {% if case.product_name %}
-              <a href="{{ site.baseurl}}/case-studies-{{ case.product_name | slugify }}" ><h2 class="text-white">{{ case.product_name }}</h2></a>
+              <a href="{{ site.baseurl}}/{{ case.product_name | slugify }}/" ><h2 class="text-white">{{ case.product_name }}</h2></a>
             {% endif %}
             {% if case.tech_team %}
               <p class="font-mono-sm">{{ case.tech_team }}</p>

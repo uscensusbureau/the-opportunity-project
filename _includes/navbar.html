@@ -18,7 +18,7 @@
           {% for link in links %}
             {% if link.accordion %}
               <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-white" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text | upcase}}</span></button>
+                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-ls-2 text-light text-white" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text | upcase}}</span></button>
                 <ul id="extended-nav-section-one" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
@@ -29,7 +29,7 @@
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-mono-xs text-white margin-left-2" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+                <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-left-4" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
               </li>
             {% endif %}
           {% endfor %}

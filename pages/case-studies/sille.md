@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-permalink: /case-studies/sille
+permalink: /case-studies-sille
 layout: default-internal-page
 class: case-study
 

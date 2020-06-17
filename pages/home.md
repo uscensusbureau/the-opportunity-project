@@ -84,21 +84,21 @@ featured_items:
     img: photos/home/products/city-builder.png
     alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
-    button-link: case-studies/city-builder
+    button-link: case-studies-city-builder
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
     img: photos/home/products/sille.png
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
-    button-link: case-studies/sille
+    button-link: case-studies-sille
   - name: PRADOS
     team: iCASAPR
     description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
     img: photos/home/products/prados.png
     alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
-    button-link: case-studies/prados
+    button-link: case-studies-prados
 
 # three column layout of testimonials
 # alt text is added using the name of the person

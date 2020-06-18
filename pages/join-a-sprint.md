@@ -26,6 +26,7 @@ photo:
     text: This year, teams will leverage technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
     button-text: Join a sprint
     button-link: mailto:Census.opportunityproject@census.gov
+    button-color: usa-button__primary-red
 
 # used here for the active sprints section
 explanation:

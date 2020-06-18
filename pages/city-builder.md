@@ -68,6 +68,6 @@ footer: '“Participating in The Opportunity Project sprint was an invaluable ex
 ---
 
 {% include hero.html %}
-{% include connecting-banner.html %}
+{% include connecting-banner-notched.html %}
 {% include sidebar-and-wide-content.html %}
 {% include offset-footer.html %}

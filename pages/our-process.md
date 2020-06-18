@@ -13,6 +13,8 @@ connecting-banner:
   background-color: dark
   image: process/process-banner.png
   alt: "Man in suit on stage presenting with two large screens projecting a slide deck"
+  notch-left: bg-base-darkest
+  notch-right: bg-white
 
 # main explanation section
 explanation:
@@ -227,7 +229,7 @@ role-descriptions:
 ---
 
 {% include hero.html %}
-{% include connecting-banner.html %}
+{% include connecting-banner-notched.html %}
 {% include single-column-centered-list.html %}
 {% include connecting-banner-with-subheader.html %}
 {% include timeline-progress-section-dark.html %}

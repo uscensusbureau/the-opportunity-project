@@ -72,6 +72,6 @@ footer: iCasaPR is a 501(c)(3) organization that continues to help communities o
 ---
 
 {% include hero.html %}
-{% include connecting-banner.html %}
+{% include connecting-banner-notched.html %}
 {% include sidebar-and-wide-content.html %}
 {% include offset-footer.html %}

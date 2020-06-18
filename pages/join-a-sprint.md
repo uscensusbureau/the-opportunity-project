@@ -1,12 +1,13 @@
 ---
 title: Earth Cohort
 permalink: /join-a-sprint/
+class: sprints
 layout: default
 
 # full span, top of page section
 hero:
   text: Join a Sprint
-  subtext: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
+
 
 banner-subheader-inverse:
   top:

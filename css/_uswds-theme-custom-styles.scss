@@ -758,6 +758,13 @@ body {
 //   }
 // }
 
+.clickable-card {
+  &:hover {
+    cursor: pointer;
+  }
+
+}
+
 .product-card-modal-image {
   @include at-media("desktop") {
     margin-left: 30rem !important;
@@ -2233,14 +2240,22 @@ code {
   background-color: #fefefe;
   margin: auto;
   border: 1px solid #888;
+
+  &.fixed-width-modal {
+    max-width: 750px;
+  }
 }
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  color: color("white");
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  background-color: color("secondary");
+  padding: 5px;
+  margin: 0;
 }
 
 .close:hover,
@@ -2382,13 +2397,14 @@ code {
 
 
   img + .content-grid-one-third {
-  width: 85%;
-  position: absolute;
-  bottom: units(0);
-  background-color: color("base-darkest");
-  color: color("white");
-  padding: units(2);
-  }
+    height: 300px;
+    width: 85%;
+    position: absolute;
+    bottom: 7px;
+    background-color: color("base-darkest");
+    color: color("white");
+    padding: units(2);
+    }
 }
 
 .usa-media-block__background-image-portrait {

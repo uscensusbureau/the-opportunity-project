@@ -47,6 +47,14 @@
       <h1 class="font-sans-3xl margin-bottom-0">{{ page.hero.product}}</h1>
       <p class="font-mono-xs text-ls-2 text-white"> {{ page.hero.tech_team | upcase }}</p>
     </div>
+{% elsif page.class == "sprints" %}
+  <section class="interior-hero bg-base-darkest">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+      <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
+      <div class="grid-col-5">
+        <p class="usa-hero__subtitle text-center">Sprints are <a href="{{ site.baseurl }}/our-process" class="text-white">12-week product development cycles </a> where we bring together tech teams and collaborators to build digital products using open data.</p>
+      </div>
+    </div>
 {% else %}
   <section class="interior-hero bg-base-darkest">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">

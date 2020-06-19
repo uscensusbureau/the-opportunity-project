@@ -5,8 +5,6 @@ primary:
     href: our-process/
   - text: Products
     href: showcase/
-  - text: Datasets
-    href: data/
   - text: News
     href: '#news'
   # - text: Get Involved
@@ -24,8 +22,6 @@ mobile:
     href: our-process/
   - text: Showcase
     href: showcase/
-  - text: Curated Datasets
-    href: /data/
   - text: Get Involved
     href: get-involved/
 

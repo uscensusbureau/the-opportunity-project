@@ -1,6 +1,6 @@
 ---
 title: Earth Cohort
-permalink: /join-a-sprint/
+permalink: /sprints/
 class: sprints
 layout: default
 
@@ -30,6 +30,7 @@ photo:
 
 # used here for the active sprints section
 explanation:
+  id: problem-statements
   text:
   - number: 1
     title: Natural Environments Sprint

@@ -13,7 +13,7 @@ primary:
   #   href: /get-involved
   #   accordion:
   #     - text: Join a Sprint
-  #       href: join-a-sprint/
+  #       href: sprints/
 
 mobile:
   - text: Home

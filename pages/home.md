@@ -133,7 +133,7 @@ get_involved:
   buttons:
     - b: View Sprints
       style: primary dark
-      link: join-a-sprint/
+      link: sprints/
     - b: Get Updates
       style: secondary white
       link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610

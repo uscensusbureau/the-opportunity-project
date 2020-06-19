@@ -66,6 +66,14 @@
         <p class="usa-hero__subtitle text-center">Sprints are <a href="{{ site.baseurl }}/our-process" class="text-white">12-week product development cycles </a> where we bring together tech teams and collaborators to build digital products using open data.</p>
       </div>
     </div>
+{% elsif page.class == "data"%}
+  <section class="interior-hero bg-base-darkest padding-bottom-15">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-15">
+      <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
+      <div class="grid-col-4">
+        <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
 {% else %}
   <section class="interior-hero bg-base-darkest">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">

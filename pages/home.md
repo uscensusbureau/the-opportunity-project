@@ -26,7 +26,7 @@ callout:
     # for each separate portion of text, add a "p" (short for paragraph)
     - p: Finding federal data is hard. Making an impact with it is even harder.
     - p: That’s where we come in.
-    - p: We connect you with experts from the tech industry, communities and government to help you turn federal open data into life-changing tech, faster.
+    - p: We connect you with experts from the tech industry, communities, and government to help you turn federal open data into life-changing tech, faster.
 
 
 connecting-banner:
@@ -74,7 +74,7 @@ impact:
     border: statistic-border-right
   - statistic: '800+'
     underline: short yellow accent
-    description: Contributors including designers, developers, data stewards and community advocates
+    description: Contributors including designers, developers, data stewards, and community advocates
     border: statistic-border-right
   - statistic: '34'
     underline: short yellow accent

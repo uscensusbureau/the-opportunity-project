@@ -94,7 +94,7 @@ role-descriptions:
     description: 'Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and typically own and maintain the products after the sprints. The role of tech team includes:'
     accordions:
       - aria: 1
-        title: How you contribute
+        title: Role Description
         steps:
           - description:
             - Design and build a digital product that uses federal open data
@@ -111,7 +111,7 @@ role-descriptions:
           - description:
             - 'Optional: attend an in-person user engagement workshop at the beginning of the sprint, and apply for a financial prize at the end of the sprint'
       - aria: 2
-        title: Benefits
+        title: Benefits of Participating
         steps:
           - title: Advance your mission
             description:
@@ -141,7 +141,7 @@ role-descriptions:
     description: 'Federal agencies define major challenges facing the public within their mission areas. During the 12-week sprint, policy experts and data stewards from each agency provide feedback to the participating teams and assistance working with federal open data.'
     accordions:
       - aria: 3
-        title: How you contribute
+        title: Role Description
         steps:
           - description:
             - Develop a problem statement and/or identify relevant open datasets
@@ -154,7 +154,7 @@ role-descriptions:
           - description:
             - Join 4 “milestone” calls (User Research, Data Discovery, Concept Pitch, Beta Demo)
       - aria: 4
-        title: Benefits
+        title: Benefits of Participating
         steps:
           - title: Meet federal requirements to increase reuse of your data
             description: TOP enables agencies to meet requirements from the Federal Data Strategy, President’s Management Agency, and Evidence Act to collaborate with industry to increase the reuse and dissemination of federal open data.   TOP engages industry to create products that use open data to provide value to Americans and the economy.
@@ -172,7 +172,7 @@ role-descriptions:
     description: User advocates are community leaders, local or national advocates, and people with direct lived experience in the target challenges. Past user advocates have represented state and local government, non-profits, service providers, or individual experts. Their role is to guide tech teams in designing solutions that are realistic and useful for the target end users.
     accordions:
       - aria: 5
-        title: How you contribute
+        title: Role Description
         steps:
           - text: 'User Advocates (UAs) serve a critical role helping tech teams, federal agencies, and other partners understand the everyday people and communities The Opportunity Project seeks to empower. User Advocates communicate the needs, concerns, and realities of the communities they belong to or work with closely, ensuring that the perspective of end users drives how tech teams solve problems.  Being a user advocate can be a very lightweight time commitment.  Depending on your availability, you can expect to spend 1-3 hours per week working alongside tech teams and other sprint participants to co-create useful technology for your community.
 
@@ -188,7 +188,7 @@ role-descriptions:
           - description:
             - Attend Demo Day and an optional in-person user engagement workshop if possible
       - aria: 6
-        title: Benefits
+        title: Benefits of Participating
         steps:
           - title: Relationships and partnerships
             description: Build strategic relationships in government and develop partnerships with tech companies and nonprofits
@@ -198,7 +198,7 @@ role-descriptions:
             description: Contribute to knowledge sharing between tech teams, end users, and federal agencies
 
       - aria: 7
-        title: Examples of User Advocate Contributions
+        title: Sample Contributions
         steps:
           - description:
             - A tech team is brainstorming about what their solution might look like and shares a few ideas. As an expert on your community or stakeholders, you are best able to promote the most promising ideas.
@@ -215,7 +215,7 @@ role-descriptions:
     description: 'Product advisors come from outside of government to help the teams to ensure that the products they create continue after the sprints, so that they can reach their target end users and have real impact.'
     accordions:
       - aria: 8
-        title: Benefits
+        title: Benefits of Participating
         steps:
           - description:
             - Mentor technologists with your knowledge of industry best practices for product development and deployment

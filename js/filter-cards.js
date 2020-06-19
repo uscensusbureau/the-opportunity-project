@@ -33,7 +33,7 @@ $('#product-filter-form').submit(function (e) {
       productName = products[ j ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
       productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
       if (selectedValues[ i ].checked == true ) {
-        var filter = selectedValues[ i ].value
+        var filter = selectedValues[ i ].value.toLowerCase().split(' ').join("-");
         if ( productTopic.includes(filter) || filter == productYear || productAgency.includes(filter)) {
           $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
         } else {

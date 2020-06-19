@@ -1,20 +1,20 @@
 topics:
-  - veterans
-  - housing
-  - health
-  - employment
-  - census
-  - discovery
-  - grants
-  - education
-  - transportation
-  - environment
-  - rural
-  - addressing
-  - disasters
-  - opioids
-  - economic-development
-  - entrepreneurship
+  - Addressing
+  - Census
+  - Disasters
+  - Discovery
+  - Economic Development
+  - Education
+  - Employment
+  - Entrepreneurship
+  - Environment
+  - Grants
+  - Health
+  - Housing
+  - Opioids
+  - Rural
+  - Transportation
+  - Veterans
 years:
   - 2016
   - 2017
@@ -22,20 +22,20 @@ years:
   - 2019
   - 2020
 agencies:
-  - Department of Veterans Affairs
-  - Department of Education
   - Census Bureau
-  - Office of Management and Budget
-  - Department of the Treasury
-  - Department of Labor
-  - Department of Housing and Urban Development
-  - Department of Transportation
   - Department of Agriculture
-  - Office of the U.S. Surgeon General
+  - Department of Education
   - Department of Health and Human Services
   - Department of Homeland Security
-  - Federal Emergency Management Agency
-  - White House Office of Science and Technology Policy
-  - Forest Service
-  - White House Council of Economic Advisors
+  - Department of Housing and Urban Development
+  - Department of Labor
+  - Department of the Treasury
+  - Department of Transportation
+  - Department of Veterans Affairs
   - Economic Development Administration
+  - Federal Emergency Management Agency
+  - Forest Service
+  - Office of Management and Budget
+  - Office of the U.S. Surgeon General
+  - White House Council of Economic Advisors
+  - White House Office of Science and Technology Policy

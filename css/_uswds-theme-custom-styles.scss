@@ -271,6 +271,22 @@ body {
 .site-logo {
   width: 250px;
   max-height: 70px;
+
+  &.logo-image-desktop {
+    display: none;
+  }
+
+  @include at-media("desktop") {
+    &.logo-image-mobile {
+      display: none;
+    }
+    &.logo-image-desktop {
+      display: block;
+    }
+  }
+
+
+
   @include at-media("desktop") {
     margin-top: units(2px);
   }
@@ -279,12 +295,9 @@ body {
     color: color($site-ink);
   }
 
-
-    .logo-image {
+  .logo-image {
       vertical-align: middle;
     }
-
-
 
   .usa-logo__text {
     $logo-size-mobile: 3;
@@ -648,6 +661,10 @@ body {
       text-decoration: underline;
     }
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .usa-button__primary-red {
@@ -667,6 +684,9 @@ body {
     &:hover {
       text-decoration: underline;
     }
+  }
+  &:hover {
+    cursor: pointer;
   }
 }
 
@@ -688,6 +708,9 @@ body {
       text-decoration: underline;
     }
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .usa-button__secondary-gray {
@@ -707,6 +730,9 @@ body {
       text-decoration: underline;
     }
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .usa-button__secondary-dark {
@@ -722,6 +748,9 @@ body {
     color: color("base");
     text-decoration: underline;
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .usa-button__secondary-red {
@@ -736,6 +765,9 @@ body {
   &:hover {
     color: color("base");
     text-decoration: underline;
+  }
+  &:hover {
+    cursor: pointer;
   }
 }
 

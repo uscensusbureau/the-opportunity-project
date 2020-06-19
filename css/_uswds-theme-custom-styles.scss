@@ -269,6 +269,8 @@ body {
 }
 
 .site-logo {
+  width: 250px;
+  max-height: 70px;
   @include at-media("desktop") {
     margin-top: units(2px);
   }
@@ -276,6 +278,13 @@ body {
   a {
     color: color($site-ink);
   }
+
+
+    .logo-image {
+      vertical-align: middle;
+    }
+
+
 
   .usa-logo__text {
     $logo-size-mobile: 3;
@@ -286,10 +295,9 @@ body {
     &::before {
       @include u-square($logo-size-mobile);
       content: "";
-      background-image: url("../img/uswds-logo/4c-lg-on-white.png");
-      background-image: url("../img/uswds-logo/4c-lg-on-white.svg");
-      background-repeat: no-repeat;
-      background-size: 100% auto;
+      // background-image: url("../TOP-logo.png");
+      // background-repeat: no-repeat;
+      // background-size: 100% auto;
       display: inline-block;
       margin-left: units(-2px);
       margin-right: units(0.5);

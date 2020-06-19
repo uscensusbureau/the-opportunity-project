@@ -2,13 +2,10 @@
 {% include banner.html %}
 <header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
   <div class="usa-navbar site-header-navbar">
-    <div class="usa-logo site-logo" id="logo">
-      <em class="usa-logo__text">
-        <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span aria-hidden="true" class="site-title-short">The Opportunity Project</span>
-          <span class="site-title">{{ site.title }}</span>
-        </a>
-      </em>
+    <div class="usa-logo site-logo logo-image" id="logo">
+      <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
+        <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+      </a>
     </div>
     <button class="usa-menu-btn">Menu</button>
     <div class="navbar--container">

@@ -1,4 +1,4 @@
-{% if page.class == "home" or page.class == "coil" %}
+{% if page.class == "home" %}
 {% assign hero = page.hero %}
 <section class="usa-hero padding-top-0">
   <div class="grid-container usa-hero__bg background-hero-image-home"
@@ -9,6 +9,17 @@
     <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
     </div>
   </div>
+{% elsif page.class == "coil" %}
+  {% assign hero = page.hero %}
+  <section class="usa-hero padding-top-0">
+    <div class="grid-container usa-hero__bg background-hero-image-coil"
+    >
+    <div class="desktop:padding-top-15">
+      <h1 class="usa-hero__title grid-col-8
+       display-inline-block desktop:margin-top-15 padding-top-9">{{ page.hero.text}}</h1>
+      <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
 {% elsif page.class == "about" %}
 <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">

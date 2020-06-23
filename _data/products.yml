@@ -32,28 +32,28 @@
     and Census Barriers, Attitudes, and Motivators studies with Civis Analytics’
     survey and message testing technology to empower local leaders and Census
     coordinators to run data-driven outreach campaigns and avoid an undercount.
-- product_name: Voatz
-  tech_team: Voatz
-  cohort: 2020 Census
-  year: 2019
-  problem_statement: Bridging the Digital Divide
-  agency: U.S. Census Bureau
-  link: 'https://www.voatz.com'
-  image: voatz.jpg
-  image-alt: Hand holding up a mobile phone app reading 'How might mobile voting facilitate the future of the U.S. Census regarding identity and data security?'
-  description_new: ' Allows the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in future censuses'
-  data_sets:
-    - Number of Americans overseas
-    - Number of individuals with disabilities
-    - Smartphone penetration across the United States
-  prize_status: nil
-  category: census
-  description_old:
-    This project leverages data around growing numbers of Americans overseas,
-    people with disabilities, and increasing levels of smartphone penetration
-    across the United States to allow the convenience, security and
-    accessibility of smartphone and blockchain technology to ensure that
-    hard-to-reach populations are counted in future censuses.
+# - product_name: Voatz
+#   tech_team: Voatz
+#   cohort: 2020 Census
+#   year: 2019
+#   problem_statement: Bridging the Digital Divide
+#   agency: U.S. Census Bureau
+#   link: 'https://www.voatz.com'
+#   image: voatz.jpg
+#   image-alt: Hand holding up a mobile phone app reading 'How might mobile voting facilitate the future of the U.S. Census regarding identity and data security?'
+#   description_new: ' Allows the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in future censuses'
+#   data_sets:
+#     - Number of Americans overseas
+#     - Number of individuals with disabilities
+#     - Smartphone penetration across the United States
+#   prize_status: nil
+#   category: census
+#   description_old:
+#     This project leverages data around growing numbers of Americans overseas,
+#     people with disabilities, and increasing levels of smartphone penetration
+#     across the United States to allow the convenience, security and
+#     accessibility of smartphone and blockchain technology to ensure that
+#     hard-to-reach populations are counted in future censuses.
 - product_name: Tract by Tract
   tech_team: Columbia
   cohort: 2020 Census

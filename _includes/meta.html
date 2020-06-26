@@ -5,38 +5,36 @@
   {% assign title = page.title | append: ' | ' | append: title %}
 {% endif %}
 <title>{{ title }}</title>
-<meta property="og:title" content="{{ title | xml_escape }}">
-{% if page.path contains '_posts' and page.excerpt %}
-  {% assign desc = page.excerpt %}
+
+<!-- Twitter cards -->
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.description %}
+<meta name="twitter:description" content="{{ page.description }}">
 {% else %}
-  {% assign desc = page.description
-    | default: page.lead
-    | default: site.description
-    | markdownify
-  %}
+<meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
-{% if desc -%}
-  {% assign desc = desc
-    | strip_html
-    | strip
-    | xml_escape
-  %}
-<meta name="description" content="{{ desc }}">
-<meta property="og:description" content="{{ desc }}">
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{site.baseurl}}/assets/img/social-media-preview.png">
+
+<!-- end of Twitter cards -->
+
+
+<!-- OG/Facebook cards -->
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://opportunity.census.gov">
+<meta name="og:title"   content="{{ page.title }}">
+<meta name="og:card"  content="summary_large_image">
+<meta name="og:image" content="{{site.baseurl}}/assets/img/social-media-preview.png">
+
+{% if page.description %}
+<meta name="og:description" content="{{ page.description }}">
+{% else %}
+<meta name="og:description" content="{{ site.description }}">
 {% endif %}
-<meta name="twitter:card" value="{% if page.meta contains 'og:image' %}summary_large_image{% else %}summary{% endif %}">
-<meta name="twitter:site" content="@USWDS">
-<meta property="og:type" content="article">
-{% assign metas = '' | split: '' %}
-{% for meta in site.meta %}{% assign metas = metas | push: meta[0] %}{% endfor %}
-{% for meta in page.meta %}{% assign metas = metas | push: meta[0] %}{% endfor %}
-{% assign metas = metas | unique %}
-{% for meta in metas -%}
-  {% assign val = page.meta[meta] | default: site.meta[meta] %}
-  {% if meta contains 'og:image' %}{% assign val = val | absolute_url %}{% endif %}
-  <meta property="{{ meta }}" content="{{ val | xml_escape }}">
-{% endfor %}
-{% if site.url %}
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-{% endif %}
+
+<!-- end of OG/FB cards -->

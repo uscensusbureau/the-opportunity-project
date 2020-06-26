@@ -6,35 +6,10 @@
 {% endif %}
 <title>{{ title }}</title>
 
-<!-- Twitter cards -->
-<meta name="twitter:title"   content="{{ page.title }}">
-
-{% if page.description %}
-<meta name="twitter:description" content="{{ page.description }}">
-{% else %}
-<meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-
-
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="https://opportunity.census.gov/assets/img/social-media-preview.png">
-
-<!-- end of Twitter cards -->
-
-
-<!-- OG/Facebook cards -->
-
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website">
+<!-- cards -->
+<meta property="og:title" content="The Opportunity Project">
+<meta property="og:description" content="{{site.description}}">
+<meta property="og:image" content="https://opportunity.census.gov/assets/img/social-media-preview.png">
 <meta property="og:url" content="https://opportunity.census.gov">
-<meta name="og:title"   content="{{ page.title }}">
-<meta name="og:card"  content="summary_large_image">
-<meta name="og:image" content="{{site.baseurl}}/assets/img/social-media-preview.png">
-
-{% if page.description %}
-<meta name="og:description" content="{{ page.description }}">
-{% else %}
-<meta name="og:description" content="{{ site.description }}">
-{% endif %}
-
+<meta name="twitter:card" content="summary_large_image">
 <!-- end of OG/FB cards -->

@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: Curated Datasets
 layout: default
 permalink: /data-kit/
@@ -15,5 +15,4 @@ cards:
     image-alt: Partial view of a paper map of North America laying on a wooden tabletop
 
 ---
-<!-- {% include three-column-static-cards.html %} -->
-{% include data-kits.html %} -->
+{% include three-column-static-cards.html %}

@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: Workforce
 permalink: /data-kit/workforce
 layout: default-internal-page

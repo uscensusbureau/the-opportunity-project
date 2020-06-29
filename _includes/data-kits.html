@@ -15,7 +15,7 @@
     <div class="grid-row grid-gap-6">
       {% for kit in data-kits limit:3 %}
       <div class="tablet:grid-col data-kit__container margin-2">
-        <a class="data-kit__button" href="{{site.baseurl}}{{kit.link}}">
+        <a class="data-kit__button" href="{{site.baseurl}}/{{kit.link}}">
           {% if kit.upcoming %}
           <div class="data-kit__card" style="background-image: url('{{ kit.image | relative_url }}')">
           {% else %}

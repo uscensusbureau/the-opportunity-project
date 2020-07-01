@@ -29,10 +29,11 @@ $('#product-filter-form').submit(function (e) {
     for (j = 0; j < products.length; j++ ) {
       productYear = products[ j ].getElementsByTagName('h3')[ 0 ].innerText;
       productTopic = products[ j ].getElementsByTagName('h4')[ 0 ].innerText;
-      productAgency = products[ j ].getElementsByTagName('h5')[ 0 ].innerText;
+      productAgency = products[ j ].getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
       productName = products[ j ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
       productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
       if (selectedValues[ i ].checked == true ) {
+        console.log(productAgency, filter)
         var filter = selectedValues[ i ].value.toLowerCase().split(' ').join("-");
         if ( productTopic.includes(filter) || filter == productYear || productAgency.includes(filter)) {
           $('#product-card-' + productNameSlugified).removeClass('pc-inactive');

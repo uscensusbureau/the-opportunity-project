@@ -1,6 +1,6 @@
 ---
 title: Workforce
-permalink: /data-kit/workforce
+permalink: /data/workforce
 layout: default-internal-page
 
 photo:

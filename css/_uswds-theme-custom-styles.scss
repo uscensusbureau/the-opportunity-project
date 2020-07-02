@@ -1131,57 +1131,29 @@ body {
     }
 }
 
-.datasets {
-  background-color: color("primary-vivid");
-  margin-bottom: -1rem;
-  &__container {
-    padding: 2rem 0.5rem;
-  }
-  &__row {
-    justify-content: center;
-  }
-  &__card {
-    // display: none;
-    position: relative;
-    margin: 1.5rem;
-    width: 30%;
-    padding: 1.5rem 2.5rem;
-    background-color: color("primary-dark");
+// .usa-card-group{
+//   // border: 2px solid color("primary-dark");
+//   a {
+//     text-decoration: none;
+//     &#{$external-href}::after {
+//       display: none;
+//     }
+//   }
+// }
+
+.datasets__card {
+    background-color: color("primary-vivid");
+    border: color("base-darkest");
     border-radius: 10px;
-    border: 2px solid color("primary-dark");
     color: color("white");
     font-size: font-size("sans", "2xs");
     transition: border 400ms ease;
     a {
       text-decoration: none;
       color: color("white");
-    }
-    &-title {
-      font-size: font-size("sans", "2xs");
-      font-weight: 600;
-      margin-bottom: 0.8rem;
-    }
-    &-subtitle {
-      margin: 0;
-      font-size: font-size("sans", "xs");
-      font-weight: 400;
-      opacity: 0.65;
-      line-height:1.8rem;
-      span {
-        font-style: italic;
+      &#{$external-href}::after {
+        display: none;
       }
-    }
-    &-description {
-      font-size: font-size("sans", "2xs");
-      opacity: 0.9;
-    }
-    &-arrow {
-      opacity: 0;
-      float: right;
-      position: relative;
-      top: -1rem;
-      right: -1rem;
-      transition: opacity 400ms ease;
     }
     &-email {
       opacity: 0;
@@ -1209,14 +1181,6 @@ body {
       }
     }
 
-    &--show {
-      display: block;
-      opacity: 0;
-      animation-name: show;
-      animation-fill-mode: forwards;
-      animation-duration: 1s;
-    }
-
     &:hover {
       border: 2px solid #F7C636;
       .datasets__card-arrow {
@@ -1227,7 +1191,6 @@ body {
       }
     }
   }
-}
 
 
 // Styleguide Content -------- //

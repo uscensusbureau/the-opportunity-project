@@ -53,57 +53,61 @@
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container">
     <ul class="usa-card-group">
-      {% assign workforce-data = site.data.workforce %}
-      {% for item in workforce-data %}
-      <!-- <a href="{{ item.link }}" target="_blank" class="data-card-link"> -->
-        <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
-            <div class="usa-card__container datasets__card">
-                <header class="usa-card__header">
-                  <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
-                  <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
-                  <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
-                </header>
-                <div class="usa-card__body">
-                  <p class="font-sans-xs text-white">{{ item.description}}</p>
-                </div>
-                <div class="usa-card__footer ">
-                  <div class="usa-card__container bg-white width-15 contact-card float-right">
-                    <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
-                      <a href="mailto:{{ item.email }}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
-                        <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
-                      </a>
+      {% if page.dataset == "earth-sprint" %}
+        {% assign display-dataset = site.data.earth-sprint %}
+      {% else %}
+        {% assign display-dataset = site.data.workforce %}
+      {% endif %}
+        {% for item in display-dataset %}
+        <!-- <a href="{{ item.link }}" target="_blank" class="data-card-link"> -->
+          <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
+              <div class="usa-card__container datasets__card">
+                  <header class="usa-card__header">
+                    <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
+                    <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
+                    <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
+                  </header>
+                  <div class="usa-card__body">
+                    <p class="font-sans-xs text-white">{{ item.description}}</p>
+                  </div>
+                  <div class="usa-card__footer ">
+                    <div class="usa-card__container bg-white width-15 contact-card float-right">
+                      <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
+                        <a href="mailto:{{ item.email }}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                          <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-          <!-- </a> -->
-        <div id="modal-{{ data.name | slugify }}" class="modal modal-inactive">
-          <div class="grid-row">
-            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
-              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
-                <img
-                  src="{{ site.baseurl }}/img/products/test.png"
-                  alt="screenshot of City Builder website"
-                />
-              </div>
-              <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
-                <span class="close">&times;</span>
-                <h2 class="font-sans-md">{{ data.name }}</h2>
-                <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
-                <p>{{ product.description_new }}</p>
-                <p>Datasets Used</p>
-                <p>
-                  {% for dataset in product.data_sets %}
-                    {{ dataset }}
-                  {% endfor %}
-                </p>
-                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+              </li>
+            <!-- </a> -->
+          <div id="modal-{{ data.name | slugify }}" class="modal modal-inactive">
+            <div class="grid-row">
+              <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
+                <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
+                  <img
+                    src="{{ site.baseurl }}/img/products/test.png"
+                    alt="screenshot of City Builder website"
+                  />
+                </div>
+                <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
+                  <span class="close">&times;</span>
+                  <h2 class="font-sans-md">{{ data.name }}</h2>
+                  <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
+                  <p>{{ product.description_new }}</p>
+                  <p>Datasets Used</p>
+                  <p>
+                    {% for dataset in product.data_sets %}
+                      {{ dataset }}
+                    {% endfor %}
+                  </p>
+                  <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
     </ul>
   </section>
 </section>

@@ -10,9 +10,10 @@ cards:
     image: data-kits/workforce.png
     image-alt: Men in construction protective gear overlooking an area being developed
     link: data/workforce
-  - title: Geospatial (Coming Soon)
+  - title: Earth Cohort
     image: data-kits/gis.png
     image-alt: Partial view of a paper map of North America laying on a wooden tabletop
+    link: data/earth-cohort
 
 ---
 <!-- {% include three-column-static-cards.html %} -->

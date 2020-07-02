@@ -199,17 +199,17 @@
   problem-statement: 'ocean-plastics '
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
 - name:
-    Earth Challenge 2020: MLW, MDMAP, TIDES Data:  2015-2018 Top 10 most common
-    Plastics By Country
+    'Earth Challenge 2020: MLW, MDMAP, TIDES Data:  2015-2018 Top 10 most common
+    Plastics By Country'
   description:
-    Earth Challenge 2020 have developed a data schema incorporating 3 high-value
+    "Earth Challenge 2020 have developed a data schema incorporating 3 high-value
     CS Plastics Pollution data sets including the National Oceanic and
     Atmospheric Administrations Marine Debris Monitoring and Assesment Project
     (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European
     Environmental Agencies Marine Litter Watch (MLW) data sets. This has been
     further cleaned to categorize the top 10 most common plastics pollution
     findings by country. Visualization available here:
-    https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c
+    https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c"
   agency: Earth Challenge 2020
   federal:
     Incorporates Federal Data. Created with Wilson Center (partially federal)
@@ -483,8 +483,8 @@
   problem-statement: air-quality
   email: 'hgl6@cdc.gov '
 - name:
-    Ports Primer for Communities: An Overview of Ports Planning and Operations
-    to Support Community Participation
+    "Ports Primer for Communities: An Overview of Ports Planning and Operations
+    to Support Community Participation"
   description:
     Information on the role of ports, how ports can impact local land use,
     economic trends, air quality and other aspects of the enivonment and quality
@@ -581,8 +581,8 @@
   problem-statement: air-quality
   email: 'hks9@cdc.gov, paw8@cdc.gov'
 - name:
-    National Port Strategy Assessment: Reducing Air Pollution and Greenhouse
-    Gases at U.S. Ports
+    "National Port Strategy Assessment: Reducing Air Pollution and Greenhouse
+    Gases at U.S. Ports"
   description:
     National scale assessment to examine current and future emissions from a
     variety of diesel sources operating in port areas, explore a range of
@@ -693,7 +693,7 @@
   email: ''
 - name: OCO-2 Data Center
   description:
-    "ACOS" Level 2 data product contains estimates of the carbon dioxide (CO2)
+    ACOS Level 2 data product contains estimates of the carbon dioxide (CO2)
     column averaged dry air mole fraction and other environmental variables for
     all cloud free soundings, 2009-2020
   agency: NASA

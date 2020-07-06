@@ -768,7 +768,7 @@
   link:
     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
   poc: John Mootz
-  problem-statement: NAIP-data
+  problem-statement: agricultural
   email: john.mootz@usda.gov
 - name: NAIP public image dates
   description:
@@ -783,7 +783,7 @@
   link:
     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
   poc: John Mootz
-  problem-statement: NAIP-data
+  problem-statement: agricultural
   email: john.mootz@usda.gov
 - name: USGS National Map
   description:
@@ -796,7 +796,7 @@
   link:
     https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map
   poc: Gita Urban-Mathieux
-  problem-statement: NAIP-data
+  problem-statement: agricultural
   email: burbanma@usgs.gov
 - name: Amazon Web Services
   description: ''
@@ -815,5 +815,5 @@
   federal: Federal
   link: 'https://www.geoplatform.gov/ '
   poc: ''
-  problem-statement: NAIP-data
+  problem-statement: agricultural
   email: ''

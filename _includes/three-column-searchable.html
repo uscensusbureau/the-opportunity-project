@@ -63,29 +63,30 @@
         {% assign display-dataset = site.data.workforce %}
       {% endif %}
         {% for item in display-dataset %}
-        <!-- <a href="{{ item.link }}" target="_blank" class="data-card-link"> -->
           <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
               <div class="usa-card__container datasets__card">
+                <a href="{{ item.link }}" target="_blank" class="data-card-link">
                   <header class="usa-card__header">
                     <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
                     <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
                     <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
                   </header>
-                  <div class="usa-card__body">
+                  <div class="usa-card__body padding-bottom-9">
                     <p class="font-sans-xs text-white">{{ item.description}}</p>
                   </div>
-                  <div class="usa-card__footer ">
-                    <div class="usa-card__container bg-white width-15 contact-card float-right">
+                  <div class="usa-card__footer position-absolute bottom-0 right-0">
+                    <div class="usa-card__container bg-white width-15 contact-card float-right padding-right-neg-3">
                       <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
-                        <a href="mailto:{{ item.email }}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                        <a href="mailto:{{ item.email }}?subject=Regarding The Opportunity Project Dataset: {{item.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
                           <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
                         </a>
                       </div>
                     </div>
                   </div>
+                    </a>
                 </div>
+
               </li>
-            <!-- </a> -->
           <div id="modal-{{ data.name | slugify }}" class="modal modal-inactive">
             <div class="grid-row">
               <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">

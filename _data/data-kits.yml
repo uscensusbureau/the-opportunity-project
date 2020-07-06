@@ -6,7 +6,15 @@
   upcoming: false
   datasets: 57
 
-- title: Geospatial Challenges
+- title: Natural Environment
+  image: /img/photos/sprints/2020-natural-sprint.jpg
+  short_url: earth-cohort
+  link: data/earth-cohort
+  description: Pollution, agriculture, air quality, and recycling
+  upcoming: false
+  datasets: 73
+
+- title: Built Environment
   image: /img/data-kits/gis.png
-  description: Geospatial data from across the federal government
+  description: Economic self-sufficiency and development
   upcoming: true

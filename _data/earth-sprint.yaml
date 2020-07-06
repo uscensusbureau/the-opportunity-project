@@ -36,7 +36,7 @@
   poc: Will Sagar
   problem-statement: recycling
   email: will.sagar@serdc.org
-- name: Map of Commingled Residential MRFs in the U.S.
+- name: Map of Commingled Residential MRFs in the United States
   description:
     Map of Commingled Residential MRFs nationwide, which are facilities that
     accept recyclables separated from trash and then brought in for processing
@@ -180,7 +180,7 @@
   poc: 'Kathryn Youngblood '
   problem-statement: ocean-plastics
   email: kathryny@uga.edu
-- name: 'Earth Challenge 2020: MLW, MDMAP, TIDES Data: All points 2015-2018'
+- name: 'Earth Challenge 2020: MLW, MDMAP, TIDES Data - All points 2015-2018'
   description:
     Earth Challenge 2020 have developed a data schema incorporating 3 high-value
     CS Plastics Pollution data sets including the National Oceanic and
@@ -199,7 +199,7 @@
   problem-statement: 'ocean-plastics '
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
 - name:
-    'Earth Challenge 2020: MLW, MDMAP, TIDES Data:  2015-2018 Top 10 most common
+    'Earth Challenge 2020: MLW, MDMAP, TIDES Data -  2015-2018 Top 10 most common
     Plastics By Country'
   description:
     "Earth Challenge 2020 have developed a data schema incorporating 3 high-value
@@ -528,7 +528,7 @@
   poc: Britney McCoy
   problem-statement: air-quality
   email: McCoy.Britney@epa.gov
-- name: Coloring Book titled "Carl Gets Some Rest"
+- name: Coloring Book titled Carl Gets Some Rest
   description:
     For children in pre-school through 2nd grade, teaches a simple lesson – that
     there are many transportation alternatives to using a car
@@ -724,7 +724,7 @@
   poc: ''
   problem-statement: air-quality
   email: ''
-- name: 'Air Data: Air Quality Data Collected at Outdoor Monitors Across the US'
+- name: 'Air Data - Air Quality Data Collected at Outdoor Monitors Across the US'
   description:
     Outdoor air quality data collected from state, local and tribal monitoring
     agencies across the United States

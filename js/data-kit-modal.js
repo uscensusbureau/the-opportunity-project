@@ -3,7 +3,7 @@ var $ = require('jquery');
 
 $('#show-modal').on('click', function () {
   console.log("clicked modal")
-  $( this ).next('.modal').removeClass('modal-inactive').addClass('modal-active');
+  $( this ).next('.dkh-modal').removeClass('modal-inactive').addClass('modal-active');
 });
 
 $(".dkh-modal__contents-close").on("click", function () {

@@ -764,7 +764,7 @@ body {
       position: relative;
       background-size: cover;
       background-repeat: no-repeat;
-      z-index: 2;
+      z-index: 4;
       padding: 9rem 3.5rem 3.5rem 3.5rem;
       border-radius: 10px;
       cursor: default;
@@ -785,13 +785,14 @@ body {
       }
       .data-kit__arrow {
         float: right;
+        z-index: 10;
         transition: all 500ms ease;
       }
       h2,
       p,
       .data-kit__arrow {
         position: relative;
-        z-index: 10;
+        z-index: 5;
       }
       &::after {
         transition: opacity 400ms ease;
@@ -939,13 +940,14 @@ body {
 
 
 .dkh-modal {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   background: RGB(19, 25, 47, 0.9);
-  position: fixed;
-  z-index: 12;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
   display: flex;
+  z-index: z-index("top");
   justify-content: center;
   align-items: center;
   opacity: 0;
@@ -956,7 +958,13 @@ body {
     display: none;
   }
   &__contents {
-    max-width: 53rem;
+    position: fixed;
+    width: 53rem;
+    height: 60rem;
+    top: 50%;
+    left: 50%;
+    margin-top: -30rem; /* Negative half of height. */
+    margin-left: -27rem;
     background-color: color("primary-vivid");
     padding: 2rem 4rem;
     color: color("white");
@@ -964,6 +972,7 @@ body {
       font-weight: 700;
       font-size: font-size("sans", "lg");
       margin-bottom: 1.5rem;
+      margin-top: 8rem;
     }
     &-p {
       font-weight: 400;

@@ -69,24 +69,32 @@ $(".close").on("click", function () {
 
 $('.data-card-group').on('click', function (e) {
     var dataCard = e.target.closest("li").id;
+    // console.log(dataCard)
     // toggle the description of the challenge at top of page
     $('.modal-active').addClass('modal-inactive');
     $('.modal-active').removeClass('modal-active');
     $("#modal-" + dataCard).removeClass('modal-inactive').addClass('modal-active');
 
     var datasets = document.getElementsByClassName("data-set-card");
-
-    for (i = 0; i < datasets.length; i++ ) {
-      dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-      dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').split(" ").join("-"));
-      dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
-      dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
-      if ( dataCategoryArray.includes(dataCard) ) {
-        console.log("display match!", dataCard, dataCategoryArray)
+    if (dataCard == "all") {
+      for (i = 0; i < datasets.length; i++ ) {
+        dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace('.', '-').replace(':', '').split(" ").join("-"));
         $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-      } else {
-        console.log("no match!", dataCard, dataCategoryArray)
-        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+      }
+    } else {
+      for (i = 0; i < datasets.length; i++ ) {
+        dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
+        // console.log(dataNameSlugified)
+        dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
+        dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
+        // console.log(dataCategoryArray, dataCard);
+        if ( dataCategoryArray.includes(dataCard) ) {
+          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+        } else {
+          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+        }
       }
     }
   });
@@ -104,10 +112,10 @@ $('.data-card-group').on('click', function (e) {
         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
         dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-          console.log(dataNameSlugified);
+          // console.log(dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
         } else {
-          console.log("mismatch", dataNameSlugified);
+          // console.log("mismatch", dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
         }
       }

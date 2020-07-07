@@ -1,6 +1,6 @@
 ---
 title: Natural Environment
-permalink: /data/natural-environment
+permalink: /data/natural-environment/
 layout: default-internal-page
 
 dataset: earth-sprint

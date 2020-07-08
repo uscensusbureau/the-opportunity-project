@@ -176,17 +176,24 @@
     by thousands of citizen scientists from all over the world
   agency: University of Georgia
   federal: Non-federal data
-  # link: 'https://marinedebris.engr.uga.edu/newmap/'
+  link: 'https://marinedebris.engr.uga.edu/newmap/'
   poc: 'Kathryn Youngblood '
   problem-statement: ocean-plastics
   email: kathryny@uga.edu
+- name: 'Earth Challenge 2020 API Documentation Page'
+  description:
+    'Launched in recognition of the 50th anniversary of Earth Day, Earth Challenge 2020 (Earth Challenge) seeks to engage millions of people in collecting and sharing over one billing open and interoperable data points across six citizen science research areas: air quality, plastic pollution, insect populations, food security, water quality, and climate change. Earth Challenge 2020 offers APIs to source data through the Kinetica platform. This link provides information on the data model.'
+  agency: Earth Challenge 2020
+  federal:
+    Incorporates Federal Data. Created with Wilson Center (partially federal)
+    and State (federal)
+  link: https://ogc.citizenscience.host/
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: 'ocean-plastics '
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
 - name: 'Earth Challenge 2020: MLW, MDMAP, TIDES Data - All points 2015-2018'
   description:
-    Earth Challenge 2020 have developed a data schema incorporating 3 high-value
-    CS Plastics Pollution data sets including the National Oceanic and
-    Atmospheric Administrations Marine Debris Monitoring and Assesment Project
-    (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European
-    Environmental Agencies Marine Litter Watch (MLW) data sets.
+    Earth Challenge 2020 have developed a data schema incorporating 3 high-value CS Plastics Pollution data sets including the National Oceanic and Atmospheric Administrations Marine Debris Monitoring and Assesment Project (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European Environmental Agencies Marine Litter Watch (MLW) data sets.
   agency: Earth Challenge 2020
   federal:
     Incorporates Federal Data. Created with Wilson Center (partially federal)
@@ -448,9 +455,9 @@
   agency: Department of Transportation (DOT)
   federal: Federal
   link: 'https://www.bts.gov/faf'
-  poc: ''
+  poc: 'Birat Pandey'
   problem-statement: air-quality
-  email:
+  email: birat.pandey@dot.gov
 - name: CDC Health Data (WONDER)
   description:
     Nearly 20 collections of public-use data for topics including U.S. births,
@@ -790,14 +797,14 @@
   poc: Gita Urban-Mathieux
   problem-statement: agricultural
   email: burbanma@usgs.gov
-- name: Amazon Web Services
-  description: ''
-  agency: ''
-  federal: ''
-  link: ''
-  poc: 'Joe Flasher '
-  problem-statement: ''
-  email: jflasher@amazon.com
+# - name: Amazon Web Services
+#   description: ''
+#   agency: ''
+#   federal: ''
+#   link: ''
+#   poc: 'Joe Flasher '
+#   problem-statement: ''
+#   email: jflasher@amazon.com
 - name: Federal Geo-platform
   description:
     Data.gov for geospatial data from a variety of federal agencies on topics

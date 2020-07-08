@@ -4,6 +4,7 @@ require('./form-disable');
 require('./scroll-to-top-for-hash');
 require('./sidenav');
 require('./filter-cards');
+require('./data-kit-modal');
 require('./toggle-problem-statements.js');
 require('./vendor/stickyfill.min.js');
 

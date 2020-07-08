@@ -7,6 +7,8 @@ primary:
     href: showcase/
   - text: News
     href: '#news'
+  - text: Curated Datasets
+    href: data/
   # - text: Get Involved
   #   href: /get-involved
   #   accordion:
@@ -22,8 +24,11 @@ mobile:
     href: our-process/
   - text: Showcase
     href: showcase/
+  - text: Curated Datasets
+    href: data/
   - text: Get Involved
     href: get-involved/
+
 
 secondary:
   - text: Our Process

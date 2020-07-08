@@ -1,11 +1,13 @@
 ---
-title: Workforce
-permalink: /data/workforce/
+title: Natural Environment
+permalink: /data/natural-environment/
 layout: default-internal-page
+
+dataset: earth-sprint
 class: datakit
 
 lead:
- - Datasets on workers, businesses, jobs, credentials, and more, recommended by government experts for solving key workforce challenges.
+ - Datasets on plastic pollution in oceans, agricultural decision making, air quality, and recycling.
 
 
 ---

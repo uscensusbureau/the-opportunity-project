@@ -1,6 +1,10 @@
 <section class=" bg-primary-dark">
 <section class="usa-section usa-graphic-list grid-container">
-  {% assign data-topics = site.data.workforce-topics %}
+  {% if page.dataset == "earth-sprint" %}
+    {% assign data-topics = site.data.natural-environment-topics %}
+  {% else %}
+    {% assign data-topics = site.data.workforce-topics %}
+  {% endif %}
     <div class="grid-row grid-gap">
       <ul class="usa-card-group data-card-group margin-top-7">
         {% for data in data-topics %}
@@ -16,14 +20,14 @@
     </div>
     <div class="grid-row grid-gap">
       {% for data in data-topics %}
-        {% if data.description%}
-          <div id="modal-{ data.filter }}" class="data-modal modal-inactive">
+        {% if data.description %}
+          <div id="modal-{{ data.filter }}" class="data-modal modal-inactive">
             <div class="grid-row">
               <div class="desktop:grid-col-8 tablet:grid-col-8">
                 <div class="display-inline-block desktop:grid-col-4 tablet:grid-col-4">
                   <img
-                    src="{{ site.baseurl }}/img/products/test.png"
-                    alt="screenshot of City Builder website"
+                    src="{{ site.baseurl }}/img/challenges/{{data.image}}"
+                    alt="{{data.image-alt}}"
                   />
                 </div>
                 <div class="display-inline-block float-right desktop:grid-col-8 tablet:grid-col-8 padding-bottom-5 padding-left-5">
@@ -42,66 +46,78 @@
       {% endfor %}
     </div>
   <hr class="margin-top-3 margin-bottom-4 border-accent-warm">
-  <form id="data-search-form" class="usa-search usa-search--small" role="search">
-    <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
-    <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
-    <button class="usa-button__primary-dark" type="submit">
-      <span class="usa-sr-only">Search</span>
-    </button>
-  </form>
+  <div class="display-flex flex-column flex-align-center">
+    <form id="data-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
+      <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
+      <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
+      <button class="usa-button__primary-dark" type="submit">
+        <span class="usa-sr-only">Search</span>
+      </button>
+    </form>
+  </div>
 </section>
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container">
     <ul class="usa-card-group">
-      {% assign workforce-data = site.data.workforce %}
-      {% for item in workforce-data %}
-        <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card data-set-card" name="data-set-card">
-          <div class="usa-card__container data-card bg-primary-darker">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
-              <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
-              <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
-            </header>
-            <div class="usa-card__body">
-              <p class="font-sans-xs text-white">{{ item.description}}</p>
-            </div>
-            <div class="usa-card__footer">
-              <div class="usa-card__container bg-white width-15 contact-card">
-                <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
-                  <a href="mailto:{{ item.email }}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
-                    <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <div id="modal-{{ data.name | slugify }}" class="modal modal-inactive">
-          <div class="grid-row">
-            <div class="modal-content desktop:grid-col-8 tablet:grid-col-8">
-              <div class="display-inline-block desktop:grid-col-6 tablet:grid-col-6">
-                <img
-                  src="{{ site.baseurl }}/img/products/test.png"
-                  alt="screenshot of City Builder website"
-                />
-              </div>
-              <div class="display-inline-block float-right desktop:grid-col-5 tablet:grid-col-5 padding-bottom-5 padding-left-5">
-                <span class="close">&times;</span>
-                <h2 class="font-sans-md">{{ data.name }}</h2>
-                <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
-                <p>{{ product.description_new }}</p>
-                <p>Datasets Used</p>
-                <p>
-                  {% for dataset in product.data_sets %}
-                    {{ dataset }}
+      {% if page.dataset == "earth-sprint" %}
+        {% assign display-dataset = site.data.earth-sprint %}
+      {% else %}
+        {% assign display-dataset = site.data.workforce %}
+      {% endif %}
+        {% for item in display-dataset %}
+          <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
+            <div class="usa-card__container datasets__card bg-primary-darker">
+              {% if item.link %}
+                <a href="{{ item.link }}" target="_blank" class="data-card-link">
+                  <img class="external-link" src="{{site.baseurl}}/assets/img/icons/yellow-external-link.png" alt="External link">
+                  <header class="usa-card__header">
+                    <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
+                    <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
+                    <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
+                  </header>
+                  <div class="usa-card__body padding-bottom-9">
+                    <p class="font-sans-xs text-white">{{ item.description}}</p>
+                  </div>
+                  <div class="usa-card__footer position-absolute bottom-0 right-0">
+                    {% if item.email %}
+                      <div class="usa-card__container email bg-white width-15 contact-card float-right padding-right-neg-3">
+                        <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
+                          <a href="mailto:{{ item.email }}?subject=Regarding The Opportunity Project Dataset: {{item.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                            <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
+                          </a>
+                        </div>
+                      </div>
+                    {% endif %}
+                  </div>
+                </a>
+              {% else %}
+                <header class="usa-card__header">
+                  <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
+                  <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
+                  <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
+                </header>
+                <div class="usa-card__body padding-bottom-9">
+                  <p class="font-sans-xs text-white">{{ item.description}}</p>
+                  <p>There are mutiple links associated with this data set. Please refer to the list below: </p>
+                  {% for link in item.listed-link %}
+                    <a class="font-sans-xs text-white listed-link" href="{{ link.href }}">{{ link.text }}<img src="{{ site.baseurl }}/assets/img/icons/external-link-white-sm.png" class="padding-left-05" alt="external link icon"></a><br>
                   {% endfor %}
-                </p>
-                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
-              </div>
+                </div>
+                <div class="usa-card__footer position-absolute bottom-0 right-0">
+                  {% if item.email %}
+                    <div class="usa-card__container email bg-white width-15 contact-card float-right padding-right-neg-3">
+                      <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
+                        <a href="mailto:{{ item.email }}?subject=Regarding The Opportunity Project Dataset: {{item.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                          <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
+                        </a>
+                      </div>
+                    </div>
+                  {% endif %}
+                </div>
+              {% endif %}
             </div>
-          </div>
-        </div>
-      {% endfor %}
+          </li>
+        {% endfor %}
     </ul>
   </section>
 </section>

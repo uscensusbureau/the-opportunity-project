@@ -67,7 +67,7 @@
   link: 'https://www.aluminum.org/statistics'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: Aluminum Association Buyers' Guide
   description:
     A tool used to search for products, services, and vendors within the
@@ -77,7 +77,7 @@
   link: 'https://aluminum.officialbuyersguide.net/'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: Can Manufacturers Institute Statistics
   description:
     Annual historical data regarding domestic can shipments including detailed
@@ -97,7 +97,7 @@
   link: 'https://www.steel.org/industry-data'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: 'Plastics Data '
   description:
     Industry data including global trends, plastics quarterly forecasts, monthly
@@ -117,7 +117,7 @@
   link: 'https://www.americanchemistry.com/Business-of-Chemistry-by-the-Numbers/'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: Buyers and Sellers Information
   description:
     Complete directory of materials that Association of Plastic Recyclers (ARP)
@@ -128,7 +128,7 @@
   link: 'https://plasticsrecycling.org/resources/buyers-and-sellers-list'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: Glass Resource Locator
   description: Lists of companies that distribute and sell glass materials
   agency: Glass Packaging Institute
@@ -136,7 +136,7 @@
   link: 'https://www.gpi.org/glass-resource-locator'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: U.S. State and Local Waste and Materials Characterization Reports
   description:
     links to state and local waste characterization studies, including
@@ -148,7 +148,7 @@
     https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/advancing-sustainable-materials-management-0#USState
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: Recycling Market Development Platform
   description:
     Includes data and trends on plastic, glass, metal and fiber recycling, as
@@ -169,14 +169,14 @@
   link: 'https://www.glassrecycles.org/glassmap'
   poc: ''
   problem-statement: recycling
-  email: ''
+  email:
 - name: Marine Debris Tracker
   description:
     Database with data on over 2 million pieces of litter and debris collected
     by thousands of citizen scientists from all over the world
   agency: University of Georgia
   federal: Non-federal data
-  link: 'https://marinedebris.engr.uga.edu/newmap/'
+  # link: 'https://marinedebris.engr.uga.edu/newmap/'
   poc: 'Kathryn Youngblood '
   problem-statement: ocean-plastics
   email: kathryny@uga.edu
@@ -186,15 +186,16 @@
     CS Plastics Pollution data sets including the National Oceanic and
     Atmospheric Administrations Marine Debris Monitoring and Assesment Project
     (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European
-    Environmental Agencies Marine Litter Watch (MLW) data sets. Visualization
-    available
-    here:https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/f0b1f4947f6640f39bcde91c74862755
+    Environmental Agencies Marine Litter Watch (MLW) data sets.
   agency: Earth Challenge 2020
   federal:
     Incorporates Federal Data. Created with Wilson Center (partially federal)
     and State (federal)
-  link:
-    https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+  listed-link:
+    - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701'
+      text: All Points
+    - href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/f0b1f4947f6640f39bcde91c74862755'
+      text: Visualization
   poc: Metis Meloche & Anne Bowser
   problem-statement: 'ocean-plastics '
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -208,14 +209,16 @@
     (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European
     Environmental Agencies Marine Litter Watch (MLW) data sets. This has been
     further cleaned to categorize the top 10 most common plastics pollution
-    findings by country. Visualization available here:
-    https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c"
+    findings by country."
   agency: Earth Challenge 2020
   federal:
     Incorporates Federal Data. Created with Wilson Center (partially federal)
     and State (federal)
-  link:
-    https://cscloud-ec2020.opendata.arcgis.com/datasets/mlw-mdmap-tides-combined-interoperable-dataset-top-10-most-common-plastics-by-country-?geometry=-2.812%2C-89.405%2C2.812%2C85.899
+  listed-link:
+    - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/mlw-mdmap-tides-combined-interoperable-dataset-top-10-most-common-plastics-by-country-?geometry=-2.812%2C-89.405%2C2.812%2C85.899'
+      text: Top 10 Most Common Plastics by Country
+    - href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c'
+      text: Visualization
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -226,19 +229,15 @@
     what types of plastics pollution are found around the world
   agency: Earth Challenge 2020
   federal: Non-federal data
-  link:
-    https://api.citizenscience.host/ (Endpoint)
-
-
-    https://api.citizenscience.host/get/records (Get Data)
-
-
-    https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model
-    (Instructions on calling the data)
-
-
-    https://ogc.citizenscience.host/ (Documentation of the fields are available
-    if utilizing a CORS tool)
+  listed-link:
+    - href: 'https://api.citizenscience.host/'
+      text: Endpoint
+    - href: 'https://api.citizenscience.host/get/records'
+      text: Get Data
+    - href: 'https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model'
+      text: Instructions on calling the data
+    - href: 'https://ogc.citizenscience.host/'
+      text: Documentation
   poc: Metis Meloche &  Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
@@ -252,7 +251,7 @@
     https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Marine Debris Monitoring and Assessment Project Citizen Science Data
   description:
     Cleaned and interoperable version of the Marine Debris Monitoring Assessment
@@ -275,7 +274,7 @@
   link: 'https://www.coastalcleanupdata.org/reports'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: TIDES Coastal Cleanup Citizen Science Data
   description:
     Cleaned and interoperable version of the TIDES Coastal Cleanup Citizen
@@ -293,23 +292,16 @@
     Internet of Things (IoT) devices, data, and applications over the Web
   agency: Open Geospatial Consortium (OGC)
   federal: Non-federal data
-  link:
-    https://www.ogc.org/standards/sensorthings
-
-
-    Part 1 Documentation
-    http://docs.opengeospatial.org/is/15-078r6/15-078r6.html
-
-
-    Part 2 Documentation
-    http://docs.opengeospatial.org/is/17-079r1/17-079r1.html
-
-
-    Need to figure out how to include JSON implementation file for OGC
-    interoperability process - was attached in an email
+  listed-link:
+    - href: 'https://www.ogc.org/standards/sensorthings'
+      text: API
+    - href: 'http://docs.opengeospatial.org/is/15-078r6/15-078r6.html'
+      text: Part 1 Documentation
+    - href: 'http://docs.opengeospatial.org/is/17-079r1/17-079r1.html'
+      text: Part 2 Documentation
   poc: 'Metis Meloche, Anne Bowser, & Landon Van Dyke'
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Marine Litter Watch
   description:
     Provides a map of beach litter data collection events organised by MLW
@@ -320,7 +312,7 @@
     https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Marine Litter Watch Citizen Science Data
   description:
     Cleaned and interoperable version of the Marine Litter Watch dataset,
@@ -339,7 +331,7 @@
   link: 'https://map.litterati.org/globalmap/'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: 'Divers Against Debris '
   description:
     Map showing types and amounts of debris scuba divers around the world have
@@ -349,7 +341,7 @@
   link: 'https://www.projectaware.org/diveagainstdebrismap'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Global Alert - Floating Trash
   description:
     Online tool that increases interaction and connectivity to plastic pollution
@@ -360,7 +352,7 @@
   link: 'https://www.oceanrecov.org/global-ocean-alert-system/solution.html'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Plastic Pollution
   description:
     Collection of plastics pollution data, including decomposition rates of
@@ -371,7 +363,7 @@
   link: 'https://ourworldindata.org/plastic-pollution#all-charts-preview'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Environmental Dataset Gateway
   description: EPA's official open data catalog
   agency: Environmental Protection agency (EPA)
@@ -379,7 +371,7 @@
   link: 'https://edg.epa.gov/metadata/catalog/main/home.page'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: National Emissions Inventory (NEI)
   description:
     Comprehensive and detailed estimate of air emissions of criteria pollutants,
@@ -392,7 +384,7 @@
     https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: AirNow
   description:
     Current and forecast air quality maps and data for more than 500 cities
@@ -426,7 +418,7 @@
   link: 'https://www.epa.gov/benmap'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: 'EJSCREEN: Environmental Justice Screening and Mapping Tool'
   description:
     Nationally consistent dataset and approach for combining environmental
@@ -437,7 +429,7 @@
   link: 'https://www.epa.gov/ejscreen'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: Local Area Transportation Characteristics for Households Data
   description:
     Estimates of average weekday household person trips, vehicle trips, person
@@ -458,7 +450,7 @@
   link: 'https://www.bts.gov/faf'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: CDC Health Data (WONDER)
   description:
     Nearly 20 collections of public-use data for topics including U.S. births,
@@ -506,7 +498,7 @@
     https://www.epa.gov/schools/best-practices-reducing-near-road-pollution-exposure-schools
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name:
     Recommendations for Constructing Roadside Vegetation Barriers to Improve
     Near road Air quality
@@ -519,7 +511,7 @@
     https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=321772&simpleSearch=1&searchAll=Recommendations+for+constructing+roadside+vegetation+barriers+to+improve+near+road+air+quality
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: Learning and Teaching about the Environment Web Resource
   description: "Provides K-12 students and educators with\_access to quality homework resources, lesson plans and project ideas for learning and teaching about the environment"
   agency: Environmental Protection agency (EPA)
@@ -558,7 +550,7 @@
   link: 'https://www.epa.gov/greenvehicles'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: '500 Cities: Local Data for Better Health, 2019 release'
   description:
     City and census tract-level small area estimates for chronic disease risk
@@ -637,7 +629,7 @@
     https://www.epa.gov/statelocalenergy/co-benefits-risk-assessment-cobra-health-impacts-screening-and-mapping-tool
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: Asthma Surveillance Data
   description: Collection of asthma data at both the national and the state level
   agency: Center for Disease Control (CDC)
@@ -666,7 +658,7 @@
     https://www.bts.gov/content/air-pollution-trends-selected-metropolitan-statistical-areas
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: Traffic Volume Trends
   description:
     Monthly data based on hourly traffic count data reported by States,
@@ -690,7 +682,7 @@
   link: 'https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: OCO-2 Data Center
   description:
     ACOS Level 2 data product contains estimates of the carbon dioxide (CO2)
@@ -713,7 +705,7 @@
     https://earthdata.nasa.gov/learn/pathfinders/health-and-air-quality-data-pathfinder
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: Automotive Trends Data
   description:
     National data on CO2 emissions and fuel economy based on production volumes
@@ -723,7 +715,7 @@
   link: 'https://www.epa.gov/automotive-trends/explore-automotive-trends-data'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: 'Air Data - Air Quality Data Collected at Outdoor Monitors Across the US'
   description:
     Outdoor air quality data collected from state, local and tribal monitoring
@@ -733,7 +725,7 @@
   link: 'https://www.epa.gov/outdoor-air-quality-data'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: Air Pollutant Emissions Trends Data
   description:
     National and state-level trends for Tier 1 pollutant emission contributions
@@ -744,7 +736,7 @@
     https://www.epa.gov/air-emissions-inventories/air-pollutant-emissions-trends-data
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: 'National Air Quality: Status and Trends of Key Air Pollutants'
   description:
     National, city, and county trends in six criteria air pollutants (carbon
@@ -755,7 +747,7 @@
   link: 'https://www.epa.gov/air-trends'
   poc: ''
   problem-statement: air-quality
-  email: ''
+  email:
 - name: NAIP public image service
   description:
     Imagery data from the agricultural growing seasons. Includes ArcGIS Rest
@@ -816,4 +808,4 @@
   link: 'https://www.geoplatform.gov/ '
   poc: ''
   problem-statement: agricultural
-  email: ''
+  email:

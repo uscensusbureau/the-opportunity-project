@@ -1210,16 +1210,6 @@ body {
     }
 }
 
-// .usa-card-group{
-//   // border: 2px solid color("primary-dark");
-//   a {
-//     text-decoration: none;
-//     &#{$external-href}::after {
-//       display: none;
-//     }
-//   }
-// }
-
 .datasets__card {
     background-color: color("primary-vivid");
     border: color("base-darkest");
@@ -1234,11 +1224,15 @@ body {
         display: none;
       }
     }
-    .email {
-      display: none;
-    }
+
     .external-link {
       display: none;
+    }
+
+    .listed-link {
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     &:hover {
@@ -1248,9 +1242,6 @@ body {
         display: block;
         float: right;
         margin: units(2);
-      }
-      .email {
-        display: block;
       }
     }
   }

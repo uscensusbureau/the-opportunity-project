@@ -12,13 +12,13 @@
   image: ocean-plastics.jpg
   image-alt: Beach with litter and plastics washed ashore
   description: Create open data sets and engaging digital tools that complement existing citizen science plastics data, to help the public understand the amount of plastic on local beaches and in the ocean, where such plastic comes from, and actions that can be taken to alleviate the problem.
-- name: Air quality
+- name: Air Quality
   filter: air-quality
   image: air-quality.jpg
   image-alt: Blue sky with white clouds
   title: Increasing Awareness of Emissions' Effects on Air Quality
   description: Create tools to help communities understand how transportation-caused pollution contributes to emissions, local air quality, and health, as well as the actions available to lessen these impacts.
-- name: Agricultural
+- name: Enabling NAIP Data
   filter: agricultural
   image: agricultural.jpg
   image-alt: Large, open field on a farm

@@ -80,7 +80,7 @@ $('.data-card-group').on('click', function (e) {
     if (dataCard == "all") {
       for (i = 0; i < datasets.length; i++ ) {
         dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace('.', '-').replace(':', '').split(" ").join("-"));
+        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace("'", '').replace('.', '-').replace(':', '').split(" ").join("-"));
         $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
       }
     } else {

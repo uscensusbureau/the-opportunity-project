@@ -16,7 +16,7 @@
   filter: air-quality
   image: air-quality.jpg
   image-alt: Blue sky with white clouds
-  title: Increasing Awareness of Emissions' Effects on Air Quality
+  title: Increasing Awareness of Transportation Emissions' Effects on Air Quality
   description: Create tools to help communities understand how transportation-caused pollution contributes to emissions, local air quality, and health, as well as the actions available to lessen these impacts.
 - name: Enabling NAIP Data
   filter: agricultural

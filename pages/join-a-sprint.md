@@ -54,7 +54,7 @@ explanation:
         challenge: Create open data sets and engaging digital tools that complement existing citizen science plastics data, to help the public understand the amount of plastic on local beaches and in the ocean, where such plastic comes from, and actions that can be taken to alleviate the problem.
         audience: Engaged citizens passionate about reducing plastic pollution, rural or tribal communities, as well as policymakers, advocates, and researchers
       - aria: emissions
-        title: Increasing awareness of emissions’ effects on air quality
+        title: Increasing awareness of transportation emissions’ effects on air quality
         agency: U.S. Environmental Protection Agency
         challenge: Create tools to help communities understand how transportation-caused pollution contributes to emissions, local air quality, and health, as well as the actions available to lessen these impacts.
         audience: Engaged citizens and the general public, especially those at higher risk for respiratory illnesses (e.g., individuals over 65, children, those with respiratory ailments), urban populations and communities (e.g., high transportation traffic areas), rural or tribal communities, and motorized vehicles users.

@@ -547,6 +547,22 @@
   poc: Britney McCoy
   problem-statement: air-quality
   email: McCoy.Britney@epa.gov
+- name: 'The Magic School Bus Gets Cleaned Up'
+  description: 'EPA, in collaboration with Scholastic, has created a new book, "The Magic School Bus Gets Cleaned Up," which teaches readers about pollution emitted from diesel school buses as well as ways to reduce emissions health risks.'
+  agency: Environmental Protection Agency (EPA)
+  federal: Federal
+  linke: https://www.epa.gov/dera/magic-school-bus
+  poc: Britney McCoy
+  problem-statement: air-quality
+  email: McCoy.Britney@epa.gov
+- name: Idle-Free Schools Toolkit for a Healthy School Environment
+  description: Information needed to run an effective idling reduction campaign at a school to reduce student exposure to toxic vehicle exhaust. This includes student-run science or community involvement projects, which offer students an opportunity to run a public service campaign while expanding their science and math skills
+  agency: Environmental Protection Agency (EPA)
+  federal: Federal
+  link: https://www.epa.gov/schools/idle-free-schools-toolkit-healthy-school-environment#:~:text=What%20is%20the%20Idle%2DFree,exposure%20to%20toxic%20vehicle%20exhaust.
+  poc: Britney McCoy
+  problem-statement: air-quality
+  email: McCoy.Britney@epa.gov
 - name: Green Vehicle Guide
   description:
     Gives information about the environmental performance of light-duty vehicles

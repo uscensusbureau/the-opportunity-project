@@ -111,7 +111,7 @@ $('.data-card-group').on('click', function (e) {
         dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
         dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
           // console.log(dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');

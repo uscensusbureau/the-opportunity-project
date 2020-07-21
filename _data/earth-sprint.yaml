@@ -256,7 +256,7 @@
   link: 'https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: 'Interoperable Data: TIDES Coastal Clean Up '
   description:
     A cleaned, curated and interoperable global plastics pollution dataset
@@ -309,7 +309,7 @@
   link: https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
   Notes: ''
 - name: 'Earth Challenge: Open Data Documentation'
   description:
@@ -347,7 +347,7 @@
   link: 'https://www.projectaware.org/diveagainstdebrismap'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: Global Alert - Floating Trash
   description:
     Online tool that increases interaction and connectivity to plastic pollution
@@ -358,7 +358,7 @@
   link: 'https://www.oceanrecov.org/global-ocean-alert-system/solution.html'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 - name: 'Our World In Data '
   description:
     Collection of plastics pollution data, including decomposition rates of
@@ -369,7 +369,7 @@
   link: 'https://ourworldindata.org/plastic-pollution#all-charts-preview'
   poc: ''
   problem-statement: ocean-plastics
-  email: ''
+  email:
 # - name: Marine Debris Tracker
 #   description:
 #     Database with data on over 2 million pieces of litter and debris collected

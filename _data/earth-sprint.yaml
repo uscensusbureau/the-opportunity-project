@@ -170,6 +170,164 @@
   poc: ''
   problem-statement: recycling
   email:
+- name: 'Earth Challenge: Interoperable Ocean Plastics Data '
+  description:
+    A cleaned, curated and interoperable global plastics pollution dataset.The
+    Earth Challenge team has combined all available data  from the National
+    Atmospheric Administrations Marine Debris Monitoring and Assesment Project
+    (MDMAP) accumulation report, Ocean Convervancy's TIDES Coastal Clean Up
+    data, and the European Environmental Agencies Marine Litter Watch (MLW) data
+    sets. All datasets were mapped to a common schema and quality control
+    methods were implemented for ease of re-use.  Data was collected from 2015
+    -2018.
+  agency: Earth Challenge
+  federal:
+    Incorporates Federal Data. Created with Wilson Center (partially federal)
+    and State (federal)
+  listed-link:
+    - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701'
+      text: All Interoperable Data
+    - href: https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/f0b1f4947f6640f39bcde91c74862755
+      text: Visualization
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: 'ocean-plastics '
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Earth Challenge:Top 10 Most Common Plastics By Country Data'
+  description:
+    Top 10 Most Common Plastics found by county sourced from the Earth Challenge
+    2020 Interoperable Oceans Plastics Data. The Earth Challenge 2020 team has
+    combined all available data  from the National Atmospheric Administrations
+    Marine Debris Monitoring and Assesment Project (MDMAP) accumulation report,
+    Ocean Convervancy's TIDES Coastal Clean Up data, and the European
+    Environmental Agencies Marine Litter Watch (MLW) data sets. This has been
+    further cleaned to categorize the top 10 most common plastics found by
+    country. Data was collected from 2015 -2018.
+  agency: Earth Challenge
+  federal:
+    Incorporates Federal Data. Created with Wilson Center (partially federal)
+    and State (federal)
+  listed-link:
+    - text: Top 10 Plastics Most Common Plastics by Country Data
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/mlw-mdmap-tides-combined-interoperable-dataset-top-10-most-common-plastics-by-country-?geometry=-2.812%2C-89.405%2C2.812%2C85.899'
+    - text: Visualization
+      href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c'
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Earth Challenge 2020 Plastics Mobile  Widget Data '
+  description:
+    Data from Earth Challenge 2020 Plastics mobile widget. Allows anyone to take
+    a picture of plastic pollution anywhere its found wherever they are in the
+    world.
+  agency: Earth Challenge
+  federal: Non-federal data
+  listed-link:
+    - text: Plastics Mobile Widget Data
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/plastics-earth-challenge-2020-wander-app-data?geometry=-98.268%2C-89.377%2C115.482%2C86.083'
+    - text: Data Model Information
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model'
+  poc: Metis Meloche &  Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Interoperable Data: Marine Debris Monitoring and Assessment Project '
+  description:
+    A cleaned, curated and interoperable global plastics pollution dataset
+    sourced from the National Atmospheric Administrations Marine Debris
+    Monitoring and Assesment Project (MDMAP) accumulation report. This data is
+    compatible with all Earth Challenge 2020 Plastics Data
+  agency: 'Earth Challenge '
+  federal: Non-federal data
+  listed-link:
+    - text: Interoperable MDMAP Data
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=109.584%2C-68.714%2C-104.869%2C81.701'
+    - text: All Interoperable Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Source Data: Marine Debris Monitoring and Assessment Project'
+  description:
+    Shoreline marine debris surveys completed by partner organizations and
+    volunteers from the National Oceanic and Atmospheric Administration's Marine
+    Debris Monitoring and Assessment Program (MDMAP), this data follows strict
+    Q/A Q/C protocols including transect monitoring.
+  agency: National Oceanic and Atmospheric Administration (NOAA)
+  federal: Federal data
+  link: 'https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project'
+  poc: ''
+  problem-statement: ocean-plastics
+  email: ''
+- name: 'Interoperable Data: TIDES Coastal Clean Up '
+  description:
+    A cleaned, curated and interoperable global plastics pollution dataset
+    sourced from the  Ocean Convervancy's TIDES Coastal Clean Up data. This data
+    is compatible with all Earth Challenge 2020 Plastics Data
+  agency: 'Earth Challenge '
+  federal: Non-federal data
+  listed-link:
+    - text: Interoperable TIDES Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
+    - text: All Interoperable Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Source Data:TIDES Coastal Cleanup'
+  description:
+    Public data system containing the world's largest ocean trash dataset, all
+    collected by volunteers that allows viewers to see ocean trash data at a
+    global scale or even zoom into their local beach. Easily download reports
+    available for any country, state, region or location
+  agency: Ocean Conservancy
+  federal: Non-federal data
+  link: 'https://www.coastalcleanupdata.org/reports'
+  poc: Sarah Kollar
+  problem-statement: ocean-plastics
+  email: ' skollar@oceanconservancy.org'
+  Notes: New data steward
+- name: 'Interoperable Data: Marine Litter Watch '
+  description:
+    A cleaned, curated and interoperable global plastics pollution dataset
+    sourced European Environmental Agency's Marine Litter Watch (MLW) data. This
+    data is compatible with all Earth Challenge 2020 Plastics Data
+  agency: 'Earth Challenge '
+  federal: Non-federal data
+  listed-link:
+    - text: Interoperable MLW Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
+    - text: All Interoperable Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Source Data: Marine Litter Watch'
+  description:
+    Provides a map of beach litter data collection events organised by MLW
+    communities, as well as overview graphs and tables
+  agency: European Environment Agency
+  federal: Federal data
+  link: https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
+  poc: ''
+  problem-statement: ocean-plastics
+  email: ''
+  Notes: ''
+- name: 'Earth Challenge: Open Data Documentation'
+  description:
+    Earth Challenge is a global citizen science effort. Earth Challenge spans
+    over 6 research topics and offers APIs to source data and curated
+    Interoperable through the Kinetica platform.
+  agency: 'Earth Challenge '
+  federal:
+    Incorporates Federal Data. Created with Wilson Center (partially federal)
+    and State (federal)
+  listed-link:
+    - text: Open Data Documentation
+      href: https://ogc.citizenscience.host/ Data Model
+    - text: Information
+      href: https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
 - name: Marine Debris Tracker
   description:
     Database with data on over 2 million pieces of litter and debris collected
@@ -180,165 +338,6 @@
   poc: 'Kathryn Youngblood '
   problem-statement: ocean-plastics
   email: kathryny@uga.edu
-- name: 'Earth Challenge 2020 API Documentation Page'
-  description:
-    'Launched in recognition of the 50th anniversary of Earth Day, Earth Challenge 2020 (Earth Challenge) seeks to engage millions of people in collecting and sharing over one billing open and interoperable data points across six citizen science research areas: air quality, plastic pollution, insect populations, food security, water quality, and climate change. Earth Challenge 2020 offers APIs to source data through the Kinetica platform. This link provides information on the data model.'
-  agency: Earth Challenge 2020
-  federal:
-    Incorporates Federal Data. Created with Wilson Center (partially federal)
-    and State (federal)
-  link: https://ogc.citizenscience.host/
-  poc: Metis Meloche & Anne Bowser
-  problem-statement: 'ocean-plastics '
-  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
-- name: 'Earth Challenge 2020: MLW, MDMAP, TIDES Data - All points 2015-2018'
-  description:
-    Earth Challenge 2020 have developed a data schema incorporating 3 high-value CS Plastics Pollution data sets including the National Oceanic and Atmospheric Administrations Marine Debris Monitoring and Assesment Project (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European Environmental Agencies Marine Litter Watch (MLW) data sets.
-  agency: Earth Challenge 2020
-  federal:
-    Incorporates Federal Data. Created with Wilson Center (partially federal)
-    and State (federal)
-  listed-link:
-    - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701'
-      text: All Points
-    - href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/f0b1f4947f6640f39bcde91c74862755'
-      text: Visualization
-  poc: Metis Meloche & Anne Bowser
-  problem-statement: 'ocean-plastics '
-  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
-- name:
-    'Earth Challenge 2020: MLW, MDMAP, TIDES Data -  2015-2018 Top 10 most common
-    Plastics By Country'
-  description:
-    "Earth Challenge 2020 have developed a data schema incorporating 3 high-value
-    CS Plastics Pollution data sets including the National Oceanic and
-    Atmospheric Administrations Marine Debris Monitoring and Assesment Project
-    (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European
-    Environmental Agencies Marine Litter Watch (MLW) data sets. This has been
-    further cleaned to categorize the top 10 most common plastics pollution
-    findings by country."
-  agency: Earth Challenge 2020
-  federal:
-    Incorporates Federal Data. Created with Wilson Center (partially federal)
-    and State (federal)
-  listed-link:
-    - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/mlw-mdmap-tides-combined-interoperable-dataset-top-10-most-common-plastics-by-country-?geometry=-2.812%2C-89.405%2C2.812%2C85.899'
-      text: Top 10 Most Common Plastics by Country
-    - href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c'
-      text: Visualization
-  poc: Metis Meloche & Anne Bowser
-  problem-statement: ocean-plastics
-  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
-- name: Earth Challenge 2020 Plastics Wisget
-  description:
-    Earth Challenge 2020 developed a Plastics widget that allows anyone to take
-    a picture of plastic pollution, anywhere. These data will help us understand
-    what types of plastics pollution are found around the world
-  agency: Earth Challenge 2020
-  federal: Non-federal data
-  listed-link:
-    - href: 'https://api.citizenscience.host/'
-      text: Endpoint
-    - href: 'https://api.citizenscience.host/get/records'
-      text: Get Data
-    - href: 'https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model'
-      text: Instructions on calling the data
-    - href: 'https://ogc.citizenscience.host/'
-      text: Documentation
-  poc: Metis Meloche &  Anne Bowser
-  problem-statement: ocean-plastics
-  email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
-- name: Marine Debris Monitoring and Assessment Project
-  description:
-    Shoreline marine debris surveys completed by partner organizations and
-    volunteers. Please note the most accessible data source is the surveys list
-  agency: National Oceanic and Atmospheric Administration (NOAA)
-  federal: Federal data
-  link:
-    https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
-- name: Marine Debris Monitoring and Assessment Project Citizen Science Data
-  description:
-    Cleaned and interoperable version of the Marine Debris Monitoring Assessment
-    Project dataset, curated and managed by the Earth Challenge 2020 team
-  agency: Earth Challenge 2020
-  federal: Non-federal data
-  link:
-    https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=109.584%2C-68.714%2C-104.869%2C81.701
-  poc: Metis Meloche & Anne Bowser
-  problem-statement: ocean-plastics
-  email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
-- name: TIDES Coastal Cleanup Data
-  description:
-    Public data system containing the world's largest ocean trash dataset, all
-    collected by volunteers that allows viewers to see ocean trash data at a
-    global scale or even zoom into their local beach. Easily download reports
-    available for any country, state, region or location
-  agency: Ocean Conservancy
-  federal: Non-federal data
-  link: 'https://www.coastalcleanupdata.org/reports'
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
-- name: TIDES Coastal Cleanup Citizen Science Data
-  description:
-    Cleaned and interoperable version of the TIDES Coastal Cleanup Citizen
-    Science dataset, curated by the Earth Challenge 2020 team
-  agency: Earth Challenge 2020
-  federal: Non-federal data
-  link:
-    https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
-  poc: Metis Meloche & Anne Bowser
-  problem-statement: ocean-plastics
-  email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
-- name: OGC SensorThings API
-  description:
-    Provides an open, geospatial-enabled and unified way to interconnect the
-    Internet of Things (IoT) devices, data, and applications over the Web
-  agency: Open Geospatial Consortium (OGC)
-  federal: Non-federal data
-  listed-link:
-    - href: 'https://www.ogc.org/standards/sensorthings'
-      text: API
-    - href: 'http://docs.opengeospatial.org/is/15-078r6/15-078r6.html'
-      text: Part 1 Documentation
-    - href: 'http://docs.opengeospatial.org/is/17-079r1/17-079r1.html'
-      text: Part 2 Documentation
-  poc: 'Metis Meloche, Anne Bowser, & Landon Van Dyke'
-  problem-statement: ocean-plastics
-  email:
-- name: Marine Litter Watch
-  description:
-    Provides a map of beach litter data collection events organised by MLW
-    communities, as well as overview graphs and tables
-  agency: European Environment agency
-  federal: Federal data
-  link:
-    https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
-- name: Marine Litter Watch Citizen Science Data
-  description:
-    Cleaned and interoperable version of the Marine Litter Watch dataset,
-    curated by the Earth Challenge 2020 team
-  agency: Earth Challenge 2020
-  federal: Non-federal data
-  link:
-    https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
-  poc: Metis Meloche & Elizabeth Newbury
-  problem-statement: ocean-plastics
-  email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
-- name: Litterati
-  description: An app that assembled crowd sourced data from trash clean ups globally
-  agency: Litterati
-  federal: Non-federal data
-  link: 'https://map.litterati.org/globalmap/'
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
 - name: 'Divers Against Debris '
   description:
     Map showing types and amounts of debris scuba divers around the world have
@@ -348,7 +347,7 @@
   link: 'https://www.projectaware.org/diveagainstdebrismap'
   poc: ''
   problem-statement: ocean-plastics
-  email:
+  email: ''
 - name: Global Alert - Floating Trash
   description:
     Online tool that increases interaction and connectivity to plastic pollution
@@ -359,8 +358,8 @@
   link: 'https://www.oceanrecov.org/global-ocean-alert-system/solution.html'
   poc: ''
   problem-statement: ocean-plastics
-  email:
-- name: Plastic Pollution
+  email: ''
+- name: 'Our World In Data '
   description:
     Collection of plastics pollution data, including decomposition rates of
     marine debris items, global river plastic input to the ocean by region,
@@ -370,7 +369,208 @@
   link: 'https://ourworldindata.org/plastic-pollution#all-charts-preview'
   poc: ''
   problem-statement: ocean-plastics
-  email:
+  email: ''
+# - name: Marine Debris Tracker
+#   description:
+#     Database with data on over 2 million pieces of litter and debris collected
+#     by thousands of citizen scientists from all over the world
+#   agency: University of Georgia
+#   federal: Non-federal data
+#   link: 'https://marinedebris.engr.uga.edu/newmap/'
+#   poc: 'Kathryn Youngblood '
+#   problem-statement: ocean-plastics
+#   email: kathryny@uga.edu
+# - name: 'Earth Challenge 2020 API Documentation Page'
+#   description:
+#     'Launched in recognition of the 50th anniversary of Earth Day, Earth Challenge 2020 (Earth Challenge) seeks to engage millions of people in collecting and sharing over one billing open and interoperable data points across six citizen science research areas: air quality, plastic pollution, insect populations, food security, water quality, and climate change. Earth Challenge 2020 offers APIs to source data through the Kinetica platform. This link provides information on the data model.'
+#   agency: Earth Challenge 2020
+#   federal:
+#     Incorporates Federal Data. Created with Wilson Center (partially federal)
+#     and State (federal)
+#   link: https://ogc.citizenscience.host/
+#   poc: Metis Meloche & Anne Bowser
+#   problem-statement: 'ocean-plastics '
+#   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+# - name: 'Earth Challenge 2020: MLW, MDMAP, TIDES Data - All points 2015-2018'
+#   description:
+#     Earth Challenge 2020 have developed a data schema incorporating 3 high-value CS Plastics Pollution data sets including the National Oceanic and Atmospheric Administrations Marine Debris Monitoring and Assesment Project (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European Environmental Agencies Marine Litter Watch (MLW) data sets.
+#   agency: Earth Challenge 2020
+#   federal:
+#     Incorporates Federal Data. Created with Wilson Center (partially federal)
+#     and State (federal)
+#   listed-link:
+#     - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701'
+#       text: All Points
+#     - href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/f0b1f4947f6640f39bcde91c74862755'
+#       text: Visualization
+#   poc: Metis Meloche & Anne Bowser
+#   problem-statement: 'ocean-plastics '
+#   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+# - name:
+#     'Earth Challenge 2020: MLW, MDMAP, TIDES Data -  2015-2018 Top 10 most common
+#     Plastics By Country'
+#   description:
+#     "Earth Challenge 2020 have developed a data schema incorporating 3 high-value
+#     CS Plastics Pollution data sets including the National Oceanic and
+#     Atmospheric Administrations Marine Debris Monitoring and Assesment Project
+#     (MDMAP), Ocean Convervancy's TIDES Coastal Clean Up data, and the European
+#     Environmental Agencies Marine Litter Watch (MLW) data sets. This has been
+#     further cleaned to categorize the top 10 most common plastics pollution
+#     findings by country."
+#   agency: Earth Challenge 2020
+#   federal:
+#     Incorporates Federal Data. Created with Wilson Center (partially federal)
+#     and State (federal)
+#   listed-link:
+#     - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/mlw-mdmap-tides-combined-interoperable-dataset-top-10-most-common-plastics-by-country-?geometry=-2.812%2C-89.405%2C2.812%2C85.899'
+#       text: Top 10 Most Common Plastics by Country
+#     - href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c'
+#       text: Visualization
+#   poc: Metis Meloche & Anne Bowser
+#   problem-statement: ocean-plastics
+#   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+# - name: Earth Challenge 2020 Plastics Wisget
+#   description:
+#     Earth Challenge 2020 developed a Plastics widget that allows anyone to take
+#     a picture of plastic pollution, anywhere. These data will help us understand
+#     what types of plastics pollution are found around the world
+#   agency: Earth Challenge 2020
+#   federal: Non-federal data
+#   listed-link:
+#     - href: 'https://api.citizenscience.host/'
+#       text: Endpoint
+#     - href: 'https://api.citizenscience.host/get/records'
+#       text: Get Data
+#     - href: 'https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model'
+#       text: Instructions on calling the data
+#     - href: 'https://ogc.citizenscience.host/'
+#       text: Documentation
+#   poc: Metis Meloche &  Anne Bowser
+#   problem-statement: ocean-plastics
+#   email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
+# - name: Marine Debris Monitoring and Assessment Project
+#   description:
+#     Shoreline marine debris surveys completed by partner organizations and
+#     volunteers. Please note the most accessible data source is the surveys list
+#   agency: National Oceanic and Atmospheric Administration (NOAA)
+#   federal: Federal data
+#   link:
+#     https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
+# - name: Marine Debris Monitoring and Assessment Project Citizen Science Data
+#   description:
+#     Cleaned and interoperable version of the Marine Debris Monitoring Assessment
+#     Project dataset, curated and managed by the Earth Challenge 2020 team
+#   agency: Earth Challenge 2020
+#   federal: Non-federal data
+#   link:
+#     https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=109.584%2C-68.714%2C-104.869%2C81.701
+#   poc: Metis Meloche & Anne Bowser
+#   problem-statement: ocean-plastics
+#   email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
+# - name: TIDES Coastal Cleanup Data
+#   description:
+#     Public data system containing the world's largest ocean trash dataset, all
+#     collected by volunteers that allows viewers to see ocean trash data at a
+#     global scale or even zoom into their local beach. Easily download reports
+#     available for any country, state, region or location
+#   agency: Ocean Conservancy
+#   federal: Non-federal data
+#   link: 'https://www.coastalcleanupdata.org/reports'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
+# - name: TIDES Coastal Cleanup Citizen Science Data
+#   description:
+#     Cleaned and interoperable version of the TIDES Coastal Cleanup Citizen
+#     Science dataset, curated by the Earth Challenge 2020 team
+#   agency: Earth Challenge 2020
+#   federal: Non-federal data
+#   link:
+#     https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
+#   poc: Metis Meloche & Anne Bowser
+#   problem-statement: ocean-plastics
+#   email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
+# - name: OGC SensorThings API
+#   description:
+#     Provides an open, geospatial-enabled and unified way to interconnect the
+#     Internet of Things (IoT) devices, data, and applications over the Web
+#   agency: Open Geospatial Consortium (OGC)
+#   federal: Non-federal data
+#   listed-link:
+#     - href: 'https://www.ogc.org/standards/sensorthings'
+#       text: API
+#     - href: 'http://docs.opengeospatial.org/is/15-078r6/15-078r6.html'
+#       text: Part 1 Documentation
+#     - href: 'http://docs.opengeospatial.org/is/17-079r1/17-079r1.html'
+#       text: Part 2 Documentation
+#   poc: 'Metis Meloche, Anne Bowser, & Landon Van Dyke'
+#   problem-statement: ocean-plastics
+#   email:
+# - name: Marine Litter Watch
+#   description:
+#     Provides a map of beach litter data collection events organised by MLW
+#     communities, as well as overview graphs and tables
+#   agency: European Environment agency
+#   federal: Federal data
+#   link:
+#     https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
+# - name: Marine Litter Watch Citizen Science Data
+#   description:
+#     Cleaned and interoperable version of the Marine Litter Watch dataset,
+#     curated by the Earth Challenge 2020 team
+#   agency: Earth Challenge 2020
+#   federal: Non-federal data
+#   link:
+#     https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
+#   poc: Metis Meloche & Elizabeth Newbury
+#   problem-statement: ocean-plastics
+#   email: 'metis.meloche@wilsoncenter.org, elizabeth.newbury@wilsoncenter.org'
+# - name: Litterati
+#   description: An app that assembled crowd sourced data from trash clean ups globally
+#   agency: Litterati
+#   federal: Non-federal data
+#   link: 'https://map.litterati.org/globalmap/'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
+# - name: 'Divers Against Debris '
+#   description:
+#     Map showing types and amounts of debris scuba divers around the world have
+#     removed and reported from underwater environments since 2011
+#   agency: Project Aware
+#   federal: Non-federal data
+#   link: 'https://www.projectaware.org/diveagainstdebrismap'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
+# - name: Global Alert - Floating Trash
+#   description:
+#     Online tool that increases interaction and connectivity to plastic pollution
+#     by allowing users to report, rate and map trash hot-spots in their waterways
+#     and coastlines via mobile devices and a web-based platform
+#   agency: Ocean Recovery Alliance
+#   federal: Non-federal data
+#   link: 'https://www.oceanrecov.org/global-ocean-alert-system/solution.html'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
+# - name: Plastic Pollution
+#   description:
+#     Collection of plastics pollution data, including decomposition rates of
+#     marine debris items, global river plastic input to the ocean by region,
+#     plastic waste generated by coastal populations etc.
+#   agency: Our World in Data
+#   federal: Non-Federal
+#   link: 'https://ourworldindata.org/plastic-pollution#all-charts-preview'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
 - name: Environmental Dataset Gateway
   description: EPA's official open data catalog
   agency: Environmental Protection agency (EPA)

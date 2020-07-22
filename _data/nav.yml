@@ -12,9 +12,9 @@ primary:
   - text: Toolkits
     accordion:
       - text: TOPx
-        href: topx-toolkit/
+        href: topx-toolkit/intro/
       - text: Product Development
-        href: product-development-toolkit/
+        href: product-development-toolkit/intro/
 
 mobile:
   - text: Home
@@ -46,3 +46,17 @@ secondary:
     href: "#user-advocates"
   - text: Product Advisors
     href: "#product-advisors"
+
+toolkit:
+  topx:
+    - text: Introduction
+      href: intro/
+    - text: Phase 1
+      href: phase-1/
+    - text: Phase 2
+      href: phase-2/
+    - text: Phase 3
+      href: phase-3/
+    - text: glossary
+      href: glossary/
+  product:

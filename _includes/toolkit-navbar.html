@@ -1,0 +1,84 @@
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+{% include banner.html %}
+<header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
+  <div class="usa-navbar site-header-navbar">
+    <div class="usa-logo site-logo logo-image-mobile" id="logo">
+      <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
+        <span><img src="{{site.baseurl}}/assets/img/top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+      </a>
+    </div>
+    <div class="usa-logo site-logo logo-image-desktop" id="logo">
+      <!-- <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
+        <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+      </a> -->
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+    <div class="navbar--container">
+      <nav class="usa-nav">
+        <ul class="usa-nav__primary usa-accordion">
+          {% if page.type == "topx" %}
+            {% assign links = site.data.nav.toolkit.topx %}
+          {% else %}
+            {% assign links = site.data.nav.toolkit.product %}
+          {% endif %}
+          {% for link in links %}
+            <li class="usa-nav__primary-item">
+              <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-left-4 margin-top-4" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="get-involved margin-right-5">
+        <button type="button" name="get-involved" class="usa-button__secondary-white"><a href="{{site.baseurl}}/sprints">Download PDF</a></button>
+      </div>
+    </div>
+    <nav class="site-nav-secondary page-{{page.class}} position-sticky padding-left-15">
+      <ul class=" margin-left-10 padding-left-15">
+        {% assign links = site.data.nav.secondary %}
+        {% for link in links %}
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/our-process/{{ link.href }}"><span>{{ link.text }}</span></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="usa-overlay"></div>
+
+<nav role="navigation" class="usa-nav site-nav sidenav-mobile">
+  <button class="usa-nav__close">
+    <span class="usa-sr-only">Close</span>
+  </button>
+
+  <!-- <form
+    id="search_form-mobile"
+    class="usa-search usa-search--small desktop:margin-right-4"
+    action="https://search.usa.gov/search"
+    accept-charset="UTF-8"
+    method="get">
+    <input name="utf8" type="hidden" value="&#x2713;" />
+    <input type="hidden" name="affiliate" id="affiliate-mobile" value="uswds" />
+    <div role="search">
+      <label class="usa-sr-only" for="query-mobile">Search</label>
+      <input
+        id="query-mobile"
+        class="usa-input usagov-search-autocomplete"
+        name="query"
+        type="search"
+        autocomplete="off"/>
+      <button
+        class="usa-button margin-top-0"
+        type="submit"
+        name="commit">
+        <span class="usa-sr-only">Search</span>
+      </button>
+    </div>
+  </form> -->
+  <div class="usa-nav__inner">
+    <ul class="usa-nav__primary usa-accordion">
+      {% include nav/sections.html sections=site.data.nav.mobile %}
+    </ul>
+  </div>
+</nav>

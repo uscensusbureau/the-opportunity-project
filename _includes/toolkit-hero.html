@@ -1,0 +1,17 @@
+<section class="interior-hero bg-base-darkest">
+  <div class="grid-container padding-bottom-5">
+    <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" class="grid-col-3 display-inline" alt="{{ page.image-alt }}">
+    <div class="grid-offset-1 desktop:grid-col-7 grid-col-3 display-inline-block">
+      <h1
+        class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
+      >
+        {{ page.header }}
+      </h1>
+      {% for p in page.lead %}
+        <p class="font-sans-md text-white">{{ p }}</p>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="height-4 bg-secondary">
+  </div>
+</section>

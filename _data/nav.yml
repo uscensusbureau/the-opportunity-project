@@ -9,11 +9,12 @@ primary:
     href: '#news'
   - text: Curated Datasets
     href: data/
-  # - text: Get Involved
-  #   href: /get-involved
-  #   accordion:
-  #     - text: Join a Sprint
-  #       href: sprints/
+  - text: Toolkits
+    accordion:
+      - text: TOPx
+        href: topx-toolkit/
+      - text: Product Development
+        href: product-development-toolkit/
 
 mobile:
   - text: Home

@@ -24,7 +24,7 @@
                 <ul id="extended-nav-section-one" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
-                      <a href="{{ site.baseurl }}/{{link.href}}/{{subnav.href}} font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                      <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                     </li>
                   {% endfor %}
                 </ul>

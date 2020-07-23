@@ -1,0 +1,50 @@
+
+# sidebar - the secondary floating nav
+
+# body
+# the main content is divided into sections, which are rendered onto the page in order.
+
+body:
+  - section: Step 1
+    top-shading: false
+    bottom-shading: true
+    color:
+    header: Form a Facilitation Team
+    time: "2-4 weeks"
+    effort-out-of-4: 2
+    plain-text: As you begin the process of planning a TOPx sprint, it is important to build a coalition around your sprint within the agency.
+    highlight: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
+    illustration:
+    key_actions:
+      - text:
+        - b: Spread the word
+          p: about TOPx within your office and the broader agency
+      - highlight: Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, and broader communications. A modifiable information sheet is provided in Resources below
+      - text:
+        - b: Identify at least one senior agency official
+          p: (up to your agency’s Secretary, Administrator, etc.) who is aware and supportive of the sprint and can serve as your
+          b: executive level champion
+      - text:
+        - b: Build a staff-level facilitation team.
+          p: While a TOPx sprint may be facilitated by two people or eight depending on bandwidth, facilitating a TOPx sprint will require finding others within your agency to help you along the way
+      - highlight: See Resources below for a list of roles, which may be combined or adapted to best meet your team’s structure
+      - text:
+        - b: Begin meeting weekly as a facilitation team
+          p: to efficiently distribute responsibility and share out progress
+    resources:
+      - type: template
+        link: https://docs.google.com/document/d/1060-djdeTIRsKwrA2zZjgO7ZojIOmWnpHpi_ieoanPE/edit?usp=sharing
+        title: Introduction to TOPx Email
+        description: Modify this template email depending on the audience to spread the word about TOPx within your agency
+      - type: info
+        link: https://docs.google.com/document/d/1pjFDVj9vJ6SooAjPBlJEQr5gj_N9ur1mTBAteniBOoo/edit?usp=sharing
+        title: TOPx Overview for Agencies
+        description: Attach this information sheet when spreading the word about TOPx within your agency
+      - type: info
+        link: https://docs.google.com/document/d/1z94EDrNiSn5KR86QjE_onhwLjOkVjvtYZONDsYvvnuU/edit?usp=sharing
+        title: TOPx Facilitation Team - Potential Roles
+        description: A list of potential roles for a TOPx facilitation team, which can be modified as needed
+
+  - section: 2
+
+  #

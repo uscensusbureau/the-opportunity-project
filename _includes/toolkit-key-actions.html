@@ -1,65 +1,22 @@
-<h1>Hello world from key actions </h1>
-<!-- <section class="usa-section usa-graphic-list grid-container"  id="{{ page.explanation.id }}">
-  {% for item in page.explanation.text %}
-    <div class="grid-row">
-      <div
-        class="desktop:grid-col-2 tablet:grid-col-2 desktop:grid-offset-2 tablet:grid-offset-2 usa-media-block translucent-bottom-border desktop:padding-top-3 desktop:padding-bottom-5"
-      >
-        <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="{{ item.image-alt }}">
-        {% for link in item.links %}
-          <div>
-            <a class="text-black" href="{{ site.baseurl }}/assets/files/{{ link.link-path}}" target="_blank">{{ link.link-text}}</a>
-          </div>
-        {% endfor %}
-      </div>
-      <div
-        class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-items translucent-bottom-border  desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
-      >
-        <div class="inline-number">
-          {% if item.number %}
-            <p class="circle-3">{{ item.number }}</p>
-          {% endif %}
-        </div>
-        <div class="inline-text">
-          {% if item.title %}
-            <h4 class="font-sans-lg">{{ item.title }}</h4>
-          {% endif %}
-          {% if item.subtitle %}
-            <p class="font-mono-3xs text-ls-2 text-light">{{ item.subtitle }}</p>
-          {% endif %}
-        {% if item.description %}
-          <p>{{ item.description }}</p>
-        {% endif %}
-        {% for accordion in item.accordions %}
-          <div class="usa-accordion usa-accordion--bordered text-black margin-0">
-            <h2 class="usa-accordion__heading text-normal">
-              <button class="usa-accordion__button font-sans-2xs text-normal"
-                aria-expanded="false"
-                aria-controls="{{ accordion.aria }}">
-                {{ accordion.title }}
-              </button>
-            </h2>
-            <div id="{{ accordion.aria }}" class="usa-accordion usa-accordion--bordered margin-top-0 border-solid border-base-lightest padding-3">
-              <div class="border-bottom border-base-lighter">
-                {% if accordion.agency %}
-                  <p class="font-sans-2xs"><b>Federal agency partner(s). </b>{{ accordion.agency }}</p>
-                {% endif %}
-              </div>
-              <div class="border-bottom border-base-lighter">
-                {% if accordion.challenge %}
-                  <p class="font-sans-2xs"><b>The challenge. </b>{{ accordion.challenge }}</p>
-                {% endif %}
-              </div>
-              <div class="border-bottom border-base-lighter">
-                {% if accordion.audience %}
-                  <p class="font-sans-2xs"><b>Target audience. </b>{{ accordion.audience }}</p>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-        </div>
-      </div>
+{% for action in item.key_actions %}
+  <div
+    class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-actions translucent-bottom-border  desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
+  >
+    <div class="inline-number">
+      {% if action.number %}
+        <p class="circle-3">{{ action.number }}</p>
+      {% endif %}
     </div>
-  {% endfor %}
-</section> -->
+    <p>
+    {% if action.text %}
+      {% for phrase in action.text %}
+        {% if phrase.b %}
+          <b>{{ phrase.b }}</b>
+        {% elsif phrase.p %}
+          {{ phrase.p }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    </p>
+  </div>
+{% endfor %}

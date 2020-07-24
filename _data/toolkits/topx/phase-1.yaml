@@ -1,5 +1,8 @@
-
-# sidebar - the secondary floating nav
+sidebar:
+  - href: "/#intro"
+    text: test
+  - href: "/#intro"
+    text: subnav
 
 # body
 # the main content is divided into sections, which are rendered onto the page in order.

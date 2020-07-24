@@ -1,22 +1,24 @@
 {% for action in item.key_actions %}
   <div
-    class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-actions translucent-bottom-border  desktop:padding-left-4 desktop:padding-top-1 desktop:padding-bottom-5 padding-bottom-3"
+    class="usa-media-block__inline-items"
   >
     <div class="inline-number">
       {% if action.number %}
         <p class="circle-3">{{ action.number }}</p>
       {% endif %}
     </div>
-    <p>
-    {% if action.text %}
-      {% for phrase in action.text %}
-        {% if phrase.b %}
-          <b>{{ phrase.b }}</b>
-        {% elsif phrase.p %}
-          {{ phrase.p }}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-    </p>
+    <div class="inline-text">
+      <p>
+      {% if action.text %}
+        {% for phrase in action.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      </p>
+    </div>
   </div>
 {% endfor %}

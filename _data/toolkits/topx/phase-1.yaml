@@ -16,21 +16,25 @@ body:
     highlight: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
     illustration:
     key_actions:
-      - text:
-        - b: Spread the word
-          p: about TOPx within your office and the broader agency
-      - highlight: Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, and broader communications. A modifiable information sheet is provided in Resources below
-      - text:
-        - b: Identify at least one senior agency official
-          p: (up to your agency’s Secretary, Administrator, etc.) who is aware and supportive of the sprint and can serve as your
-          b: executive level champion
-      - text:
-        - b: Build a staff-level facilitation team.
-          p: While a TOPx sprint may be facilitated by two people or eight depending on bandwidth, facilitating a TOPx sprint will require finding others within your agency to help you along the way
-      - highlight: See Resources below for a list of roles, which may be combined or adapted to best meet your team’s structure
-      - text:
-        - b: Begin meeting weekly as a facilitation team
-          p: to efficiently distribute responsibility and share out progress
+      - number: 1
+        text:
+          - b: Spread the word
+          - p: about TOPx within your office and the broader agency
+        highlight: Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, and broader communications. A modifiable information sheet is provided in Resources below
+      - number: 2
+        text:
+          - b: Identify at least one senior agency official
+          - p: (up to your agency’s Secretary, Administrator, etc.) who is aware and supportive of the sprint and can serve as your
+          - b: executive level champion
+      - number: 3
+        text:
+          - b: Build a staff-level facilitation team.
+          - p: While a TOPx sprint may be facilitated by two people or eight depending on bandwidth, facilitating a TOPx sprint will require finding others within your agency to help you along the way
+        highlight: See Resources below for a list of roles, which may be combined or adapted to best meet your team’s structure
+      - number: 4
+        text:
+          - b: Begin meeting weekly as a facilitation team
+          - p: to efficiently distribute responsibility and share out progress
     resources:
       - type: template
         link: https://docs.google.com/document/d/1060-djdeTIRsKwrA2zZjgO7ZojIOmWnpHpi_ieoanPE/edit?usp=sharing
@@ -45,6 +49,6 @@ body:
         title: TOPx Facilitation Team - Potential Roles
         description: A list of potential roles for a TOPx facilitation team, which can be modified as needed
 
-  - section: 2
+  # - section: 2
 
   #

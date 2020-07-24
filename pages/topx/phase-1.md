@@ -16,10 +16,4 @@ image-alt: placeholder image
 ---
 
 {% include toolkit-hero.html %}
-
-
-{% for item in site.data.toolkits.topx.phase-1.body %}
-  {% include toolkit-header.html %}
-  {% include toolkit-key-actions.html %}
-  {% include toolkit-resources.html %}
-{% endfor %}
+{% include toolkit-body.html %}

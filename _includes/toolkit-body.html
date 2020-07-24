@@ -1,0 +1,12 @@
+<section class="grid-container display-inline-block padding-top-8">
+  {% include toolkit-sidenav.html %}
+  <div
+    class="grid-offset-2 desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
+  >
+    {% for item in site.data.toolkits.topx.phase-1.body %}
+      {% include toolkit-header.html %}
+      {% include toolkit-key-actions.html %}
+      {% include toolkit-resources.html %}
+    {% endfor %}
+  </div>
+</section>

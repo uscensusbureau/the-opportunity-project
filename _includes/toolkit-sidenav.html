@@ -1,4 +1,4 @@
-<aside class="sidenav">
+<!-- <aside class="sidenav">
   <nav aria-label="Secondary navigation">
   <ul class="usa-sidenav">
     {% for link in page.sidebar %}
@@ -15,6 +15,14 @@
     {% endfor %}
   </ul>
 </nav>
+</aside> -->
+<aside class="sidenav">
+  {% assign sidenav = site.data.nav[page.class] %}
+  {% if sidenav %}
+  <ul class="site-sidenav usa-sidenav">
+    {% include nav/list.html links=sidenav %}
+  </ul>
+  {% endif %}
 </aside>
 <!-- <aside class="sidenav">
   {% assign sidenav = site.data.nav[page.class] %}

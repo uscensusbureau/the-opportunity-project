@@ -1267,6 +1267,22 @@ body {
   -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+.toolkit-main-section{
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.toolkit-highlight {
+  color: color(base-light);
+  font-style: italic;
+  border-left: 2px solid color(base-light);
+  margin-left: units(6);
+  padding-left: units(2);
+  margin-top: 0;
+}
+
 
 // Styleguide Content -------- //
 

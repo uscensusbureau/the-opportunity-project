@@ -8,9 +8,9 @@
         <p class="circle-3">{{ action.number }}</p>
       {% endif %}
     </div>
-    <div class="inline-text">
-      <p>
-      {% if action.text %}
+    {% if action.text %}
+      <div class="inline-text">
+        <p>
         {% for phrase in action.text %}
           {% if phrase.b %}
             <b>{{ phrase.b }}</b>
@@ -18,8 +18,19 @@
             {{ phrase.p }}
           {% endif %}
         {% endfor %}
-      {% endif %}
+        </p>
+      </div>
+    {% endif %}
+  </div>
+  {% if action.highlight %}
+    <div class="toolkit-highlight">
+      <p class="margin-top-0">
+      {% for phrase in action.highlight %}
+        {% if phrase.p %}
+          {{ phrase.p }}
+        {% endif %}
+      {% endfor %}
       </p>
     </div>
-  </div>
+  {% endif %}
 {% endfor %}

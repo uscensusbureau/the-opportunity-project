@@ -16,6 +16,16 @@
             <b>{{ phrase.b }}</b>
           {% elsif phrase.p %}
             {{ phrase.p }}
+          {% elsif phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
           {% endif %}
         {% endfor %}
         </p>
@@ -28,6 +38,13 @@
       {% for phrase in action.highlight %}
         {% if phrase.p %}
           {{ phrase.p }}
+        {% endif %}
+        {% if phrase.ul %}
+          <ul>
+            {% for li in phrase.ul %}
+              <li>{{ li.li }}</li>
+            {% endfor %}
+          </ul>
         {% endif %}
       {% endfor %}
       </p>

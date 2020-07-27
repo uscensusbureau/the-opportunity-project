@@ -140,9 +140,10 @@ body:
           - b: Begin developing a list of likely participants.
         highlight:
           - p: "We recommend that each problem statement include:"
-          - li: 3-4 tech teams
-          - li: At least 2-3 user advocates
-          - li: Where possible, 1 data steward for every data set
+          - ul:
+            - li: 3-4 tech teams
+            - li: At least 2-3 user advocates
+            - li: Where possible, 1 data steward for every data set
       - number: 9
         text:
           - b: Connect with problem statement leads within your agency

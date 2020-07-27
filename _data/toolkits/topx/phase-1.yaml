@@ -138,7 +138,8 @@ body:
       - number: 8
         text:
           - b: Begin developing a list of likely participants.
-        highlight:
+        toggle:
+          - id: "3-8"
           - p: "We recommend that each problem statement include:"
           - ul:
             - li: 3-4 tech teams

@@ -50,4 +50,25 @@
       </p>
     </div>
   {% endif %}
+  {% if action.toggle %}
+    <div class="margin-left-6">
+      <button class="toggle-tip-button border-0 bg-white text-base-light"> + To Learn More </button>
+      <div id="{{action.toggle.id}}" class="modal-inactive">
+        <p>
+        {% for phrase in action.toggle %}
+          {% if phrase.p %}
+            {{ phrase.p }}
+          {% endif %}
+          {% if phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                <li>{{ li.li }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    </div>
+  {% endif %}
 {% endfor %}

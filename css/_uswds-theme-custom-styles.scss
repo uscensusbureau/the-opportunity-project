@@ -2767,6 +2767,34 @@ code {
   }
 }
 
+.usa-accordion__button-toolkit {
+  background-image: none;
+  @include at-media("tablet") {
+    @include add-icon(
+      "angle-arrow-down-primary",
+      "after",
+      1,
+      1,
+      2px,
+      "no-hover"
+    );
+  }
+  &[aria-expanded="false"] {
+    background-image: none;
+  }
+  &[aria-expanded="true"] {
+    @include at-media("tablet") {
+      @include add-icon(
+        "angle-arrow-up-primary",
+        "after",
+        1,
+        1,
+        2px,
+        "no-hover"
+      );
+    }
+  }
+}
 
 .dropdown-menu {
   @include u-width('mobile');

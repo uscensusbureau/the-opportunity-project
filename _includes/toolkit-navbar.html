@@ -22,8 +22,13 @@
             {% assign links = site.data.nav.toolkit.product %}
           {% endif %}
           {% for link in links %}
+            {% assign active = "" %}
+            {% assign slug = link.text | slugify %}
+            {% if page.url contains slug %}
+              {% assign active = "text-underline" %}
+            {% endif %}
             <li class="usa-nav__primary-item">
-              <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-left-4 margin-top-4" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+              <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-left-4 margin-top-4 {{active}}" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
             </li>
           {% endfor %}
         </ul>

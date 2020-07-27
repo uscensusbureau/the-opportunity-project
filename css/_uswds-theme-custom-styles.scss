@@ -481,6 +481,9 @@ body {
 
 .sidenav {
   display: none;
+  position: sticky;
+  top: 150px;
+  left: 100px;
 
   @include at-media("desktop") {
     display: block;
@@ -488,7 +491,7 @@ body {
     margin-bottom: units(6);
     margin-top: units(4);
     padding-right: 0;
-    padding-left: units(4);
+    // padding-left: units(4);
     width: units($width-nav-sidebar);
   }
 

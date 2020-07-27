@@ -55,6 +55,22 @@ $('.sidenav').on('click', 'a', function (e) {
   });
 });
 
+
+
+$('.usa-sidenav').on('click', 'a', function (e) {
+  e.preventDefault();
+  var sideLinks = document.getElementsByClassName("usa-current");
+  var i;
+
+  if (sideLinks.length > 0 ) {
+    for (i = 0; i < sideLinks.length; i++ ) {
+      console.log(sideLinks[i])
+      $(sideLinks[i]).removeClass("usa-current");
+    }
+  }
+  // console.log(this.closest('li'));
+  $( this ).closest('li').addClass('usa-current');
+});
 //var navHeight = function () {
 //  $('.sidenav').css('height', (window.innerHeight - 50));
 //};

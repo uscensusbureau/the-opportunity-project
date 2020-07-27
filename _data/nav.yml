@@ -47,6 +47,21 @@ secondary:
   - text: Product Advisors
     href: "#product-advisors"
 
+# toolkit:
+#   topx:
+#     - text: Introduction
+#       href: intro/
+#     - text: Phase 1
+#       href: phase-1/
+#     - text: Phase 2
+#       href: phase-2/
+#     - text: Phase 3
+#       href: phase-3/
+#     - text: glossary
+#       href: glossary/
+#   product:
+
+
 toolkit:
   topx:
     - text: Introduction
@@ -59,4 +74,3 @@ toolkit:
       href: phase-3/
     - text: glossary
       href: glossary/
-  product:

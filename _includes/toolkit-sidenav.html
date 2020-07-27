@@ -1,23 +1,26 @@
 <aside class="sidenav">
   <nav aria-label="Secondary navigation">
   <ul class="usa-sidenav">
-    <li class="usa-sidenav__item">
-    <a href="" class="usa-current font-sans-3xs">STEP 1</a><ul class="usa-sidenav__sublist">
-      <li class="usa-sidenav__item usa-current">
-    <a href="" class="font-sans-3xs">FORM A FACILITATION TEAM</a>
-  </li><li class="usa-sidenav__item">
-    <a href="" class="font-sans-3xs">KEY ACTIONS</a>
-  </li><li class="usa-sidenav__item">
-    <a href="" class="font-sans-3xs">RESOURCES</a>
-  </li>
-    </ul>
-  </li><li class="usa-sidenav__item">
-    <a href="" class="font-sans-3xs">STEP 2</a>
-  </li><li class="usa-sidenav__item">
-    <a href="" class="font-sans-3xs">STEP 3</a>
-  </li><li class="usa-sidenav__item">
-    <a href="" class="font-sans-3xs">STEP 4</a>
-  </li>
+    {% for link in page.sidebar %}
+      <li class="usa-sidenav__item">
+        <a href="{{link.href}}" class="font-sans-3xs">{{ link.text }}</a>
+          <ul class="usa-sidenav__sublist">
+            {% for sublink in link.subnav %}
+              <li class="usa-sidenav__item">
+                <a href="{{ sublink.href}}" class="font-sans-3xs">{{ sublink.text }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+      </li>
+    {% endfor %}
   </ul>
 </nav>
 </aside>
+<!-- <aside class="sidenav">
+  {% assign sidenav = site.data.nav[page.class] %}
+  {% if sidenav %}
+  <ul class="site-sidenav usa-sidenav">
+    {% include nav/list.html links=sidenav %}
+  </ul>
+  {% endif %}
+</aside> -->

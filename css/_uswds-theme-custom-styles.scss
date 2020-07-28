@@ -1296,6 +1296,9 @@ body {
 
 .toolkit-table {
   width: 100%;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	        box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
 
   th {
     border: none;
@@ -1309,7 +1312,7 @@ body {
   }
 
   td.col-2 {
-    border: none ;
+    border: 1px solid color(base-lighter);
     text-align: center;
     padding: 5px;
   }

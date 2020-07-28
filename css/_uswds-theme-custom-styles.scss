@@ -1265,13 +1265,24 @@ body {
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
 
-.toolkit-main-section{
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  .toolkit-resource-link {
+    color: #000000;
+    &::before {
+      @include u-square(2);
+      background: url("../img/icons/arrow-up-right.png") no-repeat 0 0;
+      background-size: 100%;
+      content: "";
+      display: inline-block;
+      margin-top: 2px;
+      margin-right: units(1.5);
+      text-decoration: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
 }
 
 .toolkit-highlight {

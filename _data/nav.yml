@@ -12,9 +12,9 @@ primary:
   - text: Toolkits
     accordion:
       - text: TOPx
-        href: topx-toolkit/intro/
+        href: topx-toolkit/introduction/
       - text: Product Development
-        href: product-development-toolkit/intro/
+        href: product-development-toolkit/introduction/
 
 mobile:
   - text: Home

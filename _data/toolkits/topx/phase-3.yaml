@@ -60,6 +60,7 @@ body:
 
   - section: Step 2
     offset: 4
+    padding: 6
     color:
     header: Post-Sprint Engagement
     time: "2-4 weeks"

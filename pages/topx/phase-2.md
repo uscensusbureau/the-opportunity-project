@@ -6,6 +6,20 @@ permalink: /topx-toolkit/phase-2/
 layout: toolkit
 data-ref: site.data.toolkits.topx.phase-2.body
 
+sidebar:
+  - text: STEP 1
+    href: "#toolkit-step-1"
+  - text: STEP 2
+    href: "#toolkit-step-2"
+  - text: STEP 3
+    href: "#toolkit-step-3"
+  - text: STEP 4
+    href: "#toolkit-step-4"
+  - text: STEP 5
+    href: "#toolkit-step-5"
+  - text: STEP 6
+    href: "#toolkit-step-6"
+
 
 header: Sprint Facilitation
 lead:
@@ -17,12 +31,12 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
 ---
 
 {% include toolkit-hero.html %}
+{% include toolkit-sidenav.html %}
 <section>
   {% for item in site.data.toolkits.topx.phase-2.body %}
-    <section class="grid-container display-inline-block padding-top-8">
-      {% include toolkit-sidenav.html %}
+    <section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
       <div
-        class="desktop:grid-offset-2 desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
+        class="desktop:grid-offset-{{item.offset}} desktop:padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
       >
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}

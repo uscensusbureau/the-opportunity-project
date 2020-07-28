@@ -55,6 +55,8 @@ body:
         description: Use this template to develop facilitation guides for milestone calls
 
   - section: Step 2
+    offset: 4
+    padding: 6
     color:
     header: Kickoff
     time: "1-2 weeks"
@@ -79,6 +81,8 @@ body:
 
 
   - section: Step 3
+    offset: 4
+    padding: 6
     header: User Research
     time: "3-4 weeks"
     effort-out-of-4: 3
@@ -118,7 +122,8 @@ body:
         description: Written by a past TOP participant, this article is about the user research workshop, user interviews, and other methods they used to build a useful tool for youth experiencing homelessness
 
   - section: Step 4
-    offset: 2
+    offset: 4
+    padding: 6
     color:
     header: Data Exploration
     time: "2-3 weeks"
@@ -158,7 +163,8 @@ body:
         description: A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions
 
   - section: Step 5
-    offset: 2
+    offset: 4
+    padding: 6
     color:
     header: Product Development
     time: "5-6 weeks"
@@ -205,7 +211,8 @@ body:
 
 
   - section: Step 6
-    offset: 2
+    offset: 4
+    padding: 6
     color:
     header: Sprint Wrap-up
     time: "2 weeks"

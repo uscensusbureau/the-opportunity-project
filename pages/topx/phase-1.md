@@ -8,20 +8,13 @@ data-ref: site.data.toolkits.topx.phase-1.body
 
 sidebar:
   - text: STEP 1
-    href:
-    subnav:
-      - text: Form a facilitation team
-        href:
-      - text: Key Actions
-        href:
-      - text: Resources
-        href:
+    href: "#toolkit-step-1"
   - text: STEP 2
-    href:
-    subnav:
-      - text: Form a facilitation team
-        href:
-
+    href: "#toolkit-step-2"
+  - text: STEP 3
+    href: "#toolkit-step-3"
+  - text: STEP 4
+    href: "#toolkit-step-4"
 
 header: Pre-Sprint Planning
 lead:
@@ -36,9 +29,9 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
 {% include toolkit-sidenav.html %}
 <section>
   {% for item in site.data.toolkits.topx.phase-1.body %}
-    <section class="grid-container display-inline-block padding-top-8">
+    <section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
       <div
-        class="desktop:grid-offset-{{item.offset}} padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
+        class="desktop:grid-offset-{{item.offset}} desktop:padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
       >
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}

@@ -6,6 +6,12 @@ permalink: /topx-toolkit/phase-3/
 layout: toolkit
 
 
+sidebar:
+  - text: STEP 1
+    href: "#toolkit-step-1"
+  - text: STEP 2
+    href: "#toolkit-step-2"
+
 header: Post-Sprint
 lead:
   - text:
@@ -16,12 +22,12 @@ image-alt: Three vertical rectangles in a row. The last is filled in blue with a
 ---
 
 {% include toolkit-hero.html %}
+{% include toolkit-sidenav.html %}
 <section>
   {% for item in site.data.toolkits.topx.phase-3.body %}
-    <section class="grid-container display-inline-block padding-top-8">
-      {% include toolkit-sidenav.html %}
+    <section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
       <div
-        class="desktop:grid-offset-2 desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
+        class="desktop:grid-offset-{{item.offset}} desktop:padding-left-{{item.padding}} tablet:grid-col-6 display-inline-block"
       >
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}

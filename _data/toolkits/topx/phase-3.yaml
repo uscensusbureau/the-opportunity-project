@@ -1,0 +1,107 @@
+sidebar:
+  - href: "/#intro"
+    text: test
+  - href: "/#intro"
+    text: subnav
+
+# body
+# the main content is divided into sections, which are rendered onto the page in order.
+
+body:
+  - section: Step 1
+    offset: 2
+    color:
+    header: In-Person Event
+    time: "4-6 weeks"
+    effort-out-of-4: 4
+    empty: 0
+    plain-text: While the TOPx sprint is otherwise entirely virtual, hosting an in-person event is an opportunity to showcase and launch the tools developed through the sprint and allow participants to connect in person. This is optional but we encourage organizing even a small event that includes only sprint participants. If you have capacity, a larger event with outside stakeholders provides an opportunity for teams to share their products with a more diverse audience and to make connections that could help reach end users.
+    highlight: The TOP team at the Census Bureau organizes an annual Demo Day to showcase the tools developed through the TOP sprints. On occasion, we are able to highlight a few tools developed through an agency TOPx sprint. If you would like tools developed through your sprint to be considered, please reach out to the TOP team at census.opportunityproject@census.gov.
+
+    key_actions:
+      - number: 1
+        text:
+          - b: Develop an invitation list.
+          - p: Include all sprint participants and key stakeholders within the agency
+        highlight:
+          - p: If you have the capacity to organize a larger event, some outside stakeholders to invite might include funders, community organizations, and representatives from other agencies or parts of government
+      - number: 2
+        text:
+          - b: Set up and send your invitation.
+          - p: If it is permitted by your agency,
+          - b: Splashthat
+          - p: is a free option for well-designed templates and a good back-end RSVP management system
+        highlight: If your event is in a federal building, consider what information you need to collect from visitors for security purposes
+      - number: 3
+        text:
+          - b: Identify a keynote speaker(s)
+          - p: who will kick-off the event and speak to the significance of the sprint. Keynote speakers could be members of the TOPx facilitation team or senior agency officials
+      - number: 4
+        text:
+          - b: Identify sprint participants to speak
+          - p: about their experience or the products they built
+      - number: 5
+        text:
+          - b: Coordinate with your agency’s Communications team
+          - p: to ensure the event will be publicized and highlighted in agency communications, social media, etc.
+      - number: 6
+        text:
+          - b: Ensure your location is equipped with the technology you will need
+          - p: (e.g., projector, screens for live demos, HDMI cords)
+
+    resources:
+      - link: https://support.splashthat.com/hc/en-us/categories/200163435
+        title: Splashthat
+        description: Instructions on how to set up an invitation page on Splashthat
+      - link: https://hackernoon.com/7-tips-on-how-to-make-the-most-of-demo-day-b509c8ab7be0
+        title: How to Make the Most of Demo Day
+        description: Consider sharing these tips with tech teams to help them make the most of Demo Day
+
+
+  - section: Step 2
+    offset: 4
+    color:
+    header: Post-Sprint Engagement
+    time: "2-4 weeks"
+    effort-out-of-4: 1
+    empty: 3
+    plain-text: After hosting an in-person event,  let teams know what their options are for staying in touch and continuing product development and deployment. The TOP team at the Census Bureau facilitates post-sprint opportunities, which TOPx participants can also become involved in.
+
+    key_actions:
+      - number: 1
+        text:
+          - b: Tell us about your methods and experience with TOPx.
+          - p: Answer a few questions about your methods and experience with TOPx
+        highlight: See Resources below for a short sprint summary form
+      - number: 2
+        text:
+          - b: Develop ways for sprint participants to stay in touch
+          - p: with your agency and one another. This could include a Slack channel, email communications, and/or periodic check-in calls
+        highlight:
+          - p: To track product impact, ask tech teams to periodically report back to you on the metrics they collect (e.g., number of downloads, number of users)
+      - number: 3
+        text:
+          - b: Consider opportunities to further support tech teams post-sprint,
+          - p: including launching a
+          - b: Prize Challenge
+          - p: within your agency, or offering
+          - b: grant or contract opportunities
+          - p: for promising products
+      - number: 4
+        text:
+          - p:  Connect participants with
+          - b: post-sprint opportunities facilitated by the Census Bureau TOP team.
+          - p: Fill out the Sprint Summary and Feedback Form under Resources below to express interest
+        toggle:
+          - ul:
+            - li: "Alumni Community: A quarterly newsletter and facilitated Slack channel offers past sprint participants an opportunity to stay connected and receive relevant resources and updates"
+            - li: "Prize Challenge: Teams have the opportunity to compete for funding through an America COMPETES prize challenge facilitated by the TOP team at the Census Bureau"
+            highlight: If your agency would like to provide funding for the TOP team to create a separate category for participants from your TOPx sprint, that is an option
+
+    resources:
+      - link: https://docs.google.com/document/d/1Puh1t7yj8CyvOs5DY8XqXjDzrJjv6h0ymv_4CsMOrvg/edit?usp=sharing
+        title: Sprint Summary and Feedback Form
+        description: Share your methods and experience with TOPx. The Opportunity Project team at Census would like to hear how the process went, what tools came out of the sprint, and how we can help amplify this work
+      - link: https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/prize_authority_in_the_america_competes_reauthorization_act.pdf
+        title: America COMPETES Prize Authority Information
+        description: Agencies have the authority to conduct prize competitions in order to spur innovation, solve tough problems, and advance their core mission

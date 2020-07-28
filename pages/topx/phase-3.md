@@ -2,9 +2,9 @@
 title: TOPx Toolkit
 type: topx
 class: toolkit
-permalink: /topx-toolkit/phase-1/
+permalink: /topx-toolkit/phase-3/
 layout: toolkit
-data-ref: site.data.toolkits.topx.phase-1.body
+data-ref: site.data.toolkits.topx.phase-3.body
 
 sidebar:
   - text: STEP 1

@@ -1,0 +1,132 @@
+<section>
+  <section class="grid-container display-inline-block padding-top-8">
+    <div
+      class="desktop:grid-offset-4 desktop:grid-col-7 tablet:grid-col-6 display-inline-block padding-left-6"
+    >
+    <h1>Introduction</h1>
+    {% for section in site.data.toolkits.topx.intro.body %}
+      {% if section.title %}
+        <h3>{{ section.title }}</h3>
+      {% endif %}
+      <div class="inline-text">
+        <p>
+        {% for phrase in section.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% elsif phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    {% endfor %}
+    <h3>What’s involved in facilitating a TOPx sprint?</h3>
+      <table class="usa-table toolkit-table margin-bottom-5">
+        <tr>
+          <th class="margin-left-neg-3">Phase 1: Pre-Sprint Planning</th>
+          <th>Effort</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td class="col-1">Form a Facilitation Team</td>
+          <td class="col-2">Maria Anders</td>
+          <td class="col-3 padding-left-2 bg-secondary text-white">2-4 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Define Problem Statement</td>
+          <td class="col-2">Francisco Chang</td>
+          <td class="col-3 padding-left-2 bg-secondary text-white">2-4 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Recruit Sprint Participants</td>
+          <td class="col-2">Roland Mendel</td>
+          <td class="col-3 padding-left-2 bg-secondary text-white">1-2 months</td>
+        </tr>
+        <tr>
+          <td class="col-1">Sprint Preparation</td>
+          <td class="col-2">Helen Bennett</td>
+          <td class="col-3 padding-left-2 bg-secondary text-white">1-2 weeks</td>
+        </tr>
+      </table>
+
+      <table class="usa-table toolkit-table margin-bottom-5">
+        <tr>
+          <th>Phase 2: Sprint Facilitation</th>
+          <th>Effort</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td class="col-1">Ongoing Tasks</td>
+          <td class="col-2">Maria Anders</td>
+          <td class="col-3 padding-left-2 bg-accent-warm-light">12-14 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Kickoff</td>
+          <td class="col-2">Francisco Chang</td>
+          <td class="col-3 padding-left-2 bg-accent-warm-light">1-2 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">User Research</td>
+          <td class="col-2">Roland Mendel</td>
+          <td class="col-3 padding-left-2 bg-accent-warm-light">2 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Data Exploration</td>
+          <td class="col-2">Helen Bennett</td>
+          <td class="col-3 padding-left-2 bg-accent-warm-light">2 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Product Development</td>
+          <td class="col-2">Helen Bennett</td>
+          <td class="col-3 padding-left-2 bg-accent-warm-light">5-6 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Sprint Wrap Up</td>
+          <td class="col-2">Helen Bennett</td>
+          <td class="col-3 padding-left-2 bg-accent-warm-light">2-3 weeks</td>
+        </tr>
+      </table>
+
+      <table class="usa-table toolkit-table margin-bottom-5">
+        <tr>
+          <th>Phase 3: Post-Sprint</th>
+          <th>Effort</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td class="col-1">In-Person Event</td>
+          <td class="col-2">Maria Anders</td>
+          <td class="col-3 padding-left-2 bg-accent-cool text-white">4-6 weeks</td>
+        </tr>
+        <tr>
+          <td class="col-1">Post-Sprint Engagement</td>
+          <td class="col-2">Francisco Chang</td>
+          <td class="col-3 padding-left-2 bg-accent-cool text-white">2-4 weeks</td>
+        </tr>
+      </table>
+
+      <div class="toolkit-resources margin-top-9 margin-bottom-9  padding-7">
+        <h3 class="margin-top-0">Where to Start</h3>
+        {% for resource in site.data.toolkits.topx.intro.resources %}
+          {% if resource.link %}
+            <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
+          {% else %}
+            <p class="text-underline">{{resource.title }}</p>
+          {% endif %}
+          <p>{{ resource.description}}</p>
+        {% endfor %}
+      </div>
+
+    </div>
+  </section>
+</section>

@@ -1294,6 +1294,35 @@ body {
   margin-top: 0;
 }
 
+.toolkit-table {
+  width: 100%;
+
+  th {
+    border: none;
+    font-weight: bold;
+  }
+
+  td.col-1 {
+    border: 1px solid color(base-lighter);
+    text-align: left;
+    padding: 5px;
+  }
+
+  td.col-2 {
+    border: none ;
+    text-align: center;
+    padding: 5px;
+  }
+
+  td.col-3 {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 5px;
+  }
+
+
+}
+
 
 // Styleguide Content -------- //
 

@@ -2,13 +2,25 @@
   <div class="grid-container padding-bottom-5">
     <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" class="toolkit-hero-image grid-col-3 margin-right-0" alt="{{ page.image-alt }}">
     <div class="desktop:grid-offset-1 desktop:grid-col-8 display-inline-block">
-      <h1
-        class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
-      >
-        {{ page.header }}
-      </h1>
-      {% for p in page.lead %}
-        <p class="font-sans-xs text-white">{{ p }}</p>
+      {% if page.header %}
+        <h1
+          class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
+        >
+          {{ page.header }}
+        </h1>
+      {% endif %}
+      {% for item in page.lead %}
+        <p>
+        {% for phrase in item.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% elsif phrase.a %}
+            <a href="{{phrase.href}}">{{ phrase.a }}</a>
+          {% endif %}
+        {% endfor %}
+        </p>
       {% endfor %}
     </div>
   </div>

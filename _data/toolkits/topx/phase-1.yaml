@@ -155,7 +155,7 @@ body:
         text:
           - b: Connect with data stewards
           - p: to be sure they understand their role and identify additional data stewards as needed
-        highlight:
+        toggle:
           - p: Some data stewards were identified in the problem statement development step. Data stewards should be available to answer questions about data sets throughout the sprint and should plan to join the data exploration milestone, as well as both demos
 
 
@@ -194,6 +194,7 @@ body:
       - number: 2
         text:
           - b: Develop a technology communication infrastructure
+        toggle:
           - ul:
             - li: Set up a digital communication platform. For agencies that approve its use, Slack allows users to share messages, tools, and files
             - li: Make sure you have access to a phone dial-in for facilitating milestone calls
@@ -202,6 +203,7 @@ body:
       - number: 3
         text:
           - b: Send a welcome email to all sprint participants.
+        toggle:
           - p: "This email should include:"
           - ul:
             - li: Sprint timeline

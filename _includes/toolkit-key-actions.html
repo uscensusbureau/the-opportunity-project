@@ -62,7 +62,11 @@
           {% if phrase.ul %}
             <ul>
               {% for li in phrase.ul %}
-                <li>{{ li.li }}</li>
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                {% endif %}
               {% endfor %}
             </ul>
           {% endif %}

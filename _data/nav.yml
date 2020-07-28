@@ -65,12 +65,12 @@ secondary:
 toolkit:
   topx:
     - text: Introduction
-      href: /top-x/intro/
+      href: topx-toolkit/introduction/
     - text: Phase 1
-      href: /top-x/phase-1/
+      href: topx-toolkit/phase-1/
     - text: Phase 2
-      href: /top-x/phase-2/
+      href: topx-toolkit/phase-2/
     - text: Phase 3
-      href: /top-x/phase-3/
+      href: topx-toolkit/phase-3/
     - text: glossary
-      href: /top-x/glossary/
+      href: topx-toolkit/glossary/

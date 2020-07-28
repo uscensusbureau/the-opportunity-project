@@ -2,7 +2,7 @@
 title: TOPx Toolkit
 type: topx
 class: toolkit
-permalink: /topx-toolkit/intro/
+permalink: /topx-toolkit/introduction/
 layout: toolkit
 data-ref: site.data.toolkits.topx.intro.body
 

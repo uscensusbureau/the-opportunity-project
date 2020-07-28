@@ -1294,6 +1294,15 @@ body {
   margin-top: 0;
 }
 
+.toolkit-checkmark {
+  list-style-image: url('../img/icons/check.png');
+
+  .nested-bullet {
+    margin-left: units(5);
+    list-style-image: circle !important;
+  }
+}
+
 .toolkit-table {
   width: 100%;
   -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
@@ -1303,27 +1312,25 @@ body {
   th {
     border: none;
     font-weight: bold;
+    padding-left: 0;
   }
 
   td.col-1 {
     border: 1px solid color(base-lighter);
     text-align: left;
-    padding: 5px;
+    padding: 6px;
   }
 
   td.col-2 {
     border: 1px solid color(base-lighter);
     text-align: center;
-    padding: 5px;
   }
 
   td.col-3 {
     border: 1px solid #ffffff;
     text-align: left;
-    padding: 5px;
+    padding: 6px;
   }
-
-
 }
 
 

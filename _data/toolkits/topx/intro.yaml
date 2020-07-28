@@ -15,7 +15,10 @@ body:
     text:
       - ul:
         - li:	Detailed step by step guide to facilitating a TOP sprint
-        - li:	Each sequential step includes
+        - li:	"Each sequential step includes:"
+        - p: Checklists with key action items
+        - p: Tips and best practices
+        - p: Downloadable templates (e.g. emails, outreach materials, facilitation guides)
         - li: Technical assistance and collaboration from TOP team
   - title: Why facilitate a TOPx sprint?
     text:

@@ -1,7 +1,7 @@
 <section>
   <section class="grid-container display-inline-block padding-top-8">
     <div
-      class="desktop:grid-offset-4 desktop:grid-col-7 tablet:grid-col-6 display-inline-block padding-left-6"
+      class="desktop:grid-offset-4 desktop:grid-col-7 tablet:grid-col-6 display-inline-block desktop:padding-left-6"
     >
     <h1>Introduction</h1>
     {% for section in site.data.toolkits.topx.intro.body %}
@@ -16,12 +16,12 @@
           {% elsif phrase.p %}
             {{ phrase.p }}
           {% elsif phrase.ul %}
-            <ul>
+            <ul class="toolkit-checkmark">
               {% for li in phrase.ul %}
                 {% if li.li %}
                   <li>{{ li.li }}</li>
-                {% elsif li.highlight %}
-                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                {% elsif li.p %}
+                  <li class="nested-bullet">{{ li.p}}</li>
                 {% endif %}
               {% endfor %}
             </ul>
@@ -42,8 +42,8 @@
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-secondary text-white">2-4 weeks</td>
         </tr>
@@ -53,7 +53,7 @@
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-secondary text-white">2-4 weeks</td>
         </tr>
@@ -72,8 +72,8 @@
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-secondary text-white">1-2 weeks</td>
         </tr>
@@ -90,8 +90,8 @@
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-warm-light">12-14 weeks</td>
         </tr>
@@ -99,9 +99,9 @@
           <td class="col-1">Kickoff</td>
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-warm-light">1-2 weeks</td>
         </tr>
@@ -111,7 +111,7 @@
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-warm-light">2 weeks</td>
         </tr>
@@ -120,8 +120,8 @@
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-warm-light">2 weeks</td>
         </tr>
@@ -129,9 +129,9 @@
           <td class="col-1">Product Development</td>
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-warm-light">5-6 weeks</td>
         </tr>
@@ -140,8 +140,8 @@
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-warm-light">2-3 weeks</td>
         </tr>
@@ -168,8 +168,8 @@
           <td class="col-2">
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
             <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lightest circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
           </td>
           <td class="col-3 padding-left-2 bg-accent-cool text-white">2-4 weeks</td>
         </tr>
@@ -181,7 +181,7 @@
           {% if resource.link %}
             <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
           {% else %}
-            <p class="text-underline">{{resource.title }}</p>
+            <p class="text-bold">{{resource.title }}</p>
           {% endif %}
           <p>{{ resource.description}}</p>
         {% endfor %}

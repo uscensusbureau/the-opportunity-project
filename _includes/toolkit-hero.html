@@ -1,6 +1,6 @@
 <section class="interior-hero padding-top-4 bg-base-darkest">
   <div class="grid-container padding-bottom-5">
-    <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" class="toolkit-hero-image grid-col-3 margin-right-0" alt="{{ page.image-alt }}">
+    <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" class="toolkit-hero-image grid-col-3 margin-right-0 margin-bottom-0" alt="{{ page.image-alt }}">
     <div class="desktop:grid-offset-1 desktop:grid-col-8 display-inline-block">
       {% if page.header %}
         <h1
@@ -10,14 +10,14 @@
         </h1>
       {% endif %}
       {% for item in page.lead %}
-        <p>
+        <p class="desktop:margin-bottom-5 desktop:padding-bottom-5">
         {% for phrase in item.text %}
           {% if phrase.b %}
             <b>{{ phrase.b }}</b>
           {% elsif phrase.p %}
             {{ phrase.p }}
           {% elsif phrase.a %}
-            <a href="{{phrase.href}}">{{ phrase.a }}</a>
+            <a href="{{phrase.href}}" class="text-primary-light">{{ phrase.a }}</a>
           {% endif %}
         {% endfor %}
         </p>

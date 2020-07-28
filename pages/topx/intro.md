@@ -24,8 +24,8 @@ lead:
       href: https://docs.google.com/document/d/1NzKCPBiK0IER8uWhCugaga7Iz_3NuvVEYpbuE6tcjpo/edit
     - p: to connect with us and get support!
 
-image: placeholder-1.png
-image-alt: placeholder image
+image: introduction.png
+image-alt: Illustration of three vertical rectangles in a row. They are red, yellow, and blue.
 
 ---
 

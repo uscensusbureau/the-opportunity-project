@@ -53,6 +53,7 @@ body:
 
   - section: Step 2
     offset: 4
+    padding: 6
     color:
     header: Define Problem Statement(s)
     time: "2-4 weeks"
@@ -94,6 +95,8 @@ body:
 
 
   - section: Step 3
+    offset: 4
+    padding: 6
     header: Recruit Sprint Participants
     time: "2-4 weeks"
     effort-out-of-4: 4
@@ -184,7 +187,8 @@ body:
 
 
   - section: Step 4
-    offset: 2
+    offset: 4
+    padding: 6
     color:
     header: Sprint Preparation
     time: "2-4 weeks"

@@ -33,12 +33,12 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
 ---
 
 {% include toolkit-hero.html %}
+{% include toolkit-sidenav.html %}
 <section>
   {% for item in site.data.toolkits.topx.phase-1.body %}
     <section class="grid-container display-inline-block padding-top-8">
-      {% include toolkit-sidenav.html %}
       <div
-        class="desktop:grid-offset-2 desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
+        class="desktop:grid-offset-{{item.offset}} padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
       >
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}

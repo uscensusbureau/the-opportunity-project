@@ -6,7 +6,7 @@
       <h2>Glossary</h2>
       <div class="toolkit-resources margin-top-9 margin-bottom-9 padding-7">
         {% for resource in page.resources %}
-          <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
+          <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
           <p>{{ resource.description}}</p>
         {% endfor %}
       </div>

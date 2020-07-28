@@ -1278,6 +1278,9 @@ body {
       margin-right: units(1.5);
       text-decoration: none;
     }
+    &#{$external-href}::after {
+      display: none;
+    }
     &:hover {
       cursor: pointer;
     }

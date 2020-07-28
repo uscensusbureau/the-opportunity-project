@@ -1,7 +1,7 @@
 <div class="toolkit-resources margin-top-9 margin-bottom-9  padding-7">
   <h3 class="margin-top-0">Resources</h3>
   {% for resource in item.resources %}
-    <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
-    <p>{{ resource.description}}</p>
+    <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
+    <p class="text-base-light text-italic">{{ resource.description}}</p>
   {% endfor %}
 </div>

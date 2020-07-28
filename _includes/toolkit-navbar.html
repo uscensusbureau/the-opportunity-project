@@ -1,21 +1,20 @@
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 {% include banner.html %}
 <header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
-  <div class="usa-navbar site-header-navbar">
-    <div class="usa-logo site-logo logo-image-mobile" id="logo">
-      <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-        <span><img src="{{site.baseurl}}/assets/img/top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+  <div class="usa-navbar site-header-navbar" style="height:100px;">
+    <div class="usa-logo site-logo logo-image-desktop margin-left-7" id="logo">
+      <a class="text-base-light margin-bottom-2 margin-left-neg-2" style="font-size:11px;" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} main page"><img src="{{site.baseurl}}/assets/img/icons/left-arrow.png" alt="Back arrow">
+        MAIN SITE
       </a>
-    </div>
-    <div class="usa-logo site-logo logo-image-desktop" id="logo">
-      <!-- <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-        <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
-      </a> -->
+      <div class="">
+        <h1 class="text-white margin-0 margin-top-2">TOPx Toolkit</h1>
+        <p class="text-base-light float-right margin-0" style="font-size:11px;">A product of The Opportunity Project</p>
+      </div>
     </div>
     <button class="usa-menu-btn">Menu</button>
     <div class="navbar--container">
       <nav class="usa-nav">
-        <ul class="usa-nav__primary usa-accordion">
+        <ul class="usa-nav__primary usa-accordion margin-left-15 padding-left-3">
           {% if page.type == "topx" %}
             {% assign links = site.data.nav.toolkit.topx %}
           {% else %}
@@ -28,7 +27,7 @@
               {% assign active = "text-underline" %}
             {% endif %}
             <li class="usa-nav__primary-item">
-              <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-left-4 margin-top-4 {{active}}" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+              <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15 margin-bottom-6 {{active}}" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
             </li>
           {% endfor %}
         </ul>

@@ -16,6 +16,8 @@ sidebar:
   - text: STEP 4
     href: "#toolkit-step-4"
 
+color: secondary
+
 header: Pre-Sprint Planning
 lead:
   - text:
@@ -38,7 +40,7 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
         {% include toolkit-resources.html %}
       </div>
     </section>
-    <div class="height-4 bg-secondary">
+    <div class="height-4 bg-{{page.color}}">
     </div>
   {% endfor %}
 </section>

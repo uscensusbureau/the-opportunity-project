@@ -20,6 +20,8 @@ sidebar:
   - text: STEP 6
     href: "#toolkit-step-6"
 
+color: accent-warm-light
+
 
 header: Sprint Facilitation
 lead:
@@ -43,7 +45,7 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
         {% include toolkit-resources.html %}
       </div>
     </section>
-    <div class="height-4 bg-secondary">
+    <div class="height-4 bg-{{page.color}}">
     </div>
   {% endfor %}
 </section>

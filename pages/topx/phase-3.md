@@ -5,6 +5,7 @@ class: toolkit
 permalink: /topx-toolkit/phase-3/
 layout: toolkit
 
+color: accent-cool
 
 sidebar:
   - text: STEP 1
@@ -34,7 +35,7 @@ image-alt: Three vertical rectangles in a row. The last is filled in blue with a
         {% include toolkit-resources.html %}
       </div>
     </section>
-    <div class="height-4 bg-secondary">
+    <div class="height-4 bg-{{page.color}}">
     </div>
   {% endfor %}
 </section>

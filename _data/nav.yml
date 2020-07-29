@@ -14,7 +14,7 @@ primary:
       - text: TOPx
         href: topx-toolkit/introduction/
       - text: Product Development
-        href: product-development-toolkit/introduction/
+        href: product-development/toolkit/
 
 mobile:
   - text: Home
@@ -74,3 +74,4 @@ toolkit:
       href: topx-toolkit/phase-3/
     - text: glossary
       href: topx-toolkit/glossary/
+  download-pdf-link: assets/files/TOPx_Toolkit.pdf

@@ -7,7 +7,11 @@
         MAIN SITE
       </a>
       <div class="">
-        <h1 class="text-white margin-0 margin-top-2">TOPx Toolkit</h1>
+        {% if page.type == "topx" %}
+          <h1 class="text-white margin-0 margin-top-2">TOPx Toolkit</h1>
+        {% else %}
+          <h2 class="text-white margin-0 margin-top-2">Product Toolkit</h2>
+        {% endif %}
         <p class="text-base-light float-right margin-0" style="font-size:11px;">A product of The Opportunity Project</p>
       </div>
     </div>
@@ -33,7 +37,9 @@
         </ul>
       </nav>
       <div class="get-involved margin-right-5">
-        <button type="button" name="get-involved" class="usa-button__secondary-white"><a href="{{site.baseurl}}">Download PDF</a></button>
+        {% if page.type == "topx" %}
+          <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15" href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD PDF</a><img src="{{site.baseurl}}/assets/img/icons/download-white-sm.png" alt="Download icon" class="margin-left-1">
+        {% endif %}
       </div>
     </div>
     <nav class="site-nav-secondary page-{{page.class}} position-sticky padding-left-15">

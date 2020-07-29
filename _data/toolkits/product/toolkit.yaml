@@ -261,10 +261,12 @@ body:
           - p: Connect with a federal or local government agency who can act as a data steward for your project. Many data sets are owned by agencies who understand the data in detail and will be able to answer relevant questions.
       - number: 4
         text:
-          - p: Use the resources listed below as a starting point to find your data sets.
-        toggle:
-          - p: "Pro tip for techies: Cut down on data discovery time by using existing tools, wrappers, and tutorials. Check out the list provided in the resources list below. Have questions or feedback about the data? Let us know on GitHub."
+          - p: Use The Opportunity Project's Data Hub to discover issue-specific data recommended by government experts and test-driven by teams working to solve the nation’s biggest challenges. See links in the resources below.
+
     resources:
-      - link: https://docs.google.com/document/d/1pxDxopAiDSR4KMzk9NZNCspvnPwcIMA6EzLPRGd6kpM/edit?usp=sharing
-        title: Slack Community Guidelines Template
-        description: A set of standards to guide Slack communication during the sprint
+      - link: https://opportunity.census.gov/data/workforce/
+        title: "The Opportunity Project: Curated Workforce Data"
+        description: Datasets on workers, businesses, jobs, credentials, and more, recommended by government experts for solving key workforce challenges.
+      - link: https://opportunity.census.gov/data/natural-environment/
+        title: "The Opportunity Project: Curated Natural Environment Data"
+        description: Datasets on plastic pollution in oceans, agricultural decision making, air quality, and recycling.

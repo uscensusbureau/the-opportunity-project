@@ -14,6 +14,10 @@ sidebar:
   - text: STEP 4
     href: "#toolkit-step-4"
 
+image: glossary.png
+image-alt: Illustration of a group of red, yellow, and blue squares and rectangles
+
+
 header: Product Development Toolkit
 lead:
   - text:

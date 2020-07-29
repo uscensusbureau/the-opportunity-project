@@ -32,6 +32,12 @@ lead:
       >
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}
+        {% if item.roles %}
+          {% include toolkit-roles.html %}
+        {% endif %}
+        {% if item.scenarios %}
+          {% include toolkit-user-scenarios.html %}
+        {% endif %}
         {% include toolkit-resources.html %}
       </div>
     </section>

@@ -1,0 +1,46 @@
+<h2>User Scenarios</h2>
+<p>Use the user-scenarios as examples of user-generated data. You may want to work with user advocates and end users to create similar scenarios that provide a detailed picture of the problem you're tackling.</p>
+{% for scenario in item.scenarios %}
+  <div
+    class="usa-media-block__inline-items"
+  >
+    {% if scenario.text %}
+      <div class="inline-text">
+        <p>
+        {% for phrase in scenario.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    {% endif %}
+  </div>
+  {% if scenario.toggle %}
+    <div class="margin-left-4">
+      <button class="toggle-tip-button border-0 bg-white text-base-light"> + To Learn More </button>
+      <div id="{{scenario.toggle.id}}" class="modal-inactive margin-left-2 margin-top-1">
+        <p>
+        {% for phrase in scenario.toggle %}
+          {% if phrase.p %}
+            {{ phrase.p }}
+          {% endif %}
+          {% if phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p>{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

@@ -20,6 +20,17 @@
       <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
       </div>
     </div>
+{% elsif page.class == "hcd" %}
+  {% assign hero = page.hero %}
+  <section class="usa-hero padding-top-0">
+    <div class="grid-container usa-hero__bg background-hero-image-hcd desktop:padding-top-9"
+    >
+    <div class="desktop:margin-left-neg-3">
+      <h1 class="usa-hero__title desktop:grid-col-6
+       display-inline-block">{{ page.hero.text}}</h1>
+      <p class="usa-hero__subtitle desktop:grid-col-5">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
 {% elsif page.class == "about" or page.class == "datakit" %}
 <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">

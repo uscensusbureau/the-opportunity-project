@@ -13,6 +13,12 @@ sidebar:
     href: "#toolkit-step-3"
   - text: STEP 4
     href: "#toolkit-step-4"
+  - text: STEP 5
+    href: "#toolkit-step-5"
+  - text: STEP 6
+    href: "#toolkit-step-6"
+  - text: STEP 7
+    href: "#toolkit-step-7"    
 
 image: glossary.png
 image-alt: Illustration of a group of red, yellow, and blue squares and rectangles

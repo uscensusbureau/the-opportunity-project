@@ -34,13 +34,15 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
       {% include toolkit-sidenav.html %}
     </div>
     <div
-      class="desktop:grid-col-7 margin-left-7 tablet:grid-col-6 display-inline-block"
+      class="desktop:grid-col-7 desktop:margin-left-7 display-inline-block"
     >
       {% for item in site.data.toolkits.topx.phase-1.body %}
-        {% include toolkit-header.html %}
-        {% include toolkit-key-actions.html %}
-        {% include toolkit-resources.html %}
-        <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-10">
+        <div class="toolkit-section">
+          {% include toolkit-header.html %}
+          {% include toolkit-key-actions.html %}
+          {% include toolkit-resources.html %}
+          <div class="toolkit-colored-div height-4 bg-{{page.color}} margin-bottom-10">
+          </div>
         </div>
       {% endfor %}
     </div>

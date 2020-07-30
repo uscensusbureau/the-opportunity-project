@@ -42,7 +42,12 @@ lead:
         {% if item.scenarios %}
           {% include toolkit-user-scenarios.html %}
         {% endif %}
-        {% include toolkit-resources.html %}
+        {% if item.timeline %}
+          {% include toolkit-timeline.html %}
+        {% endif %}
+        {% if item.resources %}
+          {% include toolkit-resources.html %}
+        {% endif %}
       </div>
     </section>
     <div class="height-4 bg-secondary">

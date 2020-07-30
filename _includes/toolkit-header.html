@@ -13,6 +13,17 @@
     {% endif %}
   </div>
   <p>{{item.plain-text}}</p>
+  {% if item.ul %}
+    <ul>
+      {% for li in item.ul %}
+        {% if li.li %}
+          <li>{{ li.li }}</li>
+        {% elsif li.p %}
+          <p class="margin-left-neg-3 padding-left-neg-3">{{ li.p}}</p>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
   <p class="toolkit-highlight margin-left-0">{{item.highlight}}</p>
   <img src="{{site.baseurl}}/assets/img/{{item.illustration}}" alt="{{item.image-alt}}">
 </div>

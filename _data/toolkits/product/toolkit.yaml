@@ -270,3 +270,150 @@ body:
       - link: https://opportunity.census.gov/data/natural-environment/
         title: "The Opportunity Project: Curated Natural Environment Data"
         description: Datasets on plastic pollution in oceans, agricultural decision making, air quality, and recycling.
+
+
+  - section: Step 5
+    offset: 4
+    padding: 6
+    color:
+    header: Design and Build a Product
+    plain-text: Once you identify a problem to tackle, the end users your tool will serve, and the data you will use, you can start building! Work collaboratively to build a digital product, including many voices as possible in the design process and seeking feedback as you design and build. Build iteratively, showcasing early versions and revising your design plans based on feedback. Remember that you don't have to build the perfect or "final" solution in 12 weeks!
+    highlight: During this phase, we recommend the whole group communicate frequently and come together remotely or in person every 2-3 weeks to demo their works in progress, ask questions, and share feedback.
+    key_actions:
+      - number: 1
+        text:
+          - p: Build according to the user research. Use the data you found during data exploration.
+      - number: 2
+        text:
+          - p: Share the concepts, wireframes, and prototypes early and often. Revise your design and plans based on the feedback you receive.
+      - number: 3
+        text:
+          - p: Conduct user testing or feedback sessions to improve the product and ensure that the people who need it are aware it exists.
+      - number: 4
+        text:
+          - p: Develop a plan for tracking success of your tool, such as tracking number of sessions, users, or downloads via tools such as Google.
+      - number: 5
+        text:
+          - p: Think about how you will connect end users with your product once the tool is released
+        highlight:
+          - p: What will your team need to build into the product to as many people as possible can use it? What types of organizations do you need to work with to help connect your tool with the people it's designed to serve?
+      - number: 6
+        text:
+          - p: Think about how you will maintain the tool over time, or what partners you need to help you sustain and continuously update and improve the tool.
+
+    timeline:
+      - number: 1
+        text:
+          - b: "Week 1: "
+          - p: Choose a general problem statement to focus on.
+      - number: 2
+        text:
+          - b: "Week 2: "
+          - p: Connect with others to form a diverse team. Establish ways to communicate -- such a listserv, online slack channel, or in-person meetups – so that everyone can collaborate and share progress.
+      - number: 3
+        text:
+          - b: "Week 3: "
+          - p: Conduct user research and identify a user-driven use case for your product.
+      - number: 4
+        text:
+          - b: "Week 4: "
+          - p: Identify information that could help to solve the problems you identified in your user research, and then find federal and local data sets with the information you need.
+      - number: 5
+        text:
+          - b: "Week 5: "
+          - p: Start to sketch out a product.
+        toggle:
+          - p: Share sketches, wireframes or a concept pitch to get early feedback from end users, subject matter experts, government employees, and others. Early demos of Minimum Viable Products are part of the lean start-up methodology and lead to faster value delivered to users.
+      - number: 6
+        text:
+          - b: "Week 6-7: "
+          - p: Continue building based on feedback received from your demo, and continue to explore data and seek ongoing input from user advocates and end users.
+      - number: 7
+        text:
+          - b: "Week 8: "
+          - p: Conduct another demo and share a more mature and improved version of the product you're building. Seek more feedback, particularly from end users of the tool.
+      - number: 8
+        text:
+          - b: "Week 9-10: "
+          - p: Keep building, and hold interactive user testing sessions. Plan how you will share the final product with end users and other stakeholders.
+      - number: 9
+        text:
+          - b: "Week 11-12: "
+          - p: Get everyone involved in the process together to launch the final prototypes or Minimum Viable Products (MVPs).
+        highlight:
+          - p: "Beyond the sprint: Continue to improve the tools, share the product with the target end users, and measure your impact."
+
+    resources:
+      - link: https://slack.com/
+        title: Slack
+        description: Identify community leaders and other collaborators on Slack to provide feedback on work in progress.
+      - link: https://github.com/
+        title: Github
+        description: Software developers can use Github to share code, ask questions, post new suggested data sets, share feedback on data, and more. Github is also an invaluable tool for logging issues or bug fixes that need to be addressed.
+
+  - section: Step 6
+    offset: 4
+    padding: 6
+    color:
+    header: Share with End Users & Stakeholders
+    plain-text: At the end of your sprint, or when you're ready to launch a prototype or "MVP" of your product, get the word out and make sure people know about the product you built so that they can use it! Share your product with everyone who will be interested.
+    ul:
+      - p: "Stakeholders might include: "
+      - li: People who you designed the tool for — the end users.
+      - li: Organizations who can help share or scale the tool.
+      - li: Other teams in The Opportunity Project community.
+      - li: Local government or other organizations that collect and maintain the data you used.
+    highlight: There are many ways to spread the world, like social media, in person events, outreach through user advocates, and more. The Opportunity Project launches multiple tools at once, through coordinated events that incorporate in-person, online, and social media channels. Coordinating with user advocates is a great way to share your product with the intended end users through their outreach platforms. For example, if you worked with a veteran service provider to build a tool for veterans, you may be able to share your tool directly through their online presence or organization.
+    key_actions:
+      - number: 1
+        text:
+          - p: Consider hosting an event to showcase your product
+      - number: 2
+        text:
+          - p: "Use press and social media to spread the word! Use #OpportunityProject."
+      - number: 3
+        text:
+          - p: Create a plan with user advocates to share your product with end-users in the community
+      - number: 4
+        text:
+          - p: Share your code! We highly encourage you to make your projects open source and free for use by the public. A local tool in Baltimore, MD can be used in Austin, Texas, just by using different data sources!
+
+    resources:
+      - link:
+        title: Launch event
+        description: Watch the video from The Opportunity Project launch event in March 2016.
+      - link:
+        title: Demo Day 2016
+        description: Watch the video from The Opportunity Project rollout event and demo in October 2016.
+      - link:
+        title: Demo Day 2017
+        description: Watch the video from The Opportunity Project rollout event and demo in November 2017.
+
+  - section: Step 7
+    offset: 4
+    padding: 6
+    color:
+    header: Keep Improving, Share Metrics & Feedback
+    plain-text: Your launch is just the beginning! After you launch your product and work with user advocates and other groups to deploy it to the target end users, keep building and seeking ongoing feedback to continuously improve your product. After the sprint, be sure you have a plan for how this product will live on after it is built. Will you maintain it? Do you need another organization to help sustain it? Will you hand off the code to another group for sustainability? Look to user advocates and local organizations who may be helpful partners in sustaining the tool.
+    ul:
+      - li: Make use of the tools you put in place to track impact, like Google Analytics, to measure success of the tool.
+      - li: Gather numbers on users, downloads, or other metrics, and stories from users on how they are using the product.
+      - li: Share what you learn with The Opportunity Project community on Slack.
+    highlight: Share feedback on the data you used, or data you needed but couldn't find - this is critical to improving data quality and accessibility for you and other data consumers! Help us to improve by providing feedback on your experience using this toolkit.
+    key_actions:
+      - number: 1
+        text:
+          - p: Keep building and improving.
+      - number: 2
+        text:
+          - p: Ask technical team members for a commitment to routine maintenance and improvements to the product.
+        highlight:
+          - p: Talk to user advocates and other stakeholders about organizations that might want to help with sustainability.
+      - number: 3
+        text:
+          - p: "Measure your impact: Collect information on things like page views and number of users through Google Analytics, outcomes and how your tool is helping individuals and communities."
+      - number: 4
+        text:
+          - p: "Share information on your experience using this toolkit with the whole Opportunity Project community on Slack."
+        highlight:
+          - p: "Use the #datafeedback channel to share feedback on things like data availability, access, quality, or formats with data stewards."

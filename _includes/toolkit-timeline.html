@@ -1,0 +1,79 @@
+<h2>Timeline</h2>
+<p>If you're interested in replicating the Opportunity Project sprint process, here is a sample week-by-week timeline. Feel free to adjust your project plan and milestones based on what works for your team.</p>
+{% for step in item.timeline %}
+  <div
+    class="usa-media-block__inline-items"
+  >
+    <div class="inline-number">
+      {% if step.number %}
+        <p class="circle-3 bg-accent-warm"></p>
+      {% endif %}
+    </div>
+    {% if step.text %}
+      <div class="inline-text margin-top-neg-05">
+        <p>
+        {% for phrase in step.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% elsif phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    {% endif %}
+  </div>
+  {% if step.highlight %}
+    <div class="toolkit-highlight">
+      <p class="margin-top-0">
+      {% for phrase in step.highlight %}
+        {% if phrase.p %}
+          {{ phrase.p }}
+        {% endif %}
+        {% if phrase.ul %}
+          <ul>
+            {% for li in phrase.ul %}
+              <li>{{ li.li }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+      </p>
+    </div>
+  {% endif %}
+  {% if step.toggle %}
+    <div class="margin-left-6">
+      <button class="toggle-tip-button border-0 bg-white text-base-light"> + To Learn More </button>
+      <div id="{{step.toggle.id}}" class="modal-inactive toolkit-highlight margin-left-2 margin-top-1">
+        <p>
+        {% for phrase in step.toggle %}
+          {% if phrase.p %}
+            {{ phrase.p }}
+          {% endif %}
+          {% if phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p>{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

@@ -2601,6 +2601,17 @@ code {
   }
 }
 
+.background-hero-image-hcd {
+  @include at-media("desktop") {
+    background-image: url('../img/photos/hcd/HCD-Training-Photos-24.jpg');
+    height: 500px;
+    background-position: right 0px top 100px;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+}
+
+
 .statistic-border-right {
   @include at-media("desktop") {
     border-right: solid 1px color("base-darker");

@@ -2,16 +2,24 @@
 {% include banner.html %}
 <header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
   <div class="usa-navbar site-header-navbar">
-    <div class="usa-logo site-logo logo-image-mobile" id="logo">
-      <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-        <span><img src="{{site.baseurl}}/assets/img/top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
-      </a>
-    </div>
-    <div class="usa-logo site-logo logo-image-desktop" id="logo">
-      <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-        <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
-      </a>
-    </div>
+    {% if page.class == "coil" or page.class == "hcd" %}
+      <div class="usa-logo site-logo logo-image-desktop width-mobile-lg" id="logo">
+        <div class="">
+          <p class="text-white margin-0 margin-top-3 padding-top-2px font-sans-lg"><b>CENSUS OPEN</b> INNOVATION LABS</p>
+        </div>
+      </div>
+    {% else %}
+      <div class="usa-logo site-logo logo-image-mobile" id="logo">
+        <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
+          <span><img src="{{site.baseurl}}/assets/img/top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+        </a>
+      </div>
+      <div class="usa-logo site-logo logo-image-desktop" id="logo">
+        <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
+          <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+        </a>
+      </div>
+    {% endif %}
     <button class="usa-menu-btn">Menu</button>
     <div class="navbar--container">
       <nav class="usa-nav">

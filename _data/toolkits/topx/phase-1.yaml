@@ -69,10 +69,11 @@ body:
       - number: 2
         text:
           - b: Develop 1-3 detailed problem statements
-        highlight:
+        toggle:
           - p: "To source problem statements, consider:"
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
+          - ul:
+            - li: Building a working group with representatives from across offices
+            - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
       - number: 3
         text:
           - b: Each problem statement should include 1-3 points of contact/problem statement leads
@@ -145,7 +146,6 @@ body:
         text:
           - b: Begin developing a list of likely participants.
         toggle:
-          - id: "3-8"
           - p: "We recommend that each problem statement include:"
           - ul:
             - li: 3-4 tech teams

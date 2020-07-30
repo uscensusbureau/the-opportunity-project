@@ -33,19 +33,21 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
 ---
 
 {% include toolkit-hero.html %}
-{% include toolkit-sidenav.html %}
-<section>
-  {% for item in site.data.toolkits.topx.phase-2.body %}
-    <section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
-      <div
-        class="desktop:grid-offset-{{item.offset}} desktop:padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
-      >
+<section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
+  <div class="grid-row">
+    <div class="desktop:grid-col-4">
+      {% include toolkit-sidenav.html %}
+    </div>
+    <div
+      class="desktop:grid-col-7 margin-left-7 tablet:grid-col-6 display-inline-block"
+    >
+      {% for item in site.data.toolkits.topx.phase-1.body %}
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}
         {% include toolkit-resources.html %}
-      </div>
-    </section>
-    <div class="height-4 bg-{{page.color}}">
+        <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-10">
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
+  </div>  
 </section>

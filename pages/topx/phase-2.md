@@ -21,6 +21,7 @@ sidebar:
     href: "#toolkit-step-6"
 
 color: accent-warm-light
+text-color: text-black
 
 
 header: Sprint Facilitation

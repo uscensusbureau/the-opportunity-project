@@ -5,7 +5,7 @@
   >
     <div class="inline-number">
       {% if action.number %}
-        <p class="circle-3">{{ action.number }}</p>
+        <p class="circle-3 bg-{{page.color}} {{page.text-color}}">{{ action.number }}</p>
       {% endif %}
     </div>
     {% if action.text %}

@@ -40,7 +40,7 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
         {% include toolkit-header.html %}
         {% include toolkit-key-actions.html %}
         {% include toolkit-resources.html %}
-        <div class="height-4 bg-{{page.color}}">
+        <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-10">
         </div>
       {% endfor %}
     </div>

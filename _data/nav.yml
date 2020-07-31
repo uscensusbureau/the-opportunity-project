@@ -9,11 +9,7 @@ primary:
     href: '#news'
   - text: Curated Datasets
     href: data/
-  # - text: Get Involved
-  #   href: /get-involved
-  #   accordion:
-  #     - text: Join a Sprint
-  #       href: sprints/
+
 
 mobile:
   - text: Home
@@ -45,3 +41,32 @@ secondary:
     href: "#user-advocates"
   - text: Product Advisors
     href: "#product-advisors"
+
+# toolkit:
+#   topx:
+#     - text: Introduction
+#       href: intro/
+#     - text: Phase 1
+#       href: phase-1/
+#     - text: Phase 2
+#       href: phase-2/
+#     - text: Phase 3
+#       href: phase-3/
+#     - text: glossary
+#       href: glossary/
+#   product:
+
+
+toolkit:
+  topx:
+    - text: Introduction
+      href: topx-toolkit/introduction/
+    - text: Phase 1
+      href: topx-toolkit/phase-1/
+    - text: Phase 2
+      href: topx-toolkit/phase-2/
+    - text: Phase 3
+      href: topx-toolkit/phase-3/
+    - text: glossary
+      href: topx-toolkit/glossary/
+  download-pdf-link: assets/files/TOPx_Toolkit.pdf

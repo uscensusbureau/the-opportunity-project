@@ -1,0 +1,263 @@
+sidebar:
+  - href: "/#intro"
+    text: test
+  - href: "/#intro"
+    text: subnav
+
+# body
+# the main content is divided into sections, which are rendered onto the page in order.
+
+body:
+  - section: Step 1
+    offset: 2
+    color:
+    header: Ongoing Tasks
+    time: "12-14 weeks"
+    effort-out-of-4: 2
+    empty: 2
+    plain-text: This section outlines tasks that will be ongoing throughout the sprint that ensure the process runs smoothly. These tasks include scheduling and facilitating milestone calls, sending emails with key actions sprint participants should be engaging in between milestones, and making connections between participants.
+    key_actions:
+      - number: 1
+        text:
+          - b: Read the entirety of the Sprint Facilitation Phase materials
+      - number: 2
+        text:
+          - b: Send calendar invitations for milestone
+          - p: calls 1-2 weeks in advance
+        highlight:
+          - p: Facilitating milestones at the same time and day of the week allows for the most effective cadence
+      - number: 3
+        text:
+          - b: Develop a facilitation guide for each milestone call
+        highlight:
+          - p: Use the template in Resources below and refer to the details in the following steps
+      - number: 4
+        text:
+          - b: Facilitate milestone calls
+      - number: 5
+        text:
+          - b: Send emails and Slack posts with key actions
+          - p: sprint participants should be engaging in between milestones
+        highlight:
+          - p: Refer to details in the below sections for guidance
+      - number: 6
+        text:
+          - b: Connect tech teams with user advocates and data and policy experts
+      - number: 7
+        text:
+          - b: Monitor the progress of each tech team,
+          - p: and
+          - b: check in 1:1
+          - p: as needed
+    resources:
+      - link: https://docs.google.com/document/d/134K0AFnXbisrOOAle_krMjYiv1laAioeH8bh96HpVso/edit?usp=sharing
+        title: Milestone Facilitation Guide Template
+        description: Use this template to develop facilitation guides for milestone calls
+
+  - section: Step 2
+    offset: 4
+    padding: 6
+    color:
+    header: Kickoff
+    time: "1-2 weeks"
+    effort-out-of-4: 1
+    empty: 3
+    plain-text: The kickoff call launches the sprint in the first week. This is an opportunity for all sprint participants to learn who else is participating, as well as to better understand the problem statements. During the kickoff phase, tech teams should be solidifying which problem statement they will be focusing on and beginning to develop a plan for their work during the sprint.
+    key_actions:
+      - number: 1
+        text:
+          - b: Facilitate a kickoff call
+        toggle:
+          - ul:
+            - li: Sprint facilitators provide high-level information on the sprint process and timeline
+            - li: Sprint participants (e.g., TOPx facilitation team, tech teams, user advocates, problem statement leads) introduce themselves
+            - highlight: It is not necessary for data stewards to attend this milestone
+            - li: Agency problems statement leads offer background on each challenge
+
+    resources:
+      - link: https://hr.harvard.edu/files/humanresources/files/tips_leading_a_meeting_with_remote_participants.pdf
+        title: Tips on Leading a Meeting with Remote Participants
+        description: Explore this guide on best practices for leading meetings remotely
+
+
+  - section: Step 3
+    offset: 4
+    padding: 6
+    header: User Research
+    time: "3-4 weeks"
+    effort-out-of-4: 3
+    empty: 1
+    plain-text: After the kickoff call, tech teams will begin user research. During this time, tech teams will connect with user advocates, who will offer insights into the communities they represent. A user research milestone call will provide an opportunity to check in with teams on their conversations with user advocates and others who can offer insights into the needs and challenges of potential end users.
+    highlight: This phase of sprint facilitation is higher touch, as participants are just beginning to be onboarded and will likely require direction and introductions.
+    key_actions:
+      - number: 1
+        text:
+          - b: Provide teams with resources on user research
+        highlight:
+          - p: Consider sharing some of the resources provided below
+      - number: 2
+        text:
+          - b: Tech teams should begin connecting with user advocates
+          - p: to conduct user research and learn more about the needs and pain points of the communities they represent
+        highlight:
+          - p: Tech teams should also consider reaching out to additional advocacy organizations, service providers, or others with direct experience with the challenge
+      - number: 3
+        text:
+          - b: Facilitate a user research milestone  advocates
+        toggle:
+          - ul:
+            - li: Sprint facilitators emphasize that user research should be ongoing throughout the sprint
+            - li: Tech teams share about their target end users, as well as plans for continued user research
+            - li: Sprint facilitators, user advocates and problem statement leads provide feedback to each team, suggesting additional ways to reach potential end users
+
+    resources:
+      - link: https://www.interaction-design.org/literature/topics/user-research
+        title: What is User Research
+        description: Offers an overview of user research, as well as additional resources to explore
+      - link: https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews
+        title: How to Conduct User Interviews
+        description: Provides tips on how to develop interview questions and conduct user interviews
+      - link: https://www.invisionapp.com/inside-design/empathy-isnt-enough/
+        title: Empathy Isn't Enough
+        description: Written by a past TOP participant, this article is about the user research workshop, user interviews, and other methods they used to build a useful tool for youth experiencing homelessness
+
+  - section: Step 4
+    offset: 4
+    padding: 6
+    color:
+    header: Data Exploration
+    time: "2-3 weeks"
+    effort-out-of-4: 3
+    empty: 1
+    plain-text: After the user research phase, encourage tech teams to begin exploring potential data sets. A data exploration milestone offers teams an opportunity to learn about relevant data sets from data stewards. Before and after the milestone, tech teams will begin connecting with data stewards via email and phone to learn more about available data sets and ask questions.
+    highlight: This phase of sprint facilitation is higher touch, as participants are still being onboarded and will likely require direction and introductions.
+
+    key_actions:
+      - number: 1
+        text:
+          - b: Encourage tech teams to begin data exploration
+        toggle:
+          - ul:
+            - li: In addition to the data sets identified by the problem statement leads and data stewards, provide tech teams with additional resources to explore open federal data
+            - highlight: Consider sharing the resources provided below
+            - li: In preparation for the data exploration milestone, tech teams can begin exploring the data sets and identifying questions they would like clarified by data stewards in the milestone call
+            - highlight: Before the milestone, tech teams should have an understanding of what type of data they are looking for
+
+      - number: 2
+        text:
+          - b: Facilitate a data exploration milestone call
+        toggle:
+          - ul:
+            - li: Sprint facilitators emphasize requirement that products utilize open government data
+            - li: Data stewards provide introduction to data sets
+            - li: Tech teams give brief updates on what data they are looking for
+            - li: Q&A session facilitated by data stewards
+
+
+    resources:
+      - link: https://www.data.gov/
+        title: Data.gov
+        description: Search over 200,000 data sets from federal agencies
+      - link: https://opendata.stackexchange.com/
+        title: Stack Exchange
+        description: A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions
+
+  - section: Step 5
+    offset: 4
+    padding: 6
+    color:
+    header: Product Development
+    time: "5-6 weeks"
+    effort-out-of-4: 1
+    empty: 3
+    plain-text: Over the course of the next 5-6 weeks, tech teams will develop their products. About 2 weeks into the product development phase, tech teams will present initial demos of their product ideas. All sprint participants should join the demos to offer each team feedback
+    highlight: This phase of sprint facilitation becomes much lighter touch, as tech teams will be focused on product development.
+
+    key_actions:
+      - number: 1
+        text:
+          - p: Encourage tech teams to
+          - b: begin preparing for an initial demo
+          - p: by engaging in
+          - b: scoping, ideation, design and development
+      - number: 2
+        text:
+          - b: Facilitate an initial demo milestone
+        toggle:
+          - ul:
+            - li: Sprint facilitators assign each tech team a short time slot during the milestone call, which is best facilitated via video conferencing. Tech teams share their initial progress
+            - highlight: There will likely be significant variation in terms of progress and product maturity. Some teams may present powerpoint presentations with initial concepts, while others may have wireframes, mockups, or initial tools in progress
+            - li: Sprint facilitators, user advocates, problem statement leads, data stewards, and other tech teams offer feedback to each team
+
+      - number: 2
+        text:
+          - p: "After the demo, encourage teams to:"
+          - ul:
+            - li: Incorporate feedback from the demo
+            - li:  Begin testing their products. User advocates can help to identify potential end users who could serve as beta testers of the tools
+            - li:  Identify at least one key metric they plan to use for measuring usage and impact (e.g., number of downloads, number of users)
+            - highlight: Consider sharing the resources provided below as tech teams continue product development, begin usability testing, and develop plans for measuring impact
+
+    resources:
+      - link:
+        title: TOP Product Development Toolkit
+        description: A resource that walks technologists through the TOP model for civic tech product development
+      - link: https://www.civicplus.com/blog/ce/how-usability-testing-can-inform-your-municipal-website-design
+        title: How to Implement an Effective Usability Test
+        description: Key steps to effective testing include articulating a purpose, determining qualitative and quantitative metrics, choosing a comfortable setting, and recording sessions.
+      - link: https://uxdesign.cc/analysing-usability-testing-data-97667ae4999e
+        title: Analyzing Usability Testing Data
+        description: Analyze testing data by grouping insights into distinct categories and gather insights on your product.
+
+
+  - section: Step 6
+    offset: 4
+    padding: 6
+    color:
+    header: Sprint Wrap-up
+    time: "2 weeks"
+    effort-out-of-4: 2
+    empty: 2
+    plain-text: In the last two or so weeks of the sprint, start wrapping up the sprint. This will involve beginning to plan an end-of-sprint event or Demo Day, as well as facilitating final demos.
+    highlight: This phase of sprint facilitation becomes much lighter touch, as tech teams will be focused on product development.
+
+    key_actions:
+      - number: 1
+        text:
+          - b: Decide what kind of in-person event you will host after the sprint concludes
+        highlight: See the following phase for more detailed information
+        toggle:
+          - ul:
+            - li: Set a date and time. Consider facilitating an event a few weeks after the end of the sprint
+            - li: Identify a location. Typically Demo Days are held in auditoriums or conference rooms
+            - highlight: An auditorium will be most conducive to offering each team a few minutes on stage to speak about their product (“lighting talks”),  while a conference room is better suited for live demo tables, where each tech team is assigned a table with a screen to demo their product as attendees visit tables over the course of 1-2 hours
+      - number: 2
+        text:
+          - p: Tech teams should begin to
+          - b:  prepare for a Final Demo,
+          - p: where teams will present an MVP, or
+          - b: Minimum Viable Product,
+          - p: which has enough features to allow for testing
+      - number: 3
+        text:
+          - b:  Facilitate a Final Demo
+        toggle:
+          - ul:
+            - li: "Sprint facilitators assign each team a time slot during the milestone call. Each team will: identify their intended end user; walk through the user journey (the steps a user might take to interact with the tool); identify what federal data was incorporated during the sprint"
+            - li: Sprint facilitators, user advocates, problem statement leads, data stewards, and other tech teams offer feedback to each team
+      - number: 4
+        text:
+          - p: "After the demo, encourage tech teams to:"
+          - ul:
+            - li: Incorporate feedback from the demo
+            - li:  With input from user advocates, continue to test their product
+            - li:  Develop plans for product development and deployment after the sprint
+            - highlight: Tech teams can coordinate with user advocates and community organizations who can share the products with intended end users through their outreach platforms. Also consider sharing the resources provided below
+
+    resources:
+      - link: https://knightfoundation.org/articles/five-lessons-investing-civic-tech/
+        title: Knight Foundation - Five Lessons From Investing in Civic Tech
+        description: Consider the importance of partnering with organizations that have existing heavy web traffic with your end users, as well as creating a strong physical presence in the community you seek to impact
+      - link: https://www.ideo.org/perspective/start-with-people-design-for-partners
+        title: IDEO.org - Start with People, Design for Partners
+        description: Consider some of these tips on developing impactful partnerships

@@ -1,0 +1,41 @@
+
+# body
+# the main content is divided into sections, which are rendered onto the page in order.
+
+body:
+  - title: What is the TOPx toolkit?
+    text:
+      - p: Unlike an ordinary TOP sprint, which is facilitated by the team at the U.S. Census Bureau and focuses on challenges identified by multiple federal agencies, a
+      - b: "TOPx sprint allows federal agencies to utilize the TOP model and resources to:"
+      - ul:
+        - li: Identify priorities at the heart of an agency’s mission that require data and technology innovation
+        - li: Recruit cross-sector participants
+        - li: Facilitate a virtual technology development sprint on a flexible and modifiable timeline
+  - title: What’s Included?
+    text:
+      - ul:
+        - li:	Detailed step by step guide to facilitating a TOP sprint
+        - li:	"Each sequential step includes:"
+        - p: Checklists with key action items
+        - p: Tips and best practices
+        - p: Downloadable templates (e.g. emails, outreach materials, facilitation guides)
+        - li: Technical assistance and collaboration from TOP team
+  - title: Why facilitate a TOPx sprint?
+    text:
+      - ul:
+        - li:	Meet federal requirements to ensure reuse of your data
+        - li:	Facilitate a lightweight, cost-effective, and modifiable virtual program
+        - li:	Catalyze innovation within your agency
+        - li:	Engage with data consumers and improve data quality
+
+
+
+resources:
+  # - link: https://docs.google.com/document/d/1NzKCPBiK0IER8uWhCugaga7Iz_3NuvVEYpbuE6tcjpo/edit?usp=sharing
+  #   title: Fill out an Interest Form
+  #   description: The TOP team will reach out to give an overview of the process and provide a point of contact who can act as a resource and guide along the way
+  - internal-link: topx-toolkit/glossary/
+    title: Explore Our Glossary
+    description: Facilitating a sprint requires no prior technology or product development knowledge, but for those new to the space it may be helpful to review some key terms
+  - title: Read the Entirety of the Toolkit
+    description: Before kicking off, many of the steps are overlapping and require an understanding of the entire process

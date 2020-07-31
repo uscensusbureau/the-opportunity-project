@@ -481,6 +481,9 @@ body {
 
 .sidenav {
   display: none;
+  position: sticky;
+  top: 150px;
+  left: 100px;
 
   @include at-media("desktop") {
     display: block;
@@ -488,7 +491,7 @@ body {
     margin-bottom: units(6);
     margin-top: units(4);
     padding-right: 0;
-    padding-left: units(4);
+    // padding-left: units(4);
     width: units($width-nav-sidebar);
   }
 
@@ -1245,6 +1248,97 @@ body {
       }
     }
   }
+
+
+// TOOLKITS ----------------- //
+
+.toolkit-hero-image {
+  @include at-media("desktop") {
+    margin-left: -50px;
+  }
+  display: inline;
+}
+
+.toolkit-colored-div {
+  width: 110vw;
+  margin-left: calc(-55vw + 55%);
+}
+
+.toolkit-resources {
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+  .toolkit-resource-link {
+    color: #000000;
+    &::before {
+      @include u-square(2);
+      background: url("../img/icons/arrow-up-right.png") no-repeat 0 0;
+      background-size: 100%;
+      content: "";
+      display: inline-block;
+      margin-top: 2px;
+      margin-right: units(1.5);
+      text-decoration: none;
+    }
+    &#{$external-href}::after {
+      display: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.toolkit-highlight {
+  color: color(base-light);
+  font-style: italic;
+  border-left: 2px solid color(base-light);
+  margin-left: units(6);
+  padding-left: units(2);
+  margin-top: 0;
+}
+
+.toolkit-checkmark {
+  list-style-image: url('../img/icons/check.png');
+
+  .nested-bullet {
+    margin-left: units(5);
+    list-style-image: circle !important;
+  }
+}
+
+.toolkit-table {
+  width: 100%;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	        box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+
+  th {
+    border: none;
+    font-weight: bold;
+    padding-left: 0;
+  }
+
+  td.col-1 {
+    border: 1px solid color(base-lighter);
+    text-align: left;
+    padding: 6px;
+  }
+
+  td.col-2 {
+    border: 1px solid color(base-lighter);
+    text-align: center;
+  }
+
+  td.col-3 {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 6px;
+  }
+}
 
 
 // Styleguide Content -------- //
@@ -2741,6 +2835,34 @@ code {
   }
 }
 
+.usa-accordion__button-toolkit {
+  background-image: none;
+  @include at-media("tablet") {
+    @include add-icon(
+      "angle-arrow-down-primary",
+      "after",
+      1,
+      1,
+      2px,
+      "no-hover"
+    );
+  }
+  &[aria-expanded="false"] {
+    background-image: none;
+  }
+  &[aria-expanded="true"] {
+    @include at-media("tablet") {
+      @include add-icon(
+        "angle-arrow-up-primary",
+        "after",
+        1,
+        1,
+        2px,
+        "no-hover"
+      );
+    }
+  }
+}
 
 .dropdown-menu {
   @include u-width('mobile');

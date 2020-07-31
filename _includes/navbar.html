@@ -14,7 +14,7 @@
           <span><img src="{{site.baseurl}}/assets/img/top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
         </a>
       </div>
-      <div class="usa-logo site-logo logo-image-desktop" id="logo">
+      <div class="usa-logo site-logo logo-image-desktop margin-right-10" id="logo">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
           <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
         </a>
@@ -32,14 +32,14 @@
                 <ul id="extended-nav-section-one" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
-                      <a href="{{ site.baseurl }}/{{link.href}}/{{subnav.href}} font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                      <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                     </li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-left-4" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+                <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white margin-right-2" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
               </li>
             {% endif %}
           {% endfor %}

@@ -55,6 +55,22 @@ $('.sidenav').on('click', 'a', function (e) {
   });
 });
 
+
+
+$('.usa-sidenav').on('click', 'a', function (e) {
+  e.preventDefault();
+  var sideLinks = document.getElementsByClassName("usa-current");
+  var i;
+
+  if (sideLinks.length > 0 ) {
+    for (i = 0; i < sideLinks.length; i++ ) {
+      console.log(sideLinks[i])
+      $(sideLinks[i]).removeClass("usa-current");
+    }
+  }
+  // console.log(this.closest('li'));
+  $( this ).closest('li').addClass('usa-current');
+});
 //var navHeight = function () {
 //  $('.sidenav').css('height', (window.innerHeight - 50));
 //};
@@ -64,3 +80,26 @@ $('.sidenav').on('click', 'a', function (e) {
 //$( window ).resize(function () {
 //  navHeight();
 //});
+
+
+var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");
+var sections = document.getElementsByClassName("toolkit-section")
+
+function updateSidenav() {
+  var currentDistanceFromWindowTop = window.scrollY;
+
+  var i;
+  for (i = 0; i < sideNavLinks.length; i++ ) {
+    var section = sections[i];
+    var divDistanceFromTop = section.getBoundingClientRect().top;
+    var divHeight = section.offsetHeight;
+    if (divDistanceFromTop <= 250 && divDistanceFromTop + divHeight > 50 ) {
+        sideNavLinks[i].classList.add("usa-current");
+    } else {
+      sideNavLinks[i].classList.remove("usa-current");
+    }
+  }
+};
+
+// Add event listener to scroll
+window.addEventListener("scroll", updateSidenav);

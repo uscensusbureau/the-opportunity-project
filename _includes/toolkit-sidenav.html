@@ -1,0 +1,34 @@
+<aside class="sidenav z-200">
+  <nav aria-label="Secondary navigation">
+  <ul class="usa-sidenav bg-white">
+    {% for link in page.sidebar %}
+      <li class="usa-sidenav__item">
+        <a href="{{link.href}}" class="font-sans-3xs">{{ link.text }}</a>
+          <ul class="usa-sidenav__sublist">
+            {% for sublink in link.subnav %}
+              <li class="usa-sidenav__item">
+                <a href="{{ sublink.href}}" class="font-sans-3xs">{{ sublink.text }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+</aside>
+<!-- <aside class="sidenav">
+  {% assign sidenav = site.data.nav[page.class] %}
+  {% if sidenav %}
+  <ul class="site-sidenav usa-sidenav">
+    {% include nav/list.html links=sidenav %}
+  </ul>
+  {% endif %}
+</aside> -->
+<!-- <aside class="sidenav">
+  {% assign sidenav = site.data.nav[page.class] %}
+  {% if sidenav %}
+  <ul class="site-sidenav usa-sidenav">
+    {% include nav/list.html links=sidenav %}
+  </ul>
+  {% endif %}
+</aside> -->

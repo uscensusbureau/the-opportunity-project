@@ -35,7 +35,7 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
 ---
 
 {% include toolkit-hero.html %}
-<section class="grid-container display-inline-block padding-top-8">
+<section class="grid-container display-inline-block padding-top-8 padding-right-4">
   <div class="grid-row">
     <div class="desktop:grid-col-4">
       {% include toolkit-sidenav.html %}

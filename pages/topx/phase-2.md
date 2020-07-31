@@ -39,7 +39,7 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
     <div
       class="desktop:grid-col-7 margin-left-7 tablet:grid-col-6 display-inline-block"
     >
-      {% for item in site.data.toolkits.topx.phase-1.body %}
+      {% for item in site.data.toolkits.topx.phase-2.body %}
         <div class="toolkit-section">
           {% include toolkit-header.html %}
           {% include toolkit-key-actions.html %}

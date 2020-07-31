@@ -15,6 +15,10 @@ sidebar:
     href: "#toolkit-step-3"
   - text: STEP 4
     href: "#toolkit-step-4"
+  - text: STEP 5
+    href: "#toolkit-step-5"
+  - text: STEP 6
+    href: "#toolkit-step-6"
 
 
 color: accent-warm-light
@@ -31,7 +35,7 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
 ---
 
 {% include toolkit-hero.html %}
-<section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
+<section class="grid-container display-inline-block padding-top-8">
   <div class="grid-row">
     <div class="desktop:grid-col-4">
       {% include toolkit-sidenav.html %}
@@ -40,11 +44,11 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
       class="desktop:grid-col-7 margin-left-7 tablet:grid-col-6 display-inline-block"
     >
       {% for item in site.data.toolkits.topx.phase-2.body %}
-        <div class="toolkit-section">
+        <div class="toolkit-section margin-top-10">
           {% include toolkit-header.html %}
           {% include toolkit-key-actions.html %}
           {% include toolkit-resources.html %}
-          <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-10">
+          <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-neg-2">
           </div>
         </div>  
       {% endfor %}

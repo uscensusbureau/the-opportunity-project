@@ -9,12 +9,7 @@ primary:
     href: '#news'
   - text: Curated Datasets
     href: data/
-  - text: Toolkits
-    accordion:
-      - text: TOPx
-        href: topx-toolkit/introduction/
-      - text: Product Development
-        href: product-development/toolkit/
+
 
 mobile:
   - text: Home

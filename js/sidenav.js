@@ -93,10 +93,8 @@ function updateSidenav() {
     var section = sections[i];
     var divDistanceFromTop = section.getBoundingClientRect().top;
     var divHeight = section.offsetHeight;
-    console.log("step", i, "div distance to top: ", divDistanceFromTop, "current number of pixles to the top scoll position:", currentDistanceFromWindowTop,  "total humber of pixles to the bottom of the div:", (divDistanceFromTop + divHeight))
     if (divDistanceFromTop <= 250 && divDistanceFromTop + divHeight > 50 ) {
         sideNavLinks[i].classList.add("usa-current");
-        // console.log(sideNavLinks[i])
     } else {
       sideNavLinks[i].classList.remove("usa-current");
     }

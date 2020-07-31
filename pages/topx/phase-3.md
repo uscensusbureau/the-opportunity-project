@@ -12,10 +12,7 @@ sidebar:
     href: "#toolkit-step-1"
   - text: STEP 2
     href: "#toolkit-step-2"
-  - text: STEP 3
-    href: "#toolkit-step-3"
-  - text: STEP 4
-    href: "#toolkit-step-4"
+
 
 header: Post-Sprint
 lead:
@@ -35,7 +32,7 @@ image-alt: Three vertical rectangles in a row. The last is filled in blue with a
     <div
       class="desktop:grid-col-7 margin-left-7 tablet:grid-col-6 display-inline-block"
     >
-      {% for item in site.data.toolkits.topx.phase-1.body %}
+      {% for item in site.data.toolkits.topx.phase-3.body %}
         <div class="toolkit-section">
           {% include toolkit-header.html %}
           {% include toolkit-key-actions.html %}

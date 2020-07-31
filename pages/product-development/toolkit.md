@@ -27,7 +27,7 @@ image-alt: Illustration of a group of red, yellow, and blue squares and rectangl
 header: Product Development Toolkit
 lead:
   - text:
-    - p: This toolkit documents the process that The Opportunity Project team at the Department of Commerce and other federal agencies have used to facilitate collaborative, user-centered technology development sprints. Anyone interested in transforming federal data into digital tools for the American people can adopt this process, adapt it for your own sprint, and share your feedback to help improve it.
+    - p: This toolkit documents the process that The Opportunity Project team at the U.S. Census Bureau and other federal agencies have used to facilitate collaborative, user-centered technology development sprints. Anyone interested in transforming federal data into digital tools for the American people can adopt this process, adapt it for your own sprint, and share your feedback to help improve it.
     - p: Civic tech organizations, coding boot camps, federal agencies, and more have adopted The Opportunity Project process. We hope that teachers, community organizations, and state, local, and other government leaders will use it and share feedback to help improve it.
 
 ---

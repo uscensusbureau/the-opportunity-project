@@ -18,12 +18,6 @@ lead:
     - p: that solve key national challenges at the heart of
     - b: your agency’s
     - p: mission.
-  - text:
-    - b: "Before you start:"
-    - p: Fill out an
-    - a: Interest Form
-      href: https://docs.google.com/document/d/1NzKCPBiK0IER8uWhCugaga7Iz_3NuvVEYpbuE6tcjpo/edit
-    - p: to connect with us and get support!
 
 image: introduction.png
 image-alt: Illustration of three vertical rectangles in a row. They are red, yellow, and blue.

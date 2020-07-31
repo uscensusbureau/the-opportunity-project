@@ -180,6 +180,8 @@
         {% for resource in site.data.toolkits.topx.intro.resources %}
           {% if resource.link %}
             <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
+          {% elsif resource.internal-link %}
+            <a href="{{ site.baseurl }}/{{resource.internal-link}}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
           {% else %}
             <p class="text-bold">{{resource.title }}</p>
           {% endif %}

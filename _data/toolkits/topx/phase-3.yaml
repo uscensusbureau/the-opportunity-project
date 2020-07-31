@@ -100,9 +100,9 @@ body:
             highlight: If your agency would like to provide funding for the TOP team to create a separate category for participants from your TOPx sprint, that is an option
 
     resources:
-      - link: https://docs.google.com/document/d/1Puh1t7yj8CyvOs5DY8XqXjDzrJjv6h0ymv_4CsMOrvg/edit?usp=sharing
-        title: Sprint Summary and Feedback Form
-        description: Share your methods and experience with TOPx. The Opportunity Project team at Census would like to hear how the process went, what tools came out of the sprint, and how we can help amplify this work
+      # - link: https://docs.google.com/document/d/1Puh1t7yj8CyvOs5DY8XqXjDzrJjv6h0ymv_4CsMOrvg/edit?usp=sharing
+      #   title: Sprint Summary and Feedback Form
+      #   description: Share your methods and experience with TOPx. The Opportunity Project team at Census would like to hear how the process went, what tools came out of the sprint, and how we can help amplify this work
       - link: https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/prize_authority_in_the_america_competes_reauthorization_act.pdf
         title: America COMPETES Prize Authority Information
         description: Agencies have the authority to conduct prize competitions in order to spur innovation, solve tough problems, and advance their core mission

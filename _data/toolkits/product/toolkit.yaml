@@ -23,10 +23,10 @@ body:
           - p: See Resources below for a list of roles, which may be combined or adapted to best meet your team’s structure
 
     resources:
-      - link:
+      - link: https://data.world/opportunity/problem-statements
         title: Problem Statements Defined by Federal Agencies
         description: The problem statements can serve as a starting point for your team. Work with local experts and user advocates to narrow or revise the scope for your own project.
-      - link:
+      - link: "#toolkit-step-3"
         title: Detailed User Scenarios
         description: The user scenarios were written by user advocates and people with lived experience, and they provide examples of real-world challenges and the stories behind them from the end user's perspective.
 
@@ -85,13 +85,13 @@ body:
             - li: Track usage and metrics of impact
 
     resources:
-      - link:
+      - link: https://dataacademy.commerce.gov/previous-courses.html
         title: Commerce Data Academy
         description: Build your team's skills with courses from the US Department of Commerce's Commerce Data Academy on topics including User Experience Design, Qualitative User Research, Git and GitHub, Java and more.
-      - link:
+      - link: http://brigade.codeforamerica.org/brigade/list
         title: Code for America Brigade
         description: Look for additional tech talent within a local tech Meetup, Code for America Brigade, or other civic tech organization if there is one in your community.
-      - link:
+      - link: https://opportunity-slack.herokuapp.com/
         title: Slack Community
         description: Join our online Slack community to recruit collaborators and chat with others. Start a conversation by location, issue, or anything else!
 
@@ -227,13 +227,13 @@ body:
       - link: https://www.invisionapp.com/inside-design/empathy-isnt-enough/
         title: Empathy Isn't Enough
         description: Written by a past TOP participant, this article is about the user research workshop, user interviews, and other methods they used to build a useful tool for youth experiencing homelessness
-      - link:
+      - link: https://www.youtube.com/watch?v=PR0u_Y7d63E
         title: User Centered Design Training
         description: Watch this user-centered design training that Exygy created for Opportunity Project participants.
       - link: https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews
         title: How to Conduct User Interviews
         description: Provides tips on how to develop interview questions and conduct user interviews
-      - link:
+      - link: https://www.ideou.com/pages/design-thinking
         title: IDEO Design Methods
         description: Consider using IDEO Design Methods to narrow down your problem statement.
 
@@ -379,13 +379,13 @@ body:
           - p: Share your code! We highly encourage you to make your projects open source and free for use by the public. A local tool in Baltimore, MD can be used in Austin, Texas, just by using different data sources!
 
     resources:
-      - link:
+      - link: https://www.youtube.com/watch?v=rwES25_sL0E&feature=youtu.be
         title: Launch event
         description: Watch the video from The Opportunity Project launch event in March 2016.
-      - link:
+      - link: https://www.youtube.com/watch?v=uqIiMj2S_Vk
         title: Demo Day 2016
         description: Watch the video from The Opportunity Project rollout event and demo in October 2016.
-      - link:
+      - link: https://www.youtube.com/watch?v=hiqn9a64wlo&feature=youtu.be
         title: Demo Day 2017
         description: Watch the video from The Opportunity Project rollout event and demo in November 2017.
 

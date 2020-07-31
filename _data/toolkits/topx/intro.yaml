@@ -31,10 +31,10 @@ body:
 
 
 resources:
-  - link: https://docs.google.com/document/d/1NzKCPBiK0IER8uWhCugaga7Iz_3NuvVEYpbuE6tcjpo/edit?usp=sharing
-    title: Fill out an Interest Form
-    description: The TOP team will reach out to give an overview of the process and provide a point of contact who can act as a resource and guide along the way
-  - link: /topx-toolkit/glossary/
+  # - link: https://docs.google.com/document/d/1NzKCPBiK0IER8uWhCugaga7Iz_3NuvVEYpbuE6tcjpo/edit?usp=sharing
+  #   title: Fill out an Interest Form
+  #   description: The TOP team will reach out to give an overview of the process and provide a point of contact who can act as a resource and guide along the way
+  - internal-link: topx-toolkit/glossary/
     title: Explore Our Glossary
     description: Facilitating a sprint requires no prior technology or product development knowledge, but for those new to the space it may be helpful to review some key terms
   - title: Read the Entirety of the Toolkit

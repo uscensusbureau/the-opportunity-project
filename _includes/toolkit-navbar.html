@@ -44,7 +44,11 @@
     </div>
     <nav class="site-nav-secondary page-{{page.class}} position-sticky padding-left-15">
       <ul class=" margin-left-10 padding-left-15">
-        {% assign links = site.data.nav.secondary %}
+        {% if page.type == "topx" %}
+          {% assign links = site.data.nav.toolkit.topx %}
+        {% else %}
+          {% assign links = site.data.nav.toolkit.product %}
+        {% endif %}
         {% for link in links %}
           <li class="usa-nav__primary-item">
             <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
@@ -88,7 +92,9 @@
   </form> -->
   <div class="usa-nav__inner">
     <ul class="usa-nav__primary usa-accordion">
-      {% include nav/sections.html sections=site.data.nav.mobile %}
+      {% if page.type == "topx" %}
+        {% include nav/sections.html sections=site.data.nav.toolkits.topx %}
+      {% endif %}
     </ul>
   </div>
 </nav>

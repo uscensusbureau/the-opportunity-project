@@ -1,9 +1,19 @@
-{% assign links = site.data.nav.primary %}
+{% if page.type == "topx" %}
+  {% assign links = site.data.nav.toolkit.topx %}
+{% else %}
+  {% assign links = site.data.nav.primary %}
+{% endif %}
 {% for link in links %}
   <li class="usa-nav__primary-item">
-    <a href="{{ link.href }}"><span>{{ link.text }}</span></a>
+    <a href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
   </li>
 {% endfor %}
-<li class="usa-nav__primary-item">
-  <a href="{{ site.baseurl }}/sprints"><span>Get Involved</span></a>
-</li>
+{% if page.type == "topx" %}
+  <li class="usa-nav__primary-item">
+    <a href="{{ site.baseurl }}/"><span>Back to Main Site</span></a>
+  </li>
+{% else %}
+  <li class="usa-nav__primary-item">
+    <a href="{{ site.baseurl }}/sprints"><span>Get Involved</span></a>
+  </li>
+{% endif %}

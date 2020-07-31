@@ -36,7 +36,7 @@ lead:
 {% include toolkit-sidenav.html %}
 <section>
   {% for item in site.data.toolkits.product.toolkit.body %}
-    <section class="grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
+    <section class="toolkit-section grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
       <div
         class="desktop:grid-offset-{{item.offset}} desktop:padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
       >

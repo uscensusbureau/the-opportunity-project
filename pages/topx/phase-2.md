@@ -41,7 +41,7 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
       {% include toolkit-sidenav.html %}
     </div>
     <div
-      class="desktop:grid-col-7 margin-left-7 tablet:grid-col-6 display-inline-block"
+      class="desktop:grid-col-7 desktop:margin-left-7 grid-col-10 display-inline-block"
     >
       {% for item in site.data.toolkits.topx.phase-2.body %}
         <div class="toolkit-section margin-top-10">

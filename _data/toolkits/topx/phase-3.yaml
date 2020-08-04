@@ -66,7 +66,7 @@ body:
     time: "2-4 weeks"
     effort-out-of-4: 1
     empty: 3
-    plain-text: After hosting an in-person event,  let teams know what their options are for staying in touch and continuing product development and deployment. The TOP team at the Census Bureau facilitates post-sprint opportunities, which TOPx participants can also become involved in.
+    plain-text: After hosting an in-person event, let teams know what their options are for staying in touch and continuing product development and deployment. The TOP team at the Census Bureau facilitates post-sprint opportunities, which TOPx participants can also become involved in.
 
     key_actions:
       - number: 1

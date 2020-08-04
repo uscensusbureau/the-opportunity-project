@@ -41,13 +41,13 @@ body:
           - b: Begin meeting weekly as a facilitation team
           - p: to efficiently distribute responsibility and share out progress
     resources:
-      - link: https://docs.google.com/document/d/1060-djdeTIRsKwrA2zZjgO7ZojIOmWnpHpi_ieoanPE/edit?usp=sharing
+      - download-link: "topx-resources/intro-to-topx-email.docx"
         title: "Introduction to TOPx Email"
         description: Modify this template email depending on the audience to spread the word about TOPx within your agency
-      - link: https://docs.google.com/document/d/1pjFDVj9vJ6SooAjPBlJEQr5gj_N9ur1mTBAteniBOoo/edit?usp=sharing
+      - download-link: "topx-resources/topx-overview-for-agencies.docx"
         title: TOPx Overview for Agencies
         description: Attach this information sheet when spreading the word about TOPx within your agency
-      - link: https://docs.google.com/document/d/1z94EDrNiSn5KR86QjE_onhwLjOkVjvtYZONDsYvvnuU/edit?usp=sharing
+      - download-link: "topx-resources/potential-roles.pdf"
         title: TOPx Facilitation Team - Potential Roles
         description: A list of potential roles for a TOPx facilitation team, which can be modified as needed
 
@@ -81,13 +81,13 @@ body:
         highlight:
           - p: Problem statement leads are subject matter experts. They may be directors of policy offices, special advisors on policy areas, or others with expertise in the challenge
     resources:
-      - link: https://docs.google.com/document/d/1BlSIe28RYdKaOmjvSck6UtZvoWi8oWfei8jRUAyg_HE/edit?usp=sharing
+      - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
         title: What Makes a Good Problem Statement
         description: Read guidelines for which problem statements are most effective and impactful
       - link: https://opportunity.census.gov/sprints/#past-challenges
         title: Past TOP Problem Statements
         description: Explore past problem statements to help you brainstorm and get a sense of the typical language
-      - link: https://docs.google.com/document/d/1K-9yafkAzeFV-teiwr7pOamVBayQfJhKhLxHnUzCzSk/edit?usp=sharing
+      - download-link: "topx-resources/problem-statement-template.docx"
         title: Problem Statement Template
         description: Use this template to draft problem statements
       # - link: https://docs.google.com/document/d/1LHh4x_6ELOSMF-d-3ytd_F0kbHq4x_1DZRbIm_kEPeE/edit?usp=sharing
@@ -166,22 +166,22 @@ body:
 
 
     resources:
-      - link: https://docs.google.com/document/d/1P4OFToaQ16OZrwTHybMJh59oVgzbA9BhtxNwIw5yfhY/edit?usp=sharing
+      - download-link: "topx-resources/sprint-timeline-template.docx"
         title: Sprint Timeline
         description: High-level timeline of the sprint, which you can modify to work best for your agency
       - link: https://opportunity.census.gov/our-process/#roles
         title: Sprint roles
         description: Review the TOP website to learn more about each role in a sprint
-      - link: https://docs.google.com/document/d/12idZDfb_BvyEr09wBBVmmiSlzfTuQRhFaNLASfnMHls/edit?usp=sharing
+      - download-link: "topx-resources/identifying-sprint-participants.pdf"
         title: Tips for Identifying Potential Sprint Participants
         description: Information on what organizations sprint participants come from and what skills to look for
-      - link: https://docs.google.com/document/d/1ExDN5Bmn0jVftw6bV_q-2lE5ORBoea5Zs6aJQtMUi24/edit?usp=sharing
+      - download-link: "topx-resources/topx-recruitment-email-template.docx"
         title: TOPx Recruitment Email
         description: Modify this template email to recruit tech teams and user advocates
-      - link: https://docs.google.com/document/d/14XZaGyUq-UWkFvyN44Hkk74A9_zDyBUMf58_G2VQl2w/edit?usp=sharing
+      - download-link: "topx-resources/tech-team-role-overview.docx"
         title: Tech Team Role Overview
         description: Explain TOPx and outline the tech team role
-      - link: https://docs.google.com/document/d/11Z8QQZxqYxdfbdYsGViCCdfkUrnKn95KosLGBJwprlQ/edit?usp=sharing
+      - download-link: "topx-resources/user-advocate-role-overview.docx"
         title: User Advocate Role Overview
         description: Explain TOPx and outline the user advocate role
 
@@ -223,6 +223,6 @@ body:
           - b: Set a date for a kickoff call and send a calendar invitation
           - p: to all sprint participants
     resources:
-      - link: https://docs.google.com/document/d/1pxDxopAiDSR4KMzk9NZNCspvnPwcIMA6EzLPRGd6kpM/edit?usp=sharing
+      - download-link: "topx-resources/slack-community-standards.docx"
         title: Slack Community Guidelines Template
         description: A set of standards to guide Slack communication during the sprint

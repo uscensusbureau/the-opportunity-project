@@ -28,13 +28,13 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
 ---
 
 {% include toolkit-hero.html %}
-<section class="grid-container display-inline-block padding-top-8 padding-right-4">
+<section class="grid-container display-inline-block padding-top-8">
   <div class="grid-row">
     <div class="desktop:grid-col-4">
       {% include toolkit-sidenav.html %}
     </div>
     <div
-      class="desktop:grid-col-7 desktop:margin-left-7 display-inline-block"
+      class="desktop:grid-col-7 desktop:margin-left-7 grid-col-12 display-inline-block"
     >
       {% for item in site.data.toolkits.topx.phase-1.body %}
         <div class="toolkit-section margin-top-10">

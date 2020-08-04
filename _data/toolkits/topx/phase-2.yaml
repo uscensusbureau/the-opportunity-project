@@ -50,7 +50,7 @@ body:
           - b: check in 1:1
           - p: as needed
     resources:
-      - link: {{site.baseurl}}/assets/files/topx-resources/milestone-facilitation.docx
+      - download-link: "topx-resources/milestone-facilitation-template.docx"
         title: Milestone Facilitation Guide Template
         description: Use this template to develop facilitation guides for milestone calls
 
@@ -75,7 +75,7 @@ body:
             - li: Agency problems statement leads offer background on each challenge
 
     resources:
-      - link: {{site.baseurl}}/assets/files/topx-resources/tips_leading_a_meeting_with_remote_participants.pdf
+      - download-link: "topx-resources/tips_leading_a_meeting_with_remote_participants.pdf"
         title: Tips on Leading a Meeting with Remote Participants
         description: Explore this guide on best practices for leading meetings remotely
 
@@ -199,7 +199,7 @@ body:
             - highlight: Consider sharing the resources provided below as tech teams continue product development, begin usability testing, and develop plans for measuring impact
 
     resources:
-      - link: {{site.baseurl}}/product-development/toolkit
+      - internal-link: "product-development/toolkit"
         title: TOP Product Development Toolkit
         description: A resource that walks technologists through the TOP model for civic tech product development
       - link: https://www.civicplus.com/blog/ce/how-usability-testing-can-inform-your-municipal-website-design

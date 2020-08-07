@@ -188,8 +188,7 @@ body:
             - li: Sprint facilitators assign each tech team a short time slot during the milestone call, which is best facilitated via video conferencing. Tech teams share their initial progress
             - highlight: There will likely be significant variation in terms of progress and product maturity. Some teams may present powerpoint presentations with initial concepts, while others may have wireframes, mockups, or initial tools in progress
             - li: Sprint facilitators, user advocates, problem statement leads, data stewards, and other tech teams offer feedback to each team
-
-      - number: 2
+      - number: 3
         text:
           - p: "After the demo, encourage teams to:"
           - ul:

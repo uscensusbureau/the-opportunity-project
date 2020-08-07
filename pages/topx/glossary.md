@@ -17,7 +17,7 @@ resources:
     title: End User
     description: The person that a tech product is designed for
   - link: https://uxplanet.org/top-4-principles-of-human-centered-design-5e02751e65b1
-    title: Human-centered design
+    title: Human-Centered Design
     description: A process of designing for people. HCD develops solutions to problems by involving the human perspective in all steps of the problem-solving process
   - link: https://www.productplan.com/glossary/minimum-viable-product/
     title: Minimum Viable Product (MVP)

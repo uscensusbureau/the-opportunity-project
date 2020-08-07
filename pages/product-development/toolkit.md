@@ -4,6 +4,8 @@ class: toolkit
 permalink: /product-development/toolkit/
 layout: toolkit
 
+color: secondary
+
 sidebar:
   - text: STEP 1
     href: "#toolkit-step-1"
@@ -33,30 +35,34 @@ lead:
 ---
 
 {% include toolkit-hero.html %}
-{% include toolkit-sidenav.html %}
-<section>
-  {% for item in site.data.toolkits.product.toolkit.body %}
-    <section class="toolkit-section grid-container display-inline-block padding-top-8 desktop:margin-bottom-10">
-      <div
-        class="desktop:grid-offset-{{item.offset}} desktop:padding-left-{{item.padding}} desktop:grid-col-7 tablet:grid-col-6 display-inline-block"
-      >
-        {% include toolkit-header.html %}
-        {% include toolkit-key-actions.html %}
-        {% if item.roles %}
-          {% include toolkit-roles.html %}
-        {% endif %}
-        {% if item.scenarios %}
-          {% include toolkit-user-scenarios.html %}
-        {% endif %}
-        {% if item.timeline %}
-          {% include toolkit-timeline.html %}
-        {% endif %}
-        {% if item.resources %}
-          {% include toolkit-resources.html %}
-        {% endif %}
-      </div>
-    </section>
-    <div class="height-4 bg-secondary">
+<section class="grid-container display-inline-block padding-top-8 grid-col-12">
+  <div class="grid-row">
+    <div class="desktop:grid-col-4">
+      {% include toolkit-sidenav.html %}
     </div>
-  {% endfor %}
-</section>
+    <div
+      class="desktop:grid-col-7 desktop:margin-left-7 grid-col-12 display-inline-block"
+    >
+      {% for item in site.data.toolkits.product.toolkit.body %}
+        <div class="toolkit-section margin-top-10">
+          {% include toolkit-header.html %}
+          {% include toolkit-key-actions.html %}
+          {% if item.roles %}
+            {% include toolkit-roles.html %}
+          {% endif %}
+          {% if item.scenarios %}
+            {% include toolkit-user-scenarios.html %}
+          {% endif %}
+          {% if item.timeline %}
+            {% include toolkit-timeline.html %}
+          {% endif %}
+          {% if item.resources %}
+            {% include toolkit-resources.html %}
+          {% endif %}
+          <div class="toolkit-colored-div height-4 bg-{{page.color}} margin-bottom-neg-2">
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </section>

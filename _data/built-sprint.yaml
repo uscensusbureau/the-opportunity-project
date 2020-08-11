@@ -4,7 +4,7 @@
   federal: Federal data
   link: 'https://www.huduser.gov/portal/datasets/assthsg.html'
   poc: Lydia Taghavi
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Lydia.B.Taghavi@hud.gov
 - name: HUD Data Portal
   description:
@@ -16,7 +16,7 @@
   federal: Federal data
   link: 'https://www.huduser.gov/portal/pdrdatas_landing.html'
   poc: Lydia Taghavi
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Lydia.B.Taghavi@hud.gov
 - name: American Housing Survey
   description:
@@ -28,7 +28,7 @@
   federal: Federal data
   link: 'https://www.census.gov/programs-surveys/ahs.html'
   poc: Lydia Taghavi
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Lydia.B.Taghavi@hud.gov
 - name: HUD Enterprise GIS
   description: 'Web services for data including HUD, USDA, and Census'
@@ -36,7 +36,7 @@
   federal: Federal
   link: 'http://hudgis-hud.opendata.arcgis.com/'
   poc: Ted Payne
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Ted.E.Payne@hud.gov
 - name: Map of Opportunity Zones and Affordable Housing
   description:
@@ -48,7 +48,7 @@
   link:
     https://hud.maps.arcgis.com/apps/View/index.html?appid=cc05a273151d40a7b2eff47dc70bd745
   poc: Ted Payne
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Ted.E.Payne@hud.gov
 - name: Low-Income Housing Tax Credit Qualified Census Tracts
   description:
@@ -58,7 +58,7 @@
   federal: Federal
   link: 'https://www.huduser.gov/portal/datasets/qct.html'
   poc: Mike Hollar
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Michael.k.hollar@hud.gov
 - name: Low-Income Housing Tax Credit Database
   description:
@@ -68,7 +68,7 @@
   federal: Federal
   link: 'https://lihtc.huduser.gov/'
   poc: Mike Hollar
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Michael.k.hollar@hud.gov
 - name: Fair-Market Rent Data
   description:
@@ -78,7 +78,7 @@
   federal: Federal
   link: 'https://www.huduser.gov/portal/datasets/50per.html'
   poc: Peter Kahn
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: peter.b.kahn@hud.gov
 - name: 'HUD Services Data '
   description:
@@ -87,7 +87,7 @@
   federal: Federal
   link: 'https://www.hud.gov/findshelter'
   poc: Lydia Taghavi
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Lydia.B.Taghavi@hud.gov
 - name: 'HUD Community Assessment Reporting Tool (CART) '
   description:
@@ -97,7 +97,7 @@
   federal: Federal
   link: 'https://egis.hud.gov/cart/'
   poc: Ted Payne
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: Ted.E.Payne@hud.gov
 - name: HUD EnVision Centers
   description:
@@ -109,7 +109,7 @@
   federal: Federal
   link: 'https://www.huduser.gov/portal/envisioncenters/home.html'
   poc: Jennifer Bert & Adam Rumrill
-  problem-statement: Self-sufficiency
+  problem-statement: self-sufficiency
   email: 'Jennifer.Bert@hud.gov, Adam.R.Rumrill@hud.gov'
 - name: Treasury ZIP Code Statistics of Income
   description:
@@ -120,7 +120,7 @@
   link:
     "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi"
   poc: Kevin Pierce
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: kevin.k.pierce@irs.gov
 - name: Employment Data from Census by Geography
   description:
@@ -130,7 +130,7 @@
   federal: Federal
   link: 'https://www.census.gov/topics/employment.html'
   poc: Andy Hait
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: Andrew.W.Hait@census.gov
 - name: APIs & Developer Resources
   description:
@@ -141,7 +141,7 @@
   federal: Federal
   link: 'https://www.census.gov/developers/ '
   poc: Logan Powell
-  problem-statement: air-quality
+  problem-statement: self-sufficiency
   email: logan.t.powell@census.gov
 - name: American Community Survey - Demographic Data
   description:
@@ -152,7 +152,7 @@
   federal: Federal
   link: 'https://www.census.gov/data/developers/data-sets/acs-5year.html'
   poc: Logan Powell
-  problem-statement: air-quality
+  problem-statement: self-sufficiency
   email: logan.t.powell@census.gov
 - name: American Community Survey APIs
   description: Resources for demographic information at the Census tract level
@@ -160,7 +160,7 @@
   federal: Federal
   link: 'https://www.census.gov/data/developers/data-sets.html'
   poc: Logan Powell
-  problem-statement: air-quality
+  problem-statement: self-sufficiency
   email: logan.t.powell@census.gov
 - name: County Business Patterns
   description:
@@ -170,7 +170,7 @@
   federal: Federal
   link: 'https://www.census.gov/programs-surveys/cbp.html'
   poc: Andy Hait
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: Andrew.W.Hait@census.gov
 - name: 'Poverty Estimates, Trends, and Analysis'
   description:
@@ -180,7 +180,7 @@
   federal: Federal data
   link: 'https://aspe.hhs.gov/poverty-estimates-trends-and-analysis'
   poc: Bishen Singh
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: bishen.singh@nih.gov
 - name: HHS Data Initiative
   description: '4,500 datasets collected by HHS for use by researchers and entrepreneurs'
@@ -188,7 +188,7 @@
   federal: Federal data
   link: 'https://www.hhs.gov/cto/initiatives/data-initiative/index.html'
   poc: Bishen Singh
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: bishen.singh@nih.gov
 - name: Supplemental Nutrition Assistance Program (SNAP) Data System
   description:
@@ -200,7 +200,7 @@
   link:
     "https://healthdata.gov/dataset/supplemental-nutrition-assistance-program-snap-data-system"
   poc: Bishen Singh
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: bishen.singh@nih.gov
 - name: HHS Social Services Programs
   description:
@@ -211,7 +211,7 @@
   federal: Federal data
   link: 'https://www.hhs.gov/programs/social-services/index.html?language=es'
   poc: Bishen Singh
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: bishen.singh@nih.gov
 - name: HHS Wellness Programs
   description:
@@ -221,7 +221,7 @@
   federal: Federal data
   link: 'https://www.hhs.gov/programs/prevention-and-wellness/index.html?language=es'
   poc: Bishen Singh
-  problem-statement: economic-mobility
+  problem-statement: self-sufficiency
   email: bishen.singh@nih.gov
 - name: Charity Navigator
   description:
@@ -266,7 +266,7 @@
   federal: Federal
   link: 'https://www.census.gov/developers/ '
   poc: 'Logan Powell '
-  problem-statement: air-quality
+  problem-statement: sustainable-rural-development
   email: logan.t.powell@census.gov
 - name: American Community Survey - Demographic Data
   description:
@@ -276,7 +276,7 @@
   federal: Federal
   link: 'https://www.census.gov/data/developers/data-sets/acs-5year.html'
   poc: 'Eric Coyle '
-  problem-statement: air-quality
+  problem-statement: sustainable-rural-development
   email: Eric.A.Coyle@census.gov
 - name: American Community Survey APIs
   description: Resources for demographic information at the Census tract level
@@ -284,7 +284,7 @@
   federal: Federal
   link: 'https://www.census.gov/data/developers/data-sets.html'
   poc: Andy Hait
-  problem-statement: air-quality
+  problem-statement: sustainable-rural-development
   email: Andrew.W.Hait@census.gov
 - name: Employment Data from Census by Geography
   description:
@@ -294,7 +294,7 @@
   federal: Federal
   link: 'https://www.census.gov/topics/employment.html'
   poc: Andy Hait
-  problem-statement: economic-mobility
+  problem-statement: sustainable-rural-development
   email: Andrew.W.Hait@census.gov
 - name: County Business Patterns
   description:
@@ -304,7 +304,7 @@
   federal: Federal
   link: 'https://www.census.gov/programs-surveys/cbp.html'
   poc: Andy Hait
-  problem-statement: economic-mobility
+  problem-statement: sustainable-rural-development
   email: Andrew.W.Hait@census.gov
 - name: EPA Smart Location Database
   description:

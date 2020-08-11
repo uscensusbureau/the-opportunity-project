@@ -16,5 +16,8 @@
 
 - title: Built Environment
   image: /img/data-kits/gis.png
+  short_url: built-environment
+  link: data/built-environment
   description: Economic self-sufficiency and development
-  upcoming: true
+  upcoming: false
+  datasets: 60

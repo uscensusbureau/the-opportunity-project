@@ -132,36 +132,6 @@
   poc: Andy Hait
   problem-statement: self-sufficiency
   email: Andrew.W.Hait@census.gov
-- name: APIs & Developer Resources
-  description:
-    The Census application programming interface (API) lets developers create
-    custom apps to reach new users and makes key demographic, socio-economic and
-    housing statistics more accessible than ever before
-  agency: U.S. Census Bureau
-  federal: Federal
-  link: 'https://www.census.gov/developers/ '
-  poc: Logan Powell
-  problem-statement: self-sufficiency
-  email: logan.t.powell@census.gov
-- name: American Community Survey - Demographic Data
-  description:
-    Tract-level data on household characteristics and industry and occupation,
-    broken out by demographic characteristics of workers at the Census tract
-    level
-  agency: U.S. Census Bureau
-  federal: Federal
-  link: 'https://www.census.gov/data/developers/data-sets/acs-5year.html'
-  poc: Logan Powell
-  problem-statement: self-sufficiency
-  email: logan.t.powell@census.gov
-- name: American Community Survey APIs
-  description: Resources for demographic information at the Census tract level
-  agency: U.S. Census Bureau
-  federal: Federal
-  link: 'https://www.census.gov/data/developers/data-sets.html'
-  poc: Logan Powell
-  problem-statement: self-sufficiency
-  email: logan.t.powell@census.gov
 - name: County Business Patterns
   description:
     Annual data on employer businesses (e.g., no. of businesses, employment,
@@ -283,26 +253,6 @@
   agency: U.S. Census Bureau
   federal: Federal
   link: 'https://www.census.gov/data/developers/data-sets.html'
-  poc: Andy Hait
-  problem-statement: sustainable-rural-development
-  email: Andrew.W.Hait@census.gov
-- name: Employment Data from Census by Geography
-  description:
-    Data on Industry and Occupation, Employers (public and private), Commuting,
-    Labor Force Statistics, Work from Home, and more
-  agency: U.S. Census Bureau
-  federal: Federal
-  link: 'https://www.census.gov/topics/employment.html'
-  poc: Andy Hait
-  problem-statement: sustainable-rural-development
-  email: Andrew.W.Hait@census.gov
-- name: County Business Patterns
-  description:
-    Annual data on employer businesses (e.g., no. of businesses, employment,
-    payroll) at the state, county, metro area, and ZIP Code levels by industry
-  agency: U.S. Census Bureau
-  federal: Federal
-  link: 'https://www.census.gov/programs-surveys/cbp.html'
   poc: Andy Hait
   problem-statement: sustainable-rural-development
   email: Andrew.W.Hait@census.gov

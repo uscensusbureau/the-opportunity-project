@@ -7,7 +7,7 @@ dataset: built-sprint
 class: datakit
 
 lead:
- - Datasets on economic self-sufficiency and development
+ - Datasets on economic self-sufficiency, resources for refugees, rural economic development, and disaster spending.
 
 ---
 {% include hero.html %}

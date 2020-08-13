@@ -7,7 +7,7 @@ primary:
     href: showcase/
   - text: News
     href: '#news'
-  - text: Curated Datasets
+  - text: Datasets
     href: data/
   - text: Toolkit
     href: product-development/toolkit

@@ -8,13 +8,13 @@
       <div
         class="desktop:grid-col-3 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
       >
-        <div class="usa-media-block__body desktop:{{item.border}}">
+        <div class="usa-media-block__body {{item.border}}">
           {% if item.statistic %}
-            <p class="font-sans-3xl margin-bottom-0">{{ item.statistic }}</p>
-            <img src="{{site.baseurl}}/assets/img/icons/thick_underline.svg" alt="">
+            <p class="font-sans-3xl margin-bottom-neg-2">{{ item.statistic }}</p>
+            <img src="{{site.baseurl}}/assets/img/icons/thick_underline.svg" alt="" class="margin-0">
           {% endif %}
           {% if item.description %}
-            <p class="padding-right-4">{{ item.description }}</p>
+            <p class="padding-right-4 margin-top-1">{{ item.description }}</p>
           {% endif %}
         </div>
       </div>

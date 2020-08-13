@@ -25,7 +25,7 @@
           {% endfor %}
         {% endif %}
         {% for button in item.buttons %}
-          <a href="{{ button.link }}"><button class="usa-button__{{ button.style | slugify }}">{{ button.b }}</button></a><br>
+          <button class="usa-button__{{ button.style | slugify }}"><a href="{{ button.link }}">{{ button.b }}</a></button><br>
         {% endfor %}
       </div>
       <div
@@ -53,7 +53,7 @@
             <p>{{ text.description }}</p>
           {% endif %}
           {% if text.button %}
-            <a href="{{ button.link }}"><button class="usa-button__{{ button.style | slugify }}">{{ text.button }}</button></a><br>
+            <button class="usa-button__{{ button.style | slugify }}"><a href="{{ button.link }}">{{ text.button }}</a></button><br>
           {% endif %}
         </div>
       {% endfor %}

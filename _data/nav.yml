@@ -1,40 +1,76 @@
 primary:
   - text: About
-    href: /about/
-  - text: Our Process
-    href: /our-process/
-  - text: Showcase
-    href: /showcase/
-  - text: Curated Datasets
-    href: /data/
-  # - text: Get Involved
-  #   href: /get-involved
-  #   accordion:
-  #     - text: Join a Sprint
-  #       href: join-a-sprint/
+    href: about/
+  - text: Process
+    href: our-process/
+  - text: Products
+    href: showcase/
+  - text: News
+    href: '#news'
+  - text: Datasets
+    href: data/
+  - text: Toolkit
+    href: product-development/toolkit
+
 
 mobile:
   - text: Home
     href: /
   - text: About
-    href: /about/
+    href: about/
   - text: Our Process
-    href: /our-process/
+    href: our-process/
   - text: Showcase
-    href: /showcase/
+    href: showcase/
   - text: Curated Datasets
-    href: /data/
+    href: data/
+  - text: Toolkit
+    href: product-development/toolkit
   - text: Get Involved
-    href: /get-involved/
+    href: get-involved/
 
-# Problem statement:
-#   - text: Challenge
-#     href: "#challenge"
-#   - text: Background
-#     href: "#background"
-#   - text: Why this problem matters
-#     href: "#impact"
-#   - text: Vision
-#     href: "#vision"
-#   - text: Target Audience
-#     href: "#audience"
+
+secondary:
+  - text: Our Process
+    href: "#"
+  - text: How it Works
+    href: "#how-it-works"
+  - text: Roles
+    href: "#roles"
+  - text: Tech Teams
+    href: "#tech-teams"
+  - text: Government
+    href: "#government"
+  - text: User Advocates
+    href: "#user-advocates"
+  - text: Product Advisors
+    href: "#product-advisors"
+
+# toolkit:
+#   topx:
+#     - text: Introduction
+#       href: intro/
+#     - text: Phase 1
+#       href: phase-1/
+#     - text: Phase 2
+#       href: phase-2/
+#     - text: Phase 3
+#       href: phase-3/
+#     - text: glossary
+#       href: glossary/
+#   product:
+
+
+toolkit:
+  topx:
+    - text: Introduction
+      href: topx-toolkit/introduction/
+    - text: Phase 1
+      href: topx-toolkit/phase-1/
+    - text: Phase 2
+      href: topx-toolkit/phase-2/
+    - text: Phase 3
+      href: topx-toolkit/phase-3/
+    - text: glossary
+      href: topx-toolkit/glossary/
+  download-pdf-link: assets/files/TOPx_Toolkit.pdf

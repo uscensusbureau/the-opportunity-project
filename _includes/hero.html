@@ -1,18 +1,56 @@
-{% if page.class == "home" or page.class == "coil" %}
+{% if page.class == "home" %}
 {% assign hero = page.hero %}
-<section class="usa-hero">
-  <div class="grid-container usa-hero__bg desktop:padding-bottom-9 desktop:margin-bottom-9  padding-bottom-5">
-    <img class="maxw-tablet-lg position-absolute right-0 top-3 padding-top-9 padding-right-5 opacity-60" src="{{site.baseurl}}/assets/img/{{ page.hero.image}}" alt="{{ page.hero.image-alt}}">
+<section class="usa-hero padding-top-0">
+  <div class="grid-container usa-hero__bg background-hero-image-home"
+  >
+  <div class="desktop:padding-top-9">
     <h1 class="usa-hero__title grid-col-8
-     display-inline-block">{{ page.hero.text}}</h1>
-    <p class="usa-hero__subtitle grid-col-6">{{ page.hero.subtext }}</p>
+     display-inline-block  padding-top-9">{{ page.hero.text}}</h1>
+    <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
+    </div>
   </div>
-{% elsif page.class == "about" or  page.class == "our-process" %}
+{% elsif page.class == "coil" %}
+  {% assign hero = page.hero %}
+  <section class="usa-hero padding-top-0">
+    <div class="grid-container usa-hero__bg background-hero-image-coil"
+    >
+    <div class="desktop:padding-top-15">
+      <h1 class="usa-hero__title grid-col-8
+       display-inline-block desktop:margin-top-15 padding-top-9">{{ page.hero.text}}</h1>
+      <p class="usa-hero__subtitle grid-col-5">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
+{% elsif page.class == "hcd" %}
+  {% assign hero = page.hero %}
+  <section class="usa-hero padding-top-0">
+    <div class="grid-container usa-hero__bg background-hero-image-hcd desktop:padding-top-9"
+    >
+    <div class="desktop:margin-left-neg-3">
+      <h1 class="usa-hero__title desktop:grid-col-6
+       display-inline-block">{{ page.hero.text}}</h1>
+      <p class="usa-hero__subtitle desktop:grid-col-5">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
+{% elsif page.class == "about" or page.class == "datakit" %}
 <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
-    <div class="maxw-mobile-lg grid-offset-1">
+    <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
       <h1
-        class="hero--heading margin-top-10 line-height-sans-3 text-thin font-lang-13 text-white"
+        class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
+      >
+        {{ page.title }}
+      </h1>
+      {% for p in page.lead %}
+        <p class="font-sans-md text-white">{{ p }}</p>
+      {% endfor %}
+    </div>
+  </div>
+{% elsif page.class == "our-process" %}
+<section class="page-process interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
+  <div class="grid-container">
+    <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
+      <h1
+        class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold font-lang-13 text-white"
       >
         {{ page.title }}
       </h1>
@@ -23,19 +61,35 @@
   </div>
 {% elsif page.class == "case-study" %}
   <section class="interior-hero bg-base-darkest">
-    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-      <div class="inline-number">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-3">
+      <div class="inline-number margin-bottom-0">
         <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="" class="display-inline-block">
         <p class="font-mono-2xs text-ls-2 text-white display-inline-block padding-left-05"> FEATURED CASE STUDY</p>
       </div>
-      <h1 class="font-sans-3xl margin-bottom-0">{{ page.hero.product}}</h1>
-      <p class="font-mono-xs text-ls-2 text-white"> {{ page.hero.tech_team | upcase }}</p>
+      <h1 class="font-sans line-height-sans-3 text-semi-bold font-lang-13 margin-bottom-1">{{ page.hero.product}}</h1>
+      <p class="font-mono-xs text-ls-2 text-white margin-top-0 opacity-70"> {{ page.hero.tech_team | upcase }}</p>
+    </div>
+{% elsif page.class == "sprints" %}
+  <section class="interior-hero bg-base-darkest">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+      <h1 class="usa-hero__title margin-bottom-1">{{ page.hero.text}}</h1>
+      <div class="grid-col-5">
+        <p class="usa-hero__subtitle text-center">Sprints are <a href="{{ site.baseurl }}/our-process" class="text-white">12-week product development cycles </a> where we bring together tech teams and collaborators to build digital products using open data.</p>
+      </div>
+    </div>
+{% elsif page.class == "data"%}
+  <section class="interior-hero bg-base-darkest padding-bottom-15">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-15">
+      <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
+      <div class="grid-col-4">
+        <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
+      </div>
     </div>
 {% else %}
   <section class="interior-hero bg-base-darkest">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
       <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
-      <div class="grid-col-6">
+      <div class="grid-col-4">
         <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
       </div>
     </div>

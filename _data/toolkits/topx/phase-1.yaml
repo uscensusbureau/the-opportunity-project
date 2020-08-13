@@ -1,0 +1,228 @@
+sidebar:
+  - href: "/#intro"
+    text: test
+  - href: "/#intro"
+    text: subnav
+
+# body
+# the main content is divided into sections, which are rendered onto the page in order.
+
+body:
+  - section: Step 1
+    offset: 2
+    color:
+    header: Form a Facilitation Team
+    time: "2-4 weeks"
+    effort-out-of-4: 2
+    empty: 2
+    plain-text: As you begin the process of planning a TOPx sprint, it is important to build a coalition around your sprint within the agency.
+    highlight: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
+    illustration:
+    key_actions:
+      - number: 1
+        text:
+          - b: Spread the word
+          - p: about TOPx within your office and the broader agency
+        highlight:
+          - p: Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, and broader communications. A modifiable information sheet is provided in Resources below
+      - number: 2
+        text:
+          - b: Identify at least one senior agency official
+          - p: (up to your agency’s Secretary, Administrator, etc.) who is aware and supportive of the sprint and can serve as your
+          - b: executive level champion
+      - number: 3
+        text:
+          - b: Build a staff-level facilitation team.
+          - p: While a TOPx sprint may be facilitated by two people or eight depending on bandwidth, facilitating a TOPx sprint will require finding others within your agency to help you along the way
+        highlight:
+          - p: See Resources below for a list of roles, which may be combined or adapted to best meet your team’s structure
+      - number: 4
+        text:
+          - b: Begin meeting weekly as a facilitation team
+          - p: to efficiently distribute responsibility and share out progress
+    resources:
+      - download-link: "topx-resources/intro-to-topx-email.docx"
+        title: "Introduction to TOPx Email"
+        description: Modify this template email depending on the audience to spread the word about TOPx within your agency
+      - download-link: "topx-resources/topx-overview-for-agencies.docx"
+        title: TOPx Overview for Agencies
+        description: Attach this information sheet when spreading the word about TOPx within your agency
+      - download-link: "topx-resources/potential-roles.pdf"
+        title: TOPx Facilitation Team - Potential Roles
+        description: A list of potential roles for a TOPx facilitation team, which can be modified as needed
+
+  - section: Step 2
+    offset: 4
+    padding: 6
+    color:
+    header: Define Problem Statement(s)
+    time: "2-4 weeks"
+    effort-out-of-4: 3
+    empty: 1
+    plain-text: TOP aims to solve real-world problems facing individuals and communities. Problem statement development leverages your agency’s unique policy expertise to articulate specific national challenges requiring innovation, for which tech teams develop solutions. Each problem statement will outline the background and history of the challenge, potential end users who would benefit from a digital product, as well as some relevant data sets.
+    highlight: Be sure to review the Resources section below for guidelines, examples of past problem statements, and a template for writing your own.
+    key_actions:
+      - number: 1
+        text:
+          - b: Consider issue areas
+          - p: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
+      - number: 2
+        text:
+          - b: Develop 1-3 detailed problem statements
+        toggle:
+          - p: "To source problem statements, consider:"
+          - ul:
+            - li: Building a working group with representatives from across offices
+            - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
+      - number: 3
+        text:
+          - b: Each problem statement should include 1-3 points of contact/problem statement leads
+          - p: who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams
+        highlight:
+          - p: Problem statement leads are subject matter experts. They may be directors of policy offices, special advisors on policy areas, or others with expertise in the challenge
+    resources:
+      - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
+        title: What Makes a Good Problem Statement
+        description: Read guidelines for which problem statements are most effective and impactful
+      - link: https://opportunity.census.gov/sprints/#past-challenges
+        title: Past TOP Problem Statements
+        description: Explore past problem statements to help you brainstorm and get a sense of the typical language
+      - download-link: "topx-resources/problem-statement-template.docx"
+        title: Problem Statement Template
+        description: Use this template to draft problem statements
+      # - link: https://docs.google.com/document/d/1LHh4x_6ELOSMF-d-3ytd_F0kbHq4x_1DZRbIm_kEPeE/edit?usp=sharing
+      #   title: Problem Statement Support Form
+      #   description: Need support developing problem statements? Would you like the TOP team to read a draft of the statements? Once you fill out the form, a member of the TOP team will reach out
+
+
+  - section: Step 3
+    offset: 4
+    padding: 6
+    header: Recruit Sprint Participants
+    time: "2-4 weeks"
+    effort-out-of-4: 4
+    empty: 0
+    plain-text: Collaboration is an essential part of the TOPx process. Each sprint includes technologists from industry and/or universities, data and policy experts from government, community leaders, and advocates. The recruitment process gets these collaborators on board to participate in the sprint.
+    highlight: To get you started, we have provided essential outreach materials as templates under Resources below.
+    key_actions:
+      - number: 1
+        text:
+          - b: Identify start and end weeks for your sprint
+        highlight:
+          - p: To approximate a start date, consider that after you finish recruitment, you will need another 2-3 weeks to finalize sprint facilitation preparations. To decide on an end date, consider that a typical sprint is 12-14 weeks
+      - number: 2
+        text:
+          - b: Create a detailed sprint timeline,
+          - p: including the number and frequency of milestones. See Resources below for a template
+        highlight:
+          - p: Some agencies will choose to increase the number of touch-points, for example by including a weekly check-in call, while others will have fewer touchpoints, for instance only two or three milestone calls
+      - number: 3
+        text:
+          - b: Review explanations of sprint roles on the TOP website.
+          - p: A typical TOPx sprint will include policy experts (e.g., problem statement leads), data stewards, tech teams, and user advocates
+        highlight:
+          - p: Consider also identifying technologists from outside of government who can act as “product advisors” and offer tech teams product development and deployment expertise
+      - number: 4
+        text:
+          - b: Modify the templates
+          - p: found under Resources to develop outreach emails and recruitment materials
+      - number: 5
+        text:
+          - b: Develop a list of potential participants.
+          - p: See Resources for information on what to look for in potential participants
+        highlight:
+          - p: Engage your agency’s partnerships team to leverage existing relationships
+      - number: 6
+        text:
+          - b: Reach out to potential participants
+          - p: with relevant outreach emails and materials, including tech team or user advocate overview documents, problem statements and a timeline.
+      - number: 7
+        text:
+          - b: Engage with interested parties and share further information.
+          - p: Set up individual briefing calls
+        highlight:
+          - p: Consider also organizing a webinar or conference call to share information
+      - number: 8
+        text:
+          - b: Begin developing a list of likely participants.
+        toggle:
+          - p: "We recommend that each problem statement include:"
+          - ul:
+            - li: 3-4 tech teams
+            - li: At least 2-3 user advocates
+            - li: Where possible, 1 data steward for every data set
+      - number: 9
+        text:
+          - b: Connect with problem statement leads within your agency
+          - p: to ensure they understand their role
+        highlight:
+          - p: Problem statement leads should be available to address policy and operational questions throughout the sprint and participate in all milestones
+      - number: 10
+        text:
+          - b: Connect with data stewards
+          - p: to be sure they understand their role and identify additional data stewards as needed
+        toggle:
+          - p: Some data stewards were identified in the problem statement development step. Data stewards should be available to answer questions about data sets throughout the sprint and should plan to join the data exploration milestone, as well as both demos
+
+
+    resources:
+      - download-link: "topx-resources/sprint-timeline-template.docx"
+        title: Sprint Timeline
+        description: High-level timeline of the sprint, which you can modify to work best for your agency
+      - link: https://opportunity.census.gov/our-process/#roles
+        title: Sprint roles
+        description: Review the TOP website to learn more about each role in a sprint
+      - download-link: "topx-resources/identifying-sprint-participants.pdf"
+        title: Tips for Identifying Potential Sprint Participants
+        description: Information on what organizations sprint participants come from and what skills to look for
+      - download-link: "topx-resources/topx-recruitment-email-template.docx"
+        title: TOPx Recruitment Email
+        description: Modify this template email to recruit tech teams and user advocates
+      - download-link: "topx-resources/tech-team-role-overview.docx"
+        title: Tech Team Role Overview
+        description: Explain TOPx and outline the tech team role
+      - download-link: "topx-resources/user-advocate-role-overview.docx"
+        title: User Advocate Role Overview
+        description: Explain TOPx and outline the user advocate role
+
+
+  - section: Step 4
+    offset: 4
+    padding: 6
+    color:
+    header: Sprint Preparation
+    time: "2-4 weeks"
+    effort-out-of-4: 2
+    empty: 2
+    plain-text: Once you have recruited sprint participants, take a few weeks to prepare before launching the sprint. Confirm participants and organize the communication methods you will use throughout the sprint.
+    key_actions:
+      - number: 1
+        text:
+          - b: Confirm participation of sprint collaborators
+      - number: 2
+        text:
+          - b: Develop a technology communication infrastructure
+        toggle:
+          - ul:
+            - li: Set up a digital communication platform. For agencies that approve its use, Slack allows users to share messages, tools, and files
+            - li: Make sure you have access to a phone dial-in for facilitating milestone calls
+            - li: Identify a video conferencing tool that is approved by your agency. Some check-ins (e.g., demos) are better facilitated by video conferences
+            - highlight: If video conferencing is not an option within your agency, you may consider asking tech teams to tape a short video demo and send it in prior to the milestone
+      - number: 3
+        text:
+          - b: Send a welcome email to all sprint participants.
+        toggle:
+          - p: "This email should include:"
+          - ul:
+            - li: Sprint timeline
+            - li: Finalized problem statements
+            - li: A sprint participant contact list to encourage email communication between participants
+            - highlight: Include all sprint participants, but also ask each organization to identify a main point of contact to make communication more streamlined
+      - number: 4
+        text:
+          - b: Set a date for a kickoff call and send a calendar invitation
+          - p: to all sprint participants
+    resources:
+      - download-link: "topx-resources/slack-community-standards.docx"
+        title: Slack Community Guidelines Template
+        description: A set of standards to guide Slack communication during the sprint

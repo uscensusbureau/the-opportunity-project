@@ -1,0 +1,78 @@
+<h2>Key Actions</h2>
+{% for action in item.key_actions %}
+  <div
+    class="usa-media-block__inline-items"
+  >
+    <div class="inline-number">
+      {% if action.number %}
+        <p class="circle-3 bg-{{page.color}} {{page.text-color}}">{{ action.number }}</p>
+      {% endif %}
+    </div>
+    {% if action.text %}
+      <div class="inline-text">
+        <p>
+        {% for phrase in action.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% elsif phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    {% endif %}
+  </div>
+  {% if action.highlight %}
+    <div class="toolkit-highlight">
+      <p class="margin-top-0">
+      {% for phrase in action.highlight %}
+        {% if phrase.p %}
+          {{ phrase.p }}
+        {% endif %}
+        {% if phrase.ul %}
+          <ul>
+            {% for li in phrase.ul %}
+              <li>{{ li.li }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+      </p>
+    </div>
+  {% endif %}
+  {% if action.toggle %}
+    <div class="margin-left-6">
+      <button class="toggle-tip-button border-0 bg-white text-base-light"> + To Learn More </button>
+      <div id="{{action.toggle.id}}" class="modal-inactive toolkit-highlight margin-left-2 margin-top-1">
+        <p>
+        {% for phrase in action.toggle %}
+          {% if phrase.p %}
+            {{ phrase.p }}
+          {% endif %}
+          {% if phrase.ul %}
+            <ul>
+              {% for li in phrase.ul %}
+                {% if li.li %}
+                  <li>{{ li.li }}</li>
+                {% elsif li.highlight %}
+                  <p>{{ li.highlight}}</p>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+        </p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

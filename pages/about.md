@@ -6,7 +6,7 @@ layout: default-internal-page
 
 # hero section
 lead:
-  - 'The Opportunity Project at the U.S. Census Bureau helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
+  - 'The Opportunity Project helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
   - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 100 consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
 
 circuit-banner:
@@ -17,7 +17,7 @@ circuit-banner:
 
 #blue background section
 content-primary:
-  title: How America’s Data Becomes America’s Innovation
+  title: How America’s Data&nbsp;Becomes America’s Innovation
   description:
     - 'We facilitate 12-week product development cycles (called “sprints”) that pull together innovators from every sector. Tech teams join a sprint to build data-powered solutions to critical problems facing the public. Then, we match them with subject-matter experts, who offer valuable information and feedback. '
   subsections:
@@ -29,7 +29,6 @@ content-primary:
       description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
       image: photos/about/about-02.png
       image-alt: A man writing on a poster at a workshop
-
   button:
     - link:
       text: Learn More
@@ -50,6 +49,7 @@ photo:
     text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.
     button-text: Learn More
     button-link: coil
+    button-color: usa-button__secondary-white
   background: bg-base-lightest
 
 

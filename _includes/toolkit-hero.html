@@ -1,0 +1,40 @@
+<section class="interior-hero padding-top-4 bg-base-darkest">
+  <div class="grid-container padding-bottom-5">
+    <div class="grid-row desktop:height-mobile">
+      <div class="desktop:grid-col-3 toolkit-hero-image desktop:margin-right-6 desktop:margin-top-7">
+        <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" alt="{{ page.image-alt }}">
+      </div>
+      <div
+        class="desktop:grid-col-7 display-inline-block"
+      >
+      {% if page.header %}
+        <h1
+          class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
+        >
+          {{ page.header }}
+        </h1>
+      {% else %}
+        <div class="height-5">
+        </div>
+      {% endif %}
+      {% for item in page.lead %}
+        <p class="desktop:margin-bottom-5">
+        {% for phrase in item.text %}
+          {% if phrase.b %}
+            <b>{{ phrase.b }}</b>
+          {% elsif phrase.p %}
+            {{ phrase.p }}
+          {% elsif phrase.a %}
+            <a href="{{phrase.href}}" class="text-primary-light" target="_blank">{{ phrase.a }}</a>
+          {% endif %}
+        {% endfor %}
+        </p>
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+  {% if page.header %}
+    <div class="height-4 bg-{{page.color}}">
+    </div>
+  {% endif %}
+</section>

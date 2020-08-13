@@ -2,9 +2,9 @@
 ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {% unless site.env == "production" %}
+  <!-- {% unless site.env == "production" %}
     <meta name="robots" content="noindex, nofollow">
-  {% endunless %}
+  {% endunless %} -->
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -47,4 +47,5 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-utilities.css">
 {% else %}
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+<link rel="alternate" type="text/html" href="{{ site.baseurl }}/data/assets/css/styles.css">
 {% endif %}

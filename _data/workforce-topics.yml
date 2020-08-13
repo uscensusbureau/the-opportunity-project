@@ -2,21 +2,29 @@
   filter: all
 - name: Opportunity Zones
   filter: zones
+  image: opportunity-zones.png
+  image-alt: birdseye view of densely built residential area
   title: Investment in Opportunity Zones
   description: Recommended datasets for connecting investors with community leaders, entrepreneurs, and workers to catalyze investment in America’s 8,764 Opportunity Zones.
   image: opportunity-zones.png
 - name: Entrepreneurship
   filter: entrepreneurship
   title: Unleash American Entrepreneurship
+  image: entrepreneurship.png
+  image-alt: Sign reading come on in we're open
   description: Recommended datasets for empowering entrepreneurs and innovation ecosystem builders to find and navigate the variety of resources available across the federal government.
   image: entrepreneurship.png
 - name: Career Pathways
   filter: pathways
+  image: pathways.png
+  image-alt: Woman in graduation cap and gown
   title: Multiple Pathways for Career Growth
   description: Recommended datasets for helping the American Workforce consider and take advantage of the multiple pathways available to find or advance in careers.
   image: pathways.png
 - name: Talent Discovery
   filter: talent
+  image: talent.png
+  image-alt: Two women working together at a laptop
   title: Modernize Talent Discovery
   description: Recommended datasets for creating tools and datasets that transform talent discovery, matching, and retention in mid-size cities across the country, to help them achieve innovation and regional economic growth.
   image: talent.png

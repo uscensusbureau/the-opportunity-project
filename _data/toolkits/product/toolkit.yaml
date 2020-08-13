@@ -1,0 +1,419 @@
+
+# body
+# the main content is divided into sections, which are rendered onto the page in order.
+
+body:
+  - section: Step 1
+    offset: 2
+    color:
+    header: Choose a Problem to Solve
+    plain-text: The Opportunity Project aims to solve real-world problems facing individuals and communities. The first step in the process is to identify a problem that your team will work to solve with a data and technology solution. In order to make a solution that really improves lives, it's important to start by working with people experiencing that problem directly to be sure that you're really addressing felt needs. Then find a data set with information that could help to solve that problem, and start building your tool.
+
+    key_actions:
+      - number: 1
+        text:
+          - p: Connect with community groups, local leaders, federal agencies, or non-profits who are mission-driven and close to the ground to identify a meaningful challenge to focus on.
+      - number: 2
+        text:
+          - p: Identify an opportunity for federal or local data to make an impact, for example a problem where making data more accessible would solve a problem.
+      - number: 3
+        text:
+          - p: Remember to consult with stakeholders and future users of your tool before you build anything. See more information on conducting user research in Step 3.
+        highlight:
+          - p: See Resources below for a list of roles, which may be combined or adapted to best meet your team’s structure
+
+    resources:
+      - link: https://data.world/opportunity/problem-statements
+        title: Problem Statements Defined by Federal Agencies
+        description: The problem statements can serve as a starting point for your team. Work with local experts and user advocates to narrow or revise the scope for your own project.
+      - link: "#toolkit-step-3"
+        title: Detailed User Scenarios
+        description: The user scenarios were written by user advocates and people with lived experience, and they provide examples of real-world challenges and the stories behind them from the end user's perspective.
+
+  - section: Step 2
+    offset: 4
+    padding: 6
+    color:
+    header: Form a Team
+    plain-text: Collaboration is an essential part of The Opportunity Project process. Recruit a team with diverse skills and perspectives so that you can build the best solution for your problem statement. Bring in community leaders, service providers, or people with lived experience who can act as user advocates for your end users, government agencies who can provide guidance with data sets, and a cross-functional technology team with designers and developers to build a high quality digital tool.
+
+    key_actions:
+      - number: 1
+        text:
+          - p: "Include a tech team: data scientists, developers, designers, business thinkers, or anyone else who could help to build the solution."
+      - number: 2
+        text:
+          - p: Reach out to government policy and data experts who may be able to help shape your problem statement or design of your product.
+      - number: 3
+        text:
+          - p: Include User Advocates who work directly on issues related to your challenge, and who work closely with your end-users -- or even better, people who experience the problem directly.
+      - number: 4
+        text:
+          - p: Identify team members who can lead user research, like people who have experience with user-centered design. Everyone should try to ensure the project stays focused on the user and their needs.
+        toggle:
+          - p: Think early about who will maintain the tool once it's built and who will make sure it gets into the hands of end-users. You may want to identify someone on the team who is responsible for determining how to make your solution sustainable.
+
+    roles:
+      - number: 1
+        text:
+          - b: User Advocate
+        toggle:
+          - p: Link end-users with federal agencies and tech teams and ensure that problem statements and tools meet real needs in the target community
+          - ul:
+            - li: Contribute expert knowledge of the intended user community
+            - li: Vet problem statement and work with end users to develop specific use cases
+            - li: Organize feedback sessions and provide feedback
+            - li: Help to deploy tools to end users
+      - number: 2
+        text:
+          - b: Federal Agency
+        toggle:
+          - p: Help to focus TOP on critical challenges facing members of the public
+          - ul:
+            - li: Identify a priority issue and relevant high-value open data
+            - li: Provide feedback and access to data stewards
+            - li: Help to amplify the resulting tools
+            - li: Act on data feedback received from tech teams
+      - number: 3
+        text:
+          - b: Tech Team
+        toggle:
+          - p: Lead the development of digital solutions, and envision how data and technology can solve problems
+          - ul:
+            - li: Design and build a user-centered digital tool
+            - li: Own and maintain the product post-sprint, and ensure that it reaches end-users
+            - li: Track usage and metrics of impact
+
+    resources:
+      - link: https://dataacademy.commerce.gov/previous-courses.html
+        title: Commerce Data Academy
+        description: Build your team's skills with courses from the US Department of Commerce's Commerce Data Academy on topics including User Experience Design, Qualitative User Research, Git and GitHub, Java and more.
+      - link: http://brigade.codeforamerica.org/brigade/list
+        title: Code for America Brigade
+        description: Look for additional tech talent within a local tech Meetup, Code for America Brigade, or other civic tech organization if there is one in your community.
+      - link: https://opportunity-slack.herokuapp.com/
+        title: Slack Community
+        description: Join our online Slack community to recruit collaborators and chat with others. Start a conversation by location, issue, or anything else!
+
+  - section: Step 3
+    offset: 4
+    padding: 6
+    header: Conduct User Research
+    plain-text: Collaborate directly with end users throughout the entire process to identify user needs, agree on a use case for your product that will best serve a real problem for the target audience, and ask for ongoing user feedback while you're developing the product. By building alongside your end-users, you can create a product that will better serve their needs.
+    highlight: At the beginning of the process, try to answer questions like "How do people experience the problem?" "Do they have any tools to help them currently?" "What are the gaps that exist in their current tools?" and "What tools do users wish they had?"
+    key_actions:
+      - number: 1
+        text:
+          - p: Conduct interviews with user advocates, or work with user advocates to set up conversations with your end-users to better learn about their needs, constraints, and preferences for digital tools.
+        highlight:
+          - p: If you're working with a user advocate that does community outreach, learn how they connect with their audience and any challenges they run into.
+      - number: 2
+        text:
+          - p: Consider other methods, like facilitating a design workshop at the start of the sprint to bring user advocates into one room to brainstorm together.
+      - number: 3
+        text:
+          - p: Create a detailed use-case to narrow down a broad problem statement to a specific user-driven issue to tackle.
+
+    scenarios:
+      - number: 1
+      - text:
+        - b: Jo - LGBT Youth experiencing homelessness
+      - toggle:
+        - p: Jo is a 19 year old transgender woman, born and raised in a small town in Idaho.
+        - ul:
+          - li: Throughout her life, Jo's family experiences housing instability, causing her to change schools often and have a difficult time making friends and maintaining close relationships. With a lot of time spent on her own, Jo takes solace in drawing and creating art at an early age. During her senior year of high school, Jo comes out as transgender to her classmate Mariah, who accepts and affirms her for who she is. The chance to be open with someone about her gender identity is a huge relief to Jo, and the two become close friends.
+          - li: After graduation, Mariah suggests they move to Cincinnati together, where they can stay with her cousin for a small fee. Cincinnati offers more transition-related resources for Jo, and it's much easier to get around in the city (Jo doesn't have a car). Also, Mariah's cousin owns a hair salon and says they can help out from time to time to make a bit of money. The two decide to make the move.
+          - li: After a few weeks of doing temp work and trying to make ends meet in the city, Jo lands a job interview for a receptionist position at a local arts magazine. However, the night before the interview, Mariah gets into a bad fight with her cousin, who tells Jo and Mariah that they are no longer welcome in her home. Jo and Mariah call the few people they've met in the city to see if they can crash on someone's couch, but no one is able to offer them a place to stay. One person, however, gives them the address to a local youth shelter.
+          - li: While going through intake at the shelter, Jo is informed that shelter policy requires she be housed in the men's wing because her government I.D. says "male," while Mariah, who is cisgender, is placed in the women's wing. Jo asks if an exception can be made so she can be placed in the women's wing with Mariah. The caseworker explains that she wants to help, but she is limited by strict institutional policies. If Jo wants to stay at the shelter, she needs to stay in the men's wing.
+          - li: Separated from her friend, and feeling unsafe due to the sex-segregated housing policy, Jo decides she's going to find another place to stay. She explains to the caseworker that, in addition to housing, she also needs to prepare for an important interview in the morning. Jo still needs to do some more research on the company, find a safe place to get changed before the interview, and figure out how to get there. She doesn't have a lot of cash, she's unfamiliar with the city, and her phone battery is dying. Also, Jo is low on mobile data, so she's unable to access information without WiFi.
+          - li: If Jo had an app designed for her needs…
+          - li: The caseworker suggests Jo download the True Connect mobile app, which will connect her to transgender-affirming housing and other resources that can help her prepare for the interview. Jo uses the shelter WiFi to download the app and finds a safe place to stay for the night.
+          - li: The next morning, Jo uses True Connect to locate an affordable healthy corner store to get some breakfast, a charging station to finish charging her phone, and a free wifi hotspot so she can do a bit more research on the magazine company before her interview. Through the app, she locates a gender-neutral restroom near the magazine company where she can get ready and a free shuttle bus that will take her close to where she needs to go. Jo notices the app also includes a list of transgender-affirming health care providers, which she plans to explore later. Before the interview, Jo uses True Connect to find a public park near the magazine company where she can decompress and relax.
+          - li: Thanks to the True Colors Fund for creating this scenario highlighting the True Connect app concept.
+      - number: 2
+      - text:
+        - b: Samira - Survivor of domestic violence, relocating to new area
+      - toggle:
+        - p: Samira is a mother who just relocated to a new city to leave an abusive and highly dangerous partner.
+        - ul:
+          - li: She's left everything behind and does not want him to be able to find her. She is trying to start over with very little. She's currently living in an emergency DV shelter. She's been receiving basic services (shelter, counseling, basic legal advocacy, etc.) through the shelter, but she needs to transition out soon since there is a limit to how long she can stay at the shelter.
+          - li: Samira needs to find affordable housing and a job. She's doesn't have a lot of work experience, but she's temped in offices before. She doesn't have a car, so she needs a job that's either walking distance or that she can get to with public transportation. Although she has custody of her child, there are still ongoing court hearings, and so she needs to be able to travel to the court house for hearings.
+          - li: She needs to find a home for her and her daughter. She'd like a place that's safe but close enough to her job and close to her daughter's elementary school. She will also need to find affordable afterschool care for her daughter while she is at work. Also, her daughter has type 1 diabetes and needs to regularly visit the doctor, so she wants to know where the nearest free clinic or emergency clinic is in case there are complications.
+          - li: Because she's in a new area and doesn't know anyone, except the people at the shelter, she needs to know where everything is, including grocery stores, laundromats, post office, etc. It would be great to know where the nearest police or sheriff's department is so she can take her protection order to them to have on file. She also is interested in finding a faith-based or culturally-specific community she might be able to connect to in order to rebuild her support system and meet people.
+      - number: 3
+      - text:
+        - b: Barb – Neighborhood leader needing data for advocacy and planning
+      - toggle:
+        - p: Barb is the Vice President of Riverside Neighborhood Association.
+        - ul:
+          - li: Barb's neighborhood is isolated by railroad tracks and light-industrial business, dotted with empty warehouses. It feels like she's been fighting for her neighborhood's survival for years now. Whether proposed high rise apartments that would hamper access to the riverfront, or the opening of yet another bar or liquor store, her neighborhood association seems to always be reacting to something.
+          - li: Barb has a job as an administrative assistant working for the state in the neighboring county. She feels lucky to have her old car. If traffic is good, it's a 30 minute drive to her office. But, when the transmission went out last month, she relied on public transportation -- a nearly two-hour bus ride with a transfer at the county line. On her breaks at work, she conducts internet research for the neighborhood association, and she considers neighborhood advocacy to be her "real work."
+          - li: Barb's mother Jean lives with her. Ms. Jean's diabetes is getting worse, and Barb has been taking time off work to get her to doctors' appointments halfway across town. The doctor has given them pamphlets on what foods are good for people with diabetes, but her mom prefers the food she's always cooked, and fresh fruits and vegetables are hard to come by in the neighborhood. The corner store carries a limited selection of produce, but it always seems to be better fit for the trash than a plate.
+          - li: Many of Barb's neighbors work two or more jobs in the service industry, which is primarily low-paying, shift work. She wishes there were "good jobs" closer to home, and feels like government and private developers have passed her neighborhood by. On her way to work, Barb sees new businesses popping up in the suburbs. She'd like to see new businesses in her neighborhood. She's noticed that many of her neighbors have entrepreneurial spirit – whether it be selling homemade lunch plates, or opening music recording studios in their homes.
+          - li: Barb and her neighbors have heard that the city is launching a new low-interest loan program for organizations willing to bring healthy food to areas like hers. She'd like her neighborhood association to make the case for a location in Riverside–maybe even turning one of those abandoned warehouses into a full service grocery store. She feels at a disadvantage because other neighborhoods have paid professionals making their proposals, and hopes she can find something on the internet to help level the playing field. She does her best during her lunchtime research, but the web sites she finds are tricky to use, and she blames herself for not being good with computers. She pulls together a few statistics, but there's not enough time to pull together a full proposal for this round, so they let it go.
+      -  number: 4
+      - text:
+        - b: Gerald - Formerly Incarcerated Person reentering society
+      - toggle:
+        - p: Gerald is a 35 year old father who was recently released from prison after serving 8 years in prison.
+        - ul:
+          - li: Gerald was incarcerated in a state facility, in a rural area, far from the mother of his two boys Laquan, 9, and Terrell, 11. As a result, Gerald's relationship with the boys is tenuous because it was hard for their mother to bring them to visit and she could not afford more than two collect calls per month. During his incarceration, Gerald reflected on his childhood and the role, or lack thereof, his father played in his life and how that contributed to some of the bad choices he made, which led to his incarceration. Thus, Gerald is committed to being a positive influence in his sons' life and ultimately hopes to reunite with their mother, Karen. Gerald knows Karen lives in public housing and he and Karen hope to get him added to the lease so Gerald can live in the home and be a full time dad to the boys.
+          - li: When Gerald was released from prison he was given a bus ticket to his old neighborhood. He had the clothes on his back and the only money he had was the account balance from his prison account. During his incarceration, his grandmother who raised him died and her children decided to sell the family home, thus Gerald did not have anywhere to call home. Luckily for him he found a homeless shelter to live temporarily but it's not ideal because he doesn't like putting that address down on job applications. Also, the only identification Gerald has right now is his prison ID. He doesn't have a birth certificate, or a social security card, and is embarrassed to try to cash the check containing his account balance from prison with his prison ID.
+          - li: During his incarceration, Gerald made great strides to improve himself. He obtained his GED, completed a substance abuse program, and earned a vocational certification in electrician technology. Gerald is excited about using the skills he learned in prison because the construction industry is making a comeback where he lives and there is huge demand for licensed electricians. Gerald catches the bus to the library to research next steps on how to become a licensed electrician. He downloads the application and returns to the homeless shelter excited about the future.
+      - number: 5
+      - text:
+        - b: James - Neighborhood leader needing data for advocacy and planning.
+      - toggle:
+        - p: James is a semi-retired real estate agent who lives in the Fairmont Park neighborhood.
+        - ul:
+          - li: The park is located on a major thoroughfare, with a busy bus transfer point along one side. This summer the bus stop was plagued by night-time armed robberies committed by teenagers, and now everyone is on edge. Some people say that the broken streetlights surrounding the park are partially to blame.
+          - li: The park takes up a full city block has no amenities, except a small corner with aging play equipment made out of metal too hot for kids to play on in the summertime. There are nice playgrounds at nearby private schools, but those aren't open to the community. James has talked to the City's Parks & Rec department, and they don't have funds to install new playgrounds. They barely have enough resources, they said, to keep the grass mowed.
+          - li: James's wife works for a nonprofit agency, and recently saw a grant competition for new playgrounds. James thinks Fairmont Park has a shot at getting a grant, especially if they partner with the neighborhood across the street, Oakwood. Between these adjacent neighborhoods there are lots of kids – even more kids who would use the playground if you count those children waiting with their parents at the bus stop!
+          - li: James knows from living in the neighborhood a long time that the Fairmont Park neighborhood is middle income and racially and ethnically diverse, and Oakwood neighborhood is home to low income, mostly African American families. He reaches out to Ronald, a neighborhood leader in Oakwood he knows from last year's community planning meetings that were part of the city's new Master Plan.
+          - li: "They decide to split up the work writing the grant proposal. James' experience in real estate has taught him how important location is, and Ronald, whose day job is a public school PE teacher, has some specific ideas about features for the play equipment. He and Ronald would like to include a map in the grant proposal that shows how central Fairmont Park is for commuters, and children without access to other places to play. And they want to highlight how the park could bring together these two neighborhoods. They are so excited about the idea of turning Fairmont Park around, that they're even talking about what they'll do once the playground gets installed: they'll approach the city about getting those streetlights repaired, and maybe a monthly arts market, too. James takes a screen shot of Google maps, and draws arrows and boxes on it in Powerpoint, and they include it in the appendix of the grant proposal."
+      - number: 6
+      - text:
+        - b: Jen - Military spouse searching for jobs after moving
+      - toggle:
+        - p: Jen is a 35 year old professional, mother of two young kids, and for the last ten years she has been married to Kyle, a Staff Sergeant in the United States Army.
+        - ul:
+          - li: Jen is proud of the support she provides her husband as a military spouse, but she has often found it difficult to maintain her own professional identity due to the mobile lifestyle that military service leads to. The family has recently learned that Kyle has been reassigned to a different installation and they will have to pack up, sell their house, and relocate their family in the matter of a few weeks.
+          - li: "For the last five years, Jen and Kyle have lived in Fayetteville, North Carolina. Kyle is stationed at Fort Bragg in Fayetteville while Jen commutes more than a two-hour round trip to Raleigh, North Carolina to work at her job as a registered nurse. While Jen thinks of herself as a mother and wife, she is proud of her career and loves helping others. At her job, Jen has become a valued member of a number of specialized nursing teams. If Kyle were to continue to be stationed at Ft. Bragg, Jen could see herself building upon the nursing skills she's acquired and pursuing further education. Jen's career success has not been easy. During their ten year marriage, Kyle and Jen have moved across state lines three times, once being to Germany. Each time they move, they must move out of and into a new house, find child care for their two young kids and assimilate into a new community. This has resulted in Jen having to put her career on hold several times; the end result being that Jen has not been able to progress in her career and has often had to start over at new locations."
+          - li: In the last week, Jen has been extremely anxious and fearful because of Kyle's impending reassignment to Fort Benning near Columbus, Georgia. Because of Kyle's job, the responsibilities of the pending move have fallen to Jen. She has had to take multiple days of leave to take care of the logistics of moving – selling the house, finding child care for the kids, and thinking about what this move means for her career. Jen knows next to nothing about Columbus beyond what Google and Wikipedia tell her. From what she can tell, there do not appear to be many, if any, hospitals in the area that specialize in the sort of skills she has developed. Moreover, she's not sure how state licensing issues will affect her ability to find work.
+          - li: "Jen wants to begin sending out resumes and doing more research, but she just doesn't have the time. Jen is planning on resigning from her current job in the next few days, and she's afraid that this move will mean that she has to put her career on hold again. Jen knows the statistics: military spouses face a 25 percent unemployment rate and a 25 percent wage gap compared to their civilian counterparts."
+          - li: Jen tries her best to figure out whether there's a job she would enjoy and is qualified for in Columbus. She finds a number of job websites with job postings that appear interesting, but they either require a Bachelor of Science in Nursing Degree or have job titles that make it unclear whether her skills would be a good fit. As Jen begins to develop her resume, she wishes that there was a common language that would make translating her skills and experiences easier. She knows that she is qualified for a number of positions but is worried that her resume will not stack up against others.
+      - number: 7
+      - text:
+        - b: Loretta - Family experiencing homelessness transitioning out of shelter
+      - toggle:
+        - p: Loretta, 24, is a single mom of a 4 year-old with autism and a 2 year-old who being tested for the same thing.
+        - ul:
+          - li: They have been in a congregate shelter with a dozen other families for a year. She has concerns that the over-stimulative atmosphere in the shelter is preventing effective support for their needs. She's been using the time in shelter to rebuild after an abusive marriage that left her in deep financial trouble. While in shelter, the case manager has helped her secure her HiSET (formerly GED). Loretta successfully completed a training program, and became a CNA at a nursing facility about 25 miles from the shelter, in a middle-to-high income community. Loretta's children attend specialized day care centers close to work. Their pediatricians are in that area as well. Although she's had some setbacks -- a car accident that put her out of work for a month, and the theft of one whole paycheck by another resident of the shelter -- she still feels that since her job is secure, and she's worked on her credit, she is ready to begin looking for her own apartment.
+          - li: "The state offers a short term rental assistance program that will provide $8,000 for first, last, and security, with the remaining balance to be paid as a monthly rent stipend for 10 months. Although this would provide security for her initial move out, she is afraid that the rents for apartments close to where her job and all the family supports are would be too expensive after those 10 months are up. She does not want to end up back in shelter. Communities with much more affordable rents are 50 miles away from her job and all the supports that help her children with their special needs. She is also concerned about some of the hurtful comments about African Americans and Latinos she has heard from people when she and her children are out in the community where she works, and is concerned that they might not be treated fairly when searching for apartments nearby. She has applied for Section 8 and housing lotteries in every feasible community, but knows that those wait times can be years, and would rather find the right fit to use the 10-month subsidy program, so she decides to move to the apartment 50 miles away. She uses her ten months to change jobs, daycare and doctors."
+      - number: 8
+      - text:
+        - b: Lynn - Section 8 voucher holder/low-income renter searching for housing
+      - toggle:
+        - p: Lynn is a 35 year old mother of 3 who has had a Section 8 voucher for the last year.
+        - ul:
+          - li: She and her kids live in an apartment in a low-income neighborhood. After going out for errands with a friend out in the suburbs a few months ago, she has since been extremely committed to finding a new place for her kids to live that has green space and trees, which she had never even thought was an option before. She found out that she could use her voucher in the suburbs too. The neighborhood where she lives now has no parks and nowhere for her kids to play sports, even though they love it. Their schools had to cut a lot of their athletic programs. She wishes she lived closer to a supermarket that had good fruits and vegetables and more options for her kids to try so they can develop good eating habits. She doesn't like having to give them junk food which seems to be everywhere at her supermarket.
+          - li: Lynn works as a receptionist in an outpatient facility at a hospital and doesn't have a car; she relies on public transit or for her sister to drive her and the kids when she can. Lynn is excited to start looking for a new place, but worries about how to get around without a car, because it seems like you have to drive in the suburbs, and she's not sure the buses even go there. She's worried it might be tough for her kids to transition schools.
+          - li: Lynn is able to get a ride out one day to look at places in one of the towns that her sister has been to, which is an hour away from her apartment. They look in newspapers and go on craigslist every day for two weeks and find a couple of places. She goes to one, who won't take section 8. She's probably already spent $80 on application fees, only to be rejected. The day is running out, and she decides to go ahead with the 3rd one she sees. She is so relieved when the landlord at the third place tells her that she takes vouchers, she signs up on the spot. If she doesn't like it, she can always move in a year. This is the only day she has to look, and even though she doesn't really know a lot about the area, it has grass and trees and big rooms for her kids, so she's happy. The landlord tells her the schools are good. She still worries she doesn't know enough about the schools and how she'll get around.
+      - number: 9
+      - text:
+        - b: Supervisor Miles - Rural county official seeking to attract new business/industries
+      - toggle:
+        - p: Supervisor Miles is an elected county official who represents Tea County, Virginia, which is located in the Appalachian region of rural southwestern Virginia.
+        - ul:
+          - li: For years, Tea County has seen a troubling increase in unemployment. This increase is largely due to the decline of the coal industry, which had previously held the region far above the poverty line. Now the county sits in the middle of a rural region struggling with extreme and persistent poverty.
+          - li: Paralleling the rise in unemployment, the region has seen a similar increase in drug trafficking and substance abuse. Tea County is a stone's throw from multiple interstate corridors, making it easily accessible to drug traffickers, and the county's small police force struggles to patrol this vast and intricate network of highways and county roads. The county's relatively limited public health resources also struggle to identify and provide treatment to those struggling with substance abuse in Tea County.
+          - li: On the other hand, the price of land in Tea County is incredibly low compared to some of the more urbanized pockets that surround the region. Supervisor Miles views this as a major draw for potentially incoming businesses and industries. He also believes that the numerous unemployed individuals in Tea County, many of whom have been educated at the various institutions of higher education in surrounding counties, could provide an eager workforce for any incoming employers. Even the proximity of Tea County to major interstate systems, which worsens the county's substance abuse problem, can be presented as an advantage to potential employers who would be able to quickly move products to numerous markets across the east coast.
+          - li: If Supervisor Miles is able to effectively paint this picture to potential employers – real estate pricing, eager workforce, plentiful educational opportunities, current and potential infrastructure – he can attract these employers to Tea County and ultimately help to bring his county, and the surrounding region, out of its current tailspin.
+          - li: Unfortunately, Supervisor Miles lacks the resources necessary to convey this message to employers – he is able to ascertain property values generally by viewing housing listings, but lacks well-structured data on residential real estate and doesn't have any data related to commercial real estate prices. He knows based on conversations with his colleagues and members of the community that many young residents in Tea County are unemployed, but has little or no information on the levels of unemployment or geographic concentration of unemployed residents. Even when it comes to roads and highways, he may be able to show maps to potential employers, but lacks data that specifically lays out the connectedness of Tea County to surrounding areas and metropolitan centers.
+      - number: 10
+      - text:
+        - b: Tanya - Section 8 voucher holder/low-income renter searching for housing
+      - toggle:
+        - p: Tanya is a 25-year-old mother of 6-year-old and 4-year-old boys.
+        - ul:
+          - li: She just received a Section 8 voucher after 2 years on the waiting list. She's been living in several different places over the last few years. After she turned 18 and had a baby, she wanted a household of her own and rented a unit in a building where her cousin had a place, but lost her job when she her childcare became unreliable (her boyfriend's mom couldn't help as much as she had promised), then lived with her sister and then in public housing. Her voucher means to her that she'll be able to have a nicer place of her own with her kids. She wants them to live in a safer building where they can have quiet after school to do their homework as they get older. She doesn't like the crime in the neighborhood where she is now, but she can keep her sons inside and there is at least someone she knows in the area to watch them when she really needs it.
+          - li: Tanya works and takes care of her kids on her own so she doesn't have a lot of time to look for a place. She doesn't have a car and gets around mostly on the bus or by walking. Since last year, her youngest has been with an older neighbor during the day who runs a daycare from her home.
+          - li: The worst thing for her would be to lose the voucher, and she knows from hearing from other people that it's not easy to get a place. You have only 2 months, and some of the landlords won't take you once they know you have Section 8. There's a certain amount she can spend and she gets 2 bedrooms for her and her 2 little boys. She can't spend more than the specific amount. She is actually not totally clear on the process and the people who are supposed to answer questions aren't very friendly.
+          - li: Tanya starts calling landlords and the first 6 units either don't take voucher holders or are too expensive. She looked on the website GoSection8 and found more places that took her voucher, but didn't have as much luck finding a place she liked. Tanya is getting nervous about running out of time, and she has a friend who used a Section 8 voucher in a building just a few blocks away from where she's living now, so she's planning to go to the same landlord. It's safer and cleaner than where she is now and she hopes they will take her voucher.
+
+
+
+    resources:
+      - link: https://www.invisionapp.com/inside-design/empathy-isnt-enough/
+        title: Empathy Isn't Enough
+        description: Written by a past TOP participant, this article is about the user research workshop, user interviews, and other methods they used to build a useful tool for youth experiencing homelessness
+      - link: https://www.youtube.com/watch?v=PR0u_Y7d63E
+        title: User Centered Design Training
+        description: Watch this user-centered design training that Exygy created for Opportunity Project participants.
+      - link: https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews
+        title: How to Conduct User Interviews
+        description: Provides tips on how to develop interview questions and conduct user interviews
+      - link: https://www.ideou.com/pages/design-thinking
+        title: IDEO Design Methods
+        description: Consider using IDEO Design Methods to narrow down your problem statement.
+
+
+
+  - section: Step 4
+    offset: 4
+    padding: 6
+    color:
+    header: Explore Data
+    plain-text: Once you have defined the problem from the end user's perspective, dig into data to find information that could help to solve the problem.
+    key_actions:
+      - number: 1
+        text:
+          - p: Determine what data could address the end-user needs you identified in your user research.
+        toggle:
+          - p: For example, if your user research showed you that youth experiencing homelessness need to access information on shelters and job opportunities through Wi-Fi on their phones, you may want to build a web app and use local government data on library locations, public Wi-Fi hotspots, and shelters.
+      - number: 2
+        text:
+          - p: Identify key characteristics of the data sets you need, such as the level of granularity (e.g., you may need neighborhood or address level information, rather than city level, for the data to be useful) or frequency.
+        highlight:
+          - p: For example, when building a product to help individuals search for jobs, very frequently updated data would be the most useful.
+      - number: 3
+        text:
+          - p: Connect with a federal or local government agency who can act as a data steward for your project. Many data sets are owned by agencies who understand the data in detail and will be able to answer relevant questions.
+      - number: 4
+        text:
+          - p: Use The Opportunity Project's Data Hub to discover issue-specific data recommended by government experts and test-driven by teams working to solve the nation’s biggest challenges. See links in the resources below.
+
+    resources:
+      - link: https://opportunity.census.gov/data/workforce/
+        title: "The Opportunity Project: Curated Workforce Data"
+        description: Datasets on workers, businesses, jobs, credentials, and more, recommended by government experts for solving key workforce challenges.
+      - link: https://opportunity.census.gov/data/natural-environment/
+        title: "The Opportunity Project: Curated Natural Environment Data"
+        description: Datasets on plastic pollution in oceans, agricultural decision making, air quality, and recycling.
+
+
+  - section: Step 5
+    offset: 4
+    padding: 6
+    color:
+    header: Design and Build a Product
+    plain-text: Once you identify a problem to tackle, the end users your tool will serve, and the data you will use, you can start building! Work collaboratively to build a digital product, including many voices as possible in the design process and seeking feedback as you design and build. Build iteratively, showcasing early versions and revising your design plans based on feedback. Remember that you don't have to build the perfect or "final" solution in 12 weeks!
+    highlight: During this phase, we recommend the whole group communicate frequently and come together remotely or in person every 2-3 weeks to demo their works in progress, ask questions, and share feedback.
+    key_actions:
+      - number: 1
+        text:
+          - p: Build according to the user research. Use the data you found during data exploration.
+      - number: 2
+        text:
+          - p: Share the concepts, wireframes, and prototypes early and often. Revise your design and plans based on the feedback you receive.
+      - number: 3
+        text:
+          - p: Conduct user testing or feedback sessions to improve the product and ensure that the people who need it are aware it exists.
+      - number: 4
+        text:
+          - p: Develop a plan for tracking success of your tool, such as tracking number of sessions, users, or downloads via tools such as Google.
+      - number: 5
+        text:
+          - p: Think about how you will connect end users with your product once the tool is released
+        highlight:
+          - p: What will your team need to build into the product to as many people as possible can use it? What types of organizations do you need to work with to help connect your tool with the people it's designed to serve?
+      - number: 6
+        text:
+          - p: Think about how you will maintain the tool over time, or what partners you need to help you sustain and continuously update and improve the tool.
+
+    timeline:
+      - number: 1
+        text:
+          - b: "Week 1: "
+          - p: Choose a general problem statement to focus on.
+      - number: 2
+        text:
+          - b: "Week 2: "
+          - p: Connect with others to form a diverse team. Establish ways to communicate -- such a listserv, online slack channel, or in-person meetups – so that everyone can collaborate and share progress.
+      - number: 3
+        text:
+          - b: "Week 3: "
+          - p: Conduct user research and identify a user-driven use case for your product.
+      - number: 4
+        text:
+          - b: "Week 4: "
+          - p: Identify information that could help to solve the problems you identified in your user research, and then find federal and local data sets with the information you need.
+      - number: 5
+        text:
+          - b: "Week 5: "
+          - p: Start to sketch out a product.
+        toggle:
+          - p: Share sketches, wireframes or a concept pitch to get early feedback from end users, subject matter experts, government employees, and others. Early demos of Minimum Viable Products are part of the lean start-up methodology and lead to faster value delivered to users.
+      - number: 6
+        text:
+          - b: "Week 6-7: "
+          - p: Continue building based on feedback received from your demo, and continue to explore data and seek ongoing input from user advocates and end users.
+      - number: 7
+        text:
+          - b: "Week 8: "
+          - p: Conduct another demo and share a more mature and improved version of the product you're building. Seek more feedback, particularly from end users of the tool.
+      - number: 8
+        text:
+          - b: "Week 9-10: "
+          - p: Keep building, and hold interactive user testing sessions. Plan how you will share the final product with end users and other stakeholders.
+      - number: 9
+        text:
+          - b: "Week 11-12: "
+          - p: Get everyone involved in the process together to launch the final prototypes or Minimum Viable Products (MVPs).
+        highlight:
+          - p: "Beyond the sprint: Continue to improve the tools, share the product with the target end users, and measure your impact."
+
+    resources:
+      - link: https://slack.com/
+        title: Slack
+        description: Identify community leaders and other collaborators on Slack to provide feedback on work in progress.
+      - link: https://github.com/
+        title: Github
+        description: Software developers can use Github to share code, ask questions, post new suggested data sets, share feedback on data, and more. Github is also an invaluable tool for logging issues or bug fixes that need to be addressed.
+
+  - section: Step 6
+    offset: 4
+    padding: 6
+    color:
+    header: Share with End Users & Stakeholders
+    plain-text: At the end of your sprint, or when you're ready to launch a prototype or "MVP" of your product, get the word out and make sure people know about the product you built so that they can use it! Share your product with everyone who will be interested.
+    ul:
+      - p: "Stakeholders might include: "
+      - li: People who you designed the tool for — the end users.
+      - li: Organizations who can help share or scale the tool.
+      - li: Other teams in The Opportunity Project community.
+      - li: Local government or other organizations that collect and maintain the data you used.
+    highlight: There are many ways to spread the world, like social media, in person events, outreach through user advocates, and more. The Opportunity Project launches multiple tools at once, through coordinated events that incorporate in-person, online, and social media channels. Coordinating with user advocates is a great way to share your product with the intended end users through their outreach platforms. For example, if you worked with a veteran service provider to build a tool for veterans, you may be able to share your tool directly through their online presence or organization.
+    key_actions:
+      - number: 1
+        text:
+          - p: Consider hosting an event to showcase your product
+      - number: 2
+        text:
+          - p: "Use press and social media to spread the word! Use #OpportunityProject."
+      - number: 3
+        text:
+          - p: Create a plan with user advocates to share your product with end-users in the community
+      - number: 4
+        text:
+          - p: Share your code! We highly encourage you to make your projects open source and free for use by the public. A local tool in Baltimore, MD can be used in Austin, Texas, just by using different data sources!
+
+    resources:
+      - link: https://www.youtube.com/watch?v=rwES25_sL0E&feature=youtu.be
+        title: Launch event
+        description: Watch the video from The Opportunity Project launch event in March 2016.
+      - link: https://www.youtube.com/watch?v=uqIiMj2S_Vk
+        title: Demo Day 2016
+        description: Watch the video from The Opportunity Project rollout event and demo in October 2016.
+      - link: https://www.youtube.com/watch?v=hiqn9a64wlo&feature=youtu.be
+        title: Demo Day 2017
+        description: Watch the video from The Opportunity Project rollout event and demo in November 2017.
+
+  - section: Step 7
+    offset: 4
+    padding: 6
+    color:
+    header: Keep Improving, Share Metrics & Feedback
+    plain-text: Your launch is just the beginning! After you launch your product and work with user advocates and other groups to deploy it to the target end users, keep building and seeking ongoing feedback to continuously improve your product. After the sprint, be sure you have a plan for how this product will live on after it is built. Will you maintain it? Do you need another organization to help sustain it? Will you hand off the code to another group for sustainability? Look to user advocates and local organizations who may be helpful partners in sustaining the tool.
+    ul:
+      - li: Make use of the tools you put in place to track impact, like Google Analytics, to measure success of the tool.
+      - li: Gather numbers on users, downloads, or other metrics, and stories from users on how they are using the product.
+      - li: Share what you learn with The Opportunity Project community on Slack.
+    highlight: Share feedback on the data you used, or data you needed but couldn't find - this is critical to improving data quality and accessibility for you and other data consumers! Help us to improve by providing feedback on your experience using this toolkit.
+    key_actions:
+      - number: 1
+        text:
+          - p: Keep building and improving.
+      - number: 2
+        text:
+          - p: Ask technical team members for a commitment to routine maintenance and improvements to the product.
+        highlight:
+          - p: Talk to user advocates and other stakeholders about organizations that might want to help with sustainability.
+      - number: 3
+        text:
+          - p: "Measure your impact: Collect information on things like page views and number of users through Google Analytics, outcomes and how your tool is helping individuals and communities."
+      - number: 4
+        text:
+          - p: "Share information on your experience using this toolkit with the whole Opportunity Project community on Slack."
+        highlight:
+          - p: "Use the #datafeedback channel to share feedback on things like data availability, access, quality, or formats with data stewards."

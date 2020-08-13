@@ -2,14 +2,24 @@
 {% include banner.html %}
 <header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
   <div class="usa-navbar site-header-navbar">
-    <div class="usa-logo site-logo" id="logo">
-      <em class="usa-logo__text">
+    {% if page.class == "coil" or page.class == "hcd" %}
+      <div class="usa-logo site-logo logo-image-desktop width-mobile-lg" id="logo">
+        <div class="">
+          <p class="text-white margin-0 margin-top-3 padding-top-2px font-sans-lg"><b>CENSUS OPEN</b> INNOVATION LABS</p>
+        </div>
+      </div>
+    {% else %}
+      <div class="usa-logo site-logo logo-image-mobile" id="logo">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span aria-hidden="true" class="site-title-short">The Opportunity Project</span>
-          <span class="site-title">{{ site.title }}</span>
+          <span><img src="{{site.baseurl}}/assets/img/top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
         </a>
-      </em>
-    </div>
+      </div>
+      <div class="usa-logo site-logo logo-image-desktop margin-left-2 margin-right-5" id="logo">
+        <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
+          <span><img src="{{site.baseurl}}/assets/img/TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image  padding-top-1"></span>
+        </a>
+      </div>
+    {% endif %}
     <button class="usa-menu-btn">Menu</button>
     <div class="navbar--container">
       <nav class="usa-nav">
@@ -18,51 +28,37 @@
           {% for link in links %}
             {% if link.accordion %}
               <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-white" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text | upcase}}</span></button>
+                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-ls-2 text-light text-white" aria-expanded="false" aria-controls="extended-nav-section-one"><span>{{ link.text | upcase}}</span></button>
                 <ul id="extended-nav-section-one" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
-                      <a href="{{link.href}}/{{subnav.href}} font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                      <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                     </li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-mono-xs text-white" href="{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+                <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
               </li>
             {% endif %}
           {% endfor %}
         </ul>
       </nav>
       <div class="get-involved">
-        <!-- <form
-          id="search_form"
-          class="navbar__search usa-search usa-search--small desktop:margin-2 display-none desktop:display-inline-block float-left text-middle"
-          action="https://search.usa.gov/search"
-          accept-charset="UTF-8"
-          method="get">
-          <input name="utf8" type="hidden" value="&#x2713;" />
-          <input type="hidden" name="affiliate" id="affiliate" value="uswds" />
-          <div role="search">
-            <label class="usa-sr-only" for="query">Search</label>
-            <input
-              id="query"
-              class="usa-input usagov-search-autocomplete"
-              name="query"
-              type="search"
-              autocomplete="off"/>
-            <button
-              class="usa-button"
-              type="submit"
-              name="commit">
-              <span class="usa-sr-only">Search</span>
-            </button>
-          </div>
-        </form> -->
-        <a href="{{site.baseurl}}/get-involved/join-a-sprint"><button type="button" name="get-involved" class="usa-button__primary-red margin-0 padding-4">Get Involved</button></a>
+        <button type="button" name="get-involved" class="usa-button__primary-red margin-0 padding-4"><a href="{{site.baseurl}}/sprints">Get Involved</a></button>
       </div>
     </div>
+    <nav class="site-nav-secondary page-{{page.class}} position-sticky padding-left-15">
+      <ul class=" margin-left-10 padding-left-15">
+        {% assign links = site.data.nav.secondary %}
+        {% for link in links %}
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/our-process/{{ link.href }}"><span>{{ link.text }}</span></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
 </header>
 

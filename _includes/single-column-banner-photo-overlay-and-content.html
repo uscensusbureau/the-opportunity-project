@@ -2,6 +2,7 @@
   {% for item in page.role-descriptions %}
     <div
       class="desktop:grid-offset-2 desktop:grid-col-8 usa-media-block__background-image-landscape margin-bottom-5"
+      id="{{ item.title | slugify }}"
     >
         <img src="{{site.baseurl}}/assets/img/photos/{{ item.image}}" alt="{{ item.image-alt}}">
       <div class="header-overlay">

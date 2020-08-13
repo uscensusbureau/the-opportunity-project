@@ -1,0 +1,15 @@
+<section>
+  <section class="grid-container display-inline-block padding-top-8">
+    <div
+      class="desktop:grid-offset-4 desktop:grid-col-7 desktop:padding-left-6 tablet:grid-col-6 grid-col-12 display-inline-block"
+    >
+      <h2>Glossary</h2>
+      <div class="toolkit-resources margin-top-9 margin-bottom-9 padding-7">
+        {% for resource in page.resources %}
+          <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
+          <p>{{ resource.description}}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</section>

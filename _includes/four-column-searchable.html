@@ -5,20 +5,22 @@
         <div
           class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
         >
+          <a href="{{ site.baseurl}}/{{ case.product_name | slugify }}/" >
           {% if case.image %}
             <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
           {% endif %}
-          <div class="content-grid-one-third">
+          <div class="content-grid-one-third padding-left-4 padding-right-2">
             {% if case.product_name %}
-              <a href="{{ site.baseurl}}/case-studies/{{ case.product_name | slugify }}" ><h2 class="text-white">{{ case.product_name }}</h2></a>
+              <h2 class="text-white padding-top-4">{{ case.product_name }}</h2>
             {% endif %}
             {% if case.tech_team %}
-              <p class="font-mono-sm">{{ case.tech_team }}</p>
+              <p class="font-mono-2xs opacity-70">{{ case.tech_team | upcase }}</p>
             {% endif %}
             {% if case.overlay_text%}
-              <p class="font-sans-2xs">{{ case.overlay_text}}</p>
+              <p class="font-sans-2xs opacity-70">{{ case.overlay_text}}</p>
             {% endif %}
           </div>
+          </a>
         </div>
       {% endfor %}
     </div>
@@ -78,12 +80,12 @@
         </div>
       </div>
       <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
+        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card-lg margin-right-2">
           <p class="font-mono-xs">
-            <button class="usa-accordion__button width-15 desktop:width-card usa-button__secondary-gray padding-1 text-center"
+            <button class="usa-accordion__button width-15 desktop:width-card-lg usa-button__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="agency">
-              Agency
+               Partner Agency
             </button>
           </p>
           <div id="agency" class="usa-accordion dropdown-menu z-400">
@@ -112,7 +114,7 @@
     {% for product in products %}
       {% if product.link %}
         <li id="product-card-{{product.product_name | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active z-300" name="productCard">
-          <div class="usa-card__container bg-base-darkest">
+          <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.product_name | slugify}}">{{ product.product_name }}</h2>
               <h3 class="pc-inactive">{{ product.year }}</h3>
@@ -131,7 +133,7 @@
           </div>
         </li>
         <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive z-500">
-          <li class="usa-card usa-card--flag modal-content desktop:grid-col-8 tablet:grid-col-8">
+          <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
             <div class="usa-card__container margin-0 border-0">
               <header class="usa-card__header desktop:grid-col-6 product-card-modal-text">
                 <span class="close">&times;</span>

@@ -1,10 +1,10 @@
 {% assign banner = page.banner-subheader %}
-<section class="bg-{{ banner.top.background }}">
+<section class="bg-{{ banner.top.background }}" id="{{ banner.bottom.subheader | slugify }}">
   <div class="vertical-line{{ banner.top.line}}"></div>
   {% if banner.top.subheader %}
     <div
       class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-0"
-    >
+    id="{{ banner.top.subheader | slugify }}">
       <h2 class="tag-header">{{ banner.top.subheader | upcase }}</h2>
     </div>
   {% endif %}
@@ -15,7 +15,7 @@
     <div
       class="display-flex flex-column flex-align-center"
     >
-      <h2 class="tag-header margin-top-0">{{ banner.bottom.subheader | upcase }}</h2>
+      <h2 class="tag-header width-card margin-top-0">{{ banner.bottom.subheader | upcase }}</h2>
     </div>
   {% endif %}
 </section>

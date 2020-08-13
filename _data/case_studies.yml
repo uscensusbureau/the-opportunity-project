@@ -1,28 +1,3 @@
-- product_name: PRADOS
-  short_url: icasa
-  tech_team: iCASA PR
-  cohort: Geocohort
-  problem_statement:
-    "Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"
-  link: 'https://www.zipdatum.com/prcivicaddress/'
-  image: featured-products/prados.png
-  overlay_text: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
-  description_new:
-    Helps the municipalities and communities in Puerto Rico enhance their
-    address infrastructure to support the reconstruction process, improve
-    emergency response and foster a more resilient future
-  data_sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
-  prize_status: Winner
-  category: addressing
-  description_old:
-    ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service,
-    and the National Address Database (NAD) schema to help the municipalities
-    and communities in Puerto Rico enhance their address infrastructure to
-    support the reconstruction process, improve emergency response and foster a
-    more resilient future.
-  product_advisors: nil
-  participants: nil
 - product_name: City Builder
   tech_team: Citi Ventures
   cohort: Workforce
@@ -65,5 +40,30 @@
     stakeholders to prepare for crisis through increased awareness of the
     likelihood of catastrophic failure of their structures in a disaster. Public
     access using login: fema@sille.space, password: Planahead2019'
+  product_advisors: nil
+  participants: nil
+- product_name: PRADOS
+  short_url: icasa
+  tech_team: iCASA PR
+  cohort: Geocohort
+  problem_statement:
+    "Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"
+  link: 'https://www.zipdatum.com/prcivicaddress/'
+  image: featured-products/prados.png
+  overlay_text: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
+  description_new:
+    Helps the municipalities and communities in Puerto Rico enhance their
+    address infrastructure to support the reconstruction process, improve
+    emergency response and foster a more resilient future
+  data_sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
+  prize_status: Winner
+  category: addressing
+  description_old:
+    ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service,
+    and the National Address Database (NAD) schema to help the municipalities
+    and communities in Puerto Rico enhance their address infrastructure to
+    support the reconstruction process, improve emergency response and foster a
+    more resilient future.
   product_advisors: nil
   participants: nil

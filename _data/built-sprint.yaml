@@ -226,7 +226,7 @@
   link: 'https://www.helloneighbor.io/database'
   poc: ''
   problem-statement: refugees
-  email: ''
+  email:
 - name: APIs & Developer Resources
   description:
     The Census application programming interface (API) lets developers create
@@ -337,7 +337,7 @@
   link: 'https://catalog.data.gov/dataset/data-hrsa-gov-hrsa-data-warehouse'
   poc: ''
   problem-statement: sustainable-rural-development
-  email: ''
+  email:
 - name: USGS National Map
   description:
     Information about locatoin of structures including schools, hospitals, post
@@ -368,7 +368,7 @@
   link: 'https://catalog.data.gov/dataset/rural-development-disaster-assistance'
   poc: ''
   problem-statement: sustainable-rural-development
-  email: ''
+  email:
 - name: 'Rural Accessibility '
   description:
     Interactive map and graph showing access to intercity transportation in
@@ -401,7 +401,7 @@
   link: 'http://www.clustermapping.us/'
   poc: ''
   problem-statement: sustainable-rural-development
-  email: ''
+  email:
 - name: Natural resources datasets
   description:
     Federal Statistical and Resource Agencies along with universities produce a
@@ -414,7 +414,7 @@
     "https://www.ers.usda.gov/about-ers/partnerships/strengthening-statistics-through-the-icars/natural-resources-datasets/"
   poc: ''
   problem-statement: sustainable-rural-development
-  email: ''
+  email:
 - name: Location of Energy Infrastructure
   description:
     Includes data on energy infrastructure including power lines, power plants,
@@ -515,7 +515,7 @@
   link: 'https://www.fema.gov/media-library/assets/documents/31789'
   poc: ''
   problem-statement: disaster-spending
-  email: ''
+  email:
 - name: FEMA Annual Performance Report
   description:
     The Department of Homeland Security's Performance and Accountability Reports
@@ -528,7 +528,7 @@
     'https://www.dhs.gov/publication/annual-performance-report-fiscal-years-2017-2019'
   poc: ''
   problem-statement: disaster-spending
-  email: ''
+  email:
 - name: 'COVID-19: Resources for Tracking Federal Spending'
   description:
     Provides selected sources for tracking COVID-19 relief funding provided
@@ -538,7 +538,7 @@
   link: 'https://crsreports.congress.gov/product/pdf/IN/IN11407'
   poc: ''
   problem-statement: disaster-spending
-  email: ''
+  email:
 - name: HHS Annual Performance Report
   description:
     Provides information on HHS’s progress toward achieving the goals and

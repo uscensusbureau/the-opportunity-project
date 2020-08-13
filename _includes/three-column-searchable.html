@@ -2,6 +2,8 @@
 <section class="usa-section usa-graphic-list grid-container">
   {% if page.dataset == "earth-sprint" %}
     {% assign data-topics = site.data.natural-environment-topics %}
+  {% elsif page.dataset == "built-sprint" %}
+    {% assign data-topics = site.data.built-environment-topics %}
   {% else %}
     {% assign data-topics = site.data.workforce-topics %}
   {% endif %}
@@ -61,6 +63,8 @@
     <ul class="usa-card-group">
       {% if page.dataset == "earth-sprint" %}
         {% assign display-dataset = site.data.earth-sprint %}
+      {% elsif page.dataset == "built-sprint" %}
+        {% assign display-dataset = site.data.built-sprint %}
       {% else %}
         {% assign display-dataset = site.data.workforce %}
       {% endif %}

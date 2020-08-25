@@ -971,6 +971,15 @@
   poc: ''
   problem-statement: air-quality
   email:
+- name: OpenDataPhilly
+  description:
+    Philadelphia local transportation data, including on walkability scores, bike networks, airport runways, traffic counts, air monitoring stations, etc.
+  agency: OpenDataPhilly
+  federal: Non-Federal
+  link: 'https://www.opendataphilly.org/dataset?groups=transportation-group'
+  poc: 'Russell Zerbo'
+  problem-statement: air-quality
+  email: rzerbo@cleanair.org	
 - name: NAIP public image service
   description:
     Imagery data from the agricultural growing seasons. Includes ArcGIS Rest

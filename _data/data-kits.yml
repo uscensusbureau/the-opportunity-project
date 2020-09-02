@@ -21,3 +21,11 @@
   description: Economic self-sufficiency, refugees, development, and disaster spending.
   upcoming: false
   datasets: 60
+
+- title: COVID-19
+  image: /img/data-kits/covid.jpg
+  short_url: covid-19
+  link: data/covid-19
+  description: Demographic, occupational, business and other data that can be used to respond to the pandemic.
+  upcoming: false
+  datasets: 18

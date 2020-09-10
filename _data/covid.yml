@@ -16,25 +16,6 @@
     problem-statement: COVID-19
     email: amanda.m.klimek@census.gov
 -
-    name: "Supplemental: COVID-19 Demographic and Economic Resources"
-    description: "Presents selected Census Bureau demographic and economic data to help guide decision making during the COVID-19 pandemic. The demographic, socio-economic, and housing data are from the American Community Survey
-    (ACS) 2014-2018 ACS 5-year estimates. The economic
-    (business) data are from the 2017 Census Bureau’s County Business
-    Patterns (CBP) program, an annual series that provides subnational economic data by industry."
-    agency: U.S. Census Bureau
-    link: https://covid19.census.gov/
-    poc: Amanda Klimek
-    problem-statement: COVID-19
-    email: amanda.m.klimek@census.gov
--
-    name: "Supplemental: 2018 American Community Survey 1-Year Estimates"
-    description: Ongoing survey that provides vital information on a yearly basis about occupations, work locations, educational attainment, housing, and other topics in geographies with populations of 65,000+. This dataset is focused on 2018.
-    agency: U.S. Census Bureau
-    link: https://www.census.gov/newsroom/press-kits/2019/acs-1year.html
-    poc: Amanda Klimek
-    problem-statement: COVID-19
-    email: amanda.m.klimek@census.gov
--
     name: "Supplemental: 2017 American Community Survey 1-Year Estimates"
     description: Ongoing survey that provides vital information on a yearly basis about occupations, work locations, educational attainment, housing, and other topics in geographies with populations of 65,000+. This dataset is focused on 2017.
     agency: U.S. Census Bureau
@@ -50,11 +31,9 @@
     poc: Amanda Klimek
     problem-statement: COVID-19
     email: amanda.m.klimek@census.gov
-
 -
     name: "Supplemental: COVID-19 Demographic and Economic Resources"
-    description: "Presents selected Census Bureau demographic and economic data to help guide decision making during the COVID-19 pandemic. The demographic, socio-economic, and housing data are from the American Community Survey
-    (ACS) 2014-2018 ACS 5-year estimates. The economic (business) data are from the 2017 Census Bureau’s County Business
+    description: "Presents selected Census Bureau demographic and economic data to help guide decision making during the COVID-19 pandemic. The demographic, socio-economic, and housing data are from the American Community Survey (ACS) 2014-2018 ACS 5-year estimates. The economic (business) data are from the 2017 Census Bureau’s County Business
     Patterns (CBP) program, an annual series that provides subnational economic data by industry."
     agency: U.S. Census Bureau
     link: https://covid19.census.gov/

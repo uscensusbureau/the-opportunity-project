@@ -198,6 +198,7 @@ news_item:
     number: 5
 
 ---
+{% include announcement-banner.html %}
 {% include hero.html %}
 {% include circuit-banner.html %}
 {% include text-callout-centered.html %}

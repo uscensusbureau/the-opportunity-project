@@ -1,6 +1,6 @@
 {% assign content = page.content-primary%}
 <section class=" bg-primary">
-  <section class="usa-section grid-container text-white">
+  <section class="usa-section grid-container text-white" id={{page.content-primary.id}}>
     <div class="grid-row grid-gap desktop:margin-top-6  desktop:margin-bottom-6 grid-col-10 grid-offset-1">
       {% if content.title %}
         <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">{{ content.title }}</h2>

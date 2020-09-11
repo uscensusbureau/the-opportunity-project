@@ -5,7 +5,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/newsroom/press-kits/2019/acs-1year.html
     poc: Amanda Klimek
-    problem-statement: COVID-19
+    problem-statement: demographic
     email: amanda.m.klimek@census.gov
 -
     name: "Supplemental: 2018 American Community Survey 1-Year Estimates"
@@ -13,7 +13,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/newsroom/press-kits/2019/acs-1year.html
     poc: Amanda Klimek
-    problem-statement: COVID-19
+    problem-statement: demographic
     email: amanda.m.klimek@census.gov
 -
     name: "Supplemental: 2017 American Community Survey 1-Year Estimates"
@@ -21,7 +21,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/newsroom/press-kits/2018/acs-1year.html
     poc: Amanda Klimek
-    problem-statement: COVID-19
+    problem-statement: demographic
     email: amanda.m.klimek@census.gov
 -
     name: "Supplemental: 2014-2018 American Community Survey 5-Year Estimates"
@@ -29,7 +29,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/data/developers/data-sets/acs-5year.html
     poc: Amanda Klimek
-    problem-statement: COVID-19
+    problem-statement: demographic
     email: amanda.m.klimek@census.gov
 -
     name: "Supplemental: COVID-19 Demographic and Economic Resources"
@@ -38,7 +38,7 @@
     agency: U.S. Census Bureau
     link: https://covid19.census.gov/
     poc: Amanda Klimek
-    problem-statement: COVID-19
+    problem-statement: demographic, economic
     email: amanda.m.klimek@census.gov
 -
     name: "Supplemental: Measuring Household Experiences During the Coronavirus Pandemic"
@@ -46,7 +46,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/householdpulsedata
     poc: Jason Fields & Hyon Shin
-    problem-statement: COVID-19
+    problem-statement: economic
     email: Jason.M.Fields@Census.gov, hyon.B.Shin@Census.gov
 -
     name: "Supplemental: Small Business Pulse Survey: Tracking Changes During The Coronavirus Pandemic"
@@ -54,7 +54,7 @@
     agency: U.S. Census Bureau
     link: https://portal.census.gov/pulse/data/
     poc: Catherine D Buffington
-    problem-statement: COVID-19
+    problem-statement: economic
     email: Catherine.D.Buffington@census.gov
 -
     name: "Supplemental: Survey of Income and Program Participation (SIPP)"
@@ -62,7 +62,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/programs-surveys/sipp.html
     poc: Shalise Ayromloo & Mark Klee & Shelley Irving & Jason Fields
-    problem-statement: COVID-19
+    problem-statement: economic, employment
     email: "shalise.ayromloo@census.gov, mark.a.klee@census.gov,\nshelley.k.irving@census.gov, Jason.M.Fields@Census.gov\n\n"
 -
     name: "Supplemental: State & Local Government Finance Historical Datasets and Tables"
@@ -70,7 +70,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/data/datasets/2018/econ/local/public-use-datasets.html
     poc: Randy Moor
-    problem-statement: COVID-19
+    problem-statement: economic
     email: Randy.A.Moore@census.gov Kristina Pasquino-Frates &, kristina.marie.pasquino.frates@census.gov,
 -
     name: "Supplemental: State Government Tax Dataset"
@@ -78,7 +78,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/data/datasets/2018/econ/stc/2018-annual.html
     poc: Kristina Pasquino-Frates & Randy Moor
-    problem-statement: COVID-19
+    problem-statement: economic
     email: kristina.marie.pasquino.frates@census.gov, Randy.A.Moore@census.gov
 -
     name: "Supplemental: The Annual Survey of Manufactures (ASM)"
@@ -86,7 +86,7 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/data/developers/data-sets/Annual-Survey-of-Manufactures.html
     poc: Rollison Edewor
-    problem-statement: COVID-19
+    problem-statement: economic
     email: rollison.edewor@census.gov
 -
     name: "Supplemental: COVID-19 Data"
@@ -94,23 +94,23 @@
     agency: Centers for Disease Control and Prevention
     link: https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/
     poc:
-    problem-statement: COVID-19
+    problem-statement: health
     email:
 -
     name: "Supplemental: Social Vulnerability Index (SVI)"
     description: Uses 15 U.S. Census variables at tract level to help local officials identify communities that may need support in preparing for hazards, disasters, etc.
     agency: Centers for Disease Control and Prevention
     link: https://svi.cdc.gov/index.html
-    poc:
-    problem-statement: COVID-19
-    email:
+    poc: Danielle Sharpe
+    problem-statement: health
+    email: svi_coordinator@cdc.gov
 -
     name: "Supplemental: College Affordability and Transparency Center"
     description: Resources including The College Financing Plan, Net Price Calculator, College Scorecard, and College Navigator
     agency: U.S. Department of Education
     link: https://collegecost.ed.gov/
     poc:
-    problem-statement: COVID-19
+    problem-statement: education
     email:
 -
     name: "Supplemental: Current Population Survey"
@@ -118,7 +118,7 @@
     agency: U.S. Department of Labor
     link: https://www.bls.gov/cps/
     poc:
-    problem-statement: COVID-19
+    problem-statement: demographic, economic, employment
     email:
 -
     name: "Supplemental: Small Area Health Insurance Estimates (SAHIE) Program"
@@ -126,5 +126,5 @@
     agency: U.S. Census Bureau
     link: https://www.census.gov/programs-surveys/sahie/about.html
     poc:
-    problem-statement: COVID-19
+    problem-statement: health
     email:

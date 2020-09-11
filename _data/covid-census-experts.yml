@@ -1,14 +1,22 @@
 ---
 -
-    name: Census Data Experts
+    name: General Census Data Questions
     description:
     agency:
     link:
-    poc: Eric Coyle & Tyson Weistmeister & Alexandra Barker
+    poc: Eric Coyle & Tyson Weistmeister & Kanin Reese
     problem-statement: COVID-19
-    email: Eric.A.Coyle@census.gov, tyson.weister@census.gov,  alexandra.s.barker@census.gov
+    email: Eric.A.Coyle@census.gov, cedsci.feedback@census.gov
 -
-    name: Census API Expert
+    name: Census Data Skills Questions
+    description:
+    agency:
+    link:
+    poc: Alexandra Barker
+    problem-statement: COVID-19
+    email: alexandra.s.barker@census.gov
+-
+    name: Census API Questions
     description: " "
     agency:
     link:
@@ -16,7 +24,7 @@
     problem-statement: COVID-19
     email: logan.t.powell@census.gov
 -
-    name: Census Data Visualization Experts
+    name: Census Data Visualization Questions
     description: " "
     agency:
     link:

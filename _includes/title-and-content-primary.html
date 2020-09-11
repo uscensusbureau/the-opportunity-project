@@ -1,0 +1,38 @@
+{% assign content = page.content-primary%}
+<section class=" bg-primary">
+  <section class="usa-section grid-container text-white">
+    <div class="grid-row grid-gap desktop:margin-top-6  desktop:margin-bottom-6 grid-col-10 grid-offset-1">
+      {% if content.title %}
+        <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">{{ content.title }}</h2>
+      {% endif %}
+      {% if content.subheader %}
+        <h2 style="font-size:20px;" class="padding-right-3 margin-top-0 line-height-sans-3">{{ content.subheader }}</h2>
+      {% endif %}
+      <div class="desktop:grid-col-8">
+        {% if content.description %}
+          {% for p in content.description %}
+            <p>{{ p }}</p>
+          {% endfor %}
+        {% endif %}
+      </div>
+      {% if content.subsections %}
+          <div class="grid-row grid-gap margin-top-2">
+            <div class="desktop:grid-col-10 display-inline-block margin-top-neg-3">
+              <p>
+              {% for item in content.subsections %}
+                {% if item.text %}
+                  <a href="{{ item.link }}" target="_blank" class="text-white">{{ item.text }}</a>
+                {% else %}
+                  {{ item.p }}
+                {% endif %}
+              {% endfor %}
+              </p>
+            </div>
+          </div>
+        {% if content.download %}
+          <a href="{{ content.download.link }}" target="_blank" class="text-white float-right margin-top-5">{{ content.download.text }}</a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </section>
+</section>

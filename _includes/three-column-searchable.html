@@ -5,7 +5,7 @@
   {% elsif page.dataset == "built-sprint" %}
     {% assign data-topics = site.data.built-environment-topics %}
   {% elsif page.dataset == "covid" %}
-    {% assign data-topics = null %}
+    {% assign data-topics = site.data.covid-topics %}
   {% else %}
     {% assign data-topics = site.data.workforce-topics %}
   {% endif %}
@@ -49,12 +49,6 @@
         {% endif %}
       {% endfor %}
     </div>
-  {% if page.dataset == "covid" %}
-    {% for expert-group in site.data.covid-census-experts %}
-      <p class="font-mono-xs text-accent-warm">{{ expert-group.name }}</p>
-      <a href="mailto:{{ expert-group.email }}?subject=Regarding The ASA Challenge" class="font-sans-2xs text-decoration-none text-white">{{ expert-group.poc }}<img src="{{ site.baseurl }}/assets/img/icons/email-white.png" class="padding-left-1" alt="email"></a>
-    {% endfor %}
-  {% endif %}
   <hr class="margin-top-3 margin-bottom-4 border-accent-warm">
   <div class="display-flex flex-column flex-align-center">
     <form id="data-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
@@ -133,5 +127,12 @@
           </li>
         {% endfor %}
     </ul>
+    {% if page.dataset == "covid" %}
+      <h3 class="font-sans-m text-white">Additional Census Data Experts: Below are points of contacts for Census data in the following topics</h3>
+      {% for expert-group in site.data.covid-census-experts %}
+        <p class="font-mono-xs text-accent-warm">{{ expert-group.name }}</p>
+        <a href="mailto:{{ expert-group.email }}?subject=Regarding The ASA Challenge" class="font-sans-2xs text-decoration-none text-white">{{ expert-group.poc }}<img src="{{ site.baseurl }}/assets/img/icons/email-white.png" class="padding-left-1" alt="email"></a>
+      {% endfor %}
+    {% endif %}
   </section>
 </section>

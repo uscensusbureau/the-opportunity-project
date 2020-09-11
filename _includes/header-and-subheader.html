@@ -1,0 +1,21 @@
+{% assign content = page.header-and-subheader %}
+<section class="usa-section grid-container text-black padding-bottom-0">
+  <div class="grid-row grid-gap grid-col-10 grid-offset-1">
+    {% if content.title %}
+      <h2 style="font-size:32px;" class="margin-top-0 margin-left-neg-2 line-height-sans-3">{{ content.title }}</h2>
+    {% endif %}
+  </div>
+  <div class="desktop:grid-col-8 grid-offset-1 margin-top-2">
+    {% if content.description %}
+      <p>
+      {% for item in content.description %}
+        {% if item.text %}
+          <a href="{{ item.link }}" target="_blank">{{ item.text }}</a>
+        {% else %}
+          {{ item.p }}
+        {% endif %}
+      {% endfor %}
+      </p>
+    {% endif %}
+  </div>
+</section>

@@ -47,7 +47,11 @@
             <h3>{{ text.title }}</h3>
           {% endif %}
           {% if text.subtitle %}
+            {% if text.link %}
+            <a class="font-mono-sm text-white" href="{{text.link}}">{{ text.subtitle | upcase }}</a>
+            {% else %}
             <p class="font-mono-sm">{{ text.subtitle | upcase }}</p>
+            {% endif %}
           {% endif %}
           {% if text.description %}
             <p>{{ text.description }}</p>

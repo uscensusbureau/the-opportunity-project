@@ -141,7 +141,8 @@ get_involved:
     - number: 1
       number_display: false
       title: Build with open data
-      subtitle: Coming Soon
+      subtitle: TOP Product Development Toolkit
+      link: ../product-development/toolkit
       description: 'Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.'
     - number: 2
       number_display: false

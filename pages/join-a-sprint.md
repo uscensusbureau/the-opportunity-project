@@ -131,7 +131,7 @@ content-primary:
     - p: "Note: The challenge requires applicants to use the ACS 1-year estimates, but you are encouraged to use others as well, and additional data sets and points of contact can be found on"
     - a:
       text: The Opportunity Project Data Curation Hub.
-      link: https://opportunity.census.gov/data/covid-19
+      link: ../data/covid-19
     - p: <br><br>
     - p: We also encourage you to develop digital products as part of your participation in the challenge. For a guidebook on transforming federal open data into digital tools for the American people, visit
     - a:

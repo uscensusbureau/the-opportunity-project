@@ -7,7 +7,7 @@ dataset: earth-sprint
 class: datakit
 
 lead:
- - Datasets on plastic pollution in oceans, agricultural decision making, air quality, and recycling.
+ - Datasets on plastic pollution in oceans, agricultural decision making, transportation emissions, and recycling.
 
 
 ---

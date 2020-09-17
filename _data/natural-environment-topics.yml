@@ -12,8 +12,8 @@
   image: ocean-plastics.jpg
   image-alt: Beach with litter and plastics washed ashore
   description: Create open data sets and engaging digital tools that complement existing citizen science plastics data, to help the public understand the amount of plastic on local beaches and in the ocean, where such plastic comes from, and actions that can be taken to alleviate the problem.
-- name: Air Quality
-  filter: air-quality
+- name: Transportation Emissions
+  filter: transportation-emissions
   image: air-quality.jpg
   image-alt: Blue sky with white clouds
   title: Increasing Awareness of Transportation Emissions' Effects on Air Quality

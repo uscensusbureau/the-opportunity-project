@@ -269,11 +269,13 @@ body {
 }
 
 .site-logo {
-  width: 250px;
-  max-height: 70px;
+  .logo-image-mobile{
+    max-width: 150px;
+  }
 
   &.logo-image-desktop {
     display: none;
+    width: 300px;
   }
 
   @include at-media("desktop") {
@@ -1211,6 +1213,12 @@ body {
         text-underline-position: under;
       }
     }
+}
+
+.external-link-white {
+  .external-link {
+    display: none;
+  }
 }
 
 .datasets__card {

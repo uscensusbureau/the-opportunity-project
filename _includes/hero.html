@@ -71,10 +71,10 @@
     </div>
 {% elsif page.class == "sprints" %}
   <section class="interior-hero bg-base-darkest">
-    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-      <h1 class="usa-hero__title margin-bottom-1">{{ page.hero.text}}</h1>
-      <div class="grid-col-5">
-        <p class="usa-hero__subtitle text-center">Sprints are <a href="{{ site.baseurl }}/our-process" class="text-white">12-week product development cycles </a> where we bring together tech teams and collaborators to build digital products using open data.</p>
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-3">
+      <h1 class="usa-hero__title margin-bottom-3 padding-top-0">{{ page.hero.text}}</h1>
+      <div class="grid-col-4">
+        <p class="usa-hero__subtitle text-center">Learn more on this page about ways to engage in The Opportunity Project and join a community of innovators working to turn federal open data into technologies that solve real-world problems for people across the country.</p>
       </div>
     </div>
 {% elsif page.class == "data"%}
@@ -83,6 +83,22 @@
       <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
       <div class="grid-col-4">
         <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
+      </div>
+    </div>
+{% elsif page.class == "covid" %}
+  <section class="interior-hero bg-base-darkest">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-6">
+      <h1 class="usa-hero__title">{{ page.title }}</h1>
+      <div class="grid-col-6">
+        <p>
+        {% for item in page.lead %}
+          {% if item.text %}
+            <a href="{{ item.link }}" target="_blank" class="text-white">{{ item.text }}</a>
+          {% else %}
+            {{ item.p }}
+          {% endif %}
+        {% endfor %}
+        </p>
       </div>
     </div>
 {% else %}

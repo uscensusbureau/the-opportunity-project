@@ -21,3 +21,11 @@
   description: Economic self-sufficiency, refugees, development, and disaster spending.
   upcoming: false
   datasets: 60
+
+- title: COVID-19
+  image: /img/data-kits/covid.jpg
+  short_url: covid-19
+  link: data/covid-19
+  description: Datasets selected as part of the The American Statistical Association Annual Data Challenge Expo which will continue to be updated.
+  upcoming: false
+  datasets: 15

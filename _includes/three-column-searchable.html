@@ -4,6 +4,8 @@
     {% assign data-topics = site.data.natural-environment-topics %}
   {% elsif page.dataset == "built-sprint" %}
     {% assign data-topics = site.data.built-environment-topics %}
+  {% elsif page.dataset == "covid" %}
+    {% assign data-topics = site.data.covid-topics %}
   {% else %}
     {% assign data-topics = site.data.workforce-topics %}
   {% endif %}
@@ -65,6 +67,8 @@
         {% assign display-dataset = site.data.earth-sprint %}
       {% elsif page.dataset == "built-sprint" %}
         {% assign display-dataset = site.data.built-sprint %}
+      {% elsif page.dataset == "covid" %}
+        {% assign display-dataset = site.data.covid %}
       {% else %}
         {% assign display-dataset = site.data.workforce %}
       {% endif %}
@@ -123,5 +127,12 @@
           </li>
         {% endfor %}
     </ul>
+    {% if page.dataset == "covid" %}
+      <h3 class="font-sans-m text-white">Below are additional points of contacts for Census data in the following topics:</h3>
+      {% for expert-group in site.data.covid-census-experts %}
+        <p class="font-mono-xs text-accent-warm">{{ expert-group.name }}</p>
+        <a href="mailto:{{ expert-group.email }}?subject=Regarding The ASA Challenge" class="font-sans-2xs text-decoration-none text-white">{{ expert-group.poc }}<img src="{{ site.baseurl }}/assets/img/icons/email-white.png" class="padding-left-1" alt="email"></a>
+      {% endfor %}
+    {% endif %}
   </section>
 </section>

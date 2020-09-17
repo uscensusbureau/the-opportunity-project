@@ -119,14 +119,18 @@ content-primary:
     - p: We’re excited to share a new way for the public to get involved in TOP this fall!  We’re partnering with The American Statistical Association (ASA) on the 2021
     - a:
       text: Annual Data Challenge Expo
-      link: https://community.amstat.org/governmentstatisticssection/awards/dataexpo
+      link: https://community.amstat.org/dataexpo/home
     - p: ", which is a competition with cash prizes for the best analysis and visualization of Census Bureau data.  The theme of this year’s challenge is “Helping Families, Business, and Communities Respond to COVID-19” (download "
     - a:
       text: problem statement
       link: "../assets/files/covid-19-top-asa-problem-statement.pdf"
     - p: to learn more and view examples of problems you could focus on).
     - p: <br><br>
-    - p: Through the Expo, contestants are Challenged to analyze the U.S. Census Bureau 2019 American Community Survey (ACS) 1-year Estimates using statistical and visualization tools and methods, and present their findings at ASA’s Joint Statistical Meeting (JSM).
+    - p: Through the Expo, contestants are challenged to analyze the U.S. Census Bureau
+    - a:
+      text: 2019 American Community Survey (ACS) 1-year Estimates
+      link: https://www.census.gov/newsroom/press-kits/2020/acs-1year.html
+    - p: using statistical and visualization tools and methods, and present their findings at ASA’s Joint Statistical Meeting (JSM).
     - p: <br>
     - p: "Note: The challenge requires applicants to use the ACS 1-year estimates, but you are encouraged to use others as well, and additional data sets and points of contact can be found on"
     - a:

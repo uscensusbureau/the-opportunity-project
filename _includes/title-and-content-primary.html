@@ -30,7 +30,7 @@
             </div>
           </div>
         {% if content.download %}
-          <a href="{{ content.download.link }}" target="_blank" class="text-white float-right margin-top-5">{{ content.download.text }}</a>
+          <button class="usa-button__secondary-white" type="button" name="button"><a href="{{ content.download.link }}">{{ content.download.text }}</a></button>
         {% endif %}
       {% endif %}
     </div>

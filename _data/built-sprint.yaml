@@ -212,9 +212,9 @@
   agency: U.S Department of State
   federal: Federal
   link: 'https://ireports.wrapsnet.org/'
-  poc: Nicole Patel
+  poc: Nicole Patel, Marisa Hydrick
   problem-statement: refugees
-  email: patelnj@state.gov
+  email: patelnj@state.gov, hydrickm@wrapsnet.org
 - name: Hello Neighbor
   description:
     A crowdsourced database of nonprofits and social service agencies across the
@@ -227,6 +227,16 @@
   poc: ''
   problem-statement: refugees
   email:
+- name: FindHello Resources
+  description:
+    Resources for immigrants, refugees, and asylum seekers including immigration help, English classes, healthcare, and more curated by USAHello.
+  agency:
+  federal: Non-federal data
+  link: 'https://gist.github.com/usahello/2715866b76179a2b5d7e328b0aafa940'
+  poc: ''
+  problem-statement: refugees
+  email:
+
 - name: APIs & Developer Resources
   description:
     The Census application programming interface (API) lets developers create
@@ -446,14 +456,27 @@
   poc: Debbie Brodt-Giles
   problem-statement: sustainable-rural-development
   email: Debbie.Brodt.Giles@nrel.gov
-- name: Computer and Internet Use
-  description: Individual and household internet and computer access through 2012
-  agency: U.S. Census Bureau
-  federal: Federal
-  link: 'https://www.census.gov/topics/population/computer-internet.html'
-  poc: Mike Martin & Kurt Bauman
-  problem-statement: sustainable-rural-development
-  email: 'michael.j.martin@census.gov, kurt.j.bauman@census.gov'
+
+-
+    name: Computer and Internet Use
+    description: Types of Computers and Internet Subscriptions from American Community Survey 2014-2018 data
+    agency: U.S. Census Bureau
+    federal: Federal
+    link: https://data.census.gov/cedsci/table?q=s2801&tid=ACSST1Y2018.S2801&hidePreview=false
+    poc: Mike Martin & Kurt Bauman
+    problem-statement: sustainable-rural-development
+    email: michael.j.martin@census.gov, kurt.j.bauman@census.gov
+
+-
+    name: Types of Internet Subscriptions
+    description: Types of Internet Subscriptions by Selected Characteristics from American Community Survey 2014-2018 data
+    agency: U.S. Census Bureau
+    federal: Federal
+    link: https://data.census.gov/cedsci/table?q=s2802&tid=ACSST1Y2018.S2802&hidePreview=false
+    poc: Mike Martin & Kurt Bauman
+    problem-statement: sustainable-rural-development
+    email: michael.j.martin@census.gov, kurt.j.bauman@census.gov
+
 - name: 2018 FCC Broadband Deployment Report
   description:
     Annual report on whether advanced telecommunications capability “is being
@@ -485,19 +508,45 @@
   link: 'https://broadbandusa.ntia.doc.gov/'
   poc: Karen Perry
   problem-statement: sustainable-rural-development
-  email: kperry@ntia.gov
-- name: National Broadband Availability Map (NBAM)
-  description:
-    GIS platform that allows for the visualization and analysis of federal,
-    state, and commercially available data sets relevant to broadband access,
-    providing users with data to better inform broadband projects and funding
-    decisions in for various states
-  agency: National Telecommunications and Information Administration
-  federal: Federal
-  link: 'https://broadbandusa.ntia.doc.gov/map'
-  poc: Karen Perry
-  problem-statement: sustainable-rural-development
-  email: kperry@ntia.gov
+  email: BroadbandUSA@ntia.gov
+
+-
+    name: BroadbandUSA State Broadband Leaders Network
+    description: A map of state broadband programs with contact information for each program
+    agency: National Telecommunications and Information Administration
+    federal: Federal
+    link: https://broadbandusa.ntia.doc.gov/ntia-resources/state-broadband-leaders-network-sbln
+    poc:
+    problem-statement: sustainable-rural-development
+    email:  BroadbandUSA@ntia.gov
+-
+    name: Digital Nation Data Explorer
+    description: Data Explorer enables easy tracking of metrics about computer and Internet use over time. Simply choose a metric of interest from the drop-down menu. The default Map mode depicts percentages by state, while Chart mode allows metrics to be broken down by demographics and viewed as either percentages of the population or estimated numbers of people or households
+    agency: National Telecommunications and Information Administration
+    federal: Federal
+    link: https://www.ntia.doc.gov/data/digital-nation-data-explorer#sel=internetUser&disp=map
+    poc:
+    problem-statement: sustainable-rural-development
+    email: data@ntia.doc.gov
+-
+    name: Form 477 Data
+    description: Data on facilities-based broadband providers who are required to file data with the FCC twice a year (Form 477) on where they offer Internet access service at speeds exceeding 200 kbps in at least one direction
+    agency: FCC
+    federal: Federal
+    link: https://www.fcc.gov/tags/form-477-data
+    poc:
+    problem-statement: sustainable-rural-development
+    email:
+-
+    name: Fixed Broadband Deployment Map
+    description: This application provides a visualization of the residential fixed broadband deployment data collected on FCC Form 477
+    agency: FCC
+    federal: Federal
+    link: https://broadbandmap.fcc.gov/#/about
+    poc:
+    problem-statement: sustainable-rural-development
+    email:
+
 - name: USASpending
   description:
     USA Spending tracks federal spending to ensure taxpayers can see how their

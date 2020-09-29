@@ -15,6 +15,13 @@ In 2019, COIL hired its first full-time digital team. With a full-time team, we 
 
 The new version of the TOP website is a static site built with Jekyll and the USWDS package, along with a small amount of Javascript, npm, and gulp. It's built based on the open source repo of the USWDS website.
 
+
+#### Website Structure
+
+The website has 3 major parts, the TOP website (which provides information about the TOP program), the data curation hub (also sometime referred to as curated datasets, the data kit hub, or just the data hub), and the TOP Toolkits - the Product Development toolkit, which is currently public and linked in the main nav, and the TOPx toolkit, which is currently being piloted. Though the content is live, it is unlisted, and the link has only been shared with participants in the pilot TOPx sprint being run with the State Department.
+
+Each of these sections is built more or less the same way. Exceptions or details for specfic sections are explained after the main documentation.
+
 #### How Pages are Built
 
 Pages are fairly conventional to typical Jekyll structures, with a .md page, that has front matter written in yaml, and then uses some combination of markdown and calls to a series of .html files in the /_includes_ folder.
@@ -23,8 +30,12 @@ There are some big differences between this and a "typical" Jekyll site, however
 
 1) Markdown is used much more infrequently than in other Jekyll sites
 2) At its core, the site doesn't follow a conventional static blog structure: there is no /_posts_ folder and content is not regularly being added through team-contributed .md files
-3) The overall mentality of the site is closer to that of a series of components that  are building blocks used throughout the site to make pages, than it is a series of unique/discret pages
+3) The overall mentality of the site is closer to that of a component library that provides building blocks used throughout the site to make pages, than it is a series of unique/discrete pages or blog posts.
 
 #### How Content is Organized
 
-For most pages, content is stored as yaml, either in the /_data_ folder, or in the page front matter. There are a few pages that still have the actual content hard coded into the HTML, and those pages are in the backlog to be refactored. 
+For most pages, content is stored as yaml, either in the /_data_ folder, or in the page front matter. There are a few pages that still have the actual content hard coded into the HTML, and those pages are in the backlog to be refactored. Because using the USWDS v2 was new to the team, the first components that were built are a bit clunkier than some of the later components that were added.
+
+Below the front matter is general a series of {% includes %} which list out the components used to make the page.
+
+The components have somewhat descriptive names, and there is a component library file which has a screenshot of each component, the file name, and the key that is used the the front matter yaml to pair with that component. Most .md files also have at least some description in the front matter for what

@@ -13,7 +13,7 @@ In 2019, COIL hired its first full-time digital team. With a full-time team, we 
 
 ### New Version: TOP 2.0 Released Summer 2020
 
-The new version of the TOP website is a static site built with Jekyll and the USWDS package, along with a small amount of Javascript, npm, and gulp. It's built based on the open source repo of the USWDS website.
+The new version of the TOP website is a static site built with Jekyll and the USWDS package, along with a small amount of Javascript, npm, and gulp. It's built based on the open source repo of the USWDS website. There are still a few lingering files here and there from the base repo (USWDS) that are not being used that are in the backlog to be cleaned up.
 
 
 #### Website Structure
@@ -76,3 +76,9 @@ Then, in the main section of the file, reference the components you want to incl
 {% include news.html %}"
 
 Finally, it's time to add content to each of the components. You can use the front matter example for each page file in the components page as a template for the key-value pairs that need to be included for the component to build properly. You can also go directly to the html file to see what keys are referenced (as there may be more keys than are listed just in this example.)
+
+#### Interactions
+
+The site does not have very many interactions, but there are a handful of files in the /js folder that are used to manage things like filtering the products on the products page, the toggle in the problem statement section, and the data curation hub.
+
+Some of the JS was pull from the old repo, and some of it is new. There is a combination of vanilla javascript and jQuery, but not with any particular rhyme or reason. It could probably all be streamlined/simplified, and regex would probably help significantly in the filtering functions, but for now, it mostly works.

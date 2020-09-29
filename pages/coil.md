@@ -72,12 +72,12 @@ contact_us:
   subtitle:
     - p: "For questions about our programs or inquiries about partnerships, please reach out to:"
   people:
-    - name: Mara Abrams
-      job_title: 'Founder and Co&#8288;-&#8288;Director'
-      contact: 'Census.Accelerate@census.gov'
     - name: Drew Zachary
-      job_title: Co-Director
+      job_title: Co-Founder and Director
       contact: 'Census.opportunityproject@census.gov'
+    - name: Lorena Molina-Irizarry
+      job_title: 'Director of <br>Operations'
+      contact: 'Lorena.Molina-Irizarry@census.gov'
 
 
 ---

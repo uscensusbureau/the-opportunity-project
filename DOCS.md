@@ -47,3 +47,32 @@ The YAML conventions aren't completely standardized into an official design syst
 Other keys, particularly as nested keys under sections of text or body text, use keys that are references to html tags. For example "a" and "p". This is not completely consistent yet (in the backlog), and there may be some components that have a "text" key followed simply by a list, rather than additional key-value pairs.
 
 For images, all images should be listed with the reference to the image as well as alt-text content. Any new components that incorporate images should be sure to include a reference to the alt text value in the alt text of the image for accessibility purposes.
+
+
+#### Creating pages
+
+Pages are created in the /pages folder using a combination of front matter, markdown, and liquid.
+
+To get started with creating a page, refer to the component library to see which components are used in the design file.
+
+Update the base front matter with:
+- permalink
+- title
+- class
+- layout
+
+which are the base for creating the page and are necessary for the base page layout and navigation.
+
+Then, in the main section of the file, reference the components you want to include. For example:
+"{% include announcement-banner.html %}
+{% include hero.html %}
+{% include circuit-banner.html %}
+{% include text-callout-centered.html %}
+{% include connecting-banner.html %}
+{% include two-column-wide-text.html %}
+{% include three-column-narrow-text.html %}
+{% include featured_items.html %}
+{% include get-involved.html %}
+{% include news.html %}"
+
+Finally, it's time to add content to each of the components. You can use the front matter example for each page file in the components page as a template for the key-value pairs that need to be included for the component to build properly. You can also go directly to the html file to see what keys are referenced (as there may be more keys than are listed just in this example.)

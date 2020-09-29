@@ -20,7 +20,9 @@ The new version of the TOP website is a static site built with Jekyll and the US
 
 The website has 3 major parts, the TOP website (which provides information about the TOP program), the data curation hub (also sometime referred to as curated datasets, the data kit hub, or just the data hub), and the TOP Toolkits - the Product Development toolkit, which is currently public and linked in the main nav, and the TOPx toolkit, which is currently being piloted. Though the content is live, it is unlisted, and the link has only been shared with participants in the pilot TOPx sprint being run with the State Department.
 
-Each of these sections is built more or less the same way. Exceptions or details for specfic sections are explained after the main documentation.
+The COIL website and the HCD page are also part of this repository, even though some on the team might think of them as their own site and might refer to them as such. These pages are /coil and /hcd, and are fairly static content that has been migrated over from the old repo about those programs.
+
+Each of these sections is built more or less the same way, with the same component library (although some components are only used in some sections) and USWDS customizations. USWDS is robust and has really good documentation on their site, so documentation about how to use USWDS is not included in this repo. 
 
 #### How Pages are Built
 

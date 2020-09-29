@@ -22,11 +22,7 @@
             <p>{{ photo.overlay.text }}</p>
           {% endif %}
           {% if photo.overlay.button-text %}
-            {% if page.class == "sprints" %}
-              <button type="button" name="button" class="{{photo.overlay.button-color}}"><a href="mailto:Census.opportunityproject@census.gov">{{photo.overlay.button-text}}</a></button>
-            {% else %}
-              <button type="button" name="button" class="{{photo.overlay.button-color}}"><a href="{{ site.baseurl }}/{{photo.overlay.button-link}}">{{photo.overlay.button-text}}</a></button>
-            {% endif %}
+            <button type="button" name="button" class="{{photo.overlay.button-color}}"><a href="{{photo.overlay.button-link}}" target="_blank">{{photo.overlay.button-text}}</a></button>
           {% endif %}
         </div>
       </div>

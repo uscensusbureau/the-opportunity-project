@@ -25,7 +25,7 @@ photo:
     subtitle: LAUNCHED JUNE 2020
     text: This year, teams are leveraging technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
     button-text: Get Updates
-    button-link: mailto:Census.opportunityproject@census.gov
+    button-link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
     button-color: usa-button__primary-red
 
 header-and-subheader:

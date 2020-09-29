@@ -502,38 +502,38 @@ progress-bar:
     description: After the sprint, participants work to ensure products reach end users and move the needle on national challenges. Teams have the option to apply for a financial prize to continue their work.
 
 # title-and-content-primary.html
-content-primary:
-  title: Participate in the American Statistical Association Data Challenge Expo
-  id: asa
-  subsections:
-    - p: We’re excited to share a new way for the public to get involved in TOP this fall!  We’re partnering with The American Statistical Association (ASA) on the 2021
-    - a:
-      text: Annual Data Challenge Expo
-      link: https://community.amstat.org/dataexpo/home
-    - p: ", which is a competition with cash prizes for the best analysis and visualization of Census Bureau data.  The theme of this year’s challenge is “Helping Families, Business, and Communities Respond to COVID-19” (download "
-    - a:
-      text: problem statement
-      link: "../assets/files/covid-19-top-asa-problem-statement.pdf"
-    - p: to learn more and view examples of problems you could focus on).
-    - p: <br><br>
-    - p: Through the Expo, contestants are challenged to analyze the U.S. Census Bureau
-    - a:
-      text: 2019 American Community Survey (ACS) 1-year Estimates
-      link: https://www.census.gov/newsroom/press-kits/2020/acs-1year.html
-    - p: using statistical and visualization tools and methods, and present their findings at ASA’s Joint Statistical Meeting (JSM).
-    - p: <br>
-    - p: "Note: The challenge requires applicants to use the ACS 1-year estimates, but you are encouraged to use others as well, and additional data sets and points of contact can be found on"
-    - a:
-      text: The Opportunity Project Data Curation Hub.
-      link: ../data/covid-19
-    - p: <br><br>
-    - p: We also encourage you to develop digital products as part of your participation in the challenge. For a guidebook on transforming federal open data into digital tools for the American people, visit
-    - a:
-      text: The Opportunity Project Product Development Toolkit.
-      link: https://opportunity.census.gov/product-development/toolkit/
-  download:
-    link: "../assets/files/covid-19-top-asa-problem-statement.pdf"
-    text: Download Problem Statement (PDF)
+# content-primary:
+#   title: Participate in the American Statistical Association Data Challenge Expo
+#   id: asa
+#   subsections:
+#     - p: We’re excited to share a new way for the public to get involved in TOP this fall!  We’re partnering with The American Statistical Association (ASA) on the 2021
+#     - a:
+#       text: Annual Data Challenge Expo
+#       link: https://community.amstat.org/dataexpo/home
+#     - p: ", which is a competition with cash prizes for the best analysis and visualization of Census Bureau data.  The theme of this year’s challenge is “Helping Families, Business, and Communities Respond to COVID-19” (download "
+#     - a:
+#       text: problem statement
+#       link: "../assets/files/covid-19-top-asa-problem-statement.pdf"
+#     - p: to learn more and view examples of problems you could focus on).
+#     - p: <br><br>
+#     - p: Through the Expo, contestants are challenged to analyze the U.S. Census Bureau
+#     - a:
+#       text: 2019 American Community Survey (ACS) 1-year Estimates
+#       link: https://www.census.gov/newsroom/press-kits/2020/acs-1year.html
+#     - p: using statistical and visualization tools and methods, and present their findings at ASA’s Joint Statistical Meeting (JSM).
+#     - p: <br>
+#     - p: "Note: The challenge requires applicants to use the ACS 1-year estimates, but you are encouraged to use others as well, and additional data sets and points of contact can be found on"
+#     - a:
+#       text: The Opportunity Project Data Curation Hub.
+#       link: ../data/covid-19
+#     - p: <br><br>
+#     - p: We also encourage you to develop digital products as part of your participation in the challenge. For a guidebook on transforming federal open data into digital tools for the American people, visit
+#     - a:
+#       text: The Opportunity Project Product Development Toolkit.
+#       link: https://opportunity.census.gov/product-development/toolkit/
+#   download:
+#     link: "../assets/files/covid-19-top-asa-problem-statement.pdf"
+#     text: Download Problem Statement (PDF)
 
 #two-column-and-icon-garden.html
 explanation:
@@ -596,9 +596,11 @@ explanation:
     <h1 class="grid-col-8
      display-inline-block padding-top-9">UX Component Library</h1>
     <p class="usa-hero__subtitle grid-col-5">Browse the components used to create the TOP website. These components are generally an HTML section and 100vw, but they have been put into this container for easier viewing along with their notes. The front matter of this page is filled with sample content that is pulled from an actual page of the site, which will allow you to see the list/dictionary that creates each component. Both the front matter and the page have the components listed alphabetically by file name.</p>
+
     </div>
 
 <hr>
+  <p>Some of the components use the same top-level key to determine their content, and therefore they may not successfully render if they are on the same page (because there would therefore be multiple page.[key] references. This isn't too many components, and would be a good first task to get familiar with the setup of the repo.</p>  
     <h4>announcement-banner.html</h4>
     (Hard coded, content must be changed in the file)
       {% include announcement-banner.html %}
@@ -643,7 +645,7 @@ explanation:
 
     <h4>data-kits.html</h4>
       pulls from "_/data/data-kits.yml", not front matter. On the backlog is a design sprint around the DCH, including mobile responsiveness, and general UX functionality
-      {% include data-kits.html %}
+      please see opportunity.census.gov/data to see this page
 
     <hr>
 
@@ -666,12 +668,11 @@ explanation:
     <hr>
 
     <h4>four-column-searchable.html</h4>
-      Not hard-coded, but built specifically for the products page and wasn't originally designed to be easily reusable, although the reference points to the data files could be changed to a variable set in the front matter, rather than pointing to the files directly
+      Please see opportunity.census.gov/products to see this (since it is the entire page). Not hard-coded, but built specifically for the products page and wasn't originally designed to be easily reusable, although the reference points to the data files could be changed to a variable set in the front matter, rather than pointing to the files directly
       pulls data from:
         - _/data/case_studies.yml (for the top case studies section)
         - _/data/product_filters.yml (for the interactive portion of the products search feature)
         - _/data/products.yml (for the product cards themselves)
-      {% include four-column-searchable.html %}
 
     <hr>
 
@@ -695,6 +696,7 @@ explanation:
 <hr>
     <h4>logo-garden.html</h4>
       (Hard coded, content must be changed in the file)
+      Please see the home page.
 <hr>
     <h4>navbar.html</h4>
       (Hard coded, content must be changed in the file)
@@ -747,8 +749,7 @@ explanation:
       {% include timeline-progress-section-dark.html %}
 <hr>
     <h4>title-and-content-primary.html</h4>
-      This is a great example of using p and a as keys to indicate how the content will be shown in html
-      {% include title-and-content-primary.html %}
+      This is a very slight variation of the sidebar and content primary, used for the ASA challenge (see /sprints for preview). The front matter above is commented out, but provides a great example of using p and a as keys to indicate how the content will be shown in html
 <hr>
     <h4>two-column-and-icon-garden.html</h4>
       Not particularly well thought out, was built to quickly add some content from the old site that had not been redesigned into the new framework.

@@ -38,4 +38,12 @@ For most pages, content is stored as yaml, either in the /_data_ folder, or in t
 
 Below the front matter is general a series of {% includes %} which list out the components used to make the page.
 
-The components have somewhat descriptive names, and there is a component library file which has a screenshot of each component, the file name, and the key that is used the the front matter yaml to pair with that component. Most .md files also have at least some description in the front matter for what
+The components have somewhat descriptive names, and there is a component library file which has a screenshot of each component, the file name, and the key that is used the the front matter yaml to pair with that component. Most .md files also have at least some description in the front matter for to indicate the component associated with that content. The idea here is that small copy updates could be made by non-technical team members.
+
+#### YAML conventions in front matter
+
+The YAML conventions aren't completely standardized into an official design system, but came about mostly because there was a similarity of content and styles that naturally emerged as the website was being built. Many of the keys are clearly descriptive of the portion of the component they determine, such as "background-color" or "text". (Note that the colors that are used in values are css variables/class names that are set in the theme. For example, background-color: bg-primary add the bg-primary class to the component in the html file, setting the background as the theme bright blue.)
+
+Other keys, particularly as nested keys under sections of text or body text, use keys that are references to html tags. For example "a" and "p". This is not completely consistent yet (in the backlog), and there may be some components that have a "text" key followed simply by a list, rather than additional key-value pairs. 
+
+For images, all images should be listed with the reference to the image as well as alt-text content. Any new components that incorporate images should be sure to include a reference to the alt text value in the alt text of the image for accessibility purposes.

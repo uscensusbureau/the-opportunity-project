@@ -170,7 +170,7 @@
   poc: ''
   problem-statement: recycling
   email:
-- name: 'Earth Challenge: Interoperable Ocean Plastics Data '
+- name: 'Earth Challenge: Integrated Ocean Plastics Data'
   description:
     A cleaned, curated and interoperable global plastics pollution dataset.The
     Earth Challenge team has combined all available data  from the National
@@ -185,10 +185,12 @@
     Incorporates Federal Data. Created with Wilson Center (partially federal)
     and State (federal)
   listed-link:
-    - href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701'
-      text: All Interoperable Data
-    - href: https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/f0b1f4947f6640f39bcde91c74862755
-      text: Visualization
+    - text: Integrated Dataset
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701
+    - text: Meta Data Dictionary
+      href: https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882
+    - text: Visualization
+      href: https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers
   poc: Metis Meloche & Anne Bowser
   problem-statement: 'ocean-plastics '
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -208,9 +210,11 @@
     and State (federal)
   listed-link:
     - text: Top 10 Plastics Most Common Plastics by Country Data
-      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/mlw-mdmap-tides-combined-interoperable-dataset-top-10-most-common-plastics-by-country-?geometry=-2.812%2C-89.405%2C2.812%2C85.899'
+      href: "https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-top-10-sources-of-plastic-pollution-by-country-?geometry=136.406%2C-89.405%2C-136.406%2C85.899"
+    - text: Meta Data Dictionary
+      href: "https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882"
     - text: Visualization
-      href: 'https://ec2020.maps.arcgis.com/apps/opsdashboard/index.html#/13a5b49a35ad445faf2f7a63b5a0311c'
+      href: "https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-intergrated-plastics-top-10-plastics-by-country-?geometry=-180.000%2C-89.405%2C180.000%2C85.899"
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -223,25 +227,22 @@
   federal: Non-federal data
   listed-link:
     - text: Plastics Mobile Widget Data
-      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/plastics-earth-challenge-2020-wander-app-data?geometry=-98.268%2C-89.377%2C115.482%2C86.083'
-    - text: Data Model Information
-      href: 'https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model'
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-data-earth-challenge-mobile-app-plastic-pollution'
+    - text: Data Dictionary
+      href: 'https://portal-data.cscloud.host/documentation'
   poc: Metis Meloche &  Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
-- name: 'Interoperable Data: Marine Debris Monitoring and Assessment Project '
+- name: 'Integrated Data: Marine Debris Monitoring and Assessment Project'
   description:
-    A cleaned, curated and interoperable global plastics pollution dataset
-    sourced from the National Atmospheric Administrations Marine Debris
-    Monitoring and Assesment Project (MDMAP) accumulation report. This data is
-    compatible with all Earth Challenge 2020 Plastics Data
+    "A cleaned, curated and integrated global plastics pollution dataset sourced from the National Atmospheric Administrations Marine Debris Monitoring and Assesment Project (MDMAP) accumulation report. This data is one of the three datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset."
   agency: 'Earth Challenge '
   federal: Non-federal data
   listed-link:
-    - text: Interoperable MDMAP Data
-      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=109.584%2C-68.714%2C-104.869%2C81.701'
-    - text: All Interoperable Data
-      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+    - text: Integrated MDMAP Data
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/data-marine-debris-monitoring-and-assessment-project-md'
+    - text: All Integrated Data
+      href: 'https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701'
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -257,18 +258,16 @@
   poc: ''
   problem-statement: ocean-plastics
   email:
-- name: 'Interoperable Data: TIDES Coastal Clean Up '
+- name: 'Integrated Data: TIDES Coastal Clean Up'
   description:
-    A cleaned, curated and interoperable global plastics pollution dataset
-    sourced from the  Ocean Convervancy's TIDES Coastal Clean Up data. This data
-    is compatible with all Earth Challenge 2020 Plastics Data
+    "A cleaned, curated and integrated global plastics pollution dataset sourced from Ocean Conservancy's TIDES dataset. This data is one of the three datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701"
   agency: 'Earth Challenge '
   federal: Non-federal data
   listed-link:
-    - text: Interoperable TIDES Data
-      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
-    - text: All Interoperable Data
-      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+    - text: Integrated TIDES Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-trash-information-and-data-for-education-and-solutions-tides-plastic-pollution
+    - text: All Integrated Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -285,18 +284,16 @@
   problem-statement: ocean-plastics
   email: ' skollar@oceanconservancy.org'
   Notes: New data steward
-- name: 'Interoperable Data: Marine Litter Watch '
+- name: 'Integrated Data: Marine Litter Watch'
   description:
-    A cleaned, curated and interoperable global plastics pollution dataset
-    sourced European Environmental Agency's Marine Litter Watch (MLW) data. This
-    data is compatible with all Earth Challenge 2020 Plastics Data
+    "A cleaned, curated and integrated global plastics pollution dataset sourced from the European Environmental Agencies Marine Litter Watch (MLW) dataset. This data is one of the three datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701"
   agency: 'Earth Challenge '
   federal: Non-federal data
   listed-link:
-    - text: Interoperable MLW Data
-      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=69.154%2C-68.714%2C-64.440%2C81.701
-    - text: All Interoperable Data
-      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/-combined-mlw-mdmap-tides-data-all-points-2015-2018?geometry=0.248%2C-68.714%2C4.467%2C81.701
+    - text: Integrated MLW Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-marine-litter-watch-mlw-plastic-pollution
+    - text: All Integrated Data
+      href: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
@@ -325,6 +322,39 @@
       href: https://ogc.citizenscience.host/ Data Model
     - text: Information
       href: https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+  #
+- name: 'Earth Challenge: Citizen Science Cloud: Plastics Page'
+  description:
+    The Citizen Science Cloud is a place where anyone can share and access open, interoperable, citizen science data and related applications and leverages the power of GIS. On the CS Cloud, you can expect to find citizen science data on various focus areas including information on ocean plastics datasets.
+  agency: 'Earth Challenge 2020'
+  federal:
+    Incorporates Federal Data. Created with Wilson Center (partially federal)
+    and State (federal)
+  listed-link:
+    - text: Citizen Science Cloud
+      href: https://cscloud-ec2020.opendata.arcgis.com/
+    - text: Citizen Science Cloud, Plastics Dataset Page
+      href: https://cscloud-ec2020.opendata.arcgis.com/search?tags=plastics%2Cplastic
+  poc: Metis Meloche & Anne Bowser
+  problem-statement: ocean-plastics
+  email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
+- name: 'Earth Challenge: Citizen Science Cloud Data Portal'
+  description:
+    The Citizen Science Cloud Data Portal is a developer-friendly portal to explore datasets from various citizen science projects. These data sets have been transformed and aligned to our common data schema and are interoperable with one another.
+  agency: 'Earth Challenge 2020'
+  federal:
+    Incorporates Federal Data. Created with Wilson Center (partially federal)
+    and State (federal)
+  listed-link:
+    - text: Citizen Science Cloud Data Portal
+      href: https://portal-data.cscloud.host/
+    - text: Citizen Science Cloud Data Portal Datasets Page
+      href: https://portal-data.cscloud.host/apis
+    - text: Documentation Page and Data Schema
+      href: https://portal-data.cscloud.host/documentation
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '

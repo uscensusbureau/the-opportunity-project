@@ -150,55 +150,56 @@ get_involved:
       subtitle: Coming Soon
       description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
-#news
-news_item:
-  - title: The Opportunity Project Marks 100 Product Milestone
-    date: MARCH 2020
-    organization: Meritalk
-    image: /photos/home/news/news-main.png
-    image-alt: American flag waving in a blue sky
-    size: large
-    link:
-    number: 1
-  - title: Census Project Matches Your Agency's Data with Civic Innovators
-    date: December 2019
-    organization: NextGov
-    image: /photos/home/news/news-01.png
-    image-alt: Participants at a workshop
-    size: small
-    link:
-    align: right
-    number: 2
-  - title: How Federal Agencies Can Use Agile Development to Apply Open Data
-    date: June 2019
-    organization: Fedscoop
-    image: /photos/home/news/news-02.png
-    image-alt: Man writing on a poster at a user engagement workshop
-    size: small
-    link:
-    align: right
-    number: 3
-  - title:
-    date:
-    organization: Want to write a story about TOP?
-    image:
-    size: small
-    # default is that the title of the news article is clickable. to add another card (either that is not a news item or that uses a button) add "button text" and the text will appear on the button and the link will be attached there, not on any other part of the card
-    button_text: Let's Talk
-    link:
-    align: left
-    number: 4
-  - title: President Obama's new open data initiative could help cities help themselves
-    date: March 2016
-    organization: NextGov
-    image: /photos/home/news/news-03.png
-    image-alt: New York City skyline
-    size: small
-    link:
-    align: right
-    number: 5
+#news (NOT USED BY TEMPLATE => HARDCODED IN _includes/news.html)
+#news_item:
+#  - title: The Opportunity Project Marks 100 Product Milestone
+#    date: MARCH 2020
+#    organization: Meritalk
+#    image: /photos/home/news/news-main.png
+#    image-alt: American flag waving in a blue sky
+#    size: large
+#    link:
+#    number: 1
+#  - title: Census Project Matches Your Agency's Data with Civic Innovators
+#    date: December 2019
+#    organization: NextGov
+#    image: /photos/home/news/news-01.png
+#    image-alt: Participants at a workshop
+#    size: small
+#    link:
+#    align: right
+#    number: 2
+#  - title: How Federal Agencies Can Use Agile Development to Apply Open Data
+#    date: June 2019
+#    organization: Fedscoop
+#    image: /photos/home/news/news-02.png
+#    image-alt: Man writing on a poster at a user engagement workshop
+#    size: small
+#    link:
+#    align: right
+#    number: 3
+#  - title:
+#    date:
+#    organization: Want to write a story about TOP?
+#    image:
+#    size: small
+#    # default is that the title of the news article is clickable. to add another card (either that is not a news item or that uses a button) add "button text" and the text will appear on the button and the link will be attached there, not on any other part of the card
+#    button_text: Let's Talk
+#    link:
+#    align: left
+#    number: 4
+#  - title: President Obama's new open data initiative could help cities help themselves
+#    date: March 2016
+#    organization: NextGov
+#    image: /photos/home/news/news-03.png
+#    image-alt: New York City skyline
+#    size: small
+#    link:
+#    align: right
+#    number: 5
 
 ---
+
 {% include announcement-banner.html %}
 {% include hero.html %}
 {% include circuit-banner.html %}

@@ -1,3 +1,418 @@
+- product_name: Edubuddy
+  tech_team: Syracuse University
+  cohort: TOPx
+  year: 2020
+  problem_statement: Civics Education
+  agency: State
+  link: 'https://topxiconsult.wordpress.com'
+  image: Edubuddy.png
+  image-alt: An image of a phone app that contains different quizes and tests. The title says 'Level 1: Discovery'.
+  description_new: Increases engagement in secondary civics education through a series of informational modules with quizzes focused on foreign assistance 
+  data_sets: 
+  - FAE dashboard
+  - USASpending
+  - Foreign Assistance Resource Library
+  category: Education
+  description_old: Edubuddy uses the FAE dashboard, the USA Spending Source and the Foreign Assistance Resource Library to solve the problem of lack of engagement for secondary students in civics education.
+- product_name: Bites Media
+  tech_team: Bites Media
+  cohort: TOPx
+  year: 2020
+  problem_statement: Civics Education
+  agency: State
+  link: 'https://bitesmedia.com/'
+  image: Bites-Media.png
+  image-alt: An webpage that explains foreign aid, and shows how you can understand why governments want to either increase or decrease foreign aid.
+  description_new: Offers a series of news and information modules on foreign aid, federal budget, diplomacy, strategic initiatives, and an overview of the State Department for middle and high school students.
+  data_sets: 
+  - State foreignassistance.gov
+  - Congressional Research Service
+  - usa.gov
+  - GAO
+  - CBO
+  category: Education
+  description_old: Bites Media is a news and information platform for middle and high school students. We are on a mission to strengthen democracy by making the news more accessible.
+- product_name: Maine Business Resources
+  tech_team: Syracuse University
+  cohort: University
+  year: 2020
+  problem_statement: Rural Economic Dev
+  agency: EPA
+  link: 'https://saloneeameria.wixsite.com/website'
+  image: Maine-Business-Resources.png
+  image-alt: The title says 'Business Advising'. Underneath is a description that prompts you to 'Talk To Our Business Advisory Assistant'
+  description_new: Helps small business owners in Maine to grow together by providing them with information necessary to start/expand their business
+  data_sets: 
+  - Census County Business Patterns
+  category: Economic Development, Rural
+  description_old: Maine business resources uses County business patterns to help small business owners to grow together by providing them with information necessary to start/expand their business. This product also aims to provide business advisory solutions for small business owners.
+- product_name: R Story
+  tech_team: Columbia University
+  cohort: University
+  year: 2020
+  problem_statement: Rural Economic Dev
+  agency: EPA
+  link: 'https://toptool.shinyapps.io/dashboard/'
+  image: R-Story.gif
+  image-alt: This app is a scrolling image, you can select your county, and the audience you want to pitch to (ex. developers). The app will then display graphs that target that audience.
+  description_new: Simplifies and visualizes federal open data to support storytelling for rural economic development
+  data_sets:
+  - Census ACS
+  - FCC Form 477
+  - BLS Quarterly Census of Employment and Wages
+  - EPA National Walkability Index
+  - BEA GDP and Industry Data
+  - HUD Fair Market Rents
+  category: Economic Development, Rural
+  description_old: Simplifies and visualizes federal open data to support storytelling for rural economic development
+- product_name: The Ghost Gear Project
+  tech_team: Harvard University Institute of Politics
+  cohort: University
+  year: 2020
+  problem_statement: Ocean Plastics
+  agency: State & Wilson Center
+  link: 'https://projects.iq.harvard.edu/ghostgear'
+  image: The-Ghost-Gear-Project.gif
+  image-alt: This is a scrolling image of the product, with a U.S. map of fishing nets over time. 
+  description_new: Visualizes the location of discarded fishing nets and explores solutions for policymakers, NGOs, and the general public
+  data_sets:
+  - Global Fishing Watch's Anchorages Dataset
+  - Earth Challenge 2020 Integrated Data
+  category: Environment
+  description_old: The Ghost Gear Project leverages the Earth Challenge 2020's Integrated Data on plastic pollution and the Global Fishing Watch's anchorage dataset to elucidate the extent of discarded fishing nets and explore solutions for policymakers, NGOs, and the general public.
+- product_name: PPIO
+  tech_team: Rutgers University Computer Science 
+  cohort: University
+  year: 2020
+  problem_statement: Ocean Plastics
+  agency: State & Wilson Center
+  link: 'http://ocean-plastic-pollution.herokuapp.com/'
+  image: PPIO.gif
+  image-alt: The image is a scrolling demo of the product. The product shows different plastics in CA over time. There is a section wih suggestsions on how many voluteers you'll need, the number of items that need to be collected, and the average meters expected to cover.
+  description_new: Increases awareness of beach cleanup events and helps organizers plan future cleanups by predicting number of volunteers needed.
+  data_sets: 
+  - 'Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP, TIDES)'
+  category: Environment
+  description_old: [PPIO] uses [Integrated MLW, MDAP and TIDES for global beach cleanup events] to [Increase beach cleanup events in the future and Increase awareness] for [volunteers and organizers]
+- product_name: Georgetown University Campus Plastic Initiative
+  tech_team: Georgetown University Beeck Center
+  cohort: University
+  year: 2020
+  problem_statement: Ocean Plastics
+  agency: State & Wilson Center
+  link: 'https://arcg.is/04fT0X'
+  image: Georgetown-Campus-Plastic-Initiative.png
+  image-alt: This app has a title that says  'Georgeown Univeristy Plastic Dashboard'. The app displays different charts and maps, as well as when the data was last updated.
+  description_new: Tracks plastic pollution on college campuses and educates students on the impacts of plastics in their communities through educational modules, a dashboard, and a playbook. 
+  data_sets: 
+  - Earth Challenge Integrated Dataset
+  - Earth Challenge 2020 app
+  category: Environment
+  description_old: The Campus Plastics Initiative uses the Earth Challenge datasets to track plastic pollution on college campuses and educate students on the impacts of plastics in their communities. Our products include educational modules, a dashboard, and a playbook to combat widespread plastic in universities. (The education module and playbook are linked on the dashboard under resources) 
+- product_name: Air Aware
+  tech_team: George Mason University
+  cohort: University
+  year: 2020
+  problem_statement: Ocean Plastics
+  agency: State & Wilson Center
+  link: 'http://www.airawareapp.com'
+  image: Air-Aware.jpg
+  image-alt: The dashboard shows the air quality in certain areas along with transportation emissions, compared to housing statistics (e.g. house price and rent).
+  description_new: Identifies neighborhoods for people seeking to move to locations with better air quality
+  data_sets: 
+  - Census ACS
+  - EPA National Emissions Inventory
+  - National Lung Association State of the Air
+  category: Environment
+  description_old: Air Aware uses the State of the Air report to find clean neighborhoods for people who want to move to neighborhoods with better air quality.
+- product_name: AirMotionDC
+  tech_team: American University
+  cohort: University
+  year: 2020
+  problem_statement: Transportation Emissions
+  agency: EPA
+  link: 'https://mthnguyen.shinyapps.io/AirMotionDC/'
+  image: AirMotionDC.png
+  image-alt: A screenshot of the product with the title 'Assessment of Air Quality and Traffic Volume'. The app is set for Washington, D.C., and you have the option to sort by the day, the ward, and the location. 
+  description_new: Compiles and analyzes real-time data on traffic patterns and air pollution in the District of Columbia  to allow policymakers to explore the effect of transportation on air quality
+  data_sets:
+  - EPA AirNow
+  - Open Data DC Street Segments API
+  - DC GIS Master Address Repository
+  - TomTom Traffic API
+  category: Environment
+  description_old: AirMotionDC compiles and analyzes real-time data on traffic patterns and air pollution in the District of Columbia to explore the effect of transportation on air quality. 
+- product_name: Pollution Policy Watch
+  tech_team: George Mason University
+  cohort: University
+  year: 2020
+  problem_statement: Transportation Emissions
+  agency: EPA
+  link: 'http://www.pollutionpolicywatch.com'
+  image: Pollution-Policy-Watch.jpg
+  image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris type, and state for policy enactment.
+  description_new: Visualizes the effect of plastic bans on coastal plastic pollution for policy makers and advocates
+  data_sets:
+  - Earth Challenge 2020 Consolidated Data 
+  category: Environment
+  description_old:
+- product_name: Public Finance Institute-Disaster Spending Tracker
+  tech_team: Baruch College
+  cohort: Built
+  year: 2020
+  problem_statement: Disaster Spending
+  agency: OMB
+  link: 'https://www.publicfinanceinstitute.org/covid-19'
+  image: Public-Finance-Institute-Disaster-Spending-Tracker.png
+  image-alt: The image shows a map of COVID-19 Fiscal assistance, where you can view the fund share by category.
+  description_new: Tracks the flow of COVID-19 related spending by the federal government and its impact on economic recovery
+  data_sets:
+  - USA Spending
+  category: Grants, disasters
+  description_old: The product uses USA spending data to track flow of COVID-19 related spending by the federal government and assess its impact on economic recovery. The product is being further developed to integrate federal flows with state and local spending.
+- product_name: Tech Talent Tracker
+  tech_team: Center on Rural Innovation (CORI)
+  cohort: Built
+  year: 2020
+  problem_statement: Rural Economic Dev
+  agency: EPA
+  link: 'https://link.ruralinnovation.us/tech-talent-tool'
+  image: Tech-Talent-Tracker.gif
+  image-alt: This is a moving image of the Talent Tech Tracker app. You can filter by county to see the tech economic report of different areas.
+  description_new: Creates digital economy reports for rural leaders designing economic development strategies
+  data_sets:
+  - Census ACS
+  - NAICS, DOE College Scorecard
+  - Census County Population by Characteristics
+  - Census County Business Patterns
+  - USPTO Inventors Geocoded
+  category: Economic Development, Rural
+  description_old: Tech Talent Tracker uses BEA, FCC, ED, and USCB data (and third-party data from GoDaddy, Facebook, and Deloitte) to create digital economy reports for rural leaders designing economic development strategies.
+- product_name: TeleCommunity
+  tech_team: Tierra Plan
+  cohort: Built
+  year: 2020
+  problem_statement: Rural Economic Dev
+  agency: EPA
+  link: 'https://telecommunity.tierraplan.com/'
+  image: telecommunity.jpg
+  image-alt: The TeleCommuniy app displays a map of Louisiana. On the left you can explore features such as Broadband Confidence, Housing Growth, Natural Amenities, etc.
+  description_new: Facilitates rural economic development by connecting remote workers with rural communities
+  data_sets:
+  - FCC Broadband data
+  - Census ACS
+  - EPA Smart Location Database
+  - EPA Atlas of Rural America
+  - EPA Livability Indicators
+  category: Economic Development, Rural
+  description_old: TeleCommunity uses federal data to facilitate rural economic development by connecting remote workers with rural communities.
+- product_name: Resettled Refugee Services and Data Explorer
+  tech_team: Graphicacy
+  cohort: Built / Toolkit
+  year: 2020
+  problem_statement: Refugees
+  agency: UNHCR
+  link: 'https://graphicacy.github.io/unhcr-refugee-project/'
+  image: Resettled-Refugee-Services.png
+  image-alt: The Resettled Refugee Services and Data Explorer displays a map with locations on where different refugees has resettled. The app inclides list of the Top cities by Arrival. North Highlands, California is top on the list, with 324 refugees that arrived in 2020.
+  description_new: Helps recently resettled refugees locate vital services within their area, and see the landscape of refugees around the United States by country of origin. 
+  data_sets:
+  - State Department WRAPSNET
+  - Charity Navigator
+  category: Refugees
+  description_old:
+- product_name: RefugeeAssist
+  tech_team: Georgetown McCourt School of Public Policy and Columbia University
+  cohort: Built
+  year: 2020
+  problem_statement: Refugees
+  agency: UNHCR
+  link: 'https://refugeeassist.herokuapp.com/'
+  image: RefugeeAssist.jpeg
+  image-alt: Screenshot with a title that says Refugee Assist. There are icons below that say 'Medical', 'Legal', 'Religious', etc.
+  description_new: Enables refugees to identify community resources near them during and after their resettlement period to the United States
+  data_sets: 
+  - State Department WRAPSnet
+  - NTIA BroadbandUSA  
+  category: Refugees
+  description_old: RefugeeAssist uses WRAPSnet data (State Dept) and BroadbandUSA data (NTIA) to allow refugees to identify community resources near them during and after their resettlement period.
+- product_name: FindHello
+  tech_team: USAHello + SAS
+  cohort: Built
+  year: 2020
+  problem_statement: Refugees
+  agency: UNHCR
+  link: 'https://find.usahello.org'
+  image: FindHello.png
+  image-alt: Screenshot of a map of Texas. There is a bar on the left where you can select categories such as 'Legal Help', 'Resettlement Services', 'Housing & Food', and 'Community'.
+  description_new: Connects immigrants, refugees, and asylum seekers connect with resources in their area, using a data set built in partnership with service organizations
+  data_sets:
+  - State WRAPSnet
+  - FindHello database
+  category: Refugees
+  description_old: FindHello uses a data set built in partnership with service organizations to help connect immigrants, refugees, and asylum seekers connect with resources in their area.
+- product_name: The EnVision App
+  tech_team: Organizational Performance Systems, Inc.
+  cohort: Built
+  year: 2020
+  problem_statement: Economic Self-Sufficiency
+  agency: HUD
+  link: 'https://www.ops1.com/envision.aspx'
+  image: The-EnVision-App.gif
+  image-alt: The image contains a screenshot of someone's profile in the app. The name is 'Thomas Moore', with options to select 'My Account', 'My Needs', and 'Service Providers'.
+  description_new: Helps economically disadvantaged Americans break the cycle of generational poverty and create a positive path to self-sufficiency
+  data_sets:
+  - HHS Poverty Guidelines
+  - Census Income and Poverty
+  - Census ACS
+  - GAO
+  category: Employment, Housing
+  description_old: The EnVision App helps the economically disadvantaged break the cycle of generational poverty and create a positive path to self-sufficiency. Lives get better, families get healthier, and communities win.
+- product_name: America's Community Collaboration Platform
+  tech_team: Council Exchange Board of Trade
+  cohort: Built
+  year: 2020
+  problem_statement: Economic Self-Sufficiency
+  agency: HUD
+  link: 'https://www.accp.us'
+  image: Americas-Community-Collaboration-Platform.png
+  image-alt: A screenshot of a map and. different graphs from the product. The title reads 'Americas Community Collaboration Platform'
+  description_new: Connects service providers and low income families using evidence-based solutions to align program resources that enable self-sufficiency and economic mobility
+  data_sets:
+  - HUD Picture of Subsidized Households
+  - HUD Federal Programs
+  - HUD EnVision Centers
+  - HUD Opportunity Zones
+  - IRS SOI Tax Stats
+  - Census
+  category: Employment, Housing
+  description_old: America's Community Collaboration Platform (ACCP) uses federal open data and applied research to connect and collaborate with service providers, targeted citizens and multiple stakeholders across the U.S. within a now disconnected Federal Entitlement system using evidence-based solutions built to digitally connect and align program resources to enable self-sufficiency and economic mobility.
+- product_name: iDISPLA 360-Degree Data Fusion Virtual Ecosystem Platform
+  tech_team: Greer Institute-ISC iDISPLA Consortium
+  cohort: Built
+  year: 2020
+  problem_statement: Economic Self-Sufficiency
+  agency: HUD
+  link: 'www.idispla.org'
+  image: iDISPLA-360-Degree-Data.png
+  image-alt: The image contains screenshots from the product, with the title 'Broadband Access & Poverty'
+  description_new: Provides novel insights to promote economic self-sufficiency to low-income familites by integrating federal data and user-generated content
+  data_sets:
+  - HUD
+  - Census Bureau ACS
+  - FCC Broadband
+  category: Employment, Housing
+  description_old: iDISPLA's Data Fusion virtual platform integrates federal data sets and user-generated content (citizen volunteered data) to provide 360-degree novel insights to address Self-Sufficiency & Poverty.
+- product_name: Julius Career Journey Program
+  tech_team: Julius Education
+  cohort: Built
+  year: 2020
+  problem_statement: Economic Self-Sufficiency
+  agency: HUD
+  link: 'https://juliusedu.com/career-map'
+  image: Julius-Career-Journey-Program.png
+  image-alt: The image is a career builder map. The title says 'Learners can navigate the career map to understand both short and long-term opportunities in the industry'.
+  description_new: Brings job opportunities and career maps to life, enabling a clear path for job seekers to training and employment
+  data_sets:
+  - Census Quarterly Workforce Indicators
+  - Census Economic Data
+  - BLS Occupational Employment Statistics 
+  category: Employment, Housing
+  description_old: The Julius Career Journey Program uses Bureau of Labor Statistics to bring job opportunities and career maps to life, enabling better navigation to training and jobs in high demand occupations.  
+- product_name: NAIP Downloader and Education Modules
+  tech_team: Geosurge
+  cohort: Natural
+  year: 2020
+  problem_statement: NAIP
+  agency: USDA
+  link: 'https://naip.io'
+  image: NAIP-Downloader-Education-Modules.png
+  image-alt: This image appears to be an arial screenshot from 2017.
+  description_new: Lowers the barrier to learning about agricultural imagery for farmers and anyone who wants to learn. 
+  data_sets:
+  - National Agriculture Imagery Program (NAIP)
+  category: Environment
+  description_old: NAIP Downloader and Educational Modules uses NAIP Imagery to lower the barrier to learning about imagery for farmers and anyone who wants to learn.
+- product_name: NAIP Explorer
+  tech_team: Mapbox
+  cohort: Natural
+  year: 2020
+  problem_statement: NAIP
+  agency: USDA
+  link: 'https://labs.mapbox.com/labs/naip/'
+  image: NAIP-explorer.png
+  image-alt: Screenshot of the NAIP viewer. The image was acquired on 2018/11/11, and displays an arial view of the Big Ridge State Park. The left side of the park is a dark green, and the right side is a dark brown.
+  description_new: Provides a gentle on-ramp and simple way to explore NAIP imagery for users at USDA and the farmers they serve
+  data_sets:
+  - National Agriculture Imagery Program (NAIP)
+  category: Environment
+  description_old: The NAIP explorer uses NAIP imagery to provides a gentle on-ramp and very simple way to explore imagery for users at USDA and the farmers they serve.
+- product_name: TruCycle MRF
+  tech_team: Resource Recycling Systems (RRS)
+  cohort: Natural
+  year: 2020
+  problem_statement: Recycling
+  agency: EPA
+  link: 'https://recycle.com/our-services/specialty-services/trucycle-mrf/'
+  image: Scorecard-TruCycle-MRF.png
+  image-alt: This is a chart of different commodities, such as mixed paper and PET. Each column contains a category and the grade for each commodity. For example, 'Mixed Plastic' recieved a 'D' in the category of 'Community Relationship'.
+  description_new: A certification for material recovery facilities reflecting level of community relationship, material sorting, value of materials, and end market success 
+  data_sets: 
+  - Census
+  - EPA WARM Model
+  - EPA Municipal Solid Waste Report
+  category: Environment
+  description_old: TruCycle MRF utilizes an extensive RRS database of material recovery facilities (MRFs), U.S. Census data, along with expertise in material sortation and industry experience to create a multi-stage, MRF certification reflecting the level of community relationship, material sortation, commodity value, and end market success to better understand true recyclability. 
+- product_name: Sea Scavenger
+  tech_team: Code for Tucson
+  cohort: Natural
+  year: 2020
+  problem_statement: Ocean Plastics
+  agency: State & Wilson Center
+  link: 'https://codefortucson.github.io/sea-scavenger/'
+  image: sea-scavenger.png
+  image-alt: This page says 'Welcome to Sea Scavenger'. The introduction screen to the game explains what a circular economy is, the rules of the game, and what tasks need to be completed.
+  description_new: Highlights the issue of ocean plastic pollution through an interactive game for all age groups. 
+  data_sets:
+  - 'Earth Challenge Integrated Data: Top 10 Sources of Plastic Pollution by Country'
+  - 'Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP, TIDES)'
+  category: Environment
+  description_old: Sea Scavenger uses the Earth Challenge Integrated Data: Top 10 Sources of Plastic Pollution by Country dataset to highlight the issue of ocean plastic pollution for the general public.
+- product_name: Chicago Circular Economy 
+  tech_team: SAP
+  cohort: Natural
+  year: 2020
+  problem_statement: Recycling
+  agency: EPA
+  link: 'https://chicago.topolyticsapp.com/'
+  image: chicago-circular-economy.png
+  image-alt: Screenshot of the Topolytics application. The app displays a map of the united states; the travel of waste products is color coded and tracked from place to place.
+  description_new: Empowers city officials to make informed decisions around waste management that lead to transparency, investment and job creation through the development of a circular economy
+  data_sets: 
+  - Illinois EPA
+  - Association of Plastics Recyclers
+  - Illinois Recycling Association
+  - Plastics Markets - Buyers and Sellers
+  - Institute of Scrap Recycling Industries
+  - The Recycling Partnership 
+  category: Environment
+  description_old: Our solution aims to empower city officials to make informed decisions around waste management that lead to transparency, investment and job creation.
+- product_name: ECO Bloc 
+  tech_team: Eco Bloc
+  cohort: Natural
+  year: 2020
+  problem_statement: Recycling
+  agency: EPA
+  link: 'https://demo.ecobloc.io'
+  image: eco-bloc.png
+  image-alt: Screenshot of the Eco Bloc search function. A profile has been selected, with the name 'Supplier', contact information, and products, such as plastic and metal.
+  description_new: Creates a B2B Marketplace for recycled materials that helps to enable local circular economies.
+  data_sets: 
+  - EPA Facts and Figures about Materials
+  - Waste and Recycling
+  - USGS Mineral Commodity Summaries 
+  category: Environment
+  description_old: Eco Bloc is B2B Marketplace for recycled materials.
 - product_name: '#WhyWeCount'
   tech_team: NextDayBetter
   cohort: 2020 Census

@@ -103,6 +103,11 @@ body:
           - p: Tech teams should also consider reaching out to additional advocacy organizations, service providers, or others with direct experience with the challenge
       - number: 3
         text:
+          - b: Consider facilitating a problem statement 101 call
+        highlight:
+          - p: If your challenge involves technical information that would help orient the tech teams, share background on the challenge, along with details of technical terms, data, past solutions, and any additional relevant information
+      - number: 4
+        text:
           - b: Facilitate a user research milestone  advocates
         toggle:
           - ul:
@@ -223,23 +228,24 @@ body:
     key_actions:
       - number: 1
         text:
-          - b: Decide what kind of in-person event you will host after the sprint concludes
+          - b: Decide what kind of end of sprint event you will host after the sprint concludes
         highlight: See the following phase for more detailed information
         toggle:
           - ul:
             - li: Set a date and time. Consider facilitating an event a few weeks after the end of the sprint
-            - li: Identify a location. Typically Demo Days are held in auditoriums or conference rooms
-            - highlight: An auditorium will be most conducive to offering each team a few minutes on stage to speak about their product (“lighting talks”),  while a conference room is better suited for live demo tables, where each tech team is assigned a table with a screen to demo their product as attendees visit tables over the course of 1-2 hours
+            - li: Choose how to showcase the products
+            - highlight: This can be done through “lighting talks,” during which each team speaks for a few minutes about their use case, end users, and product through a series of slides.
+            - highlight: Alternatively during live demos, teams show attendees demonstrations of their working products
       - number: 2
         text:
           - p: Tech teams should begin to
-          - b:  prepare for a Final Demo,
+          - b:  prepare for a Final MVP Demo,
           - p: where teams will present an MVP, or
           - b: Minimum Viable Product,
           - p: which has enough features to allow for testing
       - number: 3
         text:
-          - b:  Facilitate a Final Demo
+          - b:  Facilitate a Final MVP Demo
         toggle:
           - ul:
             - li: "Sprint facilitators assign each team a time slot during the milestone call. Each team will: identify their intended end user; walk through the user journey (the steps a user might take to interact with the tool); identify what federal data was incorporated during the sprint"

@@ -115,7 +115,7 @@ body:
           - b: Create a detailed sprint timeline,
           - p: including the number and frequency of milestones. See Resources below for a template
         highlight:
-          - p: Some agencies will choose to increase the number of touch-points, for example by including a weekly check-in call, while others will have fewer touchpoints, for instance only two or three milestone calls
+          - p: Some agencies will choose to increase the number of touch-points, for example by including a weekly check-in call, while others will have fewer touchpoints, for instance only two or three milestone calls. If your challenge involves technical information that would help orient the tech teams, consider offering a Problem Statement 101 session where you would give more details of terms, data, past solutions, and any additional relevant information
       - number: 3
         text:
           - b: Review explanations of sprint roles on the TOP website.

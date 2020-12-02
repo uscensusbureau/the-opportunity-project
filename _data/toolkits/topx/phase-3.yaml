@@ -34,7 +34,8 @@ body:
       - number: 3
         text:
           - b: If your event will be held virtually, consider what platforms are available for use by your agency.
-        highlight: Take into consideration attendee capacity and screenshare capabilities
+        highlight:
+          - p: Take into consideration attendee capacity and screenshare capabilities
       - number: 4
         text:
           - b: Identify a keynote speaker(s)

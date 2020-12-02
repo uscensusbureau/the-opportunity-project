@@ -1,4 +1,4 @@
-- product_name: Edubuddy
+  - product_name: Edubuddy
   tech_team: Syracuse University
   cohort: TOPx
   year: 2020
@@ -347,6 +347,22 @@
   - National Agriculture Imagery Program (NAIP)
   category: Environment
   description_old: The NAIP explorer uses NAIP imagery to provides a gentle on-ramp and very simple way to explore imagery for users at USDA and the farmers they serve.
+- product_name: PAGAF: Precision Ag for all American Farmers
+  tech_team: New Light Technologies
+  cohort: Natural
+  year: 2020
+  problem_statement: NAIP
+  agency: USDA
+  link: 'https://pagaf.nltmso.com/'
+  image: pagaf.jpg
+  image-alt: This is an intro page for the app, with the title 'Improve Your Crop Yield with Precision AG'.
+  description_new: PAGAF uses NAIP data to provide free precision agriculture services to farmers.
+  data_sets: 
+  - USDA NAIP
+  - USDA Cropland Data Layer
+  - ESA Sentinel 2
+  category: Environment, Rural
+  description_old:
 - product_name: TruCycle MRF
   tech_team: Resource Recycling Systems (RRS)
   cohort: Natural
@@ -378,6 +394,25 @@
   - 'Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP, TIDES)'
   category: Environment
   description_old: Sea Scavenger uses the Earth Challenge Integrated Data: Top 10 Sources of Plastic Pollution by Country dataset to highlight the issue of ocean plastic pollution for the general public.
+- product_name: Ocean Plastics Story Map
+  tech_team: Esri
+  cohort: Natural
+  year: 2020
+  problem_statement: Ocean Plastics
+  agency: State & Wilson Center
+  link: 'https://esriurl.com/OceanPlastics'
+  image: Ocean-Plastics-Story-Map.png
+  image-alt: This image shows the story of ocean plastics.
+  description_new: Compiles tangible and novel data sets to energize public consciousness and provide new insights into the problem of ocean plastic pollution, offering actions for citizens and policymakers worldwide to solve the crisis of plastic waste ending up in our oceans.
+  data_sets: 
+  - Citizen Science Portal
+  - Interpol
+  - GRID-Arendal
+  - US EPA
+  - PEW
+  - Woldemar d’Ambrières
+  category: Environment
+  description_old: We used data from US EPA, INTERPOL, the Citizen Science Portal and multiple national and international specialists to build an ESRI Story Map.  This interactive online narrative compiles tangible and novel data sets to energize public consciousness and provide new insights into the problem of ocean plastic pollution, offering actions for citizens and policymakers worldwide to solve the crisis.
 - product_name: Chicago Circular Economy 
   tech_team: SAP
   cohort: Natural

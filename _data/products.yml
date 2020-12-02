@@ -53,7 +53,7 @@
   problem_statement: Rural Economic Dev
   agency: EPA
   link: 'https://toptool.shinyapps.io/dashboard/'
-  image: R-Story.gif
+  image: R-Story.png
   image-alt: This app is a scrolling image, you can select your county, and the audience you want to pitch to (ex. developers). The app will then display graphs that target that audience.
   description_new: Simplifies and visualizes federal open data to support storytelling for rural economic development
   data_sets:
@@ -72,7 +72,7 @@
   problem_statement: Ocean Plastics
   agency: State & Wilson Center
   link: 'https://projects.iq.harvard.edu/ghostgear'
-  image: The-Ghost-Gear-Project.gif
+  image: The-Ghost-Gear-Project.png
   image-alt: This is a scrolling image of the product, with a U.S. map of fishing nets over time. 
   description_new: Visualizes the location of discarded fishing nets and explores solutions for policymakers, NGOs, and the general public
   data_sets:
@@ -87,7 +87,7 @@
   problem_statement: Ocean Plastics
   agency: State & Wilson Center
   link: 'http://ocean-plastic-pollution.herokuapp.com/'
-  image: PPIO.gif
+  image: PPIO.png
   image-alt: The image is a scrolling demo of the product. The product shows different plastics in CA over time. There is a section wih suggestsions on how many voluteers you'll need, the number of items that need to be collected, and the average meters expected to cover.
   description_new: Increases awareness of beach cleanup events and helps organizers plan future cleanups by predicting number of volunteers needed.
   data_sets: 
@@ -177,7 +177,7 @@
   problem_statement: Rural Economic Dev
   agency: EPA
   link: 'https://link.ruralinnovation.us/tech-talent-tool'
-  image: Tech-Talent-Tracker.gif
+  image: Tech-Talent-Tracker.png
   image-alt: This is a moving image of the Talent Tech Tracker app. You can filter by county to see the tech economic report of different areas.
   description_new: Creates digital economy reports for rural leaders designing economic development strategies
   data_sets:
@@ -258,7 +258,7 @@
   problem_statement: Economic Self-Sufficiency
   agency: HUD
   link: 'https://www.ops1.com/envision.aspx'
-  image: The-EnVision-App.gif
+  image: The-EnVision-App.png
   image-alt: The image contains a screenshot of someone's profile in the app. The name is 'Thomas Moore', with options to select 'My Account', 'My Needs', and 'Service Providers'.
   description_new: Helps economically disadvantaged Americans break the cycle of generational poverty and create a positive path to self-sufficiency
   data_sets:

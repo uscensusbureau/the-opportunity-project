@@ -29,7 +29,7 @@
   link: 'https://topxiconsult.wordpress.com'
   image: Edubuddy.png
   image-alt: An image of a phone app that contains different quizes and tests. The title says Level 1 Discovery
-  description_new: 
+  description_new:
     Increases engagement in secondary civics education through a series of informational modules with quizzes focused on foreign assistance
   data_sets:
     - 'FAE dashboard'
@@ -37,7 +37,7 @@
     - 'Foreign Assistance Resource Library'
   prize_status: nil # <- ADD THIS TO NON PRIZES
   category: Education
-  description_old: 
+  description_old:
     Edubuddy uses the FAE dashboard, the USA Spending Source and the Foreign Assistance Resource Library to solve the problem of lack of engagement for secondary students in civics education.
 - product_name: Bites Media
   tech_team: Bites Media
@@ -266,7 +266,7 @@
   problem_statement: Refugees
   agency: UNHCR
   link: 'https://refugeeassist.herokuapp.com/'
-  image: RefugeeAssist.jpeg
+  image: RefugeeAssist.jpg
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below that say 'Medical', 'Legal', 'Religious', etc.
   description_new: Enables refugees to identify community resources near them during and after their resettlement period to the United States
   data_sets:

@@ -31,11 +31,7 @@ mobile:
   - text: Curated Datasets
     href: data/
   - text: Toolkit
-    accordion:
-      - text: TOPx
-        href: topx-toolkit/introduction/
-      - text: Product Development 
-        href: product-development/toolkit/
+    href: product-development/toolkit
   - text: Get Involved
     href: get-involved/
 

@@ -115,7 +115,7 @@ body:
           - b: Create a detailed sprint timeline,
           - p: including the number and frequency of milestones. See Resources below for a template
         highlight:
-          - p: Some agencies will choose to increase the number of touch-points, for example by including a weekly check-in call, while others will have fewer touchpoints, for instance only two or three milestone calls
+          - p: Some agencies will choose to increase the number of touch-points, for example by including a weekly check-in call, while others will have fewer touchpoints, for instance only two or three milestone calls. If your challenge involves technical information that would help orient the tech teams, consider offering a Problem Statement 101 session where you would give more details of terms, data, past solutions, and any additional relevant information
       - number: 3
         text:
           - b: Review explanations of sprint roles on the TOP website.
@@ -219,6 +219,11 @@ body:
             - li: A sprint participant contact list to encourage email communication between participants
             - highlight: Include all sprint participants, but also ask each organization to identify a main point of contact to make communication more streamlined
       - number: 4
+        text:
+          - b: Begin finalizing data list and confirm any last data stewards
+        highlight:
+          - p: In a word document, compile descriptions, data steward names, and data steward emails for each data set. This document will be shared with participants after the User Research Milestone
+      - number: 5
         text:
           - b: Set a date for a kickoff call and send a calendar invitation
           - p: to all sprint participants

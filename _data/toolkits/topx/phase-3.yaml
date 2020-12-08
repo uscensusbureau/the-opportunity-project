@@ -11,11 +11,11 @@ body:
   - section: Step 1
     offset: 2
     color:
-    header: In-Person Event
+    header: End of Sprint Event
     time: "4-6 weeks"
     effort-out-of-4: 4
     empty: 0
-    plain-text: While the TOPx sprint is otherwise entirely virtual, hosting an in-person event is an opportunity to showcase and launch the tools developed through the sprint and allow participants to connect in person. This is optional but we encourage organizing even a small event that includes only sprint participants. If you have capacity, a larger event with outside stakeholders provides an opportunity for teams to share their products with a more diverse audience and to make connections that could help reach end users.
+    plain-text: Hosting a post-sprint event is an opportunity to showcase and launch the tools developed through the sprint and allow participants to connect. This is optional but we encourage organizing even a small event that includes only sprint participants. If you have capacity, a larger event with outside stakeholders provides an opportunity for teams to share their products with a more diverse audience and to make connections that could help reach end users.
     highlight: The TOP team at the Census Bureau organizes an annual Demo Day to showcase the tools developed through the TOP sprints. On occasion, we are able to highlight a few tools developed through an agency TOPx sprint. If you would like tools developed through your sprint to be considered, please reach out to the TOP team at census.opportunityproject@census.gov.
 
     key_actions:
@@ -31,20 +31,24 @@ body:
           - p: If it is permitted by your agency,
           - b: Splashthat
           - p: is a free option for well-designed templates and a good back-end RSVP management system
-        highlight: If your event is in a federal building, consider what information you need to collect from visitors for security purposes
       - number: 3
+        text:
+          - b: If your event will be held virtually, consider what platforms are available for use by your agency.
+        highlight:
+          - p: Take into consideration attendee capacity and screenshare capabilities
+      - number: 4
         text:
           - b: Identify a keynote speaker(s)
           - p: who will kick-off the event and speak to the significance of the sprint. Keynote speakers could be members of the TOPx facilitation team or senior agency officials
-      - number: 4
+      - number: 5
         text:
           - b: Identify sprint participants to speak
           - p: about their experience or the products they built
-      - number: 5
+      - number: 6
         text:
           - b: Coordinate with your agency’s Communications team
           - p: to ensure the event will be publicized and highlighted in agency communications, social media, etc.
-      - number: 6
+      - number: 7
         text:
           - b: Ensure your location is equipped with the technology you will need
           - p: (e.g., projector, screens for live demos, HDMI cords)

@@ -22,7 +22,7 @@ body:
       - p: but we encourage organizing
       - b: even a small event that includes only sprint participants.
       - p: If you have capacity,
-      - b: a larger event with outside stakeholders 
+      - b: a larger event with outside stakeholders
       - p: provides an opportunity for teams to share their products with a more diverse audience and to make connections that could help reach end users.
     highlight: The TOP team at the Census Bureau organizes an annual Demo Day to showcase the tools developed through the TOP sprints. On occasion, we are able to highlight a few tools developed through an agency TOPx sprint. If you would like tools developed through your sprint to be considered, please reach out to the TOP team at census.opportunityproject@census.gov.
 
@@ -78,14 +78,13 @@ body:
     time: "2-4 weeks"
     effort-out-of-4: 1
     empty: 3
-    plain-text: After hosting an in-person event, let teams know what their options are for staying in touch and continuing product development and deployment. The TOP team at the Census Bureau facilitates post-sprint opportunities, which TOPx participants can also become involved in.
+    plain-text: After hosting an end of sprint event, let teams know what their options are for staying in touch and continuing product development and deployment. The TOP team at the Census Bureau facilitates post-sprint opportunities, which TOPx participants can also become involved in.
 
     key_actions:
       - number: 1
         text:
           - b: Tell us about your methods and experience with TOPx.
-          - p: Answer a few questions about your methods and experience with TOPx
-        highlight: See Resources below for a short sprint summary form
+          - p: Reach out to the TOP team to tell us about your methods and experience with TOPx
       - number: 2
         text:
           - b: Develop ways for sprint participants to stay in touch
@@ -104,7 +103,6 @@ body:
         text:
           - p:  Connect participants with
           - b: post-sprint opportunities facilitated by the Census Bureau TOP team.
-          - p: Fill out the Sprint Summary and Feedback Form under Resources below to express interest
         toggle:
           - ul:
             - li: "Alumni Community: A quarterly newsletter and facilitated Slack channel offers past sprint participants an opportunity to stay connected and receive relevant resources and updates"

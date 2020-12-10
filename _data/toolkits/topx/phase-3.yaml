@@ -15,15 +15,7 @@ body:
     time: "4-6 weeks"
     effort-out-of-4: 4
     empty: 0
-    text:
-      - b: Hosting a post-sprint event is an opportunity to showcase and launch the tools
-      - p: developed through the sprint and allow participants to connect. This is
-      - b: optional
-      - p: but we encourage organizing
-      - b: even a small event that includes only sprint participants.
-      - p: If you have capacity,
-      - b: a larger event with outside stakeholders
-      - p: provides an opportunity for teams to share their products with a more diverse audience and to make connections that could help reach end users.
+    plain-text: Hosting a post-sprint event is an opportunity to showcase and launch the tools developed through the sprint and allow participants to connect. This is optional but we encourage organizing even a small event that includes only sprint participants. If you have capacity, a larger event with outside stakeholders provides an opportunity for teams to share their products with a more diverse audience and to make connections that could help reach end users.
     highlight: The TOP team at the Census Bureau organizes an annual Demo Day to showcase the tools developed through the TOP sprints. On occasion, we are able to highlight a few tools developed through an agency TOPx sprint. If you would like tools developed through your sprint to be considered, please reach out to the TOP team at census.opportunityproject@census.gov.
 
     key_actions:

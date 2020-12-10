@@ -41,7 +41,6 @@ body:
           - b: Begin meeting weekly as a facilitation team
           - p: to efficiently distribute responsibility and share out progress
     resources:
-      # - download-link: "topx-resources/intro-to-topx-email.docx"
       - title: Introduction to TOPx Email
         description: Modify this template email depending on the audience to spread the word about TOPx within your agency
       - download-link: "topx-resources/topx-overview-for-agencies.docx"
@@ -175,8 +174,8 @@ body:
       - download-link: "topx-resources/identifying-sprint-participants.pdf"
         title: Tips for Identifying Potential Sprint Participants
         description: Information on what organizations sprint participants come from and what skills to look for
-      - download-link: "topx-resources/topx-recruitment-email-template.docx"
-        title: TOPx Recruitment Email
+      # - download-link: "topx-resources/topx-recruitment-email-template.docx"
+      - title: TOPx Recruitment Email
         description: Modify this template email to recruit tech teams and user advocates
       - download-link: "topx-resources/tech-team-role-overview.docx"
         title: Tech Team Role Overview

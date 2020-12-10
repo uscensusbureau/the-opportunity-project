@@ -10,7 +10,7 @@ primary:
     href: '#news'
   - text: Datasets
     href: data/
-  - text: Toolkit
+  - text: Toolkits
     accordion:
       - text: TOPx for Federal Agencies
         href: topx-toolkit/introduction/

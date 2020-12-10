@@ -169,7 +169,7 @@ body:
         title: Sprint Timeline
         description: High-level timeline of the sprint, which you can modify to work best for your agency
       - link: https://opportunity.census.gov/our-process/#roles
-        title: Sprint roles
+        title: Sprint Roles
         description: Review the TOP website to learn more about each role in a sprint
       - download-link: "topx-resources/identifying-sprint-participants.pdf"
         title: Tips for Identifying Potential Sprint Participants

@@ -41,7 +41,7 @@ body:
           - b: Begin meeting weekly as a facilitation team
           - p: to efficiently distribute responsibility and share out progress
     resources:
-      - download-link: "topx-resources/intro-to-topx-email.docx"
+      # - download-link: "topx-resources/intro-to-topx-email.docx"
         title: "Introduction to TOPx Email"
         description: Modify this template email depending on the audience to spread the word about TOPx within your agency
       - download-link: "topx-resources/topx-overview-for-agencies.docx"

@@ -5,7 +5,7 @@ class: toolkit
 permalink: /topx-toolkit/phase-3/
 layout: toolkit
 
-color: blue-cool-40v
+color: blue-warm-70v
 
 sidebar:
   - text: STEP 1

@@ -21,7 +21,7 @@ sidebar:
     href: "#toolkit-step-6"
 
 
-color: '#4132f7'
+color: color-accent-cool
 text-color: text-black
 
 

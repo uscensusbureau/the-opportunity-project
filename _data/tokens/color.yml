@@ -686,6 +686,12 @@ system:
       value: "#203133"
     - token: cyan-90
       value: "#111819"
+    - token: phase-01
+      value: "#AAD6FF"
+    - token: phase-02
+      value: "#2193FF"
+    - token: phase-03
+      value: "#014280"
   cyan-vivid:
     - token: cyan-5v
       value: "#e5faff"

@@ -16,7 +16,7 @@ sidebar:
   - text: STEP 4
     href: "#toolkit-step-4"
 
-color: secondary
+color: phase-01
 
 header: Pre-Sprint Planning
 lead:

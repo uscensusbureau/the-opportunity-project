@@ -176,7 +176,8 @@ body:
         title: Tips for Identifying Potential Sprint Participants
         description: Information on what organizations sprint participants come from and what skills to look for
       # - download-link: "topx-resources/topx-recruitment-email-template.docx"
-      - title: TOPx Recruitment Email
+      - dummy: true
+        title: TOPx Recruitment Email
         description: Modify this template email to recruit tech teams and user advocates
       - download-link: "topx-resources/tech-team-role-overview.docx"
         title: Tech Team Role Overview

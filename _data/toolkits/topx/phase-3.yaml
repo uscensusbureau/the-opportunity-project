@@ -48,10 +48,6 @@ body:
         text:
           - b: Coordinate with your agency’s Communications team
           - p: to ensure the event will be publicized and highlighted in agency communications, social media, etc.
-      - number: 7
-        text:
-          - b: Ensure your location is equipped with the technology you will need
-          - p: (e.g., projector, screens for live demos, HDMI cords)
 
     resources:
       - link: https://support.splashthat.com/hc/en-us/categories/200163435

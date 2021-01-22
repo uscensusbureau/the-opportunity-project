@@ -33,8 +33,11 @@ filterForm.addEventListener( 'change', e => {
   e.preventDefault()
 
   filterTopics = getCheckedInputs( topicsInput )
+  console.log({filterTopics})
   filterYears = getCheckedInputs( yearInput )
+  console.log({filterYears})
   filterAgencies = getCheckedInputs( agencyInput )
+  console.log({filterAgencies})
 
   filterProducts()
 })
@@ -66,21 +69,43 @@ const filterProducts = () => {
     const productTopic = card.getElementsByTagName('h4')[ 0 ].innerText;
     const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
     
-    const searchMatch = !searchTerm || (productName.includes(searchTerm) || prodDesc.includes( searchTerm ))
+    const searchMatch = productName.includes(searchTerm) || prodDesc.includes( searchTerm )
 
-    // TODO!
-    const filterMatch = !areFilters || (
-      productYear.includes
-    )
+    const topicMatches = checkFilterMatch( productTopic, filterTopics )
+    const yearMatches = checkFilterMatch( productYear, filterYears )
+    const agencyMatches = checkFilterMatch( productAgency, filterAgencies )
 
-    if (searchMatch) {
-      document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
+    const filterMatch = topicMatches || yearMatches || agencyMatches
+    
+
+    if (searchTerm) {
+      if (searchMatch) {
+        if (areFilters && filterMatch) {
+          document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
+        }
+      }
+      else {
+        document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
+      }
     } else {
-      document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
+      if (!areFilters || filterMatch) {
+        document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
+      } else {
+        document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
+      }
     }
   }
 }
 
+function checkFilterMatch( productValue, filterArray ) {
+  return filterArray.some( filterVal => {
+    console.log(`checking ${productValue} against ${filterVal}`)
+
+    const toReturn = productValue.includes( filterVal );
+    console.log('includes? ' + toReturn);
+    return toReturn;
+  })
+}
 
 
 // filter

@@ -12,22 +12,14 @@ primary:
         href: showcase/
   - text: Press
     href: '#news'
-  - text: second item
+  - text: Resources
     accordion:
-      - text: Hello
-        href: about/
-      - text: Hello
-        href: about/
-  # - text: Resources
-  #   accordion:
-  #     - text: Data
-  #       href: data/
-  #     - text: Toolkits
-  #       accordion:
-  #         - text: TOPx for Federal Agencies
-  #           href: topx-toolkit/introduction/
-  #         - text: Product Development
-  #           href: product-development/toolkit/
+      - text: Datasets
+        href: data/
+      - text: TOPx Toolkit for Federal Agencies
+        href: topx-toolkit/introduction/
+      - text: Product Development Toolkit
+        href: product-development/toolkit/
   - text: Contact Us
     href: contact-us/
 

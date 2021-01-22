@@ -36,7 +36,11 @@
                 <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu">
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
-                      <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                      {% if subnav.accordion %}
+                        <
+                      {% else %}
+                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                      {% endif %}
                     </li>
                   {% endfor %}
                 </ul>

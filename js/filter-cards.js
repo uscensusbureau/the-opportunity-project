@@ -4,20 +4,47 @@ var slugify = require('slugify');
 
 const prodSearchForm = document.getElementById( 'product-search-form' );
 const searchField = document.getElementById( 'search-field' );
+const filterForm = document.getElementById('product-filter-form')
+const topicsInput = document.getElementById('topics')
+const yearInput = document.getElementById('year')
+const agencyInput = document.getElementById('agency')
 const productCards = document.getElementsByName('productCard');
 
 // define filters
-var searchTerm, topicFilter, yearFilter, agencyFilter;
+var searchTerm = '';
+let filterTopics = []
+let filterYears = []
+let filterAgencies = []
 
 
 // search
 prodSearchForm.addEventListener( 'submit', e => {
   e.preventDefault();
   searchTerm = searchField.value;
-  console.log('searching for ' + searchTerm);
   
   filterProducts();
 });
+
+/*
+ * listener for value of the filter form changing.
+ * Whenever someone changes any of the filters, we want to re-search.
+ */
+filterForm.addEventListener( 'change', e => {
+  e.preventDefault()
+
+  filterTopics = getCheckedInputs( topicsInput )
+  filterYears = getCheckedInputs( yearInput )
+  filterAgencies = getCheckedInputs( agencyInput )
+
+  filterProducts()
+})
+
+/** returns array of values of all checked inputs contained within a given div */
+const getCheckedInputs = container => {
+  const inputEls = Array.from(container.getElementsByTagName('input'))
+  return inputEls.filter( input => input.checked )
+    .map( checkedInput => checkedInput.value )
+}
 
 /**
  * Searches through all product cards.
@@ -27,20 +54,34 @@ prodSearchForm.addEventListener( 'submit', e => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 const filterProducts = () => {
+
+  const areFilters = filterTopics || filterYears || filterAgencies;
+
   for (i = 0; i < productCards.length; i++) {
     const card = productCards[ i ];
     const productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
     const prodDesc = card.getElementsByTagName('p')[0].innerText;
-
     const productNameSlugified = slugify(productName.replace(`'`,'-').split('.').join("-").split(':').join("-"));
+    const productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
+    const productTopic = card.getElementsByTagName('h4')[ 0 ].innerText;
+    const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
+    
+    const searchMatch = !searchTerm || (productName.includes(searchTerm) || prodDesc.includes( searchTerm ))
 
-    if (productName.includes(searchTerm) || prodDesc.includes( searchTerm )) {
+    // TODO!
+    const filterMatch = !areFilters || (
+      productYear.includes
+    )
+
+    if (searchMatch) {
       document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
     } else {
       document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
     }
   }
 }
+
+
 
 // filter
 $('#product-filter-form').submit(function (e) {

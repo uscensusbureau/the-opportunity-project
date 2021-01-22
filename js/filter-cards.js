@@ -13,24 +13,34 @@ var searchTerm, topicFilter, yearFilter, agencyFilter;
 // search
 prodSearchForm.addEventListener( 'submit', e => {
   e.preventDefault();
-  var filter = searchField.value;
-  console.log('searching for ' + filter);
-  for (i = 0; i < productCards.length; i++) {
-    var card = productCards[ i ];
-    var cardName = card.getElementsByTagName('h2')[ 0 ];
-    if (cardName) {
-      productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
-      console.log('slugifying ' + productName)
-      productNameSlugified = slugify(productName.replace(`'`,'-').split('.').join("-").split(':').join("-"));
+  searchTerm = searchField.value;
+  console.log('searching for ' + searchTerm);
+  
+  filterProducts();
+});
 
-      if (productName.includes(filter)) {
-        document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
-      } else {
-        document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
-      }
+/**
+ * Searches through all product cards.
+ * Hides those that don't match the current filters.
+ * Shows those that do match the current filters.
+ * 
+ * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
+ */
+const filterProducts = () => {
+  for (i = 0; i < productCards.length; i++) {
+    const card = productCards[ i ];
+    const productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
+    const prodDesc = card.getElementsByTagName('p')[0].innerText;
+
+    const productNameSlugified = slugify(productName.replace(`'`,'-').split('.').join("-").split(':').join("-"));
+
+    if (productName.includes(searchTerm) || prodDesc.includes( searchTerm )) {
+      document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
+    } else {
+      document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
     }
   }
-});
+}
 
 // filter
 $('#product-filter-form').submit(function (e) {

@@ -4,18 +4,30 @@ primary:
     href: about/
   - text: Process
     href: our-process/
-  - text: Products
-    href: showcase/
-  - text: News
-    href: '#news'
-  - text: Datasets
-    href: data/
-  - text: Toolkits
+  - text: Work
     accordion:
-      - text: TOPx for Federal Agencies
-        href: topx-toolkit/introduction/
-      - text: Product Development
-        href: product-development/toolkit/
+      - text: Sprints
+        href: sprints/
+      - text: Products
+        href: showcase/
+  - text: Press
+    href: '#news'
+  - text: second item
+    accordion:
+      - text: Hello
+        href: about/
+      - text: Hello
+        href: about/
+  # - text: Resources
+  #   accordion:
+  #     - text: Data
+  #       href: data/
+  #     - text: Toolkits
+  #       accordion:
+  #         - text: TOPx for Federal Agencies
+  #           href: topx-toolkit/introduction/
+  #         - text: Product Development
+  #           href: product-development/toolkit/
   - text: Contact Us
     href: contact-us/
 

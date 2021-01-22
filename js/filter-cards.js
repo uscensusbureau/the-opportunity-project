@@ -2,15 +2,26 @@
 var $ = require('jquery');
 var slugify = require('slugify');
 
+const prodSearchForm = document.getElementById( 'product-search-form' );
+const searchField = document.getElementById( 'search-field' );
+const productCards = document.getElementsByName('productCard');
+
+// define filters
+var prodSearchTerm;
+
+
 // search
-$('#product-search-form').submit(function (e) {
+prodSearchForm.addEventListener( 'submit', e => {
   e.preventDefault();
-  var filter = $( '#search-field').val();
-  var products = document.getElementsByName('productCard');
-  for (i = 0; i < products.length; i++) {
-    if (products[ i ].getElementsByTagName('h2')[ 0 ]) {
-      productName = products[ i ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
-      productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
+  var filter = searchField.value;
+  console.log('searching for ' + filter)
+  for (i = 0; i < productCards.length; i++) {
+    var card = productCards[ i ];
+    var cardName = card.getElementsByTagName('h2')[ 0 ];
+    if (cardName) {
+      productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
+      console.log('slugifying ' + productName)
+      productNameSlugified = productName//slugify(productName.split('.').join("-").split(':').join("-"));
       if (productName.includes(filter)) {
         $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
       } else {
@@ -59,6 +70,8 @@ $('#reset-filter').click(function (e) {
     $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
   }
 });
+
+
 
 $('.usa-card').on('click', function () {
   $( this ).next('.modal').removeClass('modal-inactive').addClass('modal-active');

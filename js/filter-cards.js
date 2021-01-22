@@ -7,25 +7,26 @@ const searchField = document.getElementById( 'search-field' );
 const productCards = document.getElementsByName('productCard');
 
 // define filters
-var prodSearchTerm;
+var searchTerm, topicFilter, yearFilter, agencyFilter;
 
 
 // search
 prodSearchForm.addEventListener( 'submit', e => {
   e.preventDefault();
   var filter = searchField.value;
-  console.log('searching for ' + filter)
+  console.log('searching for ' + filter);
   for (i = 0; i < productCards.length; i++) {
     var card = productCards[ i ];
     var cardName = card.getElementsByTagName('h2')[ 0 ];
     if (cardName) {
       productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
       console.log('slugifying ' + productName)
-      productNameSlugified = productName//slugify(productName.split('.').join("-").split(':').join("-"));
+      productNameSlugified = slugify(productName.replace(`'`,'-').split('.').join("-").split(':').join("-"));
+
       if (productName.includes(filter)) {
-        $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
+        document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
       } else {
-        $('#product-card-' + productNameSlugified).addClass('pc-inactive');
+        document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
       }
     }
   }

@@ -64,7 +64,7 @@ const filterProducts = () => {
     const card = productCards[ i ];
     const productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
     const prodDesc = card.getElementsByTagName('p')[0].innerText;
-    const productNameSlugified = slugify(productName.replace(`'`,'-').split('.').join("-").split(':').join("-"));
+    const productNameSlugified = productName.replace(`'`,'-').split('.').join("-").split(':').join("-");
     const productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
     const productTopic = card.getElementsByTagName('h4')[ 0 ].innerText;
     const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");

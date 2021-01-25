@@ -58,7 +58,7 @@ const getCheckedInputs = container => {
  */
 const filterProducts = () => {
 
-  const areFilters = filterTopics || filterYears || filterAgencies;
+  // const areFilters = filterTopics.length > 0 || filterYears.length > 0 || filterAgencies.length > 0;
 
   for (i = 0; i < productCards.length; i++) {
     const card = productCards[ i ];
@@ -69,41 +69,27 @@ const filterProducts = () => {
     const productTopic = card.getElementsByTagName('h4')[ 0 ].innerText;
     const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
     
-    const searchMatch = productName.includes(searchTerm) || prodDesc.includes( searchTerm )
+    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes( searchTerm )
 
     const topicMatches = checkFilterMatch( productTopic, filterTopics )
     const yearMatches = checkFilterMatch( productYear, filterYears )
     const agencyMatches = checkFilterMatch( productAgency, filterAgencies )
 
-    const filterMatch = topicMatches || yearMatches || agencyMatches
+    const filterMatch = topicMatches && yearMatches && agencyMatches
     
-
-    if (searchTerm) {
-      if (searchMatch) {
-        if (areFilters && filterMatch) {
-          document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
-        }
-      }
-      else {
-        document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
-      }
+    if( searchMatch && filterMatch ){
+      card.classList.remove('pc-inactive');
     } else {
-      if (!areFilters || filterMatch) {
-        document.getElementById('product-card-' + productNameSlugified).classList.remove('pc-inactive');
-      } else {
-        document.getElementById('product-card-' + productNameSlugified).classList.add('pc-inactive');
-      }
+      card.classList.add('pc-inactive');
     }
   }
 }
 
 function checkFilterMatch( productValue, filterArray ) {
-  return filterArray.some( filterVal => {
-    console.log(`checking ${productValue} against ${filterVal}`)
-
-    const toReturn = productValue.includes( filterVal );
-    console.log('includes? ' + toReturn);
-    return toReturn;
+  return filterArray.length === 0 || 
+    filterArray.some( filterVal => {
+      return productValue.toLowerCase().split(' ').join("-")
+        .includes( filterVal.toLowerCase().split(' ').join("-") );
   })
 }
 

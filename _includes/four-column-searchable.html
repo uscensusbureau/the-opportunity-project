@@ -120,6 +120,7 @@
               <h3 class="pc-inactive">{{ product.year }}</h3>
               <h4 class="pc-inactive">{{ product.category }}</h4>
               <h5 class="pc-inactive">{{ product.agency }}</h5>
+              <p style="display:none">{{ product.description_new }}</p> <!-- never show this. just for filtering -->
             </header>
             <div class="usa-card__body">
               <p class="font-mono-xs text-white">{{ product.tech_team | upcase }}</p>

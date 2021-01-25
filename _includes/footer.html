@@ -19,6 +19,35 @@
             />-->
           </div>
         </div>
+
+        <!-- display main links -->
+        {% assign perCol = 4 %}
+        {% for link in site.data.nav.footer %}
+          {% if forloop.index0 | modulo: perCol == 0 %}
+            {% if forloop.first == false %}
+                </div>  <!-- end the column-->
+              </div>
+            {% endif %}
+
+            <!-- start new column -->
+            <div class="grid-col-2">
+              <div class="usa-media-block__footer">
+          {% endif %}
+
+                <p class="border-bottom border-base-dark padding-bottom-05">
+                  <a href="{{ site.baseurl }}/{{ link.href }}">
+                    {{ link.text }}
+                  </a>
+                </p>
+          {% if forloop.index0 | modulo: perCol != 0 and forloop.last %}
+              </div>
+            </div>
+          {% endif %}
+
+        {% endfor %}
+
+                
+      <!--
         <div class="grid-col-2">
           <div class="usa-media-block__footer">
             <p class="border-bottom border-base-dark padding-bottom-05">
@@ -61,6 +90,7 @@
             </p>
           </div>
         </div>
+      -->
         <div class="grid-col-3 padding-left-3">
           <div class="usa-media-block__body">
             <p class="font-sans-2xs text-bold">Stay in the Loop</p>

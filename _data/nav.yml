@@ -20,6 +20,8 @@ primary:
         href: topx-toolkit/introduction/
       - text: Product Development Toolkit
         href: product-development/toolkit/
+  - text: Contact Us
+    href: contact-us/
 
 mobile:
   - text: Home

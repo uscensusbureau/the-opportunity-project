@@ -383,4 +383,3 @@ circuit-banner:
 {% include single-column-centered-list.html %}
 {% include connecting-banner-with-subheader.html %}
 {% include single-column-centered-list-dark.html %}
-{% include circuit-banner.html %}

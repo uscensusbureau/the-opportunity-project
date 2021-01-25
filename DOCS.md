@@ -38,7 +38,7 @@ There are some big differences between this and a "typical" Jekyll site, however
 
 For most pages, content is stored as yaml, either in the /_data_ folder, or in the page front matter. There are a few pages that still have the actual content hard coded into the HTML, and those pages are in the backlog to be refactored. Because using the USWDS v2 was new to the team, the first components that were built are a bit clunkier than some of the later components that were added.
 
-Below the front matter is general a series of {% includes %} which list out the components used to make the page.
+Below the front matter is general a series of `{% includes %}` which list out the components used to make the page.
 
 The components have somewhat descriptive names, and there is a component library file which has a screenshot of each component, the file name, and the key that is used the the front matter yaml to pair with that component. Most .md files also have at least some description in the front matter for to indicate the component associated with that content. The idea here is that small copy updates could be made by non-technical team members.
 

@@ -4163,6 +4163,15 @@ $theme-table-column-gap: 4;
     color: color("white");
     @include typeset("lang", "2xs", 2);
   }
+
+  .usa-nav__inner {
+    .usa-nav__primary button {
+      color: color($theme-color-base-dark);
+    }
+    .usa-nav__primary-item :hover{
+      color: color($theme-color-primary-dark);
+    }
+  }
 }
 
 .site-banner {

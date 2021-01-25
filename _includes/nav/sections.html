@@ -4,9 +4,26 @@
   {% assign links = site.data.nav.primary %}
 {% endif %}
 {% for link in links %}
-  <li class="usa-nav__primary-item">
-    <a href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
-  </li>
+  {% if link.accordion %}
+    {% assign itemName = link.text | remove: " " %}
+    <li class="usa-nav__primary-item">
+      <button class="usa-accordion__button usa-nav__link" 
+        aria-expanded="false" 
+        aria-controls="collapsed-nav-section-{{itemName}}">
+        <span>{{ link.text }}</span></button>
+      <ul id="collapsed-nav-section-{{itemName}}" class="usa-nav__submenu">
+        {% for subnav in link.accordion %}
+          <li class="usa-nav__submenu-item">
+            <a href="{{ site.baseurl }}/{{subnav.href}}">{{ subnav.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% else %}
+    <li class="usa-nav__primary-item">
+      <a href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
+    </li>
+  {% endif %}
 {% endfor %}
 {% if page.type == "topx" %}
   <li class="usa-nav__primary-item">

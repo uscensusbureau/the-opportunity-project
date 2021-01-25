@@ -33,11 +33,8 @@ filterForm.addEventListener( 'change', e => {
   e.preventDefault()
 
   filterTopics = getCheckedInputs( topicsInput )
-  console.log({filterTopics})
   filterYears = getCheckedInputs( yearInput )
-  console.log({filterYears})
   filterAgencies = getCheckedInputs( agencyInput )
-  console.log({filterAgencies})
 
   filterProducts()
 })
@@ -93,44 +90,17 @@ function checkFilterMatch( productValue, filterArray ) {
   })
 }
 
-
-// filter
-$('#product-filter-form').submit(function (e) {
-  e.preventDefault();
-  var selectedValues = document.getElementsByName('filter-checkbox');
-  var products = document.getElementsByName('productCard');
-  for (i = 0; i < selectedValues.length; i++) {
-    for (j = 0; j < products.length; j++ ) {
-      productYear = products[ j ].getElementsByTagName('h3')[ 0 ].innerText;
-      productTopic = products[ j ].getElementsByTagName('h4')[ 0 ].innerText;
-      productAgency = products[ j ].getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
-      productName = products[ j ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
-      productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
-      if (selectedValues[ i ].checked == true ) {
-        console.log(productAgency, filter)
-        var filter = selectedValues[ i ].value.toLowerCase().split(' ').join("-");
-        if ( productTopic.includes(filter) || filter == productYear || productAgency.includes(filter)) {
-          $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
-        } else {
-          $('#product-card-' + productNameSlugified).addClass('pc-inactive');
-        }
-      }
-    }
-  }
-});
-
 // reset filter
 
-$('#reset-filter').click(function (e) {
+// $('#reset-filter').click(function (e) {
+document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
   var selectedValues = document.getElementsByName('filter-checkbox');
   for (i = 0; i < selectedValues.length; i++) {
     selectedValues[i].checked = false;
   }
   var products = document.getElementsByName('productCard');
   for (i = 0; i < products.length; i++) {
-    productName = products[ i ].getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
-    productNameSlugified = slugify(productName.split('.').join("-").split(':').join("-"));
-    $('#product-card-' + productNameSlugified).removeClass('pc-inactive');
+    products[i].removeClass('pc-inactive');
   }
 });
 
@@ -146,7 +116,6 @@ $(".close").on("click", function () {
 
 $('.data-card-group').on('click', function (e) {
     var dataCard = e.target.closest("li").id;
-    // console.log(dataCard)
     // toggle the description of the challenge at top of page
     $('.modal-active').addClass('modal-inactive');
     $('.modal-active').removeClass('modal-active');
@@ -163,10 +132,8 @@ $('.data-card-group').on('click', function (e) {
       for (i = 0; i < datasets.length; i++ ) {
         dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
         dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
-        // console.log(dataNameSlugified)
         dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
         dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
-        // console.log(dataCategoryArray, dataCard);
         if ( dataCategoryArray.includes(dataCard) ) {
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
         } else {
@@ -189,10 +156,8 @@ $('.data-card-group').on('click', function (e) {
         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
         dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-          // console.log(dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
         } else {
-          // console.log("mismatch", dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
         }
       }

@@ -37,7 +37,7 @@
     "start": "bundle exec jekyll serve --drafts --future",
     "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint",
     "test:ci": "npm run axe && npm run crawl && bundle exec rspec && npm run lint",
-    "watch": "cross-env NODE_ENV=development nswatch"
+    "watch": "bundle exec jekyll serve --drafts --future --watch"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",

@@ -1,16 +1,17 @@
 <footer class="usa-footer site-footer bg-base-darkest" role="contentinfo">
   <div class="usa-footer__secondary-section bg-base-darkest">
     <div class="grid-container footer-content">
-      <div class="usa-media-block__body usa-media-block__footer">
-        <p class="font-sans-2xs">
-          <a href="{{ site.baseurl }}">
-            Return to Top
-          </a>
-        </p>
-        <p class="font-sans-sm">The Opportunity Project</p>
-      </div>
+      
       <div class="grid-row footer-contact-links margin-top-0">
         <div class="grid-col-3">
+          <div class="usa-media-block__body usa-media-block__footer">
+            <p class="font-sans-2xs">
+              <a href="{{ site.baseurl }}">
+                Return to Top
+              </a>
+            </p>
+            <p class="font-sans-sm">The Opportunity Project</p>
+          </div>
           <div class="usa-media-block">
             <!--<img
               class="usa-media-block__img"
@@ -23,19 +24,26 @@
         <!-- display main links -->
         {% assign perCol = 4 %}
         {% for link in site.data.nav.footer %}
-          {% if forloop.index0 | modulo: perCol == 0 %}
+          {% assign remainder = forloop.index0 | modulo: perCol %}
+          {% if remainder == 0 %}
             {% if forloop.first == false %}
-                </div>  <!-- end the column-->
+                </div>
               </div>
             {% endif %}
 
-            <!-- start new column -->
             <div class="grid-col-2">
               <div class="usa-media-block__footer">
           {% endif %}
 
                 <p class="border-bottom border-base-dark padding-bottom-05">
-                  <a href="{{ site.baseurl }}/{{ link.href }}">
+                  
+                  <a href="
+                    {% if link.isExternal == true %}
+                      {{ link.href }}
+                    {% else %}
+                      {{ site.baseurl }}/{{ link.href }}
+                    {% endif %}
+                  ">
                     {{ link.text }}
                   </a>
                 </p>
@@ -46,51 +54,7 @@
 
         {% endfor %}
 
-                
-      <!--
-        <div class="grid-col-2">
-          <div class="usa-media-block__footer">
-            <p class="border-bottom border-base-dark padding-bottom-05">
-              <a href="{{ site.baseurl }}/get-involved">
-                Get Involved
-              </a>
-            </p>
-            <p class="border-bottom border-base-dark padding-bottom-05">
-              <a href="{{ site.baseurl }}/sprints">
-                Sprints
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="grid-col-2">
-          <div class="usa-media-block__footer">
-            <p class="border-bottom border-base-dark padding-bottom-05">
-              <a href="{{ site.baseurl }}/about">
-                About
-              </a>
-            </p>
-            <p class="border-bottom border-base-dark padding-bottom-05">
-              <a href="{{ site.baseurl }}/data/">
-                Datasets
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="grid-col-2">
-          <div class="usa-media-block__footer">
-            <p class="border-bottom border-base-dark padding-bottom-05">
-              <a href="{{ site.baseurl }}/our-process">
-                Our Process
-              </a>
-            </p>
-            <p class="border-bottom border-base-dark padding-bottom-05">
-              <a href="{{ site.baseurl }}/showcase">
-                Products
-              </a>
-            </p>
-          </div>
-        </div>
-      -->
+ 
         <div class="grid-col-3 padding-left-3">
           <div class="usa-media-block__body">
             <p class="font-sans-2xs text-bold">Stay in the Loop</p>
@@ -101,7 +65,7 @@
             <button class="usa-button__secondary-white">
               <a
                 href="https://public.govdelivery.com/accounts/USCENSUS/signup/16610"
-                class="text-decoration-none text-white"
+                class="text-decoration-none text-white font-family-mono"
               >
                 Join Email List
               </a>
@@ -109,8 +73,9 @@
           </div>
         </div>
       </div>
+      
       <div
-        class="usa-media-block__footer grid-row grid-offset-2 display-flex flex-align-center padding-top-4"
+        class="footer-section-bottom usa-media-block__footer grid-row grid-offset-2 display-flex flex-align-center padding-top-4"
       >
         <a
           href="https://www.census.gov/"

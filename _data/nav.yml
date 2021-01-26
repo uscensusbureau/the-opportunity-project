@@ -55,7 +55,8 @@ footer:
     - text: Builder's Toolkit
       href: product-development/toolkit/
     - text: data.census.gov
-      href: "https:\\www.data.census.gov"
+      href: "https:\\data.census.gov"
+      isExternal: true
     - text: Our Team
       href: about/
     - text: News

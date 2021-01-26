@@ -1183,7 +1183,7 @@ body {
         a {
           color: color("white");
           -webkit-text-decoration: #F7C636 dotted underline;
-          text-decoration: #F7C636dotted underline;
+          text-decoration: #F7C636 dotted underline;
           -webkit-text-underline-position: under;
           text-underline-position: under;
 
@@ -1208,7 +1208,7 @@ body {
       a {
         color: color("white");
         -webkit-text-decoration: #F7C636 dotted underline;
-        text-decoration: #F7C636dotted underline;
+        text-decoration: #F7C636 dotted underline;
         -webkit-text-underline-position: under;
         text-underline-position: under;
       }
@@ -1574,6 +1574,11 @@ body {
 
 .footer-section-bottom {
   font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 // Pattern Preview Boxes -------- //

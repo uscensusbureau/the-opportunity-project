@@ -18,26 +18,30 @@ let filterAgencies = []
 
 
 // search
-prodSearchForm.addEventListener( 'submit', e => {
-  e.preventDefault();
-  searchTerm = searchField.value;
-  
-  filterProducts();
+if( prodSearchForm ){ 
+  prodSearchForm.addEventListener( 'submit', e => {
+    e.preventDefault();
+    searchTerm = searchField.value;
+    
+    filterProducts();
 });
+}
 
 /*
  * listener for value of the filter form changing.
  * Whenever someone changes any of the filters, we want to re-search.
  */
-filterForm.addEventListener( 'change', e => {
-  e.preventDefault()
+if( filterForm ){
+  filterForm.addEventListener( 'change', e => {
+    e.preventDefault()
 
-  filterTopics = getCheckedInputs( topicsInput )
-  filterYears = getCheckedInputs( yearInput )
-  filterAgencies = getCheckedInputs( agencyInput )
+    filterTopics = getCheckedInputs( topicsInput )
+    filterYears = getCheckedInputs( yearInput )
+    filterAgencies = getCheckedInputs( agencyInput )
 
-  filterProducts()
-})
+    filterProducts()
+  })
+}
 
 /** returns array of values of all checked inputs contained within a given div */
 const getCheckedInputs = container => {
@@ -91,18 +95,18 @@ function checkFilterMatch( productValue, filterArray ) {
 }
 
 // reset filter
-
-// $('#reset-filter').click(function (e) {
-document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
-  var selectedValues = document.getElementsByName('filter-checkbox');
-  for (i = 0; i < selectedValues.length; i++) {
-    selectedValues[i].checked = false;
-  }
-  var products = document.getElementsByName('productCard');
-  for (i = 0; i < products.length; i++) {
-    products[i].removeClass('pc-inactive');
-  }
-});
+if( document.getElementById( 'reset-filter' )) {
+  document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
+    var selectedValues = document.getElementsByName('filter-checkbox');
+    for (i = 0; i < selectedValues.length; i++) {
+      selectedValues[i].checked = false;
+    }
+    var products = document.getElementsByName('productCard');
+    for (i = 0; i < products.length; i++) {
+      products[i].removeClass('pc-inactive');
+    }
+  });
+}
 
 
 

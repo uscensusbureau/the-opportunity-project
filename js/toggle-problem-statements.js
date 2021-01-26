@@ -1,9 +1,6 @@
 // Update display to reflect the selected year
 var $ = require('jquery');
 
-
-// console.log('toggle problem statement connected');
-
 $('.problem-statements').on('click', function (e) {
     var problemSet = e.target.id
     // console.log(problemSet)

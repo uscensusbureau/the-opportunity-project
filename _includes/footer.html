@@ -77,36 +77,14 @@
       <div
         class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-4"
       >
-        <a
-          href="https://www.census.gov/"
-          class="border-base-dark border-right padding-right-2"
-        >
-          U.S. Census Bureau
-        </a>
-        <a
-          href="{{ site.baseurl }}/coil"
-          class="border-base-dark border-right padding-right-2 padding-left-2"
-        >
-          Census Open Innovation Labs
-        </a>
-        <a
-          href="https://www.census.gov/about/policies/privacy.html"
-          class="border-base-dark border-right padding-right-2 padding-left-2"
-        >
-          Privacy
-        </a>
-        <a
-          href="https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility"
-          class="border-base-dark padding-right-2 padding-left-2"
-        >
-          Accessibility
-        </a>
-        <!-- <a
-          href="mailto:census.opportunityproject@census.gov"
-          class="padding-left-2"
-        >
-          census.opportunityproject@census.gov
-        </a> -->
+        {% for bottomLink in site.data.nav.footer-bottom %}
+          <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}"
+            class="border-base-dark
+             {% unless forloop.first %} border-left padding-left-2 {% endunless %}
+             {% unless forloop.last %} padding-right-2 {% endunless %}
+            "
+          > {{ bottomLink.text }} </a>
+        {% endfor %}
       </div>
     </div>
   </div>

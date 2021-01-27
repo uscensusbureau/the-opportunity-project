@@ -23,7 +23,7 @@ if( prodSearchForm ){
     e.preventDefault();
     searchTerm = searchField.value;
     
-    filterProducts();
+    displayFilteredProducts();
 });
 }
 
@@ -35,12 +35,19 @@ if( filterForm ){
   filterForm.addEventListener( 'change', e => {
     e.preventDefault()
 
-    filterTopics = getCheckedInputs( topicsInput )
-    filterYears = getCheckedInputs( yearInput )
-    filterAgencies = getCheckedInputs( agencyInput )
-
     filterProducts()
   })
+}
+
+/**
+ * Applies all current filters and displays appropriate products.
+ */
+function filterProducts() {
+  filterTopics = getCheckedInputs( topicsInput )
+  filterYears = getCheckedInputs( yearInput )
+  filterAgencies = getCheckedInputs( agencyInput )
+
+  displayFilteredProducts()
 }
 
 /** returns array of values of all checked inputs contained within a given div */
@@ -57,7 +64,7 @@ const getCheckedInputs = container => {
  * 
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
-const filterProducts = () => {
+function displayFilteredProducts() {
 
   // const areFilters = filterTopics.length > 0 || filterYears.length > 0 || filterAgencies.length > 0;
 
@@ -97,14 +104,13 @@ function checkFilterMatch( productValue, filterArray ) {
 // reset filter
 if( document.getElementById( 'reset-filter' )) {
   document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
+    e.preventDefault();
     var selectedValues = document.getElementsByName('filter-checkbox');
     for (i = 0; i < selectedValues.length; i++) {
       selectedValues[i].checked = false;
     }
-    var products = document.getElementsByName('productCard');
-    for (i = 0; i < products.length; i++) {
-      products[i].removeClass('pc-inactive');
-    }
+    
+    filterProducts();
   });
 }
 

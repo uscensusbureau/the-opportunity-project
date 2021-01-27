@@ -3,7 +3,8 @@
     <div class="">
       <div class="grid-row grid-gap">
         <div
-          class="desktop:grid-col-6 desktop:grid-offset-3 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          class="desktop:grid-col-10 desktop:grid-offset-1 tablet:grid-col-10 tablet:grid-offset-1
+            usa-media-block margin-bottom-3 desktop:margin-bottom-0"
         >
           <div class="usa-media-block__body-outlined">
             <div class="border-stars">
@@ -15,9 +16,26 @@
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}
+
+
+            {% if page.callout.expander %}
+            <div>
+              <button class="callout-button font-family-mono text-white arrowed-button">
+                <span>See More</span>
+              </button>
+              <p class="callout-summary">
+                {{ page.callout.expander.summary }}
+              </p>
+              <div class="callout-expanded ps-inactive">
+                {{ include.content | markdownify }}
+              </div>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
   </section>
 </main>
+
+<script src="/assets/js/show-more-less.js" type="text/javascript"></script>

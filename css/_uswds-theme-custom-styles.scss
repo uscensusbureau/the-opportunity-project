@@ -4486,3 +4486,17 @@ body {
     @include u-text("normal");
   }
 }
+
+/**
+ * callout expander classes
+ */
+.callout-button {
+  text-transform: uppercase;
+  @include add-background-svg("angle-arrow-down-white");
+  padding: 0 3em 0 0;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 0.75rem;
+  background-position: right 0 top 53%;
+  background-color: transparent;
+}

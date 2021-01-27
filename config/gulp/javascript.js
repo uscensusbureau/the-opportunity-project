@@ -47,6 +47,12 @@ gulp.task(task,
     function(done) {
       dutil.logMessage(task, 'Compiling JavaScript');
 
+      return gulp.src('js/*.js')
+        .pipe(uglify())
+        .on('error', log)
+        .pipe(gulp.dest('assets/js'));
+
+        /*
       var minifiedStream = browserify({
         entries: 'js/start.js',
         debug: true,
@@ -63,6 +69,7 @@ gulp.task(task,
           }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/js'));
+        */
     }
   )
 );

@@ -18,26 +18,37 @@ let filterAgencies = []
 
 
 // search
-prodSearchForm.addEventListener( 'submit', e => {
-  e.preventDefault();
-  searchTerm = searchField.value;
-  
-  filterProducts();
+if( prodSearchForm ){ 
+  prodSearchForm.addEventListener( 'submit', e => {
+    e.preventDefault();
+    searchTerm = searchField.value;
+    
+    displayFilteredProducts();
 });
+}
 
 /*
  * listener for value of the filter form changing.
  * Whenever someone changes any of the filters, we want to re-search.
  */
-filterForm.addEventListener( 'change', e => {
-  e.preventDefault()
+if( filterForm ){
+  filterForm.addEventListener( 'change', e => {
+    e.preventDefault()
 
+    filterProducts()
+  })
+}
+
+/**
+ * Applies all current filters and displays appropriate products.
+ */
+function filterProducts() {
   filterTopics = getCheckedInputs( topicsInput )
   filterYears = getCheckedInputs( yearInput )
   filterAgencies = getCheckedInputs( agencyInput )
 
-  filterProducts()
-})
+  displayFilteredProducts()
+}
 
 /** returns array of values of all checked inputs contained within a given div */
 const getCheckedInputs = container => {
@@ -53,7 +64,7 @@ const getCheckedInputs = container => {
  * 
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
-const filterProducts = () => {
+function displayFilteredProducts() {
 
   // const areFilters = filterTopics.length > 0 || filterYears.length > 0 || filterAgencies.length > 0;
 
@@ -91,18 +102,17 @@ function checkFilterMatch( productValue, filterArray ) {
 }
 
 // reset filter
-
-// $('#reset-filter').click(function (e) {
-document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
-  var selectedValues = document.getElementsByName('filter-checkbox');
-  for (i = 0; i < selectedValues.length; i++) {
-    selectedValues[i].checked = false;
-  }
-  var products = document.getElementsByName('productCard');
-  for (i = 0; i < products.length; i++) {
-    products[i].removeClass('pc-inactive');
-  }
-});
+if( document.getElementById( 'reset-filter' )) {
+  document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
+    e.preventDefault();
+    var selectedValues = document.getElementsByName('filter-checkbox');
+    for (i = 0; i < selectedValues.length; i++) {
+      selectedValues[i].checked = false;
+    }
+    
+    filterProducts();
+  });
+}
 
 
 

@@ -1183,7 +1183,7 @@ body {
         a {
           color: color("white");
           -webkit-text-decoration: #F7C636 dotted underline;
-          text-decoration: #F7C636dotted underline;
+          text-decoration: #F7C636 dotted underline;
           -webkit-text-underline-position: under;
           text-underline-position: under;
 
@@ -1208,7 +1208,7 @@ body {
       a {
         color: color("white");
         -webkit-text-decoration: #F7C636 dotted underline;
-        text-decoration: #F7C636dotted underline;
+        text-decoration: #F7C636 dotted underline;
         -webkit-text-underline-position: under;
         text-underline-position: under;
       }
@@ -3467,6 +3467,20 @@ h6 + div:not(.usa-accordion__content) {
 
       @include at-media("desktop") {
         display: initial;
+      }
+    }
+
+    .usa-accordion__button {
+      &[aria-expanded="false"] {
+        @include add-background-svg("angle-arrow-down-white");
+        &:hover {
+          @include add-background-svg("angle-arrow-down-primary");
+        }
+      }
+      &[aria-expanded="true"] {
+        &:hover {
+          @include add-background-svg("angle-arrow-up-primary");
+        }
       }
     }
   }

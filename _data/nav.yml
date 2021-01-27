@@ -39,35 +39,44 @@ mobile:
   - text: Get Involved
     href: get-involved/
 
-secondary:
+footer: 
+  - text: About
+    href: about/
+  - text: Get Involved
+    href: get-involved/
   - text: Our Process
-    href: '#'
-  - text: How it Works
-    href: '#how-it-works'
-  - text: Roles
-    href: '#roles'
-  - text: Tech Teams
-    href: '#tech-teams'
-  - text: Government
-    href: '#government'
-  - text: User Advocates
-    href: '#user-advocates'
-  - text: Product Advisors
-    href: '#product-advisors'
+    href: our-process/
+  - text: Product
+    href: showcase/
+  - text: Datasets
+    href: data/
+  - text: TOPx Toolkit
+    href: topx-toolkit/introduction/
+  - text: Builder's Toolkit
+    href: product-development/toolkit/
+  - text: data.census.gov
+    href: "https:\\data.census.gov"
+    isExternal: true
+  - text: Our Team
+    href: about/
+  - text: News
+    href: '#news'
 
-# toolkit:
-#   topx:
-#     - text: Introduction
-#       href: intro/
-#     - text: Phase 1
-#       href: phase-1/
-#     - text: Phase 2
-#       href: phase-2/
-#     - text: Phase 3
-#       href: phase-3/
-#     - text: glossary
-#       href: glossary/
-#   product:
+footer-bottom:
+  - text: Census Open Innovation Labs
+    href: coil/
+  - text: Privacy
+    href: https://www.census.gov/about/policies/privacy.html
+    isExternal: true
+  - text: Accessibility
+    href: https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility
+    isExternal: true
+  # - text: census.opportunityproject@census.gov
+  #   href: mailto:census.opportunityproject@census.gov
+  #   isExternal: true
+  - text: GitHub
+    href: https://github.com/uscensusbureau/the-opportunity-project
+    isExternal: true
 
 toolkit:
   topx:
@@ -82,3 +91,5 @@ toolkit:
     - text: glossary
       href: topx-toolkit/glossary/
   download-pdf-link: assets/files/TOPx_Toolkit.pdf
+
+  

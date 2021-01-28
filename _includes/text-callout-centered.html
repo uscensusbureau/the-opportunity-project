@@ -7,7 +7,7 @@
             usa-media-block margin-bottom-3 desktop:margin-bottom-0"
         >
           <div class="usa-media-block__body-outlined">
-            <div class="border-stars">
+            <div class="border-stars text-center">
               <img src="{{ site.baseurl }}/assets/img/icons/3-star-row.svg" alt="">
             </div>
             {% assign callout = page.callout %}
@@ -20,9 +20,11 @@
 
             {% if page.callout.expander %}
             <div>
-              <button class="callout-button font-family-mono text-white arrowed-button">
-                <span>See More</span>
-              </button>
+              <div class="text-center font-family-mono">
+                <button class="callout-button  text-white arrowed-button">
+                  <span>See More</span>
+                </button>
+              </div>
               <p class="callout-summary">
                 {{ page.callout.expander.summary }}
               </p>

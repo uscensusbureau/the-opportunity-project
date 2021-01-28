@@ -11,10 +11,12 @@ toggleButton.addEventListener('click', e => {
 
   if( isExpanded ){
     toggleButton.innerHTML = "See Less"
+    toggleButton.classList.add('show-less')
     summary.classList.add( HIDE_CLASS )
     expanded.classList.remove( HIDE_CLASS )
   } else {
     toggleButton.innerHTML = "See More"
+    toggleButton.classList.remove('show-less')
     summary.classList.remove( HIDE_CLASS )
     expanded.classList.add( HIDE_CLASS )
   }

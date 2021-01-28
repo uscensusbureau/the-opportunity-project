@@ -4496,11 +4496,18 @@ body {
  */
 .callout-button {
   text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+
   @include add-background-svg("angle-arrow-down-white");
-  padding: 0 3em 0 0;
+  padding: 0 2em 0 0;
   border: none;
   background-repeat: no-repeat;
-  background-size: 0.75rem;
+  background-size: 1.2rem;
   background-position: right 0 top 53%;
   background-color: transparent;
+
+  &.show-less {
+    @include add-background-svg("angle-arrow-up-white");
+  }
 }

@@ -42,6 +42,7 @@ get_involved:
 
 ---
 {% include hero.html %}
+{% include connecting-banner.html %}
 {% capture expanded %}
   {% include_relative {{ page.callout.expander.expandedSrc }} %}
 {% endcapture %}

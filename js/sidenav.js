@@ -1,7 +1,7 @@
 'use strict';
 
-var $ = require('jquery');
-var calculateAnchorPosition = require('./calculate-anchor-position');
+// var $ = require('jquery');
+// var calculateAnchorPosition = require('./calculate-anchor-position');
 
 /* Firefox needs html, others need body */
 var root = $('body, html');
@@ -68,18 +68,8 @@ $('.usa-sidenav').on('click', 'a', function (e) {
       $(sideLinks[i]).removeClass("usa-current");
     }
   }
-  // console.log(this.closest('li'));
   $( this ).closest('li').addClass('usa-current');
 });
-//var navHeight = function () {
-//  $('.sidenav').css('height', (window.innerHeight - 50));
-//};
-//
-//navHeight();
-//
-//$( window ).resize(function () {
-//  navHeight();
-//});
 
 
 var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");

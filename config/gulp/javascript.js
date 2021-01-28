@@ -38,10 +38,20 @@ gulp.task('copy-uswds-javascript', function (done) {
 
 });
 
+gulp.task('copy-stickyfill', function (done) {
+  dutil.logMessage(task, 'Copying stickyfill JS');
+
+  var stream = gulp.src('js/vendor/stickyfill.min.js')
+    .pipe(gulp.dest('assets/js/vendor'));
+
+  return stream;
+});
+
 gulp.task(task,
   gulp.series(
     gulp.parallel(
       'copy-uswds-javascript',
+      'copy-stickyfill',
       'eslint'
     ),
     function(done) {

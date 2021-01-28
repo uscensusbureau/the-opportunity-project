@@ -1,8 +1,8 @@
 'use strict';
 
-var $ = require('jquery');
+// var $ = require('jquery');
 
-var calculateAnchorPosition = require('./calculate-anchor-position');
+// var calculateAnchorPosition = require('./calculate-anchor-position');
 var timeout;
 
 /**

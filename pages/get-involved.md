@@ -55,7 +55,7 @@ get_involved:
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
     - b: Get Updates
-      style: secondary white
+      style: secondary dark
       link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
   text:
     - number: 1
@@ -67,11 +67,11 @@ get_involved:
     - number: 2
       number_display: false
       title: Run a TOPx sprint
-      subtitle: Coming Soon
+      subtitle: TOPx Toolkit for Federal Agencies
+      link: ../topx-toolkit/introduction/
       description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
 ---
 {% include hero.html %}
-{% include circuit-banner.html %}
-{% include title-and-content-primary.html %}
 {% include get-involved.html %}
+{% include title-and-content-primary.html %}

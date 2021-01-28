@@ -1,5 +1,5 @@
 {% assign item = page.get_involved %}
-<main class="bg-primary">
+<main class="bg-white">
   <section class="usa-section usa-graphic-list grid-container desktop:margin-top-11">
     <div class="grid-row grid-gap">
       <div
@@ -14,7 +14,7 @@
       {% endif %}
       </div>
       <div
-        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3"
+        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3 text-black"
       >
         {% if item.title %}
           <h1 class="font-sans-3xl">{{ item.title }}</h1>
@@ -38,7 +38,7 @@
       ></div>
       {% for text in item.text %}
         <div
-          class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3"
+          class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3 text-black"
         >
           {% if text.number.display == true %}
             <p>{{ text.number }}</p>
@@ -48,7 +48,7 @@
           {% endif %}
           {% if text.subtitle %}
             {% if text.link %}
-            <a class="font-mono-sm text-white" href="{{text.link}}">{{ text.subtitle | upcase }}</a>
+            <a class="font-mono-sm" href="{{text.link}}">{{ text.subtitle | upcase }}</a>
             {% else %}
             <p class="font-mono-sm">{{ text.subtitle | upcase }}</p>
             {% endif %}

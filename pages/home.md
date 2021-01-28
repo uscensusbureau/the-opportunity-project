@@ -124,6 +124,7 @@ testimonials:
 
 # get involved
 get_involved:
+  is-blue: true;
   title-image: photos/get-involved.png
   title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Get Involved
@@ -147,7 +148,8 @@ get_involved:
     - number: 2
       number_display: false
       title: Run a TOPx sprint
-      subtitle: Coming Soon
+      subtitle: TOPx Toolkit for Federal Agencies
+      link: ../topx-toolkit/introduction/
       description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
 #news (NOT USED BY TEMPLATE => HARDCODED IN _includes/news.html)

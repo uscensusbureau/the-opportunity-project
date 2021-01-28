@@ -47,6 +47,7 @@ content-primary:
 
 # get involved
 get_involved:
+  is-blue: false
   title-image: photos/get-involved.png
   title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Stay Informed

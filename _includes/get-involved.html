@@ -1,5 +1,9 @@
 {% assign item = page.get_involved %}
-<main class="bg-primary">
+{% assign textColor = "text-black" %}
+{% if item.is-blue %}
+  {% assign textColor = "text-white" %}
+{% endif %}
+<main class="{% if item.is-blue %}bg-primary{% else %}bg-white {% endif %}">
   <section class="usa-section usa-graphic-list grid-container desktop:margin-top-11">
     <div class="grid-row grid-gap">
       <div
@@ -14,7 +18,7 @@
       {% endif %}
       </div>
       <div
-        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3"
+        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3 {{ textColor }}"
       >
         {% if item.title %}
           <h1 class="font-sans-3xl">{{ item.title }}</h1>
@@ -38,7 +42,7 @@
       ></div>
       {% for text in item.text %}
         <div
-          class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3"
+          class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3 {{ textColor }}"
         >
           {% if text.number.display == true %}
             <p>{{ text.number }}</p>
@@ -48,7 +52,8 @@
           {% endif %}
           {% if text.subtitle %}
             {% if text.link %}
-            <a class="font-mono-sm text-white" href="{{text.link}}">{{ text.subtitle | upcase }}</a>
+            <a class="font-mono-sm {% if item.is-blue %}text-white{% endif %}" 
+              href="{{text.link}}">{{ text.subtitle | upcase }}</a>
             {% else %}
             <p class="font-mono-sm">{{ text.subtitle | upcase }}</p>
             {% endif %}

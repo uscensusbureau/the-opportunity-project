@@ -1,0 +1,1 @@
+![Illustration of an arrow pointing to the right over a navy blue field](/assets/img/photos/get-involved/arrow.jpg)

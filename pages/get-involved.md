@@ -30,6 +30,11 @@ callout:
     summary: Win cash prizes by using Census Bureau data. The theme this year is "Helping Families, Business, and Communities Respond to COVID-19."
     expandedSrc: get-involved/get-involved-callout.md
 
+join:
+  title: Stay in the Loop
+  left-col: get-involved/in-the-loop-left.md
+  right-col: get-involved/in-the-loop-right.md
+
 # get involved
 get_involved:
   title-image: photos/get-involved/get-involved.png
@@ -71,4 +76,11 @@ get_involved:
   {% include_relative {{ page.callout.expander.expandedSrc }} %}
 {% endcapture %}
 {% include text-callout-centered.html content=expanded %}
-{% include get-involved.html %}
+
+{% capture left-join %}
+  {% include_relative {{ page.join.left-col }} %}
+{% endcapture %}
+{% capture right-join %}
+  {% include_relative {{ page.join.right-col }} %}
+{% endcapture %}
+{% include two-column-markdown.html content=page.join left-col=left-join right-col=right-join %}

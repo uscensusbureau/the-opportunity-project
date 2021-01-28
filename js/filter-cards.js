@@ -2,21 +2,6 @@
 var $ = require('jquery');
 var slugify = require('slugify');
 
-const prodSearchForm = document.getElementById( 'product-search-form' );
-const searchField = document.getElementById( 'search-field' );
-const filterForm = document.getElementById('product-filter-form')
-const topicsInput = document.getElementById('topics')
-const yearInput = document.getElementById('year')
-const agencyInput = document.getElementById('agency')
-const productCards = document.getElementsByName('productCard');
-
-// define filters
-var searchTerm = '';
-let filterTopics = []
-let filterYears = []
-let filterAgencies = []
-
-
 // search
 if( prodSearchForm ){ 
   prodSearchForm.addEventListener( 'submit', e => {
@@ -24,7 +9,7 @@ if( prodSearchForm ){
     searchTerm = searchField.value;
     
     displayFilteredProducts();
-});
+  });
 }
 
 /*
@@ -91,15 +76,7 @@ function displayFilteredProducts() {
       card.classList.add('pc-inactive');
     }
   }
-}
-
-function checkFilterMatch( productValue, filterArray ) {
-  return filterArray.length === 0 || 
-    filterArray.some( filterVal => {
-      return productValue.toLowerCase().split(' ').join("-")
-        .includes( filterVal.toLowerCase().split(' ').join("-") );
-  })
-}
+});
 
 // reset filter
 if( document.getElementById( 'reset-filter' )) {
@@ -114,8 +91,6 @@ if( document.getElementById( 'reset-filter' )) {
   });
 }
 
-
-
 $('.usa-card').on('click', function () {
   $( this ).next('.modal').removeClass('modal-inactive').addClass('modal-active');
 });
@@ -126,6 +101,7 @@ $(".close").on("click", function () {
 
 $('.data-card-group').on('click', function (e) {
     var dataCard = e.target.closest("li").id;
+    // console.log(dataCard)
     // toggle the description of the challenge at top of page
     $('.modal-active').addClass('modal-inactive');
     $('.modal-active').removeClass('modal-active');
@@ -142,8 +118,10 @@ $('.data-card-group').on('click', function (e) {
       for (i = 0; i < datasets.length; i++ ) {
         dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
         dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
+        // console.log(dataNameSlugified)
         dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
         dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
+        // console.log(dataCategoryArray, dataCard);
         if ( dataCategoryArray.includes(dataCard) ) {
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
         } else {
@@ -166,8 +144,10 @@ $('.data-card-group').on('click', function (e) {
         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
         dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
+          // console.log(dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
         } else {
+          // console.log("mismatch", dataNameSlugified);
           $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
         }
       }

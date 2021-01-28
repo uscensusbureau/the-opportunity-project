@@ -1,0 +1,16 @@
+  <section class="bg-white">
+    {% if include.content.title %}
+      <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">{{ include.content.title }}</h2>
+    {% endif %}
+    <section class="usa-section grid-container bg-white border-top border-bottom">
+      <div class="grid-row grid-gap">
+        
+        <div class="desktop:grid-col-5 tablet:grid-col-5 grid-offset-1">
+          {{ include.left-col | markdownify }}
+        </div>
+        <div class="desktop:grid-col-5 tablet:grid-col-5 grid-offset-1">
+          {{ include.right-col | markdownify }}  
+        </div>
+      </div>
+    </section>
+  </section>

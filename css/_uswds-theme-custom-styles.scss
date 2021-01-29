@@ -4285,6 +4285,12 @@ $theme-table-column-gap: 4;
 
 .usa-hero__subtitle {
     @include u-padding-bottom(7);
+    a {
+      color: color($theme-color-base-lighter);
+      &:visited {
+        color: color($theme-color-base-light);
+      }
+    }
 }
 
 figure.highlight {

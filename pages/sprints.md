@@ -6,14 +6,18 @@ layout: default
 
 # full span, top of page section
 hero:
-  text: Past Sprints
+  text: Sprints
+  subtext: 
+    - p: Learn about past sprints and how we’ve tackled national challenges.  
+    - p: Sprints are [12-week product development cycles](/our-process/) that bring together tech teams and collaborators to build public-facing digital products using open data.
 
-banner-subheader-inverse:
+banner-subheader:
   top:
     background: base-darkest
     line: '-light'
-    subheader: Active Sprints
   bottom:
+    subheader: Featured Sprints
+    subheader-transparent: true
     background: white
 
 photo:
@@ -111,15 +115,6 @@ explanation:
     description: This cohort focuses on the same challenges from the natural and built environment sprints but primarily includes university-based teams.
 
 
-
-
-banner-subheader:
-  top:
-    background: white
-  bottom:
-    background: base-darkest
-    line: '-light'
-    subheader: Past Challenges
 # used here for the dark "past sprints" section. toggles based on year
 explanation-alt:
   text:
@@ -378,8 +373,8 @@ circuit-banner:
 
 
 ---
-{% include header-and-subheader.html %}
+{% include hero.html %}
+{% include connecting-banner-with-subheader.html %}
 {% include single-column-centered-photo-with-overlay.html %}
 {% include single-column-centered-list.html %}
-{% include connecting-banner-with-subheader.html %}
 {% include single-column-centered-list-dark.html %}

@@ -15,7 +15,11 @@
     <div
       class="display-flex flex-column flex-align-center"
     >
-      <h2 class="tag-header width-card margin-top-0">{{ banner.bottom.subheader | upcase }}</h2>
+      {% if banner.bottom.subheader-transparent %}
+        <h3 class="font-mono-3xs padding-top-2">{{ banner.bottom.subheader | upcase }}</h3>
+      {% else %}
+        <h2 class="tag-header width-card margin-top-0">{{ banner.bottom.subheader | upcase }}</h2>
+      {% endif %}
     </div>
   {% endif %}
 </section>

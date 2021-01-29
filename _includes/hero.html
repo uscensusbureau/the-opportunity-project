@@ -72,9 +72,13 @@
 {% elsif page.class == "sprints" %}
   <section class="interior-hero bg-base-darkest">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-3">
-      <h1 class="usa-hero__title margin-bottom-3 padding-top-0">{{ page.hero.text}}</h1>
+      <h1 class="usa-hero__title padding-top-0">{{ page.hero.text}}</h1>
       <div class="grid-col-4">
-        <p class="usa-hero__subtitle text-center">Learn more on this page about ways to engage in The Opportunity Project and join a community of innovators working to turn federal open data into technologies that solve real-world problems for people across the country.</p>
+        <div class="usa-hero__subtitle text-center">
+          {% for item in page.hero.subtext %}
+            {{ item.p | markdownify }}
+          {% endfor %}
+        </div>
       </div>
     </div>
 {% elsif page.class == "data"%}

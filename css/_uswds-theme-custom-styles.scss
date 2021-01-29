@@ -4494,10 +4494,11 @@ body {
 /**
  * callout expander classes
  */
-.callout-button {
+ .callout-button {
   text-transform: uppercase;
   font-size: 0.85em;
   letter-spacing: 1px;
+  cursor: pointer;
 
   @include add-background-svg("angle-arrow-down-white");
   padding: 0 2em 0 0;
@@ -4509,5 +4510,14 @@ body {
 
   &.show-less {
     @include add-background-svg("angle-arrow-up-white");
+  }
+}
+
+.callout-expanded {
+  a {
+    color: color($theme-color-base-lighter);
+    &:visited {
+      color: color($theme-color-base-light);
+    }
   }
 }

@@ -1,14 +1,23 @@
 // Update display to reflect the selected year
-var $ = require('jquery');
 
-$('.problem-statements').on('click', function (e) {
+const tabBar = document.getElementsByClassName( 'problem-statements' )[0];
+const yearButtons = document.getElementsByClassName( 'yr-btn' );
+
+tabBar.addEventListener( 'click', e => {
     var problemSet = e.target.id
-    // console.log(problemSet)
-    $('.yr-btn').removeClass('yr-btn-active');
-    $('.ps-active').addClass('ps-inactive');
-    $('.ps-active').removeClass('ps-active');
+    
+    Array.from( yearButtons ).forEach( button => button.classList.remove( 'yr-btn-active' ))
 
-    $('#' + problemSet).addClass('yr-btn-active');
-    $('.ps-' + problemSet).addClass('ps-active');
-    $('.ps-' + problemSet).removeClass('ps-inactive');
+    Array.from( document.getElementsByClassName('ps-active') )
+        .forEach( el => {
+            el.classList.add( 'ps-inactive' );
+            el.classList.remove('ps-active')})
+
+    document.getElementById(problemSet).classList.add( 'yr-btn-active' )
+
+    Array.from( document.getElementsByClassName(`ps-${problemSet}`) )
+        .forEach( el => {
+            el.classList.add( 'ps-active' )
+            el.classList.remove('ps-inactive')
+        })
 });

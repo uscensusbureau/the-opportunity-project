@@ -1,6 +1,6 @@
 // Update display to seach and filter products
-var $ = require('jquery');
-var slugify = require('slugify');
+// var $ = require('jquery');
+// var slugify = require('slugify');
 
 const prodSearchForm = document.getElementById( 'product-search-form' );
 const searchField = document.getElementById( 'search-field' );
@@ -141,7 +141,8 @@ $('.data-card-group').on('click', function (e) {
     } else {
       for (i = 0; i < datasets.length; i++ ) {
         dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
+        // dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
+        dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-");
         dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
         dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
         if ( dataCategoryArray.includes(dataCard) ) {
@@ -164,7 +165,8 @@ $('.data-card-group').on('click', function (e) {
         dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
         dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+        // dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+        dataNameSlugified = dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-");
         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
         } else {

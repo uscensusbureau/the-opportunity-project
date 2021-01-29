@@ -124,7 +124,7 @@ testimonials:
 
 # get involved
 get_involved:
-  title-image: photos/get-involved.png
+  title-image: photos/get-involved/get-involved.png
   title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Get Involved
   subtitle:

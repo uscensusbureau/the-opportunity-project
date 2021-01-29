@@ -20,12 +20,58 @@
 #    by predicting decennial Census response rates by day for each census tract,
 #    and comparing them to the true rates.
 
+- product_name: Emergency & Disaster Funding Tracking
+  tech_team: RevealGC & Alteryx
+  cohort: Built
+  year: 2020
+  problem_statement: Disaster Spending
+  agency: Office of Management and Budget
+  link: 'https://public.tableau.com/views/TOPSDashboard/Story1?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link'
+  image: Emergency-Disaster-Funding-Tracking.png
+  image-alt: Image of emergency disaster funding product
+  description_new:
+    Tracks and analyzes the impact of disaster relief funding for mitigation and recovery efforts using big data, aerial imagery, predictive analytics and geo-spatial technologies
+  data_sets:
+    - USASpending
+    - FEMA Monthly Disaster Spending Reports
+    - FEMA Annual Performance Report
+    - FEMA Disaster Summaries
+    - FEMA Mission Summaries
+    - FEMA Public Assistance
+    - HHS Annual Performance Report
+    - HUD Fair Market Rents
+    - IRS
+    - CDC/SVI
+    - Census
+    - DOL
+    - BLS
+  prize_status: nil # <- ADD THIS TO NON PRIZES
+  category: Disasters
+  description_old:
+    Emergency & Disaster Funding Tracking uses FEMA, USASpending, Census, DepartmentOfLabor, Public Assistance datasets to track and analyze the impact of disaster relief funding for mitigation and recovery efforts utilizing big data and aerial imagery in conjunction with advanced analytics, including predictive and geo-spatial technologies.
+- product_name: Clean Air Hero
+  tech_team: Rutgers University IDEA
+  cohort: University
+  year: 2020
+  problem_statement: Transportation Emissions
+  agency: Environmental Protection Agency
+  link: 'https://www.figma.com/proto/VpqqzfTu9FeHba7G0s44YQ/Demo?node-id=1%3A17&scaling=min-zoom'
+  image: Clean-Air-Hero_rutgers.png
+  image-alt: Image of Clean  Air Hero Product
+  description_new:
+    Educates young students about air quality and bus emissions and encourages students, parents, and teachers to create healthier school environments
+  data_sets:
+    - EPA Idle-Free Schools Toolkit
+  prize_status: nil
+  category: Education, Environment
+  description_old:
+    Clean Air Hero uses the Idle-Free Schools Toolkit to educate young students about air quality and bus emissions and encourages students, parents, and teachers to create healthier school environments.
 - product_name: Edubuddy
   tech_team: Syracuse University
   cohort: TOPx
   year: 2020
   problem_statement: Civics Education
-  agency: State
+  agency: Department of State
   link: 'https://topxiconsult.wordpress.com'
   image: Edubuddy.png
   image-alt: An image of a phone app that contains different quizes and tests. The title says Level 1 Discovery
@@ -44,7 +90,7 @@
   cohort: TOPx
   year: 2020
   problem_statement: Civics Education
-  agency: State
+  agency: Department of State
   link: 'https://bitesmedia.com/'
   image: Bites-Media.png
   image-alt: An webpage that explains foreign aid, and shows how you can understand why governments want to either increase or decrease foreign aid.
@@ -63,7 +109,7 @@
   cohort: University
   year: 2020
   problem_statement: Rural Economic Dev
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://saloneeameria.wixsite.com/website'
   image: Maine-Business-Resources.png
   image-alt: The title says 'Business Advising'. Underneath is a description that prompts you to 'Talk To Our Business Advisory Assistant'
@@ -78,7 +124,7 @@
   cohort: University
   year: 2020
   problem_statement: Rural Economic Dev
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://toptool.shinyapps.io/dashboard/'
   image: R-Story.png
   image-alt: This app is a scrolling image, you can select your county, and the audience you want to pitch to (ex. developers). The app will then display graphs that target that audience.
@@ -93,12 +139,36 @@
   prize_status: nil
   category: Economic Development, Rural
   description_old: Simplifies and visualizes federal open data to support storytelling for rural economic development
+- product_name: City Builder
+  tech_team: Citi Ventures
+  cohort: Built
+  year: 2020
+  problem_statement: Rural Economic Dev
+  agency: Environmental Protection Agency
+  link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
+  image: city-builder.jpg
+  image-alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
+  description_new:
+    Provides data-driven transparency into communities’ needs, so investors can create targeted positive impact through local investments.
+  data_sets:
+    - Census ACS
+    - FCC Form 477
+    - Institute of Museums and Library Services Museum Data Files
+    - Public Libraries Survey
+    - CDC Social Vulnerability Index
+    - USDA Food Access Research Atlas
+    - National Council of State Housing Agencies
+    - SEC EDGAR database
+  prize_status: Winner
+  category: Economic Development, Rural
+  description_old:
+    City Builder by Citi uses datasets from the Census Bureau, FCC, and CDC to provide data-driven transparency into communities’ needs, so investors can create targeted positive impact through local investments.
 - product_name: The Ghost Gear Project
   tech_team: Harvard University Institute of Politics
   cohort: University
   year: 2020
   problem_statement: Ocean Plastics
-  agency: State & Wilson Center
+  agency: Department of State, The Wilson Center
   link: 'https://projects.iq.harvard.edu/ghostgear'
   image: The-Ghost-Gear-Project.png
   image-alt: This is a scrolling image of the product, with a U.S. map of fishing nets over time.
@@ -114,7 +184,7 @@
   cohort: University
   year: 2020
   problem_statement: Ocean Plastics
-  agency: State & Wilson Center
+  agency: Department of State, The Wilson Center
   link: 'http://ocean-plastic-pollution.herokuapp.com/'
   image: PPIO.png
   image-alt: The image is a scrolling demo of the product. The product shows different plastics in CA over time. There is a section wih suggestsions on how many voluteers you'll need, the number of items that need to be collected, and the average meters expected to cover.
@@ -129,7 +199,7 @@
   cohort: University
   year: 2020
   problem_statement: Ocean Plastics
-  agency: State & Wilson Center
+  agency: Department of State, The Wilson Center
   link: 'https://arcg.is/04fT0X'
   image: Georgetown-Campus-Plastic-Initiative.png
   image-alt: This app has a title that says  'Georgeown Univeristy Plastic Dashboard'. The app displays different charts and maps, as well as when the data was last updated.
@@ -144,8 +214,8 @@
   tech_team: George Mason University
   cohort: University
   year: 2020
-  problem_statement: Ocean Plastics
-  agency: State & Wilson Center
+  problem_statement: Transportation Emissions
+  agency: Environmental Protection Agency
   link: 'http://www.airawareapp.com'
   image: Air-Aware.jpg
   image-alt: The dashboard shows the air quality in certain areas along with transportation emissions, compared to housing statistics (e.g. house price and rent).
@@ -162,7 +232,7 @@
   cohort: University
   year: 2020
   problem_statement: Transportation Emissions
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://mthnguyen.shinyapps.io/AirMotionDC/'
   image: AirMotionDC.png
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality and Traffic Volume'. The app is set for Washington, D.C., and you have the option to sort by the day, the ward, and the location.
@@ -180,7 +250,7 @@
   cohort: University
   year: 2020
   problem_statement: Transportation Emissions
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'http://www.pollutionpolicywatch.com'
   image: Pollution-Policy-Watch.jpg
   image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris type, and state for policy enactment.
@@ -195,7 +265,7 @@
   cohort: Built
   year: 2020
   problem_statement: Disaster Spending
-  agency: OMB
+  agency: Office of Management and Budget
   link: 'https://www.publicfinanceinstitute.org/covid-19'
   image: Public-Finance-Institute-Disaster-Spending-Tracker.png
   image-alt: The image shows a map of COVID-19 Fiscal assistance, where you can view the fund share by category.
@@ -210,7 +280,7 @@
   cohort: Built
   year: 2020
   problem_statement: Rural Economic Dev
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://link.ruralinnovation.us/tech-talent-tool'
   image: Tech-Talent-Tracker.png
   image-alt: This is a moving image of the Talent Tech Tracker app. You can filter by county to see the tech economic report of different areas.
@@ -229,7 +299,7 @@
   cohort: Built
   year: 2020
   problem_statement: Rural Economic Dev
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://telecommunity.tierraplan.com/'
   image: telecommunity.jpg
   image-alt: The TeleCommuniy app displays a map of Louisiana. On the left you can explore features such as Broadband Confidence, Housing Growth, Natural Amenities, etc.
@@ -248,7 +318,7 @@
   cohort: Built / Toolkit
   year: 2020
   problem_statement: Refugees
-  agency: UNHCR
+  agency: USA for UNHCR
   link: 'https://graphicacy.github.io/unhcr-refugee-project/'
   image: Resettled-Refugee-Services.png
   image-alt: The Resettled Refugee Services and Data Explorer displays a map with locations on where different refugees has resettled. The app inclides list of the Top cities by Arrival. North Highlands, California is top on the list, with 324 refugees that arrived in 2020.
@@ -264,7 +334,7 @@
   cohort: Built
   year: 2020
   problem_statement: Refugees
-  agency: UNHCR
+  agency: USA for UNHCR
   link: 'https://refugeeassist.herokuapp.com/'
   image: RefugeeAssist.jpg
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below that say 'Medical', 'Legal', 'Religious', etc.
@@ -280,7 +350,7 @@
   cohort: Built
   year: 2020
   problem_statement: Refugees
-  agency: UNHCR
+  agency: USA for UNHCR
   link: 'https://find.usahello.org'
   image: FindHello.png
   image-alt: Screenshot of a map of Texas. There is a bar on the left where you can select categories such as 'Legal Help', 'Resettlement Services', 'Housing & Food', and 'Community'.
@@ -296,7 +366,7 @@
   cohort: Built
   year: 2020
   problem_statement: Economic Self-Sufficiency
-  agency: HUD
+  agency: Department of Housing and Urban Development
   link: 'https://www.ops1.com/envision.aspx'
   image: The-EnVision-App.png
   image-alt: The image contains a screenshot of someone's profile in the app. The name is 'Thomas Moore', with options to select 'My Account', 'My Needs', and 'Service Providers'.
@@ -314,7 +384,7 @@
   cohort: Built
   year: 2020
   problem_statement: Economic Self-Sufficiency
-  agency: HUD
+  agency: Department of Housing and Urban Development
   link: 'https://www.accp.us'
   image: Americas-Community-Collaboration-Platform.png
   image-alt: A screenshot of a map and. different graphs from the product. The title reads 'Americas Community Collaboration Platform'
@@ -334,7 +404,7 @@
   cohort: Built
   year: 2020
   problem_statement: Economic Self-Sufficiency
-  agency: HUD
+  agency: Department of Housing and Urban Development
   link: 'www.idispla.org'
   image: iDISPLA-360-Degree-Data.jpg
   image-alt: The image contains screenshots from the product, with the title 'Broadband Access & Poverty'
@@ -351,7 +421,7 @@
   cohort: Built
   year: 2020
   problem_statement: Economic Self-Sufficiency
-  agency: HUD
+  agency: Department of Housing and Urban Development
   link: 'https://juliusedu.com/career-map'
   image: Julius-Career-Journey-Program.png
   image-alt: The image is a career builder map. The title says 'Learners can navigate the career map to understand both short and long-term opportunities in the industry'.
@@ -368,7 +438,7 @@
   cohort: Natural
   year: 2020
   problem_statement: NAIP
-  agency: USDA
+  agency: Department of Agriculture
   link: 'https://naip.io'
   image: NAIP-Downloader-Education-Modules.png
   image-alt: This image appears to be an arial screenshot from 2017.
@@ -383,7 +453,7 @@
   cohort: Natural
   year: 2020
   problem_statement: NAIP
-  agency: USDA
+  agency: Department of Agriculture
   link: 'https://labs.mapbox.com/labs/naip/'
   image: NAIP-explorer.png
   image-alt: Screenshot of the NAIP viewer. The image was acquired on 2018/11/11, and displays an arial view of the Big Ridge State Park. The left side of the park is a dark green, and the right side is a dark brown.
@@ -398,7 +468,7 @@
   cohort: Natural
   year: 2020
   problem_statement: NAIP
-  agency: USDA
+  agency: Department of Agriculture
   link: 'https://pagaf.nltmso.com/'
   image: pagaf.jpg
   image-alt: This is an intro page for the app, with the title 'Improve Your Crop Yield with Precision AG'
@@ -415,7 +485,7 @@
   cohort: Natural
   year: 2020
   problem_statement: Recycling
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://recycle.com/our-services/specialty-services/trucycle-mrf/'
   image: Scorecard-TruCycle-MRF.png
   image-alt: This is a chart of different commodities, such as mixed paper and PET. Each column contains a category and the grade for each commodity. For example, 'Mixed Plastic' recieved a 'D' in the category of 'Community Relationship'.
@@ -432,7 +502,7 @@
   cohort: Natural
   year: 2020
   problem_statement: Ocean Plastics
-  agency: State & Wilson Center
+  agency: Department of State, The Wilson Center
   link: 'https://codefortucson.github.io/sea-scavenger/'
   image: sea-scavenger.png
   image-alt: This page says 'Welcome to Sea Scavenger'. The introduction screen to the game explains what a circular economy is, the rules of the game, and what tasks need to be completed.
@@ -448,7 +518,7 @@
   cohort: Natural
   year: 2020
   problem_statement: Ocean Plastics
-  agency: State & Wilson Center
+  agency: Department of State, The Wilson Center
   link: 'https://esriurl.com/OceanPlastics'
   image: Ocean-Plastics-Story-Map.png
   image-alt: This image shows the story of ocean plastics.
@@ -468,7 +538,7 @@
   cohort: Natural
   year: 2020
   problem_statement: Recycling
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://chicago.topolyticsapp.com/'
   image: chicago-circular-economy.png
   image-alt: Screenshot of the Topolytics application. The app displays a map of the united states; the travel of waste products is color coded and tracked from place to place.
@@ -488,7 +558,7 @@
   cohort: Natural
   year: 2020
   problem_statement: Recycling
-  agency: EPA
+  agency: Environmental Protection Agency
   link: 'https://demo.ecobloc.io'
   image: eco-bloc.png
   image-alt: Screenshot of the Eco Bloc search function. A profile has been selected, with the name 'Supplier', contact information, and products, such as plastic and metal.
@@ -663,30 +733,6 @@
     layer of aggregated and anonymized Mastercard Data to measure the degree to
     which place, economy and community in a given Opportunity Zone benefit from
     equitable growth.
-- product_name: City Builder
-  tech_team: Citi Ventures
-  cohort: Workforce
-  year: 2019
-  problem_statement: Opportunity Zones
-  agency: U.S. Department of Housing and Urban Development, White House Council of Economic Advisors
-  link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
-  image: city-builder.jpg
-  image-alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
-  description_new:
-    Brings transparency to the Opportunity Zone ecosystem for investors, fund
-    manager, wealth managers, and cities
-  data_sets:
-    - Census Bureau
-    - Department of Agriculture
-    - Department of Education
-    - U.S. Securities and Exchange Commission
-  prize_status: Winner
-  category: economic-development
-  description_old:
-    Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department of
-    Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
-    Commission data to bring transparency to the Opportunity Zone ecosystem for
-    investors, fund manager, wealth managers, and cities.
 - product_name: Solve
   tech_team: Solve.is
   cohort: Workforce

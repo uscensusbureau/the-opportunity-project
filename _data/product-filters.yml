@@ -12,6 +12,7 @@ topics:
   - Health
   - Housing
   - Opioids
+  - Refugees
   - Rural
   - Transportation
   - Veterans
@@ -23,12 +24,14 @@ years:
   - 2020
 agencies:
   - Census Bureau
+  - Environmental Protection Agency
   - Department of Agriculture
   - Department of Education
   - Department of Health and Human Services
   - Department of Homeland Security
   - Department of Housing and Urban Development
   - Department of Labor
+  - Department of State
   - Department of the Treasury
   - Department of Transportation
   - Department of Veterans Affairs
@@ -37,5 +40,7 @@ agencies:
   - Forest Service
   - Office of Management and Budget
   - Office of the U.S. Surgeon General
+  - The Wilson Center
+  - USA for UNHCR
   - White House Council of Economic Advisors
   - White House Office of Science and Technology Policy

@@ -1183,7 +1183,7 @@ body {
         a {
           color: color("white");
           -webkit-text-decoration: #F7C636 dotted underline;
-          text-decoration: #F7C636dotted underline;
+          text-decoration: #F7C636 dotted underline;
           -webkit-text-underline-position: under;
           text-underline-position: under;
 
@@ -1208,7 +1208,7 @@ body {
       a {
         color: color("white");
         -webkit-text-decoration: #F7C636 dotted underline;
-        text-decoration: #F7C636dotted underline;
+        text-decoration: #F7C636 dotted underline;
         -webkit-text-underline-position: under;
         text-underline-position: under;
       }
@@ -3469,6 +3469,20 @@ h6 + div:not(.usa-accordion__content) {
         display: initial;
       }
     }
+
+    .usa-accordion__button {
+      &[aria-expanded="false"] {
+        @include add-background-svg("angle-arrow-down-white");
+        &:hover {
+          @include add-background-svg("angle-arrow-down-primary");
+        }
+      }
+      &[aria-expanded="true"] {
+        &:hover {
+          @include add-background-svg("angle-arrow-up-primary");
+        }
+      }
+    }
   }
 }
 
@@ -4162,6 +4176,15 @@ $theme-table-column-gap: 4;
   .usa-nav__submenu-item {
     color: color("white");
     @include typeset("lang", "2xs", 2);
+  }
+
+  .usa-nav__inner {
+    .usa-nav__primary button {
+      color: color($theme-color-base-dark);
+    }
+    .usa-nav__primary-item :hover{
+      color: color($theme-color-primary-dark);
+    }
   }
 }
 

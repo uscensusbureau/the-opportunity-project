@@ -1,64 +1,27 @@
-<div class="grid-row grid-gap">
-  {% for card in include.cards %}
-    <div
-      class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__background-image-portrait margin-bottom-3 desktop:margin-bottom-0"
-    >
-    <img
-      src="{{ site.baseurl}}/assets/img/{{ card.img }}"
-      alt="{{ card.alt }}"
-    />
-    <div class="content margin-top-5">
-      <h3>
-        <a href="{% unless card.isExternal %}{{ site.baseUrl }}/{% endunless %}{{ card.url }}">
-          {{ card.title }}
-        </a>
-      </h3>
-      <p class="font-mono-xs margin-bottom-5">{{ card.date }}</p>
-    </div>
-  </div>
-  {% endfor %}
-  
-  <div
-    class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-  >
-    <div
-      class="usa-media-block__background-image-landscape margin-bottom-1"
-    >
-      <img
-        src="{{ site.baseurl}}/assets/img/photos/home/news/news-01.png"
-        alt="People seated in groups at tables, listening and taking notes"
-      />
-      <div class="content margin-top-5">
-        <h4>
-          <a
-            href="https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/?sh=181ad5cf1345"
-          >
-            Developers Use Artificial Intelligence To Match Patients To
-            Clinical Trials
-          </a>
-        </h4>
-        <p class="margin-bottom-0">Forbes</p>
-        <p class="font-mono-xs margin-top-0">MARCH 2019</p>
+<section class="margin-x-5">
+  <div class="grid-row grid-gap-lg 
+    flex-wrap flex-justify-center">
+    {% for card in include.cards %}
+      <div
+        class="desktop:grid-col-4 tablet:grid-col-6
+          usa-media-block__background-image-portrait 
+          margin-bottom-3"
+      >
+        <div 
+          class="card-content padding-y-5"
+          style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img }});
+                 background-size: cover;">
+          <div class="card-header margin-y-8">
+            <h3 class="font-body-lg text-ls-1">
+              <a href="{% unless card.isExternal %}{{ site.baseUrl }}/{% endunless %}{{ card.url }}">
+                {{ card.title }}
+              </a>
+            </h3>
+            <p class="font-mono-xs">{{ card.date }}</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      class="usa-media-block__background-image-landscape margin-bottom-1"
-    >
-      <img
-        src="{{ site.baseurl}}/assets/img/photos/home/news/news-02.png"
-        alt="Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him"
-      />
-      <div class="content margin-top-5">
-        <h4>
-          <a
-            href="https://www.nytimes.com/2016/03/08/us/politics/new-federal-website-aims-to-enhance-community-services.html?searchResultPosition=1"
-          >
-            New Federal Website Aims to Enhance Community Services
-          </a>
-        </h4>
-        <p class="margin-bottom-0">The New York Times</p>
-        <p class="font-mono-xs margin-top-0">MARCH 2016</p>
-      </div>
-    </div>
+      
+    {% endfor %}
   </div>
-</div>
+</section>

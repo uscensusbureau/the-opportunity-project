@@ -381,6 +381,21 @@ sprint-cards:
     img: photos/home/news/news-main.png
     alt: Overhead view of waves crashing against a rocky outcrop
     url: /sprints/natural-environment
+  - title: Built Environment
+    date: Summer 2020
+    img: photos/home/news/news-main.png
+    alt: Overhead view of a suburban neighborhood
+    url: /sprints/built-environment
+  - title: Natural Environment
+    date: Summer 2020
+    img: photos/home/news/news-main.png
+    alt: Overhead view of waves crashing against a rocky outcrop
+    url: /sprints/natural-environment
+  - title: Built Environment
+    date: Summer 2020
+    img: photos/home/news/news-main.png
+    alt: Overhead view of a suburban neighborhood
+    url: /sprints/built-environment
 
 ---
 {% include hero.html %}

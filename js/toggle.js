@@ -1,4 +1,4 @@
-var $ = require('jquery');
+// var $ = require('jquery');
 
 $('.toggle-tip-button').on('click', function () {
   if ( $(this).next('div').hasClass('modal-inactive')) {

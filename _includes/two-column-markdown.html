@@ -1,0 +1,18 @@
+  <section class="bg-white">
+    
+    <section class="usa-section grid-container maxw-desktop">
+      {% if include.content.title %}
+        <h2 class="margin-top-0 margin-bottom-1 line-height-sans-3">{{ include.content.title }}</h2>
+      {% endif %}
+      <div class="grid-row grid-gap padding-top-2
+        border-top border-bottom border-base-light">
+        
+        <div class="desktop:grid-col-6 tablet:grid-col-6">
+          {{ include.left-col | markdownify }}
+        </div>
+        <div class="desktop:grid-col-6 tablet:grid-col-6">
+          {{ include.right-col | markdownify }}  
+        </div>
+      </div>
+    </section>
+  </section>

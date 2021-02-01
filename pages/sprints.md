@@ -370,11 +370,22 @@ circuit-banner:
   image: icons/circuity-pattern.svg
   sidebar-color: base-darkest
 
-
+sprint-cards: 
+  - title: Built Environment
+    date: Summer 2020
+    img: photos/home/news/news-main.png
+    alt: Overhead view of a suburban neighborhood
+    url: /sprints/built-environment
+  - title: Natural Environment
+    date: Summer 2020
+    img: photos/home/news/news-main.png
+    alt: Overhead view of waves crashing against a rocky outcrop
+    url: /sprints/natural-environment
 
 ---
 {% include hero.html %}
 {% include connecting-banner-with-subheader.html %}
+{% include card-list.html cards=page.sprint-cards %}
 {% include single-column-centered-photo-with-overlay.html %}
 {% include single-column-centered-list.html %}
 {% include single-column-centered-list-dark.html %}

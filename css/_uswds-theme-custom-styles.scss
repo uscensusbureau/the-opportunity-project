@@ -2260,9 +2260,9 @@ code {
 }
 
 // External link styles
-#{$external-href} {
-  @include external-link(external-link, external-link-hover);
-}
+// #{$external-href} {
+//   @include external-link(external-link, external-link-hover);
+// }
 
 .usa-button,
 .link-download,
@@ -4515,9 +4515,9 @@ body {
 
 .callout-expanded {
   a {
-    color: color($theme-color-base-lighter);
+    color: white;
     &:visited {
-      color: color($theme-color-base-light);
+      color: white;
     }
   }
 }

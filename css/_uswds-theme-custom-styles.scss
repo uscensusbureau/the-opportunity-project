@@ -2260,9 +2260,9 @@ code {
 }
 
 // External link styles
-// #{$external-href} {
-//   @include external-link(external-link, external-link-hover);
-// }
+#{$external-href} {
+  @include external-link(external-link, external-link-hover);
+}
 
 .usa-button,
 .link-download,
@@ -4176,6 +4176,10 @@ $theme-table-column-gap: 4;
   @include typeset("lang");
   background-color: color("primary-lightest");
   color: color("primary-dark");
+
+  [href^="http"]:not([href*=".gov"])::after {
+    display: none;
+  }
 
   .usa-accordion {
     @include typeset("lang");

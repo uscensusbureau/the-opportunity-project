@@ -1,4 +1,7 @@
 {% assign banner = page.banner-subheader %}
+{% if include.data %}
+  {% assign banner = include.data %}
+{% endif %}
 <section class="bg-{{ banner.top.background }}" id="{{ banner.bottom.subheader | slugify }}">
   <div class="vertical-line{{ banner.top.line}}"></div>
   {% if banner.top.subheader %}

@@ -20,100 +20,13 @@ banner-subheader:
     subheader-transparent: true
     background: white
 
-photo:
-  image: photos/sprints/2020-earth-sprint-banner.jpg
-  img-alt: overhead view of beach with sand, large rocks, and bright blue water
-  overlay:
-    title: 2020 Earth Sprints
-    subtitle: LAUNCHED JUNE 2020
-    text: This year, teams are leveraging technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
-    button-text: Get Updates
-    button-link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
-    button-color: usa-button__primary-red
-
-header-and-subheader:
-  title: Sprints
-  description:
-    - p: Sprints are
-    - a:
-      text: 12-week product development cycles
-      link: "https://opportunity.census.gov/our-process"
-    - p: where we bring together tech teams and collaborators to build digital products using open data.
-
-# used here for the active sprints section
-explanation:
-  id: problem-statements
-  text:
-  - number: 1
-    title: Natural Environments Sprint
-    subtitle: RUNS JUNE—SEP
-    image: photos/sprints/2020-natural-sprint.jpg
-    image-alt: mountains
-    description: This cohort focuses on challenges related to the natural environment, including reducing plastic pollution and developing markets for recycled materials.
-    links:
-      - link-path: 2020-natural-environment.pdf
-        link-text: View Full Brief (PDF)
-        link-icon:
-    accordions:
-      - aria: recycling
-        title: Developing markets for recycled materials
-        agency: U.S. Environmental Protection Agency (EPA)
-        challenge: Develop innovative digital solutions that connect domestic recycling facilities with manufacturers to enhance recycling markets and increase the use of recycled materials.
-        audience: 'U.S. recycling facilities and manufacturers looking to produce, sell, and buy quality recycled materials; rural or tribal communities; organizations and state and local governments striving to improve their recycling facilities and infrastructure.'
-      - aria: polution
-        title: Reducing plastic pollution in oceans
-        agency: U.S. Department of State & The Wilson Center
-        challenge: Create open data sets and engaging digital tools that complement existing citizen science plastics data, to help the public understand the amount of plastic on local beaches and in the ocean, where such plastic comes from, and actions that can be taken to alleviate the problem.
-        audience: Engaged citizens passionate about reducing plastic pollution, rural or tribal communities, as well as policymakers, advocates, and researchers
-      - aria: emissions
-        title: Increasing awareness of transportation emissions’ effects on air quality
-        agency: U.S. Environmental Protection Agency
-        challenge: Create tools to help communities understand how transportation-caused pollution contributes to emissions, local air quality, and health, as well as the actions available to lessen these impacts.
-        audience: Engaged citizens and the general public, especially those at higher risk for respiratory illnesses (e.g., individuals over 65, children, those with respiratory ailments), urban populations and communities (e.g., high transportation traffic areas), rural or tribal communities, and motorized vehicles users.
-      - aria: agriculture
-        title: Aiding agricultural decision-making
-        agency: U.S. Department of Agriculture
-        challenge: Create digital tools that provide farmers, ranchers, and researchers with timely access to National Agriculture Imagery Program (NAIP) data to help them make important agricultural and planning decisions.
-        audience: Farmers, ranchers, engaged citizens, rural or tribal communities, emergency managers, state and local government, federal agencies, university researchers.
-  - number: 2
-    title: Built Environments Sprint
-    subtitle: RUNS JULY-OCT
-    image: photos/sprints/2020-built-sprint.jpg
-    image-alt: overhead view of suburban residential block
-    description: This cohort focuses on challenges related to the built environment, including increasing families’ economic self-sufficiency and rural economic development.
-    links:
-      - link-path: 2020-built-environment.pdf
-        link-text: View Full Brief (PDF)
-        link-icon:
-    accordions:
-      - aria: economic
-        title: Economic self-sufficiency for low-income families
-        agency: U.S. Department of Housing & Urban Development
-        challenge: Create digital collaboration platforms that enable low income families to holistically assess their needs and connect with the best federal, state and local programs to equip and empower them toward self-sufficiency and economic mobility.
-        audience: Low to moderate income heads of households; case managers; guidance counselors; life coaches; community and ministry leaders; service providers; philanthropic organizations; federal, state and local government service program managers, policy makers, legislators
-      - aria: refugees
-        title: Assisting recently resettled refugees
-        agency: USA for UNHCR
-        challenge: Create a tool that connects resettled refugees with resources and vital services, such as access to medical care and mental health treatment, English language learning, job training, education, etc. These resources might be available through government agencies, nonprofits, community based organizations, private sector actors and the like.
-        audience: Resettled refugees in the United States, nonprofits that provide help to refugees
-      - aria: rural
-        title: Facilitating sustainable rural economic development
-        agency: U.S. Environmental Protection Agency
-        challenge: Create digital tools that help rural communities access and use data to implement solutions to economic, environmental, and human health challenges, taking care to reach places that have limited professional capacity and small budgets.
-        audience: Local officials or other local decision makers; regional planning groups; rural or tribal communities; communities that have been impacted by recent pandemic outfall, loss of key industry, and/or extreme weather events are suggested.
-      - aria: funding
-        title: Tracking impact of disaster and emergency funding
-        agency: Office of Management & Budget
-        challenge: Create digital tools and resources to track federal financial assistance award spending starting from Federal awards and flowing down to state and/or local spend in response to one or more emergencies and disasters (e.g., COVID-19 Coronavirus pandemic, hurricanes, earthquakes, and other disasters)
-        audience: American public, researchers, engaged citizens, state/local communities, rural or tribal communities, grant/loan recipients, small businesses, managers of disaster funds, appropriators
-
-  - number: 3
-    title: University sprint
-    subtitle: RUNS SEPT-NOV
-    image: photos/sprints/2020-university-sprint.jpg
-    image-alt: lecture hall
-    description: This cohort focuses on the same challenges from the natural and built environment sprints but primarily includes university-based teams.
-
+bottom-subheader:
+  top:
+    background: white
+  bottom:
+    subheader: Past Challenges
+    line: '-light'
+    background: base-darkest
 
 # used here for the dark "past sprints" section. toggles based on year
 explanation-alt:
@@ -365,42 +278,36 @@ explanation-alt:
         - link-path: 2016-ag.pdf
           link-text: View Full Brief (PDF)
 
-circuit-banner:
-  background-color: primary
-  image: icons/circuity-pattern.svg
-  sidebar-color: base-darkest
-
 sprint-cards: 
   - title: Built Environment
     date: Summer 2020
-    img: photos/home/news/news-main.png
+    img: photos/sprints/landing/Sprint-Background_01_Built.jpg
     alt: Overhead view of a suburban neighborhood
-    url: /sprints/built-environment
+    url: sprints/built-environment
   - title: Natural Environment
     date: Summer 2020
-    img: photos/home/news/news-main.png
+    img: photos/sprints/landing/Sprint-Background_02_Natural.jpg
     alt: Overhead view of waves crashing against a rocky outcrop
-    url: /sprints/natural-environment
-  - title: Built Environment
+    url: sprints/natural-environment
+  - title: Census
     date: Summer 2020
-    img: photos/home/news/news-main.png
-    alt: Overhead view of a suburban neighborhood
-    url: /sprints/built-environment
-  - title: Natural Environment
+    img: photos/sprints/landing/Sprint-Background_03_Census.jpg
+    alt: Closeup of sticky notes on a whiteboard
+    url: sprints/census
+  - title: Workforce
     date: Summer 2020
-    img: photos/home/news/news-main.png
-    alt: Overhead view of waves crashing against a rocky outcrop
-    url: /sprints/natural-environment
-  - title: Built Environment
+    img: photos/sprints/landing/Sprint-Background_04_Workforce.jpg
+    alt: Red and blue lines of light on a dark field
+    url: sprints/workforce
+  - title: Geo-Cohort
     date: Summer 2020
-    img: photos/home/news/news-main.png
-    alt: Overhead view of a suburban neighborhood
-    url: /sprints/built-environment
+    img: photos/sprints/landing/Sprint-Background_05_Geo.jpg
+    alt: A 3D topographical map
+    url: sprints/geo
 
 ---
 {% include hero.html %}
 {% include connecting-banner-with-subheader.html %}
 {% include card-list.html cards=page.sprint-cards %}
-{% include single-column-centered-photo-with-overlay.html %}
-{% include single-column-centered-list.html %}
+{% include connecting-banner-with-subheader.html data=page.bottom-subheader %}
 {% include single-column-centered-list-dark.html %}

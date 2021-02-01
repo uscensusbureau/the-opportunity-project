@@ -1,23 +1,44 @@
 <main class="bg-primary">
-  <section class="usa-section usa-graphic-list grid-container">
+  <section class="usa-section usa-graphic-list grid-container maxw-tablet-lg">
     <div class="">
       <div class="grid-row grid-gap">
         <div
-          class="desktop:grid-col-6 desktop:grid-offset-3 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+          class="usa-media-block margin-bottom-3 desktop:margin-bottom-0"
         >
           <div class="usa-media-block__body-outlined">
-            <div class="border-stars">
+            <div class="border-stars text-center">
               <img src="{{ site.baseurl }}/assets/img/icons/3-star-row.svg" alt="">
             </div>
             {% assign callout = page.callout %}
-            <h2 class="font-sans-xl">{{ callout.text }}</h2>
+            <h2 class="font-sans-xl text-center">{{ callout.text }}</h2>
             <p class="font-mono-sm margin-bottom-4">{{ callout.subtext }}</p>
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}
+
+
+            {% if page.callout.expander %}
+            <div class="text-callout-centered">
+              <div class="text-center font-family-mono">
+                <button class="callout-button text-white">
+                  <span>See More</span>
+                </button>
+              </div>
+              <p class="callout-summary">
+                {{ page.callout.expander.summary }}
+              </p>
+              <div class="callout-expanded ps-inactive">
+                {{ include.content | markdownify }}
+              </div>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
   </section>
 </main>
+
+{% if page.callout.expander %}
+  <script src="{{ site.baseurl }}/assets/js/show-more-less.js" type="text/javascript"></script>
+{% endif %}

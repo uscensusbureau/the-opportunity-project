@@ -1,0 +1,1 @@
+![Illustration of an arrow pointing to the right over a navy blue field]({{ site.baseurl }}/img/photos/get-involved/arrow.jpg)

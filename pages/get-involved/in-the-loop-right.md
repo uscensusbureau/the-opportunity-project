@@ -4,7 +4,7 @@ Tell us what you’re interested in. We’ll keep you posted about opportunities
 
 <button class="usa-button__primary-red">
   <a href="https://public.govdelivery.com/accounts/USCENSUS/signup/16610">
-    Get our Newsletter
+    Get Updates
   </a>
 </button>
 

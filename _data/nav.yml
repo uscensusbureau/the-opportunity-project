@@ -25,6 +25,22 @@ primary:
       - text: Product Development Toolkit
         href: product-development/toolkit/
 
+secondary:
+  - text: Our Process
+    href: '#'
+  - text: How it Works
+    href: '#how-it-works'
+  - text: Roles
+    href: '#roles'
+  - text: Tech Teams
+    href: '#tech-teams'
+  - text: Government
+    href: '#government'
+  - text: User Advocates
+    href: '#user-advocates'
+  - text: Product Advisors
+    href: '#product-advisors'
+
 mobile:
   - text: Home
     href: /

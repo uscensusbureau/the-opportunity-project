@@ -152,6 +152,16 @@ get_involved:
       link: ../topx-toolkit/introduction/
       description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
+news:
+  title: News
+  featured:
+    img: assets/img/photos/home/news/news-main.png
+    alt: American flag against blue background
+    date: March 2016
+    title: The White House Wants You to Build Tools to Improve Our Cities
+    href: https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/
+    publication: bananas
+
 #news (NOT USED BY TEMPLATE => HARDCODED IN _includes/news.html)
 #news_item:
 #  - title: The Opportunity Project Marks 100 Product Milestone
@@ -214,4 +224,4 @@ get_involved:
 {% include three-column-wide-text.html %}
 {% include circuit-banner.html %}
 {% include get-involved.html %}
-{% include news.html %}
+{% include news.html content=page.news %}

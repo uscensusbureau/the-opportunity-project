@@ -1,11 +1,12 @@
 <!-- this section still needs to be refactored into a more reusable component -->
+
 <section class="bg-white" id="news">
   <section class="usa-section usa-graphic-list grid-container">
     <div class="grid-row grid-gap">
       <div
         class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
       ></div>
-      <h2 class="font-sans-xl">News</h2>
+      <h2 class="font-sans-xl">{{ include.content.title }}</h2>
     </div>
     <div class="grid-row grid-gap">
       <div
@@ -15,19 +16,19 @@
         class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__background-image-portrait margin-bottom-3 desktop:margin-bottom-0"
       >
         <img
-          src="{{ site.baseurl}}/assets/img/photos/home/news/news-main.png"
-          alt="American flag against blue background"
+          src="{{ site.baseurl}}/{{ include.content.featured.img }}"
+          alt="{{ include.content.featured.alt }}"
         />
         <div class="content margin-top-5">
-          <p class="font-mono-xs margin-bottom-5">MARCH 2016</p>
+          <p class="font-mono-xs margin-bottom-5">{{ include.content.featured.date }}</p>
           <h3>
             <a
-              href="https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/"
+              href="{{ include.content.featured.href }}"
             >
-              The White House Wants You to Build Tools to Improve Our Cities
+              {{ include.content.featured.title }}
             </a>
           </h3>
-          <p>Wired</p>
+          <p>{{ include.content.featured.publication }}</p>
         </div>
       </div>
       <div

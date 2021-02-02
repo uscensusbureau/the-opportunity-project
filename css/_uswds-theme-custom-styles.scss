@@ -2481,21 +2481,16 @@ code {
 }
 
 .usa-media-block__background-image-portrait {
-  display: inline-block;
-  position: relative;
-
-  img + .content {
-  width: auto;
-  position: absolute;
-  bottom: units(1);
-  background-color: color("base-darkest");
-  color: color("white");
-  margin-right: units(5);
-  margin-bottom: units(3);
-  padding-left: units(6);
-  padding-right: units(6);
-  padding-top: units(8);
-  padding-bottom: units(9);
+  .card-header {
+    bottom: units(1);
+    background-color: color("base-darkest");
+    color: color("white");
+    margin-right: units(4);
+    margin-bottom: units(3);
+    padding-left: units(1);
+    padding-right: units(3);
+    padding-top: units(3);
+    padding-bottom: units(3);
 
   a {
     text-decoration: none;

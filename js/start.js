@@ -3,6 +3,7 @@
 require('./form-disable');
 require('./scroll-to-top-for-hash');
 require('./sidenav');
+require('./show-more-less');
 require('./filter-cards');
 require('./toggle');
 require('./data-kit-modal');

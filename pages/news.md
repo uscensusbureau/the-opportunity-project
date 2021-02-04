@@ -49,4 +49,4 @@ featured-images:
 
 {% include hero.html %}
 {% include connecting-banner-with-subheader-inverse.html %}
-{% include news.html content=page.featured-images %}
+{% include grid-section.html content=page.featured-images children="news.html" %}

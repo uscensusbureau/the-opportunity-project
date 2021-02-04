@@ -2402,32 +2402,27 @@ code {
 }
 
 .usa-media-block__background-image-landscape {
-  display: inline-block;
-  position: relative;
-
-  img + .content {
-  width: auto;
-  position: absolute;
+  .content {
+  width: 100%;
   top: 0;
   color: color("white");
   padding: units(1) units(5);
   margin-right: units(2);
 
-  a {
-    text-decoration: none;
-    padding-top: units(4);
-    padding-bottom: units(4);
-    color: color("white");
-    &:visited {
-      color: color("base-light");
-    }
-    &:hover {
-      color: color("base-light");
-      text-decoration: underline;
+    a {
+      text-decoration: none;
+      padding-top: units(4);
+      padding-bottom: units(4);
+      color: color("white");
+      &:visited {
+        color: color("base-light");
+      }
+      &:hover {
+        color: color("base-light");
+        text-decoration: underline;
+      }
     }
   }
-  }
-
 
   .overlay{
     .overlay-image {

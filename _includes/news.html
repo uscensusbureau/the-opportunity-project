@@ -19,7 +19,7 @@
       >
         <div class="card-content padding-y-5"
           title="{{ include.content.featured.alt }}"
-          style="background-image: url({{ site.baseurl}}/{{ include.content.featured.img }});
+          style="background-image: url({{ site.baseurl}}/assets/{{ include.content.featured.img }});
                  background-size: cover;" />
         
           <div class="card-header margin-top-5">
@@ -28,7 +28,7 @@
               <a
                 href="{{ include.content.featured.href }}"
               >
-                {{ include.content.featured.title }}
+                {{ include.content.featured.text }}
               </a>
             </h3>
             <p>{{ include.content.featured.publication }}</p>
@@ -58,19 +58,19 @@
         {% for card in include.content.side-cards %}
           <div
             class="usa-media-block__background-image-landscape margin-bottom-1"
-            style="background-image: url({{ site.baseurl}}/{{ card.img }});
+            style="background-image: url({{ site.baseurl}}/assets/{{ card.img }});
                  background-size: cover;"
           >
             <!-- <img
               src="{{ site.baseurl}}/assets/img/photos/home/news/news-01.png"
               alt="People seated in groups at tables, listening and taking notes"
             /> -->
-            <div class="content margin-top-5">
+            <div class="content">
               <h4>
                 <a
                   href="{{ card.href }}"
                 >
-                  {{ card.title }}
+                  {{ card.text }}
                 </a>
               </h4>
               <p class="margin-bottom-0">{{ card.publication }}</p>

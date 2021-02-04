@@ -7,4 +7,4 @@ While we think there’s nothing exactly like TOP, similar sprint programs exist
 - [CivTech Alliance](https://www.civtechalliance.org/)
 
 ### I’d like to use TOP at my federal agency! 
-We believe in the potential for this process to transform government and are eager to help federal agencies adopt this model.  Please contact us for more information on introducing TOP within your agency.  If you’re from a state, company or other type of organization, [please contact us](https://www.census.gov/forms/contact-top.html) about ways to adopt the TOP model. 
+We believe in the potential for this process to transform government and are eager to help federal agencies adopt this model, either through working directly with us or by utilizing the [TOPx toolkit for federal agencies](../topx-toolkit/introduction). Please contact us for more information on introducing TOP within your agency.  If you’re from a state, company or other type of organization, [please contact us](mailto:census.opportunityproject@census.gov) about ways to adopt the TOP model. 

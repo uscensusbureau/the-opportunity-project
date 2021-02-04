@@ -2,8 +2,8 @@
 ### This is cool!  Is anything like this happening elsewhere? 
 
 While we think there’s nothing exactly like TOP, similar sprint programs exist at other federal agencies, internationally, and increasingly at the state and local level. Here are some links to peer organizations and programs: 
-- [GSA 10x Program](https://10x.gsa.gov/)
-- [CFPB Tech Sprints](https://www.consumerfinance.gov/rules-policy/innovation/cfpb-tech-sprints/)
+- [GSA 10x Program →](https://10x.gsa.gov/)
+- [CFPB Tech Sprints →](https://www.consumerfinance.gov/rules-policy/innovation/cfpb-tech-sprints/)
 - [CivTech Alliance](https://www.civtechalliance.org/)
 
 ### I’d like to use TOP at my federal agency! 

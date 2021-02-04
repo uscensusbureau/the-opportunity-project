@@ -13,6 +13,10 @@ Or tables!
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
 
+### Or images using `/{/{ site.baseurl /}/}`
+![Illustration of an arrow pointing to the right over a navy blue field]({{ site.baseurl }}/img/photos/get-involved/arrow.jpg)
+This only works in separate files - not frontmatter!
+
 **Be sure that the file you are including is within the folder of the page it is being diplayed upon**
 
 For example, this component section is displayed on `/pages/components.md` is written in `/pages/components/two-col-markdown-right.md`.  

@@ -590,18 +590,16 @@ explanation:
               text: Learn More
 
 two-col-markdown:
+  title: This is a title
   right-include: components/two-col-markdown-right.md
-  skip-top-border: false
-  skip-bottom-border: false
+  skip-bottom-border: true
   left: 
-    - title: This is a title
-      body: And this is some body text that gets markdownified in the component. You can include markdown style to do things like _italicize_, *bold*, and even include [links](#).
-    - title: Are titles _markdownified?_ 
+    - title: A great component for displaying two columns of information
+      body: You can write simple markdown for a column in frontmatter _(like this left-hand column)_ or include more complex markdown *(like that for the right-hand column)* in a separate file.
+    - title: Are titles _markdownified, too?_ 
       body: You betcha!
     - title: When should I use a separate markdown file instead of frontmatter?
-      body: When you have complex markdown that includes newlines, basically. Lists would be one example.
-    - title: You can even include `{{site.baseurl}}\{{pathToImage}}` in frontmatter markdown!
-      body: See? ![Illustration of an arrow pointing to the right over a navy blue field]({{ site.baseurl }}/img/photos/get-involved/arrow.jpg)
+      body: When you have complex markdown that includes newlines or images. 
     - title: Other parameters
       body: The component also takes in `skip-top-border` and `skip-bottom-border` params as booleans w/in the `content` param which are useful for when you're stacking multiple two-column components on top of each other and don't want to double-up on the borders or when you want to leave the bottom border off of the last component on a page.
 ---
@@ -775,6 +773,12 @@ two-col-markdown:
       {% include two-column-card-text.html %}
 <hr>
   <h2>two-column-markdown.html</h2>
+  <p>
+  A very extensible component useful for displaying information in a clean, two-column layout with a title and borders. You can skip the the title and borders by leaving out or passing in the `title`, `skip-top-border`, and `skip-bottom-border` to the component.
+  </p>
+  <p>
+  Each column's content can be defined as markdown written in the frontmatter (as a collection of title and body items) or as a separate markdown file which you then capture and pass in to the component on its own.
+  </p>
   {% capture two-col-right %}
     {% include_relative {{ page.two-col-markdown.right-include }} %}
   {% endcapture %}

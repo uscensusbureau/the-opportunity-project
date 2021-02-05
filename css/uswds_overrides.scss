@@ -1,8 +1,35 @@
+// @use 'mixins';
+
 .grid-container {
   padding: 0;
 }
 
 html {
   height: 100vh;
-  background-color: $color-primary-dark;
+  // background-color: $color-primary-dark;
+}
+
+/**
+ * Collections!
+ */
+.usa-collection__body {
+  @include u-padding-left(2);
+  @include u-padding-right(8);
+}
+
+.usa-collection__meta-item {
+  text-transform: uppercase;
+  @include u-font-family('mono');
+  @include u-font-size('mono', '3xs');
+}
+
+.usa-collection__heading {
+  font-size: 2em;
+  margin: 1em 0 0 0;
+  line-height: 1.2;
+  @include dark-links;
+}
+
+.usa-collection__description {
+  @include u-margin-top( 1 );
 }

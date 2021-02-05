@@ -96,7 +96,7 @@
     "./css/uswds-custom.scss": [
       "build-css-custom"
     ],
-    "./css/_uswds-theme-custom-styles.scss": [
+    "./css/*.scss": [
       "build-css-custom"
     ],
     "./css/uswds-fonts.scss": [

@@ -1,0 +1,15 @@
+<div class="grid-row display-flex flex-wrap usa-collection">
+  {% for card in include.content %}
+    <div class="grid-col-6 outline-1px padding-top-2 usa-collection__item">
+      <div class="usa-collection__body news-card">
+        <span class="usa-collection__meta-item">
+          {{ card.date }}
+        </span>
+        <h3 class="usa-collection__heading">
+          <a href="{{ card.href }}">{{ card.publication }}</a>
+        </h3>
+        <p class="usa-collection__description my-special-class">{{ card.text }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

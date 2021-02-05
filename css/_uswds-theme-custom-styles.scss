@@ -9,6 +9,9 @@
 // 3. Custom page styles
 // ----------------------------------------
 
+@import 'uswds_overrides';
+@import 'mixins';
+
 // TODO: move to uswds once finished
 $theme-site-cols-split: "tablet";
 $theme-site-cols-show: "desktop";
@@ -61,6 +64,7 @@ $site-measure: 5;
 .usa-grid-col {
   @include usa-grid-col;
 }
+
 
 // ========================================
 // 1. Generic
@@ -732,13 +736,7 @@ h2 {
   font-size: font-size("mono", "3xs");
   background-color: color("transparent");
   color: color("base");
-  a {
-    text-decoration: none;
-    color: color("base");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  @include dark-links;
   &:hover {
     cursor: pointer;
   }
@@ -2261,7 +2259,7 @@ code {
 
 // External link styles
 #{$external-href} {
-  @include external-link(external-link, external-link-hover);
+  // @include external-link(external-link, external-link-hover);
 }
 
 .usa-button,
@@ -2403,11 +2401,11 @@ code {
 
 .usa-media-block__background-image-landscape {
   .content {
-  width: 100%;
-  top: 0;
-  color: color("white");
-  padding: units(1) units(5);
-  margin-right: units(2);
+    width: 100%;
+    top: 0;
+    color: color("white");
+    padding: units(1) units(5);
+    margin-right: units(2);
 
     a {
       text-decoration: none;
@@ -4524,8 +4522,16 @@ body {
 
   padding: 2.5rem 0;
   border-bottom: 1px dashed;
+
+  color: blue;
 }
 
 .flex-space-between {
   justify-content: space-between;
+}
+
+.news-card {
+  h3 a::after {
+    content: " →"
+  }
 }

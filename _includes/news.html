@@ -1,91 +1,65 @@
-<!-- this section still needs to be refactored into a more reusable component -->
-
-
-    <div class="grid-row grid-gap">
-      <div
-        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-      ></div>
-      <div
-        class="desktop:grid-col-5 tablet:grid-col-5 
-        usa-media-block__background-image-portrait 
-        display-flex flex-column"
-      >
-        <div class="card-content padding-y-5 height-full"
-          title="{{ include.content.featured.alt }}"
-          style="background-image: url({{ site.baseurl}}/assets/{{ include.content.featured.img }});
-                 background-size: cover;" />
-        
-          <div class="card-header margin-top-5">
-            <p class="font-mono-xs margin-bottom-5">{{ include.content.featured.date }}</p>
-            <h3>
-              <a
-                href="{{ include.content.featured.href }}"
-              >
-                {{ include.content.featured.text }}
-              </a>
-            </h3>
-            <p>{{ include.content.featured.publication }}</p>
-          </div>
-        </div> <!-- end featured card -->
-        
-        <!-- {% if include.content.side-cards.size > 2 %}
-          <div
-          class="write-a-story usa-media-block display-flex flex-column flex-align-center"
-        >
-          <p>Want to write a story on TOP?</p>
-          <button
-            class="usa-button__secondary-gray"
-            type="button"
-            name="button"
+<div class="grid-row grid-gap" id="news-div">
+  <div
+    class="desktop:grid-col-6 tablet:grid-col-6 
+    usa-media-block__background-image-portrait 
+    display-flex flex-column"
+  >
+    <div class="card-content padding-y-5 height-full"
+      title="{{ include.content.featured.alt }}"
+      style="background-image: url({{ site.baseurl }}/assets/{{ include.content.featured.img }});
+              background-size: cover;" >
+    
+      <div class="card-header margin-top-5">
+        <p class="font-mono-xs margin-bottom-5">{{ include.content.featured.date }}</p>
+        <h3>
+          <a
+            href="{{ include.content.featured.href }}"
           >
-            <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
-          </button>
+            {{ include.content.featured.text }}
+          </a>
+        </h3>
+        <p>{{ include.content.featured.publication }}</p>
+      </div>
+    </div> <!-- end featured card -->
+
+  </div> <!-- end column -->
+
+  <div
+    class="desktop:grid-col-6 tablet:grid-col-6
+      display-flex flex-column flex-space-between"
+  >
+    {% for card in include.content.side-cards %}
+      <div
+        class="usa-media-block__background-image-landscape 
+        {% unless forloop.last %}margin-bottom-1{% endunless %}"
+        style="background-image: url({{ site.baseurl}}/assets/{{ card.img }});
+              background-size: cover;" >
+        <div class="content">
+          <h4>
+            <a
+              href="{{ card.href }}"
+            >
+              {{ card.text }}
+            </a>
+          </h4>
+          <p class="margin-bottom-0">{{ card.publication }}</p>
+          <p class="font-mono-xs margin-top-0">{{ card.date }}</p>
         </div>
-        {% endif %} -->
+      </div>
+    {% endfor %}
+  </div> <!-- end column -->
+</div>
 
-      </div> <!-- end column -->
-
-      <div
-        class="desktop:grid-col-5 tablet:grid-col-5
-          display-flex flex-column
-         "
-      >
-        {% for card in include.content.side-cards %}
-          <div
-            class="usa-media-block__background-image-landscape 
-            {% unless forloop.last %}margin-bottom-1{% endunless %}"
-            style="background-image: url({{ site.baseurl}}/assets/{{ card.img }});
-                 background-size: cover;"
-          >
-            <!-- <img
-              src="{{ site.baseurl}}/assets/img/photos/home/news/news-01.png"
-              alt="People seated in groups at tables, listening and taking notes"
-            /> -->
-            <div class="content">
-              <h4>
-                <a
-                  href="{{ card.href }}"
-                >
-                  {{ card.text }}
-                </a>
-              </h4>
-              <p class="margin-bottom-0">{{ card.publication }}</p>
-              <p class="font-mono-xs margin-top-0">{{ card.date }}</p>
-            </div>
-          </div>
-        {% endfor %}
-      </div> <!-- end column -->
-  
-          <div
-          class="write-a-story usa-media-block padding-top-2 display-flex flex-column flex-align-center"
-        >
-          <p>Want to write a story on TOP?</p>
-          <button
-            class="usa-button__secondary-gray"
-            type="button"
-            name="button"
-          >
-            <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
-          </button>
-        </div>
+  <div
+    class="write-a-story usa-media-block padding-top-2 display-flex flex-column flex-align-center"
+  >
+    <p>Want to write a story on TOP?</p>
+    <button
+      class="usa-button__secondary-gray"
+      type="button"
+      name="button"
+    >
+      <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
+    </button>
+  </div>
 

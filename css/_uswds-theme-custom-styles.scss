@@ -4518,4 +4518,14 @@ body {
 
 .write-a-story {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2.5rem 0;
+  border-bottom: 1px dashed;
+}
+
+.flex-space-between {
+  justify-content: space-between;
 }

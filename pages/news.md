@@ -116,6 +116,22 @@ legislation:
     # title: [The Opportunity Project Act of 2019](https://www.congress.gov/bill/116th-congress/house-bill/3528/text?r=16&s=1)
       body: In 2019, bipartisan TOP Authorizing legislation was introduced in congress, which directs the Secretary of Commerce to carry out a program to facilitate the development of digital products for the public, and for other purposes. This authorizing bill is a major step toward institutionalizing TOP in government.
 
+publications:
+  title: Publications
+  cards:
+    - title: A Roadmap to the Future
+      href: https://ourpublicservice.org/wp-content/uploads/2020/02/Future-of-Government.pdf
+      img: photos/news/Background_roadmap.jpg
+      meta: The Partnership for Public Service Publication
+    - title: 'Agile Problem Solving in Government: A Case Study of The Opportunity Project'
+      href: http://www.businessofgovernment.org/report/agile-problem-solving-government-case-study-opportunity-project
+      img: photos/news/Background_IBM.jpg
+      meta: IBM Center for The Business of Government
+    - title: The White House
+      href: https://opportunityzones.hud.gov/sites/opportunityzones.hud.gov/files/documents/OZ_Best_Practices_Report.pdf
+      img: photos/news/Background_white-house.jpg
+      meta: 'White House Opportunity and Revitalization Council: Best Practices Report to the President'
+    
 ---
 
 {% include hero.html %}
@@ -127,3 +143,5 @@ legislation:
   {% include_relative {{ page.legislation.left-col }} %}
 {% endcapture %}
 {% include two-column-markdown.html content=page.legislation left-col=leg-left %}
+
+{% include grid-section.html content=page.publications children="card-list.html" %}

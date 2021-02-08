@@ -1,7 +1,11 @@
 # prettier-ignore
 primary:
   - text: About
-    href: about/
+    accordion:
+      - text: About TOP
+        href: about/
+      - text: FAQs
+        href: faqs/
   - text: Process
     href: our-process/
   - text: Work

@@ -46,7 +46,6 @@ third-section:
     - title: If I join an Opportunity Project sprint, what am I signing up for?
       body: What you’ll be doing in the sprint varies on your role. [Tech teams](../our-process/#tech-teams) are signing up to build a product or feature — whether new or within an existing  product or platform — that uses open data to solve one of our sprint problem statements. [User advocates](../our-process/#user-advocates) are signing up to give feedback and ensure the products built are meeting real community needs. Data experts are signing up to give feedback and share insights on federal open data sets. [Product advisors](../our-process/#product-advisors) are signing up to help tech teams develop products with a viable long term strategy. [Learn more about each role](../our-process/#how-it-works).
 
-
 ---
 
 {% include hero.html %}

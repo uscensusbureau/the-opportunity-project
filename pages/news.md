@@ -69,6 +69,10 @@ blurbs:
     details: Stakeholders both inside and outside of the federal agency attended a recent demo day at the bureau's headquarters, discussing the roll that data maps, human-centric design and more will play in next year’s count.
     img: photos/news/cleveland-map.png
     alt: A map of Cleveland, Ohio's neighborhoods and districts
+  - text: Census Bureau Showcases Data Projects to Optimize 2020 Population Count
+    date: December 16, 2019
+    publication: Federal News Network
+    href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
   - text: SAP Showcases Circular Economy Solution for Cities at The Opportunity Project
     date: December 7th, 2020
     publication: SAP News
@@ -101,6 +105,7 @@ blurbs:
 # Census Bureau Showcases Data Projects to Optimize 2020 Population Count
 # December 16, 2019
 # Federal News Network
+# href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
 
 
 

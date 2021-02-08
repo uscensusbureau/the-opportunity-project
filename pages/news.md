@@ -107,7 +107,14 @@ blurbs:
 # Federal News Network
 # href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
 
-
+legislation:
+  title: Bi-Partisan Authorizing Legislation
+  left-col-width: '4'
+  left-col: news/bill-image.md
+  right:
+    - title: The Opportunity Project Act of 2019
+    # title: [The Opportunity Project Act of 2019](https://www.congress.gov/bill/116th-congress/house-bill/3528/text?r=16&s=1)
+      body: In 2019, bipartisan TOP Authorizing legislation was introduced in congress, which directs the Secretary of Commerce to carry out a program to facilitate the development of digital products for the public, and for other purposes. This authorizing bill is a major step toward institutionalizing TOP in government.
 
 ---
 
@@ -115,3 +122,8 @@ blurbs:
 {% include connecting-banner-with-subheader-inverse.html %}
 {% include grid-section.html content=page.featured-images children="news.html" %}
 {% include grid-section.html content=page.blurbs children="news-blurbs.html" %}
+
+{% capture leg-left %}
+  {% include_relative {{ page.legislation.left-col }} %}
+{% endcapture %}
+{% include two-column-markdown.html content=page.legislation left-col=leg-left %}

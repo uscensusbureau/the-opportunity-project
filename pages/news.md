@@ -22,26 +22,26 @@ featured-images:
       href: https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/
       date: March 7, 2016
       publication: Wired
-      img: /img/photos/home/news/news-main.png
+      img: img/photos/home/news/news-main.png
       alt: An American flag
   side-cards:
     - text: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
       href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
       date: March 12, 2019
       publication: Forbes
-      img: /img/photos/home/news/news-01.png
+      img: img/photos/home/news/news-01.png
       alt: People seated at tables taking notes during a TOP presentation
     - text: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
       href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
       date: March 12, 2019
       publication: Forbes
-      img: /img/photos/home/news/news-02.png
+      img: img/photos/home/news/news-02.png
       alt: A man drawing on a white board with a marker while a woman looks on
     - text: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
       href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
       date: March 12, 2019
       publication: Forbes
-      img: /img/photos/home/news/news-03.png
+      img: img/photos/home/news/news-03.png
       alt: The New York City skyline
 
 

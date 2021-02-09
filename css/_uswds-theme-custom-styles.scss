@@ -107,6 +107,10 @@ h2 {
   font-size: 2.25em;
 }
 
+h1, h2, h3 {
+  scroll-margin-top: 5rem;
+}
+
 // ========================================
 // 2. Site layout
 // ----------------------------------------
@@ -2260,6 +2264,9 @@ code {
 // External link styles
 #{$external-href} {
   // @include external-link(external-link, external-link-hover);
+}
+.explicit-external-link {
+  @include external-link(external-link, external-link-hover);
 }
 
 .usa-button,

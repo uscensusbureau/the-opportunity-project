@@ -101,7 +101,9 @@ function checkFilterMatch( productValue, filterArray ) {
   })
 }
 
-// reset filter
+/** 
+ *  reset filters
+ */
 if( document.getElementById( 'reset-filter' )) {
   document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
     e.preventDefault();
@@ -109,11 +111,47 @@ if( document.getElementById( 'reset-filter' )) {
     for (i = 0; i < selectedValues.length; i++) {
       selectedValues[i].checked = false;
     }
+
+    // close the accordions
+    const buttons = document.getElementsByClassName('product-filter-button');
+    for( const button of buttons ){
+      button.setAttribute('aria-expanded', 'false')
+    }
+    // hide the dropdowns
+    [ topicsInput, yearInput, agencyInput ].forEach( input => 
+      input.setAttribute('hidden', "")
+    )
     
     filterProducts();
   });
 }
 
+/**
+ * Slugify a string
+ * from https://lucidar.me/en/web-dev/how-to-slugify-a-string-in-javascript/
+ **/ 
+const slugify = str => {
+    str = str.replace(/^\s+|\s+$/g, '');
+
+    // Make the string lowercase
+    str = str.toLowerCase();
+
+    // Remove accents, swap ñ for n, etc
+    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
+    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
+    for (var i=0, l=from.length ; i<l ; i++) {
+        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+
+    // Remove invalid chars
+    str = str.replace(/[^a-z0-9 -]/g, '') 
+    // Collapse whitespace and replace by -
+    .replace(/\s+/g, '-') 
+    // Collapse dashes
+    .replace(/-+/g, '-'); 
+
+    return str;
+}
 
 
 $('.usa-card').on('click', function () {
@@ -125,30 +163,33 @@ $(".close").on("click", function () {
 });
 
 $('.data-card-group').on('click', function (e) {
-    var dataCard = e.target.closest("li").id;
-    // toggle the description of the challenge at top of page
-    $('.modal-active').addClass('modal-inactive');
-    $('.modal-active').removeClass('modal-active');
-    $("#modal-" + dataCard).removeClass('modal-inactive').addClass('modal-active');
+    const closestCard = e.target.closest('li');
+    if( closestCard ){
+      var dataCardId = closestCard.id;
+      // toggle the description of the challenge at top of page
+      $('.modal-active').addClass('modal-inactive');
+      $('.modal-active').removeClass('modal-active');
+      $("#modal-" + dataCardId).removeClass('modal-inactive').addClass('modal-active');
 
-    var datasets = document.getElementsByClassName("data-set-card");
-    if (dataCard == "all") {
-      for (i = 0; i < datasets.length; i++ ) {
-        dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace("'", '').replace('.', '-').replace(':', '').split(" ").join("-"));
-        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-      }
-    } else {
-      for (i = 0; i < datasets.length; i++ ) {
-        dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        // dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
-        dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-");
-        dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
-        dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
-        if ( dataCategoryArray.includes(dataCard) ) {
+      var datasets = document.getElementsByClassName("data-set-card");
+      if (dataCardId == "all") {
+        for (i = 0; i < datasets.length; i++ ) {
+          dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+          dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace("'", '').replace('.', '-').replace(':', '').split(" ").join("-"));
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-        } else {
-          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+        }
+      } else {
+        for (i = 0; i < datasets.length; i++ ) {
+          dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+          dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
+          dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-");
+          dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
+          dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
+          if ( dataCategoryArray.includes(dataCardId) ) {
+            $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+          } else {
+            $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+          }
         }
       }
     }
@@ -165,7 +206,7 @@ $('.data-card-group').on('click', function (e) {
         dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
         dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
         dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-        // dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
         dataNameSlugified = dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-");
         if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
           $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');

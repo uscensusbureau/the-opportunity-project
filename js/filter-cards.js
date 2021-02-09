@@ -101,7 +101,9 @@ function checkFilterMatch( productValue, filterArray ) {
   })
 }
 
-// reset filter
+/** 
+ *  reset filters
+ */
 if( document.getElementById( 'reset-filter' )) {
   document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
     e.preventDefault();
@@ -109,6 +111,16 @@ if( document.getElementById( 'reset-filter' )) {
     for (i = 0; i < selectedValues.length; i++) {
       selectedValues[i].checked = false;
     }
+
+    // close the accordions
+    const buttons = document.getElementsByClassName('product-filter-button');
+    for( const button of buttons ){
+      button.setAttribute('aria-expanded', 'false')
+    }
+    // hide the dropdowns
+    [ topicsInput, yearInput, agencyInput ].forEach( input => 
+      input.setAttribute('hidden', "")
+    )
     
     filterProducts();
   });

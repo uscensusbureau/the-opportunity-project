@@ -15,7 +15,7 @@ primary:
       - text: Products
         href: showcase/
   - text: Press
-    href: '#news'
+    href: 'news/'
   - text: Resources
     accordion:
       - text: Datasets
@@ -78,7 +78,7 @@ footer:
   - text: Our Team
     href: about/
   - text: News
-    href: '#news'
+    href: 'news/'
 
 footer-bottom:
   - text: Census Open Innovation Labs

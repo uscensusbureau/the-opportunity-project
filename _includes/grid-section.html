@@ -1,0 +1,9 @@
+<section class="grid-section" id="{{include.content.id}}">
+  {% if include.content.title %}
+    <h2 class="section-header">
+      {{ include.content.title }}
+    </h2>
+  {% endif %}
+  
+  {% include {{ include.children }} content=include.content %}
+</section>

@@ -9,6 +9,9 @@
 // 3. Custom page styles
 // ----------------------------------------
 
+@import 'uswds_overrides';
+@import 'mixins';
+
 // TODO: move to uswds once finished
 $theme-site-cols-split: "tablet";
 $theme-site-cols-show: "desktop";
@@ -61,6 +64,7 @@ $site-measure: 5;
 .usa-grid-col {
   @include usa-grid-col;
 }
+
 
 // ========================================
 // 1. Generic
@@ -736,13 +740,7 @@ h1, h2, h3 {
   font-size: font-size("mono", "3xs");
   background-color: color("transparent");
   color: color("base");
-  a {
-    text-decoration: none;
-    color: color("base");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  @include dark-links;
   &:hover {
     cursor: pointer;
   }
@@ -2265,7 +2263,7 @@ code {
 
 // External link styles
 #{$external-href} {
-  @include external-link(external-link, external-link-hover);
+  // @include external-link(external-link, external-link-hover);
 }
 .explicit-external-link {
   @include external-link(external-link, external-link-hover);
@@ -2409,32 +2407,27 @@ code {
 }
 
 .usa-media-block__background-image-landscape {
-  display: inline-block;
-  position: relative;
-
-  img + .content {
-  width: auto;
-  position: absolute;
-  top: 0;
-  color: color("white");
-  padding: units(1) units(5);
-  margin-right: units(2);
-
-  a {
-    text-decoration: none;
-    padding-top: units(4);
-    padding-bottom: units(4);
+  .content {
+    width: 100%;
+    top: 0;
     color: color("white");
-    &:visited {
-      color: color("base-light");
-    }
-    &:hover {
-      color: color("base-light");
-      text-decoration: underline;
-    }
-  }
-  }
+    padding: units(1) units(5);
+    margin-right: units(2);
 
+    a {
+      text-decoration: none;
+      padding-top: units(4);
+      padding-bottom: units(4);
+      color: color("white");
+      &:visited {
+        color: color("base-light");
+      }
+      &:hover {
+        color: color("base-light");
+        text-decoration: underline;
+      }
+    }
+  }
 
   .overlay{
     .overlay-image {
@@ -2488,21 +2481,17 @@ code {
 }
 
 .usa-media-block__background-image-portrait {
-  display: inline-block;
-  position: relative;
-
-  img + .content {
-  width: auto;
-  position: absolute;
-  bottom: units(1);
-  background-color: color("base-darkest");
-  color: color("white");
-  margin-right: units(5);
-  margin-bottom: units(3);
-  padding-left: units(6);
-  padding-right: units(6);
-  padding-top: units(8);
-  padding-bottom: units(9);
+  .card-header {
+    bottom: units(1);
+    background-color: color("base-darkest");
+    color: color("white");
+    line-height: 1.3;
+    margin-right: units(4);
+    padding-left: units(1);
+    padding-right: units(3);
+    margin-bottom: units(3);
+    padding-top: units(3);
+    padding-bottom: units(3);
 
   a {
     text-decoration: none;
@@ -4531,4 +4520,48 @@ body {
       color: white;
     }
   }
+}
+
+.grid-section {
+  @include u-bg('white');
+  @include grid-container;
+  @include u-maxw('desktop');
+  @include u-padding-x(2);
+  // bg-white grid-container maxw-desktop padding-x-2
+}
+
+.write-a-story {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2.5rem 0;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.news-card {
+  h3 a::after {
+    content: " →"
+  }
+}
+
+.card-content {
+  @include u-height('mobile');
+  @include u-padding-top(3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+
+h2.section-header {
+  @include u-margin-bottom(1);
+  @include u-padding-bottom(1);
+  @include u-line-height('sans', 3);
+  @include u-border-bottom(1px);
+  @include u-border-bottom('base-light');
 }

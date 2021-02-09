@@ -2478,10 +2478,11 @@ code {
     bottom: units(1);
     background-color: color("base-darkest");
     color: color("white");
+    line-height: 1.3;
     margin-right: units(4);
-    margin-bottom: units(3);
     padding-left: units(1);
     padding-right: units(3);
+    margin-bottom: units(3);
     padding-top: units(3);
     padding-bottom: units(3);
 
@@ -4505,14 +4506,6 @@ body {
   }
 }
 
-.grid-section {
-  @include u-bg('white');
-  @include grid-container;
-  @include u-maxw('desktop');
-  @include u-padding-x(2);
-  // bg-white grid-container maxw-desktop padding-x-2
-}
-
 .callout-expanded {
   a {
     color: white;
@@ -4520,6 +4513,14 @@ body {
       color: white;
     }
   }
+}
+
+.grid-section {
+  @include u-bg('white');
+  @include grid-container;
+  @include u-maxw('desktop');
+  @include u-padding-x(2);
+  // bg-white grid-container maxw-desktop padding-x-2
 }
 
 .write-a-story {
@@ -4540,6 +4541,15 @@ body {
     content: " →"
   }
 }
+
+.card-content {
+  @include u-height('mobile');
+  @include u-padding-top(3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
 
 h2.section-header {
   @include u-margin-bottom(1);

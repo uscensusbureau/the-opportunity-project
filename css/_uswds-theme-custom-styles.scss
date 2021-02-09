@@ -4505,6 +4505,14 @@ body {
   }
 }
 
+.grid-section {
+  @include u-bg('white');
+  @include grid-container;
+  @include u-maxw('desktop');
+  @include u-padding-x(2);
+  // bg-white grid-container maxw-desktop padding-x-2
+}
+
 .callout-expanded {
   a {
     color: white;

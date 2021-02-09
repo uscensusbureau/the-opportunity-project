@@ -1,13 +1,12 @@
-<div class="grid-row display-flex flex-wrap usa-collection border-left border-bottom">
+<div class="grid-row grid-gap display-flex flex-wrap usa-collection">
   {% for card in include.content %}
     {% if card.img %}
-      <div class="grid-col-12 tablet:grid-col-6 border-top">
+      <div class="grid-col-12 tablet:grid-col-6">
         <img src="{{site.baseur}}/assets/img/{{ card.img }}"/>
       </div>
     {% endif %}
     <div class="grid-col-12 tablet:grid-col-6
-      padding-top-2 usa-collection__item
-      border-right border-top">
+      padding-top-2 usa-collection__item">
       <div class="usa-collection__body news-card">
         <span class="usa-collection__meta-item">
           {{ card.date }}

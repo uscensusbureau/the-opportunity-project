@@ -4,18 +4,22 @@
   {% assign left-col-width = include.content.left-col-width %}
   {% assign left-int = include.content.left-col-width | to_integer %}
   {% assign right-col-width = 12 | minus: left-int %}
+  {% if include.content.right-col-width %}
+    {% assign right-col-width = include.content.right-col-width %}
+  {% endif %}
 {% endif %}
 
 <section class="bg-white grid-container maxw-desktop">
   {% if include.content.title %}
-    <h2 class="margin-bottom-1 line-height-sans-3">{{ include.content.title }}</h2>
+    <h2 class="section-header">{{ include.content.title }}</h2>
   {% endif %}
   <div class="grid-row grid-gap padding-y-2
     {% unless include.content.skip-top-border %}border-top{% endunless %}
     {% unless include.content.skip-bottom-border %}border-bottom{% endunless %}
     border-base-light">
     
-    <div class="desktop:grid-col-{{ left-col-width }} tablet:grid-col-{{ left-col-width }}">
+    <div class="desktop:grid-col-{{ left-col-width }} tablet:grid-col-{{ left-col-width }}
+      {% if include.content.left-col-offset %}grid-offset-{{ include.content.left-col-offset }}{% endif %}">
       {% if include.content.left %}
         {% for section in include.content.left %}
           <h3>{{ section.title | markdownify }}</h3>

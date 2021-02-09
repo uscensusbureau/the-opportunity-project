@@ -1,7 +1,9 @@
 <section class="bg-white grid-container maxw-desktop"
   id="{{include.content.id}}">
   {% if include.content.title %}
-    <h2 class="margin-bottom-1 line-height-sans-3">{{ include.content.title }}</h2>
+    <h2 class="section-header">
+      {{ include.content.title }}
+    </h2>
   {% endif %}
   
   {% include {{ include.children }} content=include.content %}

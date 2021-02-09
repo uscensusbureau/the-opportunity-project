@@ -110,6 +110,10 @@ blurbs:
 legislation:
   title: Bi-Partisan Authorizing Legislation
   left-col-width: '4'
+  left-col-offset: 1
+  right-col-width: 6
+  skip-top-border: true
+  skip-bottom-border: true
   left-col: news/bill-image.md
   right:
     - title: The Opportunity Project Act of 2019

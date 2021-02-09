@@ -4532,3 +4532,11 @@ body {
     content: " →"
   }
 }
+
+h2.section-header {
+  @include u-margin-bottom(1);
+  @include u-padding-bottom(1);
+  @include u-line-height('sans', 3);
+  @include u-border-bottom(1px);
+  @include u-border-bottom('base-light');
+}

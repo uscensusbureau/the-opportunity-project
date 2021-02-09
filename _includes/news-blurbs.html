@@ -14,7 +14,10 @@
         <h3 class="usa-collection__heading">
           <a href="{{ card.href }}">{{ card.publication }}</a>
         </h3>
-        <p class="usa-collection__description my-special-class">{{ card.text }}</p>
+        <p class="usa-collection__description">{{ card.text }}</p>
+        {% if card.details %}
+          <p class="usa-collection__description details">{{ card.details }}</p>
+        {% endif %}
       </div>
     </div>
   {% endfor %}

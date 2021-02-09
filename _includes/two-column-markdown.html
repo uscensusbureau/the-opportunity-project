@@ -1,18 +1,45 @@
-  <section class="bg-white">
+{% assign left-col-width = 6 %}
+{% assign right-col-width = 6 %}
+{% if include.content.left-col-width %}
+  {% assign left-col-width = include.content.left-col-width %}
+  {% assign left-int = include.content.left-col-width | to_integer %}
+  {% assign right-col-width = 12 | minus: left-int %}
+  {% if include.content.right-col-width %}
+    {% assign right-col-width = include.content.right-col-width %}
+  {% endif %}
+{% endif %}
+
+<section class="grid-section">
+  {% if include.content.title %}
+    <h2 class="section-header">{{ include.content.title }}</h2>
+  {% endif %}
+  <div class="grid-row grid-gap padding-y-2
+    {% unless include.content.skip-top-border %}border-top{% endunless %}
+    {% unless include.content.skip-bottom-border %}border-bottom{% endunless %}
+    border-base-light">
     
-    <section class="usa-section grid-container maxw-desktop">
-      {% if include.content.title %}
-        <h2 class="margin-top-0 margin-bottom-1 line-height-sans-3">{{ include.content.title }}</h2>
+    <div class="desktop:grid-col-{{ left-col-width }} tablet:grid-col-{{ left-col-width }}
+      {% if include.content.left-col-offset %}grid-offset-{{ include.content.left-col-offset }}{% endif %}">
+      {% if include.content.left %}
+        {% for section in include.content.left %}
+          <h3>{{ section.title | markdownify }}</h3>
+          <p>{{ section.body | markdownify }}</p>
+        {% endfor %}
+      {% else %}
+        {{ include.left-col | markdownify }}
       {% endif %}
-      <div class="grid-row grid-gap padding-top-2
-        border-top border-bottom border-base-light">
-        
-        <div class="desktop:grid-col-6 tablet:grid-col-6">
-          {{ include.left-col | markdownify }}
-        </div>
-        <div class="desktop:grid-col-6 tablet:grid-col-6">
-          {{ include.right-col | markdownify }}  
-        </div>
-      </div>
-    </section>
-  </section>
+    </div>
+
+    <div class="desktop:grid-col-{{ right-col-width }} tablet:grid-col-{{ right-col-width }}">
+      {% if include.content.right %}
+        {% for section in include.content.right %}
+          <h3>{{ section.title | markdownify }}</h3>
+          <p>{{ section.body | markdownify }}</p>
+        {% endfor %}
+      {% else %}
+        {{ include.right-col | markdownify }}  
+      {% endif %}
+    </div>
+
+  </div>
+</section>

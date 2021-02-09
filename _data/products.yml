@@ -20,6 +20,19 @@
 #    by predicting decennial Census response rates by day for each census tract,
 #    and comparing them to the true rates.
 
+- product_name: Urban Intelligence Platform
+  tech_team: UrbanFootprint
+  description_new: Provides sector-specific insights to answer critical questions on urban transformation and policy, community resilience, hazard and climate risk, and social equity
+  data_sets:
+    - USASpending
+  category: disasters
+  cohort: Built
+  year: 2020
+  problem_statement: Disaster Spending
+  agency: Office of Management and Budget
+  link: 'https://urbanfootprint.com'
+  image: UF Dashboard - 518 x 352.jpg
+  image-alt: Image of Urban Intelligence product with color-coded map
 - product_name: Emergency & Disaster Funding Tracking
   tech_team: RevealGC & Alteryx
   cohort: Built

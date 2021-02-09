@@ -1,121 +1,81 @@
-<!-- this section still needs to be refactored into a more reusable component -->
-<section class="bg-white" id="news">
-  <section class="usa-section usa-graphic-list grid-container">
-    <div class="grid-row grid-gap">
-      <div
-        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-      ></div>
-      <h2 class="font-sans-xl">News</h2>
-    </div>
-    <div class="grid-row grid-gap">
-      <div
-        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-      ></div>
-      <div
-        class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__background-image-portrait margin-bottom-3 desktop:margin-bottom-0"
-      >
-        <img
-          src="{{ site.baseurl}}/assets/img/photos/home/news/news-main.png"
-          alt="American flag against blue background"
-        />
-        <div class="card-header margin-top-5">
-          <p class="font-mono-xs margin-bottom-5">MARCH 2016</p>
-          <h3>
-            <a
-              href="https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/"
-            >
-              The White House Wants You to Build Tools to Improve Our Cities
-            </a>
-          </h3>
-          <p>Wired</p>
-        </div>
-      </div>
-      <div
-        class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-      >
-        <div
-          class="usa-media-block__background-image-landscape margin-bottom-1"
-        >
-          <img
-            src="{{ site.baseurl}}/assets/img/photos/home/news/news-01.png"
-            alt="People seated in groups at tables, listening and taking notes"
-          />
-          <div class="content margin-top-5">
-            <h4>
-              <a
-                href="https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/?sh=181ad5cf1345"
-              >
-                Developers Use Artificial Intelligence To Match Patients To
-                Clinical Trials
-              </a>
-            </h4>
-            <p class="margin-bottom-0">Forbes</p>
-            <p class="font-mono-xs margin-top-0">MARCH 2019</p>
-          </div>
-        </div>
-        <div
-          class="usa-media-block__background-image-landscape margin-bottom-1"
-        >
-          <img
-            src="{{ site.baseurl}}/assets/img/photos/home/news/news-02.png"
-            alt="Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him"
-          />
-          <div class="content margin-top-5">
-            <h4>
-              <a
-                href="https://www.nytimes.com/2016/03/08/us/politics/new-federal-website-aims-to-enhance-community-services.html?searchResultPosition=1"
-              >
-                New Federal Website Aims to Enhance Community Services
-              </a>
-            </h4>
-            <p class="margin-bottom-0">The New York Times</p>
-            <p class="font-mono-xs margin-top-0">MARCH 2016</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid-row grid-gap">
-      <div
-        class="desktop:grid-col-1 tablet:grid-col-1 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-      ></div>
-      <div
-        class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-      >
-        <div
-          class="usa-media-block padding-top-2 display-flex flex-column flex-align-center"
-        >
-          <p>Want to write a story on TOP?</p>
-          <button
-            class="usa-button__secondary-gray"
-            type="button"
-            name="button"
+<div class="grid-row grid-gap" id="news-div">
+  <div
+    class="tablet:grid-col-6 margin-bottom-1 tablet:margin-bottom-0
+    usa-media-block__background-image-portrait 
+    display-flex flex-column"
+  >
+    <div class="padding-y-5 height-full"
+      title="{{ include.content.featured.alt }}"
+      style="background-image: url({{ site.baseurl }}/assets/{{ include.content.featured.img }});
+              background-size: cover;">
+    
+      <div class="card-header margin-top-5">
+        <p class="font-mono-xs margin-bottom-5">{{ include.content.featured.date }}</p>
+        <h3>
+          <a
+            href="{{ include.content.featured.href }}"
           >
-            <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
-          </button>
-        </div>
+            {{ include.content.featured.text }}
+          </a>
+        </h3>
+        <p>{{ include.content.featured.publication }}</p>
       </div>
+    </div> <!-- end featured card -->
+
+    {% if include.content.side-cards.size > 2 %}
+      <div class="write-a-story
+        display-none tablet:display-flex">
+        <p>Want to write a story on TOP?</p>
+        <button
+          class="usa-button__secondary-gray"
+          type="button"
+          name="button"
+        >
+          <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
+        </button>
+      </div>
+    {% endif %}
+  </div> <!-- end column -->
+
+  <div
+    class="tablet:grid-col-6
+      display-flex flex-column flex-space-between"
+  >
+    {% for card in include.content.side-cards %}
       <div
-        class="desktop:grid-col-5 tablet:grid-col-5 margin-bottom-3 desktop:margin-bottom-0"
-      >
-        <div class="usa-media-block__background-image-landscape">
-          <img
-            src="{{ site.baseurl}}/assets/img/photos/home/news/news-03.png"
-            alt="birdseye view of a city coastline"
-          />
-          <div class="content margin-top-5">
-            <h4>
-              <a
-                href="https://www.techrepublic.com/article/president-obamas-new-open-data-initiative-could-help-cities-help-themselves/"
-              >
-                President Obama's new open data initiative could help cities
-                help themselves
-              </a>
-            </h4>
-            <p class="margin-bottom-0">TechRepublic</p>
-            <p class="font-mono-xs margin-top-0">MARCH 2016</p>
-          </div>
+        class="usa-media-block__background-image-landscape 
+        {% unless forloop.last %}margin-bottom-1{% endunless %}"
+        style="background-image: url({{ site.baseurl }}/assets/{{ card.img }});
+              background-size: cover;" >
+        <div class="content">
+          <h4>
+            <a
+              href="{{ card.href }}"
+            >
+              {{ card.text }}
+            </a>
+          </h4>
+          <p class="margin-bottom-0">{{ card.publication }}</p>
+          <p class="font-mono-xs margin-top-0">{{ card.date }}</p>
         </div>
       </div>
-    </div>
-  </section>
-</section>
+    {% endfor %}
+  </div> <!-- end column -->
+</div>
+
+<div class="write-a-story
+  {% if include.content.side-cards.size > 2 %}
+    tablet:display-none display-flex
+  {% endif %}">
+  <p>Want to write a story on TOP?</p>
+  <button
+    class="usa-button__secondary-gray"
+    type="button"
+    name="button"
+  >
+    <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
+  </button>
+</div>
+
+  
+

@@ -18,6 +18,7 @@ banner-subheader-inverse:
 
 content-light:
   title: Participate in TOP
+  skip-top-border: true
   body: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
   left-col: get-involved/participate-left.md
   right-col: get-involved/participate-right.md
@@ -31,6 +32,7 @@ callout:
 
 join:
   title: Stay in the Loop
+  skip-top-border: true
   left-col: get-involved/in-the-loop-left.md
   right-col: get-involved/in-the-loop-right.md
 

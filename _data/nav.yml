@@ -1,7 +1,11 @@
 # prettier-ignore
 primary:
   - text: About
-    href: about/
+    accordion:
+      - text: About TOP
+        href: about/
+      - text: FAQs
+        href: faqs/
   - text: Process
     href: our-process/
   - text: Work
@@ -11,7 +15,7 @@ primary:
       - text: Products
         href: showcase/
   - text: Press
-    href: '#news'
+    href: 'news/'
   - text: Resources
     accordion:
       - text: Datasets
@@ -20,6 +24,22 @@ primary:
         href: topx-toolkit/introduction/
       - text: Product Development Toolkit
         href: product-development/toolkit/
+
+secondary:
+  - text: Our Process
+    href: '#'
+  - text: How it Works
+    href: '#how-it-works'
+  - text: Roles
+    href: '#roles'
+  - text: Tech Teams
+    href: '#tech-teams'
+  - text: Government
+    href: '#government'
+  - text: User Advocates
+    href: '#user-advocates'
+  - text: Product Advisors
+    href: '#product-advisors'
 
 mobile:
   - text: Home
@@ -58,7 +78,7 @@ footer:
   - text: Our Team
     href: about/
   - text: News
-    href: '#news'
+    href: 'news/'
 
 footer-bottom:
   - text: Census Open Innovation Labs

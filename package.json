@@ -37,7 +37,7 @@
     "start": "bundle exec jekyll serve --drafts --future",
     "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint",
     "test:ci": "npm run axe && npm run crawl && bundle exec rspec && npm run lint",
-    "watch": "bundle exec jekyll serve --drafts --future --watch"
+    "watch": "NODE_ENV=development nswatch"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",
@@ -96,7 +96,7 @@
     "./css/uswds-custom.scss": [
       "build-css-custom"
     ],
-    "./css/_uswds-theme-custom-styles.scss": [
+    "./css/*.scss": [
       "build-css-custom"
     ],
     "./css/uswds-fonts.scss": [

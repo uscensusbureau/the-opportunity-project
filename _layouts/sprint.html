@@ -7,12 +7,9 @@ layout: default
 {% assign problems = site.data.Problem_Statements_new | where: 'Sprints', sprint.airtable_id %}
 
 {% include hero.html %}
-
 {% include nav/sprints-nav.html %}
+{% include sprint-hero.html content=sprint %}
 
-<h2>{{ sprint.Name }}</h2>
-<h3>{{ sprint.airtable_id }}</h3>
-<p>{{ sprint.description }}</p>
 {% for statement in problems %}
 <h3>
   {{ statement.Name }}

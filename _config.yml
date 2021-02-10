@@ -21,6 +21,8 @@ collections:
   components:
     output: true
     permalink: /:path/
+  sprints:
+    output: true
 
 defaults:
   - scope:
@@ -33,6 +35,11 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: "sprints"
+    values:
+      layout: "sprint"
 
 plugins:
   - jekyll-redirect-from

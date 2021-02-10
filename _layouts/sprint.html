@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
-{% include hero.html %}
+
 {% assign data=site.data.Sprints_new | where: 'short-tag', page.short-name %}
 {% assign sprint = data[ 0 ] %}
 {% assign problems = site.data.Problem_Statements_new | where: 'Sprints', sprint.airtable_id %}
+
+{% include hero.html %}
+
+{% include nav/sprints-nav.html %}
+
 <h2>{{ sprint.Name }}</h2>
 <h3>{{ sprint.airtable_id }}</h3>
 <p>{{ sprint.description }}</p>

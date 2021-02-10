@@ -50,13 +50,12 @@
     <div class="grid-container">
       <div class="maxw-mobile-lg grid-offset-1">
         <h1 class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white">
-          {{ page.hero.text}}
+          Sprints
         </h1>
-        {% for item in page.hero.subtext %}
-          <div class="font-sans-md">
-            {{ item.p | markdownify }}
-          </div>
-        {% endfor %}
+        <div class="font-sans-md text-white">
+          <p>Learn about past sprints and how we’ve tackled national challenges.</p>
+          <p>Sprints are 12-week product development cycles that bring together tech teams and collaborators to build public-facing digital products using open data.</p>
+        </div>
       </div>
     </div>
 {% elsif page.class == "our-process" %}

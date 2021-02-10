@@ -1,0 +1,12 @@
+{% assign links = site.sprints %}
+<nav class="site-nav-secondary sprint-nav">
+
+  <ul class="margin-left-10 padding-left-15">
+    {% for link in links %}
+      {% assign pageSprints = site.data.Sprints_new | where:'short-tag', link.short-name %}
+      <li class="usa-nav__primary-item">
+        <a class="usa-nav__link font-sans-3xs" href="{{ link.url }}"><span>{{ pageSprints[0].Name }}</span></a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

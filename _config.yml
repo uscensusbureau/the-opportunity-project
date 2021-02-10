@@ -40,6 +40,7 @@ defaults:
       type: "sprints"
     values:
       layout: "sprint"
+      class: "sprints"
 
 plugins:
   - jekyll-redirect-from

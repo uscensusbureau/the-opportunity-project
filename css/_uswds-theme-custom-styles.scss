@@ -347,7 +347,12 @@ h1, h2, h3 {
 .site-nav-secondary {
   display: none;
 
-   &.page-our-process {
+    &.sprint-nav {
+      @include u-position('sticky');
+      @include u-padding-left(15);
+      top: 5em;
+    }
+
     @include at-media("desktop") {
       background-color: color("white");
       border-bottom: units($site-border-width) solid
@@ -401,7 +406,6 @@ h1, h2, h3 {
         color: color($site-ink);
       }
     }
-  }
 }
 
 

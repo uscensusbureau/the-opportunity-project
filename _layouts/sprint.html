@@ -2,11 +2,18 @@
 layout: default
 ---
 {% include hero.html %}
+{% assign data=site.data.Sprints_new | where: 'short-tag', page.short-name %}
+{% assign sprint = data[ 0 ] %}
+{% assign problems = site.data.Problem_Statements_new | where: 'Sprints', sprint.airtable_id %}
+<h2>{{ sprint.Name }}</h2>
+<h3>{{ sprint.airtable_id }}</h3>
+<p>{{ sprint.description }}</p>
+{% for statement in problems %}
+<h3>
+  {{ statement.Name }}
+</h3>
+{% endfor %}
 <!-- TODO: include subnav here -->
-<!-- {% include sprint-hero.html content=content %} -->
 
 <!-- list all problem statements for this sprint -->
-<!-- {% assign problems = site.problem_statements | where:'sprint', page.short_name %}
-{% for statement in problems %}
-  <h3>{{ statement.title }}</h3>
-{% endfor %} -->
+

@@ -1,6 +1,6 @@
 <div class="grid-row grid-gap" id="news-div">
   <div
-    class="tablet:grid-col-6 margin-bottom-1 tablet:margin-bottom-0
+    class="tablet:grid-col-6 margin-bottom-2 tablet:margin-bottom-0
     usa-media-block__background-image-portrait 
     display-flex flex-column"
   >
@@ -21,10 +21,7 @@
     {% endif %}
   </div> <!-- end column -->
 
-  <div
-    class="tablet:grid-col-6
-      display-flex flex-column flex-space-between"
-  >
+  <div class="tablet:grid-col-6 display-flex flex-column flex-space-between">
     {% for card in include.content.side-cards %}
       {% include cards/card.html content=card utils="short-card" %}
     

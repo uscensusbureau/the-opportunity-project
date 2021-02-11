@@ -4546,6 +4546,19 @@ body {
   padding-top: units(3);
   padding-bottom: units(3);
 
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  h3 {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .card-date {
+    order: -1;
+  }
+
   a {
     text-decoration: none;
     padding-top: units(4);

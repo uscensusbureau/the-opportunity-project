@@ -4,23 +4,7 @@
     usa-media-block__background-image-portrait 
     display-flex flex-column"
   >
-    <div class="padding-y-5 height-full"
-      title="{{ include.content.featured.alt }}"
-      style="background-image: url({{ site.baseurl }}/assets/{{ include.content.featured.img }});
-              background-size: cover;">
-    
-      <div class="card-header margin-top-5">
-        <p class="font-mono-xs margin-bottom-5">{{ include.content.featured.date }}</p>
-        <h3>
-          <a
-            href="{{ include.content.featured.href }}"
-          >
-            {{ include.content.featured.publication }}
-          </a>
-        </h3>
-        <p>{{ include.content.featured.text }}</p>
-      </div>
-    </div> <!-- end featured card -->
+    {% include cards/card.html content=include.content.featured %}
 
     {% if include.content.side-cards.size > 2 %}
       <div class="write-a-story
@@ -42,23 +26,25 @@
       display-flex flex-column flex-space-between"
   >
     {% for card in include.content.side-cards %}
-      <div
-        class="usa-media-block__background-image-landscape 
+      {% include cards/card.html content=card utils="short-card" %}
+    
+      <!-- <div
+        class="usa-media-block__background-image-landscape card-container maxh-card
         {% unless forloop.last %}margin-bottom-1{% endunless %}"
         style="background-image: url({{ site.baseurl }}/assets/{{ card.img }});
               background-size: cover;" >
         <div class="content">
-          <h4>
+          <h3>
             <a
               href="{{ card.href }}"
             >
-              {{ card.text }}
+              {{ card.publication }}
             </a>
-          </h4>
-          <p class="margin-bottom-0">{{ card.publication }}</p>
-          <p class="font-mono-xs margin-top-0">{{ card.date }}</p>
+          </h3>
+          <p class="margin-bottom-0">{{ card.text }}</p>
+          <p class="font-mono-xs margin-top-0">{{ card.date | date: "%B %Y" }}</p>
         </div>
-      </div>
+      </div> -->
     {% endfor %}
   </div> <!-- end column -->
 </div>

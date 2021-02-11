@@ -718,7 +718,7 @@ two-col-markdown:
 <hr>
     <h4>news.html</h4>
       (Hard coded, content must be changed in the file)
-      {% include news.html %}
+      {% include news/news.html %}
 <hr>
     <h4>offset-footer.html</h4>
       {% include offset-footer.html %}

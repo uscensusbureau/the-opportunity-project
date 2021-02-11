@@ -196,5 +196,5 @@ news:
 {% include circuit-banner.html %}
 {% include get-involved.html %}
 <section class="bg-white padding-y-4">
-  {% include grid-section.html children="news.html" content=page.news %}
+  {% include grid-section.html children="news/news.html" content=page.news %}
 </section>

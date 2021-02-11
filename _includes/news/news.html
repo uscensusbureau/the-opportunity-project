@@ -19,31 +19,17 @@
         </button>
       </div>
     {% endif %}
-  </div> <!-- end column -->
+  </div>
 
   <div class="tablet:grid-col-6 display-flex flex-column flex-space-between">
     {% for card in include.content.side-cards %}
-      {% include cards/card.html content=card utils="short-card" %}
-    
-      <!-- <div
-        class="usa-media-block__background-image-landscape card-container maxh-card
-        {% unless forloop.last %}margin-bottom-1{% endunless %}"
-        style="background-image: url({{ site.baseurl }}/assets/{{ card.img }});
-              background-size: cover;" >
-        <div class="content">
-          <h3>
-            <a
-              href="{{ card.href }}"
-            >
-              {{ card.publication }}
-            </a>
-          </h3>
-          <p class="margin-bottom-0">{{ card.text }}</p>
-          <p class="font-mono-xs margin-top-0">{{ card.date | date: "%B %Y" }}</p>
-        </div>
-      </div> -->
+      {% assign card-utils = "short-card" %}
+      {% if include.content.small-headers %}
+        {% assign card-utils = "short-card small-header-card" %}
+      {% endif %}
+      {% include cards/card.html content=card utils=card-utils %}
     {% endfor %}
-  </div> <!-- end column -->
+  </div>
 </div>
 
 <div class="write-a-story

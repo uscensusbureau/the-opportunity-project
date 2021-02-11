@@ -154,32 +154,33 @@ get_involved:
 
 news:
   title: News
+  small-headers: true
   featured:
-    text: The Opportunity Project Marks 100 Product Milestone
+    title: The Opportunity Project Marks 100 Product Milestone
     date: March 4, 2020
     href: https://www.meritalk.com/articles/the-opportunity-project-marks-100-product-milestone/
     publication: MeriTalk
-    img: img/photos/home/news/news-main.png
+    img: photos/home/news/news-main.png
     alt: American flag against blue background
   side-cards:
-    - text: How Federal Agencies Can Use Agile Development to Apply Open Data
+    - title: How Federal Agencies Can Use Agile Development to Apply Open Data
       publication: Fedscoop
       date: June 19, 2019
       href: https://www.fedscoop.com/the-opportunity-project-report-center-for-open-data-enterprise/
-      img: img/photos/home/news/news-01.png
+      img: photos/home/news/news-01.png
       alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
-    - text: President Obama's new open data initiative could help cities help themselves
+    - title: President Obama's new open data initiative could help cities help themselves
       publication: TechRepublic
       date: March 8, 2016
       href: https://www.techrepublic.com/article/president-obamas-new-open-data-initiative-could-help-cities-help-themselves/
-      img: img/photos/home/news/news-02.png
+      img: photos/home/news/news-02.png
       alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
-    - text: Census Project Matches Your Agency's Data with Civic Innovators
-      publication: The New York Times
-      date: December 3, 2018
-      href: https://www.nextgov.com/analytics-data/2018/12/census-project-matches-your-agencys-data-civic-innovators/153183/
-      img: img/photos/home/news/news-03.png
-      alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
+    # - title: Census Project Matches Your Agency's Data with Civic Innovators
+    #   publication: The New York Times
+    #   date: December 3, 2018
+    #   href: https://www.nextgov.com/analytics-data/2018/12/census-project-matches-your-agencys-data-civic-innovators/153183/
+    #   img: photos/home/news/news-03.png
+    #   alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
 
 ---
 

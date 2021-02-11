@@ -4582,7 +4582,12 @@ body {
 
   .card-header{
     @include u-bg('transparent');
+    @include u-margin-bottom(0);
   }
+}
+
+.small-header-card .card-header h3 {
+  @include u-font('body', 'lg');
 }
 
 

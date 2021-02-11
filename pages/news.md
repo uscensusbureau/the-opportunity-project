@@ -37,12 +37,12 @@ featured-images:
       publication: Forbes
       img: img/photos/home/news/news-02.png
       alt: A man drawing on a white board with a marker while a woman looks on
-    - text: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
-      href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
-      date: March 12, 2019
-      publication: Forbes
-      img: img/photos/home/news/news-03.png
-      alt: The New York City skyline
+    # - text: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
+    #   href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
+    #   date: March 12, 2019
+    #   publication: Forbes
+    #   img: img/photos/home/news/news-03.png
+    #   alt: The New York City skyline
 
 
 blurbs:
@@ -109,9 +109,10 @@ blurbs:
 
 legislation:
   title: Bi-Partisan Authorizing Legislation
-  left-col-width: '4'
+  left-col-width: '3'
   left-col-offset: 1
   right-col-width: 6
+  right-col-offset: 1
   skip-top-border: true
   skip-bottom-border: true
   left-col: news/bill-image.md

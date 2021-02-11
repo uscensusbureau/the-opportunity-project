@@ -2411,7 +2411,7 @@ code {
     width: 100%;
     top: 0;
     color: color("white");
-    padding: units(1) units(5);
+    padding: units(1) units(5) units(1) units(3);
     margin-right: units(2);
 
     a {
@@ -2420,7 +2420,7 @@ code {
       padding-bottom: units(4);
       color: color("white");
       &:visited {
-        color: color("base-light");
+        color: color("white");
       }
       &:hover {
         color: color("base-light");
@@ -2487,7 +2487,7 @@ code {
     color: color("white");
     line-height: 1.3;
     margin-right: units(4);
-    padding-left: units(1);
+    padding-left: units(3);
     padding-right: units(3);
     margin-bottom: units(3);
     padding-top: units(3);
@@ -2498,9 +2498,7 @@ code {
     padding-top: units(4);
     padding-bottom: units(4);
     color: color("white");
-    &:visited {
-      color: color("base-light");
-    }
+    
     &:hover {
       color: color("base-light");
       text-decoration: underline;

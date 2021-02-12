@@ -35,7 +35,7 @@
                 <a href="{{ card.href }}">{{ card.publication }}</a>
               </h3>
               <span class="usa-collection__meta-item order-first">
-                {{ card.date }}
+                {{ card.date | date: "%B %Y" }}
               </span>
               <p class="usa-collection__description">{{ card.text }}</p>
             </div>
@@ -53,7 +53,7 @@
               <a href="{{ card.href }}">{{ card.publication }}</a>
             </h3>
             <span class="usa-collection__meta-item order-first">
-              {{ card.date }}
+              {{ card.date | date: "%B %Y" }}
             </span>
             <p class="usa-collection__description">{{ card.text }}</p>
           </div>

@@ -1,24 +1,64 @@
 <div class="grid-row grid-gap display-flex flex-wrap usa-collection">
-  {% for card in include.content %}
-    {% if card.img %}
-      <div class="grid-col-12 tablet:grid-col-6">
-        <img src="{{site.baseurl}}/assets/img/{{ card.img }}"/>
-      </div>
+  {% assign max = include.content.size | minus: 1 %}
+  {% for i in (0..max) %}
+    
+    {% assign remainder = i | modulo: 3 %}
+    {% assign beginRow = false %}
+    {% if remainder == 0 %}
+      {% assign beginRow = true %}
     {% endif %}
-    <div class="grid-col-12 tablet:grid-col-6
-      padding-top-2 usa-collection__item">
-      <div class="usa-collection__body news-card">
-        <span class="usa-collection__meta-item">
-          {{ card.date }}
-        </span>
-        <h3 class="usa-collection__heading">
-          <a href="{{ card.href }}">{{ card.publication }}</a>
-        </h3>
-        <p class="usa-collection__description">{{ card.text }}</p>
-        {% if card.details %}
-          <p class="usa-collection__description details">{{ card.details }}</p>
-        {% endif %}
-      </div>
-    </div>
+    {% assign endRow = false %}
+    {% if remainder == 2 or i == max %}
+      {% assign endRow = true %}
+    {% endif %}
+
+    {% assign beginCol = false %}
+    {% assign endCol = false %}
+    {% if i == 3 %}
+      {% assign beginCol = true %}
+    {% endif %}
+    {% if i == 4 %}
+    {% assign endCol = true %}
+    {% endif %}
+
+    {% assign card=include.content[i] %}
+  
+    {% if beginRow %}
+      <!-- <div class="grid-row grid-gap"> -->
+    {% endif %}
+        
+      {% if card.details %}
+        <div class="tablet-lg:grid-col-8 padding-top-2 usa-collection__item">        
+          <div class="usa-collection__body news-blurb large-blurb grid-row">
+            <div class="tablet:grid-col-6">
+              <span class="usa-collection__meta-item">
+                {{ i }} {{ card.date }}
+              </span>
+              <h3 class="usa-collection__heading">
+                <a href="{{ card.href }}">{{ card.publication }}</a>
+              </h3>
+              <p class="usa-collection__description">{{ card.text }}</p>
+            </div>
+            <div class="tablet:grid-col-6">
+              <p class="usa-collection__description details">{{ card.details }}</p>
+            </div>
+          </div>
+        </div>
+            <!-- <img src="{{site.baseurl}}/assets/img/{{ card.img }}"/> -->
+      {% else %}
+
+        <div class="tablet-lg:grid-col-4 tablet:grid-col-6 padding-top-2 usa-collection__item">        
+          <div class="usa-collection__body news-blurb">
+            <span class="usa-collection__meta-item">
+              {{ i }} {{ card.date }}
+            </span>
+            <h3 class="usa-collection__heading">
+              <a href="{{ card.href }}">{{ card.publication }}</a>
+            </h3>
+            <p class="usa-collection__description">{{ card.text }}</p>
+          </div>
+        </div>
+      {% endif %}            
+
   {% endfor %}
 </div>

@@ -49,35 +49,37 @@ featured-images:
 
 
 blurbs:
-  - title: President Obama’s New Open Data Initiative Could Help Cities Help Themselves
+  - text: President Obama’s New Open Data Initiative Could Help Cities Help Themselves
     href: https://www.techrepublic.com/article/president-obamas-new-open-data-initiative-could-help-cities-help-themselves/
     date: March 8, 2016
     publication: TechRepublic
-  - title: Census toolkit gives agencies what they need to launch data sprints with industry
+  - text: Census toolkit gives agencies what they need to launch data sprints with industry
     href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
-    meta:
-      date: December 9th, 2020
+    date: December 9th, 2020
     publication: Federal News Network
-  - title: Winners of HHS Design-a-thon to Develop Innovative Digital Health Tools for COVID-19 At-Anywhere Diagnostic Tests Announced
+  - text: Winners of HHS Design-a-thon to Develop Innovative Digital Health Tools for COVID-19
     date: December 17th, 2020
     publication: HHS News
     href: https://www.hhs.gov/about/news/2020/12/16/winners-of-hhs-design-a-thon-to-develop-innovative-digital-health-tools-for-covid-19.html
-  - title: Building with our friends at The Opportunity Project
-    href: https://www.mapbox.com/blog/building-with-our-friends-at-the-opportunity-project
-    date: December 8th, 2020
-    publication: Mapbox Blog
-  - title: U.S. Census Bureau Rolls Out Innovation Tools for 2020 Count
+  
+  - text: U.S. Census Bureau Rolls Out Innovation Tools for 2020 Count
     date: December 11, 2019
     publication: GovTech
     href: https://www.govtech.com/civic/US-Census-Bureau-Rolls-Out-Innovation-Tools-for-2020-Count.html
-    details: Stakeholders both inside and outside of the federal agency attended a recent demo day at the bureau's headquarters, discussing the roll that data maps, human-centric design and more will play in next year’s count.
+    # details: Stakeholders both inside and outside of the federal agency attended a recent demo day at the bureau's headquarters, discussing the roll that data maps, human-centric design and more will play in next year’s count.
+  
+  - text: Building with our friends at The Opportunity Project
+    href: https://www.mapbox.com/blog/building-with-our-friends-at-the-opportunity-project
+    date: December 8th, 2020
+    publication: Mapbox Blog
     img: photos/news/cleveland-map.png
     alt: A map of Cleveland, Ohio's neighborhoods and districts
-  - title: Census Bureau Showcases Data Projects to Optimize 2020 Population Count
+    details: “The Opportunity Project is one of my favorite enduring innovation efforts in the US federal government. 2020 is our third time joining TOP sprints, after working on housing subsidies in 2016 and environmental stewardship in 2018. This time we were joined by several friends of Mapbox as well, making up a proud cohort of excellent map makers.”
+  - text: Census Bureau Showcases Data Projects to Optimize 2020 Population Count
     date: December 16, 2019
     publication: Federal News Network
     href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
-  - title: SAP Showcases Circular Economy Solution for Cities at The Opportunity Project
+  - text: SAP Showcases Circular Economy Solution for Cities at The Opportunity Project
     date: December 7th, 2020
     publication: SAP News
     href: https://news.sap.com/2020/12/opportunity-project-circular-economy-chicago/

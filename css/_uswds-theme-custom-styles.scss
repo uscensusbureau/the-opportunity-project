@@ -4518,7 +4518,7 @@ body {
   justify-content: space-between;
 }
 
-.news-card, .card-header, 
+.news-blurb, .card-header, 
 .usa-media-block__background-image-landscape {
   h3 a::after {
     content: " →"
@@ -4530,7 +4530,7 @@ body {
   @include u-padding-top(3);
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   flex-grow: 1;
 }
 
@@ -4546,7 +4546,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 
   h3 {
     font-size: 2em;
@@ -4602,4 +4602,16 @@ h2.section-header {
   @include u-line-height('sans', 3);
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
+}
+
+.news-blurb {
+  @include u-outline('1px');
+  @include u-outline-color('base-lighter');
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.news-blurb.large-blurb {
+  flex-direction: row;
 }

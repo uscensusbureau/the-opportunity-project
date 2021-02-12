@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign data=site.data.Sprints_new | where: 'short-tag', page.short-name %}
+{% assign data=site.data.sprints | where: 'short-tag', page.short-name %}
 {% assign sprint = data[ 0 ] %}
 {% assign problems = site.data.Problem_Statements_new | where: 'Sprints', sprint.airtable_id %}
 

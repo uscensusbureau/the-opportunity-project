@@ -1,0 +1,244 @@
+---
+Earth:
+  Year: 2020
+  Products: ''
+  Theme: ''
+  Problem Statements: ''
+  Tech Team Companies: ''
+2020 Census:
+  Year: 2019
+  Products:
+    - 'Census Intelligence Center'
+    - '#WhyWeCount'
+    - 'Voatz Predicts: 2020 Census'
+    - Community Counts
+    - California Latino Power Map
+  Theme: 'Innovating the 2020 Census: Leveraging Technology to Get Out the Count'
+  Problem Statements:
+    - statement: 'Bridging the Digital Divide'
+      agency: 'U.S. Census Bureau'
+    - statement: 'Increasing Digital Literacy'
+      agency: 'U.S. Census Bureau'
+    - statement: 'Promoting 2020 Census Jobs'
+      agency: 'U.S. Census Bureau'
+    - statement: 'Reaching Hard-to-Count Communities'
+      agency: 'U.S. Census Bureau'
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+  Tech Team Companies: Civis Analytics, NextDayBetter, Voatz, Community Connect Labs, Motivf, Measure of America, Civic Software Foundation, Amava, Excella, Quake Techs, Columbia
+  Agency Sponsors:
+    - 'U.S. Census Bureau'
+Workforce:
+  Year: 2019
+  Products:
+    - 'Inclusive Growth Score'
+    - 'City Builder'
+    - 'Solve'
+    - 'Kanarys'
+    - 'Talent Finder Tool'
+    - 'Inclusive Development Dashboards'
+    - 'Practical Business Skills'
+    - 'Rural Startup Scout'
+    - 'Job Opportunity Tool'
+    - 'Community Led Opportunity Zones'
+  Theme: Developing the Future Workforce
+  Problem Statements:
+    - statement: 'Entrepreneurship'
+      agency:
+    - statement: 'Multiple Pathways'
+      agency:
+    - statement: 'Opportunity Zones'
+      agency:
+    - statement: 'Talent Discovery'
+      agency:
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+  Tech Team Companies:
+    - 'Kanarys'
+    - 'Emsi'
+    - 'Burning Glass'
+    - 'Allogy'
+    - 'Visa'
+    - 'Mastercard'
+    - 'Center on Rural Innovation'
+    - 'Amazon/Cal Poly'
+    - 'Redfin'
+    - 'Public Democracy'
+    - 'Citi Ventures'
+    - 'Solve.is'
+  Agency Sponsors:
+Geocohort:
+  Year: 2018
+  Products:
+    - 'iCASA - Civic Address and Governance Platform for Puerto Rico'
+    - 'Sille '
+    - 'Insight for ArcGIS'
+    - 'Puerto Rico Land Grid'
+    - 'The TomTom Centaur Data Logging App'
+    - 'STEWMAP Explorer'
+    - 'Bloomberg DEVOP: Demographic Environmental Volunteer Opportunity Plotter'
+    - 'Fulcrum Community for Addressing and Disaster Preparedness'
+    - 'Disaster Awareness Games'
+  Problem Statements:
+    - statement: Using Geospatial Data to Help People Prepare for Disasters
+      agency:
+    - statement: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
+      agency:
+    - statement: Identifying and Strengthening Civic Environmental Stewardship
+      agency:
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+  Tech Team Companies:
+    - iCASA PR
+    - Ovela
+2018 Sprint 1:
+  Year: 2018
+  Products:
+    - Career Nav
+    - Watson Employment Manager
+    - Grants Impact and Story Tool
+    - Grants Intelligence
+    - Socrata Citizen Education Data Cloud
+    - Veteran Apprenticeship Matcher
+    - Nepris Industry Connections
+  Problem Statements:
+    - statement: Promoting Access to and Interest in STEM Fields
+      agency:
+    - statement: Helping States Develop Education Report Cards
+      agency:
+    - statement: Using AI to Connect Veterans with Registered Apprenticeships
+      agency:
+    - statement: Increasing Government Accountability by Connecting Federal Spending and Performance Data
+      agency:
+    - statement: Improving Access to and Management of Federal Grants
+      agency:
+    - statement: Helping Tribal, State, and Local Governments with Local Address Data Collection
+      agency:
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+  Tech Team Companies:
+    - Center for Open Data Enterprise
+2017 Sprint 2:
+  Year: 2017
+  Products:
+    - My City Data Learning Tool
+    - Bayes BD
+    - Grants Intelligence
+    - Social Impact Reporting Platform
+    - PopCount
+    - Data2Go for Census Outreach
+  Problem Statements:
+    - statement: Making federal grants data user-friendly for local leaders
+      agency:
+    - statement: Engaging communities in the Census
+      agency:
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+2017 Sprint 1:
+  Year: 2017
+  Products:
+    - Get Vets Help
+    - MySpot
+    - PAIRIN Pathways
+  Problem Statements:
+    - statement: Youth Homelessness
+      agency:
+    - statement: Veterans Homelessness and Employment
+      agency:
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+2016 Sprint 2 & 3:
+  Year: 2016
+  Products:
+    - Data.World Workspace
+    - Visualizing Youth Disconnection
+    - Job Crowdsourcing Tool
+    - FindHome
+    - Housing Calculator
+    - Neighborhood Opportunity
+    - Opportunity Dashboard
+    - Training Finder
+    - School ResourceMapper
+    - LiveStories
+    - mySidewalk
+    - Create
+    - Commuter Map
+    - Findyour.town
+    - Fitbit
+    - EARS
+    - TextHelp
+    - Opportunity.hackernest.com
+    - Opportunity Enabler
+    - Wolfram Data Repository
+    - CareerSpark
+  Problem Statements:
+    - statement: Increasing safety and mobility across the nation
+    - statement: Supporting Decision-Making for Student Sub-populations and their Families
+    - statement: Identifying Equity Scores and Gaps
+    - statement: Ending Homelessness
+    - statement: Promoting Health and Wellbeing Nationwide
+    - statement: Accessing Apprenticeships
+    - statement: Connecting Americans to skills and jobs
+    - statement: Small Town Resource Guide
+    - statement: Summer Food Programs
+    - statement: Veterans Suicide Prevention
+    - statement: Data Discovery
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process
+2016 Sprint 1:
+  Year: 2016
+  Products:
+    - Data2GO.NYC
+    - Opportunity Score
+    - GreatSchools
+    - PolicyMap Tool
+    - Transit Analyst
+    - diversitydatakids.org
+    - Baltimore Explorer
+    - Community Commons
+    - Streetwyze
+    - National Equity Atlas
+    - OpenData Network
+    - Affordable Housing Finder
+  Outcomes:
+    - stat: 100
+      details: Consumer-facing digital tools built by our community since 2016
+    - stat: [X]
+      details: Problem statements our community has addressed, including the opioid crisis, disaster preparedness, and more
+    - stat: [X]
+      details: The number of designers & developers, federal data stewards, product advisors, and community advocates that have participated in the TOP process

@@ -349,8 +349,20 @@ h1, h2, h3 {
 
     &.sprint-nav {
       @include u-position('sticky');
-      @include u-padding-left(15);
-      top: 5em;
+      top: 3.2em;
+      text-align: center;
+      background-color: color("white");
+      border-bottom: units($site-border-width) solid
+        color($site-base-transparent-light);
+      clear: both;
+      display: block;
+      height: units($height-nav-secondary);
+      // padding-left: units(2);
+      z-index: z-index($z-nav-secondary);
+
+      @include at-media('desktop'){
+        top: 5em;
+      }
     }
 
     @include at-media("desktop") {

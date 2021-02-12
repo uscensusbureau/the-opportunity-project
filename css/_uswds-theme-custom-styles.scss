@@ -4610,7 +4610,8 @@ h2.section-header {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  @include u-padding-y(2);
 }
 .news-blurb.large-blurb {
   flex-direction: row;

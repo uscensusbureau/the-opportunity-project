@@ -1,31 +1,9 @@
-<div class="grid-row grid-gap display-flex flex-wrap usa-collection">
+<div class="news-blurb-container grid-row grid-gap display-flex flex-wrap usa-collection">
   {% assign max = include.content.size | minus: 1 %}
   {% for i in (0..max) %}
     
-    {% assign remainder = i | modulo: 3 %}
-    {% assign beginRow = false %}
-    {% if remainder == 0 %}
-      {% assign beginRow = true %}
-    {% endif %}
-    {% assign endRow = false %}
-    {% if remainder == 2 or i == max %}
-      {% assign endRow = true %}
-    {% endif %}
-
-    {% assign beginCol = false %}
-    {% assign endCol = false %}
-    {% if i == 3 %}
-      {% assign beginCol = true %}
-    {% endif %}
-    {% if i == 4 %}
-    {% assign endCol = true %}
-    {% endif %}
-
     {% assign card=include.content[i] %}
-  
-    {% if beginRow %}
-      <!-- <div class="grid-row grid-gap"> -->
-    {% endif %}
+    {% unless card.isOld %}
         
       {% if card.details %}
         <div class="tablet-lg:grid-col-8 padding-top-2 usa-collection__item">        
@@ -59,6 +37,6 @@
           </div>
         </div>
       {% endif %}            
-
+    {% endunless %}
   {% endfor %}
 </div>

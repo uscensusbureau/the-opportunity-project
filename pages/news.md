@@ -47,82 +47,6 @@ featured-images:
     #   img: img/photos/home/news/news-03.png
     #   alt: The New York City skyline
 
-
-blurbs:
-  - text: President Obama’s New Open Data Initiative Could Help Cities Help Themselves
-    href: https://www.techrepublic.com/article/president-obamas-new-open-data-initiative-could-help-cities-help-themselves/
-    date: March 8, 2016
-    publication: TechRepublic
-  - text: The Opportunity Project Marks 100 Product Milestone
-    href: https://www.meritalk.com/articles/the-opportunity-project-marks-100-product-milestone/
-    date: March 4, 2020
-    publication: MeriTalk
-  - text: Winners of HHS Design-a-thon to Develop Innovative Digital Health Tools for COVID-19
-    date: December 17th, 2020
-    publication: HHS News
-    href: https://www.hhs.gov/about/news/2020/12/16/winners-of-hhs-design-a-thon-to-develop-innovative-digital-health-tools-for-covid-19.html
-  - text: Census toolkit gives agencies what they need to launch data sprints with industry
-    href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
-    date: December 9th, 2020
-    publication: Federal News Network
-  - text: Building with our friends at The Opportunity Project
-    href: https://www.mapbox.com/blog/building-with-our-friends-at-the-opportunity-project
-    date: December 8th, 2020
-    publication: Mapbox Blog
-    img: photos/news/cleveland-map.png
-    alt: A map of Cleveland, Ohio's neighborhoods and districts
-    details: “The Opportunity Project is one of my favorite enduring innovation efforts in the US federal government. 2020 is our third time joining TOP sprints, after working on housing subsidies in 2016 and environmental stewardship in 2018. This time we were joined by several friends of Mapbox as well, making up a proud cohort of excellent map makers.”
-  - text: SAP Showcases Circular Economy Solution for Cities at The Opportunity Project
-    date: December 7th, 2020
-    publication: SAP News
-    href: https://news.sap.com/2020/12/opportunity-project-circular-economy-chicago/
-  - text: Public Health + Open Source Data Recap
-    date: November 11th 2020
-    publication: Orange Sparkle Ball Blog
-    href: https://www.orangesparkleball.com/0_blog/2020/11/20/public-health-open-source-data-recap
-  - publication: Fedscoop
-    date: October 5th, 2020
-    text: What exactly, is a US CTO?
-    href: https://www.fedscoop.com/what-is-the-us-cto/
-  - publication: Governing
-    date: January 6, 2020
-    text: How Communities Can Benefit from Amazon’s Great Data Caper
-    href: https://www.governing.com/finance/How-Communities-Can-Benefit-from-Amazons-Great-Data-Caper-opinion.html
-  - text: Census Bureau Showcases Data Projects to Optimize 2020 Population Count
-    date: December 16, 2019
-    publication: Federal News Network
-    href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
-  - text: U.S. Census Bureau Rolls Out Innovation Tools for 2020 Count
-    date: December 11, 2019
-    publication: GovTech
-    href: https://www.govtech.com/civic/US-Census-Bureau-Rolls-Out-Innovation-Tools-for-2020-Count.html
-    # details: Stakeholders both inside and outside of the federal agency attended a recent demo day at the bureau's headquarters, discussing the roll that data maps, human-centric design and more will play in next year’s count.
-# - text: Census’ DEMO WEEK to highlight environmental tech
-#   date: December 1st, 2020
-#   publication: Cache Valley Daily
-#   href: https://www.cachevalleydaily.com/news/archive/2020/12/01/census-demo-week-to-highlight-environmental-tech/#.YBgVhndKhTZ
-#   - title: The Opportunity Project helps create tools and solutions to environmental challenges
-#     date: December 1st, 2020
-#     publication: Lake County News
-#     href: https://www.lakeconews.com/news/67446-the-opportunity-project-helps-create-tools-and-solutions-to-environmental-challenges
-
-# The Opportunity Project Marks 100 Product Milestone
-# March 4, 2020
-# MeriTalk
-
-# U.S. Census Bureau’s Technology Demo Day Unveils Innovation Data Tools
-# January 29, 2020
-# Census.gov
-
-# How Communities Can Benefit from Amazon’s Great Data Caper
-# January 6, 2020
-# Governing
-
-# Census Bureau Showcases Data Projects to Optimize 2020 Population Count
-# December 16, 2019
-# Federal News Network
-# href: https://federalnewsnetwork.com/big-data/2020/12/census-toolkit-gives-agencies-what-they-need-to-launch-data-sprints-with-industry/
-
 legislation:
   title: Bi-Partisan Authorizing Legislation
   left-col-width: '3'
@@ -160,7 +84,9 @@ publications:
 {% include hero.html %}
 {% include connecting-banner-with-subheader-inverse.html %}
 {% include grid-section.html content=page.featured-images children="news/news.html" %}
-{% include grid-section.html content=page.blurbs children="news/news-blurbs.html" %}
+
+{% assign sortedNews = site.data.news | sort:"rowNumber" %}
+{% include grid-section.html content=sortedNews children="news/news-blurbs.html" %}
 
 {% capture leg-left %}
   {% include_relative {{ page.legislation.left-col }} %}
@@ -168,3 +94,6 @@ publications:
 {% include two-column-markdown.html content=page.legislation left-col=leg-left %}
 
 {% include grid-section.html content=page.publications children="cards/card-list.html" %}
+
+<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="true"></script>
+<script src="{{ site.baseurl }}/assets/js/news-slick.js" type="text/javascript" defer></script> -->

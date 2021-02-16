@@ -1,0 +1,19 @@
+.problem-statement {
+  @include grid-container;
+  @include u-margin-y(3);
+}
+
+.ps-right-col-section {
+  @include u-padding(3);
+  flex-grow: 1;
+  border: 1px solid color($theme-color-base-lighter);
+  + .ps-right-col-section {
+    border-top: none;
+  }
+}
+
+.ps-left-col {
+  @include u-padding(3);
+  border: 1px solid color($theme-color-base-lighter);
+  border-right: none;
+}

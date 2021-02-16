@@ -308,7 +308,7 @@ sprint-cards:
 ---
 {% include hero.html %}
 {% include connecting-banner-with-subheader.html %}
-{% include card-list.html cards=page.sprint-cards %}
+{% include cards/card-list.html cards=page.sprint-cards %}
 {% for sprint in site.sprints %}
   <li>
     <h2><a href="{{ sprint.url }}">{{ sprint.name }}</a></h2>

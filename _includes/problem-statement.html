@@ -1,3 +1,8 @@
+{% assign expandedClass="ps-collapsed" %}
+{% if include.isExpanded == true %}
+  {% assign expandedClass = "ps-expanded" %}
+{% endif %}
+
 <div class="problem-statement">
   <div class="grid-row">
 
@@ -6,28 +11,42 @@
       <h3 class="text-light font-sans-xl line-height-sans-2 margin-y-1">
         {{ include.content.Name }}
       </h3>
-      <h4 class="problem-statement-subheader">Challenge:</h4>
-      <p>{{ include.content.Challenge | markdownify }}</p>
-      <h4 class="problem-statement-subheader">Why This Problem is Important:</h4>
-      <p>{{ include.content["Why this problem matters"] }}</p>
+      <div class="lhs-content {{ expandedClass }}">
+        <h4 class="problem-statement-subheader">Challenge:</h4>
+        <p>{{ include.content.Challenge | markdownify }}</p>
+        <h4 class="problem-statement-subheader">Why This Problem is Important:</h4>
+        <p>{{ include.content["Why this problem matters"] }}</p>
+      </div>
     </div>
 
-    <div class="grid-col-5 display-flex flex-column">
-      <div class="ps-right-col-section">
-        <h4 class="secondary-header">Product Outcome</h4>
+    <div class="ps-right-col {{expandedClass}}">
+      <div class="ps-right-col-section ps-products {{expandedClass}}">
+        <h4 class="secondary-header products-header {{expandedClass}}">Product Outcome</h4>
         {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
-        <a href="{{site.baseurl}}/showcase?search={{ include.content.Name | slugify }}">
+        <a class="explore-products {{expandedClass}}" 
+          href="{{site.baseurl}}/showcase?search={{ include.content.Name | slugify }}">
           Explore all products →
         </a>
       </div>
-      <div class="ps-right-col-section">
+      <div class="ps-right-col-section ps-agency {{ expandedClass }}">
         <h4 class="secondary-header">Agency</h4>
         <p>{{ include.content.agency_text }}</p>
       </div>
-      <div class="ps-right-col-section">
+      <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
         <h4 class="secondary-header">Target Audience</h4>
         <p>{{ include.content["Target audience / End user"] }}</p>
       </div>
     </div>
   </div>
+
+  {% if include.showMore == true %}
+  <div class="grid-row">
+    <div class="ps-see-more">
+      <button class="callout-button">
+        <span>See More</span>
+      </button>
+    </div>
+  </div>
+  {% endif %}
+
 </div>

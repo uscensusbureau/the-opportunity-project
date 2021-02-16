@@ -1,19 +1,102 @@
+$light-border: 1px solid color($theme-color-base-lighter);
+
 .problem-statement {
   @include grid-container;
   @include u-margin-y(3);
-}
 
-.ps-right-col-section {
-  @include u-padding(3);
-  flex-grow: 1;
-  border: 1px solid color($theme-color-base-lighter);
-  + .ps-right-col-section {
-    border-top: none;
+  .ps-collapsed {
+    display: none;
+  }
+  .ps-expanded {
+    display: block;
   }
 }
 
 .ps-left-col {
   @include u-padding(3);
-  border: 1px solid color($theme-color-base-lighter);
-  border-right: none;
+  border: $light-border;
+  border-right: none;  
+}
+
+.ps-right-col {
+  @include grid-col(5);
+  display: flex;
+  flex-direction: column;
+
+  &.ps-collapsed {
+    display: flex;
+    flex-direction: row;
+  }
+  &.ps-expanded {
+    display: flex;
+  }
+}
+
+.ps-right-col-section {
+  @include u-padding(3);
+  flex-grow: 1;
+  border: $light-border;
+  + .ps-right-col-section {
+    border-top: none;
+  }
+}
+
+.ps-products {
+  &.ps-collapsed {
+    display: block;
+    border-left: none;
+
+    .ps-card {
+      margin-top: 0 !important;
+    }
+  }
+}
+
+.ps-agency {
+  display: block;
+  &.ps-collapsed {
+    display: block;
+    order: -1;
+    border-top: $light-border;
+    border-right: none;
+    @include grid-col(6);
+  }
+}
+
+.ps-card {
+  @include u-height('auto');
+  @include u-maxw('card-lg');
+  justify-content: flex-start;
+  padding-top: 0;
+  @include u-margin-bottom(2);
+
+  .card-header {
+    margin-top: 0;
+    @include u-margin-x(0);
+
+    h3 {
+      @include u-font('sans', 3);
+      text-decoration: underline;
+    }
+    p {
+      @include u-font('body', '3xs');
+      text-transform: uppercase;
+    }
+  }
+}
+
+.ps-see-more {
+  @include grid-col(12);
+  @include u-text('center');
+  border: $light-border;
+  border-top: none;
+
+  button {
+    @include add-background-svg("angle-arrow-down");
+  }
+}
+
+.explore-products{
+  @include dark-link;
+  text-decoration: underline;
 }

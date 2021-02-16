@@ -11,5 +11,7 @@ layout: default
 {% include sprint-hero.html content=sprint %}
 
 {% for statement in problems %}
-  {% include problem-statement.html content = statement %}
+  {% assign products = site.data.products_airtable | where: 'airtable_id', statement.Products[0] %}
+  {% assign product = products[0] %}
+  {% include problem-statement.html content=statement product=product %}
 {% endfor %}

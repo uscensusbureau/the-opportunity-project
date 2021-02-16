@@ -75,7 +75,7 @@ Then, in the main section of the file, reference the components you want to incl
 {% include three-column-narrow-text.html %}
 {% include featured_items.html %}
 {% include get-involved.html %}
-{% include news.html %}"
+{% include news/news.html %}"
 
 Finally, it's time to add content to each of the components. You can use the front matter example for each page file in the components page as a template for the key-value pairs that need to be included for the component to build properly. You can also go directly to the html file to see what keys are referenced (as there may be more keys than are listed just in this example.)
 

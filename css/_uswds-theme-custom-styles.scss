@@ -4616,6 +4616,28 @@ body {
   @include u-font('body', 'lg');
 }
 
+.ps-card {
+  // @include u-maxw('card');
+  max-width: 50%;
+  justify-content: flex-start;
+  padding-top: 0;
+  @include u-margin-bottom(2);
+
+  .card-header {
+    margin-top: 0;
+    @include u-margin-x(0);
+
+    h3 {
+      @include u-font('sans', 3);
+      text-decoration: underline;
+    }
+    p {
+      @include u-font('body', '3xs');
+      text-transform: uppercase;
+    }
+  }
+}
+
 
 h2.section-header {
   @include u-color('base-darkest');

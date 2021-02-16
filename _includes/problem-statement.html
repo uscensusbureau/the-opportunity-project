@@ -16,7 +16,9 @@
       <div class="ps-right-col-section">
         <h4 class="secondary-header">Product Outcome</h4>
         {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
-        <a>Explore all products →</a>
+        <a href="{{site.baseurl}}/showcase?search={{ include.content.Name | slugify }}">
+          Explore all products →
+        </a>
       </div>
       <div class="ps-right-col-section">
         <h4 class="secondary-header">Agency</h4>

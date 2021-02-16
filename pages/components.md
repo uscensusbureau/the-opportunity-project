@@ -30,6 +30,57 @@ connecting-banner:
   image: case-studies/prados-01.png
   alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
 
+card-list:
+  cards:
+    - title: Default Card
+      href: /
+      date: January 1, 2018
+      details: Card Details. This can be somewhat long. This is a default card.
+      img: photos/home/news/news-01.png
+      alt: People seated at tables taking notes during a TOP presentation
+    - title: Default Card
+      href: /
+      date: January 1, 2018
+      details: Card Details. This can be somewhat long. This is a default card.
+      img: photos/home/news/news-01.png
+      alt: People seated at tables taking notes during a TOP presentation
+    - title: Default Card
+      href: /
+      date: January 1, 2018
+      details: Card Details. This can be somewhat long. This is a default card.
+      img: photos/home/news/news-01.png
+      alt: People seated at tables taking notes during a TOP presentation
+    - title: Default Card
+      href: /
+      date: January 1, 2018
+      details: Card Details. This can be somewhat long. This is a default card.
+      img: photos/home/news/news-01.png
+      alt: People seated at tables taking notes during a TOP presentation
+    - title: Default Card
+      href: /
+      date: January 1, 2018
+      details: Card Details. This can be somewhat long. This is a default card.
+      img: photos/home/news/news-01.png
+      alt: People seated at tables taking notes during a TOP presentation
+
+demo-cards:
+  - title: Default Card
+    href: /
+    date: January 1, 2018
+    details: Card Details. This can be somewhat long. This is a default card.
+    img: photos/home/news/news-01.png
+    alt: People seated at tables taking notes during a TOP presentation
+  - title: Short Card
+    details: No blue section behind content.
+    img: photos/home/news/news-01.png
+    alt: People seated at tables taking notes during a TOP presentation
+  - title: Small Header
+    date: February 7, 2019
+    details: This is normal card with a small header. Pass in 'small-header-card' to the utils to create this card.
+    img: photos/home/news/news-01.png
+    alt: People seated at tables taking notes during a TOP presentation
+
+
 # connecting-banner-with-subheader.html
 
 banner-subheader:
@@ -627,6 +678,51 @@ two-col-markdown:
 
     <hr>
 
+    <h2>Card components!</h2>
+    
+<p>Cards are flexible ways for displaying links and collections of information. They are contained `cards/card.html` and `cards/card-list.html`</p>
+<p>The card component is not contained in any grid element and thus not constrained in width. For maximum flexibility, do so outside of the include itself or use the card-list component.</p>
+
+    <h4>cards/card-list.html</h4>
+    <p>The card list is a simple flex box which can display as many cards as you need. Supply the include with an object that contains a member named 'cards'.</p>
+    {% include cards/card-list.html content=page.card-list %}
+
+<h4>cards/card.html</h4>
+
+    <p>A single card include displays the following information:</p>
+    <ul>
+      <li>title: the main text of the link on the card</li>
+      <li>href: the url the card directs to</li>
+      <li>isExternal: include this param if the href is to an external site. DO NOT include it if linking to another page within the TOP site.</li>
+      <li>date: can be a string or UTF format. Is formatted in the card html/liquid. Is displayed above the h3 link via css order property for accessibility</li>
+      <li>details: text below the link</li>
+    </ul>
+    <p>The above params get sent in the CONTENT to the include. In addition, you can send the "utils" parameter to the include which is a string you can use to add classes to the card. Use this to add additional styling. Pre-made classes include:</p>
+    <ul>
+      <li>short-card: displays a card with no dark-blue inner section and a maximum height of "card-lg"</li>
+      <li>small-header-card: displays a card with a smaller header than normal. Useful for when your headers are long and won't fit normally.</li>
+    </ul>
+
+
+<div class="grid-container">
+  <div class="grid-row grid-gap-lg">
+    <div class="grid-col-4">
+      {% assign card = page.demo-cards[ 0 ] %}
+      {% include cards/card.html content=card %}
+    </div>
+    <div class="grid-col-4">
+      {% assign card=page.demo-cards[1] %}
+      {% include cards/card.html content=card utils="short-card"%}
+    </div>
+    <div class="grid-col-4">
+      {% assign card=page.demo-cards[2] %}
+      {% include cards/card.html content=card utils="small-header-card" %}
+    </div>
+  </div>
+</div>
+
+    <hr>
+
     <h4>circuit-banner.html</h4>
       {% include circuit-banner.html %}
 
@@ -718,7 +814,7 @@ two-col-markdown:
 <hr>
     <h4>news.html</h4>
       (Hard coded, content must be changed in the file)
-      {% include news.html %}
+      {% include news/news.html %}
 <hr>
     <h4>offset-footer.html</h4>
       {% include offset-footer.html %}

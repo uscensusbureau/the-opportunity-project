@@ -18,7 +18,7 @@
     {% unless include.content.skip-bottom-border %}border-bottom{% endunless %}
     border-base-light">
     
-    <div class="desktop:grid-col-{{ left-col-width }} tablet:grid-col-{{ left-col-width }}
+    <div class="tablet:grid-col-{{ left-col-width }}
       {% if include.content.left-col-offset %}grid-offset-{{ include.content.left-col-offset }}{% endif %}">
       {% if include.content.left %}
         {% for section in include.content.left %}
@@ -30,7 +30,8 @@
       {% endif %}
     </div>
 
-    <div class="desktop:grid-col-{{ right-col-width }} tablet:grid-col-{{ right-col-width }}">
+    <div class="tablet:grid-col-{{ right-col-width }}
+    {% if include.content.right-col-offset %}grid-offset-{{ include.content.right-col-offset }}{% endif %}">
       {% if include.content.right %}
         {% for section in include.content.right %}
           <h3>{{ section.title | markdownify }}</h3>

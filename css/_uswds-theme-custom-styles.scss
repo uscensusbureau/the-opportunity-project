@@ -4587,3 +4587,17 @@ h2.section-header {
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
 }
+
+.secondary-header {
+  color: color("secondary");
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  font-size: font-size('sans', '3xs');
+}
+
+.problem-statement-subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0;
+}

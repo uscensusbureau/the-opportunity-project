@@ -4,18 +4,12 @@ layout: default
 
 {% assign data=site.data.sprints | where: 'short-tag', page.short-name %}
 {% assign sprint = data[ 0 ] %}
-{% assign problems = site.data.Problem_Statements_new | where: 'Sprints', sprint.airtable_id %}
+{% assign problems = site.data.problem_statements | where: 'Sprints', sprint.airtable_id %}
 
 {% include hero.html %}
 {% include nav/sprints-nav.html %}
 {% include sprint-hero.html content=sprint %}
 
 {% for statement in problems %}
-<h3>
-  {{ statement.Name }}
-</h3>
+  {% include problem-statement.html content = statement %}
 {% endfor %}
-<!-- TODO: include subnav here -->
-
-<!-- list all problem statements for this sprint -->
-

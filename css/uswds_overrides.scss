@@ -24,6 +24,12 @@ html {
   line-height: 1.2;
   font-weight: 300;
   @include dark-links;
+
+  &.text-white {
+    a {
+      color: white;
+    }
+  }
 }
 
 .usa-collection__description {

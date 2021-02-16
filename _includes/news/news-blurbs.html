@@ -8,16 +8,24 @@
       {% if card.details %}
         <div class="tablet-lg:grid-col-8 padding-top-2 usa-collection__item">        
           <div class="usa-collection__body news-blurb large-blurb grid-row">
-            <div class="tablet:grid-col-6 display-flex flex-column">
-              <h3 class="usa-collection__heading">
-                <a href="{{ card.href }}">{{ card.publication }}</a>
-              </h3>
-              <span class="usa-collection__meta-item order-first">
-                {{ card.date | date: "%B %Y" }}
-              </span>
-              <p class="usa-collection__description">{{ card.text }}</p>
+            <div class="tablet:grid-col-6 bg-base-darkest"
+              {% if card.img %}
+                style="background-image: url({{ site.baseurl }}/assets/img/{{ card.img }});
+          background-size: cover;"
+              {% endif %}>
+              <div class="padding-2 text-white display-flex flex-column">
+                <h3 class="usa-collection__heading text-white">
+                  <a href="{{ card.href }}">{{ card.publication }}</a>
+                </h3>
+                <span class="usa-collection__meta-item order-first">
+                  {{ card.date | date: "%B %Y" }}
+                </span>
+                <p class="usa-collection__description">{{ card.text }}</p>
+
+              </div>
+              
             </div>
-            <div class="tablet:grid-col-6">
+            <div class="tablet:grid-col-6 padding-2">
               <p class="usa-collection__description details">{{ card.details }}</p>
             </div>
           </div>

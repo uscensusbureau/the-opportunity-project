@@ -88,6 +88,7 @@ publications:
 {% assign sortedNews = site.data.news | sort:"rowNumber" %}
 {% include grid-section.html content=sortedNews children="news/news-blurbs.html" %}
 
+<br/>
 {% capture leg-left %}
   {% include_relative {{ page.legislation.left-col }} %}
 {% endcapture %}

@@ -11,10 +11,12 @@
           <h1 class="margin-y-1">
             {{ include.content.Name }}
           </h1>
-          <span class="order-first text-mono-3xs">
-            <img src="{{ site.baseurl }}/assets/img/icons/yellow-star.svg"/>
-            {{ include.content.Year }}
-          </span>
+          {% if include.content.Year %}
+            <span class="order-first text-mono-3xs">
+              <img src="{{ site.baseurl }}/assets/img/icons/yellow-star.svg"/>
+              {{ include.content.Year }}
+            </span>
+          {% endif %}
           <p>{{ include.content.description }}</p>
         </div>
       </div>

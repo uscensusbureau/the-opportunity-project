@@ -2,9 +2,14 @@
 <nav class="site-nav-secondary sprint-nav">
   <ul>
     {% for link in links %}
+      
       {% assign pageSprints = site.data.sprints | where:'short-tag', link.short-name %}
+      {% assign name = pageSprints[0].Name %}
+      {% if link.short-name == "past" %}
+        {% assign name="Past Sprints" %}
+      {% endif %}
       <li class="usa-nav__primary-item">
-        <a class="usa-nav__link font-sans-3xs" href="{{ link.url }}"><span>{{ pageSprints[0].Name }}</span></a>
+        <a class="usa-nav__link font-sans-3xs" href="{{ link.url }}"><span>{{ name }}</span></a>
       </li>
     {% endfor %}
   </ul>

@@ -92,7 +92,14 @@ $light-border: 1px solid color($theme-color-base-lighter);
   border-top: none;
 
   button {
-    @include add-background-svg("angle-arrow-down");
+    &.ps-collapsed { 
+      display: inline;
+      @include add-background-svg("angle-arrow-down");
+    }
+    &.ps-expanded { 
+      display: inline;
+      @include add-background-svg("angle-arrow-up");
+    }
   }
 }
 

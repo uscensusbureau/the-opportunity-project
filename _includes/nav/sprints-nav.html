@@ -1,4 +1,4 @@
-{% assign links = site.sprints %}
+{% assign links = site.sprints | sort: "order" %}
 <nav class="site-nav-secondary sprint-nav">
   <ul>
     {% for link in links %}

@@ -1,6 +1,7 @@
 ---
 short-name: past
 layout: past-sprints
+order: 5
 
 hero:
   img: landing/Sprint-Background_05_Geo.jpg

@@ -356,12 +356,32 @@ h1, h2, h3 {
         color($site-base-transparent-light);
       clear: both;
       display: block;
-      height: units($height-nav-secondary);
       // padding-left: units(2);
+      height: 4rem;
       z-index: z-index($z-nav-secondary);
+
+      overflow-x: scroll;
+      overflow-y: hidden;
+      ul {
+        width: 740px;
+      }
+      li {
+        float: left;
+      }
 
       @include at-media('desktop'){
         top: 5em;
+      }
+
+      @include at-media('tablet-lg'){
+        height: units($height-nav-secondary);
+        overflow-x: hidden;
+        ul {
+          width: auto;
+        }
+        li {
+          float: none;
+        }
       }
     }
 

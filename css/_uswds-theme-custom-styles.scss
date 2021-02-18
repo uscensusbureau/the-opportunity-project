@@ -2599,7 +2599,9 @@ code {
   @include at-media("desktop") {
     margin-top: units(6);
     opacity: 0.5;
-    display: block;
+    width: units('desktop');
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -2614,8 +2616,6 @@ code {
   max-height: 30px;
   max-width: auto;
   display: inline-block;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .logo-garden-large {

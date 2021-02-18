@@ -1,5 +1,5 @@
 {% assign links = site.sprints | sort: "order" %}
-<nav class="site-nav-secondary sprint-nav">
+<nav class="site-nav-secondary sprint-nav" id="sprint-nav">
   <ul>
     {% for link in links %}
       
@@ -8,9 +8,15 @@
       {% if link.short-name == "past" %}
         {% assign name="Past Sprints" %}
       {% endif %}
-      <li class="usa-nav__primary-item">
-        <a class="usa-nav__link font-sans-3xs" href="{{ link.url }}"><span>{{ name }}</span></a>
+      <li class="usa-nav__primary-item sprint-nav-item" id="{{ link.short-name }}">
+        <a class="usa-nav__link font-sans-3xs" href="{{ link.url }}/#{{ link.short-name }}"><span>{{ name }}</span></a>
       </li>
     {% endfor %}
   </ul>
 </nav>
+
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', e => {
+    highlightNav("{{ page['short-name'] }}")
+  })
+</script>

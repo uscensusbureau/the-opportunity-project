@@ -357,7 +357,7 @@ h1, h2, h3 {
       clear: both;
       display: block;
       // padding-left: units(2);
-      height: 4rem;
+      height: 4.25rem;
       z-index: z-index($z-nav-secondary);
 
       overflow-x: scroll;
@@ -373,7 +373,7 @@ h1, h2, h3 {
         top: 5em;
       }
 
-      @include at-media('tablet-lg'){
+      @include at-media('755px'){  // want 755px
         height: units($height-nav-secondary);
         overflow-x: hidden;
         ul {
@@ -419,6 +419,10 @@ h1, h2, h3 {
       position: relative;
       text-decoration: none;
 
+      &.highlight {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('secondary');
+      }
       &:hover {
         @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
         color: color($site-primary-vivid);

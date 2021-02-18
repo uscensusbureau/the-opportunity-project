@@ -4,8 +4,6 @@ const COLLAPSED_CLASS = 'ps-collapsed'
 const buttons = document.getElementsByClassName('callout-button')
 const problemStatements = document.getElementsByClassName('problem-statement')
 
-console.log('hello!');
-
 if( buttons ){
   Array.from( buttons ).forEach( button => {
     // find the matching problemStatement
@@ -15,7 +13,6 @@ if( buttons ){
         parentProblem = ps;
       }
     })
-    console.log(parentProblem);
 
     button.addEventListener('click', e => {
       let expandedEls = parentProblem.getElementsByClassName( EXPANDED_CLASS );

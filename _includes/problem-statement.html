@@ -20,23 +20,21 @@
     </div>
 
     <div class="ps-right-col {{expandedClass}}">
-      <div class="ps-right-row">
-        <div class="ps-right-col-section ps-products {{expandedClass}}">
-          <h4 class="secondary-header products-header {{expandedClass}}">Product Outcome</h4>
-          {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
-          <a class="explore-products {{expandedClass}}" 
-            href="{{site.baseurl}}/showcase?search={{ include.content.Name | slugify }}">
-            Explore all products →
-          </a>
-        </div>
-        <div class="ps-right-col-section ps-agency {{ expandedClass }}">
-          <h4 class="secondary-header">Agency</h4>
-          <p>{{ include.content.agency_text }}</p>
-        </div>
-        <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
-          <h4 class="secondary-header">Target Audience</h4>
-          <p>{{ include.content["Target audience / End user"] }}</p>
-        </div>
+      <div class="ps-right-col-section ps-products {{expandedClass}}">
+        <h4 class="secondary-header products-header {{expandedClass}}">Product Outcome</h4>
+        {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
+        <a class="explore-products {{expandedClass}}" 
+          href="{{site.baseurl}}/showcase?search={{ include.content.Name | slugify }}">
+          Explore all products →
+        </a>
+      </div>
+      <div class="ps-right-col-section ps-agency {{ expandedClass }}">
+        <h4 class="secondary-header">Agency</h4>
+        <p>{{ include.content.agency_text }}</p>
+      </div>
+      <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
+        <h4 class="secondary-header">Target Audience</h4>
+        <p>{{ include.content["Target audience / End user"] }}</p>
       </div>
     </div>
   </div>

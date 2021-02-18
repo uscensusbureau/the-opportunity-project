@@ -22,14 +22,20 @@ $ps-breakpoint: 'mobile-lg';
   @include at-media($ps-breakpoint){
     @include grid-col(7);
     border-right: none;  
+    border-bottom: $light-border;
   }
 }
 
 .ps-right-col {
+  display: flex;
+  flex-direction: column;
+  @include grid-col(12);
 
   &.ps-collapsed {
     display: flex;
-    flex-direction: row;
+    @include at-media($ps-breakpoint){
+      flex-direction: row;
+    }
   }
   &.ps-expanded {
     display: flex;
@@ -37,8 +43,6 @@ $ps-breakpoint: 'mobile-lg';
 
   @include at-media($ps-breakpoint){
     @include grid-col(5);
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -54,9 +58,10 @@ $ps-breakpoint: 'mobile-lg';
 .ps-products {
   &.ps-collapsed {
     display: block;
-    border-bottom: none;
+    border-top: none;
     @include at-media($ps-breakpoint){
       border-left: none;
+      border-top: $light-border;
     }
 
     .ps-card {

@@ -4518,10 +4518,16 @@ body {
   justify-content: space-between;
 }
 
-.news-blurb, .card-header, 
+.card-header, 
+.news-blurb, 
 .usa-media-block__background-image-landscape {
-  h3 a::after {
-    content: " →"
+  h3 a {
+    position: relative;
+    &::after {
+      content: " →";
+      position: absolute;
+      display: inline-block;
+    }
   }
 }
 
@@ -4559,8 +4565,6 @@ body {
 
   a {
     text-decoration: none;
-    padding-top: units(4);
-    padding-bottom: units(4);
     color: color("white");
     
     &:hover {

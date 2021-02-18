@@ -6,7 +6,7 @@
     {% unless card.isOld %}
         
       {% if card.details %}
-        <div class="tablet-lg:grid-col-8 padding-top-2 usa-collection__item">        
+        <div class="tablet:grid-col-12 tablet-lg:grid-col-8 news-blurb-grid-item usa-collection__item">        
           <div class="usa-collection__body news-blurb large-blurb grid-row">
             <div class="tablet:grid-col-6 bg-base-darkest"
               {% if card.img %}
@@ -32,7 +32,7 @@
         </div>
       {% else %}
 
-        <div class="tablet-lg:grid-col-4 tablet:grid-col-6 padding-top-2 usa-collection__item">        
+        <div class="news-blurb-grid-item usa-collection__item">        
           <div class="usa-collection__body news-blurb">
             
             <h3 class="usa-collection__heading">

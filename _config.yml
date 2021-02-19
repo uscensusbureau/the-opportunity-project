@@ -23,7 +23,7 @@ collections:
     permalink: /:path/
   sprints:
     output: true
-    permalink: /sprints/:name
+    permalink: /sprints/:name/
 
 defaults:
   - scope:

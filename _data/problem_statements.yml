@@ -95,6 +95,7 @@
   datasets_text: Computer and Internet Use, Deconstructing the Digital Divide, 2018
     FCC Broadband Deployment Report
   products_text: Voatz
+  sprint_order: 3
   sprint_text: 2020 Census
 - Agency:
   - recllJ66jGEQ8bRtg
@@ -125,6 +126,7 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:42:53.000Z'
   airtable_id: rec2dxKJmbiIV0Va5
+  sprint_order: 2
   sprint_text: Natural Environment
 - Agency:
   - recFUgWuGZMTCoKVG
@@ -138,6 +140,7 @@
   agency_text: Office of Management and Budget
   airtable_createdTime: '2020-04-30T15:24:04.000Z'
   airtable_id: rec4KZSqOYnXgo2gD
+  sprint_order: 3
   sprint_text: Built Environment
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -255,8 +258,11 @@
   datasets_text: 'TIGER: Line Address Range-Feature, TIGER: Line Roads Data, Local
     Update of Census Address Operation (LUCA), National Agriculture Imagery Program,
     U.S. National Grid, National Address Database (NAD), NAD Schema'
+  featured_product:
+  - rec4tY9vvumikW1Ku
   products_text: The TomTom Centaur Data Logging App, Fulcrum Community for Addressing
     and Disaster Preparedness, PRADOS
+  sprint_order: 1
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury), Geo-Cohort
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -380,6 +386,7 @@
   datasets_text: Occupational Outlook Handbook, O*NET Web Services, CyberSeek, Apprenticeship
     Available Occupations, Employment Situation Summary, Apprenticeship Finder
   products_text: Kanarys
+  sprint_order: 3
   sprint_text: Workforce
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -487,6 +494,7 @@
     Mapping, Stats America
   products_text: Solve, Inclusive Development Dashboards, Job Opportunity Tool, Talent
     Finder Tool
+  sprint_order: 2
   sprint_text: Workforce
 - Agency:
   - recnfIRYEISCJVJM6
@@ -650,6 +658,7 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-01-26T16:35:00.000Z'
   airtable_id: recD4rN8c5sH3ECRi
+  sprint_order: 1
   sprint_text: Built Environment
 - Agency:
   - recuesxBrh08C2a6O
@@ -676,6 +685,18 @@
   - recB5iDMet16XnjXe
   Sprints:
   - rec5A5h9cq07ijoPk
+  Target audience / End user: Historically undercounted populations and organizations
+    that represent them. These populations include LGBTQ community, children under
+    5, people experiencing homelessness, renters, and members of underrepresented
+    minorities
+  Why this problem matters: Given that the population count from the Census determines
+    redistricting, the allocation of seats in the House of Representatives, and close
+    to $700 billion in federal funding are allocated to communities across the nation
+    for the next 10 years, ensuring an accurate count is essential. An undercount
+    has significant long-term implications for communities. For example, in the 2010
+    Census, nearly 1 million children (4.6% of children under the age of 5) were not
+    counted. This can contribute to inaccurate school enrollment projections  and
+    result in overcrowding and teacher shortages.
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:35.000Z'
   airtable_id: recDkOPeR5RLFwe2e
@@ -685,6 +706,7 @@
     Inventory Count (HIC)
   products_text: 'Community Counts, California Latino Power Map, Tract by Tract, #WhyWeCount,
     Census Intelligence Center'
+  sprint_order: 1
   sprint_text: 2020 Census
 - Agency:
   - recrqBHDoN6UK5bCq
@@ -697,6 +719,7 @@
   agency_text: USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-01-26T16:43:44.000Z'
   airtable_id: recDnQq3aDp59z637
+  sprint_order: 4
   sprint_text: Built Environment
 - Agency:
   - recllJ66jGEQ8bRtg
@@ -712,6 +735,7 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:46:02.000Z'
   airtable_id: recG9NY8ns2oza4vp
+  sprint_order: 4
   sprint_text: Natural Environment
 - Agency:
   - recG1tIVvzTYzOMct
@@ -940,6 +964,8 @@
     BLS Job Outcomes Data
   products_text: Veteran Apprenticeship Matcher, Career Nav, Watson Employment Manager
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
+- airtable_createdTime: '2021-02-18T20:29:47.000Z'
+  airtable_id: recMAjTAxFvtkRg2i
 - Agency:
   - rec0xQsk7n0Ht7V2M
   Background: "Homelessness affects a growing number of students nationwide. The number\
@@ -984,6 +1010,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:14.000Z'
   airtable_id: recPYnQdPuuZ0FZZ9
+  sprint_order: 4
   sprint_text: 2020 Census
 - Agency:
   - recNgTPOj9ZbFP6g3
@@ -997,6 +1024,7 @@
   agency_text: United States Department of State, The Wilson Center
   airtable_createdTime: '2021-01-26T16:35:32.000Z'
   airtable_id: recQeWP4kfK1EakJW
+  sprint_order: 3
   sprint_text: Natural Environment
 - Agency:
   - recnfIRYEISCJVJM6
@@ -1019,6 +1047,7 @@
   agency_text: U.S. Department of Agriculture
   airtable_createdTime: '2021-01-26T16:35:07.000Z'
   airtable_id: recSM7q7ufXLojrBx
+  sprint_order: 1
   sprint_text: Natural Environment
 - Agency:
   - reci7jH40piLVRIiY
@@ -1088,6 +1117,7 @@
     System (NEMSIS), Area Health Resource File (AHRF), Buprenorphine Treatment Practitioner
     Locator (SAMHSA)
   products_text: Insight for ArcGIS
+  sprint_order: 3
   sprint_text: Geo-Cohort
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -1256,6 +1286,7 @@
     Bureau Data, Urban Tree Canopy (UTC), National Land Cover, Enviroatlas, Costal
     Resilience Tool
   products_text: STEWMAP Explorer, Bloomberg DEVOP
+  sprint_order: 4
   sprint_text: Geo-Cohort
 - Agency:
   - recG1tIVvzTYzOMct
@@ -1368,6 +1399,7 @@
     Foundation Awards, National Institutes of Health Awards, Opportunity Zone Status,
     Census Business Builder'
   products_text: Practical Business Skills
+  sprint_order: 4
   sprint_text: Workforce
 - Agency:
   - recFUgWuGZMTCoKVG
@@ -1489,6 +1521,7 @@
     and Small-Town America, Location of Energy Infrastructure
   products_text: City Builder, Rural Startup Scout, Inclusive Growth Score, Community
     Led Opportunity Zones
+  sprint_order: 1
   sprint_text: Workforce
 - Agency:
   - recllJ66jGEQ8bRtg
@@ -1520,6 +1553,7 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:45:28.000Z'
   airtable_id: recn0ONeaB72GbD8z
+  sprint_order: 2
   sprint_text: Built Environment
 - Agency:
   - recuesxBrh08C2a6O
@@ -1534,10 +1568,12 @@
   - recPseyxKPiOIK8mK
   Sprints:
   - rec5A5h9cq07ijoPk
+  Target audience / End user: Job seekers and those in the gig economy
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:23.000Z'
   airtable_id: recnJuVbZsWFhpBW8
   datasets_text: Census Takers
+  sprint_order: 2
   sprint_text: 2020 Census
 - Agency:
   - recpbSNCmDzp0AxFi
@@ -1608,5 +1644,8 @@
   datasets_text: American Community Survey - Population Data, USGS Earthquake Data,
     National Household Survey, National Centers for Environmental Information, Wildfire
     Data, Ready Campaign, Datasets on terrorist and other man-made threats
+  featured_product:
+  - rec5dPCVzV3SHuZDS
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
+  sprint_order: 2
   sprint_text: Geo-Cohort

@@ -11,8 +11,9 @@ layout: default
 {% include sprint-hero.html content=sprint %}
 
 {% for statement in problems %}
-  {% assign products = site.data.products_airtable | where: 'airtable_id', statement.Products[0] %}
-  {% assign product = products[0] %}
+  {% assign prodId = statement.featured_product[ 0 ] %}
+  {% assign products = site.data.products_airtable | where: 'airtable_id', prodId %}
+  {% assign product = products[ 0 ] %}
   
   {% assign showMore = false %}
   {% if forloop.index0 == 1 %}

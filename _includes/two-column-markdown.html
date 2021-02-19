@@ -22,8 +22,12 @@
       {% if include.content.left-col-offset %}grid-offset-{{ include.content.left-col-offset }}{% endif %}">
       {% if include.content.left %}
         {% for section in include.content.left %}
-          <h3>{{ section.title | markdownify }}</h3>
-          <p>{{ section.body | markdownify }}</p>
+          {% if section.title %}
+            <h3>{{ section.title | markdownify }}</h3>
+          {% endif %}
+          {% if section.body %}
+            <p>{{ section.body | markdownify }}</p>
+          {% endif %}
         {% endfor %}
       {% else %}
         {{ include.left-col | markdownify }}

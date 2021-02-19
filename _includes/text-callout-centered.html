@@ -11,7 +11,7 @@
             </div>
             {% assign callout = page.callout %}
             <h2 class="font-sans-xl text-center">{{ callout.text }}</h2>
-            <p class="font-mono-sm margin-bottom-4">{{ callout.subtext }}</p>
+            <p class="font-mono-sm margin-bottom-4">{{ callout.subtext | markdownify }}</p>
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}

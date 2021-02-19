@@ -4565,8 +4565,14 @@ body {
 
 .news-blurb, .card-header, 
 .usa-media-block__background-image-landscape {
-  h3 a::after {
-    content: " →"
+  h3 a {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "→";
+      bottom: 0;
+      left: calc(100% + .3rem);
+    }
   }
 }
 
@@ -4604,8 +4610,6 @@ body {
 
   a {
     text-decoration: none;
-    padding-top: units(4);
-    padding-bottom: units(4);
     color: color("white");
     
     &:hover {

@@ -23,6 +23,11 @@ if( buttons ){
           el.classList.add( COLLAPSED_CLASS );
         })
         button.innerHTML = "<span>See More</span>";
+
+        const problemHeader = parentProblem.getElementsByTagName('h3')[ 0 ]
+        console.log(window.scrollY)
+        window.scrollTo( parentProblem.offsetLeft, parentProblem.offsetTop )
+        console.log(window.scrollY)
       }
       else if( collapsedEls.length > 0 ){
         Array.from( collapsedEls ).forEach( el => {

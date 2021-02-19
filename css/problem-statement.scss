@@ -9,6 +9,7 @@ $ps-breakpoint: 'mobile-lg';
 .problem-statement {
   @include grid-container;
   @include u-margin-y(3);
+  scroll-margin-top: 10rem;
 
   .ps-collapsed {
     display: none;
@@ -29,6 +30,20 @@ $ps-breakpoint: 'mobile-lg';
     border-right: none;  
     border-bottom: $light-border;
   }
+
+  &.ps-collapsed {
+    display: block;
+    @include at-media('mobile-lg') {
+      @include grid-col(12);
+      border: $light-border;
+      border-bottom: none;
+    }
+    @include at-media('tablet-lg'){
+      @include grid-col(7);
+      border-right: none;  
+      border-bottom: $light-border;
+    }
+  }
 }
 
 .ps-right-col {
@@ -38,16 +53,18 @@ $ps-breakpoint: 'mobile-lg';
 
   &.ps-collapsed {
     display: flex;
-    @include at-media($ps-breakpoint){
+    @include at-media('mobile-lg'){
       flex-direction: row;
+    }
+    @include at-media('tablet-lg'){
+      @include grid-col(5);
     }
   }
   &.ps-expanded {
     display: flex;
-  }
-
-  @include at-media($ps-breakpoint){
-    @include grid-col(5);
+    @include at-media($ps-breakpoint){
+      @include grid-col(5);
+    }
   }
 }
 
@@ -90,7 +107,7 @@ $ps-breakpoint: 'mobile-lg';
 }
 
 .ps-card {
-  @include u-height('auto');
+  @include u-height('card-lg');
   @include u-maxw('card-lg');
   justify-content: flex-start;
   padding-top: 0;

@@ -24,7 +24,7 @@
         <h4 class="secondary-header products-header {{expandedClass}}">Product Outcome</h4>
         {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
         <a class="explore-products {{expandedClass}}" 
-          href="{{site.baseurl}}/showcase?search={{ include.content.Name | slugify }}">
+          href="{{site.baseurl}}/showcase/?search={{ include.content.Name | slugify }}">
           Explore all products →
         </a>
       </div>

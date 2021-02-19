@@ -9,7 +9,7 @@ html {
  */
 .usa-collection__body {
   @include u-padding-left(2);
-  @include u-padding-right(8);
+  @include u-padding-right(2);
 }
 
 .usa-collection__meta-item {
@@ -23,6 +23,8 @@ html {
   margin: .5em 0;
   line-height: 1.2;
   font-weight: 300;
+  @include u-padding-right('205');
+
   @include dark-links;
 
   &.text-white {
@@ -34,22 +36,5 @@ html {
 
 .usa-collection__description {
   margin: 0;
+  @include u-padding-right(8);
 }
-
-// .usa-collection__description {
-//   @include u-margin-top( 1 );
-// }
-// .usa-collection__description.details{
-//   &::before {
-//     content: '';
-//     width: 20%;
-//     @include u-border-bottom(1px);
-//     @include u-border-bottom('base-light');
-//     @include u-height(2);
-//     // @include u-bg('base-light');
-//     position: relative;
-//     box-sizing: border-box;
-//     display: block;
-//     @include u-margin-bottom(2);
-//   }
-// }

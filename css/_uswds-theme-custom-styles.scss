@@ -2638,7 +2638,9 @@ code {
   @include at-media("desktop") {
     margin-top: units(6);
     opacity: 0.5;
-    display: block;
+    width: units('desktop');
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -2653,8 +2655,6 @@ code {
   max-height: 30px;
   max-width: auto;
   display: inline-block;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .logo-garden-large {
@@ -4563,7 +4563,8 @@ body {
   justify-content: space-between;
 }
 
-.news-blurb, .card-header, 
+.card-header, 
+.news-blurb, 
 .usa-media-block__background-image-landscape {
   h3 a {
     position: relative;
@@ -4664,6 +4665,23 @@ h2.section-header {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
+}
+
+.news-blurb-grid-item {
+  @include grid-col(12);
+  @include u-padding-top(2);
+
+  @include at-media('tablet') {
+    @include grid-col(6);
+  }
+  @include at-media('tablet-lg'){
+    @include grid-col(4);
+  }
+  @include at-media('desktop'){
+    padding-left: units($theme-column-gap-mobile / 2) !important;
+    padding-right: units($theme-column-gap-mobile / 2) !important;
+  }
+    
 }
 
 .news-blurb {

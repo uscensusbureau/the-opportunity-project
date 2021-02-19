@@ -1,0 +1,15 @@
+{% assign card=include.content %}
+<div 
+  class="card-container {{ include.utils }}"
+  style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img }});
+          background-size: cover;">
+  <div class="card-header">
+    <h3 class="text-ls-1">
+      <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}">
+        {{ card.title }}
+      </a>
+    </h3>
+    {% if card.date %}<p class="font-mono-xs card-date">{{ card.date | date: "%B %Y" }}</p>{% endif %}
+    {% if card.details %}<p>{{ card.details }}</p>{% endif %}
+  </div>
+</div>

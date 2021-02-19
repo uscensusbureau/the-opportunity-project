@@ -1,0 +1,50 @@
+<div class="grid-row grid-gap" id="news-div">
+  <div
+    class="tablet:grid-col-6 margin-bottom-2 tablet:margin-bottom-0
+    usa-media-block__background-image-portrait 
+    display-flex flex-column"
+  >
+    {% include cards/card.html content=include.content.featured %}
+
+    {% if include.content.side-cards.size > 2 %}
+      <div class="write-a-story
+        display-none tablet:display-flex">
+        <p>Want to write a story on TOP?</p>
+        <button
+          class="usa-button__secondary-gray"
+          type="button"
+          name="button"
+        >
+          <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
+        </button>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="tablet:grid-col-6 display-flex flex-column flex-space-between">
+    {% for card in include.content.side-cards %}
+      {% assign card-utils = "short-card" %}
+      {% if include.content.small-headers %}
+        {% assign card-utils = "short-card small-header-card" %}
+      {% endif %}
+      {% include cards/card.html content=card utils=card-utils %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="write-a-story
+  {% if include.content.side-cards.size > 2 %}
+    tablet:display-none display-flex
+  {% endif %}">
+  <p>Want to write a story on TOP?</p>
+  <button
+    class="usa-button__secondary-gray"
+    type="button"
+    name="button"
+  >
+    <a href="mailto:Census.opportunityproject@census.gov">Let's Talk</a>
+  </button>
+</div>
+
+  
+

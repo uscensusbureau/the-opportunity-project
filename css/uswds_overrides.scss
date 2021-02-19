@@ -1,8 +1,55 @@
-.grid-container {
-  padding: 0;
-}
-
+// @use 'mixins';
 html {
   height: 100vh;
-  background-color: $color-primary-dark;
+  // background-color: $color-primary-dark;
 }
+
+/**
+ * Collections!
+ */
+.usa-collection__body {
+  @include u-padding-left(2);
+  @include u-padding-right(8);
+}
+
+.usa-collection__meta-item {
+  text-transform: uppercase;
+  @include u-font-family('mono');
+  @include u-font-size('mono', '3xs');
+}
+
+.usa-collection__heading {
+  font-size: 2em;
+  margin: .5em 0;
+  line-height: 1.2;
+  font-weight: 300;
+  @include dark-links;
+
+  &.text-white {
+    a {
+      color: white;
+    }
+  }
+}
+
+.usa-collection__description {
+  margin: 0;
+}
+
+// .usa-collection__description {
+//   @include u-margin-top( 1 );
+// }
+// .usa-collection__description.details{
+//   &::before {
+//     content: '';
+//     width: 20%;
+//     @include u-border-bottom(1px);
+//     @include u-border-bottom('base-light');
+//     @include u-height(2);
+//     // @include u-bg('base-light');
+//     position: relative;
+//     box-sizing: border-box;
+//     display: block;
+//     @include u-margin-bottom(2);
+//   }
+// }

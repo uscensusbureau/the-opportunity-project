@@ -347,7 +347,44 @@ h1, h2, h3 {
 .site-nav-secondary {
   display: none;
 
-   &.page-our-process {
+    &.sprint-nav {
+      @include u-position('sticky');
+      top: 3.2em;
+      text-align: center;
+      background-color: color("white");
+      border-bottom: units($site-border-width) solid
+        color($site-base-transparent-light);
+      clear: both;
+      display: block;
+      // padding-left: units(2);
+      height: 4.25rem;
+      z-index: z-index($z-nav-secondary);
+
+      overflow-x: scroll;
+      overflow-y: hidden;
+      ul {
+        width: 740px;
+      }
+      li {
+        float: left;
+      }
+
+      @include at-media('desktop'){
+        top: 5em;
+      }
+
+      @include at-media('755px'){  // want 755px
+        height: units($height-nav-secondary);
+        overflow-x: hidden;
+        ul {
+          width: auto;
+        }
+        li {
+          float: none;
+        }
+      }
+    }
+
     @include at-media("desktop") {
       background-color: color("white");
       border-bottom: units($site-border-width) solid
@@ -382,6 +419,10 @@ h1, h2, h3 {
       position: relative;
       text-decoration: none;
 
+      &.highlight {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('secondary');
+      }
       &:hover {
         @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
         color: color($site-primary-vivid);
@@ -401,7 +442,6 @@ h1, h2, h3 {
         color: color($site-ink);
       }
     }
-  }
 }
 
 
@@ -2484,7 +2524,6 @@ code {
 
 
 
-
 // Homepage styles --------------------- //
 
 .page-home {
@@ -4244,6 +4283,12 @@ $theme-table-column-gap: 4;
 
 .usa-hero__subtitle {
     @include u-padding-bottom(7);
+    a {
+      color: color($theme-color-base-lighter);
+      &:visited {
+        color: color($theme-color-base-light);
+      }
+    }
 }
 
 figure.highlight {
@@ -4524,10 +4569,10 @@ body {
   h3 a {
     position: relative;
     &::after {
-      content: "→";
       position: absolute;
+      content: "→";
       bottom: 0;
-      left: calc(100% + 10px);
+      left: calc(100% + .3rem);
     }
   }
 }
@@ -4599,7 +4644,6 @@ body {
   @include u-font('body', 'lg');
 }
 
-
 h2.section-header {
   @include u-color('base-darkest');
   @include u-margin-bottom(1);
@@ -4607,6 +4651,20 @@ h2.section-header {
   @include u-line-height('sans', 3);
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
+}
+
+.secondary-header {
+  color: color("secondary");
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  font-size: font-size('sans', '3xs');
+}
+
+.problem-statement-subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .news-blurb-grid-item {
@@ -4626,7 +4684,6 @@ h2.section-header {
     
 }
 
-
 .news-blurb {
   @include u-outline('1px');
   @include u-outline-color('base-lighter');
@@ -4640,3 +4697,10 @@ h2.section-header {
   flex-direction: row;
   padding: 0;
 }
+
+.dark-link {
+  @include dark-link;
+}
+
+
+@import 'problem-statement.scss';

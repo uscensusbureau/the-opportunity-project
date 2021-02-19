@@ -1,34 +1,14 @@
 ---
-title: Sprints
-permalink: /sprints/
-class: sprints
-layout: default
+short-name: past
+layout: past-sprints
+order: 5
 
-# full span, top of page section
 hero:
-  text: Sprints
-  subtext: 
-    - p: Learn about past sprints and how we’ve tackled national challenges.  
-    - p: Sprints are [12-week product development cycles](/our-process/) that bring together tech teams and collaborators to build public-facing digital products using open data.
+  img: landing/Sprint-Background_05_Geo.jpg
+  Name: Past Sprints
+  Year: 2016 - 2019
+  description: PLACEHOLDER TEXT FOR PAST SPRINTS. Data and technology have the power to strengthen community resilience and ensure the public is prepared in events of natural disaster. In the Geo-Cohort sprint, tech teams including Bloomberg, Mapbox, Esri and many others developed digital products that allow governments to maintain local address data critical in catastrophic events, help the public take appropriate hazard preparedness actions, and amplify environmental stewardship efforts.
 
-banner-subheader:
-  top:
-    background: base-darkest
-    line: '-light'
-  bottom:
-    subheader: Featured Sprints
-    subheader-transparent: true
-    background: white
-
-bottom-subheader:
-  top:
-    background: white
-  bottom:
-    subheader: Past Challenges
-    line: '-light'
-    background: base-darkest
-
-# used here for the dark "past sprints" section. toggles based on year
 explanation-alt:
   text:
     - title: 2020 Census Sprint
@@ -277,44 +257,4 @@ explanation-alt:
       links:
         - link-path: 2016-ag.pdf
           link-text: View Full Brief (PDF)
-
-sprint-cards: 
-  - title: Built Environment
-    date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_01_Built.jpg
-    alt: Overhead view of a suburban neighborhood
-    url: sprints/built-environment
-  - title: Natural Environment
-    date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_02_Natural.jpg
-    alt: Overhead view of waves crashing against a rocky outcrop
-    url: sprints/natural-environment
-  - title: Census
-    date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_03_Census.jpg
-    alt: Closeup of sticky notes on a whiteboard
-    url: sprints/census
-  - title: Workforce
-    date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_04_Workforce.jpg
-    alt: Red and blue lines of light on a dark field
-    url: sprints/workforce
-  - title: Geo-Cohort
-    date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_05_Geo.jpg
-    alt: A 3D topographical map
-    url: sprints/geo
-
 ---
-{% include hero.html %}
-{% include connecting-banner-with-subheader.html %}
-{% include cards/card-list.html cards=page.sprint-cards %}
-{% for sprint in site.sprints %}
-  <li>
-    <h2><a href="{{ sprint.url }}">{{ sprint.name }}</a></h2>
-    <h3>{{ sprint.year }}</h3>
-    <p>{{ sprint.content | markdownify }}</p>
-  </li>
-{% endfor %}
-{% include connecting-banner-with-subheader.html data=page.bottom-subheader %}
-{% include single-column-centered-list-dark.html %}

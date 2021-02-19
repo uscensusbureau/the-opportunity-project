@@ -1,7 +1,3 @@
-// Update display to seach and filter products
-// var $ = require('jquery');
-// var slugify = require('slugify');
-
 const prodSearchForm = document.getElementById( 'product-search-form' );
 const searchField = document.getElementById( 'search-field' );
 const filterForm = document.getElementById('product-filter-form')
@@ -15,6 +11,17 @@ var searchTerm = '';
 let filterTopics = []
 let filterYears = []
 let filterAgencies = []
+
+// if there's a search term in the URL params, set it and search with it
+const params = new URLSearchParams( window.location.search )
+if( params.has( 'search' )){
+  const searchParam = params.get( 'search' )
+  console.log('searching for ' + searchParam);
+  searchField.value = searchParam;
+  searchTerm = searchParam;
+
+  displayFilteredProducts();
+}
 
 
 // search
@@ -72,12 +79,14 @@ function displayFilteredProducts() {
     const card = productCards[ i ];
     const productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
     const prodDesc = card.getElementsByTagName('p')[0].innerText;
+    const prodProblems = card.getElementsByTagName('p')[1].innerText;
+    // console.log(productName, prodProblems);
     const productNameSlugified = productName.replace(`'`,'-').split('.').join("-").split(':').join("-");
     const productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
     const productTopic = card.getElementsByTagName('h4')[ 0 ].innerText;
     const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
     
-    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes( searchTerm )
+    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes( searchTerm ) || prodProblems.includes( searchTerm )
 
     const topicMatches = checkFilterMatch( productTopic, filterTopics )
     const yearMatches = checkFilterMatch( productYear, filterYears )

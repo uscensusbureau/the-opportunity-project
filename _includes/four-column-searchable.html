@@ -121,6 +121,7 @@
               <h4 class="pc-inactive">{{ product.category }}</h4>
               <h5 class="pc-inactive">{{ product.agency }}</h5>
               <p style="display:none">{{ product.description_new }}</p> <!-- never show this. just for filtering -->
+              <p class="card-problem-statement" style="display:none">{{ product.problem_statement | slugify }}</p> <!-- never show this. just for searching -->
             </header>
             <div class="usa-card__body">
               <p class="font-mono-xs text-white">{{ product.tech_team | upcase }}</p>

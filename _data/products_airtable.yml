@@ -1,0 +1,2159 @@
+- Category:
+  - grants
+  Data Sets: 'Grants.gov database '
+  Description (New): Enables donors, nonprofits, and intermediary users to find funding
+    opportunities they may qualify for
+  Description (Old): True Impact used federal data to enhance its Social Impact Reporting
+    Platform, enabling users to automatically query the federal grants.gov database
+    to find funding opportunities they may qualify for.
+  Image: social-impact-reporting-platform.jpg
+  Link: http://www.trueimpact.com
+  Problem Statement:
+  - recjgkTgiJVNQI06t
+  Product Name: Social Impact Reporting Platform
+  Sprint:
+  - recPKsumH7MWxbOTM
+  Tech Team:
+  - recbCIeBY22n5OZ3X
+  airtable_createdTime: '2020-02-10T15:57:43.000Z'
+  airtable_id: rec0XnfpVCBwdQJAg
+  details: Enables donors, nonprofits, and intermediary users to find funding opportunities
+    they may qualify for
+  tech_team_text: True Impact
+  title: Social Impact Reporting Platform
+- Category:
+  - housing
+  Data Sets: Public Use Microdata System (IPUMS); Census Bureau; Geolytics, Woods
+    & Poole Economics; Bureau of Economic Analysis; Bureau of Labor Statistics; Centers
+    for Disease Control and Prevention; National Center for Education Statistics
+  Description (New): 'Allows community leaders and policy makers to compare disaggregated
+    demographic indicators that describe the state of equity in cities, regions, and
+    states '
+  Description (Old): A PolicyLink tool to allow comparison of disaggregated demographic
+    indicators.
+  Image: national-equity-atlas.jpg
+  Link: https://www.nationalequityatlas.org/
+  Product Name: National Equity Atlas
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recyVjZcgPDiKwRl8
+  airtable_createdTime: '2020-02-10T16:17:05.000Z'
+  airtable_id: rec1aSWndKb5kqADi
+  details: 'Allows community leaders and policy makers to compare disaggregated demographic
+    indicators that describe the state of equity in cities, regions, and states '
+  tech_team_text: National Equity Atlas
+  title: National Equity Atlas
+- Category:
+  - health
+  Data Sets: Centers for Disease Control and Prevention; Aggregated and anonymous
+    Fitbit activity data from over 10 million users
+  Description (New): Lets users see how average activity relates to common health
+    issues in each state
+  Description (Old): Lets users see how average activity relates to common health
+    issues in each state, combining CDC health data with aggregated and anonymous
+    Fitbit activity data from over 10 million users.
+  Image: fitbit.jpg
+  Link: https://www.fitbit.com/us/activity-index
+  Problem Statement:
+  - recGQxoZehhlElI4g
+  Product Name: Fitbit
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recIBLkqWmzpmChvg
+  airtable_createdTime: '2020-02-10T16:02:25.000Z'
+  airtable_id: rec3DLJOV0X1vHHVe
+  details: Lets users see how average activity relates to common health issues in
+    each state
+  tech_team_text: Fitbit
+  title: Fitbit
+- Category:
+  - rural
+  Data Sets: 'United States Department of Agriculture; Census Bureau; Department of
+    Transportation; Department of Housing and Urban Development '
+  Description (New): Uses live spatial and development funding data to simplify funding
+    eligibility with virtual storytelling of our rural American communities
+  Description (Old): Uses live spatial and development funding data from USDA, Census,
+    DOT, and HUD to simplify funding eligibility with virtual story telling of our
+    rural American communities.
+  Image: findyourtown.jpg
+  Link: https://findyour.town
+  Problem Statement:
+  - rec7PAfceBewrUGZ3
+  Product Name: Findyour.town
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recHoBLj56dFmpN86
+  airtable_createdTime: '2020-02-10T16:02:12.000Z'
+  airtable_id: rec4bboJwfwGI9dku
+  details: Uses live spatial and development funding data to simplify funding eligibility
+    with virtual storytelling of our rural American communities
+  tech_team_text: Ovela
+  title: Findyour.town
+- Category:
+  - addressing
+  Data Sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
+  Description (New): Helps the municipalities and communities in Puerto Rico enhance
+    their address infrastructure to support the reconstruction process, improve emergency
+    response and foster a more resilient future
+  Description (Old): ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal
+    Service, and the National Address Database (NAD) schema to help the municipalities
+    and communities in Puerto Rico enhance their address infrastructure to support
+    the reconstruction process, improve emergency response and foster a more resilient
+    future.
+  Image: prados.jpg
+  Link: https://www.zipdatum.com/prcivicaddress/
+  Prize Status: Winner
+  Problem Statement:
+  - rec55VBughwHjCFWp
+  Product Name: PRADOS
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - reccDU0RyAvsqhU4H
+  airtable_createdTime: '2020-02-04T21:29:49.000Z'
+  airtable_id: rec4tY9vvumikW1Ku
+  details: Helps the municipalities and communities in Puerto Rico enhance their address
+    infrastructure to support the reconstruction process, improve emergency response
+    and foster a more resilient future
+  problem_statements:
+  - rec55VBughwHjCFWp
+  tech_team_text: iCASA PR
+  title: PRADOS
+- Category:
+  - disasters
+  Data Sets: 'ensus block data; Open EU Sentinel 1 InSAR '
+  Description (New): 'Block level structural risk product that encourages local stakeholders
+    to prepare for crisis through increased awareness of the likelihood of catastrophic
+    failure of their structures in a disaster. Public access using login: fema@sille.space,
+    password: Planahead2019'
+  Description (Old): "Datel Ovela\u2019s tool uses census block data with open EU\
+    \ sentinel 1 InSAR to build a block level structural risk product that encourages\
+    \ local stakeholders to prepare for crisis through increased awareness of the\
+    \ likelihood of catastrophic failure of their structures in a disaster. Public\
+    \ access using login: fema@sille.space, password: Planahead2019"
+  Image: sille.jpg
+  Link: https://sille.space/app_fema/
+  Problem Statement:
+  - recqL51kCcBL6go3m
+  Product Name: Sille
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - reclQzEAskWE1bAhg
+  airtable_createdTime: '2020-02-04T21:30:07.000Z'
+  airtable_id: rec5dPCVzV3SHuZDS
+  details: 'Block level structural risk product that encourages local stakeholders
+    to prepare for crisis through increased awareness of the likelihood of catastrophic
+    failure of their structures in a disaster. Public access using login: fema@sille.space,
+    password: Planahead2019'
+  problem_statements:
+  - recqL51kCcBL6go3m
+  tech_team_text: Datel Ovela
+  title: Sille
+- Data Sets: "Citizen Science Portal, Interpol, GRID-Arendal, US EPA, PEW, Woldemar\
+    \ d\u2019Ambri\xE8res"
+  Description (New): Compiles tangible and novel data sets to energize public consciousness
+    and provide new insights into the problem of ocean plastic pollution, offering
+    actions for citizens and policymakers worldwide to solve the crisis of plastic
+    waste ending up in our oceans.
+  Description (Old): We used data from US EPA, INTERPOL, the Citizen Science Portal
+    and multiple national and international specialists to build an ESRI Story Map.  This
+    interactive online narrative compiles tangible and novel data sets to energize
+    public consciousness and provide new insights into the problem of ocean plastic
+    pollution, offering actions for citizens and policymakers worldwide to solve the
+    crisis.
+  Image: Ocean-Plastics-Story-Map.png
+  Link: https://esriurl.com/OceanPlastics
+  Problem Statement:
+  - recQeWP4kfK1EakJW
+  Product Name: Ocean Plastics Story Map
+  Sprint:
+  - recfjW4XBdTnujZD7
+  Tech Team:
+  - recJKjOOhTrMk1R2e
+  airtable_createdTime: '2021-02-19T18:44:21.000Z'
+  airtable_id: rec6IC6El0nNjSiCA
+  details: Compiles tangible and novel data sets to energize public consciousness
+    and provide new insights into the problem of ocean plastic pollution, offering
+    actions for citizens and policymakers worldwide to solve the crisis of plastic
+    waste ending up in our oceans.
+  image-alt: This image shows the story of ocean plastics.
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  tech_team_text: Esri
+  title: Ocean Plastics Story Map
+- Category:
+  - housing
+  - health
+  - transportation
+  Description (New): ' Helps researchers and developers rapidly prototype and deploy
+    tools that address a variety of problems surrounding access to opportunity'
+  Description (Old): Uses datasets from multiple agencies to help researchers and
+    developers rapidly prototype and deploy tools that address a variety of problems
+    surrounding access to opportunity.
+  Problem Statement:
+  - recCTI1VBSwUOl4Tq
+  Product Name: Wolfram Data Repository
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recdjgPjCcxGNSoUs
+  airtable_createdTime: '2020-02-10T16:03:50.000Z'
+  airtable_id: rec7lQrTnvCdI85aM
+  details: ' Helps researchers and developers rapidly prototype and deploy tools that
+    address a variety of problems surrounding access to opportunity'
+  tech_team_text: Wolfram
+  title: Wolfram Data Repository
+- Data Sets: USASpending
+  Description (New): "Provides sector-specific insights to answer critical questions\
+    \ on\_urban\_transformation and policy,\_community resilience, hazard and climate\
+    \ risk, and social equity"
+  Image: UF Dashboard - 518 x 352.jpg
+  Link: https://urbanfootprint.com
+  Problem Statement:
+  - rec4KZSqOYnXgo2gD
+  Product Name: Urban Intelligence Platform
+  Sprint:
+  - recMpslqDTkD8bJoj
+  Tech Team:
+  - recHpXMwp7qKRv8LA
+  airtable_createdTime: '2021-01-25T22:56:24.000Z'
+  airtable_id: rec85E0U2wrRBV8dc
+  details: "Provides sector-specific insights to answer critical questions on\_urban\_\
+    transformation and policy,\_community resilience, hazard and climate risk, and\
+    \ social equity"
+  image-alt: Image of Urban Intelligence product with color-coded map
+  tech_team_text: UrbanFootprint
+  title: Urban Intelligence Platform
+- Category:
+  - addressing
+  Data Sets: U.S. National Grid
+  Description (New): Address point capture tool that assigns coordinates, in an online
+    or offline mode, to make non-traditionally addressed locations addressable
+  Description (Old): "TomTom\u2019s open source mobile app is an address point capture\
+    \ tool that incorporates the U.S. National Grid to assign coordinates, in an online\
+    \ or offline mode, to make nontraditionally addressed locations addressable."
+  Image: the-tomtom-centaur-data-logging-app.jpg
+  Link: https://s3.amazonaws.com/centaur-web/html/index.html
+  Problem Statement:
+  - rec55VBughwHjCFWp
+  Product Name: The TomTom Centaur Data Logging App
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - recJNrJIIPEABchZx
+  airtable_createdTime: '2020-02-04T21:31:04.000Z'
+  airtable_id: rec8Yym9s5wIGjlDI
+  details: Address point capture tool that assigns coordinates, in an online or offline
+    mode, to make non-traditionally addressed locations addressable
+  tech_team_text: TomTom
+  title: The TomTom Centaur Data Logging App
+- Category:
+  - housing
+  - education
+  - health
+  Description (New): Finds areas of opportunity through geographic visualizations
+    and reports
+  Description (Old): A new tool for finding areas of opportunity through geographic
+    visualizations and reports.
+  Product Name: Community Commons
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recKUIABb1UoesDJ9
+  airtable_createdTime: '2020-02-10T16:16:39.000Z'
+  airtable_id: rec9iFdC2FLECfVAa
+  details: Finds areas of opportunity through geographic visualizations and reports
+  tech_team_text: Community Commons
+  title: Community Commons
+- Category:
+  - housing
+  Data Sets: DC Department of Human Services
+  Description (New): Helps youth experiencing homelessness find and access services
+    in the Washington, DC area
+  Description (Old): Excella Consulting's tool uses data sets from the DC Department
+    of Human Services to help youth experiencing homelessness find and access services
+    in the Washington, DC area.
+  Image: myspot.jpg
+  Link: https://www.findmyspot.org
+  Problem Statement:
+  - recMEER5Sc9HQrLOF
+  Product Name: MySpot
+  Sprint:
+  - rec4F32ORdTWH8d80
+  Tech Team:
+  - rec1pHCwGPd73Vsl1
+  airtable_createdTime: '2020-02-04T21:31:59.000Z'
+  airtable_id: rec9slEDBdpxTIC3J
+  details: Helps youth experiencing homelessness find and access services in the Washington,
+    DC area
+  tech_team_text: Excella
+  title: MySpot
+- Category:
+  - census
+  Data Sets: "Census Bureau American Community Survey; Census Barriers, Attitudes,\
+    \ and Motivators; Civis Analytics\u2019 survey and message testing technology"
+  Description (New): Empowers local leaders and Census coordinators to run data-driven
+    outreach campaigns and avoid an undercount
+  Description (Old): "Census Intelligence Center combines data from the American Community\
+    \ Survey and Census Barriers, Attitudes, and Motivators studies with Civis Analytics\u2019\
+    \ survey and message testing technology to empower local leaders and Census coordinators\
+    \ to run data-driven outreach campaigns and avoid an undercount."
+  Image: census-intelligence.jpg
+  Link: https://www.civisanalytics.com/census/
+  Participants:
+  - recW6xZxbH06A1689
+  Problem Statement:
+  - recDkOPeR5RLFwe2e
+  Product Advisors: Paul Franz
+  Product Name: Census Intelligence Center
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - recYJMcRX9wkv4vwC
+  airtable_createdTime: '2020-02-04T21:29:01.000Z'
+  airtable_id: recB5iDMet16XnjXe
+  details: Empowers local leaders and Census coordinators to run data-driven outreach
+    campaigns and avoid an undercount
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  tech_team_text: Civis Analytics
+  title: Census Intelligence Center
+- Category:
+  - census
+  Data Sets: Number of Americans overseas; Number of individuals with disabilities;
+    Smartphone penetration across the United States
+  Description (New): ' Allows the convenience, security and accessibility of smartphone
+    and blockchain technology to ensure that hard-to-reach populations are counted
+    in future censuses'
+  Description (Old): This project leverages data around growing numbers of Americans
+    overseas, people with disabilities, and increasing levels of smartphone penetration
+    across the United States to allow the convenience, security and accessibility
+    of smartphone and blockchain technology to ensure that hard-to-reach populations
+    are counted in future censuses.
+  Image: voatz.jpg
+  Link: https://www.voatz.com
+  Participants:
+  - reckRo8RLRL8fxBki
+  Problem Statement:
+  - rec2cDmW6ubg6Wco0
+  Product Advisors: Tom Juarez
+  Product Name: Voatz
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - receQOPQTDz0IwuW7
+  airtable_createdTime: '2020-02-04T21:29:34.000Z'
+  airtable_id: recCGea83hgr4djMm
+  details: ' Allows the convenience, security and accessibility of smartphone and
+    blockchain technology to ensure that hard-to-reach populations are counted in
+    future censuses'
+  tech_team_text: Voatz
+  title: Voatz
+- Category:
+  - housing
+  - health
+  - transportation
+  Data Sets: 'Department of Housing and Urban Development; Census Bureau American
+    Community Survey '
+  Description (New): Uses nationwide opportunity indexes to make search for opportunity
+    more easily obtainable
+  Description (Old): Uses nationwide opportunity indexes to make search for opportunity
+    more easily obtainable.
+  Image: opportunity-enabler.jpg
+  Link: http://bit.ly/2aWs865
+  Product Name: Opportunity Enabler
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recJKjOOhTrMk1R2e
+  airtable_createdTime: '2020-02-10T16:03:33.000Z'
+  airtable_id: recFD7M4ICvq22Nu4
+  details: Uses nationwide opportunity indexes to make search for opportunity more
+    easily obtainable
+  tech_team_text: Esri
+  title: Opportunity Enabler
+- Category:
+  - entrepreneurship
+  Data Sets: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
+    Survey; Internal Revenue Service
+  Description (New): Solves talent discovery issues for entrepreneurs and small businesses
+    seeking to hire high-tech workers
+  Description (Old): Emsi's Talent Finder Tool uses federal open data sets from the
+    Bureau of Labor Statistics, StatsAmerica, American Community Survey, and Internal
+    Revenue Service to solve talent discovery issues for entrepreneurs and small businesses
+    seeking to hire high-tech workers.
+  Image: talent-finder-tool.jpg
+  Link: https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes
+  Prize Status: Honorable Mention
+  Problem Statement:
+  - rec6yDEfMyReqsMcl
+  Product Name: Talent Finder Tool
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recfiHHSc316mEIXh
+  airtable_createdTime: '2020-02-04T21:28:11.000Z'
+  airtable_id: recFK3C3oDrmnIwA3
+  details: Solves talent discovery issues for entrepreneurs and small businesses seeking
+    to hire high-tech workers
+  tech_team_text: Emsi
+  title: Talent Finder Tool
+- Category:
+  - census
+  - housing
+  Description (New): iOS application to support the logistical planning, coordination,
+    execution, and data collection effort undertaken by Census Bureau employees conducting
+    the homeless count
+  Description (Old): IBM's tool is an iOS application to support the logistical planning,
+    coordination, execution, and data collection effort undertaken by Census Bureau
+    employees conducting the homeless count.
+  Problem Statement:
+  - rec0ukljQMNDcv91s
+  Product Name: PopCount
+  Sprint:
+  - recPKsumH7MWxbOTM
+  Tech Team:
+  - recMUAnVYSJwQLFhD
+  airtable_createdTime: '2020-02-10T15:58:15.000Z'
+  airtable_id: recGtDBMaVWHIeULY
+  details: iOS application to support the logistical planning, coordination, execution,
+    and data collection effort undertaken by Census Bureau employees conducting the
+    homeless count
+  tech_team_text: IBM
+  title: PopCount
+- Category:
+  - discovery
+  - census
+  Data Sets: Census Bureau; US Bureau of Labor Statistics; New York State Departments
+    of Health and of Agriculture and Markets; Food Bank for New York City and the
+    NYU Furman Center
+  Description (New): Free mapping and data tool for visualizing data that can help
+    with decennial Census outreach in NYC communities by answering questions like
+    'What happens with Census data?' and 'Why does the Census matter to me?'
+  Description (Old): Measure of America created a free mapping and data tool for visualizing
+    Census Bureau, state, and city data that can help with decennial Census outreach
+    in NYC communities by answering questions like 'What happens with Census data?'
+    and 'Why does the Census matter to me?'
+  Image: data2gonyc.jpg
+  Link: https://data2go.nyc/
+  Participants:
+  - reckRo8RLRL8fxBki
+  Prize Status: Winner
+  Product Advisors: Tom Juarez
+  Product Name: Data2GO.NYC
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recoaWbpjLMVcGQuZ
+  airtable_createdTime: '2020-02-04T21:29:34.000Z'
+  airtable_id: recHYa0ZILEN3fRFa
+  details: Free mapping and data tool for visualizing data that can help with decennial
+    Census outreach in NYC communities by answering questions like 'What happens with
+    Census data?' and 'Why does the Census matter to me?'
+  tech_team_text: Measure of America
+  title: Data2GO.NYC
+- Category:
+  - transportation
+  - employment
+  Data Sets: LEHD Origin-Destination Employment Statistic
+  Description (New): Uses commuting data and bus & rail transit routes to show commuter
+    flows and gaps in access to transit
+  Description (Old): Uses commuting data from the LEHD Origin-Destination Employment
+    Statistics, bus & rail transit routes to show commuter flows and gaps in access
+    to transit.
+  Image: commuter-map.jpg
+  Link: http://split.us/opportunity-project
+  Problem Statement:
+  - recWbNwNVTeALHVEK
+  Product Name: Commuter Map
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recfTuqV9WjmxKcRf
+  airtable_createdTime: '2020-02-10T16:02:02.000Z'
+  airtable_id: recIigBAir65hTeIa
+  details: Uses commuting data and bus & rail transit routes to show commuter flows
+    and gaps in access to transit
+  tech_team_text: Split
+  title: Commuter Map
+- Product Name: Edubuddy
+  airtable_createdTime: '2021-02-19T18:05:17.000Z'
+  airtable_id: recIu57RsPY8g7yE6
+  title: Edubuddy
+- Category:
+  - transportation
+  Data Sets: 'Traffic accident and fatality data '
+  Description (New): Provides dynamic location-based visualizations of hazardous traffic
+    corridors for citizens and community decision makers
+  Description (Old): Uses traffic accident and fatality data to provide dynamic location-based
+    visualizations of hazardous traffic corridors for citizens and community decision
+    makers.
+  Image: create.jpg
+  Link: https://www.facebook.com/createrealestate/
+  Problem Statement:
+  - recWbNwNVTeALHVEK
+  Product Name: Create
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recOFHIK84bftlsQi
+  airtable_createdTime: '2020-02-10T16:01:45.000Z'
+  airtable_id: recJGQBZiNXia0IYm
+  details: Provides dynamic location-based visualizations of hazardous traffic corridors
+    for citizens and community decision makers
+  tech_team_text: Create
+  title: Create
+- Category:
+  - grants
+  Data Sets: USA Spending; Single Audit; Census Bureau; Catalog of Federal Domestic
+    Assistance
+  Description (New): Helps local, state, federal, and tribal governments navigate
+    federal grants and maximize the return on investment of federal grant dollars
+  Description (Old): eCivis's tool uses USA Spending, Single Audit, Census Bureau
+    and Catalog of Federal Domestic Assistance data to help local, state, federal,
+    and tribal governments navigate federal grants and maximize the return on investment
+    of federal grant dollars.
+  Image: grants-intelligence.jpg
+  Link: https://intel.ecivis.com
+  Problem Statement:
+  - recjgkTgiJVNQI06t
+  Product Name: Grants Intelligence
+  Sprint:
+  - recPKsumH7MWxbOTM
+  Tech Team:
+  - recih2hjzot1rJr2g
+  airtable_createdTime: '2020-02-10T15:57:18.000Z'
+  airtable_id: recK0laD1VAXzGXqv
+  details: Helps local, state, federal, and tribal governments navigate federal grants
+    and maximize the return on investment of federal grant dollars
+  tech_team_text: eCivis
+  title: Grants Intelligence
+- Category:
+  - education
+  Data Sets: 'Department of Labor O*NET Database; Department of Education '
+  Description (New): Links relevant and authentic industry content to actual job descriptions
+    to provide learners and job seekers opportunity for career exploration and exposure
+  Description (Old): "Nepris Industry Connections platform uses Department of Labor\
+    \ O*NET data to link relevant and authentic industry content to actual job descriptions\
+    \ to provide learners and job seekers opportunity for career exploration and exposure.\
+    \ Content is organized into the Department of Education\u2019s 16 career clusters."
+  Image: nepris-industry-connections.jpg
+  Link: https://nepris.com/misc/careersearch
+  Problem Statement:
+  - rec5Qmq3TNOnhhfoE
+  Product Name: Nepris Industry Connections
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recYkpjMO3x5cRUyh
+  airtable_createdTime: '2020-02-10T15:53:17.000Z'
+  airtable_id: recKSyLaCXFbhyDuv
+  details: Links relevant and authentic industry content to actual job descriptions
+    to provide learners and job seekers opportunity for career exploration and exposure
+  tech_team_text: Nepris
+  title: Nepris Industry Connections
+- Category:
+  - grants
+  - discovery
+  Data Sets: 'Census Bureau; USASpending.gov, SAM.gov; grants.gov; Department of Housing
+    and Urban Development '
+  Description (New): Makes homelessness statistics and related funding data easily
+    accessible for grants professionals, researchers, government finance professionals,
+    and citizens interested in transparency and accountability
+  Description (Old): "eCivis\u2019 tool Grants Intelligence - Homelessness uses data\
+    \ from the Census Bureau, USASpending.gov, SAM.gov, grants.gov, and HUD to make\
+    \ homelessness stats and related funding data easily accessible for grants professionals,\
+    \ researchers, government finance professionals, and citizens interested in transparency\
+    \ and accountability."
+  Image: grants-intelligence.jpg
+  Link: https://intel.ecivis.com/homelessness
+  Problem Statement:
+  - recGXB6VI2XEbqemj
+  Product Name: Grants Intelligence
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recih2hjzot1rJr2g
+  airtable_createdTime: '2020-02-04T21:30:23.000Z'
+  airtable_id: recKbaLyzNV2xVyxV
+  details: Makes homelessness statistics and related funding data easily accessible
+    for grants professionals, researchers, government finance professionals, and citizens
+    interested in transparency and accountability
+  tech_team_text: eCivis
+  title: Grants Intelligence
+- Category:
+  - discovery
+  - census
+  Data Sets: Census Bureau; Federal Bureau of Investigation; Centers for Disease Control
+    and Prevention
+  Description (New): Web-based artificial intelligence tool that helps journalists,
+    philanthropists, public servants, and policy advocates to search public data on
+    demographics, criminal justice, public health, and elections
+  Description (Old): MIT's tool is a web-based artificial intelligence tool that helps
+    journalists, philanthropists, public servants, and policy advocates to search
+    Census Bureau, FBI, and CDC public data on demographics, criminal justice, public
+    health, and elections.
+  Image: bayes-bd.jpg
+  Link: https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0
+  Problem Statement:
+  - rec0ukljQMNDcv91s
+  Product Name: Bayes BD
+  Sprint:
+  - recPKsumH7MWxbOTM
+  Tech Team:
+  - recFeyC3m91j3eDez
+  airtable_createdTime: '2020-02-04T21:32:00.000Z'
+  airtable_id: recMyCXtD901elAkR
+  details: Web-based artificial intelligence tool that helps journalists, philanthropists,
+    public servants, and policy advocates to search public data on demographics, criminal
+    justice, public health, and elections
+  tech_team_text: MIT
+  title: Bayes BD
+- Category:
+  - employment
+  Data Sets: 'Virginia Open Data Catalogue; Crowdsourced job reports '
+  Description (New): Shares alerts of local job openings
+  Description (Old): Ushahidi Job Postings combines crowdsourced job reports to share
+    alerts of local job openings.
+  Image: job-crowdsourcing-tool.jpg
+  Link: https://jobpostings.ushahidi.io/
+  Problem Statement:
+  - recGQ0S48RDx0VENx
+  Product Name: Job Crowdsourcing Tool
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recXy9McWYb0GWj5c
+  airtable_createdTime: '2020-02-04T21:32:19.000Z'
+  airtable_id: recNXCwgWCLa3ZMwB
+  details: Shares alerts of local job openings
+  tech_team_text: Ushahidi
+  title: Job Crowdsourcing Tool
+- Category:
+  - employment
+  - education
+  Data Sets: 'Eligible Training Provider Lists (ETPL) '
+  Description (New): ' Surfaces education options that lead to in-demand careers for
+    job seekers'
+  Description (Old): Uses data from eligible training provider lists (ETPL) to surface
+    education options that lead to in-demand careers for job seekers.
+  Problem Statement:
+  - recGQ0S48RDx0VENx
+  Product Name: Training Finder
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recfSWXExIhLR9Xmi
+  airtable_createdTime: '2020-02-10T16:00:39.000Z'
+  airtable_id: recPVCxfdXoYMpSGS
+  details: ' Surfaces education options that lead to in-demand careers for job seekers'
+  tech_team_text: LinkedIn
+  title: Training Finder
+- Category:
+  - addressing
+  Description (New): Helping low income families overcome the stress of finding affordable
+    housing, this tool combines transit access, walkability and school information
+    into one unique feed of available properties
+  Description (Old): Helping low income families overcome the stress of finding affordable
+    housing this tool combines transit access, walkability and school information
+    into one unique feed of available properties.
+  Problem Statement:
+  - recBxwNpfEqtxSEbI
+  Product Name: FindHome
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - reco9K5fOjP6TLgnH
+  airtable_createdTime: '2020-02-10T15:59:25.000Z'
+  airtable_id: recQ1M2vLF3zJSUJR
+  details: Helping low income families overcome the stress of finding affordable housing,
+    this tool combines transit access, walkability and school information into one
+    unique feed of available properties
+  tech_team_text: Loveland Technologies
+  title: FindHome
+- Category:
+  - housing
+  - employment
+  - transportation
+  Data Sets: 'Department of Commerce '
+  Description (New): Shows jobs individuals can get to in 30 minutes, without a car,
+    from any address
+  Description (Old): This tool from Redfin shows jobs you can get to in 30 minutes,
+    without a car, from any address.
+  Image: opportunity-score.jpg
+  Link: https://labs.redfin.com/opportunity-score
+  Product Name: Opportunity Score
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - rec4JWIKBqZIgbUk2
+  airtable_createdTime: '2020-02-10T16:04:14.000Z'
+  airtable_id: recQMqUTqBxw0DK7G
+  details: Shows jobs individuals can get to in 30 minutes, without a car, from any
+    address
+  tech_team_text: Redfin
+  title: Opportunity Score
+- Category:
+  - housing
+  Description (New): Explores the opportunity and growth potential of Baltimore's
+    neighborhoods
+  Description (Old): A tool by Zillow for exploring the opportunity and growth potential
+    of Baltimore's neighborhoods.
+  Product Name: Baltimore Explorer
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recBSyx2r9Zbo4dq2
+  airtable_createdTime: '2020-02-10T16:16:26.000Z'
+  airtable_id: recSDUQmkvZokAznh
+  details: Explores the opportunity and growth potential of Baltimore's neighborhoods
+  tech_team_text: Zillow
+  title: Baltimore Explorer
+- Category:
+  - census
+  Data Sets: 'Census Bureau Response Rates; Low Broadband Access; Barriers, Attitudes
+    and Motivators Study '
+  Description (New): Defines demographic profiles and psychographic barriers to design
+    culturally relevant stories that community organizations can use to engage seniors
+    and young adults from the Puerto Rican and Filipino diasporas and raise awareness
+    of how the Census impacts their lives
+  Description (Old): NextDayBetter used open data overlaying low-response census tracts
+    with low broadband access and CBAMS insights to define demographic profiles and
+    psychographic barriers to design stories that are culturally relevant to engage
+    Seniors and Young Adults from the Puerto Rican and Filipino diasporas, and  raise
+    awareness of how the census impacts their lives.
+  Image: whywecount.jpg
+  Link: https://www.whywecount.org
+  Participants:
+  - recUAgl06lSRyff6V
+  Problem Statement:
+  - recPYnQdPuuZ0FZZ9
+  Product Advisors: Jeff Meisel
+  Product Name: '#WhyWeCount'
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - rec2xyjvmNoAwTUFO
+  airtable_createdTime: '2020-02-04T21:29:34.000Z'
+  airtable_id: recSXynrxBTKXTh63
+  details: Defines demographic profiles and psychographic barriers to design culturally
+    relevant stories that community organizations can use to engage seniors and young
+    adults from the Puerto Rican and Filipino diasporas and raise awareness of how
+    the Census impacts their lives
+  problem_statements:
+  - recPYnQdPuuZ0FZZ9
+  tech_team_text: NextDayBetter
+  title: '#WhyWeCount'
+- Category:
+  - economic-development
+  - rural
+  Data Sets: Census ACS, NAICS, DOE College Scorecard, Census County Population by
+    Characteristics, Census County Business Patterns, USPTO Inventors Geocoded
+  Description (New): Creates digital economy reports for rural leaders designing economic
+    development strategies
+  Description (Old): Tech Talent Tracker uses BEA, FCC, ED, and USCB data (and third-party
+    data from GoDaddy, Facebook, and Deloitte) to create digital economy reports for
+    rural leaders designing economic development strategies.
+  Image: Tech-Talent-Tracker.png
+  Link: https://link.ruralinnovation.us/tech-talent-tool
+  Problem Statement:
+  - recn0ONeaB72GbD8z
+  Product Name: Tech Talent Tracker
+  Sprint:
+  - recMpslqDTkD8bJoj
+  Tech Team:
+  - recqjw671S8d0m9uJ
+  airtable_createdTime: '2021-02-19T18:55:45.000Z'
+  airtable_id: recSywRIyeQEsXwCq
+  details: Creates digital economy reports for rural leaders designing economic development
+    strategies
+  image-alt: This is a moving image of the Talent Tech Tracker app. You can filter
+    by county to see the tech economic report of different areas.
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  tech_team_text: Center on Rural Innovation
+  title: Tech Talent Tracker
+- Category:
+  - veterans
+  - housing
+  - health
+  Data Sets: 'Census Bureau; Department of Housing and Urban Development '
+  Description (New): Helps veterans communicate needs to their care team in real time,
+    identifying high-risk veterans for suicide, homelessness and substance use for
+    improved follow-up, transparency, and accountability
+  Description (Old): Care Partners Plus's tool uses Census Bureau and HUD data to
+    help veterans communicate needs to their care team in real time, identifying high-risk
+    veterans for suicide, homelessness and substance use for improved follow-up, transparency,
+    and accountability.
+  Image: get-vets-help.jpg
+  Link: https://www.carepartnersplus.com/
+  Problem Statement:
+  - recGo0glu9CVxEX87
+  Product Name: Get Vets Help
+  Sprint:
+  - rec4F32ORdTWH8d80
+  Tech Team:
+  - recB6vmItfkYnEbCY
+  airtable_createdTime: '2020-02-04T21:31:53.000Z'
+  airtable_id: recT8TuI7EDLqeTIk
+  details: Helps veterans communicate needs to their care team in real time, identifying
+    high-risk veterans for suicide, homelessness and substance use for improved follow-up,
+    transparency, and accountability
+  tech_team_text: Care Partners Plus
+  title: Get Vets Help
+- Category:
+  - education
+  Data Sets: '- State foreignassistance.gov, Congressional Research Service, usa.gov,
+    GAO, CBO'
+  Description (New): Offers a series of news and information modules on foreign aid,
+    federal budget, diplomacy, strategic initiatives, and an overview of the State
+    Department for middle and high school students.
+  Image: Bites-Media.png
+  Link: https://bitesmedia.com/
+  Problem Statement:
+  - recdNGSC2k2ptu3JM
+  Product Name: Bites Media
+  Sprint:
+  - recWgRn0SzeC0JNJ1
+  Tech Team:
+  - reclleWLi44z32y9S
+  airtable_createdTime: '2021-02-19T18:01:36.000Z'
+  airtable_id: recTfL9YZgQqj9i78
+  details: Offers a series of news and information modules on foreign aid, federal
+    budget, diplomacy, strategic initiatives, and an overview of the State Department
+    for middle and high school students.
+  image-alt: An webpage that explains foreign aid, and shows how you can understand
+    why governments want to either increase or decrease foreign aid.
+  tech_team_text: Bites Media
+  title: Bites Media
+- Category:
+  - housing
+  - health
+  - transportation
+  Data Sets: 'Bureau of Labor Statistics; Department of Education; Institute of Museums
+    and Library Services; other data from federal agencies and twelve cities '
+  Description (New): Facilitates finding, viewing, and collaborating over data for
+    Opportunity Project sprint participants
+  Description (Old): Uses data from eleven federal agencies and twelve cities to facilitate
+    finding, viewing and collaborating over data for Opportunity Project sprint participants.
+  Image: dataworld-workspace.jpg
+  Link: https://data.world/opportunity
+  Problem Statement:
+  - recCTI1VBSwUOl4Tq
+  Product Name: Data.World Workspace
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recyduOww6GYFzRO7
+  airtable_createdTime: '2020-02-04T21:30:42.000Z'
+  airtable_id: recV0aW7ZolC7aIoy
+  details: Facilitates finding, viewing, and collaborating over data for Opportunity
+    Project sprint participants
+  tech_team_text: Data.World
+  title: Data.World Workspace
+- Category:
+  - housing
+  Data Sets: 'Department of Housing and Urban Development '
+  Description (New): Identifies areas that present a high-opportunity for families
+    to supplement their housing costs through renting excess rooms or units
+  Description (Old): Uses HUD rental data to identify areas that present a high-opportunity
+    for families to supplement their housing costs through renting excess rooms or
+    units.
+  Problem Statement:
+  - recBxwNpfEqtxSEbI
+  Product Name: Housing Calculator
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recEg0GbLNkqrak2Y
+  airtable_createdTime: '2020-02-10T15:59:42.000Z'
+  airtable_id: recVCXRirVspq062m
+  details: Identifies areas that present a high-opportunity for families to supplement
+    their housing costs through renting excess rooms or units
+  tech_team_text: Airbnb
+  title: Housing Calculator
+- Category:
+  - environment
+  Data Sets: U.S. Forest Service environmental stewardship data
+  Description (New): Makes it simple to see what organizations are working in which
+    turfs for local groups to better connect with others caring for their local environment
+  Description (Old): Mapbox used U.S. Forest Service environmental stewardship data
+    to build STEWMAP Explorer which makes it simple to see what organizations are
+    working in which turfs for local groups to better connect with others caring for
+    their local environment.
+  Image: stewmap-explorer.jpg
+  Link: https://labs.mapbox.com/narratives/stewards/
+  Problem Statement:
+  - recZDeKZkpRgp2x1j
+  Product Name: STEWMAP Explorer
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - receOwIU74vvoLdfc
+  airtable_createdTime: '2020-02-04T21:31:20.000Z'
+  airtable_id: recWRZvsJGQgPYlDn
+  details: Makes it simple to see what organizations are working in which turfs for
+    local groups to better connect with others caring for their local environment
+  tech_team_text: Mapbox
+  title: STEWMAP Explorer
+- Category:
+  - entrepreneurship
+  Data Sets: "Small Business Administration \u2018Find Local Assistance\u2019 resource"
+  Description (New): Chatbot that empowers growth-minded entrepreneurs with the financial
+    and business knowledge to better manage their money and make confident, informed
+    business decisions
+  Description (Old): "Visa's Practical Business Skills chat bot uses several federal\
+    \ data, such as Small Business Administration\u2019s \u2018Find Local Assistance\u2019\
+    \ resource, to empower growth-minded entrepreneurs with the financial and business\
+    \ knowledge to better manage their money and make confident, informed business\
+    \ decisions."
+  Image: practical-business-skills.jpg
+  Link: https://www.practicalbusinessskills.com
+  Problem Statement:
+  - recfwUvvptMpf0PLj
+  Product Name: Practical Business Skills
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recHNjjPXIHJWQt72
+  airtable_createdTime: '2020-02-04T21:28:23.000Z'
+  airtable_id: recWyKy6qT8GX7jT8
+  details: Chatbot that empowers growth-minded entrepreneurs with the financial and
+    business knowledge to better manage their money and make confident, informed business
+    decisions
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  tech_team_text: Visa
+  title: Practical Business Skills
+- Category:
+  - transportation
+  - education
+  - health
+  Data Sets: Department of Health and Human Services; City of Philadelphia; Office
+    of Management and Budget; Department of Housing and Urban Development; Southeastern
+    Pennsylvania Transportation Authority; New Jersey Transit; State of Delaware
+  Description (New): Allows users to explore transit accessibility of resources including
+    parks, daycare centers, and health clinics
+  Description (Old): An interactive tool from Azavea for exploring transit accessibility
+    to target resources from focus areas.
+  Image: transit-analyst.jpg
+  Link: https://transitanalyst.com/
+  Product Name: Transit Analyst
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - rec3pKcAiwSL6HNya
+  airtable_createdTime: '2020-02-10T16:16:03.000Z'
+  airtable_id: recXOkjSet73HILtM
+  details: Allows users to explore transit accessibility of resources including parks,
+    daycare centers, and health clinics
+  tech_team_text: Azavea
+  title: Transit Analyst
+- Category:
+  - disasters
+  Data Sets: Federal disaster declaration and protective actions data
+  Description (New): Serious game that engages young adults in preparing for emergencies
+  Description (Old): Geoslug, a partnership between UC Santa Cruz and Motivf, created
+    a serious game that uses federal disaster declaration and protective actions data
+    to engage young adults in preparing for emergencies.
+  Image: disaster-awareness-games.jpg
+  Link: http://www.thedagames.com/
+  Prize Status: Applied
+  Problem Statement:
+  - recqL51kCcBL6go3m
+  Product Name: Disaster Awareness Games
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - recnOiErWbbfPhytr
+  - recpG8DRcMaxzbdYQ
+  airtable_createdTime: '2020-02-10T15:51:52.000Z'
+  airtable_id: recXgUtGqv4vnOFKA
+  details: Serious game that engages young adults in preparing for emergencies
+  tech_team_text: Geoslug- UC Santa Barbara, Motivf
+  title: Disaster Awareness Games
+- Category:
+  - housing
+  - health
+  - transportation
+  Data Sets: 'Department of Housing and Urban Development '
+  Description (New): Shows where opportunities are for low income citizens with children
+  Description (Old): A tool from Esri that shows where opportunities are for low income
+    citizens with children.
+  Image: affordable-housing-finder.jpg
+  Link: https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG
+  Product Name: Affordable Housing Finder
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recJKjOOhTrMk1R2e
+  airtable_createdTime: '2020-02-10T16:17:31.000Z'
+  airtable_id: recYDGmuetKuKzaJW
+  details: Shows where opportunities are for low income citizens with children
+  tech_team_text: Esri
+  title: Affordable Housing Finder
+- Image: Sprint-Background_01_Built.jpg
+  Link: https://amava.com/flexible-jobs/census-taker
+  Problem Statement:
+  - recnJuVbZsWFhpBW8
+  Product Name: Census Taker
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - rec1nvpK6aLuJHf4k
+  airtable_createdTime: '2021-02-19T21:32:12.000Z'
+  airtable_id: recYOMiqxyb3IN11r
+  problem_statements:
+  - recnJuVbZsWFhpBW8
+  tech_team_text: Amava
+  title: Census Taker
+- Category:
+  - rural
+  Data Sets: Census Bureau American Community Survey; Homeland Infrastructure Foundation
+    Level Data; Federal Communications Commission Form 477; Department of Education
+    College Scorecard
+  Description (New): Reveals Opportunity Zones with emerging tech sectors so investors
+    can discover promising rural startups ready to scale that otherwise would have
+    been overlooked
+  Description (Old): CORI's Rural Startup Scout uses federal datasets including the
+    American Community Survey, HIFLD, FCC Form 477, and data about education attainment
+    and patent activity to reveal Opportunity Zones with emerging tech sectors so
+    investors can discover promising rural startups ready to scale that otherwise
+    would have been overlooked.
+  Image: rural-startup-scout.jpg
+  Link: https://oz.ruralopportunitymap.us/
+  Problem Statement:
+  - recmZQEd4gpAgWPMm
+  Product Name: Rural Startup Scout
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recqjw671S8d0m9uJ
+  airtable_createdTime: '2020-02-04T21:28:33.000Z'
+  airtable_id: recYVIjlUXHhhAjLr
+  details: Reveals Opportunity Zones with emerging tech sectors so investors can discover
+    promising rural startups ready to scale that otherwise would have been overlooked
+  tech_team_text: Center on Rural Innovation
+  title: Rural Startup Scout
+- Category:
+  - employment
+  Data Sets: 'USA Jobs '
+  Description (New): 'Displays current government job listings, relevant resources
+    and shows statistics '
+  Description (Old): Uses labor/employment info from multiple federal data sources
+    to help navigate careers in government for Americans.
+  Image: opportunityhackernest.jpg
+  Link: http://opportunity.hackernest.com
+  Problem Statement:
+  - recGQ0S48RDx0VENx
+  Product Name: Opportunity.hackernest.com
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recyJn4eorp1gbjsp
+  airtable_createdTime: '2020-02-10T16:03:17.000Z'
+  airtable_id: recYdVmxC6OUqRxB0
+  details: 'Displays current government job listings, relevant resources and shows
+    statistics '
+  tech_team_text: Hackernest
+  title: Opportunity.hackernest.com
+- Category:
+  - grants
+  Data Sets: Department of Health and Human Services; Department of Education; USASpending.gov;
+    SAM.gov; Grants.gov; FEMA
+  Description (New): Visually showcases how federal grants spending leads to desired
+    performance outcomes, enhancing federal accountability and transparency for the
+    American public
+  Description (Old): "REI Systems\u2019 Grants Impact and Story Tool (GIST) uses federal\
+    \ open data from USASpending.gov, SAM.gov, Grants.gov, FEMA, HHS, and the Department\
+    \ of Education to visually showcase how federal grants spending leads to desired\
+    \ performance outcomes, enhancing federal accountability and transparency for\
+    \ the American public."
+  Image: grants-impact-and-story-tool.jpg
+  Link: https://gist.reisystems.io
+  Problem Statement:
+  - recGXB6VI2XEbqemj
+  Product Name: Grants Impact and Story Tool
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recZeQ8rsXC2TGPVp
+  airtable_createdTime: '2020-02-04T21:30:14.000Z'
+  airtable_id: recZ3abAz4ADb6WRZ
+  details: Visually showcases how federal grants spending leads to desired performance
+    outcomes, enhancing federal accountability and transparency for the American public
+  tech_team_text: REI
+  title: Grants Impact and Story Tool
+- airtable_createdTime: '2021-02-19T21:56:03.000Z'
+  airtable_id: recZC1VP8ywUBxS8q
+- Category:
+  - education
+  Data Sets: 'Census Bureau; Civil Rights Data Collection Program; National Center
+    for Education Statistics; Department of Education '
+  Description (New): Fuses together disparate, non-standardized data, to provide nationwide
+    analysis of metrics for federal and state decision-makers to support the Every
+    Student Succeeds Act (ESSA)
+  Description (Old): "Socrata\u2019s Citizen Education Data Cloud leveraged data from\
+    \ the Census Bureau, Civil Rights Data Collection Program, the National Center\
+    \ for Education Statistics, and the Department of Education to fuse together disparate,\
+    \ nonstandardized data, to provide nationwide analysis of metrics for federal\
+    \ and state decision-makers to support the Every Student Succeeds Act (ESSA)."
+  Image: citizen-education-data-cloud.jpg
+  Link: https://top.demo.socrata.com
+  Problem Statement:
+  - rec4jiLMOGoECbVXB
+  Product Name: Citizen Education Data Cloud
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recCQeXnM3qtBOGTs
+  airtable_createdTime: '2020-02-04T21:30:24.000Z'
+  airtable_id: recZkztX2XjSfcDzO
+  details: Fuses together disparate, non-standardized data, to provide nationwide
+    analysis of metrics for federal and state decision-makers to support the Every
+    Student Succeeds Act (ESSA)
+  tech_team_text: Socrata
+  title: Citizen Education Data Cloud
+- Category:
+  - census
+  Data Sets: 'Census Bureau Response Rate '
+  Description (New): Supports policymakers in resource allocation by predicting decennial
+    Census response rates by day for each census tract, and comparing them to the
+    true rates
+  Description (Old): Columbia university's product supports policymakers in resource
+    allocation by predicting decennial Census response rates by day for each census
+    tract, and comparing them to the true rates.
+  Image: tract-by-tract.jpg
+  Link: http://tractbytract.com/
+  Problem Statement:
+  - recDkOPeR5RLFwe2e
+  Product Name: Tract by Tract
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - rec5lLkD2ar0icWWj
+  airtable_createdTime: '2020-02-04T21:29:41.000Z'
+  airtable_id: recZn66weHUm3gq49
+  details: Supports policymakers in resource allocation by predicting decennial Census
+    response rates by day for each census tract, and comparing them to the true rates
+  tech_team_text: Columbia
+  title: Tract by Tract
+- Category:
+  - environment
+  Data Sets: Illinois EPA, Association of Plastics Recyclers, Illinois Recycling Association,
+    Plastics Markets, Buyers and Sellers, Institute of Scrap Recycling Industries,
+    The Recycling Partnership
+  Description (New): Empowers city officials to make informed decisions around waste
+    management that lead to transparency, investment and job creation through the
+    development of a circular economy
+  Description (Old): Our solution aims to empower city officials to make informed
+    decisions around waste management that lead to transparency, investment and job
+    creation.
+  Image: chicago-circular-economy.png
+  Link: https://chicago.topolyticsapp.com
+  Problem Statement:
+  - rec2dxKJmbiIV0Va5
+  Product Name: Chicago Circular Economy
+  Sprint:
+  - recfjW4XBdTnujZD7
+  Tech Team:
+  - recIg84I27yOjBzjC
+  airtable_createdTime: '2021-02-19T18:38:29.000Z'
+  airtable_id: recaRsKbgtQOavIpx
+  details: Empowers city officials to make informed decisions around waste management
+    that lead to transparency, investment and job creation through the development
+    of a circular economy
+  image-alt: Screenshot of the Topolytics application. The app displays a map of the
+    united states; the travel of waste products is color coded and tracked from place
+    to place.
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  tech_team_text: SAP
+  title: Chicago Circular Economy
+- Category:
+  - economic-development
+  Data Sets: 'American Community Survey; Proprietary enterprise level marketing systems
+    data; survey data '
+  Description (New): Ensures that community priorities inform Opportunity Zones strategies
+    employed by policy decision-makers, economic development officials, and investors
+    in Birmingham, Alabama
+  Description (Old): Public Democracy uses ACS data, proprietary enterprise level
+    marketing systems along with privately owned data, and new data that we gathered
+    via their survey tool, which ensures that community priorities inform OZ strategies
+    for policy decision-makers, economic development officials, and investors in Birmingham,
+    Alabama.
+  Image: community-led-opportunity-zones.jpg
+  Link: https://www.publicdemocracy.io/opportunity-zones-local-impact
+  Prize Status: Honorable Mention
+  Problem Statement:
+  - recmZQEd4gpAgWPMm
+  Product Name: Community Led Opportunity Zones
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recgjFKuVPIUgBBeI
+  airtable_createdTime: '2020-02-04T21:28:51.000Z'
+  airtable_id: recb1pW6mpE2vl6tp
+  details: Ensures that community priorities inform Opportunity Zones strategies employed
+    by policy decision-makers, economic development officials, and investors in Birmingham,
+    Alabama
+  tech_team_text: Public Democracy
+  title: Community Led Opportunity Zones
+- Category:
+  - refugees
+  Data Sets: State Department WRAPSnet, NTIA BroadbandUSA
+  Description (New): Enables refugees to identify community resources near them during
+    and after their resettlement period to the United States
+  Description (Old): RefugeeAssist uses WRAPSnet data (State Dept) and BroadbandUSA
+    data (NTIA) to allow refugees to identify community resources near them during
+    and after their resettlement period.
+  Image: RefugeeAssist.jpg
+  Link: https://refugeeassist.herokuapp.com/
+  Problem Statement:
+  - recDnQq3aDp59z637
+  Product Name: RefugeeAssist
+  Sprint:
+  - recMpslqDTkD8bJoj
+  Tech Team:
+  - recsQnUDbXniWXVZp
+  - reckLt6YrO4IJcvyb
+  airtable_createdTime: '2021-02-19T18:58:27.000Z'
+  airtable_id: recbsgNzUmmrKuEYn
+  details: Enables refugees to identify community resources near them during and after
+    their resettlement period to the United States
+  image-alt: Screenshot with a title that says Refugee Assist. There are icons below
+    that say 'Medical', 'Legal', 'Religious', etc.
+  problem_statements:
+  - recDnQq3aDp59z637
+  tech_team_text: Georgetown McCourt School of Public Policy, Columbia University
+  title: RefugeeAssist
+- Category:
+  - census
+  Data Sets: Department of Housing and Urban Development; Community partners
+  Description (New): Helps Area Census Office Staff visualize and verify potential
+    locations of individuals experiencing homelessness for enumeration
+  Description (Old): Community Counts leverages data from HUD and Community Partners
+    to help Area Census Office Staff visualize and verify potential locations of individuals
+    experiencing homelessness for enumeration.
+  Image: community-counts.jpg
+  Link: https://2020counts.org/
+  Problem Statement:
+  - recDkOPeR5RLFwe2e
+  Product Name: Community Counts
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - rec1pHCwGPd73Vsl1
+  airtable_createdTime: '2020-02-10T15:48:05.000Z'
+  airtable_id: recc6G4ozj7KnAH6e
+  details: Helps Area Census Office Staff visualize and verify potential locations
+    of individuals experiencing homelessness for enumeration
+  tech_team_text: Excella
+  title: Community Counts
+- Category:
+  - economic-development
+  Data Sets: Census Bureau; Department of Agriculture; Department of Education; U.S.
+    Securities and Exchange Commission
+  Description (New): Brings transparency to the Opportunity Zone ecosystem for investors,
+    fund manager, wealth managers, and cities
+  Description (Old): Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department
+    of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
+    Commission data to bring transparency to the Opportunity Zone ecosystem for investors,
+    fund manager, wealth managers, and cities.
+  Image: city-builder.jpg
+  Link: https://www.citivelocity.com/citybuilder/eppublic/cb
+  Prize Status: Winner
+  Problem Statement:
+  - recmZQEd4gpAgWPMm
+  Product Name: City Builder
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recWU7wQtwNIwHE6H
+  airtable_createdTime: '2020-01-30T19:22:47.000Z'
+  airtable_id: recdBbAkH3Y7hu4y4
+  details: Brings transparency to the Opportunity Zone ecosystem for investors, fund
+    manager, wealth managers, and cities
+  tech_team_text: Citi Ventures
+  title: City Builder
+- Category:
+  - education
+  - environment
+  Data Sets: EPA Idle-Free Schools Toolkit
+  Description (New): Educates young students about air quality and bus emissions and
+    encourages students, parents, and teachers to create healthier school environments
+  Image: Clean-Air-Hero_rutgers.png
+  Link: https://www.figma.com/proto/VpqqzfTu9FeHba7G0s44YQ/Demo?node-id=1%3A17&scaling=min-zoom
+  Problem Statement:
+  - recG9NY8ns2oza4vp
+  Product Name: Clean Air Hero
+  Sprint:
+  - recuhdACXvzRxxZEM
+  Tech Team:
+  - recQGdmjezb1rxULl
+  airtable_createdTime: '2021-02-19T16:24:26.000Z'
+  airtable_id: receafMaV7aRWkMwG
+  details: Educates young students about air quality and bus emissions and encourages
+    students, parents, and teachers to create healthier school environments
+  image-alt: Image of Clean  Air Hero Product
+  tech_team_text: Rutgers University IDEA
+  title: Clean Air Hero
+- Category:
+  - addressing
+  Data Sets: "Census Bureau\u2019s National Address Database Schema; United States\
+    \ Department of Agriculture The National Agriculture Imagery Program (NAIP) imagery "
+  Description (New): ' Provides a field data crowdsourcing platform for government
+    or agency stakeholders with gaps in their address data on the ground '
+  Description (Old): "Spatial Networks\u2019 Fulcrum mobile app is a field data collection\
+    \ platform that allows communities to collect crowdsourced data. Spatial Networks\
+    \ used the Census Bureau\u2019s National Address Database schema and USDA\u2019\
+    s NAIP imagery to create a Community account for The Opportunity Project, which\
+    \ provides a field data crowdsourcing platform for government or agency stakeholders\
+    \ with gaps in their address data on the ground."
+  Image: fulcrum-community-for-addressing-and-disaster-preparedness.jpg
+  Link: https://web.fulcrumapp.com/communities/opportunity-project
+  Problem Statement:
+  - rec55VBughwHjCFWp
+  Product Name: Fulcrum Community for Addressing and Disaster Preparedness
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - recw5wWtMIDR9pMLV
+  airtable_createdTime: '2020-02-10T15:49:31.000Z'
+  airtable_id: receo5EjDvZOW0G6N
+  details: ' Provides a field data crowdsourcing platform for government or agency
+    stakeholders with gaps in their address data on the ground '
+  tech_team_text: Spatial Networks
+  title: Fulcrum Community for Addressing and Disaster Preparedness
+- Category:
+  - veterans
+  Data Sets: 'Career One Stop; Department of Labor O*NET Database; Walkingscore.com;
+    Google maps '
+  Description (New): Provides career recommendations to veterans on potential job/apprenticeship
+    matches based on conceptual search, training recommendations, and skill gap analysis
+  Description (Old): "IBM\u2019s tool Watson Employment Manager uses DOL Career One\
+    \ Stop, O*NET  center, Walkingscore.com, and Google maps data to provide career\
+    \ recommendations on potential job/apprenticeship matches based on conceptual\
+    \ search and training recommendations, and skill gap analysis."
+  Image: watson-employment-manager.jpg
+  Link: https://apprenticeships.mybluemix.net
+  Problem Statement:
+  - recLROAotmnLsG3Bw
+  Product Name: Watson Employment Manager
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recMUAnVYSJwQLFhD
+  airtable_createdTime: '2020-02-04T21:30:14.000Z'
+  airtable_id: recfUxMS7BNZxVPLX
+  details: Provides career recommendations to veterans on potential job/apprenticeship
+    matches based on conceptual search, training recommendations, and skill gap analysis
+  tech_team_text: IBM
+  title: Watson Employment Manager
+- Category:
+  - employment
+  Data Sets: 'Bureau of Labor Statistics '
+  Description (New): "Helps Redfin\u2019s millions of users better understand the\
+    \ opportunities and tradeoffs in terms of housing, employment and other factors\
+    \ when looking to relocate for work or find workers for startups "
+  Description (Old): "Redfin's job opportunity tool uses datasets on employment clusters,\
+    \ pay ranges, housing costs, and more to help better inform Redfin\u2019s millions\
+    \ of users looking to relocate for work or even startups looking to find workers."
+  Image: job-opportunity-tool.jpg
+  Link: https://www.redfin.com/blog/job-opportunity-tool/
+  Problem Statement:
+  - rec6yDEfMyReqsMcl
+  Product Name: Job Opportunity Tool
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - rec4JWIKBqZIgbUk2
+  airtable_createdTime: '2020-02-04T21:28:40.000Z'
+  airtable_id: recfqTRYC5LXFiOUe
+  details: "Helps Redfin\u2019s millions of users better understand the opportunities\
+    \ and tradeoffs in terms of housing, employment and other factors when looking\
+    \ to relocate for work or find workers for startups "
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  tech_team_text: Redfin
+  title: Job Opportunity Tool
+- Category:
+  - housing
+  - employment
+  - transportation
+  Data Sets: '!!! No data listed'
+  Description (New): "\"Ground-truthing\" neighborhood navigator powered by local\
+    \ knowledge, answering questions including \u201Chow walkable is my city?\u201D\
+    \ and \u201Cwho provides childcare I can trust?\u201D"
+  Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
+  Image: streetwyze.jpg
+  Link: http://www.streetwyze.com/
+  Product Name: Streetwyze
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - rec3PNNY2hoq6maZg
+  airtable_createdTime: '2020-02-10T16:16:49.000Z'
+  airtable_id: rechMaHffUM7JYl3l
+  details: "\"Ground-truthing\" neighborhood navigator powered by local knowledge,\
+    \ answering questions including \u201Chow walkable is my city?\u201D and \u201C\
+    who provides childcare I can trust?\u201D"
+  tech_team_text: Streetwyze
+  title: Streetwyze
+- Category:
+  - housing
+  - education
+  - health
+  Description (New): ' Provides visibility into the affordability of opportunity for
+    children in U.S. metro areas'
+  Description (Old): Story maps providing visibility into the affordability of opportunity
+    for children in U.S. metro areas.
+  Product Name: diversitydatakids.org
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recm5nLUnSaxx0EDf
+  airtable_createdTime: '2020-02-10T16:16:13.000Z'
+  airtable_id: rechZ1AK6ip9XaCqE
+  details: ' Provides visibility into the affordability of opportunity for children
+    in U.S. metro areas'
+  tech_team_text: diversitydatakids.org
+  title: diversitydatakids.org
+- Category:
+  - disasters
+  Data Sets: 'Puerto Rico Open Data Portal (Building Permits, Public Wifi, Public
+    Schools, Libraries, Hospitals, Hotels); Army Corps of Engineers; Old San Juan
+    Airbnb Survey '
+  Description (New): Assesses the occupancy, condition, land use, and needs of all
+    1.5 million properties on the island of Puerto Rico
+  Description (Old): Puerto Rico Land Grid by Loveland Technologies combines a parcel
+    map of Puerto Rico with a scalable mobile survey platform and federal open data
+    sets and overlays. An accompanying survey plan and budget details an approach
+    to assessing the occupancy, condition, land use, and needs of all 1.5 million
+    properties on the island.
+  Image: puerto-rico-land-grid.jpg
+  Link: https://landgrid.com/us/pr#b=admin
+  Problem Statement:
+  - recqL51kCcBL6go3m
+  Product Name: Puerto Rico Land Grid
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - reco9K5fOjP6TLgnH
+  airtable_createdTime: '2020-02-04T21:31:04.000Z'
+  airtable_id: reciAHM7OE2uo9JTi
+  details: Assesses the occupancy, condition, land use, and needs of all 1.5 million
+    properties on the island of Puerto Rico
+  tech_team_text: Loveland Technologies
+  title: Puerto Rico Land Grid
+- Category:
+  - veterans
+  Data Sets: 'Department of Labor '
+  Description (New): An algorithm developed in partnership with SkillsEngine, a workforce
+    development and technology nonprofit, shows veterans the most relevant registered
+    apprenticeships based on their declared skills, interests, and military history
+  Description (Old): Civis Analytics partnered with SkillsEngine, a workforce development
+    and technology nonprofit, to create an algorithm that uses Department of Labor
+    data and Natural Language Processing to show veterans the most relevant registered
+    apprenticeships based on their declared skills, interests, and military history.
+  Image: veteran-apprenticeship-matcher.jpg
+  Link: https://www.civisanalytics.com/custom-services/
+  Problem Statement:
+  - recLROAotmnLsG3Bw
+  Product Name: Veteran Apprenticeship Matcher
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recYJMcRX9wkv4vwC
+  airtable_createdTime: '2020-02-04T21:30:46.000Z'
+  airtable_id: reciS4wntA3e352BQ
+  details: An algorithm developed in partnership with SkillsEngine, a workforce development
+    and technology nonprofit, shows veterans the most relevant registered apprenticeships
+    based on their declared skills, interests, and military history
+  tech_team_text: Civis Analytics
+  title: Veteran Apprenticeship Matcher
+- Category:
+  - education
+  Data Sets: 'Department of Education college readiness data '
+  Description (New): Measures gaps in access to educational opportunities across student
+    groups to help advocates increased equity
+  Description (Old): Great Schools and Education Cities' uses college readiness data
+    to measure gaps in access to educational opportunities across student groups to
+    help advocates increase equity.
+  Problem Statement:
+  - rec6HY78EY2rrTgQq
+  Product Name: Opportunity Dashboard
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recLm3s1u8Lf6Eilc
+  airtable_createdTime: '2020-02-10T16:00:16.000Z'
+  airtable_id: recj2I36nEPH4qWuf
+  details: Measures gaps in access to educational opportunities across student groups
+    to help advocates increased equity
+  tech_team_text: Great Schools
+  title: Opportunity Dashboard
+- Category:
+  - housing
+  - health
+  - transportation
+  Description (New): Allows for comparison and similarity detection of geographic
+    regions
+  Description (Old): A tool from Socrata that allows for comparison and similarity
+    detection of geographic regions.
+  Image: opendata-network.jpg
+  Link: https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
+  Product Name: OpenData Network
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recCQeXnM3qtBOGTs
+  airtable_createdTime: '2020-02-10T16:17:20.000Z'
+  airtable_id: recj9AnYrX4fI5Ecf
+  details: Allows for comparison and similarity detection of geographic regions
+  tech_team_text: Socrata
+  title: OpenData Network
+- Category:
+  - education
+  Data Sets: Census Bureau; Department of Health and Human Services; Institute of
+    Museum and Library Services; School District of Philadelphia; Pennsylvania State
+    Department of Education
+  Description (New): Brings together economic, health center, and community institution
+    data to help school leaders find and develop community partnerships
+  Description (Old): Brings together economic, health center, and community institution
+    data to help school leaders find and develop community partnerships.
+  Image: school-resourcemapper.jpg
+  Link: https://learn.datasociety.com/kitamba-the-opportunity-project/
+  Problem Statement:
+  - recWUq0tYLA47nFU2
+  Product Name: School ResourceMapper
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recMJVUJVjI0OTYdo
+  - receenOZnO5PWw45u
+  airtable_createdTime: '2020-02-10T16:00:54.000Z'
+  airtable_id: recjBsJokWirN5SXn
+  details: Brings together economic, health center, and community institution data
+    to help school leaders find and develop community partnerships
+  tech_team_text: Data Society, Kitamba
+  title: School ResourceMapper
+- Category:
+  - employment
+  Data Sets: Equal Employment Opportunity Commission; Census Bureau
+  Description (New): Creates more inclusive, nontoxic workplaces for individuals and
+    their employers
+  Description (Old): Kanarys uses open EEOC data and Census Bureau data and reports
+    to create more inclusive, nontoxic workplaces for individuals and their employers.
+  Image: kanarys.jpg
+  Link: https://app.kanarys.com/
+  Prize Status: Applied
+  Problem Statement:
+  - rec6Coqk1u4BTdxLI
+  Product Name: Kanarys
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recG2Af8pfS6f9kI9
+  airtable_createdTime: '2020-02-04T21:28:10.000Z'
+  airtable_id: reckOdJi2Y6DUxI09
+  details: Creates more inclusive, nontoxic workplaces for individuals and their employers
+  tech_team_text: Kanarys
+  title: Kanarys
+- Category:
+  - employment
+  Data Sets: North American Industry Classification (NACIS) codes; National Certifications
+    Table; Department of Labor O*NET Database
+  Description (New): Helps small businesses, nonprofit resource centers, and institutions
+    to better connect skills, certifications, industries and outcomes of training
+    programs towards the right jobs in the right industry
+  Description (Old): Solve uses NAICs codes and National Certifications Table to organize
+    industries to better connect skills, certifications, industries and outcomes of
+    training programs towards the right jobs in the right industry.
+  Image: solve.jpg
+  Link: https://solve.is/
+  Prize Status: Applied
+  Problem Statement:
+  - rec6Coqk1u4BTdxLI
+  Product Name: Solve
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - rec4OLZwHCLJOs6GU
+  airtable_createdTime: '2020-01-30T19:22:47.000Z'
+  airtable_id: recleNeiLRdZwSdLt
+  details: Helps small businesses, nonprofit resource centers, and institutions to
+    better connect skills, certifications, industries and outcomes of training programs
+    towards the right jobs in the right industry
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  tech_team_text: Solve.is
+  title: Solve
+- Category:
+  - health
+  - housing
+  Data Sets: Department of Housing and Urban Development; Census Bureau American Community
+    Survey
+  Description (New): Combines various data critical to the well being of New Yorkers
+  Description (Old): This tool from Measure of America combines various data critical
+    to the well being of New Yorkers.
+  Image: visualizing-youth-disconnection.jpg
+  Link: http://www.measureofamerica.org/SegregatedOpportunity/
+  Problem Statement:
+  - recWUq0tYLA47nFU2
+  Product Name: Visualizing Youth Disconnection
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recoaWbpjLMVcGQuZ
+  airtable_createdTime: '2020-02-04T21:32:08.000Z'
+  airtable_id: recmiMYwGdZ4hHgMF
+  details: Combines various data critical to the well being of New Yorkers
+  tech_team_text: Measure of America
+  title: Visualizing Youth Disconnection
+- Category:
+  - opioids
+  Data Sets: US Census Bureau; Local emergency response data
+  Description (New): Predicts geographic areas where opioid emergencies are likely
+    to occur to help public safety and health officials pre-position the appropriate
+    response units in order to save lives at the moment of crisis
+  Description (Old): "Esri\u2019s ArcGIS Insights uses local emergency response and\
+    \ Census Bureau data to predict geographic areas where opioid emergencies are\
+    \ likely to occur to help public safety and health officials pre-position the\
+    \ appropriate response units in order to save lives at the moment of crisis."
+  Image: insight-for-arcgis.jpg
+  Link: https://go.esri.com/opioidprediction
+  Problem Statement:
+  - recUnXFEYwEO7Uea6
+  Product Name: Insight for ArcGIS
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - recJKjOOhTrMk1R2e
+  airtable_createdTime: '2020-02-04T21:30:55.000Z'
+  airtable_id: recnSpNUcyeoVi28K
+  details: Predicts geographic areas where opioid emergencies are likely to occur
+    to help public safety and health officials pre-position the appropriate response
+    units in order to save lives at the moment of crisis
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  tech_team_text: Esri
+  title: Insight for ArcGIS
+- Category:
+  - environment
+  Data Sets: 'Economic Census and American Community Survey data for Baltimore; Self-reported
+    volunteer activity '
+  Description (New): DEVOP (Demographic Environmental Volunteer Opportunity Plotter)
+    allows organizations to target areas to volunteer in and potential partners to
+    successfully steward the environment
+  Description (Old): Bloomberg used Economic Census and American Community Survey
+    data for Baltimore, coupled with self-reported volunteer activity, to allow organizations
+    to target areas to volunteer in and potential partners to successfully steward
+    the environment.
+  Image: bloomberg-devop.jpg
+  Link: https://communityanalyst.arcgis.com/esriCA/login/index.html
+  Problem Statement:
+  - recZDeKZkpRgp2x1j
+  Product Name: Bloomberg DEVOP
+  Sprint:
+  - recg9LuHpKxgB95Xy
+  Tech Team:
+  - recERFU1XNm3uiot0
+  airtable_createdTime: '2020-02-04T21:31:31.000Z'
+  airtable_id: reco73a0LwOf8hbof
+  details: DEVOP (Demographic Environmental Volunteer Opportunity Plotter) allows
+    organizations to target areas to volunteer in and potential partners to successfully
+    steward the environment
+  problem_statements:
+  - recZDeKZkpRgp2x1j
+  tech_team_text: Bloomberg
+  title: Bloomberg DEVOP
+- Category:
+  - education
+  Description (New): '!!! Broken link'
+  Description (Old): A collaboration with Zillow to help families find housing near
+    high opportunity schools.
+  Product Name: GreatSchools
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recLm3s1u8Lf6Eilc
+  airtable_createdTime: '2020-02-10T16:04:27.000Z'
+  airtable_id: recos0StoN5zEkGyv
+  details: '!!! Broken link'
+  tech_team_text: Great Schools
+  title: GreatSchools
+- Category:
+  - health
+  Data Sets: "Department of Veteran\u2019s Affairs "
+  Description (New): Assesses suicide and other risk in patients and guides them through
+    crisis to available support resource
+  Description (Old): Uses anonymized mental health data from the VA Health System
+    to assess suicide and other risk in patients and guide them through crisis to
+    available support resources.
+  Problem Statement:
+  - recIGFiEZlWX5XzD9
+  Product Name: TextHelp
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recrN8Taf1zmcq4Fr
+  airtable_createdTime: '2020-02-10T16:02:55.000Z'
+  airtable_id: recpQRl79tKixOYHk
+  details: Assesses suicide and other risk in patients and guides them through crisis
+    to available support resource
+  tech_team_text: Open Medicine Institute
+  title: TextHelp
+- Category:
+  - census
+  Data Sets: "Public Use Microdata Sample of the Census Bureau\u2019s American Community\
+    \ Survey"
+  Description (New): 'Showcases Latino leadership across California and helps anyone
+    working to improve the quality of life for Latino and Hispanic residents of California
+    to understand both the opportunities and the challenges Latino communities '
+  Description (Old): The California Latino Power Map uses federal, California state,
+    and city level open data to showcase Latino leadership across California and make
+    plain both the opportunities and the challenges that Latino communities encounter
+    for anyone who works to improve the quality of life for Latino and Hispanic residents
+    of California.
+  Image: california-latino-power-map.jpg
+  Link: https://latinocf.org/map
+  Problem Statement:
+  - rec2cDmW6ubg6Wco0
+  Product Name: California Latino Power Map
+  Sprint:
+  - rec5A5h9cq07ijoPk
+  Tech Team:
+  - recoaWbpjLMVcGQuZ
+  airtable_createdTime: '2020-02-10T15:48:44.000Z'
+  airtable_id: recro3E8gXTIQ5IHO
+  details: 'Showcases Latino leadership across California and helps anyone working
+    to improve the quality of life for Latino and Hispanic residents of California
+    to understand both the opportunities and the challenges Latino communities '
+  problem_statements:
+  - rec2cDmW6ubg6Wco0
+  tech_team_text: Measure of America
+  title: California Latino Power Map
+- Category:
+  - education
+  Data Sets: 'School-level data '
+  Description (New): Customizable data briefs that help local school districts and
+    education foundations inform parents and the electorate about the need for more
+    funding
+  Description (Old): Customizable data briefs use school-level data to help local
+    school districts and education foundations inform parents and the electorate about
+    the need for more funding.
+  Problem Statement:
+  - recWUq0tYLA47nFU2
+  Product Name: LiveStories
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recJ768Bi3CebP12t
+  airtable_createdTime: '2020-02-10T16:01:20.000Z'
+  airtable_id: recs1AuNUUppAFbr3
+  details: Customizable data briefs that help local school districts and education
+    foundations inform parents and the electorate about the need for more funding
+  tech_team_text: LiveStories
+  title: LiveStories
+- Category:
+  - housing
+  Data Sets: Department of Housing and Urban Development
+  Description (New): 'Allows users to identify areas of opportunity by specifying
+    their most important priorities, including housing, jobs, schools, and transportation '
+  Description (Old): A tool that allows users to identify areas of opportunity by
+    specifying their most important priorities.
+  Image: policymap-tool.jpg
+  Link: https://opportunity.policymap.com/
+  Product Name: PolicyMap Tool
+  Sprint:
+  - recdj3TovoodAthIh
+  Tech Team:
+  - recJ2sjLpz8h64iQH
+  airtable_createdTime: '2020-02-10T16:15:52.000Z'
+  airtable_id: recsTaRTvzM11DFWX
+  details: 'Allows users to identify areas of opportunity by specifying their most
+    important priorities, including housing, jobs, schools, and transportation '
+  tech_team_text: Policy Map
+  title: PolicyMap Tool
+- Category:
+  - disasters
+  Data Sets: USASpending, FEMA Monthly Disaster Spending Reports, FEMA Annual Performance
+    Report, FEMA Disaster Summaries, FEMA Mission Summaries, FEMA Public Assistance,
+    HHS Annual Performance Report, HUD Fair Market Rents, IRS, CDC/SVI, Census, DOL,
+    BLS
+  Description (New): Tracks and analyzes the impact of disaster relief funding for
+    mitigation and recovery efforts using big data, aerial imagery, predictive analytics
+    and geo-spatial technologies
+  Image: Emergency-Disaster-Funding-Tracking.png
+  Link: https://public.tableau.com/views/TOPSDashboard/Story1?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link
+  Problem Statement:
+  - rec4KZSqOYnXgo2gD
+  Product Name: Emergency & Disaster Funding Tracking
+  Sprint:
+  - recMpslqDTkD8bJoj
+  Tech Team:
+  - recXRGicwM4YbpVJr
+  airtable_createdTime: '2021-01-25T22:56:29.000Z'
+  airtable_id: rectcKAi8zsdwiqjg
+  details: Tracks and analyzes the impact of disaster relief funding for mitigation
+    and recovery efforts using big data, aerial imagery, predictive analytics and
+    geo-spatial technologies
+  image-alt: Image of emergency disaster funding product
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  tech_team_text: RevealGC & Alteryx
+  title: Emergency & Disaster Funding Tracking
+- Category:
+  - transportation
+  - health
+  Data Sets: Office of the Surgeon General; Department of Transportation
+  Description (New): Generates instant insights that address accessibility of opportunity
+    and emotional well-being for citizens across the county
+  Description (Old): Uses a combination of 30 datasets to generate instant insights
+    that address accessibility of opportunity and emotional well-being for citizens
+    across the county.
+  Image: mysidewalk.jpg
+  Link: https://theopportunityproject.mysidewalk.com/
+  Problem Statement:
+  - recWbNwNVTeALHVEK
+  Product Name: mySidewalk
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recTc4KdyanXdJorG
+  airtable_createdTime: '2020-02-10T16:01:34.000Z'
+  airtable_id: recuj8LvrOlw7qVZl
+  details: Generates instant insights that address accessibility of opportunity and
+    emotional well-being for citizens across the county
+  tech_team_text: My Sidewalk
+  title: mySidewalk
+- Category:
+  - environment
+  Data Sets: Department of Housing and Urban Development Fair Market Rent data; OpenStreetMap
+  Description (New): Rapidly and easily assess neighborhood family amenities and voucher
+    amounts for Section 8 Housing Seekers
+  Description (Old): Uses Fair Market Rent data from HUD, along with OpenStreetMap,
+    to rapidly and easily assess neighborhood family amenities and voucher amounts
+    for Section 8 Housing Seekers.
+  Image: neighborhood-opportunity.jpg
+  Link: https://labs.mapbox.com/labs/opportunity/
+  Problem Statement:
+  - recBxwNpfEqtxSEbI
+  Product Name: Neighborhood Opportunity
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - receOwIU74vvoLdfc
+  airtable_createdTime: '2020-02-10T16:00:00.000Z'
+  airtable_id: reculF774OHizAs0S
+  details: Rapidly and easily assess neighborhood family amenities and voucher amounts
+    for Section 8 Housing Seekers
+  tech_team_text: Mapbox
+  title: Neighborhood Opportunity
+- Category:
+  - discovery
+  - census
+  Data Sets: Census Bureau
+  Description (New): Free mapping and data tool for visualizing data that can help
+    with decennial Census outreach in NYC communities by answering questions like
+    'What happens with Census data?' and 'Why does the Census matter to me?'
+  Description (Old): Measure of America used their data platform data2go.nyc to create
+    a free mapping and data tool for visualizing Census Bureau, state, and city data
+    that can help with decennial Census outreach in NYC communities by answering questions
+    like 'What happens with Census data?' and 'Why does the Census matter to me?'
+  Problem Statement:
+  - rec0ukljQMNDcv91s
+  Product Name: Data2Go for Census Outreach
+  Sprint:
+  - recPKsumH7MWxbOTM
+  Tech Team:
+  - recoaWbpjLMVcGQuZ
+  airtable_createdTime: '2020-02-10T15:59:00.000Z'
+  airtable_id: recvDZEaGFFEtnR4l
+  details: Free mapping and data tool for visualizing data that can help with decennial
+    Census outreach in NYC communities by answering questions like 'What happens with
+    Census data?' and 'Why does the Census matter to me?'
+  tech_team_text: Measure of America
+  title: Data2Go for Census Outreach
+- Category:
+  - veterans
+  Data Sets: Department of Labor O*NET Database; Bureau of Labor Statistics
+  Description (New): Helps veterans translate their skills and visualize career and
+    educational steps toward reaching their dream jobs in desired locations
+  Description (Old): "Shift.org\u2019s tool CareerNav uses data from the Department\
+    \ of Labor's O*NET Database and Bureau of Labor Statistics to help veterans translate\
+    \ their skills and visualize career and educational steps toward reaching their\
+    \ dream jobs in desired locations."
+  Image: career-nav.jpg
+  Link: https://www.shift.org/careernav
+  Problem Statement:
+  - recLROAotmnLsG3Bw
+  Product Name: Career Nav
+  Sprint:
+  - recbhMlc1WZWXNte0
+  Tech Team:
+  - recDRJNZ2EYYcZkRd
+  airtable_createdTime: '2020-02-04T21:30:08.000Z'
+  airtable_id: recvh8HbEmn5MuzGI
+  details: Helps veterans translate their skills and visualize career and educational
+    steps toward reaching their dream jobs in desired locations
+  tech_team_text: Shift.org
+  title: Career Nav
+- Category:
+  - education
+  - employment
+  Data Sets: Bureau of Labor Statistics
+  Description (New): Makes career exploration easy and accessible for high school
+    students
+  Description (Old): A mobile application that uses employment statistics and occupational
+    data from the Bureau of Labor Statistics to make career exploration easy and accessible
+    for high school students.
+  Image: careerspark.jpg
+  Link: https://itunes.apple.com/us/app/careerspark/id1146518762?mt=8
+  Problem Statement:
+  - recGQ0S48RDx0VENx
+  Product Name: CareerSpark
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recx3i2r2lzTf3AWj
+  airtable_createdTime: '2020-02-10T16:04:03.000Z'
+  airtable_id: recvlzXnQhGrvyOew
+  details: Makes career exploration easy and accessible for high school students
+  tech_team_text: Flatiron School
+  title: CareerSpark
+- Category:
+  - economic-development
+  Data Sets: Department of Labor; Census Bureau; US Cluster Mapping Project; Proprietary
+    Burning Glass data on labor market demand
+  Description (New): Assists regional workforce and economic development conveners
+    develop strategies and prioritize initiatives to achieve inclusive development
+    in their regions and to build an inclusive development network that includes leaders
+    from the civic sector, government, and industry
+  Description (Old): Burning Glass Technologies used federal open data from the Department
+    of Labor and US Census Bureau, proprietary Burning Glass data on labor market
+    demand, and public data from the US Cluster Mapping Project to assist regional
+    workforce and economic development conveners develop strategies and prioritize
+    initiatives to achieve inclusive development in their regions and to build an
+    inclusive development network that includes leaders from the civic sector, government,
+    and industry.
+  Image: inclusive-development-dashboards.jpg
+  Link: https://www.burning-glass.com/census/community.html
+  Prize Status: Winner
+  Problem Statement:
+  - recmZQEd4gpAgWPMm
+  Product Name: Inclusive Development Dashboards
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recUNs4aOHNtEL5CD
+  airtable_createdTime: '2020-02-04T21:28:17.000Z'
+  airtable_id: recwo6k02qWF773ZK
+  details: Assists regional workforce and economic development conveners develop strategies
+    and prioritize initiatives to achieve inclusive development in their regions and
+    to build an inclusive development network that includes leaders from the civic
+    sector, government, and industry
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  tech_team_text: Burning Glass
+  title: Inclusive Development Dashboards
+- Category:
+  - economic-development
+  Data Sets: "Open-source public data; Mastercard\u2019s anonymized and aggregated\
+    \ transaction data "
+  Description (New): Provides community leaders with local, data-driven insights that
+    measure the degree to which place, economy and community in a given Opportunity
+    Zone benefit from equitable growth
+  Description (Old): The Inclusive Growth Score blends open-source public data with
+    a proprietary layer of aggregated and anonymized Mastercard Data to measure the
+    degree to which place, economy and community in a given Opportunity Zone benefit
+    from equitable growth.
+  Image: inclusive-growth-score.jpg
+  Link: https://inclusivegrowthscore.com/
+  Problem Statement:
+  - recmZQEd4gpAgWPMm
+  Product Name: Inclusive Growth Score
+  Sprint:
+  - rec4Y10emS9DtmBpT
+  Tech Team:
+  - recb65UW4CPMA9fvf
+  airtable_createdTime: '2020-01-30T19:22:47.000Z'
+  airtable_id: recxPFYJEXMA7YTmC
+  details: Provides community leaders with local, data-driven insights that measure
+    the degree to which place, economy and community in a given Opportunity Zone benefit
+    from equitable growth
+  tech_team_text: Mastercard
+  title: Inclusive Growth Score
+- Category:
+  - employment
+  - veterans
+  Data Sets: 'Census Bureau; Department of Labor O*NET database '
+  Description (New): Helps veterans translate their developed skills into private
+    sector careers and connect them to the education, soft skills development, and
+    employers that can ensure their success
+  Description (Old): This tool uses data from the U.S. Census Bureau, Department of
+    Labor, O*NET, and more to help veterans translate their developed skills into
+    private sector careers and connect them to the education, soft skills development,
+    and employers that can ensure their success.
+  Image: pairin-pathways.jpg
+  Link: https://www.pairin.com/pairin-pathways/
+  Problem Statement:
+  - recGo0glu9CVxEX87
+  Product Name: PAIRIN Pathways
+  Sprint:
+  - rec4F32ORdTWH8d80
+  Tech Team:
+  - recwGIGrno2E5XdGn
+  airtable_createdTime: '2020-02-04T21:31:59.000Z'
+  airtable_id: recxhgzBILVkvarN6
+  details: Helps veterans translate their developed skills into private sector careers
+    and connect them to the education, soft skills development, and employers that
+    can ensure their success
+  tech_team_text: Pairin
+  title: PAIRIN Pathways
+- Category:
+  - health
+  Data Sets: Data on local hazards & resources
+  Description (New): Enables researchers to unobtrusively measure everyday behavior
+    to build a risk state detection algorithm that powers precise, life-saving mental
+    health interventions
+  Description (Old): Enables researchers to unobtrusively measure everyday behavior
+    and integrate open data on local hazards & resources to build a risk state detection
+    algorithm that powers precise, life-saving mental health interventions.
+  Problem Statement:
+  - recIGFiEZlWX5XzD9
+  Product Name: EARS
+  Sprint:
+  - recPEm69CcLh1tX2s
+  Tech Team:
+  - recUq5MboT2UcJ4hT
+  airtable_createdTime: '2020-02-10T16:02:37.000Z'
+  airtable_id: recyH7SUTuXtVQEjq
+  details: Enables researchers to unobtrusively measure everyday behavior to build
+    a risk state detection algorithm that powers precise, life-saving mental health
+    interventions
+  tech_team_text: University of Oregon
+  title: EARS
+- Category:
+  - employment
+  - housing
+  Data Sets: HHS Poverty Guidelines, Census Income and Poverty, Census ACS, GAO
+  Description (New): Helps economically disadvantaged Americans break the cycle of
+    generational poverty and create a positive path to self-sufficiency
+  Description (Old): The EnVision App helps the economically disadvantaged break the
+    cycle of generational poverty and create a positive path to self-sufficiency.
+    Lives get better, families get healthier, and communities win.
+  Image: The-EnVision-App.png
+  Link: https://www.ops1.com/envision.aspx
+  Problem Statement:
+  - recD4rN8c5sH3ECRi
+  Product Name: The EnVision App
+  Sprint:
+  - recMpslqDTkD8bJoj
+  - recTxx36IPxHdegzX
+  Tech Team:
+  - recYN8Gz2O6ERs3y3
+  airtable_createdTime: '2021-02-19T18:53:24.000Z'
+  airtable_id: recyKI9exBfBtz1hr
+  details: Helps economically disadvantaged Americans break the cycle of generational
+    poverty and create a positive path to self-sufficiency
+  image-alt: The image contains a screenshot of someone's profile in the app. The
+    name is 'Thomas Moore', with options to select 'My Account', 'My Needs', and 'Service
+    Providers'.
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  tech_team_text: '"Organizational Performance Systems, Inc."'
+  title: The EnVision App
+- Category:
+  - environment
+  Data Sets: National Agriculture Imagery Program (NAIP)
+  Data Sets 2:
+  - recuCGIy7wQ8hvVzJ
+  Description (New): Provides a gentle on-ramp and simple way to explore NAIP imagery
+    for users at USDA and the farmers they serve
+  Description (Old): The NAIP explorer uses NAIP imagery to provides a gentle on-ramp
+    and very simple way to explore imagery for users at USDA and the farmers they
+    serve.
+  Image: NAIP-explorer.png
+  Link: https://labs.mapbox.com/labs/naip/
+  Problem Statement:
+  - recSM7q7ufXLojrBx
+  Product Name: NAIP Explorer
+  Sprint:
+  - recfjW4XBdTnujZD7
+  Tech Team:
+  - receOwIU74vvoLdfc
+  airtable_createdTime: '2021-02-19T18:31:53.000Z'
+  airtable_id: recyPJeX2onUtcMln
+  details: Provides a gentle on-ramp and simple way to explore NAIP imagery for users
+    at USDA and the farmers they serve
+  image-alt: Screenshot of the NAIP viewer. The image was acquired on 2018/11/11,
+    and displays an arial view of the Big Ridge State Park. The left side of the park
+    is a dark green, and the right side is a dark brown.
+  problem_statements:
+  - recSM7q7ufXLojrBx
+  tech_team_text: Mapbox
+  title: NAIP Explorer
+- Category:
+  - environment
+  Data Sets: EPA AirNow, Open Data DC Street Segments API, DC GIS Master Address Repository,
+    TomTom Traffic API
+  Description (New): Compiles and analyzes real-time data on traffic patterns and
+    air pollution in the District of Columbia  to allow policymakers to explore the
+    effect of transportation on air quality
+  Description (Old): AirMotionDC compiles and analyzes real-time data on traffic patterns
+    and air pollution in the District of Columbia to explore the effect of transportation
+    on air quality.
+  Image: AirMotionDC.png
+  Link: https://mthnguyen.shinyapps.io/AirMotionDC/
+  Problem Statement:
+  - recG9NY8ns2oza4vp
+  Product Name: AirMotionDC
+  Sprint:
+  - recuhdACXvzRxxZEM
+  Tech Team:
+  - recP532wcyIIxk80H
+  airtable_createdTime: '2021-02-19T18:49:03.000Z'
+  airtable_id: recyl8q9tZWnPoQQt
+  details: Compiles and analyzes real-time data on traffic patterns and air pollution
+    in the District of Columbia  to allow policymakers to explore the effect of transportation
+    on air quality
+  image-alt: A screenshot of the product with the title 'Assessment of Air Quality
+    and Traffic Volume'. The app is set for Washington, D.C., and you have the option
+    to sort by the day, the ward, and the location.
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  tech_team_text: American University
+  title: AirMotionDC
+- Category:
+  - census
+  - discovery
+  Data Sets: Census Bureau American Community Survey
+  Description (New): Drives awareness of Census Bureau data for mobile millennials
+    and application developers so they can solve social problems using open data available
+    for their communities and cities
+  Description (Old): Cisco DevNet's tool uses American Community Survey data from
+    the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials
+    and application developers so they can solve social problems using open data available
+    for their communities and cities.
+  Image: my-city-data-learning-tool.jpg
+  Link: https://developer.cisco.com/site/census/
+  Problem Statement:
+  - rec0ukljQMNDcv91s
+  Product Name: My City Data Learning Tool
+  Sprint:
+  - recPKsumH7MWxbOTM
+  Tech Team:
+  - recnxx9mhnzOrsmIu
+  airtable_createdTime: '2020-02-04T21:30:36.000Z'
+  airtable_id: reczVGhvSjjSjcHRp
+  details: Drives awareness of Census Bureau data for mobile millennials and application
+    developers so they can solve social problems using open data available for their
+    communities and cities
+  tech_team_text: Cisco
+  title: My City Data Learning Tool

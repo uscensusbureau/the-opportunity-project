@@ -87,7 +87,6 @@
   - recMD0i0MaZnPjHzb
   Products:
   - recCGea83hgr4djMm
-  - recro3E8gXTIQ5IHO
   Sprints:
   - rec5A5h9cq07ijoPk
   agency_text: U.S. Census Bureau
@@ -95,10 +94,7 @@
   airtable_id: rec2cDmW6ubg6Wco0
   datasets_text: Computer and Internet Use, Deconstructing the Digital Divide, 2018
     FCC Broadband Deployment Report
-  featured_product:
-  - recro3E8gXTIQ5IHO
-  products_text: Voatz, California Latino Power Map
-  sprint_order: 3
+  products_text: Voatz
   sprint_text: 2020 Census
 - Agency:
   - recllJ66jGEQ8bRtg
@@ -107,8 +103,6 @@
     of recycled materials.
   Full Title: Developing Markets for Recycled Materials
   Name: Recycling
-  Products:
-  - recaRsKbgtQOavIpx
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: U.S. recycling facilities and manufacturers looking
@@ -131,18 +125,11 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:42:53.000Z'
   airtable_id: rec2dxKJmbiIV0Va5
-  featured_product:
-  - recaRsKbgtQOavIpx
-  products_text: Chicago Circular Economy
-  sprint_order: 2
   sprint_text: Natural Environment
 - Agency:
   - recFUgWuGZMTCoKVG
   Full Title: Tracking Impact of Disaster and Emergency Funding
   Name: Disaster Spending
-  Products:
-  - rec85E0U2wrRBV8dc
-  - rectcKAi8zsdwiqjg
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: American public, researchers, engaged citizens, state/local
@@ -151,10 +138,6 @@
   agency_text: Office of Management and Budget
   airtable_createdTime: '2020-04-30T15:24:04.000Z'
   airtable_id: rec4KZSqOYnXgo2gD
-  featured_product:
-  - rectcKAi8zsdwiqjg
-  products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking
-  sprint_order: 3
   sprint_text: Built Environment
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -241,7 +224,6 @@
   - rec4tY9vvumikW1Ku
   Sprints:
   - recbhMlc1WZWXNte0
-  - recg9LuHpKxgB95Xy
   Target audience / End user: Tribal, state, and local governments.
   Vision for sprint outcomes: Outcomes from The Opportunity Project provide the momentum
     needed for tribal, state, and local governments to begin to fill in address point
@@ -272,12 +254,9 @@
   datasets_text: 'TIGER: Line Address Range-Feature, TIGER: Line Roads Data, Local
     Update of Census Address Operation (LUCA), National Agriculture Imagery Program,
     U.S. National Grid, National Address Database (NAD), NAD Schema'
-  featured_product:
-  - rec4tY9vvumikW1Ku
   products_text: The TomTom Centaur Data Logging App, Fulcrum Community for Addressing
     and Disaster Preparedness, PRADOS
-  sprint_order: 1
-  sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury), Geo-Cohort
+  sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
 - Agency:
   - rec0xQsk7n0Ht7V2M
   Background: "Today, too many of our Nation\u2019s K-12 and postsecondary students\
@@ -377,7 +356,6 @@
   - recxHTUb4hhjIsh4l
   Products:
   - reckOdJi2Y6DUxI09
-  - recleNeiLRdZwSdLt
   Sprints:
   - rec4Y10emS9DtmBpT
   Target audience / End user: Young people (ages 14-24) who are trying to determine
@@ -400,10 +378,7 @@
   contacts_text: Sariane Leigh, Diane Jones
   datasets_text: Occupational Outlook Handbook, O*NET Web Services, CyberSeek, Apprenticeship
     Available Occupations, Employment Situation Summary, Apprenticeship Finder
-  featured_product:
-  - recleNeiLRdZwSdLt
-  products_text: Kanarys, Solve
-  sprint_order: 3
+  products_text: Kanarys
   sprint_text: Workforce
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -482,6 +457,8 @@
   - recENolxMWomlQE1K
   - reclmoCUkYlHji460
   Products:
+  - recleNeiLRdZwSdLt
+  - recwo6k02qWF773ZK
   - recfqTRYC5LXFiOUe
   - recFK3C3oDrmnIwA3
   Sprints:
@@ -507,10 +484,8 @@
     Statistics, Integrated Postsecondary Education Data System, Regional Innovation
     Strategies (RIS) Program, Regional Innovation Strategies (RIS) Program, Cluster
     Mapping, Stats America
-  featured_product:
-  - recfqTRYC5LXFiOUe
-  products_text: Job Opportunity Tool, Talent Finder Tool
-  sprint_order: 2
+  products_text: Solve, Inclusive Development Dashboards, Job Opportunity Tool, Talent
+    Finder Tool
   sprint_text: Workforce
 - Agency:
   - recnfIRYEISCJVJM6
@@ -653,8 +628,6 @@
     mobility.
   Full Title: Economic Self-Sufficiency for Low-Income Families
   Name: Economic Self-Sufficiency
-  Products:
-  - recyKI9exBfBtz1hr
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Low to moderate income heads of households; case managers;
@@ -676,10 +649,6 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-01-26T16:35:00.000Z'
   airtable_id: recD4rN8c5sH3ECRi
-  featured_product:
-  - recyKI9exBfBtz1hr
-  products_text: The EnVision App
-  sprint_order: 1
   sprint_text: Built Environment
 - Agency:
   - recuesxBrh08C2a6O
@@ -700,22 +669,12 @@
   - reczOYPyGk2jIFSz5
   Products:
   - recc6G4ozj7KnAH6e
+  - recro3E8gXTIQ5IHO
   - recZn66weHUm3gq49
+  - recSXynrxBTKXTh63
   - recB5iDMet16XnjXe
   Sprints:
   - rec5A5h9cq07ijoPk
-  Target audience / End user: Historically undercounted populations and organizations
-    that represent them. These populations include LGBTQ community, children under
-    5, people experiencing homelessness, renters, and members of underrepresented
-    minorities
-  Why this problem matters: Given that the population count from the Census determines
-    redistricting, the allocation of seats in the House of Representatives, and close
-    to $700 billion in federal funding are allocated to communities across the nation
-    for the next 10 years, ensuring an accurate count is essential. An undercount
-    has significant long-term implications for communities. For example, in the 2010
-    Census, nearly 1 million children (4.6% of children under the age of 5) were not
-    counted. This can contribute to inaccurate school enrollment projections  and
-    result in overcrowding and teacher shortages.
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:35.000Z'
   airtable_id: recDkOPeR5RLFwe2e
@@ -723,17 +682,13 @@
     "2020 Census Research, Operational Plans, and Oversight", Audience Segment Descriptions,
     Annual Homeless Assessment Report (AHAR), Homeless Point-in-Time (PIT) and Housing
     Inventory Count (HIC)
-  featured_product:
-  - recB5iDMet16XnjXe
-  products_text: Community Counts, Tract by Tract, Census Intelligence Center
-  sprint_order: 1
+  products_text: 'Community Counts, California Latino Power Map, Tract by Tract, #WhyWeCount,
+    Census Intelligence Center'
   sprint_text: 2020 Census
 - Agency:
   - recrqBHDoN6UK5bCq
   Full Title: Assisting Recently Resettled Refugees
   Name: Refugees
-  Products:
-  - recbsgNzUmmrKuEYn
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Resettled refugees in the United States, nonprofits
@@ -741,18 +696,11 @@
   agency_text: USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-01-26T16:43:44.000Z'
   airtable_id: recDnQq3aDp59z637
-  featured_product:
-  - recbsgNzUmmrKuEYn
-  products_text: RefugeeAssist
-  sprint_order: 4
   sprint_text: Built Environment
 - Agency:
   - recllJ66jGEQ8bRtg
   Full Title: "Increasing Awareness of Emissions\u2019 Effects on Air Quality"
   Name: Transportation Emissions
-  Products:
-  - receafMaV7aRWkMwG
-  - recyl8q9tZWnPoQQt
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: Engaged citizens and the general public, especially
@@ -763,10 +711,6 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:46:02.000Z'
   airtable_id: recG9NY8ns2oza4vp
-  featured_product:
-  - recyl8q9tZWnPoQQt
-  products_text: Clean Air Hero, AirMotionDC
-  sprint_order: 4
   sprint_text: Natural Environment
 - Agency:
   - recG1tIVvzTYzOMct
@@ -995,8 +939,6 @@
     BLS Job Outcomes Data
   products_text: Veteran Apprenticeship Matcher, Career Nav, Watson Employment Manager
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- airtable_createdTime: '2021-02-18T20:29:47.000Z'
-  airtable_id: recMAjTAxFvtkRg2i
 - Agency:
   - rec0xQsk7n0Ht7V2M
   Background: "Homelessness affects a growing number of students nationwide. The number\
@@ -1036,25 +978,17 @@
     count.
   Full Title: Increasing digital literacy
   Name: Increasing Digital Literacy
-  Products:
-  - recSXynrxBTKXTh63
   Sprints:
   - rec5A5h9cq07ijoPk
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:14.000Z'
   airtable_id: recPYnQdPuuZ0FZZ9
-  featured_product:
-  - recSXynrxBTKXTh63
-  products_text: '#WhyWeCount'
-  sprint_order: 4
   sprint_text: 2020 Census
 - Agency:
   - recNgTPOj9ZbFP6g3
   - recRIQZncXRS0OZpy
   Full Title: Reducing Plastic Pollution in Oceans
   Name: Ocean Plastics
-  Products:
-  - rec6IC6El0nNjSiCA
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: Engaged citizens passionate about reducing plastic pollution,
@@ -1062,10 +996,6 @@
   agency_text: United States Department of State, The Wilson Center
   airtable_createdTime: '2021-01-26T16:35:32.000Z'
   airtable_id: recQeWP4kfK1EakJW
-  featured_product:
-  - rec6IC6El0nNjSiCA
-  products_text: Ocean Plastics Story Map
-  sprint_order: 3
   sprint_text: Natural Environment
 - Agency:
   - recnfIRYEISCJVJM6
@@ -1074,8 +1004,6 @@
     them make important agricultural and planning decisions.
   Full Title: Aiding Agricultural Decision-Making
   Name: NAIP
-  Products:
-  - recyPJeX2onUtcMln
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: Farmers, ranchers, engaged citizens, rural or tribal
@@ -1090,10 +1018,6 @@
   agency_text: U.S. Department of Agriculture
   airtable_createdTime: '2021-01-26T16:35:07.000Z'
   airtable_id: recSM7q7ufXLojrBx
-  featured_product:
-  - recyPJeX2onUtcMln
-  products_text: NAIP Explorer
-  sprint_order: 1
   sprint_text: Natural Environment
 - Agency:
   - reci7jH40piLVRIiY
@@ -1162,10 +1086,7 @@
     Set (TEDS), Local Area Unemployment Statistics (LAUS), National EMS Information
     System (NEMSIS), Area Health Resource File (AHRF), Buprenorphine Treatment Practitioner
     Locator (SAMHSA)
-  featured_product:
-  - recnSpNUcyeoVi28K
   products_text: Insight for ArcGIS
-  sprint_order: 3
   sprint_text: Geo-Cohort
 - Agency:
   - rec0xQsk7n0Ht7V2M
@@ -1333,10 +1254,7 @@
   datasets_text: Stewardship Mapping and Assessment Project (STEW-MAP), U.S. Census
     Bureau Data, Urban Tree Canopy (UTC), National Land Cover, Enviroatlas, Costal
     Resilience Tool
-  featured_product:
-  - reco73a0LwOf8hbof
   products_text: STEWMAP Explorer, Bloomberg DEVOP
-  sprint_order: 4
   sprint_text: Geo-Cohort
 - Agency:
   - recG1tIVvzTYzOMct
@@ -1369,14 +1287,11 @@
 - Agency:
   - recNgTPOj9ZbFP6g3
   Name: Civics Education
-  Products:
-  - recTfL9YZgQqj9i78
   Sprints:
   - recWgRn0SzeC0JNJ1
   agency_text: United States Department of State
   airtable_createdTime: '2020-04-30T15:14:43.000Z'
   airtable_id: recdNGSC2k2ptu3JM
-  products_text: Bites Media
   sprint_text: TOPx
 - Agency:
   - reci7jH40piLVRIiY
@@ -1451,10 +1366,7 @@
     (RIS) Program, Regional Innovation Strategies (RIS) Program, National Science
     Foundation Awards, National Institutes of Health Awards, Opportunity Zone Status,
     Census Business Builder'
-  featured_product:
-  - recWyKy6qT8GX7jT8
   products_text: Practical Business Skills
-  sprint_order: 4
   sprint_text: Workforce
 - Agency:
   - recFUgWuGZMTCoKVG
@@ -1548,7 +1460,6 @@
   - recYVIjlUXHhhAjLr
   - recxPFYJEXMA7YTmC
   - recb1pW6mpE2vl6tp
-  - recwo6k02qWF773ZK
   Sprints:
   - rec4Y10emS9DtmBpT
   Target audience / End user: Entrepreneurs, managers of Opportunity Zone funds, and
@@ -1575,11 +1486,8 @@
     Opportunity Zone Locations, Low-Income Housing Tax Credit Qualified Census Tracts,
     Treasury ZIP Code Statistics of Income, Food Access Research Atlas, Atlas of Rural
     and Small-Town America, Location of Energy Infrastructure
-  featured_product:
-  - recwo6k02qWF773ZK
   products_text: City Builder, Rural Startup Scout, Inclusive Growth Score, Community
-    Led Opportunity Zones, Inclusive Development Dashboards
-  sprint_order: 1
+    Led Opportunity Zones
   sprint_text: Workforce
 - Agency:
   - recllJ66jGEQ8bRtg
@@ -1589,8 +1497,6 @@
     budgets.
   Full Title: Facilitating Sustainable Rural Economic Development
   Name: Rural Economic Development
-  Products:
-  - recSywRIyeQEsXwCq
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Local officials or other local decision makers; regional
@@ -1613,10 +1519,6 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:45:28.000Z'
   airtable_id: recn0ONeaB72GbD8z
-  featured_product:
-  - recSywRIyeQEsXwCq
-  products_text: Tech Talent Tracker
-  sprint_order: 2
   sprint_text: Built Environment
 - Agency:
   - recuesxBrh08C2a6O
@@ -1629,19 +1531,12 @@
   Name: Promoting 2020 Census Jobs
   Potential Open Data Sets:
   - recPseyxKPiOIK8mK
-  Products:
-  - recYOMiqxyb3IN11r
   Sprints:
   - rec5A5h9cq07ijoPk
-  Target audience / End user: Job seekers and those in the gig economy
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:23.000Z'
   airtable_id: recnJuVbZsWFhpBW8
   datasets_text: Census Takers
-  featured_product:
-  - recYOMiqxyb3IN11r
-  products_text: Census Taker
-  sprint_order: 2
   sprint_text: 2020 Census
 - Agency:
   - recpbSNCmDzp0AxFi
@@ -1660,9 +1555,15 @@
     \ Profile are more likely to be 18-34 and less likely to own a home. This group\
     \ of people tend to perceive barriers to preparedness like cost, time, and access\
     \ to information. They are also less likely to take significant steps to prepare. "
-  Challenge: Create digital tools that use data to help individuals and community
-    leaders gain a better understanding of national and community hazards and threats
-    and enable the public to take appropriate preparedness actions.
+  Challenge: "Create digital tools that use data to help individuals and community\
+    \ leaders gain a better understanding of national and community hazards and threats\
+    \ and enable the public to take appropriate preparedness actions. Digital tools\
+    \ could leverage geospatial data to: \u2022 help identify barriers to preparedness\
+    \ within communities; \u2022 create innovative engagement platforms such as games\
+    \ that allow people to experiment and explore hazards and threats unique to their\
+    \ communities in a \u201Clow-risk\u201D environment; and \u2022 integrate with\
+    \ current preparedness messaging to help people, especially younger cohorts, better\
+    \ understand risks and encourage preparedness actions."
   Full Title: Using Geospatial Data to Help People Prepare for Disasters
   Name: Using Geospatial Data to Help People Prepare for Disasters
   Potential Open Data Sets:
@@ -1706,8 +1607,5 @@
   datasets_text: American Community Survey - Population Data, USGS Earthquake Data,
     National Household Survey, National Centers for Environmental Information, Wildfire
     Data, Ready Campaign, Datasets on terrorist and other man-made threats
-  featured_product:
-  - rec5dPCVzV3SHuZDS
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
-  sprint_order: 2
   sprint_text: Geo-Cohort

@@ -7,6 +7,11 @@ hero:
   text: Prize Challenge
   subtext: Win funding to scale your solution and deliver impact
 
+banner-subheader:
+  top:
+    background: base-darkest
+    line: '-light'
+
 about:
   title: About the Prize
   left-col-width: '3'
@@ -43,10 +48,16 @@ winners:
 ---
 
 {% include hero.html %}
+{% include connecting-banner-with-subheader.html %}
 {% include two-column-markdown.html content=page.about %}
 {% include two-column-markdown.html content=page.judging %}
 {% include text-callout-centered.html %}
 
-{% assign yearlyWinners = site.data.products | where_exp: "prize_status", "prize_status != 'nil'" %}
-{{ site.data.products.size }}
-{{ yearlyWinners.size }}
+  {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
+  {% capture winningProducts %}
+    {% for winner in winners %}
+      {% include prize-winner-product.html content=winner %}
+    {% endfor %}
+  {% endcapture %}
+
+{% include grid-section.html capture=winningProducts content=page.winners %}

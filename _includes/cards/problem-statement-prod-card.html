@@ -1,12 +1,16 @@
 {% assign card=include.content %}
 <div 
   class="card-container ps-card {{ include.utils }}"
-  style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.Image }});
+  style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});
           background-size: cover;">
   <div class="card-header">
     <h3 class="text-sans-1 text-ls-1">
       <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}">
-        {{ card.title }}
+        {% if card.title %}
+          {{ card.title }}
+        {% elsif card.product_name %}
+          {{ card.product_name }}
+        {% endif %}
       </a>
     </h3>
     <p>{{ card.tech_team_text }}</p>

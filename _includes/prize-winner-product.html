@@ -1,0 +1,36 @@
+{% assign product = include.content %}
+
+{% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[0] %}
+{% assign sprint = sprints[0] %}
+
+{% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
+{% assign problem_statement = problem_statements[ 0 ] %}
+
+
+
+<div class="grid-container">
+  <div class="grid-row">
+    
+    <div class="tablet:grid-col-3">
+      {% include cards/problem-statement-prod-card.html content=product %}
+    </div>
+    
+    <div class="tablet:grid-col-5">
+      <h4 class="secondary-header">Description</h4>
+      {{ product.description }}
+    </div>
+    
+    <div class="tablet:grid-col-4">
+      <h4 class="secondary-header">Sprint</h4>
+      {{ sprint.Name }}
+      <h4 class="secondary-header">Problem Statement</h4>
+      {{ problem_statement['Full Title'] }}<br/>
+      <br/>
+      <span>
+        <img src="{{ site.baseurl }}/assets/img/icons/yellow-star.svg"/>
+        Awarded $20K
+      </span>
+    </div>
+  
+  </div>
+</div>

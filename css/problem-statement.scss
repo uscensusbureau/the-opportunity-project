@@ -119,7 +119,6 @@ $ps-breakpoint: 'mobile-lg';
 
     h3 {
       @include u-font('sans', 3);
-      text-decoration: underline;
     }
     p {
       @include u-font('body', '3xs');

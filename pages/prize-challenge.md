@@ -42,8 +42,7 @@ callout:
 
 winners:
   title: Past Winners
-  subtext: $100k awarded in The Opportunity Project’s inaugural Prize Challenge. 
-  fineprint: See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.
+  subtext: $100k awarded in The Opportunity Project’s inaugural Prize Challenge. See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.
 
 ---
 
@@ -53,11 +52,14 @@ winners:
 {% include two-column-markdown.html content=page.judging %}
 {% include text-callout-centered.html %}
 
-  {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
-  {% capture winningProducts %}
-    {% for winner in winners %}
-      {% include prize-winner-product.html content=winner %}
-    {% endfor %}
-  {% endcapture %}
+<div class="text-center margin-bottom-6">
+  <h2 class="margin-bottom-0">{{ page.winners.title }}</h2>
+  <div class="maxw-tablet margin-x-auto">
+    {{ page.winners.subtext | markdownify }}
+  </div>
+</div>
 
-{% include grid-section.html capture=winningProducts content=page.winners %}
+{% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
+{% for winner in winners %}
+  {% include prize-winner-product.html content=winner %}
+{% endfor %}

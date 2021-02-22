@@ -14,6 +14,8 @@ primary:
         href: sprints/
       - text: Products
         href: showcase/
+      - text: Prize Challenge
+        href: prize-challenge/
   - text: Press
     href: 'news/'
   - text: Resources

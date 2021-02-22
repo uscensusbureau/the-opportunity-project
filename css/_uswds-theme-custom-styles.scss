@@ -2422,7 +2422,7 @@ code {
   color: color("white");
   padding: units(6);
   border: solid 1px rgba(255, 255, 255, 0.8);
-
+  @include white-links;
 }
 
 .usa-media-block__inline-items {
@@ -4533,21 +4533,11 @@ body {
   }
 }
 
-.callout-expanded {
-  a {
-    color: white;
-    &:visited {
-      color: white;
-    }
-  }
-}
-
 .grid-section {
   @include u-bg('white');
   @include grid-container;
   @include u-maxw('desktop');
   @include u-padding-x(2);
-  // bg-white grid-container maxw-desktop padding-x-2
 }
 
 .write-a-story {
@@ -4624,6 +4614,10 @@ body {
     @include u-margin-bottom(3);
     @include u-padding-right(5);
   }
+}
+
+.usa-card__container > .card-header {
+  @include u-radius($theme-card-border-radius);
 }
 
 .short-card {

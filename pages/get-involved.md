@@ -26,6 +26,7 @@ content-light:
 
 
 callout:
+  id: asa
   text: Participate in the American Statistical Association Data Challenge Expo
   expander:
     summary: Win cash prizes by using Census Bureau data. The theme this year is "Helping Families, Business, and Communities Respond to COVID-19."
@@ -78,7 +79,7 @@ get_involved:
 {% capture expanded %}
   {% include_relative {{ page.callout.expander.expandedSrc }} %}
 {% endcapture %}
-{% include text-callout-centered.html content=expanded %}
+{% include text-callout-centered.html content=page.callout expanded=expanded %}
 
 {% capture left-join %}
   {% include_relative {{ page.join.left-col }} %}

@@ -16,6 +16,14 @@
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}
+            {% if callout.markdownSrc %}
+              {% capture markdown %}
+                {% include_relative {{ callout.markdownSrc }} %}
+              {% endcapture %}
+              <div class="callout-expanded">
+                {{ markdown | markdownify }}
+              </div>
+            {% endif %}
 
 
             {% if callout.expander %}

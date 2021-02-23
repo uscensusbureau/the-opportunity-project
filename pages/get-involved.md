@@ -1,7 +1,7 @@
 ---
 title: Get Involved
 permalink: /get-involved/
-class: sprints
+class: get-involved
 layout: default
 
 # full span, top of page section

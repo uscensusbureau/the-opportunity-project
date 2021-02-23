@@ -2,6 +2,9 @@
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
   <head>
+    {% if page.class == "sprints" %}
+      <script type="text/javascript" src="{{site.baseurl}}/assets/js/asa-redirect.js"></script>
+    {% endif %}
     {% include head.html %}
   </head>
   <body class="page-{{ page.title | slugify }} layout-{{ page.layout }} {% if page.class %}page-{{ page.class | slugify }}{% endif %}">

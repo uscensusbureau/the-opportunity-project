@@ -356,8 +356,7 @@ h1, h2, h3 {
         color($site-base-transparent-light);
       clear: both;
       display: block;
-      // padding-left: units(2);
-      height: 4.25rem;
+      // height: 4.25rem;
       z-index: z-index($z-nav-secondary);
 
       overflow-x: scroll;
@@ -414,22 +413,23 @@ h1, h2, h3 {
       color: color("gray-50");
       display: inline-block;
       font-weight: fw("normal");
-      height: units($height-nav-secondary);
+      // height: units($height-nav-secondary);
       padding: units(2);
       position: relative;
       text-decoration: none;
 
-      &.highlight {
+      
+      &:hover, &:active {
         @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
         color: color('secondary');
       }
-      &:hover {
-        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-        color: color($site-primary-vivid);
-      }
-      &:active {
-        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-        color: color($site-primary-vivid);
+      &.highlight {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('base-darkest');
+        font-weight: fw('bold');
+        &:hover, &:active {
+          color: color('base-darkest');
+        }
       }
     }
 

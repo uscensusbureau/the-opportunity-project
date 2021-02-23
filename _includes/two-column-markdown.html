@@ -29,6 +29,11 @@
             <p>{{ section.body | markdownify }}</p>
           {% endif %}
         {% endfor %}
+      {% elsif include.content.left-col %}
+        {% capture left %}
+          {% include_relative {{include.content.left-col}} %}
+        {% endcapture %}
+        {{ left | markdownify }}
       {% else %}
         {{ include.left-col | markdownify }}
       {% endif %}

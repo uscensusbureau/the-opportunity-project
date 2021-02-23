@@ -20,8 +20,7 @@ about:
   right-col-offset: 1
   skip-top-border: true
   skip-bottom-border: true
-  left:
-    - body: '![Illustration of an arrow pointing to the right over a navy blue field]({{ site.baseurl }}/img/photos/get-involved/arrow.jpg)'
+  left-col: prize-challenge/circle-logo.md
   right:
     - body: '*In 2019, we launched The Opportunity Project Prize Challenge, the Census Bureau’s first ever prize competition, which awarded $100,000 in funding across 5 teams.*'
     - title: Why the Prize was Launched

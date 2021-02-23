@@ -69,7 +69,7 @@
       <h1 class="font-sans line-height-sans-3 text-semi-bold font-lang-13 margin-bottom-1">{{ page.hero.product}}</h1>
       <p class="font-mono-xs text-ls-2 text-white margin-top-0 opacity-70"> {{ page.hero.tech_team | upcase }}</p>
     </div>
-{% elsif page.class == "sprints" %}
+{% elsif page.class == "sprints" or page.class == "get-involved" %}
   <section class="interior-hero bg-base-darkest">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-1">
       <h1 class="usa-hero__title margin-bottom-1 padding-top-0">{{ page.hero.text}}</h1>

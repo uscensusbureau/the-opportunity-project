@@ -1,4 +1,6 @@
-<main class="bg-primary">
+{% assign callout = include.content %}
+
+<main class="bg-primary" {% if callout.id %}id="{{callout.id}}"{% endif %}>
   <section class="usa-section usa-graphic-list grid-container maxw-tablet-lg">
     <div class="">
       <div class="grid-row grid-gap">
@@ -9,15 +11,22 @@
             <div class="border-stars text-center">
               <img src="{{ site.baseurl }}/assets/img/icons/3-star-row.svg" alt="">
             </div>
-            {% assign callout = page.callout %}
             <h2 class="font-sans-xl text-center">{{ callout.text }}</h2>
             <p class="font-mono-sm margin-bottom-4">{{ callout.subtext }}</p>
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}
+            {% if callout.markdownSrc %}
+              {% capture markdown %}
+                {% include_relative {{ callout.markdownSrc }} %}
+              {% endcapture %}
+              <div class="callout-expanded">
+                {{ markdown | markdownify }}
+              </div>
+            {% endif %}
 
 
-            {% if page.callout.expander %}
+            {% if callout.expander %}
             <div class="text-callout-centered">
               <div class="text-center font-family-mono">
                 <button class="callout-button text-white">
@@ -25,10 +34,10 @@
                 </button>
               </div>
               <p class="callout-summary">
-                {{ page.callout.expander.summary }}
+                {{ callout.expander.summary }}
               </p>
               <div class="callout-expanded ps-inactive">
-                {{ include.content | markdownify }}
+                {{ include.expanded | markdownify }}
               </div>
             </div>
             {% endif %}

@@ -3,7 +3,14 @@
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
   <head>
     {% if page.class == "sprints" %}
-      <script type="text/javascript" src="{{site.baseurl}}/assets/js/asa-redirect.js"></script>
+      <script type="text/javascript">
+        const loc = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
+        const sprint = loc.substring( loc.lastIndexOf('/') + 1 )
+        const hash = window.location.hash
+        if( sprint === 'sprints' && hash === '#asa'){
+          window.location.replace("{{ site.baseurl }}/get-involved/#asa")
+        }
+      </script>
     {% endif %}
     {% include head.html %}
   </head>

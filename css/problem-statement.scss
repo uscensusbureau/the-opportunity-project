@@ -126,6 +126,15 @@ $ps-breakpoint: 'mobile-lg';
     }
   }
 }
+.ps-collapsed > .ps-card {
+  @include u-maxh('card');
+  .card-header {
+    @include u-padding('105');
+    p {
+      display: none;
+    }
+  }
+}
 
 .ps-see-more {
   @include grid-col(12);

@@ -2877,6 +2877,20 @@ code {
 }
 
 // Sprints page
+.tab-wrapper {
+  cursor: pointer;
+
+  &:first-child {
+    h3 {
+      border-left-width: 2px;
+    }
+  }
+  &:last-child {
+    h3 {
+      border-right-width: 2px;
+    }
+  }
+}
 
 .yr-btn {
   display: inline;
@@ -2890,11 +2904,24 @@ code {
   -moz-transition:.2s;
   -webkit-transition:.2s;
   transition:.2s;
+
+  &.dark-btn {
+    border: solid 2px color('base-darkest');
+    color: color('base-darkest');
+    border-left-width: 1px;
+    border-right-width: 1px;
+    
+  }
 }
 
 .yr-btn:hover, .yr-btn-active {
   color: color("base-darkest");
   background-color: color("white");
+
+  &.dark-btn {
+    color: color('white');
+    background-color: color('base-darkest');
+  }
 }
 
 .year-wrapper {

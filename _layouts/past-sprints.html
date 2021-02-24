@@ -5,6 +5,31 @@ layout: default
 {% include hero.html %}
 {% include nav/sprints-nav.html %}
 {% include sprint-hero.html content=page.hero %}
-{% include single-column-centered-list-dark.html %}
+{% comment %}
+  {% include single-column-centered-list-dark.html %}
+{% endcomment %}
+
+{% assign pastStatements = site.data.problem_statements | group_by: "category" %}
+{% assign categories = "" | split: "," %} <!-- empty array -->
+{% for group in pastStatements %}
+  {% assign categories = categories | push: group.name %}
+{% endfor %}
+{% include tab-row.html content=categories %}
+
+{% for group in pastStatements %}
+  {% if group.name.size > 0 %}
+    {% for item in group.items %}
+      <div class="ps-{{ group.name }} 
+        {% if forloop.first %}
+          ps-active
+        {% else %}
+          ps-inactive
+        {% endif %}">
+        <h3>{{ item.Name }}</h3>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/sprint-nav-highlight.js"></script>
+<script src="{{ site.baseurl }}/assets/js/toggle-problem-statements.js" type="text/javascript" defer></script>

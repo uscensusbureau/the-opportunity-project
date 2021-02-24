@@ -17,6 +17,17 @@ $ps-breakpoint: 'mobile-lg';
   .ps-expanded {
     display: block;
   }
+
+
+  @include at-media('tablet'){
+    @include u-maxw('none');
+    @include u-padding-x(0);
+
+    .grid-row {
+      @include grid-offset(1);
+      @include grid-col(10);
+    }
+  }
 }
 
 .ps-left-col {

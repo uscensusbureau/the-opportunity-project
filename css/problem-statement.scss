@@ -4,12 +4,14 @@ $ps-breakpoint: 'mobile-lg';
 .sprint-hero-header {
   @include u-margin-y(1);
   scroll-margin-top: 10rem;
+  scroll-snap-margin-top: 10rem;
 }
 
 .problem-statement {
   @include grid-container;
   @include u-margin-y(3);
   scroll-margin-top: 10rem;
+  scroll-snap-margin-top: 10rem;
 
   .ps-collapsed {
     display: none;

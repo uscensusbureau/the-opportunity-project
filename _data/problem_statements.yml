@@ -18,13 +18,14 @@
   Challenge: ' Create digital tools that enable individuals and communities to see
     and experience the value of the Census in order to increase participation in the
     Census'
-  Full Title: Engaging communities in the Census
-  Name: Engaging communities in the Census
+  Full Title: Engaging Communities in the Census
+  Name: Engaging Communities in the Census
   Products:
   - recGtDBMaVWHIeULY
   - recvDZEaGFFEtnR4l
   - recMyCXtD901elAkR
   - reczVGhvSjjSjcHRp
+  - recHYa0ZILEN3fRFa
   Sprints:
   - recPKsumH7MWxbOTM
   Vision for sprint outcomes: People living in America know the impact of the Census
@@ -42,8 +43,9 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-02-10T18:25:38.000Z'
   airtable_id: rec0ukljQMNDcv91s
+  category: Workforce
   products_text: PopCount, Data2Go for Census Outreach, Bayes BD, My City Data Learning
-    Tool
+    Tool, Data2GO.NYC
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
 - Agency:
   - recnfIRYEISCJVJM6
@@ -52,7 +54,6 @@
   Challenge: During the academic year, many students rely on school meals for breakfast
     and lunch. In the summer, students and families seek a reliable alternative, but
     information on summer meals sites is often lacking.
-  Full Title: Summer Food Programs
   Name: Summer Food Programs
   Sprints:
   - recPEm69CcLh1tX2s
@@ -79,7 +80,7 @@
   Challenge: The digital divide affects urban, rural, and tribal communities across
     the U.S. Help increase digital access, to ensure that people who lack access to
     broadband and related infrastructure are counted in 2020.
-  Full Title: Bridging the digital divide
+  Full Title: Bridging the Digital Divide
   Name: Bridging the Digital Divide
   Potential Open Data Sets:
   - reclJrWE8sUzphXCN
@@ -109,6 +110,8 @@
   Name: Recycling
   Products:
   - recaRsKbgtQOavIpx
+  - recxNb6AkmDER2KXh
+  - rec0sJ3TvQo6mykBz
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: U.S. recycling facilities and manufacturers looking
@@ -133,7 +136,7 @@
   airtable_id: rec2dxKJmbiIV0Va5
   featured_product:
   - recaRsKbgtQOavIpx
-  products_text: Chicago Circular Economy
+  products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
   sprint_order: 2
   sprint_text: Natural Environment
 - Agency:
@@ -143,6 +146,7 @@
   Products:
   - rec85E0U2wrRBV8dc
   - rectcKAi8zsdwiqjg
+  - recCzsRojdXhNdzCu
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: American public, researchers, engaged citizens, state/local
@@ -153,7 +157,8 @@
   airtable_id: rec4KZSqOYnXgo2gD
   featured_product:
   - rectcKAi8zsdwiqjg
-  products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking
+  products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
+    Public Finance Institute-Disaster Spending Tracker
   sprint_order: 3
   sprint_text: Built Environment
 - Agency:
@@ -201,10 +206,11 @@
   agency_text: U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:49:19.000Z'
   airtable_id: rec4jiLMOGoECbVXB
+  category: Education
   datasets_text: Civil Rights Data Collection (CRDC), National Assessment of Education
     Progress (NAEP), Common Core of Data (CCD), Education Demographic and Geographic
     Estimates (EDGE), EDFacts
-  products_text: Citizen Education Data Cloud
+  products_text: Socrata Citizen Education Data Cloud
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
 - Agency:
   - recuesxBrh08C2a6O
@@ -327,6 +333,7 @@
   agency_text: U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:47:30.000Z'
   airtable_id: rec5Qmq3TNOnhhfoE
+  category: Education
   datasets_text: Civil Rights Data Collection (CRDC), National Assessment of Education
     Progress (NAEP), Integrated Postsecondary Education Data System, Program for International
     Student Assessment (PISA), Trends in International Mathematics and Science Study
@@ -443,6 +450,7 @@
   agency_text: U.S. Department of Education
   airtable_createdTime: '2020-02-10T17:43:23.000Z'
   airtable_id: rec6HY78EY2rrTgQq
+  category: Workforce
   products_text: Opportunity Dashboard
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
@@ -544,6 +552,7 @@
   agency_text: U.S. Department of Agriculture
   airtable_createdTime: '2020-02-10T18:17:19.000Z'
   airtable_id: rec7PAfceBewrUGZ3
+  category: Workforce
   products_text: Findyour.town
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
@@ -595,6 +604,7 @@
   agency_text: Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T17:30:35.000Z'
   airtable_id: rec91k66NBPeRwaK7
+  category: Community Equity
   datasets_text: USASpending.gov, Performance.gov, DisasterAssistance.gov, Sam.gov,
     Grants.gov, Catalog of Federal Domestic Assistance (CFDA), Federal Procurement
     Data System (FPDS), GPS data, Data.gov, FedBizOps
@@ -633,6 +643,7 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T17:43:24.000Z'
   airtable_id: recBxwNpfEqtxSEbI
+  category: Housing + Homelessness
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Name: Data Discovery
@@ -655,6 +666,9 @@
   Name: Economic Self-Sufficiency
   Products:
   - recyKI9exBfBtz1hr
+  - reclF9Mn2Z6aMqzJk
+  - rec5TopxenNeIOsJO
+  - reca9CUrcr39DStIc
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Low to moderate income heads of households; case managers;
@@ -678,7 +692,8 @@
   airtable_id: recD4rN8c5sH3ECRi
   featured_product:
   - recyKI9exBfBtz1hr
-  products_text: The EnVision App
+  products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
+    360-Degree Data Fusion Virtual Ecosystem Platform, Julius Career Journey Program
   sprint_order: 1
   sprint_text: Built Environment
 - Agency:
@@ -689,7 +704,7 @@
     to ensuring these groups are represented and have access to federal resources.
     Bring awareness of the 2020 Census to hard-to-count populations and increase response
     rates.
-  Full Title: Reaching hard-to-count communities
+  Full Title: Reaching Hard-to-Count Communities
   Name: Reaching Hard-to-Count Communities
   Potential Open Data Sets:
   - recHIEDMO43w88nUZ
@@ -734,6 +749,7 @@
   Name: Refugees
   Products:
   - recbsgNzUmmrKuEYn
+  - rec1WFJn1OGTTGrZi
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Resettled refugees in the United States, nonprofits
@@ -743,7 +759,8 @@
   airtable_id: recDnQq3aDp59z637
   featured_product:
   - recbsgNzUmmrKuEYn
-  products_text: RefugeeAssist
+  - rec1WFJn1OGTTGrZi
+  products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer
   sprint_order: 4
   sprint_text: Built Environment
 - Agency:
@@ -753,6 +770,8 @@
   Products:
   - receafMaV7aRWkMwG
   - recyl8q9tZWnPoQQt
+  - recJjNKdphBCWsER0
+  - rec68a7razj3IGOyX
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: Engaged citizens and the general public, especially
@@ -765,7 +784,7 @@
   airtable_id: recG9NY8ns2oza4vp
   featured_product:
   - recyl8q9tZWnPoQQt
-  products_text: Clean Air Hero, AirMotionDC
+  products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
   sprint_order: 4
   sprint_text: Natural Environment
 - Agency:
@@ -776,8 +795,8 @@
     or underemployed to find and access new training and job opportunities.
   Challenge: Unlocking workforce data can make it easier for Americans who are chronically
     unemployed or underemployed to find and access new training and job opportunities.
-  Full Title: Connecting Americans to skills and jobs
-  Name: Connecting Americans to skills and jobs
+  Full Title: Connecting Americans to Skills and Jobs
+  Name: Connecting Americans to Skills and Jobs
   Products:
   - recNXCwgWCLa3ZMwB
   - recPVCxfdXoYMpSGS
@@ -801,6 +820,7 @@
   agency_text: U.S. Department of Labor
   airtable_createdTime: '2020-02-10T18:14:44.000Z'
   airtable_id: recGQ0S48RDx0VENx
+  category: Education
   products_text: Job Crowdsourcing Tool, Training Finder, Opportunity.hackernest.com,
     CareerSpark
   sprint_text: Agency Cohort (2016 Sprint 2/3)
@@ -847,6 +867,7 @@
     Services
   airtable_createdTime: '2020-02-10T17:49:16.000Z'
   airtable_id: recGQxoZehhlElI4g
+  category: Workforce
   products_text: Fitbit
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
@@ -900,6 +921,7 @@
   agency_text: Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T17:30:36.000Z'
   airtable_id: recGXB6VI2XEbqemj
+  category: Community Equity
   datasets_text: USASpending.gov, Sam.gov, Catalog of Federal Domestic Assistance
     (CFDA), Federal Audit Clearing House, Grants.gov, Benefits.gov, USA.gov, FSRS.gov,
     Tracking Accountability in Government Grants Systems (TAGGS), U.S. Department
@@ -940,6 +962,7 @@
   agency_text: U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T18:56:59.000Z'
   airtable_id: recGo0glu9CVxEX87
+  category: Housing + Homelessness
   products_text: Get Vets Help, PAIRIN Pathways
   sprint_text: 2017 Sprint 1 (ED HUD VA)
 - Agency:
@@ -991,6 +1014,7 @@
   agency_text: U.S. Department of Labor
   airtable_createdTime: '2020-02-10T17:26:24.000Z'
   airtable_id: recLROAotmnLsG3Bw
+  category: Education
   datasets_text: Veterans resumes, Job postings, Registered Apprenticeship Listings,
     BLS Job Outcomes Data
   products_text: Veteran Apprenticeship Matcher, Career Nav, Watson Employment Manager
@@ -1025,6 +1049,7 @@
   agency_text: U.S. Department of Education
   airtable_createdTime: '2020-02-10T18:55:00.000Z'
   airtable_id: recMEER5Sc9HQrLOF
+  category: Housing + Homelessness
   products_text: MySpot
   sprint_text: 2017 Sprint 1 (ED HUD VA)
 - Agency:
@@ -1034,7 +1059,7 @@
     like fake or suspicious content and targeted disinformation. Increasing digital
     literacy will be critical to combating disinformation and ensuring an accurate
     count.
-  Full Title: Increasing digital literacy
+  Full Title: Increasing Digital Literacy
   Name: Increasing Digital Literacy
   Products:
   - recSXynrxBTKXTh63
@@ -1055,16 +1080,21 @@
   Name: Ocean Plastics
   Products:
   - rec6IC6El0nNjSiCA
+  - recJms1glRzSmKxtR
+  - recp3hAesZqc2oQnV
+  - recRADslXTYbyjOZ9
+  - recFOmdpx7Q6uE0Xl
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: Engaged citizens passionate about reducing plastic pollution,
     rural or tribal communities, as well as policymakers, advocates, and researchers
-  agency_text: United States Department of State, The Wilson Center
+  agency_text: U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-01-26T16:35:32.000Z'
   airtable_id: recQeWP4kfK1EakJW
   featured_product:
   - rec6IC6El0nNjSiCA
-  products_text: Ocean Plastics Story Map
+  products_text: Ocean Plastics Story Map, Georgetown University Campus Plastic Initiative,
+    PPIO, The Ghost Gear Project, Sea Scavenger
   sprint_order: 3
   sprint_text: Natural Environment
 - Agency:
@@ -1076,6 +1106,8 @@
   Name: NAIP
   Products:
   - recyPJeX2onUtcMln
+  - recqWVxkeZ3bYz68R
+  - recoLzsQ10XA9A8CY
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: Farmers, ranchers, engaged citizens, rural or tribal
@@ -1092,7 +1124,8 @@
   airtable_id: recSM7q7ufXLojrBx
   featured_product:
   - recyPJeX2onUtcMln
-  products_text: NAIP Explorer
+  products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision
+    Ag for all American Farmers'
   sprint_order: 1
   sprint_text: Natural Environment
 - Agency:
@@ -1177,7 +1210,7 @@
     the community could greatly benefit from data and resources to support their wellbeing
     and success.
   Full Title: Supporting Decision-Making for Student Sub-populations and their Families
-  Name: Supporting Decision-Making for Student Sub-populations and their Families
+  Name: Supporting Decision-Making for Student Sub-Populations and their Families
   Products:
   - recjBsJokWirN5SXn
   - recs1AuNUUppAFbr3
@@ -1205,6 +1238,7 @@
     Development
   airtable_createdTime: '2020-02-10T17:30:34.000Z'
   airtable_id: recWUq0tYLA47nFU2
+  category: Education
   products_text: School ResourceMapper, LiveStories, Visualizing Youth Disconnection
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
@@ -1216,8 +1250,8 @@
     complete information about issues their neighborhoods are facing. Without good
     data, these advocates have a hard time effectively engaging with their local governments
     to drive meaningful change in their community.
-  Full Title: Increasing safety and mobility across the nation
-  Name: Increasing safety and mobility across the nation
+  Full Title: Increasing Safety and Mobility Across the Nation
+  Name: Increasing Safety and Mobility Across the Nation
   Products:
   - recuj8LvrOlw7qVZl
   - recJGQBZiNXia0IYm
@@ -1253,6 +1287,7 @@
   agency_text: U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T17:27:25.000Z'
   airtable_id: recWbNwNVTeALHVEK
+  category: Workforce
   products_text: mySidewalk, Create, Commuter Map
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
@@ -1365,18 +1400,20 @@
   agency_text: U.S. Department of Labor
   airtable_createdTime: '2020-02-10T17:43:31.000Z'
   airtable_id: recboDOGOG8eKuYc7
+  category: Education
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - recNgTPOj9ZbFP6g3
   Name: Civics Education
   Products:
   - recTfL9YZgQqj9i78
+  - recIu57RsPY8g7yE6
   Sprints:
   - recWgRn0SzeC0JNJ1
-  agency_text: United States Department of State
+  agency_text: U.S. Department of State
   airtable_createdTime: '2020-04-30T15:14:43.000Z'
   airtable_id: recdNGSC2k2ptu3JM
-  products_text: Bites Media
+  products_text: Bites Media, Edubuddy
   sprint_text: TOPx
 - Agency:
   - reci7jH40piLVRIiY
@@ -1472,11 +1509,10 @@
     identical data can be entered once and reused as necessary.
   Challenge: ' Create digital tools for Federal financial assistance that help local
     leaders navigate and manage Federal grants.'
-  Full Title: Making federal grants data user-friendly for local leaders
-  Name: Making federal grants data user-friendly for local leaders
+  Full Title: Making Federal Grants Data User-Friendly for Local Leaders
+  Name: Making Federal Grants Data User-Friendly for Local Leaders
   Products:
   - rec0XnfpVCBwdQJAg
-  - recK0laD1VAXzGXqv
   Sprints:
   - recPKsumH7MWxbOTM
   Vision for sprint outcomes: Leaders across America maximize return on Federal investments
@@ -1503,7 +1539,8 @@
   agency_text: Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T17:43:28.000Z'
   airtable_id: recjgkTgiJVNQI06t
-  products_text: Social Impact Reporting Platform, Grants Intelligence
+  category: Community Equity
+  products_text: Social Impact Reporting Platform
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
 - airtable_createdTime: '2021-01-26T16:53:56.000Z'
   airtable_id: reckgFmGDc1Hy47Lc
@@ -1591,6 +1628,9 @@
   Name: Rural Economic Development
   Products:
   - recSywRIyeQEsXwCq
+  - rec820mIr9jx8uWAq
+  - rec8PdH7hI4omQshl
+  - recQjVq9yZgfpri29
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Local officials or other local decision makers; regional
@@ -1615,7 +1655,7 @@
   airtable_id: recn0ONeaB72GbD8z
   featured_product:
   - recSywRIyeQEsXwCq
-  products_text: Tech Talent Tracker
+  products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
   sprint_order: 2
   sprint_text: Built Environment
 - Agency:

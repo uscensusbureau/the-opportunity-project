@@ -78,7 +78,7 @@ $ps-breakpoint: 'mobile-lg';
 }
 
 .ps-products {
-  @include u-padding('105');
+  // @include u-padding-x('105');
   &.ps-collapsed {
     display: block;
     border-top: none;

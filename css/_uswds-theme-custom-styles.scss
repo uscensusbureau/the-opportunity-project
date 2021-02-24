@@ -4625,8 +4625,14 @@ body {
     @include u-padding-right(5);
   }
 }
-.usa-card__container > .card-header {
-  @include u-radius($theme-card-border-radius);
+.usa-card__container {
+  a {
+    height: 100%;
+    text-decoration: none;
+  }
+  .card-header {
+    @include u-radius($theme-card-border-radius);
+  }
 }
 
 .short-card {

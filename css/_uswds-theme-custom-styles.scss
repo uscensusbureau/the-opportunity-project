@@ -4651,8 +4651,11 @@ h2.section-header {
   color: color("secondary");
   text-transform: uppercase;
   font-weight: 300;
-  margin: 0;
   font-size: font-size('sans', '3xs');
+  margin: 1.5rem 0 .5rem 0;
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .problem-statement-subheader {
@@ -4696,5 +4699,17 @@ h2.section-header {
   @include dark-link;
 }
 
+.prize-winner-product {
+  @include grid-container;
+  @include u-margin-y(3);
+
+  .grid-row {
+    @include grid-gap;
+    @include u-padding-y(3);
+    @include u-padding-right(1);
+    @include u-outline('1px');
+    @include u-outline-color('base-light');
+  }
+}
 
 @import 'problem-statement.scss';

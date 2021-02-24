@@ -36,7 +36,7 @@ judging:
 
 callout:
   text: Apply for the Prize (Coming Soon)
-  subtext: If your team participated in an Opportunity Project sprint or utilized the toolkit, you may be eligible to apply for the prize competition. Application rules change every year, so stay in the loop by [signing up for updates about the Prize Challenge]().
+  subtext: If your team participated in an Opportunity Project sprint or utilized the toolkit, you may be eligible to apply for the prize competition. Application rules change every year, so stay in the loop by [signing up for updates about the Prize Challenge](https://public.govdelivery.com/accounts/USCENSUS/signup/16610).
 
 winners:
   title: Past Winners

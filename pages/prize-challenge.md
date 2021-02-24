@@ -14,9 +14,9 @@ banner-subheader:
 
 about:
   title: About the Prize
-  left-col-width: '3'
+  left-col-width: '4'
   left-col-offset: 1
-  right-col-width: 6
+  right-col-width: '5'
   right-col-offset: 1
   skip-top-border: true
   skip-bottom-border: true
@@ -30,8 +30,7 @@ judging:
   title: Judged by Experts
   skip-top-border: true
   skip-bottom-border: true
-  left:
-    - body: PUT PHOTO HERE
+  left-col: prize-challenge/judges-photo.md
   right:
     - body: Products in our first competition were scored for their creativity, user-friendliness, and potential for civic impact by panels of product, data, and policy specialists from private industry and government.
 

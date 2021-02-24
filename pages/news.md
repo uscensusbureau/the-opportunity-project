@@ -95,6 +95,3 @@ publications:
 {% include two-column-markdown.html content=page.legislation left-col=leg-left %}
 
 {% include grid-section.html content=page.publications children="cards/card-list.html" %}
-
-<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="true"></script>
-<script src="{{ site.baseurl }}/assets/js/news-slick.js" type="text/javascript" defer></script> -->

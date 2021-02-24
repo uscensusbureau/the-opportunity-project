@@ -26,13 +26,23 @@ about:
     - title: Why the Prize was Launched
       body: After 4 years of TOP, in 2019 we created the TOP  prize challenge to help address the challenges technologists face in deploying and sustaining civic tech products.  The prize challenge aimed to support technologists in getting their solutions into the hands of communities around the country.
 
+graphs:
+  - title: User Friendly
+    percent: 33
+    color: base-dark
+  - title: Civic Impact
+    percent: 85
+    color: '#fed585'
+  - title: Creativity
+    percent: 50
+    color: primary-light
+
 judging:
   title: Judged by Experts
   skip-top-border: true
   skip-bottom-border: true
   left-col: prize-challenge/judges-photo.md
-  right:
-    - body: Products in our first competition were scored for their creativity, user-friendliness, and potential for civic impact by panels of product, data, and policy specialists from private industry and government.
+  right-col: prize-challenge/graphs-with-text.md
 
 callout:
   text: Apply for the Prize (Coming Soon)
@@ -47,7 +57,9 @@ winners:
 {% include hero.html %}
 {% include connecting-banner-with-subheader.html %}
 {% include two-column-markdown.html content=page.about %}
+
 {% include two-column-markdown.html content=page.judging %}
+
 {% include text-callout-centered.html %}
 
 <div class="text-center margin-bottom-6">

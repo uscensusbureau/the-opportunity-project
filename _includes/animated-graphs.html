@@ -1,0 +1,10 @@
+<div class="animated-graphs">
+  {% for item in include.content %}
+    <div class="graph-container">
+      <span class="graph-title">{{ item.title }}</span>
+      <div class="graph-bg">
+        <div class="graph-fill empty"></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,38 @@
+.animated-graphs{
+  @include u-maxw('mobile');
+  @include u-margin-bottom(3);
+}
+.graph-container {
+  @include u-margin-bottom(1);
+  &:nth-child(1) {
+    .graph-fill {
+      width: 33%;
+      @include u-bg('primary-dark');
+    }
+  }
+  &:nth-child(2) {
+    .graph-fill {
+      width: 85%;
+      background-color: #fed585;
+    }
+  }
+  &:nth-child(3) {
+    .graph-fill {
+      width: 50%;
+      @include u-bg('primary-light');
+    }
+  }
+  .graph-fill.empty {
+    width: 0%;
+  }
+}
+.graph-bg {
+  width: 100%;
+  height: 1em;
+  @include u-outline('1px');
+  @include u-outline-color('base-light');
+}
+.graph-fill {
+  height: 100%;
+  transition: width .5s ease;
+}

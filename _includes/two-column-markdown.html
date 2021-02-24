@@ -46,6 +46,11 @@
           <h3>{{ section.title | markdownify }}</h3>
           <p>{{ section.body | markdownify }}</p>
         {% endfor %}
+      {% elsif include.content.right-col %}
+        {% capture right %}
+          {% include_relative {{include.content.right-col}} %}
+        {% endcapture %}
+        {{ right | markdownify }}
       {% else %}
         {{ include.right-col | markdownify }}  
       {% endif %}

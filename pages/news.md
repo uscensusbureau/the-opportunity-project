@@ -1,5 +1,5 @@
 ---
-title: News
+title: Press
 permalink: /news/
 layout: default
 
@@ -73,11 +73,11 @@ publications:
       isExternal: true
       img: photos/news/Background_IBM.jpg
       details: IBM Center for The Business of Government
-    - title: The White House
+    - title: Best Practices Report to the President
       href: https://opportunityzones.hud.gov/sites/opportunityzones.hud.gov/files/documents/OZ_Best_Practices_Report.pdf
       isExternal: true
       img: photos/news/Background_white-house.jpg
-      details: 'White House Opportunity and Revitalization Council: Best Practices Report to the President'
+      details: 'White House Opportunity and Revitalization Council'
     
 ---
 

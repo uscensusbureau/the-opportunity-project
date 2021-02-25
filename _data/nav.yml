@@ -17,7 +17,7 @@ primary:
       - text: Prize Challenge
         href: prize-challenge/
   - text: Press
-    href: 'news/'
+    href: press/
   - text: Resources
     accordion:
       - text: Datasets
@@ -79,8 +79,8 @@ footer:
     isExternal: true
   - text: Our Team
     href: about/
-  - text: News
-    href: 'news/'
+  - text: Press
+    href: press/
 
 footer-bottom:
   - text: Census Open Innovation Labs

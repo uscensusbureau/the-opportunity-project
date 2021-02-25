@@ -4712,5 +4712,9 @@ h2.section-header {
   }
 }
 
+.markdownify-column > p {
+  @include u-margin-top(0);
+}
+
 @import 'problem-statement.scss';
 @import 'animated-graphs.scss';

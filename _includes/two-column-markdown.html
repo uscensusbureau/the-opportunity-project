@@ -13,12 +13,12 @@
   {% if include.content.title %}
     <h2 class="section-header">{{ include.content.title }}</h2>
   {% endif %}
-  <div class="grid-row grid-gap padding-y-2
+  <div class="grid-row grid-gap{% if include.content.grid-gap-lg %}-lg{% endif %} padding-y-2
     {% unless include.content.skip-top-border %}border-top{% endunless %}
     {% unless include.content.skip-bottom-border %}border-bottom{% endunless %}
     border-base-light">
     
-    <div class="tablet:grid-col-{{ left-col-width }}
+    <div class="markdownify-column tablet:grid-col-{{ left-col-width }}
       {% if include.content.left-col-offset %}grid-offset-{{ include.content.left-col-offset }}{% endif %}">
       {% if include.content.left %}
         {% for section in include.content.left %}
@@ -26,12 +26,12 @@
             <h3>{{ section.title | markdownify }}</h3>
           {% endif %}
           {% if section.body %}
-            <p>{{ section.body | markdownify }}</p>
+            {{ section.body | markdownify }}
           {% endif %}
         {% endfor %}
       {% elsif include.content.left-col %}
         {% capture left %}
-          {% include_relative {{include.content.left-col}} %}
+          {% include_relative {{ include.content.left-col }} %}
         {% endcapture %}
         {{ left | markdownify }}
       {% else %}
@@ -39,12 +39,16 @@
       {% endif %}
     </div>
 
-    <div class="tablet:grid-col-{{ right-col-width }}
+    <div class="markdownify-column tablet:grid-col-{{ right-col-width }}
     {% if include.content.right-col-offset %}grid-offset-{{ include.content.right-col-offset }}{% endif %}">
       {% if include.content.right %}
         {% for section in include.content.right %}
-          <h3>{{ section.title | markdownify }}</h3>
-          <p>{{ section.body | markdownify }}</p>
+          {% if section.title %}
+            <h3>{{ section.title | markdownify }}</h3>
+          {% endif %}
+          {% if section.body.size > 0 %}
+            {{ section.body | markdownify }}
+          {% endif %}
         {% endfor %}
       {% elsif include.content.right-col %}
         {% capture right %}

@@ -39,6 +39,7 @@ graphs:
 
 judging:
   title: Judged by Experts
+  grid-gap-lg: true
   skip-top-border: true
   skip-bottom-border: true
   left-col: prize-challenge/judges-photo.md
@@ -63,7 +64,7 @@ winners:
 {% include text-callout-centered.html %}
 
 <div class="text-center margin-bottom-6">
-  <h2 class="margin-bottom-0">{{ page.winners.title }}</h2>
+  <h2 class="text-base-darkest margin-bottom-0">{{ page.winners.title }}</h2>
   <div class="maxw-tablet margin-x-auto">
     {{ page.winners.subtext | markdownify }}
   </div>

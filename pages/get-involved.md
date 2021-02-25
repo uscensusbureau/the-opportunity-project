@@ -33,6 +33,7 @@ callout:
 join:
   title: Stay in the Loop
   skip-top-border: true
+  skip-bottom-border: true
   left-col: get-involved/in-the-loop-left.md
   right-col: get-involved/in-the-loop-right.md
 

@@ -1,7 +1,7 @@
 {% assign sprints = site.data.sprints | where:"airtable_id", include.content.Sprints[0] %}
 {% assign sprint = sprints[ 0 ] %}
 
-<div class="problem-statement">
+<div class="problem-statement {{ include.active }} ps-{{ include.name }}">
   <div class="grid-row">
 
     <div class="ps-left-col">

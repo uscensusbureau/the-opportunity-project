@@ -2877,6 +2877,12 @@ code {
 }
 
 // Sprints page
+.tab-row {
+  width: max-content;
+  margin: units(5) auto;
+
+}
+
 .tab-wrapper {
   cursor: pointer;
 
@@ -2893,17 +2899,23 @@ code {
 }
 
 .yr-btn {
-  display: inline;
   font-size: font-size("mono", "2xs");
   border: solid color("white") 1px;
   color: color("white");
   margin: 0;
-  padding: units(1) units(2);
+  padding: units(1) units(1);
   -o-transition:.2s;
   -ms-transition:.2s;
   -moz-transition:.2s;
   -webkit-transition:.2s;
   transition:.2s;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  @include at-media('mobile-lg') {
+    max-width: none;
+    padding: units(1) units(2);
+  }
 
   &.dark-btn {
     border: solid 2px color('base-darkest');

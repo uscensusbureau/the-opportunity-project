@@ -22,9 +22,11 @@
       </div>
 
       <div class="ps-right-col-section ps-products ps-collapsed">
-        {% include cards/pdf-card.html
-          content = include.content
-          utils="small-header-card top-header" %}
+        {% if include.content.pdf %}
+          {% include cards/pdf-card.html
+            content = include.content
+            utils="small-header-card top-header" %}
+        {% endif %}
       </div>
     </div>
   </div>

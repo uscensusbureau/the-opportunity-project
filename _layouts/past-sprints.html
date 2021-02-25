@@ -10,11 +10,10 @@ layout: default
 {% assign categories = "" | split: "," %} <!-- empty array -->
 {% for group in pastStatements %}
   {% assign categories = categories | push: group.name %}
-  {{ group.name }} has {{ group.items.size }}
 {% endfor %}
-<div class="margin-x-auto">
-  {% include tab-row.html content=categories %}
-</div>
+
+{% include tab-row.html content=categories %}
+
 {% for group in pastStatements %}
   {% if group.name.size > 0 %}
     {% for item in group.items %}

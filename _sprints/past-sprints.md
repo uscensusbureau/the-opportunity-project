@@ -7,7 +7,7 @@ hero:
   img: landing/Sprint-Background_05_Geo.jpg
   Name: Past Sprints
   Year: 2016 - 2019
-  description: PLACEHOLDER TEXT FOR PAST SPRINTS. Data and technology have the power to strengthen community resilience and ensure the public is prepared in events of natural disaster. In the Geo-Cohort sprint, tech teams including Bloomberg, Mapbox, Esri and many others developed digital products that allow governments to maintain local address data critical in catastrophic events, help the public take appropriate hazard preparedness actions, and amplify environmental stewardship efforts.
+  description: Over the years, The Opportunity Project has partnered with other federal agencies  to identify critical national challenges.  Browse past problem statements from 2016-2018 here.
 
 explanation-alt:
   text:

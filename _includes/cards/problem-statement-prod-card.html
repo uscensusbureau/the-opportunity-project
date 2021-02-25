@@ -1,18 +1,17 @@
 {% assign card=include.content %}
+{% assign teams=site.data.organizations | where: 'airtable_id', card['Tech Team'][0] %}
+{% assign team = teams[ 0 ] %}
+
 <div 
   class="usa-card__container card-container ps-card {{ include.utils }}"
-  style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});
+  style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.Image }});
           background-size: cover;">
-  <div class="card-header">
-    <h3 class="text-sans-1 text-ls-1">
-      <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}">
-        {% if card.title %}
+  <a href="{{ card.Link }}">
+    <div class="card-header">
+      <h3 class="text-sans-1 text-ls-1">
           {{ card.title }}
-        {% elsif card.product_name %}
-          {{ card.product_name }}
-        {% endif %}
-      </a>
-    </h3>
-    <p>{{ card.tech_team_text }}</p>
-  </div>
+      </h3>
+      <p>{{ team['Company Name'] }}</p>
+    </div>
+  </a>
 </div>

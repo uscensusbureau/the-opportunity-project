@@ -33,7 +33,7 @@
                   aria-expanded="false" 
                   aria-controls="extended-nav-section-{{itemName}}">
                   <span>{{ link.text | upcase}}</span></button>
-                <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu">
+                <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu" hidden>
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
                       {% if subnav.accordion %}

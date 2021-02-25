@@ -5,6 +5,8 @@ const yearButtons = document.getElementsByClassName( 'yr-btn' );
 
 tabBar.addEventListener( 'click', e => {
     var problemSet = e.target.id
+
+    console.log(e.target);
     
     Array.from( yearButtons ).forEach( button => button.classList.remove( 'yr-btn-active' ))
 

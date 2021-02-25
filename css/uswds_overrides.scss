@@ -38,3 +38,7 @@ html {
   margin: 0;
   @include u-padding-right(8);
 }
+
+.usa-nav__primary-item {
+  border-top: none;
+}

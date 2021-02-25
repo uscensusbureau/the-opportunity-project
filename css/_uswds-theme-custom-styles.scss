@@ -356,8 +356,7 @@ h1, h2, h3 {
         color($site-base-transparent-light);
       clear: both;
       display: block;
-      // padding-left: units(2);
-      height: 4.25rem;
+      // height: 4.25rem;
       z-index: z-index($z-nav-secondary);
 
       overflow-x: scroll;
@@ -414,22 +413,23 @@ h1, h2, h3 {
       color: color("gray-50");
       display: inline-block;
       font-weight: fw("normal");
-      height: units($height-nav-secondary);
+      // height: units($height-nav-secondary);
       padding: units(2);
       position: relative;
       text-decoration: none;
 
-      &.highlight {
+      
+      &:hover, &:active {
         @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
         color: color('secondary');
       }
-      &:hover {
-        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-        color: color($site-primary-vivid);
-      }
-      &:active {
-        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-        color: color($site-primary-vivid);
+      &.highlight {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('base-darkest');
+        font-weight: fw('bold');
+        &:hover, &:active {
+          color: color('base-darkest');
+        }
       }
     }
 
@@ -2877,24 +2877,63 @@ code {
 }
 
 // Sprints page
+.tab-row {
+  width: max-content;
+  margin: units(5) auto;
+
+}
+
+.tab-wrapper {
+  cursor: pointer;
+
+  &:first-child {
+    h3 {
+      border-left-width: 2px;
+    }
+  }
+  &:last-child {
+    h3 {
+      border-right-width: 2px;
+    }
+  }
+}
 
 .yr-btn {
-  display: inline;
   font-size: font-size("mono", "2xs");
   border: solid color("white") 1px;
   color: color("white");
   margin: 0;
-  padding: units(1) units(2);
+  padding: units(1) units(1);
   -o-transition:.2s;
   -ms-transition:.2s;
   -moz-transition:.2s;
   -webkit-transition:.2s;
   transition:.2s;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  @include at-media('mobile-lg') {
+    max-width: none;
+    padding: units(1) units(2);
+  }
+
+  &.dark-btn {
+    border: solid 2px color('base-darkest');
+    color: color('base-darkest');
+    border-left-width: 1px;
+    border-right-width: 1px;
+    
+  }
 }
 
 .yr-btn:hover, .yr-btn-active {
   color: color("base-darkest");
   background-color: color("white");
+
+  &.dark-btn {
+    color: color('white');
+    background-color: color('base-darkest');
+  }
 }
 
 .year-wrapper {
@@ -4623,6 +4662,15 @@ body {
     @include u-margin-right(4);
     @include u-margin-bottom(3);
     @include u-padding-right(5);
+  }
+}
+.usa-card__container {
+  a {
+    height: 100%;
+    text-decoration: none;
+  }
+  .card-header {
+    @include u-radius($theme-card-border-radius);
   }
 }
 

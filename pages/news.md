@@ -5,7 +5,7 @@ layout: default
 
 # full span, top of page section
 hero:
-  text: News
+  text: In the Press
 
 # connecting-banner-with-subheader-inverse.html
 banner-subheader-inverse:

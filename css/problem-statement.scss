@@ -4,14 +4,12 @@ $ps-breakpoint: 'mobile-lg';
 .sprint-hero-header {
   @include u-margin-y(1);
   scroll-margin-top: 10rem;
-  scroll-snap-margin-top: 10rem;
 }
 
 .problem-statement {
   @include grid-container;
   @include u-margin-y(3);
   scroll-margin-top: 10rem;
-  scroll-snap-margin-top: 10rem;
 
   .ps-collapsed {
     display: none;
@@ -85,9 +83,9 @@ $ps-breakpoint: 'mobile-lg';
   @include u-padding(3);
   flex-grow: 1;
   border: $light-border;
-  + .ps-right-col-section {
-    border-top: none;
-  }
+  // + .ps-right-col-section {
+  //   border-top: none;
+  // }
 }
 
 .ps-products {
@@ -146,6 +144,36 @@ $ps-breakpoint: 'mobile-lg';
     @include u-padding('105');
     p {
       display: none;
+    }
+  }
+}
+
+// changes for the "Past Sprints" page
+.problem-statement.past-statement {
+  .ps-right-col-section {
+    @include at-media-max($ps-breakpoint) {
+      @include u-padding-y(1);
+    }
+    border-top: none;
+    border-bottom: none;
+    &:first-child {
+      @include u-padding-top(3);
+      border-top: $light-border;
+    }
+    &:last-child {
+      border-bottom: $light-border;
+    }
+    @include at-media('mobile-lg') {
+      border-top: $light-border;
+      border-bottom: $light-border;
+      border-right: none;
+      border-left: none;
+      &:first-child {
+        border-left: $light-border;
+      }
+      &:last-child {
+        border-right: $light-border;
+      }
     }
   }
 }

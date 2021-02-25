@@ -558,6 +558,10 @@ h1, h2, h3 {
 
 // Main Content --------- //
 
+main {
+  scroll-margin-top: 2.5em;
+}
+
 .main-content {
   @include u-pin("right");
   @include u-pin("bottom");

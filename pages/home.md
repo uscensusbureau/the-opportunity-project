@@ -187,7 +187,7 @@ news:
 {% include announcement-banner.html %}
 {% include hero.html %}
 {% include circuit-banner.html %}
-{% include text-callout-centered.html %}
+{% include text-callout-centered.html content=page.callout %}
 {% include connecting-banner.html %}
 {% include two-column-wide-text.html %}
 {% include three-column-narrow-text.html %}

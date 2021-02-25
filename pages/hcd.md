@@ -38,5 +38,5 @@ content-light:
 
 {% include hero.html %}
 {% include circuit-banner.html %}
-{% include text-callout-centered.html %}
+{% include text-callout-centered.html content=page.callout %}
 {% include hcd-training.html %}

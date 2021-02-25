@@ -842,7 +842,7 @@ two-col-markdown:
       {% include single-column-centered-photo-with-overlay.html %}
 <hr>
     <h4>text-callout-centered.html</h4>
-      {% include text-callout-centered.html %}
+      {% include text-callout-centered.html content=page.callout %}
 <hr>
     <h4>three-column-narrow-text.html</h4>
       not hard coded, but some of the keys are more specific than in other component files

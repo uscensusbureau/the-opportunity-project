@@ -5,14 +5,12 @@ layout: default
 {% include hero.html %}
 {% include nav/sprints-nav.html %}
 {% include sprint-hero.html content=page.hero %}
-{% comment %}
-  {% include single-column-centered-list-dark.html %}
-{% endcomment %}
 
 {% assign pastStatements = site.data.problem_statements | group_by: "category" %}
 {% assign categories = "" | split: "," %} <!-- empty array -->
 {% for group in pastStatements %}
   {% assign categories = categories | push: group.name %}
+  {{ group.name }} has {{ group.items.size }}
 {% endfor %}
 <div class="margin-x-auto">
   {% include tab-row.html content=categories %}
@@ -20,7 +18,6 @@ layout: default
 {% for group in pastStatements %}
   {% if group.name.size > 0 %}
     {% for item in group.items %}
-      
       {% assign active = "ps-active" %}
       {% unless forloop.first %}
         {% assign active = "ps-inactive" %}

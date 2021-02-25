@@ -1577,8 +1577,19 @@
   pdf: 2017-grants.pdf
   products_text: Social Impact Reporting Platform
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
-- airtable_createdTime: '2021-01-26T16:53:56.000Z'
+- Agency:
+  - recKUZ0ercFPyxTbD
+  Full Title: Using AI to Help Patients Find Clinical Trials
+  Name: Using AI to Help Patients Find Clinical Trials
+  Products:
+  - recvf8lc1DXzpz2QB
+  Sprints:
+  - recZGDdh9VC1azeZZ
+  agency_text: U.S. Department of Health and Human Services
+  airtable_createdTime: '2021-01-26T16:53:56.000Z'
   airtable_id: reckgFmGDc1Hy47Lc
+  products_text: Cura Patient
+  sprint_text: TOP Health
 - Agency:
   - rec9lu4zRtMv8dOhs
   - recLghlaK4rIQlnwW

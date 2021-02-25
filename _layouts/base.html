@@ -6,10 +6,10 @@
     <!-- A javascript-based redirect from /sprints/#asa to /get-involved/#asa
         Need to generate baseurl var w/Liquid so easier to do the whole thing in-line -->
       <script type="text/javascript">
-        const loc = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
-        const sprint = loc.substring( loc.lastIndexOf('/') + 1 )
+        const locus = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
+        const sprintSub = locus.substring( locus.lastIndexOf('/') + 1 )
         const hash = window.location.hash
-        if( sprint === 'sprints' && hash === '#asa'){
+        if( sprintSub === 'sprints' && hash === '#asa'){
           window.location.replace("{{ site.baseurl }}/get-involved/#asa")
         }
       </script>

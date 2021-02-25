@@ -61,7 +61,7 @@ winners:
 
 {% include two-column-markdown.html content=page.judging %}
 
-{% include text-callout-centered.html %}
+{% include text-callout-centered.html content=page.callout %}
 
 <div class="text-center margin-bottom-6">
   <h2 class="text-base-darkest margin-bottom-0">{{ page.winners.title }}</h2>

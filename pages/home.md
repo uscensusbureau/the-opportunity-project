@@ -156,38 +156,35 @@ news:
   title: News
   small-headers: true
   featured:
-    title: The Opportunity Project Marks 100 Product Milestone
-    date: March 4, 2020
-    href: https://www.meritalk.com/articles/the-opportunity-project-marks-100-product-milestone/
-    publication: MeriTalk
-    img: photos/home/news/news-main.png
-    alt: American flag against blue background
+      title: Wired
+      details: The White House Wants You to Build Tools to Improve Our Cities
+      href: https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/
+      date: March 7, 2016
+      img: photos/home/news/news-main.png
+      alt: An American flag
+      isExternal: true
   side-cards:
-    - title: How Federal Agencies Can Use Agile Development to Apply Open Data
-      publication: Fedscoop
-      date: June 19, 2019
-      href: https://www.fedscoop.com/the-opportunity-project-report-center-for-open-data-enterprise/
+    - details: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
+      href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
+      date: March 12, 2019
+      title: Forbes
       img: photos/home/news/news-01.png
-      alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
-    - title: President Obama's new open data initiative could help cities help themselves
-      publication: TechRepublic
-      date: March 8, 2016
-      href: https://www.techrepublic.com/article/president-obamas-new-open-data-initiative-could-help-cities-help-themselves/
+      alt: People seated at tables taking notes during a TOP presentation
+      isExternal: true
+    - title: New York Times
+      details: New Federal Website Aims to Enhance Community Services
+      href: https://www.nytimes.com/2016/03/08/us/politics/new-federal-website-aims-to-enhance-community-services.html?searchResultPosition=1
+      isExternal: true
+      date: March 7, 2016
       img: photos/home/news/news-02.png
-      alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
-    # - title: Census Project Matches Your Agency's Data with Civic Innovators
-    #   publication: The New York Times
-    #   date: December 3, 2018
-    #   href: https://www.nextgov.com/analytics-data/2018/12/census-project-matches-your-agencys-data-civic-innovators/153183/
-    #   img: photos/home/news/news-03.png
-    #   alt: Man marking a sheet of paper hanging on the wall. The paper has sticky notes on it, and a smiling woman watches from behind him
+      alt: A man drawing on a white board with a marker while a woman looks on
 
 ---
 
 {% include announcement-banner.html %}
 {% include hero.html %}
 {% include circuit-banner.html %}
-{% include text-callout-centered.html %}
+{% include text-callout-centered.html content=page.callout %}
 {% include connecting-banner.html %}
 {% include two-column-wide-text.html %}
 {% include three-column-narrow-text.html %}

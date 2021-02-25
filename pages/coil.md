@@ -82,7 +82,7 @@ contact_us:
 
 ---
 {% include hero.html %}
-{% include text-callout-centered.html %}
+{% include text-callout-centered.html content=page.callout %}
 {% include connecting-banner.html %}
 {% include two-column-and-icon-garden.html %}
 {% include featured_items_even.html %}

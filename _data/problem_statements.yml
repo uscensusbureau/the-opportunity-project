@@ -616,7 +616,7 @@
   agency_text: Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T17:30:35.000Z'
   airtable_id: rec91k66NBPeRwaK7
-  category: Community Equity
+  category: Equity
   datasets_text: USASpending.gov, Performance.gov, DisasterAssistance.gov, Sam.gov,
     Grants.gov, Catalog of Federal Domestic Assistance (CFDA), Federal Procurement
     Data System (FPDS), GPS data, Data.gov, FedBizOps
@@ -657,7 +657,7 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T17:43:24.000Z'
   airtable_id: recBxwNpfEqtxSEbI
-  category: Housing + Homelessness
+  category: Housing
   image: photos/sprints/2016-hud.png
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity
   sprint_text: Agency Cohort (2016 Sprint 2/3)
@@ -940,7 +940,7 @@
   agency_text: Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T17:30:36.000Z'
   airtable_id: recGXB6VI2XEbqemj
-  category: Community Equity
+  category: Equity
   datasets_text: USASpending.gov, Sam.gov, Catalog of Federal Domestic Assistance
     (CFDA), Federal Audit Clearing House, Grants.gov, Benefits.gov, USA.gov, FSRS.gov,
     Tracking Accountability in Government Grants Systems (TAGGS), U.S. Department
@@ -983,7 +983,7 @@
   agency_text: U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T18:56:59.000Z'
   airtable_id: recGo0glu9CVxEX87
-  category: Housing + Homelessness
+  category: Housing
   image: photos/sprints/2017-veterans.png
   pdf: 2017-veterans.pdf
   products_text: Get Vets Help, PAIRIN Pathways
@@ -1074,7 +1074,7 @@
   agency_text: U.S. Department of Education
   airtable_createdTime: '2020-02-10T18:55:00.000Z'
   airtable_id: recMEER5Sc9HQrLOF
-  category: Housing + Homelessness
+  category: Housing
   image: photos/sprints/2017-youth.png
   pdf: 2017-youth.pdf
   products_text: MySpot
@@ -1572,7 +1572,7 @@
   agency_text: Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T17:43:28.000Z'
   airtable_id: recjgkTgiJVNQI06t
-  category: Community Equity
+  category: Equity
   image: photos/sprints/2017-grants.png
   pdf: 2017-grants.pdf
   products_text: Social Impact Reporting Platform

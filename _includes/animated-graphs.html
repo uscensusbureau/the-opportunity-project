@@ -1,0 +1,12 @@
+<div class="animated-graphs" id="judging-graphs">
+  {% for item in include.content %}
+    <div class="graph-container">
+      <span class="graph-title">{{ item.title }}</span>
+      <div class="graph-bg">
+        <div class="graph-fill empty"></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/graph-animator.js"></script>

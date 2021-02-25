@@ -14,3 +14,21 @@
     @include dark-link;
   }
 }
+
+@mixin white-link {
+  color: color("white");
+  &:visited {
+    color: color("white");
+  }
+  &:hover, &:focus {
+    color: color("primary-lighter")
+  }
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+@mixin white-links{
+  a {
+    @include white-link;
+  }
+}

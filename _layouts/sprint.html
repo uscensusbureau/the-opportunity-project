@@ -12,7 +12,7 @@ layout: default
 
 {% for statement in problems %}
   {% assign prodId = statement.featured_product[ 0 ] %}
-  {% assign products = site.data.products_airtable | where: 'airtable_id', prodId %}
+  {% assign products = site.data.products | where: 'airtable_id', prodId %}
   {% assign product = products[ 0 ] %}
   
   {% assign showMore = false %}

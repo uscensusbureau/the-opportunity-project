@@ -72,7 +72,7 @@ get_involved:
 {% capture right-col %}
   {% include_relative {{ page.content-light.right-col }} %}
 {% endcapture %}
-{% include two-column-markdown.html content=page.content-light left-col=left-col right-col=right-col %}
+{% include two-column-markdown.html content=page.content-light %}
 
 {% capture expanded %}
   {% include_relative {{ page.callout.expander.expandedSrc }} %}

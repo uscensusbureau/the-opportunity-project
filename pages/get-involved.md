@@ -1,6 +1,7 @@
 ---
 title: Get Involved
 permalink: /get-involved/
+class: get-involved
 layout: default
 
 # full span, top of page section
@@ -25,10 +26,9 @@ content-light:
 
 
 callout:
+  id: asa
   text: Participate in the American Statistical Association Data Challenge Expo
-  expander:
-    summary: Win cash prizes by using Census Bureau data. The theme this year is "Helping Families, Business, and Communities Respond to COVID-19."
-    expandedSrc: get-involved/get-involved-callout.md
+  markdownSrc: get-involved/get-involved-callout.md
 
 join:
   title: Stay in the Loop
@@ -75,10 +75,7 @@ get_involved:
 {% endcapture %}
 {% include two-column-markdown.html content=page.content-light %}
 
-{% capture expanded %}
-  {% include_relative {{ page.callout.expander.expandedSrc }} %}
-{% endcapture %}
-{% include text-callout-centered.html content=expanded %}
+{% include text-callout-centered.html content=page.callout %}
 
 {% capture left-join %}
   {% include_relative {{ page.join.left-col }} %}

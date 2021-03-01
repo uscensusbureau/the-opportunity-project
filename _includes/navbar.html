@@ -39,7 +39,7 @@
                       {% if subnav.accordion %}
                         <
                       {% else %}
-                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                        <a href="{{ site.baseurl }}{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                       {% endif %}
                     </li>
                   {% endfor %}

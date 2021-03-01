@@ -21,7 +21,8 @@
     </li>
   {% else %}
     <li class="usa-nav__primary-item">
-      <a href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
+      {% assign firstChar = link.href | slice: 0 %}
+      <a href="{% if firstChar != '#' %}{{ site.baseurl }}/{% endif %}{{ link.href }}"><span>{{ link.text }}</span></a>
     </li>
   {% endif %}
 {% endfor %}

@@ -19,9 +19,11 @@ $('.sidenav').on('click', 'a', function (e) {
   var hashLocation  = $(this).attr('href').split('#')[ 1 ];
   var scrollTopPos  = calculateAnchorPosition(hashLocation);
 
+  console.log(scrollTopPos);
   //if anchor doesn't exist on the page, or calc fails
   //then exit gracefully
   if (scrollTopPos === 0) {
+    console.log('returning from sidenav')
     return true;
   }
 

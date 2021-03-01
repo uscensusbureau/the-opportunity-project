@@ -4,22 +4,22 @@ const tabBar = document.getElementsByClassName( 'problem-statements' )[0];
 const yearButtons = document.getElementsByClassName( 'yr-btn' );
 
 tabBar.addEventListener( 'click', e => {
-    var problemSet = e.target.id
+  var problemSet = e.target.id
 
-    console.log(e.target);
-    
-    Array.from( yearButtons ).forEach( button => button.classList.remove( 'yr-btn-active' ))
+  console.log(e.target);
+  
+  Array.from( yearButtons ).forEach( button => button.classList.remove( 'yr-btn-active' ))
 
-    Array.from( document.getElementsByClassName('ps-active') )
-        .forEach( el => {
-            el.classList.add( 'ps-inactive' );
-            el.classList.remove('ps-active')})
+  Array.from( document.getElementsByClassName('ps-active') )
+    .forEach( el => {
+      el.classList.add( 'ps-inactive' );
+      el.classList.remove('ps-active')})
 
-    document.getElementById(problemSet).classList.add( 'yr-btn-active' )
+  document.getElementById(problemSet).classList.add( 'yr-btn-active' )
 
-    Array.from( document.getElementsByClassName(`ps-${problemSet}`) )
-        .forEach( el => {
-            el.classList.add( 'ps-active' )
-            el.classList.remove('ps-inactive')
-        })
+  Array.from( document.getElementsByClassName(`ps-${problemSet}`) )
+    .forEach( el => {
+      el.classList.add( 'ps-active' )
+      el.classList.remove('ps-inactive')
+    })
 });

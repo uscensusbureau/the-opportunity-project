@@ -1,4 +1,4 @@
-const nav = document.getElementById('sprint-nav')
+const nav = document.getElementsByClassName('sprint-nav')[0];
 const items = nav.getElementsByClassName('sprint-nav-item')
 
 const highlightNav = pageName => {
@@ -9,5 +9,7 @@ const highlightNav = pageName => {
 
 const loc = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
 const sprint = loc.substring( loc.lastIndexOf('/') + 1 )
-highlightNav( sprint );
-
+if( nav ){
+  highlightNav( sprint );
+} 
+  

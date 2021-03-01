@@ -42,6 +42,7 @@
         {% endif %}
       </div>
     </div>
+    <!--
     <nav class="site-nav-secondary page-{{page.class}} position-sticky padding-left-15">
       <ul class=" margin-left-10 padding-left-15">
         {% if page.type == "topx" %}
@@ -51,11 +52,12 @@
         {% endif %}
         {% for link in links %}
           <li class="usa-nav__primary-item">
-            <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
+            <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | capitalize }}</span></a>
           </li>
         {% endfor %}
       </ul>
     </nav>
+  -->
   </div>
 </header>
 
@@ -92,9 +94,11 @@
   </form> -->
   <div class="usa-nav__inner">
     <ul class="usa-nav__primary usa-accordion">
+      {% assign links = site.data.nav.toolkit.product %}
       {% if page.type == "topx" %}
-        {% include nav/sections.html sections=site.data.nav.toolkits.topx %}
+        {% assign links = site.data.nav.toolkit.topx %}
       {% endif %}
+      {% include nav/sections.html sections=links %}
     </ul>
   </div>
 </nav>

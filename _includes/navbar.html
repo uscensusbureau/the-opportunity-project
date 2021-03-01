@@ -39,7 +39,7 @@
                       {% if subnav.accordion %}
                         <
                       {% else %}
-                        <a href="{{ site.baseurl }}{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
                       {% endif %}
                     </li>
                   {% endfor %}
@@ -106,7 +106,7 @@
   </form> -->
   <div class="usa-nav__inner">
     <ul class="usa-nav__primary usa-accordion">
-      {% include nav/sections.html sections=site.data.nav.primary %}
+      {% include nav/sections.html sections=site.data.nav.mobile %}
     </ul>
   </div>
 </nav>

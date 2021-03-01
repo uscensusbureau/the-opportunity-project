@@ -1,11 +1,11 @@
 ---
-title: News
-permalink: /news/
+title: Press
+permalink: /press/
 layout: default
 
 # full span, top of page section
 hero:
-  text: News
+  text: In the Press
 
 # connecting-banner-with-subheader-inverse.html
 banner-subheader-inverse:
@@ -73,11 +73,11 @@ publications:
       isExternal: true
       img: photos/news/Background_IBM.jpg
       details: IBM Center for The Business of Government
-    - title: The White House
+    - title: Best Practices Report to the President
       href: https://opportunityzones.hud.gov/sites/opportunityzones.hud.gov/files/documents/OZ_Best_Practices_Report.pdf
       isExternal: true
       img: photos/news/Background_white-house.jpg
-      details: 'White House Opportunity and Revitalization Council: Best Practices Report to the President'
+      details: 'White House Opportunity and Revitalization Council'
     
 ---
 
@@ -95,6 +95,3 @@ publications:
 {% include two-column-markdown.html content=page.legislation left-col=leg-left %}
 
 {% include grid-section.html content=page.publications children="cards/card-list.html" %}
-
-<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="true"></script>
-<script src="{{ site.baseurl }}/assets/js/news-slick.js" type="text/javascript" defer></script> -->

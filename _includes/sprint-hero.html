@@ -1,0 +1,25 @@
+<section class="usa-hero padding-y-0" id="sprint-hero">
+  <div class="grid-container padding-left-0 maxw-none">
+    <div class="grid-row">
+      <div class="grid-col-0 tablet:grid-col-1"
+        style="
+          background-image:url({{ site.baseurl }}/assets/img/photos/sprints/{{ include.content.img }});
+          background-size:cover;">
+      </div>
+      <div class="grid-col-12 tablet:grid-col-9 tablet:grid-offset-1">
+        <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6">
+          <h1 class="sprint-hero-header" id="{{ page.short-name }}">
+            {{ include.content.Name }}
+          </h1>
+          {% if include.content.Year %}
+            <span class="order-first text-mono-3xs">
+              <img src="{{ site.baseurl }}/assets/img/icons/yellow-star.svg"/>
+              {{ include.content.Year }}
+            </span>
+          {% endif %}
+          <p>{{ include.content.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

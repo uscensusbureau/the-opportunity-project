@@ -1,0 +1,34 @@
+{% assign sprints = site.data.sprints | where:"airtable_id", include.content.Sprints[0] %}
+{% assign sprint = sprints[ 0 ] %}
+
+<div class="problem-statement past-statement {{ include.active }} ps-{{ include.name }}">
+  <div class="grid-row">
+
+    <div class="ps-left-col ps-collapsed">
+      <span class="secondary-header">Problem Statement</span>
+      <h3 class="text-light font-sans-xl line-height-sans-3 margin-top-1 margin-bottom-1">
+        {{ include.content['Full Title'] }}
+      </h3>
+    </div>
+
+    <div class="ps-right-col ps-collapsed">
+      <div class="ps-right-col-section ps-agency ps-collapsed">
+        <h4 class="secondary-header">Agency</h4>
+        <p class="margin-top-1">{{ include.content.agency_text }}</p>
+      </div>
+      <div class="ps-right-col-section">
+        <h4 class="secondary-header">Year</h4>
+        <p class="margin-top-1">{{ sprint.Year }}</p>
+      </div>
+
+      <div class="ps-right-col-section ps-products ps-collapsed">
+        {% if include.content.pdf %}
+          {% include cards/pdf-card.html
+            content = include.content
+            utils="small-header-card top-header" %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -5,5 +5,11 @@
     </h2>
   {% endif %}
   
-  {% include {{ include.children }} content=include.content %}
+  {% if include.children %}
+    {% include {{ include.children }} content=include.content %}
+  {% endif %}
+
+  {% if include.capture %}
+    {{ include.capture }}
+  {% endif %}
 </section>

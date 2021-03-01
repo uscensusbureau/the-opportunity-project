@@ -347,7 +347,43 @@ h1, h2, h3 {
 .site-nav-secondary {
   display: none;
 
-   &.page-our-process {
+    &.sprint-nav {
+      @include u-position('sticky');
+      top: 3.2em;
+      text-align: center;
+      background-color: color("white");
+      border-bottom: units($site-border-width) solid
+        color($site-base-transparent-light);
+      clear: both;
+      display: block;
+      // height: 4.25rem;
+      z-index: z-index($z-nav-secondary);
+
+      overflow-x: scroll;
+      overflow-y: hidden;
+      ul {
+        width: 740px;
+      }
+      li {
+        float: left;
+      }
+
+      @include at-media('desktop'){
+        top: 5em;
+      }
+
+      @include at-media('755px'){  // want 755px
+        height: units($height-nav-secondary);
+        overflow-x: hidden;
+        ul {
+          width: auto;
+        }
+        li {
+          float: none;
+        }
+      }
+    }
+
     @include at-media("desktop") {
       background-color: color("white");
       border-bottom: units($site-border-width) solid
@@ -377,18 +413,23 @@ h1, h2, h3 {
       color: color("gray-50");
       display: inline-block;
       font-weight: fw("normal");
-      height: units($height-nav-secondary);
+      // height: units($height-nav-secondary);
       padding: units(2);
       position: relative;
       text-decoration: none;
 
-      &:hover {
-        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-        color: color($site-primary-vivid);
+      
+      &:hover, &:active {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('secondary');
       }
-      &:active {
-        @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
-        color: color($site-primary-vivid);
+      &.highlight {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('base-darkest');
+        font-weight: fw('bold');
+        &:hover, &:active {
+          color: color('base-darkest');
+        }
       }
     }
 
@@ -401,7 +442,6 @@ h1, h2, h3 {
         color: color($site-ink);
       }
     }
-  }
 }
 
 
@@ -2386,7 +2426,7 @@ code {
   color: color("white");
   padding: units(6);
   border: solid 1px rgba(255, 255, 255, 0.8);
-
+  @include white-links;
 }
 
 .usa-media-block__inline-items {
@@ -2484,7 +2524,6 @@ code {
     padding: units(2);
     }
 }
-
 
 
 
@@ -2842,24 +2881,63 @@ code {
 }
 
 // Sprints page
+.tab-row {
+  width: max-content;
+  margin: units(5) auto;
+
+}
+
+.tab-wrapper {
+  cursor: pointer;
+
+  &:first-child {
+    h3 {
+      border-left-width: 2px;
+    }
+  }
+  &:last-child {
+    h3 {
+      border-right-width: 2px;
+    }
+  }
+}
 
 .yr-btn {
-  display: inline;
   font-size: font-size("mono", "2xs");
   border: solid color("white") 1px;
   color: color("white");
   margin: 0;
-  padding: units(1) units(2);
+  padding: units(1) units(1);
   -o-transition:.2s;
   -ms-transition:.2s;
   -moz-transition:.2s;
   -webkit-transition:.2s;
   transition:.2s;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  @include at-media('mobile-lg') {
+    max-width: none;
+    padding: units(1) units(2);
+  }
+
+  &.dark-btn {
+    border: solid 2px color('base-darkest');
+    color: color('base-darkest');
+    border-left-width: 1px;
+    border-right-width: 1px;
+    
+  }
 }
 
 .yr-btn:hover, .yr-btn-active {
   color: color("base-darkest");
   background-color: color("white");
+
+  &.dark-btn {
+    color: color('white');
+    background-color: color('base-darkest');
+  }
 }
 
 .year-wrapper {
@@ -4248,6 +4326,12 @@ $theme-table-column-gap: 4;
 
 .usa-hero__subtitle {
     @include u-padding-bottom(7);
+    a {
+      color: color($theme-color-base-lighter);
+      &:visited {
+        color: color($theme-color-base-light);
+      }
+    }
 }
 
 figure.highlight {
@@ -4492,21 +4576,11 @@ body {
   }
 }
 
-.callout-expanded {
-  a {
-    color: white;
-    &:visited {
-      color: white;
-    }
-  }
-}
-
 .grid-section {
   @include u-bg('white');
   @include grid-container;
   @include u-maxw('desktop');
   @include u-padding-x(2);
-  // bg-white grid-container maxw-desktop padding-x-2
 }
 
 .write-a-story {
@@ -4528,10 +4602,10 @@ body {
   h3 a {
     position: relative;
     &::after {
-      content: "→";
       position: absolute;
+      content: "→";
       bottom: 0;
-      left: calc(100% + 10px);
+      left: calc(100% + .3rem);
     }
   }
 }
@@ -4584,6 +4658,19 @@ body {
     @include u-padding-right(5);
   }
 }
+.usa-card__container {
+  a {
+    height: 100%;
+    text-decoration: none;
+  }
+  .card-header {
+    @include u-radius($theme-card-border-radius);
+  }
+}
+
+.usa-card__container > .card-header {
+  @include u-radius($theme-card-border-radius);
+}
 
 .short-card {
   @include u-maxh('card-lg');
@@ -4603,7 +4690,6 @@ body {
   @include u-font('body', 'lg');
 }
 
-
 h2.section-header {
   @include u-color('base-darkest');
   @include u-margin-bottom(1);
@@ -4611,6 +4697,23 @@ h2.section-header {
   @include u-line-height('sans', 3);
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
+}
+
+.secondary-header {
+  color: color("secondary");
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: font-size('sans', '3xs');
+  margin: 1.5rem 0 .5rem 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.problem-statement-subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .news-blurb-grid-item {
@@ -4630,7 +4733,6 @@ h2.section-header {
     
 }
 
-
 .news-blurb {
   @include u-outline('1px');
   @include u-outline-color('base-lighter');
@@ -4644,3 +4746,27 @@ h2.section-header {
   flex-direction: row;
   padding: 0;
 }
+
+.dark-link {
+  @include dark-link;
+}
+
+.prize-winner-product {
+  @include grid-container;
+  @include u-margin-y(3);
+
+  .grid-row {
+    @include grid-gap;
+    @include u-padding-y(3);
+    @include u-padding-right(1);
+    @include u-outline('1px');
+    @include u-outline-color('base-light');
+  }
+}
+
+.markdownify-column > p {
+  @include u-margin-top(0);
+}
+
+@import 'problem-statement.scss';
+@import 'animated-graphs.scss';

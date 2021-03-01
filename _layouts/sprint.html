@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% assign data=site.data.sprints | where: 'short-tag', page.short-name %}
+{% assign sprint = data[ 0 ] %}
+{% assign problems = site.data.problem_statements | sort:'sprint_order' | where: 'Sprints', sprint.airtable_id %}
+
+{% include hero.html %}
+{% include nav/sprints-nav.html %}
+{% include sprint-hero.html content=sprint %}
+
+{% for statement in problems %}
+  {% assign prodId = statement.featured_product[ 0 ] %}
+  {% assign products = site.data.products | where: 'airtable_id', prodId %}
+  {% assign product = products[ 0 ] %}
+  
+  {% assign showMore = false %}
+  {% if forloop.index0 == 1 %}
+    {% assign showMore = true %}
+  {% endif %}
+
+
+  {% include problem-statement.html content=statement product=product 
+    showMore=showMore isExpanded = forloop.first %}
+{% endfor %}
+
+<script src="{{ site.baseurl }}/assets/js/ps-show-more-less.js" type="text/javascript"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/sprint-nav-highlight.js"></script>

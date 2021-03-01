@@ -1,0 +1,18 @@
+{% assign card=include.content %}
+{% assign teams=site.data.organizations | where: 'airtable_id', card.tech_team[0] %}
+{% assign team = teams[ 0 ] %}
+
+
+<div 
+  class="usa-card__container card-container ps-card {{ include.utils }}"
+  style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});
+          background-size: cover;">
+  <a href="{{ card.link }}">
+    <div class="card-header">
+      <h3 class="text-sans-1 text-ls-1">
+          {{ card.title }}
+      </h3>
+      <p>{{ team['Company Name'] }}</p>
+    </div>
+  </a>
+</div>

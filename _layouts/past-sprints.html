@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+{% include nav/sprints-nav.html %}
+{% include sprint-hero.html content=page.hero %}
+
+{% assign pastStatements = site.data.problem_statements | group_by: "category" %}
+
+<!-- filter out problem statements without categories -->
+{% assign pastStatements = pastStatements | where_exp: "item", "item.name.size > 0" %}
+
+<!-- create an array of just the names of categories of past sprints -->
+{% assign categories = "" | split: "," %} <!-- initialize empty array -->
+{% for group in pastStatements %}
+  {% assign categories = categories | push: group.name %}
+{% endfor %}
+<!-- use that array to create a row of tab buttons -->
+{% include tab-row.html content=categories %}
+
+<!-- display all the past sprints, sorted by category -->
+{% assign firstGroupName = pastStatements[0].name %}
+{% for group in pastStatements %}
+  {% for item in group.items %}
+    {% assign active = "ps-active" %}
+    {% unless group.name == firstGroupName %}
+      {% assign active = "ps-inactive" %}
+    {% endunless %}
+    {% include problem-statement-past.html content=item name=group.name active=active %}
+  {% endfor %}
+{% endfor %}
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/sprint-nav-highlight.js"></script>
+<script src="{{ site.baseurl }}/assets/js/toggle-problem-statements.js" type="text/javascript" defer></script>

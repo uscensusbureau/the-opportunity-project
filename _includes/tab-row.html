@@ -1,0 +1,12 @@
+
+<div class="grid-row margin-bottom-5 problem-statements tab-row">
+  {% for item in include.content %}
+    {% if item.size > 0 %}
+      <span class="tab-wrapper">
+        <h3 class="yr-btn dark-btn
+        {% if forloop.first %}yr-btn-active{% endif %}" 
+          id="{{ item }}">{{ item }}</h3>
+      </span>
+    {% endif %}
+  {% endfor %}
+</div>

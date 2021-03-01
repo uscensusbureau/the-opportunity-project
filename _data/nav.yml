@@ -108,8 +108,23 @@ toolkit:
       href: topx-toolkit/phase-2/
     - text: Phase 3
       href: topx-toolkit/phase-3/
-    - text: glossary
+    - text: Glossary
       href: topx-toolkit/glossary/
   download-pdf-link: assets/files/TOPx_Toolkit.pdf
+  product:
+    - text: STEP 1
+      href: "#toolkit-step-1"
+    - text: STEP 2
+      href: "#toolkit-step-2"
+    - text: STEP 3
+      href: "#toolkit-step-3"
+    - text: STEP 4
+      href: "#toolkit-step-4"
+    - text: STEP 5
+      href: "#toolkit-step-5"
+    - text: STEP 6
+      href: "#toolkit-step-6"
+    - text: STEP 7
+      href: "#toolkit-step-7"   
 
   

@@ -1,5 +1,5 @@
-{% if page.type == "topx" %}
-  {% assign links = site.data.nav.toolkit.topx %}
+{% if include.sections %}
+  {% assign links = include.sections %}
 {% else %}
   {% assign links = site.data.nav.primary %}
 {% endif %}
@@ -21,11 +21,12 @@
     </li>
   {% else %}
     <li class="usa-nav__primary-item">
-      <a href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
+      {% assign firstChar = link.href | slice: 0 %}
+      <a href="{% if firstChar != '#' %}{{ site.baseurl }}/{% endif %}{{ link.href }}"><span>{{ link.text }}</span></a>
     </li>
   {% endif %}
 {% endfor %}
-{% if page.type == "topx" %}
+{% if page.class == "toolkit" %}
   <li class="usa-nav__primary-item">
     <a href="{{ site.baseurl }}/"><span>Back to Main Site</span></a>
   </li>

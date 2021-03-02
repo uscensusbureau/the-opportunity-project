@@ -1,3 +1,6 @@
+var updateSidenav = require('./sidenav.js')
+console.log({updateSidenav})
+
 const HIGHLIGHT_CLASS = 'highlight'
 const links = document.querySelectorAll('.sprint-nav-item a')
 
@@ -57,3 +60,5 @@ if( nav ){
     highlightNav( subLoc, true )
   }
 }
+
+window.addEventListener('scroll', updateSidenav);

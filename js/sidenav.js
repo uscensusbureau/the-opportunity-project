@@ -1,8 +1,5 @@
 'use strict';
 
-// var $ = require('jquery');
-// var calculateAnchorPosition = require('./calculate-anchor-position');
-
 /* Firefox needs html, others need body */
 var root = $('body, html');
 
@@ -74,21 +71,25 @@ $('.usa-sidenav').on('click', 'a', function (e) {
 var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");
 var sections = document.getElementsByClassName("toolkit-section")
 
-function updateSidenav() {
+const highlightAnchorNavigation = ( anchorLinks, pageDivs ) => {
   var currentDistanceFromWindowTop = window.scrollY;
 
   var i;
-  for (i = 0; i < sideNavLinks.length; i++ ) {
-    var section = sections[i];
+  for (i = 0; i < anchorLinks.length; i++ ) {
+    var section = pageDivs[i];
     var divDistanceFromTop = section.getBoundingClientRect().top;
     var divHeight = section.offsetHeight;
     if (divDistanceFromTop <= 250 && divDistanceFromTop + divHeight > 50 ) {
-        sideNavLinks[i].classList.add("usa-current");
+      anchorLinks[i].classList.add("usa-current");
     } else {
-      sideNavLinks[i].classList.remove("usa-current");
+      anchorLinks[i].classList.remove("usa-current");
     }
   }
 };
 
 // Add event listener to scroll
-window.addEventListener("scroll", updateSidenav);
+window.addEventListener("scroll", e => {
+  highlightAnchorNavigation( sideNavLinks, sections )
+});
+
+module.exports = highlightAnchorNavigation;

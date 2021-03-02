@@ -27,19 +27,19 @@
 
 
             {% if callout.expander %}
-            <div class="text-callout-centered">
-              <div class="text-center font-family-mono">
-                <button class="callout-button text-white">
-                  <span>See More</span>
-                </button>
+              <div class="text-callout-centered">
+                <div class="text-center font-family-mono">
+                  <button class="callout-button text-white">
+                    <span>See More</span>
+                  </button>
+                </div>
+                <p class="callout-summary">
+                  {{ callout.expander.summary }}
+                </p>
+                <div class="callout-expanded ps-inactive">
+                  {{ include.expanded | markdownify }}
+                </div>
               </div>
-              <p class="callout-summary">
-                {{ callout.expander.summary }}
-              </p>
-              <div class="callout-expanded ps-inactive">
-                {{ include.expanded | markdownify }}
-              </div>
-            </div>
             {% endif %}
           </div>
         </div>
@@ -49,5 +49,5 @@
 </main>
 
 {% if page.callout.expander %}
-  <script src="{{ site.baseurl }}/assets/js/show-more-less.js" type="text/javascript"></script>
+  <!-- <script src="{{ site.baseurl }}/assets/js/show-more-less.js" type="text/javascript"></script> -->
 {% endif %}

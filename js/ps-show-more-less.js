@@ -32,7 +32,9 @@ if( buttons ){
         button.innerHTML = "<span>See Less</span>";
       }
 
-      parentProblem.scrollIntoView();
+      parentProblem.scrollIntoView({
+        behavior: "smooth"
+      });
     })
   })
 }

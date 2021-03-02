@@ -1,5 +1,4 @@
-var updateSidenav = require('./sidenav.js')
-console.log({updateSidenav})
+const highlightAnchorNavigation = require('./sidenav.js')
 
 const HIGHLIGHT_CLASS = 'highlight'
 const links = document.querySelectorAll('.sprint-nav-item a')
@@ -41,8 +40,8 @@ if( nav ){
   const loc = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
   const subLoc = loc.substring( loc.lastIndexOf('/') + 1 )
   /*
-   * for sprints page, highlight based on /baseurl/sprints
    * for our-process page, highlight based on /url/our-process/#id
+   * for sprints page, highlight based on /baseurl/sprints
    */
   if( subLoc === 'our-process' ){
     for( link of links ){
@@ -55,10 +54,14 @@ if( nav ){
     }
 
     setHighlightsFromHash();
+
+    const headers = document.getElementsByClassName('process-section')
+
+    window.addEventListener('scroll', e => {
+      highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS )
+    });
   }
   else {
     highlightNav( subLoc, true )
   }
 }
-
-window.addEventListener('scroll', updateSidenav);

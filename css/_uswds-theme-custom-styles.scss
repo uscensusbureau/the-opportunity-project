@@ -356,7 +356,6 @@ h1, h2, h3 {
       color($site-base-transparent-light);
     clear: both;
     display: block;
-    // height: 4.25rem;
     z-index: z-index($z-nav-secondary);
 
     overflow-x: scroll;
@@ -367,10 +366,7 @@ h1, h2, h3 {
       flex-direction: row;
       justify-content: center;
     }
-    // li {
-    //   float: left;
-    // }
-
+    
     @include at-media('desktop'){
       top: 5em;
     }

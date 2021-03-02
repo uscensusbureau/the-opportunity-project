@@ -23,13 +23,13 @@
             {% if item.accordions %}
               {% for accordion in item.accordions %}
                 <div class="usa-accordion usa-accordion--bordered bg-base-darker text-white margin-bottom-2 ">
-                  <h2 class="usa-accordion__heading">
+                  <h4 class="usa-accordion__heading">
                     <button class="usa-accordion__button light bg-base-darker text-white"
                       aria-expanded="false"
                       aria-controls="{{ accordion.aria }}">
                       {{ accordion.title }}
                     </button>
-                  </h2>
+                  </h4>
                   <div id="{{ accordion.aria }}" class="usa-accordion usa-accordion--bordered margin-top-0  bg-base-darkest border-solid border-base-darker">
                     {% if accordion.steps %}
                       <ol>

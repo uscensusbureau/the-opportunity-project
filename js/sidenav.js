@@ -1,4 +1,5 @@
 'use strict';
+var calculateAnchorPosition = require('./calculate-anchor-position.js')
 
 /* Firefox needs html, others need body */
 var root = $('body, html');

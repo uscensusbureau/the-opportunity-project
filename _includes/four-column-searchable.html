@@ -1,29 +1,6 @@
 <section class="usa-section usa-graphic-list grid-container">
   {% assign case_studies = site.data.case_studies %}
-    <div class="grid-row grid-gap">
-      {% for case in case_studies %}
-        <div
-          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
-        >
-          <a href="{{ site.baseurl}}/{{ case.product_name | slugify }}/" >
-          {% if case.image %}
-            <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
-          {% endif %}
-          <div class="content-grid-one-third padding-left-4 padding-right-2">
-            {% if case.product_name %}
-              <h2 class="text-white padding-top-4">{{ case.product_name }}</h2>
-            {% endif %}
-            {% if case.tech_team %}
-              <p class="font-mono-2xs opacity-70">{{ case.tech_team | upcase }}</p>
-            {% endif %}
-            {% if case.overlay_text%}
-              <p class="font-sans-2xs opacity-70">{{ case.overlay_text}}</p>
-            {% endif %}
-          </div>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
+    {% include cards/card-list.html content=site.data.case_studies %}
 </section>
 <div
   class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5"

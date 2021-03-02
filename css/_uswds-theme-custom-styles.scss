@@ -4641,6 +4641,18 @@ body {
   .card-date {
     order: -1;
   }
+  /*
+   cards go from col-12 to col-4 at tablet.
+   b/w tablet and tablet-lg, there's too much text on them.
+   hide the details text until we get to tablet-lg
+  */
+  .card-details {
+    @include at-media('tablet') {
+      @include at-media-max('tablet-lg') {
+        display: none;
+      }
+    }
+  }
 
   a {
     text-decoration: none;

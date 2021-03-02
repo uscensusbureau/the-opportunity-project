@@ -64,7 +64,6 @@ $('.usa-sidenav').on('click', 'a', function (e) {
 
   if (sideLinks.length > 0 ) {
     for (i = 0; i < sideLinks.length; i++ ) {
-      console.log(sideLinks[i])
       $(sideLinks[i]).removeClass("usa-current");
     }
   }

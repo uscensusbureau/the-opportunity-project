@@ -1,13 +1,18 @@
 'use strict';
 
 require('./form-disable');
+require('./graph-animator');
+require('./calculate-anchor-position');
 require('./scroll-to-top-for-hash');
 require('./sidenav');
 require('./show-more-less');
+require('./ps-show-more-less');
 require('./filter-cards');
 require('./toggle');
 require('./data-kit-modal');
+require('./sprint-nav-highlight');
 require('./toggle-problem-statements.js');
+require('./return-to-top')
 require('./vendor/stickyfill.min.js');
 
 

@@ -16,7 +16,6 @@ let filterAgencies = []
 const params = new URLSearchParams( window.location.search )
 if( params.has( 'search' )){
   const searchParam = params.get( 'search' )
-  console.log('searching for ' + searchParam);
   searchField.value = searchParam;
   searchTerm = searchParam;
 

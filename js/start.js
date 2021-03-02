@@ -1,6 +1,7 @@
 'use strict';
 
 require('./form-disable');
+require('./graph-animator');
 require('./calculate-anchor-position');
 require('./scroll-to-top-for-hash');
 require('./sidenav');

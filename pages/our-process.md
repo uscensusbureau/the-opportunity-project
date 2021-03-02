@@ -229,6 +229,7 @@ role-descriptions:
 ---
 
 {% include hero.html %}
+{% include secondary-nav.html %}
 {% include connecting-banner-notched.html %}
 {% include single-column-centered-list.html %}
 {% include connecting-banner-with-subheader.html %}

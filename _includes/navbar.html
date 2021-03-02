@@ -58,18 +58,6 @@
       </div>
     </div>
 
-    {% if page.class == "our-process" %}
-      <nav class="site-nav-secondary sprint-nav">
-        <ul>
-          {% assign links = site.data.nav.secondary %}
-          {% for link in links %}
-            <li class="usa-nav__primary-item sprint-nav-item" name="{{ link.text | slugify }}">
-              <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/our-process/{{ link.href }}">{{ link.text }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    {% endif %}
   </div>
 </header>
 

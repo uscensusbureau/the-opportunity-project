@@ -20,6 +20,8 @@ if( params.has( 'search' )){
   searchTerm = searchParam;
 
   displayFilteredProducts();
+
+  document.getElementById('all-products').scrollIntoView()
 }
 
 

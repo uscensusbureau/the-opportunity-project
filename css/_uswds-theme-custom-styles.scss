@@ -347,101 +347,100 @@ h1, h2, h3 {
 .site-nav-secondary {
   display: none;
 
-    &.sprint-nav {
-      @include u-position('sticky');
-      top: 3.2em;
-      text-align: center;
-      background-color: color("white");
-      border-bottom: units($site-border-width) solid
-        color($site-base-transparent-light);
-      clear: both;
-      display: block;
-      // height: 4.25rem;
-      z-index: z-index($z-nav-secondary);
+  &.sprint-nav {
+    @include u-position('sticky');
+    top: 3.2em;
+    text-align: center;
+    background-color: color("white");
+    border-bottom: units($site-border-width) solid
+      color($site-base-transparent-light);
+    clear: both;
+    display: block;
+    z-index: z-index($z-nav-secondary);
 
-      overflow-x: scroll;
-      overflow-y: hidden;
-      ul {
-        width: 740px;
-      }
-      li {
-        float: left;
-      }
-
-      @include at-media('desktop'){
-        top: 5em;
-      }
-
-      @include at-media('755px'){  // want 755px
-        height: units($height-nav-secondary);
-        overflow-x: hidden;
-        ul {
-          width: auto;
-        }
-        li {
-          float: none;
-        }
-      }
-    }
-
-    @include at-media("desktop") {
-      background-color: color("white");
-      border-bottom: units($site-border-width) solid
-        color($site-base-transparent-light);
-      clear: both;
-      display: block;
-      height: units($height-nav-secondary);
-      padding-left: units(2);
-      z-index: z-index($z-nav-secondary);
-    }
-
-    &.sticky {
-      top: 5rem;
-      position: -webkit-sticky !important;
-    }
-
+    overflow-x: scroll;
+    overflow-y: hidden;
     ul {
-      @include unstyled-list;
+      min-width: 740px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    @include at-media('desktop'){
+      top: 5em;
+    }
 
+    @include at-media('755px'){  // want 755px
+      height: units($height-nav-secondary);
+      overflow-x: hidden;
+      ul {
+        width: auto;
+      }
       li {
-        display: inline;
+        float: none;
       }
     }
+  }
 
-    a {
-      @include typeset("lang", "xs", 1);
-      color: color("gray-50");
-      display: inline-block;
-      font-weight: fw("normal");
-      // height: units($height-nav-secondary);
-      padding: units(2);
-      position: relative;
-      text-decoration: none;
+  @include at-media("desktop") {
+    background-color: color("white");
+    border-bottom: units($site-border-width) solid
+      color($site-base-transparent-light);
+    clear: both;
+    display: block;
+    height: units($height-nav-secondary);
+    padding-left: units(2);
+    z-index: z-index($z-nav-secondary);
+  }
 
-      
+  &.sticky {
+    top: 5rem;
+    position: -webkit-sticky !important;
+  }
+
+  ul {
+    @include unstyled-list;
+
+    li {
+      display: inline;
+    }
+  }
+
+  a {
+    @include typeset("lang", "xs", 1);
+    color: color("gray-50");
+    display: inline-block;
+    font-weight: fw("normal");
+    // height: units($height-nav-secondary);
+    padding: units(2);
+    position: relative;
+    text-decoration: none;
+
+    
+    &:hover, &:active {
+      @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+      color: color('secondary');
+    }
+    &.highlight {
+      @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+      color: color('base-darkest');
+      font-weight: fw('bold');
       &:hover, &:active {
-        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
-        color: color('secondary');
-      }
-      &.highlight {
-        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
         color: color('base-darkest');
-        font-weight: fw('bold');
-        &:hover, &:active {
-          color: color('base-darkest');
-        }
       }
     }
+  }
 
-    &.usa-current {
-      @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
+  &.usa-current {
+    @include add-bar(0.5, $site-primary-vivid, "bottom", 0, 2, 0);
+    color: color($site-ink);
+    font-weight: fw("bold");
+
+    &:hover {
       color: color($site-ink);
-      font-weight: fw("bold");
-
-      &:hover {
-        color: color($site-ink);
-      }
     }
+  }
 }
 
 

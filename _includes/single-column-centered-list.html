@@ -31,13 +31,13 @@
         {% endif %}
         {% for accordion in item.accordions %}
           <div class="usa-accordion usa-accordion--bordered text-black margin-0">
-            <h2 class="usa-accordion__heading text-normal">
+            <h4 class="usa-accordion__heading text-normal">
               <button class="usa-accordion__button font-sans-2xs text-normal"
                 aria-expanded="false"
                 aria-controls="{{ accordion.aria }}">
                 {{ accordion.title }}
               </button>
-            </h2>
+            </h4>
             <div id="{{ accordion.aria }}" class="usa-accordion usa-accordion--bordered margin-top-0 border-solid border-base-lightest padding-3">
               <div class="border-bottom border-base-lighter">
                 {% if accordion.agency %}

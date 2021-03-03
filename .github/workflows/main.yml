@@ -3,30 +3,16 @@
 name: CI
 
 # Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push, pull_request]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  - name: HTMLProofer
-    # You may pin to the exact commit or the version.
-    # uses: chabad360/htmlproofer@2a7ae5816b7173dbbc37cf4cfc33ca6c47c96ecc
-    uses: chabad360/htmlproofer@v1.1
-    with:
-      # The directory to scan
-      directory: ./_site
-      # HTMLProofer options
-      arguments: --allow_hash_href --assume_extension --only_4xx --file-ignore ./_site/components/index.html
-
-  # This workflow contains a single job called "build"
-  build:
+  
+  # This workflow contains a single job called "htmlproof"
+  htmlproof:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 

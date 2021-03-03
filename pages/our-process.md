@@ -227,7 +227,7 @@ role-descriptions:
 
 {% include hero.html %}
 {% include secondary-nav.html %}
-<div class="process-section">
+<div class="process-section" id="our-process">
   {% include connecting-banner-notched.html %}
   {% include single-column-centered-list.html %}
 </div>

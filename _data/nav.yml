@@ -29,7 +29,7 @@ primary:
 
 secondary:
   - text: Our Process
-    href: '#'
+    href: '#top'
   - text: How it Works
     href: '#how-it-works'
   - text: Roles

@@ -1,18 +1,18 @@
 {
   "name": "the-opportunity-project-site",
   "private": true,
-  "homepage": "https://github.com/uscensusbureau/temporary-repo-top-v2",
+  "homepage": "https://github.com/uscensusbureau/the-opportunity-project",
   "bugs": {
-    "url": "https://github.com/uscensusbureau/temporary-repo-top-v2/issues"
+    "url": "https://github.com/uscensusbureau/the-opportunity-project/issues"
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "author": "COIL",
   "contributors": [
-    "Marcella Maki <marcella.l.maki@census.gov>"
+    "Sam Potasznik <sam.potasznik.census@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uscensusbureau/temporary-repo-top-v2"
+    "url": "git+https://github.com/uscensusbureau/the-opportunity-project"
   },
   "scripts": {
     "axe": "node config/run-axe.js",

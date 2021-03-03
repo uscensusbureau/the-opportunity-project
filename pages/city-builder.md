@@ -36,7 +36,7 @@ sidebar:
     text:
       - City Builder
     button:
-      - link:  https://sille.space/app_fema/
+      link: https://sille.space/app_fema/
   - title: TECH TEAM
     text:
       - Citi Ventures

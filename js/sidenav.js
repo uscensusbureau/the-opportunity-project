@@ -12,6 +12,7 @@ $('.sidenav').on('keydown', 'a', function (e) {
   }
 });
 
+/*
 $('.sidenav').on('click', 'a', function (e) {
   // long url splitting
   var hashLocation  = $(this).attr('href').split('#')[ 1 ];
@@ -53,10 +54,8 @@ $('.sidenav').on('click', 'a', function (e) {
   });
 });
 
-
-
 $('.usa-sidenav').on('click', 'a', function (e) {
-  e.preventDefault();
+  // e.preventDefault();
   var sideLinks = document.getElementsByClassName("usa-current");
   var i;
 
@@ -67,6 +66,7 @@ $('.usa-sidenav').on('click', 'a', function (e) {
   }
   $( this ).closest('li').addClass('usa-current');
 });
+*/
 
 
 var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");

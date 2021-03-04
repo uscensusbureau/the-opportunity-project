@@ -24,8 +24,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: build
-        run: bundle exec jekyll build
+      - name: install dependencies & build site
+        uses: limjh16/jekyll-action-ts@v2
       - name: HTMLProofer
         # You may pin to the exact commit or the version.
         # uses: chabad360/htmlproofer@2a7ae5816b7173dbbc37cf4cfc33ca6c47c96ecc

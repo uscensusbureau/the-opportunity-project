@@ -235,7 +235,7 @@ role-descriptions:
   {% include connecting-banner-with-subheader.html %}
   {% include timeline-progress-section-dark.html %}
 </div>
-<div class="process-section">
+<div class="process-section" id="{{ page.card-explanation.title | slugify }}">
   {% include two-column-card-text.html %}
 </div>
 {% include single-column-banner-photo-overlay-and-content.html %}

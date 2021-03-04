@@ -1,5 +1,5 @@
 - title: Workforce Challenges
-  image: /img/data-kits/workforce.png
+  image: /img/data-kits/workforce.webp
   short_url: workforce
   link: data/workforce
   description: Data on workers, businesses, jobs, credentials, and more <br><br>
@@ -15,7 +15,7 @@
   datasets: 75
 
 - title: Built Environment
-  image: /img/data-kits/gis.png
+  image: /img/data-kits/gis.webp
   short_url: built-environment
   link: data/built-environment
   description: Economic self-sufficiency, refugees, development, and disaster spending.

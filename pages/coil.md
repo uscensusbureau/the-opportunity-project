@@ -9,7 +9,7 @@ class: coil
 hero:
   text: "We're transforming cross-sector collaboration"
   subtext: We bring together government, industry, and communities to unleash creativity and solve national challenges.
-  image: photos/coil/coil-hero.png
+  image: photos/coil/coil-hero.webp
   image-alt: Collage of photos of workshop participants.
 
 
@@ -23,7 +23,7 @@ callout:
 
 connecting-banner:
   background-color: primary
-  image: coil/who-we-are.png
+  image: coil/who-we-are.webp
   alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
 # who we are
@@ -50,19 +50,19 @@ featured_items:
     button-link: /
   - name: Census Accelerate
     description: We mobilize the creative community and partner with influential stars to spread awareness about the importance of the 2020 Census and combat mis- and dis-information.
-    img: photos/coil/accelerate.png
+    img: photos/coil/accelerate.webp
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
     button-external: https://accelerate.census.gov
   - name: Civic Digital Fellowship
     description: We facilitate the U.S. Census Bureau’s participation in this first-of-its-kind internship program that empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces.
-    img: photos/coil/cdf.png
+    img: photos/coil/cdf.webp
     alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
     button-external: https://www.codingitforward.com/fellowship
   - name: Human-centered Design Training
     description: We teach human-centered design fundamentals to leaders at the U.S. Census Bureau to introduce new problem solving methods and methods for collaboration.
-    img: photos/coil/hcd.png
+    img: photos/coil/hcd.webp
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
 

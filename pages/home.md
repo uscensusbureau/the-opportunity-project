@@ -9,7 +9,7 @@ class: home
 hero:
   text: Putting America's data to work for the people
   subtext: We help teams use federal open data to build solutions to our nation’s toughest challenges
-  image: photos/home/hero.png
+  image: photos/home/hero.webp
   image-alt: Collage of a veteran, student, father and daughter on the beach, workshop participants, and a conference speaker.
 
 circuit-banner:
@@ -31,7 +31,7 @@ callout:
 
 connecting-banner:
   background-color: primary
-  image: home/homepage-01.png
+  image: home/homepage-01.webp
   alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
 # used here for the "how it works" section
@@ -86,21 +86,21 @@ featured_items:
   - name: City Builder
     team: Citi Ventures
     description: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
-    img: photos/home/products/city-builder.png
+    img: photos/home/products/city-builder.webp
     alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
     button-link: city-builder/
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
-    img: photos/home/products/sille.png
+    img: photos/home/products/sille.webp
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
     button-link: sille/
   - name: PRADOS
     team: iCASAPR
     description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
-    img: photos/home/products/prados.png
+    img: photos/home/products/prados.webp
     alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
     button-link: prados/
@@ -112,20 +112,20 @@ testimonials:
     together around a problem who wouldn’t otherwise be working together.'
     person: Rob Lalka
     organization: Public Democracy
-    image: photos/home/headshots/rob-lalka.png
+    image: photos/home/headshots/rob-lalka.webp
   - text: '[TOP] really represents the best of what government can be — a platform for engagement that is so core to our democracy.'
     person: Denice Ross
     organization: Georgetown University
-    image: photos/home/headshots/denice-ross.png
+    image: photos/home/headshots/denice-ross.webp
   - text: The emphasis on human-centered design and the opportunity to speak to all of these different advocates and stakeholders was key in creating a product that would actually help the end user.
     person: Ryan Harper
     organization: CITI VENTURES
-    image: photos/home/headshots/ryan-harper.png
+    image: photos/home/headshots/ryan-harper.webp
 
 # get involved
 get_involved:
   is-blue: true
-  title-image: photos/get-involved/get-involved.png
+  title-image: photos/get-involved/get-involved.webp
   title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Get Involved
   subtitle:
@@ -160,7 +160,7 @@ news:
       details: The White House Wants You to Build Tools to Improve Our Cities
       href: https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/
       date: March 7, 2016
-      img: photos/home/news/news-main.png
+      img: photos/home/news/news-main.webp
       alt: An American flag
       isExternal: true
   side-cards:
@@ -168,7 +168,7 @@ news:
       href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
       date: March 12, 2019
       title: Forbes
-      img: photos/home/news/news-01.png
+      img: photos/home/news/news-01.webp
       alt: People seated at tables taking notes during a TOP presentation
       isExternal: true
     - title: New York Times
@@ -176,7 +176,7 @@ news:
       href: https://www.nytimes.com/2016/03/08/us/politics/new-federal-website-aims-to-enhance-community-services.html?searchResultPosition=1
       isExternal: true
       date: March 7, 2016
-      img: photos/home/news/news-02.png
+      img: photos/home/news/news-02.webp
       alt: A man drawing on a white board with a marker while a woman looks on
 
 ---

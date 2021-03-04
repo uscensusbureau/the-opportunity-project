@@ -1,4 +1,5 @@
 var gulp  = require('gulp');
+const webp = require('gulp-webp');
 var dutil = require('./doc-util');
 var task  = 'images';
 
@@ -7,6 +8,7 @@ gulp.task('copy-doc-images', function (done) {
   dutil.logMessage(task, 'Copying images from img/');
 
   var stream = gulp.src('./img/**/*')
+    .pipe(webp())
     .pipe(gulp.dest('assets/img'));
 
   return stream;

@@ -440,7 +440,7 @@ explanation:
   - number: 1
     title: Natural Environments Sprint
     subtitle: RUNS JUNE—SEP
-    image: photos/sprints/2020-natural-sprint.jpg
+    image: photos/sprints/2020-natural-sprint.webp
     image-alt: mountains
     description: This cohort focuses on challenges related to the natural environment, including reducing plastic pollution and developing markets for recycled materials.
     links:
@@ -472,7 +472,7 @@ explanation:
 # single-column-with-photo-overlay.html
 
 photo:
-  image: photos/sprints/2020-earth-sprint-banner.jpg
+  image: photos/sprints/2020-earth-sprint-banner.webp
   img-alt: overhead view of beach with sand, large rocks, and bright blue water
   overlay:
     title: 2020 Earth Sprints

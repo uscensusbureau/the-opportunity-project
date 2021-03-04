@@ -66,17 +66,17 @@ publications:
     - title: A Roadmap to the Future
       href: https://ourpublicservice.org/wp-content/uploads/2020/02/Future-of-Government.pdf
       isExternal: true
-      img: photos/news/Background_roadmap.jpg
+      img: photos/news/Background_roadmap.webp
       details: The Partnership for Public Service Publication
     - title: 'Agile Problem Solving in Government: A Case Study of The Opportunity Project'
       href: http://www.businessofgovernment.org/report/agile-problem-solving-government-case-study-opportunity-project
       isExternal: true
-      img: photos/news/Background_IBM.jpg
+      img: photos/news/Background_IBM.webp
       details: IBM Center for The Business of Government
     - title: Best Practices Report to the President
       href: https://opportunityzones.hud.gov/sites/opportunityzones.hud.gov/files/documents/OZ_Best_Practices_Report.pdf
       isExternal: true
-      img: photos/news/Background_white-house.jpg
+      img: photos/news/Background_white-house.webp
       details: 'White House Opportunity and Revitalization Council'
     
 ---

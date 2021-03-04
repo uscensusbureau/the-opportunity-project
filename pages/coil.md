@@ -44,7 +44,7 @@ explanation:
 featured_items:
   - name: The Opportunity Project
     description: We bring together tech companies, non-profit community groups, and federal agencies to build tools that advance economic opportunity using federal open data.
-    img: photos/coil/top.jpg
+    img: photos/coil/top.webp
     alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
     button-link: /

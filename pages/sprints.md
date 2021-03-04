@@ -281,27 +281,27 @@ explanation-alt:
 sprint-cards: 
   - title: Built Environment
     date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_01_Built.jpg
+    img: photos/sprints/landing/Sprint-Background_01_Built.webp
     alt: Overhead view of a suburban neighborhood
     url: sprints/built-environment
   - title: Natural Environment
     date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_02_Natural.jpg
+    img: photos/sprints/landing/Sprint-Background_02_Natural.webp
     alt: Overhead view of waves crashing against a rocky outcrop
     url: sprints/natural-environment
   - title: Census
     date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_03_Census.jpg
+    img: photos/sprints/landing/Sprint-Background_03_Census.webp
     alt: Closeup of sticky notes on a whiteboard
     url: sprints/census
   - title: Workforce
     date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_04_Workforce.jpg
+    img: photos/sprints/landing/Sprint-Background_04_Workforce.webp
     alt: Red and blue lines of light on a dark field
     url: sprints/workforce
   - title: Geo-Cohort
     date: Summer 2020
-    img: photos/sprints/landing/Sprint-Background_05_Geo.jpg
+    img: photos/sprints/landing/Sprint-Background_05_Geo.webp
     alt: A 3D topographical map
     url: sprints/geo
 

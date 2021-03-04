@@ -223,15 +223,19 @@ role-descriptions:
             - Make an impact by helping technologists build products that will last
           - description:
             - Connect with people in government, private industry, and communities across the country
-
-
-
 ---
 
 {% include hero.html %}
-{% include connecting-banner-notched.html %}
-{% include single-column-centered-list.html %}
-{% include connecting-banner-with-subheader.html %}
-{% include timeline-progress-section-dark.html %}
-{% include two-column-card-text.html %}
+{% include secondary-nav.html %}
+<div class="process-section" id="our-process">
+  {% include connecting-banner-notched.html %}
+  {% include single-column-centered-list.html %}
+</div>
+<div class="process-section">
+  {% include connecting-banner-with-subheader.html %}
+  {% include timeline-progress-section-dark.html %}
+</div>
+<div class="process-section">
+  {% include two-column-card-text.html %}
+</div>
 {% include single-column-banner-photo-overlay-and-content.html %}

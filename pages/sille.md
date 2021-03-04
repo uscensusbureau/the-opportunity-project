@@ -32,7 +32,7 @@ sidebar:
       - Sille
       - 'Public access using login: fema@sille.space Password: Planahead2019'
     button:
-      - link:  https://sille.space/app_fema/
+      link:  https://sille.space/app_fema/
   - title: TECH TEAM
     text:
       - Datel Ovela

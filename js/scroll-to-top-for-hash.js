@@ -1,4 +1,5 @@
 'use strict';
+const calculateAnchorPosition = require('./calculate-anchor-position.js')
 
 // var $ = require('jquery');
 

@@ -29,7 +29,7 @@ primary:
 
 secondary:
   - text: Our Process
-    href: '#'
+    href: '#top'
   - text: How it Works
     href: '#how-it-works'
   - text: Roles
@@ -75,7 +75,7 @@ footer:
   - text: Builder's Toolkit
     href: product-development/toolkit/
   - text: data.census.gov
-    href: "https:\\data.census.gov"
+    href: "https://data.census.gov"
     isExternal: true
   - text: Our Team
     href: about/

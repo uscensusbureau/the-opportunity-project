@@ -25,5 +25,8 @@
     </ul>
   {% endif %}
   <p class="toolkit-highlight margin-left-0">{{item.highlight}}</p>
-  <img src="{{site.baseurl}}/assets/img/{{item.illustration}}" alt="{{item.image-alt}}">
+
+  {% if item.illustration %}
+    <img src="{{site.baseurl}}/assets/img/{{item.illustration}}" alt="{{item.image-alt}}">
+  {% endif %}
 </div>

@@ -1,7 +1,7 @@
 <section class="usa-section usa-graphic-list grid-container">
   {% for item in page.role-descriptions %}
     <div
-      class="desktop:grid-offset-2 desktop:grid-col-8 usa-media-block__background-image-landscape margin-bottom-5"
+      class="process-section desktop:grid-offset-2 desktop:grid-col-8 usa-media-block__background-image-landscape margin-bottom-5"
       id="{{ item.title | slugify }}"
     >
         <img src="{{site.baseurl}}/assets/img/photos/{{ item.image}}" alt="{{ item.image-alt}}">
@@ -17,13 +17,13 @@
         {% if item.accordions %}
           {% for accordion in item.accordions %}
             <div class="usa-accordion usa-accordion--bordered">
-              <h2 class="usa-accordion__heading">
+              <h4 class="usa-accordion__heading">
                 <button class="usa-accordion__button"
                   aria-expanded="false"
                   aria-controls="{{ accordion.aria }}">
                   {{ accordion.title }}
                 </button>
-              </h2>
+              </h4>
               <div id="{{ accordion.aria }}" class="usa-accordion bg-base-lightest margin-top-0 padding-left-2">
                 {% if accordion.steps %}
                   {% for step in accordion.steps %}

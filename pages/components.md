@@ -201,9 +201,6 @@ text: Get Involved
 # offset-footer.html
 footer: '“Participating in The Opportunity Project sprint was an invaluable experience for the City Builder team. The connections we made during the sprint gave us a wealth of insight into user needs, and our conversations with data stewards at the Census Bureau guided us toward data sets that helped us develop City Builder into a powerful platform for exploring place-based investments.” - Citi Ventures Team'
 
-
-# sidebar-and-content-light.html - NONE, hard-coded
-
 # sidebar-and-content-primary.html
 
 content-primary:
@@ -818,10 +815,7 @@ two-col-markdown:
 <hr>
     <h4>offset-footer.html</h4>
       {% include offset-footer.html %}
-<hr>
-    <h4>sidebar-and-content-light.html</h4>
-      (Hard coded, content must be changed in the file)
-      {% include sidebar-and-content-light.html %}
+
 <hr>
     <h4>sidebar-and-content-primary.html</h4>
       {% include sidebar-and-content-primary.html %}

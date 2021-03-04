@@ -7,7 +7,7 @@
       {% if link.short-name == "past" %}
         {% assign name="Past Sprints" %}
       {% endif %}
-      <li class="usa-nav__primary-item sprint-nav-item" id="{{ name | slugify }}">
+      <li class="usa-nav__primary-item sprint-nav-item" name="{{ name | slugify }}">
         <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}{{ link.url }}#{{ link.short-name }}"><span>{{ name }}</span></a>
       </li>
     {% endfor %}

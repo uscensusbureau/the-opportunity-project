@@ -35,10 +35,7 @@ content-primary:
 
 #white background section
 content-light:
-  title: Our History
-  description:
-    - 'The Opportunity Project launched in March 2016 as a White House initiative to catalyze new technologies that use federal and local data to empower communities with information about critical resources, such as affordable housing, quality schools, and jobs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through data, technology, and user centered design.'
-    - 'In the past 4 years, TOP’s hundreds of participants have created 100 digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the Federal Data Strategy, the President’s Management Agenda, performance.gov,  Department of Commerce’s Strategic Plan, the Task Force on Agriculture and Rural Prosperity Report. and many others. In 2019, The Opportunity  Project Act of 2019 was introduced to permanently authorize the program.'
+  title: 
 
 # centered photo with overlay
 photo:
@@ -59,5 +56,20 @@ photo:
 {% include hero.html %}
 {% include circuit-banner.html %}
 {% include sidebar-and-content-primary.html %}
-{% include sidebar-and-content-light.html %}
+
+<section class="bg-base-lightest">
+  <section class="usa-section grid-container bg-white">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-3 tablet:grid-col-3 grid-offset-1">
+          <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">Our History</h2>
+      </div>
+      <div class="desktop:grid-col-7 tablet:grid-col-6 border-top border-base-lighter">
+      <p>The Opportunity Project launched in March 2016 as a White House initiative to catalyze new technologies that use federal and local data to empower communities with information about critical resources, such as affordable housing, quality schools, and jobs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through data, technology, and user centered design.
+      </p>
+      <p>
+        In the past 4 years, TOP’s hundreds of participants have created 100 digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the <a href="https://strategy.data.gov/" class="text-bold text-black opacity-80">Federal Data Strategy</a>, <a href="https://www.whitehouse.gov/omb/management/pma/" class="text-bold text-black opacity-80">the President’s Management Agenda</a>, <a href="https://performance.gov" class="text-bold text-black opacity-80">performance.gov</a>,  <a href="https://www.commerce.gov/about/strategic-plan" class="text-bold text-black opacity-80">Department of Commerce’s Strategic Plan</a>, <a href="https://www.usda.gov/sites/default/files/documents/rural-prosperity-report.pdf" class="text-bold text-black opacity-80">the Task Force on Agriculture and Rural Prosperity Report</a>, and many others. In 2019, <a href="https://www.congress.gov/bill/116th-congress/house-bill/3528/text?r=16&s=1" class="text-bold text-black opacity-80">The Opportunity Project Act of 2019</a> was introduced to permanently authorize the program.'</p>
+      </div>
+    </div>
+  </section>
+</section>
 {% include single-column-centered-photo-with-overlay.html %}

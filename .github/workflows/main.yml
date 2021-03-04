@@ -22,8 +22,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: jekyllbuild
+      - name: checkout
         uses: actions/checkout@v2
+      - name: build
         run: bundle exec jekyll build
       - name: HTMLProofer
         # You may pin to the exact commit or the version.

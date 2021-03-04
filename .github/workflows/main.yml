@@ -22,6 +22,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: jekyllbuild
+        uses: actions/checkout@v2
+        run: bundle exec jekyll build
       - name: HTMLProofer
         # You may pin to the exact commit or the version.
         # uses: chabad360/htmlproofer@2a7ae5816b7173dbbc37cf4cfc33ca6c47c96ecc
@@ -31,6 +34,8 @@ jobs:
           directory: ./_site
           # HTMLProofer options
           arguments: --allow_hash_href --assume_extension --file-ignore --only_4xx ./_site/components/index.html
+      - name: cleanup
+        run: rm -f ./_site
           
           
           

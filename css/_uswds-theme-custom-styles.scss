@@ -1399,6 +1399,7 @@ main {
 
 .toolkit-header, .process-section, .process-section section {
   scroll-margin-top: 10rem;
+  scroll-snap-margin-top: 10rem;  // for safari mobile
 }
 
 

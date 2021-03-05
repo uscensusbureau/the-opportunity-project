@@ -159,26 +159,31 @@ hero:
         <div id="modal-{{ product.title | slugify }}" class="modal modal-inactive z-500">
           <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
             <div class="usa-card__container margin-0 border-0">
-              <header class="usa-card__header desktop:grid-col-6 product-card-modal-text">
-                <span class="close">&times;</span>
-                <h3 class="font-sans-md">{{ product.title }}</h3>
-              </header>
-              <div class="usa-card__media desktop:grid-col-6">
-                <div class="usa-card__img">
+              <div class="grid-row">
+                <div class="grid-col-6">
                   <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                  alt="screenshot of City Builder website">
+                    alt="{{ product.image-alt }}"
+                    class="modal-img">
+                  
                 </div>
-              </div>
-              <div class="usa-card__body desktop:grid-col-6  product-card-modal-text">
-                <p class="font-mono-xs">{{ product.tech_team_text | upcase }}</p>
-                <p>{{ product.description }}</p>
-                <p class="font-sans-2xs">Datasets Used</p>
-                <p class="font-sans-2xs">
-                  {{ product.data_sets_text }}
-                </p>
-              </div>
-              <div class="usa-card__footer  product-card-modal-text">
-                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+                <div class="grid-col-6 modal-rhs">
+                  <header class="usa-card__header">
+                    <span class="close">&times;</span>
+                    <h3 class="font-sans-md">{{ product.title }}</h3>
+                  </header>
+                
+                  <div class="usa-card__body">
+                    <p class="font-mono-xs">{{ product.tech_team_text | upcase }}</p>
+                    <p>{{ product.description }}</p>
+                    <p class="font-sans-2xs">Datasets Used</p>
+                    <p class="font-sans-2xs">
+                      {{ product.data_sets_text }}
+                    </p>
+                  </div>
+                  <div class="usa-card__footer text-center">
+                    <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+                  </div>
+                </div>
               </div>
             </div>
           </li>

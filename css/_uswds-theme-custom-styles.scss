@@ -2335,17 +2335,36 @@ code {
   border: 1px solid #888;
 
   &.fixed-width-modal {
-    max-width: 750px;
+    @include u-maxw('mobile-lg');
+    @include at-media('tablet') {
+      @include u-maxw('tablet-lg');
+    }
   }
+}
+
+.modal-grid {
+  @include grid-row;
+  flex-direction: column;
+  .modal-column {
+    @include grid-col(12);
+  }
+
+  @include at-media('tablet'){
+    flex-direction: row;
+    .modal-column {
+      @include grid-col(6);
+    }
+  }
+}
+
+.modal-column > div, .modal-column > header {
+  margin-left: 0 !important;
 }
 
 .modal-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-.modal-rhs > div, .modal-rhs > header {
-  margin-left: 0 !important;
 }
 
 /* The Close Button */

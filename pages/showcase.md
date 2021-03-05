@@ -159,14 +159,14 @@ hero:
         <div id="modal-{{ product.title | slugify }}" class="modal modal-inactive z-500">
           <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
             <div class="usa-card__container margin-0 border-0">
-              <div class="grid-row">
-                <div class="grid-col-6">
+              <div class="modal-grid">
+                <div class="modal-column">
                   <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
                     alt="{{ product.image-alt }}"
                     class="modal-img">
                   
                 </div>
-                <div class="grid-col-6 modal-rhs">
+                <div class="modal-column">
                   <header class="usa-card__header">
                     <span class="close">&times;</span>
                     <h3 class="font-sans-md">{{ product.title }}</h3>

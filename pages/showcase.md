@@ -174,9 +174,7 @@ hero:
                 <p>{{ product.description_new }}</p>
                 <p class="font-sans-2xs">Datasets Used</p>
                 <p class="font-sans-2xs">
-                  {% for dataset in product.data_sets %}
-                    {{ dataset }}
-                  {% endfor %}
+                  {{ product.data_sets_text }}
                 </p>
               </div>
               <div class="usa-card__footer  product-card-modal-text">

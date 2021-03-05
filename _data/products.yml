@@ -8,11 +8,14 @@
   - grants
   data_sets:
   - rec4AioNvVGJrpHcQ
+  data_sets_text: Grants.gov database
   description: Enables donors, nonprofits, and intermediary users to find funding
     opportunities they may qualify for
   details: Enables donors, nonprofits, and intermediary users to find funding opportunities
     they may qualify for
   image: social-impact-reporting-platform.jpg
+  image-alt: Screenshot of True Impact platform that shows two smiling school-aged
+    girls doing a science experiment. A text overlay describes
   link: http://www.trueimpact.com
   problem_statement:
   - recjgkTgiJVNQI06t
@@ -31,6 +34,8 @@
   - rec9eiz7OR4XL7sR2
   - reci4qc6YN4B3LYFg
   - recXNXX6m7T16eoZI
+  data_sets_text: EPA Facts and Figures about Materials, Waste and Recycling, USGS
+    Mineral Commodity Summaries
   description: Creates a B2B Marketplace for recycled materials that helps to enable
     local circular economies.
   details: Creates a B2B Marketplace for recycled materials that helps to enable local
@@ -56,6 +61,7 @@
   data_sets:
   - recJufzyndWhFbgUv
   - recCQkNjSQxMZYYwb
+  data_sets_text: State Department WRAPSNET, Charity Navigator
   description: Helps recently resettled refugees locate vital services within their
     area, and see the landscape of refugees around the United States by country of
     origin.
@@ -68,8 +74,6 @@
     324 refugees that arrived in 2020.
   link: https://graphicacy.github.io/unhcr-refugee-project/
   problem_statement:
-  - recDnQq3aDp59z637
-  problem_statements:
   - recDnQq3aDp59z637
   sprint:
   - recMpslqDTkD8bJoj
@@ -87,12 +91,16 @@
   data_sets:
   - recESBrqUa0lBnuPX
   - recJ2XqUXOMEB1DXG
+  data_sets_text: Public Use Microdata System (IPUMS); Census Bureau; Geolytics, Woods
+    & Poole Economics; Bureau of Economic Analysis; Bureau of Labor Statistics; Centers
+    for Disease Control and Prevention; National Center for Education Statistics
   description: 'Allows community leaders and policy makers to compare disaggregated
     demographic indicators that describe the state of equity in cities, regions, and
     states '
   details: 'Allows community leaders and policy makers to compare disaggregated demographic
     indicators that describe the state of equity in cities, regions, and states '
   image: national-equity-atlas.jpg
+  image-alt: Bar chart of Air Polution equity index in Los Angeles
   link: https://www.nationalequityatlas.org/
   problem_statement:
   - rec6HY78EY2rrTgQq
@@ -112,11 +120,15 @@
   - health
   data_sets:
   - recd7luteEs4maEnq
+  data_sets_text: Centers for Disease Control and Prevention; Aggregated and anonymous
+    Fitbit activity data from over 10 million users
   description: Lets users see how average activity relates to common health issues
     in each state
   details: Lets users see how average activity relates to common health issues in
     each state
   image: fitbit.jpg
+  image-alt: Scatter plot of average steps vs. diabetes rate that shows an inverse
+    correlation
   link: https://www.fitbit.com/us/activity-index
   problem_statement:
   - recGQxoZehhlElI4g
@@ -136,11 +148,14 @@
   - rural
   data_sets:
   - recYsaQo1Hh5n5Plz
+  data_sets_text: United States Department of Agriculture; Census Bureau; Department
+    of Transportation; Department of Housing and Urban Development
   description: Uses live spatial and development funding data to simplify funding
     eligibility with virtual storytelling of our rural American communities
   details: Uses live spatial and development funding data to simplify funding eligibility
     with virtual storytelling of our rural American communities
   image: findyourtown.jpg
+  image-alt: Photo collage with text titled 'Find your American Story.'
   link: https://findyour.town
   problem_statement:
   - rec7PAfceBewrUGZ3
@@ -162,6 +177,8 @@
   - addressing
   data_sets:
   - rech9yKY6D5zjS6HQ
+  data_sets_text: Census Bureau; U.S. Postal Service; National Address Database (NAD)
+    schema
   description: Helps the municipalities and communities in Puerto Rico enhance their
     address infrastructure to support the reconstruction process, improve emergency
     response and foster a more resilient future
@@ -169,11 +186,11 @@
     infrastructure to support the reconstruction process, improve emergency response
     and foster a more resilient future
   image: prados.jpg
+  image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support)
+    tool on an iPad
   link: https://www.zipdatum.com/prcivicaddress/
   prize_status: Winner
   problem_statement:
-  - rec55VBughwHjCFWp
-  problem_statements:
   - rec55VBughwHjCFWp
   sprint:
   - recg9LuHpKxgB95Xy
@@ -191,6 +208,7 @@
   - recR05Bv2d2mx7pYB
   - recunaDw8Cf6hctAM
   - reclpdYFlzHah9Oxq
+  data_sets_text: HUD, Census Bureau ACS, FCC Broadband
   description: Provides novel insights to promote economic self-sufficiency to low-income
     familites by integrating federal data and user-generated content
   details: Provides novel insights to promote economic self-sufficiency to low-income
@@ -219,6 +237,7 @@
   - disasters
   data_sets:
   - rechYzTHDK65dikqA
+  data_sets_text: ensus block data; Open EU Sentinel 1 InSAR
   description: 'Block level structural risk product that encourages local stakeholders
     to prepare for crisis through increased awareness of the likelihood of catastrophic
     failure of their structures in a disaster. Public access using login: fema@sille.space,
@@ -228,10 +247,9 @@
     failure of their structures in a disaster. Public access using login: fema@sille.space,
     password: Planahead2019'
   image: sille.jpg
+  image-alt: Screenshot of the SILLE web application with a graph modal
   link: https://sille.space/app_fema/
   problem_statement:
-  - recqL51kCcBL6go3m
-  problem_statements:
   - recqL51kCcBL6go3m
   sprint:
   - recg9LuHpKxgB95Xy
@@ -248,6 +266,8 @@
   - recO2Y4CWOIbPcoyO
   - recZAND1HiNvZYHkf
   - recoRjuz8r7T0EIde
+  data_sets_text: Census ACS, EPA National Emissions Inventory, National Lung Association
+    State of the Air
   description: Identifies neighborhoods for people seeking to move to locations with
     better air quality
   details: Identifies neighborhoods for people seeking to move to locations with better
@@ -280,6 +300,8 @@
   - recx60YDJByTa1fDC
   - recn2LgVOmqcJFckv
   - recc7fNl34Zr5cr76
+  data_sets_text: "Citizen Science Portal, Interpol, GRID-Arendal, US EPA, PEW, Woldemar\
+    \ d\u2019Ambri\xE8res"
   description: Compiles tangible and novel data sets to energize public consciousness
     and provide new insights into the problem of ocean plastic pollution, offering
     actions for citizens and policymakers worldwide to solve the crisis of plastic
@@ -292,8 +314,6 @@
   image-alt: This image shows the story of ocean plastics.
   link: https://esriurl.com/OceanPlastics
   problem_statement:
-  - recQeWP4kfK1EakJW
-  problem_statements:
   - recQeWP4kfK1EakJW
   sprint:
   - recfjW4XBdTnujZD7
@@ -333,6 +353,8 @@
   - reckEL1sfzrSAVX6r
   - recs0L4IgNvp7OvEx
   - recrA6PMsCqPN20AT
+  data_sets_text: FCC Broadband data, Census ACS, EPA Smart Location Database, EPA
+    Atlas of Rural America, EPA Livability Indicators
   description: Facilitates rural economic development by connecting remote workers
     with rural communities
   details: Facilitates rural economic development by connecting remote workers with
@@ -355,6 +377,7 @@
   airtable_id: rec85E0U2wrRBV8dc
   data_sets:
   - rec1pbahHiv6HeVsl
+  data_sets_text: USASpending.gov
   description: "Provides sector-specific insights to answer critical questions on\_\
     urban\_transformation and policy,\_community resilience, hazard and climate risk,\
     \ and social equity"
@@ -385,6 +408,9 @@
   - recGyjH5eAGxIK6J2
   - recmIIxro1n1D7q1Z
   - recY2yO5OmnuQUlfT
+  data_sets_text: Census ACS, FCC Form 477, BLS Quarterly Census of Employment and
+    Wages, EPA National Walkability Index, BEA GDP and Industry Data, HUD Fair Market
+    Rents
   description: Simplifies and visualizes federal open data to support storytelling
     for rural economic development
   details: Simplifies and visualizes federal open data to support storytelling for
@@ -412,11 +438,14 @@
   - addressing
   data_sets:
   - recQsegR8fE8yofoN
+  data_sets_text: U.S. National Grid
   description: Address point capture tool that assigns coordinates, in an online or
     offline mode, to make non-traditionally addressed locations addressable
   details: Address point capture tool that assigns coordinates, in an online or offline
     mode, to make non-traditionally addressed locations addressable
   image: the-tomtom-centaur-data-logging-app.jpg
+  image-alt: Side by side screenshots of app and desktop view of TomTom Field Logging
+    Tool
   link: https://s3.amazonaws.com/centaur-web/html/index.html
   problem_statement:
   - rec55VBughwHjCFWp
@@ -453,11 +482,15 @@
   - housing
   data_sets:
   - rec9DtqD0ooIzdJj7
+  data_sets_text: DC Department of Human Services
   description: Helps youth experiencing homelessness find and access services in the
     Washington, DC area
   details: Helps youth experiencing homelessness find and access services in the Washington,
     DC area
   image: my-spot.jpg
+  image-alt: Screenshot of MySpot website with a search field with two tabs, one labeled
+    Services and one labeled Public Wifi. The leading text in the search field says
+    Enter your location to find homeless service facilities nearby.
   link: https://www.findmyspot.org
   problem_statement:
   - recMEER5Sc9HQrLOF
@@ -482,15 +515,17 @@
   - recOrmFTVMgrShHjc
   - recxXh5stphflZLXv
   - rec0NIAaqftbxx94p
+  data_sets_text: "Census Bureau American Community Survey; Census Barriers, Attitudes,\
+    \ and Motivators; Civis Analytics\u2019 survey and message testing technology"
   description: Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
   details: Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
   image: census-intelligence.jpg
+  image-alt: Map of a region, with sub-districts colored in varying shades of blue.
+    No legend or title is included.
   link: https://www.civisanalytics.com/census/
   problem_statement:
-  - recDkOPeR5RLFwe2e
-  problem_statements:
   - recDkOPeR5RLFwe2e
   product_advisors: Paul Franz
   sprint:
@@ -513,6 +548,8 @@
   - census
   data_sets:
   - recd47z5brchfMK3A
+  data_sets_text: Number of Americans overseas; Number of individuals with disabilities;
+    Smartphone penetration across the United States
   description: ' Allows the convenience, security and accessibility of smartphone
     and blockchain technology to ensure that hard-to-reach populations are counted
     in future censuses'
@@ -520,6 +557,8 @@
     blockchain technology to ensure that hard-to-reach populations are counted in
     future censuses'
   image: voatz.jpg
+  image-alt: Hand holding up a mobile phone app reading 'How might mobile voting facilitate
+    the future of the U.S. Census regarding identity and data security?'
   link: https://www.voatz.com
   problem_statement:
   - rec2cDmW6ubg6Wco0
@@ -538,6 +577,7 @@
   - disasters
   data_sets:
   - recEUnW6Il2ZfXV0Z
+  data_sets_text: USA Spending
   description: Tracks the flow of COVID-19 related spending by the federal government
     and its impact on economic recovery
   details: Tracks the flow of COVID-19 related spending by the federal government
@@ -565,11 +605,14 @@
   - transportation
   data_sets:
   - recGlnYsRiOuG1Sjn
+  data_sets_text: Department of Housing and Urban Development; Census Bureau American
+    Community Survey
   description: Uses nationwide opportunity indexes to make search for opportunity
     more easily obtainable
   details: Uses nationwide opportunity indexes to make search for opportunity more
     easily obtainable
   image: opportunity-enabler.jpg
+  image-alt: Map with red and green square icons. No visible legend or title.
   link: http://bit.ly/2aWs865
   problem_statement:
   - recBxwNpfEqtxSEbI
@@ -591,11 +634,15 @@
   - entrepreneurship
   data_sets:
   - recDmLYXboYl8Krlv
+  data_sets_text: Bureau of Labor Statistics; StatsAmerica; Census Bureau American
+    Community Survey; Internal Revenue Service
   description: Solves talent discovery issues for entrepreneurs and small businesses
     seeking to hire high-tech workers
   details: Solves talent discovery issues for entrepreneurs and small businesses seeking
     to hire high-tech workers
   image: talent-finder-tool.jpg
+  image-alt: This is a moving image of the Talent Tech Tracker app. You can filter
+    by county to see the tech economic report of different areas.
   link: https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes
   prize_status: Honorable Mention
   problem_statement:
@@ -616,6 +663,9 @@
   - rech6WYov2ewYwBTp
   - recGXdUunLjQ1lGBL
   - reczWfWgXmP9jPcEb
+  data_sets_text: '''Earth Challenge Integrated Data: Top 10 Sources of Plastic Pollution
+    by Country'', ''Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP,
+    TIDES)'''
   description: Highlights the issue of ocean plastic pollution through an interactive
     game for all age groups.
   details: Highlights the issue of ocean plastic pollution through an interactive
@@ -670,6 +720,9 @@
   - census
   data_sets:
   - rec4qbd5bZMFpmAeL
+  data_sets_text: Census Bureau; US Bureau of Labor Statistics; New York State Departments
+    of Health and of Agriculture and Markets; Food Bank for New York City and the
+    NYU Furman Center
   description: Free mapping and data tool for visualizing data that can help with
     decennial Census outreach in NYC communities by answering questions like 'What
     happens with Census data?' and 'Why does the Census matter to me?'
@@ -677,6 +730,8 @@
     Census outreach in NYC communities by answering questions like 'What happens with
     Census data?' and 'Why does the Census matter to me?'
   image: data2gonyc.jpg
+  image-alt: Screenshot of Data 2 Go app showing a map in gradient shades of white,
+    yellow and orange.
   link: https://data2go.nyc/
   prize_status: Winner
   problem_statement:
@@ -699,11 +754,13 @@
   - employment
   data_sets:
   - recm1mLFki5moIoCb
+  data_sets_text: LEHD Origin-Destination Employment Statistic
   description: Uses commuting data and bus & rail transit routes to show commuter
     flows and gaps in access to transit
   details: Uses commuting data and bus & rail transit routes to show commuter flows
     and gaps in access to transit
   image: commuter-map.jpg
+  image-alt: Map of Washington metro area commuter data
   link: http://split.us/opportunity-project
   problem_statement:
   - recWbNwNVTeALHVEK
@@ -722,6 +779,7 @@
   - recQCvW6ePpafCJfJ
   - recn8dediBRt70GZD
   - recVEcdvECQjXJ1e9
+  data_sets_text: FAE dashboard, USASpending, Foreign Assistance Resource Library
   description: Increases engagement in secondary civics education through a series
     of informational modules with quizzes focused on foreign assistance
   details: Increases engagement in secondary civics education through a series of
@@ -748,11 +806,14 @@
   - transportation
   data_sets:
   - recgV66ro2Z870eTc
+  data_sets_text: Traffic accident and fatality data
   description: Provides dynamic location-based visualizations of hazardous traffic
     corridors for citizens and community decision makers
   details: Provides dynamic location-based visualizations of hazardous traffic corridors
     for citizens and community decision makers
   image: create.jpg
+  image-alt: Map with side panel containing information about road conditions and
+    traffic accidents
   link: https://www.facebook.com/createrealestate/
   problem_statement:
   - recWbNwNVTeALHVEK
@@ -769,6 +830,7 @@
   - environment
   data_sets:
   - rec6t8hETGkO5eAbZ
+  data_sets_text: Earth Challenge 2020 Consolidated Data
   description: Visualizes the effect of plastic bans on coastal plastic pollution
     for policy makers and advocates
   details: Visualizes the effect of plastic bans on coastal plastic pollution for
@@ -793,6 +855,7 @@
   data_sets:
   - recmo2NgzgxGBRO5S
   - rec94lW05GUWWvjX0
+  data_sets_text: Earth Challenge Integrated Dataset, Earth Challenge 2020 app
   description: Tracks plastic pollution on college campuses and educates students
     on the impacts of plastics in their communities through educational modules, a
     dashboard, and a playbook.
@@ -823,11 +886,14 @@
   - education
   data_sets:
   - recbPXckCwUkIEHnn
+  data_sets_text: Department of Labor O*NET Database; Department of Education
   description: Links relevant and authentic industry content to actual job descriptions
     to provide learners and job seekers opportunity for career exploration and exposure
   details: Links relevant and authentic industry content to actual job descriptions
     to provide learners and job seekers opportunity for career exploration and exposure
   image: nepris-industry.jpg
+  image-alt: A classroom of students with hands raised looking at a projector, seen
+    from the rear of the room.
   link: https://nepris.com/misc/careersearch
   problem_statement:
   - rec5Qmq3TNOnhhfoE
@@ -851,6 +917,8 @@
   data_sets:
   - recAJjhFANCAKPVyB
   - recZ1EJ6NTgWWnc55
+  data_sets_text: Census Bureau; USASpending.gov, SAM.gov; grants.gov; Department
+    of Housing and Urban Development
   description: Makes homelessness statistics and related funding data easily accessible
     for grants professionals, researchers, government finance professionals, and citizens
     interested in transparency and accountability
@@ -858,6 +926,8 @@
     for grants professionals, researchers, government finance professionals, and citizens
     interested in transparency and accountability
   image: grants-intelligence.jpg
+  image-alt: A map of the United State with each state colored in a blue scale, from
+    very light blue, to very dark
   link: https://intel.ecivis.com/homelessness
   problem_statement:
   - recGXB6VI2XEbqemj
@@ -879,6 +949,8 @@
   - census
   data_sets:
   - rec6GcI1sfYzbNxgA
+  data_sets_text: Census Bureau; Federal Bureau of Investigation; Centers for Disease
+    Control and Prevention
   description: Web-based artificial intelligence tool that helps journalists, philanthropists,
     public servants, and policy advocates to search public data on demographics, criminal
     justice, public health, and elections
@@ -886,6 +958,8 @@
     public servants, and policy advocates to search public data on demographics, criminal
     justice, public health, and elections
   image: bayes-bd.jpg
+  image-alt: Screenshot of a spreadsheet filled with numbers and a side panel labeled
+    BayesDB that includes options to filter and interact with the data.
   link: https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0
   problem_statement:
   - rec0ukljQMNDcv91s
@@ -904,9 +978,11 @@
   - employment
   data_sets:
   - recIajFnZTy6Kaf0a
+  data_sets_text: Virginia Open Data Catalogue; Crowdsourced job reports
   description: Shares alerts of local job openings
   details: Shares alerts of local job openings
   image: job-crowdsourcing-tool.jpg
+  image-alt: Map with the header 'Job Postings'
   link: https://jobpostings.ushahidi.io/
   problem_statement:
   - recGQ0S48RDx0VENx
@@ -926,6 +1002,7 @@
   - education
   data_sets:
   - recWrMIj2ghy3UKQK
+  data_sets_text: Eligible Training Provider Lists (ETPL)
   description: ' Surfaces education options that lead to in-demand careers for job
     seekers'
   details: ' Surfaces education options that lead to in-demand careers for job seekers'
@@ -970,11 +1047,13 @@
   - transportation
   data_sets:
   - recH3FjUydbcH5zIk
+  data_sets_text: Department of Commerce
   description: Shows jobs individuals can get to in 30 minutes, without a car, from
     any address
   details: Shows jobs individuals can get to in 30 minutes, without a car, from any
     address
   image: opportunity-score.jpg
+  image-alt: Heatmap of Seattle indicating an opporunity score of 71
   link: https://labs.redfin.com/opportunity-score
   problem_statement:
   - recGQ0S48RDx0VENx
@@ -992,6 +1071,7 @@
   - rural
   data_sets:
   - reclFy6fGztGrP51b
+  data_sets_text: Census County Business Patterns
   description: Helps small business owners in Maine to grow together by providing
     them with information necessary to start/expand their business
   details: Helps small business owners in Maine to grow together by providing them
@@ -1016,6 +1096,8 @@
   data_sets:
   - recE7v7V0hvOrhPPp
   - recYxJNiA9BHEqUhO
+  data_sets_text: Global Fishing Watch's Anchorages Dataset, Earth Challenge 2020
+    Integrated Data
   description: Visualizes the location of discarded fishing nets and explores solutions
     for policymakers, NGOs, and the general public
   details: Visualizes the location of discarded fishing nets and explores solutions
@@ -1062,6 +1144,8 @@
   data_sets:
   - recUXCzWrZg9XiYVE
   - recYsXM7DW4A8KBTg
+  data_sets_text: Census Bureau Response Rates; Low Broadband Access; Barriers, Attitudes
+    and Motivators Study
   description: Defines demographic profiles and psychographic barriers to design culturally
     relevant stories that community organizations can use to engage seniors and young
     adults from the Puerto Rican and Filipino diasporas and raise awareness of how
@@ -1071,10 +1155,10 @@
     adults from the Puerto Rican and Filipino diasporas and raise awareness of how
     the Census impacts their lives
   image: whywecount.jpg
+  image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
+    reads Being Counted Saves Lives.
   link: https://www.whywecount.org
   problem_statement:
-  - recPYnQdPuuZ0FZZ9
-  problem_statements:
   - recPYnQdPuuZ0FZZ9
   product_advisors: Jeff Meisel
   sprint:
@@ -1099,6 +1183,8 @@
   - recz61AOhxODHKNr6
   - reclFy6fGztGrP51b
   - recoAplnkJ6TCz4c2
+  data_sets_text: Census ACS, NAICS, DOE College Scorecard, Census County Population
+    by Characteristics, Census County Business Patterns, USPTO Inventors Geocoded
   description: Creates digital economy reports for rural leaders designing economic
     development strategies
   details: Creates digital economy reports for rural leaders designing economic development
@@ -1108,8 +1194,6 @@
     by county to see the tech economic report of different areas.
   link: https://link.ruralinnovation.us/tech-talent-tool
   problem_statement:
-  - recn0ONeaB72GbD8z
-  problem_statements:
   - recn0ONeaB72GbD8z
   sprint:
   - recMpslqDTkD8bJoj
@@ -1130,6 +1214,7 @@
   - health
   data_sets:
   - recdjNmtMAmnM8fC3
+  data_sets_text: Census Bureau; Department of Housing and Urban Development
   description: Helps veterans communicate needs to their care team in real time, identifying
     high-risk veterans for suicide, homelessness and substance use for improved follow-up,
     transparency, and accountability
@@ -1137,6 +1222,8 @@
     high-risk veterans for suicide, homelessness and substance use for improved follow-up,
     transparency, and accountability
   image: get-vets-help.jpg
+  image-alt: Bright red background with white bell icon, with text underneath that
+    reads Safety Net Emergencies
   link: https://www.carepartnersplus.com/
   problem_statement:
   - recGo0glu9CVxEX87
@@ -1157,6 +1244,8 @@
   - recdmwgRjeQdV2ujv
   - recmzzl3zlLfvwNXp
   - recJwm5OaoRJmbbCw
+  data_sets_text: '- State foreignassistance.gov, Congressional Research Service,
+    USA.gov, GAO, CBO'
   description: Offers a series of news and information modules on foreign aid, federal
     budget, diplomacy, strategic initiatives, and an overview of the State Department
     for middle and high school students.
@@ -1168,8 +1257,6 @@
     why governments want to either increase or decrease foreign aid.
   link: https://bitesmedia.com/
   problem_statement:
-  - recdNGSC2k2ptu3JM
-  problem_statements:
   - recdNGSC2k2ptu3JM
   sprint:
   - recWgRn0SzeC0JNJ1
@@ -1188,11 +1275,14 @@
   - transportation
   data_sets:
   - rec08xrbRPlxvTHcN
+  data_sets_text: Bureau of Labor Statistics; Department of Education; Institute of
+    Museums and Library Services; other data from federal agencies and twelve cities
   description: Facilitates finding, viewing, and collaborating over data for Opportunity
     Project sprint participants
   details: Facilitates finding, viewing, and collaborating over data for Opportunity
     Project sprint participants
   image: dataworld-workspace.jpg
+  image-alt: Screenshot of data dot world dashboard featuring The Opportunity Project
   link: https://data.world/opportunity
   problem_statement:
   - recCTI1VBSwUOl4Tq
@@ -1212,6 +1302,7 @@
   - housing
   data_sets:
   - recpvolC8199pm0rT
+  data_sets_text: Department of Housing and Urban Development
   description: Identifies areas that present a high-opportunity for families to supplement
     their housing costs through renting excess rooms or units
   details: Identifies areas that present a high-opportunity for families to supplement
@@ -1235,11 +1326,14 @@
   - environment
   data_sets:
   - rec1MkdLWCg0K49PD
+  data_sets_text: U.S. Forest Service environmental stewardship data
   description: Makes it simple to see what organizations are working in which turfs
     for local groups to better connect with others caring for their local environment
   details: Makes it simple to see what organizations are working in which turfs for
     local groups to better connect with others caring for their local environment
   image: stewmap-explorer.jpg
+  image-alt: Dark gray map of Rockaway Beach and surrounding towns with some regions
+    highlighted in red
   link: https://labs.mapbox.com/narratives/stewards/
   problem_statement:
   - recZDeKZkpRgp2x1j
@@ -1261,6 +1355,8 @@
   - entrepreneurship
   data_sets:
   - recz7LWaT7XCEG5vW
+  data_sets_text: "Small Business Administration \u2018Find Local Assistance\u2019\
+    \ resource"
   description: Chatbot that empowers growth-minded entrepreneurs with the financial
     and business knowledge to better manage their money and make confident, informed
     business decisions
@@ -1268,10 +1364,9 @@
     business knowledge to better manage their money and make confident, informed business
     decisions
   image: practical-business-skills.jpg
+  image-alt: Screenshot of the Practical Business Skills website
   link: https://www.practicalbusinessskills.com
   problem_statement:
-  - recfwUvvptMpf0PLj
-  problem_statements:
   - recfwUvvptMpf0PLj
   sprint:
   - rec4Y10emS9DtmBpT
@@ -1290,11 +1385,16 @@
   - health
   data_sets:
   - recy9nOvqIgg2ohWz
+  data_sets_text: Department of Health and Human Services; City of Philadelphia; Office
+    of Management and Budget; Department of Housing and Urban Development; Southeastern
+    Pennsylvania Transportation Authority; New Jersey Transit; State of Delaware
   description: Allows users to explore transit accessibility of resources including
     parks, daycare centers, and health clinics
   details: Allows users to explore transit accessibility of resources including parks,
     daycare centers, and health clinics
   image: transit-analyst.jpg
+  image-alt: Map of Gloucester City and Camden, New Jersey displaying the accessibility
+    and distance of Head Start locations
   link: https://transitanalyst.com/
   problem_statement:
   - recWbNwNVTeALHVEK
@@ -1314,9 +1414,11 @@
   - disasters
   data_sets:
   - reca3HaDwDIPIvwAP
+  data_sets_text: Federal disaster declaration and protective actions data
   description: Serious game that engages young adults in preparing for emergencies
   details: Serious game that engages young adults in preparing for emergencies
   image: disaster-awareness-games.jpg
+  image-alt: Screenshot of a computer game displaying an overhead view of city blocks
   link: http://www.thedagames.com/
   prize_status: Applied
   problem_statement:
@@ -1339,9 +1441,12 @@
   - transportation
   data_sets:
   - recpvolC8199pm0rT
+  data_sets_text: Department of Housing and Urban Development
   description: Shows where opportunities are for low income citizens with children
   details: Shows where opportunities are for low income citizens with children
   image: affordable-housing.jpg
+  image-alt: Map that shows housing affordability index and relative proximity to
+    jobs
   link: https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG
   problem_statement:
   - recBxwNpfEqtxSEbI
@@ -1355,10 +1460,9 @@
   airtable_createdTime: '2021-02-19T21:32:12.000Z'
   airtable_id: recYOMiqxyb3IN11r
   image: census-taker_amava.jpg
+  image-alt: Screenshot of Census Taker's website
   link: https://amava.com/flexible-jobs/census-taker
   problem_statement:
-  - recnJuVbZsWFhpBW8
-  problem_statements:
   - recnJuVbZsWFhpBW8
   sprint:
   - rec5A5h9cq07ijoPk
@@ -1378,12 +1482,16 @@
   - rural
   data_sets:
   - recMSzrJE4GulrJdq
+  data_sets_text: Census Bureau American Community Survey; Homeland Infrastructure
+    Foundation Level Data; Federal Communications Commission Form 477; Department
+    of Education College Scorecard
   description: Reveals Opportunity Zones with emerging tech sectors so investors can
     discover promising rural startups ready to scale that otherwise would have been
     overlooked
   details: Reveals Opportunity Zones with emerging tech sectors so investors can discover
     promising rural startups ready to scale that otherwise would have been overlooked
   image: rural-startup-scout.jpg
+  image-alt: Map of a portion of Texas titled Tech Entrepreneurship
   link: https://oz.ruralopportunitymap.us/
   problem_statement:
   - recmZQEd4gpAgWPMm
@@ -1402,11 +1510,14 @@
   - employment
   data_sets:
   - recmd9LsmIc8LYNmj
+  data_sets_text: USA Jobs
   description: 'Displays current government job listings, relevant resources and shows
     statistics '
   details: 'Displays current government job listings, relevant resources and shows
     statistics '
   image: opportunityhackernest.jpg
+  image-alt: Screenshot of Opportunity dot hackernest dot com with New York City map
+    and overlaid photo of Grand Central Station
   link: http://opportunity.hackernest.com
   problem_statement:
   - recGQ0S48RDx0VENx
@@ -1428,11 +1539,15 @@
   - grants
   data_sets:
   - recPiuc7SoLwdbVpm
+  data_sets_text: Department of Health and Human Services; Department of Education;
+    USASpending.gov; SAM.gov; Grants.gov; FEMA
   description: Visually showcases how federal grants spending leads to desired performance
     outcomes, enhancing federal accountability and transparency for the American public
   details: Visually showcases how federal grants spending leads to desired performance
     outcomes, enhancing federal accountability and transparency for the American public
   image: grants-impact-and-story-tool.jpg
+  image-alt: Screenshot of Grants Impact and Story Tool application. Across the top
+    is an illustrated banner with statistics listed below
   link: https://gist.reisystems.io
   problem_statement:
   - recGXB6VI2XEbqemj
@@ -1450,6 +1565,7 @@
   data_sets:
   - recHH8tiwoyPB3bIA
   - recj68UegyWcH4eOM
+  data_sets_text: State Department WRAPSnet, FindHello database
   description: Connects immigrants, refugees, and asylum seekers connect with resources
     in their area, using a data set built in partnership with service organizations
   details: Connects immigrants, refugees, and asylum seekers connect with resources
@@ -1480,6 +1596,8 @@
   - education
   data_sets:
   - recCvj9RpD2mGgs8j
+  data_sets_text: Census Bureau; Civil Rights Data Collection Program; National Center
+    for Education Statistics; Department of Education
   description: Fuses together disparate, non-standardized data, to provide nationwide
     analysis of metrics for federal and state decision-makers to support the Every
     Student Succeeds Act (ESSA)
@@ -1487,6 +1605,7 @@
     analysis of metrics for federal and state decision-makers to support the Every
     Student Succeeds Act (ESSA)
   image: citizen-education-data-cloud.jpg
+  image-alt: Screenshot of Socrata Citizen Education Data Cloud dashboard
   link: https://top.demo.socrata.com
   problem_statement:
   - rec4jiLMOGoECbVXB
@@ -1506,12 +1625,15 @@
   - census
   data_sets:
   - recAaHsevAd88WPKj
+  data_sets_text: Census Bureau Response Rate
   description: Supports policymakers in resource allocation by predicting decennial
     Census response rates by day for each census tract, and comparing them to the
     true rates
   details: Supports policymakers in resource allocation by predicting decennial Census
     response rates by day for each census tract, and comparing them to the true rates
   image: tract-by-tract.jpg
+  image-alt: Map of a region, with sub-districts colored in varying shades of green,
+    yellow, and red.
   link: http://tractbytract.com/
   problem_statement:
   - recDkOPeR5RLFwe2e
@@ -1531,6 +1653,8 @@
   - recO5dPRvmWdhu3oq
   - recfg1WkemYmG7Nrk
   - recagpQfdlYkn1ukP
+  data_sets_text: Census Quarterly Workforce Indicators, Census Economic Data, BLS
+    Occupational Employment Statistics
   description: Brings job opportunities and career maps to life, enabling a clear
     path for job seekers to training and employment
   details: Brings job opportunities and career maps to life, enabling a clear path
@@ -1563,6 +1687,9 @@
   - recFfmpUorjQbs2z3
   - recYhtbH9gRWO0cjp
   - recAqkVpIdnrchWFV
+  data_sets_text: Illinois EPA, Association of Plastics Recyclers, Illinois Recycling
+    Association, Plastics Markets, Buyers and Sellers, Institute of Scrap Recycling
+    Industries, The Recycling Partnership
   description: Empowers city officials to make informed decisions around waste management
     that lead to transparency, investment and job creation through the development
     of a circular economy
@@ -1575,8 +1702,6 @@
     to place.
   link: https://chicago.topolyticsapp.com
   problem_statement:
-  - rec2dxKJmbiIV0Va5
-  problem_statements:
   - rec2dxKJmbiIV0Va5
   sprint:
   - recfjW4XBdTnujZD7
@@ -1596,6 +1721,8 @@
   - economic-development
   data_sets:
   - recANl7hLAtPZhe4v
+  data_sets_text: American Community Survey; Proprietary enterprise level marketing
+    systems data; survey data
   description: Ensures that community priorities inform Opportunity Zones strategies
     employed by policy decision-makers, economic development officials, and investors
     in Birmingham, Alabama
@@ -1603,6 +1730,8 @@
     by policy decision-makers, economic development officials, and investors in Birmingham,
     Alabama
   image: community-led-opportunity-zones.jpg
+  image-alt: Map with some areas highlighted in shades of red, with information on
+    the right about income and cost of housing
   link: https://www.publicdemocracy.io/opportunity-zones-local-impact
   prize_status: Honorable Mention
   problem_statement:
@@ -1624,6 +1753,7 @@
   data_sets:
   - recHH8tiwoyPB3bIA
   - recWJcUpKgcyp4XjO
+  data_sets_text: State Department WRAPSnet, NTIA BroadbandUSA
   description: Enables refugees to identify community resources near them during and
     after their resettlement period to the United States
   details: Enables refugees to identify community resources near them during and after
@@ -1633,8 +1763,6 @@
     that say 'Medical', 'Legal', 'Religious', etc.
   link: https://refugeeassist.herokuapp.com/
   problem_statement:
-  - recDnQq3aDp59z637
-  problem_statements:
   - recDnQq3aDp59z637
   sprint:
   - recMpslqDTkD8bJoj
@@ -1653,11 +1781,14 @@
   - census
   data_sets:
   - recjyAoj8x1HovtT5
+  data_sets_text: Department of Housing and Urban Development; Community partners
   description: Helps Area Census Office Staff visualize and verify potential locations
     of individuals experiencing homelessness for enumeration
   details: Helps Area Census Office Staff visualize and verify potential locations
     of individuals experiencing homelessness for enumeration
   image: community-counts.jpg
+  image-alt: Two open laptops with a web application open, with Community Counts,
+    2020Census written below
   link: https://2020counts.org/
   problem_statement:
   - recDkOPeR5RLFwe2e
@@ -1678,11 +1809,15 @@
   - economic-development
   data_sets:
   - recj4vMxTwRcC9vUW
+  data_sets_text: Census Bureau; Department of Agriculture; Department of Education;
+    U.S. Securities and Exchange Commission
   description: Brings transparency to the Opportunity Zone ecosystem for investors,
     fund manager, wealth managers, and cities
   details: Brings transparency to the Opportunity Zone ecosystem for investors, fund
     manager, wealth managers, and cities
   image: city-builder.jpg
+  image-alt: Screenshot of the City Builder website, showing a map of St. Louis with
+    information that there are 33 opportunity zones in St. Louis
   link: https://www.citivelocity.com/citybuilder/eppublic/cb
   prize_status: Winner
   problem_statement:
@@ -1701,6 +1836,7 @@
   - environment
   data_sets:
   - reczoJU8faZ1brZ0d
+  data_sets_text: EPA Idle-Free Schools Toolkit
   description: Educates young students about air quality and bus emissions and encourages
     students, parents, and teachers to create healthier school environments
   details: Educates young students about air quality and bus emissions and encourages
@@ -1729,11 +1865,14 @@
   - addressing
   data_sets:
   - recdUyfK7lV5aWTmt
+  data_sets_text: "Census Bureau\u2019s National Address Database Schema; United States\
+    \ Department of Agriculture The National Agriculture Imagery Program (NAIP) imagery"
   description: ' Provides a field data crowdsourcing platform for government or agency
     stakeholders with gaps in their address data on the ground '
   details: ' Provides a field data crowdsourcing platform for government or agency
     stakeholders with gaps in their address data on the ground '
   image: fulcrum-community-for-addressing-and-disaster-preparedness.jpg
+  image-alt: Map of lower Manhattan
   link: https://web.fulcrumapp.com/communities/opportunity-project
   problem_statement:
   - rec55VBughwHjCFWp
@@ -1754,11 +1893,15 @@
   - veterans
   data_sets:
   - recUryevLXCLnABaa
+  data_sets_text: Career One Stop; Department of Labor O*NET Database; Walkingscore.com;
+    Google maps
   description: Provides career recommendations to veterans on potential job/apprenticeship
     matches based on conceptual search, training recommendations, and skill gap analysis
   details: Provides career recommendations to veterans on potential job/apprenticeship
     matches based on conceptual search, training recommendations, and skill gap analysis
   image: watson-employment.jpg
+  image-alt: Close-up of Watson Employment Manager apprenticeship dashboard. Two cards
+    in the center display apprenticeship recommendations, with a short description
   link: https://apprenticeships.mybluemix.net
   problem_statement:
   - recLROAotmnLsG3Bw
@@ -1778,6 +1921,7 @@
   - employment
   data_sets:
   - recJRRWGAYgSkvpS7
+  data_sets_text: Bureau of Labor Statistics
   description: "Helps Redfin\u2019s millions of users better understand the opportunities\
     \ and tradeoffs in terms of housing, employment and other factors when looking\
     \ to relocate for work or find workers for startups "
@@ -1785,10 +1929,10 @@
     \ and tradeoffs in terms of housing, employment and other factors when looking\
     \ to relocate for work or find workers for startups "
   image: job-opportunity-tool.jpg
+  image-alt: Screenshot of Job Opportunity Tool showing a map of the United States
+    displaying Web developer job opportunities
   link: https://www.redfin.com/blog/job-opportunity-tool/
   problem_statement:
-  - rec6yDEfMyReqsMcl
-  problem_statements:
   - rec6yDEfMyReqsMcl
   sprint:
   - rec4Y10emS9DtmBpT
@@ -1804,8 +1948,6 @@
   - housing
   - employment
   - transportation
-  data_sets:
-  - recQTaCmiK4RJgU18
   description: "\"Ground-truthing\" neighborhood navigator powered by local knowledge,\
     \ answering questions including \u201Chow walkable is my city?\u201D and \u201C\
     who provides childcare I can trust?\u201D"
@@ -1813,6 +1955,8 @@
     \ answering questions including \u201Chow walkable is my city?\u201D and \u201C\
     who provides childcare I can trust?\u201D"
   image: streetwyze.jpg
+  image-alt: Demo of map with interaction that allows users to ground truth and submit
+    information about what a location is
   link: http://www.streetwyze.com/
   problem_statement:
   - recGQxoZehhlElI4g
@@ -1859,11 +2003,15 @@
   - receS2twolbJgCnqF
   - rec8siYwrlGQ2mRBz
   - recHsimrd6RvbBOAb
+  data_sets_text: Puerto Rico Open Data Portal (Building Permits, Public Wifi, Public
+    Schools, Libraries, Hospitals, Hotels); Army Corps of Engineers; Old San Juan
+    Airbnb Survey
   description: Assesses the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island of Puerto Rico
   details: Assesses the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island of Puerto Rico
   image: puerto-rico-land-grid.jpg
+  image-alt: Map of Puerto Rico
   link: https://landgrid.com/us/pr#b=admin
   problem_statement:
   - recqL51kCcBL6go3m
@@ -1884,6 +2032,7 @@
   - veterans
   data_sets:
   - recq6Be0out6SxvOZ
+  data_sets_text: Department of Labor
   description: An algorithm developed in partnership with SkillsEngine, a workforce
     development and technology nonprofit, shows veterans the most relevant registered
     apprenticeships based on their declared skills, interests, and military history
@@ -1891,6 +2040,8 @@
     and technology nonprofit, shows veterans the most relevant registered apprenticeships
     based on their declared skills, interests, and military history
   image: veteran-apprenticeship-matcher.jpg
+  image-alt: Screenshot of Veteran Apprenticeship Matcher, where users input their
+    interests and skills they want to learn
   link: https://www.civisanalytics.com/custom-services/
   problem_statement:
   - recLROAotmnLsG3Bw
@@ -1910,6 +2061,7 @@
   - education
   data_sets:
   - recrFSpDngWedddKe
+  data_sets_text: Department of Education college readiness data
   description: Measures gaps in access to educational opportunities across student
     groups to help advocates increased equity
   details: Measures gaps in access to educational opportunities across student groups
@@ -1934,6 +2086,8 @@
   description: Allows for comparison and similarity detection of geographic regions
   details: Allows for comparison and similarity detection of geographic regions
   image: opendata-network.jpg
+  image-alt: Map of Washington D.C. and Baltimore Metro Areas showing high school
+    graduation rate
   link: https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
   problem_statement:
   - recCTI1VBSwUOl4Tq
@@ -1953,11 +2107,16 @@
   - education
   data_sets:
   - recFe9sXGLssXn9T4
+  data_sets_text: Census Bureau; Department of Health and Human Services; Institute
+    of Museum and Library Services; School District of Philadelphia; Pennsylvania
+    State Department of Education
   description: Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships
   details: Brings together economic, health center, and community institution data
     to help school leaders find and develop community partnerships
   image: school-resourcemapper.jpg
+  image-alt: Map showing neighborhoods colored by median income and icons of public
+    resources like schools, libraries, and museums
   link: https://learn.datasociety.com/kitamba-the-opportunity-project/
   problem_statement:
   - recWUq0tYLA47nFU2
@@ -1977,10 +2136,12 @@
   - employment
   data_sets:
   - recelHugittnq2tHh
+  data_sets_text: Equal Employment Opportunity Commission; Census Bureau
   description: Creates more inclusive, nontoxic workplaces for individuals and their
     employers
   details: Creates more inclusive, nontoxic workplaces for individuals and their employers
   image: kanarys.jpg
+  image-alt: Photo of a grid of iPads
   link: https://app.kanarys.com/
   prize_status: Applied
   problem_statement:
@@ -2004,6 +2165,8 @@
   - reczK9NLJK02flFYS
   - recBZ0u5ftnLcRASI
   - recuNWKVwFbdPJmkQ
+  data_sets_text: HUD Picture of Subsidized Households, HUD Federal Programs, HUD
+    EnVision Centers, HUD Opportunity Zones, IRS SOI Tax Stats, Census
   description: Connects service providers and low income families using evidence-based
     solutions to align program resources that enable self-sufficiency and economic
     mobility
@@ -2032,6 +2195,8 @@
   - employment
   data_sets:
   - rec696mXrFWhEiAvO
+  data_sets_text: North American Industry Classification (NACIS) codes; National Certifications
+    Table; Department of Labor O*NET Database
   description: Helps small businesses, nonprofit resource centers, and institutions
     to better connect skills, certifications, industries and outcomes of training
     programs towards the right jobs in the right industry
@@ -2039,11 +2204,11 @@
     better connect skills, certifications, industries and outcomes of training programs
     towards the right jobs in the right industry
   image: solve.jpg
+  image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
+    barriers that each link to information about organizations working in these areas
   link: https://solve.is/
   prize_status: Applied
   problem_statement:
-  - rec6Coqk1u4BTdxLI
-  problem_statements:
   - rec6Coqk1u4BTdxLI
   sprint:
   - rec4Y10emS9DtmBpT
@@ -2061,9 +2226,13 @@
   - housing
   data_sets:
   - recGlnYsRiOuG1Sjn
+  data_sets_text: Department of Housing and Urban Development; Census Bureau American
+    Community Survey
   description: Combines various data critical to the well being of New Yorkers
   details: Combines various data critical to the well being of New Yorkers
   image: visualizing-youth-disconnection.jpg
+  image-alt: Map of the South Bronx and northern Manhattan with the Measure of America
+    logo
   link: http://www.measureofamerica.org/SegregatedOpportunity/
   problem_statement:
   - recWUq0tYLA47nFU2
@@ -2084,6 +2253,7 @@
   - opioids
   data_sets:
   - rec4NkiR4wChvbycB
+  data_sets_text: US Census Bureau; Local emergency response data
   description: Predicts geographic areas where opioid emergencies are likely to occur
     to help public safety and health officials pre-position the appropriate response
     units in order to save lives at the moment of crisis
@@ -2091,10 +2261,9 @@
     to help public safety and health officials pre-position the appropriate response
     units in order to save lives at the moment of crisis
   image: insight-for-arcgis.jpg
+  image-alt: Dashboard with two maps of New York City and four charts
   link: https://go.esri.com/opioidprediction
   problem_statement:
-  - recUnXFEYwEO7Uea6
-  problem_statements:
   - recUnXFEYwEO7Uea6
   sprint:
   - recg9LuHpKxgB95Xy
@@ -2113,6 +2282,8 @@
   - environment
   data_sets:
   - recJqBTJSS10Y0XDl
+  data_sets_text: Economic Census and American Community Survey data for Baltimore;
+    Self-reported volunteer activity
   description: DEVOP (Demographic Environmental Volunteer Opportunity Plotter) allows
     organizations to target areas to volunteer in and potential partners to successfully
     steward the environment
@@ -2120,10 +2291,9 @@
     organizations to target areas to volunteer in and potential partners to successfully
     steward the environment
   image: bloomberg-devop.jpg
+  image-alt: Map of Baltimore with blue and red map pin icons
   link: https://communityanalyst.arcgis.com/esriCA/login/index.html
   problem_statement:
-  - recZDeKZkpRgp2x1j
-  problem_statements:
   - recZDeKZkpRgp2x1j
   sprint:
   - recg9LuHpKxgB95Xy
@@ -2141,6 +2311,7 @@
   - recmMFIgCZ6a8xA1R
   - recVD7JOYo0dtf28B
   - recHEtl1mszQRRxUV
+  data_sets_text: USDA NAIP, USDA Cropland Data Layer, ESA Sentinel 2
   description: PAGAF uses NAIP data to provide free precision agriculture services
     to farmers.
   details: PAGAF uses NAIP data to provide free precision agriculture services to
@@ -2181,6 +2352,8 @@
   - recYTaj4hHXvWs9Hf
   - recGXdUunLjQ1lGBL
   - recJSkXwxyb2hc3tD
+  data_sets_text: 'Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP,
+    TIDES)'
   description: Increases awareness of beach cleanup events and helps organizers plan
     future cleanups by predicting number of volunteers needed.
   details: Increases awareness of beach cleanup events and helps organizers plan future
@@ -2209,6 +2382,7 @@
   - health
   data_sets:
   - recmHF6G70ChWzHpt
+  data_sets_text: "Department of Veteran\u2019s Affairs"
   description: Assesses suicide and other risk in patients and guides them through
     crisis to available support resource
   details: Assesses suicide and other risk in patients and guides them through crisis
@@ -2228,6 +2402,7 @@
   - environment
   data_sets:
   - recrV1UvS4a45Y13Z
+  data_sets_text: National Agriculture Imagery Program (NAIP)
   description: Lowers the barrier to learning about agricultural imagery for farmers
     and anyone who wants to learn.
   details: Lowers the barrier to learning about agricultural imagery for farmers and
@@ -2255,6 +2430,8 @@
   - census
   data_sets:
   - rec59S1AHuEeT9uqX
+  data_sets_text: "Public Use Microdata Sample of the Census Bureau\u2019s American\
+    \ Community Survey"
   description: 'Showcases Latino leadership across California and helps anyone working
     to improve the quality of life for Latino and Hispanic residents of California
     to understand both the opportunities and the challenges Latino communities '
@@ -2262,10 +2439,10 @@
     to improve the quality of life for Latino and Hispanic residents of California
     to understand both the opportunities and the challenges Latino communities '
   image: california-latino-power-map.jpg
+  image-alt: Map of western U.S. with regions of Calfornia colored in different shades
+    of red
   link: https://latinocf.org/map
   problem_statement:
-  - rec2cDmW6ubg6Wco0
-  problem_statements:
   - rec2cDmW6ubg6Wco0
   sprint:
   - rec5A5h9cq07ijoPk
@@ -2283,6 +2460,7 @@
   - education
   data_sets:
   - recfuJtmIbGPK6Mhf
+  data_sets_text: School-level data
   description: Customizable data briefs that help local school districts and education
     foundations inform parents and the electorate about the need for more funding
   details: Customizable data briefs that help local school districts and education
@@ -2304,11 +2482,13 @@
   - housing
   data_sets:
   - recpvolC8199pm0rT
+  data_sets_text: Department of Housing and Urban Development
   description: 'Allows users to identify areas of opportunity by specifying their
     most important priorities, including housing, jobs, schools, and transportation '
   details: 'Allows users to identify areas of opportunity by specifying their most
     important priorities, including housing, jobs, schools, and transportation '
   image: policymap-tool.jpg
+  image-alt: Map with options to explore housing market and school districts
   link: https://opportunity.policymap.com/
   problem_statement:
   - recGQ0S48RDx0VENx
@@ -2337,6 +2517,10 @@
   - recgzuivP56HMAdbK
   - rec6XhtkFfwdTT30j
   - rec1pbahHiv6HeVsl
+  data_sets_text: FEMA Monthly Disaster Spending Reports, FEMA Annual Performance
+    Report, FEMA Disaster Summaries, FEMA Mission Summaries, FEMA Public Assistance,
+    HHS Annual Performance Report, HUD Fair Market Rents, IRS, CDC/SVI, Census, DOL,
+    BLS, USASpending.gov
   description: Tracks and analyzes the impact of disaster relief funding for mitigation
     and recovery efforts using big data, aerial imagery, predictive analytics and
     geo-spatial technologies
@@ -2347,8 +2531,6 @@
   image-alt: Image of emergency disaster funding product
   link: https://public.tableau.com/views/TOPSDashboard/Story1?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link
   problem_statement:
-  - rec4KZSqOYnXgo2gD
-  problem_statements:
   - rec4KZSqOYnXgo2gD
   sprint:
   - recMpslqDTkD8bJoj
@@ -2367,11 +2549,14 @@
   - health
   data_sets:
   - reccGjV5L91DWewkI
+  data_sets_text: Office of the Surgeon General; Department of Transportation
   description: Generates instant insights that address accessibility of opportunity
     and emotional well-being for citizens across the county
   details: Generates instant insights that address accessibility of opportunity and
     emotional well-being for citizens across the county
   image: mysidewalk.jpg
+  image-alt: Map of Kansas city with side panel displaying statistics on income, health
+    insurance, and income to poverty ratio.
   link: https://theopportunityproject.mysidewalk.com/
   problem_statement:
   - recWbNwNVTeALHVEK
@@ -2391,11 +2576,15 @@
   - environment
   data_sets:
   - recjmk1p8PEaxmjwR
+  data_sets_text: Department of Housing and Urban Development Fair Market Rent data;
+    OpenStreetMap
   description: Rapidly and easily assess neighborhood family amenities and voucher
     amounts for Section 8 Housing Seekers
   details: Rapidly and easily assess neighborhood family amenities and voucher amounts
     for Section 8 Housing Seekers
   image: neighborhood-opportunity.jpg
+  image-alt: Screenshot showing fair market rent for 3 bedroom apartment in a Chicago
+    neighborhood
   link: https://labs.mapbox.com/labs/opportunity/
   problem_statement:
   - recBxwNpfEqtxSEbI
@@ -2417,12 +2606,16 @@
   - census
   data_sets:
   - rec4lkCKmmbu70vxj
+  data_sets_text: Census Bureau
   description: Free mapping and data tool for visualizing data that can help with
     decennial Census outreach in NYC communities by answering questions like 'What
     happens with Census data?' and 'Why does the Census matter to me?'
   details: Free mapping and data tool for visualizing data that can help with decennial
     Census outreach in NYC communities by answering questions like 'What happens with
     Census data?' and 'Why does the Census matter to me?'
+  image: data2gonyc.jpg
+  image-alt: Screenshot of Data 2 Go app showing a map in gradient shades of white,
+    yellow and orange.
   problem_statement:
   - rec0ukljQMNDcv91s
   sprint:
@@ -2439,6 +2632,8 @@
   details: Uses US Department of Veterans Affairs API and CMS API to reduce physician
     burnout and hospital readmission rates for veteran heart failure patients.
   image: composite_apps.jpg
+  image-alt: Image of the Cura Patient homepage with text reading Reimagining How
+    People Work
   link: https://www.curapatient.com/
   prize_status: Winner
   problem_statement:
@@ -2460,11 +2655,14 @@
   - veterans
   data_sets:
   - recpJErZ50C7ZrLG2
+  data_sets_text: Department of Labor O*NET Database; Bureau of Labor Statistics
   description: Helps veterans translate their skills and visualize career and educational
     steps toward reaching their dream jobs in desired locations
   details: Helps veterans translate their skills and visualize career and educational
     steps toward reaching their dream jobs in desired locations
   image: career-nav.jpg
+  image-alt: Screenshot of Career Nav application with a header that reads 'See how
+    your military experience translates' with two job opportunities listed below
   link: https://www.shift.org/careernav
   problem_statement:
   - recLROAotmnLsG3Bw
@@ -2485,9 +2683,12 @@
   - employment
   data_sets:
   - recJRRWGAYgSkvpS7
+  data_sets_text: Bureau of Labor Statistics
   description: Makes career exploration easy and accessible for high school students
   details: Makes career exploration easy and accessible for high school students
   image: careerspark.jpg
+  image-alt: Screenshot of iPhone with app open with a job description of computer
+    programmers
   link: https://itunes.apple.com/us/app/careerspark/id1146518762?mt=8
   problem_statement:
   - recGQ0S48RDx0VENx
@@ -2511,6 +2712,8 @@
   - economic-development
   data_sets:
   - recLnCqfR1YcSc96A
+  data_sets_text: Department of Labor; Census Bureau; US Cluster Mapping Project;
+    Proprietary Burning Glass data on labor market demand
   description: Assists regional workforce and economic development conveners develop
     strategies and prioritize initiatives to achieve inclusive development in their
     regions and to build an inclusive development network that includes leaders from
@@ -2520,11 +2723,11 @@
     to build an inclusive development network that includes leaders from the civic
     sector, government, and industry
   image: inclusive-development-dashboards.jpg
+  image-alt: Screenshot of a webpage containing several paragraphs of text. Text is
+    not legible.
   link: https://www.burning-glass.com/census/community.html
   prize_status: Winner
   problem_statement:
-  - recmZQEd4gpAgWPMm
-  problem_statements:
   - recmZQEd4gpAgWPMm
   sprint:
   - rec4Y10emS9DtmBpT
@@ -2541,6 +2744,7 @@
   - recuNWKVwFbdPJmkQ
   - recjGMVuA7kZw2F6K
   - recUmn4iaL0jNMb8B
+  data_sets_text: Census, EPA WARM Model, EPA Municipal Solid Waste Report
   description: A certification for material recovery facilities reflecting level of
     community relationship, material sorting, value of materials, and end market success
   details: A certification for material recovery facilities reflecting level of community
@@ -2569,6 +2773,8 @@
   - economic-development
   data_sets:
   - recq5HLrG3cn1d2yJ
+  data_sets_text: "Open-source public data; Mastercard\u2019s anonymized and aggregated\
+    \ transaction data"
   description: Provides community leaders with local, data-driven insights that measure
     the degree to which place, economy and community in a given Opportunity Zone benefit
     from equitable growth
@@ -2576,6 +2782,8 @@
     the degree to which place, economy and community in a given Opportunity Zone benefit
     from equitable growth
   image: inclusive-growth-score.jpg
+  image-alt: Screenshot of Inclusive Growth Score app with a header that reads Helping
+    communities discover the opportunity in Opportunity Zones
   link: https://inclusivegrowthscore.com/
   problem_statement:
   - recmZQEd4gpAgWPMm
@@ -2597,6 +2805,7 @@
   - veterans
   data_sets:
   - recRfQFnOEBlyUHKh
+  data_sets_text: Census Bureau; Department of Labor O*NET database
   description: Helps veterans translate their developed skills into private sector
     careers and connect them to the education, soft skills development, and employers
     that can ensure their success
@@ -2604,6 +2813,8 @@
     and connect them to the education, soft skills development, and employers that
     can ensure their success
   image: pairin-pathways.jpg
+  image-alt: Screenshot of Pairin Pathways webmaster dashboard. Across the top is
+    a dashed yellow line with a series of icons, and statistics are listed below.
   link: https://www.pairin.com/pairin-pathways/
   problem_statement:
   - recGo0glu9CVxEX87
@@ -2623,6 +2834,7 @@
   - health
   data_sets:
   - recZ12r87hDC2pbqe
+  data_sets_text: Data on local hazards & resources
   description: Enables researchers to unobtrusively measure everyday behavior to build
     a risk state detection algorithm that powers precise, life-saving mental health
     interventions
@@ -2651,6 +2863,7 @@
   - recEQhaRntLcBiQmj
   - recO2Y4CWOIbPcoyO
   - recmzzl3zlLfvwNXp
+  data_sets_text: HHS Poverty Guidelines, Census Income and Poverty, Census ACS, GAO
   description: Helps economically disadvantaged Americans break the cycle of generational
     poverty and create a positive path to self-sufficiency
   details: Helps economically disadvantaged Americans break the cycle of generational
@@ -2662,8 +2875,6 @@
   link: https://www.ops1.com/envision.aspx
   problem_statement:
   - recD4rN8c5sH3ECRi
-  problem_statements:
-  - recD4rN8c5sH3ECRi
   sprint:
   - recMpslqDTkD8bJoj
   - recTxx36IPxHdegzX
@@ -2671,9 +2882,7 @@
   - recYN8Gz2O6ERs3y3
   tech_team_text: '"Organizational Performance Systems, Inc."'
   title: The EnVision App
-- Data Sets 2:
-  - recuCGIy7wQ8hvVzJ
-  Description (Old): The NAIP explorer uses NAIP imagery to provides a gentle on-ramp
+- Description (Old): The NAIP explorer uses NAIP imagery to provides a gentle on-ramp
     and very simple way to explore imagery for users at USDA and the farmers they
     serve.
   Product Name: NAIP Explorer
@@ -2683,6 +2892,7 @@
   - environment
   data_sets:
   - recrV1UvS4a45Y13Z
+  data_sets_text: National Agriculture Imagery Program (NAIP)
   description: Provides a gentle on-ramp and simple way to explore NAIP imagery for
     users at USDA and the farmers they serve
   details: Provides a gentle on-ramp and simple way to explore NAIP imagery for users
@@ -2693,8 +2903,6 @@
     is a dark green, and the right side is a dark brown.
   link: https://labs.mapbox.com/labs/naip/
   problem_statement:
-  - recSM7q7ufXLojrBx
-  problem_statements:
   - recSM7q7ufXLojrBx
   sprint:
   - recfjW4XBdTnujZD7
@@ -2715,6 +2923,8 @@
   - recb8EMDhzUm653ih
   - recKF4RduKCIxd6Um
   - reckYu246Amm35uDr
+  data_sets_text: EPA AirNow, Open Data DC Street Segments API, DC GIS Master Address
+    Repository, TomTom Traffic API
   description: Compiles and analyzes real-time data on traffic patterns and air pollution
     in the District of Columbia  to allow policymakers to explore the effect of transportation
     on air quality
@@ -2727,8 +2937,6 @@
     to sort by the day, the ward, and the location.
   link: https://mthnguyen.shinyapps.io/AirMotionDC/
   problem_statement:
-  - recG9NY8ns2oza4vp
-  problem_statements:
   - recG9NY8ns2oza4vp
   sprint:
   - recuhdACXvzRxxZEM
@@ -2748,6 +2956,7 @@
   - discovery
   data_sets:
   - reczaQ6d5RUAwJlQ1
+  data_sets_text: Census Bureau American Community Survey
   description: Drives awareness of Census Bureau data for mobile millennials and application
     developers so they can solve social problems using open data available for their
     communities and cities
@@ -2755,6 +2964,9 @@
     developers so they can solve social problems using open data available for their
     communities and cities
   image: my-city-data-learning-tool.jpg
+  image-alt: Screenshot of a computer game birdseye view of several city blocks with
+    buildings, a taller building that is on fire, a Chinatown sign, trucks, buses,
+    and taxis, and people.
   link: https://developer.cisco.com/site/census/
   problem_statement:
   - rec0ukljQMNDcv91s

@@ -6,7 +6,8 @@
   airtable_id: rec0XnfpVCBwdQJAg
   category:
   - grants
-  data_sets: 'Grants.gov database '
+  data_sets:
+  - rec4AioNvVGJrpHcQ
   description: Enables donors, nonprofits, and intermediary users to find funding
     opportunities they may qualify for
   details: Enables donors, nonprofits, and intermediary users to find funding opportunities
@@ -26,8 +27,10 @@
   airtable_id: rec0sJ3TvQo6mykBz
   category:
   - environment
-  data_sets: EPA Facts and Figures about Materials, Waste and Recycling, USGS Mineral
-    Commodity Summaries
+  data_sets:
+  - rec9eiz7OR4XL7sR2
+  - reci4qc6YN4B3LYFg
+  - recXNXX6m7T16eoZI
   description: Creates a B2B Marketplace for recycled materials that helps to enable
     local circular economies.
   details: Creates a B2B Marketplace for recycled materials that helps to enable local
@@ -50,7 +53,9 @@
   airtable_id: rec1WFJn1OGTTGrZi
   category:
   - refugees
-  data_sets: State Department WRAPSNET, Charity Navigator
+  data_sets:
+  - recJufzyndWhFbgUv
+  - recCQkNjSQxMZYYwb
   description: Helps recently resettled refugees locate vital services within their
     area, and see the landscape of refugees around the United States by country of
     origin.
@@ -79,9 +84,9 @@
   airtable_id: rec1aSWndKb5kqADi
   category:
   - housing
-  data_sets: Public Use Microdata System (IPUMS); Census Bureau; Geolytics, Woods
-    & Poole Economics; Bureau of Economic Analysis; Bureau of Labor Statistics; Centers
-    for Disease Control and Prevention; National Center for Education Statistics
+  data_sets:
+  - recESBrqUa0lBnuPX
+  - recJ2XqUXOMEB1DXG
   description: 'Allows community leaders and policy makers to compare disaggregated
     demographic indicators that describe the state of equity in cities, regions, and
     states '
@@ -89,6 +94,8 @@
     indicators that describe the state of equity in cities, regions, and states '
   image: national-equity-atlas.jpg
   link: https://www.nationalequityatlas.org/
+  problem_statement:
+  - rec6HY78EY2rrTgQq
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -103,8 +110,8 @@
   airtable_id: rec3DLJOV0X1vHHVe
   category:
   - health
-  data_sets: Centers for Disease Control and Prevention; Aggregated and anonymous
-    Fitbit activity data from over 10 million users
+  data_sets:
+  - recd7luteEs4maEnq
   description: Lets users see how average activity relates to common health issues
     in each state
   details: Lets users see how average activity relates to common health issues in
@@ -127,8 +134,8 @@
   airtable_id: rec4bboJwfwGI9dku
   category:
   - rural
-  data_sets: 'United States Department of Agriculture; Census Bureau; Department of
-    Transportation; Department of Housing and Urban Development '
+  data_sets:
+  - recYsaQo1Hh5n5Plz
   description: Uses live spatial and development funding data to simplify funding
     eligibility with virtual storytelling of our rural American communities
   details: Uses live spatial and development funding data to simplify funding eligibility
@@ -153,7 +160,8 @@
   airtable_id: rec4tY9vvumikW1Ku
   category:
   - addressing
-  data_sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
+  data_sets:
+  - rech9yKY6D5zjS6HQ
   description: Helps the municipalities and communities in Puerto Rico enhance their
     address infrastructure to support the reconstruction process, improve emergency
     response and foster a more resilient future
@@ -179,7 +187,10 @@
   category:
   - employment
   - housing
-  data_sets: HUD, Census Bureau ACS, FCC Broadband
+  data_sets:
+  - recR05Bv2d2mx7pYB
+  - recunaDw8Cf6hctAM
+  - reclpdYFlzHah9Oxq
   description: Provides novel insights to promote economic self-sufficiency to low-income
     familites by integrating federal data and user-generated content
   details: Provides novel insights to promote economic self-sufficiency to low-income
@@ -187,7 +198,7 @@
   image: iDISPLA-360-Degree-Data.jpg
   image-alt: The image contains screenshots from the product, with the title 'Broadband
     Access & Poverty'
-  link: www.idispla.org
+  link: https://www.idispla.org
   problem_statement:
   - recD4rN8c5sH3ECRi
   sprint:
@@ -206,7 +217,8 @@
   airtable_id: rec5dPCVzV3SHuZDS
   category:
   - disasters
-  data_sets: 'ensus block data; Open EU Sentinel 1 InSAR '
+  data_sets:
+  - rechYzTHDK65dikqA
   description: 'Block level structural risk product that encourages local stakeholders
     to prepare for crisis through increased awareness of the likelihood of catastrophic
     failure of their structures in a disaster. Public access using login: fema@sille.space,
@@ -232,8 +244,10 @@
   airtable_id: rec68a7razj3IGOyX
   category:
   - environment
-  data_sets: Census ACS, EPA National Emissions Inventory, National Lung Association
-    State of the Air
+  data_sets:
+  - recO2Y4CWOIbPcoyO
+  - recZAND1HiNvZYHkf
+  - recoRjuz8r7T0EIde
   description: Identifies neighborhoods for people seeking to move to locations with
     better air quality
   details: Identifies neighborhoods for people seeking to move to locations with better
@@ -259,8 +273,13 @@
   Product Name: Ocean Plastics Story Map
   airtable_createdTime: '2021-02-19T18:44:21.000Z'
   airtable_id: rec6IC6El0nNjSiCA
-  data_sets: "Citizen Science Portal, Interpol, GRID-Arendal, US EPA, PEW, Woldemar\
-    \ d\u2019Ambri\xE8res"
+  data_sets:
+  - recVbqBgYXwSLMnNU
+  - recscWb6JJRIV79UE
+  - rechI3RkIWiXGzAup
+  - recx60YDJByTa1fDC
+  - recn2LgVOmqcJFckv
+  - recc7fNl34Zr5cr76
   description: Compiles tangible and novel data sets to energize public consciousness
     and provide new insights into the problem of ocean plastic pollution, offering
     actions for citizens and policymakers worldwide to solve the crisis of plastic
@@ -296,8 +315,6 @@
     that address a variety of problems surrounding access to opportunity'
   details: ' Helps researchers and developers rapidly prototype and deploy tools that
     address a variety of problems surrounding access to opportunity'
-  problem_statement:
-  - recCTI1VBSwUOl4Tq
   sprint:
   - recPEm69CcLh1tX2s
   tech_team:
@@ -310,8 +327,12 @@
   category:
   - economic-development
   - rural
-  data_sets: FCC Broadband data, Census ACS, EPA Smart Location Database, EPA Atlas
-    of Rural America, EPA Livability Indicators
+  data_sets:
+  - rec1Y9Gn0T2zZUl2R
+  - recO2Y4CWOIbPcoyO
+  - reckEL1sfzrSAVX6r
+  - recs0L4IgNvp7OvEx
+  - recrA6PMsCqPN20AT
   description: Facilitates rural economic development by connecting remote workers
     with rural communities
   details: Facilitates rural economic development by connecting remote workers with
@@ -332,7 +353,8 @@
 - Product Name: Urban Intelligence Platform
   airtable_createdTime: '2021-01-25T22:56:24.000Z'
   airtable_id: rec85E0U2wrRBV8dc
-  data_sets: USASpending
+  data_sets:
+  - rec1pbahHiv6HeVsl
   description: "Provides sector-specific insights to answer critical questions on\_\
     urban\_transformation and policy,\_community resilience, hazard and climate risk,\
     \ and social equity"
@@ -356,8 +378,13 @@
   category:
   - economic-development
   - rural
-  data_sets: Census ACS, FCC Form 477, BLS Quarterly Census of Employment and Wages,
-    EPA National Walkability Index, BEA GDP and Industry Data, HUD Fair Market Rents
+  data_sets:
+  - recO2Y4CWOIbPcoyO
+  - reckAFdxXwR165zf5
+  - recgn3tyi2jTIWeSz
+  - recGyjH5eAGxIK6J2
+  - recmIIxro1n1D7q1Z
+  - recY2yO5OmnuQUlfT
   description: Simplifies and visualizes federal open data to support storytelling
     for rural economic development
   details: Simplifies and visualizes federal open data to support storytelling for
@@ -383,7 +410,8 @@
   airtable_id: rec8Yym9s5wIGjlDI
   category:
   - addressing
-  data_sets: U.S. National Grid
+  data_sets:
+  - recQsegR8fE8yofoN
   description: Address point capture tool that assigns coordinates, in an online or
     offline mode, to make non-traditionally addressed locations addressable
   details: Address point capture tool that assigns coordinates, in an online or offline
@@ -423,12 +451,13 @@
   airtable_id: rec9slEDBdpxTIC3J
   category:
   - housing
-  data_sets: DC Department of Human Services
+  data_sets:
+  - rec9DtqD0ooIzdJj7
   description: Helps youth experiencing homelessness find and access services in the
     Washington, DC area
   details: Helps youth experiencing homelessness find and access services in the Washington,
     DC area
-  image: myspot.jpg
+  image: my-spot.jpg
   link: https://www.findmyspot.org
   problem_statement:
   - recMEER5Sc9HQrLOF
@@ -449,8 +478,10 @@
   airtable_id: recB5iDMet16XnjXe
   category:
   - census
-  data_sets: "Census Bureau American Community Survey; Census Barriers, Attitudes,\
-    \ and Motivators; Civis Analytics\u2019 survey and message testing technology"
+  data_sets:
+  - recOrmFTVMgrShHjc
+  - recxXh5stphflZLXv
+  - rec0NIAaqftbxx94p
   description: Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
   details: Empowers local leaders and Census coordinators to run data-driven outreach
@@ -480,8 +511,8 @@
   airtable_id: recCGea83hgr4djMm
   category:
   - census
-  data_sets: Number of Americans overseas; Number of individuals with disabilities;
-    Smartphone penetration across the United States
+  data_sets:
+  - recd47z5brchfMK3A
   description: ' Allows the convenience, security and accessibility of smartphone
     and blockchain technology to ensure that hard-to-reach populations are counted
     in future censuses'
@@ -505,7 +536,8 @@
   category:
   - grants
   - disasters
-  data_sets: USA Spending
+  data_sets:
+  - recEUnW6Il2ZfXV0Z
   description: Tracks the flow of COVID-19 related spending by the federal government
     and its impact on economic recovery
   details: Tracks the flow of COVID-19 related spending by the federal government
@@ -531,14 +563,17 @@
   - housing
   - health
   - transportation
-  data_sets: 'Department of Housing and Urban Development; Census Bureau American
-    Community Survey '
+  data_sets:
+  - recGlnYsRiOuG1Sjn
   description: Uses nationwide opportunity indexes to make search for opportunity
     more easily obtainable
   details: Uses nationwide opportunity indexes to make search for opportunity more
     easily obtainable
   image: opportunity-enabler.jpg
   link: http://bit.ly/2aWs865
+  problem_statement:
+  - recBxwNpfEqtxSEbI
+  - recboDOGOG8eKuYc7
   sprint:
   - recPEm69CcLh1tX2s
   tech_team:
@@ -554,8 +589,8 @@
   airtable_id: recFK3C3oDrmnIwA3
   category:
   - entrepreneurship
-  data_sets: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
-    Survey; Internal Revenue Service
+  data_sets:
+  - recDmLYXboYl8Krlv
   description: Solves talent discovery issues for entrepreneurs and small businesses
     seeking to hire high-tech workers
   details: Solves talent discovery issues for entrepreneurs and small businesses seeking
@@ -576,9 +611,11 @@
   airtable_id: recFOmdpx7Q6uE0Xl
   category:
   - environment
-  data_sets: '''Earth Challenge Integrated Data: Top 10 Sources of Plastic Pollution
-    by Country'', ''Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP,
-    TIDES)'''
+  data_sets:
+  - rec07UgbuaSRJCK1l
+  - rech6WYov2ewYwBTp
+  - recGXdUunLjQ1lGBL
+  - reczWfWgXmP9jPcEb
   description: Highlights the issue of ocean plastic pollution through an interactive
     game for all age groups.
   details: Highlights the issue of ocean plastic pollution through an interactive
@@ -631,9 +668,8 @@
   category:
   - discovery
   - census
-  data_sets: Census Bureau; US Bureau of Labor Statistics; New York State Departments
-    of Health and of Agriculture and Markets; Food Bank for New York City and the
-    NYU Furman Center
+  data_sets:
+  - rec4qbd5bZMFpmAeL
   description: Free mapping and data tool for visualizing data that can help with
     decennial Census outreach in NYC communities by answering questions like 'What
     happens with Census data?' and 'Why does the Census matter to me?'
@@ -661,7 +697,8 @@
   category:
   - transportation
   - employment
-  data_sets: LEHD Origin-Destination Employment Statistic
+  data_sets:
+  - recm1mLFki5moIoCb
   description: Uses commuting data and bus & rail transit routes to show commuter
     flows and gaps in access to transit
   details: Uses commuting data and bus & rail transit routes to show commuter flows
@@ -681,7 +718,10 @@
   airtable_id: recIu57RsPY8g7yE6
   category:
   - education
-  data_sets: FAE dashboard, USASpending, Foreign Assistance Resource Library
+  data_sets:
+  - recQCvW6ePpafCJfJ
+  - recn8dediBRt70GZD
+  - recVEcdvECQjXJ1e9
   description: Increases engagement in secondary civics education through a series
     of informational modules with quizzes focused on foreign assistance
   details: Increases engagement in secondary civics education through a series of
@@ -706,7 +746,8 @@
   airtable_id: recJGQBZiNXia0IYm
   category:
   - transportation
-  data_sets: 'Traffic accident and fatality data '
+  data_sets:
+  - recgV66ro2Z870eTc
   description: Provides dynamic location-based visualizations of hazardous traffic
     corridors for citizens and community decision makers
   details: Provides dynamic location-based visualizations of hazardous traffic corridors
@@ -726,7 +767,8 @@
   airtable_id: recJjNKdphBCWsER0
   category:
   - environment
-  data_sets: Earth Challenge 2020 Consolidated Data
+  data_sets:
+  - rec6t8hETGkO5eAbZ
   description: Visualizes the effect of plastic bans on coastal plastic pollution
     for policy makers and advocates
   details: Visualizes the effect of plastic bans on coastal plastic pollution for
@@ -748,7 +790,9 @@
   airtable_id: recJms1glRzSmKxtR
   category:
   - environment
-  data_sets: Earth Challenge Integrated Dataset, Earth Challenge 2020 app
+  data_sets:
+  - recmo2NgzgxGBRO5S
+  - rec94lW05GUWWvjX0
   description: Tracks plastic pollution on college campuses and educates students
     on the impacts of plastics in their communities through educational modules, a
     dashboard, and a playbook.
@@ -777,12 +821,13 @@
   airtable_id: recKSyLaCXFbhyDuv
   category:
   - education
-  data_sets: 'Department of Labor O*NET Database; Department of Education '
+  data_sets:
+  - recbPXckCwUkIEHnn
   description: Links relevant and authentic industry content to actual job descriptions
     to provide learners and job seekers opportunity for career exploration and exposure
   details: Links relevant and authentic industry content to actual job descriptions
     to provide learners and job seekers opportunity for career exploration and exposure
-  image: nepris-industry-connections.jpg
+  image: nepris-industry.jpg
   link: https://nepris.com/misc/careersearch
   problem_statement:
   - rec5Qmq3TNOnhhfoE
@@ -803,8 +848,9 @@
   category:
   - grants
   - discovery
-  data_sets: 'Census Bureau; USASpending.gov, SAM.gov; grants.gov; Department of Housing
-    and Urban Development '
+  data_sets:
+  - recAJjhFANCAKPVyB
+  - recZ1EJ6NTgWWnc55
   description: Makes homelessness statistics and related funding data easily accessible
     for grants professionals, researchers, government finance professionals, and citizens
     interested in transparency and accountability
@@ -831,8 +877,8 @@
   category:
   - discovery
   - census
-  data_sets: Census Bureau; Federal Bureau of Investigation; Centers for Disease Control
-    and Prevention
+  data_sets:
+  - rec6GcI1sfYzbNxgA
   description: Web-based artificial intelligence tool that helps journalists, philanthropists,
     public servants, and policy advocates to search public data on demographics, criminal
     justice, public health, and elections
@@ -856,7 +902,8 @@
   airtable_id: recNXCwgWCLa3ZMwB
   category:
   - employment
-  data_sets: 'Virginia Open Data Catalogue; Crowdsourced job reports '
+  data_sets:
+  - recIajFnZTy6Kaf0a
   description: Shares alerts of local job openings
   details: Shares alerts of local job openings
   image: job-crowdsourcing-tool.jpg
@@ -877,7 +924,8 @@
   category:
   - employment
   - education
-  data_sets: 'Eligible Training Provider Lists (ETPL) '
+  data_sets:
+  - recWrMIj2ghy3UKQK
   description: ' Surfaces education options that lead to in-demand careers for job
     seekers'
   details: ' Surfaces education options that lead to in-demand careers for job seekers'
@@ -920,13 +968,16 @@
   - housing
   - employment
   - transportation
-  data_sets: 'Department of Commerce '
+  data_sets:
+  - recH3FjUydbcH5zIk
   description: Shows jobs individuals can get to in 30 minutes, without a car, from
     any address
   details: Shows jobs individuals can get to in 30 minutes, without a car, from any
     address
   image: opportunity-score.jpg
   link: https://labs.redfin.com/opportunity-score
+  problem_statement:
+  - recGQ0S48RDx0VENx
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -939,7 +990,8 @@
   category:
   - economic-development
   - rural
-  data_sets: Census County Business Patterns
+  data_sets:
+  - reclFy6fGztGrP51b
   description: Helps small business owners in Maine to grow together by providing
     them with information necessary to start/expand their business
   details: Helps small business owners in Maine to grow together by providing them
@@ -961,8 +1013,9 @@
   airtable_id: recRADslXTYbyjOZ9
   category:
   - environment
-  data_sets: Global Fishing Watch's Anchorages Dataset, Earth Challenge 2020 Integrated
-    Data
+  data_sets:
+  - recE7v7V0hvOrhPPp
+  - recYxJNiA9BHEqUhO
   description: Visualizes the location of discarded fishing nets and explores solutions
     for policymakers, NGOs, and the general public
   details: Visualizes the location of discarded fishing nets and explores solutions
@@ -1006,8 +1059,9 @@
   airtable_id: recSXynrxBTKXTh63
   category:
   - census
-  data_sets: 'Census Bureau Response Rates; Low Broadband Access; Barriers, Attitudes
-    and Motivators Study '
+  data_sets:
+  - recUXCzWrZg9XiYVE
+  - recYsXM7DW4A8KBTg
   description: Defines demographic profiles and psychographic barriers to design culturally
     relevant stories that community organizations can use to engage seniors and young
     adults from the Puerto Rican and Filipino diasporas and raise awareness of how
@@ -1038,8 +1092,13 @@
   category:
   - economic-development
   - rural
-  data_sets: Census ACS, NAICS, DOE College Scorecard, Census County Population by
-    Characteristics, Census County Business Patterns, USPTO Inventors Geocoded
+  data_sets:
+  - recO2Y4CWOIbPcoyO
+  - recPmjDLbOMJqkl2e
+  - recAqHOjJvwmhB2RD
+  - recz61AOhxODHKNr6
+  - reclFy6fGztGrP51b
+  - recoAplnkJ6TCz4c2
   description: Creates digital economy reports for rural leaders designing economic
     development strategies
   details: Creates digital economy reports for rural leaders designing economic development
@@ -1069,7 +1128,8 @@
   - veterans
   - housing
   - health
-  data_sets: 'Census Bureau; Department of Housing and Urban Development '
+  data_sets:
+  - recdjNmtMAmnM8fC3
   description: Helps veterans communicate needs to their care team in real time, identifying
     high-risk veterans for suicide, homelessness and substance use for improved follow-up,
     transparency, and accountability
@@ -1091,8 +1151,12 @@
   airtable_id: recTfL9YZgQqj9i78
   category:
   - education
-  data_sets: '- State foreignassistance.gov, Congressional Research Service, usa.gov,
-    GAO, CBO'
+  data_sets:
+  - recWMcyNVcCddeWv0
+  - rec1sAdGGfVu26m6F
+  - recdmwgRjeQdV2ujv
+  - recmzzl3zlLfvwNXp
+  - recJwm5OaoRJmbbCw
   description: Offers a series of news and information modules on foreign aid, federal
     budget, diplomacy, strategic initiatives, and an overview of the State Department
     for middle and high school students.
@@ -1104,6 +1168,8 @@
     why governments want to either increase or decrease foreign aid.
   link: https://bitesmedia.com/
   problem_statement:
+  - recdNGSC2k2ptu3JM
+  problem_statements:
   - recdNGSC2k2ptu3JM
   sprint:
   - recWgRn0SzeC0JNJ1
@@ -1120,8 +1186,8 @@
   - housing
   - health
   - transportation
-  data_sets: 'Bureau of Labor Statistics; Department of Education; Institute of Museums
-    and Library Services; other data from federal agencies and twelve cities '
+  data_sets:
+  - rec08xrbRPlxvTHcN
   description: Facilitates finding, viewing, and collaborating over data for Opportunity
     Project sprint participants
   details: Facilitates finding, viewing, and collaborating over data for Opportunity
@@ -1144,7 +1210,8 @@
   airtable_id: recVCXRirVspq062m
   category:
   - housing
-  data_sets: 'Department of Housing and Urban Development '
+  data_sets:
+  - recpvolC8199pm0rT
   description: Identifies areas that present a high-opportunity for families to supplement
     their housing costs through renting excess rooms or units
   details: Identifies areas that present a high-opportunity for families to supplement
@@ -1166,7 +1233,8 @@
   airtable_id: recWRZvsJGQgPYlDn
   category:
   - environment
-  data_sets: U.S. Forest Service environmental stewardship data
+  data_sets:
+  - rec1MkdLWCg0K49PD
   description: Makes it simple to see what organizations are working in which turfs
     for local groups to better connect with others caring for their local environment
   details: Makes it simple to see what organizations are working in which turfs for
@@ -1191,7 +1259,8 @@
   airtable_id: recWyKy6qT8GX7jT8
   category:
   - entrepreneurship
-  data_sets: "Small Business Administration \u2018Find Local Assistance\u2019 resource"
+  data_sets:
+  - recz7LWaT7XCEG5vW
   description: Chatbot that empowers growth-minded entrepreneurs with the financial
     and business knowledge to better manage their money and make confident, informed
     business decisions
@@ -1219,15 +1288,16 @@
   - transportation
   - education
   - health
-  data_sets: Department of Health and Human Services; City of Philadelphia; Office
-    of Management and Budget; Department of Housing and Urban Development; Southeastern
-    Pennsylvania Transportation Authority; New Jersey Transit; State of Delaware
+  data_sets:
+  - recy9nOvqIgg2ohWz
   description: Allows users to explore transit accessibility of resources including
     parks, daycare centers, and health clinics
   details: Allows users to explore transit accessibility of resources including parks,
     daycare centers, and health clinics
   image: transit-analyst.jpg
   link: https://transitanalyst.com/
+  problem_statement:
+  - recWbNwNVTeALHVEK
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -1242,7 +1312,8 @@
   airtable_id: recXgUtGqv4vnOFKA
   category:
   - disasters
-  data_sets: Federal disaster declaration and protective actions data
+  data_sets:
+  - reca3HaDwDIPIvwAP
   description: Serious game that engages young adults in preparing for emergencies
   details: Serious game that engages young adults in preparing for emergencies
   image: disaster-awareness-games.jpg
@@ -1266,11 +1337,14 @@
   - housing
   - health
   - transportation
-  data_sets: 'Department of Housing and Urban Development '
+  data_sets:
+  - recpvolC8199pm0rT
   description: Shows where opportunities are for low income citizens with children
   details: Shows where opportunities are for low income citizens with children
-  image: affordable-housing-finder.jpg
+  image: affordable-housing.jpg
   link: https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG
+  problem_statement:
+  - recBxwNpfEqtxSEbI
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -1302,9 +1376,8 @@
   airtable_id: recYVIjlUXHhhAjLr
   category:
   - rural
-  data_sets: Census Bureau American Community Survey; Homeland Infrastructure Foundation
-    Level Data; Federal Communications Commission Form 477; Department of Education
-    College Scorecard
+  data_sets:
+  - recMSzrJE4GulrJdq
   description: Reveals Opportunity Zones with emerging tech sectors so investors can
     discover promising rural startups ready to scale that otherwise would have been
     overlooked
@@ -1327,7 +1400,8 @@
   airtable_id: recYdVmxC6OUqRxB0
   category:
   - employment
-  data_sets: 'USA Jobs '
+  data_sets:
+  - recmd9LsmIc8LYNmj
   description: 'Displays current government job listings, relevant resources and shows
     statistics '
   details: 'Displays current government job listings, relevant resources and shows
@@ -1352,8 +1426,8 @@
   airtable_id: recZ3abAz4ADb6WRZ
   category:
   - grants
-  data_sets: Department of Health and Human Services; Department of Education; USASpending.gov;
-    SAM.gov; Grants.gov; FEMA
+  data_sets:
+  - recPiuc7SoLwdbVpm
   description: Visually showcases how federal grants spending leads to desired performance
     outcomes, enhancing federal accountability and transparency for the American public
   details: Visually showcases how federal grants spending leads to desired performance
@@ -1373,7 +1447,9 @@
   airtable_id: recZC1VP8ywUBxS8q
   category:
   - refugees
-  data_sets: State Department WRAPSnet, FindHello database
+  data_sets:
+  - recHH8tiwoyPB3bIA
+  - recj68UegyWcH4eOM
   description: Connects immigrants, refugees, and asylum seekers connect with resources
     in their area, using a data set built in partnership with service organizations
   details: Connects immigrants, refugees, and asylum seekers connect with resources
@@ -1383,6 +1459,8 @@
     select categories such as 'Legal Help', 'Resettlement Services', 'Housing & Food',
     and 'Community'.
   link: https://find.usahello.org
+  problem_statement:
+  - recDnQq3aDp59z637
   sprint:
   - recMpslqDTkD8bJoj
   tech_team:
@@ -1400,8 +1478,8 @@
   airtable_id: recZkztX2XjSfcDzO
   category:
   - education
-  data_sets: 'Census Bureau; Civil Rights Data Collection Program; National Center
-    for Education Statistics; Department of Education '
+  data_sets:
+  - recCvj9RpD2mGgs8j
   description: Fuses together disparate, non-standardized data, to provide nationwide
     analysis of metrics for federal and state decision-makers to support the Every
     Student Succeeds Act (ESSA)
@@ -1426,7 +1504,8 @@
   airtable_id: recZn66weHUm3gq49
   category:
   - census
-  data_sets: 'Census Bureau Response Rate '
+  data_sets:
+  - recAaHsevAd88WPKj
   description: Supports policymakers in resource allocation by predicting decennial
     Census response rates by day for each census tract, and comparing them to the
     true rates
@@ -1448,8 +1527,10 @@
   category:
   - employment
   - housing
-  data_sets: Census Quarterly Workforce Indicators, Census Economic Data, BLS Occupational
-    Employment Statistics
+  data_sets:
+  - recO5dPRvmWdhu3oq
+  - recfg1WkemYmG7Nrk
+  - recagpQfdlYkn1ukP
   description: Brings job opportunities and career maps to life, enabling a clear
     path for job seekers to training and employment
   details: Brings job opportunities and career maps to life, enabling a clear path
@@ -1474,9 +1555,14 @@
   airtable_id: recaRsKbgtQOavIpx
   category:
   - environment
-  data_sets: Illinois EPA, Association of Plastics Recyclers, Illinois Recycling Association,
-    Plastics Markets, Buyers and Sellers, Institute of Scrap Recycling Industries,
-    The Recycling Partnership
+  data_sets:
+  - recTbqNuUaHAL0r35
+  - recRwm9aZNcZWHd4E
+  - recAJmfcSkgNTZwdF
+  - recwREmtBm5Av8W56
+  - recFfmpUorjQbs2z3
+  - recYhtbH9gRWO0cjp
+  - recAqkVpIdnrchWFV
   description: Empowers city officials to make informed decisions around waste management
     that lead to transparency, investment and job creation through the development
     of a circular economy
@@ -1508,8 +1594,8 @@
   airtable_id: recb1pW6mpE2vl6tp
   category:
   - economic-development
-  data_sets: 'American Community Survey; Proprietary enterprise level marketing systems
-    data; survey data '
+  data_sets:
+  - recANl7hLAtPZhe4v
   description: Ensures that community priorities inform Opportunity Zones strategies
     employed by policy decision-makers, economic development officials, and investors
     in Birmingham, Alabama
@@ -1535,7 +1621,9 @@
   airtable_id: recbsgNzUmmrKuEYn
   category:
   - refugees
-  data_sets: State Department WRAPSnet, NTIA BroadbandUSA
+  data_sets:
+  - recHH8tiwoyPB3bIA
+  - recWJcUpKgcyp4XjO
   description: Enables refugees to identify community resources near them during and
     after their resettlement period to the United States
   details: Enables refugees to identify community resources near them during and after
@@ -1563,7 +1651,8 @@
   airtable_id: recc6G4ozj7KnAH6e
   category:
   - census
-  data_sets: Department of Housing and Urban Development; Community partners
+  data_sets:
+  - recjyAoj8x1HovtT5
   description: Helps Area Census Office Staff visualize and verify potential locations
     of individuals experiencing homelessness for enumeration
   details: Helps Area Census Office Staff visualize and verify potential locations
@@ -1587,8 +1676,8 @@
   airtable_id: recdBbAkH3Y7hu4y4
   category:
   - economic-development
-  data_sets: Census Bureau; Department of Agriculture; Department of Education; U.S.
-    Securities and Exchange Commission
+  data_sets:
+  - recj4vMxTwRcC9vUW
   description: Brings transparency to the Opportunity Zone ecosystem for investors,
     fund manager, wealth managers, and cities
   details: Brings transparency to the Opportunity Zone ecosystem for investors, fund
@@ -1610,7 +1699,8 @@
   category:
   - education
   - environment
-  data_sets: EPA Idle-Free Schools Toolkit
+  data_sets:
+  - reczoJU8faZ1brZ0d
   description: Educates young students about air quality and bus emissions and encourages
     students, parents, and teachers to create healthier school environments
   details: Educates young students about air quality and bus emissions and encourages
@@ -1637,8 +1727,8 @@
   airtable_id: receo5EjDvZOW0G6N
   category:
   - addressing
-  data_sets: "Census Bureau\u2019s National Address Database Schema; United States\
-    \ Department of Agriculture The National Agriculture Imagery Program (NAIP) imagery "
+  data_sets:
+  - recdUyfK7lV5aWTmt
   description: ' Provides a field data crowdsourcing platform for government or agency
     stakeholders with gaps in their address data on the ground '
   details: ' Provides a field data crowdsourcing platform for government or agency
@@ -1662,13 +1752,13 @@
   airtable_id: recfUxMS7BNZxVPLX
   category:
   - veterans
-  data_sets: 'Career One Stop; Department of Labor O*NET Database; Walkingscore.com;
-    Google maps '
+  data_sets:
+  - recUryevLXCLnABaa
   description: Provides career recommendations to veterans on potential job/apprenticeship
     matches based on conceptual search, training recommendations, and skill gap analysis
   details: Provides career recommendations to veterans on potential job/apprenticeship
     matches based on conceptual search, training recommendations, and skill gap analysis
-  image: watson-employment-manager.jpg
+  image: watson-employment.jpg
   link: https://apprenticeships.mybluemix.net
   problem_statement:
   - recLROAotmnLsG3Bw
@@ -1686,7 +1776,8 @@
   airtable_id: recfqTRYC5LXFiOUe
   category:
   - employment
-  data_sets: 'Bureau of Labor Statistics '
+  data_sets:
+  - recJRRWGAYgSkvpS7
   description: "Helps Redfin\u2019s millions of users better understand the opportunities\
     \ and tradeoffs in terms of housing, employment and other factors when looking\
     \ to relocate for work or find workers for startups "
@@ -1713,7 +1804,8 @@
   - housing
   - employment
   - transportation
-  data_sets: '!!! No data listed'
+  data_sets:
+  - recQTaCmiK4RJgU18
   description: "\"Ground-truthing\" neighborhood navigator powered by local knowledge,\
     \ answering questions including \u201Chow walkable is my city?\u201D and \u201C\
     who provides childcare I can trust?\u201D"
@@ -1722,6 +1814,9 @@
     who provides childcare I can trust?\u201D"
   image: streetwyze.jpg
   link: http://www.streetwyze.com/
+  problem_statement:
+  - recGQxoZehhlElI4g
+  - rec6HY78EY2rrTgQq
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -1757,9 +1852,13 @@
   airtable_id: reciAHM7OE2uo9JTi
   category:
   - disasters
-  data_sets: 'Puerto Rico Open Data Portal (Building Permits, Public Wifi, Public
-    Schools, Libraries, Hospitals, Hotels); Army Corps of Engineers; Old San Juan
-    Airbnb Survey '
+  data_sets:
+  - recmk9AHFB5PTdkW0
+  - reci6IyNnsacsn7uC
+  - rechOxdN4gibH5iOz
+  - receS2twolbJgCnqF
+  - rec8siYwrlGQ2mRBz
+  - recHsimrd6RvbBOAb
   description: Assesses the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island of Puerto Rico
   details: Assesses the occupancy, condition, land use, and needs of all 1.5 million
@@ -1783,7 +1882,8 @@
   airtable_id: reciS4wntA3e352BQ
   category:
   - veterans
-  data_sets: 'Department of Labor '
+  data_sets:
+  - recq6Be0out6SxvOZ
   description: An algorithm developed in partnership with SkillsEngine, a workforce
     development and technology nonprofit, shows veterans the most relevant registered
     apprenticeships based on their declared skills, interests, and military history
@@ -1808,7 +1908,8 @@
   airtable_id: recj2I36nEPH4qWuf
   category:
   - education
-  data_sets: 'Department of Education college readiness data '
+  data_sets:
+  - recrFSpDngWedddKe
   description: Measures gaps in access to educational opportunities across student
     groups to help advocates increased equity
   details: Measures gaps in access to educational opportunities across student groups
@@ -1834,6 +1935,9 @@
   details: Allows for comparison and similarity detection of geographic regions
   image: opendata-network.jpg
   link: https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
+  problem_statement:
+  - recCTI1VBSwUOl4Tq
+  - rec6HY78EY2rrTgQq
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -1847,9 +1951,8 @@
   airtable_id: recjBsJokWirN5SXn
   category:
   - education
-  data_sets: Census Bureau; Department of Health and Human Services; Institute of
-    Museum and Library Services; School District of Philadelphia; Pennsylvania State
-    Department of Education
+  data_sets:
+  - recFe9sXGLssXn9T4
   description: Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships
   details: Brings together economic, health center, and community institution data
@@ -1872,7 +1975,8 @@
   airtable_id: reckOdJi2Y6DUxI09
   category:
   - employment
-  data_sets: Equal Employment Opportunity Commission; Census Bureau
+  data_sets:
+  - recelHugittnq2tHh
   description: Creates more inclusive, nontoxic workplaces for individuals and their
     employers
   details: Creates more inclusive, nontoxic workplaces for individuals and their employers
@@ -1893,8 +1997,13 @@
   category:
   - employment
   - housing
-  data_sets: HUD Picture of Subsidized Households, HUD Federal Programs, HUD EnVision
-    Centers, HUD Opportunity Zones, IRS SOI Tax Stats, Census
+  data_sets:
+  - recL4TnI9hKXQpAhW
+  - reckWNWDZlinjIHJX
+  - recrLWrtU7PWxE5H4
+  - reczK9NLJK02flFYS
+  - recBZ0u5ftnLcRASI
+  - recuNWKVwFbdPJmkQ
   description: Connects service providers and low income families using evidence-based
     solutions to align program resources that enable self-sufficiency and economic
     mobility
@@ -1921,8 +2030,8 @@
   airtable_id: recleNeiLRdZwSdLt
   category:
   - employment
-  data_sets: North American Industry Classification (NACIS) codes; National Certifications
-    Table; Department of Labor O*NET Database
+  data_sets:
+  - rec696mXrFWhEiAvO
   description: Helps small businesses, nonprofit resource centers, and institutions
     to better connect skills, certifications, industries and outcomes of training
     programs towards the right jobs in the right industry
@@ -1950,8 +2059,8 @@
   category:
   - health
   - housing
-  data_sets: Department of Housing and Urban Development; Census Bureau American Community
-    Survey
+  data_sets:
+  - recGlnYsRiOuG1Sjn
   description: Combines various data critical to the well being of New Yorkers
   details: Combines various data critical to the well being of New Yorkers
   image: visualizing-youth-disconnection.jpg
@@ -1973,7 +2082,8 @@
   airtable_id: recnSpNUcyeoVi28K
   category:
   - opioids
-  data_sets: US Census Bureau; Local emergency response data
+  data_sets:
+  - rec4NkiR4wChvbycB
   description: Predicts geographic areas where opioid emergencies are likely to occur
     to help public safety and health officials pre-position the appropriate response
     units in order to save lives at the moment of crisis
@@ -2001,8 +2111,8 @@
   airtable_id: reco73a0LwOf8hbof
   category:
   - environment
-  data_sets: 'Economic Census and American Community Survey data for Baltimore; Self-reported
-    volunteer activity '
+  data_sets:
+  - recJqBTJSS10Y0XDl
   description: DEVOP (Demographic Environmental Volunteer Opportunity Plotter) allows
     organizations to target areas to volunteer in and potential partners to successfully
     steward the environment
@@ -2027,7 +2137,10 @@
   category:
   - environment
   - rural
-  data_sets: USDA NAIP, USDA Cropland Data Layer, ESA Sentinel 2
+  data_sets:
+  - recmMFIgCZ6a8xA1R
+  - recVD7JOYo0dtf28B
+  - recHEtl1mszQRRxUV
   description: PAGAF uses NAIP data to provide free precision agriculture services
     to farmers.
   details: PAGAF uses NAIP data to provide free precision agriculture services to
@@ -2064,7 +2177,10 @@
   airtable_id: recp3hAesZqc2oQnV
   category:
   - environment
-  data_sets: 'Earth Challenge Integrated Data: Plastic Pollution (MLW, MDMAP, TIDES)'
+  data_sets:
+  - recYTaj4hHXvWs9Hf
+  - recGXdUunLjQ1lGBL
+  - recJSkXwxyb2hc3tD
   description: Increases awareness of beach cleanup events and helps organizers plan
     future cleanups by predicting number of volunteers needed.
   details: Increases awareness of beach cleanup events and helps organizers plan future
@@ -2091,7 +2207,8 @@
   airtable_id: recpQRl79tKixOYHk
   category:
   - health
-  data_sets: "Department of Veteran\u2019s Affairs "
+  data_sets:
+  - recmHF6G70ChWzHpt
   description: Assesses suicide and other risk in patients and guides them through
     crisis to available support resource
   details: Assesses suicide and other risk in patients and guides them through crisis
@@ -2109,7 +2226,8 @@
   airtable_id: recqWVxkeZ3bYz68R
   category:
   - environment
-  data_sets: National Agriculture Imagery Program (NAIP)
+  data_sets:
+  - recrV1UvS4a45Y13Z
   description: Lowers the barrier to learning about agricultural imagery for farmers
     and anyone who wants to learn.
   details: Lowers the barrier to learning about agricultural imagery for farmers and
@@ -2135,8 +2253,8 @@
   airtable_id: recro3E8gXTIQ5IHO
   category:
   - census
-  data_sets: "Public Use Microdata Sample of the Census Bureau\u2019s American Community\
-    \ Survey"
+  data_sets:
+  - rec59S1AHuEeT9uqX
   description: 'Showcases Latino leadership across California and helps anyone working
     to improve the quality of life for Latino and Hispanic residents of California
     to understand both the opportunities and the challenges Latino communities '
@@ -2163,7 +2281,8 @@
   airtable_id: recs1AuNUUppAFbr3
   category:
   - education
-  data_sets: 'School-level data '
+  data_sets:
+  - recfuJtmIbGPK6Mhf
   description: Customizable data briefs that help local school districts and education
     foundations inform parents and the electorate about the need for more funding
   details: Customizable data briefs that help local school districts and education
@@ -2183,13 +2302,16 @@
   airtable_id: recsTaRTvzM11DFWX
   category:
   - housing
-  data_sets: Department of Housing and Urban Development
+  data_sets:
+  - recpvolC8199pm0rT
   description: 'Allows users to identify areas of opportunity by specifying their
     most important priorities, including housing, jobs, schools, and transportation '
   details: 'Allows users to identify areas of opportunity by specifying their most
     important priorities, including housing, jobs, schools, and transportation '
   image: policymap-tool.jpg
   link: https://opportunity.policymap.com/
+  problem_statement:
+  - recGQ0S48RDx0VENx
   sprint:
   - recdj3TovoodAthIh
   tech_team:
@@ -2201,10 +2323,20 @@
   airtable_id: rectcKAi8zsdwiqjg
   category:
   - disasters
-  data_sets: USASpending, FEMA Monthly Disaster Spending Reports, FEMA Annual Performance
-    Report, FEMA Disaster Summaries, FEMA Mission Summaries, FEMA Public Assistance,
-    HHS Annual Performance Report, HUD Fair Market Rents, IRS, CDC/SVI, Census, DOL,
-    BLS
+  data_sets:
+  - recu4o8YtK7Z8JmUv
+  - reczXMKquV48L97tw
+  - recKX9zJo6FENLfRq
+  - rec0hWbH4ra5REWK0
+  - recbLzDME3gnUWi6A
+  - recESvcYEXVtLvJss
+  - recY2yO5OmnuQUlfT
+  - rec3529MNbRNUAxys
+  - recVnx9dHO28S0aIV
+  - recuNWKVwFbdPJmkQ
+  - recgzuivP56HMAdbK
+  - rec6XhtkFfwdTT30j
+  - rec1pbahHiv6HeVsl
   description: Tracks and analyzes the impact of disaster relief funding for mitigation
     and recovery efforts using big data, aerial imagery, predictive analytics and
     geo-spatial technologies
@@ -2233,7 +2365,8 @@
   category:
   - transportation
   - health
-  data_sets: Office of the Surgeon General; Department of Transportation
+  data_sets:
+  - reccGjV5L91DWewkI
   description: Generates instant insights that address accessibility of opportunity
     and emotional well-being for citizens across the county
   details: Generates instant insights that address accessibility of opportunity and
@@ -2256,7 +2389,8 @@
   airtable_id: reculF774OHizAs0S
   category:
   - environment
-  data_sets: Department of Housing and Urban Development Fair Market Rent data; OpenStreetMap
+  data_sets:
+  - recjmk1p8PEaxmjwR
   description: Rapidly and easily assess neighborhood family amenities and voucher
     amounts for Section 8 Housing Seekers
   details: Rapidly and easily assess neighborhood family amenities and voucher amounts
@@ -2281,7 +2415,8 @@
   category:
   - discovery
   - census
-  data_sets: Census Bureau
+  data_sets:
+  - rec4lkCKmmbu70vxj
   description: Free mapping and data tool for visualizing data that can help with
     decennial Census outreach in NYC communities by answering questions like 'What
     happens with Census data?' and 'Why does the Census matter to me?'
@@ -2323,7 +2458,8 @@
   airtable_id: recvh8HbEmn5MuzGI
   category:
   - veterans
-  data_sets: Department of Labor O*NET Database; Bureau of Labor Statistics
+  data_sets:
+  - recpJErZ50C7ZrLG2
   description: Helps veterans translate their skills and visualize career and educational
     steps toward reaching their dream jobs in desired locations
   details: Helps veterans translate their skills and visualize career and educational
@@ -2347,7 +2483,8 @@
   category:
   - education
   - employment
-  data_sets: Bureau of Labor Statistics
+  data_sets:
+  - recJRRWGAYgSkvpS7
   description: Makes career exploration easy and accessible for high school students
   details: Makes career exploration easy and accessible for high school students
   image: careerspark.jpg
@@ -2372,8 +2509,8 @@
   airtable_id: recwo6k02qWF773ZK
   category:
   - economic-development
-  data_sets: Department of Labor; Census Bureau; US Cluster Mapping Project; Proprietary
-    Burning Glass data on labor market demand
+  data_sets:
+  - recLnCqfR1YcSc96A
   description: Assists regional workforce and economic development conveners develop
     strategies and prioritize initiatives to achieve inclusive development in their
     regions and to build an inclusive development network that includes leaders from
@@ -2400,7 +2537,10 @@
   airtable_id: recxNb6AkmDER2KXh
   category:
   - environment
-  data_sets: Census, EPA WARM Model, EPA Municipal Solid Waste Report
+  data_sets:
+  - recuNWKVwFbdPJmkQ
+  - recjGMVuA7kZw2F6K
+  - recUmn4iaL0jNMb8B
   description: A certification for material recovery facilities reflecting level of
     community relationship, material sorting, value of materials, and end market success
   details: A certification for material recovery facilities reflecting level of community
@@ -2427,8 +2567,8 @@
   airtable_id: recxPFYJEXMA7YTmC
   category:
   - economic-development
-  data_sets: "Open-source public data; Mastercard\u2019s anonymized and aggregated\
-    \ transaction data "
+  data_sets:
+  - recq5HLrG3cn1d2yJ
   description: Provides community leaders with local, data-driven insights that measure
     the degree to which place, economy and community in a given Opportunity Zone benefit
     from equitable growth
@@ -2455,7 +2595,8 @@
   category:
   - employment
   - veterans
-  data_sets: 'Census Bureau; Department of Labor O*NET database '
+  data_sets:
+  - recRfQFnOEBlyUHKh
   description: Helps veterans translate their developed skills into private sector
     careers and connect them to the education, soft skills development, and employers
     that can ensure their success
@@ -2480,7 +2621,8 @@
   airtable_id: recyH7SUTuXtVQEjq
   category:
   - health
-  data_sets: Data on local hazards & resources
+  data_sets:
+  - recZ12r87hDC2pbqe
   description: Enables researchers to unobtrusively measure everyday behavior to build
     a risk state detection algorithm that powers precise, life-saving mental health
     interventions
@@ -2504,7 +2646,11 @@
   category:
   - employment
   - housing
-  data_sets: HHS Poverty Guidelines, Census Income and Poverty, Census ACS, GAO
+  data_sets:
+  - rec3A3BlcyWHmhGMj
+  - recEQhaRntLcBiQmj
+  - recO2Y4CWOIbPcoyO
+  - recmzzl3zlLfvwNXp
   description: Helps economically disadvantaged Americans break the cycle of generational
     poverty and create a positive path to self-sufficiency
   details: Helps economically disadvantaged Americans break the cycle of generational
@@ -2535,7 +2681,8 @@
   airtable_id: recyPJeX2onUtcMln
   category:
   - environment
-  data_sets: National Agriculture Imagery Program (NAIP)
+  data_sets:
+  - recrV1UvS4a45Y13Z
   description: Provides a gentle on-ramp and simple way to explore NAIP imagery for
     users at USDA and the farmers they serve
   details: Provides a gentle on-ramp and simple way to explore NAIP imagery for users
@@ -2563,8 +2710,11 @@
   airtable_id: recyl8q9tZWnPoQQt
   category:
   - environment
-  data_sets: EPA AirNow, Open Data DC Street Segments API, DC GIS Master Address Repository,
-    TomTom Traffic API
+  data_sets:
+  - reckFVcbvWl3Ot40f
+  - recb8EMDhzUm653ih
+  - recKF4RduKCIxd6Um
+  - reckYu246Amm35uDr
   description: Compiles and analyzes real-time data on traffic patterns and air pollution
     in the District of Columbia  to allow policymakers to explore the effect of transportation
     on air quality
@@ -2596,7 +2746,8 @@
   category:
   - census
   - discovery
-  data_sets: Census Bureau American Community Survey
+  data_sets:
+  - reczaQ6d5RUAwJlQ1
   description: Drives awareness of Census Bureau data for mobile millennials and application
     developers so they can solve social problems using open data available for their
     communities and cities

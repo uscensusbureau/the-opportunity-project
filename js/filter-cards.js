@@ -81,10 +81,10 @@ function displayFilteredProducts() {
     const productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
     const prodDesc = card.getElementsByTagName('p')[0].innerText;
     const prodProblems = card.getElementsByTagName('p')[1].innerText;
-    // console.log(productName, prodProblems);
     const productNameSlugified = productName.replace(`'`,'-').split('.').join("-").split(':').join("-");
     const productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
-    const productTopic = card.getElementsByTagName('h4')[ 0 ].innerText;
+    const productElement = card.getElementsByTagName('h4')[ 0 ]
+    const productTopic = productElement ? productElement.innerHTML : '';
     const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
     
     const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes( searchTerm ) || prodProblems.includes( searchTerm )

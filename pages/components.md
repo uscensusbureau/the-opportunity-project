@@ -141,11 +141,6 @@ featured_items:
 
 # footer.html - NONE, hard-coded
 
-# four-column-searchable.html - NONE, pulls data from:
-#  - _/data/case_studies.yml (for the top case studies section)
-#  - _/data/product_filters.yml (for the interactive portion of the products search feature)
-#  - _/data/products.yml (for the product cards themselves)
-
 # get involved
 get_involved:
   title-image: photos/get-involved.png
@@ -771,15 +766,6 @@ two-col-markdown:
     <h4>footer.html</h4>
       NOT mobile responsive, hard coded, and generally needs some work. Has been a "to-do" for a while
       {% include footer.html %}
-
-    <hr>
-
-    <h4>four-column-searchable.html</h4>
-      Please see opportunity.census.gov/products to see this (since it is the entire page). Not hard-coded, but built specifically for the products page and wasn't originally designed to be easily reusable, although the reference points to the data files could be changed to a variable set in the front matter, rather than pointing to the files directly
-      pulls data from:
-        - _/data/case_studies.yml (for the top case studies section)
-        - _/data/product_filters.yml (for the interactive portion of the products search feature)
-        - _/data/products.yml (for the product cards themselves)
 
     <hr>
 

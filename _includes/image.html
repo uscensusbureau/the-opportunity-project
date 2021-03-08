@@ -3,5 +3,6 @@
 <picture>
   <source srcset="{{ site.baseurl }}/assets/img/{{ pathParts[ 0 ] }}.webp" >
   <img src="{{ site.baseurl }}/assets/img/{{ src }}" alt="{{ include.alt }}" 
-  {% if include.class %}class="{{ include.class }}" {%endif%}/> 
+  {% if include.class %}class="{{ include.class }}" {%endif%}
+  {% if include.data-proofer-ignore %}data-proofer-ignore{% endif %}/> 
 </picture>

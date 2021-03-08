@@ -11,7 +11,7 @@ const task = "sass";
 
 sass.compiler = require("sass");
 
-const dev_plugins = [autoprefixer({ cascade: false })];
+const dev_plugins = [autoprefixer({ cascade: false, grid: true })];
 
 const prod_plugins = [csso({ forceMediaMerge: false })];
 

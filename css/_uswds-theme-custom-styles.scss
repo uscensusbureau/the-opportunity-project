@@ -2488,7 +2488,7 @@ code {
       padding-left: units(-2);
     }
 
-    img + .overlay-content {
+    picture + .overlay-content {
       position: absolute;
       bottom: units(5);
       background-color: color("base-darkest");
@@ -2511,7 +2511,7 @@ code {
     }
 
     @include at-media("desktop")  {
-      img + .overlay-content {
+      picture + .overlay-content {
         width: 65%;
       }
     }

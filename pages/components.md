@@ -20,14 +20,14 @@ circuit-banner:
 
 connecting-banner:
   background-color: primary
-  image: home/homepage-01.png
+  image: home/homepage-01.webp
   alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
 # connecting-banner-notched.html
 
 connecting-banner:
   background-color: dark
-  image: case-studies/prados-01.png
+  image: case-studies/prados-01.webp
   alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
 
 card-list:
@@ -36,31 +36,31 @@ card-list:
       href: /
       date: January 1, 2018
       details: Card Details. This can be somewhat long. This is a default card.
-      img: photos/home/news/news-01.png
+      img: photos/home/news/news-01.webp
       alt: People seated at tables taking notes during a TOP presentation
     - title: Default Card
       href: /
       date: January 1, 2018
       details: Card Details. This can be somewhat long. This is a default card.
-      img: photos/home/news/news-01.png
+      img: photos/home/news/news-01.webp
       alt: People seated at tables taking notes during a TOP presentation
     - title: Default Card
       href: /
       date: January 1, 2018
       details: Card Details. This can be somewhat long. This is a default card.
-      img: photos/home/news/news-01.png
+      img: photos/home/news/news-01.webp
       alt: People seated at tables taking notes during a TOP presentation
     - title: Default Card
       href: /
       date: January 1, 2018
       details: Card Details. This can be somewhat long. This is a default card.
-      img: photos/home/news/news-01.png
+      img: photos/home/news/news-01.webp
       alt: People seated at tables taking notes during a TOP presentation
     - title: Default Card
       href: /
       date: January 1, 2018
       details: Card Details. This can be somewhat long. This is a default card.
-      img: photos/home/news/news-01.png
+      img: photos/home/news/news-01.webp
       alt: People seated at tables taking notes during a TOP presentation
 
 demo-cards:
@@ -68,16 +68,16 @@ demo-cards:
     href: /
     date: January 1, 2018
     details: Card Details. This can be somewhat long. This is a default card.
-    img: photos/home/news/news-01.png
+    img: photos/home/news/news-01.webp
     alt: People seated at tables taking notes during a TOP presentation
   - title: Short Card
     details: No blue section behind content.
-    img: photos/home/news/news-01.png
+    img: photos/home/news/news-01.webp
     alt: People seated at tables taking notes during a TOP presentation
   - title: Small Header
     date: February 7, 2019
     details: This is normal card with a small header. Pass in 'small-header-card' to the utils to create this card.
-    img: photos/home/news/news-01.png
+    img: photos/home/news/news-01.webp
     alt: People seated at tables taking notes during a TOP presentation
 
 
@@ -120,21 +120,21 @@ featured_items:
   - name: City Builder
     team: Citi Ventures
     description: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
-    img: photos/home/products/city-builder.png
+    img: photos/home/products/city-builder.webp
     alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
     button-link: city-builder/
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
-    img: photos/home/products/sille.png
+    img: photos/home/products/sille.webp
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
     button-link: sille/
   - name: PRADOS
     team: iCASAPR
     description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
-    img: photos/home/products/prados.png
+    img: photos/home/products/prados.webp
     alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
     button-link: prados/
@@ -143,7 +143,7 @@ featured_items:
 
 # get involved
 get_involved:
-  title-image: photos/get-involved.png
+  title-image: photos/get-involved.webp
   title-image-alt: Man speaking into microphone at a user engagement workshop hosted by The Opportunity Project
   title: Get Involved
   subtitle:
@@ -205,11 +205,11 @@ content-primary:
   subsections:
     - title: Collaboration, Simplified
       description: We facilitate virtual collaboration across government, industry, and communities. In our sprints, cross-sector expertise is only an email, chat room, or call away.
-      image: photos/about/about-01.png
+      image: photos/about/about-01.webp
       image-alt: Three people analyzing sticky notes on the wall at a workshop
     - title: Federal Data, Explained
       description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
-      image: photos/about/about-02.png
+      image: photos/about/about-02.webp
       image-alt: A man writing on a poster at a workshop
   button:
     - link:
@@ -251,7 +251,7 @@ sidebar:
 role-descriptions:
   #tech
   - title: Tech teams
-    image: process/exploding-data-motif.png
+    image: process/exploding-data-motif.webp
     image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
     description: 'Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and typically own and maintain the products after the sprints. The role of tech team includes:'
     accordions:
@@ -303,7 +303,7 @@ explanation-alt:
     - title: 2020 Census Sprint
       year: 2019
       default: ps-active
-      image: photos/sprints/2020-census.png
+      image: photos/sprints/2020-census.webp
       image-alt: People crossing a sidewalk
       description: 'Create digital tools and resources to help get out the count during the 2020 Census. Challenges include: Bridging the digital divide, Increasing digital literacy, Promoting 2020 Census jobs, and Reaching hard-to-count communities.'
       links:
@@ -312,7 +312,7 @@ explanation-alt:
     - title: Catalyzing Investment in Opportunity Zones
       year: 2019
       default: ps-active
-      image: photos/sprints/2019-workforce-zones.png
+      image: photos/sprints/2019-workforce-zones.webp
       image-alt: Children playing outside
       description: Teams from companies, universities, and more sign up to build digital products that use federal open data to help solve these challenges.
       links:
@@ -321,7 +321,7 @@ explanation-alt:
     - title: Modernizing Talent Discovery for High Growth Entrepreneurship
       year: 2019
       default: ps-active
-      image: photos/sprints/2019-workforce-talent.png
+      image: photos/sprints/2019-workforce-talent.webp
       image-alt: Women indoors looking at something out of frame
       description: Create digital tools or open sourced data to transform talent discovery, matching, and retention in mid-size cities across the country, to help them achieve innovation and regional economic growth.
       links:
@@ -330,7 +330,7 @@ explanation-alt:
     - title: Resources to Unleash American Entrepreneurship
       year: 2019
       default: ps-active
-      image: photos/sprints/2019-workforce-eship.png
+      image: photos/sprints/2019-workforce-eship.webp
       image-alt: Women writing on a whiteboard
       description: Develop tools to empower entrepreneurs and innovation ecosystem builders to find and navigate the variety of resources available across the federal government.
       links:
@@ -339,7 +339,7 @@ explanation-alt:
     - title: Helping the American Workforce Leverage Multiple Pathways for Career Growth
       year: 2019
       default: ps-active
-      image: photos/sprints/2019-workforce-pathways.png
+      image: photos/sprints/2019-workforce-pathways.webp
       image-alt: Two men in suits smiling and looking at a laptop together
       description: Create digital tools that help American workers to consider and take advantage of the multiple pathways available to find or advance in careers, from making alternative pathways more attractive to making opportunities more discoverable
       links:
@@ -349,7 +349,7 @@ explanation-alt:
     - title: Promoting Access to and Interest in STEM Fields
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-stem.png
+      image: photos/sprints/2018-stem.webp
       image-alt: Anatomical drawings of the main human body systems
       description: 'Develop tools for parents and students that promote students’ interest in STEM and empower them to pursue STEM education locally.'
       links:
@@ -358,7 +358,7 @@ explanation-alt:
     - title: Helping States Develop Education Report Cards
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-reportcard.png
+      image: photos/sprints/2018-reportcard.webp
       image-alt: Closeup screenshot of application with average daily viewer statistics displayed
       description: Develop parent-friendly, scalable approaches to communicating data about public schools that drive insight and engagement—and meet the requirements of a recent federal law.
       links:
@@ -367,7 +367,7 @@ explanation-alt:
     - title: Using AI to Connect Veterans with Registered Apprenticeships
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-ai.png
+      image: photos/sprints/2018-ai.webp
       image-alt: A line of soldiers facing away from the camera and saluting
       description: Develop tools that use artificial intelligence algorithms or natural language processing technology to match veterans to registered apprenticeship programs.
       links:
@@ -376,7 +376,7 @@ explanation-alt:
     - title: Increasing Government Accountability by Connecting Federal Spending and Performance Data
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-accountability.png
+      image: photos/sprints/2018-accountability.webp
       image-alt: Closeup of an individual getting their blood pressure taken, showing only the arms of the nurse and patient
       description: Develop public facing tools that link federal spending and performance (or outcome) data to provide comprehensive insight into the use of federal taxpayer dollars across programs.
       links:
@@ -385,7 +385,7 @@ explanation-alt:
     - title: Improving Access to and Management of Federal Grants
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-grants.png
+      image: photos/sprints/2018-grants.webp
       image-alt: Black and white photo of the U.S. Treasury building
       description: Develop tools that expand on existing systems to help grant recipients manage the entire grants lifecycle, helping grant managers and recipients search for opportunities, streamline reporting, and assess risks.
       links:
@@ -394,7 +394,7 @@ explanation-alt:
     - title: Using Geospatial Data to Help People Prepare for Disasters
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-disasters.png
+      image: photos/sprints/2018-disasters.webp
       image-alt: Birdseye view of a hurricane over coastline
       description: Create digital tools that use data to help individuals and community leaders gain a better understanding of national and community hazards and threats and enable the public to take appropriate preparedness actions.
       links:
@@ -403,7 +403,7 @@ explanation-alt:
     - title: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-opioids.png
+      image: photos/sprints/2018-opioids.webp
       image-alt: Man standing in an arched hallway holding a baby in front of him, facing away from the camera
       description: Create digital tools and data sharing capabilities to support decisions across stakeholders responding to the opioid crisis, such as public health, public safety, law enforcement, community groups, the private sector, and individuals.
       links:
@@ -412,7 +412,7 @@ explanation-alt:
     - title: Helping Tribal, State, and Local Governments with Local Address Data Collection
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-address.png
+      image: photos/sprints/2018-address.webp
       image-alt: overhead view of suburban residential block
       description: Develop resources that help tribal, state, and local governments to create and maintain open address point data.
       links:
@@ -421,7 +421,7 @@ explanation-alt:
     - title: Identifying and Strengthening Civic Environmental Stewardship
       year: 2018
       default: ps-inactive
-      image: photos/sprints/2018-environ.png
+      image: photos/sprints/2018-environ.webp
       image-alt: Hands planting a seedling
       description: Develop tools that visualize and provide access to the patterns, overlaps, and gaps in environmental stewardship efforts in order to identify groups that support community quality of life and strengthen community resilience.
       links:
@@ -435,7 +435,7 @@ explanation:
   - number: 1
     title: Natural Environments Sprint
     subtitle: RUNS JUNE—SEP
-    image: photos/sprints/2020-natural-sprint.jpg
+    image: photos/sprints/2020-natural-sprint.webp
     image-alt: mountains
     description: This cohort focuses on challenges related to the natural environment, including reducing plastic pollution and developing markets for recycled materials.
     links:
@@ -467,7 +467,7 @@ explanation:
 # single-column-with-photo-overlay.html
 
 photo:
-  image: photos/sprints/2020-earth-sprint-banner.jpg
+  image: photos/sprints/2020-earth-sprint-banner.webp
   img-alt: overhead view of beach with sand, large rocks, and bright blue water
   overlay:
     title: 2020 Earth Sprints
@@ -508,15 +508,15 @@ testimonials:
     together around a problem who wouldn’t otherwise be working together.'
     person: Rob Lalka
     organization: Public Democracy
-    image: photos/home/headshots/rob-lalka.png
+    image: photos/home/headshots/rob-lalka.webp
   - text: '[TOP] really represents the best of what government can be — a platform for engagement that is so core to our democracy.'
     person: Denice Ross
     organization: Georgetown University
-    image: photos/home/headshots/denice-ross.png
+    image: photos/home/headshots/denice-ross.webp
   - text: The emphasis on human-centered design and the opportunity to speak to all of these different advocates and stakeholders was key in creating a product that would actually help the end user.
     person: Ryan Harper
     organization: CITI VENTURES
-    image: photos/home/headshots/ryan-harper.png
+    image: photos/home/headshots/ryan-harper.webp
 
 # timeline-progress-section-dark.html
 progress-bar:

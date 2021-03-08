@@ -5,10 +5,9 @@
       <div
         class="desktop:grid-col-1"
       ></div>
-      <div
-        class="desktop:grid-col-10"
-      >
-        <img src="{{ site.baseurl }}/img/photos/{{banner.image}}" alt="{{ banner.alt }}" >
+      <div class="desktop:grid-col-10">
+        {% assign imgSrc = "photos/" | append: banner.image %}
+        {% include image.html src= imgSrc alt=banner.alt %}
       </div>
     </div>
     <div class="grid-row height-6">

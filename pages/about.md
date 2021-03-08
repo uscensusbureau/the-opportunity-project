@@ -23,11 +23,11 @@ content-primary:
   subsections:
     - title: Collaboration, Simplified
       description: We facilitate virtual collaboration across government, industry, and communities. In our sprints, cross-sector expertise is only an email, chat room, or call away.
-      image: photos/about/about-01.png
+      image: photos/about/about-01.webp
       image-alt: Three people analyzing sticky notes on the wall at a workshop
     - title: Federal Data, Explained
       description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
-      image: photos/about/about-02.png
+      image: photos/about/about-02.webp
       image-alt: A man writing on a poster at a workshop
   button:
     - link:
@@ -39,7 +39,7 @@ content-light:
 
 # centered photo with overlay
 photo:
-  image: photos/about/about-coil.png
+  image: photos/about/about-coil.webp
   img-alt: Abstract exploding data with vibrant red and blue lines
   overlay:
     title: From the Census Open Innovation Labs

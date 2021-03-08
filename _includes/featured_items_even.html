@@ -4,10 +4,8 @@
     <div class="grid-container">
       <div class="grid-row grid-gap grid-offset-1">
         {% if item.text_align == "right" %}
-          <div
-            class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-          >
-            <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.alt }}">
+          <div class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
+            {% include image.html src=item.img alt=item.alt %}
           </div>
           <div
             class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block__inline-items margin-bottom-3 desktop:margin-bottom-0"
@@ -48,7 +46,7 @@
           <div
             class="desktop:grid-col-6 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
           >
-            <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.alt }}">
+            {% include image.html src=item.img alt=item.alt %}
           </div>
         {% endif %}
       </div>

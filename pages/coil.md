@@ -9,7 +9,7 @@ class: coil
 hero:
   text: "We're transforming cross-sector collaboration"
   subtext: We bring together government, industry, and communities to unleash creativity and solve national challenges.
-  image: photos/coil/coil-hero.png
+  image: photos/coil/coil-hero.webp
   image-alt: Collage of photos of workshop participants.
 
 
@@ -24,7 +24,7 @@ callout:
 connecting-banner:
   background-color: primary
   image: coil/who-we-are.png
-  alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
+  alt: Seated women discussing ideas at a user engagement workshop hosted by The Opportunity Project
 
 # who we are
 explanation:

@@ -2554,7 +2554,7 @@ code {
 
 .hero {
   @include at-media("tablet-lg") {
-    background-image: url("#{$site-image-path}/home/hero.png");
+    background-image: url("#{$site-image-path}/home/hero.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right units(5) center;
@@ -2597,7 +2597,7 @@ code {
 
 .background-hero-image-home {
   @include at-media("desktop") {
-    background-image: url('../img/photos/home/hero.png');
+    background-image: url('../img/photos/home/hero.webp');
     height: 600px;
     background-position: right;
     background-repeat: no-repeat;
@@ -2607,7 +2607,7 @@ code {
 
 .background-hero-image-coil {
   @include at-media("desktop") {
-    background-image: url('../img/photos/coil/coil-hero.png');
+    background-image: url('../img/photos/coil/coil-hero.webp');
     height: 600px;
     background-position: right;
     background-repeat: no-repeat;
@@ -2617,7 +2617,7 @@ code {
 
 .background-hero-image-hcd {
   @include at-media("desktop") {
-    background-image: url('../img/photos/hcd/HCD-Training-Photos-24.jpg');
+    background-image: url('../img/photos/hcd/HCD-Training-Photos-24.webp');
     height: 500px;
     background-position: right 0px top 100px;
     background-repeat: no-repeat;

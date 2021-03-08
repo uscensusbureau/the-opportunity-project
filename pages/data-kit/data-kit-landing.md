@@ -8,11 +8,11 @@ organization: by The Opportunity Project
 
 cards:
   - title: Workforce Challenges
-    image: data-kits/workforce.png
+    image: data-kits/workforce.webp
     image-alt: Men in construction protective gear overlooking an area being developed
     link: data/workforce
   - title: Earth Cohort
-    image: data-kits/gis.png
+    image: data-kits/gis.webp
     image-alt: Partial view of a paper map of North America laying on a wooden tabletop
     link: data/earth-cohort
 

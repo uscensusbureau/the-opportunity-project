@@ -2,13 +2,9 @@
 <section class="display-none desktop:display-block bg-{{ banner.sidebar-color }}">
   <section class="grid-container">
     <div class="grid-row height-7 margin-bottom-neg-1">
-      <div
-        class="desktop:grid-col-1"
-      ></div>
-      <div
-        class="desktop:grid-col-10  bg-{{banner.background-color}}"
-      >
-        <img src="{{ site.baseurl }}/assets/img/{{banner.image}}" alt="{{ banner.alt }}" data-proofer-ignore>
+      <div class="desktop:grid-col-1"></div>
+      <div class="desktop:grid-col-10 bg-{{banner.background-color}}">
+        {% include image.html src=banner.image alt= banner.alt %}
       </div>
     </div>
   </section>

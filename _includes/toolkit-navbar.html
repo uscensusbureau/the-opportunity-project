@@ -37,27 +37,11 @@
       </nav>
       <div class="get-involved margin-right-5">
         {% if page.type == "topx" %}
-          <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15" href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD PDF</a><img src="{{site.baseurl}}/assets/img/icons/download-white-sm.png" alt="Download icon" class="margin-left-1">
+          <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15" href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD PDF</a><img src="{{site.baseurl}}/assets/img/icons/download-white-sm.webp" alt="Download icon" class="margin-left-1">
         {% endif %}
       </div>
     </div>
     {% endif %}
-    <!--
-    <nav class="site-nav-secondary page-{{page.class}} position-sticky padding-left-15">
-      <ul class=" margin-left-10 padding-left-15">
-        {% if page.type == "topx" %}
-          {% assign links = site.data.nav.toolkit.topx %}
-        {% else %}
-          {% assign links = site.data.nav.toolkit.product %}
-        {% endif %}
-        {% for link in links %}
-          <li class="usa-nav__primary-item">
-            <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | capitalize }}</span></a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  -->
   </div>
 </header>
 
@@ -67,31 +51,7 @@
   <button class="usa-nav__close">
     <span class="usa-sr-only">Close</span>
   </button>
-
-  <!-- <form
-    id="search_form-mobile"
-    class="usa-search usa-search--small desktop:margin-right-4"
-    action="https://search.usa.gov/search"
-    accept-charset="UTF-8"
-    method="get">
-    <input name="utf8" type="hidden" value="&#x2713;" />
-    <input type="hidden" name="affiliate" id="affiliate-mobile" value="uswds" />
-    <div role="search">
-      <label class="usa-sr-only" for="query-mobile">Search</label>
-      <input
-        id="query-mobile"
-        class="usa-input usagov-search-autocomplete"
-        name="query"
-        type="search"
-        autocomplete="off"/>
-      <button
-        class="usa-button margin-top-0"
-        type="submit"
-        name="commit">
-        <span class="usa-sr-only">Search</span>
-      </button>
-    </div>
-  </form> -->
+  
   <div class="usa-nav__inner">
     <ul class="usa-nav__primary usa-accordion">
       {% assign links = site.data.nav.toolkit.product %}

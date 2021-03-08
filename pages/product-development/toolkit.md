@@ -22,7 +22,7 @@ sidebar:
   - text: STEP 7
     href: "#toolkit-step-7"    
 
-image: glossary.png
+image: glossary.webp
 image-alt: Illustration of a group of red, yellow, and blue squares and rectangles
 
 

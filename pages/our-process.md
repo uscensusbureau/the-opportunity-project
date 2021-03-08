@@ -20,15 +20,15 @@ connecting-banner:
 explanation:
   text:
   - title: Sprint Cycle
-    image: photos/process/process-01.png
+    image: photos/process/process-01.webp
     image-alt: Man and woman standing behind a computer monitor facing each other and smiling.
     description: In 12 weeks, tech teams build solutions to urgent problems identified by federal agencies and advocacy organizations. Along the way, we create opportunities for teams to hear from experts in federal data and policy and the communities they’re trying to help.
   - title: Share Insights
-    image: photos/process/process-02.png
+    image: photos/process/process-02.webp
     image-alt: group of four people in conversation
     description: Tech teams get the insight they need to wrangle federal data, navigate policy contexts, and authentically address the needs of a community. They retain full control of their team, technical vision, business strategy, and resulting intellectual property.
   - title: Launch Products
-    image: photos/process/process-03.png
+    image: photos/process/process-03.webp
     image-alt: Man presenting on stage with presentation slide displayed on a screen behind him
     description: Sprints typically run through the summer and fall and culminate in an annual Demo Day, where press, data enthusiasts, technologists, and people in government gather to celebrate the launch of products built through The Opportunity Project that year.
 
@@ -89,7 +89,7 @@ card-explanation:
 role-descriptions:
   #tech
   - title: Tech teams
-    image: process/exploding-data-motif.png
+    image: process/exploding-data-motif.webp
     image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
     description: 'Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and typically own and maintain the products after the sprints. The role of tech team includes:'
     accordions:
@@ -136,7 +136,7 @@ role-descriptions:
             description: Designers, developers, and engineers from your organization have the opportunity to drive the design and build of the product
   # government           
   - title: Government
-    image: process/exploding-data-motif.png
+    image: process/exploding-data-motif.webp
     image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
     description: 'Federal agencies define major challenges facing the public within their mission areas. During the 12-week sprint, policy experts and data stewards from each agency provide feedback to the participating teams and assistance working with federal open data.'
     accordions:
@@ -167,7 +167,7 @@ role-descriptions:
 
   # user advocates
   - title: User Advocates
-    image: process/exploding-data-motif.png
+    image: process/exploding-data-motif.webp
     image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
     description: User advocates are community leaders, local or national advocates, and people with direct lived experience in the target challenges. Past user advocates have represented state and local government, non-profits, service providers, or individual experts. Their role is to guide tech teams in designing solutions that are realistic and useful for the target end users.
     accordions:
@@ -210,7 +210,7 @@ role-descriptions:
             - A tech team is experimenting with the language on their website. You offer guidance on which messages will resonate with your community.
 
   - title: Product Advisors
-    image: process/exploding-data-motif.png
+    image: process/exploding-data-motif.webp
     image-alt: decorative abstract, pixilated image with bright red, blue, white, turquoise and magenta
     description: 'Product advisors come from outside of government to help the teams to ensure that the products they create continue after the sprints, so that they can reach their target end users and have real impact.'
     accordions:

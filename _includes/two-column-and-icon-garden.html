@@ -24,7 +24,9 @@
         <li class="desktop:grid-col-2 usa-card margin-1">
           <div class="usa-card__container border-0 radius-0">
             <div class="usa-card__body">
-              <img src="{{site.baseurl}}/assets/img/icons/{{ item.title | slugify }}.png" alt="{{ item.title }}">
+              {% assign slugged = item.title | slugify %}
+              {% assign imgSrc = "icons/" | append: slugged | append: ".png" %}
+              {% include image.html src=imgSrc alt=item.title %}
             </div>
             <div class="usa-card__footer">
               {% if item.title %}

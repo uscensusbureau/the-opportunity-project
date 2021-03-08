@@ -1,0 +1,7 @@
+{% assign src = include.src %}
+{% assign pathParts = src | split: "." %}
+<picture>
+  <source srcset="{{ site.baseurl }}/assets/img/{{ pathParts[ 0 ] }}.webp" >
+  <img src="{{ site.baseurl }}/assets/img/{{ src }}" alt="{{ include.alt }}" 
+  {% if include.class %}class="{{ include.class }}" {%endif%}/> 
+</picture>

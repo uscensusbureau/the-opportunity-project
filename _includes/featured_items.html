@@ -4,10 +4,9 @@
     <div class="grid-container">
       <div class="grid-row grid-gap">
         {% if item.text_align == "right" %}
-          <div
-            class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-          >
-            <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.alt }}">
+          <div class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
+            {% include image.html src=item.img alt=item.alt %}
+
           </div>
           <div
             class="desktop:grid-col-4 tablet:grid-col-6 usa-media-block__inline-items margin-bottom-3 desktop:margin-bottom-0"
@@ -42,10 +41,8 @@
               <button class="usa-button__secondary-white" type="button" name="button"><a href="{{ item.button-link }}">View Case Study</a></button>
             </div>
           </div>
-          <div
-            class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
-          >
-            <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.alt }}">
+          <div class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
+            {% include image.html src=item.img alt=item.alt %}
           </div>
         {% endif %}
       </div>

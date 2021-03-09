@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 permalink: /prados/
-layout: default-internal-page
+layout: case-study
 class: case-study
 
 hero:
@@ -70,8 +70,3 @@ sidebar:
 footer: iCasaPR is a 501(c)(3) organization that continues to help communities overcome the problem of “data invisibility” through the evaluation and improvement of their civic addresses. Their goal is to deploy their toolkit to municipios around the island, with the ultimate goal of reaching all of the 78 municipios. The ultimate goal of iCasaPR is to create authoritative address datasets at the municipio level that can be collected in a centralized address repository to support the reconstruction process, improve emergency response, and foster a more resilient future for Puerto Rico.
 
 ---
-
-{% include hero.html %}
-{% include connecting-banner-notched.html %}
-{% include sidebar-and-wide-content.html %}
-{% include offset-footer.html %}

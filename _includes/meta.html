@@ -6,6 +6,11 @@
 {% endif %}
 <title>{{ title }}</title>
 
+{% assign pageData = site.data.pages | where: "url", page.url %}
+{% if pageData %}
+  <meta name="description" content="{{ pageData[ 0 ].meta }}">
+{% endif %}
+
 <!-- cards -->
 <meta property="og:title" content="The Opportunity Project">
 <meta property="og:description" content="{{site.description}}">

@@ -100,8 +100,7 @@
   airtable_id: rec2cDmW6ubg6Wco0
   datasets_text: Computer and Internet Use, Deconstructing the Digital Divide, 2018
     FCC Broadband Deployment Report
-  featured_product:
-  - recro3E8gXTIQ5IHO
+  featured_product: California Latino Power Map
   products_text: Voatz, California Latino Power Map
   sprint_order: 3
   sprint_text: 2020 Census
@@ -138,8 +137,7 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:42:53.000Z'
   airtable_id: rec2dxKJmbiIV0Va5
-  featured_product:
-  - recaRsKbgtQOavIpx
+  featured_product: Chicago Circular Economy
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
   sprint_order: 2
   sprint_text: Natural Environment
@@ -159,8 +157,7 @@
   agency_text: Office of Management and Budget
   airtable_createdTime: '2020-04-30T15:24:04.000Z'
   airtable_id: rec4KZSqOYnXgo2gD
-  featured_product:
-  - rectcKAi8zsdwiqjg
+  featured_product: Emergency & Disaster Funding Tracking
   products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
     Public Finance Institute-Disaster Spending Tracker
   sprint_order: 3
@@ -284,8 +281,7 @@
   datasets_text: 'TIGER: Line Address Range-Feature, TIGER: Line Roads Data, Local
     Update of Census Address Operation (LUCA), National Agriculture Imagery Program,
     U.S. National Grid, National Address Database (NAD), NAD Schema'
-  featured_product:
-  - rec4tY9vvumikW1Ku
+  featured_product: PRADOS
   products_text: The TomTom Centaur Data Logging App, Fulcrum Community for Addressing
     and Disaster Preparedness, PRADOS
   sprint_order: 1
@@ -415,8 +411,7 @@
   contacts_text: Sariane Leigh, Diane Jones
   datasets_text: Occupational Outlook Handbook, O*NET Web Services, CyberSeek, Apprenticeship
     Available Occupations, Employment Situation Summary, Apprenticeship Finder
-  featured_product:
-  - recleNeiLRdZwSdLt
+  featured_product: Solve
   products_text: Kanarys, Solve
   sprint_order: 3
   sprint_text: Workforce
@@ -529,8 +524,7 @@
     Statistics, Integrated Postsecondary Education Data System, Regional Innovation
     Strategies (RIS) Program, Regional Innovation Strategies (RIS) Program, Cluster
     Mapping, Stats America
-  featured_product:
-  - recfqTRYC5LXFiOUe
+  featured_product: Job Opportunity Tool
   products_text: Job Opportunity Tool, Talent Finder Tool
   sprint_order: 2
   sprint_text: Workforce
@@ -712,8 +706,7 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-01-26T16:35:00.000Z'
   airtable_id: recD4rN8c5sH3ECRi
-  featured_product:
-  - recyKI9exBfBtz1hr
+  featured_product: The EnVision App
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
     360-Degree Data Fusion Virtual Ecosystem Platform, Julius Career Journey Program
   sprint_order: 1
@@ -760,8 +753,7 @@
     "2020 Census Research, Operational Plans, and Oversight", Audience Segment Descriptions,
     Annual Homeless Assessment Report (AHAR), Homeless Point-in-Time (PIT) and Housing
     Inventory Count (HIC)
-  featured_product:
-  - recB5iDMet16XnjXe
+  featured_product: Census Intelligence Center
   products_text: Community Counts, Tract by Tract, Census Intelligence Center
   sprint_order: 1
   sprint_text: 2020 Census
@@ -780,9 +772,7 @@
   agency_text: USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-01-26T16:43:44.000Z'
   airtable_id: recDnQq3aDp59z637
-  featured_product:
-  - recbsgNzUmmrKuEYn
-  - rec1WFJn1OGTTGrZi
+  featured_product: RefugeeAssist, Resettled Refugee Services and Data Explorer
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
   sprint_order: 4
   sprint_text: Built Environment
@@ -805,8 +795,7 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:46:02.000Z'
   airtable_id: recG9NY8ns2oza4vp
-  featured_product:
-  - recyl8q9tZWnPoQQt
+  featured_product: AirMotionDC
   products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
   sprint_order: 4
   sprint_text: Natural Environment
@@ -1106,8 +1095,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:14.000Z'
   airtable_id: recPYnQdPuuZ0FZZ9
-  featured_product:
-  - recSXynrxBTKXTh63
+  featured_product: '#WhyWeCount'
   products_text: '#WhyWeCount'
   sprint_order: 4
   sprint_text: 2020 Census
@@ -1129,8 +1117,7 @@
   agency_text: U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-01-26T16:35:32.000Z'
   airtable_id: recQeWP4kfK1EakJW
-  featured_product:
-  - rec6IC6El0nNjSiCA
+  featured_product: Ocean Plastics Story Map
   products_text: Ocean Plastics Story Map, Georgetown University Campus Plastic Initiative,
     PPIO, The Ghost Gear Project, Sea Scavenger
   sprint_order: 3
@@ -1160,8 +1147,7 @@
   agency_text: U.S. Department of Agriculture
   airtable_createdTime: '2021-01-26T16:35:07.000Z'
   airtable_id: recSM7q7ufXLojrBx
-  featured_product:
-  - recyPJeX2onUtcMln
+  featured_product: NAIP Explorer
   products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision
     Ag for all American Farmers'
   sprint_order: 1
@@ -1233,8 +1219,7 @@
     Set (TEDS), Local Area Unemployment Statistics (LAUS), National EMS Information
     System (NEMSIS), Area Health Resource File (AHRF), Buprenorphine Treatment Practitioner
     Locator (SAMHSA)
-  featured_product:
-  - recnSpNUcyeoVi28K
+  featured_product: Insight for ArcGIS
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
@@ -1411,8 +1396,7 @@
   datasets_text: Stewardship Mapping and Assessment Project (STEW-MAP), U.S. Census
     Bureau Data, Urban Tree Canopy (UTC), National Land Cover, Enviroatlas, Costal
     Resilience Tool
-  featured_product:
-  - reco73a0LwOf8hbof
+  featured_product: Bloomberg DEVOP
   products_text: STEWMAP Explorer, Bloomberg DEVOP
   sprint_order: 4
   sprint_text: Geo-Cohort
@@ -1491,8 +1475,7 @@
   airtable_id: recdNGSC2k2ptu3JM
   category: Education
   contacts_text: Sarath Ganji
-  featured_product:
-  - recTfL9YZgQqj9i78
+  featured_product: Bites Media
   products_text: Bites Media, Edubuddy
   sprint_text: TOPx
 - Agency:
@@ -1568,8 +1551,7 @@
     (RIS) Program, Regional Innovation Strategies (RIS) Program, National Science
     Foundation Awards, National Institutes of Health Awards, Opportunity Zone Status,
     Census Business Builder'
-  featured_product:
-  - recWyKy6qT8GX7jT8
+  featured_product: Practical Business Skills
   products_text: Practical Business Skills
   sprint_order: 4
   sprint_text: Workforce
@@ -1705,8 +1687,7 @@
     Opportunity Zone Locations, Low-Income Housing Tax Credit Qualified Census Tracts,
     Treasury ZIP Code Statistics of Income, Food Access Research Atlas, Atlas of Rural
     and Small-Town America, Location of Energy Infrastructure
-  featured_product:
-  - recwo6k02qWF773ZK
+  featured_product: Inclusive Development Dashboards
   products_text: City Builder, Rural Startup Scout, Inclusive Growth Score, Community
     Led Opportunity Zones, Inclusive Development Dashboards
   sprint_order: 1
@@ -1746,8 +1727,7 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:45:28.000Z'
   airtable_id: recn0ONeaB72GbD8z
-  featured_product:
-  - recSywRIyeQEsXwCq
+  featured_product: Tech Talent Tracker
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
   sprint_order: 2
   sprint_text: Built Environment
@@ -1771,8 +1751,7 @@
   airtable_createdTime: '2020-01-30T19:49:23.000Z'
   airtable_id: recnJuVbZsWFhpBW8
   datasets_text: Census Takers
-  featured_product:
-  - recYOMiqxyb3IN11r
+  featured_product: Census Taker
   products_text: Census Taker
   sprint_order: 2
   sprint_text: 2020 Census
@@ -1839,8 +1818,7 @@
   datasets_text: American Community Survey - Population Data, USGS Earthquake Data,
     National Household Survey, National Centers for Environmental Information, Wildfire
     Data, Ready Campaign, Datasets on terrorist and other man-made threats
-  featured_product:
-  - rec5dPCVzV3SHuZDS
+  featured_product: Sille
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
   sprint_order: 2
   sprint_text: Geo-Cohort

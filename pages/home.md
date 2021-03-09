@@ -137,7 +137,7 @@ get_involved:
       link: sprints/
     - b: Get Updates
       style: secondary white
-      link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
+      link: site.contacts.mailing-list
   text:
     - number: 1
       number_display: false

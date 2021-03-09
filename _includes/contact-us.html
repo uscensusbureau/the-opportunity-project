@@ -31,7 +31,11 @@
               </div>
               <div class="usa-card__footer">
                 {% if item.contact %}
-                  <p><a href="mailto:{{ item.contact }}?subject=coil%20contact%20page" class="text-white">Get in touch</a></p>
+                  {% assign contact = item.contact %}
+                  {% if contact == "site.contacts.email" %}
+                    {% assign contact = site.contacts.email %}
+                  {% endif %}
+                  <p><a href="mailto:{{ contact }}?subject=coil%20contact%20page" class="text-white">Get in touch</a></p>
                 {% endif %}
               </div>
             </div>

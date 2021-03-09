@@ -29,7 +29,11 @@
           {% endfor %}
         {% endif %}
         {% for button in item.buttons %}
-          <button class="usa-button__{{ button.style | slugify }}"><a href="{{ button.link }}">{{ button.b }}</a></button><br>
+          {% assign href = button.link %}
+          {% if href == "site.contacts.mailing-list" %}
+            {% assign href = site.contacts.mailing-list %}
+          {% endif %}
+          <button class="usa-button__{{ button.style | slugify }}"><a href="{{ href }}">{{ button.b }}</a></button><br>
         {% endfor %}
       </div>
       <div

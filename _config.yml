@@ -2,6 +2,9 @@
 title: The Opportunity Project
 description: The Opportunity Project helps teams use federal open data to build solutions to our nation’s toughest challenges.
 
+contacts:
+  mailing-list: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
+  email: census.opportunityproject@census.gov
 
 # this ensure that posts with future dates are published
 future: true

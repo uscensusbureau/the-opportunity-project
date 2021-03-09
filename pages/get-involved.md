@@ -21,7 +21,6 @@ content-light:
   title: Participate in TOP
   skip-top-border: true
   body: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
-  left-col: get-involved/participate-left.md
   right-col: get-involved/participate-right.md
 
 
@@ -34,7 +33,6 @@ join:
   title: Stay in the Loop
   skip-top-border: true
   skip-bottom-border: true
-  left-col: get-involved/in-the-loop-left.md
   right-col: get-involved/in-the-loop-right.md
 
 # get involved
@@ -68,17 +66,17 @@ get_involved:
 {% include connecting-banner-with-subheader-inverse.html %}
 
 {% capture left-col %}
-  {% include_relative {{ page.content-light.left-col }} %}
+  {% include image.html src="photos/get-involved/stickies.jpg" alt="Image of a man at a table with sticky notes" %}
 {% endcapture %}
 {% capture right-col %}
   {% include_relative {{ page.content-light.right-col }} %}
 {% endcapture %}
-{% include two-column-markdown.html content=page.content-light %}
+{% include two-column-markdown.html content=page.content-light left-col=left-col %}
 
 {% include text-callout-centered.html content=page.callout %}
 
 {% capture left-join %}
-  {% include_relative {{ page.join.left-col }} %}
+  {% include image.html src="photos/get-involved/arrow.jpg" alt="Illustration of an arrow pointing to the right over a navy blue field" %}
 {% endcapture %}
 {% capture right-join %}
   {% include_relative {{ page.join.right-col }} %}

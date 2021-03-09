@@ -42,7 +42,7 @@
             </ul>
           {% endif %}
           {% if subsection.image %}
-            <img src="{{site.baseurl}}/assets/img/photos/{{ subsection.image }}" alt="{{ subsection.image-alt }}">
+            {% include image.html src=subsection.image alt=subsection.image-alt %}
           {% endif %}
         {% endfor %}
     </div>

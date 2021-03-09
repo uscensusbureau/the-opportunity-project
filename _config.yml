@@ -64,5 +64,3 @@ exclude:
   - gulpfile.js
   - circle.yml
   - css
-
-env: dev

@@ -30,7 +30,7 @@
     "check-contrast": "node ./utils/check-contrast.js",
     "clean": "gulp clean-assets",
     "crawl": "node config/crawl.js",
-    "federalist": "export JEKYLL_ENV=production && npx gulp build",
+    "federalist": "JEKYLL_ENV=production npx gulp build",
     "lint": "gulp eslint scss-lint",
     "prestart": "gulp build",
     "proof": "htmlproofer --allow_hash_href --assume_extension --disable_external --file-ignore ./_site/components/index.html ./_site",

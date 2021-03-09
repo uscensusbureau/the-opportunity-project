@@ -128,6 +128,7 @@ hero:
     {% for product in products %}
       {% if product.link %}
         
+        {% assign imgSrc = "photos/products/" | append: product.image %}
         {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
         {% assign problem_statement = problem_statements[ 0 ] %}
         {% assign sprints = site.data.sprints | where:"airtable_id", problem_statement.Sprints[ 0 ] %}
@@ -149,10 +150,7 @@ hero:
               <p class="font-mono-xs text-white">{{ product.tech_team_text | upcase | remove: '"' }}</p>
             </div>
             <div class="usa-card__img">
-              <img
-                src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                alt="{{ product.image-alt }}"
-              />
+              {% include image.html src=imgSrc alt=product.image-alt %}
             </div>
           </div>
         </li>
@@ -165,8 +163,7 @@ hero:
               </header>
               <div class="usa-card__media desktop:grid-col-6">
                 <div class="usa-card__img">
-                  <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                  alt="screenshot of City Builder website">
+                  {% include image.html src=imgSrc alt=product.image-alt %}
                 </div>
               </div>
               <div class="usa-card__body desktop:grid-col-6  product-card-modal-text">

@@ -1,75 +1,75 @@
-- image: mapbox.webp
+- image: mapbox.png
   size: small
   alt: Mapbox
-- image: linkedin.webp
+- image: linkedin.png
   size: small
   alt: LinkedIn
-- image: ibm.webp
+- image: ibm.png
   size: small
   alt: IBM
-- image: citi.webp
+- image: citi.png
   size: small
   alt: Citi
-- image: mit.webp
+- image: mit.png
   size: small
   alt: MIT
-- image: esri.webp
+- image: esri.png
   size: small
   alt: Esri
-- image: redfin.webp
+- image: redfin.png
   size: small
   alt: Redfin
 
-- image: cisco.webp
+- image: cisco.png
   size: small
   alt: Cisco
-- image: airbnb.webp
+- image: airbnb.png
   size: small
   alt: Airbnb
-- image: bloomberg.webp
+- image: bloomberg.png
   size: small
   alt: Bloomberg
-- image: nextdaybetter.webp
+- image: nextdaybetter.png
   size: small
   alt: Next Day Better
-- image: spatialnetworks.webp
+- image: spatialnetworks.png
   size: small
   alt: Spatial Networks
-- image: motivf.webp
+- image: motivf.png
   size: small
   alt: Motif
-- image: fitbit.webp
+- image: fitbit.png
   size: small
   alt: Fitbit
 
-- image: cori.webp
+- image: cori.png
   size: small
   alt: Center on Rural Innovation
-- image: mastercard.webp
+- image: mastercard.png
   size: small
   alt: Mastercard
-- image: excella.webp
+- image: excella.png
   size: small
   alt: Excella
-- image: ccsso.webp
+- image: ccsso.png
   size: small
   alt: Council of Chief State School Officers
-- image: measure-of-america.webp
+- image: measure-of-america.png
   size: small
   alt: Measure of America
-- image: homestretch.webp
+- image: homestretch.png
   size: small
   alt: Homestretch
 
-- image: naleo.webp
+- image: naleo.png
   size: large
   alt: National Association of Latino Elected & Appointed Officials
-- image: columbia.webp
+- image: columbia.png
   size: large
   alt: Columbia university
-- image: Choctaw-Nation.webp
+- image: Choctaw-Nation.png
   size: large
   alt: Choctaw Nation
-- image: state-of-hawaii.webp
+- image: state-of-hawaii.png
   size: large
   alt: State of Hawaii

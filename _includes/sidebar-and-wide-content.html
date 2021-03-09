@@ -2,7 +2,7 @@
   <div class="grid-row grid-gap">
     <div class="desktop:grid-col-4 tablet:grid-col-4">
       {% for item in page.sidebar %}
-        <div class="desktop:border-right border-bottom desktop:border-base-lighter padding-2 desktop:padding-left-0">
+        <div class="desktop:border-right border-bottom border-base-lighter padding-2 desktop:padding-left-0">
           {% if item.title %}
             <p class="font-mono-xs text-secondary  margin-top-0">{{ item.title | upcase }}</p>
           {% endif %}

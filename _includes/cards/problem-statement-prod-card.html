@@ -2,7 +2,6 @@
 {% assign teams=site.data.organizations | where: 'airtable_id', card.tech_team[0] %}
 {% assign team = teams[ 0 ] %}
 
-
 <div 
   class="usa-card__container card-container ps-card {{ include.utils }}"
   style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});

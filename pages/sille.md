@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 permalink: /sille/
-layout: default-internal-page
+layout: case-study
 class: case-study
 
 hero:
@@ -54,8 +54,3 @@ sidebar:
 footer:
 
 ---
-
-{% include hero.html %}
-{% include connecting-banner-notched.html %}
-{% include sidebar-and-wide-content.html %}
-{% include offset-footer.html %}

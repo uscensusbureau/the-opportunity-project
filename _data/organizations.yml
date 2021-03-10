@@ -459,6 +459,8 @@
 - Company Name: UrbanFootprint
   Products:
   - rec85E0U2wrRBV8dc
+  Sprint:
+  - recMpslqDTkD8bJoj
   airtable_createdTime: '2021-02-19T16:15:46.000Z'
   airtable_id: recHpXMwp7qKRv8LA
 - Company Name: Caliber Co
@@ -871,6 +873,8 @@
 - Company Name: RevealGC & Alteryx
   Products:
   - rectcKAi8zsdwiqjg
+  Sprint:
+  - recMpslqDTkD8bJoj
   airtable_createdTime: '2021-02-19T16:19:46.000Z'
   airtable_id: recXRGicwM4YbpVJr
 - Company Name: Freeman School of Business
@@ -1230,6 +1234,13 @@
   - rec5A5h9cq07ijoPk
   airtable_createdTime: '2020-02-05T23:09:54.000Z'
   airtable_id: recjguUjWNcYaqufI
+- Company Name: Composite Apps
+  Products:
+  - recvf8lc1DXzpz2QB
+  Sprint:
+  - recZGDdh9VC1azeZZ
+  airtable_createdTime: '2021-02-25T21:33:37.000Z'
+  airtable_id: reck8tBVVpiwxK7jk
 - Company Name: Columbia University
   Products:
   - recbsgNzUmmrKuEYn
@@ -1424,6 +1435,8 @@
 - Company Name: Graphicacy
   Products:
   - rec1WFJn1OGTTGrZi
+  Sprint:
+  - recMpslqDTkD8bJoj
   airtable_createdTime: '2021-02-22T16:35:25.000Z'
   airtable_id: recpqPZQcaIt0syhI
 - Company Name: Center on Rural Innovation

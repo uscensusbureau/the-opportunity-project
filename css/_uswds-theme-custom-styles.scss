@@ -4666,8 +4666,10 @@ body {
 
   @include at-media("tablet") {
     @include u-margin-right(4);
-    @include u-margin-bottom(3);
     @include u-padding-right(5);
+  }
+  @include at-media("desktop") {
+    @include u-margin-bottom(3);
   }
 }
 .usa-card__container {

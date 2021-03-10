@@ -59,7 +59,7 @@ if( nav ){
     const headers = document.getElementsByClassName('process-section')
 
     window.addEventListener('scroll', e => {
-      highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS, true )
+      highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS )
     });
   }
   else {

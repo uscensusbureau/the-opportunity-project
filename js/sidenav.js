@@ -14,7 +14,7 @@ $('.sidenav').on('keydown', 'a', function (e) {
 var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");
 var sections = document.getElementsByClassName("toolkit-section")
 
-const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass, printDebug=false ) => {
+const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass ) => {
   let lowestMatch = pageDivs[ 0 ]; // hack for our-process not highlighting above the fold
   let closestTo250 = Number.MAX_SAFE_INTEGER;
   var i;
@@ -22,13 +22,10 @@ const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass, print
     var section = pageDivs[i];
     var divDistanceFromTop = section.getBoundingClientRect().top;
     var divHeight = section.offsetHeight;
-    if( printDebug ){
-      console.log( anchorLinks[i].innerHTML, divDistanceFromTop, divHeight )
-    }
+
     // find 
     if (divDistanceFromTop <= 250 ){ // && divDistanceFromTop + divHeight > 50 ) {
       lowestMatch = section;
-      console.log('matched on ' + i)
     }
   }
   for( i = 0; i < anchorLinks.length; i++ ){
@@ -43,7 +40,7 @@ const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass, print
 
 // Add event listener to scroll
 window.addEventListener("scroll", e => {
-  highlightAnchorNavigation( sideNavLinks, sections, "usa-current", false )
+  highlightAnchorNavigation( sideNavLinks, sections, "usa-current" )
 });
 
 module.exports = highlightAnchorNavigation;

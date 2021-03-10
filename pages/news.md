@@ -44,7 +44,7 @@ featured-images:
     #   href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
     #   date: March 12, 2019
     #   publication: Forbes
-    #   img: img/photos/home/news/news-03.png
+    #   img: img/photos/home/news/news-03.webp
     #   alt: The New York City skyline
 
 legislation:

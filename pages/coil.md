@@ -24,7 +24,7 @@ callout:
 connecting-banner:
   background-color: primary
   image: coil/who-we-are.png
-  alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
+  alt: Seated women discussing ideas at a user engagement workshop hosted by The Opportunity Project
 
 # who we are
 explanation:

@@ -2,7 +2,7 @@
 ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- {% unless site.env == "production" %}
+  <!-- {% unless jekyll.environment == "production" %}
     <meta name="robots" content="noindex, nofollow">
   {% endunless %} -->
 
@@ -38,13 +38,13 @@
 
 <!-- CSS
 ================================================== -->
-<!-- env: {{ site.env }} -->
-{% if site.env == 'dev' %}
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-fonts.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-components.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-custom.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-utilities.css">
+<!-- env: {{ jekyll.environment }} -->
+{% if jekyll.environment == 'development' %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-fonts.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-components.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-custom.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/uswds-utilities.css">
 {% else %}
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-<link rel="alternate" type="text/html" href="{{ site.baseurl }}/data/assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+  <link rel="alternate" type="text/html" href="{{ site.baseurl }}/assets/css/styles.css">
 {% endif %}

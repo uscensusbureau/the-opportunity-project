@@ -19,13 +19,13 @@ hero:
         <div
           class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
         >
-          <a href="{{ site.baseurl}}/{{ case.product_name | slugify }}/" >
+          <a href="{{ site.baseurl}}/{{ case.title | slugify }}/" >
           {% if case.image %}
             <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
           {% endif %}
           <div class="content-grid-one-third padding-left-4 padding-right-2">
-            {% if case.product_name %}
-              <h2 class="text-white padding-top-4">{{ case.product_name }}</h2>
+            {% if case.title %}
+              <h2 class="text-white padding-top-4">{{ case.title }}</h2>
             {% endif %}
             {% if case.tech_team %}
               <p class="font-mono-2xs opacity-70">{{ case.tech_team | upcase }}</p>
@@ -128,6 +128,7 @@ hero:
     {% for product in products %}
       {% if product.link %}
         
+        {% assign imgSrc = "photos/products/" | append: product.image %}
         {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
         {% assign problem_statement = problem_statements[ 0 ] %}
         {% assign sprints = site.data.sprints | where:"airtable_id", problem_statement.Sprints[ 0 ] %}
@@ -149,16 +150,14 @@ hero:
               <p class="font-mono-xs text-white">{{ product.tech_team_text | upcase | remove: '"' }}</p>
             </div>
             <div class="usa-card__img">
-              <img
-                src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                alt="{{ product.image-alt }}"
-              />
+              {% include image.html src=imgSrc alt=product.image-alt %}
             </div>
           </div>
         </li>
         <div id="modal-{{ product.title | slugify }}" class="modal modal-inactive z-500">
           <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
             <div class="usa-card__container margin-0 border-0">
+
               <div class="modal-grid">
                 <div class="modal-column">
                   <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"

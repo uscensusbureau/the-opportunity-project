@@ -1,4 +1,4 @@
-{% assign item = page.get_involved %}
+{% assign item = include.content %}
 {% assign textColor = "text-black" %}
 {% if item.is-blue %}
   {% assign textColor = "text-white" %}
@@ -14,7 +14,7 @@
         class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block margin-bottom-3"
       >
       {% if item.title-image %}
-        <img src="{{site.baseurl}}/assets/img/{{ item.title-image }}" alt="{{ item.title-image-alt }}">
+        {% include image.html src=item.title-image alt=item.title-image-alt %}
       {% endif %}
       </div>
       <div

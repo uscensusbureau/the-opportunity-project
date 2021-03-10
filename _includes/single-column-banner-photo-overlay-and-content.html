@@ -4,7 +4,8 @@
       class="process-section desktop:grid-offset-2 desktop:grid-col-8 usa-media-block__background-image-landscape margin-bottom-5"
       id="{{ item.title | slugify }}"
     >
-        <img src="{{site.baseurl}}/assets/img/photos/{{ item.image}}" alt="{{ item.image-alt}}">
+      {% assign imgSrc = "photos/" | append: item.image %}
+      {% include image.html src=imgSrc alt=item.image-alt %}
       <div class="header-overlay">
         <h3 class="text-white padding-left-3 padding-1">{{ item.title }}</h3>
       </div>

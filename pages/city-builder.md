@@ -66,8 +66,3 @@ sidebar:
 footer: '“Participating in The Opportunity Project sprint was an invaluable experience for the City Builder team. The connections we made during the sprint gave us a wealth of insight into user needs, and our conversations with data stewards at the Census Bureau guided us toward data sets that helped us develop City Builder into a powerful platform for exploring place-based investments.” - Citi Ventures Team'
 
 ---
-
-{% include hero.html %}
-{% include connecting-banner-notched.html %}
-{% include sidebar-and-wide-content.html %}
-{% include offset-footer.html %}

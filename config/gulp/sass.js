@@ -11,7 +11,7 @@ const task = "sass";
 
 sass.compiler = require("sass");
 
-const dev_plugins = [autoprefixer({ cascade: false })];
+const dev_plugins = [autoprefixer({ cascade: false, grid: true })];
 
 const prod_plugins = [csso({ forceMediaMerge: false })];
 
@@ -23,7 +23,7 @@ gulp.task("build-sass-fonts", function() {
       sass
         .sync({
           includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
-          outputStyle: "expanded"
+          outputStyle: "compressed"
         })
         .on("error", function(error) {
           sass.logError.bind(this)(error);
@@ -47,7 +47,7 @@ gulp.task("build-sass-components", function() {
       sass
         .sync({
           includePaths: ["./css/settings"],
-          outputStyle: "expanded"
+          outputStyle: "compressed"
         })
         .on("error", function(error) {
           sass.logError.bind(this)(error);
@@ -71,7 +71,7 @@ gulp.task("build-sass-custom", function() {
       sass
         .sync({
           includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
-          outputStyle: "expanded"
+          outputStyle: "compressed"
         })
         .on("error", function(error) {
           sass.logError.bind(this)(error);
@@ -95,7 +95,7 @@ gulp.task("build-sass-utilities", function() {
       sass
         .sync({
           includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
-          outputStyle: "expanded"
+          outputStyle: "compressed"
         })
         .on("error", function(error) {
           sass.logError.bind(this)(error);

@@ -15,42 +15,44 @@
   </section>
   <div class="logo-garden-mobile grid-container">
   {% for logo in site.data.logos-partners %}
-    <div class="grid-col-2 margin-3 display-inline-block">
-      <img src="{{site.baseurl}}/assets/img/logos-partners/{{ logo.image }}" alt="{{ logo.alt }} logo">
+    <div class="grid-col-2 margin-3 display-inline-block" >
+      {% assign imgSrc = "logos-partners/" | append: logo.image %}
+      {% assign imgAlt = logo.alt | append: " logo" %}
+      {% include image.html  src=imgSrc alt=imgAlt %}
     </div>
   {% endfor %}
   </div>
   <section class="logo-garden-desktop display-flex flex-column flex-align-center margin-bottom-9">
     <div class="logo-garden-container">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mapbox.png" alt="Mapbox logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/linkedin.png" alt="LinkedIn logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/ibm.png" alt="IBM logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/citi.png" alt="Citi logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mit.png" alt="MIT logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/esri.png" alt="Esri logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/redfin.png" alt="Redfin logo">
+      {% include image.html  class="logo-garden-item" src="logos-partners/mapbox.png" alt="Mapbox logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/linkedin.png" alt="LinkedIn logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/ibm.png" alt="IBM logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/citi.png" alt="Citi logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/mit.png" alt="MIT logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/esri.png" alt="Esri logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/redfin.png" alt="Redfin logo" %}
+    </div>
+    <div class="logo-garden-container" >
+      {% include image.html  class="logo-garden-item" src="logos-partners/cisco.png" alt="Cisco logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/airbnb.png" alt="Airbnb logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/bloomberg.png" alt="Bloomberg logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/nextdaybetter.png" alt="Next Day Better logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/spatialnetworks.png" alt="Spatial Networks logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/motivf.png" alt="Motivf logo" %}
     </div>
     <div class="logo-garden-container">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/cisco.png" alt="Cisco logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/airbnb.png" alt="Airbnb logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/bloomberg.png" alt="Bloomberg logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/nextdaybetter.png" alt="Next Day Better logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/spatialnetworks.png" alt="Spatial Networks logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/motivf.png" alt="Motivf logo">
+      {% include image.html  class="logo-garden-item" src="logos-partners/fitbit.png" alt="Fitbit logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/cori.png" alt="Center on Rural Innovation logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/mastercard.png" alt="mastercard logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/excella.png" alt="Excella logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/ccsso.png" alt="Council of Chief State School Officers logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/measure-of-america.png" alt="Measure of America logo" %}
+      {% include image.html  class="logo-garden-item" src="logos-partners/homestretch.png" alt="homestretch logo" %}
     </div>
     <div class="logo-garden-container">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/fitbit.png" alt="Fitbit logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/cori.png" alt="Center on Rural Innovation logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/mastercard.png" alt="mastercard logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/excella.png" alt="Excella logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/ccsso.png" alt="Council of Chief State School Officers logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/measure-of-america.png" alt="Measure of America logo">
-      <img class="logo-garden-item" src="{{site.baseurl}}/assets/img/logos-partners/homestretch.png" alt="homestretch logo">
-    </div>
-    <div class="logo-garden-container">
-      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/naleo.png" alt="National Association of Latino Elected & Appointed Officials seal">
-      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/columbia.png" alt="Columbia University crest">
-      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/Choctaw-Nation.png" alt="Choctaw Nation seal">
-      <img class="logo-garden-large" src="{{site.baseurl}}/assets/img/logos-partners/state-of-hawaii.png" alt="State of Hawaii seal">
+      {% include image.html  class="logo-garden-large" src="logos-partners/naleo.png" alt="National Association of Latino Elected & Appointed Officials seal" %}
+      {% include image.html  class="logo-garden-large" src="logos-partners/columbia.png" alt="Columbia University crest" %}
+      {% include image.html  class="logo-garden-large" src="logos-partners/Choctaw-Nation.png" alt="Choctaw Nation seal" %}
+      {% include image.html  class="logo-garden-large" src="logos-partners/state-of-hawaii.png" alt="State of Hawaii seal" %}
     </div>
 </section>

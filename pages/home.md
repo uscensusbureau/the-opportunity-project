@@ -161,7 +161,7 @@ news:
 {% include logo-garden.html %}
 {% include three-column-wide-text.html %}
 {% include circuit-banner.html %}
-{% include get-involved.html %}
+{% include get-involved.html content=page.get_involved %}
 <section class="bg-white padding-y-4">
   {% include grid-section.html children="news/news.html" content=page.news %}
 </section>

@@ -2,6 +2,8 @@
 title: Product Development Toolkit
 class: toolkit
 permalink: /product-development/toolkit/
+redirect_from:
+  - /product-development/
 layout: toolkit
 
 color: secondary

@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 permalink: /city-builder/
-layout: default-internal-page
+layout: case-study
 class: case-study
 
 hero:

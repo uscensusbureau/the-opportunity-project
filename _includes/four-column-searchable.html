@@ -1,45 +1,8 @@
----
-title: Showcase
-permalink: /showcase/
-
-layout: default
-
-# full span, top of page section
-hero:
-  text: Products
-  subtext: Discover products created through The Opportunity Project
----
-
-{% include hero.html %}
-
 <section class="usa-section usa-graphic-list grid-container">
   {% assign case_studies = site.data.case_studies %}
-    <div class="grid-row grid-gap">
-      {% for case in case_studies %}
-        <div
-          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
-        >
-          <a href="{{ site.baseurl}}/{{ case.product_name | slugify }}/" >
-          {% if case.image %}
-            <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
-          {% endif %}
-          <div class="content-grid-one-third padding-left-4 padding-right-2">
-            {% if case.product_name %}
-              <h2 class="text-white padding-top-4">{{ case.product_name }}</h2>
-            {% endif %}
-            {% if case.tech_team %}
-              <p class="font-mono-2xs opacity-70">{{ case.tech_team | upcase }}</p>
-            {% endif %}
-            {% if case.overlay_text%}
-              <p class="font-sans-2xs opacity-70">{{ case.overlay_text}}</p>
-            {% endif %}
-          </div>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
+    {% include cards/card-list.html content=site.data.case_studies %}
 </section>
-<div id="all-products"
+<div
   class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5"
 >
   <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>
@@ -124,65 +87,55 @@ hero:
 </div>
 <section class="usa-section usa-graphic-list grid-container">
   <ul class="usa-card-group">
-    {% assign products = site.data.products %}
+    {% assign products = site.data.products_OLD %}
     {% for product in products %}
       {% if product.link %}
-        
-        {% assign imgSrc = "photos/products/" | append: product.image %}
-        {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
-        {% assign problem_statement = problem_statements[ 0 ] %}
-        {% assign sprints = site.data.sprints | where:"airtable_id", problem_statement.Sprints[ 0 ] %}
-        {% assign sprint = sprints[ 0 ] %}
-        
-        <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active z-300" name="productCard">
+        <li id="product-card-{{product.product_name | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active z-300" name="productCard">
           <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
-              <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
-              <h3 class="pc-inactive">{{ sprint.Year }}</h3>
-              {% if product.category %}
-                <h4 class="pc-inactive">{{ product.category }}</h4>
-              {% endif %}
-              <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+              <h2 class="usa-card__heading text-white font-sans-md" value="{{product.product_name | slugify}}">{{ product.product_name }}</h2>
+              <h3 class="pc-inactive">{{ product.year }}</h3>
+              <h4 class="pc-inactive">{{ product.category }}</h4>
+              <h5 class="pc-inactive">{{ product.agency }}</h5>
               <p style="display:none">{{ product.description }}</p> <!-- never show this. just for filtering -->
-              <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p> <!-- never show this. just for searching -->
+              <p class="card-problem-statement" style="display:none">{{ product.problem_statement | slugify }}</p> <!-- never show this. just for searching -->
             </header>
             <div class="usa-card__body">
-              <p class="font-mono-xs text-white">{{ product.tech_team_text | upcase | remove: '"' }}</p>
+              <p class="font-mono-xs text-white">{{ product.tech_team | upcase }}</p>
             </div>
             <div class="usa-card__img">
-              {% include image.html src=imgSrc alt=product.image-alt %}
+              <img
+                src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
+                alt="{{ product.image-alt }}"
+              />
             </div>
           </div>
         </li>
-        <div id="modal-{{ product.title | slugify }}" class="modal modal-inactive z-500">
+        <div id="modal-{{ product.product_name | slugify }}" class="modal modal-inactive z-500">
           <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
             <div class="usa-card__container margin-0 border-0">
-
-              <div class="modal-grid">
-                <div class="modal-column">
+              <header class="usa-card__header desktop:grid-col-6 product-card-modal-text">
+                <span class="close">&times;</span>
+                <h3 class="font-sans-md">{{ product.product_name }}</h3>
+              </header>
+              <div class="usa-card__media desktop:grid-col-6">
+                <div class="usa-card__img">
                   <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                    alt="{{ product.image-alt }}"
-                    class="modal-img">
-                  
+                  alt="screenshot of City Builder website">
                 </div>
-                <div class="modal-column">
-                  <header class="usa-card__header">
-                    <span class="close">&times;</span>
-                    <h3 class="font-sans-md">{{ product.title }}</h3>
-                  </header>
-                
-                  <div class="usa-card__body">
-                    <p class="font-mono-xs">{{ product.tech_team_text | upcase }}</p>
-                    <p>{{ product.description }}</p>
-                    <p class="font-sans-2xs">Datasets Used</p>
-                    <p class="font-sans-2xs">
-                      {{ product.data_sets_text }}
-                    </p>
-                  </div>
-                  <div class="usa-card__footer text-center">
-                    <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
-                  </div>
-                </div>
+              </div>
+              <div class="usa-card__body desktop:grid-col-6  product-card-modal-text">
+                <p class="font-mono-xs">{{ product.tech_team | upcase }}</p>
+                <p>{{ product.description_new }}</p>
+                <p class="font-sans-2xs">Datasets Used</p>
+                <p class="font-sans-2xs">
+                  {% for dataset in product.data_sets %}
+                    {{ dataset }}
+                  {% endfor %}
+                </p>
+              </div>
+              <div class="usa-card__footer  product-card-modal-text">
+                <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
               </div>
             </div>
           </li>

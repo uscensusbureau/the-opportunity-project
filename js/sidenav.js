@@ -15,12 +15,22 @@ var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");
 var sections = document.getElementsByClassName("toolkit-section")
 
 const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass ) => {
+  let lowestMatch = pageDivs[ 0 ]; // hack for our-process not highlighting above the fold
+  let closestTo250 = Number.MAX_SAFE_INTEGER;
   var i;
   for (i = 0; i < anchorLinks.length; i++ ) {
     var section = pageDivs[i];
     var divDistanceFromTop = section.getBoundingClientRect().top;
     var divHeight = section.offsetHeight;
-    if (divDistanceFromTop <= 250 && divDistanceFromTop + divHeight > 50 ) {
+
+    // find 
+    if (divDistanceFromTop <= 250 ){ // && divDistanceFromTop + divHeight > 50 ) {
+      lowestMatch = section;
+    }
+  }
+  for( i = 0; i < anchorLinks.length; i++ ){
+    let section = pageDivs[i];
+    if( section == lowestMatch ){
       anchorLinks[i].classList.add( highlightClass );
     } else {
       anchorLinks[i].classList.remove( highlightClass );

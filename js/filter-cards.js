@@ -173,6 +173,7 @@ $(".close").on("click", function () {
 });
 
 $('.data-card-group').on('click', function (e) {
+  if( e.target ){
     const closestCard = e.target.closest('li');
     if( closestCard ){
       var dataCardId = closestCard.id;
@@ -203,7 +204,8 @@ $('.data-card-group').on('click', function (e) {
         }
       }
     }
-  });
+  }
+});
 
 
 

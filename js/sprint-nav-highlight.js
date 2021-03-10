@@ -22,6 +22,7 @@ const setHighlightsFromHash = () => {
 
   for( link of links ){
     link.classList.remove( HIGHLIGHT_CLASS )
+    link.blur();
   }
 
   const li = document.getElementsByName( hash )[ 0 ]

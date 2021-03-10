@@ -3,7 +3,7 @@
   cohort: Workforce
   problem_statement: Opportunity Zones
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
-  image: featured-products/city-builder.webp
+  image: featured-products/city-builder.png
   image-alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
   overlay_text: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
   description_new:
@@ -25,7 +25,7 @@
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'https://sille.space/app_fema/'
-  image: featured-products/sille.webp
+  image: featured-products/sille.png
   image-alt: Screenshot of the SILLE web application with a graph modal
   overlay_text: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure <br><br>
   description_new:
@@ -52,7 +52,7 @@
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
   link: 'https://www.zipdatum.com/prcivicaddress/'
-  image: featured-products/prados.webp
+  image: featured-products/prados.png
   image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
   overlay_text: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
   description_new:

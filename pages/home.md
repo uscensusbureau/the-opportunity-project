@@ -34,37 +34,6 @@ connecting-banner:
   image: home/homepage-01.png
   alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
-# used here for the "how it works" section
-explanation:
-  # two column layout of text; the text layout is wide; items build left to right and top to bottom, meaning the first item listed will be left aligned, the next will be next to it (in the right column), the third will be in a new row below, left aligned under the first item, and so on.
-  #         |    
-  #    1    |    2
-  #  ---------------
-  #    3    |    4
-  #         |    
-  # This layout can be used for two side-by-side pieces of text or for a "quad" style layout. If items should be numbered, follow this pattern. If no numbers are needed, the "number" item should marked false
-  title: Our Process
-  text:
-    row:
-      - border: border-0
-        cards:
-          - number: 1
-            title: Identify challenges
-            description: Federal agencies and advocacy organizations identify our nation’s most pressing social, economic, and environmental challenges.
-          - number: 2
-            title: Team up
-            description: Teams from companies, universities, and more sign up to build digital products that use federal open data to help solve these challenges.
-      - border: border-base-light border-top
-        cards:
-          - number: 3
-            title: Build
-            description: Over 12 weeks, teams build their solutions. Experts  provide feedback on user needs, product strategy, and the best datasets available to solve each problem.
-          - number: 4
-            title: Launch & scale
-            description: Teams launch their products at our annual Demo Day showcase. Afterward, we continue to help teams deploy their solutions to their target end users.
-            button:
-              link: our-process
-              text: Learn More
 
 # three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
 impact:

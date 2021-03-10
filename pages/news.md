@@ -94,4 +94,7 @@ publications:
 {% endcapture %}
 {% include two-column-markdown.html content=page.legislation left-col=leg-left %}
 
-{% include grid-section.html content=page.publications children="cards/card-list.html" %}
+{% capture pubCards %}
+  {% include cards/card-list.html content=page.publications.cards %}
+{% endcapture %}
+{% include grid-section.html content=page.publications capture=pubCards %}

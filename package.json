@@ -15,8 +15,10 @@
     "url": "git+https://github.com/uscensusbureau/the-opportunity-project"
   },
   "scripts": {
+    "airtable": "airtable-export _data $AIRTABLE_TOP_ID sprints problem_statements organizations products news pages --key=$AIRTABLE_API_KEY",
     "axe": "node config/run-axe.js",
     "build": "gulp build && bundle exec jekyll build",
+    "test-airtable": "npm run airtable && bundle exec jekyll build && npm run proof-external",
     "build-css": "gulp build-sass",
     "build-css-components": "gulp build-sass-components",
     "build-css-custom": "gulp build-sass-custom",

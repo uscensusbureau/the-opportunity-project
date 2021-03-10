@@ -141,11 +141,6 @@ featured_items:
 
 # footer.html - NONE, hard-coded
 
-# four-column-searchable.html - NONE, pulls data from:
-#  - _/data/case_studies.yml (for the top case studies section)
-#  - _/data/product_filters.yml (for the interactive portion of the products search feature)
-#  - _/data/products.yml (for the product cards themselves)
-
 # get involved
 get_involved:
   title-image: photos/get-involved.png
@@ -200,9 +195,6 @@ text: Get Involved
 
 # offset-footer.html
 footer: '“Participating in The Opportunity Project sprint was an invaluable experience for the City Builder team. The connections we made during the sprint gave us a wealth of insight into user needs, and our conversations with data stewards at the Census Bureau guided us toward data sets that helped us develop City Builder into a powerful platform for exploring place-based investments.” - Citi Ventures Team'
-
-
-# sidebar-and-content-light.html - NONE, hard-coded
 
 # sidebar-and-content-primary.html
 
@@ -777,15 +769,6 @@ two-col-markdown:
 
     <hr>
 
-    <h4>four-column-searchable.html</h4>
-      Please see opportunity.census.gov/products to see this (since it is the entire page). Not hard-coded, but built specifically for the products page and wasn't originally designed to be easily reusable, although the reference points to the data files could be changed to a variable set in the front matter, rather than pointing to the files directly
-      pulls data from:
-        - _/data/case_studies.yml (for the top case studies section)
-        - _/data/product_filters.yml (for the interactive portion of the products search feature)
-        - _/data/products.yml (for the product cards themselves)
-
-    <hr>
-
     <h4>get-involved.html</h4>
       (early component, quite messy, could be refactored)
       {% include get-involved.html %}
@@ -818,10 +801,7 @@ two-col-markdown:
 <hr>
     <h4>offset-footer.html</h4>
       {% include offset-footer.html %}
-<hr>
-    <h4>sidebar-and-content-light.html</h4>
-      (Hard coded, content must be changed in the file)
-      {% include sidebar-and-content-light.html %}
+
 <hr>
     <h4>sidebar-and-content-primary.html</h4>
       {% include sidebar-and-content-primary.html %}

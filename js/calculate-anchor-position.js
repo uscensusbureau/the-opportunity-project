@@ -2,7 +2,7 @@
  * show an anchor properly under the header
  * and lined up with the nav like the H1
  */
-var calculateAnchorPosition = function (hash) {
+const calculateAnchorPosition = function (hash) {
   var anchor        = $('#' + hash);
   var topOffset     = 0;
   if (anchor.length === 0) {
@@ -21,3 +21,5 @@ var calculateAnchorPosition = function (hash) {
   //anchor should now align with first item inside nav
   return anchor.offset().top - topOffset;
 };
+
+module.exports = calculateAnchorPosition;

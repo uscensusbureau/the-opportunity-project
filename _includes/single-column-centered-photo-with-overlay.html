@@ -9,7 +9,7 @@
     >
       <div class="overlay">
         {% if photo.image %}
-          <img src="{{ site.baseurl}}/assets/img/{{ photo.image }}" alt="{{ photo.image-alt }}" class="overlay-image">
+          <img src="{{ site.baseurl}}/assets/img/{{ photo.image }}" alt="{{ photo.image-alt }}" class="overlay-image" data-proofer-ignore>
         {% endif %}
         <div class="overlay-content">
           {% if photo.overlay.title %}

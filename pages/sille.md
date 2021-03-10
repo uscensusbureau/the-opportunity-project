@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 permalink: /sille/
-layout: default-internal-page
+layout: case-study
 class: case-study
 
 hero:
@@ -32,7 +32,7 @@ sidebar:
       - Sille
       - 'Public access using login: fema@sille.space Password: Planahead2019'
     button:
-      - link:  https://sille.space/app_fema/
+      link:  https://sille.space/app_fema/
   - title: TECH TEAM
     text:
       - Datel Ovela
@@ -54,8 +54,3 @@ sidebar:
 footer:
 
 ---
-
-{% include hero.html %}
-{% include connecting-banner-notched.html %}
-{% include sidebar-and-wide-content.html %}
-{% include offset-footer.html %}

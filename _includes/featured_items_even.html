@@ -14,7 +14,7 @@
           >
             <div class="usa-media-block__body  ">
               <div class="inline-number">
-                <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+                {% include flag-and-star.html %}
               </div>
               <h2>{{ item.name}}</h2>
               <p>{{ item.description}}</p>
@@ -32,7 +32,7 @@
           >
             <div class="usa-media-block__body ">
               <div class="inline-number">
-                <img src="{{ site.baseurl }}/assets/img/icons/flag-and-star.svg" alt="">
+                {% include flag-and-star.html %}
               </div>
               <h2>{{ item.name}}</h2>
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>

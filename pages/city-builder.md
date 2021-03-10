@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 permalink: /city-builder/
-layout: default-internal-page
+layout: case-study
 class: case-study
 
 hero:
@@ -36,7 +36,7 @@ sidebar:
     text:
       - City Builder
     button:
-      - link:  https://sille.space/app_fema/
+      link: https://sille.space/app_fema/
   - title: TECH TEAM
     text:
       - Citi Ventures

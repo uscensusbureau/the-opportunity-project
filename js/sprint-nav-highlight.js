@@ -22,6 +22,7 @@ const setHighlightsFromHash = () => {
 
   for( link of links ){
     link.classList.remove( HIGHLIGHT_CLASS )
+    link.blur();
   }
 
   const li = document.getElementsByName( hash )[ 0 ]
@@ -58,7 +59,7 @@ if( nav ){
     const headers = document.getElementsByClassName('process-section')
 
     window.addEventListener('scroll', e => {
-      highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS )
+      highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS, true )
     });
   }
   else {

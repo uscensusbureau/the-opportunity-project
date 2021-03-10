@@ -2625,6 +2625,15 @@ code {
   }
 }
 
+.sprint-hero-image {
+  @include u-bg('primary');
+  display: none;
+  @include at-media('tablet'){
+    display: flex;
+    @include grid-col(1);
+  }
+}
+
 
 .statistic-border-right {
   @include at-media("desktop") {

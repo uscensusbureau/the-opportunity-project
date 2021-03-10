@@ -1,2 +1,1 @@
-
-![Illustration of a blue circle around text which says The Opportunity Project]({{ site.baseurl }}/assets/img/prize/logo.png)
+{% include image.html src="prize/logo.png" alt="Illustration of a blue circle around text which says The Opportunity Project" %}

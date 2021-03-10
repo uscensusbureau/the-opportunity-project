@@ -9,7 +9,7 @@ class: home
 hero:
   text: Putting America's data to work for the people
   subtext: We help teams use federal open data to build solutions to our nation’s toughest challenges
-  image: photos/home/hero.webp
+  image: photos/home/hero.png
   image-alt: Collage of a veteran, student, father and daughter on the beach, workshop participants, and a conference speaker.
 
 circuit-banner:
@@ -31,7 +31,7 @@ callout:
 
 connecting-banner:
   background-color: primary
-  image: home/homepage-01.webp
+  image: home/homepage-01.png
   alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
 

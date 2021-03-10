@@ -15,7 +15,7 @@ var sideNavLinks = document.getElementsByClassName("usa-sidenav__item");
 var sections = document.getElementsByClassName("toolkit-section")
 
 const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass, printDebug=false ) => {
-  let lowestMatch;
+  let lowestMatch = pageDivs[ 0 ]; // hack for our-process not highlighting above the fold
   let closestTo250 = Number.MAX_SAFE_INTEGER;
   var i;
   for (i = 0; i < anchorLinks.length; i++ ) {

@@ -129,7 +129,7 @@ news:
       details: The White House Wants You to Build Tools to Improve Our Cities
       href: https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/
       date: March 7, 2016
-      img: photos/home/news/news-main.webp
+      img: photos/home/news/news-main.png
       alt: An American flag
       isExternal: true
   side-cards:
@@ -137,7 +137,7 @@ news:
       href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
       date: March 12, 2019
       title: Forbes
-      img: photos/home/news/news-01.webp
+      img: photos/home/news/news-01.png
       alt: People seated at tables taking notes during a TOP presentation
       isExternal: true
     - title: New York Times
@@ -145,7 +145,7 @@ news:
       href: https://www.nytimes.com/2016/03/08/us/politics/new-federal-website-aims-to-enhance-community-services.html?searchResultPosition=1
       isExternal: true
       date: March 7, 2016
-      img: photos/home/news/news-02.webp
+      img: photos/home/news/news-02.png
       alt: A man drawing on a white board with a marker while a woman looks on
 
 ---

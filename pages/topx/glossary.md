@@ -9,7 +9,7 @@ lead:
   - text:
     - p: Below are some key terms that may be referenced in the toolkit, as well as through the sprint and in conversations with individuals in the civic tech community. Click the term for additional resources and the source of each definition.
 
-image: glossary.webp
+image: glossary.png
 image-alt: Illustration of a group of red, yellow, and blue squares and rectangles
 
 resources:

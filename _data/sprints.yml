@@ -318,7 +318,7 @@
     \ others developed digital products to revitalize low-income communities and bring\
     \ jobs to local residents, empower entrepreneurs and innovation ecosystem builders,\
     \ and highlight multiple pathways for workers to start or advance careers."
-  img: landing/Sprint-Background_04_Workforce.webp
+  img: landing/Sprint-Background_04_Workforce.jpg
   order-number: 2
   short-tag: work
 - Census Expert: 'Eric Jensen, William Snow, Crystal Miller, Liz Jeninga, Kevin Hawley,
@@ -496,7 +496,7 @@
     communities and promote Census jobs. Given the option to complete the Census online
     and increased concerns around disinformation, teams also focused efforts on bridging
     the digital divide and increasing digital literacy.
-  img: landing/Sprint-Background_03_Census.webp
+  img: landing/Sprint-Background_03_Census.jpg
   order-number: 3
   short-tag: 20cen
 - Name: Built Environment
@@ -518,6 +518,10 @@
   - reclF9Mn2Z6aMqzJk
   - rec5TopxenNeIOsJO
   - reca9CUrcr39DStIc
+  Tech Team Companies:
+  - recHpXMwp7qKRv8LA
+  - recXRGicwM4YbpVJr
+  - recpqPZQcaIt0syhI
   Year: 2020
   airtable_createdTime: '2021-01-26T16:41:31.000Z'
   airtable_id: recMpslqDTkD8bJoj
@@ -530,7 +534,7 @@
     \ economic, environmental, and human health challenges; products to connect recently\
     \ resettled refugees with resources and services; and tools that track federal\
     \ disaster response spending."
-  img: landing/Sprint-Background_01_Built.webp
+  img: landing/Sprint-Background_01_Built.jpg
   order-number: 5
   short-tag: built
 - Name: Agency Cohort (2016 Sprint 2/3)
@@ -626,11 +630,15 @@
   airtable_createdTime: '2021-01-26T16:39:37.000Z'
   airtable_id: recWgRn0SzeC0JNJ1
   short-tag: topx
-- Name: TOP Health
+- Agency Leads:
+  - recsP8yyk5NB362zb
+  Name: TOP Health
   Problem Statements:
   - reckgFmGDc1Hy47Lc
   Products:
   - recvf8lc1DXzpz2QB
+  Tech Team Companies:
+  - reck8tBVVpiwxK7jk
   Year: 2019
   airtable_createdTime: '2021-02-25T21:34:00.000Z'
   airtable_id: recZGDdh9VC1azeZZ
@@ -809,7 +817,7 @@
     the air quality and health effects of transportation emissions, as well as products
     to reduce ocean plastic pollution, strengthen recycling markets, and help farmers
     make decisions using aerial imagery data.
-  img: landing/Sprint-Background_02_Natural.webp
+  img: landing/Sprint-Background_02_Natural.jpg
   order-number: 4
   short-tag: natl
 - Agency Leads:
@@ -1004,7 +1012,7 @@
     digital products that allow governments to maintain local address data critical
     in catastrophic events, help the public take appropriate hazard preparedness actions,
     and amplify environmental stewardship efforts.
-  img: landing/Sprint-Background_05_Geo.webp
+  img: landing/Sprint-Background_05_Geo.jpg
   order-number: 1
   short-tag: geo
 - Name: NAIP

@@ -44,7 +44,7 @@
   airtable_createdTime: '2020-02-10T18:25:38.000Z'
   airtable_id: rec0ukljQMNDcv91s
   category: Workforce
-  image: photos/sprints/2017-census.webp
+  image: photos/sprints/2017-census.png
   pdf: 2017-census.pdf
   products_text: PopCount, Data2Go for Census Outreach, Bayes BD, My City Data Learning
     Tool, Data2GO.NYC
@@ -76,7 +76,7 @@
   agency_text: U.S. Department of Agriculture
   airtable_createdTime: '2020-02-10T18:21:57.000Z'
   airtable_id: rec1e6bSt2fE0Ke14
-  image: photos/sprints/2016-ag2.webp
+  image: photos/sprints/2016-ag2.png
   pdf: 2016-ag.pdf
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
@@ -214,7 +214,7 @@
   datasets_text: Civil Rights Data Collection (CRDC), National Assessment of Education
     Progress (NAEP), Common Core of Data (CCD), Education Demographic and Geographic
     Estimates (EDGE), EDFacts
-  image: photos/sprints/2018-reportcard.webp
+  image: photos/sprints/2018-reportcard.png
   pdf: 2018-reportcard.pdf
   products_text: Socrata Citizen Education Data Cloud
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
@@ -344,7 +344,7 @@
     Progress (NAEP), Integrated Postsecondary Education Data System, Program for International
     Student Assessment (PISA), Trends in International Mathematics and Science Study
     (TIMSS), Education Demographic and Geographic Estimates (EDGE)
-  image: photos/sprints/2018-stem.webp
+  image: photos/sprints/2018-stem.png
   pdf: 2018-stem.pdf
   products_text: Nepris Industry Connections
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
@@ -431,6 +431,9 @@
   Name: Identifying Equity Scores and Gaps
   Products:
   - recj2I36nEPH4qWuf
+  - rechMaHffUM7JYl3l
+  - rec1aSWndKb5kqADi
+  - recj9AnYrX4fI5Ecf
   Sprints:
   - recPEm69CcLh1tX2s
   Target audience / End user: Decision-makers (e.g. superintendents, principals, school
@@ -459,9 +462,10 @@
   airtable_createdTime: '2020-02-10T17:43:23.000Z'
   airtable_id: rec6HY78EY2rrTgQq
   category: Workforce
-  image: photos/sprints/2016-doe2.webp
+  image: photos/sprints/2016-doe2.png
   pdf: 2016-doe.pdf
-  products_text: Opportunity Dashboard
+  products_text: Opportunity Dashboard, Streetwyze, National Equity Atlas, OpenData
+    Network
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - recCtjZOVX3vLEP2u
@@ -563,7 +567,7 @@
   airtable_createdTime: '2020-02-10T18:17:19.000Z'
   airtable_id: rec7PAfceBewrUGZ3
   category: Workforce
-  image: photos/sprints/2016-ag1.webp
+  image: photos/sprints/2016-ag1.png
   pdf: 2016-ag.pdf
   products_text: Findyour.town
   sprint_text: Agency Cohort (2016 Sprint 2/3)
@@ -620,7 +624,7 @@
   datasets_text: USASpending.gov, Performance.gov, DisasterAssistance.gov, Sam.gov,
     Grants.gov, Catalog of Federal Domestic Assistance (CFDA), Federal Procurement
     Data System (FPDS), GPS data, Data.gov, FedBizOps
-  image: photos/sprints/2018-accountability.webp
+  image: photos/sprints/2018-accountability.png
   pdf: 2018-accountability.pdf
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
 - Agency:
@@ -636,6 +640,8 @@
   - recVCXRirVspq062m
   - recQ1M2vLF3zJSUJR
   - reculF774OHizAs0S
+  - recFD7M4ICvq22Nu4
+  - recYDGmuetKuKzaJW
   Sprints:
   - recPEm69CcLh1tX2s
   Target audience / End user: Emergency shelters, homeless advocates, landlords
@@ -658,18 +664,19 @@
   airtable_createdTime: '2020-02-10T17:43:24.000Z'
   airtable_id: recBxwNpfEqtxSEbI
   category: Housing
-  image: photos/sprints/2016-hud.webp
-  products_text: Housing Calculator, FindHome, Neighborhood Opportunity
+  image: photos/sprints/2016-hud.png
+  products_text: Housing Calculator, FindHome, Neighborhood Opportunity, Opportunity
+    Enabler, Affordable Housing Finder
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Name: Data Discovery
   Products:
   - recV0aW7ZolC7aIoy
-  - rec7lQrTnvCdI85aM
+  - recj9AnYrX4fI5Ecf
   Sprints:
   - recPEm69CcLh1tX2s
   airtable_createdTime: '2020-02-21T19:27:44.000Z'
   airtable_id: recCTI1VBSwUOl4Tq
-  products_text: Data.World Workspace, Wolfram Data Repository
+  products_text: Data.World Workspace, OpenData Network
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - rec9lu4zRtMv8dOhs
@@ -765,6 +772,7 @@
   Products:
   - recbsgNzUmmrKuEYn
   - rec1WFJn1OGTTGrZi
+  - recZC1VP8ywUBxS8q
   Sprints:
   - recMpslqDTkD8bJoj
   Target audience / End user: Resettled refugees in the United States, nonprofits
@@ -775,7 +783,7 @@
   featured_product:
   - recbsgNzUmmrKuEYn
   - rec1WFJn1OGTTGrZi
-  products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer
+  products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
   sprint_order: 4
   sprint_text: Built Environment
 - Agency:
@@ -817,6 +825,8 @@
   - recPVCxfdXoYMpSGS
   - recYdVmxC6OUqRxB0
   - recvlzXnQhGrvyOew
+  - recQMqUTqBxw0DK7G
+  - recsTaRTvzM11DFWX
   Sprints:
   - recPEm69CcLh1tX2s
   Target audience / End user: Job placement professionals, community advocates
@@ -836,10 +846,10 @@
   airtable_createdTime: '2020-02-10T18:14:44.000Z'
   airtable_id: recGQ0S48RDx0VENx
   category: Education
-  image: photos/sprints/2016-dol2.webp
+  image: photos/sprints/2016-dol2.png
   pdf: 2016-dol.pdf
   products_text: Job Crowdsourcing Tool, Training Finder, Opportunity.hackernest.com,
-    CareerSpark
+    CareerSpark, Opportunity Score, PolicyMap Tool
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - reclXAsK8svVOyLxO
@@ -853,6 +863,7 @@
   Name: Promoting Health and Wellbeing Nationwide
   Products:
   - rec3DLJOV0X1vHHVe
+  - rechMaHffUM7JYl3l
   Sprints:
   - recPEm69CcLh1tX2s
   Target audience / End user: Parents, local officials, health advocates, policymakers
@@ -885,9 +896,9 @@
   airtable_createdTime: '2020-02-10T17:49:16.000Z'
   airtable_id: recGQxoZehhlElI4g
   category: Workforce
-  image: photos/sprints/2016-sg.webp
+  image: photos/sprints/2016-sg.png
   pdf: 2016-sg.pdf
-  products_text: Fitbit
+  products_text: Fitbit, Streetwyze
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - recFUgWuGZMTCoKVG
@@ -946,7 +957,7 @@
     Tracking Accountability in Government Grants Systems (TAGGS), U.S. Department
     of Agriculture Grants and Loans, U.S. Department of Veteran Affairs Office of
     Finance, Fish and Wildlife (TRACS), USDA NIFA Data Gateway, Performance.gov
-  image: photos/sprints/2018-grants.webp
+  image: photos/sprints/2018-grants.png
   pdf: 2018-grants.pdf
   products_text: Grants Impact and Story Tool, Grants Intelligence
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
@@ -984,7 +995,7 @@
   airtable_createdTime: '2020-02-10T18:56:59.000Z'
   airtable_id: recGo0glu9CVxEX87
   category: Housing
-  image: photos/sprints/2017-veterans.webp
+  image: photos/sprints/2017-veterans.png
   pdf: 2017-veterans.pdf
   products_text: Get Vets Help, PAIRIN Pathways
   sprint_text: 2017 Sprint 1 (ED HUD VA)
@@ -1040,7 +1051,7 @@
   category: Education
   datasets_text: Veterans resumes, Job postings, Registered Apprenticeship Listings,
     BLS Job Outcomes Data
-  image: photos/sprints/2018-ai.webp
+  image: photos/sprints/2018-ai.png
   pdf: 2018-ai.pdf
   products_text: Veteran Apprenticeship Matcher, Career Nav, Watson Employment Manager
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
@@ -1075,7 +1086,7 @@
   airtable_createdTime: '2020-02-10T18:55:00.000Z'
   airtable_id: recMEER5Sc9HQrLOF
   category: Housing
-  image: photos/sprints/2017-youth.webp
+  image: photos/sprints/2017-youth.png
   pdf: 2017-youth.pdf
   products_text: MySpot
   sprint_text: 2017 Sprint 1 (ED HUD VA)
@@ -1266,7 +1277,7 @@
   airtable_createdTime: '2020-02-10T17:30:34.000Z'
   airtable_id: recWUq0tYLA47nFU2
   category: Education
-  image: photos/sprints/2016-doe1.webp
+  image: photos/sprints/2016-doe1.png
   pdf: 2016-doe.pdf
   products_text: School ResourceMapper, LiveStories, Visualizing Youth Disconnection
   sprint_text: Agency Cohort (2016 Sprint 2/3)
@@ -1285,6 +1296,7 @@
   - recuj8LvrOlw7qVZl
   - recJGQBZiNXia0IYm
   - recIigBAir65hTeIa
+  - recXOkjSet73HILtM
   Sprints:
   - recPEm69CcLh1tX2s
   Target audience / End user: Local community leaders
@@ -1317,9 +1329,9 @@
   airtable_createdTime: '2020-02-10T17:27:25.000Z'
   airtable_id: recWbNwNVTeALHVEK
   category: Workforce
-  image: photos/sprints/2016-dot.webp
+  image: photos/sprints/2016-dot.png
   pdf: 2016-dot.pdf
-  products_text: mySidewalk, Create, Commuter Map
+  products_text: mySidewalk, Create, Commuter Map, Transit Analyst
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - recDteLU4JRVKznV2
@@ -1415,6 +1427,8 @@
     (RA) training/job openings.
   Full Title: Accessing Apprenticeships
   Name: Accessing Apprenticeships
+  Products:
+  - recFD7M4ICvq22Nu4
   Sprints:
   - recPEm69CcLh1tX2s
   Target audience / End user: Educators, college career aides, potential employers
@@ -1432,20 +1446,53 @@
   airtable_createdTime: '2020-02-10T17:43:31.000Z'
   airtable_id: recboDOGOG8eKuYc7
   category: Education
-  image: photos/sprints/2016-dol1.webp
+  image: photos/sprints/2016-dol1.png
   pdf: 2016-dol.pdf
+  products_text: Opportunity Enabler
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Agency:
   - recNgTPOj9ZbFP6g3
+  Challenge: Modernize civics training in secondary schools by developing digital
+    products that draw on foreign assistance open data to equip students with an understanding
+    of how American institutions work.
+  Executive champion: Jim Richardson, Director, Office of Foreign Assistance at Department
+    of State
+  Full Title: Reimaging Civics Education for a New Generation
+  Lead POC:
+  - reczFHnzULWJJhsNZ
   Name: Civics Education
   Products:
   - recTfL9YZgQqj9i78
   - recIu57RsPY8g7yE6
   Sprints:
   - recWgRn0SzeC0JNJ1
+  Target audience / End user: Secondary school educators and students enrolled in
+    civics, social studies, or economics courses.
+  Why this problem matters: "Basic education is an exercise in nation-building\u2014\
+    and civics education, a capstone in citizenship. Investments in civics training\
+    \ equip Americans, young and old, with an appreciation for democratic institutions:\
+    \ why they exist, how they work, what they produce. But as civics has gone out\
+    \ of vogue, so has Americans\u2019 support for institutions, at home and abroad.\
+    \ Three out of four Americans believe the public\u2019s trust in the federal government\
+    \ has been shrinking, and two out of three believe the same of one another. Consequently,\
+    \ a growing share of Americans view democracy as a bad way to run government.\
+    \ And beyond the country\u2019s shores, Americans on average believe foreign aid\
+    \ constitutes about 26 percent of the federal budget, when the actual figure is\
+    \ less than 1 percent. Such misinformation obscures the public\u2019s understanding\
+    \ of America\u2019s role in the world. Given these worrying trends, civics training\
+    \ is in need of a refresh\u2014one that puts digital tools in the hands of educators\
+    \ to simplify the workings of government, and puts open data on the screens of\
+    \ students to ground their learning in evidence-based examples. Data on U.S. foreign\
+    \ assistance is an especially useful source because it spans nearly two dozen\
+    \ federal agencies, touches the entire federal budget and spending process, and\
+    \ offers a corrective to popular myths about the U.S. government. "
   agency_text: U.S. Department of State
   airtable_createdTime: '2020-04-30T15:14:43.000Z'
   airtable_id: recdNGSC2k2ptu3JM
+  category: Education
+  contacts_text: Sarath Ganji
+  featured_product:
+  - recTfL9YZgQqj9i78
   products_text: Bites Media, Edubuddy
   sprint_text: TOPx
 - Agency:
@@ -1573,7 +1620,7 @@
   airtable_createdTime: '2020-02-10T17:43:28.000Z'
   airtable_id: recjgkTgiJVNQI06t
   category: Equity
-  image: photos/sprints/2017-grants.webp
+  image: photos/sprints/2017-grants.png
   pdf: 2017-grants.pdf
   products_text: Social Impact Reporting Platform
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)

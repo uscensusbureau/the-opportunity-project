@@ -10,6 +10,7 @@
       </a>
     </h3>
     {% if card.date %}<p class="font-mono-xs card-date">{{ card.date | date: "%B %Y" }}</p>{% endif %}
-    {% if card.details %}<p>{{ card.details }}</p>{% endif %}
+    {% if card.tech_team %}<p class="font-mono-xs">{{ card.tech_team" }}</p>{% endif %}
+    {% if card.details %}<p class="card-details">{{ card.details }}</p>{% endif %}
   </div>
 </div>

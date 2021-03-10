@@ -1,4 +1,4 @@
-- product_name: City Builder
+- title: City Builder
   tech_team: Citi Ventures
   cohort: Workforce
   problem_statement: Opportunity Zones
@@ -19,7 +19,7 @@
     Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
     Commission data to bring transparency to the Opportunity Zone ecosystem for
     investors, fund manager, wealth managers, and cities.
-- product_name: Sille
+- title: Sille
   short_url: sille
   tech_team: Datel Ovela
   cohort: Geocohort
@@ -44,7 +44,7 @@
     access using login: fema@sille.space, password: Planahead2019'
   product_advisors: nil
   participants: nil
-- product_name: PRADOS
+- title: PRADOS
   short_url: icasa
   tech_team: iCASA PR
   cohort: Geocohort

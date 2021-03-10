@@ -830,28 +830,6 @@ main {
   margin-bottom: units(7);
 }
 
-// .data-card {
-//   border: none;
-//   &:hover {
-//     border: 2px solid color("accent-warm");
-//   }
-// }
-//
-// .data-card {
-//   border: none;
-//   &:hover {
-//     border: 2px solid color("accent-warm");
-//   }
-// }
-//
-//
-// .contact-card {
-//   border: none;
-//   &:hover {
-//     border: 2px solid color("base-light");
-//   }
-// }
-
 .clickable-card {
   &:hover {
     cursor: pointer;
@@ -859,17 +837,6 @@ main {
 
 }
 
-.product-card-modal-image {
-  @include at-media("desktop") {
-    margin-left: 30rem !important;
-  }
-}
-
-.product-card-modal-text {
-  @include at-media("desktop") {
-    margin-left: 50% !important;
-  }
-}
 
 // datakit hub
 
@@ -2368,8 +2335,36 @@ code {
   border: 1px solid #888;
 
   &.fixed-width-modal {
-    max-width: 750px;
+    @include u-maxw('mobile-lg');
+    @include at-media('tablet') {
+      @include u-maxw('tablet-lg');
+    }
   }
+}
+
+.modal-grid {
+  @include grid-row;
+  flex-direction: column;
+  .modal-column {
+    @include grid-col(12);
+  }
+
+  @include at-media('tablet'){
+    flex-direction: row;
+    .modal-column {
+      @include grid-col(6);
+    }
+  }
+}
+
+.modal-column > div, .modal-column > header {
+  margin-left: 0 !important;
+}
+
+.modal-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* The Close Button */
@@ -2382,6 +2377,7 @@ code {
   background-color: color("secondary");
   padding: 5px;
   margin: 0;
+  z-index: 100;
 }
 
 .close:hover,

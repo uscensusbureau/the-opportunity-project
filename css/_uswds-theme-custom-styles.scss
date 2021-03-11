@@ -4791,5 +4791,13 @@ h2.section-header {
   @include u-margin-top(0);
 }
 
+.four-oh-four {
+  height: 50vh;
+  @include u-padding-x(4);
+  @include at-media('tablet'){
+    height: 80vh;
+  }
+}
+
 @import 'problem-statement.scss';
 @import 'animated-graphs.scss';

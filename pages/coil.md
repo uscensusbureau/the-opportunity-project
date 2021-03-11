@@ -74,7 +74,7 @@ contact_us:
   people:
     - name: Drew Zachary
       job_title: Co-Founder and Director
-      contact: 'Census.opportunityproject@census.gov'
+      contact: 'site.contacts.email'  
     - name: Lorena Molina-Irizarry
       job_title: 'Director of <br>Operations'
       contact: 'Lorena.Molina-Irizarry@census.gov'

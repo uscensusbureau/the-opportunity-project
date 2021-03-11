@@ -111,7 +111,7 @@ contact_us:
       contact: 'Census.Accelerate@census.gov'
     - name: Drew Zachary
       job_title: Co-Director
-      contact: 'Census.opportunityproject@census.gov'
+      contact: site.contacts.email
 
 # data-kits.html, the data hub landing page - NONE, pulls from _/data/data-kits.yml
 
@@ -155,7 +155,7 @@ get_involved:
       link: sprints/
     - b: Get Updates
       style: secondary white
-      link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
+      link: site.contacts.mailing-list
   text:
     - number: 1
       number_display: false
@@ -474,7 +474,7 @@ photo:
     subtitle: LAUNCHED JUNE 2020
     text: This year, teams are leveraging technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
     button-text: Get Updates
-    button-link: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
+    button-link: site.contacts.mailing-list
     button-color: usa-button__primary-red
 
 # text-callout-centered.html

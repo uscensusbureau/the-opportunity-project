@@ -4,6 +4,7 @@ description: The Opportunity Project helps teams use federal open data to build 
 
 contacts:
   mailing-list: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
+  census-form: https://www.census.gov/forms/contact-top.html
   email: census.opportunityproject@census.gov
 
 # this ensure that posts with future dates are published

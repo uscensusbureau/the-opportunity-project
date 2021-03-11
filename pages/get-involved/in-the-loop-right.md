@@ -10,5 +10,5 @@ Tell us what you’re interested in. We’ll keep you posted about opportunities
 </button>
 
 <button class="usa-button__secondary-dark">
-  <a href="mailto:{{ site.contacts.email }}">Contact Us</a>
+  <a href="{{ site.contacts.census-form }}">Contact Us</a>
 </button>

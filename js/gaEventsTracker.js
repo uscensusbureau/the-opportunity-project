@@ -2,11 +2,6 @@ const GA_NAME = 'gtag_UA_155922885_2'
 
 const signupLinks = document.querySelectorAll("a[href='https://public.govdelivery.com/accounts/USCENSUS/signup/16610']")
 const contactUsLinks = document.querySelectorAll("a[href='https://www.census.gov/forms/contact-top.html']")
-const outboundOptions = {
-  hitType: 'event',
-  eventCategory: 'Outbound Link',
-  eventAction: 'click',
-}
 
 // track clicks to email list signup
 for( link of signupLinks ){
@@ -14,7 +9,7 @@ for( link of signupLinks ){
     e.preventDefault()
     ga(`${GA_NAME}.send`, {
       hitType: 'event',
-      eventCategory: 'Outbound Link',
+      eventCategory: 'Signup Form',
       eventAction: 'click',
       hitCallback: function(){ window.location.href = link.href },
       eventLabel: 'email list signup'
@@ -38,7 +33,8 @@ for( contactLink of contactUsLinks ){
 
 // track direct email link clicks
 const emailLinks = document.querySelectorAll("a[href^='mailto']")
-for( email of emailLinks ){
+emailLinks.forEach( email => {
+  console.log( email.href )
   email.addEventListener('click', e => {
     ga(`${GA_NAME}.send`, {
       hitType: 'event',
@@ -47,4 +43,25 @@ for( email of emailLinks ){
       eventLabel: email.href.replace('mailto:', '')
     })
   })
-}
+})
+
+const productLinks = document.querySelectorAll("a[product-link]")
+productLinks.forEach( link => 
+  link.addEventListener('click', e => {
+    const newTab = link.target === "_blank"
+    if( !newTab ){
+      e.preventDefault()
+    }
+    ga(`${GA_NAME}.send`, {
+      hitType: 'event',
+      eventCategory: 'Product Click',
+      eventAction: 'click',
+      eventLabel: link.href,
+      hitCallback: function(){ 
+        if( !newTab ){
+          window.location.href = link.href 
+        }
+      },
+    })
+  })
+)

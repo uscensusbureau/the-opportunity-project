@@ -28,7 +28,7 @@ for( contactLink of contactUsLinks ){
     e.preventDefault()
     ga(`${GA_NAME}.send`, {
       hitType: 'event',
-      eventCategory: 'Outbound Link',
+      eventCategory: 'Email',
       eventAction: 'click',
       hitCallback: function(){ window.location.href = contactLink.href },
       eventLabel: 'contact us form'

@@ -13,6 +13,7 @@ require('./data-kit-modal');
 require('./sprint-nav-highlight');
 require('./toggle-problem-statements.js');
 require('./return-to-top')
+require('./gaEventsTracker')
 require('./vendor/stickyfill.min.js');
 
 

@@ -180,7 +180,7 @@ hero:
                     </p>
                   </div>
                   <div class="usa-card__footer text-center">
-                    <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" target="_blank">Go to Product</a></button>
+                    <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" product-link target="_blank">Go to Product</a></button>
                   </div>
                 </div>
               </div>

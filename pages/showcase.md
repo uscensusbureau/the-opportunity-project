@@ -160,10 +160,7 @@ hero:
 
               <div class="modal-grid">
                 <div class="modal-column">
-                  <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                    alt="{{ product.image-alt }}"
-                    class="modal-img">
-                  
+                  {% include image.html src=imgSrc alt=product.image-alt class="modal-img" %}                 
                 </div>
                 <div class="modal-column">
                   <header class="usa-card__header">

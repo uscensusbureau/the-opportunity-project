@@ -134,7 +134,7 @@ hero:
         {% assign sprints = site.data.sprints | where:"airtable_id", problem_statement.Sprints[ 0 ] %}
         {% assign sprint = sprints[ 0 ] %}
         
-        <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card-active z-300" name="productCard">
+        <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active z-300" name="productCard">
           <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
@@ -143,51 +143,52 @@ hero:
                 <h4 class="pc-inactive">{{ product.category }}</h4>
               {% endif %}
               <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
-              <p style="display:none">{{ product.description }}</p> <!-- never show this. just for filtering -->
+              <p style="display:none" class="product-desc">{{ product.description }}</p> <!-- never show this. just for filtering -->
               <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p> <!-- never show this. just for searching -->
+              <span style="display:none" class="product-link">{{ product.link }}</span>
+              <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
             </header>
             <div class="usa-card__body">
-              <p class="font-mono-xs text-white">{{ product.tech_team_text | upcase | remove: '"' }}</p>
+              <p class="font-mono-xs text-white product-tech-team">{{ product.tech_team_text | upcase | remove: '"' }}</p>
             </div>
             <div class="usa-card__img">
               {% include image.html src=imgSrc alt=product.image-alt %}
             </div>
           </div>
         </li>
-        <div id="modal-{{ product.title | slugify }}" class="modal modal-inactive z-500">
-          <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
-            <div class="usa-card__container margin-0 border-0">
-
-              <div class="modal-grid">
-                <div class="modal-column">
-                  <img src="{{ site.baseurl }}/img/photos/products/{{ product.image }}"
-                    alt="{{ product.image-alt }}"
-                    class="modal-img">
-                  
-                </div>
-                <div class="modal-column">
-                  <header class="usa-card__header">
-                    <span class="close">&times;</span>
-                    <h3 class="font-sans-md">{{ product.title }}</h3>
-                  </header>
-                
-                  <div class="usa-card__body">
-                    <p class="font-mono-xs">{{ product.tech_team_text | upcase }}</p>
-                    <p>{{ product.description }}</p>
-                    <p class="font-sans-2xs">Datasets Used</p>
-                    <p class="font-sans-2xs">
-                      {{ product.data_sets_text }}
-                    </p>
-                  </div>
-                  <div class="usa-card__footer text-center">
-                    <button class="usa-button__primary-red" type="button" name="button"><a href="{{ product.link }}" product-link target="_blank">Go to Product</a></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </div>
+        
       {% endif %}
     {% endfor %}
+
+    <div id="product-modal" class="modal modal-inactive z-500">
+      <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
+        <div class="usa-card__container margin-0 border-0">
+
+          <div class="modal-grid">
+            <div class="modal-column">
+              {% include image.html src=imgSrc alt=product.image-alt class="modal-img" %}
+            </div>
+            <div class="modal-column">
+              <header class="usa-card__header">
+                <span class="close">&times;</span>
+                <h3 class="font-sans-md">{{ product.title }}</h3>
+              </header>
+            
+              <div class="usa-card__body">
+                <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
+                <p class="modal-desc">{{ product.description }}</p>
+                <p class="font-sans-2xs">Datasets Used</p>
+                <p class="modal-data-sets font-sans-2xs">
+                  {{ product.data_sets_text }}
+                </p>
+              </div>
+              <div class="usa-card__footer text-center">
+                <button class="usa-button__primary-red" type="button" name="button"><a class="modal-link" href="{{ product.link }}" product-link target="_blank">Go to Product</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
   </ul>
 </section>

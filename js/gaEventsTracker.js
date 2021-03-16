@@ -34,7 +34,6 @@ for( contactLink of contactUsLinks ){
 // track direct email link clicks
 const emailLinks = document.querySelectorAll("a[href^='mailto']")
 emailLinks.forEach( email => {
-  console.log( email.href )
   email.addEventListener('click', e => {
     ga(`${GA_NAME}.send`, {
       hitType: 'event',

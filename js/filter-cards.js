@@ -163,13 +163,44 @@ const slugify = str => {
     return str;
 }
 
+const modal = document.getElementById('product-modal');
+const cards = document.getElementsByClassName('product-card')
+Array.from( cards ).forEach( card => {
+  card.addEventListener('click', e => {
+    const cardTitle = card.getElementsByClassName('usa-card__heading')[ 0 ].innerHTML;
 
-$('.usa-card').on('click', function () {
-  $( this ).next('.modal').removeClass('modal-inactive').addClass('modal-active');
-});
+    modal.getElementsByClassName('usa-card__header')[0].getElementsByTagName('h3')[0].innerHTML = cardTitle
+
+    const pic = card.getElementsByTagName('picture')[0]
+    if( pic ){
+      const srcset = pic.children[0].srcset;
+      const imgSrc = pic.children[1].src;
+      const modalPic = modal.getElementsByTagName('picture')[0]
+      if( modalPic ){
+        modalPic.children[0].srcset = srcset;
+        modalPic.children[1].src = imgSrc;
+        modalPic.children[1].alt = pic.children[1].alt;
+      }
+    }
+    
+    modal.getElementsByClassName('modal-tech-team')[0].innerText = 
+      card.getElementsByClassName('product-tech-team')[0].innerText
+    modal.getElementsByClassName('modal-data-sets')[0].innerText = 
+      card.getElementsByClassName('product-data-sets')[0].innerText
+    modal.getElementsByClassName('modal-desc')[0].innerText = 
+      card.getElementsByClassName('product-desc')[0].innerText
+
+    const href = card.getElementsByClassName('product-link')[0].innerText
+    modal.getElementsByClassName('modal-link')[0].href = href
+
+    modal.classList.remove('modal-inactive')
+    modal.classList.add('modal-active')
+  });
+})
 
 $(".close").on("click", function () {
-  $(".modal-active").removeClass('modal-active').addClass('modal-inactive');
+  modal.classList.remove('modal-active')
+  modal.classList.add('modal-inactive')
 });
 
 $('.data-card-group').on('click', function (e) {

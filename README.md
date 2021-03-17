@@ -87,3 +87,6 @@ Federalist will then provide a URL for this build which you can use for user tes
 
 When you merge a branch into `main`, Federalist will then make a new build with the same process and deploy it to opportunity.census.gov
 
+### When a build fails
+
+If Federalist fails to build, the status dot on the branch in Github will change from yellow (in progress) to red (failed). If this happens, contact Logan Powell via Slack in the Census Bureau workspace to see the logs from the failed build. He has access to Federalist itself. We do not.

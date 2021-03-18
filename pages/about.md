@@ -2,7 +2,7 @@
 title: About
 class: about
 permalink: /about/
-layout: default-internal-page
+layout: default
 
 # hero section
 lead:

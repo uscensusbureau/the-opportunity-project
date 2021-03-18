@@ -1,7 +1,8 @@
 <div id="toolkit-{{item.section | slugify }}" class="toolkit-header bg-base-darkest usa-media-block__body desktop:margin-left-neg-3 padding-4 padding-right-8 padding-top-0 padding-bottom-0">
   <h1>{{item.section}}:<br>{{item.header}}</h1>
+  
+  {% if item.time %}
   <div class="display-inline-block">
-    {% if item.time %}
       <p class="display-inline-block">Time: {{item.time}}</p>
       <p class="display-inline-block margin-left-4">Effort:</p>
       {% for i in (1..item.effort-out-of-4) %}
@@ -10,16 +11,19 @@
       {% for i in (1..item.empty) %}
         <p class="bg-white circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
       {% endfor %}
-    {% endif %}
   </div>
+  {% endif %}
+
   <p>{{item.plain-text}}</p>
   {% if item.ul %}
+    {% if item.ul-label %}
+      <p>{{ item.ul-label }}</p>
+    {% endif %}
     <ul>
       {% for li in item.ul %}
         {% if li.li %}
           <li>{{ li.li }}</li>
         {% elsif li.p %}
-          <p class="margin-left-neg-3 padding-left-neg-3">{{ li.p}}</p>
         {% endif %}
       {% endfor %}
     </ul>

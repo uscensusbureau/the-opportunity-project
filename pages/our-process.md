@@ -1,7 +1,7 @@
 ---
 title: Our Process
 permalink: /our-process/
-layout: default-internal-page
+layout: default
 class: our-process
 
 # hero section

@@ -71,9 +71,21 @@ See `/config/gulp/images.js` for more details.
 
 ## Testing
 
+As of March 2021, we run tests locally but not in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement and can possibly be figured out! But for now, this set up works pretty well. It just requires manually running tests locally. Here's how:
+
+### HTML Validation
+
 run `npm run proof` to validate the site's HTML, check broken links, missing images & alts, etc with [HTMLProofer](https://github.com/gjtorikian/html-proofer).
 
 run `npm run proof-external` to also check all external links. This takes longer, but is useful if you've just imported new data which has a bunch of external links that may be broken!
+
+### Accessibility Testing
+
+We test for accessibility issues using [pa11y-ci](https://github.com/pa11y/pa11y-ci) following [this guide](https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe).
+
+There are two commands set up in `package.json`:
+1. `npm run pa11y-ci` to run against a specific set of URLs as listed in `pa11y.json`
+2. `npm run pa11y-ci:sitemap` to run against all urls found in the local sitemap and using the config specified in `.pa11y`
 
 
 <br/>

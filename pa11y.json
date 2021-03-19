@@ -5,7 +5,14 @@
     "runners": ["axe"]
   },
   "urls": [
-    "http://localhost:4000/product-development/toolkit/"
+    "http://localhost:4000/",
+    "http://localhost:4000/about/",
+    "http://localhost:4000/coil/",
+    "http://localhost:4000/faqs/",
+    "http://localhost:4000/our-process/",
+    "http://localhost:4000/prize-challenge/",
+    "http://localhost:4000/press/",
+    "http://localhost:4000/get-involved/"
   ]
 }
 

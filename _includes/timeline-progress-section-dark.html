@@ -15,7 +15,7 @@
           </div>
           <div class="inline-text">
             {% if item.title %}
-              <h4 class="font-sans-lg margin-top-2 margin-bottom-0">{{ item.title }}</h4>
+              <h3 class="font-sans-lg margin-top-2 margin-bottom-0">{{ item.title }}</h3>
             {% endif %}
             {% if item.description %}
               <p class="margin-top-1">{{ item.description }}</p>
@@ -23,13 +23,13 @@
             {% if item.accordions %}
               {% for accordion in item.accordions %}
                 <div class="usa-accordion usa-accordion--bordered bg-base-darker text-white margin-bottom-2 ">
-                  <h4 class="usa-accordion__heading">
+                  <h3 class="usa-accordion__heading">
                     <button class="usa-accordion__button light bg-base-darker text-white"
                       aria-expanded="false"
                       aria-controls="{{ accordion.aria }}">
                       {{ accordion.title }}
                     </button>
-                  </h4>
+                  </h3>
                   <div id="{{ accordion.aria }}" class="usa-accordion usa-accordion--bordered margin-top-0  bg-base-darkest border-solid border-base-darker">
                     {% if accordion.steps %}
                       <ol>

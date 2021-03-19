@@ -1,5 +1,5 @@
 {% assign links = site.sprints | sort: "order" %}
-<nav class="site-nav-secondary sprint-nav" id="sprint-nav">
+<nav class="site-nav-secondary sprint-nav" id="sprint-nav" role="navigation" aria-label="subnavigation">
   <ul>
     {% for link in links %}
       {% assign pageSprints = site.data.sprints | where:'short-tag', link.short-name %}

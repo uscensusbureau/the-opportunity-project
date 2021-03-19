@@ -23,7 +23,11 @@
       {% if include.content.left %}
         {% for section in include.content.left %}
           {% if section.title %}
-            <h3>{{ section.title | markdownify }}</h3>
+            {% if include.content.title %}
+              <h3>{{ section.title | markdownify }}</h3>
+            {% else %}
+              <h2 class="font-sans-4">{{ section.title | markdownify }}</h2>
+            {% endif %}
           {% endif %}
           {% if section.body %}
             {{ section.body | markdownify }}

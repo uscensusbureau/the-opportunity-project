@@ -17,6 +17,7 @@ sidebar:
     href: "#toolkit-step-4"
 
 color: blue-cool-20v
+text-color: text-base-darkest
 
 header: Pre-Sprint Planning
 lead:

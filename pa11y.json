@@ -15,11 +15,13 @@
     "http://localhost:4000/showcase/",
     "http://localhost:4000/prize-challenge/",
     "http://localhost:4000/press/",
+    "http://localhost:4000/topx-toolkit/introduction/",
+    "http://localhost:4000/topx-toolkit/phase-1/",
+    "http://localhost:4000/topx-toolkit/phase-2/",
+    "http://localhost:4000/topx-toolkit/phase-3/",
+    "http://localhost:4000/topx-toolkit/glossary/",
     "http://localhost:4000/data/",
     "http://localhost:4000/data/workforce/",
-    "http://localhost:4000/data/natural-environment/",
-    "http://localhost:4000/data/built-environment/",
-    "http://localhost:4000/data/covid-19/",
     "http://localhost:4000/get-involved/",
     "http://localhost:4000/404.html"
   ]

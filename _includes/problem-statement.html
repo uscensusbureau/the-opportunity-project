@@ -8,20 +8,20 @@
 
     <div class="ps-left-col {{expandedClass}}">
       <span class="secondary-header">Problem Statement</span>
-      <h3 class="text-light font-sans-xl line-height-sans-3 margin-top-1 margin-bottom-1">
+      <h2 class="text-light font-sans-xl line-height-sans-3 margin-top-1 margin-bottom-1">
         {{ include.content['Full Title'] }}
-      </h3>
+      </h2>
       <div class="lhs-content {{ expandedClass }}">
-        <h4 class="problem-statement-subheader">Challenge:</h4>
+        <h3 class="problem-statement-subheader">Challenge:</h3>
         <p>{{ include.content.Challenge | markdownify }}</p>
-        <h4 class="problem-statement-subheader">Why This Problem is Important:</h4>
+        <h3 class="problem-statement-subheader">Why This Problem is Important:</h3>
         <p>{{ include.content["Why this problem matters"] }}</p>
       </div>
     </div>
 
     <div class="ps-right-col {{expandedClass}}">
       <div class="ps-right-col-section ps-products {{expandedClass}}">
-        <h4 class="secondary-header products-header {{expandedClass}}">Product Outcome</h4>
+        <h3 class="secondary-header products-header {{expandedClass}}">Product Outcome</h3>
         {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
         <a class="explore-products {{expandedClass}}" 
           href="{{site.baseurl}}/showcase/?search={{ include.content.Name | slugify }}">
@@ -29,11 +29,11 @@
         </a>
       </div>
       <div class="ps-right-col-section ps-agency {{ expandedClass }}">
-        <h4 class="secondary-header">Agency</h4>
+        <h3 class="secondary-header">Agency</h3>
         <p class="margin-top-1">{{ include.content.agency_text }}</p>
       </div>
       <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
-        <h4 class="secondary-header">Target Audience</h4>
+        <h3 class="secondary-header">Target Audience</h3>
         <p>{{ include.content["Target audience / End user"] }}</p>
       </div>
     </div>

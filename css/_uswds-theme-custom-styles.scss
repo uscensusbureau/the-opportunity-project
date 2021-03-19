@@ -2889,28 +2889,6 @@ code {
   opacity: 1;
 }
 
-// Sprints page
-.tab-row {
-  width: max-content;
-  margin: units(5) auto;
-
-}
-
-.tab-wrapper {
-  cursor: pointer;
-
-  &:first-child {
-    h3 {
-      border-left-width: 2px;
-    }
-  }
-  &:last-child {
-    h3 {
-      border-right-width: 2px;
-    }
-  }
-}
-
 .yr-btn {
   font-size: font-size("mono", "2xs");
   border: solid color("white") 1px;
@@ -2960,6 +2938,24 @@ code {
   display: none !important;
 }
 
+
+// Sprints page
+.tab-row {
+  width: max-content;
+  margin: units(5) auto;
+
+}
+
+.tab-wrapper {
+  cursor: pointer;
+
+  &:first-child * {
+    border-left-width: 2px;
+  }
+  &:last-child * {
+    border-right-width: 2px;
+  }
+}
 
 
 // Layout grid page
@@ -4734,6 +4730,7 @@ h2.section-header {
 }
 
 .problem-statement-subheader {
+  @include u-font-size('sans', 3);
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;

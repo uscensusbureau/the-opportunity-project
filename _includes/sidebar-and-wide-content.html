@@ -24,12 +24,12 @@
           </div>
         {% endfor %}
       </div>
-      <div class=" grid-offset-1 desktop:grid-col-7 tablet:grid-col-6 desktop:margin-top-9" id="main-content">
+      <div class=" grid-offset-1 desktop:grid-col-7 tablet:grid-col-6 desktop:margin-top-9">
       {% assign main-content = page.main-content %}
         <h2>{{ main-content.title }}</h2>
         {% for subsection in main-content.subsections %}
           {% if subsection.title %}
-            <h4>{{ subsection.title }}</h4>
+            <h3 class="font-sans-4 text-bold">{{ subsection.title }}</h3>
           {% endif %}
           {% if subsection.text %}
             <p>{{ subsection.text }}</p>

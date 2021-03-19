@@ -1,7 +1,7 @@
 ---
 title: Natural Environment
 permalink: /data/natural-environment/
-layout: default-internal-page
+layout: default
 
 dataset: earth-sprint
 class: datakit

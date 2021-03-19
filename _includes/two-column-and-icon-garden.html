@@ -26,7 +26,7 @@
             <div class="usa-card__body">
               {% assign slugged = item.title | slugify %}
               {% assign imgSrc = "icons/" | append: slugged | append: ".png" %}
-              {% include image.html src=imgSrc alt=item.title %}
+              {% include image.html src=imgSrc alt=item.alt %}
             </div>
             <div class="usa-card__footer">
               {% if item.title %}

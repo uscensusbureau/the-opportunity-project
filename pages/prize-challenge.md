@@ -1,7 +1,7 @@
 ---
 title: Prize Challenge
 permalink: /prize-challenge/
-layout: default-internal-page
+layout: default
 
 hero:
   text: Prize Challenge

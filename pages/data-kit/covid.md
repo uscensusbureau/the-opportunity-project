@@ -1,7 +1,7 @@
 ---
 title: COVID-19
 permalink: /data/covid-19/
-layout: default-internal-page
+layout: default
 class: covid
 dataset: covid
 

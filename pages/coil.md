@@ -35,10 +35,15 @@ explanation:
   icon-description: Our team is comprised of diverse backgrounds and skillsets. Our unique breadth of expertise allows us to engage effectively with a wide variety of stakeholders.
   icons:
     - title: Human-Centered Design
+      alt: line drawing of four lines pointing at a human figure
     - title: Open Data Advocacy
+      alt: a section of a line graph with four data points
     - title: Community Engagement
+      alt: line drawing of five human figures gathered together
     - title: Design and Technology
+      alt: line drawing of a computer monitor
     - title: Innovation
+      alt: line drawing of a lightbulb
 
 # content with large image and a smaller portion of text next to it. How the image and text are placed next to each other is determined by the value for the "text align"
 featured_items:

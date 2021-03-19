@@ -1,7 +1,7 @@
 ---
 title: Built Environment
 permalink: /data/built-environment/
-layout: default-internal-page
+layout: default
 
 dataset: built-sprint
 class: datakit

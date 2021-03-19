@@ -357,8 +357,8 @@ body:
     color:
     header: Share with End Users & Stakeholders
     plain-text: At the end of your sprint, or when you're ready to launch a prototype or "MVP" of your product, get the word out and make sure people know about the product you built so that they can use it! Share your product with everyone who will be interested.
+    ul-label: 'Stakeholders might include: '
     ul:
-      - p: "Stakeholders might include: "
       - li: People who you designed the tool for — the end users.
       - li: Organizations who can help share or scale the tool.
       - li: Other teams in The Opportunity Project community.

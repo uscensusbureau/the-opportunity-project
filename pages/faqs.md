@@ -1,7 +1,7 @@
 ---
 title: FAQs
 permalink: /faqs/
-layout: default-internal-page
+layout: default
 
 hero:
   text: FAQs

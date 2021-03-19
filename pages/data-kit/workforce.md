@@ -1,7 +1,7 @@
 ---
 title: Workforce
 permalink: /data/workforce/
-layout: default-internal-page
+layout: default
 class: datakit
 
 lead:

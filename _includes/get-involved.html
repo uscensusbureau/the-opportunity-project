@@ -3,7 +3,7 @@
 {% if item.is-blue %}
   {% assign textColor = "text-white" %}
 {% endif %}
-<main class="{% if item.is-blue %}bg-primary{% else %}bg-white {% endif %}">
+<section class="{% if item.is-blue %}bg-primary{% else %}bg-white {% endif %}">
   <section class="usa-section usa-graphic-list grid-container desktop:margin-top-11">
     <div class="grid-row grid-gap">
       <div
@@ -21,7 +21,7 @@
         class="desktop:grid-col-5 tablet:grid-col-5 usa-media-block__body margin-bottom-3 {{ textColor }}"
       >
         {% if item.title %}
-          <h1 class="font-sans-3xl">{{ item.title }}</h1>
+          <h2 class="font-sans-3xl">{{ item.title }}</h2>
         {% endif %}
         {% if item.subtitle %}
           {% for p in item.subtitle %}
@@ -77,4 +77,4 @@
       {% endif %}
     </div>
   </section>
-</main>
+</section>

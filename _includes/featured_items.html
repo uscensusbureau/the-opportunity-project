@@ -1,6 +1,6 @@
 <section class="bg-base-darkest">
   {% for item in page.featured_items %}
-  <section class="usa-section usa-graphic-list grid-container" aria-label="Products built with The Opportunity Project">
+  <section class="usa-section usa-graphic-list grid-container" aria-label="{{ item.name }} Section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         {% if item.text_align == "right" %}

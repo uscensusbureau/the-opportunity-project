@@ -34,11 +34,14 @@
     "crawl": "node config/crawl.js",
     "federalist": "JEKYLL_ENV=production npx gulp build",
     "lint": "gulp eslint scss-lint",
+    "pa11y-ci": "pa11y-ci --config pa11y.json",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude \"/*.pdf\"",
     "prestart": "gulp build",
     "proof": "htmlproofer --allow_hash_href --assume_extension --disable_external --file-ignore ./_site/components/index.html ./_site",
     "proof-external": "htmlproofer --allow_hash_href --assume_extension --only_4xx --file-ignore ./_site/components/index.html ./_site",
     "serve": "bundle exec jekyll serve --drafts --future --incremental --livereload",
     "start": "bundle exec jekyll serve --drafts --future",
+    "start-detached": "bundle exec jekyll serve --detach",
     "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint && htmlproofer --allow_hash_href --assume_extension --file-ignore ./_site/components/index.html --only_4xx ./_site",
     "watch": "NODE_ENV=development nswatch"
   },
@@ -87,6 +90,7 @@
     "minimist": "^1.2.3",
     "node-sass": "^4.13.0",
     "nswatch": "^0.2.0",
+    "pa11y-ci": "^2.4.0",
     "simplecrawler": "^1.1.9",
     "slugify": "^1.4.7",
     "yamljs": "^0.3.0"

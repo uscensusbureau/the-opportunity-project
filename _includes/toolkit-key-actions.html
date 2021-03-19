@@ -22,7 +22,9 @@
                 {% if li.li %}
                   <li>{{ li.li }}</li>
                 {% elsif li.highlight %}
-                  <p class="toolkit-highlight margin-left-2 margin-top-1">{{ li.highlight}}</p>
+                  <li class="usa-list--unstyled toolkit-highlight margin-left-2 margin-top-1">
+                    {{ li.highlight}}
+                  </li>
                 {% endif %}
               {% endfor %}
             </ul>
@@ -52,27 +54,32 @@
   {% endif %}
   {% if action.toggle %}
     <div class="margin-left-6">
-      <button class="toggle-tip-button border-0 bg-white text-base-light"> + To Learn More </button>
-      <div id="{{action.toggle.id}}" class="modal-inactive toolkit-highlight margin-left-2 margin-top-1">
-        <p>
-        {% for phrase in action.toggle %}
-          {% if phrase.p %}
-            {{ phrase.p }}
-          {% endif %}
-          {% if phrase.ul %}
-            <ul>
-              {% for li in phrase.ul %}
-                {% if li.li %}
-                  <li>{{ li.li }}</li>
-                {% elsif li.highlight %}
-                  <p>{{ li.highlight}}</p>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          {% endif %}
-        {% endfor %}
-        </p>
-      </div>
+      <details>
+        <summary>To Learn More</summary>
+        <div id="{{action.toggle.id}}" class="toolkit-highlight margin-left-2 margin-top-1">
+          <p>
+          {% for phrase in action.toggle %}
+            {% if phrase.p %}
+              {{ phrase.p }}
+            {% endif %}
+            {% if phrase.ul %}
+              <ul>
+                {% for li in phrase.ul %}
+                  {% if li.li %}
+                    <li>{{ li.li }}</li>
+                  {% elsif li.highlight %}
+                    <li class="usa-list--unstyled padding-y-1">
+                      {{ li.highlight }}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+          </p>
+        </div>
+      </details>
+      
     </div>
   {% endif %}
 {% endfor %}

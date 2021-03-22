@@ -7,6 +7,7 @@ const linter = require("gulp-scss-lint");
 const postcss = require("gulp-postcss");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
+const critical = require('critical').stream;
 const task = "sass";
 
 sass.compiler = require("sass");
@@ -140,6 +141,31 @@ gulp.task("build-sass-prod", function() {
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("assets/css"))
     .pipe(gulp.dest("_site/assets/css"));
+});
+
+// generate critical css to be included inline
+gulp.task('critical', () => {
+  return gulp
+    .src('_site/index.html')
+    .pipe(
+      critical({
+        base: './',
+        // src: '_site/index.html',
+        css: '_site/assets/css/styles.css',
+        width: 320,
+        height: 480,
+        minify: true,
+        extract: true,
+        ignore: {
+          atrule: ['@font-face'],
+        }
+      })
+    )
+    .on('error', err => {
+      log.error(err.message);
+    })
+    .pipe(gulp.dest('_includes/'));
+  
 });
 
 gulp.task("build-sass", gulp.series("build-sass-dev", "build-sass-prod"));

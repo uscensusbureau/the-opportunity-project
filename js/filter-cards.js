@@ -260,11 +260,20 @@ $('.data-card-group').on('click', function (e) {
 });
 
 
-// if( document.getElementById('data-search-form') )
-$('#data-search-form').submit(function (e) {
-  e.preventDefault();
-  filterDataSets();
-});
+if( document.getElementById('data-search-form') ){
+  document.getElementById('data-search-form').addEventListener('submit', e => {
+    e.preventDefault();
+    filterDataSets();
+  });
+
+  if( searchField ){
+    searchField.addEventListener( 'search', e => {
+      if( searchField.value === '' ){
+        filterDataSets()
+      }
+    })
+  }
+}
 
 function filterDataSets() {
   var filter = $( '#search-field').val();
@@ -274,8 +283,7 @@ function filterDataSets() {
       dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
       dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
       dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-      dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
-      dataNameSlugified = dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-");
+      dataNameSlugified = slugify(dataName.toLowerCase())
       if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
         $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
       } else {

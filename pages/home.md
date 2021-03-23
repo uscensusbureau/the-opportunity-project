@@ -31,7 +31,7 @@ callout:
 
 connecting-banner:
   background-color: primary
-  image: home/homepage-01.png
+  image: home/homepage-01.jpg
   alt: Man presenting to participants at a user engagement workshop hosted by The Opportunity Project
 
 
@@ -55,21 +55,21 @@ featured_items:
   - name: City Builder
     team: Citi Ventures
     description: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
-    img: photos/home/products/city-builder.png
+    img: photos/home/products/city-builder.jpg
     alt: Screenshot of the City Builder website showing the occupancy rate of a selected region
     text_align: right
     button-link: city-builder/
   - name: SILLE
     team: Data Ovela
     description: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure
-    img: photos/home/products/sille.png
+    img: photos/home/products/sille.jpg
     alt: Screenshot of the SILLE tool showing a satellite map of Poland with interactive features
     text_align: left
     button-link: sille/
   - name: PRADOS
     team: iCASAPR
     description: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response
-    img: photos/home/products/prados.png
+    img: photos/home/products/prados.jpg
     alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
     text_align: right
     button-link: prados/

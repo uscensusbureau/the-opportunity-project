@@ -32,6 +32,7 @@
     "check-contrast": "node ./utils/check-contrast.js",
     "clean": "gulp clean-assets",
     "crawl": "node config/crawl.js",
+    "critical": "node config/critical-css.js",
     "federalist": "JEKYLL_ENV=production npx gulp build",
     "lint": "gulp eslint scss-lint",
     "pa11y-ci": "pa11y-ci --config pa11y.json",

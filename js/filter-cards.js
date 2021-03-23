@@ -32,7 +32,15 @@ if( prodSearchForm ){
     searchTerm = searchField.value;
     
     displayFilteredProducts();
-});
+  });
+
+  prodSearchForm.addEventListener( 'input', e => {
+    if( searchField.value === '' ){
+      searchTerm = searchField.value;
+    
+      displayFilteredProducts();
+    }
+  })
 }
 
 /*
@@ -73,8 +81,6 @@ const getCheckedInputs = container => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts() {
-
-  // const areFilters = filterTopics.length > 0 || filterYears.length > 0 || filterAgencies.length > 0;
 
   for (i = 0; i < productCards.length; i++) {
     const card = productCards[ i ];
@@ -131,6 +137,10 @@ if( document.getElementById( 'reset-filter' )) {
     [ topicsInput, yearInput, agencyInput ].forEach( input => 
       input.setAttribute('hidden', "")
     )
+
+    // clear the search
+    searchTerm = ''
+    searchField.value = searchTerm
     
     filterProducts();
   });

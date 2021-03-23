@@ -28,11 +28,18 @@ if( params.has( 'search' )){
 // search
 if( prodSearchForm ){ 
   prodSearchForm.addEventListener( 'submit', e => {
-    e.preventDefault();
-    searchTerm = searchField.value;
-    
-    displayFilteredProducts();
-});
+    e.preventDefault()
+    onSearch()
+    displayFilteredProducts()
+  });
+
+  // add listener for clicking the 'x' in search input
+  searchField.addEventListener( 'search', e => {
+    if( searchField.value === '' ){
+      onSearch()
+      displayFilteredProducts()
+    }
+  })
 }
 
 /*
@@ -45,6 +52,17 @@ if( filterForm ){
 
     filterProducts()
   })
+}
+
+function onSearch() {
+  searchTerm = searchField.value;
+
+  let path = window.location.origin + window.location.pathname
+  if( searchTerm ){
+    path += `?search=${ searchTerm }`
+  }
+  history.replaceState( searchTerm, document.title, path)
+  searchTerm = searchField.value;
 }
 
 /**
@@ -73,8 +91,6 @@ const getCheckedInputs = container => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts() {
-
-  // const areFilters = filterTopics.length > 0 || filterYears.length > 0 || filterAgencies.length > 0;
 
   for (i = 0; i < productCards.length; i++) {
     const card = productCards[ i ];
@@ -131,6 +147,11 @@ if( document.getElementById( 'reset-filter' )) {
     [ topicsInput, yearInput, agencyInput ].forEach( input => 
       input.setAttribute('hidden', "")
     )
+
+    // clear the search
+    searchTerm = ''
+    searchField.value = searchTerm
+    onSearch()
     
     filterProducts();
   });
@@ -239,23 +260,35 @@ $('.data-card-group').on('click', function (e) {
 });
 
 
-
-  $('#data-search-form').submit(function (e) {
+if( document.getElementById('data-search-form') ){
+  document.getElementById('data-search-form').addEventListener('submit', e => {
     e.preventDefault();
-    var filter = $( '#search-field').val();
-    var dataSets = document.getElementsByName('data-set-card');
-    for (i = 0; i < dataSets.length; i++) {
-      if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
-        dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
-        dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
-        dataNameSlugified = dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-");
-        if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-        } else {
-          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
-        }
+    filterDataSets();
+  });
+
+  if( searchField ){
+    searchField.addEventListener( 'search', e => {
+      if( searchField.value === '' ){
+        filterDataSets()
+      }
+    })
+  }
+}
+
+function filterDataSets() {
+  var filter = $( '#search-field').val();
+  var dataSets = document.getElementsByName('data-set-card');
+  for (i = 0; i < dataSets.length; i++) {
+    if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
+      dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+      dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
+      dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
+      dataNameSlugified = slugify(dataName.toLowerCase())
+      if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
+        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+      } else {
+        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
       }
     }
-  });
+  }
+}

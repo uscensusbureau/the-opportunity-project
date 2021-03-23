@@ -112,9 +112,9 @@ hero:
           </div>
         </div>
       </div>
-      <div class="desktop:display-inline-block margin-top-2">
+      <!-- <div class="desktop:display-inline-block margin-top-2">
         <input class="usa-button__secondary-dark padding-1 border-0" type="submit" value="Filter Products">
-      </div>
+      </div> -->
       <div class="display-inline-block margin-top-2">
         <button class="usa-button__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
         </button>

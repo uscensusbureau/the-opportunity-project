@@ -29,17 +29,11 @@ if( params.has( 'search' )){
 if( prodSearchForm ){ 
   prodSearchForm.addEventListener( 'submit', e => {
     e.preventDefault();
-    searchTerm = searchField.value;
-    
-    displayFilteredProducts();
   });
 
-  prodSearchForm.addEventListener( 'input', e => {
-    if( searchField.value === '' ){
-      searchTerm = searchField.value;
-    
-      displayFilteredProducts();
-    }
+  searchField.addEventListener( 'search', e => {
+    onSearch()
+    displayFilteredProducts()
   })
 }
 
@@ -53,6 +47,18 @@ if( filterForm ){
 
     filterProducts()
   })
+}
+
+function onSearch() {
+  searchTerm = searchField.value;
+
+  let path = window.location.origin + window.location.pathname
+  if( searchTerm ){
+    console.log('search field has a value')
+    path += `?search=${ searchTerm }`
+  }
+  history.replaceState( searchTerm, document.title, path)
+  searchTerm = searchField.value;
 }
 
 /**
@@ -141,6 +147,7 @@ if( document.getElementById( 'reset-filter' )) {
     // clear the search
     searchTerm = ''
     searchField.value = searchTerm
+    onSearch()
     
     filterProducts();
   });
@@ -249,23 +256,27 @@ $('.data-card-group').on('click', function (e) {
 });
 
 
+// if( document.getElementById('data-search-form') )
+$('#data-search-form').submit(function (e) {
+  e.preventDefault();
+  filterDataSets();
+});
 
-  $('#data-search-form').submit(function (e) {
-    e.preventDefault();
-    var filter = $( '#search-field').val();
-    var dataSets = document.getElementsByName('data-set-card');
-    for (i = 0; i < dataSets.length; i++) {
-      if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
-        dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-        dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
-        dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-        dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
-        dataNameSlugified = dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-");
-        if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
-        } else {
-          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
-        }
+function filterDataSets() {
+  var filter = $( '#search-field').val();
+  var dataSets = document.getElementsByName('data-set-card');
+  for (i = 0; i < dataSets.length; i++) {
+    if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
+      dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
+      dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
+      dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
+      dataNameSlugified = slugify(dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-"));
+      dataNameSlugified = dataName.toLowerCase().replace('(', ' ').replace(')', '').replace('–⁠', ' ').replace("'", '').replace('-', ' ').replace('&', '').replace('*', ' ').split(" ").join("-");
+      if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
+        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+      } else {
+        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
       }
     }
-  });
+  }
+}

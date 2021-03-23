@@ -7,9 +7,16 @@ critical.generate({
   src: '_site/index.html',
   css: '_site/assets/css/styles.css',
   target: '_includes/critical.css',
-  width: 1045,
+  width: 720,
   height: 480,
   minify: true,
+  ignore: {
+    atrule: ['@font-face'],
+  },
+  ignore: {
+    atrule: ['*'],
+    decl: (node, value) => /ur.\(/.test(value),
+  }
 })
 
 /**

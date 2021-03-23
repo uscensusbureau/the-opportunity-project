@@ -28,12 +28,17 @@ if( params.has( 'search' )){
 // search
 if( prodSearchForm ){ 
   prodSearchForm.addEventListener( 'submit', e => {
-    e.preventDefault();
-  });
-
-  searchField.addEventListener( 'search', e => {
+    e.preventDefault()
     onSearch()
     displayFilteredProducts()
+  });
+
+  // add listener for clicking the 'x' in search input
+  searchField.addEventListener( 'search', e => {
+    if( searchField.value === '' ){
+      onSearch()
+      displayFilteredProducts()
+    }
   })
 }
 
@@ -54,7 +59,6 @@ function onSearch() {
 
   let path = window.location.origin + window.location.pathname
   if( searchTerm ){
-    console.log('search field has a value')
     path += `?search=${ searchTerm }`
   }
   history.replaceState( searchTerm, document.title, path)

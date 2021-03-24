@@ -1,9 +1,6 @@
 'use strict';
 const calculateAnchorPosition = require('./calculate-anchor-position.js')
 
-// var $ = require('jquery');
-
-// var calculateAnchorPosition = require('./calculate-anchor-position');
 var timeout;
 
 /**

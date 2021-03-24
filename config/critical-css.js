@@ -7,7 +7,7 @@ critical.generate({
   src: '_site/index.html',
   css: '_site/assets/css/styles.css',
   target: '_includes/critical.css',
-  width: 720,
+  width: 1055,
   height: 480,
   minify: true,
   ignore: {

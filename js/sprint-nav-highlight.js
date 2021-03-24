@@ -6,14 +6,16 @@ const links = document.querySelectorAll('.sprint-nav-item a')
 
 const highlightNav = ( pageName, scrollTo ) => {
   const section = document.getElementsByName( pageName )[ 0 ];
-  console.log('highlighting ' + pageName)
+  let toHighlight
   if( section ){
-    console.log(section)
-    const toHighlight = section.getElementsByTagName('a')[ 0 ];
-    toHighlight.classList.add(HIGHLIGHT_CLASS)
-    if( scrollTo ){
-      nav.scrollTo( toHighlight.offsetLeft, toHighlight.offsetTop )
-    }
+    toHighlight = section.getElementsByTagName('a')[ 0 ];
+  }
+  else {
+    toHighlight = links[ 0 ];
+  }
+  toHighlight.classList.add(HIGHLIGHT_CLASS)
+  if( scrollTo ){
+    nav.scrollTo( toHighlight.offsetLeft, toHighlight.offsetTop )
   }
 }
 

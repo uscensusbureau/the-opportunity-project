@@ -2,18 +2,7 @@
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
   <head>
-    {% if page.class == "sprints" %}
-    <!-- A javascript-based redirect from /sprints/#asa to /get-involved/#asa
-        Need to generate baseurl var w/Liquid so easier to do the whole thing in-line -->
-      <script type="text/javascript">
-        const locus = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
-        const sprintSub = locus.substring( locus.lastIndexOf('/') + 1 )
-        const hash = window.location.hash
-        if( sprintSub === 'sprints' && hash === '#asa'){
-          window.location.replace("{{ site.baseurl }}/get-involved/#asa")
-        }
-      </script>
-    {% endif %}
+    {% include asa-redirect.html %}
     {% include head.html %}
   </head>
   <body class="page-{{ page.title | slugify }} layout-{{ page.layout }} {% if page.class %}page-{{ page.class | slugify }}{% endif %}">

@@ -3,7 +3,7 @@
   <script type="text/javascript">
     const locus = window.location.pathname.replace(/\/$/, '').replace('.html', '') // get rid of trailing '/'
     const sprintSub = locus.substring( locus.lastIndexOf('/') + 1 )
-    const hash = window.location.hash
+    const hash = window.location.hash.replace('/', '')
     if( sprintSub === 'sprints' && hash === '#asa'){
       window.location.replace("{{ site.baseurl }}/get-involved/#asa")
     }

@@ -1283,8 +1283,45 @@ main {
   display: inline;
 }
 
+.toolkit-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-width: 278px;
+  max-height: 169px;
+
+  .toolkit-blue-rectangle {
+    @include grid-col;
+    @include u-bg('primary');
+    @include u-outline('1px');
+    @include u-outline-color('white');
+    @include u-margin-x(1);
+    @include u-minh(15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:nth-child(1) {
+      @include u-margin-left(0);
+      @include u-bg('blue-cool-20v');
+    }
+    &:nth-child(2) {
+      @include u-bg('accent-cool')
+    }
+    &:nth-child(3) {
+      @include u-margin-right(0);
+      @include u-bg('blue-warm-70v')
+    }
+
+    &.hide {
+      background-color: transparent;
+    }
+  }
+}
+
 .toolkit-colored-div {
-  width: 110vw;
+  width: calc(100vw + 1px);
   margin-left: calc(-55vw + 55%);
 }
 

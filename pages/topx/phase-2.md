@@ -20,7 +20,7 @@ sidebar:
   - text: STEP 6
     href: "#toolkit-step-6"
 
-
+phase: 2
 color: accent-cool
 #text-color: text-black
 

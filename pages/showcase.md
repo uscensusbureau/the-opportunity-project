@@ -163,7 +163,7 @@ hero:
 
           <div class="modal-grid">
             <div class="modal-column">
-              {% include image.html src=imgSrc alt=product.image-alt class="modal-img" %}
+              {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
             </div>
             <div class="modal-column">
               <header class="usa-card__header">

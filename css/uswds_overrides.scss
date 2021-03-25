@@ -42,3 +42,12 @@ html {
 .usa-nav__primary-item {
   border-top: none;
 }
+
+.usa-sidenav a:not(.usa-button){
+  @media (hover: none) {
+    &:hover {
+      background-color: transparent;
+      color: inherit;
+    }
+  }
+}

@@ -2,13 +2,17 @@
   "headers": [
     {
       "/*.png": {
-        "cache-control": "max-age=5000"
+        "cache-control": "max-age=31536000"
       },
+    },
+    {
       "/*.jpg": {
-        "cache-control": "max-age=5000"
+        "cache-control": "max-age=31536000"
       },
+    },
+    {
       "/*.webp": {
-        "cache-control": "max-age=5000"
+        "cache-control": "max-age=31536000"
       }
     }
   ]

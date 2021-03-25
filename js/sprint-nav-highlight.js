@@ -23,7 +23,7 @@ const setHighlightsFromHash = () => {
   const hash = window.location.hash.replace('#', '');
 
   for( link of links ){
-    link.classList.remove( HIGHLIGHT_CLASS )
+    link.classList.remove( HIGHLIGHT_CLASS );
     link.blur();
   }
 
@@ -49,11 +49,11 @@ if( nav ){
   if( subLoc === 'our-process' ){
     for( link of links ){
       // link.classList.remove( HIGHLIGHT_CLASS )
-      link.addEventListener( 'click', e => { 
-        e.preventDefault();
-        document.location = e.target.href;
-        setHighlightsFromHash();
-      })
+      // link.addEventListener( 'click', e => { 
+        // e.preventDefault();
+        // document.location = e.target.href;
+        // setHighlightsFromHash();
+      // })
     }
 
     setHighlightsFromHash();

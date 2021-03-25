@@ -418,9 +418,15 @@ h1, h2, h3 {
     text-decoration: none;
 
     
-    &:hover, &:active {
+    &:active {
       @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
       color: color('secondary');
+    }
+    @media( hover: hover ){
+      &:hover {
+        @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
+        color: color('secondary');
+      }
     }
     &.highlight {
       @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);

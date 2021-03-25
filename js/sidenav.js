@@ -21,7 +21,6 @@ const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass ) => {
   for (i = 0; i < anchorLinks.length; i++ ) {
     var section = pageDivs[i];
     var divDistanceFromTop = section.getBoundingClientRect().top;
-    var divHeight = section.offsetHeight;
 
     // find 
     if (divDistanceFromTop <= 250 ){ // && divDistanceFromTop + divHeight > 50 ) {
@@ -32,6 +31,7 @@ const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass ) => {
     let section = pageDivs[i];
     if( section == lowestMatch ){
       anchorLinks[i].classList.add( highlightClass );
+      console.log('adding highlight to ' + anchorLinks[i].innerText)
     } else {
       anchorLinks[i].classList.remove( highlightClass );
     }

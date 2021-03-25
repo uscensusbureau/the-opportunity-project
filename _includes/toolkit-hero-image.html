@@ -4,7 +4,7 @@
 {% endif %}
 
 <div class="desktop:grid-col-3 toolkit-hero-image desktop:margin-right-6 desktop:margin-top-7">
-  {% if page.name == "glossary.md" %}
+  {% if page.name == "glossary.md" or page.name == "toolkit.md" %}
     <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" alt="{{ page.image-alt }}">
   {% else %}
     <div class="toolkit-image-container">

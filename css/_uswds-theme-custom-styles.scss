@@ -1287,7 +1287,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  // border: 1px solid orange;
   width: 100%;
   height: 100%;
   max-width: 278px;
@@ -1299,6 +1298,7 @@ main {
     @include u-outline('1px');
     @include u-outline-color('white');
     @include u-margin-x(1);
+    @include u-minh(15);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1321,7 +1321,7 @@ main {
 }
 
 .toolkit-colored-div {
-  width: 110vw;
+  width: calc(100vw + 1px);
   margin-left: calc(-55vw + 55%);
 }
 

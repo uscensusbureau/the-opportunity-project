@@ -16,6 +16,7 @@ sidebar:
   - text: STEP 4
     href: "#toolkit-step-4"
 
+phase: 1
 color: blue-cool-20v
 text-color: text-base-darkest
 

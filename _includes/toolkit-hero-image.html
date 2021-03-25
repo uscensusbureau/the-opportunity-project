@@ -1,0 +1,26 @@
+{% assign isIntro = false %}
+{% if page.name == "intro.md" %}
+  {% assign isIntro = true %}
+{% endif %}
+
+<div class="desktop:grid-col-3 toolkit-hero-image desktop:margin-right-6 desktop:margin-top-7">
+  {% if page.name == "glossary.md" %}
+    <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" alt="{{ page.image-alt }}">
+  {% else %}
+    <div class="toolkit-image-container">
+      {% for index in (1..3) %}
+        {% assign phaseMatch = false %}
+        {% if page.phase == forloop.index %}
+          {% assign phaseMatch = true %}
+        {% endif %}
+        <!-- {{ isIntro }} {{ phaseMatch }} -->
+        <div class="toolkit-blue-rectangle {% if isIntro != true and phaseMatch != true %}hide{% endif %}">
+          {% if phaseMatch == true and isIntro == false %}
+            <h2 class="{{ page.text-color }}">{{ forloop.index }}</h2>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+</div>

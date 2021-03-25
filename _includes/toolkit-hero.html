@@ -1,16 +1,12 @@
 <section class="interior-hero padding-top-4 bg-base-darkest">
   <div class="grid-container padding-bottom-5">
     <div class="grid-row desktop:height-mobile">
-      <div class="desktop:grid-col-3 toolkit-hero-image desktop:margin-right-6 desktop:margin-top-7">
-        <img src="{{site.baseurl}}/assets/img/toolkits/{{ page.image }}" alt="{{ page.image-alt }}">
-      </div>
+      {% include toolkit-hero-image.html %}
       <div
         class="desktop:grid-col-7 display-inline-block"
       >
       {% if page.header %}
-        <h1
-          class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
-        >
+        <h1 class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white">
           {{ page.header }}
         </h1>
       {% else %}

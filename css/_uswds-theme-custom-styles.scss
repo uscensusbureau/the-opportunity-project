@@ -1299,6 +1299,9 @@ main {
     @include u-outline('1px');
     @include u-outline-color('white');
     @include u-margin-x(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:nth-child(1) {
       @include u-margin-left(0);
       @include u-bg('blue-cool-20v');
@@ -1314,9 +1317,6 @@ main {
     &.hide {
       background-color: transparent;
     }
-  }
-  .toolkit-blue-rectangle{
-   
   }
 }
 

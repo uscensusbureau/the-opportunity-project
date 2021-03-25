@@ -1,8 +1,5 @@
 'use strict';
 
-/* Firefox needs html, others need body */
-var root = $('body, html');
-
 // capture that the enter key was used to "click"
 $('.sidenav').on('keydown', 'a', function (e) {
   var ENTER = 13;
@@ -16,7 +13,6 @@ var sections = document.getElementsByClassName("toolkit-section")
 
 const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass ) => {
   let lowestMatch = pageDivs[ 0 ]; // hack for our-process not highlighting above the fold
-  let closestTo250 = Number.MAX_SAFE_INTEGER;
   var i;
   for (i = 0; i < anchorLinks.length; i++ ) {
     var section = pageDivs[i];
@@ -27,15 +23,19 @@ const highlightAnchorNavigation = ( anchorLinks, pageDivs, highlightClass ) => {
       lowestMatch = section;
     }
   }
+
+  let matchingLink = anchorLinks[0]
   for( i = 0; i < anchorLinks.length; i++ ){
     let section = pageDivs[i];
     if( section == lowestMatch ){
       anchorLinks[i].classList.add( highlightClass );
-      console.log('adding highlight to ' + anchorLinks[i].innerText)
+      matchingLink = anchorLinks[ i ]
     } else {
       anchorLinks[i].classList.remove( highlightClass );
     }
   }
+
+  return matchingLink;
 };
 
 // Add event listener to scroll

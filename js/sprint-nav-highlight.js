@@ -47,21 +47,14 @@ if( nav ){
    * for sprints page, highlight based on /baseurl/sprints
    */
   if( subLoc === 'our-process' ){
-    for( link of links ){
-      // link.classList.remove( HIGHLIGHT_CLASS )
-      // link.addEventListener( 'click', e => { 
-        // e.preventDefault();
-        // document.location = e.target.href;
-        // setHighlightsFromHash();
-      // })
-    }
 
     setHighlightsFromHash();
 
     const headers = document.getElementsByClassName('process-section')
 
     window.addEventListener('scroll', e => {
-      highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS )
+      navLink = highlightAnchorNavigation( links, headers, HIGHLIGHT_CLASS )
+      nav.scrollTo( navLink.offsetLeft, navLink.offsetTop )
     });
   }
   else {

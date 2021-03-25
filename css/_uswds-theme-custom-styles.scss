@@ -372,7 +372,7 @@ h1, h2, h3 {
     }
 
     @include at-media('755px'){  // want 755px
-      height: units($height-nav-secondary);
+      height: 100%; //units($height-nav-secondary);
       overflow-x: hidden;
       ul {
         width: auto;
@@ -412,11 +412,10 @@ h1, h2, h3 {
     color: color("gray-50");
     display: inline-block;
     font-weight: fw("normal");
-    // height: units($height-nav-secondary);
     padding: units(2);
     position: relative;
     text-decoration: none;
-
+    height: 100%;
     
     &:active {
       @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);

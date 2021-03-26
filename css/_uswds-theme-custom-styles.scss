@@ -709,7 +709,8 @@ main {
 }
 
 .btn-link {
-  margin-top: units(3);
+  display: inline-block;
+  @include u-margin-top(4);
   border: none;
   text-transform: uppercase;
   padding: units(2) units(5);
@@ -719,17 +720,62 @@ main {
   color: color("white");
   text-decoration: none;
 
-  &__red {
-    background-color: color("secondary");
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &__primary {
+    @extend .btn-link;
+    border: none;
     color: color("white");
-    &:visited, &:hover { 
+    &:hover, &:visited {
       color: color('white');
+    }
+
+    &-red {
+      @extend .btn-link__primary;
+      background-color: color("secondary");
+    }
+    &-dark {
+      @extend .btn-link__primary;
+      background-color: color("base-darkest");
     }
   }
 
-  &:hover {
-      text-decoration: underline;
-      cursor: pointer;
+  &__secondary {
+    @extend .btn-link;
+    border: 1px solid;
+    background-color: color("transparent");
+
+    &-gray {
+      @extend .btn-link__secondary;
+      border-color: color('base');
+      color: color("base");
+      &:hover, &:visited {
+        color: color('base');
+      }
+    }
+
+    &-white {
+      @extend .btn-link__secondary;
+      border-color: color("white");
+      color: color("white");
+      &:hover, &:visited {
+        color: color('white');
+      }
+    }
+
+    &-dark {
+      @extend .btn-link__secondary;
+      border-color: color("base-darkest");
+      color: color("base-darkest");
+      &:visited {
+        color: color('base-darkest');
+      }&:hover {
+        color: color('base');
+      }
+    }
   }
 }
 
@@ -752,29 +798,6 @@ main {
     }
   }
 
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__primary-red {
-  margin-top: units(3);
-  border: none;
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("secondary");
-  color: color("white");
-
-  a {
-    text-decoration: none;
-    color: color("white");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
   &:hover {
     cursor: pointer;
   }

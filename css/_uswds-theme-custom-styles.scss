@@ -708,6 +708,31 @@ main {
   color: color("primary-dark");
 }
 
+.btn-link {
+  margin-top: units(3);
+  border: none;
+  text-transform: uppercase;
+  padding: units(2) units(5);
+  font-family: font-family("mono");
+  font-size: font-size("mono", "3xs");
+  background-color: color("base-darkest");
+  color: color("white");
+  text-decoration: none;
+
+  &__red {
+    background-color: color("secondary");
+    color: color("white");
+    &:visited, &:hover { 
+      color: color('white');
+    }
+  }
+
+  &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+  }
+}
+
 .usa-button__primary-dark {
   margin-top: units(3);
   border: none;

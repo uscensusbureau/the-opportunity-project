@@ -244,6 +244,21 @@ h1, h2, h3 {
 
     @include at-media("desktop") {
       display: inline-block;
+      height: units(10);
+      @include u-margin(0);
+      @include u-margin-left('auto');
+      @include u-padding-top(4);
+      // position: absolute;
+      // right: 0;
+      // margin-top: -1px;
+    }
+  }
+
+  .download-pdf {
+    display: none;
+
+    @include at-media("desktop") {
+      display: inline-block;
       position: absolute;
       right: 0;
       margin-top: -1px;
@@ -3588,7 +3603,7 @@ h6 + div:not(.usa-accordion__content) {
     @include at-media("desktop") {
       align-items: center;
       display: flex;
-      padding-right: units(3);
+      // padding-right: units(3);
       height: units(10);
       margin-top: -1px;
       margin-bottom: -4px;

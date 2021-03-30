@@ -248,9 +248,6 @@ h1, h2, h3 {
       @include u-margin(0);
       @include u-margin-left('auto');
       @include u-padding-top(4);
-      // position: absolute;
-      // right: 0;
-      // margin-top: -1px;
     }
   }
 
@@ -1673,10 +1670,6 @@ main {
     font-weight: font-weight("normal");
     margin-bottom: 0;
     margin-top: units(2px);
-  }
-
-  a {
-    color: color($site-primary-dark);
   }
 
   img {

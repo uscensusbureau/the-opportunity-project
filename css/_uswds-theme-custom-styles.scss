@@ -722,7 +722,7 @@ main {
 
 .btn-link {
   display: inline-block;
-  @include u-margin-top(4);
+  @include u-margin-top(3);
   border: none;
   text-transform: uppercase;
   padding: units(2) units(5);
@@ -788,105 +788,15 @@ main {
         color: color('base');
       }
     }
-  }
-}
 
-.usa-button__primary-dark {
-  margin-top: units(3);
-  border: none;
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("base-darkest");
-  color: color("white");
-
-  a {
-    text-decoration: none;
-    color: color("white");
-    &:hover {
-      text-decoration: underline;
+    &-red {
+      @extend .btn-link__secondary;
+      border: none;
+      color: color("secondary");
+      &:hover {
+        color: color("base")
+      }
     }
-  }
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-white {
-  margin-top: units(3);
-  border: 1px solid color("white");
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("white");
-
-  a {
-    text-decoration: none;
-    color: color("white");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-gray {
-  margin-top: units(3);
-  border: 1px solid color("base");
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("base");
-  @include dark-links;
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-dark {
-  margin-top: units(3);
-  border: 1px solid color("base-darkest");
-  text-transform: uppercase;
-  padding: units(2) units(4);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("base-darkest");
-  &:hover {
-    color: color("base");
-    text-decoration: underline;
-  }
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-red {
-  margin-top: units(3);
-  border: 0;
-  text-transform: uppercase;
-  padding: units(2);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("secondary");
-  &:hover {
-    color: color("base");
-    text-decoration: underline;
-  }
-  &:hover {
-    cursor: pointer;
   }
 }
 
@@ -2588,20 +2498,6 @@ code {
       background-color: color("base-darkest");
       color: color("white");
       padding: units(3) units(5);
-
-      a {
-        text-decoration: none;
-        padding-top: units(4);
-        padding-bottom: units(4);
-        color: color("white");
-        &:visited {
-          color: color("base-light");
-        }
-        &:hover {
-          color: color("base-light");
-          text-decoration: underline;
-        }
-      }
     }
 
     @include at-media("desktop")  {

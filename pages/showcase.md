@@ -48,7 +48,7 @@ hero:
   <form id="product-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
     <label class="usa-sr-only" for="search-field">Search all products</label>
     <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search all products">
-    <button class="usa-button__primary-dark" type="submit">
+    <button class="btn-link__primary-dark" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
   </form>
@@ -58,7 +58,7 @@ hero:
       <div class="desktop:display-inline-block height-5 z-400">
         <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
           <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card usa-button__secondary-gray padding-1 text-center"
+            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="topics">
               TOPICS
@@ -77,7 +77,7 @@ hero:
       <div class="desktop:display-inline-block height-5 z-400">
         <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
           <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card usa-button__secondary-gray padding-1 text-center"
+            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="year">
               Year
@@ -96,7 +96,7 @@ hero:
       <div class="desktop:display-inline-block height-5 z-400">
         <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card-lg margin-right-2">
           <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card-lg usa-button__secondary-gray padding-1 text-center"
+            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card-lg btn-link__secondary-gray padding-1 text-center"
               aria-expanded="false"
               aria-controls="agency">
                Partner Agency
@@ -113,7 +113,7 @@ hero:
         </div>
       </div>
       <div class="display-inline-block margin-top-2">
-        <button class="usa-button__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
+        <button class="btn-link__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
         </button>
       </div>
     </div>
@@ -180,7 +180,8 @@ hero:
                 </p>
               </div>
               <div class="usa-card__footer text-center">
-                <button class="usa-button__primary-red" type="button" name="button"><a class="modal-link" href="{{ product.link }}" product-link target="_blank">Go to Product</a></button>
+                <a class="btn-link__primary-red modal-link" 
+                href="{{ product.link }}" product-link target="_blank">Go to Product</a>
               </div>
             </div>
           </div>

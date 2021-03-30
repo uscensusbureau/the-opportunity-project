@@ -67,7 +67,8 @@
             <p>{{ text.description }}</p>
           {% endif %}
           {% if text.button %}
-            <button class="usa-button__{{ button.style | slugify }}"><a href="{{ button.link }}">{{ text.button }}</a></button><br>
+            <a class="btn-link__{{ button.style | slugify }}" href="{{ button.link }}">{{ text.button }}</a>
+            <br>
           {% endif %}
         </div>
       {% endfor %}

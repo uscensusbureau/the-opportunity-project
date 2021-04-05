@@ -1,0 +1,720 @@
+_table:
+  _base:
+    _airtable:
+      requestTimeout: 300000
+    _id: appTWigF6HIiW5QuD
+  id: null
+  name: sprints
+  find: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var thisCallbackArgIndex;
+            if (callbackArgIndex === void 0) {
+                // istanbul ignore next
+                thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+            }
+            else {
+                thisCallbackArgIndex = callbackArgIndex;
+            }
+            var callbackArg = arguments[thisCallbackArgIndex];
+            if (typeof callbackArg === 'function') {
+                fn.apply(context, arguments);
+                return void 0;
+            }
+            else {
+                var args_1 = [];
+                // If an explicit callbackArgIndex is set, but the function is called
+                // with too few arguments, we want to push undefined onto args so that
+                // our constructed callback ends up at the right index.
+                var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+                for (var i = 0; i < argLen; i++) {
+                    args_1.push(arguments[i]);
+                }
+                return new Promise(function (resolve, reject) {
+                    args_1.push(function (err, result) {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve(result);
+                        }
+                    });
+                    fn.apply(context, args_1);
+                });
+            }
+        }
+  select: !<tag:yaml.org,2002:js/function> 'function () { [native code] }'
+  create: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var thisCallbackArgIndex;
+            if (callbackArgIndex === void 0) {
+                // istanbul ignore next
+                thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+            }
+            else {
+                thisCallbackArgIndex = callbackArgIndex;
+            }
+            var callbackArg = arguments[thisCallbackArgIndex];
+            if (typeof callbackArg === 'function') {
+                fn.apply(context, arguments);
+                return void 0;
+            }
+            else {
+                var args_1 = [];
+                // If an explicit callbackArgIndex is set, but the function is called
+                // with too few arguments, we want to push undefined onto args so that
+                // our constructed callback ends up at the right index.
+                var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+                for (var i = 0; i < argLen; i++) {
+                    args_1.push(arguments[i]);
+                }
+                return new Promise(function (resolve, reject) {
+                    args_1.push(function (err, result) {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve(result);
+                        }
+                    });
+                    fn.apply(context, args_1);
+                });
+            }
+        }
+  update: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var thisCallbackArgIndex;
+            if (callbackArgIndex === void 0) {
+                // istanbul ignore next
+                thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+            }
+            else {
+                thisCallbackArgIndex = callbackArgIndex;
+            }
+            var callbackArg = arguments[thisCallbackArgIndex];
+            if (typeof callbackArg === 'function') {
+                fn.apply(context, arguments);
+                return void 0;
+            }
+            else {
+                var args_1 = [];
+                // If an explicit callbackArgIndex is set, but the function is called
+                // with too few arguments, we want to push undefined onto args so that
+                // our constructed callback ends up at the right index.
+                var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+                for (var i = 0; i < argLen; i++) {
+                    args_1.push(arguments[i]);
+                }
+                return new Promise(function (resolve, reject) {
+                    args_1.push(function (err, result) {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve(result);
+                        }
+                    });
+                    fn.apply(context, args_1);
+                });
+            }
+        }
+  replace: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var thisCallbackArgIndex;
+            if (callbackArgIndex === void 0) {
+                // istanbul ignore next
+                thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+            }
+            else {
+                thisCallbackArgIndex = callbackArgIndex;
+            }
+            var callbackArg = arguments[thisCallbackArgIndex];
+            if (typeof callbackArg === 'function') {
+                fn.apply(context, arguments);
+                return void 0;
+            }
+            else {
+                var args_1 = [];
+                // If an explicit callbackArgIndex is set, but the function is called
+                // with too few arguments, we want to push undefined onto args so that
+                // our constructed callback ends up at the right index.
+                var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+                for (var i = 0; i < argLen; i++) {
+                    args_1.push(arguments[i]);
+                }
+                return new Promise(function (resolve, reject) {
+                    args_1.push(function (err, result) {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve(result);
+                        }
+                    });
+                    fn.apply(context, args_1);
+                });
+            }
+        }
+  destroy: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var thisCallbackArgIndex;
+            if (callbackArgIndex === void 0) {
+                // istanbul ignore next
+                thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+            }
+            else {
+                thisCallbackArgIndex = callbackArgIndex;
+            }
+            var callbackArg = arguments[thisCallbackArgIndex];
+            if (typeof callbackArg === 'function') {
+                fn.apply(context, arguments);
+                return void 0;
+            }
+            else {
+                var args_1 = [];
+                // If an explicit callbackArgIndex is set, but the function is called
+                // with too few arguments, we want to push undefined onto args so that
+                // our constructed callback ends up at the right index.
+                var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+                for (var i = 0; i < argLen; i++) {
+                    args_1.push(arguments[i]);
+                }
+                return new Promise(function (resolve, reject) {
+                    args_1.push(function (err, result) {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve(result);
+                        }
+                    });
+                    fn.apply(context, args_1);
+                });
+            }
+        }
+  list: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            if (!didWarnForDeprecation[key]) {
+                didWarnForDeprecation[key] = true;
+                console.warn(message);
+            }
+            fn.apply(this, args);
+        }
+  forEach: !<tag:yaml.org,2002:js/function> |-
+    function () {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            if (!didWarnForDeprecation[key]) {
+                didWarnForDeprecation[key] = true;
+                console.warn(message);
+            }
+            fn.apply(this, args);
+        }
+id: rec5A5h9cq07ijoPk
+_rawJson:
+  id: rec5A5h9cq07ijoPk
+  fields: &ref_0
+    Name: 2020 Census
+    Year: 2019
+    Theme: 'Innovating the 2020 Census: Leveraging Technology to Get Out the Count'
+    Problem Statements:
+      - rec2cDmW6ubg6Wco0
+      - recPYnQdPuuZ0FZZ9
+      - recnJuVbZsWFhpBW8
+      - recDkOPeR5RLFwe2e
+    Tech Team Companies:
+      - recYJMcRX9wkv4vwC
+      - rec2xyjvmNoAwTUFO
+      - receQOPQTDz0IwuW7
+      - receA8L3kGfxaoNju
+      - recpG8DRcMaxzbdYQ
+      - recoaWbpjLMVcGQuZ
+      - recMBUDnhrovexBaQ
+      - rec1nvpK6aLuJHf4k
+      - rec1pHCwGPd73Vsl1
+      - recaICe0aopz4te6Q
+      - rec5lLkD2ar0icWWj
+      - rec2OZAwXwEeC3lJm
+      - recrvakakSZWvN1JP
+      - recgD93zc764CnU0d
+      - rec5KDUVIyOhJ3uLn
+      - recYAWYmMBC2mroau
+      - recOIHko51IqpFdf0
+      - recWQoDTu3njZ7zoq
+      - reczOy5j4CLUvyWCz
+      - recFnuIRWReDhsPry
+      - recUjjoELSdnosoyG
+      - recDXnWJ9NHq6mwaE
+      - recemQp5luOwE1Ijk
+      - rec1luEZdjkSLMbWo
+      - recZbMqqKSxUiE7PX
+      - recT4XK6OfXia3Q47
+      - rec4d03ZXyrFX11XA
+      - recGXhEPPdT8qSQYg
+      - rec4gpX3nEDGT5XTx
+      - recjguUjWNcYaqufI
+      - recjJnwtsUA1DPcXf
+      - recyea0abIYS5NIiV
+      - recxkVvpEb18HDrBK
+      - recy23CFe7HSoXMpH
+    User Advocates: >-
+      David Strom, Todd Gilbert , William Wubbenhorst , Jennifer Edwards,
+      Charles Amuzie, Lisa Matthews, Alejandro Roark, Arturo Gonzales, Levina
+      Kim, Alejandra Silguero, Lizette Escobedo, Patricia Foxen, Colin McClay,
+      Brenda Gonzalez, Viviana Lopez Green, Stephanie Marrus, Joe Kapp,
+      Alejandro Roark, Arturo Gonzales, Levina Kim, Kevin Sinha, Austin Davis
+    Data Stewards: >-
+      Andy Hait , Eric Coyle, Logan Powell, Gina Walejko, Marc Perry, Ben
+      Bolender, Nicholas Jones, Gerson Vasquez, Michael Martin, Kurt Bauman, Emy
+      Tseng, Scott Woods, Suzanne McArdle, Amanda Moritz, Anna Parikos, Katrina
+      King, Sari Sue Jolly
+    Product Advisors: 'Tom Juarez, Dana Publicover, Jeff Meisel, Paul Franz'
+    Census Expert: >-
+      Eric Jensen, William Snow, Crystal Miller, Liz Jeninga, Kevin Hawley,
+      Megan Kindelan, Jenny Hunter Childs, Merarys Rios, Bina Saafi, Bridget
+      Johnson, Deborah (Deb) Stein, Austin Davis, Kevin Sinha, Denice Ross, Kyla
+      Fullenwider, Charley Johnson, Maria Filipelli 
+    Products:
+      - recB5iDMet16XnjXe
+      - recSXynrxBTKXTh63
+      - recCGea83hgr4djMm
+      - recZn66weHUm3gq49
+      - recc6G4ozj7KnAH6e
+      - recro3E8gXTIQ5IHO
+      - recYOMiqxyb3IN11r
+    Participants:
+      - reckRo8RLRL8fxBki
+      - recSMNJdWZFyzXs6l
+      - recUAgl06lSRyff6V
+      - recW6xZxbH06A1689
+      - recOY6OC8YoSkeIgs
+      - recidSWDHXXplUysA
+      - reczmfb7yWrg4KFna
+      - reciRc83Ftknpe6BZ
+      - recZ1wD0M4txNrsVd
+      - rec8FRCwIVf3E23ej
+      - recukaGksauJz43QN
+      - rec3YwJP035NWcwAK
+      - rec4bBfj9qX6SAocU
+      - recxJLth88lLlFHTi
+      - recM9YuPpRQOhf5dp
+      - recPRysbKaFAoX5dx
+      - recPzjgc6Cuhz0VTW
+      - recLMCkcioLcHkqVo
+      - rec2bOZBsJ7dHuIFd
+      - recS4F1HFxzkCGiue
+      - recCTVPKAG6HehMUC
+      - reclg28okMiVXpiqk
+      - recYwzkHYQLu8V0er
+      - recuTllAMCuTgvlC5
+      - recsgCV9yaLwVcQEn
+      - rec4PK2KFvY9CuDNA
+      - recTWGqTv1NjgxSAt
+      - recGWCjzJBwAycyap
+      - recFN7GwyK88Sd6ye
+      - recmVKGxlh5J0NaNP
+      - rec9LEh7hTCPSdmcT
+      - recCiR9dg71nwNbPY
+      - recwbdsUI41KJC43R
+      - recRifLFAnfyiZthn
+      - recdTaXir1AA3MtZ6
+      - rec3ByZIcTcu9X4Xi
+      - rectspkF6Oe7Yhahz
+      - recVtw5aZgiHLU5Ef
+      - recufJs6nIKYYJP4l
+      - reco49PExuB91fTRb
+      - recO7thkldZKKFMtp
+      - recpoopuzCjEHCXcd
+      - rece5moA2zcIUGW0Q
+      - receaTdupjBU9gbeQ
+      - recXxkBnqaNXjgfb1
+      - recXLfvt3a7tORZxS
+      - recyLaPvWRoAKRHu2
+      - recD7uHboyqbIfhJw
+      - recN73Idp4luqoKvA
+      - recvDB4oNEHFxE7AG
+      - rec925hXSsWunIssI
+      - recdubD8c5e1LS84Z
+      - recbO5eZFdZzep9nN
+      - recamF5P2fWHfe5qK
+      - recXb2acigj7qtN6I
+      - recqX86nismZr5q8T
+      - recALE9FWO2tmJCap
+      - recoUYFVoEnhowt05
+      - reciFkM2aLTxh6W4y
+      - recxyGA7EozCtwb6L
+      - recfbjuN1BHcRewx0
+      - reck0p3IiUGcQLcsN
+      - recCXLQM7Cgm4I9Ox
+      - recUdiIHsyJWZwNBM
+      - reciTpDjNljmiZhSN
+      - recpzecYhTlIo7WBk
+      - rec53xJZK3iplBtwq
+      - recilbcBgCkmK9FdD
+      - recPHSd3IVTbmkdO4
+      - reco6sQcnM6PCgRDM
+      - recmQ0uGqKw0X206V
+      - recCSjR4AgY6gbHfc
+      - rec5GSWzTuNw3OB4T
+      - rectN2nWkUd1ZfVR2
+      - reckahKSzl5fAA5js
+      - recgqiDNHb9OfxRvg
+      - recNxrYma98gOZEmp
+      - recYyr3N0PpaUjPRY
+      - recyh7V0eLYFJOoxZ
+      - recxymkZFNA1423GI
+      - recLZxJ8G6XQ8HLCI
+      - recuUZ2GCJE0zbKVP
+      - rec6IjW1Gfzet90ou
+      - recvcvLUIx19ymYu7
+      - recfXbswSe7YWVC44
+      - recsAfGqUxsP9yxI9
+      - recZgXyjz0cumDFWn
+      - rec2WYsMIKN4psbMp
+      - reccnppsLpeeQrb2h
+      - rectJjFbZnQvqPeN5
+      - recIm8OVsu18GsNDP
+      - recg47fpCKiYUm1lb
+      - recaVA3640Kv4EdqC
+      - rec79Xd4o1FZWmhtO
+      - rec8b3stUiZvgveyy
+      - recLhHU45I39RuPGp
+      - recM2oD2T8TzEhEvJ
+    description: >-
+      Once a decade, America comes together to count every person living in the
+      United States. Creating national awareness of the significance of the
+      Census and the critical information it provides is of the utmost
+      importance, as the population count determines how political
+      representation and close to $700 billion in federal funding are allocated
+      to communities across the nation for the next 10 years. In the 2020 Census
+      sprint, tech teams including Measure of America, Columbia University, Next
+      Day Better, and others developed digital products to reach hard-to-count
+      communities and promote Census jobs. Given the option to complete the
+      Census online and increased concerns around disinformation, teams also
+      focused efforts on bridging the digital divide and increasing digital
+      literacy.
+    short-tag: 20cen
+    order-number: 3
+    img: landing/Sprint-Background_03_Census.jpg
+  createdTime: '2020-01-30T17:48:59.000Z'
+fields: *ref_0
+save: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+patchUpdate: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+putUpdate: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+destroy: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+fetch: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+updateFields: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+replaceFields: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }
+replaceFields: !<tag:yaml.org,2002:js/function> |-
+  function () {
+          var thisCallbackArgIndex;
+          if (callbackArgIndex === void 0) {
+              // istanbul ignore next
+              thisCallbackArgIndex = arguments.length > 0 ? arguments.length - 1 : 0;
+          }
+          else {
+              thisCallbackArgIndex = callbackArgIndex;
+          }
+          var callbackArg = arguments[thisCallbackArgIndex];
+          if (typeof callbackArg === 'function') {
+              fn.apply(context, arguments);
+              return void 0;
+          }
+          else {
+              var args_1 = [];
+              // If an explicit callbackArgIndex is set, but the function is called
+              // with too few arguments, we want to push undefined onto args so that
+              // our constructed callback ends up at the right index.
+              var argLen = Math.max(arguments.length, thisCallbackArgIndex);
+              for (var i = 0; i < argLen; i++) {
+                  args_1.push(arguments[i]);
+              }
+              return new Promise(function (resolve, reject) {
+                  args_1.push(function (err, result) {
+                      if (err) {
+                          reject(err);
+                      }
+                      else {
+                          resolve(result);
+                      }
+                  });
+                  fn.apply(context, args_1);
+              });
+          }
+      }

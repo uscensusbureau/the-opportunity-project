@@ -77,6 +77,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
+    "airtable": "^0.10.1",
     "axe-core": "^3.5.5",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.5",
@@ -95,6 +96,7 @@
     "pa11y-ci": "^2.4.0",
     "simplecrawler": "^1.1.9",
     "slugify": "^1.4.7",
+    "write-yaml": "^1.0.0",
     "yamljs": "^0.3.0"
   },
   "watch": {

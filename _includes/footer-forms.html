@@ -1,0 +1,15 @@
+<footer class="usa-footer site-footer bg-base-darkest" role="contentinfo">
+  
+      <div
+        class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-4"
+      >
+        {% for bottomLink in site.data.nav.footer-bottom %}
+          <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}"
+            class="border-base-dark
+             {% unless forloop.first %} border-left padding-left-2 {% endunless %}
+             {% unless forloop.last %} padding-right-2 {% endunless %}
+            "
+          >{{ bottomLink.text }}</a>
+        {% endfor %}
+      </div>
+</footer>

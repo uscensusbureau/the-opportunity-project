@@ -2,12 +2,12 @@
 <section class="bg-primary ">
   <section class="usa-section grid-container text-white">
     <div class="grid-row grid-gap desktop:margin-top-6  desktop:margin-bottom-6">
-      <div class="desktop:grid-col-3 tablet:grid-col-3 grid-offset-1">
+      <div class="tablet:grid-col-4 padding-right-3 tablet:padding-left-3">
         {% if content.title %}
-          <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">{{ content.title }}</h2>
+          <h2 class="margin-top-0 line-height-sans-3">{{ content.title }}</h2>
         {% endif %}
       </div>
-      <div class="desktop:grid-col-6 tablet:grid-col-6">
+      <div class="tablet:grid-col-6">
         {% if content.description %}
           {% for p in content.description %}
             <p>{{ p }}</p>
@@ -16,8 +16,8 @@
       </div>
       {% if content.subsections %}
         {% for item in content.subsections %}
-          <div class="grid-row grid-gap margin-top-neg-3">
-            <div class="desktop:grid-offset-4 tablet:grid-offset-4 desktop:grid-col-2 tablet:grid-col-2 margin-top-neg-1">
+          <div class="grid-row grid-gap tablet:margin-bottom-2 margin-bottom-6">
+            <div class="tablet:grid-offset-4 tablet:grid-col-2">
               {% include image.html src=item.image alt=item.image-alt class="padding-top-2 padding-bottom-2 margin-top-neg-2 margin-bottom-2" %}
             </div>
             <div class="desktop:grid-col-5 tablet:grid-col-4 display-inline-block margin-top-neg-3">

@@ -847,7 +847,7 @@ main {
 
 .data-kit {
   @include at-media("mobile") {
-    padding: 5rem;
+    padding: 0 5rem;
     margin-bottom: -1rem;
   }
   .data-kit__container {
@@ -1021,91 +1021,28 @@ main {
     }
   }
 }
-.data-source {
 
-  p {
-    font-weight: 500;
-    color: color("white");
-    font-size: font-size("sans", "sm");
+.dkh-details {
+  
+  color: color("white");
+  h3 {
+    font-weight: 700;
+    font-size: font-size("sans", "lg");
+    margin-bottom: 1.5rem;
+  }
+  &-p {
     line-height: 30px;
     border-bottom: 1.5px dotted;
-    transition: border-bottom 400ms ease;
+    @include u-padding-bottom(2);
+    font-weight: 400;
+    font-size: font-size("sans", "sm");
+    @include white-links;
+  }
+  &-p:last-child {
+    border-bottom: none;
   }
 }
 
-
-
-.dkh-modal {
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  background: RGB(19, 25, 47, 0.9);
-  display: flex;
-  z-index: z-index("top");
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  animation-name: show;
-  animation-fill-mode: forwards;
-  animation-duration: 400ms;
-  &--hidden {
-    display: none;
-  }
-  &__contents {
-    position: fixed;
-    width: 53rem;
-    height: 60rem;
-    top: 50%;
-    left: 50%;
-    margin-top: -30rem; /* Negative half of height. */
-    margin-left: -27rem;
-    background-color: color("primary-vivid");
-    padding: 2rem 4rem;
-    color: color("white");
-    h3 {
-      font-weight: 700;
-      font-size: font-size("sans", "lg");
-      margin-bottom: 1.5rem;
-      margin-top: 8rem;
-    }
-    &-p {
-      font-weight: 400;
-      font-size: font-size("sans", "sm");
-      a {
-        text-decoration: none;
-        font-weight: 500;
-        color: color("white");
-        transition: font-style 400ms ease;
-        text-decoration: underline;
-        &:visited {
-          color: inherit;
-        }
-        &:hover {
-          font-weight: 600;
-        }
-      }
-    }
-    &-close {
-      font-size: font-size("sans", "xs");
-      background-color: color("primary-vivid");
-      border: none;
-      border-bottom: 1.5px dotted #F7C636;
-      padding: 0 0 0.4rem 0;
-      text-align: center;
-      font-weight: 600;
-      display: block;
-      margin: 3rem auto;
-      color: color("white");
-      transition: all 400ms ease;
-      &:hover {
-        cursor: pointer;
-        border-bottom-style: solid;
-      }
-    }
-  }
-}
 
 
 // datasets

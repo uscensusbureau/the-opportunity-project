@@ -113,8 +113,6 @@ contact_us:
       job_title: Co-Director
       contact: site.contacts.email
 
-# data-kits.html, the data hub landing page - NONE, pulls from _/data/data-kits.yml
-
 # featured-items.html / featured-items-even.html
 featured_items:
   - name: City Builder
@@ -742,12 +740,6 @@ two-col-markdown:
 
     <h4>contact-us.html</h4>
       {% include contact-us.html %}
-
-    <hr>
-
-    <h4>data-kits.html</h4>
-      pulls from "_/data/data-kits.yml", not front matter. On the backlog is a design sprint around the DCH, including mobile responsiveness, and general UX functionality
-      please see opportunity.census.gov/data to see this page
 
     <hr>
 

@@ -22,7 +22,8 @@ layout: default
 <!-- display all the past sprints, sorted by category -->
 {% assign firstGroupName = pastStatements[0].name %}
 {% for group in pastStatements %}
-  {% for item in group.items %}
+  {% assign sortedGroup = group.items | sort: 'pdf' | reverse %} <!-- put items w/out pdfs on the bottom -->
+  {% for item in sortedGroup %}
     {% assign active = "ps-active" %}
     {% unless group.name == firstGroupName %}
       {% assign active = "ps-inactive" %}

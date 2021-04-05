@@ -15,7 +15,7 @@ layout: default
   {% assign product = products[ 0 ] %}
   
   {% assign showMore = false %}
-  {% if forloop.index0 == 1 %}
+  {% if forloop.index0 == 1 or page.expandAllProblemStatements == true %}
     {% assign showMore = true %}
   {% endif %}
 

@@ -145,6 +145,10 @@
   sprint_text: Natural Environment
 - Agency:
   - recFUgWuGZMTCoKVG
+  Challenge: Create digital tools and resources to track federal financial assistance
+    award spending starting from Federal awards and flowing down to state and/or local
+    spend in response to one or more emergencies and disasters (e.g., COVID-19 Coronavirus
+    pandemic, hurricanes, earthquakes, and other disasters)
   Full Title: Tracking Impact of Disaster and Emergency Funding
   Name: Disaster Spending
   Products:
@@ -156,6 +160,19 @@
   Target audience / End user: American public, researchers, engaged citizens, state/local
     communities, rural or tribal communities, grant/loan recipients, small businesses,
     managers of disaster funds, appropriators
+  Why this problem matters: 'The federal government is a key provider of funding in
+    times of crisis. Tracking how Federal spend and programs are filtered down and
+    implemented at the working level can enhance data transparency, promote more effective
+    emergency and disaster relief, and improve services to the American public. A
+    greater understanding of how funds are dispersed and broken down can help decision-makers
+    at all levels and across organizations better understand program effectiveness
+    and aid in making more informed decisions about use of funds. Furthermore, more
+    transparent access to such tracking is important to keep the federal government
+    accountable for making the best intended use of these funds in the future, as
+    well to illustrate where gaps may exist and signify highest priorities for future
+    emergency funding. Lastly, better tracking of federal funding flows would improve
+    the ability of the public and decision-makers at all levels to learn how these
+    dollars and resulting programs affect local communities. '
   agency_text: Office of Management and Budget
   airtable_createdTime: '2020-04-30T15:24:04.000Z'
   airtable_id: rec4KZSqOYnXgo2gD
@@ -767,6 +784,11 @@
   sprint_text: 2020 Census
 - Agency:
   - recrqBHDoN6UK5bCq
+  Challenge: ' Create a tool that connects resettled refugees with resources and vital
+    services, such as access to medical care and mental health treatment, English
+    language learning, job training, education, etc. These resources might be available
+    through government agencies, nonprofits, community based organizations, private
+    sector actors and the like.'
   Full Title: Assisting Recently Resettled Refugees
   Name: Refugees
   Products:
@@ -777,6 +799,18 @@
   - recMpslqDTkD8bJoj
   Target audience / End user: Resettled refugees in the United States, nonprofits
     that provide help to refugees
+  Why this problem matters: 'In the last five years, more than 250,000 refugees have
+    been resettled in the United States. Refugees are provided assistance by one of
+    the nine resettlement agencies for 90 days, after which they are responsible for
+    navigating their path to self-sufficiency and integration into American society,
+    but often lacking the language skills necessary. There are many organizations
+    that provide assistance after the resettlement agencies, but many refugees may
+    not be familiar with these services or unsure of how to ask for help. By designing
+    a solution to connect resettled refugees to nonprofits and community-based organizations,
+    the following outcomes may be achieved: (1) refugees will have increased familiarity
+    of local services; (2) refugees can select services holistically (education, mental
+    health, jobs, etc.); (3) refugee can be empowered to successfully resettle (4)
+    refugees can have their specific needs met versus a one-size fits all approach.'
   agency_text: USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-01-26T16:43:44.000Z'
   airtable_id: recDnQq3aDp59z637
@@ -788,6 +822,9 @@
   sprint_text: Built Environment
 - Agency:
   - recllJ66jGEQ8bRtg
+  Challenge: 'Create tools to help communities understand how motorized vehicle and
+    equipment transportation contributes to emissions, local air quality, and health,
+    as well as the actions available to lessen these impacts. '
   Full Title: "Increasing Awareness of Emissions\u2019 Effects on Air Quality"
   Name: Transportation Emissions
   Products:
@@ -802,6 +839,16 @@
     those with respiratory ailments), urban populations and communities (e.g., high
     transportation traffic areas), rural or tribal communities, and motorized vehicles
     users.
+  Why this problem matters: "Transportation emissions make up almost one-third of\
+    \ the nation\u2019s greenhouse gas emissions and contribute to air pollution that\
+    \ have significant health ramifications. Every year, 7 million people worldwide\
+    \ die from air pollution. Furthermore, 80 percent of people living in urban areas\
+    \ that monitor air pollution breathe in air that exceeds WHO guideline limits.\
+    \ Communities\u2019 choices about the transportation of their members as well\
+    \ as everyday goods play a significant role in air pollution, but it is difficult\
+    \ to convey this type of information easily to the public, as well as to point\
+    \ to actions that individuals can take to help. It is hard to take action even\
+    \ when one wants to."
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:46:02.000Z'
   airtable_id: recG9NY8ns2oza4vp
@@ -1114,6 +1161,10 @@
 - Agency:
   - recNgTPOj9ZbFP6g3
   - recRIQZncXRS0OZpy
+  Challenge: 'Create open data sets and engaging digital tools that complement existing
+    citizen science plastics data, to help the public understand the amount of plastic
+    on local beaches and in the ocean, where such plastic comes from, and actions
+    that can be taken to alleviate the problem. '
   Full Title: Reducing Plastic Pollution in Oceans
   Name: Ocean Plastics
   Products:
@@ -1126,6 +1177,16 @@
   - recfjW4XBdTnujZD7
   Target audience / End user: Engaged citizens passionate about reducing plastic pollution,
     rural or tribal communities, as well as policymakers, advocates, and researchers
+  Why this problem matters: Ocean plastics directly impact more than 800 species world-wide.  Further,
+    because plastics never completely degrade, microplastics in the environment threaten
+    human as well as environmental health.  Participation in citizen science shows
+    that the public clearly cares.  Citizen scientists do not always stay engaged
+    and keep sharing data over time.  In addition, citizen science volunteers do not
+    always have access to contextual information on why plastic might be there and
+    what they can do.  The lack of data on plastics pollution and related information
+    prevents citizen scientists and the public policy community from fully understanding
+    the extent of the problem and making informed choices to reduce the growing threat
+    of plastic pollution to human and environmental health.
   agency_text: U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-01-26T16:35:32.000Z'
   airtable_id: recQeWP4kfK1EakJW
@@ -1767,6 +1828,16 @@
   Sprints:
   - rec5A5h9cq07ijoPk
   Target audience / End user: Job seekers and those in the gig economy
+  Why this problem matters: Census takers (enumerators) serve as the last line of
+    defense for getting an accurate count, which is critical for federal funding and
+    fair political representation. In 2020, the Census Bureau projects that Census
+    takers may be responsible for recording up to 40 percent of the count. Enumerators
+    interview the residents of every household that has not responded via the online
+    or paper forms to collect Census information. Hiring local field staff will be
+    critical to ensuring a complete and accurate count, especially for hard-to-reach
+    communities. Local candidates bring relevant language skills and cultural familiarity
+    that allow them to access residents who might otherwise keep their doors closed
+    to Census takers from outside the neighborhood.
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:23.000Z'
   airtable_id: recnJuVbZsWFhpBW8

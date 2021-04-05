@@ -2,6 +2,7 @@
 short-name: past
 layout: past-sprints
 order: 5
+expandAllProblemStatements: false
 
 hero:
   Name: Past Sprints

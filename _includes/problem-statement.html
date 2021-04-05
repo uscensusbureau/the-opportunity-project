@@ -39,11 +39,13 @@
     </div>
   </div>
 
-  {% if include.showMore == true %}
+  {% if include.showMore%}
   <div class="grid-row">
     <div class="ps-see-more">
       <button class="callout-button {{ expandedClass }}">
-        <span>See More</span>
+        <span>
+          {% if include.isExpanded %}See Less{% else %}See More{% endif %}
+        </span>
       </button>
     </div>
   </div>

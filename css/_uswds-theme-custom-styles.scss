@@ -4751,7 +4751,7 @@ body {
   @include u-font('body', 'lg');
 }
 
-h2.section-header {
+h1.section-header, h2.section-header {
   @include u-color('base-darkest');
   @include u-margin-bottom(1);
   @include u-padding-bottom(1);

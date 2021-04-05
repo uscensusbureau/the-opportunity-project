@@ -8,7 +8,7 @@ roles:
   - Product strategist
   - Local or state government
   - Federal government
-  - Funder/philanthropy/sustainability partner
+  - Funder / philanthropy / sustainability partner
   - Press / media
   - Data expert
   - Other
@@ -33,7 +33,8 @@ privacy:
     - Providing this information is voluntary and you may be removed from the TOP email sign-up at any time.  Failure to provide this information may affect the U.S. Census Bureau’s ability to disseminate information to stakeholder organizations including information about TOP, the 2020 Census, information about other programs and surveys, data products and data tools, and other resources.'
 ---
 
-# Contact T.O.P.
+# Contact The Opportunity Project
+{: .section-header }
 
 Thank you for your interest in The Opportunity Project. Please use the form below to get in touch with us, and we'll get back to you as soon as possible.
 
@@ -65,7 +66,7 @@ Thank you for your interest in The Opportunity Project. Please use the form belo
   <input class="usa-input usa-input--xl" type="text" id="organization" name="organization">
   </fieldset>
 
-  <div class="grid-container margin-top-3">
+  <div class="grid-container margin-top-3 margin-left-0 padding-left-0">
     <div class="grid-row grid-gap-lg">
     <div class="tablet:grid-col-6">
         <legend>
@@ -80,8 +81,8 @@ Thank you for your interest in The Opportunity Project. Please use the form belo
         {% endfor %}
     </div>
 
-  <div class="tablet:grid-col-6">
-      <legend>Intereseted in</legend>
+  <div class="tablet:grid-col-6 margin-top-4 tablet:margin-top-0">
+      <legend>Intereseted in:</legend>
       {% for role in page.interested-in %}
         {% assign name="interest-check-" | append: forloop.index %}
         <div class="usa-checkbox">

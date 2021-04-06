@@ -3,31 +3,49 @@ const GA_NAME = 'gtag_UA_155922885_2'
 const signupLinks = document.querySelectorAll("a[href='https://public.govdelivery.com/accounts/USCENSUS/signup/16610']")
 const contactUsLinks = document.querySelectorAll("a[href='https://www.census.gov/forms/contact-top.html']")
 
+function createFunctionWithTimeout( callback, opt_timeout ){
+  let called = false;
+  function fn() {
+    if (!called) {
+      called = true;
+      callback();
+    }
+  }
+  setTimeout( fn, opt_timeout || 2000 );
+  return fn;
+}
+
 // track clicks to email list signup
 for( link of signupLinks ){
   link.addEventListener('click', e => {
-    e.preventDefault()
-    ga(`${GA_NAME}.send`, {
-      hitType: 'event',
-      eventCategory: 'Signup Form',
-      eventAction: 'click',
-      hitCallback: function(){ window.location.href = link.href },
-      eventLabel: 'email list signup'
-    });
+    if( window.ga && ga.create ){
+      e.preventDefault()
+      ga(`${GA_NAME}.send`, {
+        hitType: 'event',
+        eventCategory: 'Signup Form',
+        eventAction: 'click',
+        hitCallback: createFunctionWithTimeout( 
+          function(){ window.location.href = link.href }),
+        eventLabel: 'email list signup'
+      });
+    }
   })
 }
 
 // track clicks to contact us form
 for( contactLink of contactUsLinks ){
   contactLink.addEventListener('click', e => {
-    e.preventDefault()
-    ga(`${GA_NAME}.send`, {
-      hitType: 'event',
-      eventCategory: 'Email',
-      eventAction: 'click',
-      hitCallback: function(){ window.location.href = contactLink.href },
-      eventLabel: 'contact us form'
-    });
+    if( window.ga && ga.create ){
+      e.preventDefault()
+      ga(`${GA_NAME}.send`, {
+        hitType: 'event',
+        eventCategory: 'Email',
+        eventAction: 'click',
+        hitCallback:  
+          createFunctionWithTimeout( function(){ window.location.href = contactLink.href }),
+        eventLabel: 'contact us form'
+      });
+    }
   })
 }
 
@@ -48,19 +66,22 @@ const productLinks = document.querySelectorAll("a[product-link]")
 productLinks.forEach( link => 
   link.addEventListener('click', e => {
     const newTab = link.target === "_blank" || (e.ctrKey || e.metaKey)
-    if( !newTab ){
-      e.preventDefault()
+    if( window.ga && ga.create ){
+      if( !newTab ){
+        e.preventDefault()
+      }
+      ga(`${GA_NAME}.send`, {
+        hitType: 'event',
+        eventCategory: 'Product Click',
+        eventAction: 'click',
+        eventLabel: link.href,
+        hitCallback: createFunctionWithTimeout( 
+          function(){ 
+            if( !newTab ){
+              window.location.href = link.href 
+            }
+          }),
+      })
     }
-    ga(`${GA_NAME}.send`, {
-      hitType: 'event',
-      eventCategory: 'Product Click',
-      eventAction: 'click',
-      eventLabel: link.href,
-      hitCallback: function(){ 
-        if( !newTab ){
-          window.location.href = link.href 
-        }
-      },
-    })
   })
 )

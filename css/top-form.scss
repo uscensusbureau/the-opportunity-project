@@ -34,3 +34,50 @@
 .top-logo-link {
   @include u-margin-right( 5 );
 }
+
+.top-checkbox-container {
+  // grid-container margin-top-3 margin-left-0 padding-left-0
+  @include grid-container;
+  @include u-margin-top(3);
+  @include u-margin-left(0);
+  @include u-padding-left(0); 
+}
+
+.top-checkbox-row {
+  // grid-row grid-gap-lg
+  @include grid-row;
+  @include grid-gap('lg');
+}
+
+.top-checkbox-column {
+  // tablet:grid-col-6
+  @include at-media("tablet") {
+    @include grid-col(6);
+  }
+
+  &:last-child {
+    // tablet:grid-col-6 margin-top-4 tablet:margin-top-0
+    @include at-media-max("tablet") {
+      @include u-margin-top(4);
+    }
+  }
+}
+
+.top-form-footer {
+  // usa-footer site-footer bg-base-darkest
+  @extend .usa-footer;
+  @extend .site-footer;
+  @include u-bg('base-darkest');
+}
+
+.top-form-footer-content {
+  // footer-section-bottom usa-media-block__footer 
+  // grid-row display-flex flex-align-center padding-top-4
+  @extend .footer-section-bottom;
+  @extend .usa-media-block__footer;
+  @include grid-row;
+  @include u-flex('fill');
+  @include u-flex('align-center');
+  @include u-padding-y(4);
+  @include white-links;
+}

@@ -66,9 +66,9 @@ Thank you for your interest in The Opportunity Project. Please use the form belo
   <input class="usa-input usa-input--xl" type="text" id="organization" name="organization">
   </fieldset>
 
-  <div class="grid-container margin-top-3 margin-left-0 padding-left-0">
-    <div class="grid-row grid-gap-lg">
-    <div class="tablet:grid-col-6">
+  <div class="top-checkbox-container">
+    <div class="top-checkbox-row">
+    <div class="top-checkbox-column">
         <legend>
           What Opportunity Project role best describes you? Please check all that apply
         </legend>
@@ -81,7 +81,7 @@ Thank you for your interest in The Opportunity Project. Please use the form belo
         {% endfor %}
     </div>
 
-  <div class="tablet:grid-col-6 margin-top-4 tablet:margin-top-0">
+  <div class="top-checkbox-column">
       <legend>Intereseted in:</legend>
       {% for role in page.interested-in %}
         {% assign name="interest-check-" | append: forloop.index %}

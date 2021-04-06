@@ -1,0 +1,36 @@
+@import 'uswds-components';
+
+.top-form-header {
+  // usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500
+  @extend .usa-header;
+  @extend .sticky;
+  @extend .site-header;
+  @extend .site-header-dark;
+  // @include u-border('base-darker');
+  // @include u-border-bottom(1px, 'base-darker');
+  @include u-z(500);
+}
+
+.top-navbar {
+  @extend .usa-navbar;
+  @extend .site-header-navbar;
+}
+
+.top-logo-mobile {
+  @extend .usa-logo ;
+  @extend .site-logo;
+  @extend .logo-image-mobile;
+  
+}
+.top-logo-desktop {
+  // usa-logo site-logo logo-image-desktop margin-left-2 margin-right-5
+  @extend .usa-logo;
+  @extend .site-logo;
+  @extend .logo-image-desktop;
+  @include u-margin-left(2);
+  @include u-margin-right(5);
+  @include u-margin-top(0);
+}
+.top-logo-link {
+  @include u-margin-right( 5 );
+}

@@ -139,7 +139,7 @@ h1, h2, h3 {
     margin-left: units($theme-site-margins-mobile-width);
 
     @include at-media("desktop") {
-      display: initial;
+      // display: initial;
       float: left;
       margin-bottom: 0;
       margin-left: units($theme-site-margins-width);
@@ -280,27 +280,9 @@ h1, h2, h3 {
   }
 }
 
+
 .site-logo {
-  .logo-image-mobile{
-    max-width: 150px;
-  }
-
-  &.logo-image-desktop {
-    display: none;
-    width: 300px;
-  }
-
-  @include at-media("desktop") {
-    &.logo-image-mobile {
-      display: none;
-    }
-    &.logo-image-desktop {
-      display: block;
-    }
-  }
-
-
-
+  
   @include at-media("desktop") {
     margin-top: units(2px);
   }
@@ -341,6 +323,21 @@ h1, h2, h3 {
       @include typeset("lang", "lg", 1);
       line-height: units(9);
     }
+  }
+}
+
+.logo-image-mobile{
+  max-width: 150px;
+  @include at-media("desktop") {
+    display: none;
+  }
+}
+
+.logo-image-desktop {
+  display: none;
+  width: 300px;
+  @include at-media("desktop") {
+    display: block;
   }
 }
 
@@ -4840,3 +4837,4 @@ h1.section-header, h2.section-header {
 
 @import 'problem-statement.scss';
 @import 'animated-graphs.scss';
+@import 'top-form.scss';

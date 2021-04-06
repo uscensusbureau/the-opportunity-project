@@ -4224,6 +4224,20 @@ $theme-table-column-gap: 4;
   }
 }
 
+.usa-nav__primary-item {
+  .nav-svg {
+    // #5c5c5c
+    filter: invert(32%) sepia(0%) saturate(4070%) hue-rotate(139deg) brightness(105%) contrast(88%);
+    
+  }
+  &:hover {
+    .nav-svg {
+    // #1a4480
+      filter: invert(22%) sepia(54%) saturate(1282%) hue-rotate(185deg) brightness(93%) contrast(96%);
+    }
+  }
+}
+
 .site-banner {
   @include typeset("lang");
   background-color: color("primary-lightest");

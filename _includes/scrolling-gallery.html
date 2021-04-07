@@ -5,9 +5,9 @@
     {% case tile.format %}
       {% when 'Image' %}
         {% include image.html src=tile.url alt=tile.alt 
-          pictureClass="scrolling-gallery-tile"%}
+          pictureClass="scrolling-gallery-tile" %}
       {% when 'video' %}
-
+        {% include video.html filename=tile.url class="scrolling-gallery-tile" %}
       {% else %}
     {% endcase %}
   {% endfor %}

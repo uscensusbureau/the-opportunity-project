@@ -4,7 +4,14 @@ layout: base
 {% include analytics.html %}
 {% include coil/coil-nav.html %}
 <main id="main-content">
-  {{ content }}
+  {% include scrolling-gallery.html data=site.data.coil-images %}
+  <div class="coil-hero">
+    {{ page.hero.text | markdownify }}
+    {{ page.hero.subtext }}
+    <a class="usa-button__secondary-white" href="{{ page.hero.cta.href }}">
+      {{ page.hero.cta.text }}&nbsp;&rarr;
+    </a>
+  </div>
 </main>
 
 {% include coil/coil-footer.html %}

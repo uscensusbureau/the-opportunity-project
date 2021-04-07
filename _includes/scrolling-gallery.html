@@ -1,0 +1,14 @@
+{% assign data = include.data %}
+
+<div class="scrolling-gallery">
+  {% for tile in data %}
+    {% case tile.format %}
+      {% when 'Image' %}
+        {% include image.html src=tile.url alt=tile.alt 
+          pictureClass="scrolling-gallery-tile"%}
+      {% when 'video' %}
+
+      {% else %}
+    {% endcase %}
+  {% endfor %}
+</div>

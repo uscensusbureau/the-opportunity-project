@@ -5,4 +5,4 @@ layout: coil
 class: coil
 ---
 
-THIS IS THE COIL SITE
+{% include scrolling-gallery.html data=site.data.coil-images %}

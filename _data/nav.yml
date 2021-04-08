@@ -81,6 +81,9 @@ footer:
     href: about/
   - text: Press
     href: press/
+  - text: YouTube
+    href: https://www.youtube.com/hashtag/opportunityproject
+    isExternal: true
 
 footer-bottom:
   - text: Census Open Innovation Labs

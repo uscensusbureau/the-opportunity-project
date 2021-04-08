@@ -3,7 +3,7 @@
   <div class="grid-row grid-gap">
     {% for item in page.impact %}
     <div
-      class="desktop:grid-col-3 tablet:grid-col-4 usa-media-block margin-bottom-3 desktop:margin-bottom-0"
+      class="tablet:grid-col-4 usa-media-block margin-bottom-3"
     >
       <div class="usa-media-block__body {{item.border}}">
         {% if item.statistic %}
@@ -18,9 +18,9 @@
     {% endfor %}
   </div>
 
-  <div class="text-center">
+  <div class="text-center margin-top-4">
     <button class="usa-button__primary-red margin-2" type="button" name="button">
-      <a href="{{ site.baseurl }}/assets/files/top-annual-report-2020.pdf" target="_blank" class="display-inline-block">View 2020 Annual Report (PDF)</a>
+      <a href="{{ site.baseurl }}/{{ site.annual_report }}" target="_blank" class="display-inline-block">View 2020 Annual Report (PDF)</a>
     </button>
   </div>
 </section>

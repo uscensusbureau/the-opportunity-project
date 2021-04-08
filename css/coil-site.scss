@@ -22,6 +22,18 @@
   }
 }
 
+#galleryPlayPause {
+  float: right;
+  @include u-margin-right(5);
+}
+
+.coil-hero {
+  @include u-margin-top(3);
+  @include u-margin-x(2);
+  @include u-maxw('tablet');
+  
+}
+
 .scrolling-gallery {
   @include u-height('mobile');
 }
@@ -68,4 +80,9 @@ $on-screen-duration: 3s;
   50%  { left: -100%; opacity: 1; }
   50.1%{ opacity: 0% }
   100% {  left: 105%; opacity: 0% }
+}
+
+.coil-project-card {
+  @include grid-col(4);
+  @include u-border('1px', 'white');
 }

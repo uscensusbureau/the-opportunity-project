@@ -1,5 +1,6 @@
 {% assign data = include.data %}
 
+<div>
 <div class="scrolling-gallery">
   {% for tile in data %}
     <div class="scrolling-gallery-tile">
@@ -13,7 +14,9 @@
     </div>
 
   {% endfor %}
-  <button id="galleryPlayPause">
-    PAUSE
-  </button>
+  
+</div>
+<button id="galleryPlayPause">
+  PAUSE
+</button>
 </div>

@@ -473,7 +473,7 @@ photo:
     text: This year, teams are leveraging technology and open data to solve challenges related to the natural and built environment, such as disaster response, sustainable energy and communities, the blue economy, and more.
     button-text: Get Updates
     button-link: site.contacts.mailing-list
-    button-color: usa-button__primary-red
+    button-color: primary-red
 
 # text-callout-centered.html
 callout:

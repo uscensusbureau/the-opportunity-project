@@ -21,7 +21,7 @@
               <h2 class="font-sans-xl">{{ item.name}}</h2>
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
               <p>{{ item.description}}</p>
-              <button class="usa-button__secondary-white" type="button" name="button"><a href="{{ item.button-link }}">View Case Study</a></button>
+              <a class="btn-link__secondary-white" href="{{ item.button-link }}">View Case Study</a>
             </div>
           </div>
         {% else %}
@@ -38,7 +38,7 @@
               <h2 class="font-sans-xl">{{ item.name}}</h2>
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
               <p>{{ item.description}}</p>
-              <button class="usa-button__secondary-white" type="button" name="button"><a href="{{ item.button-link }}">View Case Study</a></button>
+              <a href="{{ item.button-link }}" class="btn-link__secondary-white">View Case Study</a>
             </div>
           </div>
           <div class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
@@ -53,7 +53,7 @@
     class="usa-media-block padding-top-11 padding-bottom-9 display-flex flex-column flex-align-center"
   >
     <div>
-      <button class="usa-button__primary-red margin-2" type="button" name="button"><a href="{{ site.baseurl }}/showcase" class="display-inline-block">View All Products</a></button>
+      <a href="{{ site.baseurl }}/showcase" class="btn-link__primary-red">All Products</a>
     </div>
   </div>
 </section>

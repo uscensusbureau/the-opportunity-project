@@ -2,8 +2,8 @@
 {% include banner.html %}
 <header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
   <div class="usa-navbar site-header-navbar" style="height:100px;">
-    <div class="usa-logo site-logo logo-image-desktop width-auto" id="logo">
-      <a class="text-base-light margin-bottom-2 margin-left-neg-2" style="font-size:11px;" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} main page"><img src="{{site.baseurl}}/assets/img/icons/left-arrow.png" alt="Back arrow">
+    <div class="usa-logo site-logo width-auto" id="logo">
+      <a class="display-none desktop:display-inline text-base-light margin-bottom-2 margin-left-neg-2" style="font-size:11px;" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} main page"><img src="{{site.baseurl}}/assets/img/icons/left-arrow.png" alt="Back arrow">
         MAIN SITE
       </a>
       <div class="">
@@ -12,7 +12,7 @@
         {% else %}
           <h2 class="text-white margin-0 margin-top-2">Product Toolkit</h2>
         {% endif %}
-        <p class="text-base-light float-right margin-0" style="font-size:11px;">A product of The Opportunity Project</p>
+        <p class="text-base-light margin-top-1" style="font-size:11px;">A product of The Opportunity Project</p>
       </div>
     </div>
     <button class="usa-menu-btn">Menu</button>
@@ -35,9 +35,11 @@
           {% endfor %}
         </ul>
       </nav>
-      <div class="get-involved margin-right-5">
+      <div class="download-pdf margin-right-5">
         {% if page.type == "topx" %}
-          <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15" href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD PDF</a><img src="{{site.baseurl}}/assets/img/icons/download-white-sm.png" alt="Download icon" class="margin-left-1">
+          <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15" 
+          href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD PDF</a>
+          <img src="{{site.baseurl}}/assets/img/icons/download-white-sm.png" alt="Download icon" class="margin-left-1">
         {% endif %}
       </div>
     </div>

@@ -17,10 +17,13 @@
               <h2>{{ item.name}}</h2>
               <p>{{ item.description}}</p>
               {% if item.button-link %}
-                <a href="{{site.baseurl}}{{ item.button-link }}"><button class="usa-button__secondary-white margin-top-0" type="button" name="button">Learn More</button></a>
+                <a href="{{site.baseurl}}{{ item.button-link }}"
+                  class="btn-link__secondary-white margin-top-0">
+                  Learn More
+                </a>
               {% endif %}
               {% if item.button-external %}
-                <button class="usa-button__secondary-white margin-top-0" type="button" name="button"><a href="{{ item.button-external }}">Learn More</a></button>
+                  <a class="btn-link__secondary-white margin-top-0" href="{{ item.button-external }}">Learn More</a>
               {% endif %}
             </div>
           </div>
@@ -36,10 +39,13 @@
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
               <p>{{ item.description}}</p>
               {% if item.button-link %}
-                <a href="{{site.baseurl}}{{ item.button-link }}"><button class="usa-button__secondary-white margin-top-0" type="button" name="button">Learn More</button></a>
+              <a href="{{site.baseurl}}{{ item.button-link }}"
+                class="btn-link__secondary-white margin-top-0">
+                Learn More
+              </a>
               {% endif %}
               {% if item.button-external %}
-                <button class="usa-button__secondary-white margin-top-0" type="button" name="button"><a href="{{ item.button-external }}">Learn More</a></button>
+                <a class="btn-link__secondary-white margin-top-0" href="{{ item.button-external }}">Learn More</a>
               {% endif %}
             </div>
           </div>

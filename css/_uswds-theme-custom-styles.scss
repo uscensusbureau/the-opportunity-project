@@ -244,6 +244,18 @@ h1, h2, h3 {
 
     @include at-media("desktop") {
       display: inline-block;
+      height: units(10);
+      @include u-margin(0);
+      @include u-margin-left('auto');
+      @include u-padding-top(4);
+    }
+  }
+
+  .download-pdf {
+    display: none;
+
+    @include at-media("desktop") {
+      display: inline-block;
       position: absolute;
       right: 0;
       margin-top: -1px;
@@ -708,125 +720,83 @@ main {
   color: color("primary-dark");
 }
 
-.usa-button__primary-dark {
-  margin-top: units(3);
+.btn-link {
+  display: inline-block;
+  @include u-margin-top(3);
   border: none;
-  border-radius: none;
   text-transform: uppercase;
   padding: units(2) units(5);
   font-family: font-family("mono");
   font-size: font-size("mono", "3xs");
   background-color: color("base-darkest");
   color: color("white");
-
-  a {
-    text-decoration: none;
-    color: color("white");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  text-decoration: none;
 
   &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__primary-red {
-  margin-top: units(3);
-  border: none;
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("secondary");
-  color: color("white");
-
-  a {
-    text-decoration: none;
-    color: color("white");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-white {
-  margin-top: units(3);
-  border: 1px solid color("white");
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("white");
-
-  a {
-    text-decoration: none;
-    color: color("white");
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-gray {
-  margin-top: units(3);
-  border: 1px solid color("base");
-  border-radius: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("base");
-  @include dark-links;
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.usa-button__secondary-dark {
-  margin-top: units(3);
-  border: 1px solid color("base-darkest");
-  text-transform: uppercase;
-  padding: units(2) units(4);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("base-darkest");
-  &:hover {
-    color: color("base");
     text-decoration: underline;
-  }
-  &:hover {
     cursor: pointer;
   }
-}
 
-.usa-button__secondary-red {
-  margin-top: units(3);
-  border: 0;
-  text-transform: uppercase;
-  padding: units(2);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("transparent");
-  color: color("secondary");
-  &:hover {
-    color: color("base");
-    text-decoration: underline;
+  &__primary {
+    @extend .btn-link;
+    border: none;
+    color: color("white");
+    &:hover, &:visited {
+      color: color('white');
+    }
+
+    &-red {
+      @extend .btn-link__primary;
+      background-color: color("secondary");
+    }
+    &-dark {
+      @extend .btn-link__primary;
+      background-color: color("base-darkest");
+    }
   }
-  &:hover {
-    cursor: pointer;
+
+  &__secondary {
+    @extend .btn-link;
+    border: 1px solid;
+    background-color: color("transparent");
+
+    &-gray {
+      @extend .btn-link__secondary;
+      border-color: color('base');
+      color: color("base");
+      &:hover, &:visited {
+        color: color('base');
+      }
+    }
+
+    &-white {
+      @extend .btn-link__secondary;
+      border-color: color("white");
+      color: color("white");
+      &:hover, &:visited {
+        color: color('white');
+      }
+    }
+
+    &-dark {
+      @extend .btn-link__secondary;
+      border-color: color("base-darkest");
+      color: color("base-darkest");
+      &:visited {
+        color: color('base-darkest');
+      }&:hover {
+        color: color('base');
+      }
+    }
+
+    &-red {
+      @extend .btn-link__secondary;
+      border: none;
+      color: color("secondary");
+      &:hover {
+        color: color("base")
+      }
+    }
   }
 }
 
@@ -1547,10 +1517,6 @@ main {
     font-weight: font-weight("normal");
     margin-bottom: 0;
     margin-top: units(2px);
-  }
-
-  a {
-    color: color($site-primary-dark);
   }
 
   img {
@@ -2469,20 +2435,6 @@ code {
       background-color: color("base-darkest");
       color: color("white");
       padding: units(3) units(5);
-
-      a {
-        text-decoration: none;
-        padding-top: units(4);
-        padding-bottom: units(4);
-        color: color("white");
-        &:visited {
-          color: color("base-light");
-        }
-        &:hover {
-          color: color("base-light");
-          text-decoration: underline;
-        }
-      }
     }
 
     @include at-media("desktop")  {
@@ -3477,7 +3429,7 @@ h6 + div:not(.usa-accordion__content) {
     @include at-media("desktop") {
       align-items: center;
       display: flex;
-      padding-right: units(3);
+      // padding-right: units(3);
       height: units(10);
       margin-top: -1px;
       margin-bottom: -4px;
@@ -4205,6 +4157,20 @@ $theme-table-column-gap: 4;
     }
     .usa-nav__primary-item :hover{
       color: color($theme-color-primary-dark);
+    }
+  }
+}
+
+.usa-nav__primary-item {
+  .nav-svg {
+    // #5c5c5c
+    filter: invert(32%) sepia(0%) saturate(4070%) hue-rotate(139deg) brightness(105%) contrast(88%);
+    
+  }
+  &:hover {
+    .nav-svg {
+    // #1a4480
+      filter: invert(22%) sepia(54%) saturate(1282%) hue-rotate(185deg) brightness(93%) contrast(96%);
     }
   }
 }

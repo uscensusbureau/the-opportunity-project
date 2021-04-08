@@ -1,5 +1,5 @@
 
-__Submit an abstract by April 14th [on the ASA website](https://ww2.amstat.org/meetings/jsm/2021/abstracts/index.cfm), and indicate the Statistical Computing Section as the primary sponsor. Then forward your submission to Wendy Martinez (martinez.wendy@bls.gov)__
+**_Submit an abstract by April 14th [on the ASA website](https://ww2.amstat.org/meetings/jsm/2021/abstracts/index.cfm), and indicate the Statistical Computing Section as the primary sponsor. Then forward your submission to Wendy Martinez ([martinez.wendy@bls.gov](mailto:martinez.wendy@bls.gov))._**
 
 We’re excited to share a new way for the public to get involved in TOP this fall! We’re partnering with The American Statistical Association (ASA) on the 2021 [Annual Data Challenge Expo](https://community.amstat.org/dataexpo/home), which is a competition with cash prizes for the best analysis and visualization of Census Bureau data. The theme of this year’s challenge is “Helping Families, Business, and Communities Respond to COVID-19” ([download the problem statement](../assets/files/covid-19-top-asa-problem-statement.pdf) to learn more and view examples of problems you could focus on).
 

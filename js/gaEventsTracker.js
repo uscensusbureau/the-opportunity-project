@@ -85,3 +85,15 @@ productLinks.forEach( link =>
     }
   })
 )
+
+const annualReportLinks = document.querySelectorAll('a[href*="top-annual-report-2020.pdf"]')
+annualReportLinks.forEach( link =>
+  link.addEventListener('click', e => {
+    ga(`${GA_NAME}.send`, {
+      hitType: 'event',
+      eventCategory: 'PDF',
+      eventAction: 'click',
+      eventLabel: '2020 Annual Report',
+    })
+  })
+)

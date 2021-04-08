@@ -7,6 +7,8 @@ contacts:
   census-form: https://www.census.gov/forms/contact-top.html
   email: census.opportunityproject@census.gov
 
+annual_report: assets/files/top-annual-report-2020.pdf
+
 # this ensure that posts with future dates are published
 future: true
 

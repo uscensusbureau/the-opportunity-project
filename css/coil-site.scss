@@ -22,11 +22,25 @@
   }
 }
 
+.scrolling-gallery {
+  @include u-height('mobile');
+}
+
 $on-screen-duration: 3s;
+@mixin slide-anim {
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      animation: slide 2 * $on-screen-duration linear #{$i * .2}s infinite;
+    }
+  }
+}
+
 .scrolling-gallery-tile {
-  @include u-position('relative');
-  top: 50%;
+  @include u-position('absolute');
+  display: table;
+  top: 15%;
   left: 90%;
+  @include slide-anim;
   &:first-child {
     // left: 0;
     top: 10%;
@@ -34,7 +48,7 @@ $on-screen-duration: 3s;
   }
   &:nth-child(2) {
     // left: 40%;
-    top: 30%;
+    top: 15%;
     animation: slide 2 * $on-screen-duration linear -1s infinite;
   }
   &:nth-child(3) {

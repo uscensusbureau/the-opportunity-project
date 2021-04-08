@@ -2,13 +2,18 @@
 
 <div class="scrolling-gallery">
   {% for tile in data %}
-    {% case tile.format %}
-      {% when 'Image' %}
-        {% include image.html src=tile.url alt=tile.alt 
-          pictureClass="scrolling-gallery-tile" %}
-      {% when 'video' %}
-        {% include video.html filename=tile.url class="scrolling-gallery-tile" %}
-      {% else %}
-    {% endcase %}
+    <div class="scrolling-gallery-tile">
+      {% case tile.format %}
+        {% when 'Image' %}
+          {% include image.html src=tile.url alt=tile.alt %}
+        {% when 'video' %}
+          {% include video.html filename=tile.url %}
+        {% else %}
+      {% endcase %}
+    </div>
+
   {% endfor %}
+  <button id="galleryPlayPause">
+    PAUSE
+  </button>
 </div>

@@ -1,0 +1,9 @@
+<h2>{{ include.text.title }}</h2>
+<p>{{ include.text.subtitle }}</p>
+<div class="grid-container">
+  <div class="grid-row">
+    {% for project in include.data %}
+      {% include coil/coil-project-card.html data=project %}
+    {% endfor %}
+  </div>
+</div>

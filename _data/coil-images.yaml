@@ -10,6 +10,11 @@
   caption: This is a caption
   link: '#headerTwo'
 
+- url: 'videos/coffeeMug'
+  format: video
+  caption: This is a caption
+  link: '#headerTwo'
+
 - url: 'photos/sprints/2016-ag1'
   alt: 'Image of such and such'
   format: Image

@@ -1,7 +1,11 @@
-<h2>{{ include.text.title }}</h2>
-<p>{{ include.text.subtitle }}</p>
+{% if include.text.title %}
+  <h3>{{ include.text.title }}</h3>
+{% endif %}
+{% if include.text.subtitle %}
+  <p>{{ include.text.subtitle }}</p>
+{% endif %}
 <div class="grid-container">
-  <div class="grid-row">
+  <div class="grid-row grid-gap">
     {% for project in include.data %}
       {% include coil/coil-project-card.html data=project %}
     {% endfor %}

@@ -8,7 +8,7 @@ layout: base
   
   {% include scrolling-gallery.html data=site.data.coil-images %}
   
-  <div class="coil-hero usa-section">
+  <section class="coil-hero coil-section">
     <span class="font-sans-6">{{ page.hero.text | markdownify }}</span>
     <span class="font-sans-1 margin-bottom-2">
       {{ page.hero.subtext | markdownify }}
@@ -16,14 +16,23 @@ layout: base
     <a class="usa-button__secondary-white display-inline-block margin-top-0" href="{{ page.hero.cta.href }}">
       {{ page.hero.cta.text }}&nbsp;&rarr;
     </a>
-  </div>
+  </section>
 
-  {% for projectSection in page.project-texts %}
-    {% assign data = site.data.coil-projects[forloop.index0] %}
-    {% include coil/coil-project-section.html 
-        text=projectSection 
-        data=data %}
-  {% endfor %}
+  <section id="our-work" class="coil-section">
+    <h2>{{ page.work-section.title }}</h2>
+    <p>{{ page.work-section.subtitle }}</p>
+    {% for projectSection in page.work-section.subsections %}
+      {% assign data = site.data.coil-projects[forloop.index0] %}
+      {% include coil/coil-project-section.html 
+          text=projectSection 
+          data=data %}
+    {% endfor %}
+  </section>
+
+  <section id="get-involved" class="coil-section">
+    <h2>{{ page.get-involved.title }}</h2>
+    {{ content }}
+  </section>
 
 </main>
 

@@ -11,12 +11,32 @@ hero:
     text: Contact&nbsp;Us
     href: '#'
 
-project-texts:
-  - title: Our Main Projects
+work-section:
+  title: Our Work
+  subtitle: Whether you team is looking to build a new tech product, hire new talent, or integrate design thinking into your process, COIL has a program that can help you do it.
+  subsections:
+  - title: Current Programs
     subtitle: Whether you team is looking to build a new tech product, hire new talent, or integrate design thinking into your process, COIL has a program that can help you do it.
-  - title: Our Work
+  - title: Past Programs
     subtitle: All of our projects bring an innovation lense.
-  - subtitle: 2020 Census Projects...
+  - subtitle: Our Products and Toolkits
 
+
+get-involved:
+  title: Work With Us
 
 ---
+
+If you’re interested in participating in TOP, please [apply here](#) for the next sprint cohort.
+
+If you want to get started modernizing your agency or organization, [send us an email](#) today.
+
+We’ll help you
+
+- Build a digital product.
+- Run a prize challenge.
+- Create a toolkit (??).
+- Create a culture of innovation.
+
+[Contact Us&nbsp;&rarr;](#)
+{: .usa-button__secondary-white }

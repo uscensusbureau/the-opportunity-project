@@ -1,28 +1,55 @@
-- url: 'photos/sprints/2016-ag1'
+- url: 'photos/coil/april2021refresh/workshop1'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
 
-- url: 'photos/sprints/2016-ag1'
-  alt: 'Image of such and such'
-  format: Image
-  caption: This is a caption
-  link: '#headerTwo'
-
-- url: 'videos/coffeeMug'
+- url: 'videos/16_winner_03-video'
   format: video
-  caption: This is a caption
-  link: '#headerTwo'
 
-- url: 'photos/sprints/2016-ag1'
+- url: 'photos/coil/april2021refresh/teamZoom'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
 
-- url: 'photos/sprints/2016-ag1'
+- url: 'videos/16_winner_01'
+  format: video
+
+- url: 'photos/coil/april2021refresh/naipMap'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
+
+- url: 'videos/16_winner_02-video'
+  format: video
+
+# - url: 'photos/april2021refresh/demoWeek'
+#   alt: 'Image of such and such'
+
+- url: 'photos/coil/april2021refresh/fellows'
+  format: Image
+  alt: 'Image of such and such'
+
+- url: 'videos/16_winner_03-speech'
+  format: video
+
+- url: 'photos/coil/april2021refresh/count'
+  format: Image
+  alt: 'Image of such and such'
+
+- url: 'videos/16_winner_02-speech'
+  format: video
+
+- url: 'photos/coil/april2021refresh/workshop2'
+  format: Image
+  alt: 'Image of such and such'
+
+- url: 'videos/DemoWeek'
+  format: video
+
+# - url: 'videos/awards-animation-01'
+#   format: video
+#   caption: This is a caption
+#   link: '#headerTwo'

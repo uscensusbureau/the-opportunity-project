@@ -1,0 +1,20 @@
+<section id="coil-team" class="coil-section">
+  <h2>Meet the Team</h2>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      {% for item in site.data.coil_people %}
+        <div class="coil-bio">
+          {% assign src="photos/team/" | append: item.img %}
+          {% include image.html src=src alt="A picture of a smiling COIL team member" %}
+          <h3>{{ item.name }}</h3>
+          {% if item.title %}
+            <p>{{ item.title | uppercase }}</p>
+          {% endif %}
+          <p >
+            <a class="coil-team-email" href="mailto:{{ item.email }}">{{ item.email }}</a>
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

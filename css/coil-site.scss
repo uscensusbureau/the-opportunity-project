@@ -56,42 +56,63 @@
   @include u-radius('md');
 }
 
+.coil-bio {
+  @include grid-col(3);
+  @include u-height('card-lg');
+}
+.coil-bio > picture {
+  @include u-height(10);
+}
+.coil-team-email {
+  @include u-font('sans', '3xs');
+  overflow-wrap: anywhere;
+}
+
 .scrolling-gallery {
   height: 40rem;
 }
 
-$on-screen-duration: 3s;
+$on-screen-duration: 4s;
+$img-gap: 1.2;
 @mixin slide-anim {
   @for $i from 1 through 10 {
     &:nth-child(#{$i}) {
-      animation: slide 2 * $on-screen-duration linear #{$i * .2}s infinite;
+      animation: slide 2 * $on-screen-duration linear #{$i * $img-gap}s infinite;
     }
   }
 }
 
 $coil-tile-min-top: 140px;
+$max-top-spacing: 100px; 
 .scrolling-gallery-tile {
   @include u-position('absolute');
   display: table;
-  top: $coil-tile-min-top;
-  left: 90%;
+  top: $coil-tile-min-top + random($max-top-spacing);
+  left: 110%;
   @include slide-anim;
   &:first-child {
     top: $coil-tile-min-top + 20px;
-    animation: slide 2 * $on-screen-duration linear -2s infinite;
+    animation: slide 2 * $on-screen-duration linear (-$on-screen-duration * .5) infinite;
+    @include at-media('tablet-lg') {
+      animation-delay: -$on-screen-duration * .66 * 1.5;
+    }
   }
   &:nth-child(2) {
     top: $coil-tile-min-top + 50px;
-    animation: slide 2 * $on-screen-duration linear -1s infinite;
+    animation: slide 2 * $on-screen-duration linear (-$on-screen-duration * .2) infinite;
+    @include at-media('tablet-lg') {
+      animation-delay: -$on-screen-duration * .33 * 1.5;
+    }
   }
   &:nth-child(3) {
     top: $coil-tile-min-top + 30px;
-    animation: slide 2 * $on-screen-duration linear -.8s infinite;
+    animation: slide 2 * $on-screen-duration linear 0 infinite;
   }
-  &:nth-child(4) {
-    top: $coil-tile-min-top + 40px;
-    animation: slide 2 * $on-screen-duration linear 0s infinite;
-  }
+  
+  // &:nth-child(4) {
+  //   top: $coil-tile-min-top + 40px;
+  //   animation: slide 2 * $on-screen-duration linear 0s infinite;
+  // }
 
   @include at-media('tablet-lg') {
     animation-duration: 3 * $on-screen-duration !important;

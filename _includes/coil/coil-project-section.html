@@ -4,7 +4,7 @@
 {% if include.text.subtitle %}
   <p>{{ include.text.subtitle }}</p>
 {% endif %}
-<div class="grid-container">
+<div class="grid-container margin-bottom-4">
   <div class="grid-row grid-gap">
     {% for project in include.data %}
       {% include coil/coil-project-card.html data=project %}

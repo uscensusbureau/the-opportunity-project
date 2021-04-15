@@ -52,17 +52,18 @@
 .coil-project-card {
   @include u-height('card-lg');
   @include u-padding(2);
-  @include u-border('1px', 'white');
+  @include u-border('1px', 'black');
   @include u-radius('md');
 }
 
 .coil-bio {
   @include grid-col(3);
-  @include u-height('card-lg');
+  // @include u-height('card-lg');
 }
-.coil-bio > picture {
-  @include u-height(10);
-}
+// .coil-bio > picture {
+//   @include u-height(5);
+// }
+
 .coil-team-email {
   @include u-font('sans', '3xs');
   overflow-wrap: anywhere;
@@ -73,7 +74,9 @@
 }
 
 $on-screen-duration: 4s;
+$wide-onscreen-duration: $on-screen-duration * 1.5;
 $img-gap: 1.2;
+$num-tiles: 12;
 @mixin slide-anim {
   @for $i from 1 through 10 {
     &:nth-child(#{$i}) {

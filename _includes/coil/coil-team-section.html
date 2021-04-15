@@ -2,10 +2,14 @@
   <h2>Meet the Team</h2>
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      {% for item in site.data.coil_people %}
+      {% assign orderedPeople = site.data.coil_people | sort: "pageOrder" %}
+
+      {% for item in orderedPeople %}
         <div class="coil-bio">
-          {% assign src="photos/team/" | append: item.img %}
-          {% include image.html src=src alt="A picture of a smiling COIL team member" %}
+          <div class="text-center">
+            {% assign src="photos/team/" | append: item.img %}
+            {% include image.html src=src alt="A picture of a smiling COIL team member" class="height-15 text-center" %}
+          </div>
           <h3>{{ item.name }}</h3>
           {% if item.title %}
             <p>{{ item.title | uppercase }}</p>

@@ -16,11 +16,8 @@ work-section:
   subtitle: Whether you team is looking to build a new tech product, hire new talent, or integrate design thinking into your process, COIL has a program that can help you do it.
   subsections:
   - title: Current Programs
-    subtitle: Whether you team is looking to build a new tech product, hire new talent, or integrate design thinking into your process, COIL has a program that can help you do it.
+  - title: Products and Toolkits
   - title: Past Programs
-    subtitle: All of our projects bring an innovation lense.
-  - subtitle: Our Products and Toolkits
-
 
 get-involved:
   title: Work With Us

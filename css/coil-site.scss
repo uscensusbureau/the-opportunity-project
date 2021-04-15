@@ -1,3 +1,7 @@
+$tag-orange: #f91717;
+$tag-green: #009964;
+$tag-blue: #5d9eda;
+
 .layout-coil {
   @include u-bg('base-darkest');
   @include u-text('white');
@@ -92,6 +96,30 @@ h2 {
   @include u-padding(2);
   @include u-border('1px', 'black');
   @include u-radius('md');
+  &__with-tags {
+    @extend .coil-project-card;
+    @include u-border(0);
+  }
+}
+
+.project-tag {
+  @include u-font('sans', '3xs');
+  @include u-text('uppercase');
+  @include u-padding-x('05');
+  @include u-border('1px', solid);
+  @include u-radius('pill');
+  &__comm, &__faci, &__expe {
+    @extend .project-tag;
+  }
+  &__comm {
+    @include u-color('error-light');
+  }
+  &__faci {
+    @include u-color('accent-cool-light')
+  }
+  &__expe {
+    @include u-color('success');
+  }
 }
 
 .coil-bio {

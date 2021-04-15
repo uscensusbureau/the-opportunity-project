@@ -1,0 +1,11 @@
+{% assign data = include.data %}
+{% assign hasTags = include.data.tags %}
+<div class="coil-card-container">
+  <div class="coil-project-card{% if hasTags %}__with-tags{% endif %}">
+    <h3 class="coil-project__heading">{{ data.title }}</h3>
+    {% if hasTags %}
+      {% include coil/project-tags.html data=include.data.tags %}
+    {% endif %}
+    <p class="coil-project__body">{{ data.details }}</p>
+  </div>
+</div>

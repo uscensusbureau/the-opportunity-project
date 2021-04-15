@@ -35,11 +35,19 @@
 -
   - title: THIRD SECTION PROJECT
     details: Learn how to utilize federal open data to build digital tools and bridge communities.
+    tags: 
+      - Community Engagement
+      - Facilitation
+      - Experience Strategy
     cta:
       - text: Visit the TOP website
         href: /
   - title: Data Toolkits
     details: Learn how to utilize federal open data to build digital tools and bridge communities.
+    tags: 
+      - Community Engagement
+      - Facilitation
+      - Experience Strategy
     cta:
       - text: For federal agencies & non-profits
         href: /topx-toolkit/introduction/
@@ -49,5 +57,9 @@
         href: /data/
   - title: Human-Centered Design Training
     details: Learn how to utilize federal open data to build digital tools and bridge communities.
+    tags: 
+      - Community Engagement
+      - Facilitation
+      - Experience Strategy
       
       

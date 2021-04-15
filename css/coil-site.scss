@@ -62,7 +62,7 @@ h2 {
 }
 
 .coil-section {
-  * {
+  > * {
     @include u-padding-x($coil-left-padding);
   }
   @include u-margin-y(8);

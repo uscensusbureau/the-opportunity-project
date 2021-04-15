@@ -6,14 +6,14 @@ layout: base
 <main id="main-content">
   {{ site.basurl }}
   
-  {% include scrolling-gallery.html data=site.data.coil-images %}
+  <!-- {% include scrolling-gallery.html data=site.data.coil-images %} -->
   
   <section class="coil-hero coil-section">
     <span class="font-sans-6">{{ page.hero.text | markdownify }}</span>
     <span class="font-sans-1 margin-bottom-2">
       {{ page.hero.subtext | markdownify }}
     </span>
-    <a class="usa-button__secondary-white display-inline-block margin-top-0" href="{{ page.hero.cta.href }}">
+    <a class="coil-btn__primary-white" href="{{ page.hero.cta.href }}">
       {{ page.hero.cta.text }}&nbsp;&rarr;
     </a>
   </section>

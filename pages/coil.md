@@ -38,5 +38,4 @@ We’ll help you
 - Create a toolkit (??).
 - Create a culture of innovation.
 
-[Contact Us&nbsp;&rarr;](#)
-{: .usa-button__secondary-white }
+[Contact Us&nbsp;&rarr;](#){: .coil-btn__primary-white }

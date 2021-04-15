@@ -46,8 +46,8 @@
   format: Image
   alt: 'Image of such and such'
 
-- url: 'videos/DemoWeek'
-  format: video
+# - url: 'videos/DemoWeek'
+#   format: video
 
 # - url: 'videos/awards-animation-01'
 #   format: video

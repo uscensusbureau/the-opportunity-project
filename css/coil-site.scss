@@ -1,7 +1,46 @@
 .layout-coil {
   @include u-bg('base-darkest');
   @include u-text('white');
+  @include white-links;
 }
+
+$coil-left-padding: 4;
+
+/*****************
+ * Typography
+ ****************/
+h2, h3 {
+  color: color('base-darkest');
+}
+h2 {
+  @include u-font('sans', 'xl');
+}
+
+.dashed {  // based on https://jsfiddle.net/j0y7uaqL/
+  width: 100%;
+  overflow: hidden;
+  padding-left: 0 !important;
+  &:before, &:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px dashed color('base-light');
+  }
+  &:before {
+    width: units($coil-left-padding) * .75;
+    margin: 0 units($coil-left-padding) * .25 0 0;
+  }
+  &:after {
+    width: 100%;
+    margin: 0 -55% 0 units($coil-left-padding) * .25;
+  }
+}
+
+
+
+/***************
+ * Layout
+ ****************/
 
 .coil-header {
   @include u-position('sticky');
@@ -18,12 +57,14 @@
   align-items: center;
   a {
     text-transform: uppercase;
-    font-family: font-family("sans");
+    @include u-font("mono", "3xs");
   }
 }
 
 .coil-section {
-  @include u-padding-x(2);
+  * {
+    @include u-padding-x($coil-left-padding);
+  }
   @include u-margin-y(8);
   @include u-border-top(1px, 'white');
   &:first-of-type {
@@ -41,10 +82,7 @@
   @include u-margin-top(3);
   @include u-margin-x(2);
   @include u-maxw('tablet');
-  
 }
-
-
 
 .coil-card-container {
   @include grid-col(4);
@@ -58,11 +96,7 @@
 
 .coil-bio {
   @include grid-col(3);
-  // @include u-height('card-lg');
 }
-// .coil-bio > picture {
-//   @include u-height(5);
-// }
 
 .coil-team-email {
   @include u-font('sans', '3xs');
@@ -71,6 +105,37 @@
 
 .scrolling-gallery {
   height: 40rem;
+}
+
+/**********
+ * BUTTONS
+ ***********/
+
+.coil-btn {
+  text-decoration: none;
+  padding: .3rem .5rem;
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+  &__secondary-white {
+    @extend .coil-btn;
+    border: 1px dotted color('white');
+    &:hover, &:active {
+      @include u-border-color('primary-lightest');
+    }
+  }
+  &__primary-white {
+    @extend .coil-btn;
+    color: color('base-darkest') !important;
+    // @include u-color('base-darkest');
+    @include u-bg('white');
+    @include u-padding(1);
+    @include u-text('uppercase');
+    @include u-font('sans', 'xl');
+    &:hover, &:active {
+      @include u-color('base-darkest');
+    }
+  }
 }
 
 $on-screen-duration: 4s;

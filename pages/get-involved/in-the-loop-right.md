@@ -3,12 +3,8 @@ Join a community of hundreds working to transform America’s data into America�
 
 Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
 
-<button class="usa-button__primary-red">
-  <a href="{{ site.contacts.mailing-list }}">
-    Get Updates
-  </a>
-</button>
+<a class="btn-link__primary-red" href="{{ site.contacts.mailing-list }}">
+  Get Updates
+</a>
 
-<button class="usa-button__secondary-dark">
-  <a href="{{ site.contacts.census-form }}">Contact Us</a>
-</button>
+<a class="btn-link__secondary-dark" href="{{ site.contacts.census-form }}">Contact Us</a>

@@ -1,65 +1,83 @@
--
-  - title: The Opportunity Project
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    cta:
-      - text: Visit the TOP website
-        href: /
-  - title: Data Toolkits
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    cta:
-      - text: For federal agencies & non-profits
-        href: /topx-toolkit/introduction/
-      - text: For technologists
-        href: /product-development/toolkit/
-      - text: For anyone looking for federal Datasets
-        href: /data/
-  - title: Human-Centered Design Training
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
--
-  - title: SECONDARY SECTION PROJECT
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    cta:
-      - text: Visit the TOP website
-        href: /
-  - title: Data Toolkits
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    cta:
-      - text: For federal agencies & non-profits
-        href: /topx-toolkit/introduction/
-      - text: For technologists
-        href: /product-development/toolkit/
-      - text: For anyone looking for federal Datasets
-        href: /data/
-  - title: Human-Centered Design Training
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
--
-  - title: THIRD SECTION PROJECT
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    tags: 
-      - Community Engagement
-      - Facilitation
-      - Experience Strategy
-    cta:
-      - text: Visit the TOP website
-        href: /
-  - title: Data Toolkits
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    tags: 
-      - Community Engagement
-      - Facilitation
-      - Experience Strategy
-    cta:
-      - text: For federal agencies & non-profits
-        href: /topx-toolkit/introduction/
-      - text: For technologists
-        href: /product-development/toolkit/
-      - text: For anyone looking for federal Datasets
-        href: /data/
-  - title: Human-Centered Design Training
-    details: Learn how to utilize federal open data to build digital tools and bridge communities.
-    tags: 
-      - Community Engagement
-      - Facilitation
-      - Experience Strategy
+- title: Current Programs
+  isMain: true
+  projects:
+    - title: The Opportunity Project
+      img:
+        src: photos/coil/april2021refresh/workshop2.jpg
+        alt: workshop participants huddling around a large sticky pad
+      callout: Build digital tools and bridge communities with federal open data.
+      details: TOP brings together community advocates, technology specialists, and federal data stewards to our nation’s toughest challenges. Over twelve weeks, stakeholders from these three groups form teams, create digital products, and demo them to the public with COIL’s facilitation.
+      tags:
+        - Product Development
+        - Facilitation
+        - Experience Strategy
+      href: /
+      subproject:
+        title: TOP Prize Challenge
+        callout: Create impact that can scale
+        details: In 2019, we launched The Opportunity Project Prize Challenge and awarded $100,000 in funding across 5 outstanding product teams from TOP. This was the Census Bureau’s first ever prize competition, and just 3rd in US federal government history. [Learn more about how to apply for the grand prize challenge in 2021 →](https://opportunity.census.gov/prize-challenge)
+        href: /prize-challenge
+    - title: Enterprise Innovation Efforts
+      callout: Learn how innovation can scale at federal agencies.
+      details: From Data Science Trainings to large-scale culture change, our team has experience analyzing complex systems and working to transform the federal workforce.
+      tags: 
+        - Experience Strategy
+        - Facilitation
+        - Upskilling
+      img: 
+        src: photos/coil/april2021refresh/HCD-Training-Photos-23-edit.jpg
+        alt: Four people standing and smiling in front of a white board covered with sticky notes
+    - title: Civic Digital Fellowship
+      callout: Hire the next generation of technologists
+      details: The CDF program empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces.
+      tags: 
+        - Product Development
+        - Hiring
+        - Upskilling
+      img:
+        src: photos/coil/april2021refresh/fellows.jpg
+        alt: Many rows of young people on the steps of a federal building wearing suits and smiling towards the camera
+
+- title: Our Products and Toolkits
+  projects:
+    - title: Creative Toolkits
+      details: Content creation guide that allows organizers to localize messaging and speak to their community.
+      links:
+        - text: Creatives for the Count
+          href: '#'
+        - text: Community Outreach Toolkit
+          href: '#'
+    - title: Data Curation Hub
+      details: We worked with federal data stewards to collect high quality datasets that are based around national challenges and facilitate the data discovery process.
+      href: /data
+    - title: Census Solutions Toolkit
+      href: '#'
+      details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
+    - title: TOPx Toolkit
+      details: Allows federal agencies to utilize the TOP model and resources to identify priorities within their agency that require data & technology innovation, recruit cross-sector participants, and facilitate a virtual technology development sprint. 
+      href: /topx-toolkit/introduction
+    - title: Product Development Toolkit
+      href: /product-development/toolkit/
+      details: This toolkit documents the process that The Opportunity Project team at the U.S. Census Bureau uses to facilitate collaborative, user-centered technology development sprints so that anyone interested in transforming federal open data into valuable tools can leverage this method.
       
-      
+
+- title: Past Programs
+  projects:
+    - title: Census Accelerate
+      details: We mobilize the creative community and partner with influential stars to spread awareness about the importance of the 2020 Census and combat mis- and dis-information.
+      tags: 
+        - Community Engagement
+        - Facilitation
+        - Experience Strategy
+    - title: Human-Centered Design Training
+      details: We teach human-centered design fundamentals to leaders at the U.S. Census Bureau to introduce new problem solving and collaboration methods and methods.
+      tags: 
+        - Community Engagement
+        - Facilitation
+        - Experience Strategy
+    - title: Census Solutions Workshops
+      details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies,  and partnerships in those areas.
+      tags: 
+        - Community Engagement
+        - Facilitation
+        - Experience Strategy

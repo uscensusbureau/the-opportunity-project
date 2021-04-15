@@ -13,11 +13,21 @@ $coil-left-padding: 4;
 /*****************
  * Typography
  ****************/
-h2, h3 {
-  color: color('base-darkest');
-}
 h2 {
   @include u-font('sans', 'xl');
+}
+
+#our-work {
+  @include u-bg('white');
+  @include u-color('black');
+  a {
+    text-decoration: underline;
+    @include u-color('black');
+  }
+  h2, h3, h3 a {
+    @include u-color('base-darkest');
+  }
+  
 }
 
 .dashed {  // based on https://jsfiddle.net/j0y7uaqL/
@@ -84,31 +94,101 @@ h2 {
 
 .coil-hero {
   @include u-margin-top(3);
-  @include u-margin-x(2);
+  // @include u-margin-x(2);
   @include u-maxw('tablet');
 }
 
+.coil-project-lg {
+  @include grid-col(12);
+  @include u-margin-y(2);
+  @include at-media('tablet') {
+    @include grid-col(6);
+  }
+  a {
+    text-decoration: underline;
+  }
+  .project-headers, .project-details {
+    @include u-padding-x(2);
+  }
+  
+  &:first-child {
+    @include grid-col(12);
+    .project-large-text:first-child{
+      @include u-border-bottom(1px);
+    }
+    @include at-media('tablet') {
+      .project-content {
+        @include grid-row;
+        .project-texts {
+          @include grid-col(9);
+          .project-large-text {
+            @include grid-row;
+            @include u-border-right(1px);
+          }
+          .project-headers {
+            @include grid-col(6);
+          }
+          .project-details {
+            @include grid-col(6)
+          }
+        }
+        picture {
+          @include grid-col(3);
+          @include u-order(6);
+          img {
+            height: 100%;
+            object-position: 70% 30%;
+          }
+        }
+      }
+    }
+  }
+  .project-content{
+    border: 1px solid color('base-dark');
+    @include u-height('full');
+  }
+  picture img {
+    width: 100%;
+    @include u-height(8);
+    object-fit: cover;
+    object-position: center 37%;
+  }
+}
+
 .coil-card-container {
-  @include grid-col(4);
+  @include grid-col(12);
+  @include u-margin-bottom(2);
+  @include at-media('mobile-lg'){
+    @include grid-col(6);
+  }
+  @include at-media('tablet') {
+    @include grid-col(4);
+  }
 }
 .coil-project-card {
-  @include u-height('card-lg');
+  @include u-height('full');
   @include u-padding(2);
   @include u-border('1px', 'black');
   @include u-radius('md');
+  a {
+    text-decoration: underline;
+  }
   &__with-tags {
     @extend .coil-project-card;
     @include u-border(0);
   }
 }
 
+.project-tags {
+  @include u-margin-y(1);
+}
 .project-tag {
   @include u-font('sans', '3xs');
   @include u-text('uppercase');
   @include u-padding-x('05');
   @include u-border('1px', solid);
   @include u-radius('pill');
-  &__comm, &__faci, &__expe {
+  &__comm, &__faci, &__expe, &__prod, &__hiri, &__upsk {
     @extend .project-tag;
   }
   &__comm {
@@ -122,8 +202,26 @@ h2 {
   }
 }
 
+.coil-help-list {
+  position: relative;
+  list-style-type: '\2713';
+  li {
+    @include u-padding-left(1);
+  }
+  @include at-media('mobile-lg') {
+    top: -40px;
+    left: 140px;
+  }
+}
+
 .coil-bio {
-  @include grid-col(3);
+  @include grid-col(6);
+  @include at-media('mobile-lg') {
+    @include grid-col(4);
+  }
+  @include at-media('tablet') {
+    @include grid-col(3);
+  }
 }
 
 .coil-team-email {

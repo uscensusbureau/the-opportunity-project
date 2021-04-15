@@ -1,13 +1,14 @@
-{% if include.text.title %}
-  <h3 class="dashed">{{ include.text.title }}</h3>
-{% endif %}
-{% if include.text.subtitle %}
-  <p>{{ include.text.subtitle }}</p>
+{% if include.data.title %}
+  <h3 class="dashed">{{ include.data.title }}</h3>
 {% endif %}
 <div class="grid-container margin-bottom-4">
   <div class="grid-row grid-gap">
-    {% for project in include.data %}
-      {% include coil/coil-project-small.html data=project %}
+    {% for project in include.data.projects %}
+      {% if include.data.isMain %}
+        {% include coil/coil-project-large.html data=project %}
+      {% else %}
+        {% include coil/coil-project-small.html data=project %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>

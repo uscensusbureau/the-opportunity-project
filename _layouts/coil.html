@@ -9,23 +9,21 @@ layout: base
   <!-- {% include scrolling-gallery.html data=site.data.coil-images %} -->
   
   <section class="coil-hero coil-section">
-    <span class="font-sans-6">{{ page.hero.text | markdownify }}</span>
-    <span class="font-sans-1 margin-bottom-2">
+    <div class="font-sans-6">{{ page.hero.text | markdownify }}</div>
+    <div class="font-sans-1 margin-bottom-2">
       {{ page.hero.subtext | markdownify }}
-    </span>
-    <a class="coil-btn__primary-white" href="{{ page.hero.cta.href }}">
+    </div>
+    <a class="coil-btn__primary-white margin-left-4" href="{{ page.hero.cta.href }}">
       {{ page.hero.cta.text }}&nbsp;&rarr;
     </a>
   </section>
 
-  <section id="our-work" class="coil-section bg-white text-black">
+  <section id="our-work" class="coil-section">
     <h2>{{ page.work-section.title }}</h2>
     <p>{{ page.work-section.subtitle }}</p>
-    {% for projectSection in page.work-section.subsections %}
-      {% assign data = site.data.coil-projects[forloop.index0] %}
+    {% for projectSection in site.data.coil-projects %}
       {% include coil/coil-project-section.html 
-          text=projectSection 
-          data=data %}
+          data=projectSection  %}
     {% endfor %}
   </section>
 

@@ -22,6 +22,12 @@ work-section:
 get-involved:
   title: Work With Us
 
+team:
+  title: Meet the Team
+
+
+
+
 ---
 
 If you’re interested in participating in TOP, please [apply here](#) for the next sprint cohort.
@@ -34,5 +40,6 @@ We’ll help you
 - Run a prize challenge.
 - Create a toolkit (??).
 - Create a culture of innovation.
+{: .coil-help-list }
 
 [Contact Us&nbsp;&rarr;](#){: .coil-btn__primary-white }

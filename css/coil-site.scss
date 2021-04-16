@@ -273,6 +273,7 @@ $offset: -0.66;
 // initial setup
 $img-gap: $on-screen-duration / $imgs-per-duration;
 $wide-onscreen-duration: $on-screen-duration * 1.5;
+$img-gap-wide: $wide-onscreen-duration / $imgs-per-duration;
 $num-passes: $num-tiles / $imgs-per-duration;
 
 @mixin slide-anim {
@@ -281,6 +282,9 @@ $num-passes: $num-tiles / $imgs-per-duration;
       top: $coil-tile-min-top + random($max-top-spacing);
       // @debug #{$i * $img-gap + $offset * $on-screen-duration};
       animation: slide ($num-passes) * $on-screen-duration linear #{$i * $img-gap+ $offset * $on-screen-duration} infinite;
+      @include at-media('tablet-lg') {
+        animation-delay: #{$i * $img-gap-wide + $offset * $wide-onscreen-duration} !important;
+      }
     }
   }
 }
@@ -311,7 +315,7 @@ $num-passes: $num-tiles / $imgs-per-duration;
 
 @keyframes slide {
   0%    { left: 105% }
-  20%  { left: 00%; opacity: 1; }
-  21%  { left: -100%; opacity: 0% }
+  40%  { left: -100%; opacity: 1; }
+  41%  { left: -90%; opacity: 0% }
   100% {  left: 105%; opacity: 0% }
 }

@@ -78,6 +78,7 @@ h2 {
     @include u-padding-x($coil-left-padding);
   }
   @include u-margin-y(8);
+  @include u-padding-top(8);
   @include u-border-top(1px, 'white');
   &:first-of-type {
     @include u-border-top(0);
@@ -225,6 +226,10 @@ h2 {
 .coil-team-email {
   @include u-font('sans', '3xs');
   overflow-wrap: anywhere;
+}
+
+.abstract-icon {
+  @include u-maxh(15);
 }
 
 .scrolling-gallery {

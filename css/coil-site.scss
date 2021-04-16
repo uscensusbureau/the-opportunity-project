@@ -1,6 +1,4 @@
-$tag-orange: #f91717;
-$tag-green: #009964;
-$tag-blue: #5d9eda;
+@use "sass:math";
 
 .layout-coil {
   @include u-bg('base-darkest');
@@ -264,52 +262,45 @@ h2 {
   }
 }
 
-$on-screen-duration: 4s;
+$coil-tile-min-top: 140px;
+$max-top-spacing: 50px; 
+
+$on-screen-duration: 6s;
+$imgs-per-duration: 2;
+$num-tiles: 11;
+$offset: -0.66;
+
+// initial setup
+$img-gap: $on-screen-duration / $imgs-per-duration;
 $wide-onscreen-duration: $on-screen-duration * 1.5;
-$img-gap: 1.2;
-$num-tiles: 12;
+$num-passes: $num-tiles / $imgs-per-duration;
+
 @mixin slide-anim {
-  @for $i from 1 through 10 {
+  @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
-      animation: slide 2 * $on-screen-duration linear #{$i * $img-gap}s infinite;
+      top: $coil-tile-min-top + random($max-top-spacing);
+      // @debug #{$i * $img-gap + $offset * $on-screen-duration};
+      animation: slide ($num-passes) * $on-screen-duration linear #{$i * $img-gap+ $offset * $on-screen-duration} infinite;
     }
   }
 }
 
-$coil-tile-min-top: 140px;
-$max-top-spacing: 100px; 
 .scrolling-gallery-tile {
+  text-align: center;
   @include u-position('absolute');
   display: table;
-  top: $coil-tile-min-top + random($max-top-spacing);
   left: 110%;
+  height: percentage(1 / $num-passes);
   @include slide-anim;
   &:first-child {
     top: $coil-tile-min-top + 20px;
-    animation: slide 2 * $on-screen-duration linear (-$on-screen-duration * .5) infinite;
-    @include at-media('tablet-lg') {
-      animation-delay: -$on-screen-duration * .66 * 1.5;
-    }
   }
   &:nth-child(2) {
     top: $coil-tile-min-top + 50px;
-    animation: slide 2 * $on-screen-duration linear (-$on-screen-duration * .2) infinite;
-    @include at-media('tablet-lg') {
-      animation-delay: -$on-screen-duration * .33 * 1.5;
-    }
   }
-  &:nth-child(3) {
-    top: $coil-tile-min-top + 30px;
-    animation: slide 2 * $on-screen-duration linear 0 infinite;
-  }
-  
-  // &:nth-child(4) {
-  //   top: $coil-tile-min-top + 40px;
-  //   animation: slide 2 * $on-screen-duration linear 0s infinite;
-  // }
 
   @include at-media('tablet-lg') {
-    animation-duration: 3 * $on-screen-duration !important;
+    animation-duration: $num-passes * $wide-onscreen-duration !important;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -320,7 +311,7 @@ $max-top-spacing: 100px;
 
 @keyframes slide {
   0%    { left: 105% }
-  50%  { left: -100%; opacity: 1; }
-  50.1%{ opacity: 0% }
+  20%  { left: 00%; opacity: 1; }
+  21%  { left: -100%; opacity: 0% }
   100% {  left: 105%; opacity: 0% }
 }

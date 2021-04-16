@@ -4,11 +4,11 @@ layout: base
 {% include analytics.html %}
 {% include coil/coil-nav.html %}
 <main id="main-content">
-  {{ site.basurl }}
   
   {% include scrolling-gallery.html data=site.data.coil-images %}
   
   <section class="coil-hero coil-section">
+    <h1>Meet COIL</h1>
     <div class="font-sans-6">{{ page.hero.text | markdownify }}</div>
     <div class="font-sans-1 margin-bottom-2">
       {{ page.hero.subtext | markdownify }}

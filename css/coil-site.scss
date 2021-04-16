@@ -11,6 +11,10 @@ $coil-left-padding: 4;
 /*****************
  * Typography
  ****************/
+h1 {
+  @include u-font('sans', '2xl');
+  @include u-margin(0);
+}
 h2 {
   @include u-font('sans', 'xl');
 }

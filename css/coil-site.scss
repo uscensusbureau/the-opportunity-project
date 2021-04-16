@@ -80,7 +80,7 @@ h2 {
   @include u-margin-y(8);
   @include u-padding-top(8);
   @include u-border-top(1px, 'white');
-  &:first-of-type {
+  &:first-of-type, &:nth-child(2) {
     @include u-border-top(0);
   }
 }
@@ -232,10 +232,6 @@ h2 {
   @include u-maxh(15);
 }
 
-.scrolling-gallery {
-  height: 40rem;
-}
-
 /**********
  * BUTTONS
  ***********/
@@ -267,7 +263,40 @@ h2 {
   }
 }
 
-$coil-tile-min-top: 140px;
+.playPauseButton {
+  cursor: pointer;
+  @extend .coil-btn__secondary-white;
+  @include u-padding(1);  
+  @include u-bg('transparent');
+}
+
+$pauseButtonWidth: 4;
+$buttonIconColor: 'white';
+.playPauseDisplay {
+  @include u-width($pauseButtonWidth);
+  @include u-height($pauseButtonWidth);
+  box-sizing: border-box;
+  border-color: transparent transparent transparent color($buttonIconColor);
+  &.play {
+    border-style: solid;
+    border-width: units($pauseButtonWidth / 2) 0 units($pauseButtonWidth / 2) units($pauseButtonWidth);
+  }
+  &.pause {
+    border-style: double;
+    border-width: 0 0 0 units($pauseButtonWidth);
+    border-radius: 3px;
+  }
+}
+
+
+
+
+
+.scrolling-gallery {
+  height: 30rem;
+}
+
+$coil-tile-min-top: 100px;
 $max-top-spacing: 50px; 
 
 $on-screen-duration: 6s;

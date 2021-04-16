@@ -267,7 +267,7 @@ h2 {
   cursor: pointer;
   @extend .coil-btn__secondary-white;
   @include u-padding(1);  
-  @include u-bg('transparent');
+  @include u-bg('base-darkest');
 }
 
 $pauseButtonWidth: 4;
@@ -314,7 +314,6 @@ $num-passes: $num-tiles / $imgs-per-duration;
   @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
       top: $coil-tile-min-top + random($max-top-spacing);
-      // @debug #{$i * $img-gap + $offset * $on-screen-duration};
       animation: slide ($num-passes) * $on-screen-duration linear #{$i * $img-gap+ $offset * $on-screen-duration} infinite;
       @include at-media('tablet-lg') {
         animation-delay: #{$i * $img-gap-wide + $offset * $wide-onscreen-duration} !important;
@@ -329,6 +328,7 @@ $num-passes: $num-tiles / $imgs-per-duration;
   display: table;
   left: 110%;
   height: percentage(1 / $num-passes);
+  z-index: -1;
   @include slide-anim;
   &:first-child {
     top: $coil-tile-min-top + 20px;

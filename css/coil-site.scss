@@ -190,19 +190,28 @@ h2 {
   @include u-font('sans', '3xs');
   @include u-text('uppercase');
   @include u-padding-x('05');
-  @include u-border('1px', solid);
+  @include u-border('1px', dotted);
   @include u-radius('pill');
   &__comm, &__faci, &__expe, &__prod, &__hiri, &__upsk {
     @extend .project-tag;
   }
   &__comm {
-    @include u-color('error-light');
+    @include u-color('secondary');
   }
   &__faci {
-    @include u-color('accent-cool-light')
+    @include u-color('info-dark')
   }
   &__expe {
-    @include u-color('success');
+    @include u-color('success-dark');
+  }
+  &__upsk {
+    @include u-color('success-darker');
+  }
+  &__hiri {
+    @include u-color('info-darker');
+  }
+  &__prod {
+    @include u-color('accent-warm-dark');
   }
 }
 

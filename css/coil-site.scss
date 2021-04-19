@@ -33,7 +33,7 @@ h2 {
 }
 
 .dashed {  // based on https://jsfiddle.net/j0y7uaqL/
-  width: 100%;
+  width: 200%;
   overflow: hidden;
   padding-left: 0 !important;
   &:before, &:after {
@@ -80,7 +80,6 @@ h2 {
 .coil-section {
   @include u-margin-y(8);
   @include u-padding-top(8);
-  @include u-border-top(1px, 'white');
   > * {
     @include u-padding-x($coil-left-padding);
   }
@@ -90,6 +89,7 @@ h2 {
   &:last-of-type {
     @include u-padding-bottom(10);
     @include u-margin-bottom(4);
+    @include u-border-top(1px, 'white');
     @include u-border-bottom(1px, 'white');
   }
 }
@@ -184,6 +184,7 @@ h2 {
   &__with-tags {
     @extend .coil-project-card;
     @include u-border(0);
+    @include u-padding-y(1);
   }
 }
 
@@ -309,12 +310,13 @@ $buttonIconColor: 'white';
 
 
 
-
-.scrolling-gallery {
-  height: 30rem;
+.gallery-section {
   @include at-media-max('tablet') {
     display: none;
   }
+}
+.scrolling-gallery {
+  height: 30rem;
   overflow: hidden;
 }
 

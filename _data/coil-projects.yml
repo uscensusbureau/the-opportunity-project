@@ -28,6 +28,7 @@
         src: photos/coil/april2021refresh/HCD-Training-Photos-23-edit.jpg
         alt: Four people standing and smiling in front of a white board covered with sticky notes
     - title: Civic Digital Fellowship
+      href: https://www.codingitforward.com/civic-digital-fellowship
       callout: Hire the next generation of technologists
       details: The CDF program empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces.
       tags: 
@@ -44,7 +45,7 @@
       details: Content creation guide that allows organizers to localize messaging and speak to their community.
       links:
         - text: Creatives for the Count
-          href: '#'
+          href: https://www.creativesforthecount.org/toolkit/
         - text: Community Outreach Toolkit
           href: '#'
     - title: Data Curation Hub
@@ -69,6 +70,7 @@
         - Community Engagement
         - Facilitation
         - Experience Strategy
+      href: https://accelerate.census.gov/
     - title: Human-Centered Design Training
       details: We teach human-centered design fundamentals to leaders at the U.S. Census Bureau to introduce new problem solving and collaboration methods and methods.
       tags: 

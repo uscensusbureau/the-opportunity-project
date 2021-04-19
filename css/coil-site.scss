@@ -6,6 +6,17 @@
   @include white-links;
 }
 
+.small-only {
+  @include at-media('tablet'){
+    display: none;
+  }
+}
+.large-only {
+  @include at-media-max('tablet'){
+    display: none;
+  }
+}
+
 $coil-left-padding: 4;
 
 /*****************

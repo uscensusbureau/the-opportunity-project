@@ -109,6 +109,9 @@ h2 {
 #galleryPlayPause {
   float: right;
   @include u-margin-right(5);
+  @media (prefers-reduced-motion: reduce) {
+    display: none;
+  }
 }
 
 .coil-hero {
@@ -358,7 +361,7 @@ $num-passes: $num-tiles / $imgs-per-duration;
 }
 
 .scrolling-gallery-tile {
-  text-align: center;
+  // text-align: center;
   @include u-position('absolute');
   left: 110%;
   width: 100%;
@@ -378,8 +381,19 @@ $num-passes: $num-tiles / $imgs-per-duration;
   }
 
   @media (prefers-reduced-motion: reduce) {
-    animation: none;
-    animation-play-state: 'paused' !important;
+    animation: none !important;
+    animation-play-state: paused !important;
+    display: none;
+    &:first-child {
+      left: 10%;
+      display: inline-block;
+      visibility: visible;
+    }
+    &:nth-child(2) {
+      left: 60%;
+      display: inline-block;
+      visibility: visible;
+    }
   }
 }
 

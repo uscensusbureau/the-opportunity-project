@@ -79,8 +79,10 @@ h2 {
 
 .coil-header {
   @include u-position('sticky');
+  @include u-top(0);
+  @include u-bg('base-darkest');
   @include white-links;
-  @include u-border-bottom(1, 'white');
+  @include u-border-bottom('2px', 'white');
   @include u-padding-y(2);
 }
 .coil-navbar {

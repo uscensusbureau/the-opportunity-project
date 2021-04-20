@@ -18,6 +18,7 @@
 }
 
 $coil-left-padding: 4;
+$coil-left-padding-wide: 10;
 
 /*****************
  * Typography
@@ -44,6 +45,9 @@ h2 {
 }
 
 .dashed {  // based on https://jsfiddle.net/j0y7uaqL/
+  h3 {
+    display: inline-block;
+  }
   width: 200%;
   overflow: hidden;
   padding-left: 0 !important;
@@ -56,6 +60,10 @@ h2 {
   &:before {
     width: units($coil-left-padding) * .75;
     margin: 0 units($coil-left-padding) * .25 0 0;
+    // @include at-media('desktop') {
+    //   width: units($coil-left-padding-wide) * .75;
+    //   margin: 0 units($coil-left-padding-wide) * .25 0 0;
+    // }
   }
   &:after {
     width: 100%;
@@ -93,6 +101,19 @@ h2 {
   @include u-padding-top(8);
   > * {
     @include u-padding-x($coil-left-padding);
+    @include at-media('desktop') {
+      &:not(.dashed) {
+        @include u-maxw($theme-grid-container-max-width);
+        @include u-margin-x('auto', !important);
+      }
+      &.dashed {
+        @include u-width($theme-grid-container-max-width);
+        @include u-margin-x('auto', !important);
+      }
+      // &.abstract-icon {
+      //   @include u-width($theme-grid-container-max-width);
+      // }
+    }
   }
   &:first-of-type, &:nth-child(2) {
     @include u-border-top(0);
@@ -117,7 +138,7 @@ h2 {
 .coil-hero {
   @include u-margin-top(3);
   // @include u-margin-x(2);
-  @include u-maxw('tablet');
+  // @include u-maxw('tablet');
 }
 
 .coil-project-lg {
@@ -339,7 +360,7 @@ $max-top-spacing: 50px;
 
 $on-screen-duration: 6s;
 $imgs-per-duration: 2;
-$num-tiles: 11;
+$num-tiles: 10;
 $offset: -0.66;
 
 // initial setup

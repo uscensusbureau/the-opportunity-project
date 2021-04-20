@@ -3,6 +3,7 @@
   format: Image
   caption: This is a caption
   link: '#headerTwo'
+  delayOffset: 0
 
 - url: 'videos/16_winner_03-video'
   format: video
@@ -12,6 +13,7 @@
   format: Image
   caption: This is a caption
   link: '#headerTwo'
+  delayOffset: 0
 
 - url: 'videos/16_winner_01'
   format: video
@@ -41,10 +43,11 @@
 
 - url: 'videos/16_winner_02-speech'
   format: video
+  delayOffset: .5
 
-- url: 'photos/coil/april2021refresh/workshop2'
-  format: Image
-  alt: 'Image of such and such'
+# - url: 'photos/coil/april2021refresh/workshop2'
+#   format: Image
+#   alt: 'Image of such and such'
 
 # - url: 'videos/DemoWeek'
 #   format: video

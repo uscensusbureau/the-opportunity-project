@@ -19,6 +19,7 @@
 
 $coil-left-padding: 4;
 $coil-left-padding-wide: 10;
+$dotted-border:  1px dotted color('white');
 
 /*****************
  * Typography
@@ -276,6 +277,9 @@ h2 {
   }
   @include at-media('tablet') {
     @include grid-col(3);
+  }
+  img {
+    border: $dotted-border;
   }
 }
 

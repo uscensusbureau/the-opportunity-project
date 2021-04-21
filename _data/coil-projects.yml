@@ -17,7 +17,7 @@
       subproject:
         title: TOP Prize Challenge
         callout: Create impact that can scale.
-        details: Every year, we run The Opportunity Project Prize Challenge to encourage the best teams from TOP to keep going. Since 2019, we’ve awarded $X in funding to Y teams, and attracted applicants from XYZ. Learn more about how to [apply for the grand prize challenge in 2021](https://opportunity.census.gov/prize-challenge) or [contact us](https://www.census.gov/forms/contact-top.html) to run your own prize challenge.
+        details: Every year, we run The Opportunity Project Prize Challenge to encourage the best teams from TOP to keep going. In 2019, we awarded $100,000 in funding to TOP participants. Learn more about how to [apply for the grand prize challenge in 2021](https://opportunity.census.gov/prize-challenge) or [contact us](https://www.census.gov/forms/contact-top.html) to run your own prize challenge.
         href: /prize-challenge
     - title: Enterprise Innovation Efforts
       callout: Learn how innovation can scale at federal agencies.
@@ -52,7 +52,7 @@
     - title: Data Curation Hub
       details: We work with federal data stewards to collect high quality datasets based around national challenges. Tech teams then use the Hub to find and use this data in their TOP projects.
       href: /data
-    - title: Census Solutions Toolkit
+    - title: Design-Thinking Toolkit
       href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
     - title: TOPx Toolkit
@@ -79,6 +79,7 @@
         - Experience Strategy
         - Talent Building
     - title: Census Solutions Workshops
+      href: https://www.census.gov/partners/workshops.html
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies,  and partnerships in those areas.
       tags: 
         - Facilitation

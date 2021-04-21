@@ -229,32 +229,31 @@ h2 {
 .project-tags {
   @include u-margin-y(1);
 }
+$facilitation: #2B78BF;
+$blue-50: #2378c3;
 .project-tag {
   @include u-font('sans', '3xs');
   @include u-text('uppercase');
   @include u-padding-x('05');
   @include u-border('1px', dotted);
   @include u-radius('pill');
-  &__comm, &__faci, &__expe, &__prod, &__hiri, &__upsk {
+  &__comm, &__faci, &__expe, &__prod, &__tale {
     @extend .project-tag;
   }
   &__comm {
-    @include u-color('secondary');
+    @include u-color('orange-warm-50v');
   }
   &__faci {
-    @include u-color('info-dark')
+    @include u-color('blue-50v')
   }
   &__expe {
-    @include u-color('success-dark');
+    @include u-color('green-cool-50v');
   }
-  &__upsk {
-    @include u-color('success-darker');
-  }
-  &__hiri {
-    @include u-color('info-darker');
+  &__tale {
+    @include u-color('indigo-cool-80v');
   }
   &__prod {
-    @include u-color('accent-warm-dark');
+    @include u-color('red-warm-50v');
   }
 }
 

@@ -30,13 +30,13 @@ team:
 
 If you’re interested in participating in TOP, please [apply here](#) for the next sprint cohort.
 
-If you want to get started modernizing your agency or organization, [send us an email](#) today.
+If you want to get started modernizing your agency or organization, send us an email at [{{ site.contacts.coil-email }}](mailto:{{ site.contacts.coil-email }}).
 
 We’ll help you
 
 - Build a digital product.
 - Run a prize challenge.
-- Create a toolkit.
+- Learn how to build programs that can scale.
 - Foster a culture of innovation.
 {: .coil-help-list }
 

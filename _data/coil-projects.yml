@@ -10,7 +10,9 @@
       tags:
         - Product Development
         - Facilitation
-        - Experience Strategy
+        - Experience Design
+        - Talent Building
+        - Community Engagement
       href: /
       subproject:
         title: TOP Prize Challenge
@@ -21,9 +23,9 @@
       callout: Learn how innovation can scale at federal agencies.
       details: From Data Science Trainings to large-scale culture change, our team has experience analyzing complex systems and working to transform the federal workforce.
       tags: 
-        - Experience Strategy
         - Facilitation
-        - Upskilling
+        - Experience Design
+        - Talent Building
       img: 
         src: photos/coil/april2021refresh/HCD-Training-Photos-23-edit.jpg
         alt: Four people standing and smiling in front of a white board covered with sticky notes
@@ -33,8 +35,7 @@
       details: The CDF program empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces. We coordinate with federal agencies to bring this new talent to your team.
       tags: 
         - Product Development
-        - Hiring
-        - Upskilling
+        - Talent Building
       img:
         src: photos/coil/april2021refresh/fellows.jpg
         alt: Many rows of young people on the steps of a federal building wearing suits and smiling towards the camera
@@ -67,19 +68,20 @@
     - title: Census Accelerate
       details: We mobilized the creative community and partnered with influential stars to spread awareness about the importance of the 2020 Census and combat mis- and dis-information.
       tags: 
-        - Community Engagement
         - Facilitation
         - Experience Strategy
+        - Community Engagement
       href: https://accelerate.census.gov/
     - title: Human-Centered Design Training
-      details: We teach human-centered design fundamentals to leaders at the U.S. Census Bureau to introduce new problem solving and collaboration methods and methods.
+      details: We teach human-centered design fundamentals to leaders at the U.S. Census Bureau to introduce new problem solving and collaboration methods and opportunities.
       tags: 
-        - Community Engagement
         - Facilitation
         - Experience Strategy
+        - Talent Building
     - title: Census Solutions Workshops
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies,  and partnerships in those areas.
       tags: 
-        - Community Engagement
         - Facilitation
         - Experience Strategy
+        - Talent Building
+        - Community Engagement

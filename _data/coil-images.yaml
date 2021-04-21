@@ -1,49 +1,51 @@
-- url: 'photos/coil/april2021refresh/workshop1'
+- url: 'videos/DemoWeek'
+  alt: 'Image of such and such'
+  format: video
+
+- url: 'photos/coil/april2021refresh/1x_coil_workforce-workshop_19--32'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
-  delayOffset: 0
+
+- url: 'videos/TOP-impact'
+  format: video
+
+- url: 'photos/coil/april2021refresh/1x_HCD-Training-Photos-8-edit'
+  alt: 'Image of such and such'
+  format: Image
+  caption: This is a caption
+  link: '#headerTwo'
+
+- url: 'photos/coil/april2021refresh/1x_HCD-Training-Photos-15'
+  alt: 'Image of such and such'
+  format: Image
+  caption: This is a caption
+  link: '#headerTwo'
+
+- url: 'videos/Mi-Toca'
+  format: video
+
+- url: 'photos/coil/april2021refresh/1x_coil_workforce-workshop_19--32 copy'
+  format: Image
+  alt: 'Image of such and such'
+
+- url: 'videos/16_winner_01-video'
+  format: video
 
 - url: 'videos/16_winner_03-video'
   format: video
 
-- url: 'photos/coil/april2021refresh/teamZoom'
-  alt: 'Image of such and such'
-  format: Image
-  caption: This is a caption
-  link: '#headerTwo'
-  delayOffset: 0
-
-- url: 'videos/16_winner_01'
-  format: video
-
-- url: 'photos/coil/april2021refresh/naipMap'
-  alt: 'Image of such and such'
-  format: Image
-  caption: This is a caption
-  link: '#headerTwo'
-
 - url: 'videos/16_winner_02-video'
   format: video
 
-# - url: 'photos/coil/april2021refresh/demoWeek'
+# - url: 'photos/coil/april2021refresh/count'
+#   format: Image
 #   alt: 'Image of such and such'
 
-- url: 'photos/coil/april2021refresh/fellows'
-  format: Image
-  alt: 'Image of such and such'
-
-- url: 'videos/16_winner_03-speech'
-  format: video
-
-- url: 'photos/coil/april2021refresh/count'
-  format: Image
-  alt: 'Image of such and such'
-
-- url: 'videos/16_winner_02-speech'
-  format: video
-  delayOffset: .5
+# - url: 'videos/16_winner_02-speech'
+#   format: video
+#   delayOffset: .5
 
 # - url: 'photos/coil/april2021refresh/workshop2'
 #   format: Image

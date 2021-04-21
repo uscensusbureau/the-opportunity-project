@@ -108,6 +108,7 @@ GEM
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
     yell (2.2.2)
 
 PLATFORMS
@@ -124,6 +125,7 @@ DEPENDENCIES
   rspec-core
   rspec-expectations
   scss_lint
+  webrick
 
 BUNDLED WITH
-   2.1.4
+   2.2.15

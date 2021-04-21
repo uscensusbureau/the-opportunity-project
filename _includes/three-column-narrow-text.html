@@ -21,18 +21,20 @@
 
   <div class="grid-section bg-base-darkest">
     <div class="grid-row">
-      <div class="grid-col-3 grid-offset-1">
-        {% include image.html src='photos/home/2020-annual-report.jpg' alt='A cover of a pdf with the title The Opportunity Project 2020 Annual Report' %}
+      <div class="mobile-lg:grid-col-3 mobile-lg:grid-offset-1">
+        <a href="{{ site.baseurl }}/{{ site.annual_reports.2020 }}" target="_blank" class="">
+          {% include image.html src='photos/home/2020-annual-report.jpg' alt='A cover of a pdf with the title The Opportunity Project 2020 Annual Report' %}
+        </a>
       </div>
-      <div class="grid-col-6 grid-offset-1 text-white">
+      <div class=" text-white mobile-lg:grid-col-6 mobile-lg:grid-offset-1 margin-y-4 mobile-lg:margin-y-0">
         Download our annual reports to read more about key TOP achievements from the past few years.
-        <div class="text-center margin-top-4">
-          <a href="{{ site.baseurl }}/{{ site.annual_reports.2020 }}" target="_blank" class="btn-link btn-link__primary btn-link__primary-red margin-left-4">
+        <div class="text-center">
+          <a href="{{ site.baseurl }}/{{ site.annual_reports.2020 }}" target="_blank" class="btn-link__primary-red">
             2020 Annual Report (PDF)
           </a>
         </div>
-        <div class="text-center margin-top-4">
-          <a href="{{ site.baseurl }}/{{ site.annual_reports.2019 }}" target="_blank" class="btn-link btn-link__primary btn-link__primary-red margin-left-4">
+        <div class="text-center">
+          <a href="{{ site.baseurl }}/{{ site.annual_reports.2019 }}" target="_blank" class="btn-link__primary-red">
             2019 Annual Report (PDF)
           </a>
         </div>

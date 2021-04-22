@@ -26,11 +26,11 @@
 - url: 'videos/Mi-Toca'
   format: video
 
-- url: 'photos/coil/april2021refresh/1x_coil_workforce-workshop_19--32 copy'
+- url: 'photos/coil/april2021refresh/1x_coil_workforce-workshop_19--32copy'
   format: Image
   alt: 'Image of such and such'
 
-- url: 'videos/16_winner_01-video'
+- url: 'videos/16_winner_01'
   format: video
 
 - url: 'videos/16_winner_03-video'

@@ -1,4 +1,5 @@
 @use "sass:math";
+@use "sass:list";
 
 .layout-coil {
   @include u-bg('base-darkest');
@@ -363,24 +364,53 @@ $buttonIconColor: 'white';
 $coil-tile-min-top: 100px;
 $max-top-spacing: 50px; 
 
-$on-screen-duration: 6s;
-$imgs-per-duration: 2;
-$num-tiles: 10;
-$offset: -0.66;
+$on-screen-duration: 12s;
+// $imgs-per-duration: 2;
+// $num-tiles: 10;
+// $offset: -0.66;
 
 // initial setup
-$img-gap: $on-screen-duration / $imgs-per-duration;
+// $img-gap: $on-screen-duration / $imgs-per-duration;
 $wide-onscreen-duration: $on-screen-duration * 1.5;
-$img-gap-wide: $wide-onscreen-duration / $imgs-per-duration;
-$num-passes: $num-tiles / $imgs-per-duration;
+// $img-gap-wide: $wide-onscreen-duration / $imgs-per-duration;
+// $num-passes: $num-tiles / $imgs-per-duration;
 
+$initial-delay: -800;
+// $img-widths: [
+//   0, 1.6, 1.5, 1.8, 1.0, 1.0, 1.7, .7, .4, .4, .4 
+// ];
+$img-widths: [
+  0, 922, 771, 1158, 487, 560, 1486, 771, 390, 390, 390 
+];
+$img-gap: 0;
+$screen-width-multiplier: 1 / 880;
+
+
+$total-delay: 0;
+@for $i from 1 through list.length($img-widths) {
+  $total-delay: $total-delay + ( list.nth( $img-widths, $i ) + $img-gap ) * $screen-width-multiplier;
+}
+$animation-length: $total-delay * $on-screen-duration;
+$animation-length--wide: $total-delay * $wide-onscreen-duration;
+@debug("Total delay: ", $total-delay, $animation-length);
+
+$curr-delay: $initial-delay * $screen-width-multiplier;
 @mixin slide-anim {
-  @for $i from 1 through 20 {
+  @for $i from 1 through list.length($img-widths) {
+    @debug(IMAGE $i ---------);
+    $nth-add: (list.nth( $img-widths, $i) + $img-gap ) * $screen-width-multiplier;
+    @debug(raw width: (list.nth( $img-widths, $i) + $img-gap));
+    @debug(Adding width: $nth-add);
+    $curr-delay: $curr-delay + $nth-add;
     &:nth-child(#{$i}) {
+      // @debug($i: $curr-delay * $on-screen-duration);
       top: $coil-tile-min-top + random($max-top-spacing);
-      animation: slide ($num-passes) * $on-screen-duration linear #{$i * $img-gap+ $offset * $on-screen-duration} infinite;
+      animation: slide $animation-length linear $curr-delay * $on-screen-duration infinite;
       @include at-media('tablet-lg') {
-        animation-delay: #{$i * $img-gap-wide + $offset * $wide-onscreen-duration} !important;
+        @debug(Wide delay: $curr-delay * $wide-onscreen-duration);
+        animation: slide $animation-length--wide linear $curr-delay * $wide-onscreen-duration infinite;
+
+        // animation-delay: $curr-delay * $wide-onscreen-duration !important;
       }
     }
   }
@@ -403,7 +433,8 @@ $num-passes: $num-tiles / $imgs-per-duration;
   }
 
   @include at-media('tablet-lg') {
-    animation-duration: $num-passes * $wide-onscreen-duration !important;
+    // animation-duration: $num-passes * $wide-onscreen-duration !important;
+    animation-duration: $animation-length--wide !important;
   }
 
   @media (prefers-reduced-motion: reduce) {

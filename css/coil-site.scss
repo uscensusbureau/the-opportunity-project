@@ -137,6 +137,7 @@ h2 {
 }
 
 .coil-hero {
+  @include u-padding-top(0);
   @include u-margin-top(3);
   // @include u-margin-x(2);
   // @include u-maxw('tablet');
@@ -331,6 +332,7 @@ $blue-50: #2378c3;
   @extend .coil-btn__secondary-white;
   @include u-padding(1);  
   @include u-bg('base-darkest');
+  z-index: 100;
 }
 
 $pauseButtonWidth: 4;
@@ -355,16 +357,20 @@ $buttonIconColor: 'white';
 
 
 .gallery-section {
+  position: relative;
+  overflow: hidden;
   @include at-media-max('tablet') {
     display: none;
   }
 }
 .scrolling-gallery {
-  height: 30rem;
+  width: 100%;
+  height: 36rem;
   overflow: hidden;
+  position: relative;
 }
 
-$coil-tile-min-top: 100px;
+$coil-tile-min-top: 0px;
 $max-top-spacing: 50px; 
 
 $on-screen-duration: 12s;
@@ -378,12 +384,12 @@ $wide-onscreen-duration: $on-screen-duration * 1.5;
 // $img-gap-wide: $wide-onscreen-duration / $imgs-per-duration;
 // $num-passes: $num-tiles / $imgs-per-duration;
 
-$initial-delay: -800;
+$initial-delay: -1600;
 // $img-widths: [
 //   0, 1.6, 1.5, 1.8, 1.0, 1.0, 1.7, .7, .4, .4, .4 
 // ];
 $img-widths: [
-  0, 1092, 1171, 858, 487, 560, 750, 1100, 500, 500, 500 
+  0, 1092, 1171, 958, 487, 560, 750, 1100, 500, 500, 500 
 ];
 $img-gap: 100;
 $screen-width-multiplier: 1 / 880;
@@ -426,7 +432,7 @@ $curr-delay: $initial-delay * $screen-width-multiplier;
   width: 100%;
   height: 100%;
   z-index: -1;
-  visibility: hidden;
+  // visibility: hidden;
   @include slide-anim;
   &:first-child {
     top: $coil-tile-min-top + 20px;
@@ -458,8 +464,8 @@ $curr-delay: $initial-delay * $screen-width-multiplier;
 }
 
 @keyframes slide {
-  0%    { left: 105%; visibility: visible; }
+  0%    { left: 105%;  }
   40%  { left: -100%; opacity: 1; }
-  41%  { left: -90%; opacity: 0% ; visibility: hidden;}
+  41%  { left: -90%; opacity: 0% ; }
   100% {  left: 105%; opacity: 0% }
 }

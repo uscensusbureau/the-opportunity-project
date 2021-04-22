@@ -1,32 +1,32 @@
-- url: 'videos/DemoWeek'
+- url: 'videos/2x_DemoWeek'
   alt: 'Image of such and such'
   format: video
 
-- url: 'photos/coil/april2021refresh/1x_coil_workforce-workshop_19--32'
+- url: 'photos/coil/april2021refresh/2x_coil_workforce-workshop_19--32'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
 
-- url: 'videos/TOP-impact'
+- url: 'videos/2x_accelerate-animation-intro'
   format: video
 
-- url: 'photos/coil/april2021refresh/1x_HCD-Training-Photos-8-edit'
+- url: 'photos/coil/april2021refresh/2x_HCD-Training-Photos-8-edit'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
 
-- url: 'photos/coil/april2021refresh/1x_HCD-Training-Photos-15'
+- url: 'photos/coil/april2021refresh/2x_HCD-Training-Photos-15'
   alt: 'Image of such and such'
   format: Image
   caption: This is a caption
   link: '#headerTwo'
 
-- url: 'videos/Mi-Toca'
+- url: 'videos/2x_mi-toca'
   format: video
 
-- url: 'photos/coil/april2021refresh/1x_coil_workforce-workshop_19--32copy'
+- url: 'photos/coil/april2021refresh/2x_coil_workforce-workshop_19--32copy'
   format: Image
   alt: 'Image of such and such'
 

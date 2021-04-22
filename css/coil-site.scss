@@ -383,14 +383,14 @@ $initial-delay: -800;
 //   0, 1.6, 1.5, 1.8, 1.0, 1.0, 1.7, .7, .4, .4, .4 
 // ];
 $img-widths: [
-  0, 922, 771, 1158, 487, 560, 1486, 771, 390, 390, 390 
+  0, 1092, 1171, 858, 487, 560, 750, 1100, 500, 500, 500 
 ];
-$img-gap: 0;
+$img-gap: 100;
 $screen-width-multiplier: 1 / 880;
 
 
 $total-delay: 0;
-@for $i from 1 through list.length($img-widths) {
+@for $i from 2 through list.length($img-widths) {
   $total-delay: $total-delay + ( list.nth( $img-widths, $i ) + $img-gap ) * $screen-width-multiplier;
 }
 $animation-length: $total-delay * $on-screen-duration;

@@ -10,3 +10,4 @@ gem 'html-proofer'
 
 gem 'rspec-core'
 gem 'rspec-expectations'
+gem 'webrick'

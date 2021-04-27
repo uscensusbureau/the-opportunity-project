@@ -1,0 +1,26 @@
+---
+layout: base
+---
+{% include analytics.html %}
+{% include navbar.html %}
+
+<main id="main-content">
+  <div class="grid-container margin-y-6">
+    <div class="grid-row margin-bottom-4">
+      <div class="tablet:grid-offset-1 tablet:grid-col-9">
+        <h1 class="line-height-sans-3">{{ page.header }}</h1>
+      </div>
+    </div>
+    <div class="grid-row grid-gap margin-top-2">
+      <div class="tablet:grid-col-3 tablet:grid-offset-1 text-center">
+        {% include image.html src=page.img.src alt=page.img.alt 
+          class="border maxh-mobile" %}
+      </div>
+      <div class="tablet:grid-col-6 tablet:margin-top-0 margin-top-4">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

@@ -5,7 +5,7 @@ layout: coil
 class: coil
 
 hero: 
-  text: '**We help you** collaborate **with partners in** government, industry, **and the** community to **address our toughest** national challenges.'
+  text: 'Trailblazing open government through cross-sector collaboration, design, and technology.'
   subtext: Want to learn more?
   cta: 
     text: Contact&nbsp;Us
@@ -37,7 +37,7 @@ We’ll help you
 - Build a digital product.
 - Run a prize challenge.
 - Learn how to build programs that can scale.
-- Foster a culture of innovation.
+- Advance a culture of innovation.
 {: .coil-help-list }
 
 [Contact Us&nbsp;&rarr;](https://www.census.gov/forms/contact-top.html){: .coil-btn__primary-white }

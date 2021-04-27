@@ -4,12 +4,14 @@ title: "Census Open Innovation Labs"
 layout: coil
 class: coil
 
+typeform: https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB
+
 hero: 
   text: 'Trailblazing open government through cross-sector collaboration, design, and technology.'
   subtext: Want to learn more?
   cta: 
     text: Contact&nbsp;Us
-    href: https://www.census.gov/forms/contact-top.html
+    href: https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB
 
 work-section:
   title: Our Work
@@ -40,4 +42,4 @@ We’ll help you
 - Advance a culture of innovation.
 {: .coil-help-list }
 
-[Contact Us&nbsp;&rarr;](https://www.census.gov/forms/contact-top.html){: .coil-btn__primary-white }
+[Contact Us&nbsp;&rarr;]({{ page.typeform }}){: .coil-btn__primary-white target="_blank" }

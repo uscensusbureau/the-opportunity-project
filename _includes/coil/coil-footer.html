@@ -2,7 +2,7 @@
   <div
     class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-4"
   >
-    {% for bottomLink in site.data.nav.footer-bottom %}
+    {% for bottomLink in site.data.nav.footer-bottom-coil %}
       <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}"
         class="border-base-dark
           {% unless forloop.first %} border-left padding-left-2 {% endunless %}

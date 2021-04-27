@@ -94,9 +94,17 @@ footer-bottom:
   - text: Accessibility
     href: https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility
     isExternal: true
-  # - text: census.opportunityproject@census.gov
-  #   href: mailto:census.opportunityproject@census.gov
-  #   isExternal: true
+  - text: GitHub
+    href: https://github.com/uscensusbureau/the-opportunity-project
+    isExternal: true
+
+footer-bottom-coil:
+  - text: Privacy
+    href: https://www.census.gov/about/policies/privacy.html
+    isExternal: true
+  - text: Accessibility
+    href: https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility
+    isExternal: true
   - text: GitHub
     href: https://github.com/uscensusbureau/the-opportunity-project
     isExternal: true

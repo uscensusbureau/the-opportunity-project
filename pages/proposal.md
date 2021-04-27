@@ -20,12 +20,12 @@ img:
 
 {% capture right-side %}
 
-To submit a topic, please download the [Problem Statement Proposal Template]({{ templateUrl }}). You can submit your completed form to [census.opportunityproject@census.gov](mailto:opportunityproject@census.gov?subject=Problem Statement Proposal) with the subject line “Problem Statement Proposal”. <br/>
-[Download the Proposal Template&nbsp;&darr;]({{ templateUrl }}){: .btn-link__primary-red .margin-top-2 download="download"}
+To submit a topic, please download the [Problem Statement Proposal Template]({{ templateUrl }}){: download="" }. You can submit your completed form to [census.opportunityproject@census.gov](mailto:opportunityproject@census.gov?subject=Problem Statement Proposal) with the subject line “Problem Statement Proposal”. <br/>
+[Download the Proposal Template&nbsp;&darr;]({{ templateUrl }}){: .btn-link__primary-red .margin-top-2 download=""}
 {: .margin-bottom-6 .margin-top-0 }
 
-You can find more guidance on problem statement submission requirements and recommendations in the [Problem Statment Guidance Document]({{ guidanceUrl }}){: download="download" }.<br/>
-[Download the Guidance Document&nbsp;&darr;]({{ guidanceUrl }}){: .btn-link__secondary-dark .margin-top-2 download="download"}
+You can find more guidance on problem statement submission requirements and recommendations in the [Problem Statment Guidance Document]({{ guidanceUrl }}){: download="" }.<br/>
+[Download the Guidance Document&nbsp;&darr;]({{ guidanceUrl }}){: .btn-link__secondary-dark .margin-top-2 download=""}
 
 {% endcapture %}
 

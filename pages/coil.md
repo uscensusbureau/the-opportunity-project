@@ -8,7 +8,7 @@ typeform: https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB
 
 hero: 
   text: 'Trailblazing open government through cross-sector collaboration, design, and technology.'
-  subtext: Want to learn more?
+  subtext: Want to work with us?
   cta: 
     text: Contact&nbsp;Us
     href: https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB

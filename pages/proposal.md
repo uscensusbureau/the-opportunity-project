@@ -7,11 +7,11 @@ layout: ps-proposal
 
 files:
   federal:
-    template: 'Problem Statement Proposal Template_TOP 2021.docx'
-    guidance: 'TOP_Problem_Statement_Guidance_2021.pdf'
+    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2021_Federal-Agencies.docx'
+    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Federal-Agencies.pdf'
   ngos:
-    template: 'Problem Statement Proposal Template_TOP 2021.docx'
-    guidance: 'TOP_Problem_Statement_Guidance_2021.pdf'
+    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2021_Partners.docx'
+    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Partners.pdf'
 
 # img:
 #   src: ProblemStatementProposal2021.png

@@ -401,22 +401,22 @@ $total-delay: 0;
 }
 $animation-length: $total-delay * $on-screen-duration;
 $animation-length--wide: $total-delay * $wide-onscreen-duration;
-@debug("Total delay: ", $total-delay, $animation-length);
+// @debug("Total delay: ", $total-delay, $animation-length);
 
 $curr-delay: $initial-delay * $screen-width-multiplier;
 @mixin slide-anim {
   @for $i from 1 through list.length($img-widths) {
-    @debug(IMAGE $i ---------);
+    // @debug(IMAGE $i ---------);
     $nth-add: (list.nth( $img-widths, $i) + $img-gap ) * $screen-width-multiplier;
-    @debug(raw width: (list.nth( $img-widths, $i) + $img-gap));
-    @debug(Adding width: $nth-add);
+    // @debug(raw width: (list.nth( $img-widths, $i) + $img-gap));
+    // @debug(Adding width: $nth-add);
     $curr-delay: $curr-delay + $nth-add;
     &:nth-child(#{$i}) {
       // @debug($i: $curr-delay * $on-screen-duration);
       top: $coil-tile-min-top + random($max-top-spacing);
       animation: slide $animation-length linear $curr-delay * $on-screen-duration infinite;
       @include at-media('tablet-lg') {
-        @debug(Wide delay: $curr-delay * $wide-onscreen-duration);
+        // @debug(Wide delay: $curr-delay * $wide-onscreen-duration);
         animation: slide $animation-length--wide linear $curr-delay * $wide-onscreen-duration infinite;
 
         // animation-delay: $curr-delay * $wide-onscreen-duration !important;

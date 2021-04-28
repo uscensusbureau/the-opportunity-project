@@ -46,11 +46,15 @@ h2 {
   
 }
 
+.dashed-container {
+  width: 100vw;
+}
+
 .dashed {  // based on https://jsfiddle.net/j0y7uaqL/
   h3 {
     display: inline-block;
   }
-  width: 200%;
+  // width: 200%;
   overflow: hidden;
   padding-left: 0 !important;
   &:before, &:after {
@@ -62,6 +66,9 @@ h2 {
   &:before {
     width: units($coil-left-padding) * .75;
     margin: 0 units($coil-left-padding) * .25 0 0;
+    @include at-media('desktop') {
+      width: calc( calc(100vw - 64em) / 2 * .75);
+    }
   }
   &:after {
     width: 100%;
@@ -99,8 +106,9 @@ h2 {
 .coil-section {
   @include u-margin-y(8);
   @include u-padding-top(8);
-  > * {
+  > *:not(.coil-section-exempt) {
     @include u-padding-x($coil-left-padding);
+    @include u-margin-x('auto', !important);
     @include at-media('desktop') {
       &:not(.dashed) {
         @include u-maxw($theme-grid-container-max-width);
@@ -108,7 +116,6 @@ h2 {
       }
       &.dashed {
         @include u-width($theme-grid-container-max-width);
-        @include u-margin-x('auto', !important);
       }
     }
   }
@@ -264,6 +271,7 @@ $blue-50: #2378c3;
   position: relative;
   list-style-type: '\2713';
   z-index: -1;
+  width: max-content;
   li {
     @include u-padding-left(1);
   }

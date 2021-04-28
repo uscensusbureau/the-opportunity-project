@@ -2,6 +2,7 @@
 layout: base
 ---
 {% include analytics.html %}
+
 {% include coil/coil-nav.html %}
 <main id="main-content">
   
@@ -10,9 +11,8 @@ layout: base
   {% endcomment %}
 
   <section class="coil-hero coil-section usa-section margin-top-8">
-    <h1>Meet COIL</h1>
-    <div class="font-sans-6">{{ page.hero.text | markdownify }}</div>
-    <div class="font-sans-1 margin-bottom-2">
+    <h1 class="line-height-sans-3 font-sans-2xl maxw-tablet-lg coil-section-exempt padding-left-4">{{ page.hero.text }}</h1>
+    <div class="font-sans-lg margin-bottom-2">
       {{ page.hero.subtext | markdownify }}
     </div>
     <div>

@@ -40,6 +40,6 @@ We’ll help you
 - Run a prize challenge.
 - Learn how to build programs that can scale.
 - Advance a culture of innovation.
-{: .coil-help-list }
+{: .coil-help-list .coil-section-exempt }
 
 [Contact Us&nbsp;&rarr;]({{ page.typeform }}){: .coil-btn__primary-white target="_blank" }

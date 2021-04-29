@@ -1,0 +1,20 @@
+{% assign data = include.data %}
+<div class="project-large-text">
+  <div class="project-headers">
+    <h3>
+      {% if data.href %}
+        <a href="{% unless data.isExternal %}{{ site.baseurl }}{% endunless %}{{ data.href }}">
+      {% endif %}
+    {{ data.title }}{% if data.href %}&nbsp;&rarr;
+      </a>
+    {% endif %}
+    </h3>
+    <span class="font-sans-xl line-height-sans-2"> {{ data.callout }} </span>
+    {% if hasTags %}
+      {% include coil/project-tags.html data=data.tags %}
+    {% endif %}
+  </div>
+  <div class="project-details">
+    <p>{{ data.details | markdownify }}</p>
+  </div>
+</div>

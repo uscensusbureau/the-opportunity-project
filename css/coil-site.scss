@@ -1,0 +1,477 @@
+@use "sass:math";
+@use "sass:list";
+
+.layout-coil {
+  @include u-bg('base-darkest');
+  @include u-text('white');
+  @include white-links;
+}
+
+.small-only {
+  @include at-media('tablet'){
+    display: none;
+  }
+}
+.large-only {
+  @include at-media-max('tablet'){
+    display: none;
+  }
+}
+
+$coil-left-padding: 4;
+$coil-left-padding-wide: 10;
+$dotted-border:  1px dotted color('white');
+
+/*****************
+ * Typography
+ ****************/
+h1 {
+  @include u-font('sans', '2xl');
+  @include u-margin(0);
+}
+h2 {
+  @include u-font('sans', 'xl');
+}
+
+#our-work {
+  @include u-bg('white');
+  @include u-color('black');
+  a {
+    text-decoration: underline;
+    @include u-color('black');
+  }
+  h2, h3, h3 a {
+    @include u-color('base-darkest');
+  }
+}
+
+a[href="mailto:census.openinnovationlabs@census.gov"] {
+  word-break: break-all;
+}
+
+.dashed-container {
+  width: 100vw;
+}
+
+.dashed {  // based on https://jsfiddle.net/j0y7uaqL/
+  h3 {
+    display: inline-block;
+  }
+  // width: 200%;
+  overflow: hidden;
+  padding-left: 0 !important;
+  &:before, &:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px dotted color('base-light');
+  }
+  &:before {
+    width: units($coil-left-padding) * .75;
+    margin: 0 units($coil-left-padding) * .25 0 0;
+    @include at-media('desktop') {
+      width: calc( calc(100vw - 64em) / 2 * .75);
+    }
+  }
+  &:after {
+    width: 100%;
+    margin: 0 -55% 0 units($coil-left-padding) * .25;
+  }
+}
+
+
+
+/***************
+ * Layout
+ ****************/
+
+.coil-header {
+  @include u-position('sticky');
+  @include u-top('neg-2px');
+  @include u-bg('base-darkest');
+  @include white-links;
+  @include u-border-bottom('2px', 'white');
+  @include u-padding-y(2);
+}
+.coil-navbar {
+  @include u-padding-x(2);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    text-transform: uppercase;
+    @include u-font("mono", "3xs");
+  }
+}
+
+.coil-section {
+  @include u-margin-y(8);
+  @include u-padding-top(8);
+  > *:not(.coil-section-exempt) {
+    @include u-padding-x($coil-left-padding);
+    @include u-margin-x('auto', !important);
+    @include at-media('desktop') {
+      &:not(.dashed) {
+        @include u-maxw($theme-grid-container-max-width);
+        @include u-margin-x('auto', !important);
+      }
+      &.dashed {
+        @include u-width($theme-grid-container-max-width);
+      }
+    }
+  }
+  &:first-of-type, &:nth-child(2) {
+    @include u-border-top(0);
+  }
+  &:nth-last-child(2) {
+    @include u-padding-top(0);
+    @include u-padding-bottom(4);
+  }
+  &:last-of-type {
+    @include u-padding-bottom(10);
+    @include u-margin-bottom(4);
+    @include u-border-top(1px, 'white');
+    @include u-border-bottom(1px, 'white');
+  }
+}
+
+
+#galleryPlayPause {
+  float: right;
+  @include u-margin-right(5);
+  @media (prefers-reduced-motion: reduce) {
+    display: none;
+  }
+}
+
+.coil-hero {
+  @include u-padding-top(0);
+  @include u-margin-top(3);
+  // @include u-margin-x(2);
+  // @include u-maxw('tablet');
+}
+
+.coil-project-lg {
+  @include grid-col(12);
+  @include u-margin-y(2);
+  .project-content {
+    @include u-radius('md');
+
+  }
+  @include at-media('tablet') {
+    @include grid-col(6);
+  }
+  a {
+    text-decoration: underline;
+  }
+  .project-headers, .project-details {
+    @include u-padding-x(2);
+  }
+  
+  &:first-child {
+    @include grid-col(12);
+    .project-large-text:first-child{
+      @include u-border-bottom(1px);
+    }
+    @include at-media('tablet') {
+      .project-content {
+        @include grid-row;
+        .project-texts {
+          @include grid-col(9);
+          .project-large-text {
+            @include grid-row;
+            @include u-border-right(1px);
+          }
+          .project-headers {
+            @include grid-col(6);
+          }
+          .project-details {
+            @include grid-col(6)
+          }
+        }
+        picture {
+          @include grid-col(3);
+          @include u-order(6);
+          img {
+            height: 100%;
+            object-position: 70% 30%;
+          }
+        }
+      }
+    }
+  }
+  .project-content{
+    border: 1px solid color('base-dark');
+    @include u-height('full');
+  }
+  picture img {
+    width: 100%;
+    @include u-height('card');
+    object-fit: cover;
+    object-position: center 37%;
+  }
+}
+
+.coil-card-container {
+  @include grid-col(12);
+  @include u-margin-bottom(2);
+  @include at-media('mobile-lg'){
+    @include grid-col(6);
+  }
+  @include at-media('tablet') {
+    @include grid-col(4);
+  }
+}
+.coil-project-card {
+  @include u-height('full');
+  @include u-padding(2);
+  @include u-border('1px', 'black');
+  @include u-radius('md');
+  a {
+    text-decoration: underline;
+  }
+  &__with-tags {
+    @extend .coil-project-card;
+    @include u-border(0);
+    @include u-padding-y(1);
+  }
+}
+
+.project-tags {
+  @include u-margin-y(1);
+}
+$facilitation: #2B78BF;
+$blue-50: #2378c3;
+.project-tag {
+  @include u-font('sans', '3xs');
+  @include u-text('uppercase');
+  @include u-padding-x('05');
+  @include u-border('1px', dotted);
+  @include u-radius('pill');
+  &__comm, &__faci, &__expe, &__prod, &__tale {
+    @extend .project-tag;
+  }
+  &__comm {
+    @include u-color('orange-warm-50v');
+  }
+  &__faci {
+    @include u-color('blue-50v')
+  }
+  &__expe {
+    @include u-color('green-cool-50v');
+  }
+  &__tale {
+    @include u-color('indigo-cool-80v');
+  }
+  &__prod {
+    @include u-color('red-cool-50v');
+  }
+}
+
+.coil-help-list {
+  list-style-type: '\2713';
+  z-index: -1;
+  
+  li {
+    @include u-padding-left(1);
+  }
+}
+
+.coil-bio {
+  @include grid-col(6);
+  @include at-media('mobile-lg') {
+    @include grid-col(4);
+  }
+  @include at-media('tablet') {
+    @include grid-col(3);
+  }
+  img {
+    border: $dotted-border;
+  }
+}
+
+.coil-team-email {
+  @include u-font('sans', '3xs');
+  overflow-wrap: anywhere;
+}
+
+.abstract-icon {
+  @include u-maxh(15);
+  @include u-margin-top(6);
+}
+
+/**********
+ * BUTTONS
+ ***********/
+
+.coil-btn {
+  text-decoration: none;
+  padding: .3rem .5rem;
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+  &__secondary-white {
+    @extend .coil-btn;
+    border: 1px dotted color('white');
+    &:hover, &:active {
+      @include u-border-color('primary-lightest');
+    }
+  }
+  &__primary-white {
+    @extend .coil-btn;
+    color: color('base-darkest') !important;
+    // @include u-color('base-darkest');
+    @include u-bg('white');
+    @include u-padding(1);
+    @include u-text('uppercase');
+    @include u-font('sans', 'xl');
+    &:hover, &:active {
+      @include u-color('base-darkest');
+    }
+  }
+}
+
+.playPauseButton {
+  cursor: pointer;
+  @extend .coil-btn__secondary-white;
+  @include u-padding(1);  
+  @include u-bg('base-darkest');
+  z-index: 100;
+}
+
+$pauseButtonWidth: 4;
+$buttonIconColor: 'white';
+.playPauseDisplay {
+  @include u-width($pauseButtonWidth);
+  @include u-height($pauseButtonWidth);
+  box-sizing: border-box;
+  border-color: transparent transparent transparent color($buttonIconColor);
+  &.play {
+    border-style: solid;
+    border-width: units($pauseButtonWidth / 2) 0 units($pauseButtonWidth / 2) units($pauseButtonWidth);
+  }
+  &.pause {
+    border-style: double;
+    border-width: 0 0 0 units($pauseButtonWidth);
+    border-radius: 3px;
+  }
+}
+
+
+
+
+.gallery-section {
+  position: relative;
+  overflow: hidden;
+  @include at-media-max('tablet') {
+    display: none;
+  }
+}
+.scrolling-gallery {
+  width: 100%;
+  height: 36rem;
+  overflow: hidden;
+  position: relative;
+}
+
+$coil-tile-min-top: 0px;
+$max-top-spacing: 50px; 
+
+$on-screen-duration: 12s;
+// $imgs-per-duration: 2;
+// $num-tiles: 10;
+// $offset: -0.66;
+
+// initial setup
+// $img-gap: $on-screen-duration / $imgs-per-duration;
+$wide-onscreen-duration: $on-screen-duration * 1.5;
+// $img-gap-wide: $wide-onscreen-duration / $imgs-per-duration;
+// $num-passes: $num-tiles / $imgs-per-duration;
+
+$initial-delay: -1600;
+// $img-widths: [
+//   0, 1.6, 1.5, 1.8, 1.0, 1.0, 1.7, .7, .4, .4, .4 
+// ];
+$img-widths: [
+  0, 1092, 1171, 958, 487, 560, 750, 1200, 550, 550, 550 
+];
+$img-gap: 100;
+$screen-width-multiplier: 1 / 880;
+
+
+$total-delay: 0;
+@for $i from 2 through list.length($img-widths) {
+  $total-delay: $total-delay + ( list.nth( $img-widths, $i ) + $img-gap ) * $screen-width-multiplier;
+}
+$animation-length: $total-delay * $on-screen-duration;
+$animation-length--wide: $total-delay * $wide-onscreen-duration;
+// @debug("Total delay: ", $total-delay, $animation-length);
+
+$curr-delay: $initial-delay * $screen-width-multiplier;
+@mixin slide-anim {
+  @for $i from 1 through list.length($img-widths) {
+    // @debug(IMAGE $i ---------);
+    $nth-add: (list.nth( $img-widths, $i) + $img-gap ) * $screen-width-multiplier;
+    // @debug(raw width: (list.nth( $img-widths, $i) + $img-gap));
+    // @debug(Adding width: $nth-add);
+    $curr-delay: $curr-delay + $nth-add;
+    &:nth-child(#{$i}) {
+      // @debug($i: $curr-delay * $on-screen-duration);
+      top: $coil-tile-min-top + random($max-top-spacing);
+      animation: slide $animation-length linear $curr-delay * $on-screen-duration infinite;
+      @include at-media('tablet-lg') {
+        // @debug(Wide delay: $curr-delay * $wide-onscreen-duration);
+        animation: slide $animation-length--wide linear $curr-delay * $wide-onscreen-duration infinite;
+
+        // animation-delay: $curr-delay * $wide-onscreen-duration !important;
+      }
+    }
+  }
+}
+
+.scrolling-gallery-tile {
+  // text-align: center;
+  @include u-position('absolute');
+  left: 110%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  // visibility: hidden;
+  @include slide-anim;
+  &:first-child {
+    top: $coil-tile-min-top + 20px;
+  }
+  &:nth-child(2) {
+    top: $coil-tile-min-top + 50px;
+  }
+
+  @include at-media('tablet-lg') {
+    // animation-duration: $num-passes * $wide-onscreen-duration !important;
+    animation-duration: $animation-length--wide !important;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none !important;
+    animation-play-state: paused !important;
+    display: none;
+    &:first-child {
+      left: 10%;
+      display: inline-block;
+      visibility: visible;
+    }
+    &:nth-child(2) {
+      left: 60%;
+      display: inline-block;
+      visibility: visible;
+    }
+  }
+}
+
+@keyframes slide {
+  0%    { left: 105%;  }
+  40%  { left: -100%; opacity: 1; }
+  41%  { left: -90%; opacity: 0% ; }
+  100% {  left: 105%; opacity: 0% }
+}

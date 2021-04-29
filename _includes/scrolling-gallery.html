@@ -1,0 +1,24 @@
+{% assign data = include.data %}
+
+<section class="gallery-section">
+  <div class="scrolling-gallery padding-x-0">
+    {% for tile in data %}
+      <div class="scrolling-gallery-tile">
+        <div>
+        {% case tile.format %}
+          {% when 'Image' %}
+            {% include image.html src=tile.url alt=tile.alt %}
+          {% when 'video' %}
+            {% include video.html filename=tile.url %}
+          {% else %}
+        {% endcase %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div>
+    <button id="galleryPlayPause" class="playPauseButton" aria-label="pause">
+      <div class="playPauseDisplay pause"></div>
+    </button>
+  </div>
+</section>

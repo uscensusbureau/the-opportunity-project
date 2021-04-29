@@ -1,0 +1,60 @@
+- url: 'videos/2x_DemoWeek'
+  alt: 'Image of such and such'
+  format: video
+
+- url: 'photos/coil/april2021refresh/2x_coil_workforce-workshop_19--32'
+  alt: 'Image of such and such'
+  format: Image
+  caption: This is a caption
+  link: '#headerTwo'
+
+- url: 'videos/2x_accelerate-animation-intro'
+  format: video
+
+- url: 'photos/coil/april2021refresh/2x_HCD-Training-Photos-8-edit'
+  alt: 'Image of such and such'
+  format: Image
+  caption: This is a caption
+  link: '#headerTwo'
+
+- url: 'photos/coil/april2021refresh/2x_HCD-Training-Photos-15'
+  alt: 'Image of such and such'
+  format: Image
+  caption: This is a caption
+  link: '#headerTwo'
+
+- url: 'videos/2x_mi-toca'
+  format: video
+
+- url: 'photos/coil/april2021refresh/2x_coil_workforce-workshop_19--32copy'
+  format: Image
+  alt: 'Image of such and such'
+
+- url: 'videos/16_winner_01'
+  format: video
+
+- url: 'videos/16_winner_03-video'
+  format: video
+
+- url: 'videos/16_winner_02-video'
+  format: video
+
+# - url: 'photos/coil/april2021refresh/count'
+#   format: Image
+#   alt: 'Image of such and such'
+
+# - url: 'videos/16_winner_02-speech'
+#   format: video
+#   delayOffset: .5
+
+# - url: 'photos/coil/april2021refresh/workshop2'
+#   format: Image
+#   alt: 'Image of such and such'
+
+# - url: 'videos/DemoWeek'
+#   format: video
+
+# - url: 'videos/awards-animation-01'
+#   format: video
+#   caption: This is a caption
+#   link: '#headerTwo'

@@ -1,0 +1,92 @@
+- title: Happening Now
+  isMain: true
+  projects:
+    - title: The Opportunity Project
+      img:
+        src: photos/coil/april2021refresh/workshop2.jpg
+        alt: workshop participants huddling around a large sticky pad
+      callout: Build digital tools and bridge communities with federal open data.
+      details: TOP brings together community advocates, technology specialists, and federal data stewards to our nation’s toughest challenges. Over twelve weeks, stakeholders from these three groups form teams, create digital products, and demo them to the public with COIL’s facilitation.
+      tags:
+        - Product Development
+        - Facilitation
+        - Community Engagement
+      href: /
+      subproject:
+        title: TOP Prize Challenge
+        callout: Create impact that can scale.
+        details: 'Every year, we run The Opportunity Project Prize Challenge to encourage the best teams from TOP to keep going. In 2019, we awarded $100,000 in funding to TOP participants. Learn more about how to [apply for the grand prize challenge in 2021](https://opportunity.census.gov/prize-challenge) or [contact us](https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB){: target="_blank"} to run your own prize challenge.'
+        href: /prize-challenge
+    - title: Enterprise Innovation Efforts
+      callout: Learn how innovation can scale at federal agencies.
+      details: From Data Science Trainings to large-scale culture change, our team has experience analyzing complex systems and working to transform the federal workforce.
+      tags: 
+        - Facilitation
+        - Experience Design
+        - Talent Building
+      img: 
+        src: photos/coil/april2021refresh/HCD-Training-Photos-23-edit.jpg
+        alt: Four people standing and smiling in front of a white board covered with sticky notes
+    - title: Civic Digital Fellowship
+      href: https://www.codingitforward.com/civic-digital-fellowship
+      isExternal: true
+      callout: Hire the next generation of technologists.
+      details: The CDF program empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces. We coordinate with federal agencies to bring this new talent to your team.
+      tags: 
+        - Product Development
+        - Talent Building
+      img:
+        src: photos/coil/april2021refresh/fellows.jpg
+        alt: Many rows of young people on the steps of a federal building wearing suits and smiling towards the camera
+
+- title: Our Products and Toolkits
+  projects:
+    - title: Creative Toolkits
+      details: We've created multiple guides to help organizers localize messaging and speak directly to their communities.
+      links:
+        - text: Creatives for the Count
+          href: https://www.creativesforthecount.org/toolkit/
+          isExternal: true
+        - text: Community Outreach Toolkit
+          href: https://2020census.gov/content/dam/2020census/materials/partners/2019-03/toolkit.pdf
+          isExternal: true
+    - title: Data Curation Hub
+      details: We work with federal data stewards to collect high quality datasets based around national challenges. Tech teams then use the Hub to find and use this data in their TOP projects.
+      href: /data
+    - title: Design-Thinking Toolkit
+      href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
+      isExternal: true
+      details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
+    - title: TOPx Toolkit
+      details: TOPx allows federal agencies to utilize the TOP model and resources on their own. This toolkit helps agencies identify priorites that require data & technology innovation, recruit cross-sector participants, and facilitate a technology development sprint.
+      href: /topx-toolkit/introduction
+    - title: Product Development Toolkit
+      href: /product-development/toolkit/
+      details: For technology teams looking to bring TOP home with them, this toolkit captures the user-centered processes from our sprints so companies can leverage federal open data and community involvement on their own timeline.
+      
+
+- title: Other Initiatives
+  projects:
+    - title: Census Accelerate
+      details: We mobilized the creative community and partnered with influential stars to spread awareness about the importance of the 2020 Census and combat mis- and dis-information.
+      tags: 
+        - Facilitation
+        - Experience Strategy
+        - Community Engagement
+      href: https://accelerate.census.gov/
+      isExternal: true
+    - title: Human-Centered Design Training
+      details: We teach human-centered design fundamentals such as user research, ideation and prototyping to leaders at the U.S. Census Bureau to introduce new problem solving and collaboration methods and opportunities.
+      tags: 
+        - Facilitation
+        - Experience Strategy
+        - Talent Building
+    - title: Census Solutions Workshops
+      href: https://www.census.gov/partners/workshops.html
+      isExternal: true
+      details: To help the Census Bureau solve their toughest challenges (such as reaching hard-to-count populations), we led a series of workshops to help focus on the needs of the real people they are engaging.
+      tags: 
+        - Facilitation
+        - Experience Strategy
+        - Talent Building
+        - Community Engagement

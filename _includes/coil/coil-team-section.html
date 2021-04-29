@@ -1,0 +1,28 @@
+<section id="coil-team" class="coil-section">
+  <div>
+    <img class="abstract-icon"
+    src="{{site.baseurl}}/assets/img/icons/icon_meet-the-team.svg" alt="" data-proofer-ignore>
+  </div>
+  <h2>Meet the Team</h2>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      {% assign orderedPeople = site.data.coil_people | sort: "pageOrder" %}
+
+      {% for item in orderedPeople %}
+        <div class="coil-bio">
+          <div class="text-center">
+            {% assign src="photos/team/" | append: item.img %}
+            {% include image.html src=src alt="A picture of a smiling COIL team member"%}
+          </div>
+          <h3>{{ item.name }}</h3>
+          {% if item.title %}
+            <p>{{ item.title | upcase }}</p>
+          {% endif %}
+          <p >
+            <a class="coil-team-email" href="mailto:{{ item.email }}">{{ item.email }}</a>
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

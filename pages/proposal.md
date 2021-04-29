@@ -8,7 +8,7 @@ layout: ps-proposal
 files:
   federal:
     template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2021_Federal-Agencies.docx'
-    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Federal-Agencies.pdf'
+    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Federal_Agencies.pdf'
   ngos:
     template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2021_Partners.docx'
     guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Partners.pdf'

@@ -272,7 +272,6 @@ $blue-50: #2378c3;
 
 .coil-help-list {
   list-style-type: '\2713';
-  z-index: -1;
   
   li {
     @include u-padding-left(1);

@@ -33,13 +33,3 @@ team:
 If you’re interested in participating in TOP, please [fill out this interest form]({{ site.contacts.census-form }}).
 
 If you want to get started modernizing your agency or organization, send us an email at [{{ site.contacts.coil-email }}](mailto:{{ site.contacts.coil-email }}).
-
-We’ll help you
-
-- Build a digital product.
-- Run a prize challenge.
-- Learn how to build programs that can scale.
-- Advance a culture of innovation.
-{: .coil-help-list .coil-section-exempt }
-
-[Contact Us&nbsp;&rarr;]({{ page.typeform }}){: .coil-btn__primary-white target="_blank" }

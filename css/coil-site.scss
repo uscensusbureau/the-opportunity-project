@@ -43,7 +43,10 @@ h2 {
   h2, h3, h3 a {
     @include u-color('base-darkest');
   }
-  
+}
+
+a[href="mailto:census.openinnovationlabs@census.gov"] {
+  word-break: break-all;
 }
 
 .dashed-container {
@@ -268,20 +271,11 @@ $blue-50: #2378c3;
 }
 
 .coil-help-list {
-  position: relative;
   list-style-type: '\2713';
   z-index: -1;
-  width: max-content;
   
   li {
     @include u-padding-left(1);
-  }
-  @include at-media('mobile-lg') {
-    top: -40px;
-    left: 140px;
-  }
-  @include at-media-max('mobile-lg') {
-    @include u-maxw('mobile');
   }
 }
 

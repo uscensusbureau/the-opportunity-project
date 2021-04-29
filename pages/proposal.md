@@ -30,7 +30,7 @@ The Opportunity Project’s annual call for problem statements is now open throu
 
 - Before you start drafting your problem statement proposal, please review the problem statement guidelines below. 
 - To submit a topic, please download and complete the appropriate Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:opportunityproject@census.gov?subject=Problem Statement Proposal - [name of organization]) with the subject line *“Problem Statement Proposal - [name of organization]”*. 
-- **Submissions are due by May 17th, 2021.**
+- **Submissions are due by May 17th, 2021 at 11:59pm ET.**
 
 Submissions will be reviewed on a rolling basis and final problem statements will be selected by May 31st, 2021.
 

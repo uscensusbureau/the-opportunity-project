@@ -728,8 +728,7 @@ main {
   padding: units(2) units(5);
   font-family: font-family("mono");
   font-size: font-size("mono", "3xs");
-  background-color: color("base-darkest");
-  color: color("white");
+  background-color: color("primary");
   text-decoration: none;
 
   &:hover {
@@ -759,6 +758,10 @@ main {
     @extend .btn-link;
     border: 1px solid;
     background-color: color("transparent");
+    @include u-color('primary');
+    &:hover, &:visited {
+      color: color('primary');
+    }
 
     &-gray {
       @extend .btn-link__secondary;
@@ -797,6 +800,11 @@ main {
         color: color("base")
       }
     }
+  }
+
+  &--small {
+    @extend .btn-link;
+    padding: units(1) units(2);
   }
 }
 

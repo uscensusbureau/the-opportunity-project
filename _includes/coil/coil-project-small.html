@@ -4,7 +4,7 @@
   <div class="coil-project-card{% if hasTags %}__with-tags{% endif %}">
     <h3>
       {% if data.href %}
-      <a href="{{ site.baseurl }}{{ data.href }}">
+        <a href="{% unless data.isExternal %}{{ site.baseurl }}{% endunless %}{{ data.href }}">
       {% endif %}
       {{ data.title }}{% if data.href %}&nbsp;&rarr;
         </a>
@@ -15,7 +15,7 @@
     {% endif %}
     <p class="coil-project__body">{{ data.details }}</p>
     {% for link in include.data.links %}
-      <p><a href="{{site.baseurl}}{{link.href}}">{{ link.text }}&nbsp;&rarr;</a></p>
+      <p><a href="{% unless link.isExternal %}{{site.baseurl}}{% endunless %}{{link.href}}">{{ link.text }}&nbsp;&rarr;</a></p>
     {% endfor %}
   </div>
 </div>

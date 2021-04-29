@@ -29,6 +29,7 @@
         alt: Four people standing and smiling in front of a white board covered with sticky notes
     - title: Civic Digital Fellowship
       href: https://www.codingitforward.com/civic-digital-fellowship
+      isExternal: true
       callout: Hire the next generation of technologists.
       details: The CDF program empowers computer science, data science, and design students to create social good by breaking down the barriers to entry in social impact spaces. We coordinate with federal agencies to bring this new talent to your team.
       tags: 
@@ -45,13 +46,16 @@
       links:
         - text: Creatives for the Count
           href: https://www.creativesforthecount.org/toolkit/
+          isExternal: true
         - text: Community Outreach Toolkit
           href: https://2020census.gov/content/dam/2020census/materials/partners/2019-03/toolkit.pdf
+          isExternal: true
     - title: Data Curation Hub
       details: We work with federal data stewards to collect high quality datasets based around national challenges. Tech teams then use the Hub to find and use this data in their TOP projects.
       href: /data
     - title: Design-Thinking Toolkit
       href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
+      isExternal: true
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
     - title: TOPx Toolkit
       details: TOPx allows federal agencies to utilize the TOP model and resources on their own. This toolkit helps agencies identify priorites that require data & technology innovation, recruit cross-sector participants, and facilitate a technology development sprint.
@@ -70,6 +74,7 @@
         - Experience Strategy
         - Community Engagement
       href: https://accelerate.census.gov/
+      isExternal: true
     - title: Human-Centered Design Training
       details: We teach human-centered design fundamentals such as user research, ideation and prototyping to leaders at the U.S. Census Bureau to introduce new problem solving and collaboration methods and opportunities.
       tags: 
@@ -78,6 +83,7 @@
         - Talent Building
     - title: Census Solutions Workshops
       href: https://www.census.gov/partners/workshops.html
+      isExternal: true
       details: To help the Census Bureau solve their toughest challenges (such as reaching hard-to-count populations), we led a series of workshops to help focus on the needs of the real people they are engaging.
       tags: 
         - Facilitation

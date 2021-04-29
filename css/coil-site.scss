@@ -272,12 +272,16 @@ $blue-50: #2378c3;
   list-style-type: '\2713';
   z-index: -1;
   width: max-content;
+  
   li {
     @include u-padding-left(1);
   }
   @include at-media('mobile-lg') {
     top: -40px;
     left: 140px;
+  }
+  @include at-media-max('mobile-lg') {
+    @include u-maxw('mobile');
   }
 }
 

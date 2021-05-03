@@ -20,14 +20,9 @@ banner-subheader-inverse:
 content-light:
   title: Participate in TOP
   skip-top-border: true
+  skip-bottom-border: true
   body: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
   right-col: get-involved/participate-right.md
-
-
-callout:
-  id: asa
-  text: Participate in the American Statistical Association Data Challenge Expo
-  markdownSrc: get-involved/get-involved-callout.md
 
 join:
   title: Stay in the Loop
@@ -45,9 +40,7 @@ join:
 {% capture right-col %}
   {% include_relative {{ page.content-light.right-col }} %}
 {% endcapture %}
-{% include two-column-markdown.html content=page.content-light left-col=left-col %}
-
-{% include text-callout-centered.html content=page.callout %}
+{% include two-column-markdown.html content=page.content-light left-col=left-col%}
 
 {% capture left-join %}
   {% include image.html src="photos/get-involved/arrow.jpg" alt="Illustration of an arrow pointing to the right over a navy blue field" %}

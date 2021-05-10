@@ -77,11 +77,12 @@ layout: default
             </button>
           </p>
           <div id="year" class="usa-accordion dropdown-menu z-400">
-            {% for year in site.data.product-filters.years %}
-                <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
-                  <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
-                </div>
+            {% assign filteredYears = site.data.product-filters.years | sort | reverse %}
+            {% for year in filteredYears %}
+              <div class="usa-checkbox">
+                <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
+                <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
+              </div>
             {% endfor %}
           </div>
         </div>
@@ -122,7 +123,7 @@ layout: default
         {% assign imgSrc = "photos/products/" | append: product.image %}
         {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
         {% assign problem_statement = problem_statements[ 0 ] %}
-        {% assign sprints = site.data.sprints | where:"airtable_id", problem_statement.Sprints[ 0 ] %}
+        {% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[ 0 ] %}
         {% assign sprint = sprints[ 0 ] %}
         
         <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active z-300" name="productCard">

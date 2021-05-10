@@ -229,6 +229,32 @@
   - recBi1AdtXaNONNw3
   tech_team_text: Greer Institute-ISC iDISPLA Consortium
   title: iDISPLA 360-Degree Data Fusion Virtual Ecosystem Platform
+- Product Name: Telemed
+  airtable_createdTime: '2021-05-10T20:23:44.000Z'
+  airtable_id: rec5YVAB1Sb4MWin2
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recR05Bv2d2mx7pYB
+  - recVnx9dHO28S0aIV
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, HUD, CDC/SVI
+  description: Uses federal and local COVID-19 reporting standards to collect required
+    and voluntary data surrounding viral testing for private and public organizations
+  details: Uses federal and local COVID-19 reporting standards to collect required
+    and voluntary data surrounding viral testing for private and public organizations
+  image: TelemedTesting
+  image-alt: Screenshot showing an intake form for a COVID test including questions
+    such as "Is this your first COVID test?"
+  link: https://testing.netmedical.com/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec6cDJ3i3Hxtri5J
+  tech_team_text: '"Net Medical Xpress Solutions, Inc."'
+  title: Telemed
 - Description (Old): "Datel Ovela\u2019s tool uses census block data with open EU\
     \ sentinel 1 InSAR to build a block level structural risk product that encourages\
     \ local stakeholders to prepare for crisis through increased awareness of the\
@@ -544,6 +570,30 @@
   - recYJMcRX9wkv4vwC
   tech_team_text: Civis Analytics
   title: Census Intelligence Center
+- Product Name: COVID-19 Immutable Test Results Submission and Visualization
+  airtable_createdTime: '2021-05-10T20:22:01.000Z'
+  airtable_id: recC7pDhIGVSeNl1a
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: 'Enables real-time reporting of individual and batched results in a
+    trackable manner with confidentiality, integrity of identity, and immutability
+    of data.  '
+  details: 'Enables real-time reporting of individual and batched results in a trackable
+    manner with confidentiality, integrity of identity, and immutability of data.  '
+  image: Oracle
+  image-alt: Complex diagram showing the inner technical workings of a software products
+  link: https://staging.waters.hhs.gov/docs/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recWkAZeh1p7lSK1U
+  tech_team_text: Oracle
+  title: COVID-19 Immutable Test Results Submission and Visualization
 - Description (Old): This project leverages data around growing numbers of Americans
     overseas, people with disabilities, and increasing levels of smartphone penetration
     across the United States to allow the convenience, security and accessibility
@@ -579,6 +629,8 @@
   - receQOPQTDz0IwuW7
   tech_team_text: Voatz
   title: Voatz
+- airtable_createdTime: '2021-05-10T20:08:13.000Z'
+  airtable_id: recCvsMDbEXL85jtT
 - Product Name: Public Finance Institute-Disaster Spending Tracker
   airtable_createdTime: '2021-02-22T16:51:54.000Z'
   airtable_id: recCzsRojdXhNdzCu
@@ -693,6 +745,34 @@
   - recpY2wq0jYSYkJ7s
   tech_team_text: Code for Tucson
   title: Sea Scavenger
+- Product Name: HealthCheck | Connected Testing Platform
+  airtable_createdTime: '2021-05-10T20:33:08.000Z'
+  airtable_id: recFtYiCXRMvq3IaT
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - reczS9cHFwBE18RKo
+  - recAPSVl7tJ95FueB
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, LOINC formats required
+    by states, FHIR
+  description: Connected testing and universal COVID-19 vaccine credential verification
+    solution for employers and educators. Smartphone RDT Reader System for test developers.
+  details: Connected testing and universal COVID-19 vaccine credential verification
+    solution for employers and educators. Smartphone RDT Reader System for test developers.
+  image: Healthcheck
+  image-alt: Two iPhone mockups - one showing a countdown timer titled "Please Wait"
+    and another showing a camera pointed at a stick test with instructions to "Position
+    the Test Casette" inside the guides
+  link: healthcheck.com
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rechxHdlnIyy3eF4e
+  tech_team_text: Safe Health Systems
+  title: HealthCheck | Connected Testing Platform
 - Description (Old): IBM's tool is an iOS application to support the logistical planning,
     coordination, execution, and data collection effort undertaken by Census Bureau
     employees conducting the homeless count.
@@ -1073,6 +1153,30 @@
   - rec4JWIKBqZIgbUk2
   tech_team_text: Redfin
   title: Opportunity Score
+- Product Name: Digital Health Pass
+  airtable_createdTime: '2021-05-10T19:52:27.000Z'
+  airtable_id: recQdmgL9m4HwZjQe
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Enables businesses to verify health credentials for employees, customers,
+    fans and travelers entering their site based on their own criteria
+  details: Enables businesses to verify health credentials for employees, customers,
+    fans and travelers entering their site based on their own criteria
+  image: IBM
+  image-alt: Schematic showing a mobile wallet being used to verify a vaccination
+    record
+  link: https://www.ibm.com/products/digital-health-pass
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recMUAnVYSJwQLFhD
+  tech_team_text: IBM
+  title: Digital Health Pass
 - Product Name: Maine Business Resources
   airtable_createdTime: '2021-02-22T17:23:33.000Z'
   airtable_id: recQjVq9yZgfpri29
@@ -1124,6 +1228,31 @@
   - recyAgvenphF9cGot
   tech_team_text: Harvard University Institute of Politics
   title: The Ghost Gear Project
+- Product Name: ClinIQ Health
+  airtable_createdTime: '2021-05-10T20:40:33.000Z'
+  airtable_id: recRUkG2VoPGqGcxN
+  category:
+  - COVID-19
+  data_sets:
+  - recXS3lZxFLJrR1zd
+  data_sets_text: CDC AIMS Platform
+  description: Provides verified healthcare products and services that are easily
+    accessible for platform customers such as institutional clients or individual
+    patients
+  details: Provides verified healthcare products and services that are easily accessible
+    for platform customers such as institutional clients or individual patients
+  image: ClinIQ
+  image-alt: Screenshot of the ClinIQ web app with a choice of where to sign up for
+    a COVID-19 RT-PCR test
+  link: https://cliniq.health
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recxWZBiNY6LjCCoA
+  tech_team_text: ClinIQ
+  title: ClinIQ Health
 - Description (Old): A tool by Zillow for exploring the opportunity and growth potential
     of Baltimore's neighborhoods.
   Product Name: Baltimore Explorer
@@ -1731,6 +1860,32 @@
   - recIg84I27yOjBzjC
   tech_team_text: SAP
   title: Chicago Circular Economy
+- Product Name: Smart Clinical Testing Ecosystem for COVID-19
+  airtable_createdTime: '2021-05-10T20:37:11.000Z'
+  airtable_id: recaULJmJOTbOyWAe
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Allows Federaly Qualified Health Centers to integrate patient and COVID-19
+    test data as required by states and federal authorities, thereby affording better
+    COVID-19 patient management
+  details: Allows Federaly Qualified Health Centers to integrate patient and COVID-19
+    test data as required by states and federal authorities, thereby affording better
+    COVID-19 patient management
+  image: OraLiva
+  image-alt: Diagram showing data from the OraLiva servers flowing to state databases,
+    patients, providers, medical records, point-of-care screening, and a pre-screening
+    algorithm
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec7JY030MzCLQJad
+  tech_team_text: OraLiva
+  title: Smart Clinical Testing Ecosystem for COVID-19
 - Description (Old): Public Democracy uses ACS data, proprietary enterprise level
     marketing systems along with privately owned data, and new data that we gathered
     via their survey tool, which ensures that community priorities inform OZ strategies
@@ -2101,6 +2256,35 @@
   - recYJMcRX9wkv4vwC
   tech_team_text: Civis Analytics
   title: Veteran Apprenticeship Matcher
+- Product Name: Co-Verify
+  airtable_createdTime: '2021-05-10T20:28:09.000Z'
+  airtable_id: reciaW1ybfwaIF0dI
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recAPSVl7tJ95FueB
+  - reczS9cHFwBE18RKo
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, FHIR, LOINC formats required
+    by states
+  description: Offers a customizable testing, tracking and reporting solution backed
+    by HIPAA compliant Microsoft Azure servers currently being used throughout the
+    United States
+  details: Offers a customizable testing, tracking and reporting solution backed by
+    HIPAA compliant Microsoft Azure servers currently being used throughout the United
+    States
+  image: CoVerify
+  image-alt: Flowchart with many rectangles entitled Employer/Vendor setup and usage
+    with QR code/POC Workflow
+  link: www.co-verify.com
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - reclhEEWulxWz3Hgi
+  tech_team_text: DLC Enterprises
+  title: Co-Verify
 - Description (Old): Great Schools and Education Cities' uses college readiness data
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
@@ -2148,6 +2332,32 @@
   - recCQeXnM3qtBOGTs
   tech_team_text: Socrata
   title: OpenData Network
+- Product Name: State Reporting Hub
+  airtable_createdTime: '2021-05-10T20:31:32.000Z'
+  airtable_id: recj9dZ7MMUnxFPXi
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recAPSVl7tJ95FueB
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, FHIR
+  description: Connects testing devices, application and laboratories to a Hub, where
+    results are normalized and routed in real-time to state jurisdictions via electronic
+    lab reporting and federal organizations
+  details: Connects testing devices, application and laboratories to a Hub, where
+    results are normalized and routed in real-time to state jurisdictions via electronic
+    lab reporting and federal organizations
+  image: Lifepoint
+  image-alt: Brochure entitled Lifepoint informatics State Reporting Hub
+  link: https://www.lifepoint.com/covid-19-reporting-with-lifepoint/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recLDeO5w4wQSoG5A
+  tech_team_text: Lifepoint Informatics
+  title: State Reporting Hub
 - Description (Old): Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships.
   Product Name: School ResourceMapper
@@ -2296,6 +2506,29 @@
   - recoaWbpjLMVcGQuZ
   tech_team_text: Measure of America
   title: Visualizing Youth Disconnection
+- Product Name: Consumer Dx Test App
+  airtable_createdTime: '2021-05-10T20:08:15.000Z'
+  airtable_id: recnH1uvkl0Xjnjhm
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Records, monitors and reports rapid consumer COVID-19 diagnostic test
+    information confidentially for both individuals and groups to reopen society safely
+  details: Records, monitors and reports rapid consumer COVID-19 diagnostic test information
+    confidentially for both individuals and groups to reopen society safely
+  image: Interpret
+  image-alt: Screenshot of a student survey checking for COVID symptons
+  link: http://app.interpret-covid.com/login-public
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec6rfYz3BpRt2lRQ
+  tech_team_text: Interpret-COVID
+  title: Consumer Dx Test App
 - Description (Old): "Esri\u2019s ArcGIS Insights uses local emergency response and\
     \ Census Bureau data to predict geographic areas where opioid emergencies are\
     \ likely to occur to help public safety and health officials pre-position the\
@@ -2327,6 +2560,32 @@
   - recJKjOOhTrMk1R2e
   tech_team_text: Esri
   title: Insight for ArcGIS
+- Product Name: Companion App for COVID Testing
+  airtable_createdTime: '2021-05-10T19:49:50.000Z'
+  airtable_id: reco2tsjZJ55bk12Q
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Supports rapid point of care and at-home COVID test developers by streamlining
+    data collection and reporting to public health authorities, schools, employers,
+    and health systems
+  details: Supports rapid point of care and at-home COVID test developers by streamlining
+    data collection and reporting to public health authorities, schools, employers,
+    and health systems
+  image: DynamiCare
+  image-alt: A mobile phone showing a QR code and the words "COVID-19 Test Results
+    Negative"
+  link: https://www.dynamicarehealth.com/covid19
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recqMkqyoPeiffhaV
+  tech_team_text: DynamiCare Health
+  title: Companion App for COVID Testing
 - Description (Old): Bloomberg used Economic Census and American Community Survey
     data for Baltimore, coupled with self-reported volunteer activity, to allow organizations
     to target areas to volunteer in and potential partners to successfully steward
@@ -2359,6 +2618,31 @@
   - recERFU1XNm3uiot0
   tech_team_text: Bloomberg
   title: Bloomberg DEVOP
+- Product Name: CuraPatient
+  airtable_createdTime: '2021-05-10T20:43:03.000Z'
+  airtable_id: recoD8u3aM6Z3cNNL
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: '"Helps patients through their COVID-19 journey, from testing to vaccination
+    to vaccine verification "'
+  details: '"Helps patients through their COVID-19 journey, from testing to vaccination
+    to vaccine verification "'
+  image: Othena
+  image-alt: Three iPhone screen mockups. One showing a wait-time countdown, one with
+    a screen labeled "Looking to be tested or vaccinated for COVID-19?" and one labeled
+    "Your Testing Appointment is Confirmed"
+  link: www.othena.com
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recFAM9q5v5BVfgvl
+  tech_team_text: Othena
+  title: CuraPatient
 - Product Name: 'PAGAF: Precision Ag for all American Farmers'
   airtable_createdTime: '2021-02-22T17:46:19.000Z'
   airtable_id: recoLzsQ10XA9A8CY
@@ -3014,6 +3298,32 @@
   - recP532wcyIIxk80H
   tech_team_text: American University
   title: AirMotionDC
+- Product Name: Patient Health Ecosystem Portal
+  airtable_createdTime: '2021-05-10T19:54:40.000Z'
+  airtable_id: recz0udlK0WnjquFr
+  category:
+  - COVID-19
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recgQvWlWCGEYqcV5
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, Healthdata.gov
+  description: Allows clinicians share health information with patients, health institutions
+    and health providers.
+  details: Allows clinicians share health information with patients, health institutions
+    and health providers.
+  image: Dovel
+  image-alt: '6 circles showing the interlocking parts of the Dovel platform: Voice
+    transcription, document analytics, vaccine surveillance, COVID sentiment analysis,
+    Healthy supply chain repository, and patient health ecosystem portal'
+  link: https://dovel-phep.web.app/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec3zFjgRada2tHSQ
+  tech_team_text: Dovel Technologies
+  title: Patient Health Ecosystem Portal
 - Description (Old): Cisco DevNet's tool uses American Community Survey data from
     the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials
     and application developers so they can solve social problems using open data available

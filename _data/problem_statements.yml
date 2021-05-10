@@ -826,12 +826,28 @@
   Name: COVID-19 Testing
   Products:
   - rechzHn8vOEW60T0x
+  - reco2tsjZJ55bk12Q
+  - recQdmgL9m4HwZjQe
+  - recz0udlK0WnjquFr
+  - recnH1uvkl0Xjnjhm
+  - recC7pDhIGVSeNl1a
+  - rec5YVAB1Sb4MWin2
+  - reciaW1ybfwaIF0dI
+  - recj9dZ7MMUnxFPXi
+  - recFtYiCXRMvq3IaT
+  - recaULJmJOTbOyWAe
+  - recRUkG2VoPGqGcxN
+  - recoD8u3aM6Z3cNNL
   Sprints:
   - recHyin6QBn2qNgni
   agency_text: U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T18:44:13.000Z'
   airtable_id: recFyf3r3yQQEHbx7
-  products_text: At-Home Testing Platform
+  products_text: At-Home Testing Platform, Companion App for COVID Testing, Digital
+    Health Pass, Patient Health Ecosystem Portal, Consumer Dx Test App, COVID-19 Immutable
+    Test Results Submission and Visualization, Telemed, Co-Verify, State Reporting
+    Hub, HealthCheck | Connected Testing Platform, Smart Clinical Testing Ecosystem
+    for COVID-19, ClinIQ Health, CuraPatient
   sprint_text: TOPx COVID-19
 - Agency:
   - recllJ66jGEQ8bRtg

@@ -58,11 +58,18 @@ layout: default
             </button>
           </p>
           <div id="topics" class="usa-accordion dropdown-menu">
-            {% for topic in site.data.product-filters.topics %}
-                <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
-                  <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
-                </div>
+            {% assign all_topics = "" | split: "," %}
+            {% for product in site.data.products %}
+              {% for cat in product.category %}
+                {% assign all_topics = all_topics | push: cat %}
+              {% endfor %}
+            {% endfor %}
+            {% assign all_topics = all_topics | uniq | sort %}
+            {% for topic in all_topics %}
+              <div class="usa-checkbox">
+                <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
+                <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
+              </div>
             {% endfor %}
           </div>
         </div>

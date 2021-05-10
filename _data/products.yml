@@ -5,7 +5,7 @@
   airtable_createdTime: '2020-02-10T15:57:43.000Z'
   airtable_id: rec0XnfpVCBwdQJAg
   category:
-  - grants
+  - Grants
   data_sets:
   - rec4AioNvVGJrpHcQ
   data_sets_text: Grants.gov database
@@ -29,7 +29,7 @@
   airtable_createdTime: '2021-02-22T17:51:42.000Z'
   airtable_id: rec0sJ3TvQo6mykBz
   category:
-  - environment
+  - Environment
   data_sets:
   - rec9eiz7OR4XL7sR2
   - reci4qc6YN4B3LYFg
@@ -57,7 +57,7 @@
   airtable_createdTime: '2021-02-22T16:35:14.000Z'
   airtable_id: rec1WFJn1OGTTGrZi
   category:
-  - refugees
+  - Refugees
   data_sets:
   - recJufzyndWhFbgUv
   - recCQkNjSQxMZYYwb
@@ -89,7 +89,7 @@
   airtable_createdTime: '2020-02-10T16:17:05.000Z'
   airtable_id: rec1aSWndKb5kqADi
   category:
-  - housing
+  - Housing
   data_sets:
   - recESBrqUa0lBnuPX
   - recJ2XqUXOMEB1DXG
@@ -119,7 +119,7 @@
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: rec3DLJOV0X1vHHVe
   category:
-  - health
+  - Health
   data_sets:
   - recd7luteEs4maEnq
   data_sets_text: Centers for Disease Control and Prevention; Aggregated and anonymous
@@ -147,7 +147,7 @@
   airtable_createdTime: '2020-02-10T16:02:12.000Z'
   airtable_id: rec4bboJwfwGI9dku
   category:
-  - rural
+  - Rural
   data_sets:
   - recYsaQo1Hh5n5Plz
   data_sets_text: United States Department of Agriculture; Census Bureau; Department
@@ -176,7 +176,7 @@
   airtable_createdTime: '2020-02-04T21:29:49.000Z'
   airtable_id: rec4tY9vvumikW1Ku
   category:
-  - addressing
+  - Addressing
   data_sets:
   - rech9yKY6D5zjS6HQ
   data_sets_text: Census Bureau; U.S. Postal Service; National Address Database (NAD)
@@ -206,8 +206,8 @@
   airtable_createdTime: '2021-02-22T17:41:44.000Z'
   airtable_id: rec5TopxenNeIOsJO
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - recR05Bv2d2mx7pYB
   - recunaDw8Cf6hctAM
@@ -238,7 +238,7 @@
   airtable_createdTime: '2020-02-04T21:30:07.000Z'
   airtable_id: rec5dPCVzV3SHuZDS
   category:
-  - disasters
+  - Disasters
   data_sets:
   - rechYzTHDK65dikqA
   data_sets_text: ensus block data; Open EU Sentinel 1 InSAR
@@ -267,7 +267,7 @@
   airtable_createdTime: '2021-02-22T16:56:47.000Z'
   airtable_id: rec68a7razj3IGOyX
   category:
-  - environment
+  - Environment
   data_sets:
   - recO2Y4CWOIbPcoyO
   - recZAND1HiNvZYHkf
@@ -336,9 +336,9 @@
   airtable_createdTime: '2020-02-10T16:03:50.000Z'
   airtable_id: rec7lQrTnvCdI85aM
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   description: ' Helps researchers and developers rapidly prototype and deploy tools
     that address a variety of problems surrounding access to opportunity'
   details: ' Helps researchers and developers rapidly prototype and deploy tools that
@@ -353,8 +353,8 @@
   airtable_createdTime: '2021-02-22T16:49:27.000Z'
   airtable_id: rec820mIr9jx8uWAq
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - rec1Y9Gn0T2zZUl2R
   - recO2Y4CWOIbPcoyO
@@ -407,8 +407,8 @@
   airtable_createdTime: '2021-02-22T17:21:38.000Z'
   airtable_id: rec8PdH7hI4omQshl
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - recO2Y4CWOIbPcoyO
   - reckAFdxXwR165zf5
@@ -443,7 +443,7 @@
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: rec8Yym9s5wIGjlDI
   category:
-  - addressing
+  - Addressing
   data_sets:
   - recQsegR8fE8yofoN
   data_sets_text: U.S. National Grid
@@ -469,9 +469,9 @@
   airtable_createdTime: '2020-02-10T16:16:39.000Z'
   airtable_id: rec9iFdC2FLECfVAa
   category:
-  - housing
-  - education
-  - health
+  - Housing
+  - Education
+  - Health
   description: Finds areas of opportunity through geographic visualizations and reports
   details: Finds areas of opportunity through geographic visualizations and reports
   sprint:
@@ -487,7 +487,7 @@
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: rec9slEDBdpxTIC3J
   category:
-  - housing
+  - Housing
   data_sets:
   - rec9DtqD0ooIzdJj7
   data_sets_text: DC Department of Human Services
@@ -518,7 +518,7 @@
   airtable_createdTime: '2020-02-04T21:29:01.000Z'
   airtable_id: recB5iDMet16XnjXe
   category:
-  - census
+  - Census
   data_sets:
   - recOrmFTVMgrShHjc
   - recxXh5stphflZLXv
@@ -555,7 +555,7 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recCGea83hgr4djMm
   category:
-  - census
+  - Census
   data_sets:
   - recd47z5brchfMK3A
   data_sets_text: Number of Americans overseas; Number of individuals with disabilities;
@@ -583,8 +583,8 @@
   airtable_createdTime: '2021-02-22T16:51:54.000Z'
   airtable_id: recCzsRojdXhNdzCu
   category:
-  - grants
-  - disasters
+  - Grants
+  - Disasters
   data_sets:
   - recEUnW6Il2ZfXV0Z
   data_sets_text: USA Spending
@@ -610,9 +610,9 @@
   airtable_createdTime: '2020-02-10T16:03:33.000Z'
   airtable_id: recFD7M4ICvq22Nu4
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   data_sets:
   - recGlnYsRiOuG1Sjn
   data_sets_text: Department of Housing and Urban Development; Census Bureau American
@@ -641,7 +641,7 @@
   airtable_createdTime: '2020-02-04T21:28:11.000Z'
   airtable_id: recFK3C3oDrmnIwA3
   category:
-  - entrepreneurship
+  - Entrepreneurship
   data_sets:
   - recDmLYXboYl8Krlv
   data_sets_text: Bureau of Labor Statistics; StatsAmerica; Census Bureau American
@@ -667,7 +667,7 @@
   airtable_createdTime: '2021-02-22T17:50:01.000Z'
   airtable_id: recFOmdpx7Q6uE0Xl
   category:
-  - environment
+  - Environment
   data_sets:
   - rec07UgbuaSRJCK1l
   - rech6WYov2ewYwBTp
@@ -700,8 +700,8 @@
   airtable_createdTime: '2020-02-10T15:58:15.000Z'
   airtable_id: recGtDBMaVWHIeULY
   category:
-  - census
-  - housing
+  - Census
+  - Housing
   description: iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting the
     homeless count
@@ -726,8 +726,8 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recHYa0ZILEN3fRFa
   category:
-  - discovery
-  - census
+  - Discovery
+  - Census
   data_sets:
   - rec4qbd5bZMFpmAeL
   data_sets_text: Census Bureau; US Bureau of Labor Statistics; New York State Departments
@@ -760,8 +760,8 @@
   airtable_createdTime: '2020-02-10T16:02:02.000Z'
   airtable_id: recIigBAir65hTeIa
   category:
-  - transportation
-  - employment
+  - Transportation
+  - Employment
   data_sets:
   - recm1mLFki5moIoCb
   data_sets_text: LEHD Origin-Destination Employment Statistic
@@ -784,7 +784,7 @@
   airtable_createdTime: '2021-02-19T18:05:17.000Z'
   airtable_id: recIu57RsPY8g7yE6
   category:
-  - education
+  - Education
   data_sets:
   - recQCvW6ePpafCJfJ
   - recn8dediBRt70GZD
@@ -813,7 +813,7 @@
   airtable_createdTime: '2020-02-10T16:01:45.000Z'
   airtable_id: recJGQBZiNXia0IYm
   category:
-  - transportation
+  - Transportation
   data_sets:
   - recgV66ro2Z870eTc
   data_sets_text: Traffic accident and fatality data
@@ -837,7 +837,7 @@
   airtable_createdTime: '2021-02-22T16:53:51.000Z'
   airtable_id: recJjNKdphBCWsER0
   category:
-  - environment
+  - Environment
   data_sets:
   - rec6t8hETGkO5eAbZ
   data_sets_text: Earth Challenge 2020 Consolidated Data
@@ -861,7 +861,7 @@
   airtable_createdTime: '2021-02-22T17:00:10.000Z'
   airtable_id: recJms1glRzSmKxtR
   category:
-  - environment
+  - Environment
   data_sets:
   - recmo2NgzgxGBRO5S
   - rec94lW05GUWWvjX0
@@ -893,7 +893,7 @@
   airtable_createdTime: '2020-02-10T15:53:17.000Z'
   airtable_id: recKSyLaCXFbhyDuv
   category:
-  - education
+  - Education
   data_sets:
   - recbPXckCwUkIEHnn
   data_sets_text: Department of Labor O*NET Database; Department of Education
@@ -922,8 +922,8 @@
   airtable_createdTime: '2020-02-04T21:30:23.000Z'
   airtable_id: recKbaLyzNV2xVyxV
   category:
-  - grants
-  - discovery
+  - Grants
+  - Discovery
   data_sets:
   - recAJjhFANCAKPVyB
   - recZ1EJ6NTgWWnc55
@@ -955,8 +955,8 @@
   airtable_createdTime: '2020-02-04T21:32:00.000Z'
   airtable_id: recMyCXtD901elAkR
   category:
-  - discovery
-  - census
+  - Discovery
+  - Census
   data_sets:
   - rec6GcI1sfYzbNxgA
   data_sets_text: Census Bureau; Federal Bureau of Investigation; Centers for Disease
@@ -985,7 +985,7 @@
   airtable_createdTime: '2020-02-04T21:32:19.000Z'
   airtable_id: recNXCwgWCLa3ZMwB
   category:
-  - employment
+  - Employment
   data_sets:
   - recIajFnZTy6Kaf0a
   data_sets_text: Virginia Open Data Catalogue; Crowdsourced job reports
@@ -1008,8 +1008,8 @@
   airtable_createdTime: '2020-02-10T16:00:39.000Z'
   airtable_id: recPVCxfdXoYMpSGS
   category:
-  - employment
-  - education
+  - Employment
+  - Education
   data_sets:
   - recWrMIj2ghy3UKQK
   data_sets_text: Eligible Training Provider Lists (ETPL)
@@ -1031,7 +1031,7 @@
   airtable_createdTime: '2020-02-10T15:59:25.000Z'
   airtable_id: recQ1M2vLF3zJSUJR
   category:
-  - addressing
+  - Addressing
   description: Helping low income families overcome the stress of finding affordable
     housing, this tool combines transit access, walkability and school information
     into one unique feed of available properties
@@ -1052,9 +1052,9 @@
   airtable_createdTime: '2020-02-10T16:04:14.000Z'
   airtable_id: recQMqUTqBxw0DK7G
   category:
-  - housing
-  - employment
-  - transportation
+  - Housing
+  - Employment
+  - Transportation
   data_sets:
   - recH3FjUydbcH5zIk
   data_sets_text: Department of Commerce
@@ -1077,8 +1077,8 @@
   airtable_createdTime: '2021-02-22T17:23:33.000Z'
   airtable_id: recQjVq9yZgfpri29
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - reclFy6fGztGrP51b
   data_sets_text: Census County Business Patterns
@@ -1102,7 +1102,7 @@
   airtable_createdTime: '2021-02-22T17:04:31.000Z'
   airtable_id: recRADslXTYbyjOZ9
   category:
-  - environment
+  - Environment
   data_sets:
   - recE7v7V0hvOrhPPp
   - recYxJNiA9BHEqUhO
@@ -1130,7 +1130,7 @@
   airtable_createdTime: '2020-02-10T16:16:26.000Z'
   airtable_id: recSDUQmkvZokAznh
   category:
-  - housing
+  - Housing
   description: Explores the opportunity and growth potential of Baltimore's neighborhoods
   details: Explores the opportunity and growth potential of Baltimore's neighborhoods
   sprint:
@@ -1150,7 +1150,7 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recSXynrxBTKXTh63
   category:
-  - census
+  - Census
   data_sets:
   - recUXCzWrZg9XiYVE
   - recYsXM7DW4A8KBTg
@@ -1186,8 +1186,8 @@
   airtable_createdTime: '2021-02-19T18:55:45.000Z'
   airtable_id: recSywRIyeQEsXwCq
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - recO2Y4CWOIbPcoyO
   - recPmjDLbOMJqkl2e
@@ -1223,9 +1223,9 @@
   airtable_createdTime: '2020-02-04T21:31:53.000Z'
   airtable_id: recT8TuI7EDLqeTIk
   category:
-  - veterans
-  - housing
-  - health
+  - Veterans
+  - Housing
+  - Health
   data_sets:
   - recdjNmtMAmnM8fC3
   data_sets_text: Census Bureau; Department of Housing and Urban Development
@@ -1251,7 +1251,7 @@
   airtable_createdTime: '2021-02-19T18:01:36.000Z'
   airtable_id: recTfL9YZgQqj9i78
   category:
-  - education
+  - Education
   data_sets:
   - recWMcyNVcCddeWv0
   - rec1sAdGGfVu26m6F
@@ -1286,9 +1286,9 @@
   airtable_createdTime: '2020-02-04T21:30:42.000Z'
   airtable_id: recV0aW7ZolC7aIoy
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   data_sets:
   - rec08xrbRPlxvTHcN
   data_sets_text: Bureau of Labor Statistics; Department of Education; Institute of
@@ -1315,7 +1315,7 @@
   airtable_createdTime: '2020-02-10T15:59:42.000Z'
   airtable_id: recVCXRirVspq062m
   category:
-  - housing
+  - Housing
   data_sets:
   - recpvolC8199pm0rT
   data_sets_text: Department of Housing and Urban Development
@@ -1339,7 +1339,7 @@
   airtable_createdTime: '2020-02-04T21:31:20.000Z'
   airtable_id: recWRZvsJGQgPYlDn
   category:
-  - environment
+  - Environment
   data_sets:
   - rec1MkdLWCg0K49PD
   data_sets_text: U.S. Forest Service environmental stewardship data
@@ -1368,7 +1368,7 @@
   airtable_createdTime: '2020-02-04T21:28:23.000Z'
   airtable_id: recWyKy6qT8GX7jT8
   category:
-  - entrepreneurship
+  - Entrepreneurship
   data_sets:
   - recz7LWaT7XCEG5vW
   data_sets_text: "Small Business Administration \u2018Find Local Assistance\u2019\
@@ -1398,9 +1398,9 @@
   airtable_createdTime: '2020-02-10T16:16:03.000Z'
   airtable_id: recXOkjSet73HILtM
   category:
-  - transportation
-  - education
-  - health
+  - Transportation
+  - Education
+  - Health
   data_sets:
   - recy9nOvqIgg2ohWz
   data_sets_text: Department of Health and Human Services; City of Philadelphia; Office
@@ -1429,7 +1429,7 @@
   airtable_createdTime: '2020-02-10T15:51:52.000Z'
   airtable_id: recXgUtGqv4vnOFKA
   category:
-  - disasters
+  - Disasters
   data_sets:
   - reca3HaDwDIPIvwAP
   data_sets_text: Federal disaster declaration and protective actions data
@@ -1454,9 +1454,9 @@
   airtable_createdTime: '2020-02-10T16:17:31.000Z'
   airtable_id: recYDGmuetKuKzaJW
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   data_sets:
   - recpvolC8199pm0rT
   data_sets_text: Department of Housing and Urban Development
@@ -1499,7 +1499,7 @@
   airtable_createdTime: '2020-02-04T21:28:33.000Z'
   airtable_id: recYVIjlUXHhhAjLr
   category:
-  - rural
+  - Rural
   data_sets:
   - recMSzrJE4GulrJdq
   data_sets_text: Census Bureau American Community Survey; Homeland Infrastructure
@@ -1527,7 +1527,7 @@
   airtable_createdTime: '2020-02-10T16:03:17.000Z'
   airtable_id: recYdVmxC6OUqRxB0
   category:
-  - employment
+  - Employment
   data_sets:
   - recmd9LsmIc8LYNmj
   data_sets_text: USA Jobs
@@ -1556,7 +1556,7 @@
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recZ3abAz4ADb6WRZ
   category:
-  - grants
+  - Grants
   data_sets:
   - recPiuc7SoLwdbVpm
   data_sets_text: Department of Health and Human Services; Department of Education;
@@ -1581,7 +1581,7 @@
   airtable_createdTime: '2021-02-19T21:56:03.000Z'
   airtable_id: recZC1VP8ywUBxS8q
   category:
-  - refugees
+  - Refugees
   data_sets:
   - recHH8tiwoyPB3bIA
   - recj68UegyWcH4eOM
@@ -1613,7 +1613,7 @@
   airtable_createdTime: '2020-02-04T21:30:24.000Z'
   airtable_id: recZkztX2XjSfcDzO
   category:
-  - education
+  - Education
   data_sets:
   - recCvj9RpD2mGgs8j
   data_sets_text: Census Bureau; Civil Rights Data Collection Program; National Center
@@ -1642,7 +1642,7 @@
   airtable_createdTime: '2020-02-04T21:29:41.000Z'
   airtable_id: recZn66weHUm3gq49
   category:
-  - census
+  - Census
   data_sets:
   - recAaHsevAd88WPKj
   data_sets_text: Census Bureau Response Rate
@@ -1667,8 +1667,8 @@
   airtable_createdTime: '2021-02-22T17:43:16.000Z'
   airtable_id: reca9CUrcr39DStIc
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - recO5dPRvmWdhu3oq
   - recfg1WkemYmG7Nrk
@@ -1698,7 +1698,7 @@
   airtable_createdTime: '2021-02-19T18:38:29.000Z'
   airtable_id: recaRsKbgtQOavIpx
   category:
-  - environment
+  - Environment
   data_sets:
   - recTbqNuUaHAL0r35
   - recRwm9aZNcZWHd4E
@@ -1740,7 +1740,7 @@
   airtable_createdTime: '2020-02-04T21:28:51.000Z'
   airtable_id: recb1pW6mpE2vl6tp
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recANl7hLAtPZhe4v
   data_sets_text: American Community Survey; Proprietary enterprise level marketing
@@ -1771,7 +1771,7 @@
   airtable_createdTime: '2021-02-19T18:58:27.000Z'
   airtable_id: recbsgNzUmmrKuEYn
   category:
-  - refugees
+  - Refugees
   data_sets:
   - recHH8tiwoyPB3bIA
   - recWJcUpKgcyp4XjO
@@ -1802,7 +1802,7 @@
   airtable_createdTime: '2020-02-10T15:48:05.000Z'
   airtable_id: recc6G4ozj7KnAH6e
   category:
-  - census
+  - Census
   data_sets:
   - recjyAoj8x1HovtT5
   data_sets_text: Department of Housing and Urban Development; Community partners
@@ -1830,7 +1830,7 @@
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recdBbAkH3Y7hu4y4
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recj4vMxTwRcC9vUW
   data_sets_text: Census Bureau; Department of Agriculture; Department of Education;
@@ -1856,8 +1856,8 @@
   airtable_createdTime: '2021-02-19T16:24:26.000Z'
   airtable_id: receafMaV7aRWkMwG
   category:
-  - education
-  - environment
+  - Education
+  - Environment
   data_sets:
   - reczoJU8faZ1brZ0d
   data_sets_text: EPA Idle-Free Schools Toolkit
@@ -1886,7 +1886,7 @@
   airtable_createdTime: '2020-02-10T15:49:31.000Z'
   airtable_id: receo5EjDvZOW0G6N
   category:
-  - addressing
+  - Addressing
   data_sets:
   - recdUyfK7lV5aWTmt
   data_sets_text: "Census Bureau\u2019s National Address Database Schema; United States\
@@ -1914,7 +1914,7 @@
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recfUxMS7BNZxVPLX
   category:
-  - veterans
+  - Veterans
   data_sets:
   - recUryevLXCLnABaa
   data_sets_text: Career One Stop; Department of Labor O*NET Database; Walkingscore.com;
@@ -1942,7 +1942,7 @@
   airtable_createdTime: '2020-02-04T21:28:40.000Z'
   airtable_id: recfqTRYC5LXFiOUe
   category:
-  - employment
+  - Employment
   data_sets:
   - recJRRWGAYgSkvpS7
   data_sets_text: Bureau of Labor Statistics
@@ -1971,9 +1971,9 @@
   airtable_createdTime: '2020-02-10T16:16:49.000Z'
   airtable_id: rechMaHffUM7JYl3l
   category:
-  - housing
-  - employment
-  - transportation
+  - Housing
+  - Employment
+  - Transportation
   description: "\"Ground-truthing\" neighborhood navigator powered by local knowledge,\
     \ answering questions including \u201Chow walkable is my city?\u201D and \u201C\
     who provides childcare I can trust?\u201D"
@@ -1999,9 +1999,9 @@
   airtable_createdTime: '2020-02-10T16:16:13.000Z'
   airtable_id: rechZ1AK6ip9XaCqE
   category:
-  - housing
-  - education
-  - health
+  - Housing
+  - Education
+  - Health
   description: ' Provides visibility into the affordability of opportunity for children
     in U.S. metro areas'
   details: ' Provides visibility into the affordability of opportunity for children
@@ -2016,7 +2016,7 @@
   airtable_createdTime: '2021-05-10T14:41:35.000Z'
   airtable_id: rechzHn8vOEW60T0x
   category:
-  - covid-19
+  - COVID-19
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -2045,7 +2045,7 @@
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: reciAHM7OE2uo9JTi
   category:
-  - disasters
+  - Disasters
   data_sets:
   - recmk9AHFB5PTdkW0
   - reci6IyNnsacsn7uC
@@ -2079,7 +2079,7 @@
   airtable_createdTime: '2020-02-04T21:30:46.000Z'
   airtable_id: reciS4wntA3e352BQ
   category:
-  - veterans
+  - Veterans
   data_sets:
   - recq6Be0out6SxvOZ
   data_sets_text: Department of Labor
@@ -2108,7 +2108,7 @@
   airtable_createdTime: '2020-02-10T16:00:16.000Z'
   airtable_id: recj2I36nEPH4qWuf
   category:
-  - education
+  - Education
   data_sets:
   - recrFSpDngWedddKe
   data_sets_text: Department of Education college readiness data
@@ -2130,9 +2130,9 @@
   airtable_createdTime: '2020-02-10T16:17:20.000Z'
   airtable_id: recj9AnYrX4fI5Ecf
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   description: Allows for comparison and similarity detection of geographic regions
   details: Allows for comparison and similarity detection of geographic regions
   image: opendata-network.jpg
@@ -2154,7 +2154,7 @@
   airtable_createdTime: '2020-02-10T16:00:54.000Z'
   airtable_id: recjBsJokWirN5SXn
   category:
-  - education
+  - Education
   data_sets:
   - recFe9sXGLssXn9T4
   data_sets_text: Census Bureau; Department of Health and Human Services; Institute
@@ -2183,7 +2183,7 @@
   airtable_createdTime: '2020-02-04T21:28:10.000Z'
   airtable_id: reckOdJi2Y6DUxI09
   category:
-  - employment
+  - Employment
   data_sets:
   - recelHugittnq2tHh
   data_sets_text: Equal Employment Opportunity Commission; Census Bureau
@@ -2208,8 +2208,8 @@
   airtable_createdTime: '2021-02-22T17:36:15.000Z'
   airtable_id: reclF9Mn2Z6aMqzJk
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - recL4TnI9hKXQpAhW
   - reckWNWDZlinjIHJX
@@ -2244,7 +2244,7 @@
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recleNeiLRdZwSdLt
   category:
-  - employment
+  - Employment
   data_sets:
   - rec696mXrFWhEiAvO
   data_sets_text: North American Industry Classification (NACIS) codes; National Certifications
@@ -2276,8 +2276,8 @@
   airtable_createdTime: '2020-02-04T21:32:08.000Z'
   airtable_id: recmiMYwGdZ4hHgMF
   category:
-  - health
-  - housing
+  - Health
+  - Housing
   data_sets:
   - recGlnYsRiOuG1Sjn
   data_sets_text: Department of Housing and Urban Development; Census Bureau American
@@ -2304,7 +2304,7 @@
   airtable_createdTime: '2020-02-04T21:30:55.000Z'
   airtable_id: recnSpNUcyeoVi28K
   category:
-  - opioids
+  - Opioids
   data_sets:
   - rec4NkiR4wChvbycB
   data_sets_text: US Census Bureau; Local emergency response data
@@ -2335,7 +2335,7 @@
   airtable_createdTime: '2020-02-04T21:31:31.000Z'
   airtable_id: reco73a0LwOf8hbof
   category:
-  - environment
+  - Environment
   data_sets:
   - recJqBTJSS10Y0XDl
   data_sets_text: Economic Census and American Community Survey data for Baltimore;
@@ -2363,8 +2363,8 @@
   airtable_createdTime: '2021-02-22T17:46:19.000Z'
   airtable_id: recoLzsQ10XA9A8CY
   category:
-  - environment
-  - rural
+  - Environment
+  - Rural
   data_sets:
   - recmMFIgCZ6a8xA1R
   - recVD7JOYo0dtf28B
@@ -2392,7 +2392,7 @@
   airtable_createdTime: '2020-02-10T16:04:27.000Z'
   airtable_id: recos0StoN5zEkGyv
   category:
-  - education
+  - Education
   description: '!!! Broken link'
   details: '!!! Broken link'
   sprint:
@@ -2405,7 +2405,7 @@
   airtable_createdTime: '2021-02-22T17:01:52.000Z'
   airtable_id: recp3hAesZqc2oQnV
   category:
-  - environment
+  - Environment
   data_sets:
   - recYTaj4hHXvWs9Hf
   - recGXdUunLjQ1lGBL
@@ -2437,7 +2437,7 @@
   airtable_createdTime: '2020-02-10T16:02:55.000Z'
   airtable_id: recpQRl79tKixOYHk
   category:
-  - health
+  - Health
   data_sets:
   - recmHF6G70ChWzHpt
   data_sets_text: "Department of Veteran\u2019s Affairs"
@@ -2457,7 +2457,7 @@
   airtable_createdTime: '2021-02-22T17:44:49.000Z'
   airtable_id: recqWVxkeZ3bYz68R
   category:
-  - environment
+  - Environment
   data_sets:
   - recrV1UvS4a45Y13Z
   data_sets_text: National Agriculture Imagery Program (NAIP)
@@ -2485,7 +2485,7 @@
   airtable_createdTime: '2020-02-10T15:48:44.000Z'
   airtable_id: recro3E8gXTIQ5IHO
   category:
-  - census
+  - Census
   data_sets:
   - rec59S1AHuEeT9uqX
   data_sets_text: "Public Use Microdata Sample of the Census Bureau\u2019s American\
@@ -2517,7 +2517,7 @@
   airtable_createdTime: '2020-02-10T16:01:20.000Z'
   airtable_id: recs1AuNUUppAFbr3
   category:
-  - education
+  - Education
   data_sets:
   - recfuJtmIbGPK6Mhf
   data_sets_text: School-level data
@@ -2539,7 +2539,7 @@
   airtable_createdTime: '2020-02-10T16:15:52.000Z'
   airtable_id: recsTaRTvzM11DFWX
   category:
-  - housing
+  - Housing
   data_sets:
   - recpvolC8199pm0rT
   data_sets_text: Department of Housing and Urban Development
@@ -2562,7 +2562,7 @@
   airtable_createdTime: '2021-01-25T22:56:29.000Z'
   airtable_id: rectcKAi8zsdwiqjg
   category:
-  - disasters
+  - Disasters
   data_sets:
   - recu4o8YtK7Z8JmUv
   - reczXMKquV48L97tw
@@ -2607,8 +2607,8 @@
   airtable_createdTime: '2020-02-10T16:01:34.000Z'
   airtable_id: recuj8LvrOlw7qVZl
   category:
-  - transportation
-  - health
+  - Transportation
+  - Health
   data_sets:
   - reccGjV5L91DWewkI
   data_sets_text: Office of the Surgeon General; Department of Transportation
@@ -2635,7 +2635,7 @@
   airtable_createdTime: '2020-02-10T16:00:00.000Z'
   airtable_id: reculF774OHizAs0S
   category:
-  - environment
+  - Environment
   data_sets:
   - recjmk1p8PEaxmjwR
   data_sets_text: Department of Housing and Urban Development Fair Market Rent data;
@@ -2664,8 +2664,8 @@
   airtable_createdTime: '2020-02-10T15:59:00.000Z'
   airtable_id: recvDZEaGFFEtnR4l
   category:
-  - discovery
-  - census
+  - Discovery
+  - Census
   data_sets:
   - rec4lkCKmmbu70vxj
   data_sets_text: Census Bureau
@@ -2714,7 +2714,7 @@
   airtable_createdTime: '2020-02-04T21:30:08.000Z'
   airtable_id: recvh8HbEmn5MuzGI
   category:
-  - veterans
+  - Veterans
   data_sets:
   - recpJErZ50C7ZrLG2
   data_sets_text: Department of Labor O*NET Database; Bureau of Labor Statistics
@@ -2741,8 +2741,8 @@
   airtable_createdTime: '2020-02-10T16:04:03.000Z'
   airtable_id: recvlzXnQhGrvyOew
   category:
-  - education
-  - employment
+  - Education
+  - Employment
   data_sets:
   - recJRRWGAYgSkvpS7
   data_sets_text: Bureau of Labor Statistics
@@ -2771,7 +2771,7 @@
   airtable_createdTime: '2020-02-04T21:28:17.000Z'
   airtable_id: recwo6k02qWF773ZK
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recLnCqfR1YcSc96A
   data_sets_text: Department of Labor; Census Bureau; US Cluster Mapping Project;
@@ -2803,7 +2803,7 @@
   airtable_createdTime: '2021-02-22T17:48:21.000Z'
   airtable_id: recxNb6AkmDER2KXh
   category:
-  - environment
+  - Environment
   data_sets:
   - recuNWKVwFbdPJmkQ
   - recjGMVuA7kZw2F6K
@@ -2834,7 +2834,7 @@
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recxPFYJEXMA7YTmC
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recq5HLrG3cn1d2yJ
   data_sets_text: "Open-source public data; Mastercard\u2019s anonymized and aggregated\
@@ -2865,8 +2865,8 @@
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: recxhgzBILVkvarN6
   category:
-  - employment
-  - veterans
+  - Employment
+  - Veterans
   data_sets:
   - recRfQFnOEBlyUHKh
   data_sets_text: Census Bureau; Department of Labor O*NET database
@@ -2895,7 +2895,7 @@
   airtable_createdTime: '2020-02-10T16:02:37.000Z'
   airtable_id: recyH7SUTuXtVQEjq
   category:
-  - health
+  - Health
   data_sets:
   - recZ12r87hDC2pbqe
   data_sets_text: Data on local hazards & resources
@@ -2920,8 +2920,8 @@
   airtable_createdTime: '2021-02-19T18:53:24.000Z'
   airtable_id: recyKI9exBfBtz1hr
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - rec3A3BlcyWHmhGMj
   - recEQhaRntLcBiQmj
@@ -2955,7 +2955,7 @@
   airtable_createdTime: '2021-02-19T18:31:53.000Z'
   airtable_id: recyPJeX2onUtcMln
   category:
-  - environment
+  - Environment
   data_sets:
   - recrV1UvS4a45Y13Z
   data_sets_text: National Agriculture Imagery Program (NAIP)
@@ -2985,7 +2985,7 @@
   airtable_createdTime: '2021-02-19T18:49:03.000Z'
   airtable_id: recyl8q9tZWnPoQQt
   category:
-  - environment
+  - Environment
   data_sets:
   - reckFVcbvWl3Ot40f
   - recb8EMDhzUm653ih
@@ -3022,8 +3022,8 @@
   airtable_createdTime: '2020-02-04T21:30:36.000Z'
   airtable_id: reczVGhvSjjSjcHRp
   category:
-  - census
-  - discovery
+  - Census
+  - Discovery
   data_sets:
   - reczaQ6d5RUAwJlQ1
   data_sets_text: Census Bureau American Community Survey

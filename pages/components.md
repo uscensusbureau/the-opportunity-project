@@ -2,7 +2,7 @@
 title: Components
 permalink: /components/
 
-layout: default
+layout: component
 
 # content to create sample components
 
@@ -244,6 +244,19 @@ sidebar:
       - Electronic Data Gathering, Analysis and Retrieval (EDGAR) - U.S. Securities and Exchange Commission
       - Redfin’s Walk Score
       - Reonomy
+
+main-content:
+  title: Disaster Preparedness Using Geospatial Data
+  subsections:
+    - text: SILLE helps leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure.
+    - title: Younger and minority populations are less likely to have an emergency plan.
+      text: Personal and family preparedness can greatly impact the ability that individuals and communities have to successfully and rapidly recover from a disaster. However, in the 2016 National Household Preparedness Survey, only 45% of respondents reported having a household emergency plan. Additionally, people who consider preparedness part of everyday life tend to be 65 years of age or older, white and male, while people who intend to prepare but have yet to get started tend to be 45 years of age or younger, black or Hispanic, and have children.
+    - image: case-studies/sille-02.png
+      image-alt: A satellite in space
+    - title: The Opportunity Project brought together tech teams, policy and data experts, and community groups to build products using geospatial data to help all people prepare for disasters.
+      text: Over 50 participants joined the 2018 Geospatial sprint in different roles. Each role contributed a different set of knowledge and skills that can help create better-informed digital products like Sille. Built by Ovela and informed by multiple product and data experts, Sille uses satellite data and Census block data so stakeholders can understand when a vulnerable structure, like a bridge or a building, has shifted and therefore might be more susceptible to failure or collapse in a disaster. This allows for first responders to prepare and target specific areas where they can target their emergency response to during or after a natural disaster.
+    - title: Today, Ovela’s connections from TOP have turned into a lasting partnership.
+      text: Datel Ovela has continued its partnership with FEMA and is testing the use of this product in New York City for earthquake response and in Miami for flooding.
 
 # single-column-banner-photo-overlay-and-content.html
 role-descriptions:
@@ -674,8 +687,8 @@ two-col-markdown:
 <p>The card component is not contained in any grid element and thus not constrained in width. For maximum flexibility, do so outside of the include itself or use the card-list component.</p>
 
     <h4>cards/card-list.html</h4>
-    <p>The card list is a simple flex box which can display as many cards as you need. Supply the include with an object that contains a member named 'cards'.</p>
-    {% include cards/card-list.html content=page.card-list %}
+    <p>The card list is a simple flex box which can display as many cards as you need. Takes in a parameter named <b>content</b> which is an array of card data.</p>
+    {% include cards/card-list.html content=page.card-list.cards %}
 
 <h4>cards/card.html</h4>
 
@@ -788,7 +801,11 @@ two-col-markdown:
       {% include navbar.html %}
 <hr>
     <h4>news.html</h4>
-      (Hard coded, content must be changed in the file)
+      Displays a grid of featured and side items. Takes in a parameter named `content` which is an object with the following properties:
+      <b>featured</b>: card data that is displayed full height in left column
+      <b>side-cards</b>: array of card data that takes up the right hand column.
+      See `_includes/news/news.html` and `pages/news.md` for details.
+
       {% include news/news.html %}
 <hr>
     <h4>offset-footer.html</h4>

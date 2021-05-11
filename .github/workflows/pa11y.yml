@@ -32,11 +32,6 @@ jobs:
         with:
           path: ./pa11y_output.txt
 
-
-${{ steps.pa11y_output.outputs.content }}
-
-</details>
-
       - name: Check for pa11y failures.
         if: contains(steps.pa11y_output.outputs.content, 'errno 2')
         run: |

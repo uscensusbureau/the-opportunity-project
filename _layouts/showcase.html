@@ -142,8 +142,9 @@ layout: default
                 <h4 class="pc-inactive">{{ product.category }}</h4>
               {% endif %}
               <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
-              <p style="display:none" class="product-desc">{{ product.description }} | {{ problem_statement.Name | slugify }}</p> <!-- never show this. just for filtering -->
-              <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p> <!-- never show this. just for searching -->
+              <p style="display:none" class="product-desc">{{ product.description }}</p>
+              <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
+              <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>
               <span style="display:none" class="product-link">{{ product.link }}</span>
               <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
             </header>

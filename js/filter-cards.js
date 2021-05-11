@@ -101,7 +101,8 @@ function displayFilteredProducts() {
     const productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
     const productElement = card.getElementsByTagName('h4')[ 0 ]
     const productTopic = productElement ? productElement.innerHTML : '';
-    const productAgency = card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-");
+    const productAgency = card.getElementsByTagName('h5') ?
+      card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-") : '';
     
     const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes( searchTerm ) || prodProblems.includes( searchTerm )
 

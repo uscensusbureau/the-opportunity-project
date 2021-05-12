@@ -7,7 +7,6 @@ gem 'jekyll-redirect-from', '>= 0.13.0'
 gem 'jekyll-sitemap'
 gem 'scss_lint'
 gem 'html-proofer'
-gem "typhoeus"
 
 gem 'rspec-core'
 gem 'rspec-expectations'

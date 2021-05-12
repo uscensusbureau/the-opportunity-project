@@ -1,0 +1,33 @@
+name: html-proofer tests
+
+on: 
+  [push]
+
+jobs:
+  build:
+    name: Building site and running html-proofer tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source.
+        uses: actions/checkout@v2
+
+      - name: Install jekyll site dependencies.
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+
+      - name: Install proofer dependencies.
+        run: npm install
+
+      - name: Start up jekyll server.
+        run: npm run start-detached
+
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./_site"
+          # The directory to scan
+          arguments: --url-ignore /community.amstat.org/
+          # The arguments to pass to HTMLProofer

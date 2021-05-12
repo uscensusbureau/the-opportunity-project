@@ -125,6 +125,7 @@ DEPENDENCIES
   rspec-core
   rspec-expectations
   scss_lint
+  typhoeus
   webrick
 
 BUNDLED WITH

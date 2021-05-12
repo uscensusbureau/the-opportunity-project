@@ -25,7 +25,7 @@ jobs:
         run: npm run start-detached
 
       - name: Compile with gulp
-        uses: elstudio/actions-js-build/build@v4
+        run: gulp build
 
       - name: Check HTML
         uses: chabad360/htmlproofer@master

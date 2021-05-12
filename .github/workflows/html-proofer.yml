@@ -21,11 +21,11 @@ jobs:
       - name: Install proofer dependencies.
         run: npm install
 
-      - name: Start up jekyll server.
-        run: npm run start-detached
-
       - name: Compile with gulp
         run: gulp build
+
+      - name: Start up jekyll server.
+        run: npm run start-detached
 
       - name: Check HTML
         uses: chabad360/htmlproofer@master

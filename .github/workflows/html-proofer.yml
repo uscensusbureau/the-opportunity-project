@@ -24,6 +24,9 @@ jobs:
       - name: Start up jekyll server.
         run: npm run start-detached
 
+      - name: Compile with gulp
+        uses: elstudio/actions-js-build/build@v4
+
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         with:

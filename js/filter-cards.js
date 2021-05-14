@@ -98,8 +98,10 @@ function displayFilteredProducts() {
     const prodDesc = card.getElementsByTagName('p')[0].innerText;
     const prodProblems = card.getElementsByTagName('p')[1].innerText;
     const productNameSlugified = productName.replace(`'`,'-').split('.').join("-").split(':').join("-");
-    const productYear = card.getElementsByTagName('h3') ? 
-      card.getElementsByTagName('h3')[ 0 ].innerText : '';
+    let productYear = '';
+    if( card.getElementsByTagName('h3') && card.getElementsByTagName('h3')[ 0 ]){
+      productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
+    }
     const productElement = card.getElementsByTagName('h4')[ 0 ]
     const productTopic = productElement ? productElement.innerHTML : '';
     const productAgency = card.getElementsByTagName('h5')[0] ?

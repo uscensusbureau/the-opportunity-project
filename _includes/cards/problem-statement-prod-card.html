@@ -6,12 +6,16 @@
   class="usa-card__container card-container ps-card {{ include.utils }}"
   style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});
           background-size: cover;">
+  {% if card.link %}
   <a href="{{ card.link }}" product-link>
+  {% endif %}
     <div class="card-header">
-      <h3 class="text-sans-1 text-ls-1">
+      <h3 class="text-sans-1 text-ls-1 {%if card.link%}text-underline{% endif %}">
           {{ card.title }}
       </h3>
       <p>{{ team['Company Name'] }}</p>
     </div>
-  </a>
+  {% if card.link %}
+    </a>
+  {% endif %}
 </div>

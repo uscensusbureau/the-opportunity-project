@@ -137,11 +137,13 @@ layout: default
           <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
-              <h3 class="pc-inactive">{{ sprint.Year }}</h3>
+              {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
               {% if product.category %}
                 <h4 class="pc-inactive">{{ product.category }}</h4>
               {% endif %}
-              <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+              {% if problem_statement.agency_text %}
+                <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+              {% endif %}
               <p style="display:none" class="product-desc">{{ product.description }}</p>
               <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
               <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>

@@ -98,7 +98,7 @@ function displayFilteredProducts() {
     const prodDesc = card.getElementsByTagName('p')[0].innerText;
     const prodProblems = card.getElementsByTagName('p')[1].innerText;
     const productNameSlugified = productName.replace(`'`,'-').split('.').join("-").split(':').join("-");
-    const productYear = '';
+    let productYear = '';
     if( card.getElementsByTagName('h3') && card.getElementsByTagName('h3')[ 0 ]){
       productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
     }

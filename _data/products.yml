@@ -190,7 +190,7 @@
   image: prados.jpg
   image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support)
     tool on an iPad
-  link: https://www.zipdatum.com/prcivicaddress/
+  link: https://icasapr.com/
   prize_status: Winner
   problem_statement:
   - rec55VBughwHjCFWp
@@ -233,7 +233,7 @@
   airtable_createdTime: '2021-05-10T20:23:44.000Z'
   airtable_id: rec5YVAB1Sb4MWin2
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   - recR05Bv2d2mx7pYB
@@ -243,9 +243,9 @@
     and voluntary data surrounding viral testing for private and public organizations
   details: Uses federal and local COVID-19 reporting standards to collect required
     and voluntary data surrounding viral testing for private and public organizations
-  image: TelemedTesting
+  image: TelemedTesting.jpg
   image-alt: Screenshot showing an intake form for a COVID test including questions
-    such as "Is this your first COVID test?"
+    such as 'Is this your first COVID test?'
   link: https://testing.netmedical.com/
   problem_statement:
   - recFyf3r3yQQEHbx7
@@ -344,7 +344,7 @@
     waste ending up in our oceans.
   image: Ocean-Plastics-Story-Map.png
   image-alt: This image shows the story of ocean plastics.
-  link: https://esriurl.com/OceanPlastics
+  link: https://storymaps.arcgis.com/stories/df9267f53b284f138cacdb6b9db8038d
   problem_statement:
   - recQeWP4kfK1EakJW
   problem_statements:
@@ -574,7 +574,7 @@
   airtable_createdTime: '2021-05-10T20:22:01.000Z'
   airtable_id: recC7pDhIGVSeNl1a
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -583,7 +583,7 @@
     of data.  '
   details: 'Enables real-time reporting of individual and batched results in a trackable
     manner with confidentiality, integrity of identity, and immutability of data.  '
-  image: Oracle
+  image: Oracle.jpg
   image-alt: Complex diagram showing the inner technical workings of a software products
   link: https://staging.waters.hhs.gov/docs/
   problem_statement:
@@ -749,7 +749,7 @@
   airtable_createdTime: '2021-05-10T20:33:08.000Z'
   airtable_id: recFtYiCXRMvq3IaT
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   - reczS9cHFwBE18RKo
@@ -760,10 +760,10 @@
     solution for employers and educators. Smartphone RDT Reader System for test developers.
   details: Connected testing and universal COVID-19 vaccine credential verification
     solution for employers and educators. Smartphone RDT Reader System for test developers.
-  image: Healthcheck
-  image-alt: Two iPhone mockups - one showing a countdown timer titled "Please Wait"
-    and another showing a camera pointed at a stick test with instructions to "Position
-    the Test Casette" inside the guides
+  image: Healthcheck.jpg
+  image-alt: Two iPhone mockups - one showing a countdown timer titled 'Please Wait'
+    and another showing a camera pointed at a stick test with instructions to 'Position
+    the Test Casette' inside the guides
   link: healthcheck.com
   problem_statement:
   - recFyf3r3yQQEHbx7
@@ -1157,7 +1157,7 @@
   airtable_createdTime: '2021-05-10T19:52:27.000Z'
   airtable_id: recQdmgL9m4HwZjQe
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -1165,7 +1165,7 @@
     fans and travelers entering their site based on their own criteria
   details: Enables businesses to verify health credentials for employees, customers,
     fans and travelers entering their site based on their own criteria
-  image: IBM
+  image: IBM.jpg
   image-alt: Schematic showing a mobile wallet being used to verify a vaccination
     record
   link: https://www.ibm.com/products/digital-health-pass
@@ -1232,7 +1232,7 @@
   airtable_createdTime: '2021-05-10T20:40:33.000Z'
   airtable_id: recRUkG2VoPGqGcxN
   category:
-  - COVID-19
+  - Health
   data_sets:
   - recXS3lZxFLJrR1zd
   data_sets_text: CDC AIMS Platform
@@ -1241,7 +1241,7 @@
     patients
   details: Provides verified healthcare products and services that are easily accessible
     for platform customers such as institutional clients or individual patients
-  image: ClinIQ
+  image: ClinIQ.jpg
   image-alt: Screenshot of the ClinIQ web app with a choice of where to sign up for
     a COVID-19 RT-PCR test
   link: https://cliniq.health
@@ -1296,7 +1296,6 @@
   image: whywecount.jpg
   image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
     reads Being Counted Saves Lives.
-  link: https://www.whywecount.org
   problem_statement:
   - recPYnQdPuuZ0FZZ9
   problem_statements:
@@ -1864,7 +1863,7 @@
   airtable_createdTime: '2021-05-10T20:37:11.000Z'
   airtable_id: recaULJmJOTbOyWAe
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -2171,7 +2170,7 @@
   airtable_createdTime: '2021-05-10T14:41:35.000Z'
   airtable_id: rechzHn8vOEW60T0x
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -2260,7 +2259,7 @@
   airtable_createdTime: '2021-05-10T20:28:09.000Z'
   airtable_id: reciaW1ybfwaIF0dI
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   - recAPSVl7tJ95FueB
@@ -2273,7 +2272,7 @@
   details: Offers a customizable testing, tracking and reporting solution backed by
     HIPAA compliant Microsoft Azure servers currently being used throughout the United
     States
-  image: CoVerify
+  image: CoVerify.jpg
   image-alt: Flowchart with many rectangles entitled Employer/Vendor setup and usage
     with QR code/POC Workflow
   link: www.co-verify.com
@@ -2336,7 +2335,7 @@
   airtable_createdTime: '2021-05-10T20:31:32.000Z'
   airtable_id: recj9dZ7MMUnxFPXi
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   - recAPSVl7tJ95FueB
@@ -2347,7 +2346,7 @@
   details: Connects testing devices, application and laboratories to a Hub, where
     results are normalized and routed in real-time to state jurisdictions via electronic
     lab reporting and federal organizations
-  image: Lifepoint
+  image: Lifepoint.jpg
   image-alt: Brochure entitled Lifepoint informatics State Reporting Hub
   link: https://www.lifepoint.com/covid-19-reporting-with-lifepoint/
   problem_statement:
@@ -2468,7 +2467,6 @@
   image: solve.jpg
   image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
     barriers that each link to information about organizations working in these areas
-  link: https://solve.is/
   prize_status: Applied
   problem_statement:
   - rec6Coqk1u4BTdxLI
@@ -2510,7 +2508,7 @@
   airtable_createdTime: '2021-05-10T20:08:15.000Z'
   airtable_id: recnH1uvkl0Xjnjhm
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -2518,7 +2516,7 @@
     information confidentially for both individuals and groups to reopen society safely
   details: Records, monitors and reports rapid consumer COVID-19 diagnostic test information
     confidentially for both individuals and groups to reopen society safely
-  image: Interpret
+  image: Interpret.jpg
   image-alt: Screenshot of a student survey checking for COVID symptons
   link: http://app.interpret-covid.com/login-public
   problem_statement:
@@ -2564,7 +2562,7 @@
   airtable_createdTime: '2021-05-10T19:49:50.000Z'
   airtable_id: reco2tsjZJ55bk12Q
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -2574,9 +2572,9 @@
   details: Supports rapid point of care and at-home COVID test developers by streamlining
     data collection and reporting to public health authorities, schools, employers,
     and health systems
-  image: DynamiCare
-  image-alt: A mobile phone showing a QR code and the words "COVID-19 Test Results
-    Negative"
+  image: DynamiCare.jpg
+  image-alt: A mobile phone showing a QR code and the words 'COVID-19 Test Results
+    Negative'
   link: https://www.dynamicarehealth.com/covid19
   problem_statement:
   - recFyf3r3yQQEHbx7
@@ -2622,7 +2620,7 @@
   airtable_createdTime: '2021-05-10T20:43:03.000Z'
   airtable_id: recoD8u3aM6Z3cNNL
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   data_sets_text: HHS Diagnostic Data & Reporting Standards
@@ -2630,10 +2628,10 @@
     to vaccine verification "'
   details: '"Helps patients through their COVID-19 journey, from testing to vaccination
     to vaccine verification "'
-  image: Othena
+  image: Othena.jpg
   image-alt: Three iPhone screen mockups. One showing a wait-time countdown, one with
-    a screen labeled "Looking to be tested or vaccinated for COVID-19?" and one labeled
-    "Your Testing Appointment is Confirmed"
+    a screen labeled 'Looking to be tested or vaccinated for COVID-19?' and one labeled
+    'Your Testing Appointment is Confirmed'
   link: www.othena.com
   problem_statement:
   - recFyf3r3yQQEHbx7
@@ -3287,7 +3285,6 @@
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option
     to sort by the day, the ward, and the location.
-  link: https://mthnguyen.shinyapps.io/AirMotionDC/
   problem_statement:
   - recG9NY8ns2oza4vp
   problem_statements:
@@ -3302,7 +3299,7 @@
   airtable_createdTime: '2021-05-10T19:54:40.000Z'
   airtable_id: recz0udlK0WnjquFr
   category:
-  - COVID-19
+  - Health
   data_sets:
   - rec0X08kt0EhVcwzG
   - recgQvWlWCGEYqcV5
@@ -3311,7 +3308,7 @@
     and health providers.
   details: Allows clinicians share health information with patients, health institutions
     and health providers.
-  image: Dovel
+  image: Dovel.jpg
   image-alt: '6 circles showing the interlocking parts of the Dovel platform: Voice
     transcription, document analytics, vaccine surveillance, COVID sentiment analysis,
     Healthy supply chain repository, and patient health ecosystem portal'

@@ -11,5 +11,4 @@ lead:
 
 ---
 {% include hero.html %}
-<!-- {% include single-column-centered-photo-with-overlay.html %} -->
 {% include three-column-searchable.html %}

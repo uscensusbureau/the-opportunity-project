@@ -160,18 +160,18 @@
   poc: Bishen Singh
   problem-statement: self-sufficiency
   email: bishen.singh@nih.gov
-- name: Supplemental Nutrition Assistance Program (SNAP) Data System
-  description:
-    Time-series data on state and county-level estimates of SNAP participation
-    and benefit levels, combined with area estimates of total population and the
-    number of persons in poverty
-  agency: U.S. Department of Health & Human Services
-  federal: Federal data
-  link:
-    "https://healthdata.gov/dataset/supplemental-nutrition-assistance-program-snap-data-system"
-  poc: Bishen Singh
-  problem-statement: self-sufficiency
-  email: bishen.singh@nih.gov
+# - name: Supplemental Nutrition Assistance Program (SNAP) Data System
+#   description:
+#     Time-series data on state and county-level estimates of SNAP participation
+#     and benefit levels, combined with area estimates of total population and the
+#     number of persons in poverty
+#   agency: U.S. Department of Health & Human Services
+#   federal: Federal data
+#   link:
+#     "https://healthdata.gov/dataset/supplemental-nutrition-assistance-program-snap-data-system"
+#   poc: Bishen Singh
+#   problem-statement: self-sufficiency
+#   email: bishen.singh@nih.gov
 - name: HHS Social Services Programs
   description:
     Data on the programs and services that improve the well-being of
@@ -244,7 +244,7 @@
     housing statistics more accessible than ever before
   agency: U.S. Census Bureau
   federal: Federal
-  link: 'https://www.census.gov/developers/ '
+  link: 'https://www.census.gov/data/developers.html'
   poc: 'Logan Powell '
   problem-statement: sustainable-rural-development
   email: logan.t.powell@census.gov
@@ -462,7 +462,7 @@
     description: Types of Computers and Internet Subscriptions from American Community Survey 2014-2018 data
     agency: U.S. Census Bureau
     federal: Federal
-    link: https://data.census.gov/cedsci/table?q=s2801&tid=ACSST1Y2018.S2801&hidePreview=false
+    link: https://data.census.gov/cedsci/table?q=s2801&tid=ACSST1Y2018.S2801
     poc: Mike Martin & Kurt Bauman
     problem-statement: sustainable-rural-development
     email: michael.j.martin@census.gov, kurt.j.bauman@census.gov
@@ -510,15 +510,15 @@
   problem-statement: sustainable-rural-development
   email: BroadbandUSA@ntia.gov
 
--
-    name: BroadbandUSA State Broadband Leaders Network
-    description: A map of state broadband programs with contact information for each program
-    agency: National Telecommunications and Information Administration
-    federal: Federal
-    link: https://broadbandusa.ntia.doc.gov/ntia-resources/state-broadband-leaders-network-sbln
-    poc:
-    problem-statement: sustainable-rural-development
-    email:  BroadbandUSA@ntia.gov
+# -
+#     name: BroadbandUSA State Broadband Leaders Network
+#     description: A map of state broadband programs with contact information for each program
+#     agency: National Telecommunications and Information Administration
+#     federal: Federal
+#     link: https://broadbandusa.ntia.doc.gov/ntia-resources/state-broadband-leaders-network-sbln
+#     poc:
+#     problem-statement: sustainable-rural-development
+#     email:  BroadbandUSA@ntia.gov
 -
     name: Digital Nation Data Explorer
     description: Data Explorer enables easy tracking of metrics about computer and Internet use over time. Simply choose a metric of interest from the drop-down menu. The default Map mode depicts percentages by state, while Chart mode allows metrics to be broken down by demographics and viewed as either percentages of the population or estimated numbers of people or households
@@ -557,14 +557,14 @@
   poc: Amanda Cayton
   problem-statement: disaster-spending
   email: Amanda.Cayton@fiscal.treasury.gov
-- name: Monthly Disaster Spending Reports
-  description: Monthly reports on FEMA disaster spending
-  agency: FEMA
-  federal: Federal data
-  link: 'https://www.fema.gov/media-library/assets/documents/31789'
-  poc: ''
-  problem-statement: disaster-spending
-  email:
+# - name: Monthly Disaster Spending Reports
+#   description: Monthly reports on FEMA disaster spending
+#   agency: FEMA
+#   federal: Federal data
+#   link: 'https://www.fema.gov/media-library/assets/documents/31789'
+#   poc: ''
+#   problem-statement: disaster-spending
+#   email:
 - name: FEMA Annual Performance Report
   description:
     The Department of Homeland Security's Performance and Accountability Reports

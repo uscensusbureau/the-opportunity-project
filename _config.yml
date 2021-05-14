@@ -64,6 +64,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - pages/components.md
   - config
   - js
   - vendor

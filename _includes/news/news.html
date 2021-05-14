@@ -4,7 +4,9 @@
     usa-media-block__background-image-portrait 
     display-flex flex-column"
   >
-    {% include cards/card.html content=include.content.featured %}
+    {% if include.content.featured %}
+      {% include cards/card.html content=include.content.featured %}
+    {% endif %}
 
     {% if include.content.side-cards.size > 2 %}
       <div class="write-a-story

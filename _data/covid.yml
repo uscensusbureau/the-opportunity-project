@@ -44,7 +44,7 @@
     name: "Supplemental: Measuring Household Experiences During the Coronavirus Pandemic"
     description: Household survey deployed in the midst of the COVID-19 pandemic that measures household experiences in terms of employment status, spending patterns, food security, housing, physical and mental health, access to health care, and educational disruption. Data is available at a state level and for the 15 largest Metropolitan Statistical Areas (MSAs)
     agency: U.S. Census Bureau
-    link: https://www.census.gov/householdpulsedata
+    link: https://www.census.gov/data/experimental-data-products/household-pulse-survey.html
     poc: Jason Fields & Hyon Shin
     problem-statement: economic
     email: Jason.M.Fields@Census.gov, hyon.B.Shin@Census.gov

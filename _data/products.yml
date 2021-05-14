@@ -5,7 +5,7 @@
   airtable_createdTime: '2020-02-10T15:57:43.000Z'
   airtable_id: rec0XnfpVCBwdQJAg
   category:
-  - grants
+  - Grants
   data_sets:
   - rec4AioNvVGJrpHcQ
   data_sets_text: Grants.gov database
@@ -29,7 +29,7 @@
   airtable_createdTime: '2021-02-22T17:51:42.000Z'
   airtable_id: rec0sJ3TvQo6mykBz
   category:
-  - environment
+  - Environment
   data_sets:
   - rec9eiz7OR4XL7sR2
   - reci4qc6YN4B3LYFg
@@ -57,7 +57,7 @@
   airtable_createdTime: '2021-02-22T16:35:14.000Z'
   airtable_id: rec1WFJn1OGTTGrZi
   category:
-  - refugees
+  - Refugees
   data_sets:
   - recJufzyndWhFbgUv
   - recCQkNjSQxMZYYwb
@@ -89,7 +89,7 @@
   airtable_createdTime: '2020-02-10T16:17:05.000Z'
   airtable_id: rec1aSWndKb5kqADi
   category:
-  - housing
+  - Housing
   data_sets:
   - recESBrqUa0lBnuPX
   - recJ2XqUXOMEB1DXG
@@ -119,7 +119,7 @@
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: rec3DLJOV0X1vHHVe
   category:
-  - health
+  - Health
   data_sets:
   - recd7luteEs4maEnq
   data_sets_text: Centers for Disease Control and Prevention; Aggregated and anonymous
@@ -147,7 +147,7 @@
   airtable_createdTime: '2020-02-10T16:02:12.000Z'
   airtable_id: rec4bboJwfwGI9dku
   category:
-  - rural
+  - Rural
   data_sets:
   - recYsaQo1Hh5n5Plz
   data_sets_text: United States Department of Agriculture; Census Bureau; Department
@@ -176,7 +176,7 @@
   airtable_createdTime: '2020-02-04T21:29:49.000Z'
   airtable_id: rec4tY9vvumikW1Ku
   category:
-  - addressing
+  - Addressing
   data_sets:
   - rech9yKY6D5zjS6HQ
   data_sets_text: Census Bureau; U.S. Postal Service; National Address Database (NAD)
@@ -190,7 +190,7 @@
   image: prados.jpg
   image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support)
     tool on an iPad
-  link: https://www.zipdatum.com/prcivicaddress/
+  link: https://icasapr.com/
   prize_status: Winner
   problem_statement:
   - rec55VBughwHjCFWp
@@ -206,8 +206,8 @@
   airtable_createdTime: '2021-02-22T17:41:44.000Z'
   airtable_id: rec5TopxenNeIOsJO
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - recR05Bv2d2mx7pYB
   - recunaDw8Cf6hctAM
@@ -229,6 +229,32 @@
   - recBi1AdtXaNONNw3
   tech_team_text: Greer Institute-ISC iDISPLA Consortium
   title: iDISPLA 360-Degree Data Fusion Virtual Ecosystem Platform
+- Product Name: Telemed
+  airtable_createdTime: '2021-05-10T20:23:44.000Z'
+  airtable_id: rec5YVAB1Sb4MWin2
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recR05Bv2d2mx7pYB
+  - recVnx9dHO28S0aIV
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, HUD, CDC/SVI
+  description: Uses federal and local COVID-19 reporting standards to collect required
+    and voluntary data surrounding viral testing for private and public organizations
+  details: Uses federal and local COVID-19 reporting standards to collect required
+    and voluntary data surrounding viral testing for private and public organizations
+  image: TelemedTesting.jpg
+  image-alt: Screenshot showing an intake form for a COVID test including questions
+    such as 'Is this your first COVID test?'
+  link: https://testing.netmedical.com/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec6cDJ3i3Hxtri5J
+  tech_team_text: '"Net Medical Xpress Solutions, Inc."'
+  title: Telemed
 - Description (Old): "Datel Ovela\u2019s tool uses census block data with open EU\
     \ sentinel 1 InSAR to build a block level structural risk product that encourages\
     \ local stakeholders to prepare for crisis through increased awareness of the\
@@ -238,7 +264,7 @@
   airtable_createdTime: '2020-02-04T21:30:07.000Z'
   airtable_id: rec5dPCVzV3SHuZDS
   category:
-  - disasters
+  - Disasters
   data_sets:
   - rechYzTHDK65dikqA
   data_sets_text: ensus block data; Open EU Sentinel 1 InSAR
@@ -267,7 +293,7 @@
   airtable_createdTime: '2021-02-22T16:56:47.000Z'
   airtable_id: rec68a7razj3IGOyX
   category:
-  - environment
+  - Environment
   data_sets:
   - recO2Y4CWOIbPcoyO
   - recZAND1HiNvZYHkf
@@ -318,7 +344,7 @@
     waste ending up in our oceans.
   image: Ocean-Plastics-Story-Map.png
   image-alt: This image shows the story of ocean plastics.
-  link: https://esriurl.com/OceanPlastics
+  link: https://storymaps.arcgis.com/stories/df9267f53b284f138cacdb6b9db8038d
   problem_statement:
   - recQeWP4kfK1EakJW
   problem_statements:
@@ -336,9 +362,9 @@
   airtable_createdTime: '2020-02-10T16:03:50.000Z'
   airtable_id: rec7lQrTnvCdI85aM
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   description: ' Helps researchers and developers rapidly prototype and deploy tools
     that address a variety of problems surrounding access to opportunity'
   details: ' Helps researchers and developers rapidly prototype and deploy tools that
@@ -353,8 +379,8 @@
   airtable_createdTime: '2021-02-22T16:49:27.000Z'
   airtable_id: rec820mIr9jx8uWAq
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - rec1Y9Gn0T2zZUl2R
   - recO2Y4CWOIbPcoyO
@@ -407,8 +433,8 @@
   airtable_createdTime: '2021-02-22T17:21:38.000Z'
   airtable_id: rec8PdH7hI4omQshl
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - recO2Y4CWOIbPcoyO
   - reckAFdxXwR165zf5
@@ -443,7 +469,7 @@
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: rec8Yym9s5wIGjlDI
   category:
-  - addressing
+  - Addressing
   data_sets:
   - recQsegR8fE8yofoN
   data_sets_text: U.S. National Grid
@@ -469,9 +495,9 @@
   airtable_createdTime: '2020-02-10T16:16:39.000Z'
   airtable_id: rec9iFdC2FLECfVAa
   category:
-  - housing
-  - education
-  - health
+  - Housing
+  - Education
+  - Health
   description: Finds areas of opportunity through geographic visualizations and reports
   details: Finds areas of opportunity through geographic visualizations and reports
   sprint:
@@ -487,7 +513,7 @@
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: rec9slEDBdpxTIC3J
   category:
-  - housing
+  - Housing
   data_sets:
   - rec9DtqD0ooIzdJj7
   data_sets_text: DC Department of Human Services
@@ -518,7 +544,7 @@
   airtable_createdTime: '2020-02-04T21:29:01.000Z'
   airtable_id: recB5iDMet16XnjXe
   category:
-  - census
+  - Census
   data_sets:
   - recOrmFTVMgrShHjc
   - recxXh5stphflZLXv
@@ -544,6 +570,30 @@
   - recYJMcRX9wkv4vwC
   tech_team_text: Civis Analytics
   title: Census Intelligence Center
+- Product Name: COVID-19 Immutable Test Results Submission and Visualization
+  airtable_createdTime: '2021-05-10T20:22:01.000Z'
+  airtable_id: recC7pDhIGVSeNl1a
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: 'Enables real-time reporting of individual and batched results in a
+    trackable manner with confidentiality, integrity of identity, and immutability
+    of data.  '
+  details: 'Enables real-time reporting of individual and batched results in a trackable
+    manner with confidentiality, integrity of identity, and immutability of data.  '
+  image: Oracle.jpg
+  image-alt: Complex diagram showing the inner technical workings of a software products
+  link: https://staging.waters.hhs.gov/docs/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recWkAZeh1p7lSK1U
+  tech_team_text: Oracle
+  title: COVID-19 Immutable Test Results Submission and Visualization
 - Description (Old): This project leverages data around growing numbers of Americans
     overseas, people with disabilities, and increasing levels of smartphone penetration
     across the United States to allow the convenience, security and accessibility
@@ -555,7 +605,7 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recCGea83hgr4djMm
   category:
-  - census
+  - Census
   data_sets:
   - recd47z5brchfMK3A
   data_sets_text: Number of Americans overseas; Number of individuals with disabilities;
@@ -579,12 +629,14 @@
   - receQOPQTDz0IwuW7
   tech_team_text: Voatz
   title: Voatz
+- airtable_createdTime: '2021-05-10T20:08:13.000Z'
+  airtable_id: recCvsMDbEXL85jtT
 - Product Name: Public Finance Institute-Disaster Spending Tracker
   airtable_createdTime: '2021-02-22T16:51:54.000Z'
   airtable_id: recCzsRojdXhNdzCu
   category:
-  - grants
-  - disasters
+  - Grants
+  - Disasters
   data_sets:
   - recEUnW6Il2ZfXV0Z
   data_sets_text: USA Spending
@@ -610,9 +662,9 @@
   airtable_createdTime: '2020-02-10T16:03:33.000Z'
   airtable_id: recFD7M4ICvq22Nu4
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   data_sets:
   - recGlnYsRiOuG1Sjn
   data_sets_text: Department of Housing and Urban Development; Census Bureau American
@@ -641,7 +693,7 @@
   airtable_createdTime: '2020-02-04T21:28:11.000Z'
   airtable_id: recFK3C3oDrmnIwA3
   category:
-  - entrepreneurship
+  - Entrepreneurship
   data_sets:
   - recDmLYXboYl8Krlv
   data_sets_text: Bureau of Labor Statistics; StatsAmerica; Census Bureau American
@@ -667,7 +719,7 @@
   airtable_createdTime: '2021-02-22T17:50:01.000Z'
   airtable_id: recFOmdpx7Q6uE0Xl
   category:
-  - environment
+  - Environment
   data_sets:
   - rec07UgbuaSRJCK1l
   - rech6WYov2ewYwBTp
@@ -693,6 +745,34 @@
   - recpY2wq0jYSYkJ7s
   tech_team_text: Code for Tucson
   title: Sea Scavenger
+- Product Name: HealthCheck | Connected Testing Platform
+  airtable_createdTime: '2021-05-10T20:33:08.000Z'
+  airtable_id: recFtYiCXRMvq3IaT
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - reczS9cHFwBE18RKo
+  - recAPSVl7tJ95FueB
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, LOINC formats required
+    by states, FHIR
+  description: Connected testing and universal COVID-19 vaccine credential verification
+    solution for employers and educators. Smartphone RDT Reader System for test developers.
+  details: Connected testing and universal COVID-19 vaccine credential verification
+    solution for employers and educators. Smartphone RDT Reader System for test developers.
+  image: Healthcheck.jpg
+  image-alt: Two iPhone mockups - one showing a countdown timer titled 'Please Wait'
+    and another showing a camera pointed at a stick test with instructions to 'Position
+    the Test Casette' inside the guides
+  link: healthcheck.com
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rechxHdlnIyy3eF4e
+  tech_team_text: Safe Health Systems
+  title: HealthCheck | Connected Testing Platform
 - Description (Old): IBM's tool is an iOS application to support the logistical planning,
     coordination, execution, and data collection effort undertaken by Census Bureau
     employees conducting the homeless count.
@@ -700,8 +780,8 @@
   airtable_createdTime: '2020-02-10T15:58:15.000Z'
   airtable_id: recGtDBMaVWHIeULY
   category:
-  - census
-  - housing
+  - Census
+  - Housing
   description: iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting the
     homeless count
@@ -726,8 +806,8 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recHYa0ZILEN3fRFa
   category:
-  - discovery
-  - census
+  - Discovery
+  - Census
   data_sets:
   - rec4qbd5bZMFpmAeL
   data_sets_text: Census Bureau; US Bureau of Labor Statistics; New York State Departments
@@ -760,8 +840,8 @@
   airtable_createdTime: '2020-02-10T16:02:02.000Z'
   airtable_id: recIigBAir65hTeIa
   category:
-  - transportation
-  - employment
+  - Transportation
+  - Employment
   data_sets:
   - recm1mLFki5moIoCb
   data_sets_text: LEHD Origin-Destination Employment Statistic
@@ -784,7 +864,7 @@
   airtable_createdTime: '2021-02-19T18:05:17.000Z'
   airtable_id: recIu57RsPY8g7yE6
   category:
-  - education
+  - Education
   data_sets:
   - recQCvW6ePpafCJfJ
   - recn8dediBRt70GZD
@@ -813,7 +893,7 @@
   airtable_createdTime: '2020-02-10T16:01:45.000Z'
   airtable_id: recJGQBZiNXia0IYm
   category:
-  - transportation
+  - Transportation
   data_sets:
   - recgV66ro2Z870eTc
   data_sets_text: Traffic accident and fatality data
@@ -837,7 +917,7 @@
   airtable_createdTime: '2021-02-22T16:53:51.000Z'
   airtable_id: recJjNKdphBCWsER0
   category:
-  - environment
+  - Environment
   data_sets:
   - rec6t8hETGkO5eAbZ
   data_sets_text: Earth Challenge 2020 Consolidated Data
@@ -861,7 +941,7 @@
   airtable_createdTime: '2021-02-22T17:00:10.000Z'
   airtable_id: recJms1glRzSmKxtR
   category:
-  - environment
+  - Environment
   data_sets:
   - recmo2NgzgxGBRO5S
   - rec94lW05GUWWvjX0
@@ -893,7 +973,7 @@
   airtable_createdTime: '2020-02-10T15:53:17.000Z'
   airtable_id: recKSyLaCXFbhyDuv
   category:
-  - education
+  - Education
   data_sets:
   - recbPXckCwUkIEHnn
   data_sets_text: Department of Labor O*NET Database; Department of Education
@@ -922,8 +1002,8 @@
   airtable_createdTime: '2020-02-04T21:30:23.000Z'
   airtable_id: recKbaLyzNV2xVyxV
   category:
-  - grants
-  - discovery
+  - Grants
+  - Discovery
   data_sets:
   - recAJjhFANCAKPVyB
   - recZ1EJ6NTgWWnc55
@@ -955,8 +1035,8 @@
   airtable_createdTime: '2020-02-04T21:32:00.000Z'
   airtable_id: recMyCXtD901elAkR
   category:
-  - discovery
-  - census
+  - Discovery
+  - Census
   data_sets:
   - rec6GcI1sfYzbNxgA
   data_sets_text: Census Bureau; Federal Bureau of Investigation; Centers for Disease
@@ -985,7 +1065,7 @@
   airtable_createdTime: '2020-02-04T21:32:19.000Z'
   airtable_id: recNXCwgWCLa3ZMwB
   category:
-  - employment
+  - Employment
   data_sets:
   - recIajFnZTy6Kaf0a
   data_sets_text: Virginia Open Data Catalogue; Crowdsourced job reports
@@ -1008,8 +1088,8 @@
   airtable_createdTime: '2020-02-10T16:00:39.000Z'
   airtable_id: recPVCxfdXoYMpSGS
   category:
-  - employment
-  - education
+  - Employment
+  - Education
   data_sets:
   - recWrMIj2ghy3UKQK
   data_sets_text: Eligible Training Provider Lists (ETPL)
@@ -1031,7 +1111,7 @@
   airtable_createdTime: '2020-02-10T15:59:25.000Z'
   airtable_id: recQ1M2vLF3zJSUJR
   category:
-  - addressing
+  - Addressing
   description: Helping low income families overcome the stress of finding affordable
     housing, this tool combines transit access, walkability and school information
     into one unique feed of available properties
@@ -1052,9 +1132,9 @@
   airtable_createdTime: '2020-02-10T16:04:14.000Z'
   airtable_id: recQMqUTqBxw0DK7G
   category:
-  - housing
-  - employment
-  - transportation
+  - Housing
+  - Employment
+  - Transportation
   data_sets:
   - recH3FjUydbcH5zIk
   data_sets_text: Department of Commerce
@@ -1073,12 +1153,36 @@
   - rec4JWIKBqZIgbUk2
   tech_team_text: Redfin
   title: Opportunity Score
+- Product Name: Digital Health Pass
+  airtable_createdTime: '2021-05-10T19:52:27.000Z'
+  airtable_id: recQdmgL9m4HwZjQe
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Enables businesses to verify health credentials for employees, customers,
+    fans and travelers entering their site based on their own criteria
+  details: Enables businesses to verify health credentials for employees, customers,
+    fans and travelers entering their site based on their own criteria
+  image: IBM.jpg
+  image-alt: Schematic showing a mobile wallet being used to verify a vaccination
+    record
+  link: https://www.ibm.com/products/digital-health-pass
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recMUAnVYSJwQLFhD
+  tech_team_text: IBM
+  title: Digital Health Pass
 - Product Name: Maine Business Resources
   airtable_createdTime: '2021-02-22T17:23:33.000Z'
   airtable_id: recQjVq9yZgfpri29
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - reclFy6fGztGrP51b
   data_sets_text: Census County Business Patterns
@@ -1102,7 +1206,7 @@
   airtable_createdTime: '2021-02-22T17:04:31.000Z'
   airtable_id: recRADslXTYbyjOZ9
   category:
-  - environment
+  - Environment
   data_sets:
   - recE7v7V0hvOrhPPp
   - recYxJNiA9BHEqUhO
@@ -1124,13 +1228,38 @@
   - recyAgvenphF9cGot
   tech_team_text: Harvard University Institute of Politics
   title: The Ghost Gear Project
+- Product Name: ClinIQ Health
+  airtable_createdTime: '2021-05-10T20:40:33.000Z'
+  airtable_id: recRUkG2VoPGqGcxN
+  category:
+  - Health
+  data_sets:
+  - recXS3lZxFLJrR1zd
+  data_sets_text: CDC AIMS Platform
+  description: Provides verified healthcare products and services that are easily
+    accessible for platform customers such as institutional clients or individual
+    patients
+  details: Provides verified healthcare products and services that are easily accessible
+    for platform customers such as institutional clients or individual patients
+  image: ClinIQ.jpg
+  image-alt: Screenshot of the ClinIQ web app with a choice of where to sign up for
+    a COVID-19 RT-PCR test
+  link: https://cliniq.health
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recxWZBiNY6LjCCoA
+  tech_team_text: ClinIQ
+  title: ClinIQ Health
 - Description (Old): A tool by Zillow for exploring the opportunity and growth potential
     of Baltimore's neighborhoods.
   Product Name: Baltimore Explorer
   airtable_createdTime: '2020-02-10T16:16:26.000Z'
   airtable_id: recSDUQmkvZokAznh
   category:
-  - housing
+  - Housing
   description: Explores the opportunity and growth potential of Baltimore's neighborhoods
   details: Explores the opportunity and growth potential of Baltimore's neighborhoods
   sprint:
@@ -1150,7 +1279,7 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recSXynrxBTKXTh63
   category:
-  - census
+  - Census
   data_sets:
   - recUXCzWrZg9XiYVE
   - recYsXM7DW4A8KBTg
@@ -1167,7 +1296,6 @@
   image: whywecount.jpg
   image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
     reads Being Counted Saves Lives.
-  link: https://www.whywecount.org
   problem_statement:
   - recPYnQdPuuZ0FZZ9
   problem_statements:
@@ -1186,8 +1314,8 @@
   airtable_createdTime: '2021-02-19T18:55:45.000Z'
   airtable_id: recSywRIyeQEsXwCq
   category:
-  - economic-development
-  - rural
+  - Economic Development
+  - Rural
   data_sets:
   - recO2Y4CWOIbPcoyO
   - recPmjDLbOMJqkl2e
@@ -1223,9 +1351,9 @@
   airtable_createdTime: '2020-02-04T21:31:53.000Z'
   airtable_id: recT8TuI7EDLqeTIk
   category:
-  - veterans
-  - housing
-  - health
+  - Veterans
+  - Housing
+  - Health
   data_sets:
   - recdjNmtMAmnM8fC3
   data_sets_text: Census Bureau; Department of Housing and Urban Development
@@ -1251,7 +1379,7 @@
   airtable_createdTime: '2021-02-19T18:01:36.000Z'
   airtable_id: recTfL9YZgQqj9i78
   category:
-  - education
+  - Education
   data_sets:
   - recWMcyNVcCddeWv0
   - rec1sAdGGfVu26m6F
@@ -1286,9 +1414,9 @@
   airtable_createdTime: '2020-02-04T21:30:42.000Z'
   airtable_id: recV0aW7ZolC7aIoy
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   data_sets:
   - rec08xrbRPlxvTHcN
   data_sets_text: Bureau of Labor Statistics; Department of Education; Institute of
@@ -1315,7 +1443,7 @@
   airtable_createdTime: '2020-02-10T15:59:42.000Z'
   airtable_id: recVCXRirVspq062m
   category:
-  - housing
+  - Housing
   data_sets:
   - recpvolC8199pm0rT
   data_sets_text: Department of Housing and Urban Development
@@ -1339,7 +1467,7 @@
   airtable_createdTime: '2020-02-04T21:31:20.000Z'
   airtable_id: recWRZvsJGQgPYlDn
   category:
-  - environment
+  - Environment
   data_sets:
   - rec1MkdLWCg0K49PD
   data_sets_text: U.S. Forest Service environmental stewardship data
@@ -1368,7 +1496,7 @@
   airtable_createdTime: '2020-02-04T21:28:23.000Z'
   airtable_id: recWyKy6qT8GX7jT8
   category:
-  - entrepreneurship
+  - Entrepreneurship
   data_sets:
   - recz7LWaT7XCEG5vW
   data_sets_text: "Small Business Administration \u2018Find Local Assistance\u2019\
@@ -1398,9 +1526,9 @@
   airtable_createdTime: '2020-02-10T16:16:03.000Z'
   airtable_id: recXOkjSet73HILtM
   category:
-  - transportation
-  - education
-  - health
+  - Transportation
+  - Education
+  - Health
   data_sets:
   - recy9nOvqIgg2ohWz
   data_sets_text: Department of Health and Human Services; City of Philadelphia; Office
@@ -1429,7 +1557,7 @@
   airtable_createdTime: '2020-02-10T15:51:52.000Z'
   airtable_id: recXgUtGqv4vnOFKA
   category:
-  - disasters
+  - Disasters
   data_sets:
   - reca3HaDwDIPIvwAP
   data_sets_text: Federal disaster declaration and protective actions data
@@ -1454,9 +1582,9 @@
   airtable_createdTime: '2020-02-10T16:17:31.000Z'
   airtable_id: recYDGmuetKuKzaJW
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   data_sets:
   - recpvolC8199pm0rT
   data_sets_text: Department of Housing and Urban Development
@@ -1499,7 +1627,7 @@
   airtable_createdTime: '2020-02-04T21:28:33.000Z'
   airtable_id: recYVIjlUXHhhAjLr
   category:
-  - rural
+  - Rural
   data_sets:
   - recMSzrJE4GulrJdq
   data_sets_text: Census Bureau American Community Survey; Homeland Infrastructure
@@ -1527,7 +1655,7 @@
   airtable_createdTime: '2020-02-10T16:03:17.000Z'
   airtable_id: recYdVmxC6OUqRxB0
   category:
-  - employment
+  - Employment
   data_sets:
   - recmd9LsmIc8LYNmj
   data_sets_text: USA Jobs
@@ -1556,7 +1684,7 @@
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recZ3abAz4ADb6WRZ
   category:
-  - grants
+  - Grants
   data_sets:
   - recPiuc7SoLwdbVpm
   data_sets_text: Department of Health and Human Services; Department of Education;
@@ -1581,7 +1709,7 @@
   airtable_createdTime: '2021-02-19T21:56:03.000Z'
   airtable_id: recZC1VP8ywUBxS8q
   category:
-  - refugees
+  - Refugees
   data_sets:
   - recHH8tiwoyPB3bIA
   - recj68UegyWcH4eOM
@@ -1613,7 +1741,7 @@
   airtable_createdTime: '2020-02-04T21:30:24.000Z'
   airtable_id: recZkztX2XjSfcDzO
   category:
-  - education
+  - Education
   data_sets:
   - recCvj9RpD2mGgs8j
   data_sets_text: Census Bureau; Civil Rights Data Collection Program; National Center
@@ -1642,7 +1770,7 @@
   airtable_createdTime: '2020-02-04T21:29:41.000Z'
   airtable_id: recZn66weHUm3gq49
   category:
-  - census
+  - Census
   data_sets:
   - recAaHsevAd88WPKj
   data_sets_text: Census Bureau Response Rate
@@ -1667,8 +1795,8 @@
   airtable_createdTime: '2021-02-22T17:43:16.000Z'
   airtable_id: reca9CUrcr39DStIc
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - recO5dPRvmWdhu3oq
   - recfg1WkemYmG7Nrk
@@ -1698,7 +1826,7 @@
   airtable_createdTime: '2021-02-19T18:38:29.000Z'
   airtable_id: recaRsKbgtQOavIpx
   category:
-  - environment
+  - Environment
   data_sets:
   - recTbqNuUaHAL0r35
   - recRwm9aZNcZWHd4E
@@ -1731,6 +1859,32 @@
   - recIg84I27yOjBzjC
   tech_team_text: SAP
   title: Chicago Circular Economy
+- Product Name: Smart Clinical Testing Ecosystem for COVID-19
+  airtable_createdTime: '2021-05-10T20:37:11.000Z'
+  airtable_id: recaULJmJOTbOyWAe
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Allows Federaly Qualified Health Centers to integrate patient and COVID-19
+    test data as required by states and federal authorities, thereby affording better
+    COVID-19 patient management
+  details: Allows Federaly Qualified Health Centers to integrate patient and COVID-19
+    test data as required by states and federal authorities, thereby affording better
+    COVID-19 patient management
+  image: OraLiva
+  image-alt: Diagram showing data from the OraLiva servers flowing to state databases,
+    patients, providers, medical records, point-of-care screening, and a pre-screening
+    algorithm
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec7JY030MzCLQJad
+  tech_team_text: OraLiva
+  title: Smart Clinical Testing Ecosystem for COVID-19
 - Description (Old): Public Democracy uses ACS data, proprietary enterprise level
     marketing systems along with privately owned data, and new data that we gathered
     via their survey tool, which ensures that community priorities inform OZ strategies
@@ -1740,7 +1894,7 @@
   airtable_createdTime: '2020-02-04T21:28:51.000Z'
   airtable_id: recb1pW6mpE2vl6tp
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recANl7hLAtPZhe4v
   data_sets_text: American Community Survey; Proprietary enterprise level marketing
@@ -1771,7 +1925,7 @@
   airtable_createdTime: '2021-02-19T18:58:27.000Z'
   airtable_id: recbsgNzUmmrKuEYn
   category:
-  - refugees
+  - Refugees
   data_sets:
   - recHH8tiwoyPB3bIA
   - recWJcUpKgcyp4XjO
@@ -1802,7 +1956,7 @@
   airtable_createdTime: '2020-02-10T15:48:05.000Z'
   airtable_id: recc6G4ozj7KnAH6e
   category:
-  - census
+  - Census
   data_sets:
   - recjyAoj8x1HovtT5
   data_sets_text: Department of Housing and Urban Development; Community partners
@@ -1830,7 +1984,7 @@
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recdBbAkH3Y7hu4y4
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recj4vMxTwRcC9vUW
   data_sets_text: Census Bureau; Department of Agriculture; Department of Education;
@@ -1856,8 +2010,8 @@
   airtable_createdTime: '2021-02-19T16:24:26.000Z'
   airtable_id: receafMaV7aRWkMwG
   category:
-  - education
-  - environment
+  - Education
+  - Environment
   data_sets:
   - reczoJU8faZ1brZ0d
   data_sets_text: EPA Idle-Free Schools Toolkit
@@ -1886,7 +2040,7 @@
   airtable_createdTime: '2020-02-10T15:49:31.000Z'
   airtable_id: receo5EjDvZOW0G6N
   category:
-  - addressing
+  - Addressing
   data_sets:
   - recdUyfK7lV5aWTmt
   data_sets_text: "Census Bureau\u2019s National Address Database Schema; United States\
@@ -1914,7 +2068,7 @@
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recfUxMS7BNZxVPLX
   category:
-  - veterans
+  - Veterans
   data_sets:
   - recUryevLXCLnABaa
   data_sets_text: Career One Stop; Department of Labor O*NET Database; Walkingscore.com;
@@ -1942,7 +2096,7 @@
   airtable_createdTime: '2020-02-04T21:28:40.000Z'
   airtable_id: recfqTRYC5LXFiOUe
   category:
-  - employment
+  - Employment
   data_sets:
   - recJRRWGAYgSkvpS7
   data_sets_text: Bureau of Labor Statistics
@@ -1971,9 +2125,9 @@
   airtable_createdTime: '2020-02-10T16:16:49.000Z'
   airtable_id: rechMaHffUM7JYl3l
   category:
-  - housing
-  - employment
-  - transportation
+  - Housing
+  - Employment
+  - Transportation
   description: "\"Ground-truthing\" neighborhood navigator powered by local knowledge,\
     \ answering questions including \u201Chow walkable is my city?\u201D and \u201C\
     who provides childcare I can trust?\u201D"
@@ -1999,9 +2153,9 @@
   airtable_createdTime: '2020-02-10T16:16:13.000Z'
   airtable_id: rechZ1AK6ip9XaCqE
   category:
-  - housing
-  - education
-  - health
+  - Housing
+  - Education
+  - Health
   description: ' Provides visibility into the affordability of opportunity for children
     in U.S. metro areas'
   details: ' Provides visibility into the affordability of opportunity for children
@@ -2012,6 +2166,30 @@
   - recm5nLUnSaxx0EDf
   tech_team_text: diversitydatakids.org
   title: diversitydatakids.org
+- Product Name: At-Home Testing Platform
+  airtable_createdTime: '2021-05-10T14:41:35.000Z'
+  airtable_id: rechzHn8vOEW60T0x
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Manages OTC and lab test reporting, improves access to tests, and simplifies
+    the testing process for enterprises
+  details: Manages OTC and lab test reporting, improves access to tests, and simplifies
+    the testing process for enterprises
+  image: UDo.jpg
+  image-alt: Computer monitor with the UDo platform displayed on it surrounded by
+    text highlighting features of the platform.
+  link: http://coronaviruslabtests.com/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recJxzn1pS5fWvULP
+  tech_team_text: UDo Test Inc.
+  title: At-Home Testing Platform
 - Description (Old): Puerto Rico Land Grid by Loveland Technologies combines a parcel
     map of Puerto Rico with a scalable mobile survey platform and federal open data
     sets and overlays. An accompanying survey plan and budget details an approach
@@ -2021,7 +2199,7 @@
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: reciAHM7OE2uo9JTi
   category:
-  - disasters
+  - Disasters
   data_sets:
   - recmk9AHFB5PTdkW0
   - reci6IyNnsacsn7uC
@@ -2055,7 +2233,7 @@
   airtable_createdTime: '2020-02-04T21:30:46.000Z'
   airtable_id: reciS4wntA3e352BQ
   category:
-  - veterans
+  - Veterans
   data_sets:
   - recq6Be0out6SxvOZ
   data_sets_text: Department of Labor
@@ -2077,6 +2255,35 @@
   - recYJMcRX9wkv4vwC
   tech_team_text: Civis Analytics
   title: Veteran Apprenticeship Matcher
+- Product Name: Co-Verify
+  airtable_createdTime: '2021-05-10T20:28:09.000Z'
+  airtable_id: reciaW1ybfwaIF0dI
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recAPSVl7tJ95FueB
+  - reczS9cHFwBE18RKo
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, FHIR, LOINC formats required
+    by states
+  description: Offers a customizable testing, tracking and reporting solution backed
+    by HIPAA compliant Microsoft Azure servers currently being used throughout the
+    United States
+  details: Offers a customizable testing, tracking and reporting solution backed by
+    HIPAA compliant Microsoft Azure servers currently being used throughout the United
+    States
+  image: CoVerify.jpg
+  image-alt: Flowchart with many rectangles entitled Employer/Vendor setup and usage
+    with QR code/POC Workflow
+  link: www.co-verify.com
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - reclhEEWulxWz3Hgi
+  tech_team_text: DLC Enterprises
+  title: Co-Verify
 - Description (Old): Great Schools and Education Cities' uses college readiness data
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
@@ -2084,7 +2291,7 @@
   airtable_createdTime: '2020-02-10T16:00:16.000Z'
   airtable_id: recj2I36nEPH4qWuf
   category:
-  - education
+  - Education
   data_sets:
   - recrFSpDngWedddKe
   data_sets_text: Department of Education college readiness data
@@ -2106,9 +2313,9 @@
   airtable_createdTime: '2020-02-10T16:17:20.000Z'
   airtable_id: recj9AnYrX4fI5Ecf
   category:
-  - housing
-  - health
-  - transportation
+  - Housing
+  - Health
+  - Transportation
   description: Allows for comparison and similarity detection of geographic regions
   details: Allows for comparison and similarity detection of geographic regions
   image: opendata-network.jpg
@@ -2124,13 +2331,39 @@
   - recCQeXnM3qtBOGTs
   tech_team_text: Socrata
   title: OpenData Network
+- Product Name: State Reporting Hub
+  airtable_createdTime: '2021-05-10T20:31:32.000Z'
+  airtable_id: recj9dZ7MMUnxFPXi
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recAPSVl7tJ95FueB
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, FHIR
+  description: Connects testing devices, application and laboratories to a Hub, where
+    results are normalized and routed in real-time to state jurisdictions via electronic
+    lab reporting and federal organizations
+  details: Connects testing devices, application and laboratories to a Hub, where
+    results are normalized and routed in real-time to state jurisdictions via electronic
+    lab reporting and federal organizations
+  image: Lifepoint.jpg
+  image-alt: Brochure entitled Lifepoint informatics State Reporting Hub
+  link: https://www.lifepoint.com/covid-19-reporting-with-lifepoint/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recLDeO5w4wQSoG5A
+  tech_team_text: Lifepoint Informatics
+  title: State Reporting Hub
 - Description (Old): Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships.
   Product Name: School ResourceMapper
   airtable_createdTime: '2020-02-10T16:00:54.000Z'
   airtable_id: recjBsJokWirN5SXn
   category:
-  - education
+  - Education
   data_sets:
   - recFe9sXGLssXn9T4
   data_sets_text: Census Bureau; Department of Health and Human Services; Institute
@@ -2159,7 +2392,7 @@
   airtable_createdTime: '2020-02-04T21:28:10.000Z'
   airtable_id: reckOdJi2Y6DUxI09
   category:
-  - employment
+  - Employment
   data_sets:
   - recelHugittnq2tHh
   data_sets_text: Equal Employment Opportunity Commission; Census Bureau
@@ -2178,12 +2411,14 @@
   - recG2Af8pfS6f9kI9
   tech_team_text: Kanarys
   title: Kanarys
+- airtable_createdTime: '2021-05-10T14:41:36.000Z'
+  airtable_id: reckh1lCFZTVUS1qa
 - Product Name: America's Community Collaboration Platform
   airtable_createdTime: '2021-02-22T17:36:15.000Z'
   airtable_id: reclF9Mn2Z6aMqzJk
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - recL4TnI9hKXQpAhW
   - reckWNWDZlinjIHJX
@@ -2218,7 +2453,7 @@
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recleNeiLRdZwSdLt
   category:
-  - employment
+  - Employment
   data_sets:
   - rec696mXrFWhEiAvO
   data_sets_text: North American Industry Classification (NACIS) codes; National Certifications
@@ -2232,7 +2467,6 @@
   image: solve.jpg
   image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
     barriers that each link to information about organizations working in these areas
-  link: https://solve.is/
   prize_status: Applied
   problem_statement:
   - rec6Coqk1u4BTdxLI
@@ -2250,8 +2484,8 @@
   airtable_createdTime: '2020-02-04T21:32:08.000Z'
   airtable_id: recmiMYwGdZ4hHgMF
   category:
-  - health
-  - housing
+  - Health
+  - Housing
   data_sets:
   - recGlnYsRiOuG1Sjn
   data_sets_text: Department of Housing and Urban Development; Census Bureau American
@@ -2270,6 +2504,29 @@
   - recoaWbpjLMVcGQuZ
   tech_team_text: Measure of America
   title: Visualizing Youth Disconnection
+- Product Name: Consumer Dx Test App
+  airtable_createdTime: '2021-05-10T20:08:15.000Z'
+  airtable_id: recnH1uvkl0Xjnjhm
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Records, monitors and reports rapid consumer COVID-19 diagnostic test
+    information confidentially for both individuals and groups to reopen society safely
+  details: Records, monitors and reports rapid consumer COVID-19 diagnostic test information
+    confidentially for both individuals and groups to reopen society safely
+  image: Interpret.jpg
+  image-alt: Screenshot of a student survey checking for COVID symptons
+  link: http://app.interpret-covid.com/login-public
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec6rfYz3BpRt2lRQ
+  tech_team_text: Interpret-COVID
+  title: Consumer Dx Test App
 - Description (Old): "Esri\u2019s ArcGIS Insights uses local emergency response and\
     \ Census Bureau data to predict geographic areas where opioid emergencies are\
     \ likely to occur to help public safety and health officials pre-position the\
@@ -2278,7 +2535,7 @@
   airtable_createdTime: '2020-02-04T21:30:55.000Z'
   airtable_id: recnSpNUcyeoVi28K
   category:
-  - opioids
+  - Opioids
   data_sets:
   - rec4NkiR4wChvbycB
   data_sets_text: US Census Bureau; Local emergency response data
@@ -2301,6 +2558,32 @@
   - recJKjOOhTrMk1R2e
   tech_team_text: Esri
   title: Insight for ArcGIS
+- Product Name: Companion App for COVID Testing
+  airtable_createdTime: '2021-05-10T19:49:50.000Z'
+  airtable_id: reco2tsjZJ55bk12Q
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: Supports rapid point of care and at-home COVID test developers by streamlining
+    data collection and reporting to public health authorities, schools, employers,
+    and health systems
+  details: Supports rapid point of care and at-home COVID test developers by streamlining
+    data collection and reporting to public health authorities, schools, employers,
+    and health systems
+  image: DynamiCare.jpg
+  image-alt: A mobile phone showing a QR code and the words 'COVID-19 Test Results
+    Negative'
+  link: https://www.dynamicarehealth.com/covid19
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recqMkqyoPeiffhaV
+  tech_team_text: DynamiCare Health
+  title: Companion App for COVID Testing
 - Description (Old): Bloomberg used Economic Census and American Community Survey
     data for Baltimore, coupled with self-reported volunteer activity, to allow organizations
     to target areas to volunteer in and potential partners to successfully steward
@@ -2309,7 +2592,7 @@
   airtable_createdTime: '2020-02-04T21:31:31.000Z'
   airtable_id: reco73a0LwOf8hbof
   category:
-  - environment
+  - Environment
   data_sets:
   - recJqBTJSS10Y0XDl
   data_sets_text: Economic Census and American Community Survey data for Baltimore;
@@ -2333,12 +2616,37 @@
   - recERFU1XNm3uiot0
   tech_team_text: Bloomberg
   title: Bloomberg DEVOP
+- Product Name: CuraPatient
+  airtable_createdTime: '2021-05-10T20:43:03.000Z'
+  airtable_id: recoD8u3aM6Z3cNNL
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  data_sets_text: HHS Diagnostic Data & Reporting Standards
+  description: '"Helps patients through their COVID-19 journey, from testing to vaccination
+    to vaccine verification "'
+  details: '"Helps patients through their COVID-19 journey, from testing to vaccination
+    to vaccine verification "'
+  image: Othena.jpg
+  image-alt: Three iPhone screen mockups. One showing a wait-time countdown, one with
+    a screen labeled 'Looking to be tested or vaccinated for COVID-19?' and one labeled
+    'Your Testing Appointment is Confirmed'
+  link: www.othena.com
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - recFAM9q5v5BVfgvl
+  tech_team_text: Othena
+  title: CuraPatient
 - Product Name: 'PAGAF: Precision Ag for all American Farmers'
   airtable_createdTime: '2021-02-22T17:46:19.000Z'
   airtable_id: recoLzsQ10XA9A8CY
   category:
-  - environment
-  - rural
+  - Environment
+  - Rural
   data_sets:
   - recmMFIgCZ6a8xA1R
   - recVD7JOYo0dtf28B
@@ -2366,7 +2674,7 @@
   airtable_createdTime: '2020-02-10T16:04:27.000Z'
   airtable_id: recos0StoN5zEkGyv
   category:
-  - education
+  - Education
   description: '!!! Broken link'
   details: '!!! Broken link'
   sprint:
@@ -2379,7 +2687,7 @@
   airtable_createdTime: '2021-02-22T17:01:52.000Z'
   airtable_id: recp3hAesZqc2oQnV
   category:
-  - environment
+  - Environment
   data_sets:
   - recYTaj4hHXvWs9Hf
   - recGXdUunLjQ1lGBL
@@ -2411,7 +2719,7 @@
   airtable_createdTime: '2020-02-10T16:02:55.000Z'
   airtable_id: recpQRl79tKixOYHk
   category:
-  - health
+  - Health
   data_sets:
   - recmHF6G70ChWzHpt
   data_sets_text: "Department of Veteran\u2019s Affairs"
@@ -2431,7 +2739,7 @@
   airtable_createdTime: '2021-02-22T17:44:49.000Z'
   airtable_id: recqWVxkeZ3bYz68R
   category:
-  - environment
+  - Environment
   data_sets:
   - recrV1UvS4a45Y13Z
   data_sets_text: National Agriculture Imagery Program (NAIP)
@@ -2459,7 +2767,7 @@
   airtable_createdTime: '2020-02-10T15:48:44.000Z'
   airtable_id: recro3E8gXTIQ5IHO
   category:
-  - census
+  - Census
   data_sets:
   - rec59S1AHuEeT9uqX
   data_sets_text: "Public Use Microdata Sample of the Census Bureau\u2019s American\
@@ -2491,7 +2799,7 @@
   airtable_createdTime: '2020-02-10T16:01:20.000Z'
   airtable_id: recs1AuNUUppAFbr3
   category:
-  - education
+  - Education
   data_sets:
   - recfuJtmIbGPK6Mhf
   data_sets_text: School-level data
@@ -2513,7 +2821,7 @@
   airtable_createdTime: '2020-02-10T16:15:52.000Z'
   airtable_id: recsTaRTvzM11DFWX
   category:
-  - housing
+  - Housing
   data_sets:
   - recpvolC8199pm0rT
   data_sets_text: Department of Housing and Urban Development
@@ -2536,7 +2844,7 @@
   airtable_createdTime: '2021-01-25T22:56:29.000Z'
   airtable_id: rectcKAi8zsdwiqjg
   category:
-  - disasters
+  - Disasters
   data_sets:
   - recu4o8YtK7Z8JmUv
   - reczXMKquV48L97tw
@@ -2581,8 +2889,8 @@
   airtable_createdTime: '2020-02-10T16:01:34.000Z'
   airtable_id: recuj8LvrOlw7qVZl
   category:
-  - transportation
-  - health
+  - Transportation
+  - Health
   data_sets:
   - reccGjV5L91DWewkI
   data_sets_text: Office of the Surgeon General; Department of Transportation
@@ -2609,7 +2917,7 @@
   airtable_createdTime: '2020-02-10T16:00:00.000Z'
   airtable_id: reculF774OHizAs0S
   category:
-  - environment
+  - Environment
   data_sets:
   - recjmk1p8PEaxmjwR
   data_sets_text: Department of Housing and Urban Development Fair Market Rent data;
@@ -2638,8 +2946,8 @@
   airtable_createdTime: '2020-02-10T15:59:00.000Z'
   airtable_id: recvDZEaGFFEtnR4l
   category:
-  - discovery
-  - census
+  - Discovery
+  - Census
   data_sets:
   - rec4lkCKmmbu70vxj
   data_sets_text: Census Bureau
@@ -2688,7 +2996,7 @@
   airtable_createdTime: '2020-02-04T21:30:08.000Z'
   airtable_id: recvh8HbEmn5MuzGI
   category:
-  - veterans
+  - Veterans
   data_sets:
   - recpJErZ50C7ZrLG2
   data_sets_text: Department of Labor O*NET Database; Bureau of Labor Statistics
@@ -2715,8 +3023,8 @@
   airtable_createdTime: '2020-02-10T16:04:03.000Z'
   airtable_id: recvlzXnQhGrvyOew
   category:
-  - education
-  - employment
+  - Education
+  - Employment
   data_sets:
   - recJRRWGAYgSkvpS7
   data_sets_text: Bureau of Labor Statistics
@@ -2745,7 +3053,7 @@
   airtable_createdTime: '2020-02-04T21:28:17.000Z'
   airtable_id: recwo6k02qWF773ZK
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recLnCqfR1YcSc96A
   data_sets_text: Department of Labor; Census Bureau; US Cluster Mapping Project;
@@ -2777,7 +3085,7 @@
   airtable_createdTime: '2021-02-22T17:48:21.000Z'
   airtable_id: recxNb6AkmDER2KXh
   category:
-  - environment
+  - Environment
   data_sets:
   - recuNWKVwFbdPJmkQ
   - recjGMVuA7kZw2F6K
@@ -2808,7 +3116,7 @@
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recxPFYJEXMA7YTmC
   category:
-  - economic-development
+  - Economic Development
   data_sets:
   - recq5HLrG3cn1d2yJ
   data_sets_text: "Open-source public data; Mastercard\u2019s anonymized and aggregated\
@@ -2839,8 +3147,8 @@
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: recxhgzBILVkvarN6
   category:
-  - employment
-  - veterans
+  - Employment
+  - Veterans
   data_sets:
   - recRfQFnOEBlyUHKh
   data_sets_text: Census Bureau; Department of Labor O*NET database
@@ -2869,7 +3177,7 @@
   airtable_createdTime: '2020-02-10T16:02:37.000Z'
   airtable_id: recyH7SUTuXtVQEjq
   category:
-  - health
+  - Health
   data_sets:
   - recZ12r87hDC2pbqe
   data_sets_text: Data on local hazards & resources
@@ -2894,8 +3202,8 @@
   airtable_createdTime: '2021-02-19T18:53:24.000Z'
   airtable_id: recyKI9exBfBtz1hr
   category:
-  - employment
-  - housing
+  - Employment
+  - Housing
   data_sets:
   - rec3A3BlcyWHmhGMj
   - recEQhaRntLcBiQmj
@@ -2929,7 +3237,7 @@
   airtable_createdTime: '2021-02-19T18:31:53.000Z'
   airtable_id: recyPJeX2onUtcMln
   category:
-  - environment
+  - Environment
   data_sets:
   - recrV1UvS4a45Y13Z
   data_sets_text: National Agriculture Imagery Program (NAIP)
@@ -2959,7 +3267,7 @@
   airtable_createdTime: '2021-02-19T18:49:03.000Z'
   airtable_id: recyl8q9tZWnPoQQt
   category:
-  - environment
+  - Environment
   data_sets:
   - reckFVcbvWl3Ot40f
   - recb8EMDhzUm653ih
@@ -2977,7 +3285,6 @@
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option
     to sort by the day, the ward, and the location.
-  link: https://mthnguyen.shinyapps.io/AirMotionDC/
   problem_statement:
   - recG9NY8ns2oza4vp
   problem_statements:
@@ -2988,6 +3295,32 @@
   - recP532wcyIIxk80H
   tech_team_text: American University
   title: AirMotionDC
+- Product Name: Patient Health Ecosystem Portal
+  airtable_createdTime: '2021-05-10T19:54:40.000Z'
+  airtable_id: recz0udlK0WnjquFr
+  category:
+  - Health
+  data_sets:
+  - rec0X08kt0EhVcwzG
+  - recgQvWlWCGEYqcV5
+  data_sets_text: HHS Diagnostic Data & Reporting Standards, Healthdata.gov
+  description: Allows clinicians share health information with patients, health institutions
+    and health providers.
+  details: Allows clinicians share health information with patients, health institutions
+    and health providers.
+  image: Dovel.jpg
+  image-alt: '6 circles showing the interlocking parts of the Dovel platform: Voice
+    transcription, document analytics, vaccine surveillance, COVID sentiment analysis,
+    Healthy supply chain repository, and patient health ecosystem portal'
+  link: https://dovel-phep.web.app/
+  problem_statement:
+  - recFyf3r3yQQEHbx7
+  sprint:
+  - recHyin6QBn2qNgni
+  tech_team:
+  - rec3zFjgRada2tHSQ
+  tech_team_text: Dovel Technologies
+  title: Patient Health Ecosystem Portal
 - Description (Old): Cisco DevNet's tool uses American Community Survey data from
     the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials
     and application developers so they can solve social problems using open data available
@@ -2996,8 +3329,8 @@
   airtable_createdTime: '2020-02-04T21:30:36.000Z'
   airtable_id: reczVGhvSjjSjcHRp
   category:
-  - census
-  - discovery
+  - Census
+  - Discovery
   data_sets:
   - reczaQ6d5RUAwJlQ1
   data_sets_text: Census Bureau American Community Survey

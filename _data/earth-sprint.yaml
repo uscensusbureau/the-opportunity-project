@@ -318,8 +318,8 @@
     Incorporates Federal Data. Created with Wilson Center (partially federal)
     and State (federal)
   listed-link:
-    - text: Open Data Documentation
-      href: https://ogc.citizenscience.host/ Data Model
+    # - text: Open Data Documentation
+    #   href: https://ogc.citizenscience.host/ Data Model
     - text: Information
       href: https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model
   poc: Metis Meloche & Anne Bowser
@@ -358,16 +358,16 @@
   poc: Metis Meloche & Anne Bowser
   problem-statement: ocean-plastics
   email: 'metis.meloche@wilsoncenter.org, anne.bowser@wilsoncenter.org '
-- name: Marine Debris Tracker
-  description:
-    Database with data on over 2 million pieces of litter and debris collected
-    by thousands of citizen scientists from all over the world
-  agency: University of Georgia
-  federal: Non-federal data
-  link: 'https://marinedebris.engr.uga.edu/newmap/'
-  poc: 'Kathryn Youngblood '
-  problem-statement: ocean-plastics
-  email: kathryny@uga.edu
+# - name: Marine Debris Tracker
+#   description:
+#     Database with data on over 2 million pieces of litter and debris collected
+#     by thousands of citizen scientists from all over the world
+#   agency: University of Georgia
+#   federal: Non-federal data
+#   link: 'https://marinedebris.engr.uga.edu/newmap/'
+#   poc: 'Kathryn Youngblood '
+#   problem-statement: ocean-plastics
+#   email: kathryny@uga.edu
 - name: 'Divers Against Debris '
   description:
     Map showing types and amounts of debris scuba divers around the world have

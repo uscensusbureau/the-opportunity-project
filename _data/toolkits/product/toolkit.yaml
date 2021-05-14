@@ -88,7 +88,7 @@ body:
       - link: https://dataacademy.commerce.gov/previous-courses.html
         title: Commerce Data Academy
         description: Build your team's skills with courses from the US Department of Commerce's Commerce Data Academy on topics including User Experience Design, Qualitative User Research, Git and GitHub, Java and more.
-      - link: http://brigade.codeforamerica.org/brigade/list
+      - link: http://brigade.codeforamerica.org/brigades
         title: Code for America Brigade
         description: Look for additional tech talent within a local tech Meetup, Code for America Brigade, or other civic tech organization if there is one in your community.
       - link: https://opportunity-slack.herokuapp.com/

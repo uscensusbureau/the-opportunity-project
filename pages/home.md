@@ -112,13 +112,13 @@ get_involved:
       number_display: false
       title: Build with open data
       subtitle: TOP Product Development Toolkit
-      link: ../product-development/toolkit
+      link: /product-development/toolkit
       description: 'Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.'
     - number: 2
       number_display: false
       title: Run a TOPx sprint
       subtitle: TOPx Toolkit for Federal Agencies
-      link: ../topx-toolkit/introduction/
+      link: /topx-toolkit/introduction/
       description: 'Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.'
 
 news:
@@ -149,7 +149,6 @@ news:
       alt: A man drawing on a white board with a marker while a woman looks on
 
 ---
-
 {% include announcement-banner.html %}
 {% include hero.html %}
 {% include circuit-banner.html %}

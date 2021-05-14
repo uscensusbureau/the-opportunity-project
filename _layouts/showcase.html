@@ -122,14 +122,14 @@ layout: default
         {% assign imgSrc = "photos/products/" | append: product.image %}
         {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
         {% assign problem_statement = problem_statements[ 0 ] %}
-        {% assign sprints = site.data.sprints | where:"airtable_id", problem_statement.Sprints[ 0 ] %}
+        {% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[ 0 ] %}
         {% assign sprint = sprints[ 0 ] %}
         
         <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active z-300" name="productCard">
           <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
-              <h3 class="pc-inactive">{{ sprint.Year }}</h3>
+              {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
               {% if product.category %}
                 <h4 class="pc-inactive">{{ product.category }}</h4>
               {% endif %}

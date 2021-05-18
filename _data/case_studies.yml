@@ -3,9 +3,10 @@
   cohort: Workforce
   problem_statement: Opportunity Zones
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
-  image: featured-products/city-builder.jpg
+  href: city-builder
+  img: photos/products/featured-products/city-builder.jpg
   image-alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
-  overlay_text: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
+  details: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
   description_new:
     Brings transparency to the Opportunity Zone ecosystem for investors, fund
     manager, wealth managers, and cities
@@ -21,13 +22,14 @@
     investors, fund manager, wealth managers, and cities.
 - title: Sille
   short_url: sille
+  href: sille
   tech_team: Datel Ovela
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'https://sille.space/app_fema/'
-  image: featured-products/sille.jpg
+  img: photos/products/featured-products/sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
-  overlay_text: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure <br><br>
+  details: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure <br><br>
   description_new:
     'Block level structural risk product that encourages local stakeholders to
     prepare for crisis through increased awareness of the likelihood of
@@ -46,15 +48,16 @@
   participants: nil
 - title: PRADOS
   short_url: icasa
+  href: prados
   tech_team: iCASA PR
   cohort: Geocohort
   problem_statement:
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
   link: 'https://icasapr.com/'
-  image: featured-products/prados.jpg
+  img: photos/products/featured-products/prados.jpg
   image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
-  overlay_text: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
+  details: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
   description_new:
     Helps the municipalities and communities in Puerto Rico enhance their
     address infrastructure to support the reconstruction process, improve

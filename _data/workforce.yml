@@ -379,7 +379,7 @@
     name: API & Developer Resources for Census Bureau Data
     description: Software developer resources for Census Bureau Data.
     agency: U.S Census Bureau
-    link: https://www.census.gov/developers/
+    link: https://www.census.gov/data/developers.html
     poc: Logan Powell
     email: logan.t.powell@census.gov
     problem-statement: zones talent pathways entrepreneurship

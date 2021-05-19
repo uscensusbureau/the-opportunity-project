@@ -44,7 +44,8 @@
     "start": "bundle exec jekyll serve --drafts --future",
     "start-detached": "bundle exec jekyll serve --detach",
     "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint && htmlproofer --allow_hash_href --assume_extension --file-ignore ./_site/components/index.html --only_4xx ./_site",
-    "watch": "NODE_ENV=development nswatch"
+    "watch": "NODE_ENV=development nswatch",
+    "watch-js": "NODE_ENV=development nswatch './js/**/*.js' --script build-js"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",

@@ -764,7 +764,7 @@
   image-alt: Two iPhone mockups - one showing a countdown timer titled 'Please Wait'
     and another showing a camera pointed at a stick test with instructions to 'Position
     the Test Casette' inside the guides
-  link: healthcheck.com
+  link: https://healthcheck.com
   problem_statement:
   - recFyf3r3yQQEHbx7
   sprint:
@@ -2275,7 +2275,7 @@
   image: CoVerify.jpg
   image-alt: Flowchart with many rectangles entitled Employer/Vendor setup and usage
     with QR code/POC Workflow
-  link: www.co-verify.com
+  link: https://www.co-verify.com/public/user/index.php
   problem_statement:
   - recFyf3r3yQQEHbx7
   sprint:

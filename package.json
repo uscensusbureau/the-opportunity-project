@@ -15,7 +15,7 @@
     "url": "git+https://github.com/uscensusbureau/the-opportunity-project"
   },
   "scripts": {
-    "airtable": "airtable-export _data $AIRTABLE_TOP_ID coil_people --key=$AIRTABLE_API_KEY",
+    "airtable": "(./scripts/airtable.sh)",
     "axe": "node config/run-axe.js",
     "build": "gulp build && bundle exec jekyll build",
     "test-airtable": "npm run airtable && bundle exec jekyll build && npm run proof-external",

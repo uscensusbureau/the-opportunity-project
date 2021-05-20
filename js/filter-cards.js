@@ -1,41 +1,42 @@
-const prodSearchForm = document.getElementById( 'product-search-form' );
-const searchField = document.getElementById( 'search-field' );
+const $ = require('jquery')
+
+const prodSearchForm = document.getElementById('product-search-form')
+const searchField = document.getElementById('search-field')
 const filterForm = document.getElementById('product-filter-form')
 const topicsInput = document.getElementById('topics')
 const yearInput = document.getElementById('year')
 const agencyInput = document.getElementById('agency')
-const productCards = document.getElementsByName('productCard');
+const productCards = document.getElementsByName('productCard')
 
 // define filters
-var searchTerm = '';
+let searchTerm = ''
 let filterTopics = []
 let filterYears = []
 let filterAgencies = []
 
 // if there's a search term in the URL params, set it and search with it
-const params = new URLSearchParams( window.location.search )
-if( params.has( 'search' )){
-  const searchParam = params.get( 'search' )
-  searchField.value = searchParam;
-  searchTerm = searchParam;
+const params = new URLSearchParams(window.location.search)
+if (params.has('search')) {
+  const searchParam = params.get('search')
+  searchField.value = searchParam
+  searchTerm = searchParam
 
-  displayFilteredProducts();
+  displayFilteredProducts()
 
   document.getElementById('all-products').scrollIntoView()
 }
 
-
 // search
-if( prodSearchForm ){ 
-  prodSearchForm.addEventListener( 'submit', e => {
+if (prodSearchForm) {
+  prodSearchForm.addEventListener('submit', e => {
     e.preventDefault()
     onSearch()
     displayFilteredProducts()
-  });
+  })
 
   // add listener for clicking the 'x' in search input
-  searchField.addEventListener( 'search', e => {
-    if( searchField.value === '' ){
+  searchField.addEventListener('search', e => {
+    if (searchField.value === '') {
       onSearch()
       displayFilteredProducts()
     }
@@ -46,32 +47,32 @@ if( prodSearchForm ){
  * listener for value of the filter form changing.
  * Whenever someone changes any of the filters, we want to re-search.
  */
-if( filterForm ){
-  filterForm.addEventListener( 'change', e => {
+if (filterForm) {
+  filterForm.addEventListener('change', e => {
     e.preventDefault()
 
     filterProducts()
   })
 }
 
-function onSearch() {
-  searchTerm = searchField.value;
+function onSearch () {
+  searchTerm = searchField.value
 
   let path = window.location.origin + window.location.pathname
-  if( searchTerm ){
-    path += `?search=${ searchTerm }`
+  if (searchTerm) {
+    path += `?search=${searchTerm}`
   }
-  history.replaceState( searchTerm, document.title, path)
-  searchTerm = searchField.value;
+  window.history.replaceState(searchTerm, document.title, path)
+  searchTerm = searchField.value
 }
 
 /**
  * Applies all current filters and displays appropriate products.
  */
-function filterProducts() {
-  filterTopics = getCheckedInputs( topicsInput )
-  filterYears = getCheckedInputs( yearInput )
-  filterAgencies = getCheckedInputs( agencyInput )
+function filterProducts () {
+  filterTopics = getCheckedInputs(topicsInput)
+  filterYears = getCheckedInputs(yearInput)
+  filterAgencies = getCheckedInputs(agencyInput)
 
   displayFilteredProducts()
 }
@@ -79,140 +80,140 @@ function filterProducts() {
 /** returns array of values of all checked inputs contained within a given div */
 const getCheckedInputs = container => {
   const inputEls = Array.from(container.getElementsByTagName('input'))
-  return inputEls.filter( input => input.checked )
-    .map( checkedInput => checkedInput.value )
+  return inputEls.filter(input => input.checked)
+    .map(checkedInput => checkedInput.value)
 }
 
 /**
  * Searches through all product cards.
  * Hides those that don't match the current filters.
  * Shows those that do match the current filters.
- * 
+ *
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
-function displayFilteredProducts() {
-
-  for (i = 0; i < productCards.length; i++) {
-    const card = productCards[ i ];
-    const productName = card.getElementsByTagName('h2')[ 0 ].innerText.toLowerCase();
-    const prodDesc = card.getElementsByTagName('p')[0].innerText;
-    const prodProblems = card.getElementsByTagName('p')[1].innerText;
-    const productNameSlugified = productName.replace(`'`,'-').split('.').join("-").split(':').join("-");
-    let productYear = '';
-    if( card.getElementsByTagName('h3') && card.getElementsByTagName('h3')[ 0 ]){
-      productYear = card.getElementsByTagName('h3')[ 0 ].innerText;
+function displayFilteredProducts () {
+  for (let i = 0; i < productCards.length; i++) {
+    const card = productCards[i]
+    const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
+    const prodDesc = card.getElementsByTagName('p')[0].innerText
+    const prodProblems = card.getElementsByTagName('p')[1].innerText
+    const productNameSlugified = productName.replace('\'', '-').split('.').join('-').split(':').join('-')
+    let productYear = ''
+    if (card.getElementsByTagName('h3') && card.getElementsByTagName('h3')[0]) {
+      productYear = card.getElementsByTagName('h3')[0].innerText
     }
-    const productElement = card.getElementsByTagName('h4')[ 0 ]
-    const productTopic = productElement ? productElement.innerHTML : '';
-    const productAgency = card.getElementsByTagName('h5')[0] ?
-      card.getElementsByTagName('h5')[ 0 ].innerText.toLowerCase().split(' ').join("-") : '';
-    
-    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes( searchTerm ) || prodProblems.includes( searchTerm )
+    const productElement = card.getElementsByTagName('h4')[0]
+    const productTopic = productElement ? productElement.innerHTML : ''
+    const productAgency = card.getElementsByTagName('h5')[0]
+      ? card.getElementsByTagName('h5')[0].innerText.toLowerCase().split(' ').join('-')
+      : ''
 
-    const topicMatches = checkFilterMatch( productTopic, filterTopics )
-    const yearMatches = checkFilterMatch( productYear, filterYears )
-    const agencyMatches = checkFilterMatch( productAgency, filterAgencies )
+    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) || prodProblems.includes(searchTerm)
+
+    const topicMatches = checkFilterMatch(productTopic, filterTopics)
+    const yearMatches = checkFilterMatch(productYear, filterYears)
+    const agencyMatches = checkFilterMatch(productAgency, filterAgencies)
 
     const filterMatch = topicMatches && yearMatches && agencyMatches
-    
-    if( searchMatch && filterMatch ){
-      card.classList.remove('pc-inactive');
+
+    if (searchMatch && filterMatch) {
+      card.classList.remove('pc-inactive')
     } else {
-      card.classList.add('pc-inactive');
+      card.classList.add('pc-inactive')
     }
   }
 }
 
-function checkFilterMatch( productValue, filterArray ) {
-  return filterArray.length === 0 || 
-    filterArray.some( filterVal => {
-      return productValue.toLowerCase().split(' ').join("-")
-        .includes( filterVal.toLowerCase().split(' ').join("-") );
-  })
+function checkFilterMatch (productValue, filterArray) {
+  return filterArray.length === 0 ||
+    filterArray.some(filterVal => {
+      return productValue.toLowerCase().split(' ').join('-')
+        .includes(filterVal.toLowerCase().split(' ').join('-'))
+    })
 }
 
-/** 
+/**
  *  reset filters
  */
-if( document.getElementById( 'reset-filter' )) {
-  document.getElementById( 'reset-filter' ).addEventListener( 'click', e => {
-    e.preventDefault();
-    var selectedValues = document.getElementsByName('filter-checkbox');
-    for (i = 0; i < selectedValues.length; i++) {
-      selectedValues[i].checked = false;
+if (document.getElementById('reset-filter')) {
+  document.getElementById('reset-filter').addEventListener('click', e => {
+    e.preventDefault()
+    const selectedValues = document.getElementsByName('filter-checkbox')
+    for (let i = 0; i < selectedValues.length; i++) {
+      selectedValues[i].checked = false
     }
 
     // close the accordions
-    const buttons = document.getElementsByClassName('product-filter-button');
-    for( const button of buttons ){
+    const buttons = document.getElementsByClassName('product-filter-button')
+    for (const button of buttons) {
       button.setAttribute('aria-expanded', 'false')
     }
     // hide the dropdowns
-    [ topicsInput, yearInput, agencyInput ].forEach( input => 
-      input.setAttribute('hidden', "")
+    [topicsInput, yearInput, agencyInput].forEach(input =>
+      input.setAttribute('hidden', '')
     )
 
     // clear the search
     searchTerm = ''
     searchField.value = searchTerm
     onSearch()
-    
-    filterProducts();
-  });
+
+    filterProducts()
+  })
 }
 
 /**
  * Slugify a string
  * from https://lucidar.me/en/web-dev/how-to-slugify-a-string-in-javascript/
- **/ 
+ **/
 const slugify = str => {
-    str = str.replace(/^\s+|\s+$/g, '');
+  str = str.replace(/^\s+|\s+$/g, '')
 
-    // Make the string lowercase
-    str = str.toLowerCase();
+  // Make the string lowercase
+  str = str.toLowerCase()
 
-    // Remove accents, swap ñ for n, etc
-    var from = "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
-    var to   = "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
-    for (var i=0, l=from.length ; i<l ; i++) {
-        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
-    }
+  // Remove accents, swap ñ for n, etc
+  const from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;'
+  const to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------'
+  for (let i = 0, l = from.length; i < l; i++) {
+    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i))
+  }
 
-    // Remove invalid chars
-    str = str.replace(/[^a-z0-9 -]/g, '') 
+  // Remove invalid chars
+  str = str.replace(/[^a-z0-9 -]/g, '')
     // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-') 
+    .replace(/\s+/g, '-')
     // Collapse dashes
-    .replace(/-+/g, '-'); 
+    .replace(/-+/g, '-')
 
-    return str;
+  return str
 }
 
-const modal = document.getElementById('product-modal');
+const modal = document.getElementById('product-modal')
 const cards = document.getElementsByClassName('product-card')
-Array.from( cards ).forEach( card => {
+Array.from(cards).forEach(card => {
   card.addEventListener('click', e => {
-    const cardTitle = card.getElementsByClassName('usa-card__heading')[ 0 ].innerHTML;
+    const cardTitle = card.getElementsByClassName('usa-card__heading')[0].innerHTML
 
     modal.getElementsByClassName('usa-card__header')[0].getElementsByTagName('h3')[0].innerHTML = cardTitle
 
     const pic = card.getElementsByTagName('picture')[0]
-    if( pic ){
-      const srcset = pic.children[0].srcset;
-      const imgSrc = pic.children[1].src;
+    if (pic) {
+      const srcset = pic.children[0].srcset
+      const imgSrc = pic.children[1].src
       const modalPic = modal.getElementsByTagName('picture')[0]
-      if( modalPic ){
-        modalPic.children[0].srcset = srcset;
-        modalPic.children[1].src = imgSrc;
-        modalPic.children[1].alt = pic.children[1].alt;
+      if (modalPic) {
+        modalPic.children[0].srcset = srcset
+        modalPic.children[1].src = imgSrc
+        modalPic.children[1].alt = pic.children[1].alt
       }
     }
-    
-    modal.getElementsByClassName('modal-tech-team')[0].innerText = 
+
+    modal.getElementsByClassName('modal-tech-team')[0].innerText =
       card.getElementsByClassName('product-tech-team')[0].innerText
-    modal.getElementsByClassName('modal-data-sets')[0].innerText = 
+    modal.getElementsByClassName('modal-data-sets')[0].innerText =
       card.getElementsByClassName('product-data-sets')[0].innerText
-    modal.getElementsByClassName('modal-desc')[0].innerText = 
+    modal.getElementsByClassName('modal-desc')[0].innerText =
       card.getElementsByClassName('product-desc')[0].innerText
 
     const href = card.getElementsByClassName('product-link')[0].innerText
@@ -220,78 +221,77 @@ Array.from( cards ).forEach( card => {
 
     modal.classList.remove('modal-inactive')
     modal.classList.add('modal-active')
-  });
+  })
 })
 
-$(".close").on("click", function () {
+$('.close').on('click', function () {
   modal.classList.remove('modal-active')
   modal.classList.add('modal-inactive')
-});
+})
 
 $('.data-card-group').on('click', function (e) {
-  if( e.target ){
-    const closestCard = e.target.closest('li');
-    if( closestCard ){
-      var dataCardId = closestCard.id;
+  if (e.target) {
+    const closestCard = e.target.closest('li')
+    if (closestCard) {
+      const dataCardId = closestCard.id
       // toggle the description of the challenge at top of page
-      $('.modal-active').addClass('modal-inactive');
-      $('.modal-active').removeClass('modal-active');
-      $("#modal-" + dataCardId).removeClass('modal-inactive').addClass('modal-active');
+      $('.modal-active').addClass('modal-inactive')
+      $('.modal-active').removeClass('modal-active')
+      $('#modal-' + dataCardId).removeClass('modal-inactive').addClass('modal-active')
 
-      var datasets = document.getElementsByClassName("data-set-card");
-      if (dataCardId == "all") {
-        for (i = 0; i < datasets.length; i++ ) {
-          dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-          dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace("'", '').replace('.', '-').replace(':', '').split(" ").join("-"));
-          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+      const datasets = document.getElementsByClassName('data-set-card')
+      if (dataCardId === 'all') {
+        for (let i = 0; i < datasets.length; i++) {
+          const dataName = datasets[i].getElementsByTagName('h2')[0].innerText
+          const dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace("'", '').replace('.', '-').replace(':', '').split(' ').join('-'))
+          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
         }
       } else {
-        for (i = 0; i < datasets.length; i++ ) {
-          dataName = datasets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-          dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-"));
-          dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(" ").join("-");
-          dataCategory = datasets[ i ].getElementsByTagName('h3')[ 0 ].innerText;
-          dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ');
-          if ( dataCategoryArray.includes(dataCardId) ) {
-            $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+        for (let i = 0; i < datasets.length; i++) {
+          const dataName = datasets[i].getElementsByTagName('h2')[0].innerText
+          let dataNameSlugified = slugify(dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(' ').join('-'))
+          dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(' ').join('-')
+          const dataCategory = datasets[i].getElementsByTagName('h3')[0].innerText
+          const dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ')
+          if (dataCategoryArray.includes(dataCardId)) {
+            $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
           } else {
-            $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+            $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
           }
         }
       }
     }
   }
-});
+})
 
-
-if( document.getElementById('data-search-form') ){
+if (document.getElementById('data-search-form')) {
   document.getElementById('data-search-form').addEventListener('submit', e => {
-    e.preventDefault();
-    filterDataSets();
-  });
+    e.preventDefault()
+    filterDataSets()
+  })
 
-  if( searchField ){
-    searchField.addEventListener( 'search', e => {
-      if( searchField.value === '' ){
+  if (searchField) {
+    searchField.addEventListener('search', e => {
+      if (searchField.value === '') {
         filterDataSets()
       }
     })
   }
 }
 
-function filterDataSets() {
-  var filter = $( '#search-field').val();
-  var dataSets = document.getElementsByName('data-set-card');
-  for (i = 0; i < dataSets.length; i++) {
-    if (dataSets[ i ].getElementsByTagName('h2')[ 0 ]) {
-      dataName = dataSets[ i ].getElementsByTagName('h2')[ 0 ].innerText
-      dataPS = dataSets[ i ].getElementsByTagName('h3')[ 0 ].innerText
-      dataDescription = dataSets[ i ].getElementsByTagName('p')[ 0 ].innerText
-      dataNameSlugified = slugify(dataName.toLowerCase())
+function filterDataSets () {
+  const filter = $('#search-field').val()
+  const dataSets = document.getElementsByName('data-set-card')
+  for (let i = 0; i < dataSets.length; i++) {
+    if (dataSets[i].getElementsByTagName('h2')[0]) {
+      const dataName = dataSets[i].getElementsByTagName('h2')[0].innerText
+      const dataPS = dataSets[i].getElementsByTagName('h3')[0].innerText
+      const dataDescription = dataSets[i].getElementsByTagName('p')[0].innerText
+      const dataNameSlugified = slugify(dataName.toLowerCase())
       if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive');
+        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
       } else {
-        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive');
+        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
       }
     }
   }

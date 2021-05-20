@@ -1,5 +1,6 @@
+/* eslint-disable */
 const gulp        = require('gulp');
-const log       = require('fancy-log');
+const log         = require('fancy-log');
 const dutil       = require('./doc-util');
 const browserify  = require('browserify');
 const buffer      = require('vinyl-buffer');
@@ -13,8 +14,8 @@ const linter      = require('gulp-eslint');
 const task        = 'javascript';
 
 gulp.task('eslint', function (done) {
-
-  if (!cFlags.test) {
+  
+  if (!cFlags.test || process.env.NODE_ENV !== "development") {
     dutil.logMessage('eslint', 'Skipping linting of JavaScript files.');
     return done();
   }

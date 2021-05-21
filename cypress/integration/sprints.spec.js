@@ -33,6 +33,8 @@ describe('Sprints test', () => {
     for(let i = 0; i < sprintUrls.length - 1; i++) {
       const url = sprintUrls[i]
       cy.visit(base + url)
+      cy.get('.explore-products')
+        .should('have.length.at.least', 2)
       cy.get('.explore-products').each(link => {
         cy.request(link.prop('href'))
           .its('status')
@@ -41,21 +43,31 @@ describe('Sprints test', () => {
     }
   })
 
-  xit('shows related products after clicking Explore All Products', () => {
+  it('shows >0 related products after clicking Explore All Products', () => {
     for(let i = 1; i < sprintUrls.length - 1; i++) {
       const url = sprintUrls[i]
       cy.visit(base + url)
-      cy.get('.explore-products').each(link => {
-        cy.get(link).click()
-        cy.location('pathname').should('eq', '/showcase/')
-        cy.go('back')
-        cy.location('pathname').should('eq', `${base}${url}/`)
+      cy.document().then(doc => {
+        const links = doc.querySelectorAll('.explore-products')
+        for(let i = 0; i < links.length; i++){
+          cy.get('.explore-products').eq(i).click({force: true})
+          cy.location('pathname').should('eq', '/showcase/')
+          const searchString = links[i].href.split("/").pop()
+          const term = searchString.split('=').pop()
+          cy.location('search').should('eq', searchString)
+          cy.get('#search-field').should('have.value', term)
+          cy.get('.product-card:not(.pc-inactive)')
+            .should('have.length.at.least', 1)
+
+          cy.go('back')
+          cy.location('pathname').should('eq', `${base}${url}/`)
+        }
       })
     }
   })
 })
 
-describe('past sprints test', () => {
+describe.skip('past sprints test', () => {
   const categories = [
     { name: "Workforce", amt: 5 },
     { name: "Education", amt:  7 },

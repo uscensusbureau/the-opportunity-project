@@ -23,10 +23,12 @@
       <div class="ps-right-col-section ps-products {{expandedClass}}">
         <h3 class="secondary-header products-header {{expandedClass}}">Product Outcome</h3>
         {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
-        <a class="explore-products {{expandedClass}}" 
-          href="{{site.baseurl}}/showcase/?search={{ include.content.Name | slugify }}">
-          Explore all products →
-        </a>
+        {% if include.isExpanded or include.showMore %}
+          <a class="explore-products {{expandedClass}}" 
+            href="{{site.baseurl}}/showcase/?search={{ include.content.Name | slugify }}">
+            Explore all products →
+          </a>
+        {% endif %}
       </div>
       <div class="ps-right-col-section ps-agency {{ expandedClass }}">
         <h3 class="secondary-header">Agency</h3>
@@ -39,7 +41,7 @@
     </div>
   </div>
 
-  {% if include.showMore%}
+  {% if include.showMore %}
   <div class="grid-row">
     <div class="ps-see-more">
       <button class="callout-button {{ expandedClass }}">

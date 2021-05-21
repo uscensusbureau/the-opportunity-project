@@ -1,4 +1,3 @@
-/* eslint-disable */
 const gulp        = require('gulp');
 const log         = require('fancy-log');
 const dutil       = require('./doc-util');

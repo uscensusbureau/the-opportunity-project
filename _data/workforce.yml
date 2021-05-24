@@ -343,14 +343,14 @@
     poc: Pam Frugoli
     email: frugoli.pam@dol.gov
     problem-statement: pathways
--
-    name: Apprenticeship Available Occupations
-    description: This dataset contains information on all available occupations in Registered Apprenticeships.
-    agency: U.S. Department of Labor
-    link: https://www.doleta.gov/OA/occupations.cfm
-    poc:
-    email:
-    problem-statement: pathways
+# -
+#     name: Apprenticeship Available Occupations
+#     description: This dataset contains information on all available occupations in Registered Apprenticeships.
+#     agency: U.S. Department of Labor
+#     link: https://www.doleta.gov/OA/occupations.cfm
+#     poc:
+#     email:
+#     problem-statement: pathways
 -
     name: CareerOneStop
     description: "Offers a wide range of career, employment, and education data as Web API Services.\n"

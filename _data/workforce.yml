@@ -167,14 +167,14 @@
     poc: Amrit Kohli
     email: kohli.amrit@BLS.gov
     problem-statement: talent
--
-    name: Integrated Postsecondary Education Data System
-    description: Includes data on post-secondary institutions, including students enrolled, degrees and awards earned, dollars expended, staff employed, and more.
-    agency: U.S. Department of Education
-    link: https://nces.ed.gov/ipeds/datacenter/login.aspx
-    poc:
-    email: ipedstools@rti.org
-    problem-statement: talent
+# -
+#     name: Integrated Postsecondary Education Data System
+#     description: Includes data on post-secondary institutions, including students enrolled, degrees and awards earned, dollars expended, staff employed, and more.
+#     agency: U.S. Department of Education
+#     link: https://nces.ed.gov/ipeds/datacenter/login.aspx
+#     poc:
+#     email: ipedstools@rti.org
+#     problem-statement: talent
 -
     name: Regional Innovation Strategies Program
     description: Annual awards data since 2014 for The i6 Chllange and Seed Fund Support Competitions. The grants help to create and expand high-growth entrepreneurship and increase access to capital in regions across the country.

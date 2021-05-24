@@ -5,31 +5,23 @@ layout: default
 {% include hero.html %}
 
 <section class="usa-section usa-graphic-list grid-container">
+  <div id="featured-products"
+    class="border-base-lighter border-top display-flex flex-column flex-align-center tablet:margin-y-5 margin-y-3">
+    <h2 class="tag-header bg-base-darkest text-uppercase">Featured Products</h2>
+  </div>
+
   {% assign case_studies = site.data.case_studies %}
-    <div class="grid-row grid-gap">
-      {% for case in case_studies %}
-        <div
-          class="desktop:grid-col-4 tablet:grid-col-4 usa-media-block__background-image-landscape"
-        >
-          <a href="{{ site.baseurl}}/{{ case.title | slugify }}/" >
-          {% if case.image %}
-            <img src="{{ site.baseurl}}/assets/img/photos/products/{{ case.image }}" alt="{{ case.image-alt }}">
-          {% endif %}
-          <div class="content-grid-one-third padding-left-4 padding-right-2">
-            {% if case.title %}
-              <h2 class="text-white padding-top-4">{{ case.title }}</h2>
-            {% endif %}
-            {% if case.tech_team %}
-              <p class="font-mono-2xs opacity-70">{{ case.tech_team | upcase }}</p>
-            {% endif %}
-            {% if case.overlay_text%}
-              <p class="font-sans-2xs opacity-70">{{ case.overlay_text}}</p>
-            {% endif %}
-          </div>
-          </a>
-        </div>
-      {% endfor %}
+  <div class="grid-row grid-gap-lg 
+  flex-wrap flex-justify-center">
+  {% for case in case_studies %}
+    <div
+      class="tablet:grid-col-4 
+        usa-media-block__background-image-portrait 
+        margin-bottom-3">
+        {% include cards/card.html content=case utils="small-header-card" %}
+
     </div>
+    {% endfor %}
 </section>
 
 <div id="all-products"

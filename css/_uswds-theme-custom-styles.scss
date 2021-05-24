@@ -2747,6 +2747,9 @@ code {
     background-image: url(../img/icons/remove-24px-icon-white.svg);
     background-repeat: no-repeat;
   }
+  &.usa-banner__button {
+    background-image: none;
+  }
 }
 
 .usa-accordion__button[aria-expanded="false"] {
@@ -2756,8 +2759,10 @@ code {
     background-image: url(../img/icons/add-24px-icon-white.svg);
     background-repeat: no-repeat;
   }
+  &.usa-banner__button {
+    background-image: none;
+  }
 }
-
 
 
 .usa-accordion__button-alt {

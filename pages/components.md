@@ -642,7 +642,7 @@ two-col-markdown:
 
     <h4>banner.html</h4>
     (Hard coded, content must be changed in the file)
-      {% include banner.html %}
+      {% include gov-banner.html %}
 
     <hr>
 

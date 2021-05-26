@@ -64,13 +64,20 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - DOCS.md
+  - critical.css
+  - cypress.json
+  - federalist.json
+  - pa11y.json
+  - package.json
+  - package-lock.json
   - pages/components.md
   - config
   - js
+  - img
   - vendor
   - manifest.yml
   - node_modules
-  - package.json
   - gulpfile.js
   - circle.yml
   - css

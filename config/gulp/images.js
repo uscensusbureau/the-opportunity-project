@@ -24,7 +24,7 @@ gulp.task('copy-uswds-images', function (done) {
 
   dutil.logMessage(task, 'Copying images from uswds');
 
-  var stream = gulp.src('./node_modules/uswds/src/img/**/*')
+  var stream = gulp.src(['./node_modules/uswds/src/img/**/*', '!./node_modules/uswds/src/img/usa-icons-unused/**/*'])
     .pipe(gulp.dest('assets/img'));
 
   return stream;

@@ -17,9 +17,14 @@ jobs:
         with:
           ruby-version: 2.6
           bundler-cache: true
+      
+      - uses: c-hive/gha-npm-cache@v1
 
       - name: Install pa11y-ci dependencies.
         run: npm install
+
+      - name: Compile with gulp
+        run: npx gulp build
 
       - name: Start up jekyll server.
         run: npm run start-detached

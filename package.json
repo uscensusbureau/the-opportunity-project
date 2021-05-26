@@ -44,6 +44,7 @@
     "serve": "bundle exec jekyll serve --drafts --future --incremental --livereload",
     "start": "bundle exec jekyll serve --drafts --future",
     "start-detached": "bundle exec jekyll serve --detach",
+    "standard": "npx standard",
     "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint && htmlproofer --allow_hash_href --assume_extension --file-ignore ./_site/components/index.html --only_4xx ./_site",
     "watch": "NODE_ENV=development nswatch",
     "watch-js": "NODE_ENV=development nswatch './js/**/*.js' --script build-js"
@@ -101,6 +102,7 @@
     "pa11y-ci": "^2.4.0",
     "simplecrawler": "^1.1.9",
     "slugify": "^1.4.7",
+    "standard": "^16.0.3",
     "write-yaml": "^1.0.0",
     "yamljs": "^0.3.0"
   },
@@ -127,6 +129,7 @@
       "build-img"
     ],
     "./js/**/*.js": [
+      "standard",
       "build-js"
     ],
     "./node_modules/uswds/src/stylesheets": [
@@ -140,6 +143,11 @@
     ],
     "./node_modules/uswds/src/js": [
       "build-js"
+    ]
+  },
+  "standard": {
+    "ignore": [
+      "/utils/check-contrast.js"
     ]
   }
 }

@@ -38,11 +38,3 @@ jobs:
         run: |
           echo "::error::The site is failing accessibility tests. Please review the comment in the pull request or the pa11y-ci step in the workflow for details."
           exit 1
-
-      - name: Run html-proofer
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./_site"
-          # The directory to scan
-          arguments: --http-status-ignore 0 --url-ignore "/community.amstat.org/,/fhwa.dot.gov/,/www.cyberseek.org/,/www.clustermapping.us/"
-          # The arguments to pass to HTMLProofer

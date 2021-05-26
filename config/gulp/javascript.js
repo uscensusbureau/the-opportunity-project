@@ -9,23 +9,7 @@ const composer    = require('gulp-uglify/composer');
 const uglify      = composer(uglifyes, console);
 const sourcemaps  = require('gulp-sourcemaps');
 const rename      = require('gulp-rename');
-const linter      = require('gulp-eslint');
 const task        = 'javascript';
-
-gulp.task('eslint', function (done) {
-  
-  if (!cFlags.test || process.env.NODE_ENV !== "development") {
-    dutil.logMessage('eslint', 'Skipping linting of JavaScript files.');
-    return done();
-  }
-
-  return gulp.src([
-    './js/**/*.js',
-    '!./js/vendor/**/*.js'])
-    .pipe(linter('.eslintrc'))
-    .pipe(linter.format());
-
-});
 
 gulp.task('copy-uswds-javascript', function (done) {
 
@@ -52,17 +36,10 @@ gulp.task(task,
     gulp.parallel(
       'copy-uswds-javascript',
       'copy-stickyfill',
-      'eslint'
     ),
     function(done) {
       dutil.logMessage(task, 'Compiling JavaScript');
 
-      // return gulp.src('js/*.js')
-      //   .pipe(uglify())
-      //   .on('error', log)
-      //   .pipe(gulp.dest('assets/js'));
-
-        
       var minifiedStream = browserify({
         entries: 'js/start.js',
         debug: true,

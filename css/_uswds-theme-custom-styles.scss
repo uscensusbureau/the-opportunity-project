@@ -2823,6 +2823,10 @@ code {
   }
 }
 
+.background-right {
+  background-position: right 2% center;
+}
+
 .dropdown-menu {
   @include u-width('mobile');
   @include u-height('card');

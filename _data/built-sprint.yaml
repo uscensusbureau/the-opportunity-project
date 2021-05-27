@@ -340,14 +340,14 @@
   poc: Tai Lung
   problem-statement: sustainable-rural-development
   email: lung.tai@epa.gov
-- name: HRSA Health Center Program data
-  description: 'HRSA health access, underserved areas, clinic locations, etc'
-  agency: Health Services and Resources Administration
-  federal: Federal
-  link: 'https://catalog.data.gov/dataset/data-hrsa-gov-hrsa-data-warehouse'
-  poc: ''
-  problem-statement: sustainable-rural-development
-  email:
+# - name: HRSA Health Center Program data
+#   description: 'HRSA health access, underserved areas, clinic locations, etc'
+#   agency: Health Services and Resources Administration
+#   federal: Federal
+#   link: 'https://catalog.data.gov/dataset/data-hrsa-gov-hrsa-data-warehouse'
+#   poc: ''
+#   problem-statement: sustainable-rural-development
+#   email:
 - name: USGS National Map
   description:
     Information about locatoin of structures including schools, hospitals, post
@@ -371,14 +371,14 @@
   poc: Kasey Martin
   problem-statement: sustainable-rural-development
   email: kasey.martin@usda.gov
-- name: Rural Development Disaster Assistance
-  description: Information on prevention and recovery of disasters
-  agency: U.S. Department of Agriculture
-  federal: Federal
-  link: 'https://catalog.data.gov/dataset/rural-development-disaster-assistance'
-  poc: ''
-  problem-statement: sustainable-rural-development
-  email:
+# - name: Rural Development Disaster Assistance
+#   description: Information on prevention and recovery of disasters
+#   agency: U.S. Department of Agriculture
+#   federal: Federal
+#   link: 'https://catalog.data.gov/dataset/rural-development-disaster-assistance'
+#   poc: ''
+#   problem-statement: sustainable-rural-development
+#   email:
 - name: 'Rural Accessibility '
   description:
     Interactive map and graph showing access to intercity transportation in

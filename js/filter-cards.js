@@ -6,6 +6,7 @@ const filterForm = document.getElementById('product-filter-form')
 const topicsInput = document.getElementById('topics')
 const yearInput = document.getElementById('year')
 const agencyInput = document.getElementById('partner-agency')
+const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
 // define filters
@@ -53,6 +54,22 @@ if (filterForm) {
 
     filterProducts()
   })
+
+  // add listener to close inputs when clicking outside
+  const handleClosure = event => {
+    for (const container of document.getElementsByClassName('product-filter')) {
+      if (!container.contains(event.target)) {
+        const button = container.getElementsByClassName('product-filter-button')[0]
+        const options = container.getElementsByClassName('dropdown-menu')[0]
+
+        button.setAttribute('aria-expanded', 'false')
+        options.setAttribute('hidden', '')
+      }
+    }
+  }
+
+  window.addEventListener('click', handleClosure)
+  window.addEventListener('focusin', handleClosure)
 }
 
 function onSearch () {
@@ -143,15 +160,7 @@ if (document.getElementById('reset-filter')) {
       selectedValues[i].checked = false
     }
 
-    // close the accordions
-    const buttons = document.getElementsByClassName('product-filter-button')
-    for (const button of buttons) {
-      button.setAttribute('aria-expanded', 'false')
-    }
-    // hide the dropdowns
-    [topicsInput, yearInput, agencyInput].forEach(input =>
-      input.setAttribute('hidden', '')
-    )
+    closeAccordions()
 
     // clear the search
     searchTerm = ''
@@ -160,6 +169,18 @@ if (document.getElementById('reset-filter')) {
 
     filterProducts()
   })
+}
+
+// close the accordions
+const closeAccordions = () => {
+  const buttons = document.getElementsByClassName('product-filter-button')
+  for (const button of buttons) {
+    button.setAttribute('aria-expanded', 'false')
+  }
+  // hide the dropdowns
+  filterInputs.forEach(input =>
+    input.setAttribute('hidden', '')
+  )
 }
 
 /**

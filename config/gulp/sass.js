@@ -3,7 +3,6 @@ const concat = require("gulp-concat");
 const csso = require("postcss-csso");
 const dutil = require("./doc-util");
 const gulp = require("gulp");
-const linter = require("gulp-scss-lint");
 const postcss = require("gulp-postcss");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
@@ -144,21 +143,5 @@ gulp.task("build-sass-prod", function() {
 
 
 gulp.task("build-sass", gulp.series("build-sass-dev", "build-sass-prod"));
-
-gulp.task("scss-lint", function(done) {
-  if (!cFlags.test) {
-    dutil.logMessage("scss-lint", "Skipping linting of Sass files.");
-    return done();
-  }
-
-  return gulp
-    .src(["./css/**/*.scss"])
-    .pipe(
-      linter({
-        config: ".scss-lint.yml"
-      })
-    )
-    .pipe(linter.failReporter("E"));
-});
 
 gulp.task(task, gulp.series("build-sass"));

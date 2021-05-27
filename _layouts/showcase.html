@@ -40,71 +40,13 @@ layout: default
 
   <form id="product-filter-form"  class="display-flex flex-column flex-align-center">
     <div class="grid-row grid-gap-sm margin-bottom-4">
-      <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
-          <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
-              aria-expanded="false"
-              aria-controls="topics">
-              TOPICS
-            </button>
-          </p>
-          <div id="topics" class="usa-accordion dropdown-menu">
-            {% assign all_topics = "" | split: "," %}
-            {% for product in site.data.products %}
-              {% for cat in product.category %}
-                {% assign all_topics = all_topics | push: cat %}
-              {% endfor %}
-            {% endfor %}
-            {% assign all_topics = all_topics | uniq | sort %}
-            {% for topic in all_topics %}
-              <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
-                <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
-          <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
-              aria-expanded="false"
-              aria-controls="year">
-              Year
-            </button>
-          </p>
-          <div id="year" class="usa-accordion dropdown-menu z-400">
-            {% assign filteredYears = site.data.product-filters.years | sort | reverse %}
-            {% for year in filteredYears %}
-              <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
-                <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card-lg margin-right-2">
-          <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card-lg btn-link__secondary-gray padding-1 text-center"
-              aria-expanded="false"
-              aria-controls="agency">
-               Partner Agency
-            </button>
-          </p>
-          <div id="agency" class="usa-accordion dropdown-menu z-400">
-            {% for agency in site.data.product-filters.agencies %}
-                <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
-                  <label class="usa-checkbox__label" for="{{ agency }}">{{ agency }}</label>
-                </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
+      {% include product-filter.html label="Topics" data=site.data.products filter="category" %}
+      
+      {% assign filteredYears = site.data.product-filters.years | sort | reverse %}
+      {% include product-filter.html label="Year" data=filteredYears %}
+      
+      {% include product-filter.html label="Partner Agency" data=site.data.product-filters.agencies %}
+ 
       <div class="display-inline-block margin-top-2">
         <button class="btn-link__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
         </button>

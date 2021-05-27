@@ -5,7 +5,7 @@ const searchField = document.getElementById('search-field')
 const filterForm = document.getElementById('product-filter-form')
 const topicsInput = document.getElementById('topics')
 const yearInput = document.getElementById('year')
-const agencyInput = document.getElementById('agency')
+const agencyInput = document.getElementById('partner-agency')
 const productCards = document.getElementsByName('productCard')
 
 // define filters

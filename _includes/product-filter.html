@@ -1,0 +1,30 @@
+{% assign id=include.label | slugify %}
+<div class="desktop:display-inline-block height-5 z-400">
+  <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
+    <p class="font-mono-xs">
+      <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
+        aria-expanded="false"
+        aria-controls="{{ id }}">
+        {{include.label}}
+      </button>
+    </p>
+    <div id="{{ id }}" class="usa-accordion dropdown-menu">
+      {% assign all_topics = include.data %}
+      {% if include.filter %}
+        {% assign all_topics = "" | split: "," %}     
+        {% for product in include.data %}
+          {% for cat in product[include.filter] %}
+            {% assign all_topics = all_topics | push: cat %}
+          {% endfor %}
+        {% endfor %}
+        {% assign all_topics = all_topics | uniq | sort %}
+      {% endif %}
+      {% for topic in all_topics %}
+        <div class="usa-checkbox">
+          <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
+          <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

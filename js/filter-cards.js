@@ -245,10 +245,25 @@ Array.from(cards).forEach(card => {
   })
 })
 
-$('.close').on('click', function () {
+const closeModal = () => {
   modal.classList.remove('modal-active')
   modal.classList.add('modal-inactive')
-})
+}
+
+$('.close').on('click', closeModal)
+
+if (modal) {
+  const checkModalClose = event => {
+    if (modal.contains(event.target)) {
+      const modalContent = modal.getElementsByClassName('usa-card')[0]
+      if (!modalContent.contains(event.target)) {
+        closeModal()
+      }
+    }
+  }
+  window.addEventListener('click', checkModalClose)
+  window.addEventListener('focusin', checkModalClose)
+}
 
 $('.data-card-group').on('click', function (e) {
   if (e.target) {

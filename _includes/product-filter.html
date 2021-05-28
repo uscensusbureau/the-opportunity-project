@@ -9,23 +9,18 @@
   {% endfor %}
   {% assign all_options = all_options | uniq | sort %}
 {% endif %}
-<div class="desktop:display-inline-block height-5 z-{{include.z}}">
-  <div class="product-filter usa-accordion usa-accordion--bordered width-15 tablet:width-card margin-right-2">
-    <button class="product-filter-button usa-accordion__button background-right
-      width-15 tablet:width-card 
-      btn-link__secondary-gray padding-1 margin-top-0
-      height-4"
-      aria-expanded="false"
-      aria-controls="{{ id }}">
-      {{include.label}}
-    </button>
-    <div id="{{ id }}" class="usa-accordion dropdown-menu">
-      {% for option in all_options %}
-        <div class="usa-checkbox">
-          <input class="usa-checkbox__input" id="{{ option }}" type="checkbox" name="filter-checkbox" value="{{ option }}">
-          <label class="usa-checkbox__label" for="{{ option }}">{{ option }}</label>
-        </div>
-      {% endfor %}
-    </div>
+<div class="product-filter__container usa-accordion desktop:display-inline-block height-5 z-{{include.z}} width-15 tablet:width-card margin-right-2">
+  <button class="product-filter__button usa-accordion__button background-right btn-link__secondary-gray margin-top-0"
+    aria-expanded="false"
+    aria-controls="{{ id }}">
+    {{include.label}}
+  </button>
+  <div id="{{ id }}" class="usa-accordion dropdown-menu">
+    {% for option in all_options %}
+      <div class="usa-checkbox">
+        <input class="usa-checkbox__input" id="{{ option }}" type="checkbox" name="filter-checkbox" value="{{ option }}">
+        <label class="usa-checkbox__label" for="{{ option }}">{{ option }}</label>
+      </div>
+    {% endfor %}
   </div>
 </div>

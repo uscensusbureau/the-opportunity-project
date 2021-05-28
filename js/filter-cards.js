@@ -57,9 +57,9 @@ if (filterForm) {
 
   // add listener to close inputs when clicking outside
   const handleClosure = event => {
-    for (const container of document.getElementsByClassName('product-filter')) {
+    for (const container of document.getElementsByClassName('product-filter__container')) {
       if (!container.contains(event.target)) {
-        const button = container.getElementsByClassName('product-filter-button')[0]
+        const button = container.getElementsByClassName('product-filter__button')[0]
         const options = container.getElementsByClassName('dropdown-menu')[0]
 
         button.setAttribute('aria-expanded', 'false')

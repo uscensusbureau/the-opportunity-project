@@ -989,6 +989,17 @@ main {
   }
 }
 
+.dkh__data-topic {
+  @include u-border(solid, 'accent-warm');
+  @include u-bg('primary-darker');
+  cursor: pointer;
+  &.selected {
+    @include u-bg('primary-vivid');
+    @include u-border-color('accent-warm-lighter');
+    cursor: initial;
+  }
+}
+
 .dkh-details {
   
   color: color("white");

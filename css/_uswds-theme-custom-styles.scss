@@ -1164,6 +1164,10 @@ main {
     color: color("white");
     font-size: font-size("sans", "2xs");
     transition: border 400ms ease;
+    border: 2px solid color('primary-vivid');
+    h2 {
+      padding-right: 2rem;
+    }
     a {
       text-decoration: none;
       color: color("white");
@@ -1173,7 +1177,12 @@ main {
     }
 
     .external-link {
-      display: none;
+      // display: none;
+      display: block;
+      float: right;
+      margin: units(2);
+      opacity: 0;
+      transition: all 200ms ease;
     }
 
     .listed-link {
@@ -1183,12 +1192,10 @@ main {
     }
 
     &:hover {
-      transition: all 400ms ease;
+      transition: all 100ms ease;
       border: 2px solid #F7C636;
       .external-link {
-        display: block;
-        float: right;
-        margin: units(2);
+        opacity: 1;
       }
     }
   }

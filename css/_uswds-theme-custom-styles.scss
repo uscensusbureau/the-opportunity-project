@@ -838,8 +838,13 @@ main {
       position: relative;
       background-size: cover;
       background-repeat: no-repeat;
+      background-blend-mode: color;
+      background-color: rgba(0, 0, 0, 0.6);
       z-index: 4;
       padding: 9rem 3.5rem 3.5rem 3.5rem;
+      @include at-media-max('tablet') {
+        padding-left: 2rem;
+      }
       border-radius: 10px;
       cursor: default;
 
@@ -868,19 +873,6 @@ main {
         position: relative;
         z-index: 5;
       }
-      &::after {
-        transition: opacity 400ms ease;
-        content: " ";
-        z-index: 5;
-        display: block;
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        border-radius: 10px;
-        background: RGB(19, 25, 47, 0.6);
-      }
     }
 
     .data-kit__active {
@@ -891,14 +883,11 @@ main {
         .data-kit__arrow {
           animation: bounce 2s infinite;
         }
-        &::after {
-          opacity: 0.65;
-        }
       }
     }
 
     .data-kit__bg {
-      height: 30rem;
+      height: 115%;
       background-color: #13192F;
       position: absolute;
       z-index: 1;
@@ -997,6 +986,17 @@ main {
     .data-source p {
       border-bottom-style: solid;
     }
+  }
+}
+
+.dkh__data-topic {
+  @include u-border(solid, 'accent-warm');
+  @include u-bg('primary-darker');
+  cursor: pointer;
+  &.selected {
+    @include u-bg('primary-vivid');
+    @include u-border-color('accent-warm-lighter');
+    cursor: initial;
   }
 }
 
@@ -1164,6 +1164,10 @@ main {
     color: color("white");
     font-size: font-size("sans", "2xs");
     transition: border 400ms ease;
+    border: 2px solid color('primary-vivid');
+    h2 {
+      padding-right: 2rem;
+    }
     a {
       text-decoration: none;
       color: color("white");
@@ -1173,7 +1177,12 @@ main {
     }
 
     .external-link {
-      display: none;
+      // display: none;
+      display: block;
+      float: right;
+      margin: units(2);
+      opacity: 0;
+      transition: all 200ms ease;
     }
 
     .listed-link {
@@ -1183,12 +1192,10 @@ main {
     }
 
     &:hover {
-      transition: all 400ms ease;
+      transition: all 100ms ease;
       border: 2px solid #F7C636;
       .external-link {
-        display: block;
-        float: right;
-        margin: units(2);
+        opacity: 1;
       }
     }
   }

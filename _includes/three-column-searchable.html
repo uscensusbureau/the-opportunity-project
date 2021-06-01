@@ -1,5 +1,14 @@
-<section class=" bg-primary-dark">
-<section class="usa-section usa-graphic-list grid-container">
+<section class="bg-primary-dark usa-section usa-graphic-list grid-container 
+  margin-bottom-0 padding-bottom-0">
+  <div class="display-flex flex-column flex-align-center">
+    <form id="data-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
+      <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
+      <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
+      <button class="btn-link__primary-dark" type="submit">
+        <span class="usa-sr-only">Search</span>
+      </button>
+    </form>
+  </div>
   {% if page.dataset == "earth-sprint" %}
     {% assign data-topics = site.data.natural-environment-topics %}
   {% elsif page.dataset == "built-sprint" %}
@@ -13,7 +22,7 @@
       <ul class="usa-card-group data-card-group margin-top-7">
         {% for data in data-topics %}
           <li id="{{ data.filter }}" class="usa-card" name="productCard">
-            <div class="usa-card__container border-accent-warm bg-primary-darker">
+            <div class="usa-card__container dkh__data-topic {% if forloop.first %}selected{% endif %}">
               <header class="usa-card__header">
                 <p class="text-white font-sans-sm" value="{{ data.name | slugify}}">{{ data.name }}</p>
               </header>
@@ -49,16 +58,8 @@
         {% endif %}
       {% endfor %}
     </div>
-  <hr class="margin-top-3 margin-bottom-4 border-accent-warm">
-  <div class="display-flex flex-column flex-align-center">
-    <form id="data-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
-      <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
-      <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
-      <button class="btn-link__primary-dark" type="submit">
-        <span class="usa-sr-only">Search</span>
-      </button>
-    </form>
-  </div>
+  <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
+  
 </section>
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container">

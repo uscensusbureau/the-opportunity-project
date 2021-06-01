@@ -1,8 +1,8 @@
 {% assign src = include.src %}
 {% assign pathParts = src | split: "." %}
 <picture {% if include.pictureClass %}class="{{ include.pictureClass }}" {%endif%}>
-  <source srcset="{{ site.baseurl }}/assets/img/{{ pathParts[ 0 ] }}.webp" >
-  <img src="{{ site.baseurl }}/assets/img/{{ src }}" alt="{{ include.alt }}" 
+  <source srcset="{{ site.baseurl }}/assets/img/{{ pathParts[ 0 ] }}.webp" type="image/webp">
+  <img src="{{ site.baseurl }}/assets/img/{{ src }}" alt="{{ include.alt }}" type="image/jpeg"
   {% if include.class %}class="{{ include.class }}" {%endif%}
   {% if include.data-proofer-ignore %}data-proofer-ignore{% endif %}/> 
 </picture>

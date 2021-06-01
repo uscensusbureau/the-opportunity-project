@@ -4,24 +4,26 @@ layout: default
 
 {% include hero.html %}
 
-<section class="usa-section usa-graphic-list grid-container">
+<section class="usa-section usa-graphic-list">
   <div id="featured-products"
     class="border-base-lighter border-top display-flex flex-column flex-align-center tablet:margin-y-5 margin-y-3">
     <h2 class="tag-header bg-base-darkest text-uppercase">Featured Products</h2>
   </div>
 
-  {% assign case_studies = site.data.case_studies %}
-  <div class="grid-row grid-gap-lg 
-  flex-wrap flex-justify-center">
-  {% for case in case_studies %}
-    <div
-      class="tablet:grid-col-4 
-        usa-media-block__background-image-portrait 
-        margin-bottom-3">
-        {% include cards/card.html content=case utils="small-header-card" %}
+  <div class="grid-container">
+    {% assign case_studies = site.data.case_studies %}
+    <div class="grid-row grid-gap-lg 
+    flex-wrap flex-justify-center">
+    {% for case in case_studies %}
+      <div
+        class="tablet:grid-col-4 
+          usa-media-block__background-image-portrait 
+          margin-bottom-3">
+          {% include cards/card.html content=case utils="small-header-card" %}
 
-    </div>
+      </div>
     {% endfor %}
+  </div>
 </section>
 
 <div id="all-products"
@@ -29,6 +31,7 @@ layout: default
 >
   <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>
 </div>
+
 <div class="display-flex flex-column flex-align-center">
   <form id="product-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
     <label class="usa-sr-only" for="search-field">Search all products</label>
@@ -38,79 +41,23 @@ layout: default
     </button>
   </form>
 
-  <form id="product-filter-form"  class="display-flex flex-column flex-align-center">
-    <div class="grid-row grid-gap-sm margin-bottom-4">
-      <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
-          <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
-              aria-expanded="false"
-              aria-controls="topics">
-              TOPICS
-            </button>
-          </p>
-          <div id="topics" class="usa-accordion dropdown-menu">
-            {% assign all_topics = "" | split: "," %}
-            {% for product in site.data.products %}
-              {% for cat in product.category %}
-                {% assign all_topics = all_topics | push: cat %}
-              {% endfor %}
-            {% endfor %}
-            {% assign all_topics = all_topics | uniq | sort %}
-            {% for topic in all_topics %}
-              <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="{{ topic }}" type="checkbox" name="filter-checkbox" value="{{ topic }}">
-                <label class="usa-checkbox__label" for="{{ topic }}">{{ topic }}</label>
-              </div>
-            {% endfor %}
-          </div>
+  <div class="grid-container margin-y-4">
+    <form id="product-filter-form"  class="">
+      <div class="grid-row grid-gap-sm">
+        {% include product-filter.html label="Topics" data=site.data.products filter="category" z=400%}
+        
+        {% assign filteredYears = site.data.product-filters.years | sort | reverse %}
+        {% include product-filter.html label="Year" data=filteredYears z=400 %}
+        
+        {% include product-filter.html label="Partner Agency" data=site.data.product-filters.agencies z=300 %}
+  
+        <div class="display-inline-block margin-top-2">
+          <button class="btn-link__secondary-red padding-1 margin-top-0" id="reset-filter">Reset Filter &#127335;
+          </button>
         </div>
       </div>
-      <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card margin-right-2">
-          <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card btn-link__secondary-gray padding-1 text-center"
-              aria-expanded="false"
-              aria-controls="year">
-              Year
-            </button>
-          </p>
-          <div id="year" class="usa-accordion dropdown-menu z-400">
-            {% assign filteredYears = site.data.product-filters.years | sort | reverse %}
-            {% for year in filteredYears %}
-              <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="{{ year }}" type="checkbox" name="filter-checkbox" value="{{ year }}">
-                <label class="usa-checkbox__label" for="{{ year }}">{{ year }}</label>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      <div class="desktop:display-inline-block height-5 z-400">
-        <div class="usa-accordion usa-accordion--bordered width-15 desktop:width-card-lg margin-right-2">
-          <p class="font-mono-xs">
-            <button class="product-filter-button usa-accordion__button width-15 desktop:width-card-lg btn-link__secondary-gray padding-1 text-center"
-              aria-expanded="false"
-              aria-controls="agency">
-               Partner Agency
-            </button>
-          </p>
-          <div id="agency" class="usa-accordion dropdown-menu z-400">
-            {% for agency in site.data.product-filters.agencies %}
-                <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="{{ agency }}" type="checkbox" name="filter-checkbox" value="{{ agency }}">
-                  <label class="usa-checkbox__label" for="{{ agency }}">{{ agency }}</label>
-                </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      <div class="display-inline-block margin-top-2">
-        <button class="btn-link__secondary-red padding-1" id="reset-filter">Reset Filter &#127335;
-        </button>
-      </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
 
 <section class="usa-section usa-graphic-list grid-container">
@@ -125,7 +72,7 @@ layout: default
         {% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[ 0 ] %}
         {% assign sprint = sprints[ 0 ] %}
         
-        <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active z-300" name="productCard">
+        <li id="product-card-{{product.title | slugify}}" class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active" name="productCard">
           <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
@@ -153,9 +100,10 @@ layout: default
         
       {% endif %}
     {% endfor %}
+  </ul>
 
     <div id="product-modal" class="modal modal-inactive z-500">
-      <li class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
+      <div class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
         <div class="usa-card__container margin-0 border-0">
 
           <div class="modal-grid">
@@ -183,7 +131,6 @@ layout: default
             </div>
           </div>
         </div>
-      </li>
+      </div>
     </div>
-  </ul>
 </section>

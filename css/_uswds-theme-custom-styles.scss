@@ -2735,6 +2735,20 @@ code {
   }
 }
 
+.product-filter__container {
+  @include u-margin-top(1, !important);
+  &:nth-child(3) {
+    button {
+      padding-bottom: .6rem;
+      padding-top: .7rem;
+    }
+  } 
+}
+
+.product-filter__button {
+  @include u-padding-left(1, !important);
+  @include u-margin-top(0);
+}
 
 .usa-accordion {
   opacity: 1;
@@ -2821,6 +2835,10 @@ code {
       );
     }
   }
+}
+
+.background-right {
+  background-position: right 5% center;
 }
 
 .dropdown-menu {

@@ -69,7 +69,6 @@
     "jquery": "^3.6.0",
     "node-notifier": "^10.0.0",
     "postcss-csso": "^4.0.0",
-    "puppeteer": "^10.0.0",
     "sass": "^1.32.8",
     "uglify-es": "^3.3.9",
     "uswds": "^2.11.2",

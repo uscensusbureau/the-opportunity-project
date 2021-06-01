@@ -71,7 +71,7 @@
     "postcss-csso": "^4.0.0",
     "sass": "^1.32.8",
     "uglify-es": "^3.3.9",
-    "uswds": "^2.10.1",
+    "uswds": "^2.11.2",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },

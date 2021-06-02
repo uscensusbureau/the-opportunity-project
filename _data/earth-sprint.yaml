@@ -781,7 +781,7 @@
   description: 'EPA, in collaboration with Scholastic, has created a new book, "The Magic School Bus Gets Cleaned Up," which teaches readers about pollution emitted from diesel school buses as well as ways to reduce emissions health risks.'
   agency: Environmental Protection Agency (EPA)
   federal: Federal
-  linke: https://www.epa.gov/dera/magic-school-bus
+  link: https://www.epa.gov/dera/magic-school-bus
   poc: Britney McCoy
   problem-statement: transportation-emissions
   email: McCoy.Britney@epa.gov
@@ -1010,35 +1010,35 @@
   poc: 'Russell Zerbo'
   problem-statement: transportation-emissions
   email: rzerbo@cleanair.org
-- name: NAIP public image service
-  description:
-    Imagery data from the agricultural growing seasons. Includes ArcGIS Rest
-    Services URL for the public facing, most current year 1-meter or higher
-    resolution 4-band NAIP cached image services for the lower 48 states. The
-    service is served out as pre-rendered tiles with 18 levels of detail which
-    is equivalent to about 1.19 meters resolution at the largest scale
-  agency: USDA
-  federal: Federal data
-  link:
-    https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
-  poc: John Mootz
-  problem-statement: agricultural
-  email: john.mootz@usda.gov
-- name: NAIP public image dates
-  description:
-    ArcGIS Rest Service URL for vector services that include information about
-    the NAIP collection 2011-2017. Date indexes are state based and contain
-    polygon information used in the collection of the imagery, including
-    acquisition date, camera type, sensor or lens serial number, and the
-    electromagnetic spectrum range for the red, blue, green, and near infrared
-    bands.
-  agency: USDA
-  federal: Federal data
-  link:
-    https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
-  poc: John Mootz
-  problem-statement: agricultural
-  email: john.mootz@usda.gov
+# - name: NAIP public image service
+#   description:NA
+#     Imagery data from the agricultural growing seasons. Includes ArcGIS Rest
+#     Services URL for the public facing, most current year 1-meter or higher
+#     resolution 4-band NAIP cached image services for the lower 48 states. The
+#     service is served out as pre-rendered tiles with 18 levels of detail which
+#     is equivalent to about 1.19 meters resolution at the largest scale
+#   agency: USDA
+#   federal: Federal data
+#   link:
+#     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
+#   poc: John Mootz
+#   problem-statement: agricultural
+#   email: john.mootz@usda.gov
+# - name: NAIP public image dates
+#   description:
+#     ArcGIS Rest Service URL for vector services that include information about
+#     the NAIP collection 2011-2017. Date indexes are state based and contain
+#     polygon information used in the collection of the imagery, including
+#     acquisition date, camera type, sensor or lens serial number, and the
+#     electromagnetic spectrum range for the red, blue, green, and near infrared
+#     bands.
+#   agency: USDA
+#   federal: Federal data
+#   link:
+#     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
+#   poc: John Mootz
+#   problem-statement: agricultural
+#   email: john.mootz@usda.gov
 - name: USGS National Map
   description:
     Suite of products and services that provide access to base geospatial

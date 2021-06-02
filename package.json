@@ -81,7 +81,7 @@
     "airtable": "^0.10.1",
     "axe-core": "^4.2.1",
     "chalk": "^4.1.0",
-    "cheerio": "^1.0.0-rc.5",
+    "cheerio": "^1.0.0-rc.9",
     "chroma-js": "^1.4.0",
     "chrome-launcher": "^0.13.4",
     "chrome-remote-interface": "^0.28.2",

@@ -9,7 +9,6 @@ class: datakit
 lead:
  - Datasets on plastic pollution in oceans, agricultural decision making, transportation emissions, and recycling.
 
-
 ---
 {% include hero.html %}
 {% include three-column-searchable.html %}

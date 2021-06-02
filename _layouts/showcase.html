@@ -76,29 +76,27 @@ layout: default
           class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active" 
           name="productCard">
           <div class="usa-card__container clickable-card bg-base-darkest">
-            <!-- <a href="#"> -->
-              <header class="usa-card__header">
-                <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}" role="link">{{ product.title }}</h2>
-                {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
-                {% if product.category %}
-                  <h4 class="pc-inactive">{{ product.category }}</h4>
-                {% endif %}
-                {% if problem_statement.agency_text %}
-                  <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
-                {% endif %}
-                <p style="display:none" class="product-desc">{{ product.description }}</p>
-                <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
-                <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>
-                <span style="display:none" class="product-link">{{ product.link }}</span>
-                <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
-              </header>
-              <div class="usa-card__body">
-                <p class="font-mono-xs text-white product-tech-team" role="link">{{ product.tech_team_text | upcase | remove: '"' }}</p>
-              </div>
-              <div class="usa-card__img">
-                {% include image.html src=imgSrc alt=product.image-alt class="maxh-15" %}
-              </div>
-            <!-- </a> -->
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}" role="link">{{ product.title }}</h2>
+              {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
+              {% if product.category %}
+                <h4 class="pc-inactive">{{ product.category }}</h4>
+              {% endif %}
+              {% if problem_statement.agency_text %}
+                <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+              {% endif %}
+              <p style="display:none" class="product-desc">{{ product.description }}</p>
+              <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
+              <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>
+              <span style="display:none" class="product-link">{{ product.link }}</span>
+              <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
+            </header>
+            <div class="usa-card__body">
+              <p class="font-mono-xs text-white product-tech-team" role="link">{{ product.tech_team_text | upcase | remove: '"' }}</p>
+            </div>
+            <div class="usa-card__img">
+              {% include image.html src=imgSrc alt=product.image-alt class="maxh-15" %}
+            </div>
           </div>
         </li>
         

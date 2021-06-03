@@ -18,7 +18,7 @@ files:
 # Problem Statement Submission
 {: .text-base-darkest }
 
-The problem statement submission window has now closed for our summer/fall 2021 sprint cycle. Off-cycle sprints are still possible so we encourage stakeholders to submit problem statements following the below steps, and The Opportunity Project team will follow up.  Submissions will be reviewed on a rolling basis..
+The problem statement submission window has now closed for our summer/fall 2021 sprint cycle. Off-cycle sprints are still possible so we encourage stakeholders to submit problem statements following the below steps, and The Opportunity Project team will follow up.  Submissions will be reviewed on a rolling basis.
 {: .font-sans-md }
 
 - Before you start drafting your problem statement proposal, please review the problem statement guidelines below. 

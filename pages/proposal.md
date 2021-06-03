@@ -18,18 +18,8 @@ files:
 # Problem Statement Submission
 {: .text-base-darkest }
 
-The formal TOP 2021 problem statement submission period has now closed. Stakeholders are still welcome to submit problem statements following the below steps, and The Opportunity Project team will follow up to set up a call. The TOP team will be available to offer guidance to off-cycle submissions, and these sprints will be heavily guided by the [TOPx toolkit]({{ site.baseurl }}/topx-toolkit/introduction/).
+The problem statement submission window has now closed for our summer/fall 2021 sprint cycle. Off-cycle sprints are still possible so we encourage stakeholders to submit problem statements following the below steps, and The Opportunity Project team will follow up.  Submissions will be reviewed on a rolling basis..
 {: .font-sans-md }
 
 - Before you start drafting your problem statement proposal, please review the problem statement guidelines below. 
-- To submit a topic, please download and complete the appropriate Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov?subject=Problem Statement Proposal - [name of organization]) with the subject line *“Problem Statement Proposal - [name of organization]”*. 
-
-Submissions will be reviewed on a rolling basis.
-
-{% comment %}
-[Download the Proposal Template&nbsp;&darr;]({{ templateUrl }}){: .btn-link__primary-red .margin-top-2 download=""}
-{: .margin-bottom-6 .margin-top-0 }
-
-You can find more guidance on problem statement submission requirements and recommendations in the [Problem Statment Guidance Document]({{ guidanceUrl }}){: download="" }.<br/>
-[Download the Guidance Document&nbsp;&darr;]({{ guidanceUrl }}){: .btn-link__secondary-dark .margin-top-2 download=""}
-{% endcomment %}
+- To submit a topic, please download and complete the appropriate Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov?subject=Problem Statement Proposal - [name of organization]) with the subject line *“Problem Statement Proposal - [name of organization]”*.

@@ -75,10 +75,9 @@ layout: default
         
         <li id="product-card-{{product.title | slugify}}" 
           class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active" 
-          role="button"
-          tabindex="0"
           name="productCard">
-          <div class="usa-card__container clickable-card bg-base-darkest">
+          <a href="#product-modal" aria-controls="product-modal" data-open-modal>
+            <div class="usa-card__container clickable-card bg-base-darkest">
               <header class="usa-card__header">
                 <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">
                   {{ product.title }}
@@ -102,14 +101,15 @@ layout: default
               <div class="usa-card__img">
                 {% include image.html src=imgSrc alt=imageAlt class="maxh-15" %}
               </div>
-          </div>
+            </div>
+          </a>
         </li>
         
       {% endif %}
     {% endfor %}
   </ul>
 
-    <div id="product-modal" class="modal modal-inactive z-500">
+    <div id="product-modal" class="usa-modal">
       <div class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
         <div class="usa-card__container margin-0 border-0">
 

@@ -94,7 +94,7 @@
     "express": "^4.17.1",
     "highlight.js": "^11.0.1",
     "json-format": "^1.0.1",
-    "merge-stream": "^1.0.0",
+    "merge-stream": "^2.0.0",
     "minimist": "^1.2.3",
     "node-sass": "^6.0.0",
     "nswatch": "^0.2.0",

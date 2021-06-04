@@ -60,7 +60,7 @@ layout: default
   </div>
 </div>
 
-
+<!--
 <div class="margin-y-3">
   <a href="#example-modal-1" class="usa-button" aria-controls="example-modal-1" data-open-modal>Open default modal</a>
   <div class="usa-modal " id="example-modal-1" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">
@@ -91,8 +91,8 @@ layout: default
     </div>
   </div>
 </div>
+-->
 
-{% comment %}
 <section class="usa-section usa-graphic-list grid-container">
   <ul class="usa-card-group">
     {% assign products = site.data.products %}
@@ -109,7 +109,7 @@ layout: default
         <li id="product-card-{{product.title | slugify}}" 
           class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active" 
           name="productCard">
-          <a href="#product-modal" aria-controls="example-modal-1" data-open-modal>
+          <a href="#product-modal" aria-controls="product-modal" data-open-modal>
             <div class="usa-card__container clickable-card bg-base-darkest">
               <header class="usa-card__header">
                 <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">
@@ -142,38 +142,39 @@ layout: default
     {% endfor %}
   </ul>
 
-
-
-    <div id="product-modal">
-      <div class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
-        <div class="usa-card__container margin-0 border-0">
-
-          <div class="modal-grid">
-            <div class="modal-column">
-              {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
-            </div>
-            <div class="modal-column">
-              <header class="usa-card__header">
-                <span class="close">&times;</span>
-                <h3 class="font-sans-md">PRODUCT TITLE</h3>
-              </header>
-            
-              <div class="usa-card__body">
-                <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
-                <p class="modal-desc">{{ product.description }}</p>
-                <p class="font-sans-2xs">Datasets Used</p>
-                <p class="modal-data-sets font-sans-2xs">
-                  {{ product.data_sets_text }}
-                </p>
-              </div>
-              <div class="usa-card__footer text-center">
-                <a class="btn-link__primary-red modal-link" 
-                href="{{ product.link }}" product-link target="_blank">Go to Product</a>
-              </div>
-            </div>
-          </div>
+  <div id="product-modal" class="usa-modal maxw-tablet radius-0"
+    aria-labeledby="product-modal-heading" aria-describedby="modal-desc">
+    <div class="usa-modal__content">
+      <div class="modal-grid">
+        <div class="modal-column">
+          {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
         </div>
+        <div class="modal-column">
+        
+          <div class="usa-card__body">
+            <h2 class="usa-modal__heading font-sans-md" id="product-modal-heading">PRODUCT TITLE</h2>
+
+            <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
+            <p class="modal-desc" id="modal-desc">{{ product.description }}</p>
+            <p class="font-sans-2xs">Datasets Used</p>
+            <p class="modal-data-sets font-sans-2xs">
+              {{ product.data_sets_text }}
+            </p>
+          </div>
+          <div class="usa-card__footer text-center">
+            <a class="btn-link__primary-red modal-link" 
+            href="{{ product.link }}" product-link target="_blank">Go to Product</a>
+          </div>
+          
+        </div>
+        
       </div>
+      <button class="usa-button usa-modal__close bg-secondary radius-0 text-white" aria-label="Close this window" data-close-modal>
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="/assets/img/sprite.svg#close"></use>
+        </svg>
+      </button>
     </div>
+  </div>
+
 </section>
-{% endcomment %}

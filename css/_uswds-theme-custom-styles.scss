@@ -2303,6 +2303,7 @@ code {
 }
 
 .modal-grid {
+  margin-top: -2.6rem;
   @include grid-row;
   flex-direction: column;
   .modal-column {

@@ -109,6 +109,7 @@ const getCheckedInputs = container => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts () {
+  let numDispalying = 0
   for (let i = 0; i < productCards.length; i++) {
     const card = productCards[i]
     const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
@@ -135,10 +136,12 @@ function displayFilteredProducts () {
 
     if (searchMatch && filterMatch) {
       card.classList.remove('pc-inactive')
+      numDispalying++
     } else {
       card.classList.add('pc-inactive')
     }
   }
+  document.getElementById('results-count').innerText = `Found ${numDispalying} products`
 }
 
 function checkFilterMatch (productValue, filterArray) {

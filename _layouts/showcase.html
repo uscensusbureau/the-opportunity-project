@@ -27,20 +27,21 @@ layout: default
 </section>
 
 <div id="all-products"
-  class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5"
->
+  class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5">
   <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>
 </div>
 
 <div class="display-flex flex-column flex-align-center">
-  <form id="product-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
-    <label class="usa-sr-only" for="search-field">Search all products</label>
+  <form role="search" id="product-search-form" 
+    class="usa-search usa-search--small margin-top-2 desktop:width-tablet">
+    <label class="usa-sr-only" for="search-field">Search all TOP products</label>
     <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search all products">
     <button class="btn-link__primary-dark" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
   </form>
 
+ 
   <div class="grid-container margin-y-4">
     <form id="product-filter-form"  class="">
       <div class="grid-row grid-gap-sm">
@@ -61,10 +62,11 @@ layout: default
 </div>
 
 <section class="usa-section usa-graphic-list grid-container">
+  {% assign products = site.data.products | where_exp: "item", "item.link" %}
+
+  <h4 id="results-count">Found {{products.size}} products</h4>
   <ul class="usa-card-group">
-    {% assign products = site.data.products %}
     {% for product in products %}
-      {% if product.link %}
         
         {% assign imgSrc = "photos/products/" | append: product.image %}
         {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
@@ -100,7 +102,6 @@ layout: default
           </div>
         </li>
         
-      {% endif %}
     {% endfor %}
   </ul>
 

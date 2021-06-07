@@ -1011,7 +1011,7 @@
   problem-statement: transportation-emissions
   email: rzerbo@cleanair.org
 - name: NAIP public image service
-  description:NA
+  description:
     Imagery data from the agricultural growing seasons. Includes ArcGIS Rest
     Services URL for the public facing, most current year 1-meter or higher
     resolution 4-band NAIP cached image services for the lower 48 states. The
@@ -1059,7 +1059,7 @@
     utilities and others
   agency: Federal Geo-platform
   federal: Federal
-  link: 'https://data.geoplatform.gov/ '
+  link: 'https://data.geoplatform.gov/'
   poc: Joel Schlagel
   problem-statement: agricultural
   email: joel.d.schlagel@usace.army.mil

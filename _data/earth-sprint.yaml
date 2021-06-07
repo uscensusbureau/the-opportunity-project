@@ -368,16 +368,16 @@
 #   poc: 'Kathryn Youngblood '
 #   problem-statement: ocean-plastics
 #   email: kathryny@uga.edu
-- name: 'Divers Against Debris '
-  description:
-    Map showing types and amounts of debris scuba divers around the world have
-    removed and reported from underwater environments since 2011
-  agency: Project Aware
-  federal: Non-federal data
-  link: 'https://www.projectaware.org/diveagainstdebrismap'
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
+# - name: 'Divers Against Debris '
+#   description:
+#     Map showing types and amounts of debris scuba divers around the world have
+#     removed and reported from underwater environments since 2011
+#   agency: Project Aware
+#   federal: Non-federal data
+#   link: 'https://www.projectaware.org/diveagainstdebrismap'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
 - name: Global Alert - Floating Trash
   description:
     Online tool that increases interaction and connectivity to plastic pollution
@@ -1059,7 +1059,7 @@
     utilities and others
   agency: Federal Geo-platform
   federal: Federal
-  link: 'https://data.geoplatform.gov/'
+  link: 'https://www.geoplatform.gov/'
   poc: Joel Schlagel
   problem-statement: agricultural
   email: joel.d.schlagel@usace.army.mil

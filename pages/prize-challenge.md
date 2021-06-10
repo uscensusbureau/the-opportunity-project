@@ -57,10 +57,47 @@ winners:
 
 {% include hero.html %}
 {% include connecting-banner-with-subheader.html %}
+
+{% capture text %}
+## The Open Data for Good Grand Challenge 2021 is now live
+
+The Opportunity Project is thrilled to announce the release of the Open Data for Good Grand Challenge 2021, which provides a vehicle for technologists and promising technology and community partnerships from 2020-2021 TOP Sprints to compete for monetary and in kind awards to deploy tools to end users, expand product reach, and continue to deliver impact on critical problems facing the public.
+
+The rules are now live! Please see all the details on [insert challenge.gov link]. 
+
+### Overview
+- **What:** Open Data for Good Grand Challenge
+- **Awards:** $250,000+ in Monetary Awards/In Kind Awards 
+- **Type of Challenge:** Software/Apps
+- **Rules Posted:** June 22, 2021 
+- **Submission Start:** September 13, 2021 9 a.m. ET
+- **Submission End:** October 15, 2021 11:59 p.m. ET
+{: .add-list-reset }
+
+### Who’s Eligible?
+This challenge will be open to:
+- Technology teams, technology and community partnerships (tech teams and user advocate group(s) or other community groups) or individuals that have built tools with open data through 2020-2021 facilitated sprints or agency facilitated TOPx sprints, OR those who
+- Utilized The Opportunity Project’s [Product Development Toolkit]({{site.baseurl}}/product-development/toolkit/), which provides a replicable, step-by-step guide for scaling this process on your own
+
+### Want to learn more?
+The Opportunity Project Team will be hosting an informational webinar for individuals and teams interested in applying.
+
+- **What:** Informational Webinar on the Open Data for Good Grand Challenge
+- **Who:** Anyone Interested in Applying 
+- **When:** June 30th, 2021
+- **Time:** 2-3pm ET
+{: .add-list-reset }
+
+[RSVP](http://bit.ly/ODFGGCWebinar1){: .margin-top-0 .btn-link__primary-red .btn-link--small }
+
+Questions? Email [topprize@census.gov](mailto: topprize@census.gov)
+{% endcapture %}
+<section class="grid-section">
+  {{ text | markdownify }}
+</section>
+
 {% include two-column-markdown.html content=page.about %}
-
 {% include two-column-markdown.html content=page.judging %}
-
 {% include text-callout-centered.html content=page.callout %}
 
 <div class="text-center margin-bottom-6">

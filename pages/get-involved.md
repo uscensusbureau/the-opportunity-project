@@ -32,7 +32,7 @@ join:
 
 callout:
   text: Learn about the Prize Challenge
-  subtext:
+  id: prize-challenge
   body:
     - p: The Opportunity Project is thrilled to announce the release of the Open Data for Good Grand Challenge 2021, which provides a vehicle for technologists and promising technology and community partnerships from 2020-2021 TOP Sprints to compete for monetary and in kind awards to deploy tools to end users, expand product reach, and continue to deliver impact on critical problems facing the public.
     - p: The rules are now live! Please see all the details on [insert challenge.gov link].

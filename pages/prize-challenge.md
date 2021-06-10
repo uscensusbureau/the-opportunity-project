@@ -89,7 +89,7 @@ The Opportunity Project Team will be hosting an informational webinar for indivi
 - **Time:** 2-3pm ET
 {: .add-list-reset }
 
-[RSVP](http://bit.ly/ODFGGCWebinar1){: .margin-top-0 .btn-link__primary-red .btn-link--small }
+[RSVP](http://bit.ly/ODFGGCWebinar1){: .margin-top-0 .btn-link__primary-red }
 
 Questions? Email [topprize@census.gov](mailto: topprize@census.gov)
 </section>

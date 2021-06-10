@@ -1,6 +1,6 @@
 ---
 title: Prize Challenge
-permalink: /prize-challenge/
+permalink: /prize-challenge-2/
 layout: default
 
 hero:
@@ -59,35 +59,13 @@ winners:
 ## The Open Data for Good Grand Challenge 2021 is now live!
 {: .line-height-sans-4 .section-header }
 
-The Opportunity Project is thrilled to announce the release of the Open Data for Good Grand Challenge 2021, which provides a vehicle for technologists and promising technology and community partnerships from 2020-2021 TOP Sprints to compete for monetary and in kind awards to deploy tools to end users, expand product reach, and continue to deliver impact on critical problems facing the public.
+If you participated in a TOP or TOPx Sprint or used our Product Development Toolkit to create a technology solution in 2020 or 2021, you could be eligible for $250,000+ of monetary and in-kind awards.
 
-The rules are now live! Please see all the details on [insert challenge.gov link]. 
+The full challenge rules will post on June 22, 2021, submissions open September 13, 2021 9 a.m. ET, and submissions close October 15, 2021 11:59 p.m. ET.
 
-### Overview
-{: .font-sans-lg }
-- **What:** Open Data for Good Grand Challenge
-- **Awards:** $250,000+ in Monetary Awards/In Kind Awards 
-- **Type of Challenge:** Software/Apps
-- **Rules Posted:** June 22, 2021 
-- **Submission Start:** September 13, 2021 9 a.m. ET
-- **Submission End:** October 15, 2021 11:59 p.m. ET
-{: .add-list-reset }
+The rules are now live! Please see all the details on [insert challenge.gov link].
 
-### Who’s Eligible?
-{: .font-sans-lg }
-This challenge will be open to:
-- Technology teams, technology and community partnerships (tech teams and user advocate group(s) or other community groups) or individuals that have built tools with open data through 2020-2021 facilitated sprints or agency facilitated TOPx sprints, OR those who
-- Utilized The Opportunity Project’s [Product Development Toolkit]({{site.baseurl}}/product-development/toolkit/), which provides a replicable, step-by-step guide for scaling this process on your own
-
-### Want to learn more?
-{: .font-sans-lg }
-The Opportunity Project Team will be hosting an informational webinar for individuals and teams interested in applying.
-
-- **What:** Informational Webinar on the Open Data for Good Grand Challenge
-- **Who:** Anyone Interested in Applying 
-- **When:** June 30th, 2021
-- **Time:** 2-3pm ET
-{: .add-list-reset }
+To learn more, attend [our webinar](http://bit.ly/ODFGGCWebinar1) on June 30th from 2-3pm ET.
 
 [RSVP](http://bit.ly/ODFGGCWebinar1){: .margin-top-0 .btn-link__primary-red }
 

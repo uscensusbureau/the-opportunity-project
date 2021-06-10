@@ -59,7 +59,7 @@ winners:
 ## The Open Data for Good Grand Challenge 2021 is now live!
 {: .line-height-sans-4 .section-header }
 
-If you participated in a TOP or TOPx Sprint or used our Product Development Toolkit to create a technology solution in 2020 or 2021, you could be eligible for $250,000+ of monetary and in-kind awards.
+If you participated in a TOP or TOPx Sprint or used our [Product Development Toolkit]({{site.baseurl}}/product-development/toolkit/) to create a technology solution in 2020 or 2021, you could be eligible for $250,000+ of monetary and in-kind awards.
 
 The full challenge rules will post on June 22, 2021, submissions open September 13, 2021 9 a.m. ET, and submissions close October 15, 2021 11:59 p.m. ET.
 

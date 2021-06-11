@@ -87,10 +87,17 @@ function onSearch () {
  * Applies all current filters and displays appropriate products.
  */
 function filterProducts () {
+  const searchParams = new URLSearchParams(window.location.search)
   filterTopics = getCheckedInputs(topicsInput)
-  filterYears = getCheckedInputs(yearInput)
-  filterAgencies = getCheckedInputs(agencyInput)
+  appendToURLSearchParams(searchParams, 'topic', filterTopics)
 
+  filterYears = getCheckedInputs(yearInput)
+  appendToURLSearchParams(searchParams, 'year', filterYears)
+
+  filterAgencies = getCheckedInputs(agencyInput)
+  appendToURLSearchParams(searchParams, 'agency', filterAgencies)
+
+  console.log(searchParams.toString())
   displayFilteredProducts()
 }
 
@@ -99,6 +106,12 @@ const getCheckedInputs = container => {
   const inputEls = Array.from(container.getElementsByTagName('input'))
   return inputEls.filter(input => input.checked)
     .map(checkedInput => checkedInput.value)
+}
+/** adds all values of given array to URLSearchParams object with given key */
+const appendToURLSearchParams = (urlParams, key, values) => {
+  for (const value in values) {
+    urlParams.append(key, value)
+  }
 }
 
 /**
@@ -109,7 +122,6 @@ const getCheckedInputs = container => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts () {
-  let numDispalying = 0
   for (let i = 0; i < productCards.length; i++) {
     const card = productCards[i]
     const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
@@ -136,12 +148,10 @@ function displayFilteredProducts () {
 
     if (searchMatch && filterMatch) {
       card.classList.remove('pc-inactive')
-      numDispalying++
     } else {
       card.classList.add('pc-inactive')
     }
   }
-  document.getElementById('results-count').innerText = `Found ${numDispalying} products`
 }
 
 function checkFilterMatch (productValue, filterArray) {

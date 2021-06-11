@@ -15,7 +15,10 @@
     {% endif %}
     <p class="coil-project__body">{{ data.details }}</p>
     {% for link in include.data.links %}
-      <p><a href="{% unless link.isExternal %}{{site.baseurl}}{% endunless %}{{link.href}}">{{ link.text }}&nbsp;&rarr;</a></p>
+      <p><a href="{% unless link.isExternal %}{{site.baseurl}}{% endunless %}{{link.href}}"
+      {% if link.isDownload %}download{% endif %}>
+        {{ link.text }}{% if link.isDownload %} (PDF)&nbsp;&darr;{% else %}&nbsp;&rarr;{% endif %}
+      </a></p>
     {% endfor %}
   </div>
 </div>

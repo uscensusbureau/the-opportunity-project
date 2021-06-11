@@ -79,8 +79,8 @@ layout: default
           <a class="text-no-underline" href="#product-modal" aria-controls="product-modal" data-open-modal>
             <div class="usa-card__container clickable-card bg-base-darkest">
               <header class="usa-card__header">
-                <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}" aria-label="product name">
-                  {{ product.title }}
+                <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">
+                  <span class="usa-sr-only">product name</span>{{ product.title }}
                 </h2>
                 {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
                 {% if product.category %}
@@ -96,7 +96,7 @@ layout: default
                 <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
               </header>
               <div class="usa-card__body">
-                <p class="font-mono-xs text-white product-tech-team" aria-label="team name">{{ product.tech_team_text | upcase | remove: '"' }}</p>
+                <p class="font-mono-xs text-white product-tech-team"><span class="usa-sr-only">team name</span>{{ product.tech_team_text | upcase | remove: '"' }}</p>
               </div>
               <div class="usa-card__img">
                 {% include image.html src=imgSrc alt=imageAlt class="maxh-15" %}

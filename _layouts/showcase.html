@@ -52,7 +52,13 @@ layout: default
         {% include product-filter.html label="Partner Agency" data=site.data.product-filters.agencies z=300 %}
   
         <div class="display-inline-block margin-top-2">
-          <button class="btn-link__secondary-red padding-1 margin-top-0" id="reset-filter">Reset Filter &#127335;
+          <button class="btn-link__secondary-red padding-1 margin-top-0" id="reset-filter">
+            Reset Filter <span aria-hidden="true">&#127335;</span>
+            <!-- <div>
+              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#close"></use>
+              </svg>
+            </div> -->
           </button>
         </div>
       </div>

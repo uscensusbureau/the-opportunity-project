@@ -13,7 +13,7 @@ banner-subheader:
     line: '-light'
 
 about:
-  title: About the 1st Inaugural Prize Challenge in 2019
+  title: How the Prize Challenge Began
   left-col-width: '4'
   left-col-offset: 1
   right-col-width: '5'
@@ -22,9 +22,9 @@ about:
   skip-bottom-border: true
   left-col: prize-challenge/circle-logo.md
   right:
-    - body: '*In 2019, we launched The Opportunity Project Prize Challenge, the Census Bureau’s first ever prize competition, which awarded $100,000 in funding across 5 teams.*'
+    - body: '*In 2019, we launched The Opportunity Project Prize Challenge. The Census Bureau’s first ever prize competition, it awarded $100,000 in funding across 5 teams.*'
     - title: Why the 2019 Prize was Launched
-      body: After 4 years of TOP, in 2019 we created the TOP  prize challenge to help address the challenges technologists face in deploying and sustaining civic tech products.  The prize challenge aimed to support technologists in getting their solutions into the hands of communities around the country.
+      body: After 4 years of TOP, we created the TOP  prize challenge to help address the challenges technologists face in deploying and sustaining civic tech products.  The prize challenge aimed to support technologists in getting their solutions into the hands of communities around the country.
 
 graphs:
   - title: User Friendly
@@ -61,15 +61,13 @@ winners:
 
 If you participated in a TOP or TOPx Sprint or used our [Product Development Toolkit]({{site.baseurl}}/product-development/toolkit/) to create a technology solution in 2020 or 2021, you could be eligible for $250,000+ of monetary and in-kind awards.
 
-The full challenge rules will post on June 22, 2021, submissions open September 13, 2021 9 a.m. ET, and submissions close October 15, 2021 11:59 p.m. ET.
+The TOP team is holding [a webinar](http://bit.ly/ODFGGCWebinar1) on June 30th from 2-3pm ET to get you prepared and ready to win.
 
-The rules are now live! Please see all the details on [insert challenge.gov link].
+[RSVP now to reserve your spot](http://bit.ly/ODFGGCWebinar1){: .margin-top-0 .btn-link__primary-red }
 
-To learn more, attend [our webinar](http://bit.ly/ODFGGCWebinar1) on June 30th from 2-3pm ET.
+The full challenge rules will post on challenge.gov on June 22, 2021. Submissions open September 13, 2021 9 a.m. ET and close October 15, 2021 11:59 p.m. ET.
 
-[RSVP](http://bit.ly/ODFGGCWebinar1){: .margin-top-0 .btn-link__primary-red }
-
-Questions? Email [topprize@census.gov](mailto: topprize@census.gov)
+Please see [challenge.gov](#) for full details and email [topprize@census.gov](mailto: topprize@census.gov) with any questions.
 </section>
 {::options parse_block_html="false" /}
 

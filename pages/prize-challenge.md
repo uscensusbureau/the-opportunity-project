@@ -60,7 +60,7 @@ winners:
 {% include text-callout-centered.html content=page.callout %}
 
 {::options parse_block_html="true" /}
-<section class="grid-section margin-bottom-5">
+<section class="grid-section margin-y-15">
 ## Want to Learn More?
 {: .section-header }
 
@@ -72,7 +72,6 @@ The Opportunity Project team will be hosting an informational webinar for indivi
 </section>
 {::options parse_block_html="false" /}
 
-<hr>
 
 {% include two-column-markdown.html content=page.about %}
 {% include two-column-markdown.html content=page.judging %}

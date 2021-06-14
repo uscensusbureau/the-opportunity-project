@@ -12,6 +12,8 @@ annual_reports:
   '2020': assets/files/top-annual-report-2020.pdf
   '2019': assets/files/annual_report_2019.pdf
 
+top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text
+
 # this ensure that posts with future dates are published
 future: true
 

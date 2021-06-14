@@ -368,16 +368,16 @@
 #   poc: 'Kathryn Youngblood '
 #   problem-statement: ocean-plastics
 #   email: kathryny@uga.edu
-- name: 'Divers Against Debris '
-  description:
-    Map showing types and amounts of debris scuba divers around the world have
-    removed and reported from underwater environments since 2011
-  agency: Project Aware
-  federal: Non-federal data
-  link: 'https://www.projectaware.org/diveagainstdebrismap'
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
+# - name: 'Divers Against Debris '
+#   description:
+#     Map showing types and amounts of debris scuba divers around the world have
+#     removed and reported from underwater environments since 2011
+#   agency: Project Aware
+#   federal: Non-federal data
+#   link: 'https://www.projectaware.org/diveagainstdebrismap'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
 - name: Global Alert - Floating Trash
   description:
     Online tool that increases interaction and connectivity to plastic pollution
@@ -1010,35 +1010,35 @@
   poc: 'Russell Zerbo'
   problem-statement: transportation-emissions
   email: rzerbo@cleanair.org
-# - name: NAIP public image service
-#   description:NA
-#     Imagery data from the agricultural growing seasons. Includes ArcGIS Rest
-#     Services URL for the public facing, most current year 1-meter or higher
-#     resolution 4-band NAIP cached image services for the lower 48 states. The
-#     service is served out as pre-rendered tiles with 18 levels of detail which
-#     is equivalent to about 1.19 meters resolution at the largest scale
-#   agency: USDA
-#   federal: Federal data
-#   link:
-#     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
-#   poc: John Mootz
-#   problem-statement: agricultural
-#   email: john.mootz@usda.gov
-# - name: NAIP public image dates
-#   description:
-#     ArcGIS Rest Service URL for vector services that include information about
-#     the NAIP collection 2011-2017. Date indexes are state based and contain
-#     polygon information used in the collection of the imagery, including
-#     acquisition date, camera type, sensor or lens serial number, and the
-#     electromagnetic spectrum range for the red, blue, green, and near infrared
-#     bands.
-#   agency: USDA
-#   federal: Federal data
-#   link:
-#     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
-#   poc: John Mootz
-#   problem-statement: agricultural
-#   email: john.mootz@usda.gov
+- name: NAIP public image service
+  description:
+    Imagery data from the agricultural growing seasons. Includes ArcGIS Rest
+    Services URL for the public facing, most current year 1-meter or higher
+    resolution 4-band NAIP cached image services for the lower 48 states. The
+    service is served out as pre-rendered tiles with 18 levels of detail which
+    is equivalent to about 1.19 meters resolution at the largest scale
+  agency: USDA
+  federal: Federal data
+  link:
+    https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
+  poc: Joan Biediger
+  problem-statement: agricultural
+  email: joan.biediger@usda.gov
+- name: NAIP public image dates
+  description:
+    ArcGIS Rest Service URL for vector services that include information about
+    the NAIP collection 2011-2017. Date indexes are state based and contain
+    polygon information used in the collection of the imagery, including
+    acquisition date, camera type, sensor or lens serial number, and the
+    electromagnetic spectrum range for the red, blue, green, and near infrared
+    bands.
+  agency: USDA
+  federal: Federal data
+  link:
+    https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
+  poc: Joan Biediger
+  problem-statement: agricultural
+  email: joan.biediger@usda.gov
 - name: USGS National Map
   description:
     Suite of products and services that provide access to base geospatial
@@ -1052,14 +1052,6 @@
   poc: Gita Urban-Mathieux
   problem-statement: agricultural
   email: burbanma@usgs.gov
-# - name: Amazon Web Services
-#   description: ''
-#   agency: ''
-#   federal: ''
-#   link: ''
-#   poc: 'Joe Flasher '
-#   problem-statement: ''
-#   email: jflasher@amazon.com
 - name: Federal Geo-platform
   description:
     Data.gov for geospatial data from a variety of federal agencies on topics
@@ -1067,7 +1059,7 @@
     utilities and others
   agency: Federal Geo-platform
   federal: Federal
-  link: 'https://www.geoplatform.gov/ '
-  poc: ''
+  link: 'https://www.geoplatform.gov/'
+  poc: Joel Schlagel
   problem-statement: agricultural
-  email:
+  email: joel.d.schlagel@usace.army.mil

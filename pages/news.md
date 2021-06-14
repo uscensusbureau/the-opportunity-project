@@ -51,7 +51,7 @@ legislation:
   skip-bottom-border: true
   left-col: news/bill-image.md
   right:
-    - title: '[The Opportunity Project Act of 2019](https://www.congress.gov/bill/116th-congress/house-bill/3528/text?r=16&s=1)'
+    - title: '[The Opportunity Project Act of 2019](https://www.congress.gov/bill/116th-congress/house-bill/3528/text)'
       body: In 2019, bipartisan TOP Authorizing legislation was introduced in congress, which directs the Secretary of Commerce to carry out a program to facilitate the development of digital products for the public, and for other purposes. This authorizing bill is a major step toward institutionalizing TOP in government.
 
 publications:

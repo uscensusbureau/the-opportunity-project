@@ -13,7 +13,7 @@ banner-subheader:
     line: '-light'
 
 callout:
-  text: The Open Data for Good Grand Challenge 2021 is now live!
+  text: Learn about our upcoming prize challenge
   markdownSrc: prize-callout.md
 
 about:

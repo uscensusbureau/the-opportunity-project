@@ -97,7 +97,8 @@ function filterProducts () {
   filterAgencies = getCheckedInputs(agencyInput)
   appendToURLSearchParams(searchParams, 'agency', filterAgencies)
 
-  console.log(searchParams.toString())
+  console.log(`searchParams: ${searchParams.toString()}`)
+  window.history.replaceState(null, document.title, searchParams.toString())
   displayFilteredProducts()
 }
 
@@ -109,7 +110,7 @@ const getCheckedInputs = container => {
 }
 /** adds all values of given array to URLSearchParams object with given key */
 const appendToURLSearchParams = (urlParams, key, values) => {
-  for (const value in values) {
+  for (const value of values) {
     urlParams.append(key, value)
   }
 }

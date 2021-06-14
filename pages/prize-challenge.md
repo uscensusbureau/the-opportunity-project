@@ -60,15 +60,27 @@ winners:
 {% include text-callout-centered.html content=page.callout %}
 
 {::options parse_block_html="true" /}
-<section class="grid-section margin-y-15">
-## Want to Learn More?
+<section class="grid-section margin-top-0 margin-bottom-15 padding-y-3 width-full maxw-full split-background-primary margin-x-0">
+  <div class="usa-media-block__body-outlined--secondary secondary-callout">
+## Upcoming Webinars
 {: .section-header }
 
-The Opportunity Project team will be hosting an informational webinar for individuals and teams interested in applying to the Open Data for Good Grand Challenge. 
+The Opportunity Project team will be hosting a series of informational webinars for individuals and teams interested in applying to the Open Data for Good Grand Challenge. Learn more about the prize and how to prepare your submission.
 
-[Join us](http://bit.ly/ODFGGCWebinar1) from 2-3pm ET on June 30th to learn more about the prize and how to prepare your submission.
+### Overview and Q&A
+June 30th 2:00 - 3:00 PM ET
+{: .margin-bottom-05 }
 
-[RSVP](http://bit.ly/ODFGGCWebinar1){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 }
+[RSVP](http://bit.ly/ODFGGCWebinar1){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
+{: .margin-top-0 }
+
+### Overview and Submission Feedback
+July 21st 2:00 - 3:00 PM ET
+
+August 11th 2:00 - 3:00 PM ET
+
+September 1st 2:00 - 3:00 PM ET
+  </div>
 </section>
 {::options parse_block_html="false" /}
 

@@ -752,6 +752,11 @@ main {
       @extend .btn-link__primary;
       background-color: color("base-darkest");
     }
+    &-white {
+      @extend .btn-link__primary;
+      background-color: color('white');
+      color: color('primary') !important
+    }
   }
 
   &__secondary {
@@ -2387,6 +2392,12 @@ code {
   padding: units(6);
   border: solid 1px rgba(255, 255, 255, 0.8);
   @include white-links;
+  &--secondary {
+    @include u-padding(6);
+    @include u-color('black');
+    border: 1px solid black;
+    // @include dark-links;
+  }
 }
 
 .usa-media-block__inline-items {
@@ -4562,6 +4573,12 @@ body {
   &.show-less {
     @include add-background-svg("angle-arrow-up-white");
   }
+}
+
+.secondary-callout {
+  max-width: calc(#{units("tablet-lg")} - #{units(7)});
+  @include u-bg('primary-lightest');
+  @include u-margin-x('auto');
 }
 
 .grid-section {

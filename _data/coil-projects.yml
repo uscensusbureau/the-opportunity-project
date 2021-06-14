@@ -56,8 +56,9 @@
       details: We work with federal data stewards to collect high quality datasets based around national challenges. Tech teams then use the Hub to find and use this data in their TOP projects.
       href: /data
     - title: Design-Thinking Toolkit
-      href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
-      isExternal: true
+      # href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
+      href: /assets/files/COIL_CensusSolutionsWorkshopToolkit_091417.pdf
+      isDownload: true
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
     - title: TOPx Toolkit
       details: TOPx allows federal agencies to utilize the TOP model and resources on their own. This toolkit helps agencies identify priorites that require data & technology innovation, recruit cross-sector participants, and facilitate a technology development sprint.

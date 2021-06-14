@@ -4,9 +4,10 @@
   <div class="coil-project-card{% if hasTags %}__with-tags{% endif %}">
     <h3>
       {% if data.href %}
-        <a href="{% unless data.isExternal %}{{ site.baseurl }}{% endunless %}{{ data.href }}">
+        <a href="{% unless data.isExternal %}{{ site.baseurl }}{% endunless %}{{ data.href }}"
+        {% if data.href %}download{% endif %}>
       {% endif %}
-      {{ data.title }}{% if data.href %}&nbsp;&rarr;
+      {{ data.title }}{% if data.href %}{% if data.isDownload %} (PDF)&nbsp;&darr;{% else %}&nbsp;&rarr;{% endif %}
         </a>
       {% endif %}
     </h3>

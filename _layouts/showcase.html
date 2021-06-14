@@ -111,7 +111,7 @@ layout: default
   </ul>
 
   <div id="product-modal" class="usa-modal maxw-tablet radius-0"
-    aria-labeledby="product-modal-heading" aria-describedby="modal-desc">
+    aria-labeledby="product-modal-heading" aria-describedby="modal-body">
     <div class="usa-modal__content">
       <div class="modal-grid">
         <div class="modal-column">
@@ -121,13 +121,14 @@ layout: default
         
           <div class="usa-card__body">
             <h2 class="usa-modal__heading font-sans-md" id="product-modal-heading">PRODUCT TITLE</h2>
-
-            <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
-            <p class="modal-desc" id="modal-desc">{{ product.description }}</p>
-            <p class="font-sans-2xs">Datasets Used</p>
-            <p class="modal-data-sets font-sans-2xs">
-              {{ product.data_sets_text }}
-            </p>
+            <div id="modal-body">
+              <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
+              <p class="modal-desc" id="modal-desc">{{ product.description }}</p>
+              <p class="font-sans-2xs">Datasets Used</p>
+              <p class="modal-data-sets font-sans-2xs">
+                {{ product.data_sets_text }}
+              </p>
+            </div>
           </div>
           <div class="usa-card__footer text-center">
             <a class="btn-link__primary-red modal-link" 

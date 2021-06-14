@@ -13,7 +13,7 @@ banner-subheader:
     line: '-light'
 
 callout:
-  text: Learn about our upcoming prize challenge
+  text: Learn About Our Upcoming Prize Challenge
   markdownSrc: prize-callout.md
 
 about:
@@ -58,6 +58,21 @@ winners:
 
 {% include hero.html %}
 {% include text-callout-centered.html content=page.callout %}
+
+{::options parse_block_html="true" /}
+<section class="grid-section margin-bottom-5">
+## Want to Learn More?
+{: .section-header }
+
+The Opportunity Project team will be hosting an informational webinar for individuals and teams interested in applying to the Open Data for Good Grand Challenge. 
+
+[Join us](http://bit.ly/ODFGGCWebinar1) from 2-3pm ET on June 30th to learn more about the prize and how to prepare your submission.
+
+[RSVP](http://bit.ly/ODFGGCWebinar1){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 }
+</section>
+{::options parse_block_html="false" /}
+
+<hr>
 
 {% include two-column-markdown.html content=page.about %}
 {% include two-column-markdown.html content=page.judging %}

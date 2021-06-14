@@ -24,10 +24,6 @@ get-involved:
 
 team:
   title: Meet the Team
-
-
-
-
 ---
 
 If you’re interested in participating in TOP, please [fill out this interest form]({{ site.contacts.census-form }}).

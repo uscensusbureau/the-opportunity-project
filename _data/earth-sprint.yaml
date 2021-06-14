@@ -368,16 +368,16 @@
 #   poc: 'Kathryn Youngblood '
 #   problem-statement: ocean-plastics
 #   email: kathryny@uga.edu
-- name: 'Divers Against Debris '
-  description:
-    Map showing types and amounts of debris scuba divers around the world have
-    removed and reported from underwater environments since 2011
-  agency: Project Aware
-  federal: Non-federal data
-  link: 'https://www.projectaware.org/diveagainstdebrismap'
-  poc: ''
-  problem-statement: ocean-plastics
-  email:
+# - name: 'Divers Against Debris '
+#   description:
+#     Map showing types and amounts of debris scuba divers around the world have
+#     removed and reported from underwater environments since 2011
+#   agency: Project Aware
+#   federal: Non-federal data
+#   link: 'https://www.projectaware.org/diveagainstdebrismap'
+#   poc: ''
+#   problem-statement: ocean-plastics
+#   email:
 - name: Global Alert - Floating Trash
   description:
     Online tool that increases interaction and connectivity to plastic pollution
@@ -781,7 +781,7 @@
   description: 'EPA, in collaboration with Scholastic, has created a new book, "The Magic School Bus Gets Cleaned Up," which teaches readers about pollution emitted from diesel school buses as well as ways to reduce emissions health risks.'
   agency: Environmental Protection Agency (EPA)
   federal: Federal
-  linke: https://www.epa.gov/dera/magic-school-bus
+  link: https://www.epa.gov/dera/magic-school-bus
   poc: Britney McCoy
   problem-statement: transportation-emissions
   email: McCoy.Britney@epa.gov
@@ -1021,9 +1021,9 @@
   federal: Federal data
   link:
     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
-  poc: John Mootz
+  poc: Joan Biediger
   problem-statement: agricultural
-  email: john.mootz@usda.gov
+  email: joan.biediger@usda.gov
 - name: NAIP public image dates
   description:
     ArcGIS Rest Service URL for vector services that include information about
@@ -1036,9 +1036,9 @@
   federal: Federal data
   link:
     https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
-  poc: John Mootz
+  poc: Joan Biediger
   problem-statement: agricultural
-  email: john.mootz@usda.gov
+  email: joan.biediger@usda.gov
 - name: USGS National Map
   description:
     Suite of products and services that provide access to base geospatial
@@ -1052,14 +1052,6 @@
   poc: Gita Urban-Mathieux
   problem-statement: agricultural
   email: burbanma@usgs.gov
-# - name: Amazon Web Services
-#   description: ''
-#   agency: ''
-#   federal: ''
-#   link: ''
-#   poc: 'Joe Flasher '
-#   problem-statement: ''
-#   email: jflasher@amazon.com
 - name: Federal Geo-platform
   description:
     Data.gov for geospatial data from a variety of federal agencies on topics
@@ -1067,7 +1059,7 @@
     utilities and others
   agency: Federal Geo-platform
   federal: Federal
-  link: 'https://www.geoplatform.gov/ '
-  poc: ''
+  link: 'https://www.geoplatform.gov/'
+  poc: Joel Schlagel
   problem-statement: agricultural
-  email:
+  email: joel.d.schlagel@usace.army.mil

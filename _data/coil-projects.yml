@@ -48,8 +48,10 @@
           href: https://www.creativesforthecount.org/toolkit/
           isExternal: true
         - text: Community Outreach Toolkit
-          href: https://2020census.gov/content/dam/2020census/materials/partners/2019-03/toolkit.pdf
-          isExternal: true
+          # href: https://2020census.gov/content/dam/2020census/materials/partners/2019-03/toolkit.pdf
+          href: '/assets/files/CommunityMessagingToolkit_04012018.pdf'
+          isExternal: false
+          isDownload: true
     - title: Data Curation Hub
       details: We work with federal data stewards to collect high quality datasets based around national challenges. Tech teams then use the Hub to find and use this data in their TOP projects.
       href: /data

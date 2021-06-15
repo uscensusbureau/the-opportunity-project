@@ -813,11 +813,13 @@ main {
   margin-bottom: units(7);
 }
 
-.clickable-card {
+.clickable-card, .product-card {
   &:hover {
     cursor: pointer;
   }
-
+  &:focus, &:focus-within {
+    @include u-outline('05', $theme-focus-color)
+  }
 }
 
 
@@ -2303,6 +2305,7 @@ code {
 }
 
 .modal-grid {
+  margin-top: -2.6rem;
   @include grid-row;
   flex-direction: column;
   .modal-column {

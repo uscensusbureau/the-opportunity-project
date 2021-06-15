@@ -215,8 +215,7 @@ const cards = document.getElementsByClassName('product-card')
 Array.from(cards).forEach(card => {
   card.addEventListener('click', e => {
     const cardTitle = card.getElementsByClassName('usa-card__heading')[0].innerHTML
-
-    modal.getElementsByClassName('usa-card__header')[0].getElementsByTagName('h3')[0].innerHTML = cardTitle
+    document.getElementById('product-modal-heading').innerHTML = cardTitle
 
     const pic = card.getElementsByTagName('picture')[0]
     if (pic) {
@@ -230,18 +229,18 @@ Array.from(cards).forEach(card => {
       }
     }
 
-    modal.getElementsByClassName('modal-tech-team')[0].innerText =
-      card.getElementsByClassName('product-tech-team')[0].innerText
+    modal.getElementsByClassName('modal-tech-team')[0].innerHTML =
+      card.getElementsByClassName('product-tech-team')[0].innerHTML
     modal.getElementsByClassName('modal-data-sets')[0].innerText =
       card.getElementsByClassName('product-data-sets')[0].innerText
-    modal.getElementsByClassName('modal-desc')[0].innerText =
+    document.getElementById('modal-desc').innerText =
       card.getElementsByClassName('product-desc')[0].innerText
 
     const href = card.getElementsByClassName('product-link')[0].innerText
     modal.getElementsByClassName('modal-link')[0].href = href
 
-    modal.classList.remove('modal-inactive')
-    modal.classList.add('modal-active')
+    // modal.classList.remove('modal-inactive')
+    // modal.classList.add('modal-active')
   })
 })
 
@@ -252,6 +251,7 @@ const closeModal = () => {
 
 $('.close').on('click', closeModal)
 
+/*
 if (modal) {
   const checkModalClose = event => {
     if (modal.contains(event.target)) {
@@ -264,6 +264,7 @@ if (modal) {
   window.addEventListener('click', checkModalClose)
   window.addEventListener('focusin', checkModalClose)
 }
+*/
 
 $('.data-card-group').on('click', function (e) {
   if (e.target) {

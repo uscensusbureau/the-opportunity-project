@@ -52,7 +52,8 @@ layout: default
         {% include product-filter.html label="Partner Agency" data=site.data.product-filters.agencies z=300 %}
   
         <div class="display-inline-block margin-top-2">
-          <button class="btn-link__secondary-red padding-1 margin-top-0" id="reset-filter">Reset Filter &#127335;
+          <button class="btn-link__secondary-red padding-1 margin-top-0" id="reset-filter">
+            Reset Filter <span aria-hidden="true">&#127335;</span>
           </button>
         </div>
       </div>
@@ -67,6 +68,7 @@ layout: default
       {% if product.link %}
         
         {% assign imgSrc = "photos/products/" | append: product.image %}
+        {% assign imageAlt = product.title | append: " product screenshot" %}
         {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
         {% assign problem_statement = problem_statements[ 0 ] %}
         {% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[ 0 ] %}
@@ -75,64 +77,73 @@ layout: default
         <li id="product-card-{{product.title | slugify}}" 
           class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active" 
           name="productCard">
-          <div class="usa-card__container clickable-card bg-base-darkest">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
-              {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
-              {% if product.category %}
-                <h4 class="pc-inactive">{{ product.category }}</h4>
-              {% endif %}
-              {% if problem_statement.agency_text %}
-                <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
-              {% endif %}
-              <p style="display:none" class="product-desc">{{ product.description }}</p>
-              <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
-              <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>
-              <span style="display:none" class="product-link">{{ product.link }}</span>
-              <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
-            </header>
-            <div class="usa-card__body">
-              <p class="font-mono-xs text-white product-tech-team">{{ product.tech_team_text | upcase | remove: '"' }}</p>
+          <a class="text-no-underline" href="#product-modal" aria-controls="product-modal" data-open-modal>
+            <div class="usa-card__container clickable-card bg-base-darkest">
+              <header class="usa-card__header">
+                <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">
+                  <span class="usa-sr-only">product name</span>{{ product.title }}
+                </h2>
+                {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
+                {% if product.category %}
+                  <h4 class="pc-inactive">{{ product.category }}</h4>
+                {% endif %}
+                {% if problem_statement.agency_text %}
+                  <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+                {% endif %}
+                <p style="display:none" class="product-desc">{{ product.description }}</p>
+                <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
+                <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>
+                <span style="display:none" class="product-link">{{ product.link }}</span>
+                <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
+              </header>
+              <div class="usa-card__body">
+                <p class="font-mono-xs text-white product-tech-team"><span class="usa-sr-only">team name</span>{{ product.tech_team_text | upcase | remove: '"' }}</p>
+              </div>
+              <div class="usa-card__img">
+                {% include image.html src=imgSrc alt=imageAlt class="maxh-15" %}
+              </div>
             </div>
-            <div class="usa-card__img">
-              {% include image.html src=imgSrc alt=product.image-alt class="maxh-15" %}
-            </div>
-          </div>
+          </a>
         </li>
         
       {% endif %}
     {% endfor %}
   </ul>
 
-    <div id="product-modal" class="modal modal-inactive z-500">
-      <div class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
-        <div class="usa-card__container margin-0 border-0">
-
-          <div class="modal-grid">
-            <div class="modal-column">
-              {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
-            </div>
-            <div class="modal-column">
-              <header class="usa-card__header">
-                <span class="close">&times;</span>
-                <h3 class="font-sans-md">PRODUCT TITLE</h3>
-              </header>
-            
-              <div class="usa-card__body">
-                <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
-                <p class="modal-desc">{{ product.description }}</p>
-                <p class="font-sans-2xs">Datasets Used</p>
-                <p class="modal-data-sets font-sans-2xs">
-                  {{ product.data_sets_text }}
-                </p>
-              </div>
-              <div class="usa-card__footer text-center">
-                <a class="btn-link__primary-red modal-link" 
-                href="{{ product.link }}" product-link target="_blank">Go to Product</a>
-              </div>
+  <div id="product-modal" class="usa-modal maxw-tablet radius-0"
+    aria-labeledby="product-modal-heading" aria-describedby="modal-body">
+    <div class="usa-modal__content">
+      <div class="modal-grid">
+        <div class="modal-column">
+          {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
+        </div>
+        <div class="modal-column">
+        
+          <div class="usa-card__body">
+            <h2 class="usa-modal__heading font-sans-md" id="product-modal-heading">PRODUCT TITLE</h2>
+            <div id="modal-body">
+              <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
+              <p class="modal-desc" id="modal-desc">{{ product.description }}</p>
+              <p class="font-sans-2xs">Datasets Used</p>
+              <p class="modal-data-sets font-sans-2xs">
+                {{ product.data_sets_text }}
+              </p>
             </div>
           </div>
+          <div class="usa-card__footer text-center">
+            <a class="btn-link__primary-red modal-link" 
+            href="{{ product.link }}" product-link target="_blank">Go to Product</a>
+          </div>
+          
         </div>
+        
       </div>
+      <button class="usa-button usa-modal__close bg-secondary radius-0 text-white" aria-label="Close this window" data-close-modal>
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#close"></use>
+        </svg>
+      </button>
     </div>
+  </div>
+
 </section>

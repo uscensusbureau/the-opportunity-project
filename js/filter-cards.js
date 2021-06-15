@@ -22,7 +22,8 @@ if (params.has('search')) {
   searchField.value = searchParam
   searchTerm = searchParam
 
-  displayFilteredProducts()
+  setInterval(displayFilteredProducts, 500)
+  // displayFilteredProducts()
 
   document.getElementById('all-products').scrollIntoView()
 }
@@ -123,10 +124,12 @@ const appendToURLSearchParams = (urlParams, key, values) => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts () {
+  searchTerm = searchTerm.toLowerCase()
+  let numProductsFound = 0
   for (let i = 0; i < productCards.length; i++) {
     const card = productCards[i]
     const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
-    const prodDesc = card.getElementsByTagName('p')[0].innerText
+    const prodDesc = slugify(card.getElementsByTagName('p')[0].innerText)
     const prodProblems = card.getElementsByTagName('p')[1].innerText
     const productNameSlugified = productName.replace('\'', '-').split('.').join('-').split(':').join('-')
     let productYear = ''
@@ -138,8 +141,12 @@ function displayFilteredProducts () {
     const productAgency = card.getElementsByTagName('h5')[0]
       ? card.getElementsByTagName('h5')[0].innerText.toLowerCase().split(' ').join('-')
       : ''
+    const productDatasets = card.getElementsByClassName('product-data-sets')[0]
+      ? card.getElementsByClassName('product-data-sets')[0].innerText.toLowerCase().split(' ').join('-')
+      : ''
 
-    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) || prodProblems.includes(searchTerm)
+    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) ||
+      prodProblems.includes(searchTerm) || productAgency.includes(searchTerm) || productDatasets.includes(searchTerm)
 
     const topicMatches = checkFilterMatch(productTopic, filterTopics)
     const yearMatches = checkFilterMatch(productYear, filterYears)
@@ -149,9 +156,15 @@ function displayFilteredProducts () {
 
     if (searchMatch && filterMatch) {
       card.classList.remove('pc-inactive')
+      numProductsFound++
     } else {
       card.classList.add('pc-inactive')
     }
+
+    const results = document.getElementById('results-count')
+    results.innerText = numProductsFound > 0
+      ? `Found ${numProductsFound} products.`
+      : 'No products found.'
   }
 }
 

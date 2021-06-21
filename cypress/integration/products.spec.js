@@ -6,13 +6,40 @@ describe('Products Test', () => {
   const resultsField = '#results-count'
   const resetButton = '#reset-filter'
 
-  const expectedResults = [
+  const expectedSearchResults = [
     { searchTerm: 'naip', results: 4},
     { searchTerm: 'bananarama', results: 0 },
     { searchTerm: 'maps', results: 2 },
     { searchTerm: 'covid', results: 13 },
     { searchTerm: 'bites media', results: 1 },
     { searchTerm: 'jobs', results: 7 }
+  ]
+
+  const filterResults = [
+    {
+      filterIndex: 0,
+      filterId: 'topic',
+      optionId: 'Addressing',
+      results: 3
+    },
+    {
+      filterIndex: 0,
+      filterId: 'topic',
+      optionId: 'Employment',
+      results: 9
+    },
+    { 
+      filterIndex: 1,
+      filterId: 'year',
+      optionId: '2021',
+      results: 12
+    },
+    { 
+      filterIndex: 1,
+      filterId: 'year',
+      optionId: '2018',
+      results: 16
+    }
   ]
 
   const search = string => {
@@ -22,7 +49,7 @@ describe('Products Test', () => {
 
   it('shows the right number of results after search', () => {
     cy.visit(base)
-    for (const pair of expectedResults) {
+    for (const pair of expectedSearchResults) {
       cy.get(searchField).clear().type(pair.searchTerm)
       cy.get(searchForm).submit()
       cy.get(activeQuery).should('have.length', pair.results)
@@ -31,7 +58,7 @@ describe('Products Test', () => {
 
   it('returns same search irrespective of capitalization', () => {
     cy.visit(base)
-    for (const pair of expectedResults) {
+    for (const pair of expectedSearchResults) {
       cy.get('#search-field').clear().type(pair.searchTerm.toUpperCase())
       cy.get("#product-search-form").submit()
       cy.get(activeQuery).should('have.length', pair.results)
@@ -42,9 +69,9 @@ describe('Products Test', () => {
     cy.visit(base)
     cy.get(resultsField).should("have.text", 'Found 101 products.')
 
-    cy.get(searchField).type(expectedResults[0].searchTerm)
+    cy.get(searchField).type(expectedSearchResults[0].searchTerm)
     cy.get(searchForm).submit()
-    cy.get(resultsField).should("have.text", `Found ${expectedResults[0].results} products.`)
+    cy.get(resultsField).should("have.text", `Found ${expectedSearchResults[0].results} products.`)
 
     cy.get(searchField).clear()
     cy.get(searchForm).submit()
@@ -57,11 +84,11 @@ describe('Products Test', () => {
   })
 
   it('searches products based on existing search in urlParams', () => {
-    cy.visit(`${base}?search=${expectedResults[0].searchTerm}`)
+    cy.visit(`${base}?search=${expectedSearchResults[0].searchTerm}`)
     
-    cy.get(searchField).should('have.value', expectedResults[0].searchTerm)
-    cy.get(resultsField).should('have.text', `Found ${expectedResults[0].results} products.`)
-    cy.get(activeQuery).should('have.length', expectedResults[0].results)
+    cy.get(searchField).should('have.value', expectedSearchResults[0].searchTerm)
+    cy.get(resultsField).should('have.text', `Found ${expectedSearchResults[0].results} products.`)
+    cy.get(activeQuery).should('have.length', expectedSearchResults[0].results)
   })
 
   it('adds search query to urlParams', () => {
@@ -84,6 +111,29 @@ describe('Products Test', () => {
     cy.get(searchField).should('have.value', '')
   })
 
+  it('starts with hidden dropdown filter menus', () => {
+    cy.visit(base)
+    for(let i = 1; i <= 3; i++) {
+      cy.get(`.product-filter__container:nth-child(${i}) .dropdown-menu`)
+        .should('not.be.visible')
+    }
+  })
+
+  it.only('changes display of num products found when filter is clicked', () => {
+    const expected = filterResults[0]
+    cy.visit(base)
+    cy.get(`.product-filter__container:nth-child(${expected.filterIndex + 1})`)
+      .within(() => {
+        cy.get('button').click()
+        cy.get('.dropdown-menu').should('be.visible')
+        cy.get(`#${expected.optionId}`)
+          .click({force: true})
+      })
+      cy.get(resultsField).should("have.text", `Found ${expected.results} products.`)
+      cy.url().should('contain', `${expected.filterId}=${expected.optionId}`)
+    
+  })
+
   it('clears filters with reset button', () => {
 
   })
@@ -94,10 +144,6 @@ describe('Products Test', () => {
 
   it('empties urlSearchParams with reset button', () => {
 
-  })
-
-  it('changes display of num products found when filter is clicked', () => {
-    
   })
 
   it('filters products based on existing filters in urlParams', () => {

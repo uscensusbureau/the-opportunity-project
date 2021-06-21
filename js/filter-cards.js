@@ -88,18 +88,21 @@ function onSearch () {
  * Applies all current filters and displays appropriate products.
  */
 function filterProducts () {
-  const searchParams = new URLSearchParams(window.location.search)
+  const currSearch = searchTerm ? `?search=${searchTerm}` : '?'
+  const searchParams = new URLSearchParams(currSearch)
   filterTopics = getCheckedInputs(topicsInput)
   appendToURLSearchParams(searchParams, 'topic', filterTopics)
 
   filterYears = getCheckedInputs(yearInput)
+  console.log(filterYears)
   appendToURLSearchParams(searchParams, 'year', filterYears)
 
   filterAgencies = getCheckedInputs(agencyInput)
   appendToURLSearchParams(searchParams, 'agency', filterAgencies)
 
   console.log(`searchParams: ${searchParams.toString()}`)
-  window.history.replaceState(null, document.title, searchParams.toString())
+  const newURL = searchParams.toString() ? `?${searchParams.toString()}` : window.location.origin + '/showcase/'
+  window.history.replaceState(null, document.title, newURL)
   displayFilteredProducts()
 }
 
@@ -160,12 +163,12 @@ function displayFilteredProducts () {
     } else {
       card.classList.add('pc-inactive')
     }
-
-    const results = document.getElementById('results-count')
-    results.innerText = numProductsFound > 0
-      ? `Found ${numProductsFound} products.`
-      : 'No products found.'
   }
+
+  const results = document.getElementById('results-count')
+  results.innerText = numProductsFound > 0
+    ? `Found ${numProductsFound} products.`
+    : 'No products found.'
 }
 
 function checkFilterMatch (productValue, filterArray) {

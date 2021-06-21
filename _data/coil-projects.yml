@@ -49,7 +49,7 @@
           isExternal: true
         - text: Community Outreach Toolkit
           # href: https://2020census.gov/content/dam/2020census/materials/partners/2019-03/toolkit.pdf
-          href: '/assets/files/CommunityMessagingToolkit_04012018.pdf'
+          href: '/assets/files/CommunityOutreachToolkit.pdf'
           isExternal: false
           isDownload: true
     - title: Data Curation Hub
@@ -57,7 +57,7 @@
       href: /data
     - title: Design-Thinking Toolkit
       # href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
-      href: /assets/files/COIL_CensusSolutionsWorkshopToolkit_091417.pdf
+      href: /assets/files/DesignThinkingToolkit.pdf
       isDownload: true
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
     - title: TOPx Toolkit

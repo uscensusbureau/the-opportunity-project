@@ -15,14 +15,31 @@ let filterTopics = []
 let filterYears = []
 let filterAgencies = []
 
+const filters = [
+  { id: 'topic', checked: filterTopics },
+  { id: 'year', checked: filterYears },
+  { id: 'partner-agency', checked: filterAgencies }
+]
+
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
-if (params.has('search')) {
+if (window.location.search) {
   const searchParam = params.get('search')
-  searchField.value = searchParam
-  searchTerm = searchParam
+  if (searchParam) {
+    searchField.value = searchParam
+    searchTerm = searchParam
+  }
 
-  setInterval(displayFilteredProducts, 500)
+  for (const filter of filters) {
+    const terms = params.getAll(filter.id)
+    for (const term of terms) {
+      console.log(term)
+      filter.checked.push(term)
+      document.getElementById(term.replace(' ', '-')).checked = true
+    }
+  }
+
+  setTimeout(displayFilteredProducts, 500)
   // displayFilteredProducts()
 
   document.getElementById('all-products').scrollIntoView()
@@ -76,13 +93,6 @@ if (filterForm) {
 function onSearch () {
   searchTerm = searchField.value
   filterProducts()
-
-  // let path = window.location.origin + window.location.pathname
-  // if (searchTerm) {
-  //   path += `?search=${searchTerm}`
-  // }
-  // window.history.replaceState(searchTerm, document.title, path)
-  // searchTerm = searchField.value
 }
 
 /**
@@ -106,10 +116,6 @@ function filterProducts () {
   window.history.replaceState(null, document.title, newURL)
   displayFilteredProducts()
 }
-
-// const constructUrlParams = (searchTerm, topics, years, agencies) {
-  
-// }
 
 /** returns array of values of all checked inputs contained within a given div */
 const getCheckedInputs = container => {

@@ -18,8 +18,8 @@
   <div id="{{ id }}" class="usa-accordion dropdown-menu">
     {% for option in all_options %}
       <div class="usa-checkbox">
-        <input class="usa-checkbox__input" id="{{ option }}" type="checkbox" name="filter-checkbox" value="{{ option }}">
-        <label class="usa-checkbox__label" for="{{ option }}">{{ option }}</label>
+        <input class="usa-checkbox__input" id="{{ option | replace: ' ', '-' }}" type="checkbox" name="filter-checkbox" value="{{ option }}">
+        <label class="usa-checkbox__label" for="{{ option | replace: ' ', '-' }}">{{ option }}</label>
       </div>
     {% endfor %}
   </div>

@@ -64,7 +64,7 @@ layout: default
 <section class="usa-section usa-graphic-list grid-container">
   {% assign products = site.data.products | where_exp: "item", "item.link" %}
 
-  <h4 id="results-count">Found {{products.size}} products.</h4>
+  <h4 id="results-count" class="text-normal">Found {{products.size}} products.</h4>
   <ul class="usa-card-group">
     {% for product in products %}
         

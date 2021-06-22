@@ -44,7 +44,19 @@ describe('Products Test', () => {
       filterIndex: 2,
       filterId: 'partner-agency',
       optionId: 'Department of Agriculture',
+      results: 4
+    },
+    {
+      filterIndex: 2,
+      filterId: 'partner-agency',
+      optionId: 'Census Bureau',
       results: 12
+    },
+    {
+      filterIndex: 2,
+      filterId: 'topic',
+      optionId: 'Economic Development',
+      results: 8
     }
   ]
 
@@ -147,7 +159,7 @@ describe('Products Test', () => {
         .within(() => {
           cy.get('button').click()
           cy.get('.dropdown-menu').should('be.visible')
-          cy.get(`.usa-checkbox__label[for='${testing.optionId}']`)
+          cy.get(`.usa-checkbox__label[for='${testing.optionId.replaceAll(' ', '-')}']`)
             .click({force: true})
         })
     }
@@ -162,7 +174,7 @@ describe('Products Test', () => {
         .within(() => {
           cy.get('button').click()
           cy.get('.dropdown-menu').should('be.visible')
-          cy.get(`.usa-checkbox__label[for='${testing.optionId}']`)
+          cy.get(`.usa-checkbox__label[for='${testing.optionId.replaceAll(' ', '-')}']`)
             .click({force: true})
         })
       cy.url().should('contain', `${testing.filterId}=${testing.optionId.replaceAll(' ', '+')}`)
@@ -223,5 +235,71 @@ describe('Products Test', () => {
       cy.url().should('contain', `${testing.filterId}=${testing.optionId.replaceAll(' ', '+')}`)
     }
     cy.url().should('contain', 'search=maps')
+  })
+
+  it('shows products based on one existing filter in urlParams', () => {
+    const testing = filterResults[0]
+    cy.visit(`${base}?${testing.filterId}=${testing.optionId.replaceAll(' ', '+')}`)
+    
+    cy.get(activeQuery).should('have.length', testing.results)
+    cy.get(`#${testing.optionId.replace(' ', '-')}`).should('be.checked')
+    cy.get(resultsField).should("have.text", `Found ${testing.results} products.`)
+  })
+
+  it('shows products based on multiple word filter in urlParams', () => {
+    const testing = filterResults[6]
+    cy.visit(`${base}?${testing.filterId}=${testing.optionId.replaceAll(' ', '+')}`)
+    
+    cy.get(activeQuery).should('have.length', testing.results)
+    cy.get(`#${testing.optionId.replace(' ', '-')}`).should('be.checked')
+    cy.get(resultsField).should("have.text", `Found ${testing.results} products.`)
+  })
+
+  it('shows products based on multiple existing filters of same type in urlParams', () => {
+    const testing = [filterResults[0], filterResults[6]]
+    const reducer = (acc, currVal, i) => {
+      const addString = `${currVal.filterId}=${currVal.optionId.replaceAll(' ', '+')}`
+      return i === 0 ? acc + addString : acc + '&' + addString
+    }
+    const paramString = testing.reduce(reducer, '?')
+    cy.visit(`${base}${paramString}`)
+
+    for (const result of testing) {
+      cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
+    }
+    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(activeQuery).should('have.length.lessThan', 101)
+  })
+
+  it('shows products based on multiple existing filters of different types in urlParams', () => {
+    const testing = [filterResults[0], filterResults[3]]
+    const reducer = (acc, currVal, i) => {
+      const addString = `${currVal.filterId}=${currVal.optionId.replaceAll(' ', '+')}`
+      return i === 0 ? acc + addString : acc + '&' + addString
+    }
+    const paramString = testing.reduce(reducer, '?')
+    cy.visit(`${base}${paramString}`)
+
+    for (const result of testing) {
+      cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
+    }
+    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(activeQuery).should('have.length.lessThan', 101)
+  })
+
+  it('shows products based on filters and search in urlParams', () => {
+    const testing = [filterResults[0], filterResults[6]]
+    const reducer = (acc, currVal, i) => {
+      const addString = `${currVal.filterId}=${currVal.optionId.replaceAll(' ', '+')}`
+      return i === 0 ? acc + addString : acc + '&' + addString
+    }
+    const paramString = testing.reduce(reducer, '?')
+    cy.visit(`${base}${paramString}&search=city`)
+
+    for (const result of testing) {
+      cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
+    }
+    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(activeQuery).should('have.length.lessThan', 101)
   })
 })

@@ -39,6 +39,12 @@ describe('Products Test', () => {
       filterId: 'year',
       optionId: '2018',
       results: 16
+    },
+    {
+      filterIndex: 2,
+      filterId: 'partner-agency',
+      optionId: 'Department of Agriculture',
+      results: 12
     }
   ]
 
@@ -119,7 +125,7 @@ describe('Products Test', () => {
     }
   })
 
-  it.only('changes display of num products found when filter is clicked', () => {
+  it('changes display of num products found when filter is clicked', () => {
     const expected = filterResults[0]
     cy.visit(base)
     cy.get(`.product-filter__container:nth-child(${expected.filterIndex + 1})`)
@@ -129,32 +135,93 @@ describe('Products Test', () => {
         cy.get(`#${expected.optionId}`)
           .click({force: true})
       })
-      cy.get(resultsField).should("have.text", `Found ${expected.results} products.`)
-      cy.url().should('contain', `${expected.filterId}=${expected.optionId}`)
-    
+    cy.get(resultsField)
+      .should("have.text", `Found ${expected.results} products.`)
   })
 
-  it('clears filters with reset button', () => {
+  const clickOneOfEachFilter = () => {
+    const toTest = [filterResults[0], filterResults[2], filterResults[4]]
+    cy.visit(base)
+    for (let testing of toTest) {
+      cy.get(`.product-filter__container:nth-child(${testing.filterIndex + 1})`)
+        .within(() => {
+          cy.get('button').click()
+          cy.get('.dropdown-menu').should('be.visible')
+          cy.get(`.usa-checkbox__label[for='${testing.optionId}']`)
+            .click({force: true})
+        })
+    }
+  }
 
+  it('adds filter to urlSearchParams for each filter type', () => {
+    // click one filter of each type (topics, year, partner agency)
+    const toTest = [filterResults[0], filterResults[2], filterResults[4]]
+    cy.visit(base)
+    for (let testing of toTest) {
+      cy.get(`.product-filter__container:nth-child(${testing.filterIndex + 1})`)
+        .within(() => {
+          cy.get('button').click()
+          cy.get('.dropdown-menu').should('be.visible')
+          cy.get(`.usa-checkbox__label[for='${testing.optionId}']`)
+            .click({force: true})
+        })
+      cy.url().should('contain', `${testing.filterId}=${testing.optionId.replaceAll(' ', '+')}`)
+    }
+  })
+
+  it('removes filter from urlParams on clicking again', () => {
+    const expected = filterResults[0]
+    cy.visit(base)
+    cy.get(`.product-filter__container:nth-child(${expected.filterIndex + 1})`)
+      .within(() => {
+        cy.get('button').click()
+        cy.get('.dropdown-menu').should('be.visible')
+        cy.get(`#${expected.optionId}`)
+          .click({force: true}) 
+        cy.url().should('contain', `${expected.filterId}=${expected.optionId.replaceAll(' ', '+')}`)
+        
+        cy.get(`#${expected.optionId}`)
+          .click({force: true})
+        cy.url().should('equal', base)
+      })
   })
 
   it('closes filters with reset button', () => {
+    cy.visit(base)
+    clickOneOfEachFilter()
+    cy.get(resetButton).click()
+    cy.get('.dropdown-menu').each($el => {
+      cy.wrap($el).should('not.be.visible')
+    })
+  })
 
+  it('clears filters with reset button', () => {
+    cy.visit(base)
+    clickOneOfEachFilter()
+    cy.get(resetButton).click()
+    cy.get('.usa-checkbox__input').each($el => {
+      cy.wrap($el).should('not.be.checked')
+    })
   })
 
   it('empties urlSearchParams with reset button', () => {
+    cy.visit(base)
+    clickOneOfEachFilter()
+    search("maps")
+    cy.get(resetButton).click()
 
-  })
-
-  it('filters products based on existing filters in urlParams', () => {
-    expect(true).to.equal(false)
-  })
-
-  it('adds filter queries to urlParams', () => {
-    expect(true).to.equal(false)
+    cy.url().should('equal', base)
   })
 
   it('combines filters and search in urlParams', () => {
-    expect(true).to.equal(false)
+    cy.visit(base)
+    clickOneOfEachFilter()
+    search("maps")
+
+    for(let i = 0; i <= 4; i += 2) {
+      const testing = filterResults[i]
+      cy.url().should('contain', `${testing.filterId}=${testing.optionId.replaceAll(' ', '+')}`)
+    }
+    cy.url().should('contain', 'search=maps')
   })
 })

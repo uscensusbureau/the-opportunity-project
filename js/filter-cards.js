@@ -75,13 +75,14 @@ if (filterForm) {
 
 function onSearch () {
   searchTerm = searchField.value
+  filterProducts()
 
-  let path = window.location.origin + window.location.pathname
-  if (searchTerm) {
-    path += `?search=${searchTerm}`
-  }
-  window.history.replaceState(searchTerm, document.title, path)
-  searchTerm = searchField.value
+  // let path = window.location.origin + window.location.pathname
+  // if (searchTerm) {
+  //   path += `?search=${searchTerm}`
+  // }
+  // window.history.replaceState(searchTerm, document.title, path)
+  // searchTerm = searchField.value
 }
 
 /**
@@ -98,13 +99,17 @@ function filterProducts () {
   appendToURLSearchParams(searchParams, 'year', filterYears)
 
   filterAgencies = getCheckedInputs(agencyInput)
-  appendToURLSearchParams(searchParams, 'agency', filterAgencies)
+  appendToURLSearchParams(searchParams, 'partner-agency', filterAgencies)
 
   console.log(`searchParams: ${searchParams.toString()}`)
   const newURL = searchParams.toString() ? `?${searchParams.toString()}` : window.location.origin + '/showcase/'
   window.history.replaceState(null, document.title, newURL)
   displayFilteredProducts()
 }
+
+// const constructUrlParams = (searchTerm, topics, years, agencies) {
+  
+// }
 
 /** returns array of values of all checked inputs contained within a given div */
 const getCheckedInputs = container => {

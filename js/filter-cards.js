@@ -105,14 +105,15 @@ function filterProducts () {
   appendToURLSearchParams(searchParams, 'topic', filterTopics)
 
   filterYears = getCheckedInputs(yearInput)
-  console.log(filterYears)
   appendToURLSearchParams(searchParams, 'year', filterYears)
 
   filterAgencies = getCheckedInputs(agencyInput)
   appendToURLSearchParams(searchParams, 'partner-agency', filterAgencies)
 
-  console.log(`searchParams: ${searchParams.toString()}`)
-  const newURL = searchParams.toString() ? `?${searchParams.toString()}` : window.location.origin + '/showcase/'
+  let newURL = window.location.origin + window.location.pathname
+  if (searchParams.toString()) {
+    newURL += `?${searchParams.toString()}`
+  }
   window.history.replaceState(null, document.title, newURL)
   displayFilteredProducts()
 }

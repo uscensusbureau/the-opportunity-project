@@ -15,14 +15,32 @@ let filterTopics = []
 let filterYears = []
 let filterAgencies = []
 
+const filters = [
+  { id: 'topic', checked: filterTopics },
+  { id: 'year', checked: filterYears },
+  { id: 'partner-agency', checked: filterAgencies }
+]
+
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
-if (params.has('search')) {
+if (window.location.search) {
   const searchParam = params.get('search')
-  searchField.value = searchParam
-  searchTerm = searchParam
+  if (searchParam) {
+    searchField.value = searchParam
+    searchTerm = searchParam
+  }
 
-  displayFilteredProducts()
+  for (const filter of filters) {
+    const terms = params.getAll(filter.id)
+    for (const term of terms) {
+      console.log(term)
+      filter.checked.push(term)
+      document.getElementById(term.replace(' ', '-')).checked = true
+    }
+  }
+
+  setTimeout(displayFilteredProducts, 500)
+  // displayFilteredProducts()
 
   document.getElementById('all-products').scrollIntoView()
 }
@@ -74,23 +92,29 @@ if (filterForm) {
 
 function onSearch () {
   searchTerm = searchField.value
-
-  let path = window.location.origin + window.location.pathname
-  if (searchTerm) {
-    path += `?search=${searchTerm}`
-  }
-  window.history.replaceState(searchTerm, document.title, path)
-  searchTerm = searchField.value
+  filterProducts()
 }
 
 /**
  * Applies all current filters and displays appropriate products.
  */
 function filterProducts () {
+  const currSearch = searchTerm ? `?search=${searchTerm}` : '?'
+  const searchParams = new URLSearchParams(currSearch)
   filterTopics = getCheckedInputs(topicsInput)
-  filterYears = getCheckedInputs(yearInput)
-  filterAgencies = getCheckedInputs(agencyInput)
+  appendToURLSearchParams(searchParams, 'topic', filterTopics)
 
+  filterYears = getCheckedInputs(yearInput)
+  appendToURLSearchParams(searchParams, 'year', filterYears)
+
+  filterAgencies = getCheckedInputs(agencyInput)
+  appendToURLSearchParams(searchParams, 'partner-agency', filterAgencies)
+
+  let newURL = window.location.origin + window.location.pathname
+  if (searchParams.toString()) {
+    newURL += `?${searchParams.toString()}`
+  }
+  window.history.replaceState(null, document.title, newURL)
   displayFilteredProducts()
 }
 
@@ -99,6 +123,12 @@ const getCheckedInputs = container => {
   const inputEls = Array.from(container.getElementsByTagName('input'))
   return inputEls.filter(input => input.checked)
     .map(checkedInput => checkedInput.value)
+}
+/** adds all values of given array to URLSearchParams object with given key */
+const appendToURLSearchParams = (urlParams, key, values) => {
+  for (const value of values) {
+    urlParams.append(key, value)
+  }
 }
 
 /**
@@ -109,10 +139,12 @@ const getCheckedInputs = container => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts () {
+  searchTerm = searchTerm.toLowerCase()
+  let numProductsFound = 0
   for (let i = 0; i < productCards.length; i++) {
     const card = productCards[i]
     const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
-    const prodDesc = card.getElementsByTagName('p')[0].innerText
+    const prodDesc = slugify(card.getElementsByTagName('p')[0].innerText)
     const prodProblems = card.getElementsByTagName('p')[1].innerText
     const productNameSlugified = productName.replace('\'', '-').split('.').join('-').split(':').join('-')
     let productYear = ''
@@ -124,8 +156,12 @@ function displayFilteredProducts () {
     const productAgency = card.getElementsByTagName('h5')[0]
       ? card.getElementsByTagName('h5')[0].innerText.toLowerCase().split(' ').join('-')
       : ''
+    const productDatasets = card.getElementsByClassName('product-data-sets')[0]
+      ? card.getElementsByClassName('product-data-sets')[0].innerText.toLowerCase().split(' ').join('-')
+      : ''
 
-    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) || prodProblems.includes(searchTerm)
+    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) ||
+      prodProblems.includes(searchTerm) || productAgency.includes(searchTerm) || productDatasets.includes(searchTerm)
 
     const topicMatches = checkFilterMatch(productTopic, filterTopics)
     const yearMatches = checkFilterMatch(productYear, filterYears)
@@ -135,10 +171,16 @@ function displayFilteredProducts () {
 
     if (searchMatch && filterMatch) {
       card.classList.remove('pc-inactive')
+      numProductsFound++
     } else {
       card.classList.add('pc-inactive')
     }
   }
+
+  const results = document.getElementById('results-count')
+  results.innerText = numProductsFound > 0
+    ? `Found ${numProductsFound} products.`
+    : 'No products found.'
 }
 
 function checkFilterMatch (productValue, filterArray) {

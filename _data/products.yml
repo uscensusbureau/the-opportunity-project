@@ -2,6 +2,8 @@
     Platform, enabling users to automatically query the federal grants.gov database
     to find funding opportunities they may qualify for.
   Product Name: Social Impact Reporting Platform
+  agencies:
+  - Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T15:57:43.000Z'
   airtable_id: rec0XnfpVCBwdQJAg
   category:
@@ -28,6 +30,8 @@
   year:
   - 2017
 - Product Name: ECO Bloc
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:51:42.000Z'
   airtable_id: rec0sJ3TvQo6mykBz
   category:
@@ -58,6 +62,8 @@
   year:
   - 2020
 - Product Name: Resettled Refugee Services and Data Explorer
+  agencies:
+  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-22T16:35:14.000Z'
   airtable_id: rec1WFJn1OGTTGrZi
   category:
@@ -92,6 +98,8 @@
 - Description (Old): A PolicyLink tool to allow comparison of disaggregated demographic
     indicators.
   Product Name: National Equity Atlas
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:05.000Z'
   airtable_id: rec1aSWndKb5kqADi
   category:
@@ -124,6 +132,8 @@
     issues in each state, combining CDC health data with aggregated and anonymous
     Fitbit activity data from over 10 million users.
   Product Name: Fitbit
+  agencies:
+  - Office of the U.S. Surgeon General, U.S. Department of Health and Human Services
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: rec3DLJOV0X1vHHVe
   category:
@@ -154,6 +164,8 @@
     DOT, and HUD to simplify funding eligibility with virtual story telling of our
     rural American communities.
   Product Name: Findyour.town
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2020-02-10T16:02:12.000Z'
   airtable_id: rec4bboJwfwGI9dku
   category:
@@ -185,6 +197,8 @@
     the reconstruction process, improve emergency response and foster a more resilient
     future.
   Product Name: PRADOS
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-04T21:29:49.000Z'
   airtable_id: rec4tY9vvumikW1Ku
   category:
@@ -217,6 +231,8 @@
   year:
   - 2018
 - Product Name: iDISPLA 360-Degree Data Fusion Virtual Ecosystem Platform
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-22T17:41:44.000Z'
   airtable_id: rec5TopxenNeIOsJO
   category:
@@ -246,6 +262,8 @@
   year:
   - 2020
 - Product Name: Telemed
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:23:44.000Z'
   airtable_id: rec5YVAB1Sb4MWin2
   category:
@@ -279,6 +297,8 @@
     \ likelihood of catastrophic failure of their structures in a disaster. Public\
     \ access using login: fema@sille.space, password: Planahead2019"
   Product Name: Sille
+  agencies:
+  - U.S. Department of Homeland Security, Federal Emergency Management Agency
   airtable_createdTime: '2020-02-04T21:30:07.000Z'
   airtable_id: rec5dPCVzV3SHuZDS
   category:
@@ -310,6 +330,8 @@
   year:
   - 2018
 - Product Name: Air Aware
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:56:47.000Z'
   airtable_id: rec68a7razj3IGOyX
   category:
@@ -345,6 +367,8 @@
     pollution, offering actions for citizens and policymakers worldwide to solve the
     crisis.
   Product Name: Ocean Plastics Story Map
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-19T18:44:21.000Z'
   airtable_id: rec6IC6El0nNjSiCA
   category:
@@ -404,6 +428,8 @@
   year:
   - 2016
 - Product Name: TeleCommunity
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:49:27.000Z'
   airtable_id: rec820mIr9jx8uWAq
   category:
@@ -437,6 +463,8 @@
   year:
   - 2020
 - Product Name: Urban Intelligence Platform
+  agencies:
+  - Office of Management and Budget
   airtable_createdTime: '2021-01-25T22:56:24.000Z'
   airtable_id: rec85E0U2wrRBV8dc
   category:
@@ -465,6 +493,8 @@
   year:
   - 2020
 - Product Name: R Story
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:21:38.000Z'
   airtable_id: rec8PdH7hI4omQshl
   category:
@@ -503,6 +533,8 @@
     \ tool that incorporates the U.S. National Grid to assign coordinates, in an online\
     \ or offline mode, to make nontraditionally addressed locations addressable."
   Product Name: The TomTom Centaur Data Logging App
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: rec8Yym9s5wIGjlDI
   category:
@@ -551,6 +583,8 @@
     of Human Services to help youth experiencing homelessness find and access services
     in the Washington, DC area.
   Product Name: MySpot
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: rec9slEDBdpxTIC3J
   category:
@@ -584,6 +618,8 @@
   Participants:
   - recW6xZxbH06A1689
   Product Name: Census Intelligence Center
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:01.000Z'
   airtable_id: recB5iDMet16XnjXe
   category:
@@ -616,6 +652,8 @@
   year:
   - 2019
 - Product Name: COVID-19 Immutable Test Results Submission and Visualization
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:22:01.000Z'
   airtable_id: recC7pDhIGVSeNl1a
   category:
@@ -649,6 +687,8 @@
   Participants:
   - reckRo8RLRL8fxBki
   Product Name: Voatz
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recCGea83hgr4djMm
   category:
@@ -681,6 +721,8 @@
 - airtable_createdTime: '2021-05-10T20:08:13.000Z'
   airtable_id: recCvsMDbEXL85jtT
 - Product Name: Public Finance Institute-Disaster Spending Tracker
+  agencies:
+  - Office of Management and Budget
   airtable_createdTime: '2021-02-22T16:51:54.000Z'
   airtable_id: recCzsRojdXhNdzCu
   category:
@@ -710,6 +752,9 @@
 - Description (Old): Uses nationwide opportunity indexes to make search for opportunity
     more easily obtainable.
   Product Name: Opportunity Enabler
+  agencies:
+  - U.S. Department of Housing and Urban Development
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:03:33.000Z'
   airtable_id: recFD7M4ICvq22Nu4
   category:
@@ -743,6 +788,8 @@
     Revenue Service to solve talent discovery issues for entrepreneurs and small businesses
     seeking to hire high-tech workers.
   Product Name: Talent Finder Tool
+  agencies:
+  - U.S. Economic Development Administration
   airtable_createdTime: '2020-02-04T21:28:11.000Z'
   airtable_id: recFK3C3oDrmnIwA3
   category:
@@ -771,6 +818,8 @@
   year:
   - 2019
 - Product Name: Sea Scavenger
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:50:01.000Z'
   airtable_id: recFOmdpx7Q6uE0Xl
   category:
@@ -803,6 +852,8 @@
   year:
   - 2020
 - Product Name: HealthCheck | Connected Testing Platform
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:33:08.000Z'
   airtable_id: recFtYiCXRMvq3IaT
   category:
@@ -836,6 +887,8 @@
     coordination, execution, and data collection effort undertaken by Census Bureau
     employees conducting the homeless count.
   Product Name: PopCount
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:58:15.000Z'
   airtable_id: recGtDBMaVWHIeULY
   category:
@@ -864,6 +917,8 @@
   Participants:
   - reckRo8RLRL8fxBki
   Product Name: Data2GO.NYC
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recHYa0ZILEN3fRFa
   category:
@@ -900,6 +955,8 @@
     Statistics, bus & rail transit routes to show commuter flows and gaps in access
     to transit.
   Product Name: Commuter Map
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:02:02.000Z'
   airtable_id: recIigBAir65hTeIa
   category:
@@ -926,6 +983,8 @@
   year:
   - 2016
 - Product Name: Edubuddy
+  agencies:
+  - U.S. Department of State
   airtable_createdTime: '2021-02-19T18:05:17.000Z'
   airtable_id: recIu57RsPY8g7yE6
   category:
@@ -957,6 +1016,8 @@
     visualizations of hazardous traffic corridors for citizens and community decision
     makers.
   Product Name: Create
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:45.000Z'
   airtable_id: recJGQBZiNXia0IYm
   category:
@@ -983,6 +1044,8 @@
   year:
   - 2016
 - Product Name: Pollution Policy Watch
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:53:51.000Z'
   airtable_id: recJjNKdphBCWsER0
   category:
@@ -1009,6 +1072,8 @@
   year:
   - 2020
 - Product Name: Georgetown University Campus Plastic Initiative
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:00:10.000Z'
   airtable_id: recJms1glRzSmKxtR
   category:
@@ -1043,6 +1108,8 @@
     \ to provide learners and job seekers opportunity for career exploration and exposure.\
     \ Content is organized into the Department of Education\u2019s 16 career clusters."
   Product Name: Nepris Industry Connections
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T15:53:17.000Z'
   airtable_id: recKSyLaCXFbhyDuv
   category:
@@ -1074,6 +1141,8 @@
     \ researchers, government finance professionals, and citizens interested in transparency\
     \ and accountability."
   Product Name: Grants Intelligence
+  agencies:
+  - Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-04T21:30:23.000Z'
   airtable_id: recKbaLyzNV2xVyxV
   category:
@@ -1109,6 +1178,8 @@
     Census Bureau, FBI, and CDC public data on demographics, criminal justice, public
     health, and elections.
   Product Name: Bayes BD
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:32:00.000Z'
   airtable_id: recMyCXtD901elAkR
   category:
@@ -1141,6 +1212,8 @@
 - Description (Old): Ushahidi Job Postings combines crowdsourced job reports to share
     alerts of local job openings.
   Product Name: Job Crowdsourcing Tool
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:32:19.000Z'
   airtable_id: recNXCwgWCLa3ZMwB
   category:
@@ -1166,6 +1239,8 @@
 - Description (Old): Uses data from eligible training provider lists (ETPL) to surface
     education options that lead to in-demand careers for job seekers.
   Product Name: Training Finder
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:00:39.000Z'
   airtable_id: recPVCxfdXoYMpSGS
   category:
@@ -1191,6 +1266,8 @@
     housing this tool combines transit access, walkability and school information
     into one unique feed of available properties.
   Product Name: FindHome
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T15:59:25.000Z'
   airtable_id: recQ1M2vLF3zJSUJR
   category:
@@ -1214,6 +1291,8 @@
 - Description (Old): This tool from Redfin shows jobs you can get to in 30 minutes,
     without a car, from any address.
   Product Name: Opportunity Score
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:04:14.000Z'
   airtable_id: recQMqUTqBxw0DK7G
   category:
@@ -1241,6 +1320,8 @@
   year:
   - 2016
 - Product Name: Digital Health Pass
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T19:52:27.000Z'
   airtable_id: recQdmgL9m4HwZjQe
   category:
@@ -1267,6 +1348,8 @@
   year:
   - 2021
 - Product Name: Maine Business Resources
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:23:33.000Z'
   airtable_id: recQjVq9yZgfpri29
   category:
@@ -1294,6 +1377,8 @@
   year:
   - 2020
 - Product Name: The Ghost Gear Project
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:04:31.000Z'
   airtable_id: recRADslXTYbyjOZ9
   category:
@@ -1322,6 +1407,8 @@
   year:
   - 2020
 - Product Name: ClinIQ Health
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:40:33.000Z'
   airtable_id: recRUkG2VoPGqGcxN
   category:
@@ -1373,6 +1460,8 @@
   Participants:
   - recUAgl06lSRyff6V
   Product Name: '#WhyWeCount'
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recSXynrxBTKXTh63
   category:
@@ -1410,6 +1499,8 @@
     data from GoDaddy, Facebook, and Deloitte) to create digital economy reports for
     rural leaders designing economic development strategies.
   Product Name: Tech Talent Tracker
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:55:45.000Z'
   airtable_id: recSywRIyeQEsXwCq
   category:
@@ -1449,6 +1540,8 @@
     veterans for suicide, homelessness and substance use for improved follow-up, transparency,
     and accountability.
   Product Name: Get Vets Help
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-04T21:31:53.000Z'
   airtable_id: recT8TuI7EDLqeTIk
   category:
@@ -1479,6 +1572,8 @@
   year:
   - 2017
 - Product Name: Bites Media
+  agencies:
+  - U.S. Department of State
   airtable_createdTime: '2021-02-19T18:01:36.000Z'
   airtable_id: recTfL9YZgQqj9i78
   category:
@@ -1516,6 +1611,8 @@
 - Description (Old): Uses data from eleven federal agencies and twelve cities to facilitate
     finding, viewing and collaborating over data for Opportunity Project sprint participants.
   Product Name: Data.World Workspace
+  agencies:
+  - null
   airtable_createdTime: '2020-02-04T21:30:42.000Z'
   airtable_id: recV0aW7ZolC7aIoy
   category:
@@ -1547,6 +1644,8 @@
     for families to supplement their housing costs through renting excess rooms or
     units.
   Product Name: Housing Calculator
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T15:59:42.000Z'
   airtable_id: recVCXRirVspq062m
   category:
@@ -1573,6 +1672,8 @@
     working in which turfs for local groups to better connect with others caring for
     their local environment.
   Product Name: STEWMAP Explorer
+  agencies:
+  - U.S. Forest Service
   airtable_createdTime: '2020-02-04T21:31:20.000Z'
   airtable_id: recWRZvsJGQgPYlDn
   category:
@@ -1604,6 +1705,8 @@
     \ knowledge to better manage their money and make confident, informed business\
     \ decisions."
   Product Name: Practical Business Skills
+  agencies:
+  - White House Office of Science and Technology Policy
   airtable_createdTime: '2020-02-04T21:28:23.000Z'
   airtable_id: recWyKy6qT8GX7jT8
   category:
@@ -1636,6 +1739,8 @@
 - Description (Old): An interactive tool from Azavea for exploring transit accessibility
     to target resources from focus areas.
   Product Name: Transit Analyst
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:16:03.000Z'
   airtable_id: recXOkjSet73HILtM
   category:
@@ -1669,6 +1774,8 @@
     a serious game that uses federal disaster declaration and protective actions data
     to engage young adults in preparing for emergencies.
   Product Name: Disaster Awareness Games
+  agencies:
+  - U.S. Department of Homeland Security, Federal Emergency Management Agency
   airtable_createdTime: '2020-02-10T15:51:52.000Z'
   airtable_id: recXgUtGqv4vnOFKA
   category:
@@ -1696,6 +1803,8 @@
 - Description (Old): A tool from Esri that shows where opportunities are for low income
     citizens with children.
   Product Name: Affordable Housing Finder
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:17:31.000Z'
   airtable_id: recYDGmuetKuKzaJW
   category:
@@ -1722,6 +1831,8 @@
   year:
   - 2016
 - Product Name: Census Taker
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2021-02-19T21:32:12.000Z'
   airtable_id: recYOMiqxyb3IN11r
   category:
@@ -1748,6 +1859,9 @@
     investors can discover promising rural startups ready to scale that otherwise
     would have been overlooked.
   Product Name: Rural Startup Scout
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-02-04T21:28:33.000Z'
   airtable_id: recYVIjlUXHhhAjLr
   category:
@@ -1778,6 +1892,8 @@
 - Description (Old): Uses labor/employment info from multiple federal data sources
     to help navigate careers in government for Americans.
   Product Name: Opportunity.hackernest.com
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:03:17.000Z'
   airtable_id: recYdVmxC6OUqRxB0
   category:
@@ -1809,6 +1925,8 @@
     \ performance outcomes, enhancing federal accountability and transparency for\
     \ the American public."
   Product Name: Grants Impact and Story Tool
+  agencies:
+  - Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recZ3abAz4ADb6WRZ
   category:
@@ -1836,6 +1954,8 @@
   year:
   - 2018
 - Product Name: FindHello
+  agencies:
+  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-19T21:56:03.000Z'
   airtable_id: recZC1VP8ywUBxS8q
   category:
@@ -1870,6 +1990,8 @@
     \ nonstandardized data, to provide nationwide analysis of metrics for federal\
     \ and state decision-makers to support the Every Student Succeeds Act (ESSA)."
   Product Name: Socrata Citizen Education Data Cloud
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-04T21:30:24.000Z'
   airtable_id: recZkztX2XjSfcDzO
   category:
@@ -1901,6 +2023,8 @@
     allocation by predicting decennial Census response rates by day for each census
     tract, and comparing them to the true rates.
   Product Name: Tract by Tract
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:41.000Z'
   airtable_id: recZn66weHUm3gq49
   category:
@@ -1928,6 +2052,8 @@
   year:
   - 2019
 - Product Name: Julius Career Journey Program
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-22T17:43:16.000Z'
   airtable_id: reca9CUrcr39DStIc
   category:
@@ -1961,6 +2087,8 @@
     decisions around waste management that lead to transparency, investment and job
     creation.
   Product Name: Chicago Circular Economy
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:38:29.000Z'
   airtable_id: recaRsKbgtQOavIpx
   category:
@@ -2000,6 +2128,8 @@
   year:
   - 2020
 - Product Name: Smart Clinical Testing Ecosystem for COVID-19
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:37:11.000Z'
   airtable_id: recaULJmJOTbOyWAe
   category:
@@ -2033,6 +2163,9 @@
     for policy decision-makers, economic development officials, and investors in Birmingham,
     Alabama.
   Product Name: Community Led Opportunity Zones
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-02-04T21:28:51.000Z'
   airtable_id: recb1pW6mpE2vl6tp
   category:
@@ -2066,6 +2199,8 @@
     data (NTIA) to allow refugees to identify community resources near them during
     and after their resettlement period.
   Product Name: RefugeeAssist
+  agencies:
+  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-19T18:58:27.000Z'
   airtable_id: recbsgNzUmmrKuEYn
   category:
@@ -2099,6 +2234,8 @@
     to help Area Census Office Staff visualize and verify potential locations of individuals
     experiencing homelessness for enumeration.
   Product Name: Community Counts
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:48:05.000Z'
   airtable_id: recc6G4ozj7KnAH6e
   category:
@@ -2129,6 +2266,9 @@
     Commission data to bring transparency to the Opportunity Zone ecosystem for investors,
     fund manager, wealth managers, and cities.
   Product Name: City Builder
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recdBbAkH3Y7hu4y4
   category:
@@ -2157,6 +2297,8 @@
   year:
   - 2019
 - Product Name: Clean Air Hero
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T16:24:26.000Z'
   airtable_id: receafMaV7aRWkMwG
   category:
@@ -2189,6 +2331,8 @@
     \ provides a field data crowdsourcing platform for government or agency stakeholders\
     \ with gaps in their address data on the ground."
   Product Name: Fulcrum Community for Addressing and Disaster Preparedness
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T15:49:31.000Z'
   airtable_id: receo5EjDvZOW0G6N
   category:
@@ -2219,6 +2363,8 @@
     \ recommendations on potential job/apprenticeship matches based on conceptual\
     \ search and training recommendations, and skill gap analysis."
   Product Name: Watson Employment Manager
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recfUxMS7BNZxVPLX
   category:
@@ -2249,6 +2395,8 @@
     \ pay ranges, housing costs, and more to help better inform Redfin\u2019s millions\
     \ of users looking to relocate for work or even startups looking to find workers."
   Product Name: Job Opportunity Tool
+  agencies:
+  - U.S. Economic Development Administration
   airtable_createdTime: '2020-02-04T21:28:40.000Z'
   airtable_id: recfqTRYC5LXFiOUe
   category:
@@ -2280,6 +2428,9 @@
   - 2019
 - Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
   Product Name: Streetwyze
+  agencies:
+  - Office of the U.S. Surgeon General, U.S. Department of Health and Human Services
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:16:49.000Z'
   airtable_id: rechMaHffUM7JYl3l
   category:
@@ -2329,6 +2480,8 @@
   year:
   - 2016
 - Product Name: At-Home Testing Platform
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T14:41:35.000Z'
   airtable_id: rechzHn8vOEW60T0x
   category:
@@ -2360,6 +2513,8 @@
     to assessing the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island.
   Product Name: Puerto Rico Land Grid
+  agencies:
+  - U.S. Department of Homeland Security, Federal Emergency Management Agency
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: reciAHM7OE2uo9JTi
   category:
@@ -2396,6 +2551,8 @@
     data and Natural Language Processing to show veterans the most relevant registered
     apprenticeships based on their declared skills, interests, and military history.
   Product Name: Veteran Apprenticeship Matcher
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:30:46.000Z'
   airtable_id: reciS4wntA3e352BQ
   category:
@@ -2424,6 +2581,8 @@
   year:
   - 2018
 - Product Name: Co-Verify
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:28:09.000Z'
   airtable_id: reciaW1ybfwaIF0dI
   category:
@@ -2458,6 +2617,8 @@
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
   Product Name: Opportunity Dashboard
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:00:16.000Z'
   airtable_id: recj2I36nEPH4qWuf
   category:
@@ -2482,6 +2643,9 @@
 - Description (Old): A tool from Socrata that allows for comparison and similarity
     detection of geographic regions.
   Product Name: OpenData Network
+  agencies:
+  - null
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:20.000Z'
   airtable_id: recj9AnYrX4fI5Ecf
   category:
@@ -2506,6 +2670,8 @@
   year:
   - 2016
 - Product Name: State Reporting Hub
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:31:32.000Z'
   airtable_id: recj9dZ7MMUnxFPXi
   category:
@@ -2536,6 +2702,8 @@
 - Description (Old): Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships.
   Product Name: School ResourceMapper
+  agencies:
+  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:00:54.000Z'
   airtable_id: recjBsJokWirN5SXn
   category:
@@ -2567,6 +2735,8 @@
 - Description (Old): Kanarys uses open EEOC data and Census Bureau data and reports
     to create more inclusive, nontoxic workplaces for individuals and their employers.
   Product Name: Kanarys
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-04T21:28:10.000Z'
   airtable_id: reckOdJi2Y6DUxI09
   category:
@@ -2594,6 +2764,8 @@
 - airtable_createdTime: '2021-05-10T14:41:36.000Z'
   airtable_id: reckh1lCFZTVUS1qa
 - Product Name: America's Community Collaboration Platform
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-22T17:36:15.000Z'
   airtable_id: reclF9Mn2Z6aMqzJk
   category:
@@ -2632,6 +2804,8 @@
     industries to better connect skills, certifications, industries and outcomes of
     training programs towards the right jobs in the right industry.
   Product Name: Solve
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recleNeiLRdZwSdLt
   category:
@@ -2665,6 +2839,8 @@
 - Description (Old): This tool from Measure of America combines various data critical
     to the well being of New Yorkers.
   Product Name: Visualizing Youth Disconnection
+  agencies:
+  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-04T21:32:08.000Z'
   airtable_id: recmiMYwGdZ4hHgMF
   category:
@@ -2691,6 +2867,8 @@
   year:
   - 2016
 - Product Name: Consumer Dx Test App
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:08:15.000Z'
   airtable_id: recnH1uvkl0Xjnjhm
   category:
@@ -2720,6 +2898,8 @@
     \ likely to occur to help public safety and health officials pre-position the\
     \ appropriate response units in order to save lives at the moment of crisis."
   Product Name: Insight for ArcGIS
+  agencies:
+  - White House Office of Science and Technology Policy
   airtable_createdTime: '2020-02-04T21:30:55.000Z'
   airtable_id: recnSpNUcyeoVi28K
   category:
@@ -2749,6 +2929,8 @@
   year:
   - 2018
 - Product Name: Companion App for COVID Testing
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T19:49:50.000Z'
   airtable_id: reco2tsjZJ55bk12Q
   category:
@@ -2781,6 +2963,8 @@
     to target areas to volunteer in and potential partners to successfully steward
     the environment.
   Product Name: Bloomberg DEVOP
+  agencies:
+  - U.S. Forest Service
   airtable_createdTime: '2020-02-04T21:31:31.000Z'
   airtable_id: reco73a0LwOf8hbof
   category:
@@ -2811,6 +2995,8 @@
   year:
   - 2018
 - Product Name: CuraPatient
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:43:03.000Z'
   airtable_id: recoD8u3aM6Z3cNNL
   category:
@@ -2838,6 +3024,8 @@
   year:
   - 2021
 - Product Name: 'PAGAF: Precision Ag for all American Farmers'
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2021-02-22T17:46:19.000Z'
   airtable_id: recoLzsQ10XA9A8CY
   category:
@@ -2884,6 +3072,8 @@
   year:
   - 2016
 - Product Name: PPIO
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:01:52.000Z'
   airtable_id: recp3hAesZqc2oQnV
   category:
@@ -2918,6 +3108,8 @@
     to assess suicide and other risk in patients and guide them through crisis to
     available support resources.
   Product Name: TextHelp
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T16:02:55.000Z'
   airtable_id: recpQRl79tKixOYHk
   category:
@@ -2940,6 +3132,8 @@
   year:
   - 2016
 - Product Name: NAIP Downloader and Education Modules
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2021-02-22T17:44:49.000Z'
   airtable_id: recqWVxkeZ3bYz68R
   category:
@@ -2970,6 +3164,8 @@
     for anyone who works to improve the quality of life for Latino and Hispanic residents
     of California.
   Product Name: California Latino Power Map
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:48:44.000Z'
   airtable_id: recro3E8gXTIQ5IHO
   category:
@@ -3004,6 +3200,8 @@
     school districts and education foundations inform parents and the electorate about
     the need for more funding.
   Product Name: LiveStories
+  agencies:
+  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:01:20.000Z'
   airtable_id: recs1AuNUUppAFbr3
   category:
@@ -3028,6 +3226,8 @@
 - Description (Old): A tool that allows users to identify areas of opportunity by
     specifying their most important priorities.
   Product Name: PolicyMap Tool
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:15:52.000Z'
   airtable_id: recsTaRTvzM11DFWX
   category:
@@ -3053,6 +3253,8 @@
   year:
   - 2016
 - Product Name: Emergency & Disaster Funding Tracking
+  agencies:
+  - Office of Management and Budget
   airtable_createdTime: '2021-01-25T22:56:29.000Z'
   airtable_id: rectcKAi8zsdwiqjg
   category:
@@ -3100,6 +3302,8 @@
     that address accessibility of opportunity and emotional well-being for citizens
     across the county.
   Product Name: mySidewalk
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:34.000Z'
   airtable_id: recuj8LvrOlw7qVZl
   category:
@@ -3130,6 +3334,8 @@
     to rapidly and easily assess neighborhood family amenities and voucher amounts
     for Section 8 Housing Seekers.
   Product Name: Neighborhood Opportunity
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:00:00.000Z'
   airtable_id: reculF774OHizAs0S
   category:
@@ -3161,6 +3367,8 @@
     that can help with decennial Census outreach in NYC communities by answering questions
     like 'What happens with Census data?' and 'Why does the Census matter to me?'
   Product Name: Data2Go for Census Outreach
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:59:00.000Z'
   airtable_id: recvDZEaGFFEtnR4l
   category:
@@ -3189,6 +3397,8 @@
   year:
   - 2017
 - Product Name: Cura Patient
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-02-25T21:32:21.000Z'
   airtable_id: recvf8lc1DXzpz2QB
   category:
@@ -3217,6 +3427,8 @@
     \ their skills and visualize career and educational steps toward reaching their\
     \ dream jobs in desired locations."
   Product Name: Career Nav
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:30:08.000Z'
   airtable_id: recvh8HbEmn5MuzGI
   category:
@@ -3246,6 +3458,8 @@
     data from the Bureau of Labor Statistics to make career exploration easy and accessible
     for high school students.
   Product Name: CareerSpark
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:04:03.000Z'
   airtable_id: recvlzXnQhGrvyOew
   category:
@@ -3278,6 +3492,9 @@
     inclusive development network that includes leaders from the civic sector, government,
     and industry.
   Product Name: Inclusive Development Dashboards
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-02-04T21:28:17.000Z'
   airtable_id: recwo6k02qWF773ZK
   category:
@@ -3312,6 +3529,8 @@
   year:
   - 2019
 - Product Name: TruCycle MRF
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:48:21.000Z'
   airtable_id: recxNb6AkmDER2KXh
   category:
@@ -3345,6 +3564,9 @@
     degree to which place, economy and community in a given Opportunity Zone benefit
     from equitable growth.
   Product Name: Inclusive Growth Score
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recxPFYJEXMA7YTmC
   category:
@@ -3378,6 +3600,8 @@
     private sector careers and connect them to the education, soft skills development,
     and employers that can ensure their success.
   Product Name: PAIRIN Pathways
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: recxhgzBILVkvarN6
   category:
@@ -3410,6 +3634,8 @@
     and integrate open data on local hazards & resources to build a risk state detection
     algorithm that powers precise, life-saving mental health interventions.
   Product Name: EARS
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T16:02:37.000Z'
   airtable_id: recyH7SUTuXtVQEjq
   category:
@@ -3437,6 +3663,8 @@
     cycle of generational poverty and create a positive path to self-sufficiency.
     Lives get better, families get healthier, and communities win.
   Product Name: The EnVision App
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-19T18:53:24.000Z'
   airtable_id: recyKI9exBfBtz1hr
   category:
@@ -3474,6 +3702,8 @@
     and very simple way to explore imagery for users at USDA and the farmers they
     serve.
   Product Name: NAIP Explorer
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2021-02-19T18:31:53.000Z'
   airtable_id: recyPJeX2onUtcMln
   category:
@@ -3506,6 +3736,8 @@
     and air pollution in the District of Columbia to explore the effect of transportation
     on air quality.
   Product Name: AirMotionDC
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:49:03.000Z'
   airtable_id: recyl8q9tZWnPoQQt
   category:
@@ -3540,6 +3772,8 @@
   year:
   - 2020
 - Product Name: Patient Health Ecosystem Portal
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T19:54:40.000Z'
   airtable_id: recz0udlK0WnjquFr
   category:
@@ -3572,6 +3806,8 @@
     and application developers so they can solve social problems using open data available
     for their communities and cities.
   Product Name: My City Data Learning Tool
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:30:36.000Z'
   airtable_id: reczVGhvSjjSjcHRp
   category:

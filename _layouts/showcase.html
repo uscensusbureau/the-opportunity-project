@@ -86,9 +86,12 @@ layout: default
                 <h4 class="pc-inactive">
                   {{ product.category }}</h4>
               {% endif %}
-              {% if problem_statement.agency_text %}
-                <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+              {% if product.agencies %}
+                <h5 class="pc-inactive">{{ product.agencies }}</h5>
               {% endif %}
+              <!-- {% if problem_statement.agency_text %}
+                <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+              {% endif %} -->
               <p style="display:none" class="product-desc">{{ product.description }}</p>
               <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>
               <p class="card-problem-statement" style="display:none">{{ problem_statement['Full Title'] | slugify }}</p>

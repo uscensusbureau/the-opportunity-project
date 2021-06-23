@@ -24,7 +24,6 @@ const filters = [
 ]
 
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
-console.log('num filtered products: ' + filteredProducts.length)
 // paginateProducts(filteredProducts, 1)
 
 // if there's a search term in the URL params, set it and search with it
@@ -39,7 +38,6 @@ if (window.location.search) {
   for (const filter of filters) {
     const terms = params.getAll(filter.id)
     for (const term of terms) {
-      console.log(term)
       filter.checked.push(term)
       document.getElementById(term.replaceAll(' ', '-')).checked = true
     }
@@ -207,10 +205,8 @@ function checkFilterMatch (productValue, filterArray) {
  * @param {int} pageIndex page of products to show
  */
 function paginateProducts (products, pageIndex) {
-  console.log('paginating products')
   const showStart = pageIndex * CARDS_PER_PAGE
   const showEnd = (pageIndex + 1) * CARDS_PER_PAGE
-  console.log({ pageIndex, showStart, showEnd })
   products.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
       card.classList.add('pc-active')

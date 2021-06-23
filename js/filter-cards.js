@@ -41,7 +41,7 @@ if (window.location.search) {
     for (const term of terms) {
       console.log(term)
       filter.checked.push(term)
-      document.getElementById(term.replace(' ', '-')).checked = true
+      document.getElementById(term.replaceAll(' ', '-')).checked = true
     }
   }
 

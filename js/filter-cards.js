@@ -9,6 +9,8 @@ const agencyInput = document.getElementById('partner-agency')
 const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
+const CARDS_PER_PAGE = 101
+
 // define filters
 let searchTerm = ''
 let filterTopics = []
@@ -20,6 +22,10 @@ const filters = [
   { id: 'year', checked: filterYears },
   { id: 'partner-agency', checked: filterAgencies }
 ]
+
+let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
+console.log('num filtered products: ' + filteredProducts.length)
+// paginateProducts(filteredProducts, 1)
 
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
@@ -139,8 +145,8 @@ const appendToURLSearchParams = (urlParams, key, values) => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts () {
+  filteredProducts = []
   searchTerm = searchTerm.toLowerCase()
-  let numProductsFound = 0
   for (let i = 0; i < productCards.length; i++) {
     const card = productCards[i]
     const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
@@ -169,18 +175,21 @@ function displayFilteredProducts () {
 
     const filterMatch = topicMatches && yearMatches && agencyMatches
 
+    card.classList.remove('pc-active')
+    card.classList.add('pc-inactive')
+
     if (searchMatch && filterMatch) {
-      card.classList.remove('pc-inactive')
-      numProductsFound++
-    } else {
-      card.classList.add('pc-inactive')
+      filteredProducts.push(card)
     }
   }
 
   const results = document.getElementById('results-count')
+  const numProductsFound = filteredProducts.length
   results.innerText = numProductsFound > 0
     ? `Found ${numProductsFound} products.`
     : 'No products found.'
+
+  paginateProducts(filteredProducts, 0)
 }
 
 function checkFilterMatch (productValue, filterArray) {
@@ -189,6 +198,28 @@ function checkFilterMatch (productValue, filterArray) {
       return productValue.toLowerCase().split(' ').join('-')
         .includes(filterVal.toLowerCase().split(' ').join('-'))
     })
+}
+
+/**
+ * Hides or shows product cards based on what page we're on
+ * remove pc-inactive class for all cards on current page
+ * @param {array} products array of products to paginate
+ * @param {int} pageIndex page of products to show
+ */
+function paginateProducts (products, pageIndex) {
+  console.log('paginating products')
+  const showStart = pageIndex * CARDS_PER_PAGE
+  const showEnd = (pageIndex + 1) * CARDS_PER_PAGE
+  console.log({ pageIndex, showStart, showEnd })
+  products.forEach((card, i) => {
+    if (i >= showStart && i < showEnd) {
+      card.classList.add('pc-active')
+      card.classList.remove('pc-inactive')
+    } else {
+      card.classList.remove('pc-active')
+      card.classList.add('pc-inactive')
+    }
+  })
 }
 
 /**

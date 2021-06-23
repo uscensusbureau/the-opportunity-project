@@ -65,7 +65,7 @@ describe('Products Test', () => {
     cy.get(searchForm).submit()
   }
 
-  it('shows the right number of results after search', () => {
+  it.only('shows the right number of results after search', () => {
     cy.visit(base)
     for (const pair of expectedSearchResults) {
       cy.get(searchField).clear().type(pair.searchTerm)

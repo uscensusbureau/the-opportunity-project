@@ -62,7 +62,7 @@ layout: default
 </div>
 
 <section class="usa-section usa-graphic-list grid-container">
-  {% assign products = site.data.products | where_exp: "item", "item.link" %}
+  {% assign products = site.data.products | where_exp: "item", "item.link" | sort: "year" | reverse %}
 
   <h3 id="results-count" class="text-normal">Found {{products.size}} products.</h3>
   <ul class="usa-card-group">
@@ -74,15 +74,17 @@ layout: default
         {% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[ 0 ] %}
         {% assign sprint = sprints[ 0 ] %}
         
+
         <li id="product-card-{{product.title | slugify}}" 
           class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active" 
           name="productCard">
           <div class="usa-card__container clickable-card bg-base-darkest">
             <header class="usa-card__header">
               <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">{{ product.title }}</h2>
-              {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
+              {% if product.year %}<h3 class="pc-inactive">{{ product.year}}</h3>{% endif %}
               {% if product.category %}
-                <h4 class="pc-inactive">{{ product.category }}</h4>
+                <h4 class="pc-inactive">
+                  {{ product.category }}</h4>
               {% endif %}
               {% if problem_statement.agency_text %}
                 <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
@@ -105,35 +107,36 @@ layout: default
     {% endfor %}
   </ul>
 
-    <div id="product-modal" class="modal modal-inactive z-500">
-      <div class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
-        <div class="usa-card__container margin-0 border-0">
 
-          <div class="modal-grid">
-            <div class="modal-column">
-              {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
+  <div id="product-modal" class="modal modal-inactive z-500">
+    <div class="usa-card usa-card--flag modal-content fixed-width-modal desktop:grid-col-8 tablet:grid-col-8">
+      <div class="usa-card__container margin-0 border-0">
+
+        <div class="modal-grid">
+          <div class="modal-column">
+            {% include image.html src=imgSrc alt="an image of a technical product" class="modal-img" %}
+          </div>
+          <div class="modal-column">
+            <header class="usa-card__header">
+              <span class="close">&times;</span>
+              <h3 class="font-sans-md">PRODUCT TITLE</h3>
+            </header>
+          
+            <div class="usa-card__body">
+              <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
+              <p class="modal-desc">{{ product.description }}</p>
+              <p class="font-sans-2xs">Datasets Used</p>
+              <p class="modal-data-sets font-sans-2xs">
+                {{ product.data_sets_text }}
+              </p>
             </div>
-            <div class="modal-column">
-              <header class="usa-card__header">
-                <span class="close">&times;</span>
-                <h3 class="font-sans-md">PRODUCT TITLE</h3>
-              </header>
-            
-              <div class="usa-card__body">
-                <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
-                <p class="modal-desc">{{ product.description }}</p>
-                <p class="font-sans-2xs">Datasets Used</p>
-                <p class="modal-data-sets font-sans-2xs">
-                  {{ product.data_sets_text }}
-                </p>
-              </div>
-              <div class="usa-card__footer text-center">
-                <a class="btn-link__primary-red modal-link" 
-                href="{{ product.link }}" product-link target="_blank">Go to Product</a>
-              </div>
+            <div class="usa-card__footer text-center">
+              <a class="btn-link__primary-red modal-link" 
+              href="{{ product.link }}" product-link target="_blank">Go to Product</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </section>

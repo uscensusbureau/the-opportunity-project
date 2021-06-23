@@ -56,7 +56,7 @@ describe('Products Test', () => {
       filterIndex: 2,
       filterId: 'topic',
       optionId: 'Economic Development',
-      results: 8
+      results: 9
     }
   ]
 
@@ -65,7 +65,7 @@ describe('Products Test', () => {
     cy.get(searchForm).submit()
   }
 
-  it.only('shows the right number of results after search', () => {
+  it('shows the right number of results after search', () => {
     cy.visit(base)
     for (const pair of expectedSearchResults) {
       cy.get(searchField).clear().type(pair.searchTerm)

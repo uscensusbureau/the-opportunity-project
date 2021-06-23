@@ -24,24 +24,25 @@ years:
   - 2020
   - 2021
 agencies:
-  - Census Bureau
-  - Environmental Protection Agency
-  - Department of Agriculture
-  - Department of Education
-  - Department of Health and Human Services
-  - Department of Homeland Security
-  - Department of Housing and Urban Development
-  - Department of Labor
-  - Department of State
-  - Department of the Treasury
-  - Department of Transportation
-  - Department of Veterans Affairs
-  - Economic Development Administration
-  - Federal Emergency Management Agency
-  - Forest Service
-  - Office of Management and Budget
-  - Office of the U.S. Surgeon General
-  - The Wilson Center
-  - USA for UNHCR
-  - White House Council of Economic Advisors
-  - White House Office of Science and Technology Policy
+  - label: Census Bureau
+  - label: Environmental Protection Agency
+  - label: Department of Agriculture
+  - label: Department of Education
+  - label: Department of Health and Human Services
+  - label: Department of Homeland Security
+  - label: Department of Housing and Urban Development
+  - label: Department of Labor
+  - label: Department of State
+  - label: Department of the Treasury
+  - label: Department of Transportation
+  - label: Department of Veterans Affairs
+  - label: Economic Development Administration
+  - label: Federal Emergency Management Agency
+  - label: Forest Service
+  - label: Office of Management and Budget
+  - label: Office of the U.S. Surgeon General
+  - label: The Wilson Center
+  - label: USA for UNHCR
+    value: USA for United Nations High Commissioner for Refugees
+  - label: White House Council of Economic Advisors
+  - label: White House Office of Science and Technology Policy

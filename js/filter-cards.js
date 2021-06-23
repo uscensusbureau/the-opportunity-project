@@ -298,11 +298,11 @@ Array.from(cards).forEach(card => {
       }
     }
 
-    modal.getElementsByClassName('modal-tech-team')[0].innerText =
-      card.getElementsByClassName('product-tech-team')[0].innerText
+    modal.getElementsByClassName('modal-tech-team')[0].innerHTML =
+      card.getElementsByClassName('product-tech-team')[0].innerHTML
     modal.getElementsByClassName('modal-data-sets')[0].innerText =
       card.getElementsByClassName('product-data-sets')[0].innerText
-    modal.getElementsByClassName('modal-desc')[0].innerText =
+    document.getElementById('modal-desc').innerText =
       card.getElementsByClassName('product-desc')[0].innerText
 
     const href = card.getElementsByClassName('product-link')[0].innerText

@@ -9,20 +9,42 @@ const agencyInput = document.getElementById('partner-agency')
 const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
+const CARDS_PER_PAGE = 101
+
 // define filters
 let searchTerm = ''
 let filterTopics = []
 let filterYears = []
 let filterAgencies = []
 
+const filters = [
+  { id: 'topic', checked: filterTopics },
+  { id: 'year', checked: filterYears },
+  { id: 'partner-agency', checked: filterAgencies }
+]
+
+let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
+// paginateProducts(filteredProducts, 1)
+
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
-if (params.has('search')) {
+if (window.location.search) {
   const searchParam = params.get('search')
-  searchField.value = searchParam
-  searchTerm = searchParam
+  if (searchParam) {
+    searchField.value = searchParam
+    searchTerm = searchParam
+  }
 
-  displayFilteredProducts()
+  for (const filter of filters) {
+    const terms = params.getAll(filter.id)
+    for (const term of terms) {
+      filter.checked.push(term)
+      document.getElementById(term.replaceAll(' ', '-')).checked = true
+    }
+  }
+
+  setTimeout(displayFilteredProducts, 500)
+  // displayFilteredProducts()
 
   document.getElementById('all-products').scrollIntoView()
 }
@@ -74,23 +96,29 @@ if (filterForm) {
 
 function onSearch () {
   searchTerm = searchField.value
-
-  let path = window.location.origin + window.location.pathname
-  if (searchTerm) {
-    path += `?search=${searchTerm}`
-  }
-  window.history.replaceState(searchTerm, document.title, path)
-  searchTerm = searchField.value
+  filterProducts()
 }
 
 /**
  * Applies all current filters and displays appropriate products.
  */
 function filterProducts () {
+  const currSearch = searchTerm ? `?search=${searchTerm}` : '?'
+  const searchParams = new URLSearchParams(currSearch)
   filterTopics = getCheckedInputs(topicsInput)
-  filterYears = getCheckedInputs(yearInput)
-  filterAgencies = getCheckedInputs(agencyInput)
+  appendToURLSearchParams(searchParams, 'topic', filterTopics)
 
+  filterYears = getCheckedInputs(yearInput)
+  appendToURLSearchParams(searchParams, 'year', filterYears)
+
+  filterAgencies = getCheckedInputs(agencyInput)
+  appendToURLSearchParams(searchParams, 'partner-agency', filterAgencies)
+
+  let newURL = window.location.origin + window.location.pathname
+  if (searchParams.toString()) {
+    newURL += `?${searchParams.toString()}`
+  }
+  window.history.replaceState(null, document.title, newURL)
   displayFilteredProducts()
 }
 
@@ -99,6 +127,12 @@ const getCheckedInputs = container => {
   const inputEls = Array.from(container.getElementsByTagName('input'))
   return inputEls.filter(input => input.checked)
     .map(checkedInput => checkedInput.value)
+}
+/** adds all values of given array to URLSearchParams object with given key */
+const appendToURLSearchParams = (urlParams, key, values) => {
+  for (const value of values) {
+    urlParams.append(key, value)
+  }
 }
 
 /**
@@ -109,10 +143,12 @@ const getCheckedInputs = container => {
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
 function displayFilteredProducts () {
+  filteredProducts = []
+  searchTerm = searchTerm.toLowerCase()
   for (let i = 0; i < productCards.length; i++) {
     const card = productCards[i]
     const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
-    const prodDesc = card.getElementsByTagName('p')[0].innerText
+    const prodDesc = slugify(card.getElementsByTagName('p')[0].innerText)
     const prodProblems = card.getElementsByTagName('p')[1].innerText
     const productNameSlugified = productName.replace('\'', '-').split('.').join('-').split(':').join('-')
     let productYear = ''
@@ -124,8 +160,12 @@ function displayFilteredProducts () {
     const productAgency = card.getElementsByTagName('h5')[0]
       ? card.getElementsByTagName('h5')[0].innerText.toLowerCase().split(' ').join('-')
       : ''
+    const productDatasets = card.getElementsByClassName('product-data-sets')[0]
+      ? card.getElementsByClassName('product-data-sets')[0].innerText.toLowerCase().split(' ').join('-')
+      : ''
 
-    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) || prodProblems.includes(searchTerm)
+    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) ||
+      prodProblems.includes(searchTerm) || productAgency.includes(searchTerm) || productDatasets.includes(searchTerm)
 
     const topicMatches = checkFilterMatch(productTopic, filterTopics)
     const yearMatches = checkFilterMatch(productYear, filterYears)
@@ -133,12 +173,21 @@ function displayFilteredProducts () {
 
     const filterMatch = topicMatches && yearMatches && agencyMatches
 
+    card.classList.remove('pc-active')
+    card.classList.add('pc-inactive')
+
     if (searchMatch && filterMatch) {
-      card.classList.remove('pc-inactive')
-    } else {
-      card.classList.add('pc-inactive')
+      filteredProducts.push(card)
     }
   }
+
+  const results = document.getElementById('results-count')
+  const numProductsFound = filteredProducts.length
+  results.innerText = numProductsFound > 0
+    ? `Found ${numProductsFound} products.`
+    : 'No products found.'
+
+  paginateProducts(filteredProducts, 0)
 }
 
 function checkFilterMatch (productValue, filterArray) {
@@ -147,6 +196,26 @@ function checkFilterMatch (productValue, filterArray) {
       return productValue.toLowerCase().split(' ').join('-')
         .includes(filterVal.toLowerCase().split(' ').join('-'))
     })
+}
+
+/**
+ * Hides or shows product cards based on what page we're on
+ * remove pc-inactive class for all cards on current page
+ * @param {array} products array of products to paginate
+ * @param {int} pageIndex page of products to show
+ */
+function paginateProducts (products, pageIndex) {
+  const showStart = pageIndex * CARDS_PER_PAGE
+  const showEnd = (pageIndex + 1) * CARDS_PER_PAGE
+  products.forEach((card, i) => {
+    if (i >= showStart && i < showEnd) {
+      card.classList.add('pc-active')
+      card.classList.remove('pc-inactive')
+    } else {
+      card.classList.remove('pc-active')
+      card.classList.add('pc-inactive')
+    }
+  })
 }
 
 /**
@@ -229,18 +298,15 @@ Array.from(cards).forEach(card => {
       }
     }
 
-    modal.getElementsByClassName('modal-tech-team')[0].innerHTML =
-      card.getElementsByClassName('product-tech-team')[0].innerHTML
+    modal.getElementsByClassName('modal-tech-team')[0].innerText =
+      card.getElementsByClassName('product-tech-team')[0].innerText
     modal.getElementsByClassName('modal-data-sets')[0].innerText =
       card.getElementsByClassName('product-data-sets')[0].innerText
-    document.getElementById('modal-desc').innerText =
+    modal.getElementsByClassName('modal-desc')[0].innerText =
       card.getElementsByClassName('product-desc')[0].innerText
 
     const href = card.getElementsByClassName('product-link')[0].innerText
     modal.getElementsByClassName('modal-link')[0].href = href
-
-    // modal.classList.remove('modal-inactive')
-    // modal.classList.add('modal-active')
   })
 })
 
@@ -250,21 +316,6 @@ const closeModal = () => {
 }
 
 $('.close').on('click', closeModal)
-
-/*
-if (modal) {
-  const checkModalClose = event => {
-    if (modal.contains(event.target)) {
-      const modalContent = modal.getElementsByClassName('usa-card')[0]
-      if (!modalContent.contains(event.target)) {
-        closeModal()
-      }
-    }
-  }
-  window.addEventListener('click', checkModalClose)
-  window.addEventListener('focusin', checkModalClose)
-}
-*/
 
 $('.data-card-group').on('click', function (e) {
   if (e.target) {

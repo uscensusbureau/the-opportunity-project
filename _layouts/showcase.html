@@ -63,7 +63,7 @@ layout: default
 </div>
 
 <section class="usa-section usa-graphic-list grid-container">
-  {% assign products = site.data.products | where_exp: "item", "item.link" %}
+  {% assign products = site.data.products | where_exp: "item", "item.link" | sort: "year" | reverse %}
 
   <h3 id="results-count" class="text-normal">Found {{products.size}} products.</h3>
   <ul class="usa-card-group">
@@ -85,12 +85,12 @@ layout: default
                 <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">
                   <span class="usa-sr-only">product name</span>{{ product.title }}
                 </h2>
-                {% if sprint.Year %}<h3 class="pc-inactive">{{ sprint.Year }}</h3>{% endif %}
+                {% if product.year %}<h3 class="pc-inactive">{{ product.year }}</h3>{% endif %}
                 {% if product.category %}
                   <h4 class="pc-inactive">{{ product.category }}</h4>
                 {% endif %}
-                {% if problem_statement.agency_text %}
-                  <h5 class="pc-inactive">{{ problem_statement.agency_text }}</h5>
+                {% if product.agencies %}
+                  <h5 class="pc-inactive">{{ product.agencies }}</h5>
                 {% endif %}
                 <p style="display:none" class="product-desc">{{ product.description }}</p>
                 <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>

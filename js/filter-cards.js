@@ -11,6 +11,7 @@ const agencyInput = document.getElementById('partner-agency')
 const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
+const resultsTextDisplay = document.getElementById('results-count')
 const CARDS_PER_PAGE = 24
 
 // define filters
@@ -26,10 +27,9 @@ const filters = [
 ]
 
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
-console.log('going to construct paginator')
 const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
 paginator.setTotalItems(101)
-paginateProducts(1)
+paginateProducts(0)
 
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
@@ -186,13 +186,8 @@ function displayFilteredProducts () {
     }
   }
 
-  const results = document.getElementById('results-count')
-  const numProductsFound = filteredProducts.length
-  results.innerText = numProductsFound > 0
-    ? `Found ${numProductsFound} products.`
-    : 'No products found.'
-
-  paginateProducts(filteredProducts, 0)
+  paginator.setTotalItems(filteredProducts.length)
+  paginateProducts(0)
 }
 
 function checkFilterMatch (productValue, filterArray) {
@@ -208,9 +203,9 @@ function checkFilterMatch (productValue, filterArray) {
  * remove pc-inactive class for all cards on current page
  * @param {int} pageIndex page of products to show
  */
-function paginateProducts (pageIndex) {
+function paginateProducts (pageIndex, scrollToTop = false) {
   const showStart = pageIndex * CARDS_PER_PAGE
-  const showEnd = (pageIndex + 1) * CARDS_PER_PAGE
+  const showEnd = Math.min((pageIndex + 1) * CARDS_PER_PAGE, filteredProducts.length)
   filteredProducts.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
       card.classList.add('pc-active')
@@ -220,6 +215,13 @@ function paginateProducts (pageIndex) {
       card.classList.add('pc-inactive')
     }
   })
+
+  resultsTextDisplay.innerText = filteredProducts.length > 0
+    ? `Showing ${showStart + 1} - ${showEnd} of ${filteredProducts.length} products.`
+    : 'No products found.'
+  if (scrollToTop) {
+    resultsTextDisplay.scrollIntoView()
+  }
 }
 
 /**

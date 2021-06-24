@@ -1,0 +1,8 @@
+.usa-pagination {
+  .usa-pagination__arrow {
+    &.hidden {
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+}

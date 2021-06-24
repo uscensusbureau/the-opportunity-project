@@ -111,6 +111,8 @@ layout: default
     {% endfor %}
   </ul>
 
+  {% include nav/pagination.html maxPages = 5 %}
+
   <div id="product-modal" class="usa-modal maxw-tablet radius-0"
     aria-labeledby="product-modal-heading" aria-describedby="modal-body">
     <div class="usa-modal__content">

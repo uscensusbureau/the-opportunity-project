@@ -1,64 +1,66 @@
+const base = 'http://localhost:4000/showcase/'
+const searchField = '#search-field'
+const searchForm = '#product-search-form'
+const activeQuery = '.product-card:not(.pc-inactive)'
+const resultsField = '#results-count'
+const resetButton = '#reset-filter'
+
+const expectedSearchResults = [
+  { searchTerm: 'naip', results: 4},
+  { searchTerm: 'bananarama', results: 0 },
+  { searchTerm: 'maps', results: 2 },
+  { searchTerm: 'covid', results: 13 },
+  { searchTerm: 'bites media', results: 1 },
+  { searchTerm: 'jobs', results: 7 }
+]
+
+const filterResults = [
+  {
+    filterIndex: 0,
+    filterId: 'topic',
+    optionId: 'Addressing',
+    results: 3
+  },
+  {
+    filterIndex: 0,
+    filterId: 'topic',
+    optionId: 'Employment',
+    results: 9
+  },
+  { 
+    filterIndex: 1,
+    filterId: 'year',
+    optionId: '2021',
+    results: 12
+  },
+  { 
+    filterIndex: 1,
+    filterId: 'year',
+    optionId: '2018',
+    results: 16
+  },
+  {
+    filterIndex: 2,
+    filterId: 'partner-agency',
+    optionId: 'Department of Agriculture',
+    results: 4
+  },
+  {
+    filterIndex: 2,
+    filterId: 'partner-agency',
+    optionId: 'Census Bureau',
+    results: 12
+  },
+  {
+    filterIndex: 2,
+    filterId: 'topic',
+    optionId: 'Economic Development',
+    results: 9
+  }
+]
+
 describe('Products Test', () => {
-  const base = 'http://localhost:4000/showcase/'
-  const searchField = '#search-field'
-  const searchForm = '#product-search-form'
-  const activeQuery = '.product-card:not(.pc-inactive)'
-  const resultsField = '#results-count'
-  const resetButton = '#reset-filter'
 
-  const expectedSearchResults = [
-    { searchTerm: 'naip', results: 4},
-    { searchTerm: 'bananarama', results: 0 },
-    { searchTerm: 'maps', results: 2 },
-    { searchTerm: 'covid', results: 13 },
-    { searchTerm: 'bites media', results: 1 },
-    { searchTerm: 'jobs', results: 7 }
-  ]
-
-  const filterResults = [
-    {
-      filterIndex: 0,
-      filterId: 'topic',
-      optionId: 'Addressing',
-      results: 3
-    },
-    {
-      filterIndex: 0,
-      filterId: 'topic',
-      optionId: 'Employment',
-      results: 9
-    },
-    { 
-      filterIndex: 1,
-      filterId: 'year',
-      optionId: '2021',
-      results: 12
-    },
-    { 
-      filterIndex: 1,
-      filterId: 'year',
-      optionId: '2018',
-      results: 16
-    },
-    {
-      filterIndex: 2,
-      filterId: 'partner-agency',
-      optionId: 'Department of Agriculture',
-      results: 4
-    },
-    {
-      filterIndex: 2,
-      filterId: 'partner-agency',
-      optionId: 'Census Bureau',
-      results: 12
-    },
-    {
-      filterIndex: 2,
-      filterId: 'topic',
-      optionId: 'Economic Development',
-      results: 8
-    }
-  ]
 
   const search = string => {
     cy.get(searchField).type(string)
@@ -301,5 +303,13 @@ describe('Products Test', () => {
     }
     cy.get(resultsField).should("not.have.text", `Found 101 products.`)
     cy.get(activeQuery).should('have.length.lessThan', 101)
+  })
+})
+
+describe('Pagination Tests', () => {
+  const pagination = '#pagination-nav'
+  it.only('shows pagination on load', () => {
+    cy.visit(base)
+    cy.get(pagination)
   })
 })

@@ -1,3 +1,7 @@
+// const { PaginationUIControl } = require('./pagination-ui-control')
+// import PaginationUIControl from './pagination-ui-control'
+const PaginationUIControl = require('./pagination-ui-control.js')
+
 const $ = require('jquery')
 
 const prodSearchForm = document.getElementById('product-search-form')
@@ -9,7 +13,7 @@ const agencyInput = document.getElementById('partner-agency')
 const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
-const CARDS_PER_PAGE = 101
+const CARDS_PER_PAGE = 24
 
 // define filters
 let searchTerm = ''
@@ -24,7 +28,9 @@ const filters = [
 ]
 
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
-// paginateProducts(filteredProducts, 1)
+console.log('going to construct paginator')
+const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
+paginateProducts(1)
 
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
@@ -201,13 +207,12 @@ function checkFilterMatch (productValue, filterArray) {
 /**
  * Hides or shows product cards based on what page we're on
  * remove pc-inactive class for all cards on current page
- * @param {array} products array of products to paginate
  * @param {int} pageIndex page of products to show
  */
-function paginateProducts (products, pageIndex) {
+function paginateProducts (pageIndex) {
   const showStart = pageIndex * CARDS_PER_PAGE
   const showEnd = (pageIndex + 1) * CARDS_PER_PAGE
-  products.forEach((card, i) => {
+  filteredProducts.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
       card.classList.add('pc-active')
       card.classList.remove('pc-inactive')

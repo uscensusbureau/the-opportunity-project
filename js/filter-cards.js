@@ -1,5 +1,3 @@
-// const { PaginationUIControl } = require('./pagination-ui-control')
-// import PaginationUIControl from './pagination-ui-control'
 const PaginationUIControl = require('./pagination-ui-control.js')
 
 const $ = require('jquery')
@@ -30,6 +28,7 @@ const filters = [
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
 console.log('going to construct paginator')
 const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
+paginator.setTotalItems(101)
 paginateProducts(1)
 
 // if there's a search term in the URL params, set it and search with it

@@ -89,7 +89,7 @@ layout: default
                 {% if product.category %}
                   <h4 class="pc-inactive">{{ product.category }}</h4>
                 {% endif %}
-                {% if product.agencies %}
+                {% if product.agencies and product.agencies[0] != null %}
                   <h5 class="pc-inactive">{{ product.agencies }}</h5>
                 {% endif %}
                 <p style="display:none" class="product-desc">{{ product.description }}</p>

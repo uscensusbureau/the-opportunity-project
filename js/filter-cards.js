@@ -54,8 +54,8 @@ if (window.location.pathname.includes('showcase')) {
     let pageNum = 0
     if (params.get(PAGINATION_URL_PARAM)) {
       pageNum = params.get(PAGINATION_URL_PARAM) - 1
-      displayInitialProducts(pageNum)
     }
+    displayInitialProducts(pageNum)
   } else {
     displayInitialProducts(0)
   }

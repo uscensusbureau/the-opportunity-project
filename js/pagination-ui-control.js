@@ -73,8 +73,10 @@ class PaginationUIControl {
     currPageLink.classList.add('usa-current')
     currPageLink.setAttribute('aria-current', 'page')
 
-    this.numberButtons[this.numPages - 1].getElementsByTagName('a')[0].setAttribute(
-      'aria-label', `last page, Page ${this.numPages}`)
+    if (this.numPages > 0) {
+      this.numberButtons[this.numPages - 1].getElementsByTagName('a')[0].setAttribute(
+        'aria-label', `last page, Page ${this.numPages}`)
+    }
 
     this._setArrowVisibility(this.prevButton, this.currPage > 0)
     this._setArrowVisibility(this.nextButton, this.currPage < this.numPages - 1)
@@ -89,7 +91,6 @@ class PaginationUIControl {
   }
 
   _update () {
-    console.log('updating')
     this._showButtons()
     this.onShowPage(this.currPage, true)
   }

@@ -60,10 +60,20 @@ class PaginationUIControl {
   }
 
   _showButtons () {
-    for (const button of this.numberButtons) {
-      button.getElementsByTagName('a')[0].classList.remove('usa-current')
+    for (let i = 0; i < this.numberButtons.length; i++) {
+      const link = this.numberButtons[i].getElementsByTagName('a')[0]
+      if (link) {
+        link.classList.remove('usa-current')
+        link.removeAttribute('aria-current')
+        link.setAttribute('aria-label', `Page ${i + 1}`)
+      }
     }
-    this.numberButtons[this.currPage].getElementsByTagName('a')[0].classList.add('usa-current')
+    const currPageLink = this.numberButtons[this.currPage].getElementsByTagName('a')[0]
+    currPageLink.classList.add('usa-current')
+    currPageLink.setAttribute('aria-current', 'page')
+
+    this.numberButtons[this.numPages - 1].getElementsByTagName('a')[0].setAttribute(
+      'aria-label', `last page, Page ${this.numPages}`)
 
     this._setArrowVisibility(this.prevButton, this.currPage > 0)
     this._setArrowVisibility(this.nextButton, this.currPage < this.numPages - 1)

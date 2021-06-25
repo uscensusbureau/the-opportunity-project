@@ -28,34 +28,37 @@ const filters = [
 ]
 
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
-const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
-paginator.setTotalItems(101)
-// paginateProducts(0)
+if (document.getElementById('pagination-nav')) {
+  const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
+  paginator.setTotalItems(101)
+}
 
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
-if (window.location.search) {
-  const searchParam = params.get('search')
-  if (searchParam) {
-    searchField.value = searchParam
-    searchTerm = searchParam
-  }
-
-  for (const filter of filters) {
-    const terms = params.getAll(filter.id)
-    for (const term of terms) {
-      filter.checked.push(term)
-      document.getElementById(term.replaceAll(' ', '-')).checked = true
+if (window.location.pathname.includes('showcase')) {
+  if (window.location.search) {
+    const searchParam = params.get('search')
+    if (searchParam) {
+      searchField.value = searchParam
+      searchTerm = searchParam
     }
-  }
 
-  let pageNum = 0
-  if (params.get(PAGINATION_URL_PARAM)) {
-    pageNum = params.get(PAGINATION_URL_PARAM) - 1
-    displayInitialProducts(pageNum)
+    for (const filter of filters) {
+      const terms = params.getAll(filter.id)
+      for (const term of terms) {
+        filter.checked.push(term)
+        document.getElementById(term.replaceAll(' ', '-')).checked = true
+      }
+    }
+
+    let pageNum = 0
+    if (params.get(PAGINATION_URL_PARAM)) {
+      pageNum = params.get(PAGINATION_URL_PARAM) - 1
+      displayInitialProducts(pageNum)
+    }
+  } else {
+    displayInitialProducts(0)
   }
-} else {
-  displayInitialProducts(0)
 }
 
 function displayInitialProducts (pageNum) {

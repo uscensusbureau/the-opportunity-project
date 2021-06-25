@@ -28,8 +28,8 @@ const filters = [
 ]
 
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
+const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
 if (document.getElementById('pagination-nav')) {
-  const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
   paginator.setTotalItems(101)
 }
 
@@ -202,7 +202,6 @@ function displayFilteredProducts (pageNum = 0) {
     }
   }
 
-  console.log('displayed filtered products. now paginating')
   paginator.setTotalItems(filteredProducts.length)
   paginator.setCurrPage(pageNum)
   paginateProducts(pageNum)
@@ -222,7 +221,6 @@ function checkFilterMatch (productValue, filterArray) {
  * @param {int} pageIndex page of products to show
  */
 function paginateProducts (pageIndex, scrollToTop = false) {
-  console.log('paginating ' + pageIndex)
   // clamp page number
   pageIndex = Math.max(0, Math.min(Math.ceil(filteredProducts.length / CARDS_PER_PAGE) - 1, pageIndex))
   const showStart = pageIndex * CARDS_PER_PAGE
@@ -241,7 +239,6 @@ function paginateProducts (pageIndex, scrollToTop = false) {
   const urlParams = new URLSearchParams(window.location.search)
   if (pageIndex > 0 || urlParams.get(PAGINATION_URL_PARAM)) {
     urlParams.set(PAGINATION_URL_PARAM, pageIndex + 1)
-    console.log(urlParams.toString())
   }
   let newURL = window.location.origin + window.location.pathname
   if (urlParams.toString()) {

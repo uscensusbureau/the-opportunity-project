@@ -1,30 +1,31 @@
 class PaginationUIControl {
   constructor (paginationId, numPerPage, onShowPage) {
-    console.log('constructing pagination control')
     this.navEl = document.getElementById(paginationId)
     this.numPerPage = numPerPage
     this.currPage = 0
     this.onShowPage = onShowPage
 
-    // add event listeners
-    this.numberButtons = this.navEl.getElementsByClassName('usa-pagination__page-no')
-    for (let i = 0; i < this.numberButtons.length; i++) {
-      const button = this.numberButtons[i]
-      button.addEventListener('click', e => {
+    if (this.navEl) {
+      // add event listeners
+      this.numberButtons = this.navEl.getElementsByClassName('usa-pagination__page-no')
+      for (let i = 0; i < this.numberButtons.length; i++) {
+        const button = this.numberButtons[i]
+        button.addEventListener('click', e => {
+          e.preventDefault()
+          this.onPageClicked(i)
+        })
+      }
+
+      [this.prevButton, this.nextButton] = this.navEl.getElementsByClassName('usa-pagination__arrow')
+      this.prevButton.addEventListener('click', e => {
         e.preventDefault()
-        this.onPageClicked(i)
+        this.onPreviousClicked()
+      })
+      this.nextButton.addEventListener('click', e => {
+        e.preventDefault()
+        this.onNextClicked()
       })
     }
-
-    [this.prevButton, this.nextButton] = this.navEl.getElementsByClassName('usa-pagination__arrow')
-    this.prevButton.addEventListener('click', e => {
-      e.preventDefault()
-      this.onPreviousClicked()
-    })
-    this.nextButton.addEventListener('click', e => {
-      e.preventDefault()
-      this.onNextClicked()
-    })
   }
 
   setTotalItems (numItems) {

@@ -87,15 +87,15 @@ describe('Products Test', () => {
 
   it('labels how many results were returned', () => {
     cy.visit(base)
-    cy.get(resultsField).should("have.text", 'Found 101 products.')
+    cy.get(resultsField).should("include.text", 'of 101 products.')
 
     cy.get(searchField).type(expectedSearchResults[0].searchTerm)
     cy.get(searchForm).submit()
-    cy.get(resultsField).should("have.text", `Found ${expectedSearchResults[0].results} products.`)
+    cy.get(resultsField).should("include.text", `of ${expectedSearchResults[0].results} products.`)
 
     cy.get(searchField).clear()
     cy.get(searchForm).submit()
-    cy.get(resultsField).should("have.text", 'Found 101 products.')
+    cy.get(resultsField).should("include.text", 'of 101 products.')
 
     cy.get(searchField).clear()
     cy.get(searchField).type('fjkdl;sjafiodusfdajsfkldsa')
@@ -107,7 +107,7 @@ describe('Products Test', () => {
     cy.visit(`${base}?search=${expectedSearchResults[0].searchTerm}`)
     
     cy.get(searchField).should('have.value', expectedSearchResults[0].searchTerm)
-    cy.get(resultsField).should('have.text', `Found ${expectedSearchResults[0].results} products.`)
+    cy.get(resultsField).should('include.text', `of ${expectedSearchResults[0].results} products.`)
     cy.get(activeQuery).should('have.length', expectedSearchResults[0].results)
   })
 
@@ -150,7 +150,7 @@ describe('Products Test', () => {
           .click({force: true})
       })
     cy.get(resultsField)
-      .should("have.text", `Found ${expected.results} products.`)
+      .should("include.text", `of ${expected.results} products.`)
   })
 
   const clickOneOfEachFilter = () => {
@@ -245,7 +245,7 @@ describe('Products Test', () => {
     
     cy.get(activeQuery).should('have.length', testing.results)
     cy.get(`#${testing.optionId.replace(' ', '-')}`).should('be.checked')
-    cy.get(resultsField).should("have.text", `Found ${testing.results} products.`)
+    cy.get(resultsField).should("include.text", `of ${testing.results} products.`)
   })
 
   it('shows products based on multiple word filter in urlParams', () => {
@@ -254,7 +254,7 @@ describe('Products Test', () => {
     
     cy.get(activeQuery).should('have.length', testing.results)
     cy.get(`#${testing.optionId.replace(' ', '-')}`).should('be.checked')
-    cy.get(resultsField).should("have.text", `Found ${testing.results} products.`)
+    cy.get(resultsField).should("include.text", `of ${testing.results} products.`)
   })
 
   it('shows products based on multiple existing filters of same type in urlParams', () => {
@@ -285,7 +285,7 @@ describe('Products Test', () => {
     for (const result of testing) {
       cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
     }
-    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(resultsField).should("not.have.text", `of 101 products.`)
     cy.get(activeQuery).should('have.length.lessThan', 101)
   })
 
@@ -301,14 +301,14 @@ describe('Products Test', () => {
     for (const result of testing) {
       cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
     }
-    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(resultsField).should("not.have.text", `of 101 products.`)
     cy.get(activeQuery).should('have.length.lessThan', 101)
   })
 })
 
-describe('Pagination Tests', () => {
+describe.skip('Pagination Tests', () => {
   const pagination = '#pagination-nav'
-  it.only('shows pagination on load', () => {
+  it('shows pagination on load', () => {
     cy.visit(base)
     cy.get(pagination)
   })

@@ -41,7 +41,7 @@ class PaginationUIControl {
   }
 
   setCurrPage (pageIndex) {
-    this.currPage = pageIndex
+    this.currPage = Math.max(0, Math.min(pageIndex, this.numPages - 1))
     this._showButtons()
   }
 

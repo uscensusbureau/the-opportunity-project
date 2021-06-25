@@ -359,41 +359,6 @@ h1, h2, h3 {
 .site-nav-secondary {
   display: none;
 
-  &.sprint-nav {
-    @include u-position('sticky');
-    top: 3.2em;
-    text-align: center;
-    background-color: color("white");
-    border-bottom: units($site-border-width) solid
-      color($site-base-transparent-light);
-    clear: both;
-    display: block;
-    z-index: z-index($z-nav-secondary);
-
-    overflow-x: scroll;
-    overflow-y: hidden;
-    ul {
-      min-width: 740px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    
-    @include at-media('desktop'){
-      top: 5em;
-    }
-
-    @include at-media('755px'){  // want 755px
-      height: 100%; //units($height-nav-secondary);
-      overflow-x: hidden;
-      ul {
-        width: auto;
-      }
-      li {
-        float: none;
-      }
-    }
-  }
 
   @include at-media("desktop") {
     background-color: color("white");
@@ -456,6 +421,41 @@ h1, h2, h3 {
 
     &:hover {
       color: color($site-ink);
+    }
+  }
+
+
+  &.sprint-nav {
+    @include u-position('sticky');
+    top: 3.2em;
+    text-align: center;
+    background-color: color("white");
+    border-bottom: units($site-border-width) solid
+      color($site-base-transparent-light);
+    clear: both;
+    display: block;
+    z-index: z-index($z-nav-secondary);
+
+    overflow-x: scroll;
+
+    overflow-y: hidden;
+    ul {
+      min-width: 740px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    @include at-media('desktop'){
+      top: 5em;
+      height: 100%; //units($height-nav-secondary);
+      overflow-x: hidden;
+      ul {
+        width: auto;
+      }
+      li {
+        float: none;
+      }
     }
   }
 }

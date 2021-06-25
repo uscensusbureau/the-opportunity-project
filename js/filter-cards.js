@@ -12,6 +12,7 @@ const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
 const resultsTextDisplay = document.getElementById('results-count')
+const PAGINATION_URL_PARAM = 'page'
 const CARDS_PER_PAGE = 24
 
 // define filters
@@ -29,7 +30,7 @@ const filters = [
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
 const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
 paginator.setTotalItems(101)
-paginateProducts(0)
+// paginateProducts(0)
 
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
@@ -48,11 +49,23 @@ if (window.location.search) {
     }
   }
 
-  setTimeout(displayFilteredProducts, 500)
-  // displayFilteredProducts()
+  let pageNum = 0
+  if (params.get(PAGINATION_URL_PARAM)) {
+    pageNum = params.get(PAGINATION_URL_PARAM) - 1
+    displayInitialProducts(pageNum)
+  }
+} else {
+  displayInitialProducts(0)
+}
+
+function displayInitialProducts (pageNum) {
+  setTimeout(() => displayFilteredProducts(pageNum), 200)
 
   document.getElementById('all-products').scrollIntoView()
 }
+// } else {
+//   displayFilteredProducts(0)
+// }
 
 // search
 if (prodSearchForm) {
@@ -147,7 +160,7 @@ const appendToURLSearchParams = (urlParams, key, values) => {
  *
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
-function displayFilteredProducts () {
+function displayFilteredProducts (pageNum = 0) {
   filteredProducts = []
   searchTerm = searchTerm.toLowerCase()
   for (let i = 0; i < productCards.length; i++) {
@@ -186,8 +199,10 @@ function displayFilteredProducts () {
     }
   }
 
+  console.log('displayed filtered products. now paginating')
   paginator.setTotalItems(filteredProducts.length)
-  paginateProducts(0)
+  paginator.setCurrPage(pageNum)
+  paginateProducts(pageNum)
 }
 
 function checkFilterMatch (productValue, filterArray) {
@@ -204,6 +219,9 @@ function checkFilterMatch (productValue, filterArray) {
  * @param {int} pageIndex page of products to show
  */
 function paginateProducts (pageIndex, scrollToTop = false) {
+  console.log('paginating ' + pageIndex)
+  // clamp page number
+  pageIndex = Math.max(0, Math.min(Math.ceil(filteredProducts.length / CARDS_PER_PAGE) - 1, pageIndex))
   const showStart = pageIndex * CARDS_PER_PAGE
   const showEnd = Math.min((pageIndex + 1) * CARDS_PER_PAGE, filteredProducts.length)
   filteredProducts.forEach((card, i) => {
@@ -216,11 +234,23 @@ function paginateProducts (pageIndex, scrollToTop = false) {
     }
   })
 
+  // set current page in urlparams
+  const urlParams = new URLSearchParams(window.location.search)
+  if (pageIndex > 0 || urlParams.get(PAGINATION_URL_PARAM)) {
+    urlParams.set(PAGINATION_URL_PARAM, pageIndex + 1)
+    console.log(urlParams.toString())
+  }
+  let newURL = window.location.origin + window.location.pathname
+  if (urlParams.toString()) {
+    newURL += `?${urlParams.toString()}`
+  }
+  window.history.replaceState(null, document.title, newURL)
+
   resultsTextDisplay.innerText = filteredProducts.length > 0
     ? `Showing ${showStart + 1} - ${showEnd} of ${filteredProducts.length} products.`
     : 'No products found.'
   if (scrollToTop) {
-    resultsTextDisplay.scrollIntoView()
+    resultsTextDisplay.scrollIntoView({ block: 'center' })
   }
 }
 

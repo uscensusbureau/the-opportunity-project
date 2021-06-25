@@ -39,20 +39,22 @@ class PaginationUIControl {
     this._showButtons() // don't call continuation here
   }
 
+  setCurrPage (pageIndex) {
+    this.currPage = pageIndex
+    this._showButtons()
+  }
+
   onPageClicked (pageIndex) {
-    console.log('clicked page ' + pageIndex)
     this.currPage = pageIndex
     this._update()
   }
 
   onNextClicked () {
-    console.log('clicked next')
     this.currPage = Math.min(this.numPages - 1, this.currPage + 1)
     this._update()
   }
 
   onPreviousClicked () {
-    console.log('clicked prev')
     this.currPage = Math.max(0, this.currPage - 1)
     this._update()
   }
@@ -73,12 +75,6 @@ class PaginationUIControl {
     } else {
       arrow.classList.add('hidden')
     }
-  }
-
-  _setButtonVisibility (buttonIndex, visible) {
-    this.numberButtons[buttonIndex].style.display = visible
-      ? 'inline-flex'
-      : 'none'
   }
 
   _update () {

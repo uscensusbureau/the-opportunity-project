@@ -110,6 +110,9 @@ h2 {
 h1, h2, h3 {
   scroll-margin-top: 5rem;
 }
+#results-count {
+  scroll-margin-top: 7rem;
+}
 
 // ========================================
 // 2. Site layout
@@ -4785,3 +4788,4 @@ h2.section-header {
 @import 'problem-statement.scss';
 @import 'animated-graphs.scss';
 @import 'coil-site.scss';
+@import 'pagination.scss';

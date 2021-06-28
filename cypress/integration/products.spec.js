@@ -1,64 +1,66 @@
+const base = 'http://localhost:4000/showcase/'
+const searchField = '#search-field'
+const searchForm = '#product-search-form'
+const activeQuery = '.product-card:not(.pc-inactive)'
+const resultsField = '#results-count'
+const resetButton = '#reset-filter'
+
+const expectedSearchResults = [
+  { searchTerm: 'naip', results: 4},
+  { searchTerm: 'bananarama', results: 0 },
+  { searchTerm: 'maps', results: 2 },
+  { searchTerm: 'covid', results: 13 },
+  { searchTerm: 'bites media', results: 1 },
+  { searchTerm: 'jobs', results: 7 }
+]
+
+const filterResults = [
+  {
+    filterIndex: 0,
+    filterId: 'topic',
+    optionId: 'Addressing',
+    results: 3
+  },
+  {
+    filterIndex: 0,
+    filterId: 'topic',
+    optionId: 'Employment',
+    results: 9
+  },
+  { 
+    filterIndex: 1,
+    filterId: 'year',
+    optionId: '2021',
+    results: 12
+  },
+  { 
+    filterIndex: 1,
+    filterId: 'year',
+    optionId: '2018',
+    results: 16
+  },
+  {
+    filterIndex: 2,
+    filterId: 'partner-agency',
+    optionId: 'Department of Agriculture',
+    results: 4
+  },
+  {
+    filterIndex: 2,
+    filterId: 'partner-agency',
+    optionId: 'Census Bureau',
+    results: 12
+  },
+  {
+    filterIndex: 2,
+    filterId: 'topic',
+    optionId: 'Economic Development',
+    results: 9
+  }
+]
+
 describe('Products Test', () => {
-  const base = 'http://localhost:4000/showcase/'
-  const searchField = '#search-field'
-  const searchForm = '#product-search-form'
-  const activeQuery = '.product-card:not(.pc-inactive)'
-  const resultsField = '#results-count'
-  const resetButton = '#reset-filter'
 
-  const expectedSearchResults = [
-    { searchTerm: 'naip', results: 4},
-    { searchTerm: 'bananarama', results: 0 },
-    { searchTerm: 'maps', results: 2 },
-    { searchTerm: 'covid', results: 13 },
-    { searchTerm: 'bites media', results: 1 },
-    { searchTerm: 'jobs', results: 7 }
-  ]
-
-  const filterResults = [
-    {
-      filterIndex: 0,
-      filterId: 'topic',
-      optionId: 'Addressing',
-      results: 3
-    },
-    {
-      filterIndex: 0,
-      filterId: 'topic',
-      optionId: 'Employment',
-      results: 9
-    },
-    { 
-      filterIndex: 1,
-      filterId: 'year',
-      optionId: '2021',
-      results: 12
-    },
-    { 
-      filterIndex: 1,
-      filterId: 'year',
-      optionId: '2018',
-      results: 16
-    },
-    {
-      filterIndex: 2,
-      filterId: 'partner-agency',
-      optionId: 'Department of Agriculture',
-      results: 4
-    },
-    {
-      filterIndex: 2,
-      filterId: 'partner-agency',
-      optionId: 'Census Bureau',
-      results: 12
-    },
-    {
-      filterIndex: 2,
-      filterId: 'topic',
-      optionId: 'Economic Development',
-      results: 8
-    }
-  ]
 
   const search = string => {
     cy.get(searchField).type(string)
@@ -85,15 +87,15 @@ describe('Products Test', () => {
 
   it('labels how many results were returned', () => {
     cy.visit(base)
-    cy.get(resultsField).should("have.text", 'Found 101 products.')
+    cy.get(resultsField).should("include.text", 'of 101 products.')
 
     cy.get(searchField).type(expectedSearchResults[0].searchTerm)
     cy.get(searchForm).submit()
-    cy.get(resultsField).should("have.text", `Found ${expectedSearchResults[0].results} products.`)
+    cy.get(resultsField).should("include.text", `of ${expectedSearchResults[0].results} products.`)
 
     cy.get(searchField).clear()
     cy.get(searchForm).submit()
-    cy.get(resultsField).should("have.text", 'Found 101 products.')
+    cy.get(resultsField).should("include.text", 'of 101 products.')
 
     cy.get(searchField).clear()
     cy.get(searchField).type('fjkdl;sjafiodusfdajsfkldsa')
@@ -105,7 +107,7 @@ describe('Products Test', () => {
     cy.visit(`${base}?search=${expectedSearchResults[0].searchTerm}`)
     
     cy.get(searchField).should('have.value', expectedSearchResults[0].searchTerm)
-    cy.get(resultsField).should('have.text', `Found ${expectedSearchResults[0].results} products.`)
+    cy.get(resultsField).should('include.text', `of ${expectedSearchResults[0].results} products.`)
     cy.get(activeQuery).should('have.length', expectedSearchResults[0].results)
   })
 
@@ -148,7 +150,7 @@ describe('Products Test', () => {
           .click({force: true})
       })
     cy.get(resultsField)
-      .should("have.text", `Found ${expected.results} products.`)
+      .should("include.text", `of ${expected.results} products.`)
   })
 
   const clickOneOfEachFilter = () => {
@@ -243,7 +245,7 @@ describe('Products Test', () => {
     
     cy.get(activeQuery).should('have.length', testing.results)
     cy.get(`#${testing.optionId.replace(' ', '-')}`).should('be.checked')
-    cy.get(resultsField).should("have.text", `Found ${testing.results} products.`)
+    cy.get(resultsField).should("include.text", `of ${testing.results} products.`)
   })
 
   it('shows products based on multiple word filter in urlParams', () => {
@@ -252,7 +254,7 @@ describe('Products Test', () => {
     
     cy.get(activeQuery).should('have.length', testing.results)
     cy.get(`#${testing.optionId.replace(' ', '-')}`).should('be.checked')
-    cy.get(resultsField).should("have.text", `Found ${testing.results} products.`)
+    cy.get(resultsField).should("include.text", `of ${testing.results} products.`)
   })
 
   it('shows products based on multiple existing filters of same type in urlParams', () => {
@@ -283,7 +285,7 @@ describe('Products Test', () => {
     for (const result of testing) {
       cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
     }
-    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(resultsField).should("not.have.text", `of 101 products.`)
     cy.get(activeQuery).should('have.length.lessThan', 101)
   })
 
@@ -299,7 +301,15 @@ describe('Products Test', () => {
     for (const result of testing) {
       cy.get(`#${result.optionId.replace(' ', '-')}`).should('be.checked')
     }
-    cy.get(resultsField).should("not.have.text", `Found 101 products.`)
+    cy.get(resultsField).should("not.have.text", `of 101 products.`)
     cy.get(activeQuery).should('have.length.lessThan', 101)
+  })
+})
+
+describe.skip('Pagination Tests', () => {
+  const pagination = '#pagination-nav'
+  it('shows pagination on load', () => {
+    cy.visit(base)
+    cy.get(pagination)
   })
 })

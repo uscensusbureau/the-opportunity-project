@@ -1,5 +1,5 @@
 ---
-permalink: /coil
+permalink: /coil/
 title: "Census Open Innovation Labs"
 layout: coil
 class: coil
@@ -28,4 +28,3 @@ team:
 If you’re interested in participating in TOP, please [fill out this interest form]({{ site.contacts.census-form }}).
 
 If you want to get started modernizing your agency or organization, send us an email at [{{ site.contacts.coil-email }}](mailto:{{ site.contacts.coil-email }}).
-

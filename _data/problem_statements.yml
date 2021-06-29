@@ -144,6 +144,80 @@
   sprint_order: 2
   sprint_text: Natural Environment
 - Agency:
+  - recN6RYgoMhIZSQrQ
+  Challenge: "Develop digital products to help improve minority businesses\u2019 access\
+    \ to capital"
+  Executive champion: Edith Mcloud, Acting National Director, MBDA
+  Full Title: "Improving Minority Businesses\u2019 Access to Capital"
+  Name: "Improving Minority Businesses\u2019 Access to Capital"
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: Engaged Minority Business Owners and Minority Entrepreneurs
+    seeking access to capital; advocacy organizations supporting these individuals;
+    lending, financing and investment institutions
+  Vision for sprint outcomes: 'With user-friendly digital tools, MBEs and MEs are
+    better able to access capital to grow their enterprises, and financial institutions
+    and investors are better connected to MBEs and MEs. '
+  Why this problem matters: Minority owned businesses are critical to the national
+    and local economies. They are a critical part of job creation and preservation
+    with more than 2.2 million jobs held by persons who find themselves either directly
+    or indirectly employed by NMSDC-certified MBEs.   Yet these businesses face obstacles
+    to surviving and thriving, particularly because of difficulty accessing capital.  Minority
+    businesses often face obstacles in securing business loans from their local financial
+    institutions.  A study by Bates & Robb (2016) found that higher rates of rejection
+    and lower loan amounts typified lending to black and Hispanic-owned Minority Business
+    Enterprises (MBE).  The 2021 Small Business Credit Survey found that Black-owned
+    firms that applied for traditional forms of financing were least likely to receive
+    all of the financing they sought -- 40% of white-owned firms received all of the
+    financing they sought, compared to 31% of asian-owned firms, 20% of Hispanic-owned,
+    and only 13% of black-owned firms. This trend persists even among firms with good
+    credit scores.  One key reason for the lack of bank financing for MBEs is lower
+    credit, lower net worth, and lack of assets. Without the ability to access needed
+    capital, minority businesses often find themselves struggling to grow and gain
+    any traction in their selected industry. Even having to seek bank loans, compared
+    to other business financing options, has disadvantages. Without alternative capital
+    options, businesses either reduce operational capacity or go out of business.
+    Both options can stunt job creation, slow down local economies, and further increase
+    the earnings gap in the United States.  This has been exacerbated with the inequities
+    of the COVID-19 economy.  African Americans experienced the largest losses as
+    a result of the COVID-19 pandemic, eliminating 41 percent of business owners.
+    Similarly, the number of Latinx business owners declined by 32% between February
+    and April 2020, while immigrant business owners suffered a drop of 36 percent.
+  agency_text: Minority Business Development Agency
+  airtable_createdTime: '2021-06-28T20:22:02.000Z'
+  airtable_id: rec2hm93Hd703vhHw
+  sprint_text: The World Post-COVID-19
+- Agency:
+  - rectJsTe77nlH7QcZ
+  Challenge: 'Develop innovative tools that combine datasets to help inform community
+    leaders on equitable distribution of federal funding. Teams are encouraged to
+    analyze how federal COVID-19 spending has been shared with communities most vulnerable
+    to impacts of the pandemic. '
+  Executive champion: 'Justin Marsico, Chief Data Officer, Bureau of the Fiscal Service,
+    US Treasury Department '
+  Full Title: Analyzing Equity in Federal COVID-19 Spending
+  Name: Analyzing Equity in Federal COVID-19 Spending
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: Local officials/decision makers; policy and advocacy
+    organizations; research communities; data journalists.
+  Vision for sprint outcomes: 'By bringing together Census, Treasury, and other open
+    data sources, digital tools help stakeholders better understand whether the federal
+    government is equitably distributing federal funds during the COVID-19 pandemic. '
+  Why this problem matters: Over the course of the COVID-19 pandemic, the federal
+    government has made $4.5 trillion available for relief efforts. How has this money
+    been spent? A greater understanding of how government spending reaches different
+    communities is a step forward for data transparency and a call-to-action to improve
+    equity. Access to federal financial data alongside demographic data can help community
+    leaders make higher impact funding decisions. In line with the recent Executive
+    Order on Advancing Racial Equity and Support for Underserved Communities Through
+    the Federal Government, this problem statement seeks to put equity at the center
+    of the government spending agenda.
+  agency_text: U.S. Department of the Treasury
+  airtable_createdTime: '2021-06-28T20:20:49.000Z'
+  airtable_id: rec3DhHvGbMYMTN1A
+  sprint_text: The World Post-COVID-19
+- Agency:
   - recFUgWuGZMTCoKVG
   Challenge: Create digital tools and resources to track federal financial assistance
     award spending starting from Federal awards and flowing down to state and/or local
@@ -1505,6 +1579,54 @@
   sprint_order: 4
   sprint_text: Geo-Cohort
 - Agency:
+  - recmNtqmtxvtLkQPW
+  Challenge: 'This sprint challenges participants to create tools that enable local
+    decision-making about climate resilience and federal capacity to support local-level
+    priorities, to improve climate resilience planning in communities around the nation.
+    This may include easy-to-use geospatial information tools to help local governments
+    identify and integrate locally relevant federal data to tackle the impacts of
+    climate change on their communities. '
+  Executive champion: Tony LaVoi, Chief Data Officer, NOAA
+  Full Title: Tackling the Climate Crisis through Climate-Smart Communities
+  Name: Tackling the Climate Crisis through Climate-Smart Communities
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: 'The two primary target audiences are: (1) municipal,
+    county, tribal, and state decision makers who are responsible for planning and
+    action to protect people, property, resources, services, and infrastructure from
+    climate-driven extremes, especially in underserved communities; and (2) climate
+    adaptation/resilience professionals who provide local decision makers with expert
+    guidance and translation services to help guide and inform development of their
+    local climate resilience plans.'
+  Vision for sprint outcomes: "Municipal, county, and tribal governments will be able\
+    \ to quickly and easily find and integrate federal agencies\u2019 scientific and\
+    \ socioeconomic data, and pair it  with their own local data. Communities of all\
+    \ types will be empowered to understand their vulnerabilities and accelerate their\
+    \ pace of climate resilience planning.  The availability of the resulting tools\
+    \ will also reduce each community\u2019s planning costs."
+  Why this problem matters: "Climate change-driven extreme events and changed patterns\
+    \ of temperature and precipitation are causing cascading problems in our nation\u2019\
+    s communities.  As the associated frequency, severity, and costs increase, so,\
+    \ too, does the risk facing Americans, especially those most vulnerable to climate\
+    \ impacts, such as poor, rural and minority populations.  Some of the greatest\
+    \ climate-related hazards include extreme heat, drought, wildfires, severe storms\
+    \ and very heavy precipitation, sea level rise and stronger storm surges, and\
+    \ poor air quality.  Unfortunately, the pace and scale of climate-related impacts\
+    \ are generally outpacing our nation\u2019s response. For example, both the average\
+    \ annual number and combined cost damages of billion-dollar disasters (BDDs) in\
+    \ the United States have quadrupled since 1980.  Over the last four decades, our\
+    \ nation has gone from an average of 2.9 BDDs costing $18 billion per year in\
+    \ the 1980s, to 12.3 BDDs costing $82.5 billion per year in the 2010s.  Resilience\
+    \ to these growing threats must be built locally.  But to guide and inform their\
+    \ long-term planning and make climate science-informed decisions, local decision\
+    \ makers need data from all levels of government at their fingertips.  They need\
+    \ to be able to customize geospatial information in locally tailored maps, visuals,\
+    \ and text to communicate about and address local climate-related risks and opportunities. "
+  agency_text: National Oceanic and Atmospheric Administration
+  airtable_createdTime: '2021-06-28T20:16:52.000Z'
+  airtable_id: recbjIUzjzLZ5KmJS
+  sprint_text: The World Post-COVID-19
+- Agency:
   - recG1tIVvzTYzOMct
   Background: 'The Department of Labor believes that employers in every industry deserve
     the tools to develop a highly skilled workforce to help their business compete.
@@ -1583,6 +1705,57 @@
   - recTfL9YZgQqj9i78
   products_text: Bites Media, Edubuddy
   sprint_text: TOPx
+- Agency:
+  - recum0ilV4KFTpriM
+  Challenge: Develop innovative digital tools to prevent financial hardship and housing
+    insecurity by raising awareness of housing assistance resources and connecting
+    at-risk households with housing assistance.
+  Executive champion: Dave Uejio, Acting Director, CFPB
+  Full Title: Preventing Crisis for Low-Income Renters & Small Landlords
+  Name: Preventing Crisis for Low-Income Renters & Small Landlords
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: 'Primary audience: small landlords, at-risk renters,
+    and nonprofits or legal organizations serving vulnerable renters and/or those
+    at risk for homelessness  Secondary audiences or stakeholders: trade associations
+    or other entities seeking to help small landlords retain their properties, financial
+    services providers, and state, local, and tribal governments.'
+  Vision for sprint outcomes: Digital tools use open data to identify the most vulnerable
+    renters; identify affordable housing landlords who are considering or in need
+    of selling rental units; increase awareness of the resources and programs for
+    these communities; and/or help connect these renters and landlords to aid programs.
+  Why this problem matters: "Housing insecurity, or access to affordable housing for\
+    \ lower income households, is not a new challenge facing our country, but it has\
+    \ been exacerbated by the COVID-19 pandemic. In 2020, those who fell behind at\
+    \ least three months on their mortgage increased 250 percent to over 2 million\
+    \ households. Collectively, these households are estimated to owe almost $90 billion\
+    \ in deferred principal, interest, taxes and insurance payments. Similarly, over\
+    \ 8 million rental households are behind in their rent. Now, as the economy recovers\
+    \ from the impacts of the pandemic, eviction moratoriums established to help vulnerable\
+    \ renters will sunset.  As these protections end, many households that faced housing\
+    \ insecurity prior to and during the pandemic will have increased challenges resuming\
+    \ rent or being able to cover back payments, potentially leading to households\
+    \ being displaced and/or individuals becoming homeless.   Displaced households\
+    \ will be impacted by other factors straining the supply of affordable housing,\
+    \ placing displaced households at even higher risk for homelessness or unstable\
+    \ housing.  One of these factors is the strain of the pandemic on small landlords.\
+    \ Small landlords \u2013 defined as those with 10 or fewer units \u2013 account\
+    \ for nearly half of all rental units and represent an important source of affordable\
+    \ housing in many areas.  Yet many are not prepared to weather significant financial\
+    \ hardships such as missed tenant rent payments, and therefore may instead decide\
+    \ to sell off their rental properties or find other tenants. These landlords may\
+    \ feel further discouraged to continue renting or retaining tenants in need of\
+    \ assistance because, in many instances, landlords and tenants must coordinate\
+    \ to capitalize on rental assistance programs.  As time passes, landlords may\
+    \ face the tough decision to evict renters in order to retain their properties\
+    \ if assistance is not swiftly provided, despite being otherwise willing to help\
+    \ their tenants. The importance of identifying these renters and landlords and\
+    \ connecting them with aid will only grow as we face the long term economic impacts\
+    \ of the pandemic."
+  agency_text: Consumer Financial Protection Bureau
+  airtable_createdTime: '2021-06-28T20:19:07.000Z'
+  airtable_id: recfszna1c4jtooN4
+  sprint_text: The World Post-COVID-19
 - Agency:
   - reci7jH40piLVRIiY
   Background: 'Entrepreneurs create the companies that make up the industries of the
@@ -1942,3 +2115,89 @@
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
   sprint_order: 2
   sprint_text: Geo-Cohort
+- Agency:
+  - rec9lu4zRtMv8dOhs
+  Challenge: 'During the pandemic, housing needs quickly changed, as some people moved
+    far from employers or to non-urban locations, and some industries collapsed, grew,
+    or shifted to remote operations. This challenge is to 1) use data to help stakeholders
+    understand post-pandemic housing and migration trends, and/or 2) create tools
+    that help to visualize and process this information for data driven predictions
+    and recommendations. Resulting products could focus on interactive data analysis
+    or visualizations, AI tools, interactive maps, predictive analytics tools, or
+    others. '
+  Executive champion: Kurt G. Usowski, Ph.D., Deputy Assistant Secretary for Economic
+    Affairs, U.S. Department of Housing and Urban Development
+  Full Title: Analyzing Housing and Migration Trends Post-COVID 19
+  Name: Analyzing Housing and Migration Trends Post-COVID 19
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: Any stakeholder involved in affordable housing, to include
+    HUD clients (in the general population), HUD landlords, real estate developers,
+    banks and funding organizations, public housing analysts, local Public Housing
+    Authorities (PHAs), non-government advocacy organizations, city and regional planners,
+    tribal governments, etc.
+  Vision for sprint outcomes: Deliver essential and timely information to stakeholders
+    who support local affordable housing, by gathering and/or analyzing relevant data
+    necessary to plan the post-pandemic changes, requirements, and priorities of housing
+    assistance programs.
+  Why this problem matters: "The U.S. Department of Housing and Urban Development\
+    \ (HUD) has supported low-income housing for more than 50 years, using data about\
+    \ housing needs and demographics to inform affordable housing policies and programs.\
+    \ Over the past year, the COVID-19 pandemic\u2019s global shutdowns challenged\
+    \ many past assumptions about affordable housing needs. Office worker commutes\
+    \ and business travel fell suddenly and sharply, with 60 million fewer commuting\
+    \ miles as 37.1% worked from home. This in turn cut the use of hotels, airlines,\
+    \ dining, entertainment, and more. For instance, business travel spending fell\
+    \ 76%. Millions remain unemployed. Some social and economic patterns are likely\
+    \ to return after the pandemic, while others may continue in a changed form or\
+    \ be gone forever. The housing needs of both remote workers (e.g., office jobs)\
+    \ and on-site workers (e.g., restaurants, delivery, hospitality, etc.) are shifting.\
+    \ Affordability may change for some urban areas, as people relocate to desirable\
+    \ and newly achievable places including the less expensive exurbs of large cities,\
+    \ to lower-cost southern states, and to communities that facilitate non-work activities\
+    \ such as golfing, boating, hiking, art, music and live entertainment, etc. "
+  agency_text: U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2021-06-28T20:13:42.000Z'
+  airtable_id: recsbfXyfEmL6eaDo
+  category: Housing
+  sprint_text: The World Post-COVID-19
+- Agency:
+  - recEEzYRL7CmbAyLm
+  Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
+    community in NYC and in cities nationwide, enabling them to access government
+    resources for an equitable recovery to the impacts of COVID-19. '
+  Executive champion: "John Paul Farmer, Chief Technology Officer, New York City Mayor\u2019\
+    s Office"
+  Full Title: Increasing Content Accessibility for Multilingual Communities
+  Name: Increasing Content Accessibility for Multilingual Communities
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: Local governments and NGOs who need to communicate with
+    diverse language speakers in the United States. The majority of target users will
+    be people who manage digital and print content within public-facing institutions.
+    The ultimate beneficiaries of this initiative are non-English Proficient people,
+    who will benefit by having continuously translated content available to them in
+    the language of their choosing.
+  Vision for sprint outcomes: 'Teams in this sprint explore the creation of an open
+    source data pipeline that moves digital content to one or more translation tools,
+    and back into content management systems, for the benefit of any public-facing
+    agency delivering digital content in multiple languages. Residents of New York
+    City can access all resources equitably; all content is available to all major
+    language groups without significant intervention from content creators. '
+  Why this problem matters: With more than 3 million foreign-born residents from more
+    than 200 different countries, New York City is home to one of the most diverse
+    populations in the world. New Yorkers come from every corner of the globe and
+    speak over 200 different languages. Nearly one-half of all New Yorkers speak a
+    language other than English at home, and almost 25% -- or 1.8 million people --
+    are not English Proficient. In crisis response and recovery, critical public health
+    and operational information must be delivered in multiple languages. Facts emerge
+    on a rolling basis, and information changes quickly, but new information is currently
+    shared first and primarily in English -- making it difficult to ensure that the
+    millions of non- English Proficient residents are able to receive critical information
+    in a timely manner.  In an emergency situation, and during an economic recovery
+    from crises such as COVID-19, if people lack equal access to usable information,
+    how can we ensure an equitable recovery?
+  agency_text: "NEW YORK CITY MAYOR\u2019S OFFICE OF THE CHIEF TECHNOLOGY OFFICER"
+  airtable_createdTime: '2021-06-28T20:23:56.000Z'
+  airtable_id: recxiyHz22AqIcSU6
+  sprint_text: The World Post-COVID-19

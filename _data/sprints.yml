@@ -858,7 +858,7 @@
   - recL1zdYJGminrTMS
   Data Stewards: 'Andy Hait , Chip Walker, Nancy Sonti, Maria (Angie) Santos, Michael
     Akinyele , Rob Dollison, Jason Stoker, Christi Collins, Matt Lyttle , Ana-Maria
-    Garcia (Data Dissemination Specialist), Giselle Laffitte, Joel Schlagel, Jennifer
+    Garcia (Data Dissemination Specialist), Giselle Laffitte, Joel Schlagel , Jennifer
     Hinojosa (Research Associate & Data Center Coordinator), Edwin Melendez (Director),
     John Mootz, Kim Valentine , Krista Heinlen, Francisco Pesante (Statistical Project
     Assitant), Alberto Velazquez (Data Center Lead), Mario Marazzi (Director), Michelle
@@ -1036,6 +1036,18 @@
   img: landing/Sprint-Background_05_Geo.jpg
   order-number: 1
   short-tag: geo
+- Name: The World Post-COVID-19
+  Problem Statements:
+  - recsbfXyfEmL6eaDo
+  - recbjIUzjzLZ5KmJS
+  - recfszna1c4jtooN4
+  - rec3DhHvGbMYMTN1A
+  - rec2hm93Hd703vhHw
+  - recxiyHz22AqIcSU6
+  Year: 2021
+  airtable_createdTime: '2021-06-28T20:12:46.000Z'
+  airtable_id: recjkCdpt4YKEx7Ae
+  short-tag: post-covid
 - Name: NAIP
   Year: 2020
   airtable_createdTime: '2021-01-26T16:35:35.000Z'
@@ -1052,6 +1064,7 @@
   - recRADslXTYbyjOZ9
   - rec8PdH7hI4omQshl
   - recQjVq9yZgfpri29
+  Year: 2020
   airtable_createdTime: '2021-02-19T16:26:06.000Z'
   airtable_id: recuhdACXvzRxxZEM
 - Name: Earth

@@ -7,7 +7,7 @@
           background-size:cover;" {% endif %}>
       </div>
       <div class="grid-col-12 tablet:grid-col-9 tablet:grid-offset-1">
-        <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6">
+        <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6 light-links">
           <h1 class="sprint-hero-header">
             {{ include.content.Name }}
           </h1>
@@ -17,7 +17,13 @@
               {{ include.content.Year }}
             </span>
           {% endif %}
-          <p>{{ include.content.description }}</p>
+          {{ include.content.description | markdownify }}
+          {% if include.isCurrent %}
+            <p class="text-italic">
+              See more detailed descriptions of the problem statements below, and if you are interested in participating as a technologist or user advocate, please
+              <a href="{{ site.contacts.census-form }}" class="white-link">apply online</a>.
+            </p> 
+          {% endif %}
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 {% assign data = include.data %}
-<div class="project-large-text">
+<div class="project-large-text" id="{{ data.title | slugify}}">
   <div class="project-headers">
     <h3>
       {% if data.href %}

@@ -153,6 +153,10 @@ a[href="mailto:census.openinnovationlabs@census.gov"] {
   // @include u-maxw('tablet');
 }
 
+.project-large-text, .coil-card-container {
+  scroll-margin-top: 7em;
+}
+
 .coil-project-lg {
   @include grid-col(12);
   @include u-margin-y(2);

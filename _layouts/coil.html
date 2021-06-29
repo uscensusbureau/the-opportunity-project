@@ -18,7 +18,7 @@ layout: base
       {{ page.hero.subtext | markdownify }}
     </div>
     <div>
-      <a class="coil-btn__primary-white" href="{{ page.typeform }}" target="_blank">
+      <a class="coil-btn__primary-white" href="mailto:{{ site.contacts.coil-email }}" target="_blank">
         {{ page.hero.cta.text }}&nbsp;&rarr;
       </a>
     </div>
@@ -26,19 +26,19 @@ layout: base
 
   <section id="our-work" class="coil-section">
     <div>
-      <img class="abstract-icon" src="{{ site.baseurl }}/img{{page.work-section.icon}}" alt="" data-proofer-ignore>
+      <img class="abstract-icon" src="{{ site.baseurl }}/assets/img{{page.work-section.icon}}" alt="" data-proofer-ignore>
     </div>
     <h2>{{ page.work-section.title }}</h2>
     <p>{{ page.work-section.subtitle }}</p>
     {% for projectSection in site.data.coil-projects %}
       {% include coil/coil-project-section.html 
-          data=projectSection  %}
+          data=projectSection %}
     {% endfor %}
   </section>
 
   <section id="get-involved" class="coil-section">
     <div>
-      <img class="abstract-icon" src="{{ site.baseurl }}/img{{page.get-involved.icon}}" alt="" data-proofer-ignore>
+      <img class="abstract-icon" src="{{ site.baseurl }}/assets/img{{page.get-involved.icon}}" alt="" data-proofer-ignore>
     </div>
     <h2>{{ page.get-involved.title }}</h2>
     {{ content }}

@@ -11,7 +11,6 @@ hero:
   subtext: Want to work with us?
   cta: 
     text: Contact&nbsp;Us
-    href: https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB
 
 work-section:
   title: Our Work

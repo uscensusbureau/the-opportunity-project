@@ -5,14 +5,9 @@ layout: default
 {% assign sprint = data[ 0 ] %}
 {% assign problems = site.data.problem_statements | sort:'sprint_order' | where: 'Sprints', sprint.airtable_id %}
 
-{% assign isCurrent = false %}
-{% if page.short-name == "post-covid" %}
-  {% assign isCurrent = true %}
-{% endif %}
-
 {% include hero.html %}
 {% include nav/sprints-nav.html %}
-{% include sprint-hero.html content=sprint isCurrent=isCurrent%}
+{% include sprint-hero.html content=sprint isCurrent=page.isCurrent %}
 
 {% for statement in problems %}
   {% assign prodId = statement.featured_product[ 0 ] %}
@@ -24,6 +19,14 @@ layout: default
     {% assign showMore = true %}
   {% endif %}
 
+  {% assign isExpanded = false %}
+  {% if forloop.first %}
+    {% if page.isCurrent %}
+      {% assign isExpanded = false %}
+    {% else %}
+      {% assign isExpanded = true %}
+    {% endif %}
+  {% endif %}
   {% include problem-statement.html content=statement product=product 
-    showMore=showMore isExpanded = forloop.first %}
+    showMore=showMore isExpanded = isExpanded %}
 {% endfor %}

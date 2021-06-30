@@ -7,6 +7,7 @@ contacts:
   census-form: https://www.census.gov/forms/contact-top.html
   email: census.opportunityproject@census.gov
   coil-email: census.openinnovationlabs@census.gov
+  prize-challenge: http://challenge.gov/challenge/open-data-for-good-grand-challenge
 
 annual_reports:
   '2020': assets/files/top-annual-report-2020.pdf
@@ -14,7 +15,7 @@ annual_reports:
 
 banner:
   text: The Open Data for Good Grand Challenge 2021 is now LIVE →
-  href: http://challenge.gov
+  href: http://challenge.gov/challenge/open-data-for-good-grand-challenge
   isExternal: true
 
 # this ensure that posts with future dates are published

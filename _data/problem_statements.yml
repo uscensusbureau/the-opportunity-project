@@ -152,37 +152,31 @@
   Name: "Improving Minority Businesses\u2019 Access to Capital"
   Sprints:
   - recjkCdpt4YKEx7Ae
-  Target audience / End user: Engaged Minority Business Owners and Minority Entrepreneurs
-    seeking access to capital; advocacy organizations supporting these individuals;
-    lending, financing and investment institutions
+  Target audience / End user: |-
+    - Engaged Minority Business Owners and Minority Entrepreneurs seeking access to capital
+    - Advocacy organizations supporting these individuals
+    - Lending, financing and investment institutions
   Vision for sprint outcomes: 'With user-friendly digital tools, MBEs and MEs are
     better able to access capital to grow their enterprises, and financial institutions
     and investors are better connected to MBEs and MEs. '
-  Why this problem matters: Minority owned businesses are critical to the national
-    and local economies. They are a critical part of job creation and preservation
-    with more than 2.2 million jobs held by persons who find themselves either directly
-    or indirectly employed by NMSDC-certified MBEs.   Yet these businesses face obstacles
-    to surviving and thriving, particularly because of difficulty accessing capital.  Minority
-    businesses often face obstacles in securing business loans from their local financial
-    institutions.  A study by Bates & Robb (2016) found that higher rates of rejection
-    and lower loan amounts typified lending to black and Hispanic-owned Minority Business
-    Enterprises (MBE).  The 2021 Small Business Credit Survey found that Black-owned
-    firms that applied for traditional forms of financing were least likely to receive
-    all of the financing they sought -- 40% of white-owned firms received all of the
-    financing they sought, compared to 31% of asian-owned firms, 20% of Hispanic-owned,
-    and only 13% of black-owned firms. This trend persists even among firms with good
-    credit scores.  One key reason for the lack of bank financing for MBEs is lower
-    credit, lower net worth, and lack of assets. Without the ability to access needed
-    capital, minority businesses often find themselves struggling to grow and gain
-    any traction in their selected industry. Even having to seek bank loans, compared
-    to other business financing options, has disadvantages. Without alternative capital
-    options, businesses either reduce operational capacity or go out of business.
-    Both options can stunt job creation, slow down local economies, and further increase
-    the earnings gap in the United States.  This has been exacerbated with the inequities
-    of the COVID-19 economy.  African Americans experienced the largest losses as
-    a result of the COVID-19 pandemic, eliminating 41 percent of business owners.
-    Similarly, the number of Latinx business owners declined by 32% between February
-    and April 2020, while immigrant business owners suffered a drop of 36 percent.
+  Why this problem matters: "Minority owned businesses are critical to the national\
+    \ and local economies. They are a critical part of job creation and preservation\
+    \ for more than 2.2 million jobs. Yet these businesses face obstacles to surviving\
+    \ and thriving, particularly because of difficulty accessing capital.  A study\
+    \ by Bates & Robb (2016) found that higher rates of rejection and lower loan amounts\
+    \ typified lending to black and Hispanic-owned Minority Business Enterprises (MBE).\
+    \  The 2021 Small Business Credit Survey found that Black-owned firms that applied\
+    \ for traditional forms of financing were least likely to receive all of the financing\
+    \ they sought -- 40% of white-owned firms received all of the financing they sought,\
+    \ compared to 31% of asian-owned firms, 20% of Hispanic-owned, and only 13% of\
+    \ black-owned firms. This trend persists even among firms with good credit scores.\
+    \  One key reason for the lack of bank financing for MBEs is lower credit, lower\
+    \ net worth, and lack of assets, and.without alternative capital options, businesses\
+    \ either reduce operational capacity or go out of business. \n\nWithout the ability\
+    \ to access needed capital, minority businesses often find themselves struggling\
+    \ to grow and gain any traction in their selected industry, stunting job creation,\
+    \ slowing down local economies, and further increasing the earnings gap in the\
+    \ United States. "
   agency_text: Minority Business Development Agency
   airtable_createdTime: '2021-06-28T20:22:02.000Z'
   airtable_id: rec2hm93Hd703vhHw
@@ -1580,48 +1574,34 @@
   sprint_text: Geo-Cohort
 - Agency:
   - recmNtqmtxvtLkQPW
-  Challenge: 'This sprint challenges participants to create tools that enable local
-    decision-making about climate resilience and federal capacity to support local-level
-    priorities, to improve climate resilience planning in communities around the nation.
-    This may include easy-to-use geospatial information tools to help local governments
-    identify and integrate locally relevant federal data to tackle the impacts of
-    climate change on their communities. '
+  Challenge: 'Improve climate resilience planning in communities around the nation
+    by creating tools that enable local decision making about climate and enable federal
+    support of local-level priorities. '
   Executive champion: Tony LaVoi, Chief Data Officer, NOAA
   Full Title: Tackling the Climate Crisis through Climate-Smart Communities
   Name: Tackling the Climate Crisis through Climate-Smart Communities
   Sprints:
   - recjkCdpt4YKEx7Ae
-  Target audience / End user: 'The two primary target audiences are: (1) municipal,
-    county, tribal, and state decision makers who are responsible for planning and
-    action to protect people, property, resources, services, and infrastructure from
-    climate-driven extremes, especially in underserved communities; and (2) climate
-    adaptation/resilience professionals who provide local decision makers with expert
-    guidance and translation services to help guide and inform development of their
-    local climate resilience plans.'
+  Target audience / End user: |-
+    1. Municipal, county, tribal, and state decision makers who are responsible for planning and action, especially in underserved communities
+    2. Climate adaptation/resilience professionals who provide local decision makers with expert guidance and translation services
   Vision for sprint outcomes: "Municipal, county, and tribal governments will be able\
     \ to quickly and easily find and integrate federal agencies\u2019 scientific and\
     \ socioeconomic data, and pair it  with their own local data. Communities of all\
     \ types will be empowered to understand their vulnerabilities and accelerate their\
     \ pace of climate resilience planning.  The availability of the resulting tools\
     \ will also reduce each community\u2019s planning costs."
-  Why this problem matters: "Climate change-driven extreme events and changed patterns\
-    \ of temperature and precipitation are causing cascading problems in our nation\u2019\
-    s communities.  As the associated frequency, severity, and costs increase, so,\
-    \ too, does the risk facing Americans, especially those most vulnerable to climate\
-    \ impacts, such as poor, rural and minority populations.  Some of the greatest\
-    \ climate-related hazards include extreme heat, drought, wildfires, severe storms\
-    \ and very heavy precipitation, sea level rise and stronger storm surges, and\
-    \ poor air quality.  Unfortunately, the pace and scale of climate-related impacts\
-    \ are generally outpacing our nation\u2019s response. For example, both the average\
-    \ annual number and combined cost damages of billion-dollar disasters (BDDs) in\
-    \ the United States have quadrupled since 1980.  Over the last four decades, our\
-    \ nation has gone from an average of 2.9 BDDs costing $18 billion per year in\
-    \ the 1980s, to 12.3 BDDs costing $82.5 billion per year in the 2010s.  Resilience\
-    \ to these growing threats must be built locally.  But to guide and inform their\
-    \ long-term planning and make climate science-informed decisions, local decision\
-    \ makers need data from all levels of government at their fingertips.  They need\
-    \ to be able to customize geospatial information in locally tailored maps, visuals,\
-    \ and text to communicate about and address local climate-related risks and opportunities. "
+  Why this problem matters: "Climate change-driven extreme events and patterns are\
+    \ causing cascading problems in our nation\u2019s communities.  As the associated\
+    \ frequency, severity, and costs increase, so, too, does the risk facing Americans,\
+    \ especially those most vulnerable to climate impacts, such as poor, rural and\
+    \ minority populations. \n\nUnfortunately, the pace and scale of climate-related\
+    \ impacts are outpacing our nation\u2019s response. Both the average annual number\
+    \ and combined cost damages of billion-dollar disasters (BDDs) in the United States\
+    \ have quadrupled since 1980. Resilience to these growing threats must be built\
+    \ locally, and local decision makers need data from all levels of government at\
+    \ their fingertips to communicate about and address local climate-related risks\
+    \ and opportunities."
   agency_text: National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-06-28T20:16:52.000Z'
   airtable_id: recbjIUzjzLZ5KmJS
@@ -2117,14 +2097,9 @@
   sprint_text: Geo-Cohort
 - Agency:
   - rec9lu4zRtMv8dOhs
-  Challenge: 'During the pandemic, housing needs quickly changed, as some people moved
-    far from employers or to non-urban locations, and some industries collapsed, grew,
-    or shifted to remote operations. This challenge is to 1) use data to help stakeholders
-    understand post-pandemic housing and migration trends, and/or 2) create tools
-    that help to visualize and process this information for data driven predictions
-    and recommendations. Resulting products could focus on interactive data analysis
-    or visualizations, AI tools, interactive maps, predictive analytics tools, or
-    others. '
+  Challenge: Use data to help stakeholders understand post-pandemic housing and migration
+    trends, and create tools that help to visualize and process this information for
+    data driven predictions and recommendations.
   Executive champion: Kurt G. Usowski, Ph.D., Deputy Assistant Secretary for Economic
     Affairs, U.S. Department of Housing and Urban Development
   Full Title: Analyzing Housing and Migration Trends Post-COVID 19
@@ -2150,12 +2125,13 @@
     \ dining, entertainment, and more. For instance, business travel spending fell\
     \ 76%. Millions remain unemployed. Some social and economic patterns are likely\
     \ to return after the pandemic, while others may continue in a changed form or\
-    \ be gone forever. The housing needs of both remote workers (e.g., office jobs)\
-    \ and on-site workers (e.g., restaurants, delivery, hospitality, etc.) are shifting.\
-    \ Affordability may change for some urban areas, as people relocate to desirable\
-    \ and newly achievable places including the less expensive exurbs of large cities,\
-    \ to lower-cost southern states, and to communities that facilitate non-work activities\
-    \ such as golfing, boating, hiking, art, music and live entertainment, etc. "
+    \ be gone forever. \n\nThe housing needs of both remote workers (e.g., office\
+    \ jobs) and on-site workers (e.g., restaurants, delivery, hospitality, etc.) are\
+    \ shifting. Affordability may change for some urban areas, as people relocate\
+    \ to desirable and newly achievable places including the less expensive exurbs\
+    \ of large cities, to lower-cost southern states, and to communities that facilitate\
+    \ non-work activities such as golfing, boating, hiking, art, music and live entertainment,\
+    \ etc. "
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-06-28T20:13:42.000Z'
   airtable_id: recsbfXyfEmL6eaDo
@@ -2175,28 +2151,26 @@
   Target audience / End user: Local governments and NGOs who need to communicate with
     diverse language speakers in the United States. The majority of target users will
     be people who manage digital and print content within public-facing institutions.
-    The ultimate beneficiaries of this initiative are non-English Proficient people,
-    who will benefit by having continuously translated content available to them in
-    the language of their choosing.
+    The ultimate beneficiaries of this initiative are non-English Proficient people.
   Vision for sprint outcomes: 'Teams in this sprint explore the creation of an open
     source data pipeline that moves digital content to one or more translation tools,
     and back into content management systems, for the benefit of any public-facing
     agency delivering digital content in multiple languages. Residents of New York
     City can access all resources equitably; all content is available to all major
     language groups without significant intervention from content creators. '
-  Why this problem matters: With more than 3 million foreign-born residents from more
-    than 200 different countries, New York City is home to one of the most diverse
-    populations in the world. New Yorkers come from every corner of the globe and
-    speak over 200 different languages. Nearly one-half of all New Yorkers speak a
-    language other than English at home, and almost 25% -- or 1.8 million people --
-    are not English Proficient. In crisis response and recovery, critical public health
-    and operational information must be delivered in multiple languages. Facts emerge
-    on a rolling basis, and information changes quickly, but new information is currently
-    shared first and primarily in English -- making it difficult to ensure that the
-    millions of non- English Proficient residents are able to receive critical information
-    in a timely manner.  In an emergency situation, and during an economic recovery
-    from crises such as COVID-19, if people lack equal access to usable information,
-    how can we ensure an equitable recovery?
+  Why this problem matters: "With more than 3 million foreign-born residents from\
+    \ more than 200 different countries, New York City is home to one of the most\
+    \ diverse populations in the world. New Yorkers come from every corner of the\
+    \ globe and speak over 200 different languages. Nearly one-half of all New Yorkers\
+    \ speak a language other than English at home, and almost 25% -- or 1.8 million\
+    \ people -- are not English Proficient. \n\nIn crisis response and recovery, critical\
+    \ public health and operational information must be delivered in multiple languages.\
+    \ Facts emerge on a rolling basis, and information changes quickly, but new information\
+    \ is currently shared first and primarily in English -- making it difficult to\
+    \ ensure that the millions of non- English Proficient residents are able to receive\
+    \ critical information in a timely manner.  In an emergency situation, and during\
+    \ an economic recovery from crises such as COVID-19, if people lack equal access\
+    \ to usable information, how can we ensure an equitable recovery?"
   agency_text: New York City Maryor's Office of the Chief Technology Officer
   airtable_createdTime: '2021-06-28T20:23:56.000Z'
   airtable_id: recxiyHz22AqIcSU6

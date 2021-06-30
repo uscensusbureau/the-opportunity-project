@@ -15,7 +15,7 @@
         <h3 class="problem-statement-subheader">Challenge:</h3>
         <p>{{ include.content.Challenge | markdownify }}</p>
         <h3 class="problem-statement-subheader">Why This Problem is Important:</h3>
-        <p>{{ include.content["Why this problem matters"] }}</p>
+        <p>{{ include.content["Why this problem matters"] | markdownify }}</p>
       </div>
     </div>
 
@@ -48,7 +48,7 @@
 
       <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
         <h3 class="secondary-header">Target Audience</h3>
-        <p>{{ include.content["Target audience / End user"] }}</p>
+        <p>{{ include.content["Target audience / End user"] | markdownify }}</p>
       </div>
     </div>
   </div>

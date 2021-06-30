@@ -26,8 +26,11 @@
           {% assign value = option.value %}
         {% endif %}
       {% endif %}
-      <div class="usa-checkbox">
-        <input class="usa-checkbox__input" id="{{ value | replace: ' ', '-' }}" type="checkbox" name="filter-checkbox" 
+      <div class="usa-checkbox scrolled-input">
+        <input class="usa-checkbox__input" 
+          id="{{ value | replace: ' ', '-' }}" 
+          type="checkbox" 
+          name="filter-checkbox" 
           value="{{ value }}">
         <label class="usa-checkbox__label" for="{{ value | replace: ' ', '-' }}">{{ label }}</label>
       </div>

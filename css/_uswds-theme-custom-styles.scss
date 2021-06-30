@@ -2864,6 +2864,20 @@ code {
   opacity: 1;
 }
 
+.scrolled-input {
+  margin-bottom: -1.5em;
+  &:first-child {
+    margin-top: -2em;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  input {
+    position: static;
+    opacity: 0;
+  }
+}
+
 .yr-btn {
   font-size: font-size("mono", "2xs");
   border: solid color("white") 1px;

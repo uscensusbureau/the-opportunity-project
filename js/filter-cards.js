@@ -1,5 +1,3 @@
-const PaginationUIControl = require('./pagination-ui-control.js')
-
 const $ = require('jquery')
 
 const prodSearchForm = document.getElementById('product-search-form')
@@ -11,9 +9,7 @@ const agencyInput = document.getElementById('partner-agency')
 const filterInputs = [topicsInput, yearInput, agencyInput]
 const productCards = document.getElementsByName('productCard')
 
-const resultsTextDisplay = document.getElementById('results-count')
-const PAGINATION_URL_PARAM = 'page'
-const CARDS_PER_PAGE = 24
+const CARDS_PER_PAGE = 101
 
 // define filters
 let searchTerm = ''
@@ -28,47 +24,30 @@ const filters = [
 ]
 
 let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
-const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
-if (document.getElementById('pagination-nav')) {
-  paginator.setTotalItems(101)
-}
+// paginateProducts(filteredProducts, 1)
 
 // if there's a search term in the URL params, set it and search with it
 const params = new URLSearchParams(window.location.search)
-if (window.location.pathname.includes('showcase')) {
-  if (window.location.search) {
-    const searchParam = params.get('search')
-    if (searchParam) {
-      searchField.value = searchParam
-      searchTerm = searchParam
-    }
-
-    for (const filter of filters) {
-      const terms = params.getAll(filter.id)
-      for (const term of terms) {
-        filter.checked.push(term)
-        document.getElementById(term.replaceAll(' ', '-')).checked = true
-      }
-    }
-
-    let pageNum = 0
-    if (params.get(PAGINATION_URL_PARAM)) {
-      pageNum = params.get(PAGINATION_URL_PARAM) - 1
-    }
-    displayInitialProducts(pageNum)
-  } else {
-    displayInitialProducts(0)
+if (window.location.search) {
+  const searchParam = params.get('search')
+  if (searchParam) {
+    searchField.value = searchParam
+    searchTerm = searchParam
   }
-}
 
-function displayInitialProducts (pageNum) {
-  setTimeout(() => displayFilteredProducts(pageNum), 200)
+  for (const filter of filters) {
+    const terms = params.getAll(filter.id)
+    for (const term of terms) {
+      filter.checked.push(term)
+      document.getElementById(term.replaceAll(' ', '-')).checked = true
+    }
+  }
+
+  setTimeout(displayFilteredProducts, 500)
+  // displayFilteredProducts()
 
   document.getElementById('all-products').scrollIntoView()
 }
-// } else {
-//   displayFilteredProducts(0)
-// }
 
 // search
 if (prodSearchForm) {
@@ -163,7 +142,7 @@ const appendToURLSearchParams = (urlParams, key, values) => {
  *
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
-function displayFilteredProducts (pageNum = 0) {
+function displayFilteredProducts () {
   filteredProducts = []
   searchTerm = searchTerm.toLowerCase()
   for (let i = 0; i < productCards.length; i++) {
@@ -202,9 +181,13 @@ function displayFilteredProducts (pageNum = 0) {
     }
   }
 
-  paginator.setTotalItems(filteredProducts.length)
-  paginator.setCurrPage(pageNum)
-  paginateProducts(pageNum)
+  const results = document.getElementById('results-count')
+  const numProductsFound = filteredProducts.length
+  results.innerText = numProductsFound > 0
+    ? `Found ${numProductsFound} products.`
+    : 'No products found.'
+
+  paginateProducts(filteredProducts, 0)
 }
 
 function checkFilterMatch (productValue, filterArray) {
@@ -218,14 +201,13 @@ function checkFilterMatch (productValue, filterArray) {
 /**
  * Hides or shows product cards based on what page we're on
  * remove pc-inactive class for all cards on current page
+ * @param {array} products array of products to paginate
  * @param {int} pageIndex page of products to show
  */
-function paginateProducts (pageIndex, scrollToTop = false) {
-  // clamp page number
-  pageIndex = Math.max(0, Math.min(Math.ceil(filteredProducts.length / CARDS_PER_PAGE) - 1, pageIndex))
+function paginateProducts (products, pageIndex) {
   const showStart = pageIndex * CARDS_PER_PAGE
-  const showEnd = Math.min((pageIndex + 1) * CARDS_PER_PAGE, filteredProducts.length)
-  filteredProducts.forEach((card, i) => {
+  const showEnd = (pageIndex + 1) * CARDS_PER_PAGE
+  products.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
       card.classList.add('pc-active')
       card.classList.remove('pc-inactive')
@@ -234,24 +216,6 @@ function paginateProducts (pageIndex, scrollToTop = false) {
       card.classList.add('pc-inactive')
     }
   })
-
-  // set current page in urlparams
-  const urlParams = new URLSearchParams(window.location.search)
-  if (pageIndex > 0 || urlParams.get(PAGINATION_URL_PARAM)) {
-    urlParams.set(PAGINATION_URL_PARAM, pageIndex + 1)
-  }
-  let newURL = window.location.origin + window.location.pathname
-  if (urlParams.toString()) {
-    newURL += `?${urlParams.toString()}`
-  }
-  window.history.replaceState(null, document.title, newURL)
-
-  resultsTextDisplay.innerText = filteredProducts.length > 0
-    ? `Showing ${showStart + 1} - ${showEnd} of ${filteredProducts.length} products.`
-    : 'No products found.'
-  if (scrollToTop) {
-    resultsTextDisplay.scrollIntoView({ block: 'center' })
-  }
 }
 
 /**

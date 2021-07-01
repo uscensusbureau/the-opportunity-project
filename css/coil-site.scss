@@ -33,7 +33,7 @@ h2 {
   @include u-font('sans', 'xl');
 }
 
-#our-work {
+#our-work-section {
   @include u-bg('white');
   @include u-color('black');
   a {
@@ -153,7 +153,7 @@ a[href="mailto:census.openinnovationlabs@census.gov"] {
   // @include u-maxw('tablet');
 }
 
-.project-large-text, .coil-card-container {
+.coil-project-lg, .project-large-text, .coil-card-container {
   scroll-margin-top: 7em;
 }
 

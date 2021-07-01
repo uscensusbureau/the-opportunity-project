@@ -20,7 +20,7 @@ first:
     - title: Who runs this program?
       body: The Opportunity Project is a program managed by the Census Open Innovation Labs, part of the U.S. Census Bureau. [Learn more about COIL](../coil).
     - title: How long has TOP been around?
-      body: TOP has been operating since its [launch in 2016](https://obamawhitehouse.archives.gov/the-press-office/2016/10/06/fact-sheet-opportunity-project-unleashing-power-open-data-build#:~:text=The%20President%20launched%20the%20Opportunity,%2C%20quality%20schools%2C%20and%20jobs.).
+      body: TOP has been operating since its [launch in 2016](https://obamawhitehouse.archives.gov/photos-and-video/video/2016/10/06/opportunity-project-white-house-demos).
     - title: Who owns the resulting products? 
       body: The products created through TOP sprints are owned and maintained by the technology developers who built them. In other words, the government agencies involved do not own and maintain these products. Teams can choose their approach after the sprint, often including taking them to market, open sourcing, or handing them off to partners.
   right:

@@ -16,8 +16,7 @@ circuit-banner:
   background-color: primary
   image: icons/circuity-pattern.svg
   sidebar-color: base-darkest
-
-
+  
 # content centered with outline, on blue background
 callout:
   text: The Opportunity Project

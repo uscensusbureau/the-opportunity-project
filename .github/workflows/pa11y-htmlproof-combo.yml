@@ -50,5 +50,5 @@ jobs:
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: --http-status-ignore 0 --url-ignore "/community.amstat.org/,/fhwa.dot.gov/,/www.cyberseek.org/,/www.clustermapping.us/"
+          arguments: --http-status-ignore 0 --url-ignore "/community.amstat.org/,/fhwa.dot.gov/,/www.cyberseek.org/,/www.clustermapping.us/,/www.bls.gov\/cew/"
           # The arguments to pass to HTMLProofer

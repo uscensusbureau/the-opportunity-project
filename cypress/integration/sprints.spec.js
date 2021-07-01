@@ -65,9 +65,14 @@ describe('Sprints test', () => {
       })
     }
   })
+
+  it.only('shows pdf button for all current problem statements', () => {
+    cy.visit(base)
+    cy.get('.ps-pdf').should('have.length', 6)
+  })
 })
 
-describe.skip('past sprints test', () => {
+describe('past sprints test', () => {
   const categories = [
     { name: "Workforce", amt: 5 },
     { name: "Education", amt:  7 },

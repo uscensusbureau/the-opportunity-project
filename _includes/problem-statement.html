@@ -38,10 +38,12 @@
         <p class="margin-top-1">{{ include.content.agency_text }}</p>
       </div>
 
-      {% if page.isCurrent %}
+      {% if page.isCurrent and include.content.pdf %}
         <div class="ps-right-col-section ps-cta {{expandedClass}} text-center">
-          <a class="btn-link btn-link__primary-red text-center">
-            Join this problem statement
+          <a class="btn-link btn-link__secondary-red btn-link--small text-center ps-pdf" 
+            href="{{ site.baseurl }}/assets/files/{{ include.content.pdf }}" download
+          >
+            Download full text (pdf)
           </a>
         </div>
       {% endif %}

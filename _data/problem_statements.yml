@@ -162,24 +162,24 @@
   Why this problem matters: "Minority owned businesses are critical to the national\
     \ and local economies. They are a critical part of job creation and preservation\
     \ for more than 2.2 million jobs. Yet these businesses face obstacles to surviving\
-    \ and thriving, particularly because of difficulty accessing capital.  A study\
-    \ by Bates & Robb (2016) found that higher rates of rejection and lower loan amounts\
-    \ typified lending to black and Hispanic-owned Minority Business Enterprises (MBE).\
-    \  The 2021 Small Business Credit Survey found that Black-owned firms that applied\
-    \ for traditional forms of financing were least likely to receive all of the financing\
-    \ they sought -- 40% of white-owned firms received all of the financing they sought,\
-    \ compared to 31% of asian-owned firms, 20% of Hispanic-owned, and only 13% of\
-    \ black-owned firms. This trend persists even among firms with good credit scores.\
-    \  One key reason for the lack of bank financing for MBEs is lower credit, lower\
-    \ net worth, and lack of assets, and.without alternative capital options, businesses\
-    \ either reduce operational capacity or go out of business. \n\nWithout the ability\
-    \ to access needed capital, minority businesses often find themselves struggling\
+    \ and thriving, particularly because of difficulty accessing capital. The 2021\
+    \ Small Business Credit Survey found that Black-owned firms that applied for traditional\
+    \ forms of financing were least likely to receive all of the financing they sought\
+    \ -- 40% of white-owned firms received all of the financing they sought, compared\
+    \ to 31% of asian-owned firms, 20% of Hispanic-owned, and only 13% of black-owned\
+    \ firms. This trend persists even among firms with good credit scores.  One key\
+    \ reason for the lack of bank financing for MBEs is lower credit, lower net worth,\
+    \ and lack of assets, and.without alternative capital options, businesses either\
+    \ reduce operational capacity or go out of business. \n\nWithout the ability to\
+    \ access needed capital, minority businesses often find themselves struggling\
     \ to grow and gain any traction in their selected industry, stunting job creation,\
     \ slowing down local economies, and further increasing the earnings gap in the\
     \ United States. "
   agency_text: Minority Business Development Agency
   airtable_createdTime: '2021-06-28T20:22:02.000Z'
   airtable_id: rec2hm93Hd703vhHw
+  pdf: 2021-problem-statements/post-covid/MBDA_ Improving Minority Businesses Access
+    to Capital.pdf
   sprint_text: The World Post-COVID-19
 - Agency:
   - rectJsTe77nlH7QcZ
@@ -210,6 +210,8 @@
   agency_text: U.S. Department of the Treasury
   airtable_createdTime: '2021-06-28T20:20:49.000Z'
   airtable_id: rec3DhHvGbMYMTN1A
+  pdf: 2021-problem-statements/post-covid/Treasury_ Analyzing Equity in Federal COVID-19
+    Spending.pdf
   sprint_text: The World Post-COVID-19
 - Agency:
   - recFUgWuGZMTCoKVG
@@ -1605,6 +1607,8 @@
   agency_text: National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-06-28T20:16:52.000Z'
   airtable_id: recbjIUzjzLZ5KmJS
+  pdf: 2021-problem-statements/post-covid/NOAA_ Tackling the Climate Crisis through
+    Climate-Smart Communities.pdf
   sprint_text: The World Post-COVID-19
 - Agency:
   - recG1tIVvzTYzOMct
@@ -1735,6 +1739,8 @@
   agency_text: Consumer Financial Protection Bureau
   airtable_createdTime: '2021-06-28T20:19:07.000Z'
   airtable_id: recfszna1c4jtooN4
+  pdf: 2021-problem-statements/post-covid/CFPB_ Preventing Crisis for Low-Income Renters
+    & Small Landlords.pdf
   sprint_text: The World Post-COVID-19
 - Agency:
   - reci7jH40piLVRIiY
@@ -2136,6 +2142,8 @@
   airtable_createdTime: '2021-06-28T20:13:42.000Z'
   airtable_id: recsbfXyfEmL6eaDo
   category: Housing
+  pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
+    Post-COVID 19.pdf
   sprint_text: The World Post-COVID-19
 - Agency:
   - recEEzYRL7CmbAyLm
@@ -2174,4 +2182,6 @@
   agency_text: New York City Maryor's Office of the Chief Technology Officer
   airtable_createdTime: '2021-06-28T20:23:56.000Z'
   airtable_id: recxiyHz22AqIcSU6
+  pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
+    Multilingual Communities.pdf
   sprint_text: The World Post-COVID-19

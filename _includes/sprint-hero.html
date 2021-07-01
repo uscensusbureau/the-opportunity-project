@@ -19,11 +19,18 @@
           {% endif %}
           {{ include.content.description | markdownify }}
           {% if include.isCurrent %}
-            <p class="text-italic">
-              <strong>We are actively seeking tech teams and user advocates to participate in this upcoming sprint.</strong>
-              See detailed descriptions of the problem statements below, and if you are interested in participating, please
-              <a href="{{ site.contacts.census-form }}" class="white-link">apply online</a>.
-            </p> 
+            <div class="text-italic bg-base-lightest text-base-darkest padding-2 border-2px border-secondary">
+              <p class="margin-y-0">
+                <strong>We are actively seeking tech teams and user advocates to participate in this upcoming sprint.</strong>
+                See detailed descriptions of the problem statements below, and if you are interested in participating, please
+                <a class="highlight-link" href="{{ site.contacts.census-form }}">apply online</a>.
+              </p>
+              <p class="text-center margin-y-0">
+                <a href="{{ site.contacts.census-form }}" 
+                class="btn-link btn-link__primary-red btn-link--small">Join the sprint</a>
+              </p>
+            </div>
+            
           {% endif %}
         </div>
       </div>

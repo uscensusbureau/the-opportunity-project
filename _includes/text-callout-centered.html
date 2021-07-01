@@ -12,7 +12,7 @@
               <img src="{{ site.baseurl }}/assets/img/icons/3-star-row.svg" alt="" data-proofer-ignore>
             </div>
             <h2 class="font-sans-xl text-center">{{ callout.text }}</h2>
-            <p class="font-mono-sm margin-bottom-4">{{ callout.subtext | markdownify }}</p>
+            {% if callout.subtext %}<p class="font-mono-sm margin-bottom-4">{{ callout.subtext | markdownify }}</p>{% endif %}
             {% for item in callout.body %}
               <p>{{ item.p }}</p>
             {% endfor %}
@@ -24,7 +24,6 @@
                 {{ markdown | markdownify }}
               </div>
             {% endif %}
-
 
             {% if callout.expander %}
               <div class="text-callout-centered">

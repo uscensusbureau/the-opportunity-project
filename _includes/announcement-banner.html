@@ -1,11 +1,12 @@
+{% assign banner = site.banner %}
 <section class="site-banner flex-align-center">
   <div class="usa-accordion">
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text font-sans-xs">
-            <a href="{{site.baseurl}}/proposal/">
-              Submit a problem statement for a TOP sprint&nbsp;→
+            <a href="{% unless banner.isExternal %}{{site.baseurl}}{% endunless %}{{ banner.href }}">
+              {{ banner.text }}
             </a>
           </p>
         </div>

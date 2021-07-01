@@ -2,6 +2,8 @@
     Platform, enabling users to automatically query the federal grants.gov database
     to find funding opportunities they may qualify for.
   Product Name: Social Impact Reporting Platform
+  agencies:
+  - Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-10T15:57:43.000Z'
   airtable_id: rec0XnfpVCBwdQJAg
   category:
@@ -25,7 +27,11 @@
   - recbCIeBY22n5OZ3X
   tech_team_text: True Impact
   title: Social Impact Reporting Platform
+  year:
+  - 2017
 - Product Name: ECO Bloc
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:51:42.000Z'
   airtable_id: rec0sJ3TvQo6mykBz
   category:
@@ -53,7 +59,11 @@
   - recfOvlEY9mHSLZqc
   tech_team_text: Eco Bloc
   title: ECO Bloc
+  year:
+  - 2020
 - Product Name: Resettled Refugee Services and Data Explorer
+  agencies:
+  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-22T16:35:14.000Z'
   airtable_id: rec1WFJn1OGTTGrZi
   category:
@@ -83,9 +93,13 @@
   - recpqPZQcaIt0syhI
   tech_team_text: Graphicacy
   title: Resettled Refugee Services and Data Explorer
+  year:
+  - 2020
 - Description (Old): A PolicyLink tool to allow comparison of disaggregated demographic
     indicators.
   Product Name: National Equity Atlas
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:05.000Z'
   airtable_id: rec1aSWndKb5kqADi
   category:
@@ -112,10 +126,14 @@
   - recyVjZcgPDiKwRl8
   tech_team_text: National Equity Atlas
   title: National Equity Atlas
+  year:
+  - 2016
 - Description (Old): Lets users see how average activity relates to common health
     issues in each state, combining CDC health data with aggregated and anonymous
     Fitbit activity data from over 10 million users.
   Product Name: Fitbit
+  agencies:
+  - Office of the U.S. Surgeon General, U.S. Department of Health and Human Services
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: rec3DLJOV0X1vHHVe
   category:
@@ -140,10 +158,14 @@
   - recIBLkqWmzpmChvg
   tech_team_text: Fitbit
   title: Fitbit
+  year:
+  - 2016
 - Description (Old): Uses live spatial and development funding data from USDA, Census,
     DOT, and HUD to simplify funding eligibility with virtual story telling of our
     rural American communities.
   Product Name: Findyour.town
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2020-02-10T16:02:12.000Z'
   airtable_id: rec4bboJwfwGI9dku
   category:
@@ -167,12 +189,16 @@
   - recHoBLj56dFmpN86
   tech_team_text: Ovela
   title: Findyour.town
+  year:
+  - 2016
 - Description (Old): ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal
     Service, and the National Address Database (NAD) schema to help the municipalities
     and communities in Puerto Rico enhance their address infrastructure to support
     the reconstruction process, improve emergency response and foster a more resilient
     future.
   Product Name: PRADOS
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-04T21:29:49.000Z'
   airtable_id: rec4tY9vvumikW1Ku
   category:
@@ -202,7 +228,11 @@
   - reccDU0RyAvsqhU4H
   tech_team_text: iCASA PR
   title: PRADOS
+  year:
+  - 2018
 - Product Name: iDISPLA 360-Degree Data Fusion Virtual Ecosystem Platform
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-22T17:41:44.000Z'
   airtable_id: rec5TopxenNeIOsJO
   category:
@@ -229,7 +259,11 @@
   - recBi1AdtXaNONNw3
   tech_team_text: Greer Institute-ISC iDISPLA Consortium
   title: iDISPLA 360-Degree Data Fusion Virtual Ecosystem Platform
+  year:
+  - 2020
 - Product Name: Telemed
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:23:44.000Z'
   airtable_id: rec5YVAB1Sb4MWin2
   category:
@@ -255,12 +289,16 @@
   - rec6cDJ3i3Hxtri5J
   tech_team_text: '"Net Medical Xpress Solutions, Inc."'
   title: Telemed
+  year:
+  - 2021
 - Description (Old): "Datel Ovela\u2019s tool uses census block data with open EU\
     \ sentinel 1 InSAR to build a block level structural risk product that encourages\
     \ local stakeholders to prepare for crisis through increased awareness of the\
     \ likelihood of catastrophic failure of their structures in a disaster. Public\
     \ access using login: fema@sille.space, password: Planahead2019"
   Product Name: Sille
+  agencies:
+  - U.S. Department of Homeland Security, Federal Emergency Management Agency
   airtable_createdTime: '2020-02-04T21:30:07.000Z'
   airtable_id: rec5dPCVzV3SHuZDS
   category:
@@ -289,7 +327,11 @@
   - reclQzEAskWE1bAhg
   tech_team_text: Datel Ovela
   title: Sille
+  year:
+  - 2018
 - Product Name: Air Aware
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:56:47.000Z'
   airtable_id: rec68a7razj3IGOyX
   category:
@@ -316,6 +358,8 @@
   - recYOMAaarzJdFQ4y
   tech_team_text: George Mason University
   title: Air Aware
+  year:
+  - 2020
 - Description (Old): We used data from US EPA, INTERPOL, the Citizen Science Portal
     and multiple national and international specialists to build an ESRI Story Map.  This
     interactive online narrative compiles tangible and novel data sets to energize
@@ -323,8 +367,12 @@
     pollution, offering actions for citizens and policymakers worldwide to solve the
     crisis.
   Product Name: Ocean Plastics Story Map
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-19T18:44:21.000Z'
   airtable_id: rec6IC6El0nNjSiCA
+  category:
+  - Environment
   data_sets:
   - recVbqBgYXwSLMnNU
   - recscWb6JJRIV79UE
@@ -355,6 +403,8 @@
   - recJKjOOhTrMk1R2e
   tech_team_text: Esri
   title: Ocean Plastics Story Map
+  year:
+  - 2020
 - Description (Old): Uses datasets from multiple agencies to help researchers and
     developers rapidly prototype and deploy tools that address a variety of problems
     surrounding access to opportunity.
@@ -375,7 +425,11 @@
   - recdjgPjCcxGNSoUs
   tech_team_text: Wolfram
   title: Wolfram Data Repository
+  year:
+  - 2016
 - Product Name: TeleCommunity
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:49:27.000Z'
   airtable_id: rec820mIr9jx8uWAq
   category:
@@ -406,9 +460,16 @@
   - recha8bYgpRiv7vdI
   tech_team_text: Tierra Plan
   title: TeleCommunity
+  year:
+  - 2020
 - Product Name: Urban Intelligence Platform
+  agencies:
+  - Office of Management and Budget
   airtable_createdTime: '2021-01-25T22:56:24.000Z'
   airtable_id: rec85E0U2wrRBV8dc
+  category:
+  - Environment
+  - Economic Development
   data_sets:
   - rec1pbahHiv6HeVsl
   data_sets_text: USASpending.gov
@@ -429,7 +490,11 @@
   - recHpXMwp7qKRv8LA
   tech_team_text: UrbanFootprint
   title: Urban Intelligence Platform
+  year:
+  - 2020
 - Product Name: R Story
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:21:38.000Z'
   airtable_id: rec8PdH7hI4omQshl
   category:
@@ -462,10 +527,14 @@
   - reckLt6YrO4IJcvyb
   tech_team_text: Columbia University
   title: R Story
+  year:
+  - 2020
 - Description (Old): "TomTom\u2019s open source mobile app is an address point capture\
     \ tool that incorporates the U.S. National Grid to assign coordinates, in an online\
     \ or offline mode, to make nontraditionally addressed locations addressable."
   Product Name: The TomTom Centaur Data Logging App
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: rec8Yym9s5wIGjlDI
   category:
@@ -489,6 +558,8 @@
   - recJNrJIIPEABchZx
   tech_team_text: TomTom
   title: The TomTom Centaur Data Logging App
+  year:
+  - 2018
 - Description (Old): A new tool for finding areas of opportunity through geographic
     visualizations and reports.
   Product Name: Community Commons
@@ -506,10 +577,14 @@
   - recKUIABb1UoesDJ9
   tech_team_text: Community Commons
   title: Community Commons
+  year:
+  - 2016
 - Description (Old): Excella Consulting's tool uses data sets from the DC Department
     of Human Services to help youth experiencing homelessness find and access services
     in the Washington, DC area.
   Product Name: MySpot
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: rec9slEDBdpxTIC3J
   category:
@@ -534,6 +609,8 @@
   - rec1pHCwGPd73Vsl1
   tech_team_text: Excella
   title: MySpot
+  year:
+  - 2017
 - Description (Old): "Census Intelligence Center combines data from the American Community\
     \ Survey and Census Barriers, Attitudes, and Motivators studies with Civis Analytics\u2019\
     \ survey and message testing technology to empower local leaders and Census coordinators\
@@ -541,6 +618,8 @@
   Participants:
   - recW6xZxbH06A1689
   Product Name: Census Intelligence Center
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:01.000Z'
   airtable_id: recB5iDMet16XnjXe
   category:
@@ -570,7 +649,11 @@
   - recYJMcRX9wkv4vwC
   tech_team_text: Civis Analytics
   title: Census Intelligence Center
+  year:
+  - 2019
 - Product Name: COVID-19 Immutable Test Results Submission and Visualization
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:22:01.000Z'
   airtable_id: recC7pDhIGVSeNl1a
   category:
@@ -594,6 +677,8 @@
   - recWkAZeh1p7lSK1U
   tech_team_text: Oracle
   title: COVID-19 Immutable Test Results Submission and Visualization
+  year:
+  - 2021
 - Description (Old): This project leverages data around growing numbers of Americans
     overseas, people with disabilities, and increasing levels of smartphone penetration
     across the United States to allow the convenience, security and accessibility
@@ -602,6 +687,8 @@
   Participants:
   - reckRo8RLRL8fxBki
   Product Name: Voatz
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recCGea83hgr4djMm
   category:
@@ -629,9 +716,13 @@
   - receQOPQTDz0IwuW7
   tech_team_text: Voatz
   title: Voatz
+  year:
+  - 2019
 - airtable_createdTime: '2021-05-10T20:08:13.000Z'
   airtable_id: recCvsMDbEXL85jtT
 - Product Name: Public Finance Institute-Disaster Spending Tracker
+  agencies:
+  - Office of Management and Budget
   airtable_createdTime: '2021-02-22T16:51:54.000Z'
   airtable_id: recCzsRojdXhNdzCu
   category:
@@ -656,9 +747,14 @@
   - recM5JGt7Hbbymyhg
   tech_team_text: Baruch College
   title: Public Finance Institute-Disaster Spending Tracker
+  year:
+  - 2020
 - Description (Old): Uses nationwide opportunity indexes to make search for opportunity
     more easily obtainable.
   Product Name: Opportunity Enabler
+  agencies:
+  - U.S. Department of Housing and Urban Development
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:03:33.000Z'
   airtable_id: recFD7M4ICvq22Nu4
   category:
@@ -685,11 +781,15 @@
   - recJKjOOhTrMk1R2e
   tech_team_text: Esri
   title: Opportunity Enabler
+  year:
+  - 2016
 - Description (Old): Emsi's Talent Finder Tool uses federal open data sets from the
     Bureau of Labor Statistics, StatsAmerica, American Community Survey, and Internal
     Revenue Service to solve talent discovery issues for entrepreneurs and small businesses
     seeking to hire high-tech workers.
   Product Name: Talent Finder Tool
+  agencies:
+  - U.S. Economic Development Administration
   airtable_createdTime: '2020-02-04T21:28:11.000Z'
   airtable_id: recFK3C3oDrmnIwA3
   category:
@@ -715,7 +815,11 @@
   - recfiHHSc316mEIXh
   tech_team_text: Emsi
   title: Talent Finder Tool
+  year:
+  - 2019
 - Product Name: Sea Scavenger
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:50:01.000Z'
   airtable_id: recFOmdpx7Q6uE0Xl
   category:
@@ -745,7 +849,11 @@
   - recpY2wq0jYSYkJ7s
   tech_team_text: Code for Tucson
   title: Sea Scavenger
+  year:
+  - 2020
 - Product Name: HealthCheck | Connected Testing Platform
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:33:08.000Z'
   airtable_id: recFtYiCXRMvq3IaT
   category:
@@ -773,10 +881,14 @@
   - rechxHdlnIyy3eF4e
   tech_team_text: Safe Health Systems
   title: HealthCheck | Connected Testing Platform
+  year:
+  - 2021
 - Description (Old): IBM's tool is an iOS application to support the logistical planning,
     coordination, execution, and data collection effort undertaken by Census Bureau
     employees conducting the homeless count.
   Product Name: PopCount
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:58:15.000Z'
   airtable_id: recGtDBMaVWHIeULY
   category:
@@ -796,6 +908,8 @@
   - recMUAnVYSJwQLFhD
   tech_team_text: IBM
   title: PopCount
+  year:
+  - 2017
 - Description (Old): Measure of America created a free mapping and data tool for visualizing
     Census Bureau, state, and city data that can help with decennial Census outreach
     in NYC communities by answering questions like 'What happens with Census data?'
@@ -803,6 +917,8 @@
   Participants:
   - reckRo8RLRL8fxBki
   Product Name: Data2GO.NYC
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recHYa0ZILEN3fRFa
   category:
@@ -833,10 +949,14 @@
   - recoaWbpjLMVcGQuZ
   tech_team_text: Measure of America
   title: Data2GO.NYC
+  year:
+  - 2016
 - Description (Old): Uses commuting data from the LEHD Origin-Destination Employment
     Statistics, bus & rail transit routes to show commuter flows and gaps in access
     to transit.
   Product Name: Commuter Map
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:02:02.000Z'
   airtable_id: recIigBAir65hTeIa
   category:
@@ -860,7 +980,11 @@
   - recfTuqV9WjmxKcRf
   tech_team_text: Split
   title: Commuter Map
+  year:
+  - 2016
 - Product Name: Edubuddy
+  agencies:
+  - U.S. Department of State
   airtable_createdTime: '2021-02-19T18:05:17.000Z'
   airtable_id: recIu57RsPY8g7yE6
   category:
@@ -886,10 +1010,14 @@
   - recMHyp6Oksvi4vut
   tech_team_text: Syracuse University
   title: Edubuddy
+  year:
+  - 2020
 - Description (Old): Uses traffic accident and fatality data to provide dynamic location-based
     visualizations of hazardous traffic corridors for citizens and community decision
     makers.
   Product Name: Create
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:45.000Z'
   airtable_id: recJGQBZiNXia0IYm
   category:
@@ -913,7 +1041,11 @@
   - recOFHIK84bftlsQi
   tech_team_text: Create
   title: Create
+  year:
+  - 2016
 - Product Name: Pollution Policy Watch
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:53:51.000Z'
   airtable_id: recJjNKdphBCWsER0
   category:
@@ -937,7 +1069,11 @@
   - recYOMAaarzJdFQ4y
   tech_team_text: George Mason University
   title: Pollution Policy Watch
+  year:
+  - 2020
 - Product Name: Georgetown University Campus Plastic Initiative
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:00:10.000Z'
   airtable_id: recJms1glRzSmKxtR
   category:
@@ -965,11 +1101,15 @@
   - rec9FmSFUcZfoeMA3
   tech_team_text: Georgetown University Beeck Center
   title: Georgetown University Campus Plastic Initiative
+  year:
+  - 2020
 - Description (Old): "Nepris Industry Connections platform uses Department of Labor\
     \ O*NET data to link relevant and authentic industry content to actual job descriptions\
     \ to provide learners and job seekers opportunity for career exploration and exposure.\
     \ Content is organized into the Department of Education\u2019s 16 career clusters."
   Product Name: Nepris Industry Connections
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T15:53:17.000Z'
   airtable_id: recKSyLaCXFbhyDuv
   category:
@@ -993,12 +1133,16 @@
   - recYkpjMO3x5cRUyh
   tech_team_text: Nepris
   title: Nepris Industry Connections
+  year:
+  - 2018
 - Description (Old): "eCivis\u2019 tool Grants Intelligence - Homelessness uses data\
     \ from the Census Bureau, USASpending.gov, SAM.gov, grants.gov, and HUD to make\
     \ homelessness stats and related funding data easily accessible for grants professionals,\
     \ researchers, government finance professionals, and citizens interested in transparency\
     \ and accountability."
   Product Name: Grants Intelligence
+  agencies:
+  - Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-04T21:30:23.000Z'
   airtable_id: recKbaLyzNV2xVyxV
   category:
@@ -1027,11 +1171,15 @@
   - recih2hjzot1rJr2g
   tech_team_text: eCivis
   title: Grants Intelligence
+  year:
+  - 2018
 - Description (Old): MIT's tool is a web-based artificial intelligence tool that helps
     journalists, philanthropists, public servants, and policy advocates to search
     Census Bureau, FBI, and CDC public data on demographics, criminal justice, public
     health, and elections.
   Product Name: Bayes BD
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:32:00.000Z'
   airtable_id: recMyCXtD901elAkR
   category:
@@ -1059,9 +1207,13 @@
   - recFeyC3m91j3eDez
   tech_team_text: MIT
   title: Bayes BD
+  year:
+  - 2017
 - Description (Old): Ushahidi Job Postings combines crowdsourced job reports to share
     alerts of local job openings.
   Product Name: Job Crowdsourcing Tool
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:32:19.000Z'
   airtable_id: recNXCwgWCLa3ZMwB
   category:
@@ -1082,9 +1234,13 @@
   - recXy9McWYb0GWj5c
   tech_team_text: Ushahidi
   title: Job Crowdsourcing Tool
+  year:
+  - 2016
 - Description (Old): Uses data from eligible training provider lists (ETPL) to surface
     education options that lead to in-demand careers for job seekers.
   Product Name: Training Finder
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:00:39.000Z'
   airtable_id: recPVCxfdXoYMpSGS
   category:
@@ -1104,10 +1260,14 @@
   - recfSWXExIhLR9Xmi
   tech_team_text: LinkedIn
   title: Training Finder
+  year:
+  - 2016
 - Description (Old): Helping low income families overcome the stress of finding affordable
     housing this tool combines transit access, walkability and school information
     into one unique feed of available properties.
   Product Name: FindHome
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T15:59:25.000Z'
   airtable_id: recQ1M2vLF3zJSUJR
   category:
@@ -1126,9 +1286,13 @@
   - reco9K5fOjP6TLgnH
   tech_team_text: Loveland Technologies
   title: FindHome
+  year:
+  - 2016
 - Description (Old): This tool from Redfin shows jobs you can get to in 30 minutes,
     without a car, from any address.
   Product Name: Opportunity Score
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:04:14.000Z'
   airtable_id: recQMqUTqBxw0DK7G
   category:
@@ -1153,7 +1317,11 @@
   - rec4JWIKBqZIgbUk2
   tech_team_text: Redfin
   title: Opportunity Score
+  year:
+  - 2016
 - Product Name: Digital Health Pass
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T19:52:27.000Z'
   airtable_id: recQdmgL9m4HwZjQe
   category:
@@ -1177,7 +1345,11 @@
   - recMUAnVYSJwQLFhD
   tech_team_text: IBM
   title: Digital Health Pass
+  year:
+  - 2021
 - Product Name: Maine Business Resources
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:23:33.000Z'
   airtable_id: recQjVq9yZgfpri29
   category:
@@ -1202,7 +1374,11 @@
   - recMHyp6Oksvi4vut
   tech_team_text: Syracuse University
   title: Maine Business Resources
+  year:
+  - 2020
 - Product Name: The Ghost Gear Project
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:04:31.000Z'
   airtable_id: recRADslXTYbyjOZ9
   category:
@@ -1228,7 +1404,11 @@
   - recyAgvenphF9cGot
   tech_team_text: Harvard University Institute of Politics
   title: The Ghost Gear Project
+  year:
+  - 2020
 - Product Name: ClinIQ Health
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:40:33.000Z'
   airtable_id: recRUkG2VoPGqGcxN
   category:
@@ -1253,6 +1433,8 @@
   - recxWZBiNY6LjCCoA
   tech_team_text: ClinIQ
   title: ClinIQ Health
+  year:
+  - 2021
 - Description (Old): A tool by Zillow for exploring the opportunity and growth potential
     of Baltimore's neighborhoods.
   Product Name: Baltimore Explorer
@@ -1268,6 +1450,8 @@
   - recBSyx2r9Zbo4dq2
   tech_team_text: Zillow
   title: Baltimore Explorer
+  year:
+  - 2016
 - Description (Old): NextDayBetter used open data overlaying low-response census tracts
     with low broadband access and CBAMS insights to define demographic profiles and
     psychographic barriers to design stories that are culturally relevant to engage
@@ -1276,6 +1460,8 @@
   Participants:
   - recUAgl06lSRyff6V
   Product Name: '#WhyWeCount'
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: recSXynrxBTKXTh63
   category:
@@ -1307,10 +1493,14 @@
   - rec2xyjvmNoAwTUFO
   tech_team_text: NextDayBetter
   title: '#WhyWeCount'
+  year:
+  - 2019
 - Description (Old): Tech Talent Tracker uses BEA, FCC, ED, and USCB data (and third-party
     data from GoDaddy, Facebook, and Deloitte) to create digital economy reports for
     rural leaders designing economic development strategies.
   Product Name: Tech Talent Tracker
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:55:45.000Z'
   airtable_id: recSywRIyeQEsXwCq
   category:
@@ -1343,11 +1533,15 @@
   - recqjw671S8d0m9uJ
   tech_team_text: Center on Rural Innovation
   title: Tech Talent Tracker
+  year:
+  - 2020
 - Description (Old): Care Partners Plus's tool uses Census Bureau and HUD data to
     help veterans communicate needs to their care team in real time, identifying high-risk
     veterans for suicide, homelessness and substance use for improved follow-up, transparency,
     and accountability.
   Product Name: Get Vets Help
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-04T21:31:53.000Z'
   airtable_id: recT8TuI7EDLqeTIk
   category:
@@ -1375,7 +1569,11 @@
   - recB6vmItfkYnEbCY
   tech_team_text: Care Partners Plus
   title: Get Vets Help
+  year:
+  - 2017
 - Product Name: Bites Media
+  agencies:
+  - U.S. Department of State
   airtable_createdTime: '2021-02-19T18:01:36.000Z'
   airtable_id: recTfL9YZgQqj9i78
   category:
@@ -1408,9 +1606,13 @@
   - reclleWLi44z32y9S
   tech_team_text: Bites Media
   title: Bites Media
+  year:
+  - 2020
 - Description (Old): Uses data from eleven federal agencies and twelve cities to facilitate
     finding, viewing and collaborating over data for Opportunity Project sprint participants.
   Product Name: Data.World Workspace
+  agencies:
+  - null
   airtable_createdTime: '2020-02-04T21:30:42.000Z'
   airtable_id: recV0aW7ZolC7aIoy
   category:
@@ -1436,10 +1638,14 @@
   - recyduOww6GYFzRO7
   tech_team_text: Data.World
   title: Data.World Workspace
+  year:
+  - 2016
 - Description (Old): Uses HUD rental data to identify areas that present a high-opportunity
     for families to supplement their housing costs through renting excess rooms or
     units.
   Product Name: Housing Calculator
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T15:59:42.000Z'
   airtable_id: recVCXRirVspq062m
   category:
@@ -1459,11 +1665,15 @@
   - recEg0GbLNkqrak2Y
   tech_team_text: Airbnb
   title: Housing Calculator
+  year:
+  - 2016
 - Description (Old): Mapbox used U.S. Forest Service environmental stewardship data
     to build STEWMAP Explorer which makes it simple to see what organizations are
     working in which turfs for local groups to better connect with others caring for
     their local environment.
   Product Name: STEWMAP Explorer
+  agencies:
+  - U.S. Forest Service
   airtable_createdTime: '2020-02-04T21:31:20.000Z'
   airtable_id: recWRZvsJGQgPYlDn
   category:
@@ -1487,12 +1697,16 @@
   - receOwIU74vvoLdfc
   tech_team_text: Mapbox
   title: STEWMAP Explorer
+  year:
+  - 2018
 - Description (Old): "Visa's Practical Business Skills chat bot uses several federal\
     \ data, such as Small Business Administration\u2019s \u2018Find Local Assistance\u2019\
     \ resource, to empower growth-minded entrepreneurs with the financial and business\
     \ knowledge to better manage their money and make confident, informed business\
     \ decisions."
   Product Name: Practical Business Skills
+  agencies:
+  - White House Office of Science and Technology Policy
   airtable_createdTime: '2020-02-04T21:28:23.000Z'
   airtable_id: recWyKy6qT8GX7jT8
   category:
@@ -1520,9 +1734,13 @@
   - recHNjjPXIHJWQt72
   tech_team_text: Visa
   title: Practical Business Skills
+  year:
+  - 2019
 - Description (Old): An interactive tool from Azavea for exploring transit accessibility
     to target resources from focus areas.
   Product Name: Transit Analyst
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:16:03.000Z'
   airtable_id: recXOkjSet73HILtM
   category:
@@ -1550,10 +1768,14 @@
   - rec3pKcAiwSL6HNya
   tech_team_text: Azavea
   title: Transit Analyst
+  year:
+  - 2016
 - Description (Old): Geoslug, a partnership between UC Santa Cruz and Motivf, created
     a serious game that uses federal disaster declaration and protective actions data
     to engage young adults in preparing for emergencies.
   Product Name: Disaster Awareness Games
+  agencies:
+  - U.S. Department of Homeland Security, Federal Emergency Management Agency
   airtable_createdTime: '2020-02-10T15:51:52.000Z'
   airtable_id: recXgUtGqv4vnOFKA
   category:
@@ -1576,9 +1798,13 @@
   - recpG8DRcMaxzbdYQ
   tech_team_text: Geoslug- UC Santa Barbara, Motivf
   title: Disaster Awareness Games
+  year:
+  - 2018
 - Description (Old): A tool from Esri that shows where opportunities are for low income
     citizens with children.
   Product Name: Affordable Housing Finder
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:17:31.000Z'
   airtable_id: recYDGmuetKuKzaJW
   category:
@@ -1602,9 +1828,16 @@
   - recJKjOOhTrMk1R2e
   tech_team_text: Esri
   title: Affordable Housing Finder
+  year:
+  - 2016
 - Product Name: Census Taker
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2021-02-19T21:32:12.000Z'
   airtable_id: recYOMiqxyb3IN11r
+  category:
+  - Census
+  - Employment
   image: census-taker_amava.jpg
   image-alt: Screenshot of Census Taker's website
   link: https://amava.com/flexible-jobs/census-taker
@@ -1618,12 +1851,17 @@
   - rec1nvpK6aLuJHf4k
   tech_team_text: Amava
   title: Census Taker
+  year:
+  - 2019
 - Description (Old): CORI's Rural Startup Scout uses federal datasets including the
     American Community Survey, HIFLD, FCC Form 477, and data about education attainment
     and patent activity to reveal Opportunity Zones with emerging tech sectors so
     investors can discover promising rural startups ready to scale that otherwise
     would have been overlooked.
   Product Name: Rural Startup Scout
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-02-04T21:28:33.000Z'
   airtable_id: recYVIjlUXHhhAjLr
   category:
@@ -1649,9 +1887,13 @@
   - recqjw671S8d0m9uJ
   tech_team_text: Center on Rural Innovation
   title: Rural Startup Scout
+  year:
+  - 2019
 - Description (Old): Uses labor/employment info from multiple federal data sources
     to help navigate careers in government for Americans.
   Product Name: Opportunity.hackernest.com
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:03:17.000Z'
   airtable_id: recYdVmxC6OUqRxB0
   category:
@@ -1675,12 +1917,16 @@
   - recyJn4eorp1gbjsp
   tech_team_text: Hackernest
   title: Opportunity.hackernest.com
+  year:
+  - 2016
 - Description (Old): "REI Systems\u2019 Grants Impact and Story Tool (GIST) uses federal\
     \ open data from USASpending.gov, SAM.gov, Grants.gov, FEMA, HHS, and the Department\
     \ of Education to visually showcase how federal grants spending leads to desired\
     \ performance outcomes, enhancing federal accountability and transparency for\
     \ the American public."
   Product Name: Grants Impact and Story Tool
+  agencies:
+  - Office of Management and Budget, U.S. Department of the Treasury
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recZ3abAz4ADb6WRZ
   category:
@@ -1705,7 +1951,11 @@
   - recZeQ8rsXC2TGPVp
   tech_team_text: REI
   title: Grants Impact and Story Tool
+  year:
+  - 2018
 - Product Name: FindHello
+  agencies:
+  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-19T21:56:03.000Z'
   airtable_id: recZC1VP8ywUBxS8q
   category:
@@ -1732,12 +1982,16 @@
   - recS0FShcAPY62lCa
   tech_team_text: SAS, USAHello
   title: FindHello
+  year:
+  - 2020
 - Description (Old): "Socrata\u2019s Citizen Education Data Cloud leveraged data from\
     \ the Census Bureau, Civil Rights Data Collection Program, the National Center\
     \ for Education Statistics, and the Department of Education to fuse together disparate,\
     \ nonstandardized data, to provide nationwide analysis of metrics for federal\
     \ and state decision-makers to support the Every Student Succeeds Act (ESSA)."
   Product Name: Socrata Citizen Education Data Cloud
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-04T21:30:24.000Z'
   airtable_id: recZkztX2XjSfcDzO
   category:
@@ -1763,10 +2017,14 @@
   - recCQeXnM3qtBOGTs
   tech_team_text: Socrata
   title: Socrata Citizen Education Data Cloud
+  year:
+  - 2018
 - Description (Old): Columbia university's product supports policymakers in resource
     allocation by predicting decennial Census response rates by day for each census
     tract, and comparing them to the true rates.
   Product Name: Tract by Tract
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:41.000Z'
   airtable_id: recZn66weHUm3gq49
   category:
@@ -1791,7 +2049,11 @@
   - rec5lLkD2ar0icWWj
   tech_team_text: Columbia
   title: Tract by Tract
+  year:
+  - 2019
 - Product Name: Julius Career Journey Program
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-22T17:43:16.000Z'
   airtable_id: reca9CUrcr39DStIc
   category:
@@ -1819,10 +2081,14 @@
   - recxnBicJzNBSEF3l
   tech_team_text: Julius Education
   title: Julius Career Journey Program
+  year:
+  - 2020
 - Description (Old): Our solution aims to empower city officials to make informed
     decisions around waste management that lead to transparency, investment and job
     creation.
   Product Name: Chicago Circular Economy
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:38:29.000Z'
   airtable_id: recaRsKbgtQOavIpx
   category:
@@ -1859,7 +2125,11 @@
   - recIg84I27yOjBzjC
   tech_team_text: SAP
   title: Chicago Circular Economy
+  year:
+  - 2020
 - Product Name: Smart Clinical Testing Ecosystem for COVID-19
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:37:11.000Z'
   airtable_id: recaULJmJOTbOyWAe
   category:
@@ -1885,12 +2155,17 @@
   - rec7JY030MzCLQJad
   tech_team_text: OraLiva
   title: Smart Clinical Testing Ecosystem for COVID-19
+  year:
+  - 2021
 - Description (Old): Public Democracy uses ACS data, proprietary enterprise level
     marketing systems along with privately owned data, and new data that we gathered
     via their survey tool, which ensures that community priorities inform OZ strategies
     for policy decision-makers, economic development officials, and investors in Birmingham,
     Alabama.
   Product Name: Community Led Opportunity Zones
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-02-04T21:28:51.000Z'
   airtable_id: recb1pW6mpE2vl6tp
   category:
@@ -1918,10 +2193,14 @@
   - recgjFKuVPIUgBBeI
   tech_team_text: Public Democracy
   title: Community Led Opportunity Zones
+  year:
+  - 2019
 - Description (Old): RefugeeAssist uses WRAPSnet data (State Dept) and BroadbandUSA
     data (NTIA) to allow refugees to identify community resources near them during
     and after their resettlement period.
   Product Name: RefugeeAssist
+  agencies:
+  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-19T18:58:27.000Z'
   airtable_id: recbsgNzUmmrKuEYn
   category:
@@ -1949,10 +2228,14 @@
   - reckLt6YrO4IJcvyb
   tech_team_text: Georgetown McCourt School of Public Policy, Columbia University
   title: RefugeeAssist
+  year:
+  - 2020
 - Description (Old): Community Counts leverages data from HUD and Community Partners
     to help Area Census Office Staff visualize and verify potential locations of individuals
     experiencing homelessness for enumeration.
   Product Name: Community Counts
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:48:05.000Z'
   airtable_id: recc6G4ozj7KnAH6e
   category:
@@ -1976,11 +2259,16 @@
   - rec1pHCwGPd73Vsl1
   tech_team_text: Excella
   title: Community Counts
+  year:
+  - 2019
 - Description (Old): Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department
     of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
     Commission data to bring transparency to the Opportunity Zone ecosystem for investors,
     fund manager, wealth managers, and cities.
   Product Name: City Builder
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recdBbAkH3Y7hu4y4
   category:
@@ -2006,7 +2294,11 @@
   - recWU7wQtwNIwHE6H
   tech_team_text: Citi Ventures
   title: City Builder
+  year:
+  - 2019
 - Product Name: Clean Air Hero
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T16:24:26.000Z'
   airtable_id: receafMaV7aRWkMwG
   category:
@@ -2030,6 +2322,8 @@
   - recQGdmjezb1rxULl
   tech_team_text: Rutgers University IDEA
   title: Clean Air Hero
+  year:
+  - 2020
 - Description (Old): "Spatial Networks\u2019 Fulcrum mobile app is a field data collection\
     \ platform that allows communities to collect crowdsourced data. Spatial Networks\
     \ used the Census Bureau\u2019s National Address Database schema and USDA\u2019\
@@ -2037,6 +2331,8 @@
     \ provides a field data crowdsourcing platform for government or agency stakeholders\
     \ with gaps in their address data on the ground."
   Product Name: Fulcrum Community for Addressing and Disaster Preparedness
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T15:49:31.000Z'
   airtable_id: receo5EjDvZOW0G6N
   category:
@@ -2060,11 +2356,15 @@
   - recw5wWtMIDR9pMLV
   tech_team_text: Spatial Networks
   title: Fulcrum Community for Addressing and Disaster Preparedness
+  year:
+  - 2018
 - Description (Old): "IBM\u2019s tool Watson Employment Manager uses DOL Career One\
     \ Stop, O*NET  center, Walkingscore.com, and Google maps data to provide career\
     \ recommendations on potential job/apprenticeship matches based on conceptual\
     \ search and training recommendations, and skill gap analysis."
   Product Name: Watson Employment Manager
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: recfUxMS7BNZxVPLX
   category:
@@ -2089,10 +2389,14 @@
   - recMUAnVYSJwQLFhD
   tech_team_text: IBM
   title: Watson Employment Manager
+  year:
+  - 2018
 - Description (Old): "Redfin's job opportunity tool uses datasets on employment clusters,\
     \ pay ranges, housing costs, and more to help better inform Redfin\u2019s millions\
     \ of users looking to relocate for work or even startups looking to find workers."
   Product Name: Job Opportunity Tool
+  agencies:
+  - U.S. Economic Development Administration
   airtable_createdTime: '2020-02-04T21:28:40.000Z'
   airtable_id: recfqTRYC5LXFiOUe
   category:
@@ -2120,8 +2424,13 @@
   - rec4JWIKBqZIgbUk2
   tech_team_text: Redfin
   title: Job Opportunity Tool
+  year:
+  - 2019
 - Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
   Product Name: Streetwyze
+  agencies:
+  - Office of the U.S. Surgeon General, U.S. Department of Health and Human Services
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:16:49.000Z'
   airtable_id: rechMaHffUM7JYl3l
   category:
@@ -2147,6 +2456,8 @@
   - rec3PNNY2hoq6maZg
   tech_team_text: Streetwyze
   title: Streetwyze
+  year:
+  - 2016
 - Description (Old): Story maps providing visibility into the affordability of opportunity
     for children in U.S. metro areas.
   Product Name: diversitydatakids.org
@@ -2166,7 +2477,11 @@
   - recm5nLUnSaxx0EDf
   tech_team_text: diversitydatakids.org
   title: diversitydatakids.org
+  year:
+  - 2016
 - Product Name: At-Home Testing Platform
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T14:41:35.000Z'
   airtable_id: rechzHn8vOEW60T0x
   category:
@@ -2190,12 +2505,16 @@
   - recJxzn1pS5fWvULP
   tech_team_text: UDo Test Inc.
   title: At-Home Testing Platform
+  year:
+  - 2021
 - Description (Old): Puerto Rico Land Grid by Loveland Technologies combines a parcel
     map of Puerto Rico with a scalable mobile survey platform and federal open data
     sets and overlays. An accompanying survey plan and budget details an approach
     to assessing the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island.
   Product Name: Puerto Rico Land Grid
+  agencies:
+  - U.S. Department of Homeland Security, Federal Emergency Management Agency
   airtable_createdTime: '2020-02-04T21:31:04.000Z'
   airtable_id: reciAHM7OE2uo9JTi
   category:
@@ -2225,11 +2544,15 @@
   - reco9K5fOjP6TLgnH
   tech_team_text: Loveland Technologies
   title: Puerto Rico Land Grid
+  year:
+  - 2018
 - Description (Old): Civis Analytics partnered with SkillsEngine, a workforce development
     and technology nonprofit, to create an algorithm that uses Department of Labor
     data and Natural Language Processing to show veterans the most relevant registered
     apprenticeships based on their declared skills, interests, and military history.
   Product Name: Veteran Apprenticeship Matcher
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:30:46.000Z'
   airtable_id: reciS4wntA3e352BQ
   category:
@@ -2255,7 +2578,11 @@
   - recYJMcRX9wkv4vwC
   tech_team_text: Civis Analytics
   title: Veteran Apprenticeship Matcher
+  year:
+  - 2018
 - Product Name: Co-Verify
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:28:09.000Z'
   airtable_id: reciaW1ybfwaIF0dI
   category:
@@ -2284,10 +2611,14 @@
   - reclhEEWulxWz3Hgi
   tech_team_text: DLC Enterprises
   title: Co-Verify
+  year:
+  - 2021
 - Description (Old): Great Schools and Education Cities' uses college readiness data
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
   Product Name: Opportunity Dashboard
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:00:16.000Z'
   airtable_id: recj2I36nEPH4qWuf
   category:
@@ -2307,9 +2638,14 @@
   - recLm3s1u8Lf6Eilc
   tech_team_text: Great Schools
   title: Opportunity Dashboard
+  year:
+  - 2016
 - Description (Old): A tool from Socrata that allows for comparison and similarity
     detection of geographic regions.
   Product Name: OpenData Network
+  agencies:
+  - null
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:20.000Z'
   airtable_id: recj9AnYrX4fI5Ecf
   category:
@@ -2331,7 +2667,11 @@
   - recCQeXnM3qtBOGTs
   tech_team_text: Socrata
   title: OpenData Network
+  year:
+  - 2016
 - Product Name: State Reporting Hub
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:31:32.000Z'
   airtable_id: recj9dZ7MMUnxFPXi
   category:
@@ -2357,9 +2697,13 @@
   - recLDeO5w4wQSoG5A
   tech_team_text: Lifepoint Informatics
   title: State Reporting Hub
+  year:
+  - 2021
 - Description (Old): Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships.
   Product Name: School ResourceMapper
+  agencies:
+  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:00:54.000Z'
   airtable_id: recjBsJokWirN5SXn
   category:
@@ -2386,9 +2730,13 @@
   - receenOZnO5PWw45u
   tech_team_text: Data Society, Kitamba
   title: School ResourceMapper
+  year:
+  - 2016
 - Description (Old): Kanarys uses open EEOC data and Census Bureau data and reports
     to create more inclusive, nontoxic workplaces for individuals and their employers.
   Product Name: Kanarys
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-02-04T21:28:10.000Z'
   airtable_id: reckOdJi2Y6DUxI09
   category:
@@ -2411,9 +2759,13 @@
   - recG2Af8pfS6f9kI9
   tech_team_text: Kanarys
   title: Kanarys
+  year:
+  - 2019
 - airtable_createdTime: '2021-05-10T14:41:36.000Z'
   airtable_id: reckh1lCFZTVUS1qa
 - Product Name: America's Community Collaboration Platform
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-22T17:36:15.000Z'
   airtable_id: reclF9Mn2Z6aMqzJk
   category:
@@ -2446,10 +2798,14 @@
   - rec6aI2sH7VzWvFzS
   tech_team_text: Council Exchange Board of Trade
   title: America's Community Collaboration Platform
+  year:
+  - 2020
 - Description (Old): Solve uses NAICs codes and National Certifications Table to organize
     industries to better connect skills, certifications, industries and outcomes of
     training programs towards the right jobs in the right industry.
   Product Name: Solve
+  agencies:
+  - U.S. Department of Education
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recleNeiLRdZwSdLt
   category:
@@ -2478,9 +2834,13 @@
   - rec4OLZwHCLJOs6GU
   tech_team_text: Solve.is
   title: Solve
+  year:
+  - 2019
 - Description (Old): This tool from Measure of America combines various data critical
     to the well being of New Yorkers.
   Product Name: Visualizing Youth Disconnection
+  agencies:
+  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-04T21:32:08.000Z'
   airtable_id: recmiMYwGdZ4hHgMF
   category:
@@ -2504,7 +2864,11 @@
   - recoaWbpjLMVcGQuZ
   tech_team_text: Measure of America
   title: Visualizing Youth Disconnection
+  year:
+  - 2016
 - Product Name: Consumer Dx Test App
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:08:15.000Z'
   airtable_id: recnH1uvkl0Xjnjhm
   category:
@@ -2527,11 +2891,15 @@
   - rec6rfYz3BpRt2lRQ
   tech_team_text: Interpret-COVID
   title: Consumer Dx Test App
+  year:
+  - 2021
 - Description (Old): "Esri\u2019s ArcGIS Insights uses local emergency response and\
     \ Census Bureau data to predict geographic areas where opioid emergencies are\
     \ likely to occur to help public safety and health officials pre-position the\
     \ appropriate response units in order to save lives at the moment of crisis."
   Product Name: Insight for ArcGIS
+  agencies:
+  - White House Office of Science and Technology Policy
   airtable_createdTime: '2020-02-04T21:30:55.000Z'
   airtable_id: recnSpNUcyeoVi28K
   category:
@@ -2558,7 +2926,11 @@
   - recJKjOOhTrMk1R2e
   tech_team_text: Esri
   title: Insight for ArcGIS
+  year:
+  - 2018
 - Product Name: Companion App for COVID Testing
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T19:49:50.000Z'
   airtable_id: reco2tsjZJ55bk12Q
   category:
@@ -2584,11 +2956,15 @@
   - recqMkqyoPeiffhaV
   tech_team_text: DynamiCare Health
   title: Companion App for COVID Testing
+  year:
+  - 2021
 - Description (Old): Bloomberg used Economic Census and American Community Survey
     data for Baltimore, coupled with self-reported volunteer activity, to allow organizations
     to target areas to volunteer in and potential partners to successfully steward
     the environment.
   Product Name: Bloomberg DEVOP
+  agencies:
+  - U.S. Forest Service
   airtable_createdTime: '2020-02-04T21:31:31.000Z'
   airtable_id: reco73a0LwOf8hbof
   category:
@@ -2616,7 +2992,11 @@
   - recERFU1XNm3uiot0
   tech_team_text: Bloomberg
   title: Bloomberg DEVOP
+  year:
+  - 2018
 - Product Name: CuraPatient
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T20:43:03.000Z'
   airtable_id: recoD8u3aM6Z3cNNL
   category:
@@ -2641,7 +3021,11 @@
   - recFAM9q5v5BVfgvl
   tech_team_text: Othena
   title: CuraPatient
+  year:
+  - 2021
 - Product Name: 'PAGAF: Precision Ag for all American Farmers'
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2021-02-22T17:46:19.000Z'
   airtable_id: recoLzsQ10XA9A8CY
   category:
@@ -2668,6 +3052,8 @@
   - recCnMEujGjiHAMKC
   tech_team_text: New Light Technologies
   title: 'PAGAF: Precision Ag for all American Farmers'
+  year:
+  - 2020
 - Description (Old): A collaboration with Zillow to help families find housing near
     high opportunity schools.
   Product Name: GreatSchools
@@ -2683,7 +3069,11 @@
   - recLm3s1u8Lf6Eilc
   tech_team_text: Great Schools
   title: GreatSchools
+  year:
+  - 2016
 - Product Name: PPIO
+  agencies:
+  - U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-02-22T17:01:52.000Z'
   airtable_id: recp3hAesZqc2oQnV
   category:
@@ -2712,10 +3102,14 @@
   - recKTi1RoaWX4okCt
   tech_team_text: Rutgers University Computer Science
   title: PPIO
+  year:
+  - 2020
 - Description (Old): Uses anonymized mental health data from the VA Health System
     to assess suicide and other risk in patients and guide them through crisis to
     available support resources.
   Product Name: TextHelp
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T16:02:55.000Z'
   airtable_id: recpQRl79tKixOYHk
   category:
@@ -2735,7 +3129,11 @@
   - recrN8Taf1zmcq4Fr
   tech_team_text: Open Medicine Institute
   title: TextHelp
+  year:
+  - 2016
 - Product Name: NAIP Downloader and Education Modules
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2021-02-22T17:44:49.000Z'
   airtable_id: recqWVxkeZ3bYz68R
   category:
@@ -2758,12 +3156,16 @@
   - recgzO8MSvdQpw44J
   tech_team_text: Geosurge
   title: NAIP Downloader and Education Modules
+  year:
+  - 2020
 - Description (Old): The California Latino Power Map uses federal, California state,
     and city level open data to showcase Latino leadership across California and make
     plain both the opportunities and the challenges that Latino communities encounter
     for anyone who works to improve the quality of life for Latino and Hispanic residents
     of California.
   Product Name: California Latino Power Map
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:48:44.000Z'
   airtable_id: recro3E8gXTIQ5IHO
   category:
@@ -2792,10 +3194,14 @@
   - recoaWbpjLMVcGQuZ
   tech_team_text: Measure of America
   title: California Latino Power Map
+  year:
+  - 2019
 - Description (Old): Customizable data briefs use school-level data to help local
     school districts and education foundations inform parents and the electorate about
     the need for more funding.
   Product Name: LiveStories
+  agencies:
+  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:01:20.000Z'
   airtable_id: recs1AuNUUppAFbr3
   category:
@@ -2815,9 +3221,13 @@
   - recJ768Bi3CebP12t
   tech_team_text: LiveStories
   title: LiveStories
+  year:
+  - 2016
 - Description (Old): A tool that allows users to identify areas of opportunity by
     specifying their most important priorities.
   Product Name: PolicyMap Tool
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:15:52.000Z'
   airtable_id: recsTaRTvzM11DFWX
   category:
@@ -2840,7 +3250,11 @@
   - recJ2sjLpz8h64iQH
   tech_team_text: Policy Map
   title: PolicyMap Tool
+  year:
+  - 2016
 - Product Name: Emergency & Disaster Funding Tracking
+  agencies:
+  - Office of Management and Budget
   airtable_createdTime: '2021-01-25T22:56:29.000Z'
   airtable_id: rectcKAi8zsdwiqjg
   category:
@@ -2882,10 +3296,14 @@
   - recXRGicwM4YbpVJr
   tech_team_text: RevealGC & Alteryx
   title: Emergency & Disaster Funding Tracking
+  year:
+  - 2020
 - Description (Old): Uses a combination of 30 datasets to generate instant insights
     that address accessibility of opportunity and emotional well-being for citizens
     across the county.
   Product Name: mySidewalk
+  agencies:
+  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:34.000Z'
   airtable_id: recuj8LvrOlw7qVZl
   category:
@@ -2910,10 +3328,14 @@
   - recTc4KdyanXdJorG
   tech_team_text: My Sidewalk
   title: mySidewalk
+  year:
+  - 2016
 - Description (Old): Uses Fair Market Rent data from HUD, along with OpenStreetMap,
     to rapidly and easily assess neighborhood family amenities and voucher amounts
     for Section 8 Housing Seekers.
   Product Name: Neighborhood Opportunity
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:00:00.000Z'
   airtable_id: reculF774OHizAs0S
   category:
@@ -2938,11 +3360,15 @@
   - receOwIU74vvoLdfc
   tech_team_text: Mapbox
   title: Neighborhood Opportunity
+  year:
+  - 2016
 - Description (Old): Measure of America used their data platform data2go.nyc to create
     a free mapping and data tool for visualizing Census Bureau, state, and city data
     that can help with decennial Census outreach in NYC communities by answering questions
     like 'What happens with Census data?' and 'Why does the Census matter to me?'
   Product Name: Data2Go for Census Outreach
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:59:00.000Z'
   airtable_id: recvDZEaGFFEtnR4l
   category:
@@ -2968,9 +3394,15 @@
   - recoaWbpjLMVcGQuZ
   tech_team_text: Measure of America
   title: Data2Go for Census Outreach
+  year:
+  - 2017
 - Product Name: Cura Patient
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-02-25T21:32:21.000Z'
   airtable_id: recvf8lc1DXzpz2QB
+  category:
+  - Health
   description: Uses US Department of Veterans Affairs API and CMS API to reduce physician
     burnout and hospital readmission rates for veteran heart failure patients.
   details: Uses US Department of Veterans Affairs API and CMS API to reduce physician
@@ -2988,11 +3420,15 @@
   - reck8tBVVpiwxK7jk
   tech_team_text: Composite Apps
   title: Cura Patient
+  year:
+  - 2019
 - Description (Old): "Shift.org\u2019s tool CareerNav uses data from the Department\
     \ of Labor's O*NET Database and Bureau of Labor Statistics to help veterans translate\
     \ their skills and visualize career and educational steps toward reaching their\
     \ dream jobs in desired locations."
   Product Name: Career Nav
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:30:08.000Z'
   airtable_id: recvh8HbEmn5MuzGI
   category:
@@ -3016,10 +3452,14 @@
   - recDRJNZ2EYYcZkRd
   tech_team_text: Shift.org
   title: Career Nav
+  year:
+  - 2018
 - Description (Old): A mobile application that uses employment statistics and occupational
     data from the Bureau of Labor Statistics to make career exploration easy and accessible
     for high school students.
   Product Name: CareerSpark
+  agencies:
+  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:04:03.000Z'
   airtable_id: recvlzXnQhGrvyOew
   category:
@@ -3042,6 +3482,8 @@
   - recx3i2r2lzTf3AWj
   tech_team_text: Flatiron School
   title: CareerSpark
+  year:
+  - 2016
 - Description (Old): Burning Glass Technologies used federal open data from the Department
     of Labor and US Census Bureau, proprietary Burning Glass data on labor market
     demand, and public data from the US Cluster Mapping Project to assist regional
@@ -3050,6 +3492,9 @@
     inclusive development network that includes leaders from the civic sector, government,
     and industry.
   Product Name: Inclusive Development Dashboards
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-02-04T21:28:17.000Z'
   airtable_id: recwo6k02qWF773ZK
   category:
@@ -3081,7 +3526,11 @@
   - recUNs4aOHNtEL5CD
   tech_team_text: Burning Glass
   title: Inclusive Development Dashboards
+  year:
+  - 2019
 - Product Name: TruCycle MRF
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T17:48:21.000Z'
   airtable_id: recxNb6AkmDER2KXh
   category:
@@ -3108,11 +3557,16 @@
   - recoDMThfEQ66tBDp
   tech_team_text: Resource Recycling Systems (RRS)
   title: TruCycle MRF
+  year:
+  - 2020
 - Description (Old): The Inclusive Growth Score blends open-source public data with
     a proprietary layer of aggregated and anonymized Mastercard Data to measure the
     degree to which place, economy and community in a given Opportunity Zone benefit
     from equitable growth.
   Product Name: Inclusive Growth Score
+  agencies:
+  - U.S. Department of Housing and Urban Development, White House Council of Economic
+    Advisors
   airtable_createdTime: '2020-01-30T19:22:47.000Z'
   airtable_id: recxPFYJEXMA7YTmC
   category:
@@ -3139,11 +3593,15 @@
   - recb65UW4CPMA9fvf
   tech_team_text: Mastercard
   title: Inclusive Growth Score
+  year:
+  - 2019
 - Description (Old): This tool uses data from the U.S. Census Bureau, Department of
     Labor, O*NET, and more to help veterans translate their developed skills into
     private sector careers and connect them to the education, soft skills development,
     and employers that can ensure their success.
   Product Name: PAIRIN Pathways
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-04T21:31:59.000Z'
   airtable_id: recxhgzBILVkvarN6
   category:
@@ -3170,10 +3628,14 @@
   - recwGIGrno2E5XdGn
   tech_team_text: Pairin
   title: PAIRIN Pathways
+  year:
+  - 2017
 - Description (Old): Enables researchers to unobtrusively measure everyday behavior
     and integrate open data on local hazards & resources to build a risk state detection
     algorithm that powers precise, life-saving mental health interventions.
   Product Name: EARS
+  agencies:
+  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T16:02:37.000Z'
   airtable_id: recyH7SUTuXtVQEjq
   category:
@@ -3195,10 +3657,14 @@
   - recUq5MboT2UcJ4hT
   tech_team_text: University of Oregon
   title: EARS
+  year:
+  - 2016
 - Description (Old): The EnVision App helps the economically disadvantaged break the
     cycle of generational poverty and create a positive path to self-sufficiency.
     Lives get better, families get healthier, and communities win.
   Product Name: The EnVision App
+  agencies:
+  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-02-19T18:53:24.000Z'
   airtable_id: recyKI9exBfBtz1hr
   category:
@@ -3230,10 +3696,14 @@
   - recYN8Gz2O6ERs3y3
   tech_team_text: '"Organizational Performance Systems, Inc."'
   title: The EnVision App
+  year:
+  - 2020
 - Description (Old): The NAIP explorer uses NAIP imagery to provides a gentle on-ramp
     and very simple way to explore imagery for users at USDA and the farmers they
     serve.
   Product Name: NAIP Explorer
+  agencies:
+  - U.S. Department of Agriculture
   airtable_createdTime: '2021-02-19T18:31:53.000Z'
   airtable_id: recyPJeX2onUtcMln
   category:
@@ -3260,10 +3730,14 @@
   - receOwIU74vvoLdfc
   tech_team_text: Mapbox
   title: NAIP Explorer
+  year:
+  - 2020
 - Description (Old): AirMotionDC compiles and analyzes real-time data on traffic patterns
     and air pollution in the District of Columbia to explore the effect of transportation
     on air quality.
   Product Name: AirMotionDC
+  agencies:
+  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:49:03.000Z'
   airtable_id: recyl8q9tZWnPoQQt
   category:
@@ -3295,7 +3769,11 @@
   - recP532wcyIIxk80H
   tech_team_text: American University
   title: AirMotionDC
+  year:
+  - 2020
 - Product Name: Patient Health Ecosystem Portal
+  agencies:
+  - U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T19:54:40.000Z'
   airtable_id: recz0udlK0WnjquFr
   category:
@@ -3321,11 +3799,15 @@
   - rec3zFjgRada2tHSQ
   tech_team_text: Dovel Technologies
   title: Patient Health Ecosystem Portal
+  year:
+  - 2021
 - Description (Old): Cisco DevNet's tool uses American Community Survey data from
     the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials
     and application developers so they can solve social problems using open data available
     for their communities and cities.
   Product Name: My City Data Learning Tool
+  agencies:
+  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:30:36.000Z'
   airtable_id: reczVGhvSjjSjcHRp
   category:
@@ -3353,3 +3835,5 @@
   - recnxx9mhnzOrsmIu
   tech_team_text: Cisco
   title: My City Data Learning Tool
+  year:
+  - 2017

@@ -110,6 +110,9 @@ h2 {
 h1, h2, h3 {
   scroll-margin-top: 5rem;
 }
+#results-count {
+  scroll-margin-top: 7rem;
+}
 
 // ========================================
 // 2. Site layout
@@ -359,41 +362,6 @@ h1, h2, h3 {
 .site-nav-secondary {
   display: none;
 
-  &.sprint-nav {
-    @include u-position('sticky');
-    top: 3.2em;
-    text-align: center;
-    background-color: color("white");
-    border-bottom: units($site-border-width) solid
-      color($site-base-transparent-light);
-    clear: both;
-    display: block;
-    z-index: z-index($z-nav-secondary);
-
-    overflow-x: scroll;
-    overflow-y: hidden;
-    ul {
-      min-width: 740px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    
-    @include at-media('desktop'){
-      top: 5em;
-    }
-
-    @include at-media('755px'){  // want 755px
-      height: 100%; //units($height-nav-secondary);
-      overflow-x: hidden;
-      ul {
-        width: auto;
-      }
-      li {
-        float: none;
-      }
-    }
-  }
 
   @include at-media("desktop") {
     background-color: color("white");
@@ -456,6 +424,41 @@ h1, h2, h3 {
 
     &:hover {
       color: color($site-ink);
+    }
+  }
+
+
+  &.sprint-nav {
+    @include u-position('sticky');
+    top: 3.2em;
+    text-align: center;
+    background-color: color("white");
+    border-bottom: units($site-border-width) solid
+      color($site-base-transparent-light);
+    clear: both;
+    display: block;
+    z-index: z-index($z-nav-secondary);
+
+    overflow-x: scroll;
+
+    overflow-y: hidden;
+    ul {
+      min-width: 740px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    @include at-media('desktop'){
+      top: 5em;
+      height: 100%; //units($height-nav-secondary);
+      overflow-x: hidden;
+      ul {
+        width: auto;
+      }
+      li {
+        float: none;
+      }
     }
   }
 }
@@ -818,11 +821,13 @@ main {
   margin-bottom: units(7);
 }
 
-.clickable-card {
+.clickable-card, .product-card {
   &:hover {
     cursor: pointer;
   }
-
+  &:focus, &:focus-within {
+    @include u-outline('05', $theme-focus-color)
+  }
 }
 
 
@@ -2308,6 +2313,7 @@ code {
 }
 
 .modal-grid {
+  margin-top: -2.6rem;
   @include grid-row;
   flex-direction: column;
   .modal-column {
@@ -4799,3 +4805,4 @@ h2.section-header {
 @import 'problem-statement.scss';
 @import 'animated-graphs.scss';
 @import 'coil-site.scss';
+@import 'pagination.scss';

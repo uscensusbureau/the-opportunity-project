@@ -15,7 +15,7 @@
       subproject:
         title: TOP Prize Challenge
         callout: Create impact that can scale.
-        details: 'Every year, we run The Opportunity Project Prize Challenge to encourage the best teams from TOP to keep going. In 2019, we awarded $100,000 in funding to TOP participants. Learn more about how to [apply for the grand prize challenge in 2021](https://opportunity.census.gov/prize-challenge) or [contact us](https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB){: target="_blank"} to run your own prize challenge.'
+        details: 'Every year, we run The Opportunity Project Prize Challenge to encourage the best teams from TOP to keep going. In 2019, we awarded $100,000 in funding to TOP participants. Learn more about how to [apply for the grand prize challenge in 2021](https://opportunity.census.gov/prize-challenge) or [contact us](mailto:census.openinnovationlabs@census.gov){: target="_blank"} to run your own prize challenge.'
         href: /prize-challenge
     - title: Enterprise Innovation Efforts
       callout: Learn how innovation can scale at federal agencies.
@@ -49,15 +49,15 @@
           isExternal: true
         - text: Community Outreach Toolkit
           # href: https://2020census.gov/content/dam/2020census/materials/partners/2019-03/toolkit.pdf
-          href: '/assets/files/CommunityMessagingToolkit_04012018.pdf'
+          href: '/assets/files/CommunityOutreachToolkit.pdf'
           isExternal: false
           isDownload: true
     - title: Data Curation Hub
       details: We work with federal data stewards to collect high quality datasets based around national challenges. Tech teams then use the Hub to find and use this data in their TOP projects.
       href: /data
     - title: Design-Thinking Toolkit
-      href: /assets/files/COIL_CensusSolutionsWorkshopToolkit_091417.pdf
-      # href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
+    # href: https://www2.census.gov/about/partners/general/workshop-toolkit.pdf
+      href: /assets/files/DesignThinkingToolkit.pdf
       isDownload: true
       details: Design thinking in a box! This toolkit was used by national and local stakeholders to identify critical areas of focus for the 2020 Census to develop ideas, strategies, and partnerships in those areas.
     - title: TOPx Toolkit

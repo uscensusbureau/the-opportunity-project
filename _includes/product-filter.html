@@ -17,9 +17,19 @@
   </button>
   <div id="{{ id }}" class="usa-accordion dropdown-menu">
     {% for option in all_options %}
+      {% assign label = option %}
+      {% assign value = option %}
+      {% if option.label %}
+        {% assign label = option.label %}
+        {% assign value = option.label %}
+        {% if option.value %}
+          {% assign value = option.value %}
+        {% endif %}
+      {% endif %}
       <div class="usa-checkbox">
-        <input class="usa-checkbox__input" id="{{ option }}" type="checkbox" name="filter-checkbox" value="{{ option }}">
-        <label class="usa-checkbox__label" for="{{ option }}">{{ option }}</label>
+        <input class="usa-checkbox__input" id="{{ value | replace: ' ', '-' }}" type="checkbox" name="filter-checkbox" 
+          value="{{ value }}">
+        <label class="usa-checkbox__label" for="{{ value | replace: ' ', '-' }}">{{ label }}</label>
       </div>
     {% endfor %}
   </div>

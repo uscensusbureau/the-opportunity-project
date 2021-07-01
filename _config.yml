@@ -18,6 +18,8 @@ banner:
   href: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
   isExternal: true
 
+top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text
+
 # this ensure that posts with future dates are published
 future: true
 

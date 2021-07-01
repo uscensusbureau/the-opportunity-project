@@ -68,14 +68,15 @@ winners:
 The Opportunity Project team will be hosting a series of informational webinars for individuals and teams interested in applying to the Open Data for Good Grand Challenge. Learn more about the prize and how to prepare your submission.
 
 ### Overview and Q&A
-June 30th 2:00 - 3:00 PM ET
+July 14th 2:00 - 3:00 PM ET
 {: .margin-bottom-05 }
 
 [RSVP](http://bit.ly/ODFGGCWebinar1){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
 {: .margin-top-0 }
 
 ### Overview and Submission Feedback
-July 21st 2:00 - 3:00 PM ET
+
+July 28th 2:00 - 3:00 PM ET
 
 August 11th 2:00 - 3:00 PM ET
 

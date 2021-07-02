@@ -1708,10 +1708,19 @@
     renters; identify affordable housing landlords who are considering or in need
     of selling rental units; increase awareness of the resources and programs for
     these communities; and/or help connect these renters and landlords to aid programs.
-  Why this problem matters: |-
-    Housing insecurity, or access to affordable housing for lower income households, is not a new challenge facing our country, but it has been exacerbated by the COVID-19 pandemic. In 2020, those who fell behind at least three months on their mortgage increased 250 percent to over 2 million households. Collectively, these households are estimated to owe almost $90 billion in deferred principal, interest, taxes and insurance payments. Similarly, over 8 million rental households are behind in their rent. Now, as the economy recovers from the impacts of the pandemic, eviction moratoriums established to help vulnerable renters will sunset -potentially leading to households being displaced and/or individuals becoming homeless.
-
-    One factor affecting the supply of affordable housing is the toll the pandemic has taken on small landlords (defined as those with 10 or fewer units). Small landlords represent an important source of affordable housing yet there are many factors that disincentivize renting to tenants needing assistance. Many small landlords are not prepared to weather missed tenant rent payments and they often have to coordinate with tenants to capitalize on rental assistance programs.  As time passes, landlords may face the tough decision to evict renters in order to retain their properties if assistance is not swiftly provided, despite being otherwise willing to help their tenants. The importance of identifying these renters and landlords and connecting them with aid will only grow as we face the long term economic impacts of the pandemic.
+  Why this problem matters: "In 2020, those who fell behind at least three months\
+    \ on their mortgage increased 250 percent to over 2 million households. Collectively,\
+    \ these households are estimated to owe almost $90 billion in deferred principal,\
+    \ interest, taxes, and insurance payments. Similarly, over 8 million rental households\
+    \ are behind in their rent. Now, as the economy recovers from the impacts of the\
+    \ pandemic, eviction moratoriums established to help vulnerable renters will sunset,\
+    \ potentially leading to households being displaced and/or individuals becoming\
+    \ homeless. \n\nFurther exacerbating this problem is the fact that many small\
+    \ landlords, who are an important source of affordable housing, are not prepared\
+    \ to weather missed tenant rent payments and may face the tough decision to evict\
+    \ renters in order to retain their properties if assistance is not swiftly provided.\n\
+    \nThe importance of identifying these renters and landlords and connecting them\
+    \ with aid will only grow as we face the long term economic impacts of the pandemic."
   agency_text: Consumer Financial Protection Bureau
   airtable_createdTime: '2021-06-28T20:19:07.000Z'
   airtable_id: recfszna1c4jtooN4
@@ -2111,9 +2120,11 @@
     \ etc.) are shifting. Affordability may change for some urban areas, as people\
     \ relocate to desirable and newly achievable places including the less expensive\
     \ exurbs of large cities, to lower-cost southern states, and to communities that\
-    \ facilitate non-work activities. With all of these sudden changes, we need to\
-    \ understand predict upcoming national migration trends so we are able to meet\
-    \ the country\u2019s housing needs moving forward."
+    \ facilitate non-work activities. \n\nGiven these changing circumstances, understanding\
+    \ and predicting where housing may become more affordable, which locations may\
+    \ require additional housing assistance, and what strategies may be employed to\
+    \ support those who cannot afford costly housing or relocation will be pivotal\
+    \ to ensuring an equitable recovery."
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-06-28T20:13:42.000Z'
   airtable_id: recsbfXyfEmL6eaDo

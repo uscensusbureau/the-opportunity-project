@@ -1,7 +1,7 @@
 {% if include.data.title %}
 <div class="dashed-container coil-section-exempt">
   <div></div>
-  <h3 class="dashed margin-y-8">{{ include.data.title }}</h3>
+  <h3 class="dashed margin-y-8" id="{{ include.data.title | slugify }}">{{ include.data.title }}</h3>
   <div></div>
 </div>
 {% endif %}

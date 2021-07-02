@@ -24,11 +24,11 @@ layout: base
     </div>
   </section>
 
-  <section id="our-work" class="coil-section">
+  <section id="our-work-section" class="coil-section">
     <div>
       <img class="abstract-icon" src="{{ site.baseurl }}/assets/img{{page.work-section.icon}}" alt="" data-proofer-ignore>
     </div>
-    <h2>{{ page.work-section.title }}</h2>
+    <h2 id="{{ page.work-section.title | slugify }}">{{ page.work-section.title }}</h2>
     <p>{{ page.work-section.subtitle }}</p>
     {% for projectSection in site.data.coil-projects %}
       {% include coil/coil-project-section.html 
@@ -40,7 +40,7 @@ layout: base
     <div>
       <img class="abstract-icon" src="{{ site.baseurl }}/assets/img{{page.get-involved.icon}}" alt="" data-proofer-ignore>
     </div>
-    <h2>{{ page.get-involved.title }}</h2>
+    <h2 id="{{ page.get-involved.title | slugify }}">{{ page.get-involved.title }}</h2>
     {{ content }}
     {% include coil/coil-help-section.html %}
   </section>

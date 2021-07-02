@@ -193,8 +193,11 @@
   Name: Analyzing Equity in Federal COVID-19 Spending
   Sprints:
   - recjkCdpt4YKEx7Ae
-  Target audience / End user: Local officials/decision makers; policy and advocacy
-    organizations; research communities; data journalists.
+  Target audience / End user: |-
+    - Local officials and decision makers
+    - Policy and advocacy organizations
+    - Research communities
+    - Data journalists
   Vision for sprint outcomes: 'By bringing together Census, Treasury, and other open
     data sources, digital tools help stakeholders better understand whether the federal
     government is equitably distributing federal funds during the COVID-19 pandemic. '
@@ -1691,51 +1694,24 @@
   sprint_text: TOPx
 - Agency:
   - recum0ilV4KFTpriM
-  Challenge: Develop innovative digital tools to prevent financial hardship and housing
-    insecurity by raising awareness of housing assistance resources and connecting
-    at-risk households with housing assistance.
+  Challenge: Develop digital tools to prevent financial hardship and housing insecurity
+    by raising awareness of and connecting at-risk households to housing assistance.
   Executive champion: Dave Uejio, Acting Director, CFPB
   Full Title: Preventing Crisis for Low-Income Renters & Small Landlords
   Name: Preventing Crisis for Low-Income Renters & Small Landlords
   Sprints:
   - recjkCdpt4YKEx7Ae
-  Target audience / End user: 'Primary audience: small landlords, at-risk renters,
-    and nonprofits or legal organizations serving vulnerable renters and/or those
-    at risk for homelessness  Secondary audiences or stakeholders: trade associations
-    or other entities seeking to help small landlords retain their properties, financial
-    services providers, and state, local, and tribal governments.'
+  Target audience / End user: |-
+    1. Small landlords, at-risk renters, and nonprofits or legal organizations serving vulnerable renters and/or those at risk for homelessness
+    2. Trade associations or other entities seeking to help small landlords retain their properties, financial services providers, and state, local, and tribal governments.
   Vision for sprint outcomes: Digital tools use open data to identify the most vulnerable
     renters; identify affordable housing landlords who are considering or in need
     of selling rental units; increase awareness of the resources and programs for
     these communities; and/or help connect these renters and landlords to aid programs.
-  Why this problem matters: "Housing insecurity, or access to affordable housing for\
-    \ lower income households, is not a new challenge facing our country, but it has\
-    \ been exacerbated by the COVID-19 pandemic. In 2020, those who fell behind at\
-    \ least three months on their mortgage increased 250 percent to over 2 million\
-    \ households. Collectively, these households are estimated to owe almost $90 billion\
-    \ in deferred principal, interest, taxes and insurance payments. Similarly, over\
-    \ 8 million rental households are behind in their rent. Now, as the economy recovers\
-    \ from the impacts of the pandemic, eviction moratoriums established to help vulnerable\
-    \ renters will sunset.  As these protections end, many households that faced housing\
-    \ insecurity prior to and during the pandemic will have increased challenges resuming\
-    \ rent or being able to cover back payments, potentially leading to households\
-    \ being displaced and/or individuals becoming homeless.   Displaced households\
-    \ will be impacted by other factors straining the supply of affordable housing,\
-    \ placing displaced households at even higher risk for homelessness or unstable\
-    \ housing.  One of these factors is the strain of the pandemic on small landlords.\
-    \ Small landlords \u2013 defined as those with 10 or fewer units \u2013 account\
-    \ for nearly half of all rental units and represent an important source of affordable\
-    \ housing in many areas.  Yet many are not prepared to weather significant financial\
-    \ hardships such as missed tenant rent payments, and therefore may instead decide\
-    \ to sell off their rental properties or find other tenants. These landlords may\
-    \ feel further discouraged to continue renting or retaining tenants in need of\
-    \ assistance because, in many instances, landlords and tenants must coordinate\
-    \ to capitalize on rental assistance programs.  As time passes, landlords may\
-    \ face the tough decision to evict renters in order to retain their properties\
-    \ if assistance is not swiftly provided, despite being otherwise willing to help\
-    \ their tenants. The importance of identifying these renters and landlords and\
-    \ connecting them with aid will only grow as we face the long term economic impacts\
-    \ of the pandemic."
+  Why this problem matters: |-
+    Housing insecurity, or access to affordable housing for lower income households, is not a new challenge facing our country, but it has been exacerbated by the COVID-19 pandemic. In 2020, those who fell behind at least three months on their mortgage increased 250 percent to over 2 million households. Collectively, these households are estimated to owe almost $90 billion in deferred principal, interest, taxes and insurance payments. Similarly, over 8 million rental households are behind in their rent. Now, as the economy recovers from the impacts of the pandemic, eviction moratoriums established to help vulnerable renters will sunset -potentially leading to households being displaced and/or individuals becoming homeless.
+
+    One factor affecting the supply of affordable housing is the toll the pandemic has taken on small landlords (defined as those with 10 or fewer units). Small landlords represent an important source of affordable housing yet there are many factors that disincentivize renting to tenants needing assistance. Many small landlords are not prepared to weather missed tenant rent payments and they often have to coordinate with tenants to capitalize on rental assistance programs.  As time passes, landlords may face the tough decision to evict renters in order to retain their properties if assistance is not swiftly provided, despite being otherwise willing to help their tenants. The importance of identifying these renters and landlords and connecting them with aid will only grow as we face the long term economic impacts of the pandemic.
   agency_text: Consumer Financial Protection Bureau
   airtable_createdTime: '2021-06-28T20:19:07.000Z'
   airtable_id: recfszna1c4jtooN4
@@ -2112,36 +2088,35 @@
   Name: Analyzing Housing and Migration Trends Post-COVID 19
   Sprints:
   - recjkCdpt4YKEx7Ae
-  Target audience / End user: Any stakeholder involved in affordable housing, to include
-    HUD clients (in the general population), HUD landlords, real estate developers,
-    banks and funding organizations, public housing analysts, local Public Housing
-    Authorities (PHAs), non-government advocacy organizations, city and regional planners,
-    tribal governments, etc.
+  Target audience / End user: |-
+    - HUD clients and landlords
+    - real estate developers
+    - banks and funding organizations
+    - public housing analysts
+    - local Public Housing Authorities (PHAs)
+    - non-government advocacy organizations
+    - city and regional planners
+    - tribal governments
   Vision for sprint outcomes: Deliver essential and timely information to stakeholders
     who support local affordable housing, by gathering and/or analyzing relevant data
     necessary to plan the post-pandemic changes, requirements, and priorities of housing
     assistance programs.
-  Why this problem matters: "The U.S. Department of Housing and Urban Development\
-    \ (HUD) has supported low-income housing for more than 50 years, using data about\
-    \ housing needs and demographics to inform affordable housing policies and programs.\
-    \ Over the past year, the COVID-19 pandemic\u2019s global shutdowns challenged\
-    \ many past assumptions about affordable housing needs. Office worker commutes\
-    \ and business travel fell suddenly and sharply, with 60 million fewer commuting\
-    \ miles as 37.1% worked from home. This in turn cut the use of hotels, airlines,\
-    \ dining, entertainment, and more. For instance, business travel spending fell\
-    \ 76%. Millions remain unemployed. Some social and economic patterns are likely\
-    \ to return after the pandemic, while others may continue in a changed form or\
-    \ be gone forever. \n\nThe housing needs of both remote workers (e.g., office\
-    \ jobs) and on-site workers (e.g., restaurants, delivery, hospitality, etc.) are\
-    \ shifting. Affordability may change for some urban areas, as people relocate\
-    \ to desirable and newly achievable places including the less expensive exurbs\
-    \ of large cities, to lower-cost southern states, and to communities that facilitate\
-    \ non-work activities such as golfing, boating, hiking, art, music and live entertainment,\
-    \ etc. "
+  Why this problem matters: "Over the past year, the COVID-19 pandemic\u2019s global\
+    \ shutdowns challenged many past assumptions about affordable housing needs. Office\
+    \ worker commutes and business travel fell suddenly and sharply, with 60 million\
+    \ fewer commuting miles as 37.1% worked from home. Some social and economic patterns\
+    \ are likely to return after the pandemic, while others may continue in a changed\
+    \ form or be gone forever. \n\nThe housing needs of both remote workers (e.g.,\
+    \ office jobs) and on-site workers (e.g., restaurants, delivery, hospitality,\
+    \ etc.) are shifting. Affordability may change for some urban areas, as people\
+    \ relocate to desirable and newly achievable places including the less expensive\
+    \ exurbs of large cities, to lower-cost southern states, and to communities that\
+    \ facilitate non-work activities. With all of these sudden changes, we need to\
+    \ understand predict upcoming national migration trends so we are able to meet\
+    \ the country\u2019s housing needs moving forward."
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-06-28T20:13:42.000Z'
   airtable_id: recsbfXyfEmL6eaDo
-  category: Housing
   pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
     Post-COVID 19.pdf
   sprint_text: The World Post-COVID-19

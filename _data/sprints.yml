@@ -1047,14 +1047,18 @@
   Year: 2021
   airtable_createdTime: '2021-06-28T20:12:46.000Z'
   airtable_id: recjkCdpt4YKEx7Ae
-  description: The COVID-19 pandemic exposed many new equity challenges and vulnerabilities,
-    as well as great opportunities in our economy, social systems, and climate. In
-    the wake of these changes, how can we make our communities and our nation  as
-    equitable as possible? In this upcoming 2021 sprint, technologists, as well as
-    community and government leaders will develop digital products  to support minority
-    businesses, tackle the climate crisis, analyze housing and migration trends, protect
-    low-income renters, ensure accessibility of multilingual content, and increase
-    government transparency.
+  description: "Over the past year, our economy and social systems have been tested\
+    \ in ways we\u2019ve never seen before. Businesses were forced to respond rapidly\
+    \ to a digital economy, social support systems faced greater needs than ever,\
+    \ and even the way we go about daily work and life activities changed dramatically.\
+    \ At the same time the ways in which human activities affect the planet may shift\
+    \ as we move beyond the COVID-19 pandemic. \n\nFollowing our 2020 Earth sprints\
+    \ focused on the natural and built environment, TOP\u2019s 2021 sprints focus\
+    \ on the world post covid:  society, economy, and environment.  Technologists,\
+    \ community and advocacy organizations, and government leaders will develop digital\
+    \ products to tackle 7 challenges related to preventing economic and climate crisis\
+    \ for the most vulnerable communities, shaping the future of business, and redefining\
+    \ infrastructure, inclusion, and accessibility in the world post-COVID."
   img: landing/Post-COVID.jpg
   short-tag: post-covid
 - Name: NAIP

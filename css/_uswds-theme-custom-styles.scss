@@ -2572,7 +2572,7 @@ code {
   }
 }
 
-.sprint-hero-image {
+.sprint-hero__image {
   @include u-bg('primary');
   display: none;
   @include at-media('tablet'){
@@ -2581,6 +2581,13 @@ code {
   }
 }
 
+.sprint-hero__callout {
+  @include u-text('italic', 'base-darkest');
+  @include u-bg('base-lightest');
+  @include u-padding(2);
+  @include u-border(2px, 'secondary');
+  @include u-margin-top(2);
+}
 
 .statistic-border-right {
   @include at-media("desktop") {

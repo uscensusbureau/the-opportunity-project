@@ -1,7 +1,7 @@
 <section class="usa-hero padding-y-0 process-section" id="{{ page.short-name }}">
   <div class="grid-container padding-left-0 maxw-none">
     <div class="grid-row">
-      <div class="sprint-hero-image" {% if include.content.img %}
+      <div class="sprint-hero__image" {% if include.content.img %}
         style="
           background-image:url({{ site.baseurl }}/assets/img/photos/sprints/{{ include.content.img }});
           background-size:cover;" {% endif %}>
@@ -19,12 +19,11 @@
           {% endif %}
           {{ include.content.description | markdownify }}
           {% if include.isCurrent %}
-            <div class="text-italic bg-base-lightest text-base-darkest padding-2 border-2px border-secondary">
+            <div class="sprint-hero__callout">
               <p class="margin-y-0">
-                <strong>We are seeking <a href="{{ site.baseurl }}/our-process/#tech-teams">tech teams</a> and 
-                  <a href="{{ site.baseurl }}/our-process/#user-advocates">user advocates</a> to participate in this upcoming sprint.</strong>
+                <strong>We are currently seeking participants for these sprints in many roles.</strong>
                 See detailed descriptions of the problem statements below, and if you are interested in participating, please
-                <a href="{{ site.contacts.census-form }}">apply online</a>.
+                <a href="{{ site.contacts.census-form }}">complete this form</a> to express interest.
               </p>
               <p class="text-center margin-y-0">
                 <a href="{{ site.contacts.census-form }}" 

@@ -858,7 +858,7 @@
   - recL1zdYJGminrTMS
   Data Stewards: 'Andy Hait , Chip Walker, Nancy Sonti, Maria (Angie) Santos, Michael
     Akinyele , Rob Dollison, Jason Stoker, Christi Collins, Matt Lyttle , Ana-Maria
-    Garcia (Data Dissemination Specialist), Giselle Laffitte, Joel Schlagel, Jennifer
+    Garcia (Data Dissemination Specialist), Giselle Laffitte, Joel Schlagel , Jennifer
     Hinojosa (Research Associate & Data Center Coordinator), Edwin Melendez (Director),
     John Mootz, Kim Valentine , Krista Heinlen, Francisco Pesante (Statistical Project
     Assitant), Alberto Velazquez (Data Center Lead), Mario Marazzi (Director), Michelle
@@ -1036,6 +1036,31 @@
   img: landing/Sprint-Background_05_Geo.jpg
   order-number: 1
   short-tag: geo
+- Name: The World Post-COVID-19
+  Problem Statements:
+  - recsbfXyfEmL6eaDo
+  - recbjIUzjzLZ5KmJS
+  - recfszna1c4jtooN4
+  - rec3DhHvGbMYMTN1A
+  - rec2hm93Hd703vhHw
+  - recxiyHz22AqIcSU6
+  Year: 2021
+  airtable_createdTime: '2021-06-28T20:12:46.000Z'
+  airtable_id: recjkCdpt4YKEx7Ae
+  description: "Over the past year, our economy and social systems have been tested\
+    \ in ways we\u2019ve never seen before. Businesses were forced to respond rapidly\
+    \ to a digital economy, social support systems faced greater needs than ever,\
+    \ and even the way we go about daily work and life activities changed dramatically.\
+    \ At the same time the ways in which human activities affect the planet may shift\
+    \ as we move beyond the COVID-19 pandemic. \n\nFollowing our 2020 Earth sprints\
+    \ focused on the natural and built environment, TOP\u2019s 2021 sprints focus\
+    \ on the world post covid:  society, economy, and environment.  Technologists,\
+    \ community and advocacy organizations, and government leaders will develop digital\
+    \ products to tackle 7 challenges related to preventing economic and climate crisis\
+    \ for the most vulnerable communities, shaping the future of business, and redefining\
+    \ infrastructure, inclusion, and accessibility in the world post-COVID."
+  img: landing/Post-COVID.jpg
+  short-tag: post-covid
 - Name: NAIP
   Year: 2020
   airtable_createdTime: '2021-01-26T16:35:35.000Z'
@@ -1052,6 +1077,7 @@
   - recRADslXTYbyjOZ9
   - rec8PdH7hI4omQshl
   - recQjVq9yZgfpri29
+  Year: 2020
   airtable_createdTime: '2021-02-19T16:26:06.000Z'
   airtable_id: recuhdACXvzRxxZEM
 - Name: Earth

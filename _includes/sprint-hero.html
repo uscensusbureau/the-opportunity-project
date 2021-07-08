@@ -1,13 +1,13 @@
 <section class="usa-hero padding-y-0 process-section" id="{{ page.short-name }}">
   <div class="grid-container padding-left-0 maxw-none">
     <div class="grid-row">
-      <div class="sprint-hero-image" {% if include.content.img %}
+      <div class="sprint-hero__image" {% if include.content.img %}
         style="
           background-image:url({{ site.baseurl }}/assets/img/photos/sprints/{{ include.content.img }});
           background-size:cover;" {% endif %}>
       </div>
       <div class="grid-col-12 tablet:grid-col-9 tablet:grid-offset-1">
-        <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6">
+        <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6 light-links">
           <h1 class="sprint-hero-header">
             {{ include.content.Name }}
           </h1>
@@ -17,7 +17,21 @@
               {{ include.content.Year }}
             </span>
           {% endif %}
-          <p>{{ include.content.description }}</p>
+          {{ include.content.description | markdownify }}
+          {% if include.isCurrent %}
+            <div class="sprint-hero__callout">
+              <p class="margin-y-0">
+                <strong>We are currently seeking participants for these sprints in many roles.</strong>
+                See detailed descriptions of the problem statements below, and if you are interested in participating, please
+                <a href="{{ site.contacts.census-form }}">complete this form</a> to express interest.
+              </p>
+              <p class="text-center margin-y-0">
+                <a href="{{ site.contacts.census-form }}" 
+                class="btn-link btn-link__primary-red btn-link--small">Join the sprint</a>
+              </p>
+            </div>
+            
+          {% endif %}
         </div>
       </div>
     </div>

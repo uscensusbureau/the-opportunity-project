@@ -7,7 +7,7 @@ layout: default
 
 {% include hero.html %}
 {% include nav/sprints-nav.html %}
-{% include sprint-hero.html content=sprint %}
+{% include sprint-hero.html content=sprint isCurrent=page.isCurrent %}
 
 {% for statement in problems %}
   {% assign prodId = statement.featured_product[ 0 ] %}
@@ -19,7 +19,26 @@ layout: default
     {% assign showMore = true %}
   {% endif %}
 
-
+  {% assign isExpanded = false %}
+  {% if forloop.first %}
+    {% if page.isCurrent %}
+      {% assign isExpanded = false %}
+    {% else %}
+      {% assign isExpanded = true %}
+    {% endif %}
+  {% endif %}
   {% include problem-statement.html content=statement product=product 
-    showMore=showMore isExpanded = forloop.first %}
+    showMore=showMore isExpanded = isExpanded %}
 {% endfor %}
+
+{% if page.isCurrent %}
+<div class="text-center margin-top-6 margin-bottom-10">
+  <h2 class="margin-bottom-0">
+    Want to join this sprint?
+  </h2>
+    <a href="{{ site.contacts.census-form }}"
+    class="btn-link btn-link__primary-red margin-top-1">
+      Click here to start the process
+    </a>
+</div>
+{% endif %}

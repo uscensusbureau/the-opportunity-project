@@ -15,11 +15,12 @@
         <h3 class="problem-statement-subheader">Challenge:</h3>
         <p>{{ include.content.Challenge | markdownify }}</p>
         <h3 class="problem-statement-subheader">Why This Problem is Important:</h3>
-        <p>{{ include.content["Why this problem matters"] }}</p>
+        <p>{{ include.content["Why this problem matters"] | markdownify }}</p>
       </div>
     </div>
 
     <div class="ps-right-col {{expandedClass}}">
+      {% if include.product %}
       <div class="ps-right-col-section ps-products {{expandedClass}}">
         <h3 class="secondary-header products-header {{expandedClass}}">Product Outcome</h3>
         {% include cards/problem-statement-prod-card.html content=include.product utils="small-header-card top-header" %}
@@ -30,13 +31,26 @@
           </a>
         {% endif %}
       </div>
+      {% endif %}
+
       <div class="ps-right-col-section ps-agency {{ expandedClass }}">
         <h3 class="secondary-header">Agency</h3>
         <p class="margin-top-1">{{ include.content.agency_text }}</p>
       </div>
+
+      {% if page.isCurrent and include.content.pdf %}
+        <div class="ps-right-col-section ps-cta {{expandedClass}} text-center">
+          <a class="btn-link btn-link__secondary-red btn-link--small text-center ps-pdf" 
+            href="{{ site.baseurl }}/assets/files/{{ include.content.pdf }}" download
+          >
+            Download full text (pdf)
+          </a>
+        </div>
+      {% endif %}
+
       <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
         <h3 class="secondary-header">Target Audience</h3>
-        <p>{{ include.content["Target audience / End user"] }}</p>
+        <p>{{ include.content["Target audience / End user"] | markdownify }}</p>
       </div>
     </div>
   </div>

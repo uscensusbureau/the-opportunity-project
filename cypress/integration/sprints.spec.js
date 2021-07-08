@@ -1,18 +1,27 @@
 describe('Sprints test', () => {
   const base = '/sprints/'
-  const sprintUrls = ['', 'natural-environment', 'built-environment', 'geo-cohort', '2020-census', 'workforce', 'past-sprints']
+  const sprints = [
+    { url: '', numPS: 6, isCurrent: true },
+    { url: 'post-covid', numPS: 6, isCurrent: true },
+    { url: 'natural-environment', numPS: 4 },
+    { url: 'built-environment', numPS: 4 },
+    { url: 'geo-cohort', numPS: 4 },
+    { url: '2020-census', numPS: 4 },
+    { url: 'workforce', numPS: 4 },
+    { url: 'past-sprints' },
+  ]
   it('has the right number of subnav elements', () => {
-    for(let i = 0; i < sprintUrls.length; i++) {
-      const url = sprintUrls[i]
+    for(let i = 0; i < sprints.length; i++) {
+      const url = sprints[i].url
       cy.visit(base + url)
       cy.get('#sprint-nav ul').children()
-        .should('have.length', sprintUrls.length - 1)
+        .should('have.length', sprints.length - 1)
     }
   })
 
   it('highlights the subnav', () => {
-    for(let i = 0; i < sprintUrls.length; i++) {
-      const url = sprintUrls[i]
+    for(let i = 0; i < sprints.length; i++) {
+      const url = sprints[i].url
       cy.visit(base + url)      
       
       const index = i > 0 ? i - 1 : i
@@ -21,53 +30,73 @@ describe('Sprints test', () => {
     }
   })
 
-  it('recent sprints have 4 problem statements', () => {
-    for(let i = 0; i < sprintUrls.length - 1; i++) {
-      const url = sprintUrls[i]
+  it('recent sprints have correct number of problem statements', () => {
+    for(let i = 0; i < sprints.length - 1; i++) {
+      const url = sprints[i].url
       cy.visit(base + url)
-      cy.get('.problem-statement').should('have.length', 4)
+      cy.get('.problem-statement').should('have.length', sprints[i].numPS)
     }
   })
 
   it('links to related products return 200s', () => {
-    for(let i = 0; i < sprintUrls.length - 1; i++) {
-      const url = sprintUrls[i]
-      cy.visit(base + url)
-      cy.get('.explore-products')
-        .should('have.length.at.least', 2)
-      cy.get('.explore-products').each(link => {
-        cy.request(link.prop('href'))
-          .its('status')
-          .should('eq', 200)
-      })
+    for(let i = 0; i < sprints.length - 1; i++) {
+      if (!sprints[i].isCurrent) {
+        const url = sprints[i].url
+        cy.visit(base + url)
+        cy.get('.explore-products')
+          .should('have.length.at.least', 2)
+        cy.get('.explore-products').each(link => {
+          cy.request(link.prop('href'))
+            .its('status')
+            .should('eq', 200)
+        })
+      }
     }
   })
 
   it('shows >0 related products after clicking Explore All Products', () => {
-    for(let i = 1; i < sprintUrls.length - 1; i++) {
-      const url = sprintUrls[i]
-      cy.visit(base + url)
-      cy.document().then(doc => {
-        const links = doc.querySelectorAll('.explore-products')
-        for(let i = 0; i < links.length; i++){
-          cy.get('.explore-products').eq(i).click({force: true})
-          cy.location('pathname').should('eq', '/showcase/')
-          const searchString = links[i].href.split("/").pop()
-          const term = searchString.split('=').pop()
-          cy.location('search').should('eq', searchString)
-          cy.get('#search-field').should('have.value', term)
-          cy.get('.product-card:not(.pc-inactive)')
-            .should('have.length.at.least', 1)
+    for(let i = 1; i < sprints.length - 1; i++) {
+      if (!sprints[i].isCurrent) {
+        const url = sprints[i].url
+        cy.visit(base + url)
+        cy.document().then(doc => {
+          const links = doc.querySelectorAll('.explore-products')
+          for(let i = 0; i < links.length; i++){
+            cy.get('.explore-products').eq(i).click({force: true})
+            cy.location('pathname').should('eq', '/showcase/')
+            const searchString = links[i].href.split("/").pop()
+            const term = searchString.split('=').pop()
+            cy.location('search').should('eq', searchString)
+            cy.get('#search-field').should('have.value', term)
+            cy.get('.product-card:not(.pc-inactive)')
+              .should('have.length.at.least', 1)
 
-          cy.go('back')
-          cy.location('pathname').should('eq', `${base}${url}/`)
-        }
-      })
+            cy.go('back')
+            cy.location('pathname').should('eq', `${base}${url}/`)
+          }
+        })
+      }
+    }
+  })
+
+  it('shows pdf button for all current problem statements', () => {
+    cy.visit(base)
+    cy.get('.ps-pdf').should('have.length', 6)
+  })
+
+  it('starts current sprints with all PS segments collapsed', () => {
+    for (const sprint of sprints) {
+      if (sprint.isCurrent) {
+        cy.visit(base + sprint.url)
+        cy.get('.ps-left-col').each($el => {
+          cy.wrap($el).should('have.class', 'ps-collapsed')
+        })
+      }
     }
   })
 })
 
-describe.skip('past sprints test', () => {
+describe.only('past sprints test', () => {
   const categories = [
     { name: "Workforce", amt: 5 },
     { name: "Education", amt:  7 },

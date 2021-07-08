@@ -83,13 +83,9 @@ $ps-breakpoint: 'mobile-lg';
   @include u-padding(3);
   flex-grow: 1;
   border: $light-border;
-  // + .ps-right-col-section {
-  //   border-top: none;
-  // }
 }
 
 .ps-products {
-  // @include u-padding-x('105');
   &.ps-collapsed {
     display: block;
     border-top: none;
@@ -115,6 +111,24 @@ $ps-breakpoint: 'mobile-lg';
       @include grid-col(6);
       border-right: none;
     }
+  }
+}
+
+.ps-cta {
+  display: block;
+  &.ps-collapsed {
+    display: block;
+    border-top: none;
+    @include at-media($ps-breakpoint){
+      border-left: none;
+      border-top: $light-border;
+    }
+    a {
+      @include u-padding-x(1 !important);
+    }
+  }
+  &.ps-expanded {
+    order: 100;
   }
 }
 

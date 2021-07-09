@@ -180,6 +180,7 @@
   airtable_id: rec2hm93Hd703vhHw
   pdf: 2021-problem-statements/post-covid/MBDA_ Improving Minority Businesses Access
     to Capital.pdf
+  sprint_order: 1
   sprint_text: The World Post-COVID-19
 - Agency:
   - rectJsTe77nlH7QcZ
@@ -215,6 +216,7 @@
   airtable_id: rec3DhHvGbMYMTN1A
   pdf: 2021-problem-statements/post-covid/Treasury_ Analyzing Equity in Federal COVID-19
     Spending.pdf
+  sprint_order: 2
   sprint_text: The World Post-COVID-19
 - Agency:
   - recFUgWuGZMTCoKVG
@@ -1238,6 +1240,50 @@
   products_text: MySpot
   sprint_text: 2017 Sprint 1 (ED HUD VA)
 - Agency:
+  - recSSuTqWjc7zB70K
+  Challenge: 'Develop digital tools that help small business leaders and their workforces
+    to enhance their online presence and ability to process data and information relevant
+    to their businesses in real time, thereby allowing them to be competitive in the
+    digital ecosystem. '
+  Executive champion: Ed Santamaria, Assistant City Manager, City of Coral Gables
+  Full Title: Helping Small Businesses Thrive in a Digital Economy
+  Name: Helping Small Businesses Thrive in a Digital Economy
+  Sprints:
+  - recjkCdpt4YKEx7Ae
+  Target audience / End user: 'Small business owners, their employees, and economic
+    development professionals, as well as visitors and residents. '
+  Vision for sprint outcomes: Small businesses in South Florida will become more integrated
+    into the innovative business ecosystem by incorporating technology into their
+    workflows, enabling equitable growth, social equity and greater opportunities
+    for small business owners and employees.  We hope this sprint will contribute
+    to creating new business opportunities and jobs in the community through the application
+    of technology, as well as improve quality of service for customers and business
+    competitiveness with a combination of digital literacy, process efficiencies,
+    and cyber-infrastructure. Additionally, the sprint could provide the digital infrastructure
+    and capacity for companies to process the volume and speed of data with the latest
+    technology to be effective in a highly competitive international business ecosystem.
+  Why this problem matters: "In the wake of the COVID-19 pandemic, many small businesses\
+    \ struggled to stay afloat. As of May 2021, the number of U.S. small businesses\
+    \ that were open had [decreased by 33.8% (pdf)](https://www.federalreserve.gov/econres/feds/files/2020089r1pap.pdf)\
+    \ compared to January 2020. Those that stayed open faced reduced revenues, as\
+    \ well as [increased expenses](https://www.jpmorganchase.com/institute/research/small-business/report-small-business-expenses-during-COVID-19)\
+    \ and new operational realities given health and safety restrictions. During the\
+    \ pandemic, much of the economy also transitioned online. However, only 29% of\
+    \ small businesses in Florida report benefiting from online sales, highlighting\
+    \ inequities in preparation for this shift. Given these challenges, economic recovery\
+    \ will also not be straightforward for smaller scale operations. However, small\
+    \ businesses play a critical role in the economy, with 60% of net new job gains\
+    \ in Florida since 2012 having come from [companies with less than 100 employees\
+    \ (pdf)](http://www.flchamber.com/wp-content/uploads/2020/10/COVID-Impact-Survey_October.pdf),\
+    \ confirming the pivotal role of these organizations to the state\u2019s economy. "
+  agency_text: City of Coral Gables
+  airtable_createdTime: '2021-07-09T16:26:32.000Z'
+  airtable_id: recODy3F77656gS8i
+  pdf: 2021-problem-statements/post-covid/Coral Gables_ Helping Small Businesses Thrive
+    in a Digital Economy.pdf
+  sprint_order: 7
+  sprint_text: The World Post-COVID-19
+- Agency:
   - recuesxBrh08C2a6O
   Challenge: For the first time in 2020, people will be able to complete the Census
     online, presenting an opportunity to better count our nation, but also many challenges,
@@ -1612,6 +1658,7 @@
   airtable_id: recbjIUzjzLZ5KmJS
   pdf: 2021-problem-statements/post-covid/NOAA_ Tackling the Climate Crisis through
     Climate-Smart Communities.pdf
+  sprint_order: 3
   sprint_text: The World Post-COVID-19
 - Agency:
   - recG1tIVvzTYzOMct
@@ -1726,6 +1773,7 @@
   airtable_id: recfszna1c4jtooN4
   pdf: 2021-problem-statements/post-covid/CFPB_ Preventing Crisis for Low-Income Renters
     & Small Landlords.pdf
+  sprint_order: 4
   sprint_text: The World Post-COVID-19
 - Agency:
   - reci7jH40piLVRIiY
@@ -2130,6 +2178,7 @@
   airtable_id: recsbfXyfEmL6eaDo
   pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
     Post-COVID 19.pdf
+  sprint_order: 5
   sprint_text: The World Post-COVID-19
 - Agency:
   - recEEzYRL7CmbAyLm
@@ -2170,4 +2219,5 @@
   airtable_id: recxiyHz22AqIcSU6
   pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
     Multilingual Communities.pdf
+  sprint_order: 6
   sprint_text: The World Post-COVID-19

@@ -1,8 +1,8 @@
 describe('Sprints test', () => {
   const base = '/sprints/'
   const sprints = [
-    { url: '', numPS: 6, isCurrent: true },
-    { url: 'post-covid', numPS: 6, isCurrent: true },
+    { url: '', numPS: 7, isCurrent: true },
+    { url: 'post-covid', numPS: 7, isCurrent: true },
     { url: 'natural-environment', numPS: 4 },
     { url: 'built-environment', numPS: 4 },
     { url: 'geo-cohort', numPS: 4 },
@@ -81,7 +81,7 @@ describe('Sprints test', () => {
 
   it('shows pdf button for all current problem statements', () => {
     cy.visit(base)
-    cy.get('.ps-pdf').should('have.length', 6)
+    cy.get('.ps-pdf').should('have.length', sprints[0].numPS)
   })
 
   it('starts current sprints with all PS segments collapsed', () => {
@@ -94,9 +94,13 @@ describe('Sprints test', () => {
       }
     }
   })
+
+  it('has Post-COVID pdf at proper link', () => {
+    cy.request('/assets/files/Post-COVID-Problem-Statements.pdf')
+  })
 })
 
-describe.only('past sprints test', () => {
+describe('past sprints test', () => {
   const categories = [
     { name: "Workforce", amt: 5 },
     { name: "Education", amt:  7 },

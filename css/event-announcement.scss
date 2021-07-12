@@ -1,0 +1,43 @@
+$gradient-yellow: #119c5a;
+$gradient-green: #43828c;
+
+.event-announcement {
+  &__section {
+    background-color: $gradient-green;
+
+  }
+
+  &__content {
+    @include u-margin-y(0);
+    @include u-padding-y(4);
+    width: max-content;
+    @include u-margin-x(auto);
+    text-align: center;
+  }
+
+  &__header {
+    background: radial-gradient($gradient-yellow, $gradient-green);
+    @include u-border('1px', 'solid', 'white');
+    @include u-padding-x(4);
+    @include u-padding-y(2);
+    @include u-font('sans', '3xl');
+    @include u-text('uppercase');
+    p {
+      @include u-margin-y(0);
+      @include u-line-height('sans', 3);
+      &:first-child {
+        @include u-text('thin')
+      }
+      &:last-child {
+        @include u-font('sans', 'xl')
+      }
+    }
+  }
+
+  &__cta {
+    @include u-bg('secondary-vivid');
+    @include u-radius('pill');
+    @include u-padding-x(2);
+    @include u-padding-y(1);
+  }
+}

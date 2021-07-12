@@ -3,18 +3,29 @@ title: Prize Challenge
 permalink: /prize-challenge/
 layout: default
 
+challenge-gov: https://www.challenge.gov/challenge/opportunity-project-prize/
+
 hero:
-  text: Prize Challenge
-  subtext: Win funding to scale your solution and deliver impact
+  text: Win Funding to Scale Your Technology
+  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/opportunity-project-prize/){: .usa-link } is now live. Win up to $100,000 by using The Opportunity Project process.'
 
 banner-subheader:
   top:
     background: base-darkest
     line: '-light'
 
-callout:
-  text: Learn About Our Upcoming Prize Challenge
-  markdownSrc: prize-callout.md
+event-announcement:
+  title:
+    - Open Data
+    - For Good
+    - Grand Challenge
+  cta: NOW LIVE
+  img: 
+    - photos/sprints/landing/Post-COVID.jpg  
+
+callout: 
+  content: prize-callout.md
+
 
 about:
   title: How the Prize Challenge Began
@@ -57,7 +68,9 @@ winners:
 ---
 
 {% include hero.html %}
-{% include text-callout-centered.html content=page.callout %}
+{% include event-announcement.html data=page.event-announcement%}
+
+<!-- {% include text-callout-centered.html content=page.callout %} -->
 
 {::options parse_block_html="true" /}
 <section class="grid-section margin-top-0 margin-bottom-15 padding-y-3 width-full maxw-full split-background-primary margin-x-0">

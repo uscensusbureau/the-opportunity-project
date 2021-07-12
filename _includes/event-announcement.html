@@ -1,0 +1,17 @@
+{% assign data = include.data %}
+
+<section 
+  style="background-image: url({{ site.baseurl }}/assets/img/{{ data.img }})"
+  class="event-announcement__section usa-section--dark"
+>
+  <div class="event-announcement__content">
+    <h2 class="event-announcement__header">
+      {% for line in data.title %}
+        <p>{{ line }}</p>
+      {% endfor %}
+    </h2>
+    <span class="event-announcement__cta">
+      {{ data.cta }}
+    </span>
+  </div>
+</section>

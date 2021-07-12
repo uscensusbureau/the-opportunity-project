@@ -5,6 +5,13 @@
   @include u-bg('base-darkest');
   @include u-text('white');
   @include white-links;
+  h1 {
+    @include u-font('sans', '2xl');
+    @include u-margin(0);
+  }
+  h2 {
+    @include u-font('sans', 'xl');
+  }
 }
 
 .small-only {
@@ -25,13 +32,7 @@ $dotted-border:  1px dotted color('white');
 /*****************
  * Typography
  ****************/
-h1 {
-  @include u-font('sans', '2xl');
-  @include u-margin(0);
-}
-h2 {
-  @include u-font('sans', 'xl');
-}
+
 
 #our-work-section {
   @include u-bg('white');

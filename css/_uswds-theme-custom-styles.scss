@@ -84,6 +84,8 @@ $site-border-width: 2px;
 $site-base-transparent-light: "black-transparent-10";
 $site-background-color: "gray-1";
 
+$site-h2-size: 2.25em;
+
 .default-container {
   @include u-bg($site-background-color);
 }
@@ -104,7 +106,7 @@ body {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: $site-h2-size;
 }
 
 h1, h2, h3 {
@@ -4739,13 +4741,14 @@ body {
   @include u-font('body', 'lg');
 }
 
-h2.section-header {
+h2.section-header, h3.section-header {
   @include u-color('base-darkest');
   @include u-margin-bottom(1);
   @include u-padding-bottom(1);
   @include u-line-height('sans', 3);
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
+  font-size: $site-h2-size;
 }
 
 .secondary-header {

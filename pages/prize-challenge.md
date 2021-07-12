@@ -70,11 +70,9 @@ winners:
 {% include hero.html %}
 {% include event-announcement.html data=page.event-announcement%}
 
-<!-- {% include text-callout-centered.html content=page.callout %} -->
-
 {::options parse_block_html="true" /}
-<section class="grid-section margin-top-0 margin-bottom-15 padding-y-3 width-full maxw-full split-background-primary margin-x-0">
-  <div class="usa-media-block__body-outlined--secondary secondary-callout">
+<section class="grid-section margin-top-10 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
+  <div class="maxw-tablet margin-x-auto">
 ## Upcoming Webinars
 {: .section-header }
 

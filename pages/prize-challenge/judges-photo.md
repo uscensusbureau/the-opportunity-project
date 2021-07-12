@@ -1,1 +1,0 @@
-{% include image.html src="prize/02_Judges_prize-winner.jpg" alt="Photo of a man and woman handing a $20k check from The Opportunity Project to a woman on a stage" %}

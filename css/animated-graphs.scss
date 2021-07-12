@@ -4,22 +4,22 @@
 }
 .graph-container {
   @include u-margin-bottom(1);
+  .graph-fill {
+    @include u-bg('white');
+  }
   &:nth-child(1) {
     .graph-fill {
       width: 33%;
-      @include u-bg('primary-dark');
     }
   }
   &:nth-child(2) {
     .graph-fill {
       width: 85%;
-      background-color: #fed585;
     }
   }
   &:nth-child(3) {
     .graph-fill {
       width: 50%;
-      @include u-bg('primary-light');
     }
   }
   .graph-fill.empty {

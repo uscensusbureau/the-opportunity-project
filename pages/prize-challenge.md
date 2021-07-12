@@ -44,7 +44,8 @@ timeline:
 
 
 about:
-  title: How the Prize Challenge Began
+  title: How It All Started
+  heading-level: 3
   left-col-width: '4'
   left-col-offset: 1
   right-col-width: '5'
@@ -59,23 +60,25 @@ about:
 
 graphs:
   - title: User Friendly
-    percent: 33
-    color: base-dark
   - title: Civic Impact
-    percent: 85
-    color: '#fed585'
   - title: Creativity
-    percent: 50
-    color: primary-light
 
 judging:
   title: Judged by Experts
+  heading-level: 3
   grid-gap-lg: true
   skip-top-border: true
   skip-bottom-border: true
-  left-col: prize-challenge/judges-photo.md
-  right-col: prize-challenge/graphs-with-text.md
+  left-col: prize-challenge/graphs-with-text.md
+  right: 
+    - body: Products in our first competition were scored for their creativity, user-friendliness, and potential for civic impact by panels of product, data, and policy specialists from private industry and government.
 
+judge-photo: 
+  src: prize/02_Judges_prize-winner.jpg
+  alt: a man and woman handing a $20k check from The Opportunity Project to a woman on a stage
+  caption: '2019 Prize Challenge Winner, Social Science Research Council, pictured with Ron Jarmin, Acting Director of the U.S. Census Bureau'
+
+past-title: Past Prize Challenge
 
 winners:
   title: Past Winners
@@ -125,36 +128,33 @@ Before you submit your application, please review the submission checklist.
 ### Timeline
 {% include process-list.html data=page.timeline %}
 
-### Overview and Q&A
-July 14th 2:00 - 3:00 PM ET
-{: .margin-bottom-05 }
+{::options parse_block_html="false" /}
+<figure>
+  {% include image.html src=page.judge-photo.src alt=page.judge-photo.alt class="border-1px" %}
+ <figcaption>{{ page.judge-photo.caption }}</figcaption>
+</figure>
 
-[RSVP](http://bit.ly/ODFGGCWebinar1){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
-{: .margin-top-0 }
-
-### Overview and Submission Feedback
-
-July 28th 2:00 - 3:00 PM ET
-
-August 11th 2:00 - 3:00 PM ET
-
-September 1st 2:00 - 3:00 PM ET
   </div>
 </section>
-{::options parse_block_html="false" /}
 
+<section class="usa-section usa-section--dark bg-base-darkest">
 
-{% include two-column-markdown.html content=page.about %}
-{% include two-column-markdown.html content=page.judging %}
+  <h2 class="text-center">
+    {{ page.past-title }}
+  </h2>
 
-<div class="text-center margin-bottom-6">
-  <h2 class="text-base-darkest margin-bottom-0">{{ page.winners.title }}</h2>
-  <div class="maxw-tablet margin-x-auto">
-    {{ page.winners.subtext | markdownify }}
+  {% include two-column-markdown.html content=page.about %}
+  {% include two-column-markdown.html content=page.judging %}
+
+  <div class="grid-section margin-bottom-6">
+    <h3 class="margin-bottom-0 section-header">{{ page.winners.title }}</h3>
+    <div class="maxw-tablet margin-x-auto text-center">
+      {{ page.winners.subtext | markdownify }}
+    </div>
   </div>
-</div>
 
-{% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
-{% for winner in winners %}
-  {% include prize-winner-product.html content=winner %}
-{% endfor %}
+  {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
+  {% for winner in winners %}
+    {% include prize-winner-product.html content=winner %}
+  {% endfor %}
+</section>

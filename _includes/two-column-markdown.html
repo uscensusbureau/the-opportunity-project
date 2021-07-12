@@ -11,7 +11,10 @@
 
 <section class="grid-section">
   {% if include.content.title %}
-    <h2 class="section-header">{{ include.content.title }}</h2>
+    <h{{ include.content.heading-level | default: 2 }}
+      class="section-header">
+      {{ include.content.title }}
+    </h{{ include.content.heading-level | default: 2 }}>
   {% endif %}
   <div class="grid-row grid-gap{% if include.content.grid-gap-lg %}-lg{% endif %} padding-y-2
     {% unless include.content.skip-top-border %}border-top{% endunless %}

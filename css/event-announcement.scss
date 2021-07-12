@@ -36,8 +36,8 @@ $gradient-green: #43828c;
 
   &__cta {
     @include u-bg('secondary-vivid');
-    @include u-radius('pill');
-    @include u-padding-x(2);
-    @include u-padding-y(1);
+    @include u-radius('lg');
+    @include u-padding-x(1);
+    @include u-padding-y(0.5);
   }
 }

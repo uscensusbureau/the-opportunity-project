@@ -1,0 +1,26 @@
+{% assign data = include.data %}
+<ol class="usa-process-list">
+  {% for item in data %}
+    <li class="usa-process-list__item">
+      <h4 class="usa-process-list__heading">{{ item.text | markdownify }}</h4>
+      {% if item.subtitle %}
+        <p>{{ item.subtitle | markdownify }}</p>
+      {% endif %}
+      {% if item.items %}
+        <ul>
+        {% for subitem in item.items %}
+          <li>
+            {% if subitem.href %}
+              <a class="usa-link" href="{{ subitem.href}}">
+                {{ subitem.text }}
+              </a>
+            {% else %}
+              {{ subitem }}
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>

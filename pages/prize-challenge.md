@@ -4,6 +4,7 @@ permalink: /prize-challenge/
 layout: default
 
 challenge-gov: https://www.challenge.gov/challenge/opportunity-project-prize/
+submission-checklist: xyz
 
 hero:
   text: Win Funding to Scale Your Technology
@@ -23,8 +24,23 @@ event-announcement:
   img: 
     - photos/sprints/landing/Post-COVID.jpg  
 
-callout: 
-  content: prize-callout.md
+timeline:
+  - text: Prize Opens on Challenge.gov
+    subtitle:  July 1st, 2021
+    items:
+      - text: Info Session, July 14th
+        href: http://bit.ly/ODFGGCWebinar1
+      - text: Q+A Session, July 24th
+        href: http://bit.ly/ODFGGCWebinar1
+  - text: Prize Submission Opens
+    subtitle: September 13th, 2021
+    items:
+    - text: Application Review, July 14th
+      href: http://bit.ly/ODFGGCWebinar1
+  - text: Prize Submission Closes
+    subtitle: September 13th, 2021
+  - text: Judging Process
+  - text: Winners Announced
 
 
 about:
@@ -73,10 +89,41 @@ winners:
 {::options parse_block_html="true" /}
 <section class="grid-section margin-top-10 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
-## Upcoming Webinars
+
+### What is it?
 {: .section-header }
 
-The Opportunity Project team will be hosting a series of informational webinars for individuals and teams interested in applying to the Open Data for Good Grand Challenge. Learn more about the prize and how to prepare your submission.
+The Open Data for Good Grand Challenge seeks to reward the most creative and high impact uses of open data in digital tools that solve problems for the public.
+{: .text-thin .text-italic }
+
+This Grand Challenge was inpsired by The Opportunity Project (TOP), a program of Census Open Innovation Labs at the U.S. Census Bureau used by federal agencies to catalyze digital tools with open data.
+
+[View the rules]({{ page.challenge-gov }}){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
+{: .margin-top-0 }
+
+### What Can You Win?
+{: .section-header }
+
+Prizes range from $20,000 to $100,000 with more to be announced.  
+We're looking for tools that into one of these categories:
+- Climate Reslience and The Natural Environment
+- Society, Economy, and the Built Environment
+- Health and COVID-19
+
+### What Do You Have To DO?
+{: .section-header }
+1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or by participating in a [TOP Sprint](/sprints)
+2. Attend an informational session (optional)
+3. Submit your application by email and submission form
+
+Submissions for the Open Data for Good Grand Challenge 2021 open on September 12, 2021 at 9:00 AM ET and close on October 15, 2021 at 11:59 PM ET
+{: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
+
+Before you submit your application, please review the submission checklist.
+[Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 }
+
+### Timeline
+{% include process-list.html data=page.timeline %}
 
 ### Overview and Q&A
 July 14th 2:00 - 3:00 PM ET

@@ -21,7 +21,7 @@ sidebar:
     href: "#toolkit-step-6"
 
 phase: 2
-color: accent-cool
+color: accent-cool-lightest
 #text-color: text-black
 
 

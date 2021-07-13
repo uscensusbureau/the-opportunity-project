@@ -1245,7 +1245,7 @@ main {
       @include u-bg('blue-cool-20v');
     }
     &:nth-child(2) {
-      @include u-bg('accent-cool')
+      @include u-bg('accent-cool-lightest')
     }
     &:nth-child(3) {
       @include u-margin-right(0);
@@ -4805,15 +4805,21 @@ h2.section-header, h3.section-header {
 }
 
 .prize-winner-product {
-  @include grid-container;
   @include u-margin-y(3);
+  @include u-padding-x(0);
 
   .grid-row {
-    @include grid-gap;
     @include u-padding-y(3);
-    @include u-padding-right(1);
-    @include u-outline('1px');
-    @include u-outline-color('base-light');
+    @include u-border-bottom('1px');
+    @include u-border-color('base-light');
+    > * {
+      @include u-padding-left(2);
+    }
+    
+  }
+  &:last-child .grid-row {
+    @include u-border-bottom(0);
+    @include u-padding-bottom(0);
   }
 }
 

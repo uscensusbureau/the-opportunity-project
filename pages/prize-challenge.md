@@ -82,7 +82,8 @@ past-title: Past Prize Challenge
 
 winners:
   title: Past Winners
-  subtext: $100k awarded in The Opportunity Project’s inaugural Prize Challenge. See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.
+  subtext: '$100k awarded in The Opportunity Project’s inaugural Prize Challenge.<br/> 
+  See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.'
 
 ---
 
@@ -137,7 +138,7 @@ Before you submit your application, please review the submission checklist.
   </div>
 </section>
 
-<section class="usa-section usa-section--dark bg-base-darkest">
+<section class="usa-section usa-section--dark bg-base-darkest border-bottom-1px">
 
   <h2 class="text-center">
     {{ page.past-title }}
@@ -147,14 +148,15 @@ Before you submit your application, please review the submission checklist.
   {% include two-column-markdown.html content=page.judging %}
 
   <div class="grid-section margin-bottom-6">
-    <h3 class="margin-bottom-0 section-header">{{ page.winners.title }}</h3>
-    <div class="maxw-tablet margin-x-auto text-center">
+    <h3 class="margin-bottom-0 font-sans-xl">{{ page.winners.title }}</h3>
+    <div class="text-center border-1px border-base-light padding-y-2">
       {{ page.winners.subtext | markdownify }}
     </div>
+    {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
+    {% for winner in winners %}
+      {% include prize-winner-product.html content=winner %}
+    {% endfor %}
   </div>
 
-  {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
-  {% for winner in winners %}
-    {% include prize-winner-product.html content=winner %}
-  {% endfor %}
+  
 </section>

@@ -94,7 +94,7 @@ winners:
 <section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
 
-### What is it?
+### What is It?
 {: .section-header }
 
 The Open Data for Good Grand Challenge seeks to reward the most creative and high impact uses of open data in digital tools that solve problems for the public.
@@ -114,13 +114,13 @@ We're looking for tools that into one of these categories:
 - Society, Economy, and the Built Environment
 - Health and COVID-19
 
-### What Do You Have To DO?
+### What Do You Have To Do?
 {: .section-header .margin-top-6 }
 1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or by participating in a [TOP Sprint](/sprints)
 2. Attend an informational session (optional)
 3. Submit your application by email and submission form
 
-Submissions for the Open Data for Good Grand Challenge 2021 open on September 12, 2021 at 9:00 AM ET and close on October 15, 2021 at 11:59 PM ET
+Submissions are open from September 12, 2021 – October 15, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
 Before you submit your application, please review the submission checklist.

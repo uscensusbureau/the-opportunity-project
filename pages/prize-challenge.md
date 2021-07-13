@@ -91,7 +91,7 @@ winners:
 {% include event-announcement.html data=page.event-announcement%}
 
 {::options parse_block_html="true" /}
-<section class="grid-section margin-top-10 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
+<section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
 
 ### What is it?
@@ -106,7 +106,7 @@ This Grand Challenge was inpsired by The Opportunity Project (TOP), a program of
 {: .margin-top-0 }
 
 ### What Can You Win?
-{: .section-header }
+{: .section-header .margin-top-6 }
 
 Prizes range from $20,000 to $100,000 with more to be announced.  
 We're looking for tools that into one of these categories:
@@ -115,7 +115,7 @@ We're looking for tools that into one of these categories:
 - Health and COVID-19
 
 ### What Do You Have To DO?
-{: .section-header }
+{: .section-header .margin-top-6 }
 1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or by participating in a [TOP Sprint](/sprints)
 2. Attend an informational session (optional)
 3. Submit your application by email and submission form
@@ -127,6 +127,7 @@ Before you submit your application, please review the submission checklist.
 [Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 }
 
 ### Timeline
+{: .margin-top-6 .margin-bottom-0 }
 {% include process-list.html data=page.timeline %}
 
 {::options parse_block_html="false" /}

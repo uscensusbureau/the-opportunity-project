@@ -29,17 +29,17 @@ timeline:
     subtitle:  July 1st, 2021
     items:
       - text: Info Session, July 14th
-        href: http://bit.ly/ODFGGCWebinar1
+      #   href: http://bit.ly/ODFGGCWebinar1
       - text: Q+A Session, July 24th
         href: http://bit.ly/ODFGGCWebinar1
   - text: Prize Submission Opens
     subtitle: September 13th, 2021
     items:
     - text: Application Review, July 14th
-      href: http://bit.ly/ODFGGCWebinar1
+      # href: http://bit.ly/ODFGGCWebinar1
   - text: Prize Submission Closes
     subtitle: September 13th, 2021
-  - text: Judging Process
+  - text: Judging Process Begins
   - text: Winners Announced
 
 
@@ -123,8 +123,8 @@ We're looking for tools that into one of these categories:
 Submissions are open from September 12, 2021 – October 15, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
-Before you submit your application, please review the submission checklist.
-[Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 }
+<!-- Before you submit your application, please review the submission checklist.
+[Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 } -->
 
 ### Timeline
 {: .margin-top-6 .margin-bottom-0 }

@@ -26,7 +26,7 @@ event-announcement:
     - prize/top-grand-challenge-background-01.jpg  
 
 timeline:
-  - text: July 1st - Prize Opens on Challenge.gov
+  - text: Prize Opens on Challenge.gov
     subtitle:  July 1st, 2021
     items:
       - text: Info Session, July 14th
@@ -36,7 +36,7 @@ timeline:
   - text: Prize Submission Opens
     subtitle: September 13th, 2021
     items:
-    - text: Application Review, July 14th
+    # - text: Application Review, July 14th
       # href: http://bit.ly/ODFGGCWebinar1
   - text: Prize Submission Deadline
     subtitle: October 18th, 2021
@@ -100,7 +100,7 @@ winners:
 ### What is It?
 {: .section-header }
 
-The Open Data for Good Grand Challenge is a set of cash and in-kind prizes being awarded to teams who have created high-impact digital tools that solve problems for the public.
+The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for teams who have created high-impact digital tools that solve problems for the public.
 
 Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
 
@@ -111,14 +111,14 @@ Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for 
 {: .section-header .margin-top-6 }
 
 Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
-We're looking for tools that into one of these categories:
-- Climate, Reslience and The Natural Environment
+We're looking for tools that fit into one of these categories:
+- Climate, Reslience and the Natural Environment
 - Society, Economy, and the Built Environment
 - Health and COVID-19
 
 ### What Do You Have To Do?
 {: .section-header .margin-top-6 }
-1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or by participating in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 18th, 2021
+1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 18th, 2021
 2. Attend an informational session (optional)
 3. Submit your application by the deadline via email and a short submission form
 

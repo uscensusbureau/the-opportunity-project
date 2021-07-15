@@ -1,10 +1,11 @@
-$gradient-yellow: #119c5a;
+$gradient-yellow: color('mint-30v'); //#119c5a;
 $gradient-green: #43828c;
 
 .event-announcement {
   &__section {
     background-color: $gradient-green;
-
+    background-position: center;
+    background-size: cover;
   }
 
   &__content {

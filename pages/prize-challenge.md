@@ -22,7 +22,7 @@ event-announcement:
     - Grand Challenge
   cta: NOW LIVE
   img: 
-    - photos/sprints/landing/Post-COVID.jpg  
+    - prize/top-grand-challenge-background-01.jpg  
 
 timeline:
   - text: Prize Opens on Challenge.gov
@@ -82,8 +82,8 @@ past-title: Past Prize Challenge
 
 winners:
   title: Past Winners
-  subtext: '$100k awarded in The Opportunity Project’s inaugural Prize Challenge.<br/> 
-  See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.'
+  # subtext: '$100k awarded in The Opportunity Project’s inaugural Prize Challenge.<br/> 
+  # See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.'
 
 ---
 
@@ -149,10 +149,7 @@ Submissions are open from September 12, 2021 – October 15, 2021
   {% include two-column-markdown.html content=page.judging %}
 
   <div class="grid-section margin-bottom-6">
-    <h3 class="margin-bottom-0 font-sans-xl">{{ page.winners.title }}</h3>
-    <div class="text-center border-1px border-base-light padding-y-2">
-      {{ page.winners.subtext | markdownify }}
-    </div>
+    <h3 class="margin-bottom-0 section-header">{{ page.winners.title }}</h3>
     {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
     {% for winner in winners %}
       {% include prize-winner-product.html content=winner %}

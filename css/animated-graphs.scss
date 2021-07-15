@@ -10,16 +10,19 @@
   &:nth-child(1) {
     .graph-fill {
       width: 33%;
+      @include u-bg('mint-30v');
     }
   }
   &:nth-child(2) {
     .graph-fill {
       width: 85%;
+      @include u-bg('accent-cool-lightest');
     }
   }
   &:nth-child(3) {
     .graph-fill {
       width: 50%;
+      @include u-bg('accent-warm');
     }
   }
   .graph-fill.empty {

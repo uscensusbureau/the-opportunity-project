@@ -80,6 +80,7 @@ exclude:
   - package.json
   - package-lock.json
   - pages/components.md
+  - pages/hcd.md
   - config
   - js
   - img

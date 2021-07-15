@@ -22,7 +22,6 @@ callout:
   text: The Opportunity Project
   subtext: OUR MISSION
   body:
-    # for each separate portion of text, add a "p" (short for paragraph)
     - p: Finding federal data is hard. Making an impact with it is even harder.
     - p: That’s where we come in.
     - p: We connect you with experts from the tech industry, communities, and government to help you turn federal open data into life-changing tech, faster.

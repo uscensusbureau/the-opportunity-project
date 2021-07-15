@@ -354,10 +354,8 @@ const closeModal = () => {
 $('.close').on('click', closeModal)
 
 $('.data-card-group').on('click', function (e) {
-  // console.log('clicked data-card-group')
   if (e.target) {
     const closestCard = e.target.closest('li')
-    // console.log(closestCard)
     if (closestCard) {
       for (const topicCard of document.getElementsByClassName('dkh__data-topic')) {
         topicCard.classList.remove('selected')
@@ -380,20 +378,10 @@ $('.data-card-group').on('click', function (e) {
         for (let i = 0; i < datasets.length; i++) {
           const dataName = datasets[i].getElementsByTagName('h2')[0].innerText
           const dataNameSlugified = slugify(dataName.toLowerCase().replaceAll('*', '-').replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(' ').join('-'))
-          const printing = dataNameSlugified === 'o-net-web-services'
-          if (printing) {
-            console.log('**** filtering ' + dataNameSlugified)
-            console.log(dataName)
-          }
           // dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(' ').join('-')
-          if (printing) console.log(dataNameSlugified)
           const dataCategory = datasets[i].getElementsByTagName('h3')[0].innerText
           const dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ')
           if (dataCategoryArray.includes(dataCardId)) {
-            if (printing) {
-              console.log('includes')
-              console.log('#data-set-card-' + dataNameSlugified)
-            }
             $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
           } else {
             $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
@@ -421,7 +409,6 @@ if (document.getElementById('data-search-form')) {
 
 function filterDataSets () {
   const filter = $('#search-field').val()
-  console.log(`filtering ${filter}`)
   const dataSets = document.getElementsByName('data-set-card')
   for (let i = 0; i < dataSets.length; i++) {
     if (dataSets[i].getElementsByTagName('h2')[0]) {

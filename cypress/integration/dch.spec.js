@@ -30,7 +30,7 @@ describe('Filtering tests', () => {
   it('only shows datasets from asscd PS after clicking PS filter', () => {
     testPSFilters(pages[0])
   })
-  it.only('filters by PS on workforce page', () => {
+  it('filters by PS on workforce page', () => {
     testPSFilters(pages[1])
   })
   it('filters by PS on built env page', () => {

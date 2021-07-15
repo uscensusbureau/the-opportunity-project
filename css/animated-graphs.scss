@@ -16,13 +16,13 @@
   &:nth-child(2) {
     .graph-fill {
       width: 85%;
-      @include u-bg('accent-cool-lightest');
+      @include u-bg('accent-warm-light');
     }
   }
   &:nth-child(3) {
     .graph-fill {
       width: 50%;
-      @include u-bg('accent-warm');
+      @include u-bg('cyan-30v');
     }
   }
   .graph-fill.empty {

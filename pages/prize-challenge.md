@@ -2,13 +2,14 @@
 title: Prize Challenge
 permalink: /prize-challenge/
 layout: default
+class: prize
 
-challenge-gov: https://www.challenge.gov/challenge/opportunity-project-prize/
+challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
 submission-checklist: xyz
 
 hero:
   text: Win Funding to Scale Your Technology
-  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/opportunity-project-prize/){: .usa-link } is now live. Win up to $100,000 by using The Opportunity Project process.'
+  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding at least $100,000 to teams using The Opportunity Project process.'
 
 banner-subheader:
   top:
@@ -25,7 +26,7 @@ event-announcement:
     - prize/top-grand-challenge-background-01.jpg  
 
 timeline:
-  - text: Prize Opens on Challenge.gov
+  - text: July 1st - Prize Opens on Challenge.gov
     subtitle:  July 1st, 2021
     items:
       - text: Info Session, July 14th
@@ -37,10 +38,12 @@ timeline:
     items:
     - text: Application Review, July 14th
       # href: http://bit.ly/ODFGGCWebinar1
-  - text: Prize Submission Closes
-    subtitle: September 13th, 2021
-  - text: Judging Process Begins
+  - text: Prize Submission Deadline
+    subtitle: October 18th, 2021
+  - text: Judging Process
+    subtitle: November
   - text: Winners Announced
+    subtitle: December - January
 
 
 about:
@@ -97,10 +100,9 @@ winners:
 ### What is It?
 {: .section-header }
 
-The Open Data for Good Grand Challenge seeks to reward the most creative and high impact uses of open data in digital tools that solve problems for the public.
-{: .text-thin .text-italic }
+The Open Data for Good Grand Challenge is a set of cash and in-kind prizes being awarded to teams who have created high-impact digital tools that solve problems for the public.
 
-This Grand Challenge was inpsired by The Opportunity Project (TOP), a program of Census Open Innovation Labs at the U.S. Census Bureau used by federal agencies to catalyze digital tools with open data.
+Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
 
 [View the rules]({{ page.challenge-gov }}){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
 {: .margin-top-0 }
@@ -108,17 +110,17 @@ This Grand Challenge was inpsired by The Opportunity Project (TOP), a program of
 ### What Can You Win?
 {: .section-header .margin-top-6 }
 
-Prizes range from $20,000 to $100,000 with more to be announced.  
+Prizes range from $10,000 to $25,000 with additional prizes expected to be announced!  
 We're looking for tools that into one of these categories:
-- Climate Reslience and The Natural Environment
+- Climate, Reslience and The Natural Environment
 - Society, Economy, and the Built Environment
 - Health and COVID-19
 
 ### What Do You Have To Do?
 {: .section-header .margin-top-6 }
-1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or by participating in a [TOP Sprint](/sprints)
+1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or by participating in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 18th, 2021
 2. Attend an informational session (optional)
-3. Submit your application by email and submission form
+3. Submit your application by the deadline via email and a short submission form
 
 Submissions are open from September 12, 2021 – October 15, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }

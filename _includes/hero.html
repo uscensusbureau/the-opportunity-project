@@ -114,11 +114,19 @@
         </p>
       </div>
     </div>
+{% elsif page.class == "prize" %}
+  <section class="interior-hero bg-base-darkest">
+    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+      <h1 class="usa-hero__title text-center">{{ page.hero.text}}</h1>
+      <div class="grid-col-4 usa-hero__subtitle text-center">
+        {{ page.hero.subtext | markdownify }}
+      </div>
+    </div>
 {% else %}
   <section class="interior-hero bg-base-darkest">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
       <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
-      <div class="grid-col-4 usa-hero__subtitle text-center">
+      <div class="grid-col-6 tablet:grid-col-4 usa-hero__subtitle text-center">
         {{ page.hero.subtext | markdownify }}
       </div>
     </div>

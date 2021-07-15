@@ -151,7 +151,7 @@ Submissions are open from September 12, 2021 – October 15, 2021
   {% include two-column-markdown.html content=page.judging %}
 
   <div class="grid-section margin-bottom-6">
-    <h3 class="margin-bottom-0 section-header">{{ page.winners.title }}</h3>
+    <h3 class="margin-bottom-0 section-header section-header--light">{{ page.winners.title }}</h3>
     {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
     {% for winner in winners %}
       {% include prize-winner-product.html content=winner %}

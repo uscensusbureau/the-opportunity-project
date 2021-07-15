@@ -32,7 +32,7 @@
       </div>
     </div>
 {% elsif page.class == "about" or page.class == "datakit" %}
-<section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
+<section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
     <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
       <h1
@@ -46,7 +46,7 @@
     </div>
   </div>
 {% elsif page.class == "sprints" %}
-  <section class="interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
+  <section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
     <div class="grid-container maxw-none">
       <div class="maxw-mobile-lg padding-left-2 tablet:grid-offset-2 tablet:padding-left-0">
         <h1 class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white">
@@ -59,7 +59,7 @@
       </div>
     </div>
 {% elsif page.class == "our-process" %}
-<section class="page-process interior-hero bg-base-darkest desktop:padding-bottom-9 padding-bottom-5">
+<section class="page-process interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
     <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
       <h1
@@ -73,7 +73,7 @@
     </div>
   </div>
 {% elsif page.class == "case-study" %}
-  <section class="interior-hero bg-base-darkest">
+  <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-3">
       <div class="inline-number margin-bottom-0">
         {% include flag-and-star.html utils="display-inline-block" %}
@@ -83,7 +83,7 @@
       <p class="font-mono-xs text-ls-2 text-white margin-top-0 opacity-70"> {{ page.hero.tech_team | upcase }}</p>
     </div>
 {% elsif page.class == "sprints" or page.class == "get-involved" %}
-  <section class="interior-hero bg-base-darkest">
+  <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-1">
       <h1 class="usa-hero__title margin-bottom-1 padding-top-0">{{ page.hero.text}}</h1>
       <div class="grid-col-8">
@@ -91,7 +91,7 @@
       </div>
     </div>
 {% elsif page.class == "data"%}
-  <section class="interior-hero bg-base-darkest padding-bottom-15">
+  <section class="interior-hero bg-base-darkest usa-dark-background padding-bottom-15">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-15">
       <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
       <div class="grid-col-4">
@@ -99,7 +99,7 @@
       </div>
     </div>
 {% elsif page.class == "covid" %}
-  <section class="interior-hero bg-base-darkest">
+  <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-6">
       <h1 class="usa-hero__title">{{ page.title }}</h1>
       <div class="grid-col-6">
@@ -115,7 +115,7 @@
       </div>
     </div>
 {% elsif page.class == "prize" %}
-  <section class="interior-hero bg-base-darkest">
+  <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
       <h1 class="usa-hero__title text-center">{{ page.hero.text}}</h1>
       <div class="grid-col-4 usa-hero__subtitle text-center">
@@ -123,7 +123,7 @@
       </div>
     </div>
 {% else %}
-  <section class="interior-hero bg-base-darkest">
+  <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
       <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
       <div class="grid-col-6 tablet:grid-col-4 usa-hero__subtitle text-center">

@@ -4742,13 +4742,19 @@ body {
 }
 
 h2.section-header, h3.section-header {
-  // @include u-color('base-darkest');
+  @include u-color('base-darkest');
   @include u-margin-bottom(1);
   @include u-padding-bottom(1);
   @include u-line-height('sans', 3);
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
   font-size: $site-h2-size;
+}
+
+.usa-section--dark, .usa-dark-background {
+  h2.section-header, h3.section-header {
+    @include u-color('white')
+  }
 }
 
 .secondary-header {

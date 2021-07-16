@@ -79,7 +79,7 @@ judging:
 judge-photo: 
   src: prize/02_Judges_prize-winner.jpg
   alt: a man and woman handing a $20k check from The Opportunity Project to a woman on a stage
-  caption: '2019 Prize Challenge Winner, Social Science Research Council, pictured with Ron Jarmin, Acting Director of the U.S. Census Bureau'
+  caption: '2019 Prize Challenge Winner Kristen Lewis of the Social Science Research Council receives a check from Ron Jarmin, Acting Director of the U.S. Census Bureau, and Suzette Kent, former Federal CIO'
 
 past-title: Past Prize Challenge
 
@@ -122,7 +122,7 @@ We're looking for tools that fit into one of these categories:
 2. Attend an informational session (optional)
 3. Submit your application by the deadline via email and a short submission form
 
-Submissions are open from September 12, 2021 – October 15, 2021
+Submissions are open from September 12, 2021 – October 18, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
 <!-- Before you submit your application, please review the submission checklist.

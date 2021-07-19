@@ -6,11 +6,35 @@
 {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
 {% assign problem_statement = problem_statements[ 0 ] %}
 
-
+{% assign teams=site.data.organizations | where: 'airtable_id', product.tech_team[0] %}
+{% assign team = teams[ 0 ] %}
 
 <div class="prize-winner-product">
   <div class="grid-row">
-    
+
+  {% comment %}
+    <div class="tablet:grid-col-6">
+      {% assign src = "photos/products/" | append: product.image %}
+      {% include image.html src = src alt = product.image-alt %}
+    </div>
+    <div class="tablet:grid-col-6">
+      <h4>
+        <a href="{{ product.link }}">
+          {{ product.title }}
+        </a>
+      </h4>
+
+      <p>
+        Built by {{ team['Company Name'] }} in the {{ sprint.Name }}
+      </p>
+      <p>
+        Challenge: {{ problem_statement['Full Title'] }}
+      </p>
+      <p> Awarded $20K</p>
+      <p>{{ product.description }}</p>
+    </div>
+  {% endcomment %}
+
     <div class="tablet:grid-col-3">
       {% include cards/problem-statement-prod-card.html content=product %}
     </div>

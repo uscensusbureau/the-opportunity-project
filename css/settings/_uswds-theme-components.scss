@@ -71,3 +71,48 @@ $theme-search-min-width:              27ch;
 // Sidenav
 $theme-sidenav-current-border-width:  0.5;
 $theme-sidenav-font-family:           'ui';
+
+/*****************
+ * Process list
+ *****************/
+// $theme-process-list-counter-background-color: 'primary-light';
+$theme-process-list-counter-border-width: 2px;
+
+//  $theme-process-list-counter-font-family 
+// Font family of the counter text.
+
+//  $theme-process-list-counter-font-size 
+// Font size of the counter text.
+
+// $theme-process-list-counter-gap-color: 'secondary';
+// Color of gap between counter and connector. This should the the same as the background color behind the component.
+
+$theme-process-list-counter-gap-width: 0;
+// Size of gap between counter and connector.
+
+//  $theme-process-list-counter-size 
+// Size of the counter circle.
+
+//  $theme-process-list-counter-text-color 
+// Color of the number text inside the counter circle.
+
+$theme-process-list-connector-color: 'black';
+// Color of the connector line between counter circles.
+
+$theme-process-list-connector-width: 2px;
+// Width of the connector line between counter circles.
+
+//  $theme-process-list-font-family 
+// Font family of the content text.
+
+//  $theme-process-list-font-size 
+// Font size of the content text.
+
+//  $theme-process-list-heading-color 
+// Color of the heading text.
+
+//  $theme-process-list-heading-font-family 
+// Font family of the heading text.
+
+//  $theme-process-list-heading-font-size 
+// Font size of the heading text.

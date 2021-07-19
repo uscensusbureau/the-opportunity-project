@@ -2,22 +2,53 @@
 title: Prize Challenge
 permalink: /prize-challenge/
 layout: default
+class: prize
+
+challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
+submission-checklist: xyz
 
 hero:
-  text: Prize Challenge
-  subtext: Win funding to scale your solution and deliver impact
+  text: Win Funding to Scale Your Technology
+  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding at least $100,000 to teams using The Opportunity Project process.'
 
 banner-subheader:
   top:
     background: base-darkest
     line: '-light'
 
-callout:
-  text: Learn About Our Upcoming Prize Challenge
-  markdownSrc: prize-callout.md
+event-announcement:
+  title:
+    - Open Data
+    - For Good
+    - Grand Challenge
+  cta: NOW LIVE
+  img: 
+    - prize/top-grand-challenge-background-01.jpg  
+
+timeline:
+  - text: Prize Opens on Challenge.gov
+    subtitle:  July 1st, 2021
+    items:
+      # - text: Info Session, July 14th
+      #   href: http://bit.ly/ODFGGCWebinar1
+      # - text: Q+A Session, July 24th
+      #   href: http://bit.ly/ODFGGCWebinar1
+  - text: Prize Submission Opens
+    subtitle: September 13th, 2021
+    items:
+    # - text: Application Review, July 14th
+      # href: http://bit.ly/ODFGGCWebinar1
+  - text: Prize Submission Deadline
+    subtitle: October 18th, 2021
+  - text: Judging Process
+    subtitle: November
+  - text: Winners Announced
+    subtitle: December - January
+
 
 about:
-  title: How the Prize Challenge Began
+  title: How It All Started
+  heading-level: 3
   left-col-width: '4'
   left-col-offset: 1
   right-col-width: '5'
@@ -32,71 +63,101 @@ about:
 
 graphs:
   - title: User Friendly
-    percent: 33
-    color: base-dark
   - title: Civic Impact
-    percent: 85
-    color: '#fed585'
   - title: Creativity
-    percent: 50
-    color: primary-light
 
 judging:
   title: Judged by Experts
+  heading-level: 3
   grid-gap-lg: true
   skip-top-border: true
   skip-bottom-border: true
-  left-col: prize-challenge/judges-photo.md
-  right-col: prize-challenge/graphs-with-text.md
+  left-col: prize-challenge/graphs-with-text.md
+  right: 
+    - body: Products in our first competition were scored for their creativity, user-friendliness, and potential for civic impact by panels of product, data, and policy specialists from private industry and government.
 
+judge-photo: 
+  src: prize/02_Judges_prize-winner.jpg
+  alt: a man and woman handing a $20k check from The Opportunity Project to a woman on a stage
+  caption: '2019 Prize Challenge Winner Kristen Lewis of the Social Science Research Council'
+  # receives a check from Ron Jarmin, Acting Director of the U.S. Census Bureau, and Suzette Kent, former Federal CIO
+
+past-title: Past Prize Challenge
 
 winners:
   title: Past Winners
-  subtext: $100k awarded in The Opportunity Project’s inaugural Prize Challenge. See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.
+  # subtext: '$100k awarded in The Opportunity Project’s inaugural Prize Challenge.<br/> 
+  # See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.'
 
 ---
 
 {% include hero.html %}
-{% include text-callout-centered.html content=page.callout %}
+{% include event-announcement.html data=page.event-announcement%}
 
 {::options parse_block_html="true" /}
-<section class="grid-section margin-top-0 margin-bottom-15 padding-y-3 width-full maxw-full split-background-primary margin-x-0">
-  <div class="usa-media-block__body-outlined--secondary secondary-callout">
-## Upcoming Webinars
+<section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
+  <div class="maxw-tablet margin-x-auto">
+
+### What is It?
 {: .section-header }
 
-The Opportunity Project team will be hosting a series of informational webinars for individuals and teams interested in applying to the Open Data for Good Grand Challenge. Learn more about the prize and how to prepare your submission.
+The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for teams who have created high-impact digital tools that solve problems for the public.
 
-### Overview and Q&A
-July 14th 2:00 - 3:00 PM ET
-{: .margin-bottom-05 }
+Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
 
-[RSVP](http://bit.ly/ODFGGCWebinar1){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
+[View the rules]({{ page.challenge-gov }}){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
 {: .margin-top-0 }
 
-### Overview and Submission Feedback
+### What Can You Win?
+{: .section-header .margin-top-6 }
 
-July 28th 2:00 - 3:00 PM ET
+Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
+We're looking for tools that fit into one of these categories:
+- Climate, Reslience and the Natural Environment
+- Society, Economy, and the Built Environment
+- Health and COVID-19
 
-August 11th 2:00 - 3:00 PM ET
+### What Do You Have To Do?
+{: .section-header .margin-top-6 }
+1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 18th, 2021
+2. Attend an informational session (optional)
+3. Submit your application by the deadline via email and a short submission form
 
-September 1st 2:00 - 3:00 PM ET
+Submissions are open from September 12, 2021 – October 18, 2021
+{: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
+
+<!-- Before you submit your application, please review the submission checklist.
+[Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 } -->
+
+### Timeline
+{: .margin-top-6 .margin-bottom-0 }
+{% include process-list.html data=page.timeline %}
+
+{::options parse_block_html="false" /}
+<figure>
+  {% include image.html src=page.judge-photo.src alt=page.judge-photo.alt class="border-1px" %}
+ <!-- <figcaption>{{ page.judge-photo.caption }}</figcaption> -->
+</figure>
+
   </div>
 </section>
-{::options parse_block_html="false" /}
 
+<section class="usa-section usa-section--dark bg-base-darkest border-bottom-1px">
 
-{% include two-column-markdown.html content=page.about %}
-{% include two-column-markdown.html content=page.judging %}
+  <h2 class="text-center">
+    {{ page.past-title }}
+  </h2>
 
-<div class="text-center margin-bottom-6">
-  <h2 class="text-base-darkest margin-bottom-0">{{ page.winners.title }}</h2>
-  <div class="maxw-tablet margin-x-auto">
-    {{ page.winners.subtext | markdownify }}
+  {% include two-column-markdown.html content=page.about %}
+  {% include two-column-markdown.html content=page.judging %}
+
+  <div class="grid-section margin-bottom-6">
+    <h3 class="margin-bottom-0 section-header section-header--light">{{ page.winners.title }}</h3>
+    {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
+    {% for winner in winners %}
+      {% include prize-winner-product.html content=winner %}
+    {% endfor %}
   </div>
-</div>
 
-{% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
-{% for winner in winners %}
-  {% include prize-winner-product.html content=winner %}
-{% endfor %}
+  
+</section>

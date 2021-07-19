@@ -2,30 +2,30 @@
   image: /assets/img/data-kits/workforce.png
   short_url: workforce
   link: data/workforce
+  data: workforce
   description: Data on workers, businesses, jobs, credentials, and more <br><br>
   upcoming: false
-  datasets: 57
 
 - title: Natural Environment
   image: /assets/img/photos/sprints/2020-natural-sprint.jpg
   short_url: natural-environment
   link: data/natural-environment
+  data: earth-sprint
   description: Pollution, agriculture, transportation emissions, and recycling <br><br>
   upcoming: false
-  datasets: 75
 
 - title: Built Environment
   image: /assets/img/data-kits/gis.png
   short_url: built-environment
   link: data/built-environment
+  data: built-sprint
   description: Economic self-sufficiency, refugees, development, and disaster spending.
   upcoming: false
-  datasets: 60
 
 - title: COVID-19
   image: /assets/img/data-kits/covid.jpg
   short_url: covid-19
   link: data/covid-19
+  data: covid
   description: Datasets selected as part of the The American Statistical Association Annual Data Challenge Expo which will continue to be updated.
   upcoming: false
-  datasets: 15

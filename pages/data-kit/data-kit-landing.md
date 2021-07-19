@@ -55,7 +55,8 @@ cards:
           {% else %}
           <div class="data-kit__stats">
             <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt="Icon for number of datasets"/>
-            <p>{{kit.datasets}}</p>
+            {% assign data = site.data[kit.data] | where_exp: "item", "item.link != empty" %}
+            <p>{{ data | size }}</p>
           </div>
           {% endif %}
         </div>

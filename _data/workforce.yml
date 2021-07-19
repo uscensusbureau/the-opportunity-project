@@ -1,4 +1,3 @@
----
 -
     name: Census Business Builder
     description: Selected demographic and economic data targeted for regional analysis and small business owners. Includes building permits data that is not in the Census API yet.
@@ -176,14 +175,6 @@
 #     email: ipedstools@rti.org
 #     problem-statement: talent
 -
-    name: Regional Innovation Strategies Program
-    description: Annual awards data since 2014 for The i6 Chllange and Seed Fund Support Competitions. The grants help to create and expand high-growth entrepreneurship and increase access to capital in regions across the country.
-    agency: Economic Development Administration
-    link: https://www.eda.gov/oie/ris/i6/
-    poc: Emily Miller
-    email: emiller@eda.gov
-    problem-statement: talent
--
     name: Stats America
     description: This tool allows you to view and download individual data items for any state, metro, micro, district or county in the nation.
     agency: Economic Development Administration & Indiana University
@@ -312,7 +303,7 @@
     email:
     problem-statement: entrepreneurship
 -
-    name: TechLink DoD and VA Inventions
+    name: 'TechLink: DoD and VA Inventions'
     description: Over 5,000 DoD and VA inventions available in virtually all technology fields, searchable by keyword.
     agency:
     link: https://techlinkcenter.org/technologies-all/
@@ -353,7 +344,7 @@
 #     problem-statement: pathways
 -
     name: CareerOneStop
-    description: "Offers a wide range of career, employment, and education data as Web API Services.\n"
+    description: Offers a wide range of career, employment, and education data as Web API Services.
     agency: U.S. Department of Labor
     link: https://www.careeronestop.org/Developers/WebAPI/web-api.aspx
     poc: Mike DeMale

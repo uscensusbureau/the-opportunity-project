@@ -123,7 +123,7 @@ We're looking for tools that fit into one of these categories:
 2. Attend an informational session (optional)
 3. Submit your application by the deadline via email and a short submission form
 
-Submissions are open from September 12, 2021 – October 18, 2021
+Submissions are open from September 13, 2021 – October 18, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
 <!-- Before you submit your application, please review the submission checklist.

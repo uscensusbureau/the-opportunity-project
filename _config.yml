@@ -63,6 +63,16 @@ defaults:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-datapage-generator
+
+page_gen:
+  - 
+    data: workforce
+    template: dch/dataset
+    dir: data
+    name: name
+
+
 
 exclude:
   - ".ruby-version"

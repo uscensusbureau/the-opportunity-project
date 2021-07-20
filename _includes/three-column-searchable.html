@@ -80,7 +80,11 @@
           <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
             <div class="usa-card__container datasets__card bg-primary-darker">
               {% if item.link %}
+                {% if page.dataset == "workforce" %}
                 <a href="{{ site.baseurl }}/{{ item.name | datapage_url: 'data' }}" class="data-card-link" aria-label="{{ item.name }}">
+                {% else %}
+                <a href="{{ item.link }}" target="_blank" class="data-card-link" aria-label="{{ item.name }}">
+                {% endif %}
                   <img class="external-link" src="{{site.baseurl}}/assets/img/icons/yellow-external-link.png" alt="External link"/>
                   <header class="usa-card__header">
                     <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>

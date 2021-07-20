@@ -30,6 +30,19 @@ describe('Sprints test', () => {
     }
   })
 
+  it.only('contains agency text', () => {
+    for(let i = 0; i < sprints.length; i++) {
+      const url = sprints[i].url
+      cy.visit(base + url)      
+      
+      cy.get('.ps-agency p').each($el => {
+        cy.wrap($el).invoke('text').then( text => {
+          expect(text.length).to.be.gt(0)
+        })
+      })
+    }
+  })
+
   it('recent sprints have correct number of problem statements', () => {
     for(let i = 0; i < sprints.length - 1; i++) {
       const url = sprints[i].url

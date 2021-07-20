@@ -3,6 +3,7 @@ describe('Sprints test', () => {
   const sprints = [
     { url: '', numPS: 7, isCurrent: true },
     { url: 'post-covid', numPS: 7, isCurrent: true },
+    { url: '2020-census-data', numPS: 3, isCurrent: true },
     { url: 'natural-environment', numPS: 4 },
     { url: 'built-environment', numPS: 4 },
     { url: 'geo-cohort', numPS: 4 },
@@ -19,7 +20,7 @@ describe('Sprints test', () => {
     }
   })
 
-  it('highlights the subnav', () => {
+  it.only('highlights the subnav', () => {
     for(let i = 0; i < sprints.length; i++) {
       const url = sprints[i].url
       cy.visit(base + url)      

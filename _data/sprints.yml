@@ -499,6 +499,23 @@
   img: landing/Sprint-Background_03_Census.jpg
   order-number: 3
   short-tag: 20cen
+- Name: 2020 Census Data
+  Problem Statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  Year: 2021
+  airtable_createdTime: '2021-07-20T20:39:12.000Z'
+  airtable_id: recAocia3ypyTShB1
+  description: This fall, a 10-week sprint will bring together university-based artists,
+    designers, data scientists and technologists along with community leaders and
+    Census Bureau data experts to develop digital and physical art and technology.
+    The resulting designs and products will visualize 2020 Census Decennial data in
+    new and creative ways, engaging a broader set of stakeholders than ever before
+    in visualizing and experiencing the data.  The sprint will culminate in a showcase
+    that presents and celebrates the projects to lift up, amplify, and share the work
+    nationwide.
+  short-tag: 2020-data
 - Name: TOPx COVID-19
   Problem Statements:
   - recFyf3r3yQQEHbx7

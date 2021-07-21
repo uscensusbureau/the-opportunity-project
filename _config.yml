@@ -65,9 +65,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-datapage-generator
 
+page_gen-dirs: true  
 page_gen:
   - 
-    data: workforce
+    data: datasets
     template: dch/dataset
     dir: data
     name: name

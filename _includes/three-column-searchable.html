@@ -66,74 +66,99 @@
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container">
     <ul class="usa-card-group">
-      {% if page.dataset == "earth-sprint" %}
-        {% assign display-dataset = site.data.earth-sprint %}
-      {% elsif page.dataset == "built-sprint" %}
-        {% assign display-dataset = site.data.built-sprint %}
-      {% elsif page.dataset == "covid" %}
-        {% assign display-dataset = site.data.covid %}
-      {% else %}
-        {% assign display-dataset = site.data.workforce %}
-      {% endif %}
+      {% assign allDatasets = site.data.datasets %}
+      {% assign matchingSprint = site.data.sprints | where: "Name", page.sprint-name | first %}
+      {% assign display-dataset = allDatasets | where_exp: "dataset", 
+        "dataset.sprint contains matchingSprint.airtable_id" %}
+      
+      {% comment %}
+        {% if page.dataset == "earth-sprint" %}
+          {% assign display-dataset = allDatasets | where_exp: "dataset", 
+          "dataset.sprint contains matchingSprint.airtable_id" %}
+        {% elsif page.dataset == "built-sprint" %}
+          {% assign display-dataset = site.data.built-sprint %}
+        {% elsif page.dataset == "covid" %}
+          {% assign display-dataset = site.data.covid %}
+        {% else %}
+          {% assign display-dataset = site.data.workforce %}
+        {% endif %}
+      {% endcomment %}
 
-        {% for item in display-dataset %}
-          <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
-            <div class="usa-card__container datasets__card bg-primary-darker">
-              {% if item.link %}
-                {% if page.dataset == "workforce" %}
-                <a href="{{ site.baseurl }}/{{ item.name | datapage_url: 'data' }}" class="data-card-link" aria-label="{{ item.name }}">
-                {% else %}
-                <a href="{{ item.link }}" target="_blank" class="data-card-link" aria-label="{{ item.name }}">
-                {% endif %}
-                  <img class="external-link" src="{{site.baseurl}}/assets/img/icons/yellow-external-link.png" alt="External link"/>
-                  <header class="usa-card__header">
-                    <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
-                    <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
-                    <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
-                  </header>
-                  <div class="usa-card__body padding-bottom-9">
-                    <p class="font-sans-xs text-white">{{ item.description}}</p>
-                  </div>
-                  <div class="usa-card__footer position-absolute bottom-0 right-0">
-                    {% if item.email %}
-                      <div class="usa-card__container email bg-white width-15 contact-card float-right padding-right-neg-3">
-                        <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
-                          <a href="mailto:{{ item.email }}?subject=Regarding The Opportunity Project Dataset: {{item.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
-                            <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
-                          </a>
-                        </div>
-                      </div>
-                    {% endif %}
-                  </div>
-                </a>
-              {% else %}
-                <header class="usa-card__header">
-                  <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
-                  <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
-                  <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
-                </header>
-                <div class="usa-card__body padding-bottom-9">
-                  <p class="font-sans-xs text-white">{{ item.description}}</p>
-                  <p>There are mutiple links associated with this data set. Please refer to the list below: </p>
-                  {% for link in item.listed-link %}
-                    <a class="font-sans-xs text-white listed-link" href="{{ link.href }}">{{ link.text }}<img src="{{ site.baseurl }}/assets/img/icons/external-link-white-sm.png" class="padding-left-05" alt="external link icon"></a><br>
-                  {% endfor %}
+    {% for item in display-dataset %}
+      {% if item.link %}
+      <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
+        <div class="usa-card__container datasets__card bg-primary-darker">
+          
+          <!-- <img class="external-link" src="{{site.baseurl}}/assets/img/icons/yellow-external-link.png" alt="External link"/> -->
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">
+              <a href="{{ site.baseurl }}/{{ item.name | datapage_url: 'data' }}" class="data-card-link" aria-label="{{ item.name }}">                
+                {{ item.name }}
+              </a>
+            </h2>
+            <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
+            <p class="font-mono-xs text-white">by {{ item.organization_text | upcase }}</p>
+          </header>
+          <div class="usa-card__body padding-bottom-9">
+            <p class="font-sans-xs text-white">{{ item.description}}</p>
+            {% if item.hasMultipleLinks %}
+              <p>There are mutiple links associated with this data set. Please refer to the list below: </p>
+              {% assign listed-links = item.link | split: "- " | slice: 1, 100 %}
+              <ul>
+              {% for listed-link in listed-links %}
+                <li>
+                  {{ listed-link | markdownify }}
+                </li>
+              {% endfor %}
+              </ul>
+                <!-- <a class="font-sans-xs text-white listed-link" href="{{ link.href }}">{{ link.text }}<img src="{{ site.baseurl }}/assets/img/icons/external-link-white-sm.png" class="padding-left-05" alt="external link icon"></a><br> -->
+
+            {% endif %}
+          </div>
+          <div class="usa-card__footer position-absolute bottom-0 right-0">
+            {% for steward_id in item.data_stewards %}
+              {% assign steward = site.data.people | where: "airtable_id", steward_id | first %}
+              <div class="usa-card__container email bg-white width-15 contact-card float-right padding-right-neg-3">
+                <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
+                  <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                    <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
+                  </a>
                 </div>
-                <div class="usa-card__footer position-absolute bottom-0 right-0">
-                  {% if item.email %}
-                    <div class="usa-card__container email bg-white width-15 contact-card float-right padding-right-neg-3">
-                      <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
-                        <a href="mailto:{{ item.email }}?subject=Regarding The Opportunity Project Dataset: {{item.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
-                          <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
-                        </a>
-                      </div>
-                    </div>
-                  {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+      {% endif %}
+      {% comment %}
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">{{ item.name }}</h2>
+              <h3 class="pc-inactive">{{ item.problem-statement }}</h3>
+              <p class="font-mono-xs text-white">by {{ item.agency | upcase }}</p>
+            </header>
+            <div class="usa-card__body padding-bottom-9">
+              <p class="font-sans-xs text-white">{{ item.description}}</p>
+              <p>There are mutiple links associated with this data set. Please refer to the list below: </p>
+              {% for link in item.listed-link %}
+                <a class="font-sans-xs text-white listed-link" href="{{ link.href }}">{{ link.text }}<img src="{{ site.baseurl }}/assets/img/icons/external-link-white-sm.png" class="padding-left-05" alt="external link icon"></a><br>
+              {% endfor %}
+            </div>
+            <div class="usa-card__footer position-absolute bottom-0 right-0">
+              {% if item.email %}
+                <div class="usa-card__container email bg-white width-15 contact-card float-right padding-right-neg-3">
+                  <div class="usa-card__body padding-0 display-flex flex-column flex-align-center">
+                    <a href="mailto:{{ item.email }}?subject=Regarding The Opportunity Project Dataset: {{item.name}}" class="font-sans-xs text-decoration-none text-black padding-05">Contact
+                      <img src="{{ site.baseurl }}/assets/img/icons/email.svg" class="padding-left-05" alt="email">
+                    </a>
+                  </div>
                 </div>
               {% endif %}
             </div>
-          </li>
-        {% endfor %}
+          {% endif %}
+        </div>
+      </li>
+      {% endcomment %}
+    {% endfor %}
     </ul>
     {% if page.dataset == "covid" %}
       <h3 class="font-sans-m text-white">Below are additional points of contacts for Census data in the following topics:</h3>

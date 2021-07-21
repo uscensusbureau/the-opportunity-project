@@ -4,6 +4,7 @@ permalink: /data/natural-environment/
 layout: default
 
 dataset: earth-sprint
+sprint-name: 'Natural Environment'
 class: datakit
 
 lead:

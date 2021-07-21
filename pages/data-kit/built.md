@@ -3,7 +3,7 @@ title: Built Environment
 permalink: /data/built-environment/
 layout: default
 
-dataset: built-sprint
+sprint-name: Built Environment
 class: datakit
 
 lead:

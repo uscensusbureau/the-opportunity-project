@@ -45,7 +45,6 @@ timeline:
   - text: Winners Announced
     subtitle: December - January
 
-
 about:
   title: How It All Started
   heading-level: 3

@@ -5,7 +5,7 @@ layout: default
 class: covid
 dataset: covid
 
-sprint-name: TOPx COVID-19
+sprint-name: ASA Data Challenge Expo
 
 lead:
   - p: The Opportunity Project curated these data sets mainly from the Census Bureau as part of the

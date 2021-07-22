@@ -73,6 +73,11 @@
   name: City of Nashua
   sprints:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-22T16:08:41.000Z'
+  airtable_id: rec1f9YjZtzLVwot1
+  name: American Statistical Association
+  problem statements:
+  - recquGRxIztb7VrBj
 - airtable_createdTime: '2020-02-05T23:08:07.000Z'
   airtable_id: rec1luEZdjkSLMbWo
   members:
@@ -552,6 +557,7 @@
   - recrhEu7bAwQeTEck
   - recdkBaZ8qiY98UM4
   - reccHr0aPWZzFbgi8
+  - recquGRxIztb7VrBj
 - airtable_createdTime: '2020-02-07T17:49:16.000Z'
   airtable_id: rec9eEFUpZ0UAukMG
   members:

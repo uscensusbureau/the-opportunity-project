@@ -1179,13 +1179,6 @@ main {
     h2 {
       padding-right: 2rem;
     }
-    a {
-      text-decoration: none;
-      color: color("white");
-      &#{$external-href}::after {
-        display: none;
-      }
-    }
 
     .external-link {
       // display: none;
@@ -1202,13 +1195,13 @@ main {
       }
     }
 
-    &:hover {
-      transition: all 100ms ease;
-      border: 2px solid #F7C636;
-      .external-link {
-        opacity: 1;
-      }
-    }
+    // &:hover {
+    //   transition: all 100ms ease;
+    //   border: 2px solid #F7C636;
+    //   .external-link {
+    //     opacity: 1;
+    //   }
+    // }
   }
 
 
@@ -4712,7 +4705,7 @@ body {
 .usa-card__container {
   a {
     height: 100%;
-    text-decoration: none;
+    // text-decoration: none;
   }
   .card-header {
     @include u-radius($theme-card-border-radius);

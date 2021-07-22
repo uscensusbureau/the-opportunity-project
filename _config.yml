@@ -65,15 +65,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-datapage-generator
 
-page_gen-dirs: true  
-page_gen:
-  - 
-    data: datasets
-    template: dch/dataset
-    dir: data
-    name: name
-
-
+# Generate individual pages from data files: 
+# https://github.com/avillafiorita/jekyll-datapage_gen
+# page_gen-dirs: true  
+# page_gen:
+#   - 
+#     data: datasets
+#     template: dch/dataset
+#     dir: data
+#     name: name
 
 exclude:
   - ".ruby-version"

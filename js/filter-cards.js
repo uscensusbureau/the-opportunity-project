@@ -354,9 +354,13 @@ const closeModal = () => {
 $('.close').on('click', closeModal)
 
 $('.data-card-group').on('click', function (e) {
+  console.log('clicked')
   if (e.target) {
+    console.log('clicked')
     const closestCard = e.target.closest('li')
     if (closestCard) {
+      console.log(closestCard)
+
       for (const topicCard of document.getElementsByClassName('dkh__data-topic')) {
         topicCard.classList.remove('selected')
       }

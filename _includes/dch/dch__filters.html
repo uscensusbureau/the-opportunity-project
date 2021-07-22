@@ -1,0 +1,54 @@
+{% assign data-topics = include.data %}
+{% if data-topics.size > 1 %}
+<div>
+  <div class="grid-row grid-gap">
+    <ul class="usa-card-group data-card-group margin-top-7">
+      <li id="all" class="usa-card" name="productCard">
+        <div class="usa-card__container dkh__data-topic {% if forloop.first %}selected{% endif %}">
+          <header class="usa-card__header">
+            <p class="text-white font-sans-sm" value="all">All</p>
+          </header>
+        </div>
+      </li>
+      {% for data in data-topics %}
+        {% assign filter = data.Name | slugify %}
+        <li id="{{ filter }}" class="usa-card" name="productCard">
+          <div class="usa-card__container dkh__data-topic {% if forloop.first %}selected{% endif %}">
+            <header class="usa-card__header">
+              <p class="text-white font-sans-sm" value="{{ filter }}">{{ data.Name }}</p>
+            </header>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="grid-row grid-gap">
+    {% for data in data-topics %}
+      {% if data.Challenge %}
+        {% assign filter = data.Name | slugify %}
+        <div id="modal-{{ filter }}" class="data-modal modal-inactive">
+          <div class="grid-row">
+            <div class="desktop:grid-col-8 tablet:grid-col-8">
+              <div class="display-inline-block desktop:grid-col-4 tablet:grid-col-4">
+                <img
+                  src="{{ site.baseurl }}/assets/img/challenges/{{data.image}}"
+                  alt="{{data.image-alt}}"
+                />
+              </div>
+              <div class="display-inline-block float-right desktop:grid-col-8 tablet:grid-col-8 padding-bottom-5 padding-left-5">
+                {% if data.Name %}
+                  <p class="font-sans-md text-white">{{ data.Name }}</p>
+                {% endif %}
+                {% if data.Challenge %}
+                  <p class="font-mono-xs text-accent-warm">CHALLENGE</p>
+                  <p class="font-sans-2xs text-white">{{ data.Challenge}}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

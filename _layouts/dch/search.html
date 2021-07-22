@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 {% assign allDatasets = site.data.datasets %}
 {% assign matchingSprint = site.data.sprints | where: "Name", page.sprint-name | first %}
 {% assign display-dataset = allDatasets | where_exp: "dataset", 
@@ -8,6 +12,7 @@
   {% assign problem_statements = problem_statements | push: match %}
 {% endfor %}
 
+{% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
   <div class="grid-container">
     <div class="display-flex flex-column flex-align-center">

@@ -1,7 +1,7 @@
 ---
 title: Workforce
 permalink: /data/workforce/
-layout: default
+layout: dch/search
 class: datakit
 
 lead:
@@ -11,6 +11,3 @@ sprint-name: 'Workforce'
 
 
 ---
-{% include hero.html %}
-<!-- {% include single-column-centered-photo-with-overlay.html %} -->
-{% include three-column-searchable.html %}

@@ -1,7 +1,7 @@
 ---
 title: Natural Environment
 permalink: /data/natural-environment/
-layout: default
+layout: dch/search
 
 dataset: earth-sprint
 sprint-name: 'Natural Environment'
@@ -11,5 +11,3 @@ lead:
  - Datasets on plastic pollution in oceans, agricultural decision making, transportation emissions, and recycling.
 
 ---
-{% include hero.html %}
-{% include three-column-searchable.html %}

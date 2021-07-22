@@ -25,9 +25,25 @@ function testPSFilters (url) {
   })
 }
 
+describe('Content tests', () => {
+  it('shows organization for all cards', () => {
+    for (const url of pages) {
+      cy.visit(base + url)
+      cy.get('.data-set-card').each($card => {
+        cy.wrap($card)
+          .within($card => {
+            cy.get('.dataset__org').invoke('text').then( text => {
+              expect(text.length).to.be.gt(0)
+            })
+          })
+      })
+    }
+  })
+})
+
 describe('Filtering tests', () => {
 
-  it('only shows datasets from asscd PS after clicking PS filter', () => {
+  it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
   })
   it('filters by PS on workforce page', () => {
@@ -36,7 +52,7 @@ describe('Filtering tests', () => {
   it('filters by PS on built env page', () => {
     testPSFilters(pages[2])
   })
-  it('filters by PS on covid page', () => {
-    testPSFilters(pages[3])
-  })
+  // it('filters by PS on covid page', () => {
+  //   testPSFilters(pages[3])
+  // })
 })

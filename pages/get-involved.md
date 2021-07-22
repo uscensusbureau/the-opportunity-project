@@ -31,12 +31,12 @@ join:
   right-col: get-involved/in-the-loop-right.md
 
 callout:
-  text: Learn about the Prize Challenge
+  text: Win Funding to Scale Your Technology
   id: prize-challenge
-  body:
-    - p: The Opportunity Project is thrilled to announce the release of the Open Data for Good Grand Challenge 2021, which provides a vehicle for technologists and promising technology and community partnerships from 2020-2021 TOP Sprints to compete for monetary and in kind awards to deploy tools to end users, expand product reach, and continue to deliver impact on critical problems facing the public.
-    - p: The rules are now live! Please see all the details on [challenge.gov](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/).
-    - p: If your team participated in a TOP sprint or utilized the product development toolkit, you may be eligible to apply for the prize competition. Click here for more information on the first TOP Prize Challenge in 2019, and stay tuned for more updates on the 2020 Prize Challenge, which will open in fall 2020 through early 2021. 
+  markdownSrc: prize-callout.md
+    # - p: The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) is now live. The challenge will award at least $100,000 to teams who have created products using The Opportunity Project process.
+    # - p: To prepare your submission and view the application timeline, visit the [prize challenge page](/prize-challenge). The TOP Team is leading informational webinars throughout the summer and fall to help you get ready.
+    # - p: Submissions are open from September 13, 2021 – October 18, 2021.
 
 ---
 {% include hero.html %}

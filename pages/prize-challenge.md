@@ -29,14 +29,14 @@ timeline:
   - text: Prize Opens on Challenge.gov
     subtitle:  July 1st, 2021
     items:
-      # - text: Info Session, July 14th
+      - text: Info Session and Q&A – August 16, 3:30-4:30 pm ET
       #   href: http://bit.ly/ODFGGCWebinar1
-      # - text: Q+A Session, July 24th
+      - text: Data and Toolkits – September 9, 3:00-4:00 pm ET
       #   href: http://bit.ly/ODFGGCWebinar1
   - text: Prize Submission Opens
     subtitle: September 13th, 2021
     items:
-    # - text: Application Review, July 14th
+    - text: Final Info and Q&A – Oct 6, 5:00-6:00 pm ET
       # href: http://bit.ly/ODFGGCWebinar1
   - text: Prize Submission Deadline
     subtitle: October 18th, 2021
@@ -79,8 +79,7 @@ judging:
 judge-photo: 
   src: prize/02_Judges_prize-winner.jpg
   alt: a man and woman handing a $20k check from The Opportunity Project to a woman on a stage
-  caption: '2019 Prize Challenge Winner Kristen Lewis of the Social Science Research Council'
-  # receives a check from Ron Jarmin, Acting Director of the U.S. Census Bureau, and Suzette Kent, former Federal CIO
+  caption: '2019 Prize Challenge winner Kristen Lewis of Measure of America receives her prize from Ron Jarmin, Acting Director of the U.S. Census Bureau and Suzette Kent, Former Federal Chief Information Officer'
 
 past-title: Past Prize Challenge
 
@@ -136,7 +135,7 @@ Submissions are open from September 13, 2021 – October 18, 2021
 {::options parse_block_html="false" /}
 <figure>
   {% include image.html src=page.judge-photo.src alt=page.judge-photo.alt class="border-1px" %}
- <!-- <figcaption>{{ page.judge-photo.caption }}</figcaption> -->
+ <figcaption>{{ page.judge-photo.caption }}</figcaption>
 </figure>
 
   </div>

@@ -13,7 +13,6 @@ layout: default
       <p class="font-sans-md text-white">{{ page.lead }}</p>
     </div>
   </section>
-
   <div class="data-kit  desktop:margin-left-9">
     <div class="grid-row grid-gap-6">
       {% for kit in data-kits limit:4 %}
@@ -40,7 +39,9 @@ layout: default
           {% else %}
           <div class="data-kit__stats">
             <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt="Icon for number of datasets"/>
-            {% assign data = site.data[kit.data] | where_exp: "item", "item.link != empty" %}
+            {% assign sprint = site.data.sprints | where: "Name", kit.sprint | first %}
+            {% assign data = site.data.datasets | where: "sprint", sprint.airtable_id %}
+            {% assign data = data | where_exp: "item", "item.link != empty and item.link != nil" %}
             <p>{{ data | size }}</p>
           </div>
           {% endif %}

@@ -30,7 +30,7 @@ describe('Sprints test', () => {
     }
   })
 
-  it.only('contains agency text', () => {
+  it('contains agency text', () => {
     for(let i = 0; i < sprints.length; i++) {
       const url = sprints[i].url
       cy.visit(base + url)      

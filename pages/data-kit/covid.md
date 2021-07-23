@@ -3,7 +3,6 @@ title: COVID-19
 permalink: /data/covid-19/
 layout: dch/search
 class: covid
-dataset: covid
 
 sprint-name: ASA Data Challenge Expo
 

@@ -13,7 +13,6 @@
   - recxPVJVs1W4haKxp
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -25,9 +24,11 @@
     work with recently resettled refugees
   link: https://gist.githubusercontent.com/nicole-smith11/cf4d288ed69c42583c5013460a9ef294/raw/3e2e5c61d7816f086599d89ec800a801d9261c7e/U4U_CharityNavigator.csv
   name: Charity Navigator
+  organization_text: USA for United Nations High Commissioner for Refugees
+  organizations:
+  - reccYXaD7aLLyyBqy
   problem_statements:
   - recDnQq3aDp59z637
-  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-10T18:28:42.000Z'
@@ -43,8 +44,6 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - rec55VBughwHjCFWp
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -69,7 +68,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -92,9 +90,10 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
+  - recn0ONeaB72GbD8z
   sprint:
   - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-19T21:42:45.000Z'
   airtable_id: rec0l2fRhMLVZEFmy
   data_stewards:
@@ -107,7 +106,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-19T21:32:27.000Z'
@@ -125,7 +123,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -154,7 +151,6 @@
   - recJDN5DAPiSmi955
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -173,7 +169,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T18:07:17.000Z'
@@ -186,7 +181,6 @@
   - recjpBB18sFzmVNWl
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -203,7 +197,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T18:08:03.000Z'
@@ -223,7 +216,6 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-19T21:54:02.000Z'
@@ -239,7 +231,6 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -257,7 +248,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -273,7 +263,6 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -287,7 +276,6 @@
   - rech0xcl8a3PFLxhA
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:32:00.000Z'
@@ -297,11 +285,12 @@
     of the progress underway to cut waste, streamline government, and improve performance.
   link: https://www.performance.gov/
   name: Performance.gov
+  organization_text: Office of Management and Budget
+  organizations:
+  - rec9YorLrBEvA0vj4
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -335,7 +324,6 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -344,33 +332,12 @@
   products:
   - recB5iDMet16XnjXe
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: rec39evCnQKk78DXV
-  description: Map of recycling opportunities in the Southeast United States
-  link: https://www.serdc.org/maps
-  name: Recycling Demand Mapping in the Southeast
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: rec3FbmW345DmkGhj
   description: Complete directory of materials that Association of Plastic Recyclers
     (ARP) Members purchase and sell, as well as services (grinding, densifying, washing,
     pelletizing, compounding and solid stating) provided by APR members
   link: https://plasticsrecycling.org/resources/buyers-and-sellers-list
   name: Buyers and Sellers Information
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: rec3arjeQqoEe1JvI
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Annual data on employer businesses (e.g., no. of businesses, employment,
-    payroll) at the state, county, metro area, and ZIP Code levels by industry
-  link: https://www.census.gov/programs-surveys/cbp.html
-  name: County Business Patterns
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
-  sprint:
-  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: rec3c9q52tmDJHfpt
   data_stewards:
@@ -396,16 +363,8 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recqL51kCcBL6go3m
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: rec3owoQb6QMtVKWl
-  description: Comprehensive and detailed estimate of air emissions of criteria pollutants,
-    criteria precursors, and hazardous air pollutants from air emissions sources collected
-    by State, Local, and Tribal air agencies and blended with other data sources
-  link: https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei
-  name: National Emissions Inventory (NEI)
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: rec4BUUNSGAm5OC3O
   name: The Quarterly Census of Employment and Wages (QCEW)
@@ -415,22 +374,6 @@
     on the North American aluminum industry
   link: https://www.aluminum.org/statistics
   name: Aluminum Association Industry Statistics
-- airtable_createdTime: '2021-07-19T21:49:31.000Z'
-  airtable_id: rec4TFpHAFgQmZgNS
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Many economic indicators with data as recent as the current month,
-    and time series data available for multiple decades.
-  link: https://www.census.gov/economic-indicators/
-  name: Monthly Industry Indicators
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
-  sprint:
-  - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec4THtncLwQX0nsV
   data_stewards:
@@ -444,9 +387,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
+  - recfwUvvptMpf0PLj
   sprint:
   - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec4haQmtERVpiWlW
   name: Department of Health and Human Services; City of Philadelphia; Office of Management
@@ -462,9 +406,11 @@
     refugees, communities, and people across the country
   link: https://www.helloneighbor.io/database
   name: Hello Neighbor
+  organization_text: Hello Neighbor
+  organizations:
+  - reca1uqBuCaLkRdOl
   problem_statements:
   - recDnQq3aDp59z637
-  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -508,7 +454,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recDkOPeR5RLFwe2e
-  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-07-19T21:34:17.000Z'
@@ -523,7 +468,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -542,7 +486,6 @@
   - rec4gJ7REeyALBnSA
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -568,7 +511,6 @@
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
   - rec6yDEfMyReqsMcl
-  ps_text: Opportunity Zones, Multiple Pathways, Entrepreneurship, Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -592,7 +534,6 @@
   - recxIMtV2v2veuzJV
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -611,7 +552,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -645,7 +585,6 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -666,7 +605,6 @@
   name: Job postings
   problem_statements:
   - recLROAotmnLsG3Bw
-  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-19T21:38:16.000Z'
@@ -685,12 +623,13 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
+  - recD4rN8c5sH3ECRi
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec6iuu5ywONvQu9G
   name: Census Bureau Response Rate
@@ -710,7 +649,6 @@
   - recO4B94nbnjnpzgn
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-10T17:28:35.000Z'
@@ -733,7 +671,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -763,7 +700,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
-  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -785,16 +721,8 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
-- airtable_createdTime: '2021-07-20T15:43:37.000Z'
-  airtable_id: rec7Vc9Xuy6FEIk5D
-  description: Annual data on national waste generation and recycling rates for the
-    overall municipal solid waste stream and for a number of specific materials. Most
-    recent year is 2017
-  link: https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling
-  name: Facts and Figures about Materials, Waste and Recycling
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec7bnuqwVugVXeUw
   data_stewards:
@@ -812,7 +740,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:06:22.000Z'
@@ -831,7 +758,6 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -848,7 +774,6 @@
   - recO4B94nbnjnpzgn
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -862,22 +787,6 @@
   name: Charity Navigator
   products:
   - rec1WFJn1OGTTGrZi
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: rec8YamsLHQDzf5QO
-  data_stewards:
-  - recr2SlmaqEdhBrGM
-  description: Includes data on energy infrastructure including power lines, power
-    plants, coal mines, etc.
-  link: https://www.eia.gov/state/maps.php?src=home-f3
-  name: Location of Energy Infrastructure
-  organization_text: U.S. Department of Energy
-  organizations:
-  - recepxMBIQcZROaVw
-  problem_statements:
-  - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
-  sprint:
-  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-10T18:07:33.000Z'
   airtable_id: rec8bjZCUKxRdCq88
   description: A nationwide public health surveillance system that will improve emergency
@@ -889,16 +798,8 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: rec8quzztPE3s7MQk
-  description: links to state and local waste characterization studies, including
-    information on municipal solid waste (MSW) generation, recycling, combustion with
-    energy recovery and landfilling
-  link: https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/advancing-sustainable-materials-management-0#USState
-  name: U.S. State and Local Waste and Materials Characterization Reports
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9CVvWU2Jbx29XH
   description: Annual and monthly reports with statistics and business information
@@ -910,7 +811,6 @@
   - recx2kGBvRULDVbFA
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T17:28:23.000Z'
@@ -918,7 +818,6 @@
   name: Registered Apprenticeship Listings
   problem_statements:
   - recLROAotmnLsG3Bw
-  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -939,7 +838,6 @@
   - recBBbVkCKQN52rWM
   problem_statements:
   - rec4jiLMOGoECbVXB
-  ps_text: Helping States Develop Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -953,7 +851,6 @@
   - recExbMGHZqIoJUTs
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -967,7 +864,6 @@
   - recb7pZpE7hcBOJUf
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T20:22:02.000Z'
@@ -983,7 +879,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
-  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -1009,7 +904,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1042,7 +936,6 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -1059,7 +952,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1079,7 +971,6 @@
   name: Federal Audit Clearing House
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1094,7 +985,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -1109,12 +999,6 @@
     \ Survey"
   products:
   - recro3E8gXTIQ5IHO
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recC22nsxps5Ywcx0
-  description: A poster from the EPA's Clean School Bus Program explaining how reducing
-    idling results in cleaner air
-  link: https://www.epa.gov/dera/reducing-diesel-emissions-school-buses
-  name: 'Reducing School Bus Idling: Clean Air Poster'
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recC54vbIb7SgNIpG
   name: BLS
@@ -1134,7 +1018,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1157,7 +1040,6 @@
   problem_statements:
   - recmZQEd4gpAgWPMm
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -1166,8 +1048,6 @@
   name: GPS data
   problem_statements:
   - rec91k66NBPeRwaK7
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1176,13 +1056,6 @@
     and Prevention
   products:
   - recMyCXtD901elAkR
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recCV5Zu4HJVaY6KO
-  description: Data.gov for geospatial data from a variety of federal agencies on
-    topics including climate & weather, elevation, geology, land use and cover, utilities
-    and others
-  link: https://www.geoplatform.gov/
-  name: Federal Geo-platform
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recChToOuBxW1cfUb
   name: North American Industry Classification (NACIS) codes; National Certifications
@@ -1203,7 +1076,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -1218,20 +1090,8 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: recD4e1asQgQHdqzO
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: 'Many economic indicators with data as recent as the current month,
-    and time series data available for multiple decades. '
-  link: https://www.census.gov/economic-indicators/
-  name: Monthly Industry Indicators
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recDFBTLHgokJQpsG
   description: 2019 report that includes financial performance, trade, capital investments
@@ -1243,7 +1103,6 @@
   name: Program for International Student Assessment (PISA)
   problem_statements:
   - rec5Qmq3TNOnhhfoE
-  ps_text: Promoting Access to and Interest in STEM Fields
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -1263,36 +1122,6 @@
   - recOu5jGIOeoHNcps
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
-  sprint:
-  - rec4Y10emS9DtmBpT
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recE2Wg8zeohAD6eV
-  description: Monthly data based on hourly traffic count data reported by States,
-    collected at approximately 5,000 continuous traffic counting locations
-  link: https://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm
-  name: Traffic Volume Trends
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recE5m8Xnc0skOpjl
-  description: Provides K-12 students and educators with access to quality homework
-    resources, lesson plans and project ideas for learning and teaching about the
-    environment
-  link: https://www.epa.gov/students
-  name: Learning and Teaching about the Environment Web Resource
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: recE7LRpy3TEtofU4
-  data_stewards:
-  - rec7O0adLJCELnOan
-  description: County-level data on county type, remoteness, amenities, and other
-    socioeconomic characteristics.
-  link: https://www.ers.usda.gov/data-products/atlas-of-rural-and-small-town-america/
-  name: Atlas of Rural and Small-Town America
-  organization_text: U.S. Department of Agriculture
-  organizations:
-  - recRKu6t2inmGXXce
-  problem_statements:
-  - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1332,7 +1161,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1348,16 +1176,8 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recF5movwndgPNXC6
-  description: Gives information about the environmental performance of light-duty
-    vehicles using 0-10 emissions score and the fuel economy numbers to compare environmental
-    performance across vehicle classes
-  link: https://www.epa.gov/greenvehicles
-  name: Green Vehicle Guide
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recF98kOtSiE6hJas
   data_stewards:
@@ -1376,7 +1196,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1410,7 +1229,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1441,7 +1259,6 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T18:07:22.000Z'
@@ -1455,7 +1272,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1473,7 +1289,6 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - rec2cDmW6ubg6Wco0
-  ps_text: Rural Economic Development, Bridging the Digital Divide
   sprint:
   - recMpslqDTkD8bJoj
   - rec5A5h9cq07ijoPk
@@ -1489,7 +1304,6 @@
   - recvcnsVv2y0Z2ESj
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
@@ -1504,7 +1318,6 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -1526,7 +1339,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - rec4KZSqOYnXgo2gD
-  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1534,14 +1346,6 @@
   name: Federal disaster declaration and protective actions data
   products:
   - recXgUtGqv4vnOFKA
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recGdXwl4SwdkdQoq
-  description: Information on the role of ports, how ports can impact local land use,
-    economic trends, air quality and other aspects of the enivonment and quality of
-    life
-  link: https://www.epa.gov/community-port-collaboration/ports-primer-communities
-  name: 'Ports Primer for Communities: An Overview of Ports Planning and Operations
-    to Support Community Participation'
 - airtable_createdTime: '2020-02-10T19:57:29.000Z'
   airtable_id: recGjlRED5A80yRwg
   description: Known informally as the labor report, the Employment Situation Report
@@ -1555,7 +1359,6 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1578,7 +1381,6 @@
   - recNeUjWAHgq84dsR
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1595,7 +1397,6 @@
   - recj1G6ZElwqUBXSu
   problem_statements:
   - recDnQq3aDp59z637
-  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1609,7 +1410,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1625,7 +1425,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
@@ -1668,7 +1467,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1685,7 +1483,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1698,7 +1495,6 @@
   name: BLS Job Outcomes Data
   problem_statements:
   - recLROAotmnLsG3Bw
-  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1752,7 +1548,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T18:07:11.000Z'
@@ -1767,7 +1562,6 @@
   - recjpBB18sFzmVNWl
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-10T17:42:09.000Z'
@@ -1777,7 +1571,6 @@
   - recGXB6VI2XEbqemj
   products:
   - recTfL9YZgQqj9i78
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1797,7 +1590,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -1812,22 +1604,8 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recKMkd0f83TvEG2x
-  description: Industry data including global trends, plastics quarterly forecasts,
-    monthly plastics production and capacity utilization statistics
-  link: https://www.plasticsindustry.org/data
-  name: 'Plastics Data '
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recKNvPe8zBHrSJqp
-  description: Manufacturing industry data on the use of virgin (primary) and recycled
-    (secondary) materials in the U.S. for several dozen minerals published anually
-    as far back as 1996
-  link: https://www.usgs.gov/centers/nmic/mineral-commodity-summaries
-  name: Annual Mineral Commodity Summaries
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recKOHXkIfOyuIFSo
   data_stewards:
@@ -1842,7 +1620,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1858,7 +1635,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -1873,7 +1649,6 @@
   - recFr7M0yGBqOARp4
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:50:12.000Z'
@@ -1884,7 +1659,6 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recqL51kCcBL6go3m
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-19T21:41:31.000Z'
@@ -1903,7 +1677,6 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -1936,9 +1709,6 @@
   - rec91k66NBPeRwaK7
   products:
   - rec85E0U2wrRBV8dc
-  ps_text: Disaster Spending, Improving Access to and Management of Federal Grants,
-    Increasing Government Accountability by Connecting Federal Spending and Performance
-    Data
   sprint:
   - recMpslqDTkD8bJoj
   - recbhMlc1WZWXNte0
@@ -1949,8 +1719,6 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
-  ps_text: Promoting Access to and Interest in STEM Fields, Helping States Develop
-    Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -1959,8 +1727,6 @@
   name: Federal Procurement Data System (FPDS)
   problem_statements:
   - rec91k66NBPeRwaK7
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T14:44:12.000Z'
@@ -1977,7 +1743,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1991,7 +1756,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2009,7 +1773,6 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2029,7 +1792,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2046,7 +1808,6 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2059,7 +1820,6 @@
   name: U.S. Department of Agriculture Grants and Loans
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -2088,7 +1848,6 @@
   problem_statements:
   - recD4rN8c5sH3ECRi
   - recmZQEd4gpAgWPMm
-  ps_text: Economic Self-Sufficiency, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
@@ -2104,17 +1863,8 @@
   - recAQPRQ8ZO3e7rXf
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recMQhXJtXfdKrY1i
-  description: Information needed to run an effective idling reduction campaign at
-    a school to reduce student exposure to toxic vehicle exhaust. This includes student-run
-    science or community involvement projects, which offer students an opportunity
-    to run a public service campaign while expanding their science and math skills
-  link: https://www.epa.gov/schools/idle-free-schools-toolkit-healthy-school-environment#:~:text=What%20is%20the%20Idle%2DFree,exposure%20to%20toxic%20vehicle%20exhaust.
-  name: Idle-Free Schools Toolkit for a Healthy School Environment
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recMVBsyGyKjBp09a
   data_stewards:
@@ -2129,7 +1879,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-05-10T19:57:26.000Z'
@@ -2151,16 +1900,9 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec55VBughwHjCFWp
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recMhD7on6eX2FEXm
-  description: Lists of companies that distribute and sell glass materials
-  link: https://www.gpi.org/glass-resource-locator
-  name: Glass Resource Locator
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recMlLrjRlr9G4FeN
   description: Provides over 50 million open data records on industry clusters and
@@ -2173,7 +1915,6 @@
   - recNeUjWAHgq84dsR
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -2211,7 +1952,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
@@ -2229,7 +1969,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2262,7 +2001,6 @@
   - reckfAxYlXRGjNz5P
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2282,7 +2020,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2299,7 +2036,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -2316,7 +2052,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -2345,7 +2080,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2369,7 +2103,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -2385,7 +2118,6 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2400,7 +2132,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
@@ -2417,7 +2148,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-19T22:57:53.000Z'
@@ -2434,7 +2164,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2474,7 +2203,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2516,7 +2244,6 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -2543,7 +2270,6 @@
   - recUMWKi7luVILZV1
   problem_statements:
   - rec4KZSqOYnXgo2gD
-  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -2561,7 +2287,6 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2587,7 +2312,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-10T20:23:12.000Z'
@@ -2602,7 +2326,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec2cDmW6ubg6Wco0
-  ps_text: Bridging the Digital Divide
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -2620,7 +2343,6 @@
   - rech0xcl8a3PFLxhA
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:32:16.000Z'
@@ -2629,8 +2351,6 @@
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -2660,7 +2380,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2677,7 +2396,6 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - recmZQEd4gpAgWPMm
-  ps_text: Rural Economic Development, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
@@ -2696,7 +2414,6 @@
   - rechLH1Q2G0yomLqs
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:42:13.000Z'
@@ -2704,7 +2421,6 @@
   name: FSRS.gov
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2734,7 +2450,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2751,7 +2466,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-19T21:37:26.000Z'
@@ -2766,7 +2480,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2775,13 +2488,6 @@
   products:
   - recTfL9YZgQqj9i78
   - recyKI9exBfBtz1hr
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recSLgF3gyfcb8ouI
-  description: EPA, in collaboration with Scholastic, has created a new book, "The
-    Magic School Bus Gets Cleaned Up," which teaches readers about pollution emitted
-    from diesel school buses as well as ways to reduce emissions health risks.
-  link: https://www.epa.gov/dera/magic-school-bus
-  name: The Magic School Bus Gets Cleaned Up
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recSMjx72oMwTtWq5
   data_stewards:
@@ -2798,7 +2504,6 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recSM7q7ufXLojrBx
-  ps_text: NAIP
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2827,7 +2532,6 @@
   - rec0pG2gOoExNqjQR
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2848,15 +2552,15 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
+  - recD4rN8c5sH3ECRi
   sprint:
   - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-10T17:42:48.000Z'
   airtable_id: recSVjlcIEDCL2h1N
   name: Fish and Wildlife (TRACS)
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-19T21:47:41.000Z'
@@ -2872,7 +2576,6 @@
   - rec9MvJE3f7VLwBjg
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:42:23.000Z'
@@ -2880,7 +2583,6 @@
   name: Tracking Accountability in Government Grants Systems (TAGGS)
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2902,7 +2604,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2915,13 +2616,6 @@
   name: Earth Challenge Integrated Dataset
   products:
   - recJms1glRzSmKxtR
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recT8TTutiXFx2DQj
-  description: Information for school communities to identify strategies for reducing
-    traffic-related pollution exposure at schools located downwind of heavily traveled
-    roadways
-  link: https://www.epa.gov/schools/best-practices-reducing-near-road-pollution-exposure-schools
-  name: Best Practices for Reducing Near-Road Pollution Exposure at Schools
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recT9E2tGLYcH0thL
   data_stewards:
@@ -2939,7 +2633,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2955,7 +2648,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -2981,7 +2673,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3011,7 +2702,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3028,7 +2718,6 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3047,7 +2736,6 @@
   - recUpuoU27MFAPSsp
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3074,7 +2762,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3090,7 +2777,6 @@
   name: 'TechLink: DoD and VA Inventions'
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3108,7 +2794,6 @@
   - recwYjmQ0rFOx8ixy
   problem_statements:
   - recqL51kCcBL6go3m
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3133,8 +2818,6 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - recZDeKZkpRgp2x1j
-  ps_text: Rural Economic Development, Identifying and Strengthening Civic Environmental
-    Stewardship
   sprint:
   - recMpslqDTkD8bJoj
   - recg9LuHpKxgB95Xy
@@ -3150,7 +2833,6 @@
   - rec7pqpcAeIY3bXpc
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3162,12 +2844,6 @@
   organization_text: George Washington University
   organizations:
   - rec9MvJE3f7VLwBjg
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recWVomL03rr7Ee4W
-  description: Monthly and annual shipment and production data on the national steel
-    industry
-  link: https://www.steel.org/industry-data
-  name: Steel Industry Data
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recWXekXxQSl0eNjg
   data_stewards:
@@ -3183,7 +2859,6 @@
   problem_statements:
   - rec6yDEfMyReqsMcl
   - recfwUvvptMpf0PLj
-  ps_text: Talent Discovery, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -3221,8 +2896,6 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
-  ps_text: Promoting Access to and Interest in STEM Fields, Helping States Develop
-    Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -3239,7 +2912,6 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3253,8 +2925,6 @@
   name: FedBizOps
   problem_statements:
   - rec91k66NBPeRwaK7
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3267,36 +2937,17 @@
   name: Department of Education college readiness data
   products:
   - recj2I36nEPH4qWuf
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: recXSyb2YtCD6wBr6
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: 'A survey of business owners that includes the race and ethnicity of
-    business owners (note: this data is from 2012)'
-  link: https://www.census.gov/programs-surveys/sbo.html
-  name: Survey of Business Owners (SBO)
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recXTJtkX3qBUyK6r
   name: HUD EnVision Centers
   products:
   - reclF9Mn2Z6aMqzJk
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recXmtOLQMqqY8n38
-  description: National and state-level trends for Tier 1 pollutant emission contributions
-    among major source types from 1970 - 2019
-  link: https://www.epa.gov/air-emissions-inventories/air-pollutant-emissions-trends-data
-  name: Air Pollutant Emissions Trends Data
 - airtable_createdTime: '2020-02-10T17:32:08.000Z'
   airtable_id: recXpPrWBZtEtCQ62
   name: Grants.gov
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -3314,8 +2965,6 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - rec55VBughwHjCFWp
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -3347,7 +2996,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec2cDmW6ubg6Wco0
-  ps_text: Bridging the Digital Divide
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-07-19T22:01:15.000Z'
@@ -3365,7 +3013,6 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -3384,7 +3031,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3392,12 +3038,6 @@
   name: Interpol
   products:
   - rec6IC6El0nNjSiCA
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recYxiNlSzBw5vxr3
-  description: Monthly, quarterly, and annual data on overall and materials-specific
-    recycling industry economics
-  link: https://www.isri.org/recycling-commodities
-  name: Recycling Commodities
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recZ889pE3kdEcyf0
   data_stewards:
@@ -3411,7 +3051,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3429,7 +3068,6 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recSM7q7ufXLojrBx
-  ps_text: NAIP
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
@@ -3447,7 +3085,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3463,20 +3100,13 @@
   - recWJ8ViVmLMqlXTS
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recZt5868iToDwutR
-  description: Data on the recycling industry workforce
-  link: https://www.epa.gov/smm/recycling-economic-information-rei-report
-  name: Recycling Economic Information (REI) Report
 - airtable_createdTime: '2020-02-10T17:42:44.000Z'
   airtable_id: recZtCIHXPCIrswaa
   name: U.S. Department of Veteran Affairs Office of Finance
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3517,7 +3147,6 @@
   - recbLwYNZI63gDeLc
   problem_statements:
   - recZDeKZkpRgp2x1j
-  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3531,7 +3160,6 @@
   - recFr7M0yGBqOARp4
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:32:27.000Z'
@@ -3539,8 +3167,6 @@
   name: Data.gov
   problem_statements:
   - rec91k66NBPeRwaK7
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3554,7 +3180,6 @@
   - rec9cAOIekI5E8crF
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3581,7 +3206,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3597,7 +3221,6 @@
   - rec18wOOpv9fbmdqY
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -3627,7 +3250,6 @@
   - recBBbVkCKQN52rWM
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2020-02-10T17:25:27.000Z'
@@ -3635,7 +3257,6 @@
   name: Common Core of Data (CCD)
   problem_statements:
   - rec4jiLMOGoECbVXB
-  ps_text: Helping States Develop Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3677,7 +3298,6 @@
   - recejWHfb2My5VbBb
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -3691,7 +3311,6 @@
   - recyPXJRlyVWMribV
   problem_statements:
   - rec4KZSqOYnXgo2gD
-  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3715,7 +3334,6 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3736,7 +3354,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3768,7 +3385,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
-  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3796,7 +3412,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
-  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3813,7 +3428,6 @@
   - rec1ywmeuGOW8vgGa
   problem_statements:
   - recSM7q7ufXLojrBx
-  ps_text: NAIP
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3828,16 +3442,8 @@
   - recriUaTWwgtyryA7
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: receCgNifotLst4Dq
-  description: Allows users to search by location to find the nearest material recovery
-    facility (MRF), glass processor, end-market or large city drop-off locations that
-    accept glass
-  link: https://www.glassrecycles.org/glassmap
-  name: 'Glass Recycling: End Markets, MRFs, and Drop-off Facilities'
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: receH380BCLphsAfz
   description: The Department of Homeland Security's Performance and Accountability
@@ -3851,7 +3457,6 @@
   - recCGtljPyEpJ15UO
   problem_statements:
   - rec4KZSqOYnXgo2gD
-  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3864,7 +3469,6 @@
   - recxIMtV2v2veuzJV
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3880,7 +3484,6 @@
   - recc2YsGwSwIa6xkf
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T17:50:48.000Z'
@@ -3888,7 +3491,6 @@
   name: Datasets on terrorist and other man-made threats
   problem_statements:
   - recqL51kCcBL6go3m
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3896,38 +3498,11 @@
   name: Virginia Open Data Catalogue; Crowdsourced job reports
   products:
   - recNXCwgWCLa3ZMwB
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: recek7n6i4t5iMpgW
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Annual data on self-employed persons (including no. of firms, revenue)
-    at the state, county, and metro area levels by select industries.
-  link: https://www.census.gov/programs-surveys/nonemployer-statistics/data.html
-  name: Non-Employer Statistics
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recf07ZnAuMHE6IS0
   name: TIDES)
   products:
   - recp3hAesZqc2oQnV
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: recf42CGEemBWsQ2C
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Data on Industry and Occupation, Employers (public and private), Commuting,
-    Labor Force Statistics, Work from Home, and more
-  link: https://www.census.gov/topics/employment.html
-  name: Employment Data from Census by Geography
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
-  sprint:
-  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:19.000Z'
   airtable_id: recf5W5wG91EZ307C
   data_stewards:
@@ -3942,7 +3517,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -3975,7 +3549,6 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4002,7 +3575,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T17:50:40.000Z'
@@ -4010,7 +3582,6 @@
   name: Ready Campaign
   problem_statements:
   - recqL51kCcBL6go3m
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4029,7 +3600,6 @@
   - recJPGye6pnx03EoD
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4054,7 +3624,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4085,7 +3654,6 @@
   - recCGtljPyEpJ15UO
   problem_statements:
   - recqL51kCcBL6go3m
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -4100,7 +3668,6 @@
   - recVgQwX5PHVlrpCu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-19T21:45:02.000Z'
@@ -4116,7 +3683,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:42:53.000Z'
@@ -4124,7 +3690,6 @@
   name: USDA NIFA Data Gateway
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-10T17:28:14.000Z'
@@ -4132,7 +3697,6 @@
   name: Veterans resumes
   problem_statements:
   - recLROAotmnLsG3Bw
-  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -4150,8 +3714,6 @@
   problem_statements:
   - recqL51kCcBL6go3m
   - recmZQEd4gpAgWPMm
-  ps_text: Using Geospatial Data to Help People Prepare for Disasters, Opportunity
-    Zones
   sprint:
   - recg9LuHpKxgB95Xy
   - rec4Y10emS9DtmBpT
@@ -4168,7 +3730,6 @@
   - recILrqtuTiu4XVou
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -4181,12 +3742,6 @@
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recjcwEG2JB13BvnX
-  description: National data on CO2 emissions and fuel economy based on production
-    volumes delivered for sale in the U.S. by model year, from 1975-2019
-  link: https://www.epa.gov/automotive-trends/explore-automotive-trends-data
-  name: Automotive Trends Data
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
   airtable_id: recjjHhrKIfcmATHw
   description: Wide-ranging education access and equity data collected from our nation's
@@ -4199,8 +3754,6 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
-  ps_text: Promoting Access to and Interest in STEM Fields, Helping States Develop
-    Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -4216,7 +3769,6 @@
   - recOlBdKw8XSQki5z
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-19T21:59:14.000Z'
@@ -4232,15 +3784,8 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recjzPuDFgD2QRv9O
-  description: Provides a map of beach litter data collection events organised by
-    MLW communities, as well as overview graphs and tables
-  link: https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
-  name: 'Source Data: Marine Litter Watch'
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: reck0WMNhs1NhH3vr
   description: Resources for immigrants, refugees, and asylum seekers including immigration
@@ -4249,7 +3794,6 @@
   name: FindHello Resources
   problem_statements:
   - recDnQq3aDp59z637
-  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -4262,8 +3806,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec55VBughwHjCFWp
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -4310,7 +3852,6 @@
   - recBBbVkCKQN52rWM
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T20:03:38.000Z'
@@ -4326,7 +3867,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recnJuVbZsWFhpBW8
-  ps_text: Promoting 2020 Census Jobs
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -4344,7 +3884,6 @@
   name: Benefits.gov
   problem_statements:
   - recGXB6VI2XEbqemj
-  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -4362,7 +3901,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -4378,7 +3916,6 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4409,7 +3946,6 @@
   - recbLwYNZI63gDeLc
   problem_statements:
   - recZDeKZkpRgp2x1j
-  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-10T18:28:51.000Z'
@@ -4427,8 +3963,6 @@
   - rec55VBughwHjCFWp
   products:
   - rec8Yym9s5wIGjlDI
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -4464,7 +3998,6 @@
   problem_statements:
   - recD4rN8c5sH3ECRi
   - recmZQEd4gpAgWPMm
-  ps_text: Economic Self-Sufficiency, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
@@ -4493,7 +4026,6 @@
   - recbLwYNZI63gDeLc
   problem_statements:
   - recZDeKZkpRgp2x1j
-  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-10T18:29:01.000Z'
@@ -4507,8 +4039,6 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - rec55VBughwHjCFWp
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -4525,7 +4055,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
-  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4539,23 +4068,6 @@
   name: Association of Plastics Recyclers
   products:
   - recaRsKbgtQOavIpx
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: recnS1t0xWRrvyIyu
-  data_stewards:
-  - recmN3IU7r2gldMJf
-  description: Environmental justice (EJ) mapping and screening tool that includes
-    nationally consistent data and an approach that combines environmental and demographic
-    indicators in maps and reports
-  link: https://www.epa.gov/ejscreen
-  name: 'EJSCREEN: Environmental Justice Screening and Mapping Tool'
-  organization_text: U.S. Environmental Protection Agency
-  organizations:
-  - recDJthxFdnCkkHXX
-  problem_statements:
-  - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
-  sprint:
-  - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recnnDHeRAc0VOm9E
   name: Census Bureau; Department of Labor O*NET database
@@ -4576,7 +4088,6 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-19T22:02:24.000Z'
@@ -4593,7 +4104,6 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -4612,7 +4122,6 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -4631,7 +4140,6 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec6yDEfMyReqsMcl
-  ps_text: Promoting Access to and Interest in STEM Fields, Talent Discovery
   sprint:
   - recbhMlc1WZWXNte0
   - rec4Y10emS9DtmBpT
@@ -4647,7 +4155,6 @@
   - recu60AFUaN2dfUPt
   problem_statements:
   - recfwUvvptMpf0PLj
-  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-19T22:06:30.000Z'
@@ -4664,7 +4171,6 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -4676,12 +4182,6 @@
     to take a picture of plastic pollution anywhere its found wherever they are in
     the world.
   name: 'Earth Challenge 2020 Plastics Mobile  Widget Data '
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recpHq3UojRHwQP79
-  description: Philadelphia local transportation data, including on walkability scores,
-    bike networks, airport runways, traffic counts, air monitoring stations, etc.
-  link: https://www.opendataphilly.org/dataset?groups=transportation-group
-  name: OpenDataPhilly
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: recpWW14Jc7ukLcIt
   name: HUD Services Data
@@ -4694,7 +4194,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recZDeKZkpRgp2x1j
-  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -4728,7 +4227,6 @@
   - recM2Hsb0OuuE9zdp
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -4745,7 +4243,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-19T21:33:19.000Z'
@@ -4761,7 +4258,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -4776,7 +4272,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4798,7 +4293,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4820,7 +4314,6 @@
   - rec1PqA4dmUJp7i8a
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -4836,7 +4329,6 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4885,7 +4377,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -4903,7 +4394,6 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4922,7 +4412,6 @@
   - recx2kGBvRULDVbFA
   problem_statements:
   - rec2dxKJmbiIV0Va5
-  ps_text: Recycling
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4945,7 +4434,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-19T21:59:58.000Z'
@@ -4961,7 +4449,6 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
-  ps_text: Multiple Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -4983,7 +4470,6 @@
   - reciRzKphBS0wiWcK
   problem_statements:
   - recZDeKZkpRgp2x1j
-  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -5013,7 +4499,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2020-02-10T18:07:05.000Z'
@@ -5030,7 +4515,6 @@
   - recxPVJVs1W4haKxp
   problem_statements:
   - recUnXFEYwEO7Uea6
-  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
@@ -5053,20 +4537,8 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recDkOPeR5RLFwe2e
-  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: rectjNjBxFn6atPWX
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Timely and frequent snapshots of early-stage business activity, including
-    business applications and formation at the state, regional and national level
-  link: https://www.census.gov/programs-surveys/bfs/data/datasets.html
-  name: Business Formation Statistics
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recu1XlVkDyajmO6C
   name: 'Earth Challenge Integrated Data: Plastic Pollution (MLW'
@@ -5108,7 +4580,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-19T22:07:06.000Z'
@@ -5119,30 +4590,19 @@
     business applications and formation at the state, regional and national level
   link: https://www.census.gov/programs-surveys/bfs/data/datasets.html
   name: Business Formation Statistics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
-  ps_text: Opportunity Zones, Talent Discovery, Multiple Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recuQyDKlg5JzCps2
-  description: Online tool that increases interaction and connectivity to plastic
-    pollution by allowing users to report, rate and map trash hot-spots in their waterways
-    and coastlines via mobile devices and a web-based platform
-  link: https://www.oceanrecov.org/global-ocean-alert-system/solution.html
-  name: Global Alert - Floating Trash
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recuZhfy54N7LfY2I
-  description: Software that estimates the health impacts and economic value of changes
-    in air quality (specifically ground level ozone and fine particles)
-  link: https://www.epa.gov/benmap
-  name: Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE)
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recuaFJHJiz4omT7f
   description: Top 10 Most Common Plastics found by county sourced from the Earth
@@ -5175,7 +4635,6 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -5189,8 +4648,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec55VBughwHjCFWp
-  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -5232,7 +4689,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -5255,7 +4711,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -5272,7 +4727,6 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T17:32:03.000Z'
@@ -5280,8 +4734,6 @@
   name: DisasterAssistance.gov
   problem_statements:
   - rec91k66NBPeRwaK7
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -5320,7 +4772,6 @@
   problem_statements:
   - recD4rN8c5sH3ECRi
   - recmZQEd4gpAgWPMm
-  ps_text: Economic Self-Sufficiency, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
@@ -5340,7 +4791,6 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -5380,7 +4830,6 @@
   name: Trends in International Mathematics and Science Study (TIMSS)
   problem_statements:
   - rec5Qmq3TNOnhhfoE
-  ps_text: Promoting Access to and Interest in STEM Fields
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -5396,7 +4845,6 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -5418,7 +4866,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
-  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -5440,17 +4887,8 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recypUQ1rBIPvhOfd
-  description: Public data system containing the world's largest ocean trash dataset,
-    all collected by volunteers that allows viewers to see ocean trash data at a global
-    scale or even zoom into their local beach. Easily download reports available for
-    any country, state, region or location
-  link: https://www.coastalcleanupdata.org/reports
-  name: 'Source Data: TIDES Coastal Cleanup'
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recyrDIzRwwnCwlPR
   description: Estimates of average weekday household person trips, vehicle trips,
@@ -5458,25 +4896,6 @@
     for the year 2017
   link: https://www.bts.gov/latch/latch-data
   name: Local Area Transportation Characteristics for Households Data
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: recz16OWJh07xaF9e
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Latest Economic Census data by place.
-  link: https://www.census.gov/programs-surveys/economic-census/data.html
-  name: Economic Census Data
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-- airtable_createdTime: '2021-07-20T15:43:56.000Z'
-  airtable_id: recz2jPTbZvnkVsTJ
-  description: National scale assessment to examine current and future emissions from
-    a variety of diesel sources operating in port areas, explore a range of available
-    strategies to reduce emissions, provide an assessment tool, and inform priorities
-    and decisions for port areas
-  link: https://www.epa.gov/ports-initiative/national-port-strategy-assessment-reducing-air-pollution-and-greenhouse-gases-us
-  name: 'National Port Strategy Assessment: Reducing Air Pollution and Greenhouse
-    Gases at U.S. Ports'
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reczIQDcfuxmJblbG
   name: HHS Poverty Guidelines
@@ -5494,7 +4913,6 @@
   - recUpuoU27MFAPSsp
   problem_statements:
   - recn0ONeaB72GbD8z
-  ps_text: Rural Economic Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -5514,8 +4932,6 @@
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
-  ps_text: Increasing Government Accountability by Connecting Federal Spending and
-    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -5536,7 +4952,6 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
-  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -5555,17 +4970,5 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recSM7q7ufXLojrBx
-  ps_text: NAIP
   sprint:
   - recfjW4XBdTnujZD7
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: reczoN4iHLPLLeYsz
-  data_stewards:
-  - recFN7GwyK88Sd6ye
-  description: Annual data on employer businesses (e.g., no. of businesses, employment,
-    payroll) at the state, county, metro area, and ZIP Code levels by industry.
-  link: https://www.census.gov/programs-surveys/cbp.html
-  name: County Business Patterns
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m

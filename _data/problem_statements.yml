@@ -165,6 +165,8 @@
     Facilities", Aluminum Association Buyers'' Guide'
   featured_product:
   - recaRsKbgtQOavIpx
+  image: challenges/recycling.jpg
+  image-alt: Workers collecting recycling
   natl env datasets:
   - recmcCFfie8AMMH3H
   - recJlCYo3Ly8jizVw
@@ -305,6 +307,8 @@
     of Disaster Philanthropy'
   featured_product:
   - rectcKAi8zsdwiqjg
+  image: challenges/flood.jpg
+  image-alt: Flooded street with cars and a building in the background
   organizations:
   - rec9YorLrBEvA0vj4
   products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
@@ -575,6 +579,8 @@
     TIGER Line Address Range-Feature, Business Formation Statistics
   featured_product:
   - recleNeiLRdZwSdLt
+  image: challenges/pathways.png
+  image-alt: Woman in graduation cap and gown
   organizations:
   - recBBbVkCKQN52rWM
   products_text: Kanarys, Solve
@@ -707,6 +713,8 @@
     Line Address Range-Feature, Business Formation Statistics
   featured_product:
   - recfqTRYC5LXFiOUe
+  image: challenges/talent.png
+  image-alt: Two women working together at a laptop
   organizations:
   - recNeUjWAHgq84dsR
   products_text: Job Opportunity Tool, Talent Finder Tool
@@ -901,22 +909,25 @@
   - recTCoN4IMaSTrDbs
   - rec6xXLK2MnjolW6R
   - recmHtppXb3wSH6uI
-  - recf42CGEemBWsQ2C
-  - rec3arjeQqoEe1JvI
   - recrHa6YWyn6u6GXF
   - recPBCaWu7TqcxSI9
   - recOOfo569jN44oeT
   - recZ889pE3kdEcyf0
+  - recSVR7Yvb8H9IAZ7
+  - rec6iiVcmH91bxr5i
   datasets_text: Picture of Subsidized Households, HUD Data Portal, American Housing
     Survey, HUD Enterprise GIS, Map of Opportunity Zones and Affordable Housing, Low-Income
     Housing Tax Credit Qualified Census Tracts, Low-Income Housing Tax Credit Database,
     Fair-Market Rent Data, HUD Services Data , HUD Community Assessment Reporting
-    Tool (CART) , HUD EnVision Centers, Treasury ZIP Code Statistics of Income, Employment
-    Data from Census by Geography, County Business Patterns, "Poverty Estimates, Trends,
-    and Analysis", HHS Data Initiative, HHS Social Services Programs, HHS Wellness
-    Programs
+    Tool (CART) , HUD EnVision Centers, Treasury ZIP Code Statistics of Income, "Poverty
+    Estimates, Trends, and Analysis", HHS Data Initiative, HHS Social Services Programs,
+    HHS Wellness Programs, Employment Data from Census by Geography, County Business
+    Patterns
   featured_product:
   - recyKI9exBfBtz1hr
+  image: challenges/self-sufficiency.jpg
+  image-alt: Closeup of desk with two people sitting at laptops and one of them writing
+    on some paperwork
   organizations:
   - recRLxRGfiWtHnmAs
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
@@ -1009,6 +1020,8 @@
   featured_product:
   - recbsgNzUmmrKuEYn
   - rec1WFJn1OGTTGrZi
+  image: challenges/refugee.jpg
+  image-alt: White tents in a refugee camp
   organizations:
   - reccYXaD7aLLyyBqy
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
@@ -1119,6 +1132,8 @@
     Screening and Mapping Tool, Automotive Trends Data'
   featured_product:
   - recyl8q9tZWnPoQQt
+  image: challenges/air-quality.jpg
+  image-alt: Blue sky with white clouds
   natl env datasets:
   - recfqPjaNmS0RVd9Z
   - recRilQ1iEugEWVfh
@@ -1549,6 +1564,8 @@
     Debris Monitoring and Assessment Project, Source Data: Marine Litter Watch'
   featured_product:
   - rec6IC6El0nNjSiCA
+  image: challenges/ocean-plastics.jpg
+  image-alt: Beach with litter and plastics washed ashore
   natl env datasets:
   - recg3d5w7GXvnF3ru
   - recGqZqVrea2ILmwg
@@ -1603,6 +1620,8 @@
     service, USGS National Map
   featured_product:
   - recyPJeX2onUtcMln
+  image: challenges/agricultural.jpg
+  image-alt: Large open field on a farm
   natl env datasets:
   - reca43aSbRGE7gBW1
   - recBzSq5JJAaas1uM
@@ -2131,7 +2150,6 @@
   - recCDGvMOgVvMQwSm
   - rec6iiVcmH91bxr5i
   - recKlWO8C6xuadXx8
-  - rec4TFpHAFgQmZgNS
   - rec5xTy9sobHJBMUJ
   - rec2FQ7PYh2LahgJ8
   - recYHXoQAnB07bJSb
@@ -2141,19 +2159,22 @@
   - rec5qniIwW1sDhxkf
   - recot9D8u5Ya5kcAA
   - recuQekdEOW8PtYFg
+  - rec4THtncLwQX0nsV
   datasets_text: 'Census Business Builder, Regional Innovation Strategies (RIS) Program,
     National Science Foundation Awards, National Institutes of Health Awards, Small
     Business Innovation Research (SBIR) Program Data, Lab Partnering Service (LPS),
     Federal Laboratory Consortium (FLC) Data, Small Business Administration Datasets,
     Manufacturing Extension Partnership (MEP), Manufacturing USA Institutes, TechLink:
     DoD and VA Inventions, Opportunity Zone Status, County Business Patterns, Non-Employer
-    Statistics, Monthly Industry Indicators, National Center for Science and Engineering
-    Statistics, Open Energy Information, API & Developer Resources for Census Bureau
-    Data, Housing Assistance Data, Individual Assistance Data, CDC Social Vulnerability
-    Index, TIGER Line Roads Data, TIGER Line Address Range-Feature, Business Formation
-    Statistics'
+    Statistics, National Center for Science and Engineering Statistics, Open Energy
+    Information, API & Developer Resources for Census Bureau Data, Housing Assistance
+    Data, Individual Assistance Data, CDC Social Vulnerability Index, TIGER Line Roads
+    Data, TIGER Line Address Range-Feature, Business Formation Statistics, Monthly
+    Industry Indicators'
   featured_product:
   - recWyKy6qT8GX7jT8
+  image: challenges/entrepreneurship.png
+  image-alt: Sign reading come on in we're open
   organizations:
   - rec0txaC5vlg0xonh
   products_text: Practical Business Skills
@@ -2276,7 +2297,6 @@
   airtable_id: recmZQEd4gpAgWPMm
   datasets copy:
   - rec0h9qnPjbJDtIiG
-  - recE7LRpy3TEtofU4
   - recKBankOvfGTtiMV
   - recj9uFk4uyksjHp8
   - recCDGvMOgVvMQwSm
@@ -2300,19 +2320,20 @@
   - recw6qS7nsiuFzmp9
   - recMPHn8tRSF5Tdq8
   - recRskiGleSLFerp9
-  datasets_text: Location of Energy Infrastructure, Atlas of Rural and Small-Town
-    America, Food Access Research Atlas, American Community Survey - Population Data,
-    Opportunity Zone Status, Opportunity Zone Locations, USA Trade Data, Zip Code
-    Business Patterns, American Community Survey Demographic Data, HUD Enterprise
-    GIS, County Business Patterns, Non-Employer Statistics, API & Developer Resources
-    for Census Bureau Data, Housing Assistance Data, Individual Assistance Data, CDC
-    Social Vulnerability Index, TIGER Line Roads Data, TIGER Line Address Range-Feature,
-    Business Formation Statistics, American Community Survey APIs, Map of Opportunity
-    Zones and Affordable Housing, Treasury ZIP Code Statistics of Income, Low-Income
-    Housing Tax Credit Qualified Census Tracts, Fair-Market Rent Data, Atlas of Rural
-    and Small-Town America
+  datasets_text: Location of Energy Infrastructure, Food Access Research Atlas, American
+    Community Survey - Population Data, Opportunity Zone Status, Opportunity Zone
+    Locations, USA Trade Data, Zip Code Business Patterns, American Community Survey
+    Demographic Data, HUD Enterprise GIS, County Business Patterns, Non-Employer Statistics,
+    API & Developer Resources for Census Bureau Data, Housing Assistance Data, Individual
+    Assistance Data, CDC Social Vulnerability Index, TIGER Line Roads Data, TIGER
+    Line Address Range-Feature, Business Formation Statistics, American Community
+    Survey APIs, Map of Opportunity Zones and Affordable Housing, Treasury ZIP Code
+    Statistics of Income, Low-Income Housing Tax Credit Qualified Census Tracts, Fair-Market
+    Rent Data, Atlas of Rural and Small-Town America
   featured_product:
   - recwo6k02qWF773ZK
+  image: challenges/opportunity-zones.png
+  image-alt: birdseye view of densely built residential area
   organizations:
   - recRLxRGfiWtHnmAs
   - recvVZzZWobj510rA
@@ -2363,14 +2384,12 @@
   - recKOHXkIfOyuIFSo
   - recLtaZorYvI21Lwc
   - recRskiGleSLFerp9
-  - recnS1t0xWRrvyIyu
   - recsMJ0eHFzsAczm8
   - rec33Lhf2RbQSTHWv
   - recfP4JxfVotYcKWS
   - recLmy1mSIseo8gL4
   - recMlLrjRlr9G4FeN
   - recw8Sgspuk62reV8
-  - rec8YamsLHQDzf5QO
   - recGz99CD1Q2MHRxa
   - rec2VHDJ3plWYxAPm
   - recSEDcGAcsCXoIeH
@@ -2381,19 +2400,22 @@
   - rec6lZR0mptBNBNLj
   - reczNmXzMkfOvDXIf
   - recU1FBubDIPz2Oqa
-  datasets_text: 'APIs & Developer Resources, American Community Survey - Demographic
+  - rec0h9qnPjbJDtIiG
+  datasets_text: APIs & Developer Resources, American Community Survey - Demographic
     Data, American Community Survey APIs, EPA Smart Location Database, EnviroAtlas
     Interactive Map, Social Vulnerability Index (SVI), National Environmental Public
     Health Tracking Network, ERS GIS Map Services and API, Atlas of Rural and Small-Town
-    America, EJSCREEN: Environmental Justice Screening and Mapping Tool, USGS National
-    Map, USDA Rural Development Innovation Center Data, Rural Accessibility , The
-    Quarterly Census of Employment and Wages (QCEW) , U.S. Cluster Mapping Tool, Natural
-    resources datasets, Location of Energy Infrastructure, Stats America, Open Energy
-    Information, Computer and Internet Use, Types of Internet Subscriptions, 2018
-    FCC Broadband Deployment Report, Monthly Industry Indicators, Broadband USA, Digital
-    Nation Data Explorer, Form 477 Data, Fixed Broadband Deployment Map'
+    America, USGS National Map, USDA Rural Development Innovation Center Data, Rural
+    Accessibility , The Quarterly Census of Employment and Wages (QCEW) , U.S. Cluster
+    Mapping Tool, Natural resources datasets, Stats America, Open Energy Information,
+    Computer and Internet Use, Types of Internet Subscriptions, 2018 FCC Broadband
+    Deployment Report, Monthly Industry Indicators, Broadband USA, Digital Nation
+    Data Explorer, Form 477 Data, Fixed Broadband Deployment Map, Location of Energy
+    Infrastructure
   featured_product:
   - recSywRIyeQEsXwCq
+  image: challenges/farm.jpg
+  image-alt: birdseye view of a farm
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources

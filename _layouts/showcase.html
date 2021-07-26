@@ -89,8 +89,17 @@ layout: default
                 {% if product.category %}
                   <h4 class="pc-inactive">{{ product.category }}</h4>
                 {% endif %}
-                {% if product.agencies and product.agencies[0] != null %}
-                  <h5 class="pc-inactive">{{ product.agencies }}</h5>
+                {% if problem_statement %}
+                  <h5 class="pc-inactive product-card__agencies">
+                    {% for ps in problem_statements %}
+                      {% for org in ps.organizations %}
+                        {% assign agencies = site.data.organizations | where: "airtable_id", org %}
+                        {% for agency in agencies %}
+                          {{ agency.name }} {{ agency.acronym }}
+                        {% endfor %}
+                      {% endfor %}
+                    {% endfor %}
+                  </h5>
                 {% endif %}
                 <p style="display:none" class="product-desc">{{ product.description }}</p>
                 <p style="display:none" class="problem-statement">{{ problem_statement.Name | slugify }}</p>

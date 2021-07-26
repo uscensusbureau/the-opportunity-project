@@ -96,7 +96,7 @@ describe('Products Test', () => {
     }
   })
 
-  it.only('returns all agency results when searching by typing acronym', () => {
+  it('returns all agency results when searching by typing acronym', () => {
     cy.visit(base)
     for (const pair of filterResults) {
       if (pair.filterId === 'partner-agency') {

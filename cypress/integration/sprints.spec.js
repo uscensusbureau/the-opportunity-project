@@ -20,7 +20,7 @@ describe('Sprints test', () => {
     }
   })
 
-  it.only('highlights the subnav', () => {
+  it('highlights the subnav', () => {
     for(let i = 0; i < sprints.length; i++) {
       const url = sprints[i].url
       cy.visit(base + url)      

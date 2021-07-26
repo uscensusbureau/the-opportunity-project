@@ -43,12 +43,14 @@ const filterResults = [
     filterIndex: 2,
     filterId: 'partner-agency',
     optionId: 'Department of Agriculture',
+    acronym: 'USDA',
     results: 4
   },
   {
     filterIndex: 2,
     filterId: 'partner-agency',
     optionId: 'Census Bureau',
+    acronym: 'USCB',
     results: 12
   },
   {
@@ -56,7 +58,14 @@ const filterResults = [
     filterId: 'topic',
     optionId: 'Economic Development',
     results: 9
-  }
+  },
+  {
+    filterIndex: 2,
+    filterId: 'partner-agency',
+    optionId: 'Department of Housing and Urban Development',
+    acronym: 'HUD',
+    results: 14
+  },
 ]
 
 describe('Products Test', () => {
@@ -73,6 +82,28 @@ describe('Products Test', () => {
       cy.get(searchField).clear().type(pair.searchTerm)
       cy.get(searchForm).submit()
       cy.get(activeQuery).should('have.length', pair.results)
+    }
+  })
+
+  it('returns all agency results when searching by typing in agency name', () => {
+    cy.visit(base)
+    for (const pair of filterResults) {
+      if (pair.filterId === 'partner-agency') {
+        cy.get(searchField).clear().type(pair.optionId)
+        cy.get(searchForm).submit()
+        cy.get(activeQuery).should('have.length.gte', pair.results)
+      }
+    }
+  })
+
+  it.only('returns all agency results when searching by typing acronym', () => {
+    cy.visit(base)
+    for (const pair of filterResults) {
+      if (pair.filterId === 'partner-agency') {
+        cy.get(searchField).clear().type(pair.acronym)
+        cy.get(searchForm).submit()
+        cy.get(activeQuery).should('have.length.gte', pair.results)
+      }
     }
   })
 

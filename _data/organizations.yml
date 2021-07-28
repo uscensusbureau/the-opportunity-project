@@ -30,8 +30,6 @@
   - recyWZFxgJCbq7pXA
   - rec7y54sfgKwBvERU
   name: The Recycling Partnership
-  natl env datasets:
-  - rec2fkSeZcKczYNZN
 - acronym: OSTP
   agency leads:
   - rec7G2N1E8SmbctT8
@@ -59,8 +57,6 @@
   members:
   - rec5qqGO1EWtk9A4R
   name: Institute of Scrap Recycling Industries
-  natl env datasets:
-  - recJjsVUwOceBV1rw
 - airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: rec1PqA4dmUJp7i8a
   datasets:
@@ -125,8 +121,6 @@
   members:
   - recWteQWIxtH0b8tc
   name: Federal Geographic Data Committee
-  natl env datasets:
-  - reco7Xh3lrdeSfvYc
 - acronym: CGFL
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: rec2IHtoNgIK49Qgz
@@ -368,9 +362,9 @@
 - airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: rec9MvJE3f7VLwBjg
   datasets:
-  - recJA2GCJkEPSus8R
-  - recVe2J5UyGqj5rtU
   - recSgzDlxsMG2v09V
+  members:
+  - recqVnck9CcEyjYsC
   name: George Washington University
 - acronym: OMB
   agency leads:
@@ -393,16 +387,6 @@
   - recGXB6VI2XEbqemj
   - recjgkTgiJVNQI06t
   - rec4KZSqOYnXgo2gD
-- acronym: EDA
-  airtable_createdTime: '2021-07-20T17:13:07.000Z'
-  airtable_id: rec9cAOIekI5E8crF
-  datasets:
-  - recWXekXxQSl0eNjg
-  - recRubELnUWmGcJvn
-  - recaVbnoPSZ1IKjq7
-  members:
-  - rec8L1rMxJjXfWV2V
-  name: Economic Development Administration
 - acronym: USCB
   agency leads:
   - receYbNnKfntyPAiG
@@ -423,16 +407,8 @@
   airtable_id: rec9e5MJi3BeiIc2m
   datasets:
   - recf5W5wG91EZ307C
-  - recWghPm4pc3LmOjn
-  - recEdpKh6QTdFywfe
-  - reclTKNocsl7rRomA
-  - reckVY22VN7D6CflI
-  - recjM3tEvLIhrxcJD
-  - recmFPV2jIaFaPY3f
   - recSVR7Yvb8H9IAZ7
   - recFmVA8iwxXjGsAs
-  - reckL557Nyr3OHmc9
-  - recuoLwgk9aBqrXxp
   - recj9uFk4uyksjHp8
   - recMZh6GPCweh6slf
   - recpXj5E5RYKPZNav
@@ -457,9 +433,6 @@
   - recot9D8u5Ya5kcAA
   - recuLJoG2jzSCIRtU
   - recRPigFQgkCrx7qa
-  - recsITYHHZ38meynk
-  - recKTkeR0BH7XHebE
-  - recLqINZx5509v32C
   - recSEDcGAcsCXoIeH
   - recqTrEzfmvFOQX8a
   - recG12uOFWdhXeIaB
@@ -467,7 +440,6 @@
   - recLcqqhoGFsOEH8z
   - recaxj0fpf6Ml8lcW
   - recy3X20vb1Mnd81N
-  - recsW9s3lbEqC1m2k
   - recSBdEFaP6LjoltA
   - recNELQf3MtciOz96
   - recIZxxAKT3sx5uLj
@@ -476,7 +448,6 @@
   - recdCTIz90mLKUUTO
   - recNJaPAJFncCOAUB
   - recYRtBzCxYPpsMfL
-  - recIcVyzwFD3DSrbT
   - recuQekdEOW8PtYFg
   members:
   - rechFKj2Glsyroysl
@@ -539,8 +510,6 @@
   - recTfsCONzVH9NPQC
   - recntBpckurOjjgTm
   name: U.S. Census Bureau
-  natl env datasets:
-  - recJAbdpKhO8wYTgA
   problem statements:
   - rec2cDmW6ubg6Wco0
   - recPYnQdPuuZ0FZZ9
@@ -592,9 +561,6 @@
   - recWCKcHwAwogzr4S
   - recdtiP6Z2YRMqQNv
   name: U.S. Geological Survey
-  natl env datasets:
-  - rec8qgLvBTZ7MSWgY
-  - recmtsPb8R6I2GaoN
 - airtable_createdTime: '2020-02-04T22:19:05.000Z'
   airtable_id: recB6vmItfkYnEbCY
   name: Care Partners Plus
@@ -619,7 +585,6 @@
   airtable_id: recBBbVkCKQN52rWM
   datasets:
   - recoKXJWYQUUmTFRo
-  - recFWZpZCjZvAbNZy
   - recjjHhrKIfcmATHw
   - recWi5RPPGkfHapy8
   - rec9OH5d07REJ9mFW
@@ -629,7 +594,6 @@
   - recHJPs7KqNYbFV9U
   - recYrItjMCMebvJdC
   - recUNVaTWQOzT2DRM
-  - recWKVHbPLE6RcOLc
   - reckRXJYlAFoavuEI
   - recrlXGqKM1kndggl
   - recIeQcPgPnI4HfnP
@@ -753,27 +717,6 @@
   - recW64TxFme1NBXef
   - rec0aGJ5QGJLkM0Pg
   name: U.S. Environmental Protection Agency
-  natl env datasets:
-  - recmcCFfie8AMMH3H
-  - rec2EbrOLgRjGfQJ4
-  - rectj3C9nDQrzb8qE
-  - recCm1w3wGsKgyqZE
-  - recEim6w2PQ4LPN0i
-  - recH0ikuBl44b8T9M
-  - recHFpWpBzLFR7jhX
-  - recJlCYo3Ly8jizVw
-  - recNDknxVrUQSM7c9
-  - recRilQ1iEugEWVfh
-  - recSWnPsJnRYwlSfL
-  - recdfMBzhZt4hqZZw
-  - rece54eBemw3B5yaN
-  - receq5Bg6nEsIaWpx
-  - recfqPjaNmS0RVd9Z
-  - recig8tTa3lSSkgbN
-  - reco49QCR3u7Mv4nR
-  - recvraLOMbxv5bOTS
-  - recDu0mVQ9dF7xDZ5
-  - recWjTdWRUWbN9ms3
   problem statements:
   - recn0ONeaB72GbD8z
   - rec2dxKJmbiIV0Va5
@@ -813,8 +756,6 @@
   datasets:
   - rec9RadotsGHujjAg
   name: European Environment Agency
-  natl env datasets:
-  - recRmjmzU6V8D21aV
 - acronym: NYC CTO
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recF42Tt24lo4YTcC
@@ -833,14 +774,6 @@
   name: Independent Consultant - Data Scientist/Computational Economics
   sprints:
   - recg9LuHpKxgB95Xy
-- airtable_createdTime: '2020-02-07T17:39:50.000Z'
-  airtable_id: recFSV8Lh2ssXks5m
-  members:
-  - recVaq6TmfQxY26eV
-  - recVPhaPtHRGzjLvs
-  name: National Institute on Drug Abuse (NIDA)
-  sprints:
-  - recg9LuHpKxgB95Xy
 - acronym: NOAA
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recFaEqDe9K2rgPbi
@@ -850,8 +783,6 @@
   members:
   - recrO5fs4H5BgEfKS
   name: National Oceanic and Atmospheric Administration
-  natl env datasets:
-  - recMFpSsSWJeidxdF
   problem statements:
   - recbjIUzjzLZ5KmJS
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
@@ -982,8 +913,6 @@
   members:
   - rec4NTM5mMriK4UsX
   name: More Recycling
-  natl env datasets:
-  - recFvc9hSYDNkJen4
 - airtable_createdTime: '2021-02-19T18:40:24.000Z'
   airtable_id: recIg84I27yOjBzjC
   name: SAP
@@ -1040,8 +969,6 @@
   datasets:
   - rec1Hpibbv05WVfZ0
   name: Ocean Recovery Alliance
-  natl env datasets:
-  - recLo9X4qJo6vo6kF
 - airtable_createdTime: '2020-02-04T22:18:27.000Z'
   airtable_id: recJKjOOhTrMk1R2e
   name: Esri
@@ -1073,23 +1000,11 @@
   - rec9uesU1D98puAio
   - rec7bnuqwVugVXeUw
   name: Earth Challenge
-  natl env datasets:
-  - recGqZqVrea2ILmwg
-  - recMp3rAMIj4p3rLT
-  - recg3d5w7GXvnF3ru
-  - recYYvKMe2jJDKflw
-  - recI2TRK7O2s4Wr1b
-  - rec5wl1G75Lbt8PI3
-  - recrWGF6fJLZLEPhr
-  - recL0IG3AVfISA9e7
-  - rec48E4xQXHG373ML
 - airtable_createdTime: '2021-07-21T18:23:42.000Z'
   airtable_id: recJPGye6pnx03EoD
   datasets:
   - recg2zww1xm5i28l2
   name: Glass Packaging Institute
-  natl env datasets:
-  - recRjfefaHSHDGNXV
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: recJdUDzrtXZdKlcS
   members:
@@ -1165,8 +1080,6 @@
   members:
   - recC6cKq88k9ihED3
   name: Plastics Industry Association
-  natl env datasets:
-  - recwJPSfy9hekz4FO
 - airtable_createdTime: '2020-02-07T17:36:43.000Z'
   airtable_id: recM51Js0m2nbP3TS
   members:
@@ -1189,9 +1102,6 @@
   name: Civic Software Foundation
   sprints:
   - rec5A5h9cq07ijoPk
-- airtable_createdTime: '2021-05-10T20:26:20.000Z'
-  airtable_id: recMEOAhFRog2bKhJ
-  name: UDoTest Inc.
 - airtable_createdTime: '2021-02-22T17:24:01.000Z'
   airtable_id: recMHyp6Oksvi4vut
   name: Syracuse University
@@ -1252,6 +1162,7 @@
   datasets:
   - recMlLrjRlr9G4FeN
   - recGz99CD1Q2MHRxa
+  - recWXekXxQSl0eNjg
   members:
   - recCSbrTRtOWMDXvv
   - recrCPDzOLcfc6O0c
@@ -1307,8 +1218,6 @@
   members:
   - recqYmMkhJSPwkCBw
   name: Southeast Recycling Development Council
-  natl env datasets:
-  - rechGF36LEheMEXew
 - acronym: FLC
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recOu5jGIOeoHNcps
@@ -1368,10 +1277,6 @@
   - rec9mVARSvhPzmdMt
   - recy6aI2jtzRUM6h3
   name: U.S. Department of Transportation
-  natl env datasets:
-  - recAomchq4s5Riirx
-  - recHJjAX3bkSCKAn0
-  - rechvIqSge56w4fX3
   problem statements:
   - recWbNwNVTeALHVEK
   - rec55VBughwHjCFWp
@@ -1394,9 +1299,6 @@
   - rectC4U2Fr1ltKN8D
   - recHqGLtbCyU6UHxO
   name: U.S. Department of Agriculture
-  natl env datasets:
-  - recBzSq5JJAaas1uM
-  - reca43aSbRGE7gBW1
   problem statements:
   - rec7PAfceBewrUGZ3
   - rec1e6bSt2fE0Ke14
@@ -1413,13 +1315,9 @@
   - recOVmpdAhCpJrXg2
   - rectdwYU6A8wyfhQe
   - rec5WLRpJgDY5zxYs
-  - rec5XsA5LBbTOjAOT
-  - recPEDJkBpvjQHi4V
   - recFj4QjpdbkttkPv
   - rec7LK46DHnDNtqhO
   - recRPigFQgkCrx7qa
-  - recvUM75zzG6p8rri
-  - recqymEotandJ7q7R
   - recw6qS7nsiuFzmp9
   - recElbo8uA6d7Me48
   - recMPHn8tRSF5Tdq8
@@ -1583,8 +1481,6 @@
   datasets:
   - reciFXNH5vMGxfNaw
   name: Our World in Data
-  natl env datasets:
-  - recJ3y2au6qOvM7PJ
 - airtable_createdTime: '2020-02-07T17:39:24.000Z'
   airtable_id: recVoKGye7QiJy32Z
   members:
@@ -1596,9 +1492,7 @@
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recVv9NEouQmQIFQj
   datasets:
-  - rec0vyGOzAXXofzPv
   - recQqMjrOwzsTC196
-  - recd1leG66174xVL9
   - recKOHXkIfOyuIFSo
   - recQ22f2P0INVrPnP
   - recPCN7ziJN9rI8f5
@@ -1616,12 +1510,6 @@
   - recvxImejUy1I9lM4
   - recCoH9DxAilWBUqU
   name: Center for Disease Control
-  natl env datasets:
-  - recXu8OxyaFDYm1am
-  - rectOLAjL4oliWczc
-  - recFaS5iMKH1iNfXF
-  - recODvgUJopVCTTTC
-  - reclEXkFg4qRgF5hZ
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: recVzwV1Kc8lrucQf
   members:
@@ -1636,8 +1524,6 @@
   datasets:
   - recZg3fGxDmbe7UNP
   name: Can Manufacturers Institute
-  natl env datasets:
-  - recRMi4yHF9rkMiMf
 - airtable_createdTime: '2020-02-05T22:59:03.000Z'
   airtable_id: recWQoDTu3njZ7zoq
   members:
@@ -1840,8 +1726,6 @@
   datasets:
   - rec9VSLDwiFfkf2Gv
   name: Steel Manufacturers Association
-  natl env datasets:
-  - recVxI3XxZjuynLjP
 - airtable_createdTime: '2020-02-10T15:57:58.000Z'
   airtable_id: recbCIeBY22n5OZ3X
   name: True Impact
@@ -1879,8 +1763,6 @@
   members:
   - rec3T6dVh06apeMa4
   name: OpenDataPhilly
-  natl env datasets:
-  - rec8dxRq46eubRmKQ
 - airtable_createdTime: '2021-02-22T16:31:27.000Z'
   airtable_id: reccABE0aeW11P6wo
   name: SAS
@@ -1993,8 +1875,6 @@
   datasets:
   - reccQXF6uh1ySoJG0
   name: American Chemistry Council
-  natl env datasets:
-  - recCEZ9Da27Yd4rnO
 - airtable_createdTime: '2020-02-05T23:07:45.000Z'
   airtable_id: recemQp5luOwE1Ijk
   members:
@@ -2009,15 +1889,11 @@
   datasets:
   - rec0h9qnPjbJDtIiG
   - recTfcVsV7TT9AIEL
-  - recsE91MjNa3IL87u
-  - rec2FQ7PYh2LahgJ8
   - rec2VHDJ3plWYxAPm
   - reco4lJ8yKVLXcWrU
   members:
   - reccM0kjEoTUzb3aM
   name: U.S. Department of Energy
-  natl env datasets:
-  - recWjTdWRUWbN9ms3
 - airtable_createdTime: '2021-02-22T17:51:52.000Z'
   airtable_id: recfOvlEY9mHSLZqc
   name: Eco Bloc
@@ -2160,7 +2036,7 @@
 - airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: rechLH1Q2G0yomLqs
   datasets:
-  - recRubELnUWmGcJvn
+  - recGz99CD1Q2MHRxa
   members:
   - recfY5Eu7FBp3rIlH
   - rec1eJfHQJ8CL3De5
@@ -2244,6 +2120,8 @@
   - recJhloIMACHTtPxN
   - recFRMa9heg5AC5YE
   name: National Institute on Drug Abuse
+  sprints:
+  - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-25T21:33:37.000Z'
   airtable_id: reck8tBVVpiwxK7jk
   name: Composite Apps
@@ -2294,13 +2172,6 @@
   members:
   - recaaffJRiifSLPHx
   name: Ocean Conservancy
-  natl env datasets:
-  - recCAo8uFtHw8vupG
-- airtable_createdTime: '2021-07-19T21:48:58.000Z'
-  airtable_id: recknsuag98G6lsDc
-  members:
-  - recqVnck9CcEyjYsC
-  name: George Washington University
 - airtable_createdTime: '2020-02-07T17:49:16.000Z'
   airtable_id: recl44FahtZ22h009
   members:
@@ -2399,10 +2270,8 @@
   airtable_id: recnDoHewBvPIWrBO
   datasets:
   - rec7x7dVjKZilg4sX
-  - rec3c9q52tmDJHfpt
   - reclhCfxKbCdphZ3A
   - recCyzjEaDO1LZY3C
-  - rec9GyA8xhPtwyKmO
   - rec6SMczjpZvxGHo3
   - recjptxzJxPu7MNQW
   - recsXeiM0GqN0vUBF
@@ -2412,14 +2281,12 @@
   - recMSzbIbryb2UozF
   - rec2E1z5tWtWeLy2s
   - reczi3duvCF0SNaov
-  - recDD6slnlk2VjjRo
   - recTjTA3RnjxbTDsz
   - reczXBJIKGIYSUU1m
   - recmfbABSs2owLuAV
   - reckeBZhmXQOkwSJf
   - recpHk3JBknoqE6b3
   - rec5EfxxZyVcroB5U
-  - rec8GHolbvuF7uqaw
   - receIVzxdSe50do0k
   - recwrtGz1sOmidK9E
   - recqLSoA7IAxhPQjX
@@ -2556,8 +2423,6 @@
   datasets:
   - rece8msRdyrgdK6fm
   name: Association of Plastic Recyclers
-  natl env datasets:
-  - recSufZ581H6vqOWW
 - airtable_createdTime: '2020-02-04T21:14:57.000Z'
   airtable_id: recrmwme3zdCeHfqS
   members:
@@ -2661,8 +2526,6 @@
   datasets:
   - recG4Nq4VUB2lC2b6
   name: Glass Recycling Coalition
-  natl env datasets:
-  - recg9DMp33mEKDAP8
 - airtable_createdTime: '2020-02-10T15:51:32.000Z'
   airtable_id: recw5wWtMIDR9pMLV
   name: Spatial Networks
@@ -2704,9 +2567,6 @@
   - rec9CVvWU2Jbx29XH
   - recsRyhNeaMZuOMbq
   name: The Aluminum Association
-  natl env datasets:
-  - recaEQy5iqKKI8nIp
-  - recn8VFAXEG8uQE87
 - airtable_createdTime: '2020-02-10T16:04:10.000Z'
   airtable_id: recx3i2r2lzTf3AWj
   name: Flatiron School
@@ -2826,8 +2686,3 @@
   name: New America
   sprints:
   - rec5A5h9cq07ijoPk
-- airtable_createdTime: '2020-02-04T22:59:11.000Z'
-  airtable_id: reczSDD1SAO4CawZP
-  name: BridgePeople.us
-  sprints:
-  - rec4Y10emS9DtmBpT

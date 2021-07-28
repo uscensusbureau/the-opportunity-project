@@ -186,7 +186,7 @@ function displayFilteredProducts (pageNum = 0) {
       : ''
 
     const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) ||
-      prodProblems.includes(searchTerm) || productAgency.includes(searchTerm) || productDatasets.includes(searchTerm)
+      prodProblems.includes(searchTerm) || productAgency.includes(slugify(searchTerm)) || productDatasets.includes(searchTerm)
 
     const topicMatches = checkFilterMatch(productTopic, filterTopics)
     const yearMatches = checkFilterMatch(productYear, filterYears)

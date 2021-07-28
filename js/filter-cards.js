@@ -186,7 +186,7 @@ function displayFilteredProducts (pageNum = 0) {
       : ''
 
     const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) ||
-      prodProblems.includes(searchTerm) || productAgency.includes(searchTerm) || productDatasets.includes(searchTerm)
+      prodProblems.includes(searchTerm) || productAgency.includes(slugify(searchTerm)) || productDatasets.includes(searchTerm)
 
     const topicMatches = checkFilterMatch(productTopic, filterTopics)
     const yearMatches = checkFilterMatch(productYear, filterYears)
@@ -354,9 +354,13 @@ const closeModal = () => {
 $('.close').on('click', closeModal)
 
 $('.data-card-group').on('click', function (e) {
+  console.log('clicked')
   if (e.target) {
+    console.log('clicked')
     const closestCard = e.target.closest('li')
     if (closestCard) {
+      console.log(closestCard)
+
       for (const topicCard of document.getElementsByClassName('dkh__data-topic')) {
         topicCard.classList.remove('selected')
       }
@@ -368,24 +372,13 @@ $('.data-card-group').on('click', function (e) {
       $('#modal-' + dataCardId).removeClass('modal-inactive').addClass('modal-active')
 
       const datasets = document.getElementsByClassName('data-set-card')
-      if (dataCardId === 'all') {
-        for (let i = 0; i < datasets.length; i++) {
-          const dataName = datasets[i].getElementsByTagName('h2')[0].innerText
-          const dataNameSlugified = slugify(dataName.toLowerCase().replaceAll('*', '-').replace('(', '').replace(')', '').replace("'", '').replace('.', '-').replace(':', '').split(' ').join('-'))
-          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
-        }
-      } else {
-        for (let i = 0; i < datasets.length; i++) {
-          const dataName = datasets[i].getElementsByTagName('h2')[0].innerText
-          const dataNameSlugified = slugify(dataName.toLowerCase().replaceAll('*', '-').replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(' ').join('-'))
-          // dataNameSlugified = dataName.toLowerCase().replace('(', '').replace(')', '').replace(':', '').replace('.', '-').replace('u-s.', 'u-s-').replace(',', '-').replace('&', '').replace("'", '').split(' ').join('-')
-          const dataCategory = datasets[i].getElementsByTagName('h3')[0].innerText
-          const dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ')
-          if (dataCategoryArray.includes(dataCardId)) {
-            $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
-          } else {
-            $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
-          }
+      for (const card of datasets) {
+        const dataCategory = card.getElementsByTagName('h3')[0].innerText
+        const dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ')
+        if (dataCategoryArray.includes(dataCardId) || dataCardId === 'all') {
+          card.classList.remove('pc-inactive')
+        } else {
+          card.classList.add('pc-inactive')
         }
       }
     }

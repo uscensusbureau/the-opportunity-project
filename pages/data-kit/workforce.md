@@ -1,14 +1,13 @@
 ---
 title: Workforce
 permalink: /data/workforce/
-layout: default
+layout: dch/search
 class: datakit
+sprint-name: 'Workforce'
 
 lead:
  - Datasets on workers, businesses, jobs, credentials, and more, recommended by government experts for solving key workforce challenges.
 
 
+
 ---
-{% include hero.html %}
-<!-- {% include single-column-centered-photo-with-overlay.html %} -->
-{% include three-column-searchable.html %}

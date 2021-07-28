@@ -1,9 +1,12 @@
 
-If you participated in a TOP or TOPx Sprint or used our [Product Development Toolkit]({{site.baseurl}}/product-development/toolkit/) to create a technology solution in 2020 or 2021, you could be eligible for $250,000+ of monetary and in-kind awards.
 
-Submissions for the **Open Data for Good Grand Challenge 2021** open on **September 13, 2021 9:00 AM ET** and close **October 15, 2021 11:59 PM ET**. The full challenge rules are posted on challenge.gov.
+The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) is now live. The challenge will award at least $100,000 to teams who have created products using The Opportunity Project process.
+
+To prepare your submission and view the application timeline, visit the [prize challenge page]({{site.baseurl}}/prize-challenge). The TOP Team is leading informational webinars throughout the summer and fall to help you get ready.
+
+Submissions are open from September 13, 2021 – October 18, 2021.
+{: .margin-bottom-4 }
 
 [View the rules]({{ site.contacts.prize-challenge }}){: .margin-top-0 .btn-link .btn-link__primary-white }
+[View the timeline]({{site.baseurl}}/prize-challenge){: .margin-top-0 .btn-link .btn-link__secondary .margin-left-2 }
 {: .text-center }
-
-This summer is the perfect time to prepare your submission! Please email [topprize@census.gov](mailto: topprize@census.gov) with any questions, and check out our upcoming webinars below.

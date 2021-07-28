@@ -1,0 +1,60 @@
+{% assign item = include.data %}
+{% assign ps = "" | split: "," %}
+{% for statement in item.problem_statements %}
+  {% assign match = site.data.problem_statements | where: "airtable_id", statement | first %}
+  {% assign name = match.Name | slugify %}
+  {% assign ps = ps | push: name %}
+{% endfor %}
+
+<li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
+  <div class="usa-card__container datasets__card bg-primary-darker usa-dark-background">
+    <!-- <img class="external-link" src="{{site.baseurl}}/assets/img/icons/yellow-external-link.png" alt="External link"/> -->
+    <header class="usa-card__header">
+      <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">
+        {% unless item.hasMultipleLinks %}
+          <a href="{{item.link}}" target="_blank"
+            class="usa-link" aria-label="{{ item.name }}">                
+            {{ item.name }}
+          </a>
+        {% else %}
+          {{ item.name }}
+        {% endunless %}
+      </h2>
+      <h3 class="pc-inactive dataset__ps">
+        {% for statement in ps %}{{ statement }} {% endfor %}
+      </h3>
+      <p class="dataset__org font-mono-xs text-white">by {{ item.organization_text | upcase }}</p>
+    </header>
+    <div class="usa-card__body">
+      <p class="font-sans-xs text-white">{{ item.description}}</p>
+      {% if item.hasMultipleLinks %}
+        <p>There are mutiple links associated with this data set. Please refer to the list below: </p>
+        {% assign listed-links = item.link | split: "- " | slice: 1, 100 %}
+        <ul>
+        {% for listed-link in listed-links %}
+          <li>
+            {{ listed-link | markdownify }}
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    {% if item.data_stewards %}
+      <div class="usa-card__footer">
+        <h3 class="text-medium margin-bottom-05">Data Steward{% if item.data_stewards.size > 1 %}s{% endif %}:</h3>
+        <ul class="padding-left-3">
+          {% for steward_id in item.data_stewards %}
+            {% assign steward = site.data.people | where: "airtable_id", steward_id | first %}
+            <li>
+              {{ steward.name | strip }}, 
+              <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" 
+              class="usa-link">
+                {{ steward.email }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+</li>

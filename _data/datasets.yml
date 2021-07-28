@@ -1,0 +1,4492 @@
+- airtable_createdTime: '2020-02-10T18:06:54.000Z'
+  airtable_id: rec09QpTDC3wapKXv
+  description: This interactive map shows data over a five-year period (2012-2019)
+    and does not include Veterans' personal information. The posted information shows
+    opioid dispensing rates for each facility and how much those rates have changed
+    over time. It is important to note that because the needs and conditions of Veterans
+    may be different at each facility, the rates of the use of opioids may also be
+    different for that reason and can't be compared.
+  link: https://www.oit.va.gov/reports/opioid/index.cfm?
+  name: Opioid Prescribing Data
+  organization_text: U.S. Department of Veterans Affairs
+  organizations:
+  - recxPVJVs1W4haKxp
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec0EuLirFTikoiVR
+  data_stewards:
+  - reccZ2t5M10wRIKNy
+  description: Charity Navigator, charity assessment organization that evaluates charitable
+    organizations in the U.S., has been scraped for non-profit organizations that
+    work with recently resettled refugees
+  link: https://gist.githubusercontent.com/nicole-smith11/cf4d288ed69c42583c5013460a9ef294/raw/3e2e5c61d7816f086599d89ec800a801d9261c7e/U4U_CharityNavigator.csv
+  name: Charity Navigator
+  organization_text: USA for United Nations High Commissioner for Refugees
+  organizations:
+  - reccYXaD7aLLyyBqy
+  problem_statements:
+  - recDnQq3aDp59z637
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2020-02-10T18:28:42.000Z'
+  airtable_id: rec0KtKpasrNEpAY6
+  description: 'The National Agriculture Imagery Program (NAIP) acquires aerial imagery
+    during the agricultural growing seasons in the continental U.S. A primary goal
+    of the NAIP program is to make digital ortho photography available to governmental
+    agencies and the public within a year of acquisition. '
+  link: https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/
+  name: National Agriculture Imagery Program
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - rec55VBughwHjCFWp
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec0VJMMzBMScD1Jd
+  name: Census
+  products:
+  - rectcKAi8zsdwiqjg
+  - reclF9Mn2Z6aMqzJk
+  - recxNb6AkmDER2KXh
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec0W7MWY48tX38Q9
+  data_stewards:
+  - recmHH4LmuK7VPxla
+  description: Nearly 20 collections of public-use data for topics including U.S.
+    births, deaths, environmental exposures, and population estimates primarily on
+    compiled annually, as granular as county-level
+  link: https://wonder.cdc.gov/
+  name: CDC Health Data (WONDER)
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec0cbaPwGIEvD1jS
+  name: FEMA Monthly Disaster Spending Reports
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: rec0h9qnPjbJDtIiG
+  data_stewards:
+  - recOLyruIacAM8J0p
+  - recr2SlmaqEdhBrGM
+  - reccM0kjEoTUzb3aM
+  description: Includes data on energy infrastructure including power lines, power
+    plants, coal mines, etc.
+  link: https://www.eia.gov/state/maps.php?src=home-f3
+  name: Location of Energy Infrastructure
+  organization_text: U.S. Department of Energy
+  organizations:
+  - recepxMBIQcZROaVw
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - recn0ONeaB72GbD8z
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-19T21:42:45.000Z'
+  airtable_id: rec0l2fRhMLVZEFmy
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Latest Economic Census data by place.
+  link: https://www.census.gov/programs-surveys/economic-census/data.html
+  name: Economic Census Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-19T21:32:27.000Z'
+  airtable_id: rec0u5cS07ULLz4GX
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Annual statistics on US businesses at ZIP Code level. Includes number
+    of establishments, employment, first quarter payroll, and annual payroll. (Tip&#58;
+    this data only covers employer businesses with 1 or more paid employees, and does
+    not cover self employed people, which affects its use for capturing start-ups.)
+  link: https://www.census.gov/data/developers/data-sets/cbp-nonemp-zbp/zbp-api.html
+  name: Zip Code Business Patterns
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec0vXFnbyQLE68Z9
+  name: Census Bureau ACS
+  products:
+  - rec5TopxenNeIOsJO
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec1Hpibbv05WVfZ0
+  description: Online tool that increases interaction and connectivity to plastic
+    pollution by allowing users to report, rate and map trash hot-spots in their waterways
+    and coastlines via mobile devices and a web-based platform
+  link: https://www.oceanrecov.org/global-ocean-alert-system/solution.html
+  name: Global Alert - Floating Trash
+  organization_text: Ocean Recovery Alliance
+  organizations:
+  - recJDN5DAPiSmi955
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec1ZXbrWRpKXVxcd
+  data_stewards:
+  - recW64TxFme1NBXef
+  - rec0aGJ5QGJLkM0Pg
+  description: Current and forecast air quality maps and data for more than 500 cities
+    across the U.S. available through map view showing U.S. Air Quality Index (AQI),
+    a color-coded index designed to communicate whether air quality is healthy or
+    unhealthy for you
+  link: https://www.airnow.gov/
+  name: AirNow
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T18:07:17.000Z'
+  airtable_id: rec1ZY6omdfIS5JQX
+  description: NDEWS reports drug trends across the U.S. as new issues emerge
+  link: https://www.drugabuse.gov/about-nida/organization/workgroups-interest-groups-consortia/community-epidemiology-work-group-cewg
+  name: National Drug Early Warning System (NDEWS)
+  organization_text: National Institute on Drug Abuse
+  organizations:
+  - recjpBB18sFzmVNWl
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec1whWFRKHs6KhQJ
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: EPA, in collaboration with Scholastic, has created a new book, "The
+    Magic School Bus Gets Cleaned Up," which teaches readers about pollution emitted
+    from diesel school buses as well as ways to reduce emissions health risks.
+  link: https://www.epa.gov/dera/magic-school-bus
+  name: The Magic School Bus Gets Cleaned Up
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T18:08:03.000Z'
+  airtable_id: rec1xeRFWNbBLXzWi
+  description: "The National Emergency Medical Services Information System (NEMSIS)\
+    \ is the national database that is used to store EMS data from the U.S. States\
+    \ and Territories. NEMSIS is a universal standard for how patient care information\
+    \ resulting from an emergency 911 call for assistance is collected.   NEMSIS is\
+    \ a collaborative system to improve patient care through the standardization,\
+    \ aggregation, and utilization of point of care EMS data at a local, state and\
+    \ national level. NEMSIS is a product of NHTSA\u2019s Office of EMS and in collaboration\
+    \ with the University of Utah is the host of the Technical Assistance Center (TAC)."
+  link: https://nemsis.org/
+  name: National EMS Information System (NEMSIS)
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec2Lyt7Ex3VygOzr
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: Information needed to run an effective idling reduction campaign at
+    a school to reduce student exposure to toxic vehicle exhaust. This includes student-run
+    science or community involvement projects, which offer students an opportunity
+    to run a public service campaign while expanding their science and math skills
+  link: https://www.epa.gov/schools/idle-free-schools-toolkit-healthy-school-environment#:~:text=What%20is%20the%20Idle%2DFree,exposure%20to%20toxic%20vehicle%20exhaust.
+  name: Idle-Free Schools Toolkit for a Healthy School Environment
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec2VHDJ3plWYxAPm
+  data_stewards:
+  - recOLyruIacAM8J0p
+  description: Open energy datasets coming from the US Department of Energy and its
+    national laboratories
+  link: https://openei.org/wiki/Data
+  name: Open Energy Information
+  organization_text: U.S. Department of Energy
+  organizations:
+  - recepxMBIQcZROaVw
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - recfwUvvptMpf0PLj
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: rec2Vr99TM35xVZfR
+  description: Includes data on Regional Innovation Clusters, state licenses and permits,
+    Procurement Technical Assistance Centers, and more.
+  link: https://catalog.data.gov/dataset?q=SBA
+  name: Small Business Administration Datasets
+  organization_text: Small Business Administration
+  organizations:
+  - rech0xcl8a3PFLxhA
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:32:00.000Z'
+  airtable_id: rec2Y79dzViH6NDfS
+  description: Performance.gov is a window into Federal agencies' efforts to deliver
+    a smarter, leaner, and more effective government. The site informs the public
+    of the progress underway to cut waste, streamline government, and improve performance.
+  link: https://www.performance.gov/
+  name: Performance.gov
+  organization_text: Office of Management and Budget
+  organizations:
+  - rec9YorLrBEvA0vj4
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec2ZrokEiGfS2But
+  name: Plastics Markets
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: rec2jAFENLjEPUYdp
+  data_stewards:
+  - recmjkUuGFC0Riqng
+  - recTQSv3vwggEenrX
+  description: Web services for data including HUD, USDA, and Census.
+  link: http://hudgis-hud.opendata.arcgis.com/
+  name: HUD Enterprise GIS
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec33Lhf2RbQSTHWv
+  data_stewards:
+  - rectC4U2Fr1ltKN8D
+  description: The Rural Development Innovation Center applies cutting-edge techniques
+    to provide innovative products and services to its rural customers. The Center's
+    website offers tools and resources about best practices for rural economic development
+  link: https://www.rd.usda.gov/about-rd/offices/rural-development-innovation-center
+  name: USDA Rural Development Innovation Center Data
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec3547jwlSUITqmS
+  name: Attitudes
+  products:
+  - recB5iDMet16XnjXe
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec3eN0uMx9yxVU2Z
+  name: US EPA
+  products:
+  - rec6IC6El0nNjSiCA
+- airtable_createdTime: '2020-02-10T17:49:50.000Z'
+  airtable_id: rec3jMYq6fxHkL5uT
+  link: https://earthquake.usgs.gov/
+  name: USGS Earthquake Data
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - recqL51kCcBL6go3m
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T17:15:07.000Z'
+  airtable_id: rec4BUUNSGAm5OC3O
+  name: The Quarterly Census of Employment and Wages (QCEW)
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec4THtncLwQX0nsV
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Monthly indicators including manufacturing shipments and inventory,
+    construction spending, retail inventories, rental vacany rates, etc.
+  link: https://www.census.gov/economic-indicators/
+  name: Monthly Industry Indicators
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - recfwUvvptMpf0PLj
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec4haQmtERVpiWlW
+  name: Department of Health and Human Services; City of Philadelphia; Office of Management
+    and Budget; Department of Housing and Urban Development; Southeastern Pennsylvania
+    Transportation Authority; New Jersey Transit; State of Delaware
+  products:
+  - recXOkjSet73HILtM
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec4lJmGkCAq2jlUL
+  description: A crowdsourced database of nonprofits and social service agencies across
+    the United States available to assist recently resettled refugees and families.
+    This information is compiled by Hello Neighbor but crowdsourced from families,
+    refugees, communities, and people across the country
+  link: https://www.helloneighbor.io/database
+  name: Hello Neighbor
+  organization_text: Hello Neighbor
+  organizations:
+  - reca1uqBuCaLkRdOl
+  problem_statements:
+  - recDnQq3aDp59z637
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-05-10T20:31:18.000Z'
+  airtable_id: rec50WeyIscjo2w9L
+  name: LOINC formats required by states
+  products:
+  - reciaW1ybfwaIF0dI
+  - recFtYiCXRMvq3IaT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec542Y70iqOGJR3y
+  name: TIDES)'
+  products:
+  - recFOmdpx7Q6uE0Xl
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec55zMhxRFN83MST
+  name: FEMA Annual Performance Report
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec5SWPCMGBHCfknf
+  name: HUD Opportunity Zones
+  products:
+  - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2020-02-10T20:22:54.000Z'
+  airtable_id: rec5WLRpJgDY5zxYs
+  data_stewards:
+  - recn4ngjrz3psStXP
+  description: These raw data sets contain Point-in-Time (PIT) estimates and national
+    PIT estimates of homelessness as well as national estimates of homelessness by
+    state and estimates of chronic homelessness from 2007 - 2019.
+  link: https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+  name: Homeless Point-in-Time (PIT) and Housing Inventory Count (HIC)
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec5eOCFktpi4EsQt
+  name: Census County Population by Characteristics
+  products:
+  - recSywRIyeQEsXwCq
+- airtable_createdTime: '2021-07-19T21:46:52.000Z'
+  airtable_id: rec5fYKQjgnkqmGO8
+  description: Resources about protecting intellectual property, including listings
+    for pro bono attorney representation.
+  link: https://www.uspto.gov/learning-and-resources/inventors-entrepreneurs-resources
+  name: Inventor and Entrepreneur Resources
+  organization_text: U.S. Patent and Trademark Office
+  organizations:
+  - rec4gJ7REeyALBnSA
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec5fyY1W3yh1AKUj
+  name: "Small Business Administration \u2018Find Local Assistance\u2019 resource"
+  products:
+  - recWyKy6qT8GX7jT8
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec5iD848NvfTD0fo
+  name: Census Bureau American Community Survey
+  products:
+  - reczVGhvSjjSjcHRp
+- airtable_createdTime: '2021-07-19T22:05:51.000Z'
+  airtable_id: rec5qniIwW1sDhxkf
+  description: Data on roads covering the entire United States.
+  link: ftp://ftp2.census.gov/geo/tiger/TIGER2017/ROADS/
+  name: TIGER Line Roads Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  - rec6yDEfMyReqsMcl
+  - rec55VBughwHjCFWp
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec5wwWZi6AGylEpA
+  name: EPA Idle-Free Schools Toolkit
+  products:
+  - receafMaV7aRWkMwG
+- airtable_createdTime: '2021-07-19T21:50:50.000Z'
+  airtable_id: rec5xTy9sobHJBMUJ
+  description: Data on R&D, the STEM workforce, the condition of STEM education, and
+    US competitiveness in science, engineering, technology, and R&D. Statistical data
+    available as preformatted interactive tables, data tools to generate your own
+    tables, and microdata files.
+  link: https://www.nsf.gov/statistics/data.cfm
+  name: National Center for Science and Engineering Statistics
+  organization_text: National Science Foundation
+  organizations:
+  - recxIMtV2v2veuzJV
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec6EFLOcgJFqtnL5
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: National scale assessment to examine current and future emissions from
+    a variety of diesel sources operating in port areas, explore a range of available
+    strategies to reduce emissions, provide an assessment tool, and inform priorities
+    and decisions for port areas
+  link: https://www.epa.gov/ports-initiative/national-port-strategy-assessment-reducing-air-pollution-and-greenhouse-gases-us
+  name: 'National Port Strategy Assessment: Reducing Air Pollution and Greenhouse
+    Gases at U.S. Ports'
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec6R6jwDJdf7JAXY
+  name: Census Bureau; USASpending.gov
+  products:
+  - recKbaLyzNV2xVyxV
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec6R9h3VgRsgTbC2
+  name: Illinois Recycling Association
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2020-02-10T18:07:56.000Z'
+  airtable_id: rec6SMczjpZvxGHo3
+  description: Produces monthly and annual employment, unemployment, and labor force
+    data for Census regions and divisions, States, counties, metropolitan areas, and
+    many cities, by place of residence.
+  link: https://www.bls.gov/lau/
+  name: Local Area Unemployment Statistics (LAUS)
+  organization_text: U.S. Department of Labor
+  organizations:
+  - recnDoHewBvPIWrBO
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec6V898Ow4umbTtS
+  name: American Community Survey; Proprietary enterprise level marketing systems
+    data; survey data
+  products:
+  - recb1pW6mpE2vl6tp
+- airtable_createdTime: '2021-05-10T20:31:07.000Z'
+  airtable_id: rec6XFXcapkOsz9DY
+  name: FHIR
+  products:
+  - reciaW1ybfwaIF0dI
+  - recj9dZ7MMUnxFPXi
+  - recFtYiCXRMvq3IaT
+- airtable_createdTime: '2020-02-10T17:28:18.000Z'
+  airtable_id: rec6Y08bFv0xKxPLW
+  name: Job postings
+  problem_statements:
+  - recLROAotmnLsG3Bw
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-19T21:38:16.000Z'
+  airtable_id: rec6iiVcmH91bxr5i
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Annual data on employer businesses (e.g., no. of businesses, employment,
+    payroll) at the state, county, metro area, and ZIP Code levels by industry.
+  link: https://www.census.gov/programs-surveys/cbp.html
+  name: County Business Patterns
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec6iuu5ywONvQu9G
+  name: Census Bureau Response Rate
+  products:
+  - recZn66weHUm3gq49
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec6lZR0mptBNBNLj
+  description: Data Explorer enables easy tracking of metrics about computer and Internet
+    use over time. Simply choose a metric of interest from the drop-down menu. The
+    default Map mode depicts percentages by state, while Chart mode allows metrics
+    to be broken down by demographics and viewed as either percentages of the population
+    or estimated numbers of people or households
+  link: https://www.ntia.doc.gov/data/digital-nation-data-explorer#sel=internetUser&disp=map
+  name: Digital Nation Data Explorer
+  organization_text: National Telecommunications and Information Administration
+  organizations:
+  - recO4B94nbnjnpzgn
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2020-02-10T17:28:35.000Z'
+  airtable_id: rec6oTMj7bSfEjFfi
+  name: Census Salary data
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec6xXLK2MnjolW6R
+  data_stewards:
+  - recEQZfkV3R3dHwdL
+  - recfyY8iII9CRWylu
+  description: "The EnVision Center Demonstration supports the delivery of integrated\
+    \ services from philanthropic organizations, private industry, and all levels\
+    \ of government thereby increasing the opportunity for low-income families to\
+    \ achieve self-sufficiency through \u201Cone-stop\u201D or \u201Csingle-site\u201D\
+    \ service centers"
+  link: https://www.huduser.gov/portal/envisioncenters/home.html
+  name: HUD EnVision Centers
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec6y7XgL9Y6zbB4i
+  name: The Recycling Partnership
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec6yuQaMr71EvHg0
+  name: DOE College Scorecard
+  products:
+  - recSywRIyeQEsXwCq
+- airtable_createdTime: '2020-02-10T20:22:37.000Z'
+  airtable_id: rec75V5OtKd4zOkma
+  data_stewards:
+  - recmVKGxlh5J0NaNP
+  description: Audience segments are groups of census tracts with similar predicted
+    self-response behavior and similar demographic variables associated with self-response.
+    Final audience segments were selected for their distinctive patterns of media
+    consumption and distribution of census mindsets. The eight 2020 Census audience
+    segments in the U.S. range from highly likely to respond to the census to unlikely
+    to respond.
+  link: https://www.census.gov/programs-surveys/decennial-census/2020-census/research-testing/communications-research/2020-tract-segments.html
+  name: Audience Segment Descriptions
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec77NwWipYqzLfh5
+  name: IRS SOI Tax Stats
+  products:
+  - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2021-07-20T13:41:27.000Z'
+  airtable_id: rec7LK46DHnDNtqhO
+  data_stewards:
+  - recGsr0wmYphkRN1f
+  description: Information on median family incomes and income limits for HUD programs,
+    as well as microdata from research initiatives on topics such as housing discrimination,
+    the HUD-insured multifamily housing stock, and the public housing population
+  link: https://www.huduser.gov/portal/pdrdatas_landing.html
+  name: HUD Data Portal
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec7bnuqwVugVXeUw
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: Data from Earth Challenge 2020 Plastics mobile widget. Allows anyone
+    to take a picture of plastic pollution anywhere its found wherever they are in
+    the world.
+  hasMultipleLinks: true
+  link: '- [Plastics Mobile Widget Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/-data-earth-challenge-mobile-app-plastic-pollution)-
+    [Data Dictionary](https://portal-data.cscloud.host/documentation)'
+  name: 'Earth Challenge 2020 Plastics Mobile  Widget Data '
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-05T22:06:22.000Z'
+  airtable_id: rec7x7dVjKZilg4sX
+  data_stewards:
+  - recUcxq9GIA9kFkIl
+  - reczi3duvCF0SNaov
+  description: Employment and wage estimates by occupation based on a survey of business
+    establishments. Data are available for all industries combined for the nation;
+    states, the District of Columbia, and selected U.S. territories; and metropolitan
+    and nonmetropolitan areas. National data by industry or by public/private sector
+    ownership are also available.
+  link: https://www.bls.gov/oes/tables.htm
+  name: Occupational Employment Statistics
+  organization_text: U.S. Department of Labor
+  organizations:
+  - recnDoHewBvPIWrBO
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: rec83Ey2MVezICJV6
+  data_stewards:
+  - recDnaUEWPx83uyie
+  description: "The National Telecommunications and Information Administration\u2019\
+    s (NTIA) BroadbandUSA program promotes innovation and economic growth by supporting\
+    \ efforts to expand broadband access and meaningful use across America"
+  link: https://broadbandusa.ntia.doc.gov/
+  name: Broadband USA
+  organization_text: National Telecommunications and Information Administration
+  organizations:
+  - recO4B94nbnjnpzgn
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec8D6bIszD13a7xG
+  name: Census Bureau; Civil Rights Data Collection Program; National Center for Education
+    Statistics; Department of Education
+  products:
+  - recZkztX2XjSfcDzO
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec8Y7PaVM8rmSDVy
+  name: Charity Navigator
+  products:
+  - rec1WFJn1OGTTGrZi
+- airtable_createdTime: '2020-02-10T18:07:33.000Z'
+  airtable_id: rec8bjZCUKxRdCq88
+  description: A nationwide public health surveillance system that will improve emergency
+    department monitoring of substance use crises, including those related to opioids
+  link: http://www.samhsa.gov/data/data-we-collect/dawn-drug-abuse-warning-network
+  name: Drug Abuse Warning Network (DAWN)
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec9CVvWU2Jbx29XH
+  description: Annual and monthly reports with statistics and business information
+    on the North American aluminum industry
+  link: https://www.aluminum.org/statistics
+  name: Aluminum Association Industry Statistics
+  organization_text: The Aluminum Association
+  organizations:
+  - recx2kGBvRULDVbFA
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T17:28:23.000Z'
+  airtable_id: rec9FtWlSDJFdzarC
+  name: Registered Apprenticeship Listings
+  problem_statements:
+  - recLROAotmnLsG3Bw
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-10T17:25:38.000Z'
+  airtable_id: rec9OH5d07REJ9mFW
+  description: Data on assessments and graduation rates
+  name: EDFacts
+  organization_text: U.S. Department of Education
+  organizations:
+  - recBBbVkCKQN52rWM
+  problem_statements:
+  - rec4jiLMOGoECbVXB
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec9RadotsGHujjAg
+  description: Provides a map of beach litter data collection events organised by
+    MLW communities, as well as overview graphs and tables
+  link: https://www.eea.europa.eu/themes/water/europes-seas-and-coasts/assessments/marine-litterwatch/data-and-results
+  name: 'Source Data: Marine Litter Watch'
+  organization_text: European Environment Agency
+  organizations:
+  - recExbMGHZqIoJUTs
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec9VSLDwiFfkf2Gv
+  description: Monthly and annual shipment and production data on the national steel
+    industry
+  link: https://www.steel.org/industry-data
+  name: Steel Industry Data
+  organization_text: Steel Manufacturers Association
+  organizations:
+  - recb7pZpE7hcBOJUf
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T20:22:02.000Z'
+  airtable_id: rec9YftSL69DGzUW5
+  data_stewards:
+  - recmVKGxlh5J0NaNP
+  description: This site details how the Census Bureau plans to engage, educate, and
+    ultimately count an increasingly diverse and growing population.
+  link: https://www.census.gov/programs-surveys/decennial-census/2020-census.html
+  name: 2020 Census Research, Operational Plans, and Oversight
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rec9uesU1D98puAio
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: A cleaned, curated and integrated global plastics pollution dataset
+    sourced from the European Environmental Agencies Marine Litter Watch (MLW) dataset.
+    This data is one of the three datasets used in the Earth Challenge 2020 Integrated
+    Oceans Plastics Dataset.
+  hasMultipleLinks: true
+  link: '- [Integrated MLW Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-marine-litter-watch-mlw-plastic-pollution)-
+    [All Integrated Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)'
+  name: 'Integrated Data: Marine Litter Watch'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rec9uy0Oekz0vE6KS
+  name: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
+    Survey; Internal Revenue Service
+  products:
+  - recFK3C3oDrmnIwA3
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recAI5qEyRhoOjmBd
+  name: Grants.gov database
+  products:
+  - rec0XnfpVCBwdQJAg
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recAV7kI7sdWS5dBY
+  name: US Census Bureau; Local emergency response data
+  products:
+  - recnSpNUcyeoVi28K
+- airtable_createdTime: '2021-07-19T22:03:19.000Z'
+  airtable_id: recAXzAxWMJcMuNgI
+  description: Individual Assistance (IA) is provided by FEMA to individuals and families
+    who have sustained losses due to disasters.
+  link: https://www.fema.gov/media-library/assets/documents/132213
+  name: Individual Assistance Data
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recAcRDjbYT5MLe5R
+  description: National data on CO2 emissions and fuel economy based on production
+    volumes delivered for sale in the U.S. by model year, from 1975-2019
+  link: https://www.epa.gov/automotive-trends/explore-automotive-trends-data
+  name: Automotive Trends Data
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recAt7EBpiM9uUaWG
+  name: Census Bureau
+  products:
+  - recvDZEaGFFEtnR4l
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recAyYfWeVnkMgfD8
+  name: Census Bureau; US Bureau of Labor Statistics; New York State Departments of
+    Health and of Agriculture and Markets; Food Bank for New York City and the NYU
+    Furman Center
+  products:
+  - recHYa0ZILEN3fRFa
+- airtable_createdTime: '2020-02-10T17:42:03.000Z'
+  airtable_id: recB6YofDa7Sqr4Gj
+  name: Federal Audit Clearing House
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recBI0V3O5BTzu2DR
+  description: Summarizes research findings on best practices for building roadside
+    vegetative barriers to improve air quality
+  link: https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=321772&simpleSearch=1&searchAll=Recommendations+for+constructing+roadside+vegetation+barriers+to+improve+near+road+air+quality
+  name: Recommendations for Constructing Roadside Vegetation Barriers to Improve Near
+    road Air quality
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recBhF3rKqfTg39Pk
+  name: "Public Use Microdata Sample of the Census Bureau\u2019s American Community\
+    \ Survey"
+  products:
+  - recro3E8gXTIQ5IHO
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recC54vbIb7SgNIpG
+  name: BLS
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recC9H3fQa1hhsBdq
+  data_stewards:
+  - recvxImejUy1I9lM4
+  description: 124 indicators including asthma deaths and prevention that allow states,
+    territories and large metropolitan areas to uniformly define, collect, and report
+    chronic disease data
+  link: https://chronicdata.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators-CDI-/g4ie-h725/data
+  name: U.S. Chronic Disease Indicators (CDI)
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recCBVjvWCVts8fAm
+  name: Earth Challenge 2020 Consolidated Data
+  products:
+  - recJjNKdphBCWsER0
+- airtable_createdTime: '2020-02-10T19:48:20.000Z'
+  airtable_id: recCDGvMOgVvMQwSm
+  description: 'This spreadsheet was updated December 14, 2018, to include two additional
+    census tracts in Puerto Rico that, based on 2012-2016 American Community Survey
+    data, meet the statutory criteria for a Low-Income Community and are deemed as
+    designated QOZs. '
+  hideFromSite: true
+  link: https://www.cdfifund.gov/opportunity-zones
+  name: Opportunity Zone Status
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recgPNji2KEknNBA5
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:32:25.000Z'
+  airtable_id: recCFygkEouYKpQpn
+  name: GPS data
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recCOZKSvbzeyHcFX
+  name: Census Bureau; Federal Bureau of Investigation; Centers for Disease Control
+    and Prevention
+  products:
+  - recMyCXtD901elAkR
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recChToOuBxW1cfUb
+  name: North American Industry Classification (NACIS) codes; National Certifications
+    Table; Department of Labor O*NET Database
+  products:
+  - recleNeiLRdZwSdLt
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recCuCOwYU4O8ghYr
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: Provides K-12 students and educators with access to quality homework
+    resources, lesson plans and project ideas for learning and teaching about the
+    environment
+  link: https://www.epa.gov/students
+  name: Learning and Teaching about the Environment Web Resource
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recCyzjEaDO1LZY3C
+  description: 'This dataset contains information on all available occupations in
+    Registered Apprenticeships. '
+  hideFromSite: true
+  link: https://www.doleta.gov/OA/occupations.cfm
+  name: Apprenticeship Available Occupations
+  organization_text: U.S. Department of Labor
+  organizations:
+  - recnDoHewBvPIWrBO
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:21:50.000Z'
+  airtable_id: recDLNFOXGAunBqCJ
+  name: Program for International Student Assessment (PISA)
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recDkZv2vOJicXTTg
+  description: A one-stop shop for U.S. laboratory information (laboratories, available
+    technologies, funding, programs, facilities and more).
+  link: https://www.federallabs.org/flcbusiness
+  name: Federal Laboratory Consortium (FLC) Data
+  organization_text: Federal Laboratory Consortium for Technology Transfer
+  organizations:
+  - recOu5jGIOeoHNcps
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recEA50nuhhvpgw0W
+  name: Hospitals
+  products:
+  - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recEhddUqzLwngJGe
+  description: links to state and local waste characterization studies, including
+    information on municipal solid waste (MSW) generation, recycling, combustion with
+    energy recovery and landfilling
+  link: https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/advancing-sustainable-materials-management-0#USState
+  name: U.S. State and Local Waste and Materials Characterization Reports
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recElbo8uA6d7Me48
+  data_stewards:
+  - recT1NhK0Q0io32cm
+  description: May be used to locate rental housing supported by the LIHTC and having
+    the applicable program rent and income restrictions
+  link: https://lihtc.huduser.gov/
+  name: Low-Income Housing Tax Credit Database
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recF98kOtSiE6hJas
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: The Citizen Science Cloud is a place where anyone can share and access
+    open, interoperable, citizen science data and related applications and leverages
+    the power of GIS. On the CS Cloud, you can expect to find citizen science data
+    on various focus areas including information on ocean plastics datasets.
+  hasMultipleLinks: true
+  link: '- [Citizen Science Cloud](https://cscloud-ec2020.opendata.arcgis.com/)- [Citizen
+    Science Cloud, Plastics Dataset Page](https://cscloud-ec2020.opendata.arcgis.com/search?tags=plastics%2Cplastic)'
+  name: 'Earth Challenge: Citizen Science Cloud: Plastics Page'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recFLgsu3kZnW7oIu
+  name: DC Department of Human Services
+  products:
+  - rec9slEDBdpxTIC3J
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recFc8YR8CvBjpYmn
+  name: Earth Challenge 2020 app
+  products:
+  - recJms1glRzSmKxtR
+- airtable_createdTime: '2021-07-20T13:41:22.000Z'
+  airtable_id: recFj4QjpdbkttkPv
+  data_stewards:
+  - recGsr0wmYphkRN1f
+  description: Basic demographic and program data on HUD assisted households
+  link: https://www.huduser.gov/portal/datasets/assthsg.html
+  name: Picture of Subsidized Households
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recFm5BYRNFC817gp
+  name: EPA Facts and Figures about Materials
+  products:
+  - rec0sJ3TvQo6mykBz
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recFmVA8iwxXjGsAs
+  data_stewards:
+  - recGWCjzJBwAycyap
+  description: Software developer resources for Census Bureau Data.
+  link: https://www.census.gov/developers/
+  name: API & Developer Resources for Census Bureau Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+- airtable_createdTime: '2020-02-05T22:05:09.000Z'
+  airtable_id: recFrLRheWNuusPVD
+  data_stewards:
+  - recUcxq9GIA9kFkIl
+  description: Provides information on what workers do; the work environment; education,
+    training; pay; the job outlook; and more for 325 occupational profiles.
+  link: https://www.bls.gov/ooh/
+  name: Occupational Outlook Handbook
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T18:07:22.000Z'
+  airtable_id: recFthov3GtdY9qD8
+  description: Provides up-to-date information on tobacco, alcohol, and drug use,
+    mental health and other health-related issues in the United States.
+  link: https://nsduhweb.rti.org/respweb/homepage.cfm
+  name: National Survey on Drug Use and Health (NSDUH)
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recG12uOFWdhXeIaB
+  data_stewards:
+  - recWEkGW4C3CG453t
+  - rec3ByZIcTcu9X4Xi
+  description: "Annual report on whether advanced telecommunications capability \u201C\
+    is being deployed to all Americans in a reasonable and timely fashion\u201D"
+  link: https://www.fcc.gov/reports-research/reports/broadband-progress-reports/2018-broadband-deployment-report
+  name: 2018 FCC Broadband Deployment Report
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - rec2cDmW6ubg6Wco0
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recG4Nq4VUB2lC2b6
+  description: Allows users to search by location to find the nearest material recovery
+    facility (MRF), glass processor, end-market or large city drop-off locations that
+    accept glass
+  link: https://www.glassrecycles.org/glassmap
+  name: 'Glass Recycling: End Markets, MRFs, and Drop-off Facilities'
+  organization_text: Glass Recycling Coalition
+  organizations:
+  - recvcnsVv2y0Z2ESj
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recG5RVVgPVI4jL9O
+  description: A comprehensive body of data on the labor force, employment, unemployment,
+    persons not in the labor force, hours of work, earnings, and other demographic
+    and labor force characteristics
+  link: https://www.bls.gov/cps/
+  name: 'Supplemental: Current Population Survey'
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recGTmLrGu4XStmFe
+  data_stewards:
+  - recZU4opwIrZqSGqp
+  description: "Provides information on HHS\u2019s progress toward achieving the goals\
+    \ and objectives described in the HHS Strategic Plan and Annual Performance Plan"
+  link: https://www.hhs.gov/about/budget/fy2019/performance/index.html
+  name: HHS Annual Performance Report
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recGbucuzzju5pbZc
+  name: Federal disaster declaration and protective actions data
+  products:
+  - recXgUtGqv4vnOFKA
+- airtable_createdTime: '2020-02-10T19:57:29.000Z'
+  airtable_id: recGjlRED5A80yRwg
+  description: Known informally as the labor report, the Employment Situation Report
+    is released by the Bureau of Labor Statistics. It summarizes total non-farm payroll
+    employment in the United States.
+  hideFromSite: true
+  link: https://www.bls.gov/news.release/empsit.nr0.htm
+  name: Employment Situation Summary
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recGocS6ghzZKV9Jc
+  name: BLS Occupational Employment Statistics
+  products:
+  - reca9CUrcr39DStIc
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recGz99CD1Q2MHRxa
+  data_stewards:
+  - rec1eJfHQJ8CL3De5
+  - recTW8lW5gxIfrthY
+  description: Data items for any state, metro, micro, district or county in the nation,
+    including Opportunity Zones, detailed demographic information, innovation capacity
+    etc
+  link: http://www.statsamerica.org/
+  name: Stats America
+  organization_text: U.S. Economic Development Administration, Indiana University
+  organizations:
+  - recNeUjWAHgq84dsR
+  - rechLH1Q2G0yomLqs
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recH9vKhftk4FCNsp
+  data_stewards:
+  - recfnjb85oXlSzlzL
+  - rec0MQ4fL2OggNZ9D
+  description: Refugee arrival data by city and state, with information on age, gender,
+    ethnicity, religion, language, and education
+  link: https://ireports.wrapsnet.org/
+  name: WRAPSNET
+  organization_text: U.S. Department of State
+  organizations:
+  - recj1G6ZElwqUBXSu
+  problem_statements:
+  - recDnQq3aDp59z637
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recHOUBPkUDcaiw3x
+  description: Software that estimates the health impacts and economic value of changes
+    in air quality (specifically ground level ozone and fine particles)
+  link: https://www.epa.gov/benmap
+  name: Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE)
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recHPHeIIRTFMimuy
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: A poster from the EPA's Clean School Bus Program explaining how reducing
+    idling results in cleaner air
+  link: https://www.epa.gov/dera/reducing-diesel-emissions-school-buses
+  name: 'Reducing School Bus Idling: Clean Air Poster'
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T17:15:07.000Z'
+  airtable_id: recHSTTDewLJ313YJ
+  name: Rural Accessibility
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recHTmFDHZR2hQXvX
+  name: FEMA Public Assistance
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recHXKebFsvZ5ymMK
+  name: Department of Labor O*NET Database; Department of Education
+  products:
+  - recKSyLaCXFbhyDuv
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recHgrOukvv1tZIHE
+  name: Open Data DC Street Segments API
+  products:
+  - recyl8q9tZWnPoQQt
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recIO6XWO5Cij8bJ5
+  name: Office of the Surgeon General; Department of Transportation
+  products:
+  - recuj8LvrOlw7qVZl
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recIZxxAKT3sx5uLj
+  data_stewards:
+  - rec7HcpC7CI1VOk0p
+  description: Small business survey deployed in the midst of the COVID-19 pandemic
+    that measures the effects of changing business conditions on small business operations
+    and finances, requests and receipt of assistance, and measures of overall well-being
+    and expectations for recovery.  Data is available by sector and state for the
+    fifty most populous Metropolitan Statistical Areas (MSAs)
+  link: https://portal.census.gov/pulse/data/
+  name: 'Supplemental: Small Business Pulse Survey: Tracking Changes During The Coronavirus
+    Pandemic'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recIf2Pc60A6s66wt
+  name: "Woldemar d\u2019Ambri\xE8res"
+  products:
+  - rec6IC6El0nNjSiCA
+- airtable_createdTime: '2020-02-10T17:28:32.000Z'
+  airtable_id: recIquCNFtAcHJl6e
+  name: BLS Job Outcomes Data
+  problem_statements:
+  - recLROAotmnLsG3Bw
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recJ2lhBahwKxQyLQ
+  name: "Census Bureau\u2019s National Address Database Schema; United States Department\
+    \ of Agriculture The National Agriculture Imagery Program (NAIP) imagery"
+  products:
+  - receo5EjDvZOW0G6N
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recJcUBWenNWCGpsX
+  name: Number of Americans overseas; Number of individuals with disabilities; Smartphone
+    penetration across the United States
+  products:
+  - recCGea83hgr4djMm
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recJf8wkhA3JJ4jMN
+  name: Centers for Disease Control and Prevention; Aggregated and anonymous Fitbit
+    activity data from over 10 million users
+  products:
+  - rec3DLJOV0X1vHHVe
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recJrAokPwX292U1q
+  name: Census Bureau; Department of Housing and Urban Development
+  products:
+  - recT8TuI7EDLqeTIk
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recJrpmj5ur4g6XUC
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: The Citizen Science Cloud Data Portal is a developer-friendly portal
+    to explore datasets from various citizen science projects. These data sets have
+    been transformed and aligned to our common data schema and are interoperable with
+    one another.
+  hasMultipleLinks: true
+  link: '- [Citizen Science Cloud Data Portal](https://portal-data.cscloud.host/)-
+    [Citizen Science Cloud Data Portal Datasets Page](https://portal-data.cscloud.host/apis)-
+    [Documentation Page and Data Schema](https://portal-data.cscloud.host/documentation)'
+  name: 'Earth Challenge: Citizen Science Cloud Data Portal'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T18:07:11.000Z'
+  airtable_id: recJthf6OcgmZXxsk
+  description: 'Since 1975 the MTF survey has measured drug and alcohol use and related
+    attitudes among adolescent students nationwide. Survey participants report their
+    drug use behaviors across three time periods: lifetime, past year, rand past month.'
+  link: https://www.drugabuse.gov/related-topics/trends-statistics/monitoring-future
+  name: Monitoring the Future (MTF)
+  organization_text: National Institute on Drug Abuse
+  organizations:
+  - recjpBB18sFzmVNWl
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2020-02-10T17:42:09.000Z'
+  airtable_id: recJujiImarSiW9IS
+  name: USA.gov
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  products:
+  - recTfL9YZgQqj9i78
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recK0PvnrhMoDw2P2
+  name: Libraries
+  products:
+  - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2020-02-10T18:07:38.000Z'
+  airtable_id: recK4rLrorXYd0SPT
+  description: When undergoing substance abuse treatment, individual people can be
+    admitted and discharged from treatment multiple times. TEDS comprises demographic
+    and drug history information about these individuals.
+  link: http://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set
+  name: Treatment Episode Data Set (TEDS)
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recKBankOvfGTtiMV
+  data_stewards:
+  - rec7O0adLJCELnOan
+  description: Census tract-level data on food access and supermarket accessibility.
+  link: https://www.ers.usda.gov/data-products/food-access-research-atlas/
+  name: Food Access Research Atlas
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recKOHXkIfOyuIFSo
+  data_stewards:
+  - recZb6deO2aRuDnCZ
+  - recMAca6qxSjefJFi
+  description: Local, state, and national level data and information on the environment,
+    exposures, health effects and population characteristics
+  link: https://ephtracking.cdc.gov/
+  name: National Environmental Public Health Tracking Network
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recKZeZY6Zt4DTlvZ
+  description: Links to all the MEP sites and an interactive map of the sites.  MEP
+    is a national network of experts on America's small manufacturers that provides
+    companies with services and public and private resources.
+  link: https://www.nist.gov/mep/centers
+  name: Manufacturing Extension Partnership (MEP)
+  organization_text: National Institute of Standards and Technology
+  organizations:
+  - recFr7M0yGBqOARp4
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:50:12.000Z'
+  airtable_id: recKhQhCrQulzRnrF
+  name: National Household Survey
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recqL51kCcBL6go3m
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-19T21:41:31.000Z'
+  airtable_id: recKlWO8C6xuadXx8
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Annual data on self-employed persons (including no. of firms, revenue)
+    at the state, county, and metro area levels by select industries.
+  link: https://www.census.gov/programs-surveys/nonemployer-statistics/data.html
+  name: Non-Employer Statistics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recKtuw7lp42NW86E
+  name: Equal Employment Opportunity Commission; Census Bureau
+  products:
+  - reckOdJi2Y6DUxI09
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recLCwvdL7hu70rGC
+  name: School-level data
+  products:
+  - recs1AuNUUppAFbr3
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recLDnNQUim6OdzH0
+  data_stewards:
+  - recwgliPkBFL4pSJE
+  description: USA Spending tracks federal spending to ensure taxpayers can see how
+    their money is being used in communities across America
+  link: https://www.usaspending.gov/#/
+  name: USASpending
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recgPNji2KEknNBA5
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  - recGXB6VI2XEbqemj
+  - rec91k66NBPeRwaK7
+  products:
+  - rec85E0U2wrRBV8dc
+  sprint:
+  - recMpslqDTkD8bJoj
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-10T17:22:13.000Z'
+  airtable_id: recLLnXn4feaHBHL7
+  name: Education Demographic and Geographic Estimates (EDGE)
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  - rec4jiLMOGoECbVXB
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-10T17:32:22.000Z'
+  airtable_id: recLQhRQGBSo9KYnC
+  name: Federal Procurement Data System (FPDS)
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-20T14:44:12.000Z'
+  airtable_id: recLcqqhoGFsOEH8z
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: Ongoing survey that provides vital information on a yearly basis about
+    occupations, work locations, educational attainment, housing, and other topics
+    in geographies with populations of 65,000+. This dataset is focused on 2019.
+  link: https://www.census.gov/newsroom/press-kits/2020/acs-1year.html
+  name: 'Core Data: 2019 American Community Survey 1-Year Estimates'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recLdaL3z2v32oZ2o
+  description: National and state-level trends for Tier 1 pollutant emission contributions
+    among major source types from 1970 - 2019
+  link: https://www.epa.gov/air-emissions-inventories/air-pollutant-emissions-trends-data
+  name: Air Pollutant Emissions Trends Data
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recLmy1mSIseo8gL4
+  data_stewards:
+  - recrVM9Lhn8bdMD9O
+  description: A quarterly count of employment and wages reported by employers covering
+    more than 95 percent of U.S. jobs, available at the county, MSA, state and national
+    levels by industry, which can be used to identify emerging or declining clusters
+    or industry sectors
+  link: https://www.bls.gov/cew/
+  name: 'The Quarterly Census of Employment and Wages (QCEW) '
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recLoOYbhiz131sQH
+  name: Census Economic Data
+  products:
+  - reca9CUrcr39DStIc
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recLtaZorYvI21Lwc
+  data_stewards:
+  - rec6l3arKgsZRdzDH
+  description: 'Over 23 ERS geospatial map API services, each containing anywhere
+    from 4 to 70 map layers. The majority of the services consist of national maps
+    displaying data at the county-level. '
+  link: https://www.ers.usda.gov/developer/geospatial-apis.aspx
+  name: ERS GIS Map Services and API
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recM3T8irYANuUTiz
+  name: Traffic accident and fatality data
+  products:
+  - recJGQBZiNXia0IYm
+- airtable_createdTime: '2020-02-10T17:42:35.000Z'
+  airtable_id: recM9dtsVTvpS5YF0
+  name: U.S. Department of Agriculture Grants and Loans
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recMHhkmS1Hm9uSA7
+  name: DOL
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recMPHn8tRSF5Tdq8
+  data_stewards:
+  - recJZd8tUL4BYztEl
+  description: Rent estimates at the 50th percentile (or median) are calculated for
+    all Fair Market Rent areas
+  link: https://www.huduser.gov/portal/datasets/50per.html
+  name: Fair-Market Rent Data
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T19:49:36.000Z'
+  airtable_id: recMPrJnEqATEMVlu
+  description: Explore the map to see which communities have been designated as Opportunity
+    Zones
+  hideFromSite: true
+  link: https://eig.org/news/opportunity-zones-map-comes-focus
+  name: Opportunity Zone Locations
+  organization_text: Economic Innovation Group
+  organizations:
+  - recAQPRQ8ZO3e7rXf
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recMVBsyGyKjBp09a
+  data_stewards:
+  - recZb6deO2aRuDnCZ
+  - recMAca6qxSjefJFi
+  description: Local, state, and national level data and information on the environment,
+    exposures, health effects and population characteristics
+  link: https://www.cdc.gov/nceh/tracking/
+  name: National Environmental Public Health Tracking
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-05-10T19:57:26.000Z'
+  airtable_id: recMYiYcZyhjlkRks
+  name: Healthdata.gov
+  products:
+  - recz0udlK0WnjquFr
+- airtable_createdTime: '2020-02-10T18:28:34.000Z'
+  airtable_id: recMZh6GPCweh6slf
+  description: LUCA is the only opportunity offered to tribal, state, and local governments
+    to review and comment on the U.S. Census Bureau's residential address list for
+    their jurisdiction prior to the 2020 Census. The Census Bureau relies on a complete
+    and accurate address list to reach every living quarters and associated population
+    for inclusion in the census.
+  link: https://www.census.gov/programs-surveys/decennial-census/about/luca.html
+  name: Local Update of Census Address Operation (LUCA)
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec55VBughwHjCFWp
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recMlLrjRlr9G4FeN
+  description: Provides over 50 million open data records on industry clusters and
+    regional business environments in the U.S. to promote economic growth and national
+    competitiveness
+  link: http://www.clustermapping.us/
+  name: U.S. Cluster Mapping Tool
+  organization_text: U.S. Economic Development Administration
+  organizations:
+  - recNeUjWAHgq84dsR
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recMvQvplYUy5QThW
+  name: BLS Quarterly Census of Employment and Wages
+  products:
+  - rec8PdH7hI4omQshl
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recN6mVyGGHKAcZPX
+  name: ensus block data; Open EU Sentinel 1 InSAR
+  products:
+  - rec5dPCVzV3SHuZDS
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recNELQf3MtciOz96
+  data_stewards:
+  - recxI338ZKCSCEYzo
+  - recU5J7n4zgyTUanc
+  description: Household survey deployed in the midst of the COVID-19 pandemic that
+    measures household experiences in terms of employment status, spending patterns,
+    food security, housing, physical and mental health, access to health care, and
+    educational disruption. Data is available at a state level and for the 15 largest
+    Metropolitan Statistical Areas (MSAs)
+  link: https://www.census.gov/data/experimental-data-products/household-pulse-survey.html
+  name: 'Supplemental: Measuring Household Experiences During the Coronavirus Pandemic'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recNJaPAJFncCOAUB
+  data_stewards:
+  - rec7ojXDzas1wyRbg
+  description: Statistics on employment, payroll, worker hours, payroll supplements,
+    cost of materials, selected operating expenses, value added by manufacturing,
+    capital expenditures, inventories, and energy consumption, as well as estimates
+    of value of shipments for 1,390 classes of manufactured products
+  link: https://www.census.gov/data/developers/data-sets/Annual-Survey-of-Manufactures.html
+  name: 'Supplemental: The Annual Survey of Manufactures (ASM)'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recNQQTbLSTC3tfTM
+  name: GRID-Arendal
+  products:
+  - rec6IC6El0nNjSiCA
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recNWkfE7cTQ4ZXdW
+  name: Public Schools
+  products:
+  - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recNeJ0fyYPblqgiM
+  name: '''Earth Challenge Integrated Data: Plastic Pollution (MLW'
+  products:
+  - recFOmdpx7Q6uE0Xl
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recNeoxza1odoKSci
+  data_stewards:
+  - recaaffJRiifSLPHx
+  description: Public data system containing the world's largest ocean trash dataset,
+    all collected by volunteers that allows viewers to see ocean trash data at a global
+    scale or even zoom into their local beach. Easily download reports available for
+    any country, state, region or location
+  link: https://www.coastalcleanupdata.org/reports
+  name: 'Source Data: TIDES Coastal Cleanup'
+  organization_text: Ocean Conservancy
+  organizations:
+  - reckfAxYlXRGjNz5P
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recNhlMP9zGeGML6d
+  name: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
+  products:
+  - rec4tY9vvumikW1Ku
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recO7jBCfrng8tYZj
+  description: Comprehensive and detailed estimate of air emissions of criteria pollutants,
+    criteria precursors, and hazardous air pollutants from air emissions sources collected
+    by State, Local, and Tribal air agencies and blended with other data sources
+  link: https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei
+  name: National Emissions Inventory (NEI)
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recOOfo569jN44oeT
+  data_stewards:
+  - recZU4opwIrZqSGqp
+  description: Data on the programs and services that improve the well-being of individuals,
+    families, and communities, including unaccompanied alien children, self-sufficiency,
+    Supplemental Nutrition Assistance Program, etc
+  link: https://www.hhs.gov/programs/social-services/index.html?language=es
+  name: HHS Social Services Programs
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recORRGSz8KM2Igb0
+  data_stewards:
+  - recvxImejUy1I9lM4
+  description: City and census tract-level small area estimates for chronic disease
+    risk factors, health outcomes, and clinical preventive service use for the largest
+    500 cities in the United States
+  link: https://www.cdc.gov/500cities/
+  name: '500 Cities: Local Data for Better Health, 2019 release'
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recOVmpdAhCpJrXg2
+  data_stewards:
+  - recmjkUuGFC0Riqng
+  - recTQSv3vwggEenrX
+  description: 'Includes public housing, assisted multifamily properties, HUD-insured
+    healthcare properties, Housing Choice Vouchers, Low-Income Housing Tax Credit
+    properties, USDA Rural Development, and Promise Zones. '
+  link: https://hud.maps.arcgis.com/apps/View/index.html?appid=cc05a273151d40a7b2eff47dc70bd745
+  name: Map of Opportunity Zones and Affordable Housing
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recOb2tc0ZdTy1BO9
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: "For children in pre-school through 2nd grade, teaches a simple lesson\
+    \ \u2013 that there are many transportation alternatives to using a car"
+  link: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P1003A6G.pdf
+  name: Coloring Book titled Carl Gets Some Rest
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recOcdeX1JFgqFD4D
+  name: Waste and Recycling
+  products:
+  - rec0sJ3TvQo6mykBz
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recOevAEqoLRPhMTZ
+  name: Public Wifi
+  products:
+  - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2020-02-10T18:08:20.000Z'
+  airtable_id: recOfS0oXho6D5w8F
+  description: Find practitioners authorized to treat opioid dependency with buprenorphine
+    by state.
+  link: https://www.samhsa.gov/medication-assisted-treatment/practitioner-program-data/treatment-practitioner-locator
+  name: Buprenorphine Treatment Practitioner Locator (SAMHSA)
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recP5cGDzT2zGEsK6
+  data_stewards:
+  - recy6aI2jtzRUM6h3
+  description: Comprehensive picture of freight movement among states and major metropolitan
+    areas by all modes of transportation
+  link: https://www.bts.gov/faf
+  name: Freight Analysis Framework
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recPBCaWu7TqcxSI9
+  data_stewards:
+  - recZU4opwIrZqSGqp
+  description: 4,500 datasets collected by HHS for use by researchers and entrepreneurs
+  link: https://www.hhs.gov/cto/initiatives/data-initiative/index.html
+  name: HHS Data Initiative
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recPCN7ziJN9rI8f5
+  data_stewards:
+  - recz3bV45yQZIbp1X
+  description: Uses 15 U.S. Census variables at tract level to help local officials
+    identify communities that may need support in preparing for hazards, disasters,
+    etc.
+  link: https://svi.cdc.gov/index.html
+  name: 'Supplemental: Social Vulnerability Index (SVI)'
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recquGRxIztb7VrBj
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recmM5soT47O2fdMS
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recPGnqabtCmLp8is
+  name: Department of Housing and Urban Development; Community partners
+  products:
+  - recc6G4ozj7KnAH6e
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recPOzXlD3VETWkv7
+  name: EPA WARM Model
+  products:
+  - recxNb6AkmDER2KXh
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recPciOoWssRZ3ajj
+  name: Census Bureau; Department of Agriculture; Department of Education; U.S. Securities
+    and Exchange Commission
+  products:
+  - recdBbAkH3Y7hu4y4
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recPeVW5juxR4YTd9
+  name: FindHello database
+  products:
+  - recZC1VP8ywUBxS8q
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recPu73gbLfPUgYVe
+  name: Department of Housing and Urban Development Fair Market Rent data; OpenStreetMap
+  products:
+  - reculF774OHizAs0S
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recQ22f2P0INVrPnP
+  description: Data on COVID-19 testing, cases, hospitalizations, mortalities, and
+    other statistics at the local, state, and national levels
+  link: https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/
+  name: 'Supplemental: COVID-19 Data'
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recQ4AYu2hT2GCm8k
+  name: HUD Federal Programs
+  products:
+  - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recQ6h4V9wX1qZ92O
+  name: TomTom Traffic API
+  products:
+  - recyl8q9tZWnPoQQt
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recQIsfo0ssGtZeEs
+  name: FCC Form 477
+  products:
+  - rec8PdH7hI4omQshl
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recQMy3jiv2xXPCvO
+  name: EPA Smart Location Database
+  products:
+  - rec820mIr9jx8uWAq
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recQNIe2ySWIbnJpC
+  name: EPA AirNow
+  products:
+  - recyl8q9tZWnPoQQt
+- airtable_createdTime: '2021-07-19T22:04:13.000Z'
+  airtable_id: recQqMjrOwzsTC196
+  description: Uses Census tract-level data to help identify communities that may
+    need support in preparing for hazards or recovering from disaster.
+  link: https://svi.cdc.gov/
+  name: CDC Social Vulnerability Index
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recRAv87ashgDIkwM
+  data_stewards:
+  - recs4WYrAFQqhKYqI
+  description: Effort to establish baseline data, aggregate multiple data streams,
+    and track disaster giving by philanthropists, government agencies, and NGOs from
+    2013 to 2017, segmented by disaster type
+  link: https://disasterphilanthropy.candid.org/data/
+  name: Measuring the State of Disaster Philanthropy
+  organization_text: Center for Disaster Philanthropy
+  organizations:
+  - recUMWKi7luVILZV1
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recRFaeTZ3xjJOnfi
+  data_stewards:
+  - rectxR2KBvC0E1ABV
+  - recyXXToAF84b3HJN
+  description: Manufacturing industry data on the use of virgin (primary) and recycled
+    (secondary) materials in the U.S. for several dozen minerals published anually
+    as far back as 1996
+  link: https://www.usgs.gov/centers/nmic/mineral-commodity-summaries
+  name: Annual Mineral Commodity Summaries
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recRNl86Jv4lOJKqy
+  name: Census County Business Patterns
+  products:
+  - recSywRIyeQEsXwCq
+  - recQjVq9yZgfpri29
+- airtable_createdTime: '2021-07-20T14:33:29.000Z'
+  airtable_id: recRPigFQgkCrx7qa
+  data_stewards:
+  - recGsr0wmYphkRN1f
+  description: "The most comprehensive national housing survey in the United States\
+    \ since its inception in 1973, providing annual information on the size, composition,\
+    \ and quality of the nation\u2019s housing and measuring changes in our housing\
+    \ stock as it ages"
+  link: https://www.census.gov/programs-surveys/ahs.html
+  name: American Housing Survey
+  organization_text: U.S. Department of Housing and Urban Development, U.S. Census
+    Bureau
+  organizations:
+  - recRLxRGfiWtHnmAs
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2020-02-10T20:23:12.000Z'
+  airtable_id: recRReYvboveMbC1a
+  data_stewards:
+  - rec3ByZIcTcu9X4Xi
+  - recWEkGW4C3CG453t
+  link: https://www.census.gov/topics/population/computer-internet.html
+  name: Computer and Internet Use
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec2cDmW6ubg6Wco0
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recRXhhBJiANNsORi
+  data_stewards:
+  - rec2RDlz9s3N9CQ1m
+  description: 'Data on companies that have won SBIR awards and on the awards themselves,
+    includes titles and abstracts for the invention, and geographic and demographic
+    info for the winners. The SBIR program helps technology companies further develop
+    inventions, and bring them to market.  '
+  link: https://www.sbir.gov/api
+  name: Small Business Innovation Research (SBIR) Program Data
+  organization_text: Small Business Administration
+  organizations:
+  - rech0xcl8a3PFLxhA
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:32:16.000Z'
+  airtable_id: recRcDp9oOJUiuB5w
+  name: Catalog of Federal Domestic Assistance (CFDA)
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recRfDxDUAsjtmTFX
+  description: A cleaned, curated and integrated global plastics pollution dataset
+    sourced from the National Atmospheric Administrations Marine Debris Monitoring
+    and Assesment Project (MDMAP) accumulation report. This data is one of the three
+    datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
+  name: 'Integrated Data: Marine Debris Monitoring and Assessment Project'
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recRkT4yhLGzbYeJp
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: A cleaned, curated and integrated global plastics pollution dataset
+    sourced from the National Atmospheric Administrations Marine Debris Monitoring
+    and Assesment Project (MDMAP) accumulation report. This data is one of the three
+    datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
+  hasMultipleLinks: true
+  link: '- [Integrated Dataset](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)-
+    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
+    [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers)'
+  name: 'Integrated Data: Marine Debris Monitoring and Assessment Project'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recRskiGleSLFerp9
+  data_stewards:
+  - rec7O0adLJCELnOan
+  description: County-level data on county type, remoteness, amenities, and other
+    socioeconomic characteristics.
+  link: https://www.ers.usda.gov/data-products/atlas-of-rural-and-small-town-america/
+  name: Atlas of Rural and Small-Town America
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:42:13.000Z'
+  airtable_id: recRvlrIBhUUqaJF0
+  name: FSRS.gov
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recRx00woviPE3tWN
+  name: FCC Broadband
+  products:
+  - rec5TopxenNeIOsJO
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recS99NwneG1LC31y
+  name: LEHD Origin-Destination Employment Statistic
+  products:
+  - recIigBAir65hTeIa
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recSBdEFaP6LjoltA
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: "Presents selected Census Bureau demographic and economic data to help\
+    \ guide decision making during the COVID-19 pandemic. The demographic, socio-economic,\
+    \ and housing data are from the American Community Survey (ACS) 2014-2018 ACS\
+    \ 5-year estimates. The economic (business) data are from the 2017 Census Bureau\u2019\
+    s County Business Patterns (CBP) program, an annual series that provides subnational\
+    \ economic data by industry."
+  link: https://covid19.census.gov/
+  name: 'Supplemental: COVID-19 Demographic and Economic Resources'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recSEDcGAcsCXoIeH
+  data_stewards:
+  - recWEkGW4C3CG453t
+  - rec3ByZIcTcu9X4Xi
+  description: Types of Computers and Internet Subscriptions from American Community
+    Survey 2014-2018 data
+  link: https://data.census.gov/cedsci/table?q=s2801&tid=ACSST1Y2018.S2801
+  name: Computer and Internet Use
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-19T21:37:26.000Z'
+  airtable_id: recSFaUe6kbKuwVBS
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Metro area/state/WIA-level data on firms, industries and workers.
+  link: https://qwiexplorer.ces.census.gov/static/explore.html#x=0&g=0
+  name: Quarterly Workforce Indicators
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSHmnUChmUSqsmM
+  name: GAO
+  products:
+  - recTfL9YZgQqj9i78
+  - recyKI9exBfBtz1hr
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recSMjx72oMwTtWq5
+  data_stewards:
+  - recHqGLtbCyU6UHxO
+  description: Imagery data from the agricultural growing seasons. Includes ArcGIS
+    Rest Services URL for the public facing, most current year 1-meter or higher resolution
+    4-band NAIP cached image services for the lower 48 states. The service is served
+    out as pre-rendered tiles with 18 levels of detail which is equivalent to about
+    1.19 meters resolution at the largest scale
+  link: https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer
+  name: NAIP public image service
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recSM7q7ufXLojrBx
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSPs8xaWdWjtmOQ
+  name: "Department of Veteran\u2019s Affairs"
+  products:
+  - recpQRl79tKixOYHk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSQvzirXYG015qm
+  name: BEA GDP and Industry Data
+  products:
+  - rec8PdH7hI4omQshl
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recSTi0OtbctLeV2g
+  data_stewards:
+  - recyWZFxgJCbq7pXA
+  - rec7y54sfgKwBvERU
+  description: Map of Commingled Residential MRFs nationwide, which are facilities
+    that accept recyclables separated from trash and then brought in for processing
+    as either single stream or dual stream materials to be sorted into individual
+    commodities and sold to market
+  link: https://recyclingpartnership.org/residential-mrfs/
+  name: Map of Commingled Residential MRFs in the United States
+  organization_text: The Recycling Partnership
+  organizations:
+  - rec0pG2gOoExNqjQR
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSUsK7FVHPvrfqe
+  name: USDA NAIP
+  products:
+  - recoLzsQ10XA9A8CY
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recSVR7Yvb8H9IAZ7
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Data on Industry and Occupation, Employers (public and private), Commuting,
+    Labor Force Statistics, Work from Home, and more.
+  link: https://www.census.gov/topics/employment.html
+  name: Employment Data from Census by Geography
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2020-02-10T17:42:48.000Z'
+  airtable_id: recSVjlcIEDCL2h1N
+  name: Fish and Wildlife (TRACS)
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-19T21:47:41.000Z'
+  airtable_id: recSgzDlxsMG2v09V
+  data_stewards:
+  - recqVnck9CcEyjYsC
+  description: Federal organizations, programs, policies, and statistics focused on
+    entrepreneurship.
+  link: https://gwipp.gwu.edu/sites/g/files/zaxdzs2181/f/downloads/Reamer%20federal%20entrepreneurship%20reference%20draft%2004-13-17.pdf
+  name: List of Federal Efforts Supporting Entrepreneurship
+  organization_text: George Washington University
+  organizations:
+  - rec9MvJE3f7VLwBjg
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:42:23.000Z'
+  airtable_id: recSiYkkig1ciiBwI
+  name: Tracking Accountability in Government Grants Systems (TAGGS)
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSlWNjpENN8SsLG
+  name: USA Jobs
+  products:
+  - recYdVmxC6OUqRxB0
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recSrchAqvHORzn9O
+  data_stewards:
+  - rec728kVvVBDhDSQc
+  description: Annual data on national waste generation and recycling rates for the
+    overall municipal solid waste stream and for a number of specific materials. Most
+    recent year is 2017
+  link: https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling
+  name: Facts and Figures about Materials, Waste and Recycling
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSsWCyIxGug7Zln
+  name: Puerto Rico Open Data Portal (Building Permits
+  products:
+  - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recSwPP7Cc8lYLtuf
+  name: Earth Challenge Integrated Dataset
+  products:
+  - recJms1glRzSmKxtR
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recT9E2tGLYcH0thL
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: A cleaned, curated and integrated global plastics pollution dataset
+    sourced from Ocean Conservancy's TIDES dataset. This data is one of the three
+    datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
+  hasMultipleLinks: true
+  link: '- [Integrated TIDES Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-trash-information-and-data-for-education-and-solutions-tides-plastic-pollution)-
+    [All Integrated Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)'
+  name: 'Integrated Data: TIDES Coastal Clean Up'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recTCoN4IMaSTrDbs
+  data_stewards:
+  - recmjkUuGFC0Riqng
+  description: Reference tool designed to display HUD's investments in communities
+    across the United States. Search by City, County, Metropolitan Area or State
+  link: https://egis.hud.gov/cart/
+  name: 'HUD Community Assessment Reporting Tool (CART) '
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recTDMCt3kpzfrdSQ
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: Top 10 Most Common Plastics found by county sourced from the Earth
+    Challenge 2020 Interoperable Oceans Plastics Data. The Earth Challenge 2020 team
+    has combined all available data  from the National Atmospheric Administrations
+    Marine Debris Monitoring and Assesment Project (MDMAP) accumulation report, Ocean
+    Convervancy's TIDES Coastal Clean Up data, and the European Environmental Agencies
+    Marine Litter Watch (MLW) data sets. This has been further cleaned to categorize
+    the top 10 most common plastics found by country. Data was collected from 2015
+    -2018.
+  hasMultipleLinks: true
+  link: '- [Top 10 Plastics Most Common Plastics by Country Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-top-10-sources-of-plastic-pollution-by-country-?geometry=136.406%2C-89.405%2C-136.406%2C85.899)-
+    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
+    [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-intergrated-plastics-top-10-plastics-by-country-?geometry=-180.000%2C-89.405%2C180.000%2C85.899)'
+  name: 'Earth Challenge: Top 10 Most Common Plastics By Country Data'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recTayiMRi1R6zRJS
+  name: PEW
+  products:
+  - rec6IC6El0nNjSiCA
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recTb9j7AlUKhYVko
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: A cleaned, curated and interoperable global plastics pollution dataset.The
+    Earth Challenge team has combined all available data  from the National Atmospheric
+    Administrations Marine Debris Monitoring and Assesment Project (MDMAP) accumulation
+    report, Ocean Convervancy's TIDES Coastal Clean Up data, and the European Environmental
+    Agencies Marine Litter Watch (MLW) data sets. All datasets were mapped to a common
+    schema and quality control methods were implemented for ease of re-use.  Data
+    was collected from 2015 -2018.
+  hasMultipleLinks: true
+  link: '- [Integrated Dataset](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)
+    - [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)
+    - [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers)'
+  name: 'Earth Challenge: Integrated Ocean Plastics Data'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recTfcVsV7TT9AIEL
+  data_stewards:
+  - reccM0kjEoTUzb3aM
+  description: 'Includes APIs for data on energy experts at DOE R&D labs, Department
+    of Energy (DOE) funded facilities and labs, patentss and applications specefic
+    to DOE labs and their IP.  '
+  link: https://www.labpartnering.org/p/
+  name: Lab Partnering Service (LPS)
+  organization_text: U.S. Department of Energy
+  organizations:
+  - recepxMBIQcZROaVw
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recTg0g4lxs8uUlo0
+  name: USASpending
+  products:
+  - recIu57RsPY8g7yE6
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recU1FBubDIPz2Oqa
+  description: This application provides a visualization of the residential fixed
+    broadband deployment data collected on FCC Form 477
+  link: https://broadbandmap.fcc.gov/#/about
+  name: Fixed Broadband Deployment Map
+  organization_text: Federal Communications Commission
+  organizations:
+  - recUpuoU27MFAPSsp
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recUIcnenFHyZtJBp
+  name: USPTO Inventors Geocoded
+  products:
+  - recSywRIyeQEsXwCq
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recUPPtpuuYhGLGx9
+  description: The Citizen Science Cloud Data Portal is a developer-friendly portal
+    to explore datasets from various citizen science projects. These data sets have
+    been transformed and aligned to our common data schema and are interoperable with
+    one another.
+  name: 'Earth Challenge: Citizen Science Cloud Data Portal'
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recUV6hv6WsWxm3Cn
+  data_stewards:
+  - recCoH9DxAilWBUqU
+  description: Collection of asthma data at both the national and the state level
+  link: https://www.cdc.gov/asthma/asthmadata.htm
+  name: Asthma Surveillance Data
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recUZ6wqbnIynynCB
+  name: National Lung Association State of the Air
+  products:
+  - rec68a7razj3IGOyX
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recUaXwGLGEY8J70e
+  description: Over 5,000 DoD and VA inventions available in virtually all technology
+    fields, searchable by keyword.
+  link: https://techlinkcenter.org/technologies-all/
+  name: 'TechLink: DoD and VA Inventions'
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recVDbntbXKOMgFQg
+  name: Department of Housing and Urban Development
+  products:
+  - recVCXRirVspq062m
+  - recsTaRTvzM11DFWX
+  - recYDGmuetKuKzaJW
+- airtable_createdTime: '2020-02-10T17:50:36.000Z'
+  airtable_id: recVKlnvl1W1u9vo1
+  name: Wildfire Data
+  organization_text: U.S. Fire Administration
+  organizations:
+  - recwYjmQ0rFOx8ixy
+  problem_statements:
+  - recqL51kCcBL6go3m
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recVRrtQ8WdMmlq5p
+  name: Department of Labor O*NET Database; Bureau of Labor Statistics
+  products:
+  - recvh8HbEmn5MuzGI
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recVXO1fM2n3ST8pj
+  data_stewards:
+  - recIgquRFdoxOWT3F
+  description: Provides geospatial data, easy-to-use tools, and other resources related
+    to ecosystem services, their chemical and non-chemical stressors. Includes human
+    health,environmental, geographic, climatic, cultural, and natural resource profiles,
+    as well as information on assets (e.g., anchor institutions, access to nature
+    amenities, new and emerging economic drivers)
+  link: https://www.epa.gov/enviroatlas/enviroatlas-interactive-map
+  name: EnviroAtlas Interactive Map
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  - recZDeKZkpRgp2x1j
+  sprint:
+  - recMpslqDTkD8bJoj
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recVZJBfZvUSe3Q4n
+  description: 'Summaries of all the institutes, filterable by type of technology
+    and location. Manufacturing USA is a national network of linked manufacturing
+    institutes with unique technological concentrations. '
+  link: https://www.manufacturingusa.com/institutes
+  name: Manufacturing USA Institutes
+  organization_text: Manufacturing USA
+  organizations:
+  - rec7pqpcAeIY3bXpc
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recWXekXxQSl0eNjg
+  data_stewards:
+  - rec8L1rMxJjXfWV2V
+  description: 'Annual awards data since 2014 for The i6 Chllange and Seed Fund Support
+    Competitions. The grants help to create and expand high-growth entrepreneurship
+    and increase access to capital in regions across the country. '
+  link: https://www.eda.gov/oie/ris/i6/
+  name: Regional Innovation Strategies (RIS) Program
+  organization_text: U.S. Economic Development Administration
+  organizations:
+  - recNeUjWAHgq84dsR
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recWduNiJZN2o7HX6
+  name: "Open-source public data; Mastercard\u2019s anonymized and aggregated transaction\
+    \ data"
+  products:
+  - recxPFYJEXMA7YTmC
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recWeogRrq4Lfradm
+  name: Department of Labor
+  products:
+  - reciS4wntA3e352BQ
+- airtable_createdTime: '2020-02-10T17:18:46.000Z'
+  airtable_id: recWi5RPPGkfHapy8
+  description: The National Assessment of Educational Progress (NAEP) is the largest
+    nationally representative and continuing assessment of what America's students
+    know and can do in various subject areas.
+  link: https://nces.ed.gov/nationsreportcard/?src=ft
+  name: National Assessment of Education Progress (NAEP)
+  organization_text: U.S. Department of Education
+  organizations:
+  - recBBbVkCKQN52rWM
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  - rec4jiLMOGoECbVXB
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recWxsfYyUbWPLhVp
+  description: Shoreline marine debris surveys completed by partner organizations
+    and volunteers from the National Oceanic and Atmospheric Administration's Marine
+    Debris Monitoring and Assessment Program (MDMAP), this data follows strict Q/A
+    Q/C protocols including transect monitoring.
+  link: https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project
+  name: 'Source Data: Marine Debris Monitoring and Assessment Project'
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recX3OWmV0LJsSGsm
+  name: National Agriculture Imagery Program (NAIP)
+  products:
+  - recyPJeX2onUtcMln
+  - recqWVxkeZ3bYz68R
+- airtable_createdTime: '2020-02-10T17:32:36.000Z'
+  airtable_id: recX6w0vPFLWNNnG1
+  name: FedBizOps
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recXITRDvy1uaWFZg
+  name: EPA Livability Indicators
+  products:
+  - rec820mIr9jx8uWAq
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recXNFruqcxTA7S9B
+  name: Department of Education college readiness data
+  products:
+  - recj2I36nEPH4qWuf
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recXTJtkX3qBUyK6r
+  name: HUD EnVision Centers
+  products:
+  - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2020-02-10T17:32:08.000Z'
+  airtable_id: recXpPrWBZtEtCQ62
+  name: Grants.gov
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-10T18:28:58.000Z'
+  airtable_id: recXye08klgBkn1My
+  description: The U.S. Department of Transportation (USDOT) and its partners from
+    all levels of government recognize the need for a National Address Database (NAD).  Accurate
+    and up-to-date addresses are critical to transportation safety and are a vital
+    part of Next Generation 9-1-1.  They are also essential for a broad range of government
+    services, including mail delivery, permitting, and school siting.
+  link: https://www.transportation.gov/gis/national-address-database/national-address-database-0
+  name: National Address Database (NAD)
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - rec55VBughwHjCFWp
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recY24RmhnGtm8U6N
+  description: Earth Challenge is a global citizen science effort. Earth Challenge
+    spans over 6 research topics and offers APIs to source data and curated Interoperable
+    through the Kinetica platform.
+  name: 'Earth Challenge: Open Data Documentation'
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recY8y6zjJ64uIa3U
+  name: EPA Atlas of Rural America
+  products:
+  - rec820mIr9jx8uWAq
+- airtable_createdTime: '2020-02-10T21:04:51.000Z'
+  airtable_id: recYCrI9w3xnJppbB
+  data_stewards:
+  - rec3ByZIcTcu9X4Xi
+  - recWEkGW4C3CG453t
+  description: Unequal access to the internet, better known as the digital divide,
+    can be broken down into issues with internet supply (or the availability of broadband
+    connections) and demand (or the rate at which those connections are utilized).
+    This paper examines newly available data sources to highlight the role that these
+    supply and demand factors play in driving gaps in internet subscription rate.
+  link: https://www.census.gov/library/working-papers/2019/demo/SEHSD-WP2019-15.html
+  name: Deconstructing the Digital Divide
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec2cDmW6ubg6Wco0
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-07-19T22:01:15.000Z'
+  airtable_id: recYHXoQAnB07bJSb
+  data_stewards:
+  - recGWCjzJBwAycyap
+  description: Software developer resources for Census Bureau Data.
+  link: https://www.census.gov/data/developers.html
+  name: API & Developer Resources for Census Bureau Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  - recn0ONeaB72GbD8z
+  - recG9NY8ns2oza4vp
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recYRtBzCxYPpsMfL
+  description: Model-based estimates of health insurance coverage for counties and
+    states, which can be used to analyze geographic variation in health insurance
+    coverage, as well as disparities in coverage by race/ethnicity, sex, age and income
+    levels that reflect thresholds for state and federal assistance programs
+  link: https://www.census.gov/programs-surveys/sahie/about.html
+  name: 'Supplemental: Small Area Health Insurance Estimates (SAHIE) Program'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recYkJdXMFsni1Oj1
+  name: Interpol
+  products:
+  - rec6IC6El0nNjSiCA
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recZ889pE3kdEcyf0
+  data_stewards:
+  - recZU4opwIrZqSGqp
+  description: HHS offer resources to help you eat smart, exercise regularly, and
+    get routine health screenings and vaccinations
+  link: https://www.hhs.gov/programs/prevention-and-wellness/index.html?language=es
+  name: HHS Wellness Programs
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recZ9K6s5qUYHPiN1
+  data_stewards:
+  - recdtiP6Z2YRMqQNv
+  description: Suite of products and services that provide access to base geospatial
+    information to describe the landscape of the United States and its territories
+    including boundaries, elevation, geographic names, hydrography, land cover, orthoimagery,
+    structures, and transportation
+  link: https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map
+  name: USGS National Map
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - recSM7q7ufXLojrBx
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recZbSQrjEMXoZ2Am
+  data_stewards:
+  - recMwVuJBNBMV7tDJ
+  - recQ5hNGMuYmjrSvU
+  description: Statistics on revenue, expenditure, debt, and assets (cash and security
+    holdings) for the 50 state areas and the District of Columbia, as well as a national
+    summary
+  link: https://www.census.gov/data/datasets/2018/econ/local/public-use-datasets.html
+  name: 'Supplemental: State & Local Government Finance Historical Datasets and Tables'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recZg3fGxDmbe7UNP
+  data_stewards:
+  - rec4NTM5mMriK4UsX
+  description: Annual historical data regarding domestic can shipments including detailed
+    statistics, broken down by market, product, material used and technology.
+  link: http://www.cancentral.com/can-stats/statistics
+  name: Can Manufacturers Institute Statistics
+  organization_text: Can Manufacturers Institute
+  organizations:
+  - recWJ8ViVmLMqlXTS
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T17:42:44.000Z'
+  airtable_id: recZtCIHXPCIrswaa
+  name: U.S. Department of Veteran Affairs Office of Finance
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reca0iePHTw88poRP
+  name: HHS Annual Performance Report
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reca0othX6B0Yh9ek
+  name: Public Use Microdata System (IPUMS); Census Bureau; Geolytics
+  products:
+  - rec1aSWndKb5kqADi
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reca2aYXLhDECRApm
+  name: USA Spending
+  products:
+  - recCzsRojdXhNdzCu
+- airtable_createdTime: '2020-02-10T19:26:04.000Z'
+  airtable_id: reca9GguC16zKTetb
+  description: 'The Stewardship Mapping and Assessment Project (STEW-MAP) answers
+    the question: who takes care of our environment? STEW-MAP surveys civic groups
+    who work to conserve, manage, monitor, transform, educate on and/or advocate for
+    the environment across a defined city, region, or landscape. STEW-MAP databases
+    and interactive maps allow land managers, community organizations, non-profits,
+    and the public to see where hundreds of environmental stewardship groups are working
+    in a particular landscape of interest.'
+  link: https://www.nrs.fs.fed.us/urban/monitoring/stew-map/
+  name: Stewardship Mapping and Assessment Project (STEW-MAP)
+  organization_text: U.S. Forest Service
+  organizations:
+  - recbLwYNZI63gDeLc
+  problem_statements:
+  - recZDeKZkpRgp2x1j
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recaIBXUqd4zy4bXA
+  description: CyberSeek provides detailed, actionable data about supply and demand
+    in the cybersecurity job market.
+  link: https://www.cyberseek.org/
+  name: CyberSeek
+  organization_text: National Institute of Standards and Technology
+  organizations:
+  - recFr7M0yGBqOARp4
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:32:27.000Z'
+  airtable_id: recaOPjmzOR1M4Kuo
+  name: Data.gov
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recaY4cIqpmRYcvLG
+  name: Census Income and Poverty
+  products:
+  - recyKI9exBfBtz1hr
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recafi9M3d6tObueM
+  name: Global Fishing Watch's Anchorages Dataset
+  products:
+  - recRADslXTYbyjOZ9
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recaxj0fpf6Ml8lcW
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: Ongoing survey that provides vital information on a yearly basis about
+    occupations, work locations, educational attainment, housing, and other topics
+    in geographies with populations of 65,000+. This dataset is focused on 2018.
+  link: https://www.census.gov/newsroom/press-kits/2019/acs-1year.html
+  name: 'Supplemental: 2018 American Community Survey 1-Year Estimates'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recaxnp7O7OTu9lJj
+  data_stewards:
+  - rec5qqGO1EWtk9A4R
+  description: Monthly, quarterly, and annual data on overall and materials-specific
+    recycling industry economics
+  link: https://www.isri.org/recycling-commodities
+  name: Recycling Commodities
+  organization_text: Institute of Scrap Recycling Industries
+  organizations:
+  - rec18wOOpv9fbmdqY
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recbPZ9m7vQmuTt4f
+  description: Resources including The College Financing Plan, Net Price Calculator,
+    College Scorecard, and College Navigator
+  link: https://collegecost.ed.gov/
+  name: 'Supplemental: College Affordability and Transparency Center'
+  organization_text: U.S. Department of Education
+  organizations:
+  - recBBbVkCKQN52rWM
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2020-02-10T17:25:27.000Z'
+  airtable_id: recbYHm8eeBfN1DEH
+  name: Common Core of Data (CCD)
+  problem_statements:
+  - rec4jiLMOGoECbVXB
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recbmWuOJH37khOir
+  name: Census Bureau; Department of Health and Human Services; Institute of Museum
+    and Library Services; School District of Philadelphia; Pennsylvania State Department
+    of Education
+  products:
+  - recjBsJokWirN5SXn
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recbn9rLrnUvymHYq
+  name: Buyers and Sellers
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recc50WlqHUvofl08
+  name: MDMAP
+  products:
+  - recp3hAesZqc2oQnV
+  - recFOmdpx7Q6uE0Xl
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reccG6JWhwhc5EL8p
+  name: EPA National Walkability Index
+  products:
+  - rec8PdH7hI4omQshl
+- airtable_createdTime: '2020-02-05T22:51:04.000Z'
+  airtable_id: reccOJrwn5ttJe7u2
+  data_stewards:
+  - recmVKGxlh5J0NaNP
+  name: CBAMS
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: reccQXF6uh1ySoJG0
+  description: 2019 report that includes financial performance, trade, capital investments
+    in the chemistry industry
+  link: https://www.americanchemistry.com/Business-of-Chemistry-by-the-Numbers/
+  name: The Business of Chemistry By the Numbers
+  organization_text: American Chemistry Council
+  organizations:
+  - recejWHfb2My5VbBb
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: reccssVAgg4X2VfD1
+  description: Provides selected sources for tracking COVID-19 relief funding provided
+    through congressional bills
+  link: https://crsreports.congress.gov/product/pdf/IN/IN11407
+  name: 'COVID-19: Resources for Tracking Federal Spending'
+  organization_text: U.S. Congressional Budget Office
+  organizations:
+  - recyPXJRlyVWMribV
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reccta0jUep93VxIK
+  name: Department of Housing and Urban Development; Census Bureau American Community
+    Survey
+  products:
+  - recmiMYwGdZ4hHgMF
+  - recFD7M4ICvq22Nu4
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recdA5oig2sayvtZy
+  name: Hotels); Army Corps of Engineers; Old San Juan Airbnb Survey
+  products:
+  - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recdCTIz90mLKUUTO
+  data_stewards:
+  - recMwVuJBNBMV7tDJ
+  - recQ5hNGMuYmjrSvU
+  description: Detailed tax item data for each of the 50 state governments
+  link: https://www.census.gov/data/datasets/2018/econ/stc/2018-annual.html
+  name: 'Supplemental: State Government Tax Dataset'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recdMgnSpoaveLcji
+  name: ESA Sentinel 2
+  products:
+  - recoLzsQ10XA9A8CY
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recdPVv9zk9uYXQ7X
+  name: State Department WRAPSnet
+  products:
+  - recbsgNzUmmrKuEYn
+  - recZC1VP8ywUBxS8q
+- airtable_createdTime: '2020-02-10T20:19:58.000Z'
+  airtable_id: recdQrFDR0Ebv22jm
+  data_stewards:
+  - reccGkEmaZnqE1qRH
+  description: 'The Census Bureau acknowledges the long-standing undercount of young
+    children in decennial censuses and in Census Bureau surveys. Evaluations show
+    that Census Bureau surveys like the American Community Survey, the Current Population
+    Survey, and the Survey of Income and Program Participation also undercount young
+    children, which can result in biased survey estimates. The differential undercount
+    of this population across geography and demographics makes this a larger problem
+    for some racial and ethnic groups and some parts of the country. '
+  link: https://www.census.gov/programs-surveys/decennial-census/2020-census/research-testing/undercount-of-young-children.html
+  name: The Undercount of Young Children
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recdbslLB9MR4Ze7H
+  name: Department of Commerce
+  products:
+  - recQMqUTqBxw0DK7G
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recdihziis50Y8Bnr
+  description: 'A cleaned, curated and integrated global plastics pollution dataset
+    sourced from Ocean Conservancy''s TIDES dataset. This data is one of the three
+    datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset:
+    https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701'
+  name: 'Integrated Data: TIDES Coastal Clean Up'
+- airtable_createdTime: '2020-02-10T20:20:40.000Z'
+  airtable_id: recdv9rOjZ0nfEe71
+  data_stewards:
+  - recufJs6nIKYYJP4l
+  description: This interactive map makes hard-to-survey areas easier to identify
+    using American Community Survey (ACS) estimates available in the Planning Database.
+  link: https://www.census.gov/partners/maps.html
+  name: Response Outreach Area Mapper (ROAM)
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rece8G25DNqYv7wRZ
+  data_stewards:
+  - recWteQWIxtH0b8tc
+  description: Data.gov for geospatial data from a variety of federal agencies on
+    topics including climate & weather, elevation, geology, land use and cover, utilities
+    and others
+  link: https://www.geoplatform.gov/
+  name: Federal Geo-platform
+  organization_text: Federal Geographic Data Committee
+  organizations:
+  - rec1ywmeuGOW8vgGa
+  problem_statements:
+  - recSM7q7ufXLojrBx
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: rece8msRdyrgdK6fm
+  description: Complete directory of materials that Association of Plastic Recyclers
+    (ARP) Members purchase and sell, as well as services (grinding, densifying, washing,
+    pelletizing, compounding and solid stating) provided by APR members
+  link: https://plasticsrecycling.org/resources/buyers-and-sellers-list
+  name: Buyers and Sellers Information
+  organization_text: Association of Plastic Recyclers
+  organizations:
+  - recriUaTWwgtyryA7
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: receH380BCLphsAfz
+  description: The Department of Homeland Security's Performance and Accountability
+    Reports provide information that enables the President, Congress and the public
+    to assess the effectiveness of the Department's mission performance and stewardship
+    of resources
+  link: https://www.dhs.gov/publication/annual-performance-report-fiscal-years-2017-2019
+  name: FEMA Annual Performance Report
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: receVfx7m9CipOVpL
+  description: Data on National Science Foundation awards.
+  link: https://www.nsf.gov/awardsearch/
+  name: National Science Foundation Awards
+  organization_text: National Science Foundation
+  organizations:
+  - recxIMtV2v2veuzJV
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recebHApOk7v4zvGh
+  data_stewards:
+  - rec3T6dVh06apeMa4
+  description: Philadelphia local transportation data, including on walkability scores,
+    bike networks, airport runways, traffic counts, air monitoring stations, etc.
+  link: https://www.opendataphilly.org/dataset?groups=transportation-group
+  name: OpenDataPhilly
+  organization_text: OpenDataPhilly
+  organizations:
+  - recc2YsGwSwIa6xkf
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T17:50:48.000Z'
+  airtable_id: recedvT8vYeECkjTX
+  name: Datasets on terrorist and other man-made threats
+  problem_statements:
+  - recqL51kCcBL6go3m
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recei6He2P9L74Upx
+  name: Virginia Open Data Catalogue; Crowdsourced job reports
+  products:
+  - recNXCwgWCLa3ZMwB
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recf07ZnAuMHE6IS0
+  name: TIDES)
+  products:
+  - recp3hAesZqc2oQnV
+- airtable_createdTime: '2020-02-05T22:11:19.000Z'
+  airtable_id: recf5W5wG91EZ307C
+  data_stewards:
+  - rechFKj2Glsyroysl
+  description: Selected demographic and economic data targeted for regional analysis
+    and small business owners. Includes building permits data that is not in the Census
+    API yet.
+  link: https://www.census.gov/data/data-tools/cbb.html
+  name: Census Business Builder
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recfAONB0nI1gtcnW
+  description: 'A cleaned, curated and integrated global plastics pollution dataset
+    sourced from the European Environmental Agencies Marine Litter Watch (MLW) dataset.
+    This data is one of the three datasets used in the Earth Challenge 2020 Integrated
+    Oceans Plastics Dataset: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701'
+  name: 'Integrated Data: Marine Litter Watch'
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recfC2Bpq9xW25VjS
+  name: State Department WRAPSNET
+  products:
+  - rec1WFJn1OGTTGrZi
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recfE97FdksoJ5Q1T
+  name: CBO
+  products:
+  - recTfL9YZgQqj9i78
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recfP4JxfVotYcKWS
+  data_stewards:
+  - recZ8q7Pos6fdRYxD
+  description: Interactive map and graph showing access to intercity transportation
+    in rural areas
+  link: https://data.bts.gov/stories/s/gr9y-9gjq
+  name: 'Rural Accessibility '
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recfZEYxDURxHp4hu
+  name: Bureau of Labor Statistics
+  products:
+  - recfqTRYC5LXFiOUe
+  - recvlzXnQhGrvyOew
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recfaKsL0KnjYVim3
+  name: Woods & Poole Economics; Bureau of Economic Analysis; Bureau of Labor Statistics;
+    Centers for Disease Control and Prevention; National Center for Education Statistics
+  products:
+  - rec1aSWndKb5kqADi
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recfcLCZL0Xw7ghsq
+  data_stewards:
+  - rec728kVvVBDhDSQc
+  description: Data on the recycling industry workforce
+  link: https://www.epa.gov/smm/recycling-economic-information-rei-report
+  name: Recycling Economic Information (REI) Report
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T17:50:40.000Z'
+  airtable_id: recfiOOFb1O1kBgQM
+  name: Ready Campaign
+  problem_statements:
+  - recqL51kCcBL6go3m
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recfyoVAVOCFlUC2I
+  name: Economic Census and American Community Survey data for Baltimore; Self-reported
+    volunteer activity
+  products:
+  - reco73a0LwOf8hbof
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recg2zww1xm5i28l2
+  description: Lists of companies that distribute and sell glass materials
+  link: https://www.gpi.org/glass-resource-locator
+  name: Glass Resource Locator
+  organization_text: Glass Packaging Institute
+  organizations:
+  - recJPGye6pnx03EoD
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recg5WBAr2gjaFUgN
+  name: FEMA Disaster Summaries
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recgNRT4xGdnU7LjJ
+  name: DC GIS Master Address Repository
+  products:
+  - recyl8q9tZWnPoQQt
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recgS9hiCUoKIGzZr
+  description: Nationally consistent dataset and approach for combining environmental
+    indicators including 6 measures of air quality with 6 demographic demographic
+    indicators
+  link: https://www.epa.gov/ejscreen
+  name: 'EJSCREEN: Environmental Justice Screening and Mapping Tool'
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rechcGpzcdlCdjfGj
+  name: HUD Picture of Subsidized Households
+  products:
+  - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rechvps6UXzRf6OvX
+  name: Department of Labor; Census Bureau; US Cluster Mapping Project; Proprietary
+    Burning Glass data on labor market demand
+  products:
+  - recwo6k02qWF773ZK
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reci0mtAH0h9IloCN
+  name: Census Bureau American Community Survey; Homeland Infrastructure Foundation
+    Level Data; Federal Communications Commission Form 477; Department of Education
+    College Scorecard
+  products:
+  - recYVIjlUXHhhAjLr
+- airtable_createdTime: '2020-02-10T17:50:28.000Z'
+  airtable_id: reciFQKldQB7nh3p4
+  description: Data on floodplains, hurricanes, etc.
+  link: https://www.fema.gov/media-library/assets/documents/159319
+  name: National Centers for Environmental Information
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  problem_statements:
+  - recqL51kCcBL6go3m
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: reciFXNH5vMGxfNaw
+  description: Collection of plastics pollution data, including decomposition rates
+    of marine debris items, global river plastic input to the ocean by region, plastic
+    waste generated by coastal populations etc.
+  link: https://ourworldindata.org/plastic-pollution#all-charts-preview
+  name: 'Our World In Data '
+  organization_text: Our World in Data
+  organizations:
+  - recVgQwX5PHVlrpCu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-19T21:45:02.000Z'
+  airtable_id: reciW3wuzv5WoMRxh
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: A survey of entrepreneurs that is more current than the Survey of Business
+    Owners (SBO), but only available at state level.
+  link: https://www.census.gov/data/developers/data-sets/ase.html?#
+  name: Annual Survey of Entrepreneurs
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T17:42:53.000Z'
+  airtable_id: recid1lR45HSi9jvV
+  name: USDA NIFA Data Gateway
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-10T17:28:14.000Z'
+  airtable_id: recizpKDtroOg3vt4
+  name: Veterans resumes
+  problem_statements:
+  - recLROAotmnLsG3Bw
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recj9uFk4uyksjHp8
+  data_stewards:
+  - recTWGqTv1NjgxSAt
+  - recGWCjzJBwAycyap
+  description: The American Community Survey is the premier source for detailed population
+    and housing information about the U.S.
+  link: https://www.census.gov/programs-surveys/acs/
+  name: American Community Survey - Population Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recqL51kCcBL6go3m
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - recg9LuHpKxgB95Xy
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recjEWRBzfPed6Mjx
+  data_stewards:
+  - rec4NTM5mMriK4UsX
+  description: Includes data and trends on plastic, glass, metal and fiber recycling,
+    as well as links to tools that support the recycling value chain
+  link: https://circularityinaction.com/#showhealthpage
+  name: Recycling Market Development Platform
+  organization_text: More Recycling
+  organizations:
+  - recILrqtuTiu4XVou
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T17:18:27.000Z'
+  airtable_id: recjjHhrKIfcmATHw
+  description: Wide-ranging education access and equity data collected from our nation's
+    public schools.
+  link: https://ocrdata.ed.gov/
+  name: Civil Rights Data Collection (CRDC)
+  organization_text: U.S. Department of Education
+  organizations:
+  - recBBbVkCKQN52rWM
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  - rec4jiLMOGoECbVXB
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-21T18:58:02.000Z'
+  airtable_id: recjoZTz0R5gmsAKx
+  data_stewards:
+  - recqYmMkhJSPwkCBw
+  description: Map of recycling opportunities in the Southeast United States
+  link: https://www.serdc.org/maps
+  name: Recycling Demand Mapping in the Southeast
+  organization_text: Southeast Recycling Development Council
+  organizations:
+  - recOlBdKw8XSQki5z
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-19T21:59:14.000Z'
+  airtable_id: recjptxzJxPu7MNQW
+  data_stewards:
+  - rec5EfxxZyVcroB5U
+  description: Offers a wide range of career, employment, and education data as Web
+    API Services.
+  link: https://www.careeronestop.org/Developers/WebAPI/web-api.aspx
+  name: CareerOneStop
+  organization_text: U.S. Department of Labor
+  organizations:
+  - recnDoHewBvPIWrBO
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: reck0WMNhs1NhH3vr
+  description: Resources for immigrants, refugees, and asylum seekers including immigration
+    help, English classes, healthcare, and more curated by USAHello.
+  link: https://gist.github.com/usahello/2715866b76179a2b5d7e328b0aafa940
+  name: FindHello Resources
+  problem_statements:
+  - recDnQq3aDp59z637
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reckaL6tZKjQc63Xb
+  name: Census ACS
+  products:
+  - recyKI9exBfBtz1hr
+  - recSywRIyeQEsXwCq
+  - rec820mIr9jx8uWAq
+  - rec68a7razj3IGOyX
+  - rec8PdH7hI4omQshl
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reckd0RIyixSEoINN
+  name: Census Quarterly Workforce Indicators
+  products:
+  - reca9CUrcr39DStIc
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reckz9HKYIR6fbmIz
+  name: Census Bureau American Community Survey; Census Barriers
+  products:
+  - recB5iDMet16XnjXe
+- airtable_createdTime: '2021-07-19T21:55:45.000Z'
+  airtable_id: recl6pOP4ewlaXc0q
+  data_stewards:
+  - recEOdWjbRcZ5S3lj
+  description: Data on U.S. colleges, including their costs and outcomes (student
+    earnings, loan debt), admissions, programs, and more.
+  link: https://collegescorecard.ed.gov/
+  name: College Scorecard
+  organization_text: U.S. Department of Education
+  organizations:
+  - recBBbVkCKQN52rWM
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T20:03:38.000Z'
+  airtable_id: reclA1AoNLTt5ENL7
+  data_stewards:
+  - recpoopuzCjEHCXcd
+  - rece5moA2zcIUGW0Q
+  - recXH6MA3WxiF6rok
+  link: https://2020census.gov/en/census-takers.html
+  name: Census Takers
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recnJuVbZsWFhpBW8
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2020-02-10T17:42:07.000Z'
+  airtable_id: reclZWlEoquCih4Jh
+  name: Benefits.gov
+  problem_statements:
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: reclaJQGRmjIFdIvB
+  data_stewards:
+  - rec5IEZGXmj0UeW2X
+  description: Information on the role of ports, how ports can impact local land use,
+    economic trends, air quality and other aspects of the enivonment and quality of
+    life
+  link: https://www.epa.gov/community-port-collaboration/ports-primer-communities
+  name: 'Ports Primer for Communities: An Overview of Ports Planning and Operations
+    to Support Community Participation'
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: reclhCfxKbCdphZ3A
+  data_stewards:
+  - reczi3duvCF0SNaov
+  description: API for O*NET characteristics and requirements for 974 occupations,
+    with tools including O*NET's occupation keyword search.
+  link: https://www.onetonline.org
+  name: O*NET Web Services
+  organization_text: U.S. Department of Labor
+  organizations:
+  - recnDoHewBvPIWrBO
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reclqheYVkmbA5AOJ
+  name: Department of Health and Human Services; Department of Education; USASpending.gov;
+    SAM.gov; Grants.gov; FEMA
+  products:
+  - recZ3abAz4ADb6WRZ
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reclu6FCeKnoNe0rB
+  name: NAICS
+  products:
+  - recSywRIyeQEsXwCq
+- airtable_createdTime: '2020-02-10T19:28:23.000Z'
+  airtable_id: reclwlmTZZQovKxM1
+  description: NLCD tree canopy cover is a 30 m raster geospatial dataset that is
+    available for the conterminous United States, coastal Alaska, Hawaii, and Puerto
+    Rico. These data contain percent tree canopy estimates, as a continuous variable,
+    for each pixel across all land covers and types and are generated by the United
+    States Forest Service (USFS). The USFS derives tree canopy cover from multi-spectral
+    Landsat imagery and other available ground and ancillary information. 2011 and
+    2016 Forest canopy products are available for the Continental United States, coastal
+    Alaska, Hawaii, and Puerto Rico.
+  link: https://www.mrlc.gov/data?f%5B0%5D=category%3Atree%20canopy&f%5B1%5D=category%3Atree%20canopy
+  name: National Land Cover
+  organization_text: U.S. Forest Service
+  organizations:
+  - recbLwYNZI63gDeLc
+  problem_statements:
+  - recZDeKZkpRgp2x1j
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2020-02-10T18:28:51.000Z'
+  airtable_id: recmA1iIbbfNViUNa
+  description: "After a disaster, when the \u201Cnormal\u201D means to describe locations,\
+    \ such as street signs, are gone, the U.S. National Grid provide a standardized\
+    \ grid reference system that is seamless across jurisdictional boundaries and\
+    \ allows for pinpointing exact locations."
+  link: https://usngcenter.org/
+  name: U.S. National Grid
+  organization_text: U.S. National Grid
+  organizations:
+  - recv28MrJtxj82cXB
+  problem_statements:
+  - rec55VBughwHjCFWp
+  products:
+  - rec8Yym9s5wIGjlDI
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recmHtppXb3wSH6uI
+  data_stewards:
+  - recROkSUzb5vq1pFD
+  description: ZIP Code data on selected income and tax statistics by State, ZIP Code,
+    and size of adjusted gross income. Can be mapped to census tracts
+  link: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
+  name: Treasury ZIP Code Statistics of Income
+  organization_text: Internal Revenue Service
+  organizations:
+  - recZKzbkKqIm9Onc7
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recmKiYXhL0PCwoE6
+  name: FAE dashboard
+  products:
+  - recIu57RsPY8g7yE6
+- airtable_createdTime: '2020-02-10T19:28:20.000Z'
+  airtable_id: recmLXIjSZqp4OjNt
+  description: "Urban Tree Canopy (UTC) refers to the layer of tree leaves, branches,\
+    \ and stems that provide tree coverage of the ground when viewed from above. \
+    \ Today, many communities are planting trees in an effort to become more sustainable\
+    \ and livable. Improving a city\u2019s urban tree canopy can have numerous benefits,\
+    \ including reducing summer peak temperatures and air pollution, enhancing property\
+    \ values, providing wildlife habitat, providing aesthetic benefits, and improving\
+    \ social ties among neighbors.  A robust tree canopy can also attract businesses\
+    \ and residents.  Scientists now have the ability to qualify and quantify the\
+    \ benefits of urban tree canopy, using the Urban Tree Canopy (UTC) Assessment\
+    \ suite of tools.  An increase in urban tree canopy brings an associated increase\
+    \ in the tree benefits listed above. "
+  link: https://www.fs.fed.us/nrs/utc/
+  name: Urban Tree Canopy (UTC)
+  organization_text: U.S. Forest Service
+  organizations:
+  - recbLwYNZI63gDeLc
+  problem_statements:
+  - recZDeKZkpRgp2x1j
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2020-02-10T18:29:01.000Z'
+  airtable_id: recmcGkZE63ZAPEVr
+  description: 'The purpose of this document is to lay out the National Address Database
+    (NAD) Schema, including all attribute fields and domains. '
+  link: https://www.transportation.gov/gis/nad/nad-schema
+  name: NAD Schema
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - rec55VBughwHjCFWp
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-19T21:43:58.000Z'
+  airtable_id: recmkkxZM0QnCn15K
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: 'A survey of business owners that includes the race and ethnicity of
+    business owners (note: this data is from 2012)'
+  link: https://www.census.gov/programs-surveys/sbo.html
+  name: Survey of Business Owners (SBO)
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recn8SDm59D1U14nY
+  name: HUD
+  products:
+  - rec5TopxenNeIOsJO
+  - rec5YVAB1Sb4MWin2
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recnE9b12JNEjBSt1
+  name: Association of Plastics Recyclers
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recnnDHeRAc0VOm9E
+  name: Census Bureau; Department of Labor O*NET database
+  products:
+  - recxhgzBILVkvarN6
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recntonEwdCa5VewX
+  data_stewards:
+  - rec6I9sSC85tcOIZO
+  - rec0tSeM1ATlKXoV3
+  description: Earth Challenge is a global citizen science effort. Earth Challenge
+    spans over 6 research topics and offers APIs to source data and curated Interoperable
+    through the Kinetica platform.
+  link: https://cscloud-ec2020.opendata.arcgis.com/pages/source-data-and-data-model
+  name: 'Earth Challenge: Open Data Documentation'
+  organization_text: Earth Challenge
+  organizations:
+  - recJOJN6WyJNclqWu
+  problem_statements:
+  - recQeWP4kfK1EakJW
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-19T22:02:24.000Z'
+  airtable_id: recnuO3Sen2Mn4dVE
+  description: Data on the FEMA Housing Assistance Program, including number of applicants,
+    county, zip code, severity of damage, owner or renter.
+  link: https://www.fema.gov/media-library/assets/documents/34758
+  name: Housing Assistance Data
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: reco4lJ8yKVLXcWrU
+  description: Gives information about the environmental performance of light-duty
+    vehicles using 0-10 emissions score and the fuel economy numbers to compare environmental
+    performance across vehicle classes
+  link: https://www.epa.gov/greenvehicles
+  name: Green Vehicle Guide
+  organization_text: U.S. Environmental Protection Agency, U.S. Department of Energy
+  organizations:
+  - recDJthxFdnCkkHXX
+  - recepxMBIQcZROaVw
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recoKXJWYQUUmTFRo
+  data_stewards:
+  - recYrItjMCMebvJdC
+  - recUNVaTWQOzT2DRM
+  description: Includes data on post-secondary institutions, including students enrolled,
+    degrees and awards earned, dollars expended, staff employed, and more.
+  hideFromSite: true
+  link: https://nces.ed.gov/ipeds/datacenter/login.aspx
+  name: Integrated Postsecondary Education Data System
+  organization_text: U.S. Department of Education
+  organizations:
+  - recBBbVkCKQN52rWM
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  - rec6yDEfMyReqsMcl
+  sprint:
+  - recbhMlc1WZWXNte0
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-05T22:11:34.000Z'
+  airtable_id: recogXe0BiuwGNVQX
+  data_stewards:
+  - recpqtplJE7BTgbRH
+  description: Data on National Institutes of Health awards.
+  link: https://projectreporter.nih.gov/
+  name: National Institutes of Health Awards
+  organization_text: National Institutes of Health
+  organizations:
+  - recu60AFUaN2dfUPt
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-19T22:06:30.000Z'
+  airtable_id: recot9D8u5Ya5kcAA
+  description: The TIGER/Line Shapefiles contain potential address ranges for city-style
+    addresses.
+  link: ftp://ftp2.census.gov/geo/tiger/TIGER2017/ADDRFEAT/
+  name: TIGER Line Address Range-Feature
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  - rec55VBughwHjCFWp
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - recbhMlc1WZWXNte0
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recpDM3BVp5QkTmLo
+  description: Data from Earth Challenge 2020 Plastics mobile widget. Allows anyone
+    to take a picture of plastic pollution anywhere its found wherever they are in
+    the world.
+  name: 'Earth Challenge 2020 Plastics Mobile  Widget Data '
+- airtable_createdTime: '2021-07-20T17:15:07.000Z'
+  airtable_id: recpWW14Jc7ukLcIt
+  name: HUD Services Data
+- airtable_createdTime: '2020-02-10T19:27:45.000Z'
+  airtable_id: recpXj5E5RYKPZNav
+  link: https://data.census.gov/cedsci/
+  name: U.S. Census Bureau Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recZDeKZkpRgp2x1j
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recpjdPlX6if8U6ss
+  name: Illinois EPA
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recq5pBNuVROkcDk1
+  name: Census Bureau Response Rates; Low Broadband Access; Barriers
+  products:
+  - recSXynrxBTKXTh63
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recqMZ6EvgVdROZb5
+  data_stewards:
+  - recC6cKq88k9ihED3
+  description: Industry data including global trends, plastics quarterly forecasts,
+    monthly plastics production and capacity utilization statistics
+  link: https://www.plasticsindustry.org/data
+  name: 'Plastics Data '
+  organization_text: Plastics Industry Association
+  organizations:
+  - recM2Hsb0OuuE9zdp
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recqTrEzfmvFOQX8a
+  data_stewards:
+  - recWEkGW4C3CG453t
+  - rec3ByZIcTcu9X4Xi
+  description: Types of Internet Subscriptions by Selected Characteristics from American
+    Community Survey 2014-2018 data
+  link: https://data.census.gov/cedsci/table?q=s2802&tid=ACSST1Y2018.S2802&hidePreview=false
+  name: Types of Internet Subscriptions
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-19T21:33:19.000Z'
+  airtable_id: recqVxeSVfcGmlSwN
+  data_stewards:
+  - recTWGqTv1NjgxSAt
+  - recFypleiqj8EFblI
+  description: Tract-level data on household characteristics; industry and occupation,
+    broken out by demographic characteristics of workers.
+  link: https://www.census.gov/data/developers/data-sets/acs-5year.html
+  name: American Community Survey Demographic Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - recn0ONeaB72GbD8z
+  - recquGRxIztb7VrBj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recqtqPIPuHLrODlE
+  description: Information for school communities to identify strategies for reducing
+    traffic-related pollution exposure at schools located downwind of heavily traveled
+    roadways
+  link: https://www.epa.gov/schools/best-practices-reducing-near-road-pollution-exposure-schools
+  name: Best Practices for Reducing Near-Road Pollution Exposure at Schools
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recqua69dHBYaGQxY
+  name: EPA Municipal Solid Waste Report
+  products:
+  - recxNb6AkmDER2KXh
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recqzlgmOTdqKugzx
+  name: Career One Stop; Department of Labor O*NET Database; Walkingscore.com; Google
+    maps
+  products:
+  - recfUxMS7BNZxVPLX
+- airtable_createdTime: '2020-02-10T18:08:11.000Z'
+  airtable_id: recrDVVDUCzp1joSl
+  description: The Area Health Resources Files (AHRF) include data on Health Care
+    Professions, Health Facilities, Population Characteristics, Economics, Health
+    Professions Training, Hospital Utilization, Hospital Expenditures, and Environment
+    at the county, state and national levels, from over 50 data sources.
+  link: https://data.hrsa.gov/topics/health-workforce/ahrf
+  name: Area Health Resource File (AHRF)
+  organization_text: Health Resources & Services Administration
+  organizations:
+  - rec1PqA4dmUJp7i8a
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recrHa6YWyn6u6GXF
+  data_stewards:
+  - recZU4opwIrZqSGqp
+  description: Statistics on the 40 million persons, 12.3% of the total population,
+    who live in poverty, including information on income, risk factors, etc.
+  link: https://aspe.hhs.gov/poverty-estimates-trends-and-analysis
+  name: Poverty Estimates, Trends, and Analysis
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recrLULF1kBSQ9HxY
+  name: USDA Cropland Data Layer
+  products:
+  - recoLzsQ10XA9A8CY
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recrMZfmHyrYkDGDw
+  name: Foreign Assistance Resource Library
+  products:
+  - recIu57RsPY8g7yE6
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recrjdD71T7x8G2ch
+  name: Citizen Science Portal
+  products:
+  - rec6IC6El0nNjSiCA
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recrvkb4KKDNfUP7i
+  name: CDC/SVI
+  products:
+  - rectcKAi8zsdwiqjg
+  - rec5YVAB1Sb4MWin2
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recsMJ0eHFzsAczm8
+  data_stewards:
+  - recIgquRFdoxOWT3F
+  description: Suite of products and services that provide access to base geospatial
+    information to describe the landscape of the United States and its territories
+    including boundaries, elevation, geographic names, hydrography, land cover, orthoimagery,
+    structures, and transportation
+  link: https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map
+  name: USGS National Map
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recsRZWgNcNdMYCIb
+  name: NTIA BroadbandUSA
+  products:
+  - recbsgNzUmmrKuEYn
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recsRyhNeaMZuOMbq
+  description: A tool used to search for products, services, and vendors within the
+    aluminum industry
+  link: https://aluminum.officialbuyersguide.net/
+  name: Aluminum Association Buyers' Guide
+  organization_text: The Aluminum Association
+  organizations:
+  - recx2kGBvRULDVbFA
+  problem_statements:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recsUZAEY8dSA8BUn
+  name: '- State foreignassistance.gov'
+  products:
+  - recTfL9YZgQqj9i78
+- airtable_createdTime: '2021-07-19T21:59:58.000Z'
+  airtable_id: recsXeiM0GqN0vUBF
+  data_stewards:
+  - rec5EfxxZyVcroB5U
+  description: Search for available apprenticeships in a variety of fields around
+    the country.
+  link: https://www.apprenticeship.gov/apprenticeship-finder
+  name: Apprenticeship Finder
+  organization_text: U.S. Department of Labor
+  organizations:
+  - recnDoHewBvPIWrBO
+  problem_statements:
+  - rec6Coqk1u4BTdxLI
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2020-02-10T19:28:34.000Z'
+  airtable_id: recsjWUAcqwH3qaC0
+  description: "Coastal Resilience is a program led by The Nature Conservancy to examine\
+    \ nature\u2019s role in reducing coastal flood risk. The program consists of an\
+    \ approach, a web mapping tool, and a network of practitioners around the world\
+    \ supporting hazard mitigation and climate adaptation planning."
+  link: https://coastalresilience.org/
+  name: Costal Resilience Tool
+  organization_text: The Nature Conservancy
+  organizations:
+  - reciRzKphBS0wiWcK
+  problem_statements:
+  - recZDeKZkpRgp2x1j
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recszzKa5cSdqOpf7
+  name: Eligible Training Provider Lists (ETPL)
+  products:
+  - recPVCxfdXoYMpSGS
+- airtable_createdTime: '2021-05-10T20:42:56.000Z'
+  airtable_id: rect0QnQABmoOLGYA
+  name: CDC AIMS Platform
+  products:
+  - recRUkG2VoPGqGcxN
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: rectCL1FIts5gf7ES
+  data_stewards:
+  - rec7kglH8cJeSBJJ1
+  - recPkdZyLT57vjCPH
+  - recpm4AC6msUyUomO
+  - recxI338ZKCSCEYzo
+  description: As a long-running longitudinal survey, has valuable data on employment
+    (including teleworking), economic well-being, family dynamics, education, assets,
+    health insurance, childcare, and food security
+  link: https://www.census.gov/programs-surveys/sipp.html
+  name: 'Supplemental: Survey of Income and Program Participation (SIPP)'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2020-02-10T18:07:05.000Z'
+  airtable_id: rectIJl3UxJFIJJYz
+  description: The posted information shows opioid-dispensing rates for each facility
+    and how those rates have changed over time. It is important to note that because
+    the needs and conditions of Veterans may be different at each facility, the rates
+    of the use of opioids may also be different for that reason, and cannot be compared
+    directly. This information will be updated periodically.
+  link: https://catalog.data.gov/dataset/department-of-veterans-affairs-opioid-dispensing-data
+  name: Opioid Dispensing Data
+  organization_text: U.S. Department of Veterans Affairs
+  organizations:
+  - recxPVJVs1W4haKxp
+  problem_statements:
+  - recUnXFEYwEO7Uea6
+  sprint:
+  - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-07-20T17:15:07.000Z'
+  airtable_id: rectThiP9XjTNOqZ9
+  name: HUD Community Assessment Reporting Tool (CART)
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: rectVKZXp3uGt83o5
+  name: USGS Mineral Commodity Summaries
+  products:
+  - rec0sJ3TvQo6mykBz
+- airtable_createdTime: '2020-02-10T20:22:48.000Z'
+  airtable_id: rectdwYU6A8wyfhQe
+  description: Provides nationwide estimates of homelessness, including information
+    about the demographic characteristics of homeless persons, service use patterns,
+    and the capacity to house homeless persons.
+  link: https://www.hudexchange.info/homelessness-assistance/ahar/#2018-reports
+  name: Annual Homeless Assessment Report (AHAR)
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recDkOPeR5RLFwe2e
+  sprint:
+  - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recu1XlVkDyajmO6C
+  name: 'Earth Challenge Integrated Data: Plastic Pollution (MLW'
+  products:
+  - recp3hAesZqc2oQnV
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recuAKOYGSFfvEgiD
+  name: Attitudes and Motivators Study
+  products:
+  - recSXynrxBTKXTh63
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recuAXSf4DSKKZuKW
+  name: United States Department of Agriculture; Census Bureau; Department of Transportation;
+    Department of Housing and Urban Development
+  products:
+  - rec4bboJwfwGI9dku
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recuFwP9D5cm1kzGb
+  name: Earth Challenge 2020 Integrated Data
+  products:
+  - recRADslXTYbyjOZ9
+- airtable_createdTime: '2021-07-19T22:51:46.000Z'
+  airtable_id: recuLJoG2jzSCIRtU
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Resources for demographic information at the Census tract level.
+  link: https://www.census.gov/data/developers/data-sets.html
+  name: American Community Survey APIs
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - recn0ONeaB72GbD8z
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-19T22:07:06.000Z'
+  airtable_id: recuQekdEOW8PtYFg
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Timely and frequent snapshots of early-stage business activity, including
+    business applications and formation at the state, regional and national level
+  link: https://www.census.gov/programs-surveys/bfs/data/datasets.html
+  name: Business Formation Statistics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
+  - rec6Coqk1u4BTdxLI
+  - recfwUvvptMpf0PLj
+  sprint:
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recuaFJHJiz4omT7f
+  description: Top 10 Most Common Plastics found by county sourced from the Earth
+    Challenge 2020 Interoperable Oceans Plastics Data. The Earth Challenge 2020 team
+    has combined all available data  from the National Atmospheric Administrations
+    Marine Debris Monitoring and Assesment Project (MDMAP) accumulation report, Ocean
+    Convervancy's TIDES Coastal Clean Up data, and the European Environmental Agencies
+    Marine Litter Watch (MLW) data sets. This has been further cleaned to categorize
+    the top 10 most common plastics found by country. Data was collected from 2015
+    -2018.
+  name: 'Earth Challenge: Top 10 Most Common Plastics By Country Data'
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recualQWRiY9dO0Eg
+  name: HUD Fair Market Rents
+  products:
+  - rectcKAi8zsdwiqjg
+  - rec8PdH7hI4omQshl
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: reculZxaACMYLbtZl
+  data_stewards:
+  - recZ8q7Pos6fdRYxD
+  - recaX3R9OgndvhGIf
+  description: Estimates of average weekday household person trips, vehicle trips,
+    person miles traveled, and vehicle miles traveled (per day), for all Census tracts
+    for the year 2017
+  link: https://www.bts.gov/latch/latch-data
+  name: Local Area Transportation Characteristics for Households Data
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recupgdyccsBbURIM
+  name: Institute of Scrap Recycling Industries
+  products:
+  - recaRsKbgtQOavIpx
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recv9PtZadehpjQPB
+  name: Data on local hazards & resources
+  products:
+  - recyH7SUTuXtVQEjq
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recv9rLXQPRBjhRus
+  name: SAM.gov; grants.gov; Department of Housing and Urban Development
+  products:
+  - recKbaLyzNV2xVyxV
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recvIAFSKeoamSmJC
+  name: EPA National Emissions Inventory
+  products:
+  - rec68a7razj3IGOyX
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: recvYdRCWPra59SDl
+  description: The Citizen Science Cloud is a place where anyone can share and access
+    open, interoperable, citizen science data and related applications and leverages
+    the power of GIS. On the CS Cloud, you can expect to find citizen science data
+    on various focus areas including information on ocean plastics datasets.
+  name: 'Earth Challenge: Citizen Science Cloud: Plastics Page'
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recve2fEKyE0tWS2F
+  data_stewards:
+  - recTYJquG4nwgeMW8
+  description: Interactive maps and data for measuring location efficiency in terms
+    of walkability and transit access
+  link: https://www.epa.gov/smartgrowth/smart-location-mapping#walkability
+  name: EPA Smart Location Database
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recvnz4dVc4a6aQgS
+  data_stewards:
+  - recW64TxFme1NBXef
+  - rec0aGJ5QGJLkM0Pg
+  description: Current and forecast air quality maps and data for more than 500 cities
+    across the U.S. with U.S. Air Quality Index (AQI), available through API
+  link: https://docs.airnowapi.org/
+  name: AirNow API for Developers
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2020-02-10T17:32:03.000Z'
+  airtable_id: recvpjHaWAutsth43
+  name: DisasterAssistance.gov
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-05-10T14:53:57.000Z'
+  airtable_id: recw5NabwWfWi6bY3
+  name: HHS Diagnostic Data & Reporting Standards
+  products:
+  - rechzHn8vOEW60T0x
+  - reco2tsjZJ55bk12Q
+  - recQdmgL9m4HwZjQe
+  - recz0udlK0WnjquFr
+  - recnH1uvkl0Xjnjhm
+  - recC7pDhIGVSeNl1a
+  - rec5YVAB1Sb4MWin2
+  - reciaW1ybfwaIF0dI
+  - recj9dZ7MMUnxFPXi
+  - recFtYiCXRMvq3IaT
+  - recaULJmJOTbOyWAe
+  - recoD8u3aM6Z3cNNL
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recw6qS7nsiuFzmp9
+  data_stewards:
+  - recT1NhK0Q0io32cm
+  description: These tracts must have 50% of households with incomes below 60% of
+    the Area Median Gross Income or have a poverty rate of 25% or more
+  link: https://www.huduser.gov/portal/datasets/qct.html
+  name: Low-Income Housing Tax Credit Qualified Census Tracts
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - recMpslqDTkD8bJoj
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-20T17:15:07.000Z'
+  airtable_id: recw8HWaNDw3A4fKK
+  name: Food Environment Atlas
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recw8Sgspuk62reV8
+  description: "Federal Statistical and Resource Agencies along with universities\
+    \ produce a wide range of geospatial datasets characterizing the nation\u2019\
+    s natural resources. Major data set themes include soils, water, climate, energy,\
+    \ and crop and forest production"
+  link: https://www.ers.usda.gov/about-ers/partnerships/strengthening-statistics-through-the-icars/natural-resources-datasets/
+  name: Natural resources datasets
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recwVvC1tb4QUrOtM
+  name: "and Motivators; Civis Analytics\u2019 survey and message testing technology"
+  products:
+  - recB5iDMet16XnjXe
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recwfHi2x6tw6wpqI
+  name: '''Earth Challenge Integrated Data: Top 10 Sources of Plastic Pollution by
+    Country'''
+  products:
+  - recFOmdpx7Q6uE0Xl
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recwgkt2ULWcSNmBa
+  name: Bureau of Labor Statistics; Department of Education; Institute of Museums
+    and Library Services; other data from federal agencies and twelve cities
+  products:
+  - recV0aW7ZolC7aIoy
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recwpJdy7nLKeyB9n
+  name: FEMA Mission Summaries
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recx6WIe3PDemO0re
+  name: FCC Broadband data
+  products:
+  - rec820mIr9jx8uWAq
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recxAnfxJbw9p01v2
+  name: Congressional Research Service
+  products:
+  - recTfL9YZgQqj9i78
+- airtable_createdTime: '2020-02-10T17:22:04.000Z'
+  airtable_id: recxHYRKAEZU9GREu
+  name: Trends in International Mathematics and Science Study (TIMSS)
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  sprint:
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: recxReBEEKnZu27SS
+  data_stewards:
+  - recGsr0wmYphkRN1f
+  description: 'Find Shelter location data from HUD.gov homepage: shelter, food pantry,
+    health clinics and clothing'
+  link: https://www.hud.gov/findshelter
+  name: 'HUD Services Data '
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recD4rN8c5sH3ECRi
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: recxU7fCZyRF7YOe0
+  name: U.S. Forest Service environmental stewardship data
+  products:
+  - recWRZvsJGQgPYlDn
+- airtable_createdTime: '2021-07-20T14:44:14.000Z'
+  airtable_id: recy3X20vb1Mnd81N
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: Ongoing survey that provides vital information on a yearly basis about
+    occupations, work locations, educational attainment, housing, and other topics
+    in geographies with populations of 65,000+. This dataset is focused on 2017.
+  link: https://www.census.gov/newsroom/press-kits/2018/acs-1year.html
+  name: 'Supplemental: 2017 American Community Survey 1-Year Estimates'
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recquGRxIztb7VrBj
+  sprint:
+  - recmM5soT47O2fdMS
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: recynfESoUGMsEDkW
+  data_stewards:
+  - rec9mVARSvhPzmdMt
+  description: Monthly data based on hourly traffic count data reported by States,
+    collected at approximately 5,000 continuous traffic counting locations
+  link: https://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm
+  name: Traffic Volume Trends
+  organization_text: U.S. Department of Transportation
+  organizations:
+  - recQJhXANnrCe4tUP
+  problem_statements:
+  - recG9NY8ns2oza4vp
+  sprint:
+  - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reczIQDcfuxmJblbG
+  name: HHS Poverty Guidelines
+  products:
+  - recyKI9exBfBtz1hr
+- airtable_createdTime: '2021-07-20T14:33:54.000Z'
+  airtable_id: reczNmXzMkfOvDXIf
+  description: Data on facilities-based broadband providers who are required to file
+    data with the FCC twice a year (Form 477) on where they offer Internet access
+    service at speeds exceeding 200 kbps in at least one direction
+  link: https://www.fcc.gov/tags/form-477-data
+  name: Form 477 Data
+  organization_text: Federal Communications Commission
+  organizations:
+  - recUpuoU27MFAPSsp
+  problem_statements:
+  - recn0ONeaB72GbD8z
+  sprint:
+  - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-07-20T15:43:56.000Z'
+  airtable_id: reczVrN4CeekIl3Rw
+  description: A cleaned, curated and interoperable global plastics pollution dataset.The
+    Earth Challenge team has combined all available data  from the National Atmospheric
+    Administrations Marine Debris Monitoring and Assesment Project (MDMAP) accumulation
+    report, Ocean Convervancy's TIDES Coastal Clean Up data, and the European Environmental
+    Agencies Marine Litter Watch (MLW) data sets. All datasets were mapped to a common
+    schema and quality control methods were implemented for ease of re-use.  Data
+    was collected from 2015 -2018.
+  name: 'Earth Challenge: Integrated Ocean Plastics Data'
+- airtable_createdTime: '2020-02-10T17:32:06.000Z'
+  airtable_id: reczbRVcKrAJ9C3u9
+  link: https://sam.gov/SAM/
+  name: Sam.gov
+  problem_statements:
+  - rec91k66NBPeRwaK7
+  - recGXB6VI2XEbqemj
+  sprint:
+  - recbhMlc1WZWXNte0
+  - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-02-26T23:06:53.000Z'
+  airtable_id: reczdPbDQ7sshucXP
+  name: IRS
+  products:
+  - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-07-19T21:31:28.000Z'
+  airtable_id: reczdQjy5jcjn01AM
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Monthly data that is very detailed geographically.
+  link: https://usatrade.census.gov/
+  name: USA Trade Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recmZQEd4gpAgWPMm
+  sprint:
+  - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-07-21T18:58:06.000Z'
+  airtable_id: reczjUOvg10Zbj1FM
+  data_stewards:
+  - recHqGLtbCyU6UHxO
+  description: ArcGIS Rest Service URL for vector services that include information
+    about the NAIP collection 2011-2017. Date indexes are state based and contain
+    polygon information used in the collection of the imagery, including acquisition
+    date, camera type, sensor or lens serial number, and the electromagnetic spectrum
+    range for the red, blue, green, and near infrared bands.
+  link: https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
+  name: NAIP public image dates
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recSM7q7ufXLojrBx
+  sprint:
+  - recfjW4XBdTnujZD7

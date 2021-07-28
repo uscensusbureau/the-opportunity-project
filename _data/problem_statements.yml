@@ -98,7 +98,8 @@
   - recG12uOFWdhXeIaB
   datasets_text: Computer and Internet Use, Deconstructing the Digital Divide, 2018
     FCC Broadband Deployment Report
-  featured_product: California Latino Power Map
+  featured_product:
+  - recro3E8gXTIQ5IHO
   organizations:
   - rec9e5MJi3BeiIc2m
   products_text: Voatz, California Latino Power Map
@@ -162,7 +163,8 @@
     By the Numbers, Glass Resource Locator, Buyers and Sellers Information, Aluminum
     Association Industry Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off
     Facilities", Aluminum Association Buyers'' Guide'
-  featured_product: Chicago Circular Economy
+  featured_product:
+  - recaRsKbgtQOavIpx
   image: challenges/recycling.jpg
   image-alt: Workers collecting recycling
   organizations:
@@ -285,7 +287,8 @@
   datasets_text: 'USASpending, FEMA Annual Performance Report, COVID-19: Resources
     for Tracking Federal Spending, HHS Annual Performance Report, Measuring the State
     of Disaster Philanthropy'
-  featured_product: Emergency & Disaster Funding Tracking
+  featured_product:
+  - rectcKAi8zsdwiqjg
   image: challenges/flood.jpg
   image-alt: Flooded street with cars and a building in the background
   organizations:
@@ -410,7 +413,8 @@
   datasets_text: Local Update of Census Address Operation (LUCA), National Agriculture
     Imagery Program, U.S. National Grid, National Address Database (NAD), NAD Schema,
     TIGER Line Roads Data, TIGER Line Address Range-Feature
-  featured_product: PRADOS
+  featured_product:
+  - rec4tY9vvumikW1Ku
   organizations:
   - rec9e5MJi3BeiIc2m
   - recQJhXANnrCe4tUP
@@ -555,7 +559,8 @@
     Finder, API & Developer Resources for Census Bureau Data, Housing Assistance Data,
     Individual Assistance Data, CDC Social Vulnerability Index, TIGER Line Roads Data,
     TIGER Line Address Range-Feature, Business Formation Statistics
-  featured_product: Solve
+  featured_product:
+  - recleNeiLRdZwSdLt
   image: challenges/pathways.png
   image-alt: Woman in graduation cap and gown
   organizations:
@@ -688,7 +693,8 @@
     Data, Housing Assistance Data, Individual Assistance Data, CDC Social Vulnerability
     Index, TIGER Line Roads Data, TIGER Line Address Range-Feature, Business Formation
     Statistics, Stats America, U.S. Cluster Mapping Tool
-  featured_product: Job Opportunity Tool
+  featured_product:
+  - recfqTRYC5LXFiOUe
   image: challenges/talent.png
   image-alt: Two women working together at a laptop
   organizations:
@@ -899,7 +905,8 @@
     Social Services Programs, HHS Wellness Programs, Employment Data from Census by
     Geography, County Business Patterns, Map of Opportunity Zones and Affordable Housing,
     HUD Enterprise GIS
-  featured_product: The EnVision App
+  featured_product:
+  - recyKI9exBfBtz1hr
   image: challenges/self-sufficiency.jpg
   image-alt: Closeup of desk with two people sitting at laptops and one of them writing
     on some paperwork
@@ -949,7 +956,8 @@
     "2020 Census Research, Operational Plans, and Oversight", Audience Segment Descriptions,
     Annual Homeless Assessment Report (AHAR), Homeless Point-in-Time (PIT) and Housing
     Inventory Count (HIC)
-  featured_product: Census Intelligence Center
+  featured_product:
+  - recB5iDMet16XnjXe
   organizations:
   - rec9e5MJi3BeiIc2m
   products_text: Community Counts, Tract by Tract, Census Intelligence Center
@@ -991,7 +999,9 @@
   - rec4lJmGkCAq2jlUL
   - reck0WMNhs1NhH3vr
   datasets_text: Charity Navigator, WRAPSNET, Hello Neighbor, FindHello Resources
-  featured_product: RefugeeAssist, Resettled Refugee Services and Data Explorer
+  featured_product:
+  - recbsgNzUmmrKuEYn
+  - rec1WFJn1OGTTGrZi
   image: challenges/refugee.jpg
   image-alt: White tents in a refugee camp
   organizations:
@@ -1102,7 +1112,8 @@
     Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE), National
     Emissions Inventory (NEI), EJSCREEN: Environmental Justice Screening and Mapping
     Tool, Automotive Trends Data, API & Developer Resources for Census Bureau Data'
-  featured_product: AirMotionDC
+  featured_product:
+  - recyl8q9tZWnPoQQt
   image: challenges/air-quality.jpg
   image-alt: Blue sky with white clouds
   organizations:
@@ -1446,7 +1457,8 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:14.000Z'
   airtable_id: recPYnQdPuuZ0FZZ9
-  featured_product: '#WhyWeCount'
+  featured_product:
+  - recSXynrxBTKXTh63
   organizations:
   - rec9e5MJi3BeiIc2m
   products_text: '#WhyWeCount'
@@ -1504,7 +1516,8 @@
     Data, Integrated Data: Marine Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget
     Data , Our World In Data , Global Alert - Floating Trash, Source Data: Marine
     Debris Monitoring and Assessment Project, Source Data: Marine Litter Watch'
-  featured_product: Ocean Plastics Story Map
+  featured_product:
+  - rec6IC6El0nNjSiCA
   image: challenges/ocean-plastics.jpg
   image-alt: Beach with litter and plastics washed ashore
   organizations:
@@ -1544,7 +1557,8 @@
   - recZ9K6s5qUYHPiN1
   datasets_text: Federal Geo-platform, NAIP public image dates, NAIP public image
     service, USGS National Map
-  featured_product: NAIP Explorer
+  featured_product:
+  - recyPJeX2onUtcMln
   image: challenges/agricultural.jpg
   image-alt: Large open field on a farm
   organizations:
@@ -1618,7 +1632,8 @@
     Set (TEDS), Local Area Unemployment Statistics (LAUS), National EMS Information
     System (NEMSIS), Area Health Resource File (AHRF), Buprenorphine Treatment Practitioner
     Locator (SAMHSA)
-  featured_product: Insight for ArcGIS
+  featured_product:
+  - recnSpNUcyeoVi28K
   organizations:
   - rec0txaC5vlg0xonh
   products_text: Insight for ArcGIS
@@ -1795,7 +1810,8 @@
   datasets_text: Stewardship Mapping and Assessment Project (STEW-MAP), U.S. Census
     Bureau Data, Urban Tree Canopy (UTC), National Land Cover, Costal Resilience Tool,
     EnviroAtlas Interactive Map
-  featured_product: Bloomberg DEVOP
+  featured_product:
+  - reco73a0LwOf8hbof
   organizations:
   - recbLwYNZI63gDeLc
   products_text: STEWMAP Explorer, Bloomberg DEVOP
@@ -1933,7 +1949,8 @@
   airtable_createdTime: '2020-04-30T15:14:43.000Z'
   airtable_id: recdNGSC2k2ptu3JM
   category: Education
-  featured_product: Bites Media
+  featured_product:
+  - recTfL9YZgQqj9i78
   organizations:
   - recj1G6ZElwqUBXSu
   products_text: Bites Media, Edubuddy
@@ -2090,7 +2107,8 @@
     Data, CDC Social Vulnerability Index, TIGER Line Roads Data, TIGER Line Address
     Range-Feature, Business Formation Statistics, Monthly Industry Indicators, Open
     Energy Information'
-  featured_product: Practical Business Skills
+  featured_product:
+  - recWyKy6qT8GX7jT8
   image: challenges/entrepreneurship.png
   image-alt: Sign reading come on in we're open
   organizations:
@@ -2248,7 +2266,8 @@
     Treasury ZIP Code Statistics of Income, Low-Income Housing Tax Credit Qualified
     Census Tracts, Fair-Market Rent Data, Atlas of Rural and Small-Town America, Map
     of Opportunity Zones and Affordable Housing, HUD Enterprise GIS
-  featured_product: Inclusive Development Dashboards
+  featured_product:
+  - recwo6k02qWF773ZK
   image: challenges/opportunity-zones.png
   image-alt: birdseye view of densely built residential area
   organizations:
@@ -2329,7 +2348,8 @@
     of Energy Infrastructure, American Community Survey Demographic Data, American
     Community Survey APIs, API & Developer Resources for Census Bureau Data, Supplemental:
     Social Vulnerability Index (SVI)'
-  featured_product: Tech Talent Tracker
+  featured_product:
+  - recSywRIyeQEsXwCq
   image: challenges/farm.jpg
   image-alt: birdseye view of a farm
   organizations:
@@ -2365,7 +2385,8 @@
   datasets copy:
   - reclA1AoNLTt5ENL7
   datasets_text: Census Takers
-  featured_product: Census Taker
+  featured_product:
+  - recYOMiqxyb3IN11r
   organizations:
   - rec9e5MJi3BeiIc2m
   products_text: Census Taker
@@ -2430,7 +2451,8 @@
   datasets_text: American Community Survey - Population Data, USGS Earthquake Data,
     National Household Survey, National Centers for Environmental Information, Wildfire
     Data, Ready Campaign, Datasets on terrorist and other man-made threats
-  featured_product: Sille
+  featured_product:
+  - rec5dPCVzV3SHuZDS
   organizations:
   - recCGtljPyEpJ15UO
   - reccMfE4DUNwSQzCz

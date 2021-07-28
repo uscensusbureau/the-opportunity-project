@@ -71,7 +71,16 @@ layout: default
         
         {% assign imgSrc = "photos/products/" | append: product.image %}
         {% assign imageAlt = product.title | append: " product screenshot" %}
-        {% assign problem_statements = site.data.problem_statements | where:"airtable_id", product.problem_statement[0] %}
+        {% assign problem_statements = "" | split: "," %}
+        {% assign agencies = "" | split: "," %}
+        {% for ps in product.problem_statement %}
+          {% assign match = site.data.problem_statements | where: "airtable_id", ps | first %}
+          {% assign problem_statements = problem_statements | push: match %}
+          {% for org in match.organizations %}
+            {% assign matchingOrg = site.data.organizations | where: "airtable_id", org | first %}
+            {% assign agencies = agencies | push: matchingOrg %}
+          {% endfor %}
+        {% endfor %}
         {% assign problem_statement = problem_statements[ 0 ] %}
         {% assign sprints = site.data.sprints | where:"airtable_id", product.sprint[ 0 ] %}
         {% assign sprint = sprints[ 0 ] %}
@@ -89,15 +98,10 @@ layout: default
                 {% if product.category %}
                   <h4 class="pc-inactive">{{ product.category }}</h4>
                 {% endif %}
-                {% if problem_statement %}
+                {% if agencies.size > 0 %}
                   <h5 class="pc-inactive product-card__agencies">
-                    {% for ps in problem_statements %}
-                      {% for org in ps.organizations %}
-                        {% assign agencies = site.data.organizations | where: "airtable_id", org %}
-                        {% for agency in agencies %}
-                          {{ agency.name }} {{ agency.acronym }}
-                        {% endfor %}
-                      {% endfor %}
+                    {% for agency in agencies %}
+                      {{ agency.name }} {{ agency.acronym }}
                     {% endfor %}
                   </h5>
                 {% endif %}

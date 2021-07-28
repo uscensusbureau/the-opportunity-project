@@ -11,9 +11,7 @@ layout: default
 
 {% for statement in problems %}
   {% assign prodId = statement.featured_product[ 0 ] %}
-  {% assign products = site.data.products | where: 'airtable_id', prodId %}
-  {% assign product = products[ 0 ] %}
-  
+  {% assign product = site.data.products | where: 'airtable_id', prodId | first %}
   {% assign showMore = false %}
   {% if forloop.index0 == 1 or page.expandAllProblemStatements == true %}
     {% assign showMore = true %}

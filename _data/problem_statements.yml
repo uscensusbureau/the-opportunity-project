@@ -1,6 +1,4 @@
-- Agency:
-  - recuesxBrh08C2a6O
-  Background: "Every decade, in years ending in \u201C0,\u201D the U.S. Census Bureau\
+- Background: "Every decade, in years ending in \u201C0,\u201D the U.S. Census Bureau\
     \ conducts its Decennial Census, apportioning representation in the U.S. House\
     \ of Representatives, as well as federal funds for critical infrastructure and\
     \ services such as housing, highways, schools, hospitals, and scores of programs\
@@ -45,13 +43,13 @@
   airtable_id: rec0ukljQMNDcv91s
   category: Workforce
   image: photos/sprints/2017-census.png
+  organizations:
+  - rec9e5MJi3BeiIc2m
   pdf: 2017-census.pdf
   products_text: PopCount, Data2Go for Census Outreach, Bayes BD, My City Data Learning
     Tool, Data2GO.NYC
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
-- Agency:
-  - recnfIRYEISCJVJM6
-  Background: 'The Food and Nutrition Service promotes nutrition and food security
+- Background: 'The Food and Nutrition Service promotes nutrition and food security
     for families nationwide. '
   Challenge: During the academic year, many students rely on school meals for breakfast
     and lunch. In the summer, students and families seek a reliable alternative, but
@@ -77,19 +75,15 @@
   airtable_createdTime: '2020-02-10T18:21:57.000Z'
   airtable_id: rec1e6bSt2fE0Ke14
   image: photos/sprints/2016-ag2.png
+  organizations:
+  - recRKu6t2inmGXXce
   pdf: 2016-ag.pdf
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recuesxBrh08C2a6O
-  Challenge: The digital divide affects urban, rural, and tribal communities across
+- Challenge: The digital divide affects urban, rural, and tribal communities across
     the U.S. Help increase digital access, to ensure that people who lack access to
     broadband and related infrastructure are counted in 2020.
   Full Title: Bridging the Digital Divide
   Name: Bridging the Digital Divide
-  Potential Open Data Sets:
-  - reclJrWE8sUzphXCN
-  - recsuEGit7WImvKMe
-  - recMD0i0MaZnPjHzb
   Products:
   - recCGea83hgr4djMm
   - recro3E8gXTIQ5IHO
@@ -98,20 +92,23 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:07.000Z'
   airtable_id: rec2cDmW6ubg6Wco0
+  datasets copy:
+  - recRReYvboveMbC1a
+  - recYCrI9w3xnJppbB
+  - recG12uOFWdhXeIaB
   datasets_text: Computer and Internet Use, Deconstructing the Digital Divide, 2018
     FCC Broadband Deployment Report
-  featured_product:
-  - recro3E8gXTIQ5IHO
+  featured_product: California Latino Power Map
+  organizations:
+  - rec9e5MJi3BeiIc2m
   products_text: Voatz, California Latino Power Map
   sprint_order: 3
   sprint_text: 2020 Census
-- Agency:
-  - recllJ66jGEQ8bRtg
-  Challenge: Develop innovative digital solutions that connect domestic recycling
+- Challenge: Develop innovative digital solutions that connect domestic recycling
     facilities with manufacturers to enhance recycling markets and increase the use
     of recycled materials.
   Full Title: Developing Markets for Recycled Materials
-  Name: Recycling
+  Name: Recycled Materials
   Products:
   - recaRsKbgtQOavIpx
   - recxNb6AkmDER2KXh
@@ -138,14 +135,51 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:42:53.000Z'
   airtable_id: rec2dxKJmbiIV0Va5
-  featured_product:
-  - recaRsKbgtQOavIpx
+  datasets copy:
+  - recjoZTz0R5gmsAKx
+  - recRFaeTZ3xjJOnfi
+  - recjEWRBzfPed6Mjx
+  - recZg3fGxDmbe7UNP
+  - recfcLCZL0Xw7ghsq
+  - recSrchAqvHORzn9O
+  - recqMZ6EvgVdROZb5
+  - recaxnp7O7OTu9lJj
+  - recSTi0OtbctLeV2g
+  - rec9VSLDwiFfkf2Gv
+  - recEhddUqzLwngJGe
+  - reccQXF6uh1ySoJG0
+  - recg2zww1xm5i28l2
+  - rece8msRdyrgdK6fm
+  - rec9CVvWU2Jbx29XH
+  - recG4Nq4VUB2lC2b6
+  - recsRyhNeaMZuOMbq
+  datasets_text: 'Recycling Demand Mapping in the Southeast, Annual Mineral Commodity
+    Summaries, Recycling Market Development Platform, Can Manufacturers Institute
+    Statistics, Recycling Economic Information (REI) Report, "Facts and Figures about
+    Materials, Waste and Recycling", Plastics Data , Recycling Commodities, Map of
+    Commingled Residential MRFs in the United States, Steel Industry Data, U.S. State
+    and Local Waste and Materials Characterization Reports, The Business of Chemistry
+    By the Numbers, Glass Resource Locator, Buyers and Sellers Information, Aluminum
+    Association Industry Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off
+    Facilities", Aluminum Association Buyers'' Guide'
+  featured_product: Chicago Circular Economy
+  image: challenges/recycling.jpg
+  image-alt: Workers collecting recycling
+  natl env datasets: '"Facts and Figures about Materials, Waste and Recycling", Recycling
+    Economic Information (REI) Report, Annual Mineral Commodity Summaries, Recycling
+    Demand Mapping in the Southeast, Map of Commingled Residential MRFs in the United
+    States, Recycling Commodities, Aluminum Association Industry Statistics, Aluminum
+    Association Buyers'' Guide, Can Manufacturers Institute Statistics, Steel Industry
+    Data, Plastics Data , The Business of Chemistry By the Numbers, Buyers and Sellers
+    Information, Glass Resource Locator, U.S. State and Local Waste and Materials
+    Characterization Reports, Recycling Market Development Platform, "Glass Recycling:
+    End Markets, MRFs, and Drop-off Facilities"'
+  organizations:
+  - recDJthxFdnCkkHXX
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
   sprint_order: 2
   sprint_text: Natural Environment
-- Agency:
-  - recN6RYgoMhIZSQrQ
-  Challenge: "Develop digital products to help improve minority businesses\u2019 access\
+- Challenge: "Develop digital products to help improve minority businesses\u2019 access\
     \ to capital"
   Executive champion: Edith McCloud, Acting National Director, MBDA
   Full Title: "Improving Minority Businesses\u2019 Access to Capital"
@@ -178,13 +212,13 @@
   agency_text: Minority Business Development Agency
   airtable_createdTime: '2021-06-28T20:22:02.000Z'
   airtable_id: rec2hm93Hd703vhHw
+  organizations:
+  - recBgI6XSVcZSIN7t
   pdf: 2021-problem-statements/post-covid/MBDA_ Improving Minority Businesses Access
     to Capital.pdf
   sprint_order: 1
   sprint_text: The World Post-COVID-19
-- Agency:
-  - rectJsTe77nlH7QcZ
-  Challenge: 'Develop innovative tools that combine datasets to help inform community
+- Challenge: 'Develop innovative tools that combine datasets to help inform community
     leaders on equitable distribution of federal funding. Teams are encouraged to
     analyze how federal COVID-19 spending has been shared with communities most vulnerable
     to impacts of the pandemic. '
@@ -214,13 +248,13 @@
   agency_text: U.S. Department of the Treasury
   airtable_createdTime: '2021-06-28T20:20:49.000Z'
   airtable_id: rec3DhHvGbMYMTN1A
+  organizations:
+  - recgPNji2KEknNBA5
   pdf: 2021-problem-statements/post-covid/Treasury_ Analyzing Equity in Federal COVID-19
     Spending.pdf
   sprint_order: 2
   sprint_text: The World Post-COVID-19
-- Agency:
-  - recFUgWuGZMTCoKVG
-  Challenge: Create digital tools and resources to track federal financial assistance
+- Challenge: Create digital tools and resources to track federal financial assistance
     award spending starting from Federal awards and flowing down to state and/or local
     spend in response to one or more emergencies and disasters (e.g., COVID-19 Coronavirus
     pandemic, hurricanes, earthquakes, and other disasters)
@@ -251,15 +285,25 @@
   agency_text: Office of Management and Budget
   airtable_createdTime: '2020-04-30T15:24:04.000Z'
   airtable_id: rec4KZSqOYnXgo2gD
-  featured_product:
-  - rectcKAi8zsdwiqjg
+  datasets copy:
+  - recLDnNQUim6OdzH0
+  - receH380BCLphsAfz
+  - reccssVAgg4X2VfD1
+  - recGTmLrGu4XStmFe
+  - recRAv87ashgDIkwM
+  datasets_text: 'USASpending, FEMA Annual Performance Report, COVID-19: Resources
+    for Tracking Federal Spending, HHS Annual Performance Report, Measuring the State
+    of Disaster Philanthropy'
+  featured_product: Emergency & Disaster Funding Tracking
+  image: challenges/flood.jpg
+  image-alt: Flooded street with cars and a building in the background
+  organizations:
+  - rec9YorLrBEvA0vj4
   products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
     Public Finance Institute-Disaster Spending Tracker
   sprint_order: 3
   sprint_text: Built Environment
-- Agency:
-  - rec0xQsk7n0Ht7V2M
-  Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
+- Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
     \ passed in 2015\u2014 requires states to make an estimated 2,107 data points\
     \ about their public school systems accessible to parents. In response, states\
     \ are looking to provide this information through digital \u201Creport cards.\u201D\
@@ -275,12 +319,6 @@
     \ of a recent federal law."
   Full Title: Helping States Develop Education Report Cards
   Name: Helping States Develop Education Report Cards
-  Potential Open Data Sets:
-  - recNbUfAHMExZGei9
-  - recqaiPYMKJAkgK9L
-  - recFQUkhbi0Aq7Yfk
-  - recfDAVw1jDvkH2mK
-  - recDGU3mXbgZmfHgz
   Products:
   - recZkztX2XjSfcDzO
   Sprints:
@@ -303,17 +341,22 @@
   airtable_createdTime: '2020-02-10T16:49:19.000Z'
   airtable_id: rec4jiLMOGoECbVXB
   category: Education
+  datasets copy:
+  - recjjHhrKIfcmATHw
+  - recWi5RPPGkfHapy8
+  - recLLnXn4feaHBHL7
+  - recbYHm8eeBfN1DEH
+  - rec9OH5d07REJ9mFW
   datasets_text: Civil Rights Data Collection (CRDC), National Assessment of Education
-    Progress (NAEP), Common Core of Data (CCD), Education Demographic and Geographic
-    Estimates (EDGE), EDFacts
+    Progress (NAEP), Education Demographic and Geographic Estimates (EDGE), Common
+    Core of Data (CCD), EDFacts
   image: photos/sprints/2018-reportcard.png
+  organizations:
+  - recBBbVkCKQN52rWM
   pdf: 2018-reportcard.pdf
   products_text: Socrata Citizen Education Data Cloud
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Agency:
-  - recuesxBrh08C2a6O
-  - reclB1AL2j0xPLpWa
-  Background: Many state and local governments do not have a database of addresses
+- Background: Many state and local governments do not have a database of addresses
     with geospatial coordinates (also known as address point data), which is critical
     for high priority issues like emergency response. In some cases, where the governments
     have address point data, it is not openly available due to propriety or legal
@@ -331,14 +374,6 @@
   Full Title: Helping Tribal, State, and Local Governments with Local Address Data
     Collection
   Name: Helping Tribal, State, and Local Governments with Local Address Data Collection
-  Potential Open Data Sets:
-  - recYgYuphdzW3xi82
-  - recODi3gKCQorNHNM
-  - recgRu4PMGVzUcNWS
-  - recuCGIy7wQ8hvVzJ
-  - recQsegR8fE8yofoN
-  - recrqrYhhpFWXtmnb
-  - recQ4Ti8BaskdVZw4
   Products:
   - rec8Yym9s5wIGjlDI
   - receo5EjDvZOW0G6N
@@ -373,18 +408,26 @@
   agency_text: U.S. Census Bureau, U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T18:25:37.000Z'
   airtable_id: rec55VBughwHjCFWp
-  datasets_text: 'TIGER: Line Address Range-Feature, TIGER: Line Roads Data, Local
-    Update of Census Address Operation (LUCA), National Agriculture Imagery Program,
-    U.S. National Grid, National Address Database (NAD), NAD Schema'
-  featured_product:
-  - rec4tY9vvumikW1Ku
+  datasets copy:
+  - recMZh6GPCweh6slf
+  - rec0KtKpasrNEpAY6
+  - recmA1iIbbfNViUNa
+  - recXye08klgBkn1My
+  - recmcGkZE63ZAPEVr
+  - rec5qniIwW1sDhxkf
+  - recot9D8u5Ya5kcAA
+  datasets_text: Local Update of Census Address Operation (LUCA), National Agriculture
+    Imagery Program, U.S. National Grid, National Address Database (NAD), NAD Schema,
+    TIGER Line Roads Data, TIGER Line Address Range-Feature
+  featured_product: PRADOS
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  - recQJhXANnrCe4tUP
   products_text: The TomTom Centaur Data Logging App, Fulcrum Community for Addressing
     and Disaster Preparedness, PRADOS
   sprint_order: 1
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury), Geo-Cohort
-- Agency:
-  - rec0xQsk7n0Ht7V2M
-  Background: "Today, too many of our Nation\u2019s K-12 and postsecondary students\
+- Background: "Today, too many of our Nation\u2019s K-12 and postsecondary students\
     \ lack access to high quality STEM education, and thus are at risk of being shut\
     \ out from some of the most attractive job options in the growing United States\
     \ economy. Courses in Computer Science are especially scarce in too many schools\
@@ -402,13 +445,6 @@
     in STEM and empower them to pursue STEM education locally.
   Full Title: Promoting Access to and Interest in STEM Fields
   Name: Promoting Access to and Interest in STEM Fields
-  Potential Open Data Sets:
-  - recNbUfAHMExZGei9
-  - recqaiPYMKJAkgK9L
-  - recSCaH5VUjfZZ0s1
-  - rec7D0DXUKZP0HLdm
-  - rec1zbPTxIofMMcf7
-  - recfDAVw1jDvkH2mK
   Products:
   - recKSyLaCXFbhyDuv
   Sprints:
@@ -432,16 +468,26 @@
   airtable_createdTime: '2020-02-10T16:47:30.000Z'
   airtable_id: rec5Qmq3TNOnhhfoE
   category: Education
-  datasets_text: Civil Rights Data Collection (CRDC), National Assessment of Education
-    Progress (NAEP), Integrated Postsecondary Education Data System, Program for International
-    Student Assessment (PISA), Trends in International Mathematics and Science Study
-    (TIMSS), Education Demographic and Geographic Estimates (EDGE)
+  datasets copy:
+  - recoKXJWYQUUmTFRo
+  - recjjHhrKIfcmATHw
+  - recWi5RPPGkfHapy8
+  - recDLNFOXGAunBqCJ
+  - recxHYRKAEZU9GREu
+  - recLLnXn4feaHBHL7
+  datasets_text: Integrated Postsecondary Education Data System, Civil Rights Data
+    Collection (CRDC), National Assessment of Education Progress (NAEP), Program for
+    International Student Assessment (PISA), Trends in International Mathematics and
+    Science Study (TIMSS), Education Demographic and Geographic Estimates (EDGE)
   image: photos/sprints/2018-stem.png
+  organizations:
+  - recBBbVkCKQN52rWM
   pdf: 2018-stem.pdf
   products_text: Nepris Industry Connections
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Agency:
-  - rec0xQsk7n0Ht7V2M
+- Agency Leads:
+  - recQKd9S8NEvZbnxG
+  - recUWE6o2y4owHOph
   Background: To many Americans ,earning a 4-year university degree is held up as
     the most attractive, prestigious or only path toward a successful career. Yet,
     educational institutions, companies, unions, and other entities are increasingly
@@ -471,17 +517,7 @@
   Executive champion: Diane Jones, Sariane Leigh
   Full Title: Helping the American Workforce Leverage Multiple Pathways for Career
     Growth
-  Lead POC:
-  - recWuBVq0CNaE3cd8
-  - recol0QnviT5t0VHp
-  Name: Multiple Pathways
-  Potential Open Data Sets:
-  - rec9jYPqb0cP7yawg
-  - recP9PdGHf1y2nkEd
-  - recEAOV3nhtUbawyd
-  - rec6qMhN7Hdmo5jEf
-  - recabyPNA9ZtDEc7T
-  - recxHTUb4hhjIsh4l
+  Name: Career Pathways
   Products:
   - reckOdJi2Y6DUxI09
   - recleNeiLRdZwSdLt
@@ -504,17 +540,39 @@
   agency_text: U.S. Department of Education
   airtable_createdTime: '2020-01-30T17:52:03.000Z'
   airtable_id: rec6Coqk1u4BTdxLI
-  contacts_text: Sariane Leigh, Diane Jones
-  datasets_text: Occupational Outlook Handbook, O*NET Web Services, CyberSeek, Apprenticeship
-    Available Occupations, Employment Situation Summary, Apprenticeship Finder
-  featured_product:
-  - recleNeiLRdZwSdLt
+  datasets copy:
+  - recFrLRheWNuusPVD
+  - reclhCfxKbCdphZ3A
+  - recCyzjEaDO1LZY3C
+  - recaIBXUqd4zy4bXA
+  - recGjlRED5A80yRwg
+  - rec6iiVcmH91bxr5i
+  - recKlWO8C6xuadXx8
+  - recl6pOP4ewlaXc0q
+  - recjptxzJxPu7MNQW
+  - recsXeiM0GqN0vUBF
+  - recYHXoQAnB07bJSb
+  - recnuO3Sen2Mn4dVE
+  - recAXzAxWMJcMuNgI
+  - recQqMjrOwzsTC196
+  - rec5qniIwW1sDhxkf
+  - recot9D8u5Ya5kcAA
+  - recuQekdEOW8PtYFg
+  datasets_text: Occupational Outlook Handbook, O*NET Web Services, Apprenticeship
+    Available Occupations, CyberSeek, Employment Situation Summary, County Business
+    Patterns, Non-Employer Statistics, College Scorecard, CareerOneStop, Apprenticeship
+    Finder, API & Developer Resources for Census Bureau Data, Housing Assistance Data,
+    Individual Assistance Data, CDC Social Vulnerability Index, TIGER Line Roads Data,
+    TIGER Line Address Range-Feature, Business Formation Statistics
+  featured_product: Solve
+  image: challenges/pathways.png
+  image-alt: Woman in graduation cap and gown
+  organizations:
+  - recBBbVkCKQN52rWM
   products_text: Kanarys, Solve
   sprint_order: 3
   sprint_text: Workforce
-- Agency:
-  - rec0xQsk7n0Ht7V2M
-  Background: 'The Department of Education is focused on ensuring that parents, students,
+- Background: 'The Department of Education is focused on ensuring that parents, students,
     and policymakers are able to use its publicly available data to take meaningful
     action to improve outcomes. '
   Challenge: Develop tools that leverage data to help stakeholders understand where
@@ -555,12 +613,16 @@
   airtable_id: rec6HY78EY2rrTgQq
   category: Workforce
   image: photos/sprints/2016-doe2.png
+  organizations:
+  - recBBbVkCKQN52rWM
   pdf: 2016-doe.pdf
   products_text: Opportunity Dashboard, Streetwyze, National Equity Atlas, OpenData
     Network
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recCtjZOVX3vLEP2u
+- Agency Leads:
+  - recCSbrTRtOWMDXvv
+  - recrCPDzOLcfc6O0c
+  - recvXF0Zgzvh7q8C9
   Background: 'Knowledge, technology, and innovation are the engines of our economy
     -- without them, regions and the economy as a whole would fail to grow.  Over
     the last 20 years, economic and technological forces have shifted the American
@@ -582,19 +644,7 @@
     innovation and regional economic growth. '
   Executive champion: Dennis Alvord, Emily Miller, Craig Buerstatte
   Full Title: Modernizing Talent Discovery for High Growth Entreprenership
-  Lead POC:
-  - rechFHIROyVjtTnY5
-  - rec5wIaRJATJ8dMxn
-  - recpmBHPXUXWkJrsc
   Name: Talent Discovery
-  Potential Open Data Sets:
-  - recmN457sfx2MOVAK
-  - recBpkb4gOoDYmp3A
-  - recSCaH5VUjfZZ0s1
-  - recqPri6uUhGDk8UT
-  - recdZuaGdk7HWA7ye
-  - recENolxMWomlQE1K
-  - reclmoCUkYlHji460
   Products:
   - recfqTRYC5LXFiOUe
   - recFK3C3oDrmnIwA3
@@ -616,19 +666,46 @@
   agency_text: U.S. Economic Development Administration
   airtable_createdTime: '2020-01-30T17:55:59.000Z'
   airtable_id: rec6yDEfMyReqsMcl
-  contacts_text: Emily Miller, Craig Buerstatte, Dennis Alvord
-  datasets_text: Employment Data from Census by Geography, Occupational Employment
-    Statistics, Integrated Postsecondary Education Data System, Regional Innovation
-    Strategies (RIS) Program, Regional Innovation Strategies (RIS) Program, Cluster
-    Mapping, Stats America
-  featured_product:
-  - recfqTRYC5LXFiOUe
+  datasets copy:
+  - rec7x7dVjKZilg4sX
+  - recSVR7Yvb8H9IAZ7
+  - recoKXJWYQUUmTFRo
+  - recWXekXxQSl0eNjg
+  - recSFaUe6kbKuwVBS
+  - rec6iiVcmH91bxr5i
+  - recKlWO8C6xuadXx8
+  - rec0l2fRhMLVZEFmy
+  - recmkkxZM0QnCn15K
+  - reciW3wuzv5WoMRxh
+  - rec5fYKQjgnkqmGO8
+  - recSgzDlxsMG2v09V
+  - recYHXoQAnB07bJSb
+  - recnuO3Sen2Mn4dVE
+  - recAXzAxWMJcMuNgI
+  - recQqMjrOwzsTC196
+  - rec5qniIwW1sDhxkf
+  - recot9D8u5Ya5kcAA
+  - recuQekdEOW8PtYFg
+  - recGz99CD1Q2MHRxa
+  - recMlLrjRlr9G4FeN
+  datasets_text: Occupational Employment Statistics, Employment Data from Census by
+    Geography, Integrated Postsecondary Education Data System, Regional Innovation
+    Strategies (RIS) Program, Quarterly Workforce Indicators, County Business Patterns,
+    Non-Employer Statistics, Economic Census Data, Survey of Business Owners (SBO),
+    Annual Survey of Entrepreneurs, Inventor and Entrepreneur Resources, List of Federal
+    Efforts Supporting Entrepreneurship, API & Developer Resources for Census Bureau
+    Data, Housing Assistance Data, Individual Assistance Data, CDC Social Vulnerability
+    Index, TIGER Line Roads Data, TIGER Line Address Range-Feature, Business Formation
+    Statistics, Stats America, U.S. Cluster Mapping Tool
+  featured_product: Job Opportunity Tool
+  image: challenges/talent.png
+  image-alt: Two women working together at a laptop
+  organizations:
+  - recNeUjWAHgq84dsR
   products_text: Job Opportunity Tool, Talent Finder Tool
   sprint_order: 2
   sprint_text: Workforce
-- Agency:
-  - recnfIRYEISCJVJM6
-  Background: USDA Rural Development helps improve the quality of life for families
+- Background: USDA Rural Development helps improve the quality of life for families
     in rural communities through technical assistance and a range of grant and loan
     programs, including for housing, essential community facilities, infrastructure,
     and small business development.
@@ -660,13 +737,12 @@
   airtable_id: rec7PAfceBewrUGZ3
   category: Workforce
   image: photos/sprints/2016-ag1.png
+  organizations:
+  - recRKu6t2inmGXXce
   pdf: 2016-ag.pdf
   products_text: Findyour.town
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recFUgWuGZMTCoKVG
-  - rectJsTe77nlH7QcZ
-  Background: The Federal government has extensive data that currently exists in silos.
+- Background: The Federal government has extensive data that currently exists in silos.
     Agencies maintain data about their programs, open data sources maintain various
     elements of meta data, and government-wide systems like Performance.gov and USASpending.gov
     hold data about specific areas of Federal operations. Although the Federal government
@@ -679,17 +755,6 @@
     and Performance Data
   Name: Increasing Government Accountability by Connecting Federal Spending and Performance
     Data
-  Potential Open Data Sets:
-  - rec1pbahHiv6HeVsl
-  - recwQk7mwZH2JTYQv
-  - recZhwFjTETO5zCFG
-  - rec334TlHvZ4MIo5M
-  - recrh2p5y3SZ6IbHF
-  - recl4QnilS8fVAWG9
-  - recfIuPZDFhJMQjYf
-  - rec6xLetBsTjnvb00
-  - recEG2hvwSgmpa551
-  - recrYJYEMJahqTIhE
   Sprints:
   - recbhMlc1WZWXNte0
   Target audience / End user: Engaged citizens seeking clear information
@@ -713,15 +778,27 @@
   airtable_createdTime: '2020-02-10T17:30:35.000Z'
   airtable_id: rec91k66NBPeRwaK7
   category: Equity
-  datasets_text: USASpending.gov, Performance.gov, DisasterAssistance.gov, Sam.gov,
-    Grants.gov, Catalog of Federal Domestic Assistance (CFDA), Federal Procurement
-    Data System (FPDS), GPS data, Data.gov, FedBizOps
+  datasets copy:
+  - rec2Y79dzViH6NDfS
+  - recvpjHaWAutsth43
+  - reczbRVcKrAJ9C3u9
+  - recXpPrWBZtEtCQ62
+  - recRcDp9oOJUiuB5w
+  - recLQhRQGBSo9KYnC
+  - recCFygkEouYKpQpn
+  - recaOPjmzOR1M4Kuo
+  - recX6w0vPFLWNNnG1
+  - recLDnNQUim6OdzH0
+  datasets_text: Performance.gov, DisasterAssistance.gov, Sam.gov, Grants.gov, Catalog
+    of Federal Domestic Assistance (CFDA), Federal Procurement Data System (FPDS),
+    GPS data, Data.gov, FedBizOps, USASpending
   image: photos/sprints/2018-accountability.png
+  organizations:
+  - rec9YorLrBEvA0vj4
+  - recgPNji2KEknNBA5
   pdf: 2018-accountability.pdf
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Agency:
-  - rec9lu4zRtMv8dOhs
-  Background: The Department of Housing and Urban Development is focused on ensuring
+- Background: The Department of Housing and Urban Development is focused on ensuring
     that we end homelessness and support families and individuals experiencing homelessness
     in the most effective way possible.
   Challenge: Develop tools to connect potential landlords with the providers of Rapid
@@ -757,6 +834,8 @@
   airtable_id: recBxwNpfEqtxSEbI
   category: Housing
   image: photos/sprints/2016-hud.png
+  organizations:
+  - recRLxRGfiWtHnmAs
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity, Opportunity
     Enabler, Affordable Housing Finder
   sprint_text: Agency Cohort (2016 Sprint 2/3)
@@ -770,9 +849,7 @@
   airtable_id: recCTI1VBSwUOl4Tq
   products_text: Data.World Workspace, OpenData Network
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - rec9lu4zRtMv8dOhs
-  Challenge: Create digital collaboration platforms that enable low income families
+- Challenge: Create digital collaboration platforms that enable low income families
     to holistically assess their needs and connect with the best federal, state and
     local programs to equip and empower them toward self-sufficiency and economic
     mobility.
@@ -804,15 +881,44 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-01-26T16:35:00.000Z'
   airtable_id: recD4rN8c5sH3ECRi
-  featured_product:
-  - recyKI9exBfBtz1hr
+  datasets copy:
+  - recFj4QjpdbkttkPv
+  - rec7LK46DHnDNtqhO
+  - recRPigFQgkCrx7qa
+  - recw6qS7nsiuFzmp9
+  - recElbo8uA6d7Me48
+  - recMPHn8tRSF5Tdq8
+  - recxReBEEKnZu27SS
+  - recTCoN4IMaSTrDbs
+  - rec6xXLK2MnjolW6R
+  - recmHtppXb3wSH6uI
+  - recrHa6YWyn6u6GXF
+  - recPBCaWu7TqcxSI9
+  - recOOfo569jN44oeT
+  - recZ889pE3kdEcyf0
+  - recSVR7Yvb8H9IAZ7
+  - rec6iiVcmH91bxr5i
+  - recOVmpdAhCpJrXg2
+  - rec2jAFENLjEPUYdp
+  datasets_text: Picture of Subsidized Households, HUD Data Portal, American Housing
+    Survey, Low-Income Housing Tax Credit Qualified Census Tracts, Low-Income Housing
+    Tax Credit Database, Fair-Market Rent Data, HUD Services Data , HUD Community
+    Assessment Reporting Tool (CART) , HUD EnVision Centers, Treasury ZIP Code Statistics
+    of Income, "Poverty Estimates, Trends, and Analysis", HHS Data Initiative, HHS
+    Social Services Programs, HHS Wellness Programs, Employment Data from Census by
+    Geography, County Business Patterns, Map of Opportunity Zones and Affordable Housing,
+    HUD Enterprise GIS
+  featured_product: The EnVision App
+  image: challenges/self-sufficiency.jpg
+  image-alt: Closeup of desk with two people sitting at laptops and one of them writing
+    on some paperwork
+  organizations:
+  - recRLxRGfiWtHnmAs
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
     360-Degree Data Fusion Virtual Ecosystem Platform, Julius Career Journey Program
   sprint_order: 1
   sprint_text: Built Environment
-- Agency:
-  - recuesxBrh08C2a6O
-  Challenge: Historically, certain groups of people are undercounted in the Census,
+- Challenge: Historically, certain groups of people are undercounted in the Census,
     including the LGBTQ community, children under 5, people experiencing homelessness,
     renters, and members of underrepresented minorities. An accurate count is vital
     to ensuring these groups are represented and have access to federal resources.
@@ -820,13 +926,6 @@
     rates.
   Full Title: Reaching Hard-to-Count Communities
   Name: Reaching Hard-to-Count Communities
-  Potential Open Data Sets:
-  - recHIEDMO43w88nUZ
-  - recHnmpXg3pISKzIE
-  - recDQsr1IayYjFfxI
-  - recBX83XqOCpcUFXN
-  - recX5JW33ExRblCrR
-  - reczOYPyGk2jIFSz5
   Products:
   - recc6G4ozj7KnAH6e
   - recZn66weHUm3gq49
@@ -848,18 +947,24 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:35.000Z'
   airtable_id: recDkOPeR5RLFwe2e
+  datasets copy:
+  - recdQrFDR0Ebv22jm
+  - recdv9rOjZ0nfEe71
+  - rec9YftSL69DGzUW5
+  - rec75V5OtKd4zOkma
+  - rectdwYU6A8wyfhQe
+  - rec5WLRpJgDY5zxYs
   datasets_text: The Undercount of Young Children, Response Outreach Area Mapper (ROAM),
     "2020 Census Research, Operational Plans, and Oversight", Audience Segment Descriptions,
     Annual Homeless Assessment Report (AHAR), Homeless Point-in-Time (PIT) and Housing
     Inventory Count (HIC)
-  featured_product:
-  - recB5iDMet16XnjXe
+  featured_product: Census Intelligence Center
+  organizations:
+  - rec9e5MJi3BeiIc2m
   products_text: Community Counts, Tract by Tract, Census Intelligence Center
   sprint_order: 1
   sprint_text: 2020 Census
-- Agency:
-  - recrqBHDoN6UK5bCq
-  Challenge: ' Create a tool that connects resettled refugees with resources and vital
+- Challenge: ' Create a tool that connects resettled refugees with resources and vital
     services, such as access to medical care and mental health treatment, English
     language learning, job training, education, etc. These resources might be available
     through government agencies, nonprofits, community based organizations, private
@@ -889,15 +994,21 @@
   agency_text: USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-01-26T16:43:44.000Z'
   airtable_id: recDnQq3aDp59z637
-  featured_product:
-  - recbsgNzUmmrKuEYn
-  - rec1WFJn1OGTTGrZi
+  datasets copy:
+  - rec0EuLirFTikoiVR
+  - recH9vKhftk4FCNsp
+  - rec4lJmGkCAq2jlUL
+  - reck0WMNhs1NhH3vr
+  datasets_text: Charity Navigator, WRAPSNET, Hello Neighbor, FindHello Resources
+  featured_product: RefugeeAssist, Resettled Refugee Services and Data Explorer
+  image: challenges/refugee.jpg
+  image-alt: White tents in a refugee camp
+  organizations:
+  - reccYXaD7aLLyyBqy
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
   sprint_order: 4
   sprint_text: Built Environment
-- Agency:
-  - recKUZ0ercFPyxTbD
-  Full Title: ' Creating Digital Tools that Bring Diagnostic Data to Consumers,'
+- Full Title: ' Creating Digital Tools that Bring Diagnostic Data to Consumers,'
   Name: COVID-19 Testing
   Products:
   - rechzHn8vOEW60T0x
@@ -918,15 +1029,15 @@
   agency_text: U.S. Department of Health and Human Services
   airtable_createdTime: '2021-05-10T18:44:13.000Z'
   airtable_id: recFyf3r3yQQEHbx7
+  organizations:
+  - recZod0Y9uE8dnrem
   products_text: At-Home Testing Platform, Companion App for COVID Testing, Digital
     Health Pass, Patient Health Ecosystem Portal, Consumer Dx Test App, COVID-19 Immutable
     Test Results Submission and Visualization, Telemed, Co-Verify, State Reporting
     Hub, HealthCheck | Connected Testing Platform, Smart Clinical Testing Ecosystem
     for COVID-19, ClinIQ Health, CuraPatient
   sprint_text: TOPx COVID-19
-- Agency:
-  - recllJ66jGEQ8bRtg
-  Challenge: 'Create tools to help communities understand how motorized vehicle and
+- Challenge: 'Create tools to help communities understand how motorized vehicle and
     equipment transportation contributes to emissions, local air quality, and health,
     as well as the actions available to lessen these impacts. '
   Full Title: "Increasing Awareness of Emissions\u2019 Effects on Air Quality"
@@ -956,14 +1067,75 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:46:02.000Z'
   airtable_id: recG9NY8ns2oza4vp
-  featured_product:
-  - recyl8q9tZWnPoQQt
+  datasets copy:
+  - reculZxaACMYLbtZl
+  - rec0W7MWY48tX38Q9
+  - recebHApOk7v4zvGh
+  - recynfESoUGMsEDkW
+  - rec1ZXbrWRpKXVxcd
+  - recvnz4dVc4a6aQgS
+  - recC9H3fQa1hhsBdq
+  - recORRGSz8KM2Igb0
+  - recMVBsyGyKjBp09a
+  - recUV6hv6WsWxm3Cn
+  - rec1whWFRKHs6KhQJ
+  - recOb2tc0ZdTy1BO9
+  - rec2Lyt7Ex3VygOzr
+  - reclaJQGRmjIFdIvB
+  - recCuCOwYU4O8ghYr
+  - rec6EFLOcgJFqtnL5
+  - recHPHeIIRTFMimuy
+  - recP5cGDzT2zGEsK6
+  - reco4lJ8yKVLXcWrU
+  - recqtqPIPuHLrODlE
+  - recBI0V3O5BTzu2DR
+  - recLdaL3z2v32oZ2o
+  - recHOUBPkUDcaiw3x
+  - recO7jBCfrng8tYZj
+  - recgS9hiCUoKIGzZr
+  - recAcRDjbYT5MLe5R
+  - recYHXoQAnB07bJSb
+  datasets_text: 'Local Area Transportation Characteristics for Households Data, CDC
+    Health Data (WONDER), OpenDataPhilly, Traffic Volume Trends, AirNow, AirNow API
+    for Developers, U.S. Chronic Disease Indicators (CDI), "500 Cities: Local Data
+    for Better Health, 2019 release", National Environmental Public Health Tracking,
+    Asthma Surveillance Data, The Magic School Bus Gets Cleaned Up, Coloring Book
+    titled Carl Gets Some Rest, Idle-Free Schools Toolkit for a Healthy School Environment,
+    Ports Primer for Communities: An Overview of Ports Planning and Operations to
+    Support Community Participation, Learning and Teaching about the Environment Web
+    Resource, National Port Strategy Assessment: Reducing Air Pollution and Greenhouse
+    Gases at U.S. Ports, Reducing School Bus Idling: Clean Air Poster, Freight Analysis
+    Framework, Green Vehicle Guide, Best Practices for Reducing Near-Road Pollution
+    Exposure at Schools, Recommendations for Constructing Roadside Vegetation Barriers
+    to Improve Near road Air quality, Air Pollutant Emissions Trends Data, Environmental
+    Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE), National
+    Emissions Inventory (NEI), EJSCREEN: Environmental Justice Screening and Mapping
+    Tool, Automotive Trends Data, API & Developer Resources for Census Bureau Data'
+  featured_product: AirMotionDC
+  image: challenges/air-quality.jpg
+  image-alt: Blue sky with white clouds
+  natl env datasets: 'National Emissions Inventory (NEI), AirNow, AirNow API for Developers,
+    Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE),
+    EJSCREEN: Environmental Justice Screening and Mapping Tool, Local Area Transportation
+    Characteristics for Households Data, Freight Analysis Framework, CDC Health Data
+    (WONDER), U.S. Chronic Disease Indicators (CDI), Ports Primer for Communities:
+    An Overview of Ports Planning and Operations to Support Community Participation,
+    Best Practices for Reducing Near-Road Pollution Exposure at Schools, Recommendations
+    for Constructing Roadside Vegetation Barriers to Improve Near road Air quality,
+    Learning and Teaching about the Environment Web Resource, Coloring Book titled
+    Carl Gets Some Rest, Reducing School Bus Idling: Clean Air Poster, The Magic School
+    Bus Gets Cleaned Up, Idle-Free Schools Toolkit for a Healthy School Environment,
+    Green Vehicle Guide, "500 Cities: Local Data for Better Health, 2019 release",
+    National Environmental Public Health Tracking, National Port Strategy Assessment:
+    Reducing Air Pollution and Greenhouse Gases at U.S. Ports, APIs & Developer Resources,
+    Asthma Surveillance Data, Traffic Volume Trends, Automotive Trends Data, Air Pollutant
+    Emissions Trends Data, OpenDataPhilly'
+  organizations:
+  - recDJthxFdnCkkHXX
   products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
   sprint_order: 4
   sprint_text: Natural Environment
-- Agency:
-  - recG1tIVvzTYzOMct
-  Background: The Department of Labor believes that dynamic, rich data about the workforce
+- Background: The Department of Labor believes that dynamic, rich data about the workforce
     can better connect Americans and their skills to jobs that need to be filled.
     Unlocking this data can make it easier for Americans who are chronically unemployed
     or underemployed to find and access new training and job opportunities.
@@ -998,14 +1170,13 @@
   airtable_id: recGQ0S48RDx0VENx
   category: Education
   image: photos/sprints/2016-dol2.png
+  organizations:
+  - recnDoHewBvPIWrBO
   pdf: 2016-dol.pdf
   products_text: Job Crowdsourcing Tool, Training Finder, Opportunity.hackernest.com,
     CareerSpark, Opportunity Score, PolicyMap Tool
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - reclXAsK8svVOyLxO
-  - recKUZ0ercFPyxTbD
-  Background: 'The Office of the Surgeon General is focused on promoting health and
+- Background: 'The Office of the Surgeon General is focused on promoting health and
     wellbeing nationwide and empowering individuals with information on health. '
   Challenge: Parents and community leaders could benefit from evidence-based tools
     that provide information regarding Emotional Well-Being and cultivate individual
@@ -1042,19 +1213,19 @@
     \ engines, and social media messages. Parents and community leaders could benefit\
     \ from evidence-based tools that provide information regarding EWBs and cultivate\
     \ individual and community-level EWB."
-  agency_text: Office of the U.S. Surgeon General, U.S. Department of Health and Human
-    Services
+  agency_text: U.S. Department of Health and Human Services, Office of the U.S. Surgeon
+    General
   airtable_createdTime: '2020-02-10T17:49:16.000Z'
   airtable_id: recGQxoZehhlElI4g
   category: Workforce
   image: photos/sprints/2016-sg.png
+  organizations:
+  - recZod0Y9uE8dnrem
+  - recs22ERdovX7lUpQ
   pdf: 2016-sg.pdf
   products_text: Fitbit, Streetwyze
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recFUgWuGZMTCoKVG
-  - rectJsTe77nlH7QcZ
-  Background: "Grant managers\u2014including those that administer funds from inside\
+- Background: "Grant managers\u2014including those that administer funds from inside\
     \ the Federal Government and those from external organizations that receive Federal\
     \ funds\u2014report spending 40% of their time using antiquated processes to monitor\
     \ compliance instead of data and analytics to monitor results. The organizations\
@@ -1068,21 +1239,6 @@
     for opportunities, streamline reporting, and assess risks.
   Full Title: Improving Access to and Management of Federal Grants
   Name: Improving Access to and Management of Federal Grants
-  Potential Open Data Sets:
-  - rec1pbahHiv6HeVsl
-  - rec334TlHvZ4MIo5M
-  - recl4QnilS8fVAWG9
-  - rec5YbmoAewd3xphW
-  - recrh2p5y3SZ6IbHF
-  - recPR9jNluTXVnpkU
-  - recdmwgRjeQdV2ujv
-  - reclnypRyljf3g4gD
-  - recmabitfkqxVoW7l
-  - recg1qrBSXUKvbjgD
-  - rectlPGQUT134yRLN
-  - recmNwjlFI2Xo8CCq
-  - recM5ej0196dVfE6y
-  - recwQk7mwZH2JTYQv
   Products:
   - recZ3abAz4ADb6WRZ
   - recKbaLyzNV2xVyxV
@@ -1103,18 +1259,34 @@
   airtable_createdTime: '2020-02-10T17:30:36.000Z'
   airtable_id: recGXB6VI2XEbqemj
   category: Equity
-  datasets_text: USASpending.gov, Sam.gov, Catalog of Federal Domestic Assistance
-    (CFDA), Federal Audit Clearing House, Grants.gov, Benefits.gov, USA.gov, FSRS.gov,
+  datasets copy:
+  - rec2Y79dzViH6NDfS
+  - reczbRVcKrAJ9C3u9
+  - recXpPrWBZtEtCQ62
+  - recRcDp9oOJUiuB5w
+  - recB6YofDa7Sqr4Gj
+  - reclZWlEoquCih4Jh
+  - recJujiImarSiW9IS
+  - recRvlrIBhUUqaJF0
+  - recSiYkkig1ciiBwI
+  - recM9dtsVTvpS5YF0
+  - recZtCIHXPCIrswaa
+  - recSVjlcIEDCL2h1N
+  - recid1lR45HSi9jvV
+  - recLDnNQUim6OdzH0
+  datasets_text: Performance.gov, Sam.gov, Grants.gov, Catalog of Federal Domestic
+    Assistance (CFDA), Federal Audit Clearing House, Benefits.gov, USA.gov, FSRS.gov,
     Tracking Accountability in Government Grants Systems (TAGGS), U.S. Department
     of Agriculture Grants and Loans, U.S. Department of Veteran Affairs Office of
-    Finance, Fish and Wildlife (TRACS), USDA NIFA Data Gateway, Performance.gov
+    Finance, Fish and Wildlife (TRACS), USDA NIFA Data Gateway, USASpending
   image: photos/sprints/2018-grants.png
+  organizations:
+  - rec9YorLrBEvA0vj4
+  - recgPNji2KEknNBA5
   pdf: 2018-grants.pdf
   products_text: Grants Impact and Story Tool, Grants Intelligence
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Agency:
-  - recA1fZLAnkUC8OTU
-  Background: "Veteran homelessness is a multi-faceted problem requiring a diverse\
+- Background: "Veteran homelessness is a multi-faceted problem requiring a diverse\
     \ set of solutions. Veterans interact with many organizations and service providers\
     \ to address career transition, health, and other challenges These groups are\
     \ not always coordinated, and also leave gaps in needed resources. For example:\
@@ -1147,12 +1319,12 @@
   airtable_id: recGo0glu9CVxEX87
   category: Housing
   image: photos/sprints/2017-veterans.png
+  organizations:
+  - recxPVJVs1W4haKxp
   pdf: 2017-veterans.pdf
   products_text: Get Vets Help, PAIRIN Pathways
   sprint_text: 2017 Sprint 1 (ED HUD VA)
-- Agency:
-  - recA1fZLAnkUC8OTU
-  Name: Veterans Suicide Prevention
+- Name: Veterans Suicide Prevention
   Products:
   - recyH7SUTuXtVQEjq
   - recpQRl79tKixOYHk
@@ -1161,11 +1333,11 @@
   agency_text: U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-21T19:24:24.000Z'
   airtable_id: recIGFiEZlWX5XzD9
+  organizations:
+  - recxPVJVs1W4haKxp
   products_text: EARS, TextHelp
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recG1tIVvzTYzOMct
-  Background: "Veterans have difficulty translating their military skills to civilian\
+- Background: "Veterans have difficulty translating their military skills to civilian\
     \ skills. This is both a relevancy problem (they don\u2019t know how their military\
     \ skills relate to civilian skills) and a communication problem (they don\u2019\
     t know how to describe their military skills into civilian terms). As a result,\
@@ -1176,11 +1348,6 @@
     programs. '
   Full Title: Using AI to Connect Veterans with Registered Apprenticeships
   Name: Using AI to Connect Veterans with Registered Apprenticeships
-  Potential Open Data Sets:
-  - recMrCIMqvN9T9Q4H
-  - recAQd6kCzpSnDamz
-  - recDxGUuPH80QFv2f
-  - recciHAWCxZxkPGHR
   Products:
   - reciS4wntA3e352BQ
   - recvh8HbEmn5MuzGI
@@ -1200,15 +1367,20 @@
   airtable_createdTime: '2020-02-10T17:26:24.000Z'
   airtable_id: recLROAotmnLsG3Bw
   category: Education
+  datasets copy:
+  - recizpKDtroOg3vt4
+  - rec6Y08bFv0xKxPLW
+  - rec9FtWlSDJFdzarC
+  - recIquCNFtAcHJl6e
   datasets_text: Veterans resumes, Job postings, Registered Apprenticeship Listings,
     BLS Job Outcomes Data
   image: photos/sprints/2018-ai.png
+  organizations:
+  - recnDoHewBvPIWrBO
   pdf: 2018-ai.pdf
   products_text: Veteran Apprenticeship Matcher, Career Nav, Watson Employment Manager
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Agency:
-  - rec0xQsk7n0Ht7V2M
-  Background: "Homelessness affects a growing number of students nationwide. The number\
+- Background: "Homelessness affects a growing number of students nationwide. The number\
     \ of homeless students nationwide has nearly doubled from about 680 thousand homeless\
     \ children and youths enrolled in public schools in 2006-07, to more than 1.3\
     \ million during the 2013-14 school year. Over the same period, the number of\
@@ -1236,12 +1408,12 @@
   airtable_id: recMEER5Sc9HQrLOF
   category: Housing
   image: photos/sprints/2017-youth.png
+  organizations:
+  - recBBbVkCKQN52rWM
   pdf: 2017-youth.pdf
   products_text: MySpot
   sprint_text: 2017 Sprint 1 (ED HUD VA)
-- Agency:
-  - recSSuTqWjc7zB70K
-  Challenge: 'Develop digital tools that help small business leaders and their workforces
+- Challenge: 'Develop digital tools that help small business leaders and their workforces
     to enhance their online presence and ability to process data and information relevant
     to their businesses in real time, thereby allowing them to be competitive in the
     digital ecosystem. '
@@ -1279,13 +1451,13 @@
   agency_text: City of Coral Gables
   airtable_createdTime: '2021-07-09T16:26:32.000Z'
   airtable_id: recODy3F77656gS8i
+  organizations:
+  - rec2IHtoNgIK49Qgz
   pdf: 2021-problem-statements/post-covid/Coral Gables_ Helping Small Businesses Thrive
     in a Digital Economy.pdf
   sprint_order: 7
   sprint_text: The World Post-COVID-19
-- Agency:
-  - recuesxBrh08C2a6O
-  Challenge: For the first time in 2020, people will be able to complete the Census
+- Challenge: For the first time in 2020, people will be able to complete the Census
     online, presenting an opportunity to better count our nation, but also many challenges,
     like fake or suspicious content and targeted disinformation. Increasing digital
     literacy will be critical to combating disinformation and ensuring an accurate
@@ -1299,15 +1471,13 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:14.000Z'
   airtable_id: recPYnQdPuuZ0FZZ9
-  featured_product:
-  - recSXynrxBTKXTh63
+  featured_product: '#WhyWeCount'
+  organizations:
+  - rec9e5MJi3BeiIc2m
   products_text: '#WhyWeCount'
   sprint_order: 4
   sprint_text: 2020 Census
-- Agency:
-  - recNgTPOj9ZbFP6g3
-  - recRIQZncXRS0OZpy
-  Challenge: 'Create open data sets and engaging digital tools that complement existing
+- Challenge: 'Create open data sets and engaging digital tools that complement existing
     citizen science plastics data, to help the public understand the amount of plastic
     on local beaches and in the ocean, where such plastic comes from, and actions
     that can be taken to alleviate the problem. '
@@ -1336,19 +1506,52 @@
   agency_text: U.S. Department of State, The Wilson Center
   airtable_createdTime: '2021-01-26T16:35:32.000Z'
   airtable_id: recQeWP4kfK1EakJW
-  featured_product:
-  - rec6IC6El0nNjSiCA
+  datasets copy:
+  - recNeoxza1odoKSci
+  - recRkT4yhLGzbYeJp
+  - recTDMCt3kpzfrdSQ
+  - recntonEwdCa5VewX
+  - recF98kOtSiE6hJas
+  - recJrpmj5ur4g6XUC
+  - recT9E2tGLYcH0thL
+  - recTb9j7AlUKhYVko
+  - rec9uesU1D98puAio
+  - rec7bnuqwVugVXeUw
+  - reciFXNH5vMGxfNaw
+  - rec1Hpibbv05WVfZ0
+  - recWxsfYyUbWPLhVp
+  - rec9RadotsGHujjAg
+  datasets_text: 'Source Data: TIDES Coastal Cleanup, Integrated Data: Marine Debris
+    Monitoring and Assessment Project, Earth Challenge: Top 10 Most Common Plastics
+    By Country Data, Earth Challenge: Open Data Documentation, Earth Challenge: Citizen
+    Science Cloud: Plastics Page, Earth Challenge: Citizen Science Cloud Data Portal,
+    Integrated Data: TIDES Coastal Clean Up, Earth Challenge: Integrated Ocean Plastics
+    Data, Integrated Data: Marine Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget
+    Data , Our World In Data , Global Alert - Floating Trash, Source Data: Marine
+    Debris Monitoring and Assessment Project, Source Data: Marine Litter Watch'
+  featured_product: Ocean Plastics Story Map
+  image: challenges/ocean-plastics.jpg
+  image-alt: Beach with litter and plastics washed ashore
+  natl env datasets: 'Earth Challenge: Integrated Ocean Plastics Data, Earth Challenge:
+    Top 10 Most Common Plastics By Country Data, Earth Challenge 2020 Plastics Mobile  Widget
+    Data , Integrated Data: Marine Debris Monitoring and Assessment Project, Source
+    Data: Marine Debris Monitoring and Assessment Project, Integrated Data: TIDES
+    Coastal Clean Up, Source Data: TIDES Coastal Cleanup, Integrated Data: Marine
+    Litter Watch, Source Data: Marine Litter Watch, Earth Challenge: Open Data Documentation,
+    Earth Challenge: Citizen Science Cloud: Plastics Page, Earth Challenge: Citizen
+    Science Cloud Data Portal, Global Alert - Floating Trash, Our World In Data '
+  organizations:
+  - recj1G6ZElwqUBXSu
+  - recUpxLd9XCMfSOw9
   products_text: Ocean Plastics Story Map, Georgetown University Campus Plastic Initiative,
     PPIO, The Ghost Gear Project, Sea Scavenger
   sprint_order: 3
   sprint_text: Natural Environment
-- Agency:
-  - recnfIRYEISCJVJM6
-  Challenge: Create digital tools that provide farmers, ranchers, and researchers
+- Challenge: Create digital tools that provide farmers, ranchers, and researchers
     with timely access to National Agriculture Imagery Program (NAIP) data to help
     them make important agricultural and planning decisions.
   Full Title: Aiding Agricultural Decision-Making
-  Name: NAIP
+  Name: Enabling NAIP Data
   Products:
   - recyPJeX2onUtcMln
   - recqWVxkeZ3bYz68R
@@ -1367,15 +1570,25 @@
   agency_text: U.S. Department of Agriculture
   airtable_createdTime: '2021-01-26T16:35:07.000Z'
   airtable_id: recSM7q7ufXLojrBx
-  featured_product:
-  - recyPJeX2onUtcMln
+  datasets copy:
+  - rece8G25DNqYv7wRZ
+  - reczjUOvg10Zbj1FM
+  - recSMjx72oMwTtWq5
+  - recZ9K6s5qUYHPiN1
+  datasets_text: Federal Geo-platform, NAIP public image dates, NAIP public image
+    service, USGS National Map
+  featured_product: NAIP Explorer
+  image: challenges/agricultural.jpg
+  image-alt: Large open field on a farm
+  natl env datasets: NAIP public image service, NAIP public image dates, USGS National
+    Map, Federal Geo-platform
+  organizations:
+  - recRKu6t2inmGXXce
   products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision
     Ag for all American Farmers'
   sprint_order: 1
   sprint_text: Natural Environment
-- Agency:
-  - reci7jH40piLVRIiY
-  Background: Opioid misuse, addiction, and overdose have reached crisis levels in
+- Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
     opioids increased more than five-fold, from about 8,000 to over 42,000. Both prescription
     and illicit opioids contribute to this trend. The opioid crisis extends beyond
@@ -1394,18 +1607,6 @@
     and individuals. '
   Full Title: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   Name: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
-  Potential Open Data Sets:
-  - recu13n2AGsRNv5y8
-  - recXAWjcRB80lP4zc
-  - recdludfLgFHC3S3X
-  - recvRb4xjhE3vb4rA
-  - rec9lumE0KSyBfLeL
-  - recC3wXLROWcQILJL
-  - receWEJAlvmjQ6dqw
-  - recAKZaIgtoQaM2ZG
-  - recvprPOTRAWo3UxV
-  - recVv8TMRGYKEpJtY
-  - reci75YxUlNrgbRJi
   Products:
   - recnSpNUcyeoVi28K
   Sprints:
@@ -1434,21 +1635,31 @@
   agency_text: White House Office of Science and Technology Policy
   airtable_createdTime: '2020-02-10T17:48:43.000Z'
   airtable_id: recUnXFEYwEO7Uea6
+  datasets copy:
+  - rec09QpTDC3wapKXv
+  - rectIJl3UxJFIJJYz
+  - recJthf6OcgmZXxsk
+  - rec1ZY6omdfIS5JQX
+  - recFthov3GtdY9qD8
+  - rec8bjZCUKxRdCq88
+  - recK4rLrorXYd0SPT
+  - rec6SMczjpZvxGHo3
+  - rec1xeRFWNbBLXzWi
+  - recrDVVDUCzp1joSl
+  - recOfS0oXho6D5w8F
   datasets_text: Opioid Prescribing Data, Opioid Dispensing Data, Monitoring the Future
     (MTF), National Drug Early Warning System (NDEWS), National Survey on Drug Use
     and Health (NSDUH), Drug Abuse Warning Network (DAWN), Treatment Episode Data
     Set (TEDS), Local Area Unemployment Statistics (LAUS), National EMS Information
     System (NEMSIS), Area Health Resource File (AHRF), Buprenorphine Treatment Practitioner
     Locator (SAMHSA)
-  featured_product:
-  - recnSpNUcyeoVi28K
+  featured_product: Insight for ArcGIS
+  organizations:
+  - rec0txaC5vlg0xonh
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
-- Agency:
-  - rec0xQsk7n0Ht7V2M
-  - rec9lu4zRtMv8dOhs
-  Background: 'The Department of Education is focused on ensuring that parents, students,
+- Background: 'The Department of Education is focused on ensuring that parents, students,
     and policymakers are able to use its publicly available data to take meaningful
     action to improve outcomes. '
   Challenge: Certain mobile or disconnected student populations entering or reentering
@@ -1485,12 +1696,13 @@
   airtable_id: recWUq0tYLA47nFU2
   category: Education
   image: photos/sprints/2016-doe1.png
+  organizations:
+  - recBBbVkCKQN52rWM
+  - recRLxRGfiWtHnmAs
   pdf: 2016-doe.pdf
   products_text: School ResourceMapper, LiveStories, Visualizing Youth Disconnection
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - reclB1AL2j0xPLpWa
-  Background: 'The Department of Transportation is focused on increasing safety and
+- Background: 'The Department of Transportation is focused on increasing safety and
     mobility across the country so that people can be connected to key resources like
     jobs, healthcare and education. '
   Challenge: Community advocates often have a difficult time synthesizing/disseminating
@@ -1537,12 +1749,12 @@
   airtable_id: recWbNwNVTeALHVEK
   category: Workforce
   image: photos/sprints/2016-dot.png
+  organizations:
+  - recQJhXANnrCe4tUP
   pdf: 2016-dot.pdf
   products_text: mySidewalk, Create, Commuter Map, Transit Analyst
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recDteLU4JRVKznV2
-  Background: "Worldwide and across the United States, cities and towns are grappling\
+- Background: "Worldwide and across the United States, cities and towns are grappling\
     \ with aging infrastructure, fluctuating populations, and a changing climate.\
     \ Public agencies cannot address these issues alone, which has led to involving\
     \ a growing network of civic stewardship organizations and volunteers to take\
@@ -1568,13 +1780,6 @@
     resilience and emergency preparedness, and amplify positive outcomes. '
   Full Title: Identifying and Strengthening Civic Environmental Stewardship
   Name: Identifying and Strengthening Civic Environmental Stewardship
-  Potential Open Data Sets:
-  - recE1TeDz5vUnZz4O
-  - recTPw3N2Vn5s58L8
-  - recQDaGsP3PKHUEo6
-  - recPoyk2W3fJ8QSnE
-  - recFpm0xej4Md6njm
-  - recWb9SJ9uV2GwvdD
   Products:
   - recWRZvsJGQgPYlDn
   - reco73a0LwOf8hbof
@@ -1615,17 +1820,23 @@
   agency_text: U.S. Forest Service
   airtable_createdTime: '2020-02-10T19:15:07.000Z'
   airtable_id: recZDeKZkpRgp2x1j
+  datasets copy:
+  - reca9GguC16zKTetb
+  - recpXj5E5RYKPZNav
+  - recmLXIjSZqp4OjNt
+  - reclwlmTZZQovKxM1
+  - recsjWUAcqwH3qaC0
+  - recVXO1fM2n3ST8pj
   datasets_text: Stewardship Mapping and Assessment Project (STEW-MAP), U.S. Census
-    Bureau Data, Urban Tree Canopy (UTC), National Land Cover, Enviroatlas, Costal
-    Resilience Tool
-  featured_product:
-  - reco73a0LwOf8hbof
+    Bureau Data, Urban Tree Canopy (UTC), National Land Cover, Costal Resilience Tool,
+    EnviroAtlas Interactive Map
+  featured_product: Bloomberg DEVOP
+  organizations:
+  - recbLwYNZI63gDeLc
   products_text: STEWMAP Explorer, Bloomberg DEVOP
   sprint_order: 4
   sprint_text: Geo-Cohort
-- Agency:
-  - recmNtqmtxvtLkQPW
-  Challenge: Improve climate resilience planning in communities around the nation
+- Challenge: Improve climate resilience planning in communities around the nation
     by creating tools that enable local decision making and facilitate federal support
     of local-level priorities.
   Executive champion: Tony LaVoi, Chief Data Officer, NOAA
@@ -1656,13 +1867,13 @@
   agency_text: National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-06-28T20:16:52.000Z'
   airtable_id: recbjIUzjzLZ5KmJS
+  organizations:
+  - recFaEqDe9K2rgPbi
   pdf: 2021-problem-statements/post-covid/NOAA_ Tackling the Climate Crisis through
     Climate-Smart Communities.pdf
   sprint_order: 3
   sprint_text: The World Post-COVID-19
-- Agency:
-  - recG1tIVvzTYzOMct
-  Background: 'The Department of Labor believes that employers in every industry deserve
+- Background: 'The Department of Labor believes that employers in every industry deserve
     the tools to develop a highly skilled workforce to help their business compete.
     For workers, apprenticeships offer opportunities to earn a salary while learning
     the technical skills necessary to succeed in high-demand careers. '
@@ -1691,19 +1902,42 @@
   airtable_id: recboDOGOG8eKuYc7
   category: Education
   image: photos/sprints/2016-dol1.png
+  organizations:
+  - recnDoHewBvPIWrBO
   pdf: 2016-dol.pdf
   products_text: Opportunity Enabler
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Agency:
-  - recNgTPOj9ZbFP6g3
+- Challenge: Develop digital products or physical/digital works of art that use 2020
+    Census data to build data literacy skills.
+  Full Title: 'Improving Data Literacy Using Decennial Census Data '
+  Name: 'Improving Data Literacy Using Decennial Census Data '
+  Sprints:
+  - recAocia3ypyTShB1
+  Target audience / End user: Under-funded communities; librarians; community organizers;
+    youth and students.
+  Why this problem matters: 'U.S. Census Bureau data is a valuable resource for increasing
+    data literacy skills. Many institutions, including libraries, schools, and community
+    groups have the ability to play a crucial role in building such skills and increasing
+    awareness and use of census data in their communities. To empower the public to
+    make more informed decisions, as well as prepare for and advance their careers,
+    it is pivotal to support such institutions and develop opportunities for individuals
+    to build data literacy skills on their own. '
+  agency_text: U.S. Census Bureau
+  airtable_createdTime: '2021-07-20T20:47:30.000Z'
+  airtable_id: reccHr0aPWZzFbgi8
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  pdf: 2021-problem-statements/2020-census/TOP-ImprovingDataLiteracy.pdf
+  sprint_order: 3
+  sprint_text: 2020 Census Data
+- Agency Leads:
+  - recPu7ecMOpB57kdo
   Challenge: Modernize civics training in secondary schools by developing digital
     products that draw on foreign assistance open data to equip students with an understanding
     of how American institutions work.
   Executive champion: Jim Richardson, Director, Office of Foreign Assistance at Department
     of State
   Full Title: Reimaging Civics Education for a New Generation
-  Lead POC:
-  - reczFHnzULWJJhsNZ
   Name: Civics Education
   Products:
   - recTfL9YZgQqj9i78
@@ -1734,14 +1968,43 @@
   airtable_createdTime: '2020-04-30T15:14:43.000Z'
   airtable_id: recdNGSC2k2ptu3JM
   category: Education
-  contacts_text: Sarath Ganji
-  featured_product:
-  - recTfL9YZgQqj9i78
+  featured_product: Bites Media
+  organizations:
+  - recj1G6ZElwqUBXSu
   products_text: Bites Media, Edubuddy
   sprint_text: TOPx
-- Agency:
-  - recum0ilV4KFTpriM
-  Challenge: Develop digital tools to prevent financial hardship and housing insecurity
+- Challenge: Develop digital products or physical/digital works of art that enable
+    businesses, community organizations and local governments to use 2020 Census data
+    for key decision making
+  Full Title: Assisting Businesses, Community, and State/Local Government Leaders
+    to Make Critical Decisions Using Decennial Data
+  Name: Assisting Businesses, Community, and State/Local Government Leaders to Make
+    Critical Decisions Using Decennial Data
+  Sprints:
+  - recAocia3ypyTShB1
+  Target audience / End user: Business decision makers, community and nonprofit organizations,
+    state and local government leaders.
+  Why this problem matters: Using census data to inform decision making can be challenging
+    for businesses, community groups, and government leaders. Small businesses and
+    nonprofits with limited resources dedicated to comprehensive analytics may struggle
+    to navigate the data, identify relevant data points, and determine the implications
+    for their business. Similarly, state and local government leaders are often constrained
+    by time, capacity, and budget and therefore may not have the necessary bandwidth
+    to conduct these analyses. However, the accurate distribution of resources on
+    the state and local level is crucial to equitably providing services. Developing
+    solutions to help these stakeholders utilize decennial data would ensure that
+    smaller and less resourced businesses could make critical decisions, community
+    organizations could gain insights into local needs, and funds could be accurately
+    and equitable distributed.
+  agency_text: U.S. Census Bureau
+  airtable_createdTime: '2021-07-20T20:44:46.000Z'
+  airtable_id: recdkBaZ8qiY98UM4
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  pdf: 2021-problem-statements/2020-census/TOP-AssistingDecisionMaking.pdf
+  sprint_order: 2
+  sprint_text: 2020 Census Data
+- Challenge: Develop digital tools to prevent financial hardship and housing insecurity
     by raising awareness of and connecting at-risk households to housing assistance.
   Executive champion: Dave Uejio, Acting Director, CFPB
   Full Title: Preventing Crisis for Low-Income Renters & Small Landlords
@@ -1771,12 +2034,16 @@
   agency_text: Consumer Financial Protection Bureau
   airtable_createdTime: '2021-06-28T20:19:07.000Z'
   airtable_id: recfszna1c4jtooN4
+  organizations:
+  - recJBNUnRBNUgTu9d
   pdf: 2021-problem-statements/post-covid/CFPB_ Preventing Crisis for Low-Income Renters
     & Small Landlords.pdf
   sprint_order: 4
   sprint_text: The World Post-COVID-19
-- Agency:
-  - reci7jH40piLVRIiY
+- Agency Leads:
+  - rec7G2N1E8SmbctT8
+  - rec7LBLYqaTnUhCQw
+  - rec0hZ6SwYZ6I1St9
   Background: 'Entrepreneurs create the companies that make up the industries of the
     future, and these companies will in turn recruit and train the workforce of the
     future. Young businesses create nearly all net new jobs in America, and contribute
@@ -1790,25 +2057,7 @@
     to find and navigate the variety of resources available across the federal government.  '
   Executive champion: Michael Kratsios, Helena Fu, Jennifer Shieh
   Full Title: Resources to Unleash American Entrepreneurship
-  Lead POC:
-  - receeNzxvWVgeIM5S
-  - recmJS1wcZyOlV07z
-  - recQDPIOLHrrybo0w
   Name: Entrepreneurship
-  Potential Open Data Sets:
-  - reclPufKGmZ8qy9sV
-  - rec7cctbsS8DP3euT
-  - recn7pTBSbieMG3fo
-  - recwNE7iQQsqa1kQu
-  - receRrX733SpgZG6C
-  - recpRWzoWzjdR9bF0
-  - reco2auPIK3jLPsBR
-  - recqPri6uUhGDk8UT
-  - recdZuaGdk7HWA7ye
-  - recINsvgjd1D2Ug0o
-  - recS8ac9ymTRjTgrA
-  - rec6vTtVLkkQpWRtZ
-  - recJX93FDdqZC9lIf
   Products:
   - recWyKy6qT8GX7jT8
   Sprints:
@@ -1840,23 +2089,51 @@
   agency_text: White House Office of Science and Technology Policy
   airtable_createdTime: '2020-01-30T17:50:48.000Z'
   airtable_id: recfwUvvptMpf0PLj
-  contacts_text: Helena Fu, Jennifer Shieh, Michael Kratsios
-  datasets_text: 'Small Business Innovation Research (SBIR) Program Data, Federal
-    Laboratory Consortium (FLC) Data, Lab Partnering Service (LPS), Small Business
-    Administration Datasets, Manufacturing Extension Partnership (MEP), Manufacturing
-    USA Institutes, TechLink: DoD and VA Inventions, Regional Innovation Strategies
-    (RIS) Program, Regional Innovation Strategies (RIS) Program, National Science
-    Foundation Awards, National Institutes of Health Awards, Opportunity Zone Status,
-    Census Business Builder'
-  featured_product:
-  - recWyKy6qT8GX7jT8
+  datasets copy:
+  - recf5W5wG91EZ307C
+  - recWXekXxQSl0eNjg
+  - receVfx7m9CipOVpL
+  - recogXe0BiuwGNVQX
+  - recRXhhBJiANNsORi
+  - recTfcVsV7TT9AIEL
+  - recDkZv2vOJicXTTg
+  - rec2Vr99TM35xVZfR
+  - recKZeZY6Zt4DTlvZ
+  - recVZJBfZvUSe3Q4n
+  - recUaXwGLGEY8J70e
+  - recCDGvMOgVvMQwSm
+  - rec6iiVcmH91bxr5i
+  - recKlWO8C6xuadXx8
+  - rec5xTy9sobHJBMUJ
+  - recYHXoQAnB07bJSb
+  - recnuO3Sen2Mn4dVE
+  - recAXzAxWMJcMuNgI
+  - recQqMjrOwzsTC196
+  - rec5qniIwW1sDhxkf
+  - recot9D8u5Ya5kcAA
+  - recuQekdEOW8PtYFg
+  - rec4THtncLwQX0nsV
+  - rec2VHDJ3plWYxAPm
+  datasets_text: 'Census Business Builder, Regional Innovation Strategies (RIS) Program,
+    National Science Foundation Awards, National Institutes of Health Awards, Small
+    Business Innovation Research (SBIR) Program Data, Lab Partnering Service (LPS),
+    Federal Laboratory Consortium (FLC) Data, Small Business Administration Datasets,
+    Manufacturing Extension Partnership (MEP), Manufacturing USA Institutes, TechLink:
+    DoD and VA Inventions, Opportunity Zone Status, County Business Patterns, Non-Employer
+    Statistics, National Center for Science and Engineering Statistics, API & Developer
+    Resources for Census Bureau Data, Housing Assistance Data, Individual Assistance
+    Data, CDC Social Vulnerability Index, TIGER Line Roads Data, TIGER Line Address
+    Range-Feature, Business Formation Statistics, Monthly Industry Indicators, Open
+    Energy Information'
+  featured_product: Practical Business Skills
+  image: challenges/entrepreneurship.png
+  image-alt: Sign reading come on in we're open
+  organizations:
+  - rec0txaC5vlg0xonh
   products_text: Practical Business Skills
   sprint_order: 4
   sprint_text: Workforce
-- Agency:
-  - recFUgWuGZMTCoKVG
-  - rectJsTe77nlH7QcZ
-  Background: State, local, and tribal governments, nonprofits, and universities complain
+- Background: State, local, and tribal governments, nonprofits, and universities complain
     that, despite the plethora of public data available, it can be dif cult to navigate
     information about federal programs, funding opportunities, and current awards
     to nd the best available resources to address their most pressing challenges.
@@ -1901,12 +2178,13 @@
   airtable_id: recjgkTgiJVNQI06t
   category: Equity
   image: photos/sprints/2017-grants.png
+  organizations:
+  - rec9YorLrBEvA0vj4
+  - recgPNji2KEknNBA5
   pdf: 2017-grants.pdf
   products_text: Social Impact Reporting Platform
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
-- Agency:
-  - recKUZ0ercFPyxTbD
-  Full Title: Using AI to Help Patients Find Clinical Trials
+- Full Title: Using AI to Help Patients Find Clinical Trials
   Name: Using AI to Help Patients Find Clinical Trials
   Products:
   - recvf8lc1DXzpz2QB
@@ -1915,11 +2193,15 @@
   agency_text: U.S. Department of Health and Human Services
   airtable_createdTime: '2021-01-26T16:53:56.000Z'
   airtable_id: reckgFmGDc1Hy47Lc
+  organizations:
+  - recZod0Y9uE8dnrem
   products_text: Cura Patient
   sprint_text: TOP Health
-- Agency:
-  - rec9lu4zRtMv8dOhs
-  - recLghlaK4rIQlnwW
+- Agency Leads:
+  - recuHLtkUO3AprHCQ
+  - recmMYmRWewPe8fGY
+  - rec9lIML6urZsazWX
+  - recv7TLk0bIrXoE2o
   Background: The American dream is fading. Almost all children born in 1940 earned
     more than their parents, but the same was true for only half of children born
     in the 1980s. The decline in mobility is related to growing regional inequality.
@@ -1938,21 +2220,7 @@
     leaders, entrepreneurs, and workers of America's 8,764 Opportunity Zones
   Executive champion: Ben Carson, Scott Turner, Jeremy Weber
   Full Title: Catalyzing Investment in Opportunity Zones
-  Lead POC:
-  - recREjcqUzWEUnX1C
-  - recIfyWg3TB08ntIl
-  - recSK1PYwTgIU1Ouy
-  - recF8pgStNfrmS5XA
   Name: Opportunity Zones
-  Potential Open Data Sets:
-  - recN1HDt1yXF5p20L
-  - rec6vTtVLkkQpWRtZ
-  - recgHEHwBuZehSgW7
-  - recSwmibW1RC42Ktw
-  - rectKybhznpUEA6K3
-  - recetnltLzE1wzDny
-  - rec8ZYPyv7iZ6uAvH
-  - recu9mowMnA4gz3Tj
   Products:
   - recdBbAkH3Y7hu4y4
   - recYVIjlUXHhhAjLr
@@ -1980,25 +2248,57 @@
     of Economic Advisors
   airtable_createdTime: '2020-01-30T17:55:38.000Z'
   airtable_id: recmZQEd4gpAgWPMm
-  contacts_text: Jeremy Weber, Cale Glingenpeel, Ben Carson, Scott Turner
-  datasets_text: American Community Survey - Population Data, Opportunity Zone Status,
-    Opportunity Zone Locations, Low-Income Housing Tax Credit Qualified Census Tracts,
-    Treasury ZIP Code Statistics of Income, Food Access Research Atlas, Atlas of Rural
-    and Small-Town America, Location of Energy Infrastructure
-  featured_product:
-  - recwo6k02qWF773ZK
+  datasets copy:
+  - rec0h9qnPjbJDtIiG
+  - recKBankOvfGTtiMV
+  - recj9uFk4uyksjHp8
+  - recCDGvMOgVvMQwSm
+  - recMPrJnEqATEMVlu
+  - reczdQjy5jcjn01AM
+  - rec0u5cS07ULLz4GX
+  - recqVxeSVfcGmlSwN
+  - rec6iiVcmH91bxr5i
+  - recKlWO8C6xuadXx8
+  - recYHXoQAnB07bJSb
+  - recnuO3Sen2Mn4dVE
+  - recAXzAxWMJcMuNgI
+  - recQqMjrOwzsTC196
+  - rec5qniIwW1sDhxkf
+  - recot9D8u5Ya5kcAA
+  - recuQekdEOW8PtYFg
+  - recuLJoG2jzSCIRtU
+  - recmHtppXb3wSH6uI
+  - recw6qS7nsiuFzmp9
+  - recMPHn8tRSF5Tdq8
+  - recRskiGleSLFerp9
+  - recOVmpdAhCpJrXg2
+  - rec2jAFENLjEPUYdp
+  datasets_text: Location of Energy Infrastructure, Food Access Research Atlas, American
+    Community Survey - Population Data, Opportunity Zone Status, Opportunity Zone
+    Locations, USA Trade Data, Zip Code Business Patterns, American Community Survey
+    Demographic Data, County Business Patterns, Non-Employer Statistics, API & Developer
+    Resources for Census Bureau Data, Housing Assistance Data, Individual Assistance
+    Data, CDC Social Vulnerability Index, TIGER Line Roads Data, TIGER Line Address
+    Range-Feature, Business Formation Statistics, American Community Survey APIs,
+    Treasury ZIP Code Statistics of Income, Low-Income Housing Tax Credit Qualified
+    Census Tracts, Fair-Market Rent Data, Atlas of Rural and Small-Town America, Map
+    of Opportunity Zones and Affordable Housing, HUD Enterprise GIS
+  featured_product: Inclusive Development Dashboards
+  image: challenges/opportunity-zones.png
+  image-alt: birdseye view of densely built residential area
+  organizations:
+  - recRLxRGfiWtHnmAs
+  - recvVZzZWobj510rA
   products_text: City Builder, Rural Startup Scout, Inclusive Growth Score, Community
     Led Opportunity Zones, Inclusive Development Dashboards
   sprint_order: 1
   sprint_text: Workforce
-- Agency:
-  - recllJ66jGEQ8bRtg
-  Challenge: Create digital tools that help rural communities access and use data
+- Challenge: Create digital tools that help rural communities access and use data
     to implement solutions to economic, environmental, and human health challenges,
     taking care to reach places that have limited professional capacity and small
     budgets.
   Full Title: Facilitating Sustainable Rural Economic Development
-  Name: Rural Economic Development
+  Name: Rural Development
   Products:
   - recSywRIyeQEsXwCq
   - rec820mIr9jx8uWAq
@@ -2026,22 +2326,59 @@
   agency_text: U.S. Environmental Protection Agency
   airtable_createdTime: '2021-01-26T16:45:28.000Z'
   airtable_id: recn0ONeaB72GbD8z
-  featured_product:
-  - recSywRIyeQEsXwCq
+  datasets copy:
+  - recve2fEKyE0tWS2F
+  - recVXO1fM2n3ST8pj
+  - recKOHXkIfOyuIFSo
+  - recLtaZorYvI21Lwc
+  - recRskiGleSLFerp9
+  - recsMJ0eHFzsAczm8
+  - rec33Lhf2RbQSTHWv
+  - recfP4JxfVotYcKWS
+  - recLmy1mSIseo8gL4
+  - recMlLrjRlr9G4FeN
+  - recw8Sgspuk62reV8
+  - recGz99CD1Q2MHRxa
+  - rec2VHDJ3plWYxAPm
+  - recSEDcGAcsCXoIeH
+  - recqTrEzfmvFOQX8a
+  - recG12uOFWdhXeIaB
+  - rec4THtncLwQX0nsV
+  - rec83Ey2MVezICJV6
+  - rec6lZR0mptBNBNLj
+  - reczNmXzMkfOvDXIf
+  - recU1FBubDIPz2Oqa
+  - rec0h9qnPjbJDtIiG
+  - recqVxeSVfcGmlSwN
+  - recuLJoG2jzSCIRtU
+  - recYHXoQAnB07bJSb
+  - recPCN7ziJN9rI8f5
+  datasets_text: 'EPA Smart Location Database, EnviroAtlas Interactive Map, National
+    Environmental Public Health Tracking Network, ERS GIS Map Services and API, Atlas
+    of Rural and Small-Town America, USGS National Map, USDA Rural Development Innovation
+    Center Data, Rural Accessibility , The Quarterly Census of Employment and Wages
+    (QCEW) , U.S. Cluster Mapping Tool, Natural resources datasets, Stats America,
+    Open Energy Information, Computer and Internet Use, Types of Internet Subscriptions,
+    2018 FCC Broadband Deployment Report, Monthly Industry Indicators, Broadband USA,
+    Digital Nation Data Explorer, Form 477 Data, Fixed Broadband Deployment Map, Location
+    of Energy Infrastructure, American Community Survey Demographic Data, American
+    Community Survey APIs, API & Developer Resources for Census Bureau Data, Supplemental:
+    Social Vulnerability Index (SVI)'
+  featured_product: Tech Talent Tracker
+  image: challenges/farm.jpg
+  image-alt: birdseye view of a farm
+  organizations:
+  - recDJthxFdnCkkHXX
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
   sprint_order: 2
   sprint_text: Built Environment
-- Agency:
-  - recuesxBrh08C2a6O
-  Challenge: "The Decennial Census is our nation\u2019s largest peacetime mobilization\
+- Challenge: "The Decennial Census is our nation\u2019s largest peacetime mobilization\
     \ -- in 2020, the federal government will hire 500,000 Census takers to help count\
     \ households across America that do not respond by mail or online. Help leverage\
     \ the gig economy and new tech platforms for job search to better recruit this\
     \ critical workforce."
   Full Title: Promoting 2020 Census jobs
   Name: Promoting 2020 Census Jobs
-  Potential Open Data Sets:
-  - recPseyxKPiOIK8mK
   Products:
   - recYOMiqxyb3IN11r
   Sprints:
@@ -2060,16 +2397,16 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:23.000Z'
   airtable_id: recnJuVbZsWFhpBW8
+  datasets copy:
+  - reclA1AoNLTt5ENL7
   datasets_text: Census Takers
-  featured_product:
-  - recYOMiqxyb3IN11r
+  featured_product: Census Taker
+  organizations:
+  - rec9e5MJi3BeiIc2m
   products_text: Census Taker
   sprint_order: 2
   sprint_text: 2020 Census
-- Agency:
-  - recpbSNCmDzp0AxFi
-  - reccipQNpmzbdtdd7
-  Background: "A significant number of young Americans are not aware of the risks\
+- Background: "A significant number of young Americans are not aware of the risks\
     \ they face and are not taking meaningful preparedness actions to improve their\
     \ chance of successfully weathering a disaster. Personal and family preparedness\
     \ can greatly impact individuals\u2019 and communities\u2019 ability to successfully\
@@ -2088,14 +2425,6 @@
     and enable the public to take appropriate preparedness actions.
   Full Title: Using Geospatial Data to Help People Prepare for Disasters
   Name: Using Geospatial Data to Help People Prepare for Disasters
-  Potential Open Data Sets:
-  - recN1HDt1yXF5p20L
-  - recxbZWz3jW2XRq5w
-  - rece93fLoUTGcXI2i
-  - recMx3IuaU0s0no0H
-  - recpCylEi5lm7fQZE
-  - recJa1MO85dmXHBrp
-  - recI5IRhs2DZfqEuA
   Products:
   - rec5dPCVzV3SHuZDS
   - reciAHM7OE2uo9JTi
@@ -2122,21 +2451,98 @@
     \ survival should disaster strike. Changing attitudes and achieving a true culture\
     \ of preparedness across the nation will require a paradigm shift in how we deliver\
     \ information, particularly to younger Americans. "
-  agency_text: U.S. Department of Homeland Security, Federal Emergency Management
-    Agency
+  agency_text: Federal Emergency Management Agency, U.S. Department of Homeland Security
   airtable_createdTime: '2020-02-10T17:42:57.000Z'
   airtable_id: recqL51kCcBL6go3m
+  datasets copy:
+  - recj9uFk4uyksjHp8
+  - rec3jMYq6fxHkL5uT
+  - recKhQhCrQulzRnrF
+  - reciFQKldQB7nh3p4
+  - recVKlnvl1W1u9vo1
+  - recfiOOFb1O1kBgQM
+  - recedvT8vYeECkjTX
   datasets_text: American Community Survey - Population Data, USGS Earthquake Data,
     National Household Survey, National Centers for Environmental Information, Wildfire
     Data, Ready Campaign, Datasets on terrorist and other man-made threats
-  featured_product:
-  - rec5dPCVzV3SHuZDS
+  featured_product: Sille
+  organizations:
+  - recCGtljPyEpJ15UO
+  - reccMfE4DUNwSQzCz
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
   sprint_order: 2
   sprint_text: Geo-Cohort
-- Agency:
-  - rec9lu4zRtMv8dOhs
-  Challenge: Use data to help stakeholders understand post-pandemic housing and migration
+- Full Title: Helping Families, Businesses, and Communities Respond to COVID-19
+  Name: Helping Families, Businesses, and Communities Respond to COVID-19
+  Sprints:
+  - recmM5soT47O2fdMS
+  agency_text: U.S. Census Bureau, American Statistical Association
+  airtable_createdTime: '2021-07-22T16:06:27.000Z'
+  airtable_id: recquGRxIztb7VrBj
+  datasets copy:
+  - recLcqqhoGFsOEH8z
+  - recYRtBzCxYPpsMfL
+  - recZbSQrjEMXoZ2Am
+  - rectCL1FIts5gf7ES
+  - recy3X20vb1Mnd81N
+  - recG5RVVgPVI4jL9O
+  - recIZxxAKT3sx5uLj
+  - recNELQf3MtciOz96
+  - recNJaPAJFncCOAUB
+  - recPCN7ziJN9rI8f5
+  - recQ22f2P0INVrPnP
+  - recSBdEFaP6LjoltA
+  - recaxj0fpf6Ml8lcW
+  - recbPZ9m7vQmuTt4f
+  - recdCTIz90mLKUUTO
+  - recqVxeSVfcGmlSwN
+  datasets_text: 'Core Data: 2019 American Community Survey 1-Year Estimates, Supplemental:
+    Small Area Health Insurance Estimates (SAHIE) Program, Supplemental: State & Local
+    Government Finance Historical Datasets and Tables, Supplemental: Survey of Income
+    and Program Participation (SIPP), Supplemental: 2017 American Community Survey
+    1-Year Estimates, Supplemental: Current Population Survey, Supplemental: Small
+    Business Pulse Survey: Tracking Changes During The Coronavirus Pandemic, Supplemental:
+    Measuring Household Experiences During the Coronavirus Pandemic, Supplemental:
+    The Annual Survey of Manufactures (ASM), Supplemental: Social Vulnerability Index
+    (SVI), Supplemental: COVID-19 Data, Supplemental: COVID-19 Demographic and Economic
+    Resources, Supplemental: 2018 American Community Survey 1-Year Estimates, Supplemental:
+    College Affordability and Transparency Center, Supplemental: State Government
+    Tax Dataset, American Community Survey Demographic Data'
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  - rec1f9YjZtzLVwot1
+  sprint_text: ASA Data Challenge Expo
+- Challenge: 'Develop digital products or physical/digital works of art that creatively
+    and inclusively engage hard-to-count communities in 2020 Census data.  '
+  Full Title: Inclusive and Creative 2020 Census Data Engagement
+  Name: Inclusive and Creative 2020 Census Data Engagement
+  Sprints:
+  - recAocia3ypyTShB1
+  Target audience / End user: "Historically undercounted populations such as:\n- LGBTQ+\n\
+    - Children Under 5\n- Transient Populations\n- College Students\n- Persons with\
+    \ Disabilities \n- Racial & Ethnic Minorities\n- People Experiencing Homelessness\n\
+    - Renters\n- Those Living in Group Quarters"
+  Why this problem matters: 'As the U.S. Census Bureau continues to release and disseminate
+    data collected in the 2020 Census, new approaches are needed to share the data
+    in ways that resonate with the public, especially historically undercounted communities.
+    Creative methods beyond traditional press releases, webinars, or data tables have
+    the potential to more inclusively share the data in ways that resonate with different
+    communities. Demonstrating how decennial data can be leveraged to tackle community
+    needs, illustrating ways in which decision makers use the data, and helping communities
+    see themselves represented in the numbers are critical steps to ensuring the public
+    is engaged with census data and understands its importance as we look to ensuring
+    accurate future counts in 2030 and beyond, and increased public trust in government.  Examples
+    of alternative and creative methods of sharing data might include works of art
+    based on the data, leveraging new media platforms, and participatory approaches. '
+  agency_text: U.S. Census Bureau
+  airtable_createdTime: '2021-07-20T20:42:30.000Z'
+  airtable_id: recrhEu7bAwQeTEck
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  pdf: 2021-problem-statements/2020-census/TOP-InclusiveDataEngagement.pdf
+  sprint_order: 1
+  sprint_text: 2020 Census Data
+- Challenge: Use data to help stakeholders understand post-pandemic housing and migration
     trends, and create tools that help to visualize and process this information for
     data driven predictions and recommendations.
   Executive champion: Kurt G. Usowski, Ph.D., Deputy Assistant Secretary for Economic
@@ -2176,13 +2582,13 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-06-28T20:13:42.000Z'
   airtable_id: recsbfXyfEmL6eaDo
+  organizations:
+  - recRLxRGfiWtHnmAs
   pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
     Post-COVID 19.pdf
   sprint_order: 5
   sprint_text: The World Post-COVID-19
-- Agency:
-  - recEEzYRL7CmbAyLm
-  Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
+- Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
     community in NYC and in cities nationwide, enabling them to access government
     resources for an equitable recovery to the impacts of COVID-19. '
   Executive champion: "John Paul Farmer, Chief Technology Officer, New York City Mayor\u2019\
@@ -2217,6 +2623,8 @@
   agency_text: New York City Maryor's Office of the Chief Technology Officer
   airtable_createdTime: '2021-06-28T20:23:56.000Z'
   airtable_id: recxiyHz22AqIcSU6
+  organizations:
+  - recF42Tt24lo4YTcC
   pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
     Multilingual Communities.pdf
   sprint_order: 6

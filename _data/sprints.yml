@@ -1,11 +1,11 @@
 - Agency Leads:
-  - recff37VXDSlio5EB
-  - recF6LgdLEat5i4mH
-  - recCQIg48fH4rCiKL
-  - recf193iE6e9Hk4dw
-  - rec4gZvPAZlFjevBC
-  - recemCJBbCCWL2j9C
-  - recyFIx3RsyNlE9KF
+  - recTWGqTv1NjgxSAt
+  - recoUYFVoEnhowt05
+  - recZvJoAqf0ErseTc
+  - recowMP3HWT5B4gae
+  - recntBpckurOjjgTm
+  - recLpvOS0yBaOLU14
+  - recgTiXnqYgYG31Nj
   Data Stewards: Chuck Higgins, Amie Didlo, Ivan Metzger, John McLaughlin, Kim Hicks,
     Matthew Greene, Nikki Churchwell, Karen Deblasio, Max Bing-Grant, William Snow,
     Logan Powell
@@ -43,9 +43,13 @@
   - recsYzGTqpTgODlx8
   - recULy9K70u9L7pxq
   - recn4ngjrz3psStXP
-  Problem Statements:
-  - recMEER5Sc9HQrLOF
-  - recGo0glu9CVxEX87
+  - recXs2WzpTrOBFM8r
+  - recgTiXnqYgYG31Nj
+  - recEsIh2lcRO1ncLA
+  - recZvJoAqf0ErseTc
+  - recowMP3HWT5B4gae
+  - recntBpckurOjjgTm
+  - recLpvOS0yBaOLU14
   Products:
   - recT8TuI7EDLqeTIk
   - rec9slEDBdpxTIC3J
@@ -70,27 +74,29 @@
   Year: 2017
   airtable_createdTime: '2020-02-04T22:02:16.000Z'
   airtable_id: rec4F32ORdTWH8d80
+  problem_statements:
+  - recMEER5Sc9HQrLOF
+  - recGo0glu9CVxEX87
   short-tag: 2017-1
 - Agency Leads:
-  - recSK1PYwTgIU1Ouy
-  - recF8pgStNfrmS5XA
-  - recREjcqUzWEUnX1C
-  - recpmBHPXUXWkJrsc
-  - rechFHIROyVjtTnY5
-  - rec5wIaRJATJ8dMxn
-  - recQDPIOLHrrybo0w
-  - receeNzxvWVgeIM5S
-  - recmJS1wcZyOlV07z
-  - recLyQ1ah4mmO1wtT
-  - recIfyWg3TB08ntIl
-  - recol0QnviT5t0VHp
-  - recWuBVq0CNaE3cd8
-  - recViSPm63uDF3K9T
-  - reclPLoF7FfV9aTwc
-  - recOQf4raOJ99hFgQ
-  - recF9GbGDwRy5bBWM
-  - reccwXPBuTcx3QJMJ
-  - recOEiP7oOGGN6CpU
+  - recuHLtkUO3AprHCQ
+  - recv7TLk0bIrXoE2o
+  - rec9lIML6urZsazWX
+  - recrCPDzOLcfc6O0c
+  - rec8L1rMxJjXfWV2V
+  - recCSbrTRtOWMDXvv
+  - rec0hZ6SwYZ6I1St9
+  - rec7G2N1E8SmbctT8
+  - rec7LBLYqaTnUhCQw
+  - recCSjtmvfs9rvDB9
+  - recmMYmRWewPe8fGY
+  - recQKd9S8NEvZbnxG
+  - recUWE6o2y4owHOph
+  - recjfrlfNCfm4eqU1
+  - rechjL32mmP8Qlj6P
+  - receYbNnKfntyPAiG
+  - recuQ4coKzM5eja1S
+  - recxu7OnPL5gFVM7a
   Data Stewards: Laura Faulkner, Tom Plagge, Debbie Brodt-Giles, Dr. Samson Adeshiyan,
     Chip Walker, Eric Coyle, Logan Powell, Jon Weers, Amrit Kohli , Andy Hait , Robert
     Bectel, Brandon Brown, Sarah Hay , Peter Kahn, Ted Payne, John Huggins, Mike Hollar,
@@ -224,11 +230,24 @@
   - reczM9V27GJryQPel
   - recg6JijMeeDPRloR
   - recHigdln4gcpSoIf
-  Problem Statements:
-  - recfwUvvptMpf0PLj
-  - rec6Coqk1u4BTdxLI
-  - recmZQEd4gpAgWPMm
-  - rec6yDEfMyReqsMcl
+  - recxu7OnPL5gFVM7a
+  - recuHLtkUO3AprHCQ
+  - recjfrlfNCfm4eqU1
+  - recmMYmRWewPe8fGY
+  - recCSbrTRtOWMDXvv
+  - recrCPDzOLcfc6O0c
+  - recQKd9S8NEvZbnxG
+  - recvXF0Zgzvh7q8C9
+  - recCSjtmvfs9rvDB9
+  - rec7G2N1E8SmbctT8
+  - rec7LBLYqaTnUhCQw
+  - rec9lIML6urZsazWX
+  - receYbNnKfntyPAiG
+  - rec0hZ6SwYZ6I1St9
+  - recUWE6o2y4owHOph
+  - recv7TLk0bIrXoE2o
+  - recuQ4coKzM5eja1S
+  - rechjL32mmP8Qlj6P
   Product Advisors: Alex Ocampo, Tom Juarez, Bryan Lane
   Products:
   - recxPFYJEXMA7YTmC
@@ -274,7 +293,6 @@
   - recmeZceKCwXeHy0t
   - recpBvSlo8za5BK81
   - rec2OZAwXwEeC3lJm
-  - reczSDD1SAO4CawZP
   - recHJnkKPS7nTu9um
   - recPH8jpzMm0RABpk
   - recSCTf8hGGnYtP9b
@@ -320,11 +338,30 @@
     \ and highlight multiple pathways for workers to start or advance careers."
   img: landing/Sprint-Background_04_Workforce.jpg
   order-number: 2
+  problem_statements:
+  - recfwUvvptMpf0PLj
+  - rec6Coqk1u4BTdxLI
+  - recmZQEd4gpAgWPMm
+  - rec6yDEfMyReqsMcl
   short-tag: work
-- Census Expert: 'Eric Jensen, William Snow, Crystal Miller, Liz Jeninga, Kevin Hawley,
-    Megan Kindelan, Jenny Hunter Childs, Merarys Rios, Bina Saafi, Bridget Johnson,
-    Deborah (Deb) Stein, Austin Davis, Kevin Sinha, Denice Ross, Kyla Fullenwider,
-    Charley Johnson, Maria Filipelli '
+- Census Expert:
+  - reccGkEmaZnqE1qRH
+  - recn4ngjrz3psStXP
+  - recXLfvt3a7tORZxS
+  - recyLaPvWRoAKRHu2
+  - recD7uHboyqbIfhJw
+  - recN73Idp4luqoKvA
+  - recvDB4oNEHFxE7AG
+  - rec925hXSsWunIssI
+  - recdubD8c5e1LS84Z
+  - recbO5eZFdZzep9nN
+  - recamF5P2fWHfe5qK
+  - reclg28okMiVXpiqk
+  - recYwzkHYQLu8V0er
+  - recALE9FWO2tmJCap
+  - recoUYFVoEnhowt05
+  - reciFkM2aLTxh6W4y
+  - recS2JHnkUuFRBdxb
   Data Stewards: Andy Hait , Eric Coyle, Logan Powell, Gina Walejko, Marc Perry, Ben
     Bolender, Nicholas Jones, Gerson Vasquez, Michael Martin, Kurt Bauman, Emy Tseng,
     Scott Woods, Suzanne McArdle, Amanda Moritz, Anna Parikos, Katrina King, Sari
@@ -356,7 +393,6 @@
   - recYwzkHYQLu8V0er
   - recuTllAMCuTgvlC5
   - recsgCV9yaLwVcQEn
-  - rec4PK2KFvY9CuDNA
   - recTWGqTv1NjgxSAt
   - recGWCjzJBwAycyap
   - recFN7GwyK88Sd6ye
@@ -428,11 +464,6 @@
   - rec8b3stUiZvgveyy
   - recLhHU45I39RuPGp
   - recM2oD2T8TzEhEvJ
-  Problem Statements:
-  - rec2cDmW6ubg6Wco0
-  - recPYnQdPuuZ0FZZ9
-  - recnJuVbZsWFhpBW8
-  - recDkOPeR5RLFwe2e
   Product Advisors: Tom Juarez, Dana Publicover, Jeff Meisel, Paul Franz
   Products:
   - recB5iDMet16XnjXe
@@ -498,10 +529,31 @@
     the digital divide and increasing digital literacy.
   img: landing/Sprint-Background_03_Census.jpg
   order-number: 3
+  problem_statements:
+  - rec2cDmW6ubg6Wco0
+  - recPYnQdPuuZ0FZZ9
+  - recnJuVbZsWFhpBW8
+  - recDkOPeR5RLFwe2e
   short-tag: 20cen
+- Name: 2020 Census Data
+  Year: 2021
+  airtable_createdTime: '2021-07-20T20:39:12.000Z'
+  airtable_id: recAocia3ypyTShB1
+  description: This fall, a 10-week sprint will bring together university-based artists,
+    designers, data scientists and technologists along with community leaders and
+    Census Bureau data experts to develop digital and physical art and technology.
+    The resulting designs and products will visualize 2020 Census Decennial data in
+    new and creative ways, engaging a broader set of stakeholders than ever before
+    in visualizing and experiencing the data.  The sprint will culminate in a showcase
+    that presents and celebrates the projects to lift up, amplify, and share the work
+    nationwide.
+  img: landing/COVID-Data-Light.jpg
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  short-tag: 2020-data
 - Name: TOPx COVID-19
-  Problem Statements:
-  - recFyf3r3yQQEHbx7
   Products:
   - rechzHn8vOEW60T0x
   - reco2tsjZJ55bk12Q
@@ -519,13 +571,10 @@
   Year: 2021
   airtable_createdTime: '2021-05-10T14:44:03.000Z'
   airtable_id: recHyin6QBn2qNgni
+  problem_statements:
+  - recFyf3r3yQQEHbx7
   short-tag: topx-covid
 - Name: Built Environment
-  Problem Statements:
-  - rec4KZSqOYnXgo2gD
-  - recD4rN8c5sH3ECRi
-  - recDnQq3aDp59z637
-  - recn0ONeaB72GbD8z
   Products:
   - rec85E0U2wrRBV8dc
   - rectcKAi8zsdwiqjg
@@ -557,20 +606,13 @@
     \ disaster response spending."
   img: landing/Sprint-Background_01_Built.jpg
   order-number: 5
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  - recD4rN8c5sH3ECRi
+  - recDnQq3aDp59z637
+  - recn0ONeaB72GbD8z
   short-tag: built
 - Name: Agency Cohort (2016 Sprint 2/3)
-  Problem Statements:
-  - recWbNwNVTeALHVEK
-  - recWUq0tYLA47nFU2
-  - rec6HY78EY2rrTgQq
-  - recBxwNpfEqtxSEbI
-  - recGQxoZehhlElI4g
-  - recboDOGOG8eKuYc7
-  - recGQ0S48RDx0VENx
-  - rec7PAfceBewrUGZ3
-  - rec1e6bSt2fE0Ke14
-  - recIGFiEZlWX5XzD9
-  - recCTI1VBSwUOl4Tq
   Products:
   - recV0aW7ZolC7aIoy
   - recmiMYwGdZ4hHgMF
@@ -615,11 +657,20 @@
   Year: 2016
   airtable_createdTime: '2020-02-21T18:27:18.000Z'
   airtable_id: recPEm69CcLh1tX2s
+  problem_statements:
+  - recWbNwNVTeALHVEK
+  - recWUq0tYLA47nFU2
+  - rec6HY78EY2rrTgQq
+  - recBxwNpfEqtxSEbI
+  - recGQxoZehhlElI4g
+  - recboDOGOG8eKuYc7
+  - recGQ0S48RDx0VENx
+  - rec7PAfceBewrUGZ3
+  - rec1e6bSt2fE0Ke14
+  - recIGFiEZlWX5XzD9
+  - recCTI1VBSwUOl4Tq
   short-tag: 2016-2
 - Name: 2017 Sprint 2 (Census OMB/Treasury)
-  Problem Statements:
-  - recjgkTgiJVNQI06t
-  - rec0ukljQMNDcv91s
   Products:
   - reczVGhvSjjSjcHRp
   - recMyCXtD901elAkR
@@ -635,6 +686,9 @@
   Year: 2017
   airtable_createdTime: '2020-02-11T21:24:34.000Z'
   airtable_id: recPKsumH7MWxbOTM
+  problem_statements:
+  - recjgkTgiJVNQI06t
+  - rec0ukljQMNDcv91s
   short-tag: 2017-2
 - Name: Economic Self-Sufficiency
   Products:
@@ -642,20 +696,20 @@
   airtable_createdTime: '2021-02-19T18:54:09.000Z'
   airtable_id: recTxx36IPxHdegzX
 - Name: TOPx
-  Problem Statements:
-  - recdNGSC2k2ptu3JM
   Products:
   - recTfL9YZgQqj9i78
   - recIu57RsPY8g7yE6
   Year: 2020
   airtable_createdTime: '2021-01-26T16:39:37.000Z'
   airtable_id: recWgRn0SzeC0JNJ1
+  problem_statements:
+  - recdNGSC2k2ptu3JM
   short-tag: topx
 - Agency Leads:
-  - recsP8yyk5NB362zb
+  - recqPmk1QAJORe6wJ
   Name: TOP Health
-  Problem Statements:
-  - reckgFmGDc1Hy47Lc
+  Participants:
+  - recvespRKfT2OUUli
   Products:
   - recvf8lc1DXzpz2QB
   Tech Team Companies:
@@ -663,14 +717,16 @@
   Year: 2019
   airtable_createdTime: '2021-02-25T21:34:00.000Z'
   airtable_id: recZGDdh9VC1azeZZ
+  problem_statements:
+  - reckgFmGDc1Hy47Lc
   short-tag: health
 - Agency Leads:
-  - recofgCpWHB9rT91d
-  - recsP8yyk5NB362zb
-  - recamt7DtUApE0UQh
-  - recKqQYKD5bPA3PJI
-  - recr0rutJia7OzUYw
-  - recLyQ1ah4mmO1wtT
+  - recCbcOHRMSGq15Lt
+  - recqPmk1QAJORe6wJ
+  - recThYlKgYNAf9aZp
+  - rectox0yBsNeLoHD0
+  - reccAciJPX2dkwViT
+  - recCSjtmvfs9rvDB9
   Data Stewards: "Andy Hait , Logan Powell, Shelley Goss, Megan Minnich, Laura Nixon\
     \ , Hudson Hollister, Merav Yuravlivker, Dmitri Adler , Amin Mehr, Christy Hermansen,\
     \ Adam Lipton, Julie Crump, Emily Knickerbocker, Chuck Higgins , Carolyn Beins,\
@@ -721,33 +777,32 @@
   - recRkRvZHhd8REcBm
   - recVmjw8aiUtLU5R0
   - rec8YLD0wGVdvLis7
-  - recWKVHbPLE6RcOLc
   - recbbAdNW5JgQuu0s
   - recRNK0p7oSjFAjmB
   - recwppXSutympIuf2
   - recYJd9vWaNnvK7Yh
   - reczMCqXSpFZFvCLi
   - recNdt1pR3tOr43L0
-  - recDD6slnlk2VjjRo
   - recTjTA3RnjxbTDsz
   - reczXBJIKGIYSUU1m
   - recmfbABSs2owLuAV
   - reckeBZhmXQOkwSJf
   - recpHk3JBknoqE6b3
   - rec5EfxxZyVcroB5U
-  - rec8GHolbvuF7uqaw
   - receIVzxdSe50do0k
   - recwrtGz1sOmidK9E
   - recqLSoA7IAxhPQjX
   - recEqf3PeXntAm1PJ
   - recegNzVXtDKWnyqu
-  Problem Statements:
-  - rec5Qmq3TNOnhhfoE
-  - rec4jiLMOGoECbVXB
-  - recLROAotmnLsG3Bw
-  - rec91k66NBPeRwaK7
-  - recGXB6VI2XEbqemj
-  - rec55VBughwHjCFWp
+  - rectox0yBsNeLoHD0
+  - recCSjtmvfs9rvDB9
+  - recvespRKfT2OUUli
+  - reccAciJPX2dkwViT
+  - recCbcOHRMSGq15Lt
+  - recMbyYNERDgpPCNS
+  - reczi3duvCF0SNaov
+  - rec2E1z5tWtWeLy2s
+  - reckRXJYlAFoavuEI
   Product Advisors: Bryan Lane, Hannah Moss , Javier Lazaro Diez
   Products:
   - recvh8HbEmn5MuzGI
@@ -783,6 +838,13 @@
   Year: 2018
   airtable_createdTime: '2020-01-30T19:47:56.000Z'
   airtable_id: recbhMlc1WZWXNte0
+  problem_statements:
+  - rec5Qmq3TNOnhhfoE
+  - rec4jiLMOGoECbVXB
+  - recLROAotmnLsG3Bw
+  - rec91k66NBPeRwaK7
+  - recGXB6VI2XEbqemj
+  - rec55VBughwHjCFWp
   short-tag: 2018-1
 - Name: Original Sprint (2016 Sprint 1)
   Products:
@@ -813,11 +875,6 @@
   airtable_id: recdj3TovoodAthIh
   short-tag: 2016-1
 - Name: Natural Environment
-  Problem Statements:
-  - recSM7q7ufXLojrBx
-  - recQeWP4kfK1EakJW
-  - rec2dxKJmbiIV0Va5
-  - recG9NY8ns2oza4vp
   Products:
   - recyPJeX2onUtcMln
   - recaRsKbgtQOavIpx
@@ -840,22 +897,27 @@
     make decisions using aerial imagery data.
   img: landing/Sprint-Background_02_Natural.jpg
   order-number: 4
+  problem_statements:
+  - recSM7q7ufXLojrBx
+  - recQeWP4kfK1EakJW
+  - rec2dxKJmbiIV0Va5
+  - recG9NY8ns2oza4vp
   short-tag: natl
 - Agency Leads:
-  - reczMekfwGyQYiBXj
-  - recR80VICSqTENLkm
-  - rechqFxnaImtCuRyp
-  - recd4xyCkDkjzUwc7
-  - recF4AAgDp56gFHfy
-  - rec3mZxrxygjDix61
-  - rechfpINbGSRRdnXz
-  - recNynR3vIjNO1mTh
-  - recXlaXbNydznUxoZ
-  - recLTneJLVVqvhHaO
-  - rechtZJ9nffWGWcno
-  - recEYk8ysNeIHNqsn
-  - recA5Zx6V2IUkPQzZ
-  - recL1zdYJGminrTMS
+  - recyOfHeMH6WJXcdt
+  - recc2h3uYYkPossex
+  - rec7O2K9Ce2xkYQFE
+  - recJsfniriaJt5jK4
+  - recxTJATSqno8b2tP
+  - recTQQ2jvaz2itMxS
+  - recrz0F1lp6MApPX3
+  - recwVu11QVRCiNNJP
+  - recHaahhlGem0a7eL
+  - recEtf7T4sRlyHLbG
+  - recjuqcuJGJ1fzVy8
+  - recDUXtcfbiSg1o2n
+  - recf0YHNqW271eELq
+  - recsDadXRX6kUwqT8
   Data Stewards: 'Andy Hait , Chip Walker, Nancy Sonti, Maria (Angie) Santos, Michael
     Akinyele , Rob Dollison, Jason Stoker, Christi Collins, Matt Lyttle , Ana-Maria
     Garcia (Data Dissemination Specialist), Giselle Laffitte, Joel Schlagel , Jennifer
@@ -953,11 +1015,20 @@
   - recFRMa9heg5AC5YE
   - recMG3pV8pMtgQZLL
   - recjHvBy3r2gtgewP
-  Problem Statements:
-  - recqL51kCcBL6go3m
-  - recUnXFEYwEO7Uea6
-  - recZDeKZkpRgp2x1j
-  - rec55VBughwHjCFWp
+  - recc2h3uYYkPossex
+  - recf0YHNqW271eELq
+  - reclJWov3ZPZYKBWu
+  - rec4RZEDxBbwa6SAi
+  - recwVu11QVRCiNNJP
+  - rec7O2K9Ce2xkYQFE
+  - recEtf7T4sRlyHLbG
+  - recWFy1mo0AOgC7Gq
+  - recJsfniriaJt5jK4
+  - recymsQ6hTamoCKid
+  - recrhLtUoY5pKqepC
+  - recyOfHeMH6WJXcdt
+  - recoWoJopLS9gWyAD
+  - recTfsCONzVH9NPQC
   Product Advisors: "Bryan Lane, Maggie Cawley, Steven Johnson, Vanessa Qui\xF1ones,\
     \ David Carrasquillo, Sylvia Perez Montero (Innovation Manager), Euripides Rivera\
     \ Negron (Product Owner- Digital Banking), Elena Koustova, Victor Prikhodko ,\
@@ -988,7 +1059,6 @@
   - recbrYnRSSNGOWHOd
   - recVoKGye7QiJy32Z
   - rec8gp7oTlhweYkIP
-  - recFSV8Lh2ssXks5m
   - rec599NJWQTmobISi
   - recULI2UwvuJk3QnP
   - recVzwV1Kc8lrucQf
@@ -1016,6 +1086,7 @@
   - recnOiErWbbfPhytr
   - recsNnVOrHGMXb0ZY
   - recw5wWtMIDR9pMLV
+  - recjpBB18sFzmVNWl
   User Advocates: Yvonne Washington, Jessica Hulsey Nickel, Mark O'Brien, Morgan Gliedman,
     Chip Register, Penny Mills, Kendra Siler, "David Willis, MD", Garry Harris, Mark
     Cameron , Meghan Hazer, Dexter Locke , Jim Caesar, Celia Meadows, Delene Rawls,
@@ -1035,16 +1106,13 @@
     and amplify environmental stewardship efforts.
   img: landing/Sprint-Background_05_Geo.jpg
   order-number: 1
+  problem_statements:
+  - recqL51kCcBL6go3m
+  - recUnXFEYwEO7Uea6
+  - recZDeKZkpRgp2x1j
+  - rec55VBughwHjCFWp
   short-tag: geo
 - Name: The World Post-COVID-19
-  Problem Statements:
-  - recsbfXyfEmL6eaDo
-  - recbjIUzjzLZ5KmJS
-  - recfszna1c4jtooN4
-  - rec3DhHvGbMYMTN1A
-  - rec2hm93Hd703vhHw
-  - recxiyHz22AqIcSU6
-  - recODy3F77656gS8i
   Year: 2021
   airtable_createdTime: '2021-06-28T20:12:46.000Z'
   airtable_id: recjkCdpt4YKEx7Ae
@@ -1061,7 +1129,23 @@
     \ for the most vulnerable communities, shaping the future of business, and redefining\
     \ infrastructure, inclusion, and accessibility in the world post-COVID."
   img: landing/Post-COVID.jpg
+  problem_statements:
+  - recsbfXyfEmL6eaDo
+  - recbjIUzjzLZ5KmJS
+  - recfszna1c4jtooN4
+  - rec3DhHvGbMYMTN1A
+  - rec2hm93Hd703vhHw
+  - recxiyHz22AqIcSU6
+  - recODy3F77656gS8i
   short-tag: post-covid
+- Name: ASA Data Challenge Expo
+  Year: 2021
+  airtable_createdTime: '2021-07-22T15:58:30.000Z'
+  airtable_id: recmM5soT47O2fdMS
+  description: Helping Families, Business, and Communities Respond to COVID-19.
+  problem_statements:
+  - recquGRxIztb7VrBj
+  short-tag: asa
 - Name: NAIP
   Year: 2020
   airtable_createdTime: '2021-01-26T16:35:35.000Z'

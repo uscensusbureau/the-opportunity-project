@@ -7,7 +7,7 @@
 {% endfor %}
 
 {% if currSprintTags.size > 0 %}
-### [Join an upcoming sprint →]({{ site.contacts.census-form }})
+### [Join an Upcoming Sprint →]({{ site.baseurl }}/sprints)
 We're getting ready to launch sprints focused on {% for tag in currSprintTags %}{% assign match = site.data.sprints | where: "short-tag", tag | first %}{% assign prefix = "" %}{% if forloop.last and currSprintTags.size >= 3 %}{% assign prefix = ", and " %}{% elsif forloop.index0 > 0 %}{% if currSprintTags.size == 2 %}{% assign prefix = " and " %}{% else %}{% assign prefix = ", " %}{% endif %}{% endif %}{% assign link = site.sprints | where: "short-name", tag | first %}{{ prefix }}[{{ match.Name }}]({{ link.url }}){% endfor %}. Learn more about the challenges we're addressing, and then [complete this form]({{ site.contacts.census-form}}) to express interest.
 {% endif %}
 

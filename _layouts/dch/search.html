@@ -33,8 +33,7 @@ layout: default
   <section class="usa-section usa-graphic-list grid-container">
     <ul class="usa-card-group">
     {% for item in display-dataset %}
-      {% if item.link %}
-      
+      {% if item.link and item.hideFromSite != true %}
         {% include dch/dataset-card.html data=item %}
       {% endif %}
     {% endfor %}

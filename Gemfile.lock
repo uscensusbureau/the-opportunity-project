@@ -48,6 +48,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
+    jekyll-datapage-generator (1.4.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -118,6 +119,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll!
+  jekyll-datapage-generator
   jekyll-redirect-from (>= 0.13.0)
   jekyll-sitemap
   json

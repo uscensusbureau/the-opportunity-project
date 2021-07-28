@@ -165,15 +165,6 @@
   featured_product: Chicago Circular Economy
   image: challenges/recycling.jpg
   image-alt: Workers collecting recycling
-  natl env datasets: '"Facts and Figures about Materials, Waste and Recycling", Recycling
-    Economic Information (REI) Report, Annual Mineral Commodity Summaries, Recycling
-    Demand Mapping in the Southeast, Map of Commingled Residential MRFs in the United
-    States, Recycling Commodities, Aluminum Association Industry Statistics, Aluminum
-    Association Buyers'' Guide, Can Manufacturers Institute Statistics, Steel Industry
-    Data, Plastics Data , The Business of Chemistry By the Numbers, Buyers and Sellers
-    Information, Glass Resource Locator, U.S. State and Local Waste and Materials
-    Characterization Reports, Recycling Market Development Platform, "Glass Recycling:
-    End Markets, MRFs, and Drop-off Facilities"'
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
@@ -1114,22 +1105,6 @@
   featured_product: AirMotionDC
   image: challenges/air-quality.jpg
   image-alt: Blue sky with white clouds
-  natl env datasets: 'National Emissions Inventory (NEI), AirNow, AirNow API for Developers,
-    Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE),
-    EJSCREEN: Environmental Justice Screening and Mapping Tool, Local Area Transportation
-    Characteristics for Households Data, Freight Analysis Framework, CDC Health Data
-    (WONDER), U.S. Chronic Disease Indicators (CDI), Ports Primer for Communities:
-    An Overview of Ports Planning and Operations to Support Community Participation,
-    Best Practices for Reducing Near-Road Pollution Exposure at Schools, Recommendations
-    for Constructing Roadside Vegetation Barriers to Improve Near road Air quality,
-    Learning and Teaching about the Environment Web Resource, Coloring Book titled
-    Carl Gets Some Rest, Reducing School Bus Idling: Clean Air Poster, The Magic School
-    Bus Gets Cleaned Up, Idle-Free Schools Toolkit for a Healthy School Environment,
-    Green Vehicle Guide, "500 Cities: Local Data for Better Health, 2019 release",
-    National Environmental Public Health Tracking, National Port Strategy Assessment:
-    Reducing Air Pollution and Greenhouse Gases at U.S. Ports, APIs & Developer Resources,
-    Asthma Surveillance Data, Traffic Volume Trends, Automotive Trends Data, Air Pollutant
-    Emissions Trends Data, OpenDataPhilly'
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
@@ -1532,14 +1507,6 @@
   featured_product: Ocean Plastics Story Map
   image: challenges/ocean-plastics.jpg
   image-alt: Beach with litter and plastics washed ashore
-  natl env datasets: 'Earth Challenge: Integrated Ocean Plastics Data, Earth Challenge:
-    Top 10 Most Common Plastics By Country Data, Earth Challenge 2020 Plastics Mobile  Widget
-    Data , Integrated Data: Marine Debris Monitoring and Assessment Project, Source
-    Data: Marine Debris Monitoring and Assessment Project, Integrated Data: TIDES
-    Coastal Clean Up, Source Data: TIDES Coastal Cleanup, Integrated Data: Marine
-    Litter Watch, Source Data: Marine Litter Watch, Earth Challenge: Open Data Documentation,
-    Earth Challenge: Citizen Science Cloud: Plastics Page, Earth Challenge: Citizen
-    Science Cloud Data Portal, Global Alert - Floating Trash, Our World In Data '
   organizations:
   - recj1G6ZElwqUBXSu
   - recUpxLd9XCMfSOw9
@@ -1580,8 +1547,6 @@
   featured_product: NAIP Explorer
   image: challenges/agricultural.jpg
   image-alt: Large open field on a farm
-  natl env datasets: NAIP public image service, NAIP public image dates, USGS National
-    Map, Federal Geo-platform
   organizations:
   - recRKu6t2inmGXXce
   products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision

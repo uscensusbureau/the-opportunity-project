@@ -1,9 +1,10 @@
 {% assign data = include.data %}
 
 <section 
-  style="background-image: url({{ site.baseurl }}/assets/img/{{ data.img }})"
+  style="background-image: url({{ site.baseurl }}/assets/img/{{ data.img.src }})"
   class="event-announcement__section usa-section--dark"
 >
+  {% include 1px-transparent.html alt=data.img.alt %}
   <div class="event-announcement__content">
     <h2 class="event-announcement__header">
       {% for line in data.title %}

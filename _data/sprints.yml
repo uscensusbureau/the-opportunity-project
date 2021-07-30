@@ -336,6 +336,7 @@
     \ others developed digital products to revitalize low-income communities and bring\
     \ jobs to local residents, empower entrepreneurs and innovation ecosystem builders,\
     \ and highlight multiple pathways for workers to start or advance careers."
+  image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   order-number: 2
   problem_statements:
@@ -527,6 +528,7 @@
     communities and promote Census jobs. Given the option to complete the Census online
     and increased concerns around disinformation, teams also focused efforts on bridging
     the digital divide and increasing digital literacy.
+  image-alt: Closeup of sticky notes with illegible text on a whiteboard
   img: landing/Sprint-Background_03_Census.jpg
   order-number: 3
   problem_statements:
@@ -547,6 +549,7 @@
     in visualizing and experiencing the data.  The sprint will culminate in a showcase
     that presents and celebrates the projects to lift up, amplify, and share the work
     nationwide.
+  image-alt: An abstract design of circles and squares arranged in rows
   img: landing/COVID-Data-Light.jpg
   problem_statements:
   - recrhEu7bAwQeTEck
@@ -604,6 +607,7 @@
     \ economic, environmental, and human health challenges; products to connect recently\
     \ resettled refugees with resources and services; and tools that track federal\
     \ disaster response spending."
+  image-alt: A suburban street as seen from above
   img: landing/Sprint-Background_01_Built.jpg
   order-number: 5
   problem_statements:
@@ -895,6 +899,7 @@
     the air quality and health effects of transportation emissions, as well as products
     to reduce ocean plastic pollution, strengthen recycling markets, and help farmers
     make decisions using aerial imagery data.
+  image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   order-number: 4
   problem_statements:
@@ -1104,6 +1109,7 @@
     digital products that allow governments to maintain local address data critical
     in catastrophic events, help the public take appropriate hazard preparedness actions,
     and amplify environmental stewardship efforts.
+  image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
   order-number: 1
   problem_statements:
@@ -1128,6 +1134,7 @@
     \ products to tackle 7 challenges related to preventing economic and climate crisis\
     \ for the most vulnerable communities, shaping the future of business, and redefining\
     \ infrastructure, inclusion, and accessibility in the world post-COVID."
+  image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   problem_statements:
   - recsbfXyfEmL6eaDo

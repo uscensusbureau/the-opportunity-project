@@ -13,6 +13,9 @@
                 style="background-image: url({{ site.baseurl }}/assets/img/{{ card.img }});
           background-size: cover;"
               {% endif %}>
+              {% if card.img %}
+                {% include 1px-transparent.html alt=card.image-alt %}
+              {% endif %}
               <div class="padding-2 text-white display-flex flex-column">
                 <h3 class="usa-collection__heading text-white">
                   <a href="{{ card.href }}">{{ card.publication }} </a>
@@ -21,9 +24,7 @@
                   {{ card.date | date: "%B %Y" }}
                 </span>
                 <p class="usa-collection__description">{{ card.text }}</p>
-
               </div>
-              
             </div>
             <div class="tablet:grid-col-6 padding-2">
               <p class="usa-collection__description details">{{ card.details }}</p>

@@ -22,24 +22,27 @@ featured-images:
       details: The White House Wants You to Build Tools to Improve Our Cities
       href: https://www.wired.com/2016/03/white-house-wants-build-tech-tools-data/
       date: March 7, 2016
-      img: photos/home/news/news-main.jpg
-      alt: An American flag
+      img: 
+        src: photos/home/news/news-main.jpg
+        alt: An American flag
       isExternal: true
   side-cards:
     - details: Developers Use Artificial Intelligence to Match Patients to Clinical Trials
       href: https://www.forbes.com/sites/oracle/2019/03/12/developers-use-artificial-intelligence-to-match-patients-to-clinical-trials/#72d2630b1345
       date: March 12, 2019
       title: Forbes
-      img: photos/home/news/news-01.jpg
-      alt: People seated at tables taking notes during a TOP presentation
+      img: 
+        src: photos/home/news/news-01.jpg
+        alt: People seated at tables taking notes during a TOP presentation
       isExternal: true
     - title: New York Times
       details: New Federal Website Aims to Enhance Community Services
       href: https://www.nytimes.com/2016/03/08/us/politics/new-federal-website-aims-to-enhance-community-services.html?searchResultPosition=1
       isExternal: true
       date: March 7, 2016
-      img: photos/home/news/news-02.jpg
-      alt: A man drawing on a white board with a marker while a woman looks on
+      img: 
+        src: photos/home/news/news-02.jpg
+        alt: A man drawing on a white board with a marker while a woman looks on
 
 legislation:
   title: Bi-Partisan Authorizing Legislation
@@ -60,17 +63,23 @@ publications:
     - title: A Roadmap to the Future
       href: https://ourpublicservice.org/wp-content/uploads/2020/02/Future-of-Government.pdf
       isExternal: true
-      img: photos/news/Background_roadmap.jpg
+      img: 
+        src: photos/news/Background_roadmap.jpg
+        alt: Illustration of a woman taking a canoe out of a river
       details: The Partnership for Public Service Publication
     - title: 'Agile Problem Solving in Government: A Case Study of The Opportunity Project'
       href: http://www.businessofgovernment.org/report/agile-problem-solving-government-case-study-opportunity-project
       isExternal: true
-      img: photos/news/Background_IBM.jpg
+      img: 
+        src: photos/news/Background_IBM.jpg
+        alt: Abstract drawing of a roadmap
       details: IBM Center for The Business of Government
     - title: Best Practices Report to the President
       href: https://opportunityzones.hud.gov/sites/opportunityzones.hud.gov/files/documents/OZ_Best_Practices_Report.pdf
       isExternal: true
-      img: photos/news/Background_white-house.jpg
+      img: 
+        src: photos/news/Background_white-house.jpg
+        alt: The official seal of the White House
       details: 'White House Opportunity and Revitalization Council'
     
 ---

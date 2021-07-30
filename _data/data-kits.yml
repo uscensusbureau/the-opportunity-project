@@ -1,5 +1,6 @@
 - title: Workforce Challenges
   image: /assets/img/data-kits/workforce.png
+  image-alt: Workers in construction vests and hard hats at an open construction site
   link: data/workforce
   sprint: Workforce
   description: Data on workers, businesses, jobs, credentials, and more <br><br>
@@ -7,6 +8,7 @@
 
 - title: Natural Environment
   image: /assets/img/photos/sprints/2020-natural-sprint.jpg
+  image-alt: Sunset over clouds and a grassy hillside
   link: data/natural-environment
   sprint: Natural Environment
   description: Pollution, agriculture, transportation emissions, and recycling <br><br>
@@ -14,6 +16,7 @@
 
 - title: Built Environment
   image: /assets/img/data-kits/gis.png
+  image-alt: A paper road atlas of the United States and Mexico
   link: data/built-environment
   sprint: Built Environment
   description: Economic self-sufficiency, refugees, development, and disaster spending.
@@ -21,6 +24,7 @@
 
 - title: COVID-19
   image: /assets/img/data-kits/covid.jpg
+  image-alt: Sticky notes on a window with the words "Sorry - Closed. COVID-19"
   link: data/covid-19
   sprint: ASA Data Challenge Expo
   description: Datasets selected as part of the The American Statistical Association Annual Data Challenge Expo which will continue to be updated.

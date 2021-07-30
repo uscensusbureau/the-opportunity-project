@@ -889,6 +889,10 @@ main {
     .data-kit__active {
       transition: transform 400ms ease;
       cursor: pointer;
+      pointer-events: none;
+      h2 {
+        pointer-events: auto;
+      }
       &:hover {
         transform: translate(-5px, -10px);
         .data-kit__arrow {

@@ -80,7 +80,7 @@
     "@babel/preset-env": "^7.14.8",
     "airtable": "^0.11.1",
     "axe-core": "^4.3.2",
-    "chalk": "^4.1.1",
+    "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "chroma-js": "^2.1.2",
     "chrome-launcher": "^0.14.0",

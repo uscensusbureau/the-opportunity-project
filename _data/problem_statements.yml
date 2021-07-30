@@ -43,6 +43,7 @@
   airtable_id: rec0ukljQMNDcv91s
   category: Workforce
   image: photos/sprints/2017-census.png
+  image-alt: Clipboard holding a Census survey
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2017-census.pdf
@@ -75,6 +76,7 @@
   airtable_createdTime: '2020-02-10T18:21:57.000Z'
   airtable_id: rec1e6bSt2fE0Ke14
   image: photos/sprints/2016-ag2.png
+  image-alt: A bowl of soup on a tray with orange slices, a glass of milk, and a spoon
   organizations:
   - recRKu6t2inmGXXce
   pdf: 2016-ag.pdf
@@ -345,6 +347,7 @@
     Progress (NAEP), Education Demographic and Geographic Estimates (EDGE), Common
     Core of Data (CCD), EDFacts
   image: photos/sprints/2018-reportcard.png
+  image-alt: Screenshot of a computer screen with text reading Avg. Daily Viewers
   organizations:
   - recBBbVkCKQN52rWM
   pdf: 2018-reportcard.pdf
@@ -475,6 +478,7 @@
     International Student Assessment (PISA), Trends in International Mathematics and
     Science Study (TIMSS), Education Demographic and Geographic Estimates (EDGE)
   image: photos/sprints/2018-stem.png
+  image-alt: Anatomy drawings of the human skeleton and lymph systems
   organizations:
   - recBBbVkCKQN52rWM
   pdf: 2018-stem.pdf
@@ -609,6 +613,7 @@
   airtable_id: rec6HY78EY2rrTgQq
   category: Workforce
   image: photos/sprints/2016-doe2.png
+  image-alt: A woman pointing something out on a laptop screen to a man
   organizations:
   - recBBbVkCKQN52rWM
   pdf: 2016-doe.pdf
@@ -734,6 +739,8 @@
   airtable_id: rec7PAfceBewrUGZ3
   category: Workforce
   image: photos/sprints/2016-ag1.png
+  image-alt: A patchwork of small buildings and fields below mountains and a cloudy
+    sky
   organizations:
   - recRKu6t2inmGXXce
   pdf: 2016-ag.pdf
@@ -790,6 +797,7 @@
     of Federal Domestic Assistance (CFDA), Federal Procurement Data System (FPDS),
     GPS data, Data.gov, FedBizOps, USASpending
   image: photos/sprints/2018-accountability.png
+  image-alt: A healthcare professional taking a blood-pressure reading
   organizations:
   - rec9YorLrBEvA0vj4
   - recgPNji2KEknNBA5
@@ -831,6 +839,7 @@
   airtable_id: recBxwNpfEqtxSEbI
   category: Housing
   image: photos/sprints/2016-hud.png
+  image-alt: A city skyline with skyscrapers lit up at night
   organizations:
   - recRLxRGfiWtHnmAs
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity, Opportunity
@@ -1156,6 +1165,7 @@
   airtable_id: recGQ0S48RDx0VENx
   category: Education
   image: photos/sprints/2016-dol2.png
+  image-alt: A red FOR HIRE sign
   organizations:
   - recnDoHewBvPIWrBO
   pdf: 2016-dol.pdf
@@ -1205,6 +1215,7 @@
   airtable_id: recGQxoZehhlElI4g
   category: Workforce
   image: photos/sprints/2016-sg.png
+  image-alt: A bicycle in a park in front of people
   organizations:
   - recZod0Y9uE8dnrem
   - recs22ERdovX7lUpQ
@@ -1266,6 +1277,7 @@
     of Agriculture Grants and Loans, U.S. Department of Veteran Affairs Office of
     Finance, Fish and Wildlife (TRACS), USDA NIFA Data Gateway, USASpending
   image: photos/sprints/2018-grants.png
+  image-alt: A collection of one-dollar bills
   organizations:
   - rec9YorLrBEvA0vj4
   - recgPNji2KEknNBA5
@@ -1305,6 +1317,8 @@
   airtable_id: recGo0glu9CVxEX87
   category: Housing
   image: photos/sprints/2017-veterans.png
+  image-alt: People shaking hands over a conference table with business documents
+    strewn about
   organizations:
   - recxPVJVs1W4haKxp
   pdf: 2017-veterans.pdf
@@ -1361,6 +1375,7 @@
   datasets_text: Veterans resumes, Job postings, Registered Apprenticeship Listings,
     BLS Job Outcomes Data
   image: photos/sprints/2018-ai.png
+  image-alt: A row of US soldiers saluting, viewed from behind
   organizations:
   - recnDoHewBvPIWrBO
   pdf: 2018-ai.pdf
@@ -1394,6 +1409,7 @@
   airtable_id: recMEER5Sc9HQrLOF
   category: Housing
   image: photos/sprints/2017-youth.png
+  image-alt: Four young people looking over a wall out onto a skyline
   organizations:
   - recBBbVkCKQN52rWM
   pdf: 2017-youth.pdf
@@ -1676,6 +1692,7 @@
   airtable_id: recWUq0tYLA47nFU2
   category: Education
   image: photos/sprints/2016-doe1.png
+  image-alt: Three people crowded around and pointing to a laptop screen
   organizations:
   - recBBbVkCKQN52rWM
   - recRLxRGfiWtHnmAs
@@ -1729,6 +1746,7 @@
   airtable_id: recWbNwNVTeALHVEK
   category: Workforce
   image: photos/sprints/2016-dot.png
+  image-alt: A city bus pulled up to the sidewalk in the snow
   organizations:
   - recQJhXANnrCe4tUP
   pdf: 2016-dot.pdf
@@ -1883,6 +1901,7 @@
   airtable_id: recboDOGOG8eKuYc7
   category: Education
   image: photos/sprints/2016-dol1.png
+  image-alt: A man welding
   organizations:
   - recnDoHewBvPIWrBO
   pdf: 2016-dol.pdf
@@ -2161,6 +2180,7 @@
   airtable_id: recjgkTgiJVNQI06t
   category: Equity
   image: photos/sprints/2017-grants.png
+  image-alt: An archival photograph of a federal building with a streetcar in front
   organizations:
   - rec9YorLrBEvA0vj4
   - recgPNji2KEknNBA5

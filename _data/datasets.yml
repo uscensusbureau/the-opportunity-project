@@ -13,6 +13,7 @@
   - recxPVJVs1W4haKxp
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -29,8 +30,10 @@
   - reccYXaD7aLLyyBqy
   problem_statements:
   - recDnQq3aDp59z637
+  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Nicole Smith
 - airtable_createdTime: '2020-02-10T18:28:42.000Z'
   airtable_id: rec0KtKpasrNEpAY6
   description: 'The National Agriculture Imagery Program (NAIP) acquires aerial imagery
@@ -44,6 +47,8 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - rec55VBughwHjCFWp
+  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -68,8 +73,10 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Sigrid Economou
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec0cbaPwGIEvD1jS
   name: FEMA Monthly Disaster Spending Reports
@@ -91,9 +98,11 @@
   problem_statements:
   - recmZQEd4gpAgWPMm
   - recn0ONeaB72GbD8z
+  ps_text: Opportunity Zones, Rural Development
   sprint:
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
+  stewards_text: Debbie Brodt-Giles, Jon Weers, Robert Bectel
 - airtable_createdTime: '2021-07-19T21:42:45.000Z'
   airtable_id: rec0l2fRhMLVZEFmy
   data_stewards:
@@ -106,8 +115,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-07-19T21:32:27.000Z'
   airtable_id: rec0u5cS07ULLz4GX
   data_stewards:
@@ -123,8 +134,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
+  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec0vXFnbyQLE68Z9
   name: Census Bureau ACS
@@ -142,6 +155,7 @@
   - recJDN5DAPiSmi955
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -160,8 +174,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Johne White, Phil Dickerson
 - airtable_createdTime: '2020-02-10T18:07:17.000Z'
   airtable_id: rec1ZY6omdfIS5JQX
   description: NDEWS reports drug trends across the U.S. as new issues emerge
@@ -172,6 +188,7 @@
   - recjpBB18sFzmVNWl
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -188,8 +205,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2020-02-10T18:08:03.000Z'
   airtable_id: rec1xeRFWNbBLXzWi
   description: "The National Emergency Medical Services Information System (NEMSIS)\
@@ -207,6 +226,7 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -224,8 +244,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec2VHDJ3plWYxAPm
   data_stewards:
@@ -240,9 +262,11 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - recfwUvvptMpf0PLj
+  ps_text: Rural Development, Entrepreneurship
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: Debbie Brodt-Giles
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: rec2Vr99TM35xVZfR
   description: Includes data on Regional Innovation Clusters, state licenses and permits,
@@ -254,6 +278,7 @@
   - rech0xcl8a3PFLxhA
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:32:00.000Z'
@@ -269,6 +294,8 @@
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -291,9 +318,11 @@
   problem_statements:
   - recmZQEd4gpAgWPMm
   - recD4rN8c5sH3ECRi
+  ps_text: Opportunity Zones, Economic Self-Sufficiency
   sprint:
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
+  stewards_text: Ted Payne, John Huggins
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec33Lhf2RbQSTHWv
   data_stewards:
@@ -308,8 +337,10 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Kasey Martin
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec3547jwlSUITqmS
   name: Attitudes
@@ -329,6 +360,7 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recqL51kCcBL6go3m
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
@@ -348,9 +380,11 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - recfwUvvptMpf0PLj
+  ps_text: Rural Development, Entrepreneurship
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec4haQmtERVpiWlW
   name: Department of Health and Human Services; City of Philadelphia; Office of Management
@@ -371,6 +405,7 @@
   - reca1uqBuCaLkRdOl
   problem_statements:
   - recDnQq3aDp59z637
+  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-05-10T20:31:18.000Z'
@@ -408,8 +443,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recDkOPeR5RLFwe2e
+  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: William Snow
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec5eOCFktpi4EsQt
   name: Census County Population by Characteristics
@@ -426,6 +463,7 @@
   - rec4gJ7REeyALBnSA
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -452,6 +490,8 @@
   - recfwUvvptMpf0PLj
   - rec6yDEfMyReqsMcl
   - rec55VBughwHjCFWp
+  ps_text: Opportunity Zones, Career Pathways, Entrepreneurship, Talent Discovery,
+    "Helping Tribal, State, and Local Governments with Local Address Data Collection"
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -477,6 +517,7 @@
   - recxIMtV2v2veuzJV
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -495,8 +536,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec6R6jwDJdf7JAXY
   name: Census Bureau; USASpending.gov
@@ -519,6 +562,7 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -539,6 +583,7 @@
   name: Job postings
   problem_statements:
   - recLROAotmnLsG3Bw
+  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-19T21:38:16.000Z'
@@ -558,12 +603,15 @@
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
   - recD4rN8c5sH3ECRi
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship,
+    Economic Self-Sufficiency
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec6iuu5ywONvQu9G
   name: Census Bureau Response Rate
@@ -583,6 +631,7 @@
   - recO4B94nbnjnpzgn
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-10T17:28:35.000Z'
@@ -605,8 +654,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Jennifer Bert, Adam Rumrill
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec6y7XgL9Y6zbB4i
   name: The Recycling Partnership
@@ -634,8 +685,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
+  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Gina Walejko
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec77NwWipYqzLfh5
   name: IRS SOI Tax Stats
@@ -655,8 +708,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Lydia Taghavi
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec7bnuqwVugVXeUw
   data_stewards:
@@ -674,8 +729,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2020-02-05T22:06:22.000Z'
   airtable_id: rec7x7dVjKZilg4sX
   data_stewards:
@@ -693,8 +750,10 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Amrit Kohli , Pam Frugoli
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec83Ey2MVezICJV6
   data_stewards:
@@ -709,8 +768,10 @@
   - recO4B94nbnjnpzgn
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Karen Perry
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec8D6bIszD13a7xG
   name: Census Bureau; Civil Rights Data Collection Program; National Center for Education
@@ -733,6 +794,7 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -746,6 +808,7 @@
   - recx2kGBvRULDVbFA
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T17:28:23.000Z'
@@ -753,6 +816,7 @@
   name: Registered Apprenticeship Listings
   problem_statements:
   - recLROAotmnLsG3Bw
+  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-10T17:25:38.000Z'
@@ -764,6 +828,7 @@
   - recBBbVkCKQN52rWM
   problem_statements:
   - rec4jiLMOGoECbVXB
+  ps_text: Helping States Develop Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -777,6 +842,7 @@
   - recExbMGHZqIoJUTs
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -790,6 +856,7 @@
   - recb7pZpE7hcBOJUf
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-10T20:22:02.000Z'
@@ -805,8 +872,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
+  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Gina Walejko
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9uesU1D98puAio
   data_stewards:
@@ -825,8 +894,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec9uy0Oekz0vE6KS
   name: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
@@ -857,6 +928,7 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -873,6 +945,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -892,6 +965,7 @@
   name: Federal Audit Clearing House
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -906,6 +980,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -933,8 +1008,10 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Hua Lu
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recCBVjvWCVts8fAm
   name: Earth Challenge 2020 Consolidated Data
@@ -955,6 +1032,7 @@
   problem_statements:
   - recmZQEd4gpAgWPMm
   - recfwUvvptMpf0PLj
+  ps_text: Opportunity Zones, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -963,6 +1041,8 @@
   name: GPS data
   problem_statements:
   - rec91k66NBPeRwaK7
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -991,8 +1071,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recCyzjEaDO1LZY3C
   description: 'This dataset contains information on all available occupations in
@@ -1005,6 +1087,7 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:21:50.000Z'
@@ -1012,6 +1095,7 @@
   name: Program for International Student Assessment (PISA)
   problem_statements:
   - rec5Qmq3TNOnhhfoE
+  ps_text: Promoting Access to and Interest in STEM Fields
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -1025,6 +1109,7 @@
   - recOu5jGIOeoHNcps
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1044,6 +1129,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1059,8 +1145,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Mike Hollar
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recF98kOtSiE6hJas
   data_stewards:
@@ -1079,8 +1167,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recFLgsu3kZnW7oIu
   name: DC Department of Human Services
@@ -1103,8 +1193,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Lydia Taghavi
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recFm5BYRNFC817gp
   name: EPA Facts and Figures about Materials
@@ -1120,6 +1212,7 @@
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
+  stewards_text: Logan Powell
 - airtable_createdTime: '2020-02-05T22:05:09.000Z'
   airtable_id: recFrLRheWNuusPVD
   data_stewards:
@@ -1133,8 +1226,10 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: 'Amrit Kohli '
 - airtable_createdTime: '2020-02-10T18:07:22.000Z'
   airtable_id: recFthov3GtdY9qD8
   description: Provides up-to-date information on tobacco, alcohol, and drug use,
@@ -1146,6 +1241,7 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1163,9 +1259,11 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - rec2cDmW6ubg6Wco0
+  ps_text: Rural Development, Bridging the Digital Divide
   sprint:
   - recMpslqDTkD8bJoj
   - rec5A5h9cq07ijoPk
+  stewards_text: Mike Martin, Kurt Bauman
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recG4Nq4VUB2lC2b6
   description: Allows users to search by location to find the nearest material recovery
@@ -1178,6 +1276,7 @@
   - recvcnsVv2y0Z2ESj
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
@@ -1192,6 +1291,7 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1207,8 +1307,10 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - rec4KZSqOYnXgo2gD
+  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Bishen Singh
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recGbucuzzju5pbZc
   name: Federal disaster declaration and protective actions data
@@ -1227,6 +1329,7 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1251,9 +1354,11 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - rec6yDEfMyReqsMcl
+  ps_text: Rural Development, Talent Discovery
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: Riley Zipper, Carol Rogers
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recH9vKhftk4FCNsp
   data_stewards:
@@ -1268,8 +1373,10 @@
   - recj1G6ZElwqUBXSu
   problem_statements:
   - recDnQq3aDp59z637
+  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Nicole Patel, Marisa Hydrick
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recHOUBPkUDcaiw3x
   description: Software that estimates the health impacts and economic value of changes
@@ -1281,6 +1388,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1296,8 +1404,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: recHSTTDewLJ313YJ
   name: Rural Accessibility
@@ -1338,8 +1448,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Catherine D Buffington
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recIf2Pc60A6s66wt
   name: "Woldemar d\u2019Ambri\xE8res"
@@ -1350,6 +1462,7 @@
   name: BLS Job Outcomes Data
   problem_statements:
   - recLROAotmnLsG3Bw
+  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1394,8 +1507,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2020-02-10T18:07:11.000Z'
   airtable_id: recJthf6OcgmZXxsk
   description: 'Since 1975 the MTF survey has measured drug and alcohol use and related
@@ -1408,6 +1523,7 @@
   - recjpBB18sFzmVNWl
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-10T17:42:09.000Z'
@@ -1417,6 +1533,7 @@
   - recGXB6VI2XEbqemj
   products:
   - recTfL9YZgQqj9i78
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1436,6 +1553,7 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -1450,8 +1568,10 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recmZQEd4gpAgWPMm
+  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Timothy Parker
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recKOHXkIfOyuIFSo
   data_stewards:
@@ -1466,8 +1586,10 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Heather Strosnider, Patrick Wall
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recKZeZY6Zt4DTlvZ
   description: Links to all the MEP sites and an interactive map of the sites.  MEP
@@ -1480,6 +1602,7 @@
   - recFr7M0yGBqOARp4
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:50:12.000Z'
@@ -1490,6 +1613,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recqL51kCcBL6go3m
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-19T21:41:31.000Z'
@@ -1508,11 +1632,13 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recKtuw7lp42NW86E
   name: Equal Employment Opportunity Commission; Census Bureau
@@ -1540,16 +1666,22 @@
   - rec91k66NBPeRwaK7
   products:
   - rec85E0U2wrRBV8dc
+  ps_text: Disaster Spending, Improving Access to and Management of Federal Grants,
+    Increasing Government Accountability by Connecting Federal Spending and Performance
+    Data
   sprint:
   - recMpslqDTkD8bJoj
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
+  stewards_text: Amanda Cayton
 - airtable_createdTime: '2020-02-10T17:22:13.000Z'
   airtable_id: recLLnXn4feaHBHL7
   name: Education Demographic and Geographic Estimates (EDGE)
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
+  ps_text: Promoting Access to and Interest in STEM Fields, Helping States Develop
+    Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -1558,6 +1690,8 @@
   name: Federal Procurement Data System (FPDS)
   problem_statements:
   - rec91k66NBPeRwaK7
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T14:44:12.000Z'
@@ -1574,8 +1708,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Amanda Klimek
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recLdaL3z2v32oZ2o
   description: National and state-level trends for Tier 1 pollutant emission contributions
@@ -1587,6 +1723,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1604,8 +1741,10 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Dave Hiles
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recLoOYbhiz131sQH
   name: Census Economic Data
@@ -1625,8 +1764,10 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Alana Rhone
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recM3T8irYANuUTiz
   name: Traffic accident and fatality data
@@ -1637,6 +1778,7 @@
   name: U.S. Department of Agriculture Grants and Loans
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1658,9 +1800,11 @@
   problem_statements:
   - recD4rN8c5sH3ECRi
   - recmZQEd4gpAgWPMm
+  ps_text: Economic Self-Sufficiency, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: Peter Kahn
 - airtable_createdTime: '2020-02-10T19:49:36.000Z'
   airtable_id: recMPrJnEqATEMVlu
   description: Explore the map to see which communities have been designated as Opportunity
@@ -1673,6 +1817,7 @@
   - recAQPRQ8ZO3e7rXf
   problem_statements:
   - recmZQEd4gpAgWPMm
+  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1689,8 +1834,10 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Heather Strosnider, Patrick Wall
 - airtable_createdTime: '2021-05-10T19:57:26.000Z'
   airtable_id: recMYiYcZyhjlkRks
   name: Healthdata.gov
@@ -1710,6 +1857,8 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec55VBughwHjCFWp
+  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -1726,6 +1875,7 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - rec6yDEfMyReqsMcl
+  ps_text: Rural Development, Talent Discovery
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
@@ -1756,8 +1906,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Jason Fields, Hyon Shin
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recNJaPAJFncCOAUB
   data_stewards:
@@ -1773,8 +1925,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Rollison Edewor
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recNQQTbLSTC3tfTM
   name: GRID-Arendal
@@ -1805,8 +1959,10 @@
   - reckfAxYlXRGjNz5P
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Sarah Kollar
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recNhlMP9zGeGML6d
   name: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
@@ -1824,6 +1980,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1840,8 +1997,10 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Bishen Singh
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recORRGSz8KM2Igb0
   data_stewards:
@@ -1856,8 +2015,10 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Hua Lu
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recOVmpdAhCpJrXg2
   data_stewards:
@@ -1874,9 +2035,11 @@
   problem_statements:
   - recmZQEd4gpAgWPMm
   - recD4rN8c5sH3ECRi
+  ps_text: Opportunity Zones, Economic Self-Sufficiency
   sprint:
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
+  stewards_text: Ted Payne, John Huggins
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recOb2tc0ZdTy1BO9
   data_stewards:
@@ -1890,8 +2053,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recOcdeX1JFgqFD4D
   name: Waste and Recycling
@@ -1913,6 +2078,7 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1928,8 +2094,10 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Birat Pandey
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recPBCaWu7TqcxSI9
   data_stewards:
@@ -1942,8 +2110,10 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Bishen Singh
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recPCN7ziJN9rI8f5
   data_stewards:
@@ -1959,9 +2129,12 @@
   problem_statements:
   - recquGRxIztb7VrBj
   - recn0ONeaB72GbD8z
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19", Rural
+    Development'
   sprint:
   - recmM5soT47O2fdMS
   - recMpslqDTkD8bJoj
+  stewards_text: Danielle Sharpe
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recPGnqabtCmLp8is
   name: Department of Housing and Urban Development; Community partners
@@ -1999,6 +2172,7 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2040,6 +2214,7 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -2059,8 +2234,10 @@
   - recUMWKi7luVILZV1
   problem_statements:
   - rec4KZSqOYnXgo2gD
+  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Tanya Gulliver-Garcia
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recRFaeTZ3xjJOnfi
   data_stewards:
@@ -2076,8 +2253,10 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Tom Crafford, Beth Sangine
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recRNl86Jv4lOJKqy
   name: Census County Business Patterns
@@ -2101,8 +2280,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Lydia Taghavi
 - airtable_createdTime: '2020-02-10T20:23:12.000Z'
   airtable_id: recRReYvboveMbC1a
   data_stewards:
@@ -2115,8 +2296,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec2cDmW6ubg6Wco0
+  ps_text: Bridging the Digital Divide
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Kurt Bauman, Mike Martin
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recRXhhBJiANNsORi
   data_stewards:
@@ -2132,14 +2315,18 @@
   - rech0xcl8a3PFLxhA
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: JP Verostek
 - airtable_createdTime: '2020-02-10T17:32:16.000Z'
   airtable_id: recRcDp9oOJUiuB5w
   name: Catalog of Federal Domestic Assistance (CFDA)
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -2169,8 +2356,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recRskiGleSLFerp9
   data_stewards:
@@ -2185,14 +2374,17 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - recmZQEd4gpAgWPMm
+  ps_text: Rural Development, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: Timothy Parker
 - airtable_createdTime: '2020-02-10T17:42:13.000Z'
   airtable_id: recRvlrIBhUUqaJF0
   name: FSRS.gov
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2222,8 +2414,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Amanda Klimek
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recSEDcGAcsCXoIeH
   data_stewards:
@@ -2238,8 +2432,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Mike Martin, Kurt Bauman
 - airtable_createdTime: '2021-07-19T21:37:26.000Z'
   airtable_id: recSFaUe6kbKuwVBS
   data_stewards:
@@ -2252,8 +2448,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recSHmnUChmUSqsmM
   name: GAO
@@ -2276,8 +2474,10 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recSM7q7ufXLojrBx
+  ps_text: Enabling NAIP Data
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Joan Biediger
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recSPs8xaWdWjtmOQ
   name: "Department of Veteran\u2019s Affairs"
@@ -2304,8 +2504,10 @@
   - rec0pG2gOoExNqjQR
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Aaron Burman, Dylan de Thomas
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recSUsK7FVHPvrfqe
   name: USDA NAIP
@@ -2325,14 +2527,17 @@
   problem_statements:
   - rec6yDEfMyReqsMcl
   - recD4rN8c5sH3ECRi
+  ps_text: Talent Discovery, Economic Self-Sufficiency
   sprint:
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
+  stewards_text: Andy Hait
 - airtable_createdTime: '2020-02-10T17:42:48.000Z'
   airtable_id: recSVjlcIEDCL2h1N
   name: Fish and Wildlife (TRACS)
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-19T21:47:41.000Z'
@@ -2348,13 +2553,16 @@
   - rec9MvJE3f7VLwBjg
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Anrew Reamer
 - airtable_createdTime: '2020-02-10T17:42:23.000Z'
   airtable_id: recSiYkkig1ciiBwI
   name: Tracking Accountability in Government Grants Systems (TAGGS)
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2376,8 +2584,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Hope Pillsbury
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recSsWCyIxGug7Zln
   name: Puerto Rico Open Data Portal (Building Permits
@@ -2405,8 +2615,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recTCoN4IMaSTrDbs
   data_stewards:
@@ -2420,8 +2632,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Ted Payne
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recTDMCt3kpzfrdSQ
   data_stewards:
@@ -2445,8 +2659,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recTayiMRi1R6zRJS
   name: PEW
@@ -2474,8 +2690,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recTfcVsV7TT9AIEL
   data_stewards:
@@ -2490,8 +2708,10 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Robert Bectel
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recTg0g4lxs8uUlo0
   name: USASpending
@@ -2508,6 +2728,7 @@
   - recUpuoU27MFAPSsp
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2534,8 +2755,10 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Dr. Hatice Zahran
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recUZ6wqbnIynynCB
   name: National Lung Association State of the Air
@@ -2549,6 +2772,7 @@
   name: 'TechLink: DoD and VA Inventions'
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2566,6 +2790,7 @@
   - recwYjmQ0rFOx8ixy
   problem_statements:
   - recqL51kCcBL6go3m
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2590,9 +2815,11 @@
   problem_statements:
   - recn0ONeaB72GbD8z
   - recZDeKZkpRgp2x1j
+  ps_text: Rural Development, Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recMpslqDTkD8bJoj
   - recg9LuHpKxgB95Xy
+  stewards_text: Jessica Daniel
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recVZJBfZvUSe3Q4n
   description: 'Summaries of all the institutes, filterable by type of technology
@@ -2605,6 +2832,7 @@
   - rec7pqpcAeIY3bXpc
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -2622,9 +2850,11 @@
   problem_statements:
   - rec6yDEfMyReqsMcl
   - recfwUvvptMpf0PLj
+  ps_text: Talent Discovery, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
+  stewards_text: Emily Miller
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recWduNiJZN2o7HX6
   name: "Open-source public data; Mastercard\u2019s anonymized and aggregated transaction\
@@ -2649,6 +2879,8 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
+  ps_text: Promoting Access to and Interest in STEM Fields, Helping States Develop
+    Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -2658,13 +2890,14 @@
     and volunteers from the National Oceanic and Atmospheric Administration's Marine
     Debris Monitoring and Assessment Program (MDMAP), this data follows strict Q/A
     Q/C protocols including transect monitoring.
-  link: https://marinedebris.noaa.gov/research/marine-debris-monitoring-and-assessment-project
+  link: https://marinedebris.noaa.gov/monitoring-toolbox
   name: 'Source Data: Marine Debris Monitoring and Assessment Project'
   organization_text: National Oceanic and Atmospheric Administration
   organizations:
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2678,6 +2911,8 @@
   name: FedBizOps
   problem_statements:
   - rec91k66NBPeRwaK7
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2701,6 +2936,8 @@
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -2718,6 +2955,8 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - rec55VBughwHjCFWp
+  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -2749,8 +2988,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec2cDmW6ubg6Wco0
+  ps_text: Bridging the Digital Divide
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Kurt Bauman, Mike Martin
 - airtable_createdTime: '2021-07-19T22:01:15.000Z'
   airtable_id: recYHXoQAnB07bJSb
   data_stewards:
@@ -2768,6 +3009,8 @@
   - recfwUvvptMpf0PLj
   - recn0ONeaB72GbD8z
   - recG9NY8ns2oza4vp
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship,
+    Rural Development, Transportation Emissions
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -2775,6 +3018,7 @@
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
   - recfjW4XBdTnujZD7
+  stewards_text: Logan Powell
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recYRtBzCxYPpsMfL
   description: Model-based estimates of health insurance coverage for counties and
@@ -2788,6 +3032,7 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2808,8 +3053,10 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Bishen Singh
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recZ9K6s5qUYHPiN1
   data_stewards:
@@ -2825,8 +3072,10 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recSM7q7ufXLojrBx
+  ps_text: Enabling NAIP Data
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Gita Urban-Mathieux
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recZbSQrjEMXoZ2Am
   data_stewards:
@@ -2842,8 +3091,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Randy Moore, Kristina Pasquino-Frates
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recZg3fGxDmbe7UNP
   data_stewards:
@@ -2857,13 +3108,16 @@
   - recWJ8ViVmLMqlXTS
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Scott Breen
 - airtable_createdTime: '2020-02-10T17:42:44.000Z'
   airtable_id: recZtCIHXPCIrswaa
   name: U.S. Department of Veteran Affairs Office of Finance
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2897,6 +3151,7 @@
   - recbLwYNZI63gDeLc
   problem_statements:
   - recZDeKZkpRgp2x1j
+  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -2910,6 +3165,7 @@
   - recFr7M0yGBqOARp4
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2020-02-10T17:32:27.000Z'
@@ -2917,6 +3173,8 @@
   name: Data.gov
   problem_statements:
   - rec91k66NBPeRwaK7
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2943,8 +3201,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Amanda Klimek
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recaxnp7O7OTu9lJj
   data_stewards:
@@ -2958,8 +3218,10 @@
   - rec18wOOpv9fbmdqY
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Adina Adler
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recbPZ9m7vQmuTt4f
   description: Resources including The College Financing Plan, Net Price Calculator,
@@ -2971,6 +3233,7 @@
   - recBBbVkCKQN52rWM
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
 - airtable_createdTime: '2020-02-10T17:25:27.000Z'
@@ -2978,6 +3241,7 @@
   name: Common Core of Data (CCD)
   problem_statements:
   - rec4jiLMOGoECbVXB
+  ps_text: Helping States Develop Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3008,6 +3272,7 @@
   data_stewards:
   - recmVKGxlh5J0NaNP
   name: CBAMS
+  stewards_text: Gina Walejko
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: reccQXF6uh1ySoJG0
   description: 2019 report that includes financial performance, trade, capital investments
@@ -3019,6 +3284,7 @@
   - recejWHfb2My5VbBb
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -3032,6 +3298,7 @@
   - recyPXJRlyVWMribV
   problem_statements:
   - rec4KZSqOYnXgo2gD
+  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3059,8 +3326,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Randy Moore, Kristina Pasquino-Frates
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recdMgnSpoaveLcji
   name: ESA Sentinel 2
@@ -3090,8 +3359,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
+  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Eric Jensen
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recdbslLB9MR4Ze7H
   name: Department of Commerce
@@ -3117,8 +3388,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recDkOPeR5RLFwe2e
+  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Suzanne McArdle
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rece8G25DNqYv7wRZ
   data_stewards:
@@ -3133,8 +3406,10 @@
   - rec1ywmeuGOW8vgGa
   problem_statements:
   - recSM7q7ufXLojrBx
+  ps_text: Enabling NAIP Data
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: 'Joel Schlagel '
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rece8msRdyrgdK6fm
   description: Complete directory of materials that Association of Plastic Recyclers
@@ -3147,6 +3422,7 @@
   - recriUaTWwgtyryA7
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -3162,6 +3438,7 @@
   - recCGtljPyEpJ15UO
   problem_statements:
   - rec4KZSqOYnXgo2gD
+  ps_text: Disaster Spending
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3174,6 +3451,7 @@
   - recxIMtV2v2veuzJV
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3189,13 +3467,16 @@
   - recc2YsGwSwIa6xkf
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Russell Zerbo
 - airtable_createdTime: '2020-02-10T17:50:48.000Z'
   airtable_id: recedvT8vYeECkjTX
   name: Datasets on terrorist and other man-made threats
   problem_statements:
   - recqL51kCcBL6go3m
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3222,8 +3503,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Chip Walker
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recfAONB0nI1gtcnW
   description: 'A cleaned, curated and integrated global plastics pollution dataset
@@ -3254,8 +3537,10 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Theresa Firestine
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recfZEYxDURxHp4hu
   name: Bureau of Labor Statistics
@@ -3280,13 +3565,16 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Hope Pillsbury
 - airtable_createdTime: '2020-02-10T17:50:40.000Z'
   airtable_id: recfiOOFb1O1kBgQM
   name: Ready Campaign
   problem_statements:
   - recqL51kCcBL6go3m
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3305,6 +3593,7 @@
   - recJPGye6pnx03EoD
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3329,6 +3618,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3359,6 +3649,7 @@
   - recCGtljPyEpJ15UO
   problem_statements:
   - recqL51kCcBL6go3m
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3373,6 +3664,7 @@
   - recVgQwX5PHVlrpCu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-07-19T21:45:02.000Z'
@@ -3388,13 +3680,16 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2020-02-10T17:42:53.000Z'
   airtable_id: recid1lR45HSi9jvV
   name: USDA NIFA Data Gateway
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-10T17:28:14.000Z'
@@ -3402,6 +3697,7 @@
   name: Veterans resumes
   problem_statements:
   - recLROAotmnLsG3Bw
+  ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3419,9 +3715,12 @@
   problem_statements:
   - recqL51kCcBL6go3m
   - recmZQEd4gpAgWPMm
+  ps_text: Using Geospatial Data to Help People Prepare for Disasters, Opportunity
+    Zones
   sprint:
   - recg9LuHpKxgB95Xy
   - rec4Y10emS9DtmBpT
+  stewards_text: Eric Coyle, Logan Powell
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recjEWRBzfPed6Mjx
   data_stewards:
@@ -3435,8 +3734,10 @@
   - recILrqtuTiu4XVou
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Scott Breen
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
   airtable_id: recjjHhrKIfcmATHw
   description: Wide-ranging education access and equity data collected from our nation's
@@ -3449,6 +3750,8 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
+  ps_text: Promoting Access to and Interest in STEM Fields, Helping States Develop
+    Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -3464,8 +3767,10 @@
   - recOlBdKw8XSQki5z
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Will Sagar
 - airtable_createdTime: '2021-07-19T21:59:14.000Z'
   airtable_id: recjptxzJxPu7MNQW
   data_stewards:
@@ -3479,8 +3784,10 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Mike DeMale
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: reck0WMNhs1NhH3vr
   description: Resources for immigrants, refugees, and asylum seekers including immigration
@@ -3489,6 +3796,7 @@
   name: FindHello Resources
   problem_statements:
   - recDnQq3aDp59z637
+  ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3523,8 +3831,10 @@
   - recBBbVkCKQN52rWM
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: scorecarddata
 - airtable_createdTime: '2020-02-10T20:03:38.000Z'
   airtable_id: reclA1AoNLTt5ENL7
   data_stewards:
@@ -3538,13 +3848,16 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recnJuVbZsWFhpBW8
+  ps_text: Promoting 2020 Census Jobs
   sprint:
   - rec5A5h9cq07ijoPk
+  stewards_text: Sari Sue Jolly, Anna Parikos, Monika Dukes
 - airtable_createdTime: '2020-02-10T17:42:07.000Z'
   airtable_id: reclZWlEoquCih4Jh
   name: Benefits.gov
   problem_statements:
   - recGXB6VI2XEbqemj
+  ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3562,8 +3875,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Britney McCoy
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: reclhCfxKbCdphZ3A
   data_stewards:
@@ -3577,8 +3892,10 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Pam Frugoli
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reclqheYVkmbA5AOJ
   name: Department of Health and Human Services; Department of Education; USASpending.gov;
@@ -3607,6 +3924,7 @@
   - recbLwYNZI63gDeLc
   problem_statements:
   - recZDeKZkpRgp2x1j
+  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-10T18:28:51.000Z'
@@ -3624,6 +3942,8 @@
   - rec55VBughwHjCFWp
   products:
   - rec8Yym9s5wIGjlDI
+  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -3641,9 +3961,11 @@
   problem_statements:
   - recD4rN8c5sH3ECRi
   - recmZQEd4gpAgWPMm
+  ps_text: Economic Self-Sufficiency, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: 'Kevin Pierce '
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recmKiYXhL0PCwoE6
   name: FAE dashboard
@@ -3669,6 +3991,7 @@
   - recbLwYNZI63gDeLc
   problem_statements:
   - recZDeKZkpRgp2x1j
+  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2020-02-10T18:29:01.000Z'
@@ -3682,6 +4005,8 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - rec55VBughwHjCFWp
+  ps_text: '"Helping Tribal, State, and Local Governments with Local Address Data
+    Collection"'
   sprint:
   - recbhMlc1WZWXNte0
   - recg9LuHpKxgB95Xy
@@ -3698,8 +4023,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - rec6yDEfMyReqsMcl
+  ps_text: Talent Discovery
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recn8SDm59D1U14nY
   name: HUD
@@ -3731,8 +4058,10 @@
   - recJOJN6WyJNclqWu
   problem_statements:
   - recQeWP4kfK1EakJW
+  ps_text: Ocean Plastics
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-07-19T22:02:24.000Z'
   airtable_id: recnuO3Sen2Mn4dVE
   description: Data on the FEMA Housing Assistance Program, including number of applicants,
@@ -3747,6 +4076,7 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -3765,6 +4095,7 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -3783,9 +4114,11 @@
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec6yDEfMyReqsMcl
+  ps_text: Promoting Access to and Interest in STEM Fields, Talent Discovery
   sprint:
   - recbhMlc1WZWXNte0
   - rec4Y10emS9DtmBpT
+  stewards_text: Sarah Hay , Tara Lawley
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recogXe0BiuwGNVQX
   data_stewards:
@@ -3798,8 +4131,10 @@
   - recu60AFUaN2dfUPt
   problem_statements:
   - recfwUvvptMpf0PLj
+  ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Matt McMahon
 - airtable_createdTime: '2021-07-19T22:06:30.000Z'
   airtable_id: recot9D8u5Ya5kcAA
   description: The TIGER/Line Shapefiles contain potential address ranges for city-style
@@ -3815,6 +4150,8 @@
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
   - rec55VBughwHjCFWp
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship,
+    "Helping Tribal, State, and Local Governments with Local Address Data Collection"
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
@@ -3840,6 +4177,7 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recZDeKZkpRgp2x1j
+  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3865,8 +4203,10 @@
   - recM2Hsb0OuuE9zdp
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Ashley Hood-Morley
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recqTrEzfmvFOQX8a
   data_stewards:
@@ -3881,8 +4221,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Mike Martin, Kurt Bauman
 - airtable_createdTime: '2021-07-19T21:33:19.000Z'
   airtable_id: recqVxeSVfcGmlSwN
   data_stewards:
@@ -3899,10 +4241,13 @@
   - recmZQEd4gpAgWPMm
   - recn0ONeaB72GbD8z
   - recquGRxIztb7VrBj
+  ps_text: Opportunity Zones, Rural Development, "Helping Families, Businesses, and
+    Communities Respond to COVID-19"
   sprint:
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
   - recmM5soT47O2fdMS
+  stewards_text: Eric Coyle, Amanda Klimek
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recqtqPIPuHLrODlE
   description: Information for school communities to identify strategies for reducing
@@ -3915,6 +4260,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3941,6 +4287,7 @@
   - rec1PqA4dmUJp7i8a
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -3956,8 +4303,10 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Bishen Singh
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recrLULF1kBSQ9HxY
   name: USDA Cropland Data Layer
@@ -3994,8 +4343,10 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Jessica Daniel
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recsRZWgNcNdMYCIb
   name: NTIA BroadbandUSA
@@ -4012,6 +4363,7 @@
   - recx2kGBvRULDVbFA
   problem_statements:
   - rec2dxKJmbiIV0Va5
+  ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4032,8 +4384,10 @@
   - recnDoHewBvPIWrBO
   problem_statements:
   - rec6Coqk1u4BTdxLI
+  ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Mike DeMale
 - airtable_createdTime: '2020-02-10T19:28:34.000Z'
   airtable_id: recsjWUAcqwH3qaC0
   description: "Coastal Resilience is a program led by The Nature Conservancy to examine\
@@ -4047,6 +4401,7 @@
   - reciRzKphBS0wiWcK
   problem_statements:
   - recZDeKZkpRgp2x1j
+  ps_text: Identifying and Strengthening Civic Environmental Stewardship
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4076,8 +4431,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Shalise Ayromloo, Mark Klee, Shelley Irving, Jason Fields
 - airtable_createdTime: '2020-02-10T18:07:05.000Z'
   airtable_id: rectIJl3UxJFIJJYz
   description: The posted information shows opioid-dispensing rates for each facility
@@ -4092,6 +4449,7 @@
   - recxPVJVs1W4haKxp
   problem_statements:
   - recUnXFEYwEO7Uea6
+  ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
@@ -4114,6 +4472,7 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recDkOPeR5RLFwe2e
+  ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4150,9 +4509,11 @@
   problem_statements:
   - recmZQEd4gpAgWPMm
   - recn0ONeaB72GbD8z
+  ps_text: Opportunity Zones, Rural Development
   sprint:
   - rec4Y10emS9DtmBpT
   - recMpslqDTkD8bJoj
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-07-19T22:07:06.000Z'
   airtable_id: recuQekdEOW8PtYFg
   data_stewards:
@@ -4169,11 +4530,13 @@
   - rec6yDEfMyReqsMcl
   - rec6Coqk1u4BTdxLI
   - recfwUvvptMpf0PLj
+  ps_text: Opportunity Zones, Talent Discovery, Career Pathways, Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recuaFJHJiz4omT7f
   description: Top 10 Most Common Plastics found by county sourced from the Earth
@@ -4206,8 +4569,10 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Theresa Firestine, Clara Reschovsky
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recupgdyccsBbURIM
   name: Institute of Scrap Recycling Industries
@@ -4248,8 +4613,10 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Alexis Rourk
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recvnz4dVc4a6aQgS
   data_stewards:
@@ -4264,13 +4631,17 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Johne White, Phil Dickerson
 - airtable_createdTime: '2020-02-10T17:32:03.000Z'
   airtable_id: recvpjHaWAutsth43
   name: DisasterAssistance.gov
   problem_statements:
   - rec91k66NBPeRwaK7
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-05-10T14:53:57.000Z'
@@ -4303,9 +4674,11 @@
   problem_statements:
   - recD4rN8c5sH3ECRi
   - recmZQEd4gpAgWPMm
+  ps_text: Economic Self-Sufficiency, Opportunity Zones
   sprint:
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
+  stewards_text: Mike Hollar
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: recw8HWaNDw3A4fKK
   name: Food Environment Atlas
@@ -4322,6 +4695,7 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4361,6 +4735,7 @@
   name: Trends in International Mathematics and Science Study (TIMSS)
   problem_statements:
   - rec5Qmq3TNOnhhfoE
+  ps_text: Promoting Access to and Interest in STEM Fields
   sprint:
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -4376,8 +4751,10 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recD4rN8c5sH3ECRi
+  ps_text: Economic Self-Sufficiency
   sprint:
   - recMpslqDTkD8bJoj
+  stewards_text: Lydia Taghavi
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recxU7fCZyRF7YOe0
   name: U.S. Forest Service environmental stewardship data
@@ -4397,8 +4774,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recquGRxIztb7VrBj
+  ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  stewards_text: Amanda Klimek
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recynfESoUGMsEDkW
   data_stewards:
@@ -4412,8 +4791,10 @@
   - recQJhXANnrCe4tUP
   problem_statements:
   - recG9NY8ns2oza4vp
+  ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Patrick Zhang
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reczIQDcfuxmJblbG
   name: HHS Poverty Guidelines
@@ -4431,6 +4812,7 @@
   - recUpuoU27MFAPSsp
   problem_statements:
   - recn0ONeaB72GbD8z
+  ps_text: Rural Development
   sprint:
   - recMpslqDTkD8bJoj
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -4450,6 +4832,8 @@
   problem_statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
+  ps_text: Increasing Government Accountability by Connecting Federal Spending and
+    Performance Data, Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
@@ -4470,8 +4854,10 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recmZQEd4gpAgWPMm
+  ps_text: Opportunity Zones
   sprint:
   - rec4Y10emS9DtmBpT
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: reczjUOvg10Zbj1FM
   data_stewards:
@@ -4488,5 +4874,7 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recSM7q7ufXLojrBx
+  ps_text: Enabling NAIP Data
   sprint:
   - recfjW4XBdTnujZD7
+  stewards_text: Joan Biediger

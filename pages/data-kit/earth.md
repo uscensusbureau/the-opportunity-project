@@ -8,5 +8,4 @@ sprint-name: 'Natural Environment'
 
 lead:
  - Datasets on plastic pollution in oceans, agricultural decision making, transportation emissions, and recycling.
-
 ---

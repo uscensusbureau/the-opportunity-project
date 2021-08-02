@@ -2,6 +2,8 @@
   class="usa-card__container card-container ps-card {{ include.utils }}"
   style="background-image: url({{ site.baseurl}}/assets/img/{{ include.content.image }});
           background-size: cover;">
+  {% include 1px-transparent.html alt = include.content.image-alt %}
+
   <a href="{{ site.baseurl }}/assets/files/{{ include.content.pdf }}" target="_blank"
     class="text-no-underline">
     <div class="card-header">

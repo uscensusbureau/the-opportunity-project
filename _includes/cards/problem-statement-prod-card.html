@@ -6,6 +6,7 @@
   class="usa-card__container card-container ps-card {{ include.utils }}"
   style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});
           background-size: cover;">
+  {% include 1px-transparent.html alt=card.image-alt %}
   {% if card.link %}
   <a href="{{ card.link }}" product-link>
   {% endif %}

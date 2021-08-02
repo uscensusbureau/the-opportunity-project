@@ -889,6 +889,10 @@ main {
     .data-kit__active {
       transition: transform 400ms ease;
       cursor: pointer;
+      pointer-events: none;
+      h2 {
+        pointer-events: auto;
+      }
       &:hover {
         transform: translate(-5px, -10px);
         .data-kit__arrow {
@@ -4831,6 +4835,16 @@ h2.section-header, h3.section-header {
   @include u-padding-x(4);
   @include at-media('tablet'){
     height: 80vh;
+  }
+}
+
+.transparent-img__container {
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 }
 

@@ -66,28 +66,25 @@ footer:
     href: get-involved/
   - text: Our Process
     href: our-process/
-  - text: Product
+  - text: Products
     href: showcase/
   - text: Datasets
     href: data/
   - text: TOPx Toolkit
     href: topx-toolkit/introduction/
-  - text: Builder's Toolkit
+  - text: Prod. Dev. Toolkit
     href: product-development/toolkit/
   - text: data.census.gov
     href: "https://data.census.gov"
     isExternal: true
   - text: Our Team
-    href: about/
+    href: coil/
   - text: Press
     href: press/
-  - text: YouTube
-    href: https://www.youtube.com/hashtag/opportunityproject
-    isExternal: true
 
 footer-bottom:
-  - text: Census Open Innovation Labs
-    href: coil/
+  # - text: Census Open Innovation Labs
+  #   href: coil/
   - text: Privacy
     href: https://www.census.gov/about/policies/privacy.html
     isExternal: true
@@ -96,6 +93,9 @@ footer-bottom:
     isExternal: true
   - text: GitHub
     href: https://github.com/uscensusbureau/the-opportunity-project
+    isExternal: true
+  - text: YouTube
+    href: https://www.youtube.com/hashtag/opportunityproject
     isExternal: true
 
 footer-bottom-coil:

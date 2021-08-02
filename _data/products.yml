@@ -81,6 +81,8 @@
     origin.
   details: Helps recently resettled refugees locate vital services within their area,
     and see the landscape of refugees around the United States by country of origin.
+  featured_in:
+  - recDnQq3aDp59z637
   image: Resettled-Refugee-Services.png
   image-alt: The Resettled Refugee Services and Data Explorer displays a map with
     locations on where different refugees has resettled. The app inclides list of
@@ -223,6 +225,8 @@
   details: Helps the municipalities and communities in Puerto Rico enhance their address
     infrastructure to support the reconstruction process, improve emergency response
     and foster a more resilient future
+  featured_in:
+  - rec55VBughwHjCFWp
   image: prados.jpg
   image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support)
     tool on an iPad
@@ -325,6 +329,8 @@
     to prepare for crisis through increased awareness of the likelihood of catastrophic
     failure of their structures in a disaster. Public access using login: fema@sille.space,
     password: Planahead2019'
+  featured_in:
+  - recqL51kCcBL6go3m
   image: sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
   link: https://sille.space/app_fema/
@@ -403,6 +409,8 @@
     and provide new insights into the problem of ocean plastic pollution, offering
     actions for citizens and policymakers worldwide to solve the crisis of plastic
     waste ending up in our oceans.
+  featured_in:
+  - recQeWP4kfK1EakJW
   image: Ocean-Plastics-Story-Map.png
   image-alt: This image shows the story of ocean plastics.
   link: https://storymaps.arcgis.com/stories/df9267f53b284f138cacdb6b9db8038d
@@ -653,6 +661,8 @@
     campaigns and avoid an undercount
   details: Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
+  featured_in:
+  - recDkOPeR5RLFwe2e
   image: census-intelligence.jpg
   image-alt: Map of a region, with sub-districts colored in varying shades of blue.
     No legend or title is included.
@@ -1529,6 +1539,8 @@
     relevant stories that community organizations can use to engage seniors and young
     adults from the Puerto Rican and Filipino diasporas and raise awareness of how
     the Census impacts their lives
+  featured_in:
+  - recPYnQdPuuZ0FZZ9
   image: whywecount.jpg
   image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
     reads Being Counted Saves Lives.
@@ -1569,6 +1581,8 @@
     development strategies
   details: Creates digital economy reports for rural leaders designing economic development
     strategies
+  featured_in:
+  - recn0ONeaB72GbD8z
   image: Tech-Talent-Tracker.png
   image-alt: This is a moving image of the Talent Tech Tracker app. You can filter
     by county to see the tech economic report of different areas.
@@ -1643,6 +1657,8 @@
   details: Offers a series of news and information modules on foreign aid, federal
     budget, diplomacy, strategic initiatives, and an overview of the State Department
     for middle and high school students.
+  featured_in:
+  - recdNGSC2k2ptu3JM
   image: Bites-Media.png
   image-alt: An webpage that explains foreign aid, and shows how you can understand
     why governments want to either increase or decrease foreign aid.
@@ -1775,6 +1791,8 @@
   details: Chatbot that empowers growth-minded entrepreneurs with the financial and
     business knowledge to better manage their money and make confident, informed business
     decisions
+  featured_in:
+  - recfwUvvptMpf0PLj
   image: practical-business-skills.jpg
   image-alt: Screenshot of the Practical Business Skills website
   link: https://www.practicalbusinessskills.com
@@ -1895,6 +1913,8 @@
   category:
   - Census
   - Employment
+  featured_in:
+  - recnJuVbZsWFhpBW8
   image: census-taker_amava.jpg
   image-alt: Screenshot of Census Taker's website
   link: https://amava.com/flexible-jobs/census-taker
@@ -2180,6 +2200,8 @@
   details: Empowers city officials to make informed decisions around waste management
     that lead to transparency, investment and job creation through the development
     of a circular economy
+  featured_in:
+  - rec2dxKJmbiIV0Va5
   image: chicago-circular-economy.png
   image-alt: Screenshot of the Topolytics application. The app displays a map of the
     united states; the travel of waste products is color coded and tracked from place
@@ -2285,6 +2307,8 @@
     after their resettlement period to the United States
   details: Enables refugees to identify community resources near them during and after
     their resettlement period to the United States
+  featured_in:
+  - recDnQq3aDp59z637
   image: RefugeeAssist.jpg
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below
     that say 'Medical', 'Legal', 'Religious', etc.
@@ -2489,6 +2513,8 @@
   details: "Helps Redfin\u2019s millions of users better understand the opportunities\
     \ and tradeoffs in terms of housing, employment and other factors when looking\
     \ to relocate for work or find workers for startups "
+  featured_in:
+  - rec6yDEfMyReqsMcl
   image: job-opportunity-tool.jpg
   image-alt: Screenshot of Job Opportunity Tool showing a map of the United States
     displaying Web developer job opportunities
@@ -2913,6 +2939,8 @@
   details: Helps small businesses, nonprofit resource centers, and institutions to
     better connect skills, certifications, industries and outcomes of training programs
     towards the right jobs in the right industry
+  featured_in:
+  - rec6Coqk1u4BTdxLI
   image: solve.jpg
   image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
     barriers that each link to information about organizations working in these areas
@@ -3008,6 +3036,8 @@
   details: Predicts geographic areas where opioid emergencies are likely to occur
     to help public safety and health officials pre-position the appropriate response
     units in order to save lives at the moment of crisis
+  featured_in:
+  - recUnXFEYwEO7Uea6
   image: insight-for-arcgis.jpg
   image-alt: Dashboard with two maps of New York City and four charts
   link: https://go.esri.com/opioidprediction
@@ -3075,6 +3105,8 @@
   details: DEVOP (Demographic Environmental Volunteer Opportunity Plotter) allows
     organizations to target areas to volunteer in and potential partners to successfully
     steward the environment
+  featured_in:
+  - recZDeKZkpRgp2x1j
   image: bloomberg-devop.jpg
   image-alt: Map of Baltimore with blue and red map pin icons
   link: https://communityanalyst.arcgis.com/esriCA/login/index.html
@@ -3281,6 +3313,8 @@
   details: 'Showcases Latino leadership across California and helps anyone working
     to improve the quality of life for Latino and Hispanic residents of California
     to understand both the opportunities and the challenges Latino communities '
+  featured_in:
+  - rec2cDmW6ubg6Wco0
   image: california-latino-power-map.jpg
   image-alt: Map of western U.S. with regions of Calfornia colored in different shades
     of red
@@ -3386,6 +3420,8 @@
   details: Tracks and analyzes the impact of disaster relief funding for mitigation
     and recovery efforts using big data, aerial imagery, predictive analytics and
     geo-spatial technologies
+  featured_in:
+  - rec4KZSqOYnXgo2gD
   image: Emergency-Disaster-Funding-Tracking.png
   image-alt: Image of emergency disaster funding product
   link: https://public.tableau.com/views/TOPSDashboard/Story1?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link
@@ -3619,6 +3655,8 @@
     and prioritize initiatives to achieve inclusive development in their regions and
     to build an inclusive development network that includes leaders from the civic
     sector, government, and industry
+  featured_in:
+  - recmZQEd4gpAgWPMm
   image: inclusive-development-dashboards.jpg
   image-alt: Screenshot of a webpage containing several paragraphs of text. Text is
     not legible.
@@ -3792,6 +3830,8 @@
     poverty and create a positive path to self-sufficiency
   details: Helps economically disadvantaged Americans break the cycle of generational
     poverty and create a positive path to self-sufficiency
+  featured_in:
+  - recD4rN8c5sH3ECRi
   image: The-EnVision-App.png
   image-alt: The image contains a screenshot of someone's profile in the app. The
     name is 'Thomas Moore', with options to select 'My Account', 'My Needs', and 'Service
@@ -3826,6 +3866,8 @@
     users at USDA and the farmers they serve
   details: Provides a gentle on-ramp and simple way to explore NAIP imagery for users
     at USDA and the farmers they serve
+  featured_in:
+  - recSM7q7ufXLojrBx
   image: NAIP-explorer.png
   image-alt: Screenshot of the NAIP viewer. The image was acquired on 2018/11/11,
     and displays an arial view of the Big Ridge State Park. The left side of the park
@@ -3866,6 +3908,8 @@
   details: Compiles and analyzes real-time data on traffic patterns and air pollution
     in the District of Columbia  to allow policymakers to explore the effect of transportation
     on air quality
+  featured_in:
+  - recG9NY8ns2oza4vp
   image: AirMotionDC.png
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option

@@ -79,6 +79,7 @@ footer:
     isExternal: true
   - text: Our Team
     href: https://coil.census.gov/
+    isExternal: true
   - text: Press
     href: press/
 

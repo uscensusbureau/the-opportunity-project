@@ -1,7 +1,7 @@
 ---
-layout: externalpost
+layout: default
 permalink: /contact-us/
-redirect_url: https://www.census.gov/forms/contact-top.html
+redirect_to: https://www.census.gov/forms/contact-top.html
 title: Contact Us
 sitemap: false
 ---

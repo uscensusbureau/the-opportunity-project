@@ -78,7 +78,8 @@ footer:
     href: "https://data.census.gov"
     isExternal: true
   - text: Our Team
-    href: about/
+    href: https://coil.census.gov/
+    isExternal: true
   - text: Press
     href: press/
   - text: YouTube
@@ -87,7 +88,8 @@ footer:
 
 footer-bottom:
   - text: Census Open Innovation Labs
-    href: coil/
+    href: https://coil.census.gov/
+    isExternal: true
   - text: Privacy
     href: https://www.census.gov/about/policies/privacy.html
     isExternal: true

@@ -62,12 +62,18 @@ if (window.location.pathname.includes('showcase')) {
 }
 
 function displayInitialProducts (pageNum, scrollIntoView = true) {
-  document.addEventListener('DOMContentLoaded', () => {
+  const display = () => {
     displayFilteredProducts(pageNum)
     if (scrollIntoView) {
       document.getElementById('all-products').scrollIntoView()
     }
-  })
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', display)
+  } else {
+    display()
+  }
 }
 
 // search

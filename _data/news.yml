@@ -41,7 +41,6 @@
   text: "President Obama\u2019s New Open Data Initiative Could Help Cities Help Themselves"
 - airtable_createdTime: '2021-02-12T19:25:25.000Z'
   airtable_id: recHvNjsKcStGD8kc
-  alt: A map of Cleveland, Ohio's neighborhoods and districts
   date: '2020-12-08'
   details: "\u201CThe Opportunity Project is one of my favorite enduring innovation\
     \ efforts in the US federal government. 2020 is our third time joining TOP sprints,\
@@ -49,6 +48,7 @@
     \ 2018. This time we were joined by several friends of Mapbox as well, making\
     \ up a proud cohort of excellent map makers.\u201D"
   href: https://www.mapbox.com/blog/building-with-our-friends-at-the-opportunity-project
+  image-alt: A map of Cleveland, Ohio's neighborhoods and districts
   img: photos/news/News_Article_Mapbox.jpg
   publication: Mapbox Blog
   rowNumber: 5

@@ -1,4 +1,4 @@
-{% assign photo = page.photo %}
+{% assign photo = include.photo %}
 <section class="usa-section usa-graphic-list grid-container bg-white">
   <div class="grid-row">
     <div
@@ -21,9 +21,11 @@
           {% if photo.overlay.text %}
             <p>{{ photo.overlay.text }}</p>
           {% endif %}
-          {% if photo.overlay.button-text %}
-            <a class="btn-link__{{photo.overlay.button-color}}" href="{{site.baseurl}}/{{photo.overlay.button-link}}">
-              {{photo.overlay.button-text}}
+          {% assign button = photo.overlay.button %}
+          {% if button %}
+            <a class="btn-link__{{button.color}}" 
+              href="{% unless button.isExternal %}{{site.baseurl}}/{% endunless %}{{button.href}}">
+              {{button.text}}
             </a>
           {% endif %}
         </div>

@@ -86,6 +86,7 @@ footer:
 footer-bottom:
   # - text: Census Open Innovation Labs
   #   href: coil/
+  #   isExternal: true
   - text: Privacy
     href: https://www.census.gov/about/policies/privacy.html
     isExternal: true

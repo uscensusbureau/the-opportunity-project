@@ -6,6 +6,9 @@
           background-image:url({{ site.baseurl }}/assets/img/photos/sprints/{{ include.content.img }});
           background-size:cover;" {% endif %}>
       </div>
+      {% if include.content.img %}
+        {% include 1px-transparent.html alt=include.content.image-alt %}
+      {% endif %}
       <div class="grid-col-12 tablet:grid-col-9 tablet:grid-offset-1">
         <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6 light-links">
           <h1 class="sprint-hero-header">

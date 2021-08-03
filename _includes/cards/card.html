@@ -1,8 +1,9 @@
 {% assign card=include.content %}
 <div 
   class="card-container {{ include.utils }} bg-base-darkest"
-  style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img }});
+  style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img.src }});
           background-size: cover;">
+  {% include 1px-transparent.html alt=card.img.alt %}
   <div class="card-header">
     <h3 class="text-ls-1">
       <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}">

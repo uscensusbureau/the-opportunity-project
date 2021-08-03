@@ -23,7 +23,8 @@ event-announcement:
     - Grand Challenge
   cta: NOW LIVE
   img: 
-    - prize/top-grand-challenge-background-01.jpg  
+    src: prize/top-grand-challenge-background-01.jpg  
+    alt: Pointillism photo of a mountainside with evergreen trees
 
 timeline:
   - text: Prize Opens on Challenge.gov

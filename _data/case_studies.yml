@@ -4,8 +4,9 @@
   problem_statement: Opportunity Zones
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
   href: city-builder
-  img: photos/products/featured-products/city-builder.jpg
-  image-alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
+  img: 
+    src: photos/products/featured-products/city-builder.jpg
+    alt: Screenshot of the City Builder website, showing a map of St. Louis with information that there are 33 opportunity zones in St. Louis
   details: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
   description_new:
     Brings transparency to the Opportunity Zone ecosystem for investors, fund
@@ -27,8 +28,9 @@
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'https://sille.space/app_fema/'
-  img: photos/products/featured-products/sille.jpg
-  image-alt: Screenshot of the SILLE web application with a graph modal
+  img: 
+    src: photos/products/featured-products/sille.jpg
+    alt: Screenshot of the SILLE web application with a graph modal
   details: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure <br><br>
   description_new:
     'Block level structural risk product that encourages local stakeholders to
@@ -55,8 +57,9 @@
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
   link: 'https://icasapr.com/'
-  img: photos/products/featured-products/prados.jpg
-  image-alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
+  img: 
+    src: photos/products/featured-products/prados.jpg
+    alt: Mockup of the PRADOS (Puerto Rican Address Database Operations Support) tool on an iPad
   details: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
   description_new:
     Helps the municipalities and communities in Puerto Rico enhance their

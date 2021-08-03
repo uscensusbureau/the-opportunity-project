@@ -20,7 +20,6 @@ layout: default
           usa-media-block__background-image-portrait 
           margin-bottom-3">
           {% include cards/card.html content=case utils="small-header-card" %}
-
       </div>
     {% endfor %}
   </div>
@@ -70,7 +69,7 @@ layout: default
     {% for product in products %}
         
         {% assign imgSrc = "photos/products/" | append: product.image %}
-        {% assign imageAlt = product.title | append: " product screenshot" %}
+        {% assign imageAlt = product.image-alt %}
         {% assign problem_statements = "" | split: "," %}
         {% assign agencies = "" | split: "," %}
         {% for ps in product.problem_statement %}

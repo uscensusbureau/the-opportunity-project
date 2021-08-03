@@ -55,20 +55,26 @@ if (window.location.pathname.includes('showcase')) {
     if (params.get(PAGINATION_URL_PARAM)) {
       pageNum = params.get(PAGINATION_URL_PARAM) - 1
     }
-    displayInitialProducts(pageNum)
+    displayInitialProducts(pageNum, true)
   } else {
-    displayInitialProducts(0)
+    displayInitialProducts(0, false)
   }
 }
 
-function displayInitialProducts (pageNum) {
-  setTimeout(() => displayFilteredProducts(pageNum), 200)
+function displayInitialProducts (pageNum, scrollIntoView = true) {
+  const display = () => {
+    displayFilteredProducts(pageNum)
+    if (scrollIntoView) {
+      document.getElementById('all-products').scrollIntoView()
+    }
+  }
 
-  document.getElementById('all-products').scrollIntoView()
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', display)
+  } else {
+    display()
+  }
 }
-// } else {
-//   displayFilteredProducts(0)
-// }
 
 // search
 if (prodSearchForm) {
@@ -201,7 +207,6 @@ function displayFilteredProducts (pageNum = 0) {
       filteredProducts.push(card)
     }
   }
-
   paginator.setTotalItems(filteredProducts.length)
   paginator.setCurrPage(pageNum)
   paginateProducts(pageNum)
@@ -354,13 +359,9 @@ const closeModal = () => {
 $('.close').on('click', closeModal)
 
 $('.data-card-group').on('click', function (e) {
-  console.log('clicked')
   if (e.target) {
-    console.log('clicked')
     const closestCard = e.target.closest('li')
     if (closestCard) {
-      console.log(closestCard)
-
       for (const topicCard of document.getElementsByClassName('dkh__data-topic')) {
         topicCard.classList.remove('selected')
       }

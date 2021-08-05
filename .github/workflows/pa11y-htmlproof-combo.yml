@@ -23,8 +23,8 @@ jobs:
       - name: Install pa11y-ci dependencies.
         run: npm install
 
-      - name: Compile with gulp
-        run: npx gulp build
+      - name: Compile sass with gulp
+        run: npx gulp sass
 
       - name: Start up jekyll server.
         run: npm run start-detached

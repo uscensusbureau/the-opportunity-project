@@ -4,7 +4,7 @@ const csso = require("postcss-csso");
 const dutil = require("./doc-util");
 const gulp = require("gulp");
 const postcss = require("gulp-postcss");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const sourcemaps = require("gulp-sourcemaps");
 const task = "sass";
 

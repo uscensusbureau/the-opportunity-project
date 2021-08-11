@@ -30,7 +30,7 @@ timeline:
   - text: Prize Opens on Challenge.gov
     subtitle:  July 1st, 2021
     items:
-      - text: Info Session and Q&A – August 16, 3:30-4:30 pm ET
+      - text: Info Session and Q&A – August 23, 2-3 pm ET
       #   href: http://bit.ly/ODFGGCWebinar1
       - text: Data and Toolkits – September 9, 3:00-4:00 pm ET
       #   href: http://bit.ly/ODFGGCWebinar1

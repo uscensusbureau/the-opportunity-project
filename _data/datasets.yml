@@ -408,6 +408,26 @@
   ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-08-13T16:43:46.000Z'
+  airtable_id: rec4xMqeds9dcN8aQ
+  data_stewards:
+  - recEIDxytoLp6R5vj
+  description: Local measurements of relative sea level trends measured by tide gauges.
+    Meaurements account for the combination of global sea level rise and local vertical
+    land motion.
+  link: https://tidesandcurrents.noaa.gov/sltrends/sltrends.html
+  name: Sea Level Trends
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
+  tag:
+  - climate
 - airtable_createdTime: '2021-05-10T20:31:18.000Z'
   airtable_id: rec50WeyIscjo2w9L
   name: LOINC formats required by states
@@ -1051,6 +1071,26 @@
     and Prevention
   products:
   - recMyCXtD901elAkR
+- airtable_createdTime: '2021-08-13T16:36:01.000Z'
+  airtable_id: recCdi3hnYuSm7w3t
+  data_stewards:
+  - rec392HdqWBNiJk6Q
+  description: An integrated database of climate summaries from land surface stations
+    across the globe that have been subjected to a common suite of quality assurance
+    reviews.
+  link: https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn
+  name: Global Historical Climatology Network Data
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: NCEI Customer Support
+  tag:
+  - climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recChToOuBxW1cfUb
   name: North American Industry Classification (NACIS) codes; National Certifications
@@ -2330,6 +2370,25 @@
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-08-13T16:46:27.000Z'
+  airtable_id: recReiIGTrZawk2dm
+  data_stewards:
+  - recir68FPBwdpyXsl
+  description: Long-term change in global mean sea level from satellite altimeter
+    radar measurements
+  link: https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/
+  name: Global Sea Level Rise
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: NOAA STAR Contact Page
+  tag:
+  - climate
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recRfDxDUAsjtmTFX
   description: A cleaned, curated and integrated global plastics pollution dataset
@@ -2598,6 +2657,28 @@
   name: Earth Challenge Integrated Dataset
   products:
   - recJms1glRzSmKxtR
+- airtable_createdTime: '2021-08-13T16:51:55.000Z'
+  airtable_id: recT3xl4qnQWnBt95
+  data_stewards:
+  - recZxlHqXRkm0Ldn3
+  - recQiYmUbUChFqjdR
+  description: Six representative global mean sea level rise scenarios, based on the
+    most up-to-date scientific literature on global mean sea level projections, including
+    recent observational and modeling studies related to the potential for rapid ice
+    melt in Greenland and Antarctica.
+  link: https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf
+  name: Sea Level Future Scenarios
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Greg Dusek, Billy Sweet
+  tag:
+  - risk
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recT9E2tGLYcH0thL
   data_stewards:
@@ -3541,6 +3622,24 @@
   sprint:
   - recMpslqDTkD8bJoj
   stewards_text: Theresa Firestine
+- airtable_createdTime: '2021-08-13T16:35:36.000Z'
+  airtable_id: recfS2ACBvpRqKDib
+  data_stewards:
+  - rec392HdqWBNiJk6Q
+  description: Maps, graphs, and tabular climate data
+  link: https://www.ncdc.noaa.gov/cag/
+  name: NOAA Climate at a Glance
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: NCEI Customer Support
+  tag:
+  - climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recfZEYxDURxHp4hu
   name: Bureau of Labor Statistics
@@ -3738,6 +3837,27 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Scott Breen
+- airtable_createdTime: '2021-08-13T16:45:40.000Z'
+  airtable_id: recjKuqcqqDxhK7GY
+  data_stewards:
+  - recEIDxytoLp6R5vj
+  description: Documentation of changes in high-tide flooding patterns from the previous
+    year at 97 NOAA tide gauges along the U.S. coast, and provides a flooding outlook
+    for these locations for the coming year, as well as projections for the next several
+    decades.
+  link: https://tidesandcurrents.noaa.gov/HighTideFlooding_AnnualOutlook.html
+  name: The State of High Tide Flooding and Annual Outlook
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
+  tag:
+  - climate
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
   airtable_id: recjjHhrKIfcmATHw
   description: Wide-ranging education access and equity data collected from our nation's

@@ -2,15 +2,29 @@
 layout: default
 ---
 
-{% assign allDatasets = site.data.datasets %}
 {% assign matchingSprint = site.data.sprints | where: "Name", page.sprint-name | first %}
-{% assign display-dataset = allDatasets | where_exp: "dataset", 
+
+{% assign display-datasets = site.data.datasets | where_exp: "dataset", 
   "dataset.sprint contains matchingSprint.airtable_id" %}
-{% assign problem_statements = "" | split: ',' %}
+{% assign filters = "" | split: ',' %}
 {% for ps in matchingSprint.problem_statements %}
   {% assign match = site.data.problem_statements | where: "airtable_id", ps | first %}
-  {% assign problem_statements = problem_statements | push: match %}
+  {% assign filters = filters | push: match %}
 {% endfor %}
+
+{% if page.problem-statement-name %}
+  {% assign matchingPS = site.data.problem_statements | where: "Name", page.problem-statement-name | first %}
+  {% assign display-datasets = display-datasets | where_exp: "dataset",
+    "dataset.problem_statements contains matchingPS.airtable_id" %}
+  {% assign filters = "" | split: ',' %}
+  {% for ps in display-datasets %}
+    {% for tag in ps.tag %}
+      {% assign filters = filters | push: tag %}
+    {% endfor %}
+  {% endfor %}
+  {% assign filters = filters | uniq %}
+  {{ filters | inspect }}
+{% endif %}
 
 {% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
@@ -24,7 +38,7 @@ layout: default
         </button>
       </form>
     </div>
-    {% include dch/dch__filters.html data=problem_statements %}
+    {% include dch/dch__filters.html data=filters %}
     <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
   </div>
 </section>
@@ -32,7 +46,7 @@ layout: default
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container">
     <ul class="usa-card-group">
-    {% for item in display-dataset %}
+    {% for item in display-datasets %}
       {% if item.link and item.hideFromSite != true %}
         {% include dch/dataset-card.html data=item %}
       {% endif %}

@@ -11,11 +11,11 @@
         </div>
       </li>
       {% for data in data-topics %}
-        {% assign filter = data.Name | slugify %}
+        {% assign filter = data.Name | slugify | default: data %}
         <li id="{{ filter }}" class="usa-card" name="productCard">
           <div class="usa-card__container dkh__data-topic">
             <header class="usa-card__header">
-              <p class="text-white font-sans-sm" value="{{ filter }}">{{ data.Name }}</p>
+              <p class="text-white font-sans-sm" value="{{ filter }}">{{ data.Name | default: filter }}</p>
             </header>
           </div>
         </li>

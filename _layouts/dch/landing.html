@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign data-kits = site.data.data-kits %}
+{% assign data-kits = site.datakits | sort: 'upcoming' | reverse %}
 <section class="bg-primary-vivid">
   <section class="usa-section usa-graphic-list grid-container">
     <div class="maxw-mobile-lg desktop:margin-bottom-4">
@@ -10,12 +10,12 @@ layout: default
         {{ page.title }}
       </h1>
       <p class="font-sans-2xs text-white">{{ page.organization }}</p>
-      <p class="font-sans-md text-white">{{ page.lead }}</p>
+      <p class="font-sans-md text-white">{{ page.lead | markdownify }}</p>
     </div>
   </section>
   <div class="data-kit  desktop:margin-left-9">
     <div class="grid-row grid-gap-6">
-      {% for kit in data-kits limit:4 %}
+      {% for kit in data-kits %}
       {% assign kit-id = kit.title | slugify %}
       <div class="desktop:grid-col-4 tablet:grid-col-6 data-kit__container">
         <div 
@@ -23,13 +23,17 @@ layout: default
           style="background-image: url('{{ kit.image | relative_url }}')"
         >
           {% include 1px-transparent.html alt=kit.image-alt %}
-          <a href="{{site.baseurl}}/{{kit.link}}">
-            <h2 class="z-200 usa-link" id="{{kit-id}}">{{kit.title}}</h2>
-          </a>
-            <p class="z-200">{{kit.description}}</p>
-            {% unless kit.upcoming %}
-              <img class="data-kit__arrow" src="{{site.baseurl}}/assets/img/icons/right-arrow.svg" alt="Right Arrow" />
-            {% endunless %}
+          {% if kit.upcoming %}
+            <h2 class="z-200 usa-link text-no-underline" id="{{kit-id}}">{{kit.title}}</h2>
+          {% else %}
+            <a href="{{ site.baseurl }}{{ kit.url }}">
+              <h2 class="z-200 usa-link" id="{{kit-id}}">{{kit.title}}</h2>
+            </a>
+          {% endif %}
+          <p class="z-200">{{kit.lead}}</p>
+          {% unless kit.upcoming %}
+            <img class="data-kit__arrow" src="{{site.baseurl}}/assets/img/icons/right-arrow.svg" alt="Right Arrow" />
+          {% endunless %}
         </div>
         <div class="data-kit__bg">
           {% if kit.upcoming %}
@@ -39,7 +43,7 @@ layout: default
           {% else %}
           <div class="data-kit__stats">
             <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt="Icon for number of datasets"/>
-            {% assign sprint = site.data.sprints | where: "Name", kit.sprint | first %}
+            {% assign sprint = site.data.sprints | where: "Name", kit.sprint-name | first %}
             {% assign data = site.data.datasets | where: "sprint", sprint.airtable_id %}
             {% assign data = data | where_exp: "item", "item.link != empty and item.link != nil" %}
             <p>{{ data | size }}</p>

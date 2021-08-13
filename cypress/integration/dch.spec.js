@@ -47,7 +47,7 @@ describe('Content tests', () => {
     }
   })
 
-  it.only('shows datasets belonging to multiple sprints in both kits', () => {
+  it('shows datasets belonging to multiple sprints in both kits', () => {
     cy.visit(base + '/workforce')
     cy.get('#data-set-card-location-of-energy-infrastructure')
     cy.visit(base + '/built-environment')
@@ -57,7 +57,7 @@ describe('Content tests', () => {
 
 describe.only('Filtering tests', () => {
 
-  it('filters by PS on natural env page', () => {
+  it.only('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
   })
   it('filters by PS on workforce page', () => {

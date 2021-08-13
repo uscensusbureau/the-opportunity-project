@@ -8,7 +8,6 @@
 
 <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
   <div class="usa-card__container datasets__card bg-primary-darker usa-dark-background">
-    <!-- <img class="external-link" src="{{site.baseurl}}/assets/img/icons/yellow-external-link.png" alt="External link"/> -->
     <header class="usa-card__header">
       <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">
         {% unless item.hasMultipleLinks %}
@@ -20,8 +19,12 @@
           {{ item.name }}
         {% endunless %}
       </h2>
+      {% assign filters = ps %}
+      {% if page.problem-statement-name %}
+        {% assign filters = item.tag %}
+      {% endif %}
       <h3 class="pc-inactive dataset__ps">
-        {% for statement in ps %}{{ statement }} {% endfor %}
+        {% for filter in filters %}{{ filter }} {% endfor %}
       </h3>
       <p class="dataset__org font-mono-xs text-white">by {{ item.organization_text | upcase }}</p>
     </header>
@@ -45,12 +48,23 @@
         <ul class="padding-left-3">
           {% for steward_id in item.data_stewards %}
             {% assign steward = site.data.people | where: "airtable_id", steward_id | first %}
+            {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}
+            {% assign isContactPage = false %}
+            {% if firstFourEmailChars == "http" %}
+              {% assign isContactPage = true %}
+            {% endif %}
             <li>
-              {{ steward.name | strip }}, 
-              <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" 
-              class="usa-link">
-                {{ steward.email }}
-              </a>
+              {% if isContactPage %}
+                <a href="{{ steward.email }}" class="usa-link">
+                  {{ steward.name | strip }}
+                </a>
+              {% else %}
+                {{ steward.name | strip }}, 
+                <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" 
+                class="usa-link">
+                  {{ steward.email }}
+                </a>
+              {% endif %}
             </li>
           {% endfor %}
         </ul>

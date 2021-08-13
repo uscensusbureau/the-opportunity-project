@@ -1,3 +1,17 @@
+- title: Federal COVID-19 Spending
+  image: /assets/img/data-kits/covid.jpg
+  image-alt: 'Sticky notes on a window with the words &quot;Sorry - Closed. COVID-19&quot;'
+  link: data/covid-19
+  description: Economic, demographic, and geographic data on where and how money was dispersed during COVID-19
+  upcoming: true
+
+- title: Climate-Smart Communities
+  image: /assets/img/data-kits/covid.jpg
+  image-alt: 'Sticky notes on a window with the words &quot;Sorry - Closed. COVID-19&quot;'
+  link: data/covid-19
+  description: Sea-level rise, climate change, and risk-preparedness
+  upcoming: true
+
 - title: Workforce Challenges
   image: /assets/img/data-kits/workforce.png
   image-alt: Workers in construction vests and hard hats at an open construction site

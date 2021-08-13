@@ -374,8 +374,9 @@ $('.data-card-group').on('click', function (e) {
 
       const datasets = document.getElementsByClassName('data-set-card')
       for (const card of datasets) {
-        const dataCategory = card.getElementsByTagName('h3')[0].innerText
-        const dataCategoryArray = dataCategory.toLowerCase().replace('(', '').replace(')', '').split(' ')
+        const dataCategory = card.getElementsByTagName('h3')[0].innerHTML
+        const dataCategoryArray = dataCategory.toLowerCase().replaceAll('\n', '').trim().replaceAll('(', '').replaceAll(')', '').split(' ')
+        // console.log({ dataCardId, dataCategory, dataCategoryArray })
         if (dataCategoryArray.includes(dataCardId) || dataCardId === 'all') {
           card.classList.remove('pc-inactive')
         } else {

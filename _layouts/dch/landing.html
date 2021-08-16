@@ -17,7 +17,7 @@ layout: default
     <div class="grid-row grid-gap-6">
       {% for kit in data-kits %}
       {% assign kit-id = kit.title | slugify %}
-      <div class="desktop:grid-col-4 tablet:grid-col-6 data-kit__container">
+      <div class="tablet:grid-col-6 desktop:grid-col-4 data-kit__container">
         <div 
           class="data-kit__card z-100 {% unless kit.upcoming %}data-kit__active{% endunless %}" 
           style="background-image: url('{{ kit.image | relative_url }}')"

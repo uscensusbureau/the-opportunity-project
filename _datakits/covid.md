@@ -5,6 +5,7 @@ layout: dch/search
 class: covid
 
 sprint-name: ASA Data Challenge Expo
+date: 2020-06-01
 
 lead: Datasets selected as part of the The American Statistical Association Annual Data Challenge Expo which will continue to be updated.
   # - p: The Opportunity Project curated these data sets mainly from the Census Bureau as part of the

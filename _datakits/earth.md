@@ -5,6 +5,7 @@ layout: dch/search
 class: datakit
 
 sprint-name: 'Natural Environment'
+date: 2020-06-01
 
 lead: Pollution, agriculture, transportation emissions, and recycling <br><br>
 image: /assets/img/photos/sprints/2020-natural-sprint.jpg

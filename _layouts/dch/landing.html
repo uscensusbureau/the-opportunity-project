@@ -2,9 +2,12 @@
 layout: default
 ---
 
-{% assign data-kits = site.datakits | sort: 'upcoming' | reverse %}
+{% comment %}
+  {% assign data-kits = site.datakits | sort: 'upcoming' | reverse %}
+{% endcomment %}
+{% assign data-kits = site.datakits | where_exp: "kit", "kit.upcoming != true" | sort: "date" | reverse %}
 <section class="bg-primary-vivid usa-section--dark">
-  <div class="data-kit desktop:margin-left-9">
+  <div class="data-kit margin-y-6 desktop:margin-left-9">
       <h1 class="hero--heading">
         {{ page.title }}
       </h1>

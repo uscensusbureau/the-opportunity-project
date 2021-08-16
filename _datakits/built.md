@@ -5,6 +5,7 @@ layout: dch/search
 class: datakit
 
 sprint-name: Built Environment
+date: 2020-06-01
 
 lead: Datasets on economic self-sufficiency, resources for refugees, rural economic development, and disaster spending.
 

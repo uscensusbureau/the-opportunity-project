@@ -6,6 +6,7 @@ class: datakit
 
 sprint-name: The World Post-COVID-19
 problem-statement-name: Tackling the Climate Crisis through Climate-Smart Communities
+date: 2021-08-01
 
 lead: Economic, demographic, and geographic data on where and how money was dispersed during COVID-19
 

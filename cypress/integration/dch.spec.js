@@ -3,7 +3,8 @@ const pages = [
   '/natural-environment',
   '/workforce',
   '/built-environment',
-  '/covid-19'
+  '/covid-19',
+  '/climate-smart'
 ]
 
 function testPSFilters (url) {
@@ -65,6 +66,9 @@ describe.only('Filtering tests', () => {
   })
   it('filters by PS on built env page', () => {
     testPSFilters(pages[2])
+  })
+  it('filters by tag on climate-smart page', () => {
+    testPSFilters(pages[4])
   })
   // it('filters by PS on covid page', () => {
   //   testPSFilters(pages[3])

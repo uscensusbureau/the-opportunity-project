@@ -30,15 +30,15 @@ timeline:
   - text: Prize Opens on Challenge.gov
     subtitle:  July 1st, 2021
     items:
-      - text: Info Session and Q&A – August 23, 2:00-3:00 pm ET
-      #   href: http://bit.ly/ODFGGCWebinar1
-      - text: Data and Toolkits – September 9, 3:00-4:00 pm ET
-      #   href: http://bit.ly/ODFGGCWebinar1
+      - text: General Information Session – August 23, 2:00-3:00 pm ET
+        href: http://go.usa.gov/x6fXF
+      - text: Open Data Session + Information Session – September 9, 3:00-4:00 pm ET
+        href: http://go.usa.gov/x6fXF
   - text: Prize Submission Opens
     subtitle: September 13th, 2021
     items:
     - text: Final Info and Q&A – Oct 6, 5:00-6:00 pm ET
-      # href: http://bit.ly/ODFGGCWebinar1
+      href: http://go.usa.gov/x6fXF
   - text: Prize Submission Deadline
     subtitle: October 18th, 2021
   - text: Judging Process

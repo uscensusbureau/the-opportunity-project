@@ -394,7 +394,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Randy Warren
   tag:
-  - Imagery
+  - Imagery + Base Maps
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: rec4BUUNSGAm5OC3O
   name: The Quarterly Census of Employment and Wages (QCEW)
@@ -433,7 +433,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   tag:
-  - Imagery
+  - Imagery + Base Maps
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec4haQmtERVpiWlW
   name: Department of Health and Human Services; City of Philadelphia; Office of Management
@@ -939,7 +939,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Randy Warren
   tag:
-  - Topography/Base Map
+  - Imagery + Base Maps
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9RadotsGHujjAg
   description: Provides a map of beach litter data collection events organised by
@@ -999,7 +999,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   tag:
-  - Socioeconomic
+  - Social Vulnerability
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9uesU1D98puAio
   data_stewards:
@@ -1313,7 +1313,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   tag:
-  - Imagery
+  - Imagery + Base Maps
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recElbo8uA6d7Me48
   data_stewards:
@@ -1887,7 +1887,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Patrick Jurgens
   tag:
-  - Base map
+  - Imagery + Base Maps
 - airtable_createdTime: '2020-02-10T17:32:22.000Z'
   airtable_id: recLQhRQGBSo9KYnC
   name: Federal Procurement Data System (FPDS)
@@ -2182,7 +2182,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Gita Urban-Mathieux
   tag:
-  - Topography/Base Map
+  - Imagery + Base Maps
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recNeJ0fyYPblqgiM
   name: '''Earth Challenge Integrated Data: Plastic Pollution (MLW'
@@ -2918,7 +2918,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   tag:
-  - Socioeconomic
+  - Social Vulnerability
 - airtable_createdTime: '2021-08-13T16:51:55.000Z'
   airtable_id: recT3xl4qnQWnBt95
   data_stewards:
@@ -3877,7 +3877,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Randy Warren
   tag:
-  - Imagery
+  - Imagery + Base Maps
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: receH380BCLphsAfz
   description: The Department of Homeland Security's Performance and Accountability
@@ -4195,7 +4195,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Randy Warren
   tag:
-  - Socioeconomic
+  - Social Vulnerability
 - airtable_createdTime: '2020-02-10T17:42:53.000Z'
   airtable_id: recid1lR45HSi9jvV
   name: USDA NIFA Data Gateway
@@ -4362,7 +4362,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   tag:
-  - Socioeconomic
+  - Social Vulnerability
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reckaL6tZKjQc63Xb
   name: Census ACS
@@ -4719,7 +4719,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Bethany DeSalvo
   tag:
-  - Vulnerability
+  - Social Vulnerability
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recogXe0BiuwGNVQX
   data_stewards:
@@ -4806,7 +4806,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   tag:
-  - Socioeconomic
+  - Social Vulnerability
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recqMZ6EvgVdROZb5
   data_stewards:
@@ -5111,7 +5111,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Danielle Sharpe
   tag:
-  - Vulnerability
+  - Social Vulnerability
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recu1XlVkDyajmO6C
   name: 'Earth Challenge Integrated Data: Plastic Pollution (MLW'

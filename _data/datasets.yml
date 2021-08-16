@@ -229,6 +229,19 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: rec2BYhBrnlYxP2TP
+  description: Water use by sector from 2015
+  link: https://pubs.er.usgs.gov/publication/cir1441
+  name: Estimated water use in 2015
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec2Lyt7Ex3VygOzr
   data_stewards:
@@ -363,6 +376,25 @@
   ps_text: Using Geospatial Data to Help People Prepare for Disasters
   sprint:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: rec3rzhgabXlvzBXp
+  data_stewards:
+  - recMZZk0gmfw8XK6P
+  description: Coastal hazard, weather, climate, marine habitat, water quality, and
+    infrastructure data for coastal management needs.
+  link: https://coast.noaa.gov/digitalcoast/data/
+  name: Digital Coast Data
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Randy Warren
+  tag:
+  - Imagery
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: rec4BUUNSGAm5OC3O
   name: The Quarterly Census of Employment and Wages (QCEW)
@@ -385,6 +417,23 @@
   - recMpslqDTkD8bJoj
   - rec4Y10emS9DtmBpT
   stewards_text: Andy Hait
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: rec4cE01JDCLBGIKn
+  description: '30 meter raster geospatial datasetavailable for the contiguous United
+    States, coastal Alaska, Hawaii, and Puerto Rico. '
+  link: https://www.mrlc.gov/data?f%5B0%5D=category%3Atree%20canopy
+  name: Tree Canopy
+  organization_text: U.S. Forest Service, Multi-Resolution Land Characteristics Consortium
+  organizations:
+  - recbLwYNZI63gDeLc
+  - recVknKqal8oDRtBt
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Imagery
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec4haQmtERVpiWlW
   name: Department of Health and Human Services; City of Philadelphia; Office of Management
@@ -427,7 +476,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
-  - climate
+  - Climate
 - airtable_createdTime: '2021-05-10T20:31:18.000Z'
   airtable_id: rec50WeyIscjo2w9L
   name: LOINC formats required by states
@@ -753,6 +802,27 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Metis Meloche, Anne Bowser
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: rec7nUX62Y5OEC9cC
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: Conducted every oddly numbered year, most recent in 2019, consisting
+    of the 10-30 largest MSAs on variables including the physical condition of homes
+    and neighborhoods, costs of financing and maintaining homes, and demographics
+  link: https://www.census.gov/programs-surveys/ahs.html
+  name: American Housing Survey
+  organization_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  - recRLxRGfiWtHnmAs
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Amanda Klimek
+  tag:
+  - Infrastructure
 - airtable_createdTime: '2020-02-05T22:06:22.000Z'
   airtable_id: rec7x7dVjKZilg4sX
   data_stewards:
@@ -851,6 +921,25 @@
   ps_text: Helping States Develop Education Report Cards
   sprint:
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: rec9QqIfRf1ZK8EX4
+  data_stewards:
+  - recMZZk0gmfw8XK6P
+  description: A joint BOEM and NOAA initiative providing authoritative data to meet
+    the needs of the offshore energy and marine planning communities.
+  link: https://marinecadastre.gov/data/
+  name: 'Offshore Energy and Marine Planning (Marine Cadastre) '
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Randy Warren
+  tag:
+  - Topography/Base Map
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9RadotsGHujjAg
   description: Provides a map of beach litter data collection events organised by
@@ -896,6 +985,21 @@
   sprint:
   - rec5A5h9cq07ijoPk
   stewards_text: Gina Walejko
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: rec9nkq6q1u54b1i0
+  description: Federal program that assists families with energy costs
+  link: https://www.acf.hhs.gov/ocs/low-income-home-energy-assistance-program-liheap
+  name: Low Income Home Energy Assistance Program
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Socioeconomic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9uesU1D98puAio
   data_stewards:
@@ -929,6 +1033,25 @@
   name: Grants.gov database
   products:
   - rec0XnfpVCBwdQJAg
+- airtable_createdTime: '2021-08-13T21:21:20.000Z'
+  airtable_id: recAOMJI7c7Q2dSOg
+  data_stewards:
+  - recMQLLKGxov0pic1
+  description: "Historical modeled (1950\u20132005) and projected (2006\u20132100)\
+    \ CMIP5 results for North America for two scenarios, downscaled to U.S. counties."
+  link: https://crt-climate-explorer.nemac.org/
+  name: LOCA Downscaled Climate Projections
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: U.S. Climate Resilience Toolkit
+  tag:
+  - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recAV7kI7sdWS5dBY
   name: US Census Bureau; Local emergency response data
@@ -1090,7 +1213,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: NCEI Customer Support
   tag:
-  - climate
+  - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recChToOuBxW1cfUb
   name: North American Industry Classification (NACIS) codes; National Certifications
@@ -1172,6 +1295,25 @@
   ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: recElOFVrnmvpgqSX
+  description: "Global population distribution data. At approximately 1 km (30\u2033\
+    \ X 30\u2033) spatial resolution, it represents an ambient population (average\
+    \ over 24 hours) distribution. Refreshed annually with new versions released in\
+    \ Q3 with latest in 2019"
+  link: https://landscan.ornl.gov/
+  name: 'Landscan: best available demographic (Census) and geographic data, remote
+    sensing, and imagery analysis techniques'
+  organization_text: U.S. Department of Energy
+  organizations:
+  - recepxMBIQcZROaVw
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Imagery
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recElbo8uA6d7Me48
   data_stewards:
@@ -1725,6 +1867,27 @@
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: recLOPJDbqlg8HfQi
+  data_stewards:
+  - rec8bfHaA7zEPxfYN
+  description: Released annually, most recently February 2021 covering 2020 data.
+    Provides an extract of selected geographic and cartographic information, as well
+    as information for legal boundaries and redistricting, which can be broken down
+    by zip code, district, and major MSAs/cities
+  link: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+  name: TIGER Shapefiles, U.S. Census Bureau
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Patrick Jurgens
+  tag:
+  - Base map
 - airtable_createdTime: '2020-02-10T17:32:22.000Z'
   airtable_id: recLQhRQGBSo9KYnC
   name: Federal Procurement Data System (FPDS)
@@ -1924,6 +2087,27 @@
   name: BLS Quarterly Census of Employment and Wages
   products:
   - rec8PdH7hI4omQshl
+- airtable_createdTime: '2021-08-13T21:20:19.000Z'
+  airtable_id: recN3HjMp59Lo7u2T
+  data_stewards:
+  - rec392HdqWBNiJk6Q
+  description: Storms and other significant weather phenomena having sufficient intensity
+    to cause loss of life, injuries, significant property damage, and/or disruption
+    to commerce; Rare, unusual, weather phenomena that generate media attention; and
+    other significant meteorological events.
+  link: https://www.ncdc.noaa.gov/stormevents/
+  name: Storm Events Database
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: NCEI Customer Support
+  tag:
+  - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recN6mVyGGHKAcZPX
   name: ensus block data; Open EU Sentinel 1 InSAR
@@ -1979,6 +2163,26 @@
   name: Public Schools
   products:
   - reciAHM7OE2uo9JTi
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: recNb25vkXc4BhKAB
+  data_stewards:
+  - recdtiP6Z2YRMqQNv
+  description: The National Map is a suite of products and services that provide access
+    to base geospatial information to describe the landscape of the United States
+    and its territories. Includes the National Structures Dataset
+  link: https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map
+  name: The National Map
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Gita Urban-Mathieux
+  tag:
+  - Topography/Base Map
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recNeJ0fyYPblqgiM
   name: '''Earth Challenge Integrated Data: Plastic Pollution (MLW'
@@ -2023,6 +2227,28 @@
   ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-08-13T21:22:32.000Z'
+  airtable_id: recOLU1SULBxJ5d5S
+  data_stewards:
+  - rec08TwVapPsbmVxv
+  description: RCC-ACIS provides a system architecture to manage the complex flow
+    of climate information from data collectors to end users of climate information.
+    Accessed via a programming interface, the system delivers operational information
+    derived from historical archives and near real-time climate data. ACIS data are
+    primarily used for the generation of operational climate products.
+  link: https://www.rcc-acis.org/
+  name: RCC-ACIS (Regional Climate Centers - Applied Climate Information System)
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Select a Regional Climate Center
+  tag:
+  - Climate
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recOOfo569jN44oeT
   data_stewards:
@@ -2225,6 +2451,26 @@
   name: TomTom Traffic API
   products:
   - recyl8q9tZWnPoQQt
+- airtable_createdTime: '2021-08-13T21:17:05.000Z'
+  airtable_id: recQBVqimINLrCmoE
+  data_stewards:
+  - recCZ5sBL2w3bJLMR
+  description: Provides a worst case snapshot for a particular storm category under
+    "perfect" storm conditions. Each MOM considers combinations of forward speed,
+    trajectory, and initial tide leve
+  link: https://www.nhc.noaa.gov/surge/momOverview.php
+  name: Inundation from Storm Surge
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Storm Surge FAQ
+  tag:
+  - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recQIsfo0ssGtZeEs
   name: FCC Form 477
@@ -2388,7 +2634,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: NOAA STAR Contact Page
   tag:
-  - climate
+  - Climate
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recRfDxDUAsjtmTFX
   description: A cleaned, curated and integrated global plastics pollution dataset
@@ -2657,6 +2903,22 @@
   name: Earth Challenge Integrated Dataset
   products:
   - recJms1glRzSmKxtR
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: recT2Oy9285l5fHLg
+  description: People are unemployed if they do not have a job, have actively looked
+    for work in the prior 4 weeks, and are currently available for work.
+  link: https://www.bls.gov/cps/lfcharacteristics.htm#unemp
+  name: Unemployment data
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Socioeconomic
 - airtable_createdTime: '2021-08-13T16:51:55.000Z'
   airtable_id: recT3xl4qnQWnBt95
   data_stewards:
@@ -2678,7 +2940,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Greg Dusek, Billy Sweet
   tag:
-  - risk
+  - Risk
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recT9E2tGLYcH0thL
   data_stewards:
@@ -2700,6 +2962,25 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Metis Meloche, Anne Bowser
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: recT9Gbguz7W0PKUD
+  data_stewards:
+  - recNDEkd12iDTLJQb
+  description: Maps and information that encourage individuals, organizations and
+    communities to take proactive steps to reducing flood risk
+  link: https://www.fema.gov/flood-maps/tools-resources/risk-map
+  name: Risk Maps and Floodplains
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: FEMA Contacts
+  tag:
+  - Risk
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recTCoN4IMaSTrDbs
   data_stewards:
@@ -2856,6 +3137,24 @@
   ps_text: Entrepreneurship
   sprint:
   - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-08-13T21:19:45.000Z'
+  airtable_id: recUkeL0BLekZM3qe
+  data_stewards:
+  - rec392HdqWBNiJk6Q
+  description: Time series graphs and information to put current drought into context
+  link: https://www.ncdc.noaa.gov/temp-and-precip/drought/historical-palmers/
+  name: Historical drought maps
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: NCEI Customer Support
+  tag:
+  - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recVDbntbXKOMgFQg
   name: Department of Housing and Urban Development
@@ -2965,6 +3264,25 @@
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-08-13T21:25:55.000Z'
+  airtable_id: recWvvkOzpUmgtflW
+  data_stewards:
+  - recdtiP6Z2YRMqQNv
+  description: Surface-water, groundwater, water-quality, and water-use data collected
+    at approximately 1.9 million sites across all 50 states.
+  link: https://waterdata.usgs.gov/nwis/rt
+  name: ' USGS Current Water Data for the Nation'
+  organization_text: U.S. Geological Survey
+  organizations:
+  - recAiwIuDDDxpNvUR
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Gita Urban-Mathieux
+  tag:
+  - Climate
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recWxsfYyUbWPLhVp
   description: Shoreline marine debris surveys completed by partner organizations
@@ -3368,6 +3686,24 @@
   ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: recclTn1lOeyXPczZ
+  description: Univ. of Wisconsin SILVIS Lab and USDA Forest Service data showing
+    Intermix WUI (where housing and vegetation intermingle) and interface WUI (areas
+    with housing in the vicinity of contiguous wildland vegetation)
+  link: http://silvis.forest.wisc.edu/data/wui-change/
+  name: Wildland-Urban Interface Areas
+  organization_text: U.S. Department of Agriculture, SILVIS LAB
+  organizations:
+  - recRKu6t2inmGXXce
+  - recPAd21zCWlQqnrZ
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Climate
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: reccssVAgg4X2VfD1
   description: Provides selected sources for tracking COVID-19 relief funding provided
@@ -3473,6 +3809,23 @@
   sprint:
   - rec5A5h9cq07ijoPk
   stewards_text: Suzanne McArdle
+- airtable_createdTime: '2021-08-13T21:45:02.000Z'
+  airtable_id: rece3FIEh33mW0zDF
+  data_stewards:
+  - recaTb3X7BFgLNXZw
+  - recDMs9ZZKatRJ6fX
+  description: Demographic and socio-economic data from the 2020 Census
+  link: https://www.census.gov/data.html
+  name: Census Tract Maps
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Joshua Coutts, Bryce Davenport
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rece8G25DNqYv7wRZ
   data_stewards:
@@ -3506,6 +3859,25 @@
   ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: receBN5BpEnen4rNP
+  data_stewards:
+  - recMZZk0gmfw8XK6P
+  description: Data viewer lets users earch for and download elevation (lidar), imagery,
+    and land cover data for the coastal U.S. and its territories.
+  link: https://coast.noaa.gov/dataviewer/#/
+  name: Lidar, imagery, and land cover data for coastal zones and Great Lakes
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Randy Warren
+  tag:
+  - Imagery
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: receH380BCLphsAfz
   description: The Department of Homeland Security's Performance and Accountability
@@ -3639,7 +4011,7 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: NCEI Customer Support
   tag:
-  - climate
+  - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recfZEYxDURxHp4hu
   name: Bureau of Labor Statistics
@@ -3720,6 +4092,26 @@
   ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-08-13T21:31:28.000Z'
+  airtable_id: rechGYFvUSJAfuhLH
+  data_stewards:
+  - recMZZk0gmfw8XK6P
+  description: The Sea Level Rise Viewer lets users visualize community-level impacts
+    from coastal flooding or sea level rise up to 10 feet above average high tides.
+    Data are also available as MapServices.
+  link: https://coast.noaa.gov/digitalcoast/tools/slr.html
+  name: Digital Coast - Sea Level Rise
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Randy Warren
+  tag:
+  - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rechcGpzcdlCdjfGj
   name: HUD Picture of Subsidized Households
@@ -3783,6 +4175,27 @@
   sprint:
   - rec4Y10emS9DtmBpT
   stewards_text: Andy Hait
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: recibPLUri64ROeel
+  data_stewards:
+  - recMZZk0gmfw8XK6P
+  description: "Coastal and ocean resources are productive drivers for the nation\u2019\
+    s economy. NOAA's Digital Coast provides the tools and data sets used to quantify\
+    \ these impacts; communities use this information to make informed decisions about\
+    \ the future."
+  link: https://coast.noaa.gov/digitalcoast/topics/economy.html
+  name: Coastal and Ocean Economy Data
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Randy Warren
+  tag:
+  - Socioeconomic
 - airtable_createdTime: '2020-02-10T17:42:53.000Z'
   airtable_id: recid1lR45HSi9jvV
   name: USDA NIFA Data Gateway
@@ -3857,7 +4270,23 @@
   - recjkCdpt4YKEx7Ae
   stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
-  - climate
+  - Climate
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: recjS8XDL8j8Ni4MR
+  description: Mapping tool based on nationally consistent data and an approach that
+    combines environmental and demographic indicators in maps and reports.
+  link: https://www.epa.gov/ejscreen
+  name: EPA Environmental Justiice Screening tool
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Risk
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
   airtable_id: recjjHhrKIfcmATHw
   description: Wide-ranging education access and equity data collected from our nation's
@@ -3919,6 +4348,21 @@
   ps_text: Refugees
   sprint:
   - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: reckEmdSxvKwdtQzQ
+  description: Locations where folks can use SNAP benefits
+  link: https://www.fns.usda.gov/snap/retailer
+  name: SNAP Retailers
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Socioeconomic
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reckaL6tZKjQc63Xb
   name: Census ACS
@@ -3933,6 +4377,24 @@
   name: Census Quarterly Workforce Indicators
   products:
   - reca9CUrcr39DStIc
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: reckylgluwHcF9Rz3
+  data_stewards:
+  - rec0aGJ5QGJLkM0Pg
+  - recEZqkoFDkhvGgwM
+  - recv3umaNZat8xdhG
+  description: This query provides ozone and PM2.5 data from AirNow for recent days
+  link: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
+  name: Outdoor Air Quality Data
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Phil Dickerson, John White, Rob Wilderman
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reckz9HKYIR6fbmIz
   name: Census Bureau American Community Survey; Census Barriers
@@ -4239,6 +4701,25 @@
   - recbhMlc1WZWXNte0
   - rec4Y10emS9DtmBpT
   stewards_text: Sarah Hay , Tara Lawley
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: recoT5jeogid79NbG
+  data_stewards:
+  - recHQC1hU05Sw7kLj
+  description: Community resilience for each county and in some areas by neighbood,
+    most recent data gathered from 2019 ACS
+  link: https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html
+  name: Community Resilience Estimates
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Bethany DeSalvo
+  tag:
+  - Vulnerability
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recogXe0BiuwGNVQX
   data_stewards:
@@ -4310,6 +4791,22 @@
   name: Census Bureau Response Rates; Low Broadband Access; Barriers
   products:
   - recSXynrxBTKXTh63
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: recqJZI8IiwSamfgc
+  description: Supplemental Nutrition Assistance Program statistics on participation
+    and costs by month
+  link: https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap
+  name: SNAP Utilization + Expenditures
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Socioeconomic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recqMZ6EvgVdROZb5
   data_stewards:
@@ -4595,6 +5092,26 @@
   ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: rectromRwie5gWpO4
+  data_stewards:
+  - recz3bV45yQZIbp1X
+  description: This index uses 15 U.S. census variables to identify communities that
+    may need support before, during, or after disasters. An overall index and 4 themes
+    to consider elements of social vulnerability at the census tract level.
+  link: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html
+  name: Social Vulnerability Index
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Danielle Sharpe
+  tag:
+  - Vulnerability
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recu1XlVkDyajmO6C
   name: 'Earth Challenge Integrated Data: Plastic Pollution (MLW'
@@ -4657,6 +5174,24 @@
   - rec4Y10emS9DtmBpT
   - rec4Y10emS9DtmBpT
   stewards_text: Andy Hait
+- airtable_createdTime: '2021-08-13T21:18:21.000Z'
+  airtable_id: recuTx8mZcxKwIin6
+  data_stewards:
+  - rec5ZkJ6H0Bs2wNeW
+  description: Current and historical conditions and impacts from drought
+  link: https://www.drought.gov/
+  name: Drought.gov Data & Maps
+  organization_text: National Oceanic and Atmospheric Administration
+  organizations:
+  - recFaEqDe9K2rgPbi
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  stewards_text: Technical Questions
+  tag:
+  - Climate
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recuaFJHJiz4omT7f
   description: Top 10 Most Common Plastics found by county sourced from the Earth
@@ -4880,6 +5415,22 @@
   name: U.S. Forest Service environmental stewardship data
   products:
   - recWRZvsJGQgPYlDn
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: recxvqZW3VhfT4Wyh
+  description: 'A key set of indicators related to the causes and effects of climate
+    change. '
+  link: https://www.epa.gov/climate-indicators
+  name: EPA Climate Change Indicators
+  organization_text: U.S. Environmental Protection Agency
+  organizations:
+  - recDJthxFdnCkkHXX
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Climate
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recy3X20vb1Mnd81N
   data_stewards:
@@ -4915,11 +5466,43 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Patrick Zhang
+- airtable_createdTime: '2021-08-13T21:31:30.000Z'
+  airtable_id: recz9IrLuVHuHLZXT
+  description: Mapping application from FEMA that identifies communities most at risk
+    to 18 natural hazards. Maps show natural hazard risk metrics and expected annual
+    losses, social vulnerabilities, and community resilience.
+  link: https://www.fema.gov/flood-maps/products-tools/national-risk-index
+  name: National Risk Index
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reczIQDcfuxmJblbG
   name: HHS Poverty Guidelines
   products:
   - recyKI9exBfBtz1hr
+- airtable_createdTime: '2021-08-13T21:45:05.000Z'
+  airtable_id: reczKCI5Px1tghxf7
+  description: Map displaying where broadband access may not exist
+  link: https://broadbandmap.fcc.gov/#/
+  name: Broadband Access
+  organization_text: Federal Communications Commission
+  organizations:
+  - recUpuoU27MFAPSsp
+  problem_statements:
+  - recbjIUzjzLZ5KmJS
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tag:
+  - Infrastructure
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: reczNmXzMkfOvDXIf
   description: Data on facilities-based broadband providers who are required to file

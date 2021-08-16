@@ -9,5 +9,5 @@ problem-statement-name: Tackling the Climate Crisis through Climate-Smart Commun
 
 lead: Sea-level rise, climate change, and risk-preparedness
 
-upcoming: true
+upcoming: false
 ---

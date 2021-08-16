@@ -2509,6 +2509,10 @@ code {
   }
 }
 
+.page-curated-datasets {
+  @include u-bg('primary-vivid');
+}
+
 .hero {
   @include at-media("tablet-lg") {
     background-image: url("#{$site-image-path}/home/hero.webp");

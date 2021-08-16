@@ -22,6 +22,7 @@ layout: default
       {% assign filters = filters | push: tag %}
     {% endfor %}
   {% endfor %}
+  {{ filters }}
   {% assign filters = filters | uniq %}
   {{ filters | inspect }}
 {% endif %}

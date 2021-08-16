@@ -57,7 +57,7 @@ describe('Content tests', () => {
 
 describe.only('Filtering tests', () => {
 
-  it.only('filters by PS on natural env page', () => {
+  it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
   })
   it('filters by PS on workforce page', () => {

@@ -14,7 +14,6 @@
   airtable_id: rec25dJAXH9So8gtE
   date: '2019-12-11'
   href: https://www.nextgov.com/it-modernization/2019/12/federal-cio-its-time-those-digital-transformations-scale/161837/
-  isOld: true
   publication: Nextgov
   rowNumber: 12
   text: "Federal CIO: It\u2019s Time for Those Digital Transformations to Scale Up"
@@ -118,6 +117,7 @@
   airtable_id: recg1604GsBCCX46K
   date: '2020-12-17'
   href: https://www.hhs.gov/about/news/2020/12/16/winners-of-hhs-design-a-thon-to-develop-innovative-digital-health-tools-for-covid-19.html
+  isOld: true
   publication: HHS News
   rowNumber: 3
   text: Winners of HHS Design-a-thon to Develop Innovative Digital Health Tools for

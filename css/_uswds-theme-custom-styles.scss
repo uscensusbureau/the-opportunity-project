@@ -852,9 +852,9 @@ main {
       background-blend-mode: color;
       background-color: rgba(0, 0, 0, 0.6);
       z-index: 4;
-      padding: 9rem 3.5rem 3.5rem 3.5rem;
-      @include at-media-max('tablet') {
-        padding-left: 2rem;
+      padding: 9rem 2rem 3.5rem;
+      @include at-media('desktop-lg') {
+        @include u-padding-x(7)
       }
       border-radius: 10px;
       cursor: default;
@@ -2507,6 +2507,10 @@ code {
   .usa-footer__secondary-section {
     background-color: color("base-lighter");
   }
+}
+
+.page-curated-datasets {
+  @include u-bg('primary-vivid');
 }
 
 .hero {

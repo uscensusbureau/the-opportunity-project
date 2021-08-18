@@ -3,7 +3,8 @@ const pages = [
   '/natural-environment',
   '/workforce',
   '/built-environment',
-  '/covid-19'
+  '/covid-19',
+  '/climate-smart'
 ]
 
 function testPSFilters (url) {
@@ -17,13 +18,13 @@ function testPSFilters (url) {
           cy.get('[name=data-set-card]:not(.pc-inactive)').each($card => {
             cy.wrap($card)
               .within($card => {
-                cy.get('h3').should('include.text', $filterId)
+                cy.get('.dataset__ps').should('include.text', $filterId)
               })
           })
           cy.get('[name=data-set-card].pc-inactive').each($card => {
             cy.wrap($card)
               .within($card => {
-                cy.get('h3').should('not.include.text', $filterId)
+                cy.get('.dataset__ps').should('not.include.text', $filterId)
               })
           })
         }
@@ -47,7 +48,7 @@ describe('Content tests', () => {
     }
   })
 
-  it.only('shows datasets belonging to multiple sprints in both kits', () => {
+  it('shows datasets belonging to multiple sprints in both kits', () => {
     cy.visit(base + '/workforce')
     cy.get('#data-set-card-location-of-energy-infrastructure')
     cy.visit(base + '/built-environment')
@@ -65,6 +66,9 @@ describe.only('Filtering tests', () => {
   })
   it('filters by PS on built env page', () => {
     testPSFilters(pages[2])
+  })
+  it('filters by tag on climate-smart page', () => {
+    testPSFilters(pages[4])
   })
   // it('filters by PS on covid page', () => {
   //   testPSFilters(pages[3])

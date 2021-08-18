@@ -18,13 +18,13 @@ function testPSFilters (url) {
           cy.get('[name=data-set-card]:not(.pc-inactive)').each($card => {
             cy.wrap($card)
               .within($card => {
-                cy.get('h3').should('include.text', $filterId)
+                cy.get('.dataset__ps').should('include.text', $filterId)
               })
           })
           cy.get('[name=data-set-card].pc-inactive').each($card => {
             cy.wrap($card)
               .within($card => {
-                cy.get('h3').should('not.include.text', $filterId)
+                cy.get('.dataset__ps').should('not.include.text', $filterId)
               })
           })
         }

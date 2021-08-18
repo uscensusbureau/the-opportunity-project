@@ -23,9 +23,9 @@
       {% if page.problem-statement-name %}
         {% assign filters = item.tag %}
       {% endif %}
-      <h3 class="pc-inactive dataset__ps">
+      <span class="pc-inactive dataset__ps">
         {% for filter in filters %}{{ filter | slugify }} {% endfor %}
-      </h3>
+      </span>
       <p class="dataset__org font-mono-xs text-white">by {{ item.organization_text | upcase }}</p>
     </header>
     <div class="usa-card__body">

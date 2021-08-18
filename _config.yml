@@ -41,6 +41,8 @@ collections:
   sprints:
     output: true
     permalink: /sprints/:name/
+  datakits:
+    output: true
 
 defaults:
   - scope:

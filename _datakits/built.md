@@ -1,7 +1,6 @@
 ---
 title: Built Environment
 permalink: /data/built-environment/
-layout: dch/search
 class: datakit
 
 sprint-name: Built Environment

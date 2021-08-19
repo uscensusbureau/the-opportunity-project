@@ -16,6 +16,9 @@ layout: default
   {% assign matchingPS = site.data.problem_statements | where: "Name", page.problem-statement-name | first %}
   {% assign display-datasets = display-datasets | where_exp: "dataset",
     "dataset.problem_statements contains matchingPS.airtable_id" %}
+  {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+    {% assign display-datasets = site.data.treasury_datasets %}
+  {% endif %}
   {% assign filters = "" | split: ',' %}
   {% for ps in display-datasets %}
     {% for tag in ps.tag %}
@@ -24,6 +27,8 @@ layout: default
   {% endfor %}
   {% assign filters = filters | uniq %}
 {% endif %}
+
+
 
 {% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">

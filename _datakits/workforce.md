@@ -1,7 +1,6 @@
 ---
 title: Workforce
 permalink: /data/workforce/
-layout: dch/search
 class: datakit
 sprint-name: 'Workforce'
 date: 2020-06-01

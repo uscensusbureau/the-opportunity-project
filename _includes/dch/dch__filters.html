@@ -2,9 +2,9 @@
 {% if data-topics.size > 1 %}
 <div>
   <div class="grid-row grid-gap">
-    <ul class="usa-card-group data-card-group margin-top-7">
-      <li id="all" class="usa-card" name="productCard">
-        <div class="usa-card__container dkh__data-topic selected">
+    <ul class="data-card-group margin-top-7">
+      <li id="all" class="" name="">
+        <div class="dkh__data-topic selected">
           <header class="usa-card__header">
             <p class="text-white font-sans-sm" value="all">All</p>
           </header>
@@ -12,8 +12,8 @@
       </li>
       {% for data in data-topics %}
         {% assign filter = data.Name | slugify | default: data %}
-        <li id="{{ filter | slugify }}" class="usa-card" name="productCard">
-          <div class="usa-card__container dkh__data-topic">
+        <li id="{{ filter | slugify }}" class="">
+          <div class="dkh__data-topic">
             <header class="usa-card__header">
               <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
             </header>
@@ -26,7 +26,7 @@
     {% for data in data-topics %}
       {% if data.Challenge %}
         {% assign filter = data.Name | slugify %}
-        <div id="modal-{{ filter }}" class="data-modal modal-inactive">
+        <div id="modal-{{ filter }}" class="data-modal modal-inactive margin-top-5">
           <div class="grid-row">
             <div class="desktop:grid-col-8 tablet:grid-col-8">
               <div class="display-inline-block desktop:grid-col-4 tablet:grid-col-4">

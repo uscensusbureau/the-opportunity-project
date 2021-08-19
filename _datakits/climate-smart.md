@@ -1,7 +1,6 @@
 ---
 title: Climate-Smart Communities
 permalink: /data/climate-smart/
-layout: dch/search
 class: datakit
 
 sprint-name: The World Post-COVID-19

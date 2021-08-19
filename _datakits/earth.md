@@ -1,7 +1,6 @@
 ---
 title: Natural Environment
 permalink: /data/natural-environment/
-layout: dch/search
 class: datakit
 
 sprint-name: 'Natural Environment'

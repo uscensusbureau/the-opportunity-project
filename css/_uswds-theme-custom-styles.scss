@@ -1013,7 +1013,7 @@ main {
   list-style-type: none;
 }
 
-.dkh__data-topic {
+.dch__data-topic {
   @include u-border(solid, 'accent-warm', 2px);
   @include u-bg('primary-darker');
   cursor: pointer;
@@ -1023,6 +1023,24 @@ main {
     @include u-bg('primary-vivid');
     @include u-border-color('accent-warm-lighter');
     cursor: initial;
+  }
+}
+
+.dch-checkbox {
+  background-color: transparent;
+  label {
+    color: white;
+    &::before {
+      background-color: transparent;
+      box-shadow: 0 0 0 2px color('white');
+      
+    }
+  }
+  input:checked+label::before {
+    background-image: url(../img/correct-warm.svg) !important;
+    background-color: transparent !important;
+    box-shadow: 0 0 0 2px color('accent-warm') !important;
+      // @include u-bg('accent-warm', '!important')
   }
 }
 

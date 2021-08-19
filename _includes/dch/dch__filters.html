@@ -1,20 +1,14 @@
 {% assign data-topics = include.data %}
+{% assign checkboxSets = include.checkboxSets %}
 {% if data-topics.size > 1 %}
-<div>
+<div class="">
   <div class="grid-row grid-gap">
     <ul class="data-card-group margin-top-7">
-      <li id="all" class="" name="">
-        <div class="dkh__data-topic selected">
-          <header class="usa-card__header">
-            <p class="text-white font-sans-sm" value="all">All</p>
-          </header>
-        </div>
-      </li>
       {% for data in data-topics %}
         {% assign filter = data.Name | slugify | default: data %}
         <li id="{{ filter | slugify }}" class="">
-          <div class="dkh__data-topic">
-            <header class="usa-card__header">
+          <div class="dch__data-topic {%if forloop.first %}selected{% endif %}">
+            <header class="padding-x-2">
               <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
             </header>
           </div>
@@ -22,6 +16,40 @@
       {% endfor %}
     </ul>
   </div>
+
+  {% if checkboxSets %}
+  <div class="grid-row grid-gap text-white">
+    {% for group in checkboxSets %}
+      <fieldset class="usa-form">
+        <legend class="usa-legend">{{group}}</legend>
+        {% comment %} get all options for the given field {% endcomment %}
+        {% assign options = "" | split: ',' %}
+        {% for dataset in site.data.treasury_datasets %}
+          {% for option in dataset[group] %}
+            {% assign options = options | push: option %}
+          {% endfor %}
+        {% endfor %}
+        {% assign options = options | uniq | sort %}
+        {% for option in options %}
+        <div class="usa-checkbox dch-checkbox">
+            <input
+              class="usa-checkbox__input"
+              id="{{option | slugify}}"
+              type="checkbox"
+              name="{{group | slugify}}"
+              value="{{option | slugify}}"
+            />
+            <label class="usa-checkbox__label" for="{{option | slugify}}">
+              {{ option }}
+            </label>
+        </div>
+        {% endfor %}
+      </fieldset>
+      <br/>
+    {% endfor %}
+  </div>
+  {% endif %}
+
   <div class="grid-row grid-gap">
     {% for data in data-topics %}
       {% if data.Challenge %}

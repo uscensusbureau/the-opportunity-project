@@ -6,7 +6,7 @@ layout: default
 
 {% assign display-datasets = site.data.datasets | where_exp: "dataset", 
   "dataset.sprint contains matchingSprint.airtable_id" %}
-{% assign filters = "" | split: ',' %}
+{% assign filters = "All" | split: ',' %}
 {% for ps in matchingSprint.problem_statements %}
   {% assign match = site.data.problem_statements | where: "airtable_id", ps | first %}
   {% assign filters = filters | push: match %}
@@ -18,8 +18,10 @@ layout: default
     "dataset.problem_statements contains matchingPS.airtable_id" %}
   {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
     {% assign display-datasets = site.data.treasury_datasets %}
+
+    {% assign checkboxSets = "geography,industry" | split: "," %}
   {% endif %}
-  {% assign filters = "" | split: ',' %}
+  {% assign filters = "All" | split: ',' %}
   {% for ps in display-datasets %}
     {% for tag in ps.tag %}
       {% assign filters = filters | push: tag %}
@@ -27,7 +29,6 @@ layout: default
   {% endfor %}
   {% assign filters = filters | uniq %}
 {% endif %}
-
 
 
 {% include hero.html %}
@@ -42,7 +43,7 @@ layout: default
         </button>
       </form>
     </div>
-    {% include dch/dch__filters.html data=filters %}
+    {% include dch/dch__filters.html data=filters checkboxSets=checkboxSets %}
     <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
   </div>
 </section>

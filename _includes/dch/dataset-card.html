@@ -23,6 +23,14 @@
       {% if page.problem-statement-name %}
         {% assign filters = item.tag %}
       {% endif %}
+      {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+        {% if item.geography %}
+          {% assign filters = filters | concat: item.geography %}
+        {% endif %}
+        {% if item.industry %}
+          {% assign filters = filters | concat: item.industry %}
+        {% endif %}
+      {% endif %}
       <span class="pc-inactive dataset__ps">
         {% for filter in filters %}{{ filter | slugify }} {% endfor %}
       </span>

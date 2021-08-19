@@ -388,6 +388,14 @@ $('.data-card-group').on('click', function (e) {
   }
 })
 
+const dchCheckboxes = document.querySelectorAll('.dch-checkbox input')
+dchCheckboxes.forEach(checkbox => {
+  console.log(checkbox.value)
+  checkbox.addEventListener('change', function () {
+    console.log(`${this.value} checked? ${this.checked}`)
+  })
+})
+
 if (document.getElementById('data-search-form')) {
   document.getElementById('data-search-form').addEventListener('submit', e => {
     e.preventDefault()

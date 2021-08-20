@@ -362,7 +362,7 @@ $('.data-card-group').on('click', function (e) {
   if (e.target) {
     const closestCard = e.target.closest('li')
     if (closestCard) {
-      for (const topicCard of document.getElementsByClassName('dkh__data-topic')) {
+      for (const topicCard of document.getElementsByClassName('dch__data-topic')) {
         topicCard.classList.remove('selected')
       }
       closestCard.getElementsByClassName('dch__data-topic')[0].classList.add('selected')

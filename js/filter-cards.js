@@ -409,13 +409,12 @@ function filterDataSets () {
   for (let i = 0; i < dataSets.length; i++) {
     if (dataSets[i].getElementsByTagName('h2')[0]) {
       const dataName = dataSets[i].getElementsByTagName('h2')[0].innerText
-      const dataPS = dataSets[i].getElementsByTagName('h3')[0].innerText
+      const dataPS = dataSets[i].getElementsByClassName('dataset__ps')[0].innerText
       const dataDescription = dataSets[i].getElementsByTagName('p')[0].innerText
-      const dataNameSlugified = slugify(dataName.toLowerCase())
       if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
+        dataSets[i].classList.remove('pc-inactive')
       } else {
-        $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
+        dataSets[i].classList.add('pc-inactive')
       }
     }
   }

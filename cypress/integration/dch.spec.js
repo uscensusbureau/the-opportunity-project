@@ -73,4 +73,42 @@ describe.only('Filtering tests', () => {
   // it('filters by PS on covid page', () => {
   //   testPSFilters(pages[3])
   // })
+
+  it.only('searches for datasets by text on natural env page', () => {
+    cy.visit(base + '/natural-environment')
+    cy.get('.data-set-card')
+      .should('have.length', 62)
+
+    cy.get('#search-field').type('trash')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 1)
+
+    cy.get('#search-field').clear().type('plastic')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 16)
+
+    cy.get('#search-field').clear()
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 62)
+
+      // search on NOAA page
+    cy.visit(base + '/climate-smart')
+    cy.get('#search-field').clear().type('map')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 11)
+
+    cy.get('#search-field').clear().type('climate')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 13)
+
+    cy.get('#search-field').clear().type('tree')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 1)
+  })
 })

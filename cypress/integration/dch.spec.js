@@ -10,23 +10,16 @@ const pages = [
 function testPSFilters (url) {
   cy.visit(base + url)
     
-  cy.get('.data-card-group .usa-card').each($filter => {
+  cy.get('.data-card-group li').each($filter => {
     cy.wrap($filter).invoke('attr', 'id')
       .then($filterId => {
         if ($filterId !== 'all') {
           $filter.click()
-          cy.get('[name=data-set-card]:not(.pc-inactive)').each($card => {
-            cy.wrap($card)
-              .within($card => {
-                cy.get('.dataset__ps').should('include.text', $filterId)
-              })
-          })
-          cy.get('[name=data-set-card].pc-inactive').each($card => {
-            cy.wrap($card)
-              .within($card => {
-                cy.get('.dataset__ps').should('not.include.text', $filterId)
-              })
-          })
+          cy.get('[name=data-set-card]:not(.pc-inactive) .dataset__ps')
+            .should('include.text', $filterId)
+
+          cy.get('[name=data-set-card].pc-inactive .dataset__ps')
+            .should('not.include.text', $filterId)
         }
       })
   })

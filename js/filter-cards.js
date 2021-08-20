@@ -365,7 +365,7 @@ $('.data-card-group').on('click', function (e) {
       for (const topicCard of document.getElementsByClassName('dkh__data-topic')) {
         topicCard.classList.remove('selected')
       }
-      closestCard.getElementsByClassName('dkh__data-topic')[0].classList.add('selected')
+      closestCard.getElementsByClassName('dch__data-topic')[0].classList.add('selected')
       const dataCardId = closestCard.id
       // toggle the description of the challenge at top of page
       $('.modal-active').addClass('modal-inactive')

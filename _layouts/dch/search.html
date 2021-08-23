@@ -59,4 +59,11 @@ layout: default
       {% endfor %}
     {% endif %}
   </section>
+  {% if content %}
+    <section class="usa-section grid-container padding-top-0 usa-dark-background font-sans-md text-white">
+      <hr class="margin-y-3 border-accent-warm">
+      {{ content }}
+    </section>
+  {% endif %}
 </section>
+

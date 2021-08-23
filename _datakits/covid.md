@@ -5,6 +5,7 @@ layout: dch/search
 class: covid
 
 sprint-name: ASA Data Challenge Expo
+problem-statement-name: 'Helping Families, Businesses, and Communities Respond to COVID-19'
 date: 2021-03-01
 
 lead: Datasets selected as part of the The American Statistical Association Annual Data Challenge Expo

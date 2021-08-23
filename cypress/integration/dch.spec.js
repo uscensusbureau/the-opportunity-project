@@ -70,7 +70,7 @@ describe.only('Filtering tests', () => {
   it('filters by tag on climate-smart page', () => {
     testPSFilters(pages[4])
   })
-  it.only('filters by PS on covid page', () => {
+  it('filters by PS on covid page', () => {
     testPSFilters(pages[3])
   })
 })

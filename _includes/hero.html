@@ -98,22 +98,6 @@
         <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
       </div>
     </div>
-{% elsif page.class == "covid" %}
-  <section class="interior-hero bg-base-darkest usa-dark-background">
-    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-6">
-      <h1 class="usa-hero__title">{{ page.title }}</h1>
-      <div class="grid-col-6">
-        <p>
-        {% for item in page.lead %}
-          {% if item.text %}
-            <a href="{{ item.link }}" target="_blank" class="text-white">{{ item.text }}</a>
-          {% else %}
-            {{ item.p }}
-          {% endif %}
-        {% endfor %}
-        </p>
-      </div>
-    </div>
 {% elsif page.class == "prize" %}
   <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">

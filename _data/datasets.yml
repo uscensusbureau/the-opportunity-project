@@ -1476,6 +1476,10 @@
   ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  tag:
+  - Demographic
+  - Economic
+  - Employment
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recGTmLrGu4XStmFe
   data_stewards:
@@ -1634,6 +1638,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Catherine D Buffington
+  tag:
+  - Economic
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recIf2Pc60A6s66wt
   name: "Woldemar d\u2019Ambri\xE8res"
@@ -1915,6 +1921,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Amanda Klimek
+  tag:
+  - Demographic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recLdaL3z2v32oZ2o
   description: National and state-level trends for Tier 1 pollutant emission contributions
@@ -2134,6 +2142,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Jason Fields, Hyon Shin
+  tag:
+  - Economic
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recNJaPAJFncCOAUB
   data_stewards:
@@ -2153,6 +2163,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Rollison Edewor
+  tag:
+  - Economic
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recNQQTbLSTC3tfTM
   name: GRID-Arendal
@@ -2401,6 +2413,8 @@
   - recmM5soT47O2fdMS
   - recMpslqDTkD8bJoj
   stewards_text: Danielle Sharpe
+  tag:
+  - Health
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recPGnqabtCmLp8is
   name: Department of Housing and Urban Development; Community partners
@@ -2441,6 +2455,8 @@
   ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  tag:
+  - Health
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recQ4AYu2hT2GCm8k
   name: HUD Federal Programs
@@ -2723,6 +2739,9 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Amanda Klimek
+  tag:
+  - Demographic
+  - Economic
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recSEDcGAcsCXoIeH
   data_stewards:
@@ -3434,6 +3453,8 @@
   ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  tag:
+  - Health
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recYkJdXMFsni1Oj1
   name: Interpol
@@ -3494,6 +3515,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Randy Moore, Kristina Pasquino-Frates
+  tag:
+  - Economic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recZg3fGxDmbe7UNP
   data_stewards:
@@ -3604,6 +3627,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Amanda Klimek
+  tag:
+  - Demographic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recaxnp7O7OTu9lJj
   data_stewards:
@@ -3635,6 +3660,8 @@
   ps_text: '"Helping Families, Businesses, and Communities Respond to COVID-19"'
   sprint:
   - recmM5soT47O2fdMS
+  tag:
+  - Education
 - airtable_createdTime: '2020-02-10T17:25:27.000Z'
   airtable_id: recbYHm8eeBfN1DEH
   name: Common Core of Data (CCD)
@@ -3747,6 +3774,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Randy Moore, Kristina Pasquino-Frates
+  tag:
+  - Economic
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recdMgnSpoaveLcji
   name: ESA Sentinel 2
@@ -4865,6 +4894,8 @@
   - recMpslqDTkD8bJoj
   - recmM5soT47O2fdMS
   stewards_text: Eric Coyle, Amanda Klimek
+  tag:
+  - Demographic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recqtqPIPuHLrODlE
   description: Information for school communities to identify strategies for reducing
@@ -5052,6 +5083,9 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Shalise Ayromloo, Mark Klee, Shelley Irving, Jason Fields
+  tag:
+  - Economic
+  - Employment
 - airtable_createdTime: '2020-02-10T18:07:05.000Z'
   airtable_id: rectIJl3UxJFIJJYz
   description: The posted information shows opioid-dispensing rates for each facility
@@ -5449,6 +5483,8 @@
   sprint:
   - recmM5soT47O2fdMS
   stewards_text: Amanda Klimek
+  tag:
+  - Demographic
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recynfESoUGMsEDkW
   data_stewards:

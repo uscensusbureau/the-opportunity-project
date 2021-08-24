@@ -40,7 +40,7 @@ timeline:
     - text: Final Info and Q&A – Oct 6, 5:00-6:00 pm ET
       href: http://odfggcfinalinfowebinar.splashthat.com
   - text: Prize Submission Deadline
-    subtitle: October 18th, 2021
+    subtitle: October 24th, 2021
   - text: Judging Process
     subtitle: November
   - text: Winners Announced
@@ -122,7 +122,7 @@ We're looking for tools that fit into one of these categories:
 2. Attend an informational session (optional)
 3. Submit your application by the deadline via email and a short submission form
 
-Submissions are open from September 13, 2021 – October 18, 2021
+Submissions are open from September 13, 2021 – October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
 <!-- Before you submit your application, please review the submission checklist.

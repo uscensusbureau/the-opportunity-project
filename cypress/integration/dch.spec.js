@@ -30,7 +30,7 @@ function testPSFilters (url) {
   })
 }
 
-describe('Content tests', () => {
+describe.only('Content tests', () => {
   it('shows organization for all cards', () => {
     for (const url of pages) {
       cy.visit(base + url)
@@ -54,7 +54,7 @@ describe('Content tests', () => {
   })
 })
 
-describe.only('Filtering tests', () => {
+describe('Filtering tests', () => {
 
   it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
@@ -134,7 +134,10 @@ describe.only('Filtering tests', () => {
       .should('have.length', 2)
 
     clearSearch()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 17)
     cy.get('#all')
+      .click()
     cy.get('.data-set-card:not(.pc-inactive)')
       .should('have.length', 62)
 

@@ -20,7 +20,7 @@
   {% if checkboxSets %}
   <div class="grid-row grid-gap text-white">
     {% for group in checkboxSets %}
-      <fieldset class="usa-form">
+      <fieldset class="usa-form dch__checkbox-group" name="{{group}}">
         <legend class="usa-legend">{{group}}</legend>
         {% comment %} get all options for the given field {% endcomment %}
         {% assign options = "" | split: ',' %}

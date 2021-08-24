@@ -389,10 +389,21 @@ $('.data-card-group').on('click', function (e) {
 })
 
 const dchCheckboxes = document.querySelectorAll('.dch-checkbox input')
+const advancedFilters = {}
+document.querySelectorAll('.dch__checkbox-group')
+  .forEach(fieldset => {
+    advancedFilters[fieldset.name] = []
+  })
+
 dchCheckboxes.forEach(checkbox => {
-  console.log(checkbox.value)
   checkbox.addEventListener('change', function () {
-    console.log(`${this.value} checked? ${this.checked}`)
+    if (this.checked) {
+      advancedFilters[this.name].push(this.value)
+    } else {
+      advancedFilters[this.name].splice(
+        advancedFilters[this.name].indexOf(this.value), 1)
+    }
+    filterDataSets()
   })
 })
 
@@ -415,13 +426,38 @@ function filterDataSets () {
   const filter = $('#search-field').val()
   const dataSets = document.getElementsByName('data-set-card')
   for (let i = 0; i < dataSets.length; i++) {
+    console.log('filtering ' + dataSets[i].id)
     if (dataSets[i].getElementsByTagName('h2')[0]) {
       const dataName = dataSets[i].getElementsByTagName('h2')[0].innerText
-      const dataPS = dataSets[i].getElementsByTagName('h3')[0].innerText
+      const dataPS = dataSets[i].getElementsByTagName('h3')[0].innerText.toLowerCase()
       const dataDescription = dataSets[i].getElementsByTagName('p')[0].innerText
       const dataNameSlugified = slugify(dataName.toLowerCase())
-      if (dataName.toLowerCase().includes(filter) || dataPS.toLowerCase().includes(filter) || dataDescription.toLowerCase().includes(filter)) {
-        $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
+      if (dataName.toLowerCase().includes(filter) || dataPS.includes(filter) || dataDescription.toLowerCase().includes(filter)) {
+        // apply advanced filters
+        /*
+         logical OR for each set of filters. AND between sets 
+         (city OR state) AND standard-occupational-classification
+        */
+        let passesAdvanced = true
+        for (const advancedFilter in advancedFilters) {
+          let hasCategory = false
+          for (const filter in advancedFilter) {
+            if (dataPS.includes(filter)) {
+              hasCategory = true
+              break
+            }
+          }
+          if (!hasCategory) {
+            passesAdvanced = false
+            break
+          }
+        }
+
+        if (passesAdvanced) {
+          $('#data-set-card-' + dataNameSlugified).removeClass('pc-inactive')
+        } else {
+          $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
+        }
       } else {
         $('#data-set-card-' + dataNameSlugified).addClass('pc-inactive')
       }

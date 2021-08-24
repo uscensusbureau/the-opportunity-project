@@ -118,7 +118,7 @@ We're looking for tools that fit into one of these categories:
 
 ### What Do You Have To Do?
 {: .section-header .margin-top-6 }
-1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 18th, 2021
+1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 24th, 2021
 2. Attend an informational session (optional)
 3. Submit your application by the deadline via email and a short submission form
 

@@ -242,6 +242,8 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  tag:
+  - Infrastructure
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec2Lyt7Ex3VygOzr
   data_stewards:
@@ -3151,6 +3153,9 @@
     fields, searchable by keyword.
   link: https://techlinkcenter.org/technologies-all/
   name: 'TechLink: DoD and VA Inventions'
+  organization_text: TechLink
+  organizations:
+  - recYMmsxG2PBzG5FZ
   problem_statements:
   - recfwUvvptMpf0PLj
   ps_text: Entrepreneurship
@@ -4305,7 +4310,7 @@
   description: Mapping tool based on nationally consistent data and an approach that
     combines environmental and demographic indicators in maps and reports.
   link: https://www.epa.gov/ejscreen
-  name: EPA Environmental Justiice Screening tool
+  name: EPA Environmental Justice Screening tool
   organization_text: U.S. Environmental Protection Agency
   organizations:
   - recDJthxFdnCkkHXX
@@ -4372,6 +4377,9 @@
     help, English classes, healthcare, and more curated by USAHello.
   link: https://gist.github.com/usahello/2715866b76179a2b5d7e328b0aafa940
   name: FindHello Resources
+  organization_text: USAHello
+  organizations:
+  - recS0FShcAPY62lCa
   problem_statements:
   - recDnQq3aDp59z637
   ps_text: Refugees
@@ -4424,6 +4432,8 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   stewards_text: Phil Dickerson, John White, Rob Wilderman
+  tag:
+  - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reckz9HKYIR6fbmIz
   name: Census Bureau American Community Survey; Census Barriers

@@ -34,14 +34,11 @@ describe.only('Content tests', () => {
   it('shows organization for all cards', () => {
     for (const url of pages) {
       cy.visit(base + url)
-      cy.get('.data-set-card').each($card => {
-        cy.wrap($card)
-          .within($card => {
-            cy.get('.dataset__org').invoke('text').then( text => {
-              // each is 3 because of the text 'by '
-              expect(text.length).to.be.gt(3)
-            })
-          })
+      cy.get('.data-set-card .dataset__org').each($orgText => {
+        cy.wrap($orgText).invoke('text').then( text => {
+          // each is 3 because of the text 'by '
+          expect(text.length).to.be.gt(3)
+        })
       })
     }
   })

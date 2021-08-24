@@ -143,5 +143,9 @@ describe.only('Filtering tests', () => {
     cy.get('#data-search-form').submit()
     cy.get('.data-set-card:not(.pc-inactive)')
       .should('have.length', 2)
+
+    clearSearch()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 17)
   })
 })

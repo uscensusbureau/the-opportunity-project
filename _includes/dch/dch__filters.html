@@ -3,7 +3,7 @@
 <div>
   <div class="grid-row grid-gap">
     <ul class="usa-card-group data-card-group margin-top-7">
-      <li id="all" class="usa-card" name="productCard">
+      <li id="all" class="usa-card dch__topic-container" name="productCard">
         <div class="usa-card__container dkh__data-topic selected">
           <header class="usa-card__header">
             <p class="text-white font-sans-sm" value="all">All</p>
@@ -12,7 +12,7 @@
       </li>
       {% for data in data-topics %}
         {% assign filter = data.Name | slugify | default: data %}
-        <li id="{{ filter | slugify }}" class="usa-card" name="productCard">
+        <li id="{{ filter | slugify }}" class="usa-card dch__topic-container" name="productCard">
           <div class="usa-card__container dkh__data-topic">
             <header class="usa-card__header">
               <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>

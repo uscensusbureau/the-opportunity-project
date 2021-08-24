@@ -15,17 +15,15 @@ function testPSFilters (url) {
       .then($filterId => {
         if ($filterId !== 'all') {
           $filter.click()
-          cy.get('[name=data-set-card]:not(.pc-inactive)').each($card => {
-            cy.wrap($card)
-              .within($card => {
-                cy.get('.dataset__ps').should('include.text', $filterId)
-              })
+          cy.get('[name=data-set-card]:not(.pc-inactive) .dataset__ps')
+            .each($psList => {
+              cy.wrap($psList)
+                .should('include.text', $filterId)
           })
-          cy.get('[name=data-set-card].pc-inactive').each($card => {
-            cy.wrap($card)
-              .within($card => {
-                cy.get('.dataset__ps').should('not.include.text', $filterId)
-              })
+          cy.get('[name=data-set-card].pc-inactive .dataset__ps')
+            .each($psList => {
+              cy.wrap($psList)
+                .should('not.include.text', $filterId)
           })
         }
       })
@@ -74,7 +72,12 @@ describe.only('Filtering tests', () => {
   //   testPSFilters(pages[3])
   // })
 
-  it.only('searches for datasets by text on natural env page', () => {
+  function clearSearch () {
+    cy.get('#search-field').clear()
+    cy.get('#data-search-form').submit()
+  }
+
+  it('searches for datasets by text on natural env page', () => {
     cy.visit(base + '/natural-environment')
     cy.get('.data-set-card')
       .should('have.length', 62)
@@ -110,5 +113,35 @@ describe.only('Filtering tests', () => {
     cy.get('#data-search-form').submit()
     cy.get('.data-set-card:not(.pc-inactive)')
       .should('have.length', 1)
+  })
+
+  it.only('limits text search to current category', () => {
+    cy.visit(base + '/natural-environment')
+    cy.get('#search-field').clear().type('plastic')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 16)
+
+    cy.get('#ocean-plastics')
+      .click()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 14)
+    
+    cy.get('#recycled-materials')
+      .click()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 2)
+
+    clearSearch()
+    cy.get('#all')
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 62)
+
+    cy.get('#recycled-materials')
+      .click()
+    cy.get('#search-field').clear().type('plastic')
+    cy.get('#data-search-form').submit()
+    cy.get('.data-set-card:not(.pc-inactive)')
+      .should('have.length', 2)
   })
 })

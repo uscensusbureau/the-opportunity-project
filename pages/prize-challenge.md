@@ -9,7 +9,7 @@ submission-checklist: xyz
 
 hero:
   text: Win Funding to Scale Your Technology
-  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding at least $100,000 to teams using The Opportunity Project process.'
+  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding more than $210,000 to teams using The Opportunity Project process.'
 
 banner-subheader:
   top:
@@ -40,7 +40,7 @@ timeline:
     - text: Final Info and Q&A – Oct 6, 5:00-6:00 pm ET
       href: http://odfggcfinalinfowebinar.splashthat.com
   - text: Prize Submission Deadline
-    subtitle: October 18th, 2021
+    subtitle: October 24th, 2021
   - text: Judging Process
     subtitle: November
   - text: Winners Announced
@@ -112,17 +112,17 @@ Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for 
 
 Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
 We're looking for tools that fit into one of these categories:
-- Climate, Reslience and the Natural Environment
+- Climate, Reslience, and the Natural Environment
 - Society, Economy, and the Built Environment
 - Health and COVID-19
 
 ### What Do You Have To Do?
 {: .section-header .margin-top-6 }
-1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 18th, 2021
+1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 24th, 2021
 2. Attend an informational session (optional)
 3. Submit your application by the deadline via email and a short submission form
 
-Submissions are open from September 13, 2021 – October 18, 2021
+Submissions are open from September 13, 2021 – October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
 <!-- Before you submit your application, please review the submission checklist.

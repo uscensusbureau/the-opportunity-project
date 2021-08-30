@@ -6,8 +6,11 @@
     <ul class="data-card-group margin-top-7">
       {% for data in data-topics %}
         {% assign filter = data.Name | slugify | default: data %}
-        <li id="{{ filter | slugify }}" class="">
-          <div class="dch__data-topic {%if forloop.first %}selected{% endif %}">
+        <li>
+          <div 
+            id="{{ filter | slugify }}" 
+            class="dch__data-topic {%if forloop.first %}selected{% endif %}"
+          >
             <header class="padding-x-2">
               <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
             </header>

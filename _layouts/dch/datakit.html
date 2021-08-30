@@ -65,4 +65,12 @@ layout: default
       {% endfor %}
     {% endif %}
   </section>
+  {% assign stripped_content = content | strip_newlines %}
+  {% if stripped_content.size > 0 %}
+    <section class="usa-section grid-container padding-top-0 usa-dark-background font-sans-md text-white">
+      <hr class="margin-y-3 border-accent-warm">
+      {{ content }}
+    </section>
+  {% endif %}
 </section>
+

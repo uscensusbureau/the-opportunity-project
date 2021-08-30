@@ -335,6 +335,14 @@ describe('Products Test', () => {
     cy.get(resultsField).should("not.have.text", `of 101 products.`)
     cy.get(activeQuery).should('have.length.lessThan', 101)
   })
+
+  it.only('redirects from /products to /showcase', () => {
+    cy.visit('/products')
+    cy.url().should('include', 'showcase')
+
+    cy.visit('/products/')
+    cy.url().should('include', 'showcase')
+  })
 })
 
 describe.skip('Pagination Tests', () => {

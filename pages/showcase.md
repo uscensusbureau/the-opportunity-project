@@ -1,6 +1,8 @@
 ---
 title: Showcase
 permalink: /showcase/
+redirect_from:
+  - /products/
 
 layout: showcase
 

@@ -1,7 +1,8 @@
 const searchField = document.getElementById('search-field')
-let filterCategory = 'all'
 const dchCheckboxes = document.querySelectorAll('.dch-checkbox input')
+const resultsCountDisplay = document.getElementById('results-count')
 const advancedFilters = {}
+let filterCategory = 'all'
 
 document.querySelectorAll('.dch__checkbox-group')
   .forEach(fieldset => {
@@ -31,16 +32,6 @@ for (const container of categoryButtons) {
 
     // toggle the description of the challenge below the filters
     const dataCardId = container.id
-    const activeModal = document.querySelector('.modal-active')
-    if (activeModal) {
-      activeModal.classList.add('modal-inactive')
-      activeModal.classList.remove('modal-active')
-    }
-    const newActiveModal = document.querySelector(`#modal-${dataCardId}`)
-    if (newActiveModal) {
-      newActiveModal.classList.add('modal-active')
-      newActiveModal.classList.remove('modal-inactive')
-    }
     filterCategory = dataCardId
     filterDataSets()
   })
@@ -64,8 +55,9 @@ if (document.getElementById('data-search-form')) {
 function filterDataSets () {
   const searchTerm = searchField.value.toLowerCase()
   const datasets = document.getElementsByName('data-set-card')
-
   const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
+
+  let datasetsFound = 0
   for (const card of datasets) {
     if (card.getElementsByTagName('h2')[0]) {
       const dataName = card.getElementsByTagName('h2')[0].innerText
@@ -90,6 +82,7 @@ function filterDataSets () {
         })
         if (passesAdvanced) {
           card.classList.remove('pc-inactive')
+          datasetsFound++
         } else {
           card.classList.add('pc-inactive')
         }
@@ -98,4 +91,6 @@ function filterDataSets () {
       }
     }
   }
+  const suffix = datasetsFound === 1 ? '' : 's'
+  resultsCountDisplay.innerText = `Found ${datasetsFound} dataset${suffix}.`
 }

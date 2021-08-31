@@ -7,6 +7,7 @@ const pages = [
   '/climate-smart',
   '/covid-spending'
 ]
+const resultsField = '#results-count'
 
 function testPSListShouldContain (filterVal) {
   cy.get('[name=data-set-card]:not(.pc-inactive) .dataset__ps')
@@ -20,6 +21,8 @@ function testPSListShouldContain (filterVal) {
       cy.wrap($psList)
         .should('not.include.text', filterVal)
     })
+
+  
 }
 
 function testPSFilters (url) {
@@ -34,9 +37,15 @@ function testPSFilters (url) {
         }
       })
   })
+
+  cy.get('[name=data-set-card]:not(.pc-inactive)')
+    .its('length')
+    .then($numFound => {
+      cy.get(resultsField).should("include.text", `${$numFound}`)
+    })
 }
 
-describe.skip('Content tests', () => {
+describe('Content tests', () => {
   it('shows organization for all cards', () => {
     for (const url of pages) {
       cy.visit(base + url)
@@ -57,7 +66,7 @@ describe.skip('Content tests', () => {
   })
 })
 
-describe('Filtering tests', () => {
+describe.only('Filtering tests', () => {
 
   it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
@@ -156,7 +165,7 @@ describe('Filtering tests', () => {
   })
 })
 
-describe.only('Advanced filtering tests', () => {
+describe('Advanced filtering tests', () => {
   const advancedUrl = base + pages[5]
 
   function testPSListWithRegex (regex) {

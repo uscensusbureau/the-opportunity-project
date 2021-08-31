@@ -53,33 +53,5 @@
   </div>
   {% endif %}
 
-  <div class="grid-row grid-gap">
-    {% for data in data-topics %}
-      {% if data.Challenge %}
-        {% assign filter = data.Name | slugify %}
-        <div id="modal-{{ filter }}" class="data-modal modal-inactive margin-top-5">
-          <div class="grid-row">
-            <div class="desktop:grid-col-8 tablet:grid-col-8">
-              <div class="display-inline-block desktop:grid-col-4 tablet:grid-col-4">
-                <img
-                  src="{{ site.baseurl }}/assets/img/{{data.image}}"
-                  alt="{{data.image-alt}}"
-                />
-              </div>
-              <div class="display-inline-block float-right desktop:grid-col-8 tablet:grid-col-8 padding-bottom-5 padding-left-5">
-                {% if data.Name %}
-                  <p class="font-sans-md text-white margin-top-0">{{ data.Name }}</p>
-                {% endif %}
-                {% if data.Challenge %}
-                  <p class="font-mono-xs text-accent-warm">CHALLENGE</p>
-                  <p class="font-sans-2xs text-white">{{ data.Challenge}}</p>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
 </div>
 {% endif %}

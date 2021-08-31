@@ -23,7 +23,6 @@ dchCheckboxes.forEach(checkbox => {
 const categoryButtons = document.getElementsByClassName('dch__data-topic')
 for (const container of categoryButtons) {
   container.addEventListener('click', e => {
-    console.log('CLICK')
     const selected = document.querySelector('.dch__data-topic.selected')
     if (selected) {
       selected.classList.remove('selected')
@@ -65,20 +64,21 @@ if (document.getElementById('data-search-form')) {
 function filterDataSets () {
   const searchTerm = searchField.value.toLowerCase()
   const datasets = document.getElementsByName('data-set-card')
+
+  const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
   for (const card of datasets) {
     if (card.getElementsByTagName('h2')[0]) {
       const dataName = card.getElementsByTagName('h2')[0].innerText
       const dataPS = card.getElementsByClassName('dataset__ps')[0].innerText
       const dataDescription = card.getElementsByTagName('p')[0].innerText
-
       const searchMatch = dataName.toLowerCase().includes(searchTerm) || dataPS.toLowerCase().includes(searchTerm) || dataDescription.toLowerCase().includes(searchTerm)
       const categoryMatch = dataPS.includes(filterCategory) || filterCategory === 'all'
       if (searchMatch && categoryMatch) {
         // apply advanced filtering
         let passesAdvanced = true
-        for (const advancedFilter in advancedFilters) {
+        Object.values(activeAdvanced).forEach(advancedFilter => {
           let hasCategory = false
-          for (const filter in advancedFilter) {
+          for (const filter of advancedFilter) {
             if (dataPS.includes(filter)) {
               hasCategory = true
               break
@@ -86,9 +86,8 @@ function filterDataSets () {
           }
           if (!hasCategory) {
             passesAdvanced = false
-            break
           }
-        }
+        })
         if (passesAdvanced) {
           card.classList.remove('pc-inactive')
         } else {

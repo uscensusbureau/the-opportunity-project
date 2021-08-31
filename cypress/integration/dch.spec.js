@@ -30,16 +30,7 @@ function testPSFilters (url) {
       .then($filterId => {
         if ($filterId !== 'all') {
           $filter.click()
-          cy.get('[name=data-set-card]:not(.pc-inactive) .dataset__ps')
-            .each($psList => {
-              cy.wrap($psList)
-                .should('include.text', $filterId)
-          })
-          cy.get('[name=data-set-card].pc-inactive .dataset__ps')
-            .each($psList => {
-              cy.wrap($psList)
-                .should('not.include.text', $filterId)
-          })
+          testPSListShouldContain($filterId)
         }
       })
   })
@@ -165,11 +156,38 @@ describe('Filtering tests', () => {
   })
 })
 
-describe('Advanced filtering tests', () => {
-  
+describe.only('Advanced filtering tests', () => {
+  const advancedUrl = base + pages[5]
+
+  function testPSListWithRegex (regex) {
+    cy.get('[name=data-set-card]:not(.pc-inactive) .dataset__ps')
+      .each($psList => {
+        cy.wrap($psList)
+          .invoke('html')
+          .then( $text => {
+            expect(regex.test($text)).to.be.true
+          })
+      })
+
+    cy.get('[name=data-set-card].pc-inactive .dataset__ps')
+      .each($psList => {
+        cy.wrap($psList)
+          .invoke('html')
+          .then( $text => {
+            expect(regex.test($text)).to.be.false
+          })
+      })
+  }
+  function expectAllCards (numToExpect = 5) {
+    cy.get('.data-set-card:not(.pc-inactive)').should('have.length', numToExpect)
+  }
+
+  before(() => {
+    cy.visit(advancedUrl)
+  })
+
   it('shows relevant datasets on checking one box', () => {
-    cy.visit(base + pages[5])
-    cy.get('.dch-checkbox:first input')
+    cy.get('.dch-checkbox input')
       .each($filter => {
         cy.wrap($filter)
           .invoke('attr', 'value')
@@ -177,6 +195,66 @@ describe('Advanced filtering tests', () => {
             $filter.click()
             testPSListShouldContain($filterVal)
           })
+        cy.wrap($filter).click({ force: true })
+        expectAllCards()
       })
+  })
+
+  it.only('filters by logical OR after checking two+ of same filter', () => {
+
+    cy.get('#census-division, #city, #state')
+      .each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    let regex = /census-division|city|state/
+    testPSListWithRegex(regex)
+    cy.get('#census-division, #city, #state')
+      .each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    expectAllCards()
+
+    cy.get('#core-based-statistical-area, #county')
+      .each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    regex = /core-based-statistical-area|county/
+    testPSListWithRegex(regex)
+    cy.get('#core-based-statistical-area, #county')
+      .each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    expectAllCards()
+  })
+
+  it('filters by logical OR after checking one each of two different filters', () => {
+    cy.get('#census-division, #north-american-industry-classification-system')
+      each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    let regex = /(?=.*census-division)(?=.*north-american-industry-classification-system)/
+    testPSListWithRegex(regex)
+    cy.get('#census-division, #north-american-industry-classification-system')
+      each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    expectAllCards()
+
+    cy.get('#census-region, #city, #north-american-industry-classification-system')
+      each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    regex = /(?=.*census-region|city)(?=.*north-american-industry-classification-system)/
+    testPSListWithRegex(regex)
+    cy.get('#census-region, #city, #north-american-industry-classification-system')
+      each($filter => {
+        cy.wrap($filter).click({force: true})
+      })
+    expectAllCards()
+    
+  })
+
+  it('resets all filters after clicking the RESET FILTER button', () => {
+
   })
 })

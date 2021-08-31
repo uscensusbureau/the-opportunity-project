@@ -32,7 +32,7 @@ timeline:
     items:
       - text: General Information Session – August 23, 2:00-3:00 pm ET
         href: https://odfggcinfowebinar2.splashthat.com/
-      - text: Open Data + Information Session  – September 9, 3:00-4:00 pm ET
+      - text: Open Data + Information Session  – September 9, 3:00-4:15 pm ET
         href: https://odfggcinfowebinartopxtoolkit.splashthat.com
   - text: Prize Submission Opens
     subtitle: September 13th, 2021

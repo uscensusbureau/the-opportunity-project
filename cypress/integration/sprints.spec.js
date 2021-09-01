@@ -123,7 +123,6 @@ describe('past sprints test', () => {
   ]
   const numPs = categories.reduce(
     ((accumulator, currVal) => accumulator + currVal.amt), 0)
-  console.log(numPs)
 
   beforeEach(() => {
     cy.visit('/sprints/past-sprints/')

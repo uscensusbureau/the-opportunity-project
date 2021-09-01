@@ -85,12 +85,15 @@ function filterDataSets () {
         })
         if (passesAdvanced) {
           card.classList.remove('pc-inactive')
+          card.setAttribute('dch-passes-filter', true)
           filteredProducts.push(card)
         } else {
           card.classList.add('pc-inactive')
+          card.setAttribute('dch-passes-filter', false)
         }
       } else {
         card.classList.add('pc-inactive')
+        card.setAttribute('dch-passes-filter', false)
       }
     }
   }

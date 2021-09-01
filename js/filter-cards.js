@@ -238,7 +238,6 @@ function paginateProducts (pageIndex, scrollToTop = false, currentlyFiltered = n
   const showStart = pageIndex * CARDS_PER_PAGE
   filteredProducts = currentlyFiltered || filteredProducts
   const showEnd = Math.min((pageIndex + 1) * CARDS_PER_PAGE, filteredProducts.length)
-  console.log(`paginating ${filteredProducts.length} products`)
   filteredProducts.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
       card.classList.add('pc-active')

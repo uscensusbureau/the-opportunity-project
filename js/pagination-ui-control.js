@@ -29,6 +29,7 @@ class PaginationUIControl {
   }
 
   setTotalItems (numItems) {
+    console.log(`setting num items ${numItems}`)
     this.numItems = numItems
     this.numPages = Math.ceil(numItems / this.numPerPage)
     this.currPage = 0

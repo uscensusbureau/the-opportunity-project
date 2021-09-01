@@ -62,6 +62,14 @@ layout: default
       {% endif %}
     {% endfor %}
     </ul>
+
+    {% include nav/pagination.html 
+      maxPages=5 
+      label="Datasets search results page" 
+      class="pagination--dark" 
+      id="dch-pagination" %}
+
+
     {% if page.dataset == "covid" %}
       <h3 class="font-sans-m text-white">Below are additional points of contacts for Census data in the following topics:</h3>
       {% for expert-group in site.data.covid-census-experts %}

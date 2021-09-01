@@ -1,4 +1,7 @@
+const [paginateProducts, paginator] = require('./filter-cards.js')
+
 const searchField = document.getElementById('search-field')
+
 const dchCheckboxes = document.querySelectorAll('.dch-checkbox input')
 const resultsCountDisplay = document.getElementById('results-count')
 const advancedFilters = {}
@@ -57,7 +60,7 @@ function filterDataSets () {
   const datasets = document.getElementsByName('data-set-card')
   const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
 
-  let datasetsFound = 0
+  const filteredProducts = []
   for (const card of datasets) {
     if (card.getElementsByTagName('h2')[0]) {
       const dataName = card.getElementsByTagName('h2')[0].innerText
@@ -82,7 +85,7 @@ function filterDataSets () {
         })
         if (passesAdvanced) {
           card.classList.remove('pc-inactive')
-          datasetsFound++
+          filteredProducts.push(card)
         } else {
           card.classList.add('pc-inactive')
         }
@@ -91,6 +94,24 @@ function filterDataSets () {
       }
     }
   }
-  const suffix = datasetsFound === 1 ? '' : 's'
-  resultsCountDisplay.innerText = `Found ${datasetsFound} dataset${suffix}.`
+  const numSetsFound = filteredProducts.length
+  const suffix = numSetsFound === 1 ? '' : 's'
+  resultsCountDisplay.innerText = `Found ${numSetsFound} dataset${suffix}.`
+
+  paginator.setTotalItems(document.querySelectorAll('.data-set-card:not(.pc-inactive)').length)
+  paginator.setCurrPage(0)
+  paginateProducts(0, false, filteredProducts)
 }
+
+if (document.querySelector('body.page-datakit')) {
+  console.log(paginator)
+  filterDataSets()
+}
+
+/** pagination */
+// const PAGINATOR_ID = 'dch-pagination'
+// const CARDS_PER_PAGE = 24
+// const paginator = new PaginationUIControl(PAGINATOR_ID, CARDS_PER_PAGE, paginateProducts)
+// if (document.getElementById(PAGINATOR_ID)) {
+//   paginator.setTotalItems(document.getElementsByClassName('data-set-card').length)
+// }

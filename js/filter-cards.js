@@ -1,5 +1,4 @@
 const PaginationUIControl = require('./pagination-ui-control.js')
-
 const $ = require('jquery')
 
 const prodSearchForm = document.getElementById('product-search-form')
@@ -27,10 +26,18 @@ const filters = [
   { id: 'partner-agency', checked: filterAgencies }
 ]
 
-let filteredProducts = document.querySelectorAll('.product-card:not(.pc-inactive)')
-const paginator = new PaginationUIControl('pagination-nav', CARDS_PER_PAGE, paginateProducts)
-if (document.getElementById('pagination-nav')) {
-  paginator.setTotalItems(101)
+// pagination controls
+const isDCH = !!document.querySelector('body.page-datakit')
+const cardSelector = isDCH ? '.data-set-card' : '.product-card'
+const paginationID = isDCH ? 'dch-pagination' : 'pagination-nav'
+let filteredProducts = document.querySelectorAll(`${cardSelector}:not(.pc-inactive)`)
+const paginator = new PaginationUIControl(paginationID, CARDS_PER_PAGE, paginateProducts)
+if (document.getElementById(paginationID)) {
+  if (isDCH) {
+    paginator.setTotalItems(document.querySelectorAll(cardSelector).length)
+  } else {
+    paginator.setTotalItems(101)
+  }
 }
 
 // if there's a search term in the URL params, set it and search with it
@@ -225,11 +232,13 @@ function checkFilterMatch (productValue, filterArray) {
  * remove pc-inactive class for all cards on current page
  * @param {int} pageIndex page of products to show
  */
-function paginateProducts (pageIndex, scrollToTop = false) {
+function paginateProducts (pageIndex, scrollToTop = false, currentlyFiltered = null) {
   // clamp page number
   pageIndex = Math.max(0, Math.min(Math.ceil(filteredProducts.length / CARDS_PER_PAGE) - 1, pageIndex))
   const showStart = pageIndex * CARDS_PER_PAGE
+  filteredProducts = currentlyFiltered || filteredProducts
   const showEnd = Math.min((pageIndex + 1) * CARDS_PER_PAGE, filteredProducts.length)
+  console.log(`paginating ${filteredProducts.length} products`)
   filteredProducts.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
       card.classList.add('pc-active')
@@ -357,3 +366,5 @@ const closeModal = () => {
 }
 
 $('.close').on('click', closeModal)
+
+module.exports = [paginateProducts, paginator, filteredProducts]

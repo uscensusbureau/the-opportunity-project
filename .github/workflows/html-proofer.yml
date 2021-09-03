@@ -18,6 +18,8 @@ jobs:
           ruby-version: 2.6
           bundler-cache: true
 
+      - uses: c-hive/gha-npm-cache@v1
+      
       - name: Install proofer dependencies.
         run: npm install
 

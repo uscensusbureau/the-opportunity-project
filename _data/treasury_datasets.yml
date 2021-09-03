@@ -1,0 +1,78 @@
+- airtable_createdTime: '2021-08-19T15:26:20.000Z'
+  airtable_id: rec5tZ7bcx8PAUffl
+  description: Detailed industry estimates of nonfarm employment, hours, and earnings
+    of workers on payrolls.
+  geography:
+  - Core Based Statistical Area
+  - State
+  industry:
+  - North American Industry Classification System
+  link: https://www.bls.gov/ces/
+  name: Current Employment Statistics Survey
+  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organizations:
+  - recZxSer4T6bBMfqU
+  - recnDoHewBvPIWrBO
+  tag:
+  - Labor, Income, Prices
+- airtable_createdTime: '2021-08-19T15:26:20.000Z'
+  airtable_id: recU85omIJr27mWlq
+  description: Information about the nature of work, working conditions, training
+    and education, earnings and job outlook for hundreds of different occupations.
+  link: https://www.bls.gov/ooh/
+  name: Occupational Outlook Handbook
+  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organizations:
+  - recZxSer4T6bBMfqU
+  - recnDoHewBvPIWrBO
+- airtable_createdTime: '2021-08-19T15:22:53.000Z'
+  airtable_id: reckFopvDWosTJ0T6
+  description: Data on the number and types of private health insurance plans offered,
+    benefits associated with these plans, annual premiums, annual contributions by
+    employers and employees, eligibility requirements, and employer characteristics.
+  link: https://meps.ahrq.gov/mepsweb/survey_comp/Insurance.jsp
+  name: Medical Expenditure Panel Survey
+  organization_text: U.S. Department of Health and Human Services
+  organizations:
+  - recZod0Y9uE8dnrem
+  tag:
+  - Labor, Income, Prices
+  - Healthcare/COVID
+- airtable_createdTime: '2021-08-19T15:22:53.000Z'
+  airtable_id: recsdg958IyEjneOW
+  description: Monthly estimates of total employment and unemployment for over 7,500
+    areas.
+  geography:
+  - Census Region
+  - Census Division
+  - Core Based Statistical Area
+  - City
+  - State
+  - County
+  link: https://www.bls.gov/lau/
+  name: Local Area Unemployment Statistics
+  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organizations:
+  - recZxSer4T6bBMfqU
+  - recnDoHewBvPIWrBO
+  tag:
+  - Labor, Income, Prices
+- airtable_createdTime: '2021-08-19T15:22:53.000Z'
+  airtable_id: recvq8VSOZ5Fk8uo3
+  description: 'The Consumer Price Index (CPI) is a measure of the average change
+    over time in the prices paid by urban consumers for a market basket of consumer
+    goods and services. Indexes are available for the U.S. and various geographic
+    areas. '
+  geography:
+  - Census Region
+  - Census Division
+  - Core Based Statistical Area
+  - State
+  link: https://www.bls.gov/cpi/
+  name: Consumer Price Index
+  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organizations:
+  - recZxSer4T6bBMfqU
+  - recnDoHewBvPIWrBO
+  tag:
+  - Labor, Income, Prices

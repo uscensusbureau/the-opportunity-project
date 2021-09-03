@@ -34,9 +34,18 @@
 {% elsif page.class == "about" or page.class == "datakit" %}
 <section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
-    <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
+    
+    <div class="maxw-mobile-lg grid-offset-1 {%if page.class == "datakit" %}margin-top-2{% else %}margin-top-9{%endif%}">
+      {% if page.class == "datakit" %}
+        <div>
+          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#arrow_back"></use>
+          </svg>
+          <a class="usa-link" href="{{ site.baseurl }}/data">All Data Kits</a>
+        </div>
+      {% endif %}
       <h1
-        class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white"
+        class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white {%if page.class == "datakit" %}margin-top-6{% else %}margin-top-10{%endif%}"
       >
         {{ page.title }}
       </h1>

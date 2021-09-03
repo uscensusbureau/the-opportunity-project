@@ -5,4 +5,18 @@
       pointer-events: none;
     }
   }
+
+  &.pagination--dark {
+    .usa-pagination__button {
+      @include u-bg('primary-darker');
+      @include u-color('white');
+      &.usa-current {
+        @include u-bg('white');
+        @include u-color('primary');
+      }
+    }
+    .usa-pagination__link {
+      @include u-color('white');
+    }
+  }
 }

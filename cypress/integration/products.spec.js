@@ -336,7 +336,7 @@ describe('Products Test', () => {
     cy.get(activeQuery).should('have.length.lessThan', 101)
   })
 
-  it.only('redirects from /products to /showcase', () => {
+  it('redirects from /products to /showcase', () => {
     cy.visit('/products')
     cy.url().should('include', 'showcase')
 

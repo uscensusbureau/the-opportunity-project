@@ -1,7 +1,6 @@
 ---
 title: COVID-19
 permalink: /data/covid-19/
-layout: dch/search
 class: datakit
 
 sprint-name: ASA Data Challenge Expo

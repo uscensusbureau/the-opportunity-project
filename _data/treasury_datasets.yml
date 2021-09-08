@@ -1,3 +1,25 @@
+- airtable_createdTime: '2021-09-07T21:45:16.000Z'
+  airtable_id: rec2kq88LdZlu7Zic
+  description: A dataset that is made up to test adding a bunch of tags to the site
+    UI
+  geography:
+  - Census Block / Block Group
+  - City
+  - Tribal Block Groups
+  - Tribal Census Tracts
+  - School District
+  - State
+  - Zip Code (Postal or ZCTA)
+  - County
+  industry:
+  - Standard Occupational Classification
+  link: www.data.gov
+  name: Test Dataset
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Joining & Mapping
 - airtable_createdTime: '2021-08-19T15:26:20.000Z'
   airtable_id: rec5tZ7bcx8PAUffl
   description: Detailed industry estimates of nonfarm employment, hours, and earnings

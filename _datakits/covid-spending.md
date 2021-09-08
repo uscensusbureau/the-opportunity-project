@@ -12,5 +12,5 @@ lead: Economic, demographic, and geographic data on where and how money was disp
 image: /assets/img/data-kits/covid-spending-square.jpg
 image-alt: 'Stone column facade of a federal building in front of a blue sky'
 
-upcoming: true
+upcoming: false
 ---

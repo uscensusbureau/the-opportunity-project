@@ -8,6 +8,11 @@
 
 <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
   <div class="usa-card__container datasets__card bg-primary-darker">
+    {% if item.featuredDataset %}
+      <div class="datasets__featured-banner">
+        <p class="text-base text-italic">Featured Dataset</p>
+      </div>
+    {% endif %}
     <header class="usa-card__header usa-dark-background">
       <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">
         {% unless item.hasMultipleLinks %}

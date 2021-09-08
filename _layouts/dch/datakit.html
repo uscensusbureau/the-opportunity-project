@@ -19,7 +19,7 @@ layout: default
   {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
     {% assign display-datasets = site.data.treasury_datasets %}
 
-    {% assign checkboxSets = "geography,industry" | split: "," %}
+    {% assign checkboxSets = "geography" | split: "," %}
   {% endif %}
   {% assign filters = "All" | split: ',' %}
   {% for ps in display-datasets %}
@@ -29,6 +29,8 @@ layout: default
   {% endfor %}
   {% assign filters = filters | uniq %}
 {% endif %}
+
+{% assign display-datasets = display-datasets | sort: "featuredDataset" | reverse %}
 
 {% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">

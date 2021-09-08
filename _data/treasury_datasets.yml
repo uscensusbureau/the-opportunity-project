@@ -1,25 +1,44 @@
-- airtable_createdTime: '2021-09-07T21:45:16.000Z'
-  airtable_id: rec2kq88LdZlu7Zic
-  description: A dataset that is made up to test adding a bunch of tags to the site
-    UI
+- airtable_createdTime: '2021-09-08T15:33:52.000Z'
+  airtable_id: rec0IUom0g51JZvne
+  data_stewards:
+  - rec8bfHaA7zEPxfYN
+  description: Geographic and cartographic information, shapefiles
+  featuredDataset: true
   geography:
-  - Census Block / Block Group
-  - City
-  - Tribal Block Groups
+  - Census Tract
+  - Census Block
+  - Core Based Statistical Area
   - Tribal Census Tracts
+  - Tribal Block Groups
   - School District
   - State
-  - Zip Code (Postal or ZCTA)
+  - Congressional District
+  - Zip Code
   - County
-  industry:
-  - Standard Occupational Classification
-  link: www.data.gov
-  name: Test Dataset
+  link: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+  name: TIGER Shapefiles, U.S. Census Bureau
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
   tag:
   - Joining & Mapping
+- airtable_createdTime: '2021-09-08T19:12:57.000Z'
+  airtable_id: rec2CpdziRPWASBW5
+  description: A database, index, and mapping application to identify and quantify
+    the social vulnerability of communities to hazardous events, such as natural hazards,
+    human-caused disasters, or pandemics.
+  featuredDataset: true
+  geography:
+  - Census Tract
+  - State
+  - County
+  link: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html
+  name: Social Vulnerability Index
+  organization_text: Center for Disease Control
+  organizations:
+  - recVv9NEouQmQIFQj
+  tag:
+  - Demographic Information
 - airtable_createdTime: '2021-08-19T15:26:20.000Z'
   airtable_id: rec5tZ7bcx8PAUffl
   description: Detailed industry estimates of nonfarm employment, hours, and earnings
@@ -27,8 +46,6 @@
   geography:
   - Core Based Statistical Area
   - State
-  industry:
-  - North American Industry Classification System
   link: https://www.bls.gov/ces/
   name: Current Employment Statistics Survey
   organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
@@ -36,7 +53,378 @@
   - recZxSer4T6bBMfqU
   - recnDoHewBvPIWrBO
   tag:
-  - Labor, Income, Prices
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T16:00:54.000Z'
+  airtable_id: rec5taXcwL4OwuQcA
+  description: Research reports on Federal nutrition assistance programs
+  link: https://www.fns.usda.gov/research-analysis
+  name: Food and Nutrition Service Research and Analysis
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  tag:
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: rec7rCTnAlbgEA6y3
+  description: The ASE provides annual data on select economic and demographic characteristics
+    of employer businesses and their owners by gender, ethnicity, race, and veteran
+    status.
+  geography:
+  - State
+  - Core Based Statistical Area
+  link: https://www.census.gov/programs-surveys/ase.html
+  name: Annual Survey of Entrepreneurs
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Jobs & Economy
+  - Demographic Information
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: rec82170oDuM9o0gW
+  description: Annual estimates of average hourly wages for occupations by selected
+    job characteristics and within geographical location. The job characteristics
+    include bargaining status (union and nonunion), part- and full-time work status,
+    incentive- and time-based pay, and work levels by occupation.
+  geography:
+  - State
+  - Core Based Statistical Area
+  link: https://www.bls.gov/mwe/
+  name: Modeled Wage Estimates
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:13:11.000Z'
+  airtable_id: rec83B0cOUNewtJm0
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: Curated collection of tools, datasets, and analyses on COVID-19.
+  featuredDataset: true
+  link: https://covid19.census.gov/
+  name: "COVID-19 Data Hub \u2013 Data Equity, U.S. Census Bureau "
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: rec8nJfgoXBFyOSQy
+  description: Daily cumulative number of cases and deaths reported in each county
+    and state across the U.S. since the beginning of the pandemic.
+  featuredDataset: true
+  geography:
+  - State
+  - County
+  link: https://github.com/nytimes/covid-19-data
+  name: NYT Covid 19 Data
+  organization_text: The New York Times
+  organizations:
+  - rec0lcr9QWKKAFcXz
+  tag:
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:13:06.000Z'
+  airtable_id: rec9E4gr4AK22eQ0W
+  data_stewards:
+  - recxI338ZKCSCEYzo
+  - recU5J7n4zgyTUanc
+  description: "Data collected on how people\u2019s lives have been impacted by the\
+    \ coronavirus pandemic."
+  featuredDataset: true
+  geography:
+  - National
+  - State
+  - Core Based Statistical Area
+  link: https://www.census.gov/programs-surveys/household-pulse-survey.html
+  name: COVID-19 Household Pulse Survey, U.S. Census Bureau
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recBHWNG4ngk3IsX9
+  description: The CDFI Fund serves mission-driven financial institutions that take
+    a market-based approach to supporting economically disadvantaged communities.
+  geography:
+  - Census Tract
+  - City
+  - State
+  - Zip Code
+  link: https://www.cdfifund.gov/documents/data-releases
+  name: Community Development Financial Institutions Fund (CDFI) Data
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recgPNji2KEknNBA5
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recD38RNFbJnSR20D
+  description: Paycheck Protection Program data. Includes demographic information
+    of participants.
+  featuredDataset: true
+  geography:
+  - City
+  - County
+  - State
+  - Zip Code
+  - Congressional District
+  link: https://data.sba.gov/dataset/ppp-foia
+  name: PPP FOIA
+  organization_text: Small Business Administration
+  organizations:
+  - rech0xcl8a3PFLxhA
+  tag:
+  - Jobs & Economy
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T15:30:06.000Z'
+  airtable_id: recEDyyNs17h2f04R
+  data_stewards:
+  - recHQC1hU05Sw7kLj
+  description: Community resilience is the capacity of individuals and households
+    within a community to absorb, endure, and recover from the impacts of a disaster.
+  geography:
+  - State
+  - County
+  - Census Tract
+  link: https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html
+  name: Community Resilience Estimates
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Demographic Information
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recFbH2rLKq1Jm9XO
+  description: A measure of the cost of labor. The compensation series includes wages
+    and salaries plus employer costs for individual employee benefits. Employee benefit
+    costs are calculated as cost-per-hour-worked for individual benefits ranging from
+    employer payments for Social Security to paid time off for holidays.
+  geography:
+  - Core Based Statistical Area
+  link: https://download.bls.gov/pub/time.series/cm/
+  name: Employer Costs for Employee Compensation
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recGBBMuy16B9G8jr
+  description: Data on job openings, hires, and separations.
+  link: https://www.bls.gov/jlt/
+  name: Job Openings and Labor Turnover Survey
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:12:22.000Z'
+  airtable_id: recIvdzQfwZ1pKhGZ
+  description: Data on Federal food distribution service programs
+  geography:
+  - State
+  link: https://www.fns.usda.gov/pd/food-distribution-program-tables
+  name: Food Distribution Program Tables
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  tag:
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:13:01.000Z'
+  airtable_id: recIvtzwRkDfImaGx
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: Premier source for detailed population and housing information.
+  featuredDataset: true
+  geography:
+  - Census Tract
+  - Census Block
+  - Tribal Census Tracts
+  - Tribal Block Groups
+  - School District
+  - State
+  - County
+  - Congressional District
+  - Zip Code
+  - Core Based Statistical Area
+  link: https://www.census.gov/programs-surveys/acs
+  name: American Community Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Demographic Information
+- airtable_createdTime: '2021-09-08T19:12:53.000Z'
+  airtable_id: recKNVcISNvJgDf1m
+  data_stewards:
+  - recFHe5Z7RBmMTy9N
+  description: Single-year estimates of income and poverty for all U.S. states and
+    counties as well as estimates of school-age children in poverty for all 13,000+
+    school districts.
+  featuredDataset: true
+  geography:
+  - State
+  - County
+  - School District
+  link: https://www.census.gov/programs-surveys/saipe.html
+  name: Small Area Income and Poverty Estimates (SAIPE) Program
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Jobs & Economy
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recKyDR3HiNPrwsBy
+  description: Contract opportunities are procurement notices from federal contracting
+    offices. Anyone interested in doing business with the government can use this
+    system to search opportunities. Opportunities include pre-solicitation notices,
+    solicitation notices, award notices, and sole source notices.
+  geography:
+  - State
+  - Zip Code
+  link: https://sam.gov/content/opportunities
+  name: Contract Opportunities
+  organization_text: General Services Administration
+  organizations:
+  - recwZEjUqQYbYYdKE
+  tag:
+  - Government Finance
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recLhiXg7hTuVI0MK
+  description: Income and tax items classified by State, ZIP Code, and size of adjusted
+    gross income. Data are based on individual income tax returns filed with the IRS
+  featuredDataset: true
+  geography:
+  - State
+  - Zip Code
+  link: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
+  name: Individual Income Tax ZIP Code Data
+  organization_text: Internal Revenue Service
+  organizations:
+  - recZKzbkKqIm9Onc7
+  tag:
+  - Government Finance
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recLxpLrUwiVz4MMp
+  description: Aggregated income tax returns
+  geography:
+  - State
+  - County
+  - Core Based Statistical Area
+  link: https://www.irs.gov/statistics/soi-tax-stats-county-data
+  name: Tax Stats - County Data
+  organization_text: Internal Revenue Service
+  organizations:
+  - recZKzbkKqIm9Onc7
+  tag:
+  - Government Finance
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recMAvR007REkBJsp
+  description: 'Analysis of the fiscal condition of the states and data summaries
+    of state general fund revenues, expenditures, and balances. '
+  geography:
+  - State
+  link: https://www.nasbo.org/reports-data/fiscal-survey-of-states
+  name: Fiscal Survey of States
+  organization_text: National Association of State Budget Officers
+  organizations:
+  - recoZCivgAH2axW5y
+  tag:
+  - Government Finance
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recMGffiV30wdTeaj
+  description: Annual employment and wage estimates for nearly 800 occupations.
+  featuredDataset: true
+  geography:
+  - National
+  - State
+  - Core Based Statistical Area
+  link: https://www.bls.gov/oes/
+  name: Occupational Employment and Wage Statistics
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:13:03.000Z'
+  airtable_id: recOAUdAFRdM73U59
+  data_stewards:
+  - recVIIum28cWbUGkV
+  description: Measures the effect of changing business conditions during the Coronavirus
+    pandemic on our nation's small businesses.
+  featuredDataset: true
+  geography:
+  - National
+  - State
+  - Core Based Statistical Area
+  link: https://www.census.gov/data/experimental-data-products/small-business-pulse-survey.html
+  name: 'COVID-19 Small Business Pulse Survey, U.S. Census Bureau '
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:13:07.000Z'
+  airtable_id: recQp5USJ5bCTI3Yi
+  data_stewards:
+  - recQwLvEkSaq6npaH
+  description: Comprehensive body of data on the labor force, employment, unemployment,
+    persons not in the labor force, hours of work, earnings, and other demographic
+    and labor force characteristics.
+  featuredDataset: true
+  link: https://www.census.gov/programs-surveys/cps.html
+  name: Current Population Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Jobs & Economy
+  - Families & Children
+  - Demographic Information
+- airtable_createdTime: '2021-09-08T19:12:24.000Z'
+  airtable_id: recRXERUp5wDExYS0
+  description: Data on Federal child nutrition service programs
+  geography:
+  - State
+  link: https://www.fns.usda.gov/pd/child-nutrition-tables
+  name: Child Nutrition Tables
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  tag:
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recS1vPCvnWTrUmXb
+  description: Quarterly count of employment and wages reported by employers covering
+    more than 95 percent of U.S. jobs, available at the county, MSA, state and national
+    levels by industry.
+  geography:
+  - National
+  - State
+  - County
+  - Core Based Statistical Area
+  link: https://www.bls.gov/cew/
+  name: Quarterly Census of Employment and Wages
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recSTxIzQLccxhMR5
+  description: "Summaries of governors\u2019 budget proposals."
+  geography:
+  - State
+  link: https://www.nasbo.org/reports-data/summaries-proposed-enacted
+  name: Summaries of Proposed & Enacted Budgets
+  organization_text: National Association of State Budget Officers
+  organizations:
+  - recoZCivgAH2axW5y
+  tag:
+  - Government Finance
 - airtable_createdTime: '2021-08-19T15:26:20.000Z'
   airtable_id: recU85omIJr27mWlq
   description: Information about the nature of work, working conditions, training
@@ -47,6 +435,107 @@
   organizations:
   - recZxSer4T6bBMfqU
   - recnDoHewBvPIWrBO
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recVLtSJhCATZwIis
+  description: Current and historical data for numerous surveys and press releases.
+    Individual databases (in flat file format) corresponding to each of the surveys.
+  link: https://download.bls.gov/pub/time.series/
+  name: LABSTAT
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recVMHxeZdFwC2lMZ
+  description: Establishment-based survey that provides comprehensive measures of
+    (1) employer costs for employee compensation, including wages and salaries, and
+    benefits, (2) compensation trends, and (3) the incidence of employer-sponsored
+    benefits among workers.
+  link: https://www.bls.gov/opub/hom/ncs/home.htm
+  name: National Compensation Survey
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recafvPkSx2L9wzQq
+  description: Research report on the health and well-being of girls.
+  geography:
+  - State
+  link: https://www.girlscouts.org/en/about-girl-scouts/research/state-of-girls.html
+  name: Girl Scouts State of Girls
+  organization_text: Girl Scouts
+  organizations:
+  - recrj6jn1QlQO0Yff
+  tag:
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:13:09.000Z'
+  airtable_id: recdXXwN5A82Q1laq
+  data_stewards:
+  - recfSt0JNd76dfj1B
+  description: Timely and high frequency information on new business applications
+    and formations in the United States.
+  geography:
+  - State
+  link: https://www.census.gov/econ/bfs/
+  name: Business Formation Statistics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:13:04.000Z'
+  airtable_id: recdolYiRVWN3djo9
+  data_stewards:
+  - recRvc8jXE2eX97Xd
+  description: 'Education finance data including revenues, expenditures, debt, and
+    assets (cash and security holdings) of elementary and secondary public school
+    systems. '
+  geography:
+  - School District
+  - State
+  - County
+  - Core Based Statistical Area
+  link: https://www.census.gov/programs-surveys/school-finances.html
+  name: |
+    Annual Survey of School System Finances
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Government Finance
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:13:00.000Z'
+  airtable_id: rech6FY0fDLqglTQR
+  description: Supplemental Nutrition Assistance Program Participation and Benefits
+  geography:
+  - State
+  - Congressional District
+  link: https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap
+  name: SNAP Data Tables
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recRKu6t2inmGXXce
+  tag:
+  - Families & Children
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: rechIQPXc5a4NenrR
+  description: Migration data for the United States are based on year-to-year address
+    changes reported on individual income tax returns filed with the IRS.
+  geography:
+  - State
+  - County
+  link: https://www.irs.gov/statistics/soi-tax-stats-migration-data
+  name: U.S. Population Migration Data
+  organization_text: Internal Revenue Service
+  organizations:
+  - recZKzbkKqIm9Onc7
+  tag:
+  - Government Finance
 - airtable_createdTime: '2021-08-19T15:22:53.000Z'
   airtable_id: reckFopvDWosTJ0T6
   description: Data on the number and types of private health insurance plans offered,
@@ -58,15 +547,111 @@
   organizations:
   - recZod0Y9uE8dnrem
   tag:
-  - Labor, Income, Prices
-  - Healthcare/COVID
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: reckHInEgtl9GuuvU
+  description: A measure of the change in the cost of labor, free from the influence
+    of employment shifts among occupations and industries. The total compensation
+    series includes changes in wages and salaries and in employer costs for employee
+    benefits.
+  geography:
+  - Core Based Statistical Area
+  link: https://download.bls.gov/pub/time.series/ci/
+  name: Employment Cost Index
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:06:05.000Z'
+  airtable_id: reclpwGzTVn35A5OM
+  description: Join USPS Zip Codes to various geographies.
+  featuredDataset: true
+  geography:
+  - Census Tract
+  - County
+  - Core Based Statistical Area
+  - Zip Code
+  - Congressional District
+  link: https://www.huduser.gov/portal/datasets/usps_crosswalk.html
+  name: USPS Zip Code Crosswalk Files
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recRLxRGfiWtHnmAs
+  tag:
+  - Joining & Mapping
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recnsCEs4SjCGSSO7
+  description: Official open data source of federal spending information.
+  featuredDataset: true
+  geography:
+  - State
+  - Congressional District
+  - Zip Code
+  link: https://www.usaspending.gov/
+  name: USAspending.gov
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recgPNji2KEknNBA5
+  tag:
+  - Government Finance
+- airtable_createdTime: '2021-09-08T19:06:10.000Z'
+  airtable_id: recq1Vji3t6Dk8Pv7
+  data_stewards:
+  - recek6AqRzigsJJko
+  description: Geographic identifier codes, names, area measurements, and representative
+    latitude and longitude coordinates.
+  featuredDataset: true
+  geography:
+  - Core Based Statistical Area
+  - Census Tract
+  - School District
+  - State
+  - Congressional District
+  - Zip Code
+  - County
+  link: Gazetteer Files
+  name: Gazetteer Files
+  organization_text: Geographic identifier codes, names, area measurements, and representative
+    latitude and longitude coordinates.
+  organizations:
+  - recHr8D1jvIW1cQNh
+  - recVjTt0lvVLsHIfJ
+  - recdCcMcpkf6KsLD8
+  - rec9QCCNsJtWCbiCh
+  tag:
+  - Joining & Mapping
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recqIl33mtcLxeo2b
+  description: Total number of Medicaid enrollees, count of individuals whom a state
+    has determined are newly eligible for Medicaid.
+  geography:
+  - State
+  link: https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-chip-enrollment-data/medicaid-enrollment-data-collected-through-mbes/index.html
+  name: Medicaid Enrollment Data
+  organization_text: Medicaid
+  organizations:
+  - recS7NfOntwtLFOzz
+  tag:
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recr9irkXZn5kVl46
+  description: Publicatioins, data products, and papers which describe and measure
+    elements of the U.S. tax system.
+  featuredDataset: true
+  link: https://www.irs.gov/statistics
+  name: IRS Tax Statistics
+  organization_text: Internal Revenue Service
+  organizations:
+  - recZKzbkKqIm9Onc7
+  tag:
+  - Government Finance
 - airtable_createdTime: '2021-08-19T15:22:53.000Z'
   airtable_id: recsdg958IyEjneOW
   description: Monthly estimates of total employment and unemployment for over 7,500
     areas.
+  featuredDataset: true
   geography:
-  - Census Region
-  - Census Division
   - Core Based Statistical Area
   - City
   - State
@@ -78,7 +663,33 @@
   - recZxSer4T6bBMfqU
   - recnDoHewBvPIWrBO
   tag:
-  - Labor, Income, Prices
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: rectZuHQJEKME3fCz
+  description: Number of applications, awards, and total amount approved by state
+    for FEMA COVID-19 funeral expense financial assistance.
+  geography:
+  - State
+  link: https://www.fema.gov/press-release/20210816/fema-provides-covid-19-funeral-assistance-state-state-breakdown
+  name: FEMA Funeral costs
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recCGtljPyEpJ15UO
+  tag:
+  - Healthcare & COVID-19
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recucGHyuFhT1Tae5
+  description: Crosswalk used to convert ZIP Codes to ZCTAs
+  featuredDataset: true
+  geography:
+  - Zip Code
+  link: https://udsmapper.org/zip-code-to-zcta-crosswalk/
+  name: Zip Code to ZCTA Crosswalk
+  organization_text: UDS Mapper
+  organizations:
+  - recHKPz1C0S5TGoiZ
+  tag:
+  - Joining & Mapping
 - airtable_createdTime: '2021-08-19T15:22:53.000Z'
   airtable_id: recvq8VSOZ5Fk8uo3
   description: 'The Consumer Price Index (CPI) is a measure of the average change
@@ -86,8 +697,6 @@
     goods and services. Indexes are available for the U.S. and various geographic
     areas. '
   geography:
-  - Census Region
-  - Census Division
   - Core Based Statistical Area
   - State
   link: https://www.bls.gov/cpi/
@@ -97,4 +706,42 @@
   - recZxSer4T6bBMfqU
   - recnDoHewBvPIWrBO
   tag:
-  - Labor, Income, Prices
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:43.000Z'
+  airtable_id: recwk9KMzx00GAayB
+  description: A quarterly series of statistics on gross job gains and gross job losses.
+    Gross job gains and gross job losses reveal some aspects of business dynamics,
+    including establishment openings and closings and establishment expansions and
+    contractions.
+  featuredDataset: true
+  geography:
+  - Core Based Statistical Area
+  - State
+  - County
+  link: https://www.bls.gov/bdm/bdmover.htm
+  name: Business Employment Dynamics
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  tag:
+  - Jobs & Economy
+- airtable_createdTime: '2021-09-08T19:24:46.000Z'
+  airtable_id: recyiHOMbuiDV1SIu
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  description: 'The Annual Business Survey (ABS) provides information on selected
+    economic and demographic characteristics for businesses and business owners by
+    sex, ethnicity, race, and veteran status. '
+  featuredDataset: true
+  geography:
+  - State
+  - Core Based Statistical Area
+  - County
+  link: https://www.census.gov/programs-surveys/abs.html
+  name: Annual Business Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  tag:
+  - Jobs & Economy
+  - Demographic Information

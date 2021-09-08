@@ -1227,14 +1227,11 @@ main {
         text-decoration: underline;
       }
     }
+  }
 
-    // &:hover {
-    //   transition: all 100ms ease;
-    //   border: 2px solid #F7C636;
-    //   .external-link {
-    //     opacity: 1;
-    //   }
-    // }
+  .datasets__featured-banner {
+    border-radius: 10px 10px 0 0;
+    @include u-padding-x(4);
   }
 
 

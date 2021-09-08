@@ -14,6 +14,11 @@
   name: National Coalition for Homeless Veterans
   sprints:
   - rec4F32ORdTWH8d80
+- airtable_createdTime: '2021-09-08T19:36:54.000Z'
+  airtable_id: rec0lcr9QWKKAFcXz
+  name: The New York Times
+  treasury_datasets:
+  - rec8nJfgoXBFyOSQy
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: rec0mMptJT4UmFmc4
   members:
@@ -366,6 +371,11 @@
   members:
   - recqVnck9CcEyjYsC
   name: George Washington University
+- airtable_createdTime: '2021-09-08T19:06:28.000Z'
+  airtable_id: rec9QCCNsJtWCbiCh
+  name: and representative latitude and longitude coordinates.
+  treasury_datasets:
+  - recq1Vji3t6Dk8Pv7
 - acronym: OMB
   agency leads:
   - recCbcOHRMSGq15Lt
@@ -517,6 +527,12 @@
   - recaTb3X7BFgLNXZw
   - recDMs9ZZKatRJ6fX
   - rec8bfHaA7zEPxfYN
+  - recek6AqRzigsJJko
+  - recQwLvEkSaq6npaH
+  - recFHe5Z7RBmMTy9N
+  - recfSt0JNd76dfj1B
+  - recRvc8jXE2eX97Xd
+  - recVIIum28cWbUGkV
   name: U.S. Census Bureau
   problem statements:
   - rec2cDmW6ubg6Wco0
@@ -529,6 +545,19 @@
   - recdkBaZ8qiY98UM4
   - reccHr0aPWZzFbgi8
   - recquGRxIztb7VrBj
+  treasury_datasets:
+  - recEDyyNs17h2f04R
+  - rec0IUom0g51JZvne
+  - recQp5USJ5bCTI3Yi
+  - recKNVcISNvJgDf1m
+  - recdXXwN5A82Q1laq
+  - recdolYiRVWN3djo9
+  - recIvtzwRkDfImaGx
+  - rec83B0cOUNewtJm0
+  - rec9E4gr4AK22eQ0W
+  - recOAUdAFRdM73U59
+  - recyiHOMbuiDV1SIu
+  - rec7rCTnAlbgEA6y3
 - airtable_createdTime: '2020-02-07T17:49:16.000Z'
   airtable_id: rec9eEFUpZ0UAukMG
   members:
@@ -663,6 +692,8 @@
   name: Federal Emergency Management Agency
   problem statements:
   - recqL51kCcBL6go3m
+  treasury_datasets:
+  - rectZuHQJEKME3fCz
 - airtable_createdTime: '2020-02-04T22:17:16.000Z'
   airtable_id: recCQeXnM3qtBOGTs
   name: Socrata
@@ -909,6 +940,11 @@
   members:
   - recgPhCOOGn2Yqmyc
   name: Google
+- airtable_createdTime: '2021-09-08T19:38:33.000Z'
+  airtable_id: recHKPz1C0S5TGoiZ
+  name: UDS Mapper
+  treasury_datasets:
+  - recucGHyuFhT1Tae5
 - airtable_createdTime: '2020-02-04T21:14:58.000Z'
   airtable_id: recHNjjPXIHJWQt72
   members:
@@ -935,6 +971,11 @@
   - rec85E0U2wrRBV8dc
   sprints:
   - recMpslqDTkD8bJoj
+- airtable_createdTime: '2021-09-08T19:06:28.000Z'
+  airtable_id: recHr8D1jvIW1cQNh
+  name: Geographic identifier codes
+  treasury_datasets:
+  - recq1Vji3t6Dk8Pv7
 - airtable_createdTime: '2020-02-04T22:47:46.000Z'
   airtable_id: recI7fBNvrCid0ZPD
   members:
@@ -1357,6 +1398,11 @@
   - rec7PAfceBewrUGZ3
   - rec1e6bSt2fE0Ke14
   - recSM7q7ufXLojrBx
+  treasury_datasets:
+  - rech6FY0fDLqglTQR
+  - recRXERUp5wDExYS0
+  - recIvdzQfwZ1pKhGZ
+  - rec5taXcwL4OwuQcA
 - acronym: HUD
   agency leads:
   - recuHLtkUO3AprHCQ
@@ -1400,6 +1446,8 @@
   - recBxwNpfEqtxSEbI
   - recD4rN8c5sH3ECRi
   - recsbfXyfEmL6eaDo
+  treasury_datasets:
+  - reclpwGzTVn35A5OM
 - airtable_createdTime: '2020-02-07T17:45:34.000Z'
   airtable_id: recRQaX3cwcSsxIPr
   members:
@@ -1422,6 +1470,11 @@
   name: National League of Cities
   sprints:
   - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-09-08T19:34:35.000Z'
+  airtable_id: recS7NfOntwtLFOzz
+  name: Medicaid
+  treasury_datasets:
+  - recqIl33mtcLxeo2b
 - airtable_createdTime: '2020-02-04T22:59:11.000Z'
   airtable_id: recSCTf8hGGnYtP9b
   members:
@@ -1539,6 +1592,11 @@
   datasets:
   - reciFXNH5vMGxfNaw
   name: Our World in Data
+- airtable_createdTime: '2021-09-08T19:06:28.000Z'
+  airtable_id: recVjTt0lvVLsHIfJ
+  name: names
+  treasury_datasets:
+  - recq1Vji3t6Dk8Pv7
 - acronym: MRLC
   airtable_createdTime: '2021-08-16T14:05:15.000Z'
   airtable_id: recVknKqal8oDRtBt
@@ -1575,6 +1633,8 @@
   - recvxImejUy1I9lM4
   - recCoH9DxAilWBUqU
   name: Center for Disease Control
+  treasury_datasets:
+  - rec2CpdziRPWASBW5
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: recVzwV1Kc8lrucQf
   members:
@@ -1697,6 +1757,11 @@
   members:
   - recROkSUzb5vq1pFD
   name: Internal Revenue Service
+  treasury_datasets:
+  - recLhiXg7hTuVI0MK
+  - recr9irkXZn5kVl46
+  - recLxpLrUwiVz4MMp
+  - rechIQPXc5a4NenrR
 - airtable_createdTime: '2020-02-05T23:09:18.000Z'
   airtable_id: recZbMqqKSxUiE7PX
   members:
@@ -1758,6 +1823,15 @@
   - recvq8VSOZ5Fk8uo3
   - rec5tZ7bcx8PAUffl
   - recU85omIJr27mWlq
+  - recwk9KMzx00GAayB
+  - recFbH2rLKq1Jm9XO
+  - reckHInEgtl9GuuvU
+  - recVLtSJhCATZwIis
+  - rec82170oDuM9o0gW
+  - recVMHxeZdFwC2lMZ
+  - recMGffiV30wdTeaj
+  - recS1vPCvnWTrUmXb
+  - recGBBMuy16B9G8jr
 - airtable_createdTime: '2021-07-22T22:30:33.000Z'
   airtable_id: reca1uqBuCaLkRdOl
   datasets:
@@ -1892,6 +1966,11 @@
   name: Davey Institute
   sprints:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-09-08T19:06:28.000Z'
+  airtable_id: recdCcMcpkf6KsLD8
+  name: area measurements
+  treasury_datasets:
+  - recq1Vji3t6Dk8Pv7
 - airtable_createdTime: '2020-02-10T16:03:58.000Z'
   airtable_id: recdjgPjCcxGNSoUs
   name: Wolfram
@@ -2050,6 +2129,9 @@
   - recGXB6VI2XEbqemj
   - recjgkTgiJVNQI06t
   - rec3DhHvGbMYMTN1A
+  treasury_datasets:
+  - recnsCEs4SjCGSSO7
+  - recBHWNG4ngk3IsX9
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: recgT5oEXYh06kjYv
   members:
@@ -2106,6 +2188,8 @@
   - rec2RDlz9s3N9CQ1m
   - rec8YLD0wGVdvLis7
   name: Small Business Administration
+  treasury_datasets:
+  - recD38RNFbJnSR20D
 - acronym: EOP
   agency leads:
   - recjfrlfNCfm4eqU1
@@ -2421,6 +2505,12 @@
   name: Resource Recycling Systems (RRS)
   products:
   - recxNb6AkmDER2KXh
+- airtable_createdTime: '2021-09-08T19:35:16.000Z'
+  airtable_id: recoZCivgAH2axW5y
+  name: National Association of State Budget Officers
+  treasury_datasets:
+  - recMAvR007REkBJsp
+  - recSTxIzQLccxhMR5
 - airtable_createdTime: '2020-02-04T21:15:39.000Z'
   airtable_id: recoaWbpjLMVcGQuZ
   members:
@@ -2509,6 +2599,11 @@
   datasets:
   - rece8msRdyrgdK6fm
   name: Association of Plastic Recyclers
+- airtable_createdTime: '2021-09-08T19:33:17.000Z'
+  airtable_id: recrj6jn1QlQO0Yff
+  name: Girl Scouts
+  treasury_datasets:
+  - recafvPkSx2L9wzQq
 - airtable_createdTime: '2020-02-04T21:14:57.000Z'
   airtable_id: recrmwme3zdCeHfqS
   members:
@@ -2639,6 +2734,8 @@
   - rec6NGFn1Skl8JSkm
   - rec4BHF0jrHr3RAu5
   name: General Services Administration
+  treasury_datasets:
+  - recKyDR3HiNPrwsBy
 - acronym: DPC
   agency leads:
   - recjfrlfNCfm4eqU1

@@ -259,9 +259,10 @@ function paginateProducts (pageIndex, scrollToTop = false, currentlyFiltered = n
   }
   window.history.replaceState(null, document.title, newURL)
 
+  const noun = isDCH ? 'datasets' : 'products'
   resultsTextDisplay.innerText = filteredProducts.length > 0
-    ? `Showing ${showStart + 1} - ${showEnd} of ${filteredProducts.length} products.`
-    : 'No products found.'
+    ? `Showing ${showStart + 1} - ${showEnd} of ${filteredProducts.length} ${noun}.`
+    : `No ${noun} found.`
   if (scrollToTop) {
     resultsTextDisplay.scrollIntoView({ block: 'center' })
   }

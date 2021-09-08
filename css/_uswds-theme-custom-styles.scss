@@ -1231,7 +1231,10 @@ main {
 
   .datasets__featured-banner {
     border-radius: 10px 10px 0 0;
-    @include u-padding-x(4);
+    @include u-padding-x(3);
+    @include u-color('accent-warm');
+    @include u-text('italic');
+    @include u-margin-top(2);
   }
 
 

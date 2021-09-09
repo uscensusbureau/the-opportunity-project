@@ -1034,7 +1034,7 @@ main {
     @include u-border-color('white');
     @include u-bg('primary-darker');
     @include u-color('white');
-    @include u-padding-left(3);
+    @include u-padding-left(2);
     text-indent: 0;
     &::before {
       display: none;

@@ -27,7 +27,8 @@
   {% else %}
     
     <div class="grid-row grid-gap text-white margin-top-3">
-      <div class="mobile-lg:grid-col-4">
+      {% assign breakpoint = "tablet" %}
+      <div class="{{breakpoint}}:grid-col-5">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Filter by category</legend>
           {% assign categoryHalf = data-topics.size | divided_by: 2.0 | ceil %}
@@ -46,32 +47,30 @@
         </fieldset>
       </div>
       {% for group in checkboxSets %}
-      <div class="mobile-lg:grid-col-6 mobile-lg:grid-offset-1 margin-top-4 mobile-lg:margin-top-0">
-        <fieldset class="usa-form dch__checkbox-group" name="{{group}}">
+      <div class="{{breakpoint}}:grid-col-6 {{breakpoint}}:grid-offset-1 margin-top-4 {{breakpoint}}:margin-top-0">
+        {% assign options = "" | split: ',' %}
+        {% for dataset in site.data.treasury_datasets %}
+          {% for option in dataset[group] %}
+            {% assign geography = site.data.geographies | where: "airtable_id", option %}
+            {% assign options = options | push: geography %}
+          {% endfor %}
+        {% endfor %}
+        {% assign options = options | uniq | sort: "order" %}
+        {% assign optionMidpoint = options.size | divided_by: 2.0 | ceil %}
+        <fieldset class="usa-form dch__checkbox-group maxw-none" name="{{group}}">
           <legend class="usa-legend">Filter by available {{group}}</legend>
-          {% comment %} get all options for the given field {% endcomment %}
-          {% assign options = "" | split: ',' %}
-          {% for dataset in site.data.treasury_datasets %}
-            {% for option in dataset[group] %}
-              {% assign geography = site.data.geographies | where: "airtable_id", option %}
-              {% assign options = options | push: geography %}
-            {% endfor %}
-          {% endfor %}
-          {% assign options = options | uniq | sort: "order" %}
-          {% for option in options %}
-          <div class="usa-checkbox dch-checkbox">
-              <input
-                class="usa-checkbox__input"
-                id="{{option.name | slugify}}"
-                type="checkbox"
-                name="{{group | slugify}}"
-                value="{{option.name | slugify}}"
-              />
-              <label class="usa-checkbox__label" for="{{option.name | slugify}}">
-                {{ option.name }}
-              </label>
+          <div class="grid-container grid-row grid-gap padding-x-0">
+            <div class="grid-col-6 padding-left-0">
+              {% for option in options limit:optionMidpoint %}
+                {% include dch/dch__geo-option.html data=option %}
+              {% endfor %}
+            </div>
+            <div class="grid-col-6 padding-right-0">
+              {% for option in options offset:optionMidpoint %}
+                {% include dch/dch__geo-option.html data=option %}
+              {% endfor %}
+            </div>
           </div>
-          {% endfor %}
         </fieldset>
       </div>
       {% endfor %}

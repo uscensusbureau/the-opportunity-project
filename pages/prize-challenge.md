@@ -37,7 +37,7 @@ timeline:
   - text: Prize Submission Opens
     subtitle: September 13th, 2021
     items:
-    - text: Final Info and Q&A – Oct 6, 5:00-6:00 pm ET
+    - text: Info and Q&A – Oct 6, 5:00-6:00 pm ET
       href: http://odfggcfinalinfowebinar.splashthat.com
   - text: Prize Submission Deadline
     subtitle: October 24th, 2021

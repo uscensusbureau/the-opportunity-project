@@ -1065,11 +1065,19 @@ main {
     background-image: url(../img/correct-primary-dark.svg) !important;
     background-color: white !important;
     box-shadow: 0 0 0 2px color('primary-dark') !important;
-      // @include u-bg('accent-warm', '!important')
   }
 }
 
-
+.dch-card__tag {
+  background-color: transparent !important;
+  border: 1px solid;
+  @include u-border-color('primary-lighter');
+  @include u-color('primary-lighter', !important);
+  &.usa-tag--new {
+    @include u-bg('primary-lighter', !important);
+    @include u-color('primary-darker', !important);
+  }
+}
 
 .dkh-details {
   

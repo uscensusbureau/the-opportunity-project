@@ -2,7 +2,9 @@
 {% assign checkboxSets = include.checkboxSets %}
 
 {% if data-topics.size > 1 %}
+  
   {% if checkboxSets == null %}
+    
     <div class="grid-row grid-gap">
       <ul class="data-card-group margin-top-7">
         {% for data in data-topics %}
@@ -21,7 +23,9 @@
       </ul>
     </div>
     <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
-  {%  else %}
+  
+  {% else %}
+    
     <div class="grid-row grid-gap text-white margin-top-3">
       <div class="grid-col-4">
         <fieldset class="usa-fieldset">
@@ -52,21 +56,22 @@
           {% assign options = "" | split: ',' %}
           {% for dataset in site.data.treasury_datasets %}
             {% for option in dataset[group] %}
-              {% assign options = options | push: option %}
+              {% assign geography = site.data.geographies | where: "airtable_id", option %}
+              {% assign options = options | push: geography %}
             {% endfor %}
           {% endfor %}
-          {% assign options = options | uniq | sort %}
+          {% assign options = options | uniq | sort: "order" %}
           {% for option in options %}
           <div class="usa-checkbox dch-checkbox">
               <input
                 class="usa-checkbox__input"
-                id="{{option | slugify}}"
+                id="{{option.name | slugify}}"
                 type="checkbox"
                 name="{{group | slugify}}"
-                value="{{option | slugify}}"
+                value="{{option.name | slugify}}"
               />
-              <label class="usa-checkbox__label" for="{{option | slugify}}">
-                {{ option }}
+              <label class="usa-checkbox__label" for="{{option.name | slugify}}">
+                {{ option.name }}
               </label>
           </div>
           {% endfor %}

@@ -66,7 +66,7 @@ describe('Content tests', () => {
   })
 })
 
-describe.only('Filtering tests', () => {
+describe.skip('Filtering tests', () => {
 
   it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
@@ -80,7 +80,7 @@ describe.only('Filtering tests', () => {
   it('filters by tag on climate-smart page', () => {
     testPSFilters(pages[4])
   })
-  it.skip('filters by tag on COVID spending', () => {
+  it('filters by tag on COVID spending', () => {
     testPSFilters(pages[5])
   })
 
@@ -178,7 +178,7 @@ describe('Advanced filtering tests', () => {
           })
       })
 
-    cy.get('[name=data-set-card].pc-inactive .dataset__ps')
+    cy.get('[name=data-set-card][dch-passes-filter=false] .dataset__ps')
       .each($psList => {
         cy.wrap($psList)
           .invoke('html')
@@ -209,15 +209,15 @@ describe('Advanced filtering tests', () => {
       })
   })
 
-  it.only('filters by logical OR after checking two+ of same filter', () => {
+  it('filters by logical OR after checking two+ of same filter', () => {
 
-    cy.get('#census-division, #city, #state')
+    cy.get('#city, #state')
       .each($filter => {
         cy.wrap($filter).click({force: true})
       })
-    let regex = /census-division|city|state/
+    let regex = /city|state/
     testPSListWithRegex(regex)
-    cy.get('#census-division, #city, #state')
+    cy.get('#city, #state')
       .each($filter => {
         cy.wrap($filter).click({force: true})
       })

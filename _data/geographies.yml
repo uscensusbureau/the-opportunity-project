@@ -1,0 +1,172 @@
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: rec2cduwK0ClQdKDS
+  name: Zip Code
+  order: 5
+  treasury_datasets:
+  - rec0IUom0g51JZvne
+  - reclpwGzTVn35A5OM
+  - recq1Vji3t6Dk8Pv7
+  - recIvtzwRkDfImaGx
+  - recnsCEs4SjCGSSO7
+  - recBHWNG4ngk3IsX9
+  - recLhiXg7hTuVI0MK
+  - recD38RNFbJnSR20D
+  - recKyDR3HiNPrwsBy
+  - recucGHyuFhT1Tae5
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: rec6hnmumZhLa8ZP5
+  name: State
+  order: 10
+  treasury_datasets:
+  - recsdg958IyEjneOW
+  - recvq8VSOZ5Fk8uo3
+  - rec5tZ7bcx8PAUffl
+  - recEDyyNs17h2f04R
+  - rec0IUom0g51JZvne
+  - recq1Vji3t6Dk8Pv7
+  - recIvdzQfwZ1pKhGZ
+  - recRXERUp5wDExYS0
+  - recKNVcISNvJgDf1m
+  - rec2CpdziRPWASBW5
+  - rech6FY0fDLqglTQR
+  - recIvtzwRkDfImaGx
+  - recOAUdAFRdM73U59
+  - recdolYiRVWN3djo9
+  - rec9E4gr4AK22eQ0W
+  - recdXXwN5A82Q1laq
+  - recwk9KMzx00GAayB
+  - rec82170oDuM9o0gW
+  - recMGffiV30wdTeaj
+  - recS1vPCvnWTrUmXb
+  - recnsCEs4SjCGSSO7
+  - recBHWNG4ngk3IsX9
+  - recLhiXg7hTuVI0MK
+  - recLxpLrUwiVz4MMp
+  - rechIQPXc5a4NenrR
+  - rectZuHQJEKME3fCz
+  - recafvPkSx2L9wzQq
+  - recqIl33mtcLxeo2b
+  - recMAvR007REkBJsp
+  - recSTxIzQLccxhMR5
+  - recD38RNFbJnSR20D
+  - rec8nJfgoXBFyOSQy
+  - recyiHOMbuiDV1SIu
+  - rec7rCTnAlbgEA6y3
+  - recKyDR3HiNPrwsBy
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: rec9iE4g6HMCJFxud
+  name: National
+  order: 11
+  treasury_datasets:
+  - recOAUdAFRdM73U59
+  - rec9E4gr4AK22eQ0W
+  - recMGffiV30wdTeaj
+  - recS1vPCvnWTrUmXb
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: recApStLFY36mvxVx
+  name: County
+  order: 9
+  treasury_datasets:
+  - recsdg958IyEjneOW
+  - recEDyyNs17h2f04R
+  - rec0IUom0g51JZvne
+  - reclpwGzTVn35A5OM
+  - recq1Vji3t6Dk8Pv7
+  - recKNVcISNvJgDf1m
+  - rec2CpdziRPWASBW5
+  - recIvtzwRkDfImaGx
+  - recdolYiRVWN3djo9
+  - recwk9KMzx00GAayB
+  - recS1vPCvnWTrUmXb
+  - recLxpLrUwiVz4MMp
+  - rechIQPXc5a4NenrR
+  - recD38RNFbJnSR20D
+  - rec8nJfgoXBFyOSQy
+  - recyiHOMbuiDV1SIu
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: recC3KgA1OTNOjUtA
+  name: School District
+  order: 4
+  treasury_datasets:
+  - rec0IUom0g51JZvne
+  - recq1Vji3t6Dk8Pv7
+  - recKNVcISNvJgDf1m
+  - recIvtzwRkDfImaGx
+  - recdolYiRVWN3djo9
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: recMovBthEbIH26IT
+  name: Census Tract
+  order: 3
+  treasury_datasets:
+  - recEDyyNs17h2f04R
+  - rec0IUom0g51JZvne
+  - reclpwGzTVn35A5OM
+  - recq1Vji3t6Dk8Pv7
+  - rec2CpdziRPWASBW5
+  - recIvtzwRkDfImaGx
+  - recBHWNG4ngk3IsX9
+- airtable_createdTime: '2021-09-09T15:09:18.000Z'
+  airtable_id: recOxmmOgMCwjL1dM
+  name: Census Block
+  order: 1
+  treasury_datasets:
+  - rec0IUom0g51JZvne
+  - recIvtzwRkDfImaGx
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: recWFaYjKmt1kASIG
+  name: Congressional District
+  order: 6
+  treasury_datasets:
+  - rec0IUom0g51JZvne
+  - reclpwGzTVn35A5OM
+  - recq1Vji3t6Dk8Pv7
+  - rech6FY0fDLqglTQR
+  - recIvtzwRkDfImaGx
+  - recnsCEs4SjCGSSO7
+  - recD38RNFbJnSR20D
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: recfGfBKR0T88ax7R
+  name: Core Based Statistical Area
+  order: 8
+  treasury_datasets:
+  - recsdg958IyEjneOW
+  - recvq8VSOZ5Fk8uo3
+  - rec5tZ7bcx8PAUffl
+  - rec0IUom0g51JZvne
+  - reclpwGzTVn35A5OM
+  - recq1Vji3t6Dk8Pv7
+  - recIvtzwRkDfImaGx
+  - recOAUdAFRdM73U59
+  - recdolYiRVWN3djo9
+  - rec9E4gr4AK22eQ0W
+  - recwk9KMzx00GAayB
+  - recFbH2rLKq1Jm9XO
+  - reckHInEgtl9GuuvU
+  - rec82170oDuM9o0gW
+  - recMGffiV30wdTeaj
+  - recS1vPCvnWTrUmXb
+  - recLxpLrUwiVz4MMp
+  - recyiHOMbuiDV1SIu
+  - rec7rCTnAlbgEA6y3
+- airtable_createdTime: '2021-09-09T15:09:18.000Z'
+  airtable_id: recfbW7DUGTcxzPdP
+  name: Tribal Census Tracts
+  order: 2
+  treasury_datasets:
+  - rec0IUom0g51JZvne
+  - recIvtzwRkDfImaGx
+- airtable_createdTime: '2021-09-09T15:09:18.000Z'
+  airtable_id: recvUf02vDHOhXEns
+  name: Tribal Block Groups
+  order: 0
+  treasury_datasets:
+  - rec0IUom0g51JZvne
+  - recIvtzwRkDfImaGx
+- airtable_createdTime: '2021-09-09T15:09:35.000Z'
+  airtable_id: reczlKbgGMeL2zMBh
+  name: City
+  order: 7
+  treasury_datasets:
+  - recsdg958IyEjneOW
+  - recBHWNG4ngk3IsX9
+  - recD38RNFbJnSR20D

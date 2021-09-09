@@ -30,7 +30,11 @@
       {% endif %}
       {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
         {% if item.geographies %}
-          {% assign filters = filters | concat: item.geographies %}
+          {% comment %}{% assign filters = filters | concat: item.geographies %}{% endcomment %}
+          {% for geo in item.geographies %}
+            {% assign geoData = site.data.geographies | where: "airtable_id", geo | first %}
+            {% assign filters = filters | push: geoData.name %}
+          {% endfor %}
         {% endif %}
         {% if item.industry %}
           {% assign filters = filters | concat: item.industry %}

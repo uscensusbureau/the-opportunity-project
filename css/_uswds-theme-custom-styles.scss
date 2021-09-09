@@ -1031,11 +1031,11 @@ main {
 .dch-radio {
   background-color: initial !important;
   .dch-radio__label {
-    // @extend .dch__data-topic;   
     @include u-border-color('white');
     @include u-bg('primary-darker');
     @include u-color('white');
-    @include u-padding-left(6);
+    @include u-padding-left(3);
+    text-indent: 0;
     &::before {
       display: none;
     }

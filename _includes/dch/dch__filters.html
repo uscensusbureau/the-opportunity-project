@@ -30,22 +30,19 @@
       <div class="mobile-lg:grid-col-4">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Filter by category</legend>
-          {% for data in data-topics %}
-            {% assign filter = data.Name | slugify | default: data %}
-            <div class="usa-radio dch-radio">
-              <input 
-                id="{{ filter | slugify }}"
-                class="usa-radio__input usa-radio__input--tile dch__data-topic"
-                type="radio"
-                name="category"
-                value="{{ filter | downcase }}"
-                {%if forloop.first %}checked{% endif %}
-              >
-              <label class="usa-radio__label dch-radio__label" for="{{ filter | slugify }}">
-                {{ data.Name | default: filter | camelcase }}
-              </label>
+          {% assign categoryHalf = data-topics.size | divided_by: 2.0 | ceil %}
+          <div class="grid-container grid-row grid-gap padding-x-0">
+            <div class="grid-col-6 padding-left-0">
+              {% for data in data-topics limit:categoryHalf %}
+                {% include dch/dch__radio-button.html data=data %}
+              {% endfor %}
             </div>
-          {% endfor %}
+            <div class="grid-col-6 padding-right-0">
+              {% for data in data-topics offset:categoryHalf %}
+                {% include dch/dch__radio-button.html data=data %}
+              {% endfor %}
+            </div>
+          </div>
         </fieldset>
       </div>
       {% for group in checkboxSets %}

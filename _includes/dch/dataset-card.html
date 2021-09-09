@@ -29,8 +29,8 @@
         {% assign filters = item.tag %}
       {% endif %}
       {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
-        {% if item.geography %}
-          {% assign filters = filters | concat: item.geography %}
+        {% if item.geographies %}
+          {% assign filters = filters | concat: item.geographies %}
         {% endif %}
         {% if item.industry %}
           {% assign filters = filters | concat: item.industry %}

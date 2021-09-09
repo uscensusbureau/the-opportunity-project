@@ -1,57 +1,79 @@
 {% assign data-topics = include.data %}
 {% assign checkboxSets = include.checkboxSets %}
+
 {% if data-topics.size > 1 %}
-<div class="">
-  <div class="grid-row grid-gap">
-    <ul class="data-card-group margin-top-7">
-      {% for data in data-topics %}
-        {% assign filter = data.Name | slugify | default: data %}
-        <li>
-          <div 
-            id="{{ filter | slugify }}" 
-            class="dch__data-topic {%if forloop.first %}selected{% endif %}"
-          >
-            <header class="padding-x-2">
-              <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
-            </header>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  {% if checkboxSets %}
-  <div class="grid-row grid-gap text-white">
-    {% for group in checkboxSets %}
-      <fieldset class="usa-form dch__checkbox-group" name="{{group}}">
-        <legend class="usa-legend">{{group}}</legend>
-        {% comment %} get all options for the given field {% endcomment %}
-        {% assign options = "" | split: ',' %}
-        {% for dataset in site.data.treasury_datasets %}
-          {% for option in dataset[group] %}
-            {% assign options = options | push: option %}
+  {% if checkboxSets == null %}
+    <div class="grid-row grid-gap">
+      <ul class="data-card-group margin-top-7">
+        {% for data in data-topics %}
+          {% assign filter = data.Name | slugify | default: data %}
+          <li>
+            <div 
+              id="{{ filter | slugify }}" 
+              class="dch__data-topic {%if forloop.first %}selected{% endif %}"
+            >
+              <header class="padding-x-2">
+                <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
+              </header>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
+  {%  else %}
+    <div class="grid-row grid-gap text-white margin-top-3">
+      <div class="grid-col-4">
+        <fieldset class="usa-fieldset">
+          <legend class="usa-legend">Filter by category</legend>
+          {% for data in data-topics %}
+            {% assign filter = data.Name | slugify | default: data %}
+            <div class="usa-radio dch-radio">
+              <input 
+                id="{{ filter | slugify }}"
+                class="usa-radio__input usa-radio__input--tile dch__data-topic"
+                type="radio"
+                name="category"
+                value="{{ filter | downcase }}"
+                {%if forloop.first %}checked{% endif %}
+              >
+              <label class="usa-radio__label dch-radio__label" for="{{ filter | slugify }}">
+                {{ data.Name | default: filter | camelcase }}
+              </label>
+            </div>
           {% endfor %}
-        {% endfor %}
-        {% assign options = options | uniq | sort %}
-        {% for option in options %}
-        <div class="usa-checkbox dch-checkbox">
-            <input
-              class="usa-checkbox__input"
-              id="{{option | slugify}}"
-              type="checkbox"
-              name="{{group | slugify}}"
-              value="{{option | slugify}}"
-            />
-            <label class="usa-checkbox__label" for="{{option | slugify}}">
-              {{ option }}
-            </label>
-        </div>
-        {% endfor %}
-      </fieldset>
-      <br/>
-    {% endfor %}
-  </div>
-  {% endif %}
+        </fieldset>
+      </div>
+      {% for group in checkboxSets %}
+      <div class="grid-col-6 grid-offset-1">
+        <fieldset class="usa-form dch__checkbox-group" name="{{group}}">
+          <legend class="usa-legend">Filter by available {{group}}</legend>
+          {% comment %} get all options for the given field {% endcomment %}
+          {% assign options = "" | split: ',' %}
+          {% for dataset in site.data.treasury_datasets %}
+            {% for option in dataset[group] %}
+              {% assign options = options | push: option %}
+            {% endfor %}
+          {% endfor %}
+          {% assign options = options | uniq | sort %}
+          {% for option in options %}
+          <div class="usa-checkbox dch-checkbox">
+              <input
+                class="usa-checkbox__input"
+                id="{{option | slugify}}"
+                type="checkbox"
+                name="{{group | slugify}}"
+                value="{{option | slugify}}"
+              />
+              <label class="usa-checkbox__label" for="{{option | slugify}}">
+                {{ option }}
+              </label>
+          </div>
+          {% endfor %}
+        </fieldset>
+      </div>
+      {% endfor %}
+    </div>
 
-</div>
+  {% endif %}
 {% endif %}

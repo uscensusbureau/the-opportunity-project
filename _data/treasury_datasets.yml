@@ -4,7 +4,7 @@
   - rec8bfHaA7zEPxfYN
   description: Geographic and cartographic information, shapefiles
   featuredDataset: true
-  geography:
+  geographies:
   - Census Tract
   - Census Block
   - Core Based Statistical Area
@@ -28,7 +28,7 @@
     the social vulnerability of communities to hazardous events, such as natural hazards,
     human-caused disasters, or pandemics.
   featuredDataset: true
-  geography:
+  geographies:
   - Census Tract
   - State
   - County
@@ -43,7 +43,7 @@
   airtable_id: rec5tZ7bcx8PAUffl
   description: Detailed industry estimates of nonfarm employment, hours, and earnings
     of workers on payrolls.
-  geography:
+  geographies:
   - Core Based Statistical Area
   - State
   link: https://www.bls.gov/ces/
@@ -69,7 +69,7 @@
   description: The ASE provides annual data on select economic and demographic characteristics
     of employer businesses and their owners by gender, ethnicity, race, and veteran
     status.
-  geography:
+  geographies:
   - State
   - Core Based Statistical Area
   link: https://www.census.gov/programs-surveys/ase.html
@@ -86,7 +86,7 @@
     job characteristics and within geographical location. The job characteristics
     include bargaining status (union and nonunion), part- and full-time work status,
     incentive- and time-based pay, and work levels by occupation.
-  geography:
+  geographies:
   - State
   - Core Based Statistical Area
   link: https://www.bls.gov/mwe/
@@ -114,7 +114,7 @@
   description: Daily cumulative number of cases and deaths reported in each county
     and state across the U.S. since the beginning of the pandemic.
   featuredDataset: true
-  geography:
+  geographies:
   - State
   - County
   link: https://github.com/nytimes/covid-19-data
@@ -132,7 +132,7 @@
   description: "Data collected on how people\u2019s lives have been impacted by the\
     \ coronavirus pandemic."
   featuredDataset: true
-  geography:
+  geographies:
   - National
   - State
   - Core Based Statistical Area
@@ -147,7 +147,7 @@
   airtable_id: recBHWNG4ngk3IsX9
   description: The CDFI Fund serves mission-driven financial institutions that take
     a market-based approach to supporting economically disadvantaged communities.
-  geography:
+  geographies:
   - Census Tract
   - City
   - State
@@ -164,7 +164,7 @@
   description: Paycheck Protection Program data. Includes demographic information
     of participants.
   featuredDataset: true
-  geography:
+  geographies:
   - City
   - County
   - State
@@ -184,7 +184,7 @@
   - recHQC1hU05Sw7kLj
   description: Community resilience is the capacity of individuals and households
     within a community to absorb, endure, and recover from the impacts of a disaster.
-  geography:
+  geographies:
   - State
   - County
   - Census Tract
@@ -201,7 +201,7 @@
     and salaries plus employer costs for individual employee benefits. Employee benefit
     costs are calculated as cost-per-hour-worked for individual benefits ranging from
     employer payments for Social Security to paid time off for holidays.
-  geography:
+  geographies:
   - Core Based Statistical Area
   link: https://download.bls.gov/pub/time.series/cm/
   name: Employer Costs for Employee Compensation
@@ -223,7 +223,7 @@
 - airtable_createdTime: '2021-09-08T19:12:22.000Z'
   airtable_id: recIvdzQfwZ1pKhGZ
   description: Data on Federal food distribution service programs
-  geography:
+  geographies:
   - State
   link: https://www.fns.usda.gov/pd/food-distribution-program-tables
   name: Food Distribution Program Tables
@@ -238,7 +238,7 @@
   - recFypleiqj8EFblI
   description: Premier source for detailed population and housing information.
   featuredDataset: true
-  geography:
+  geographies:
   - Census Tract
   - Census Block
   - Tribal Census Tracts
@@ -264,7 +264,7 @@
     counties as well as estimates of school-age children in poverty for all 13,000+
     school districts.
   featuredDataset: true
-  geography:
+  geographies:
   - State
   - County
   - School District
@@ -282,7 +282,7 @@
     offices. Anyone interested in doing business with the government can use this
     system to search opportunities. Opportunities include pre-solicitation notices,
     solicitation notices, award notices, and sole source notices.
-  geography:
+  geographies:
   - State
   - Zip Code
   link: https://sam.gov/content/opportunities
@@ -297,7 +297,7 @@
   description: Income and tax items classified by State, ZIP Code, and size of adjusted
     gross income. Data are based on individual income tax returns filed with the IRS
   featuredDataset: true
-  geography:
+  geographies:
   - State
   - Zip Code
   link: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
@@ -310,7 +310,7 @@
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recLxpLrUwiVz4MMp
   description: Aggregated income tax returns
-  geography:
+  geographies:
   - State
   - County
   - Core Based Statistical Area
@@ -325,7 +325,7 @@
   airtable_id: recMAvR007REkBJsp
   description: 'Analysis of the fiscal condition of the states and data summaries
     of state general fund revenues, expenditures, and balances. '
-  geography:
+  geographies:
   - State
   link: https://www.nasbo.org/reports-data/fiscal-survey-of-states
   name: Fiscal Survey of States
@@ -338,7 +338,7 @@
   airtable_id: recMGffiV30wdTeaj
   description: Annual employment and wage estimates for nearly 800 occupations.
   featuredDataset: true
-  geography:
+  geographies:
   - National
   - State
   - Core Based Statistical Area
@@ -356,7 +356,7 @@
   description: Measures the effect of changing business conditions during the Coronavirus
     pandemic on our nation's small businesses.
   featuredDataset: true
-  geography:
+  geographies:
   - National
   - State
   - Core Based Statistical Area
@@ -387,7 +387,7 @@
 - airtable_createdTime: '2021-09-08T19:12:24.000Z'
   airtable_id: recRXERUp5wDExYS0
   description: Data on Federal child nutrition service programs
-  geography:
+  geographies:
   - State
   link: https://www.fns.usda.gov/pd/child-nutrition-tables
   name: Child Nutrition Tables
@@ -401,7 +401,7 @@
   description: Quarterly count of employment and wages reported by employers covering
     more than 95 percent of U.S. jobs, available at the county, MSA, state and national
     levels by industry.
-  geography:
+  geographies:
   - National
   - State
   - County
@@ -416,7 +416,7 @@
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recSTxIzQLccxhMR5
   description: "Summaries of governors\u2019 budget proposals."
-  geography:
+  geographies:
   - State
   link: https://www.nasbo.org/reports-data/summaries-proposed-enacted
   name: Summaries of Proposed & Enacted Budgets
@@ -464,7 +464,7 @@
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recafvPkSx2L9wzQq
   description: Research report on the health and well-being of girls.
-  geography:
+  geographies:
   - State
   link: https://www.girlscouts.org/en/about-girl-scouts/research/state-of-girls.html
   name: Girl Scouts State of Girls
@@ -479,7 +479,7 @@
   - recfSt0JNd76dfj1B
   description: Timely and high frequency information on new business applications
     and formations in the United States.
-  geography:
+  geographies:
   - State
   link: https://www.census.gov/econ/bfs/
   name: Business Formation Statistics
@@ -495,7 +495,7 @@
   description: 'Education finance data including revenues, expenditures, debt, and
     assets (cash and security holdings) of elementary and secondary public school
     systems. '
-  geography:
+  geographies:
   - School District
   - State
   - County
@@ -512,7 +512,7 @@
 - airtable_createdTime: '2021-09-08T19:13:00.000Z'
   airtable_id: rech6FY0fDLqglTQR
   description: Supplemental Nutrition Assistance Program Participation and Benefits
-  geography:
+  geographies:
   - State
   - Congressional District
   link: https://www.fns.usda.gov/pd/supplemental-nutrition-assistance-program-snap
@@ -526,7 +526,7 @@
   airtable_id: rechIQPXc5a4NenrR
   description: Migration data for the United States are based on year-to-year address
     changes reported on individual income tax returns filed with the IRS.
-  geography:
+  geographies:
   - State
   - County
   link: https://www.irs.gov/statistics/soi-tax-stats-migration-data
@@ -554,7 +554,7 @@
     of employment shifts among occupations and industries. The total compensation
     series includes changes in wages and salaries and in employer costs for employee
     benefits.
-  geography:
+  geographies:
   - Core Based Statistical Area
   link: https://download.bls.gov/pub/time.series/ci/
   name: Employment Cost Index
@@ -567,7 +567,7 @@
   airtable_id: reclpwGzTVn35A5OM
   description: Join USPS Zip Codes to various geographies.
   featuredDataset: true
-  geography:
+  geographies:
   - Census Tract
   - County
   - Core Based Statistical Area
@@ -584,7 +584,7 @@
   airtable_id: recnsCEs4SjCGSSO7
   description: Official open data source of federal spending information.
   featuredDataset: true
-  geography:
+  geographies:
   - State
   - Congressional District
   - Zip Code
@@ -602,7 +602,7 @@
   description: Geographic identifier codes, names, area measurements, and representative
     latitude and longitude coordinates.
   featuredDataset: true
-  geography:
+  geographies:
   - Core Based Statistical Area
   - Census Tract
   - School District
@@ -625,7 +625,7 @@
   airtable_id: recqIl33mtcLxeo2b
   description: Total number of Medicaid enrollees, count of individuals whom a state
     has determined are newly eligible for Medicaid.
-  geography:
+  geographies:
   - State
   link: https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-chip-enrollment-data/medicaid-enrollment-data-collected-through-mbes/index.html
   name: Medicaid Enrollment Data
@@ -651,7 +651,7 @@
   description: Monthly estimates of total employment and unemployment for over 7,500
     areas.
   featuredDataset: true
-  geography:
+  geographies:
   - Core Based Statistical Area
   - City
   - State
@@ -668,7 +668,7 @@
   airtable_id: rectZuHQJEKME3fCz
   description: Number of applications, awards, and total amount approved by state
     for FEMA COVID-19 funeral expense financial assistance.
-  geography:
+  geographies:
   - State
   link: https://www.fema.gov/press-release/20210816/fema-provides-covid-19-funeral-assistance-state-state-breakdown
   name: FEMA Funeral costs
@@ -681,7 +681,7 @@
   airtable_id: recucGHyuFhT1Tae5
   description: Crosswalk used to convert ZIP Codes to ZCTAs
   featuredDataset: true
-  geography:
+  geographies:
   - Zip Code
   link: https://udsmapper.org/zip-code-to-zcta-crosswalk/
   name: Zip Code to ZCTA Crosswalk
@@ -696,7 +696,7 @@
     over time in the prices paid by urban consumers for a market basket of consumer
     goods and services. Indexes are available for the U.S. and various geographic
     areas. '
-  geography:
+  geographies:
   - Core Based Statistical Area
   - State
   link: https://www.bls.gov/cpi/
@@ -714,7 +714,7 @@
     including establishment openings and closings and establishment expansions and
     contractions.
   featuredDataset: true
-  geography:
+  geographies:
   - Core Based Statistical Area
   - State
   - County
@@ -733,7 +733,7 @@
     economic and demographic characteristics for businesses and business owners by
     sex, ethnicity, race, and veteran status. '
   featuredDataset: true
-  geography:
+  geographies:
   - State
   - Core Based Statistical Area
   - County

@@ -27,7 +27,7 @@
   {% else %}
     
     <div class="grid-row grid-gap text-white margin-top-3">
-      <div class="grid-col-4">
+      <div class="mobile-lg:grid-col-4">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Filter by category</legend>
           {% for data in data-topics %}
@@ -49,7 +49,7 @@
         </fieldset>
       </div>
       {% for group in checkboxSets %}
-      <div class="grid-col-6 grid-offset-1">
+      <div class="mobile-lg:grid-col-6 mobile-lg:grid-offset-1 margin-top-4 mobile-lg:margin-top-0">
         <fieldset class="usa-form dch__checkbox-group" name="{{group}}">
           <legend class="usa-legend">Filter by available {{group}}</legend>
           {% comment %} get all options for the given field {% endcomment %}

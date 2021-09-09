@@ -1035,15 +1035,15 @@ main {
     @include u-border-color('white');
     @include u-bg('primary-darker');
     @include u-color('white');
+    @include u-padding-left(6);
+    &::before {
+      display: none;
+    }
   }
   input:checked+[class$=__label] {
     @include u-bg('white');
     @include u-text('ink');
     @include u-border-color('primary-darker');
-    &::before {
-      box-shadow: 0 0 0 2px #162e51, inset 0 0 0 2px #fff !important;
-      @include u-bg('primary-darker', !important);
-    }
   }
 }
 

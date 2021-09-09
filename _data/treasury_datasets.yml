@@ -610,8 +610,7 @@
   - recWFaYjKmt1kASIG
   - rec2cduwK0ClQdKDS
   - recApStLFY36mvxVx
-  hideFromSite: true
-  link: Gazetteer Files
+  link: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
   name: Gazetteer Files
   organization_text: Geographic identifier codes, names, area measurements, and representative
     latitude and longitude coordinates.

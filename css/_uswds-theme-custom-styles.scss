@@ -1019,9 +1019,11 @@ main {
   cursor: pointer;
   @include u-margin-x(0.5);
   @include u-radius(1);
+  @include u-color('white');
   &.selected {
-    @include u-bg('primary-vivid');
-    @include u-border-color('accent-warm-lighter');
+    @include u-bg('white');
+    @include u-color('ink');
+    @include u-border-color('primary-darker');
     cursor: initial;
   }
 }

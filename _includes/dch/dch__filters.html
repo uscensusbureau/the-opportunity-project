@@ -13,7 +13,7 @@
               class="dch__data-topic {%if forloop.first %}selected{% endif %}"
             >
               <header class="padding-x-2">
-                <p class="text-white font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
+                <p class="font-sans-sm" value="{{ filter | downcase }}">{{ data.Name | default: filter | camelcase }}</p>
               </header>
             </div>
           </li>

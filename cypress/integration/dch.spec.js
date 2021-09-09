@@ -187,8 +187,8 @@ describe('Advanced filtering tests', () => {
           })
       })
   }
-  function expectAllCards (numToExpect = 5) {
-    cy.get('.data-set-card:not(.pc-inactive)').should('have.length', numToExpect)
+  function expectAllCards (numToExpect = 48) {
+    cy.get('.data-set-card[dch-passes-filter=true]').should('have.length', numToExpect)
   }
 
   before(() => {
@@ -236,7 +236,7 @@ describe('Advanced filtering tests', () => {
     expectAllCards()
   })
 
-  it('filters by logical OR after checking one each of two different filters', () => {
+  it.skip('filters by logical AND after checking one each of two different filters', () => {
     cy.get('#census-division, #north-american-industry-classification-system')
       each($filter => {
         cy.wrap($filter).click({force: true})

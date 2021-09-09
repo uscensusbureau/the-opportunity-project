@@ -35,12 +35,12 @@
           <div class="grid-container grid-row grid-gap padding-x-0">
             <div class="grid-col-6 padding-left-0">
               {% for data in data-topics limit:categoryHalf %}
-                {% include dch/dch__radio-button.html data=data %}
+                {% include dch/dch__radio-button.html data=data first=forloop.first %}
               {% endfor %}
             </div>
             <div class="grid-col-6 padding-right-0">
               {% for data in data-topics offset:categoryHalf %}
-                {% include dch/dch__radio-button.html data=data %}
+                {% include dch/dch__radio-button.html data=data first=false %}
               {% endfor %}
             </div>
           </div>

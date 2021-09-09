@@ -60,12 +60,13 @@
       {% endif %}
     </div>
     <div class="usa-card__footer text-ink">
-      <ul class="usa-collection__meta" aria-label="Tags">
-        {% for filter in filters %}
-          <li class="usa-collection__meta-item usa-tag">{{ filter }}</li>
-          <!-- <span class="text-white bg-base-lighter padding-05 radius-pill margin-right-1">{{ filter }}</span> -->
-        {% endfor %}
-      </ul>
+      {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+        <ul class="usa-collection__meta" aria-label="Tags">
+          {% for filter in filters %}
+            <li class="usa-collection__meta-item usa-tag">{{ filter }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
       {% if item.data_stewards %}
 

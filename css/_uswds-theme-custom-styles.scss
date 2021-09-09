@@ -1019,11 +1019,36 @@ main {
   cursor: pointer;
   @include u-margin-x(0.5);
   @include u-radius(1);
+  @include u-color('white');
   &.selected {
-    @include u-bg('primary-vivid');
-    @include u-border-color('accent-warm-lighter');
+    @include u-bg('white');
+    @include u-color('ink');
+    @include u-border-color('primary-darker');
     cursor: initial;
   }
+}
+
+.dch-radio {
+  background-color: initial !important;
+  .dch-radio__label {
+    // @extend .dch__data-topic;   
+    @include u-border-color('white');
+    @include u-bg('primary-darker');
+    @include u-color('white');
+  }
+  input:checked+[class$=__label] {
+    @include u-bg('white');
+    @include u-text('ink');
+    @include u-border-color('primary-darker');
+    &::before {
+      box-shadow: 0 0 0 2px #162e51, inset 0 0 0 2px #fff !important;
+      @include u-bg('primary-darker', !important);
+    }
+  }
+}
+
+.dch__checkbox-group {
+  border: none;
 }
 
 .dch-checkbox {
@@ -1037,12 +1062,14 @@ main {
     }
   }
   input:checked+label::before {
-    background-image: url(../img/correct-warm.svg) !important;
-    background-color: transparent !important;
-    box-shadow: 0 0 0 2px color('accent-warm') !important;
+    background-image: url(../img/correct-primary-dark.svg) !important;
+    background-color: white !important;
+    box-shadow: 0 0 0 2px color('primary-dark') !important;
       // @include u-bg('accent-warm', '!important')
   }
 }
+
+
 
 .dkh-details {
   
@@ -1227,14 +1254,14 @@ main {
         text-decoration: underline;
       }
     }
+  }
 
-    // &:hover {
-    //   transition: all 100ms ease;
-    //   border: 2px solid #F7C636;
-    //   .external-link {
-    //     opacity: 1;
-    //   }
-    // }
+  .datasets__featured-banner {
+    border-radius: 10px 10px 0 0;
+    @include u-padding-x(3);
+    @include u-color('accent-warm');
+    @include u-text('italic');
+    @include u-margin-top(2);
   }
 
 

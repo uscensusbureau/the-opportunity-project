@@ -8,6 +8,11 @@
 
 <li id="data-set-card-{{item.name | slugify}}" class="desktop:grid-col-4 tablet:grid-col-4 usa-card__dataset margin-bottom-2 data-set-card" name="data-set-card">
   <div class="usa-card__container datasets__card bg-primary-darker">
+    {% if item.featuredDataset %}
+      <div class="datasets__featured-banner">
+        <span>Recommended</span>
+      </div>
+    {% endif %}
     <header class="usa-card__header usa-dark-background">
       <h2 class="usa-card__heading text-white font-sans-md" value="{{data.name | slugify}}">
         {% unless item.hasMultipleLinks %}
@@ -24,8 +29,12 @@
         {% assign filters = item.tag %}
       {% endif %}
       {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
-        {% if item.geography %}
-          {% assign filters = filters | concat: item.geography %}
+        {% if item.geographies %}
+          {% comment %}{% assign filters = filters | concat: item.geographies %}{% endcomment %}
+          {% for geo in item.geographies %}
+            {% assign geoData = site.data.geographies | where: "airtable_id", geo | first %}
+            {% assign filters = filters | push: geoData.name %}
+          {% endfor %}
         {% endif %}
         {% if item.industry %}
           {% assign filters = filters | concat: item.industry %}
@@ -36,7 +45,7 @@
       </span>
       <p class="dataset__org font-mono-xs text-white">by {{ item.organization_text | upcase }}</p>
     </header>
-    <div class="usa-card__body usa-dark-background">
+    <div class="usa-card__body usa-dark-background margin-bottom-4">
       <p class="font-sans-xs text-white">{{ item.description}}</p>
       {% if item.hasMultipleLinks %}
         <p>There are mutiple links associated with this data set. Please refer to the list below: </p>
@@ -50,48 +59,61 @@
         </ul>
       {% endif %}
     </div>
-    {% if item.data_stewards %}
-      <div class="usa-card__footer text-ink">
-        {% comment %} Display "Data Steward" if email, "Contact Page" if url {% endcomment %}
-        {% assign steward = site.data.people | where: "airtable_id", item.data_stewards[0] | first %}
-        {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}
-        {% assign isContactPage = false %}
-        {% if firstFourEmailChars == "http" %}
-          {% assign isContactPage = true %}
-        {% endif %}
-        <h3 class="text-medium text-white margin-bottom-05">
-          {% if isContactPage %}
-            Contact Page:
-          {% else %}
-            Data Steward{% if item.data_stewards.size > 1 %}s{% endif %}:
-          {% endif %}
-        </h3>
-        <ul class="usa-list--unstyled">
-          {% for steward_id in item.data_stewards %}
-            {% assign steward = site.data.people | where: "airtable_id", steward_id | first %}
-            {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}
-            {% assign isContactPage = false %}
-            {% if firstFourEmailChars == "http" %}
-              {% assign isContactPage = true %}
-            {% endif %}
-            <li 
-              class="{%unless forloop.last%}margin-bottom-1{%endunless%} bg-gray-10 radius-md padding-x-1 padding-y-05"
-            >
-              {% if isContactPage %}
-                <a href="{{ steward.email }}" class="usa-link">
-                  {{ steward.name | strip }}
-                </a>
-              {% else %}
-                {{ steward.name | strip }}, 
-                <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" 
-                class="usa-link">
-                  {{ steward.email }}
-                </a>
-              {% endif %}
-            </li>
+    <div class="usa-card__footer text-ink">
+      {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+        <ul class="usa-collection__meta" aria-label="Tags">
+          {% for filter in filters %}
+            <li class="usa-collection__meta-item usa-tag">{{ filter }}</li>
           {% endfor %}
         </ul>
-      </div>
-    {% endif %}
+      {% endif %}
+
+      {% if item.data_stewards %}
+
+      {% assign steward = site.data.people | where: "airtable_id", item.data_stewards[0] | first %}
+      {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}
+      {% assign isContactPage = false %}
+      {% if firstFourEmailChars == "http" %}
+        {% assign isContactPage = true %}
+      {% endif %}
+
+      
+
+      <h3 class="text-medium text-white margin-bottom-05">
+        {% if isContactPage %}
+          Contact Page:
+        {% else %}
+          Data Steward{% if item.data_stewards.size > 1 %}s{% endif %}:
+        {% endif %}
+      </h3>
+      <ul class="usa-list--unstyled">
+        {% for steward_id in item.data_stewards %}
+          {% assign steward = site.data.people | where: "airtable_id", steward_id | first %}
+          {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}
+          {% assign isContactPage = false %}
+          {% if firstFourEmailChars == "http" %}
+            {% assign isContactPage = true %}
+          {% endif %}
+          <li 
+            class="{%unless forloop.last%}margin-bottom-1{%endunless%} bg-gray-10 radius-md padding-x-1 padding-y-05"
+          >
+            {% if isContactPage %}
+              <a href="{{ steward.email }}" class="usa-link">
+                {{ steward.name | strip }}
+              </a>
+            {% else %}
+              {{ steward.name | strip }}, 
+              <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" 
+              class="usa-link">
+                {{ steward.email }}
+              </a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% endif %}
+
+    </div>
   </div>
 </li>

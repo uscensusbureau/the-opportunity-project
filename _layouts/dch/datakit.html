@@ -19,7 +19,7 @@ layout: default
   {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
     {% assign display-datasets = site.data.treasury_datasets %}
 
-    {% assign checkboxSets = "geography,industry" | split: "," %}
+    {% assign checkboxSets = "geographies" | split: "," %}
   {% endif %}
   {% assign filters = "All" | split: ',' %}
   {% for ps in display-datasets %}
@@ -30,21 +30,20 @@ layout: default
   {% assign filters = filters | uniq %}
 {% endif %}
 
+{% assign display-datasets = display-datasets | sort: "featuredDataset" | reverse %}
 
 {% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
   <div class="grid-container">
-    <div class="display-flex flex-column flex-align-center">
-      <form id="data-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
-        <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
-        <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
+    <h2 class="text-white">Filter Datasets</h2>
+      <form id="data-search-form" class="usa-search usa-search--small tablet:width-tablet" role="search">
+        <label class="usa-sr-only" for="search-field">Search datasets by keywords</label>
+        <input class="usa-input" id="search-field" type="search" name="search">
         <button class="btn-link__primary-dark" type="submit">
           <span class="usa-sr-only">Search</span>
         </button>
       </form>
-    </div>
     {% include dch/dch__filters.html data=filters checkboxSets=checkboxSets %}
-    <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
   </div>
 </section>
 
@@ -68,7 +67,6 @@ layout: default
       label="Datasets search results page" 
       class="pagination--dark" 
       id="dch-pagination" %}
-
 
     {% if page.dataset == "covid" %}
       <h3 class="font-sans-m text-white">Below are additional points of contacts for Census data in the following topics:</h3>

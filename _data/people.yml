@@ -855,6 +855,8 @@
   name: Patrick Jurgens
   organizations:
   - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - rec0IUom0g51JZvne
 - Role:
   - Census Expert
   Sprint:
@@ -1390,6 +1392,14 @@
   name: Megan Malone
   organizations:
   - recHNjjPXIHJWQt72
+- airtable_createdTime: '2021-09-08T19:16:19.000Z'
+  airtable_id: recFHe5Z7RBmMTy9N
+  email: carolyn.e.gann@census.gov
+  name: Carolyn Gann
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recKNVcISNvJgDf1m
 - Role:
   - Data Steward
   Sprint:
@@ -1420,6 +1430,9 @@
   name: Andy Hait
   organizations:
   - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - rec83B0cOUNewtJm0
+  - recyiHOMbuiDV1SIu
 - Role:
   - Data Steward
   Sprint:
@@ -1467,6 +1480,8 @@
   name: Amanda Klimek
   organizations:
   - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recIvtzwRkDfImaGx
 - Role:
   - User Advocate
   Sprint:
@@ -1601,6 +1616,8 @@
   name: Bethany DeSalvo
   organizations:
   - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recEDyyNs17h2f04R
 - airtable_createdTime: '2021-07-21T18:00:18.000Z'
   airtable_id: recHaahhlGem0a7eL
   name: Erin Hoffman
@@ -2374,6 +2391,14 @@
   name: Tara Kunkel
   organizations:
   - recgvJi3HiRCnBlII
+- airtable_createdTime: '2021-09-08T19:15:28.000Z'
+  airtable_id: recQwLvEkSaq6npaH
+  email: Kyra.M.Linse@census.gov
+  name: Kyra M Linse
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recQp5USJ5bCTI3Yi
 - Role:
   - Technologist
   Sprint:
@@ -2464,6 +2489,14 @@
   name: Rachel Dodell
   organizations:
   - recIuT0bGCeG00Fpu
+- airtable_createdTime: '2021-09-08T19:18:02.000Z'
+  airtable_id: recRvc8jXE2eX97Xd
+  email: Stephen.Wheeler@census.gov
+  name: Stephen Wheeler
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recdolYiRVWN3djo9
 - airtable_createdTime: '2021-07-20T17:16:53.000Z'
   airtable_id: recRzFdku4aNywiCI
   name: Michael Qualter
@@ -2690,6 +2723,8 @@
   name: Hyon Shin
   organizations:
   - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - rec9E4gr4AK22eQ0W
 - Role:
   - Product Advisor
   Sprint:
@@ -2803,6 +2838,14 @@
   name: Ben Monterroso
   organizations:
   - recv59tXLzd8UjXM6
+- airtable_createdTime: '2021-09-08T19:21:47.000Z'
+  airtable_id: recVIIum28cWbUGkV
+  email: colin.j.shevlin@census.gov
+  name: Colin J Shelvin
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recOAUdAFRdM73U59
 - Role:
   - Product Advisor
   Sprint:
@@ -3763,6 +3806,14 @@
   name: Christine Jou
   organizations:
   - recIuT0bGCeG00Fpu
+- airtable_createdTime: '2021-09-08T19:08:01.000Z'
+  airtable_id: recek6AqRzigsJJko
+  email: paul.j.mackun@census.gov
+  name: Paul Mackun
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recq1Vji3t6Dk8Pv7
 - Role:
   - Technologist
   Sprint:
@@ -3797,6 +3848,14 @@
   - recCGtljPyEpJ15UO
   sprints:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-09-08T19:17:27.000Z'
+  airtable_id: recfSt0JNd76dfj1B
+  email: alyson.smola@census.gov
+  name: Alyson Smola
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - recdXXwN5A82Q1laq
 - Role:
   - Technologist
   Sprint:
@@ -5512,6 +5571,8 @@
   name: Jason Fields
   organizations:
   - rec9e5MJi3BeiIc2m
+  treasury_datasets:
+  - rec9E4gr4AK22eQ0W
 - Role:
   - User Advocate
   Sprint:

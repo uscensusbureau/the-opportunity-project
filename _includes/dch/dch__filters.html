@@ -47,7 +47,7 @@
         </fieldset>
       </div>
       {% for group in checkboxSets %}
-      <div class="{{breakpoint}}:grid-col-6 {{breakpoint}}:grid-offset-1 margin-top-4 {{breakpoint}}:margin-top-0">
+      <div class="{{breakpoint}}:grid-col-7 {{breakpoint}}:padding-left-8 margin-top-4 {{breakpoint}}:margin-top-0">
         {% assign options = "" | split: ',' %}
         {% for dataset in site.data.treasury_datasets %}
           {% for option in dataset[group] %}

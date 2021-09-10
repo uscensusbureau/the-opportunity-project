@@ -1032,7 +1032,7 @@ main {
   background-color: initial !important;
   .dch-radio__label {
     @include u-border-color('white');
-    @include u-bg('primary-darker');
+    @include u-bg('primary-dark');
     @include u-color('white');
     @include u-padding-left(2);
     text-indent: 0;
@@ -1071,10 +1071,10 @@ main {
 .dch-card__tag {
   background-color: transparent !important;
   border: 1px solid;
-  @include u-border-color('primary-lighter');
-  @include u-color('primary-lighter', !important);
+  @include u-border-color('base-lightest');
+  @include u-color('base-lightest', !important);
   &.usa-tag--new {
-    @include u-bg('primary-lighter', !important);
+    @include u-bg('base-lightest', !important);
     @include u-color('primary-darker', !important);
   }
 }

@@ -100,7 +100,7 @@
                   {{ steward.name | strip }}
                 </a>
               {% else %}
-                {{ steward.name | strip }}, 
+                <span class="text-primary-darker">{{ steward.name | strip }},</span> 
                 <a href="mailto:{{ steward.email }}?subject=Regarding The Opportunity Project Dataset: {{steward.name}}" 
                 class="usa-link">
                   {{ steward.email }}
@@ -111,7 +111,6 @@
         </ul>
 
       {% endif %}
-
     </div>
   </div>
 </li>

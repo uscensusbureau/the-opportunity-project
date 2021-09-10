@@ -108,7 +108,7 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: rec8nJfgoXBFyOSQy
   description: Daily cumulative number of cases and deaths reported in each county
@@ -123,7 +123,7 @@
   organizations:
   - rec0lcr9QWKKAFcXz
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:13:06.000Z'
   airtable_id: rec9E4gr4AK22eQ0W
   data_stewards:
@@ -142,7 +142,7 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recBHWNG4ngk3IsX9
   description: The CDFI Fund serves mission-driven financial institutions that take
@@ -177,7 +177,7 @@
   - rech0xcl8a3PFLxhA
   tag:
   - Jobs & Economy
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T15:30:06.000Z'
   airtable_id: recEDyyNs17h2f04R
   data_stewards:
@@ -366,7 +366,7 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:13:07.000Z'
   airtable_id: recQp5USJ5bCTI3Yi
   data_stewards:
@@ -547,7 +547,7 @@
   organizations:
   - recZod0Y9uE8dnrem
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: reckHInEgtl9GuuvU
   description: A measure of the change in the cost of labor, free from the influence
@@ -633,7 +633,7 @@
   organizations:
   - recS7NfOntwtLFOzz
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recr9irkXZn5kVl46
   description: Publicatioins, data products, and papers which describe and measure
@@ -676,7 +676,7 @@
   organizations:
   - recCGtljPyEpJ15UO
   tag:
-  - Healthcare & COVID-19
+  - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recucGHyuFhT1Tae5
   description: Crosswalk used to convert ZIP Codes to ZCTAs

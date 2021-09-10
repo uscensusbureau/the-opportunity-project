@@ -165,8 +165,10 @@ describe.skip('Filtering tests', () => {
   })
 })
 
-describe('Advanced filtering tests', () => {
+describe.only('Advanced filtering tests', () => {
   const advancedUrl = base + pages[5]
+  const resetButton = '#dch-reset--geo'
+  const allButton = '#all'
 
   function testPSListWithRegex (regex) {
     cy.get('[name=data-set-card][dch-passes-filter=true] .dataset__ps')
@@ -187,7 +189,7 @@ describe('Advanced filtering tests', () => {
           })
       })
   }
-  function expectAllCards (numToExpect = 48) {
+  function expectAllCards (numToExpect = 47) {
     cy.get('.data-set-card[dch-passes-filter=true]').should('have.length', numToExpect)
   }
 
@@ -210,7 +212,6 @@ describe('Advanced filtering tests', () => {
   })
 
   it('filters by logical OR after checking two+ of same filter', () => {
-
     cy.get('#city, #state')
       .each($filter => {
         cy.wrap($filter).click({force: true})
@@ -234,6 +235,30 @@ describe('Advanced filtering tests', () => {
         cy.wrap($filter).click({force: true})
       })
     expectAllCards()
+  })
+
+  it('only shows reset button on covid-spending page', () => {
+    for (const page of pages) {
+      const expecting = page === '/covid-spending' ? 'exist' : 'not.exist'
+      cy.visit(base + page)
+      cy.get(resetButton)
+        .should(expecting)
+    }
+  })
+
+  it.only('resets all filters after clicking the RESET FILTER button', () => {
+    const clicking = 
+      '#government-finance, #census-tract, #census-block, #state'
+    cy.get(clicking).each( el => cy.wrap(el).click({force: true}))
+    
+    cy.get(resetButton).click()
+
+    // test that things are reset
+    expectAllCards()
+    for (const input of clicking) {
+      cy.get(input).should('have.checked', false)
+    }
+    cy.get(allButton).should('have.checked', true)
   })
 
   it.skip('filters by logical AND after checking one each of two different filters', () => {
@@ -261,9 +286,5 @@ describe('Advanced filtering tests', () => {
       })
     expectAllCards()
     
-  })
-
-  it('resets all filters after clicking the RESET FILTER button', () => {
-
   })
 })

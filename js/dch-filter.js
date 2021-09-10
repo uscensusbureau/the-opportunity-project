@@ -4,6 +4,8 @@ const searchField = document.getElementById('search-field')
 
 const dchCheckboxes = document.querySelectorAll('.dch-checkbox input')
 const resultsCountDisplay = document.getElementById('results-count')
+const resetButton = document.getElementById('dch-reset--geo')
+
 const advancedFilters = {}
 let filterCategory = 'all'
 
@@ -20,7 +22,7 @@ dchCheckboxes.forEach(checkbox => {
       advancedFilters[this.name].splice(
         advancedFilters[this.name].indexOf(this.value), 1)
     }
-    filterDataSets()
+    filterDatasets()
   })
 })
 
@@ -36,26 +38,26 @@ for (const container of categoryButtons) {
     // toggle the description of the challenge below the filters
     const dataCardId = container.id
     filterCategory = dataCardId
-    filterDataSets()
+    filterDatasets()
   })
 }
 
 if (document.getElementById('data-search-form')) {
   document.getElementById('data-search-form').addEventListener('submit', e => {
     e.preventDefault()
-    filterDataSets()
+    filterDatasets()
   })
 
   if (searchField) {
     searchField.addEventListener('search', e => {
       if (searchField.value === '') {
-        filterDataSets()
+        filterDatasets()
       }
     })
   }
 }
 
-function filterDataSets () {
+function filterDatasets () {
   const searchTerm = searchField.value.toLowerCase()
   const datasets = document.getElementsByName('data-set-card')
   const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
@@ -108,13 +110,32 @@ function filterDataSets () {
 
 if (document.querySelector('body.page-datakit')) {
   console.log(paginator)
-  filterDataSets()
+  filterDatasets()
 }
 
-/** pagination */
-// const PAGINATOR_ID = 'dch-pagination'
-// const CARDS_PER_PAGE = 24
-// const paginator = new PaginationUIControl(PAGINATOR_ID, CARDS_PER_PAGE, paginateProducts)
-// if (document.getElementById(PAGINATOR_ID)) {
-//   paginator.setTotalItems(document.getElementsByClassName('data-set-card').length)
-// }
+/**
+ * Add event listener to reset all filters
+ * - set category to ALL
+ * - uncheck all checkbox filters (if present)
+ * - display new filtered data
+ */
+if (resetButton) {
+  resetButton.addEventListener('click', e => {
+    console.log('reset clicked')
+    filterCategory = 'all'
+    Object.keys(advancedFilters).forEach(key => { advancedFilters[key] = [] })
+    console.log(advancedFilters)
+
+    const categoryInputs = document.getElementsByClassName('dch__data-topic')
+    for (const catInput of categoryInputs) {
+      catInput.checked = catInput.value === 'all'
+    }
+
+    const checkboxes = document.querySelectorAll('.dch-checkbox input')
+    for (const box of checkboxes) {
+      box.checked = false
+    }
+
+    filterDatasets()
+  })
+}

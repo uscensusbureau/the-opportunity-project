@@ -1073,7 +1073,9 @@ main {
   border: 1px solid;
   @include u-border-color('base-lightest');
   @include u-color('base-lightest', !important);
+  margin-right: .1rem;
   &.usa-tag--new {
+    @include u-text('bold');
     @include u-bg('base-lightest', !important);
     @include u-color('primary-darker', !important);
   }

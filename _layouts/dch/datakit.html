@@ -51,10 +51,13 @@ layout: default
 
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container padding-top-4">
-    <h3 id="results-count" 
-      class="text-normal font-sans-md text-white margin-bottom-4">
-        Showing {{display-datasets.size}} datasets
-    </h3>
+    <div class="display-flex flex-row flex-align-center">
+      <h3 id="results-count" 
+        class="text-normal font-sans-md text-white">
+          Showing {{display-datasets.size}} datasets
+      </h3>
+      <button class="usa-button usa-button--secondary margin-left-4" id="dch-reset--geo">Reset All Filters</button>
+    </div>
 
     <ul class="usa-card-group">
     {% for item in display-datasets %}

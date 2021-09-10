@@ -8,6 +8,8 @@ const pages = [
   '/covid-spending'
 ]
 const resultsField = '#results-count'
+const searchField = '#search-field'
+const searchForm = '#data-search-form'
 
 function testPSListShouldContain (filterVal) {
   cy.get('[name=data-set-card][dch-passes-filter=true] .dataset__ps')
@@ -246,7 +248,7 @@ describe.only('Advanced filtering tests', () => {
     }
   })
 
-  it.only('resets all filters after clicking the RESET FILTER button', () => {
+  it('resets all button filters after clicking the RESET FILTER button', () => {
     const clicking = 
       '#government-finance, #census-tract, #census-block, #state'
     cy.get(clicking).each( el => cy.wrap(el).click({force: true}))
@@ -255,10 +257,23 @@ describe.only('Advanced filtering tests', () => {
 
     // test that things are reset
     expectAllCards()
-    for (const input of clicking) {
-      cy.get(input).should('have.checked', false)
-    }
+    cy.get(clicking).each( el => {
+      cy.wrap(el)
+        .should('not.have.checked')
+    })
     cy.get(allButton).should('have.checked', true)
+  })
+
+  it.only('resets the search field after clicking the reset filter button', () => {
+    cy.get(searchField)
+      .type('data')
+    cy.get(searchForm).submit()
+
+    cy.get(resetButton).click()
+
+    cy.get(searchField)
+      .should('have.value', '')
+    expectAllCards()
   })
 
   it.skip('filters by logical AND after checking one each of two different filters', () => {

@@ -126,15 +126,20 @@ if (resetButton) {
     Object.keys(advancedFilters).forEach(key => { advancedFilters[key] = [] })
     console.log(advancedFilters)
 
+    // clear category ui
     const categoryInputs = document.getElementsByClassName('dch__data-topic')
     for (const catInput of categoryInputs) {
       catInput.checked = catInput.value === 'all'
     }
 
+    // clear advanced filter ui
     const checkboxes = document.querySelectorAll('.dch-checkbox input')
     for (const box of checkboxes) {
       box.checked = false
     }
+
+    // clear searchbar
+    searchField.value = ''
 
     filterDatasets()
   })

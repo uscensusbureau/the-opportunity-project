@@ -306,7 +306,7 @@ const closeAccordions = () => {
  * Slugify a string
  * from https://lucidar.me/en/web-dev/how-to-slugify-a-string-in-javascript/
  **/
-const slugify = str => {
+function slugify (str) {
   str = str.replace(/^\s+|\s+$/g, '')
 
   // Make the string lowercase
@@ -367,4 +367,4 @@ const closeModal = () => {
 
 $('.close').on('click', closeModal)
 
-module.exports = [paginateProducts, paginator, filteredProducts]
+module.exports = [paginateProducts, paginator, slugify]

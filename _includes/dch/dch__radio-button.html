@@ -1,0 +1,15 @@
+{% assign data = include.data %}
+{% assign filter = data.Name | slugify | default: data %}
+<div class="usa-radio dch-radio">
+  <input 
+    id="{{ filter | slugify }}"
+    class="usa-radio__input usa-radio__input--tile dch__data-topic"
+    type="radio"
+    name="category"
+    value="{{ filter | downcase }}"
+    {%if forloop.first and include.first %}checked{% endif %}
+  >
+  <label class="usa-radio__label dch-radio__label" for="{{ filter | slugify }}">
+    {{ data.Name | default: filter | camelcase }}
+  </label>
+</div>

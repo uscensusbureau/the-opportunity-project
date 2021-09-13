@@ -112,7 +112,6 @@ function filterDatasets () {
           // highlight tags
           const tags = card.getElementsByClassName('dch-card__tag')
           const activeTags = Array.from(tags).filter(tag => {
-            console.log(slugify(tag.innerText.toLowerCase()))
             return (allFilters.includes(slugify(tag.innerText.toLowerCase())))
           })
           activeTags.forEach(tag => tag.classList.add('usa-tag--new'))
@@ -154,10 +153,8 @@ if (document.querySelector('body.page-datakit')) {
  */
 if (resetButton) {
   resetButton.addEventListener('click', e => {
-    console.log('reset clicked')
     filterCategory = ALL_CATEGORY
     Object.keys(advancedFilters).forEach(key => { advancedFilters[key] = [] })
-    console.log(advancedFilters)
 
     // clear category ui
     const categoryInputs = document.getElementsByClassName('dch__data-topic')

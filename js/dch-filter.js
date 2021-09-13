@@ -1,4 +1,4 @@
-const [paginateProducts, paginator] = require('./filter-cards.js')
+const [paginateProducts, paginator, slugify] = require('./filter-cards.js')
 
 const searchField = document.getElementById('search-field')
 
@@ -59,9 +59,14 @@ function filterDataSets () {
   const searchTerm = searchField.value.toLowerCase()
   const datasets = document.getElementsByName('data-set-card')
   const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
-
+  const allFilters = activeAdvanced.length > 0 ? [...activeAdvanced[0], filterCategory] : [filterCategory]
   const filteredProducts = []
   for (const card of datasets) {
+    // reset tag highlighting
+    Array.from(card.getElementsByClassName('dch-card__tag')).forEach( tag => {
+      tag.classList.remove('usa-tag--new')
+    })
+
     if (card.getElementsByTagName('h2')[0]) {
       const dataName = card.getElementsByTagName('h2')[0].innerText
       const dataPS = card.getElementsByClassName('dataset__ps')[0].innerText
@@ -87,13 +92,19 @@ function filterDataSets () {
           card.classList.remove('pc-inactive')
           card.setAttribute('dch-passes-filter', true)
           filteredProducts.push(card)
+
+          // highlight tags
+          const tags = card.getElementsByClassName('dch-card__tag')
+          const activeTags = Array.from(tags).filter(tag => {
+            console.log(slugify(tag.innerText.toLowerCase()))
+            return (allFilters.includes(slugify(tag.innerText.toLowerCase())))
+          })
+          activeTags.forEach(tag => tag.classList.add('usa-tag--new'))
         } else {
-          card.classList.add('pc-inactive')
-          card.setAttribute('dch-passes-filter', false)
+          hideDataset(card)
         }
       } else {
-        card.classList.add('pc-inactive')
-        card.setAttribute('dch-passes-filter', false)
+        hideDataset(card)
       }
     }
   }
@@ -111,10 +122,11 @@ if (document.querySelector('body.page-datakit')) {
   filterDataSets()
 }
 
-/** pagination */
-// const PAGINATOR_ID = 'dch-pagination'
-// const CARDS_PER_PAGE = 24
-// const paginator = new PaginationUIControl(PAGINATOR_ID, CARDS_PER_PAGE, paginateProducts)
-// if (document.getElementById(PAGINATOR_ID)) {
-//   paginator.setTotalItems(document.getElementsByClassName('data-set-card').length)
-// }
+/**
+ * hides a dataset from the page because it doesn't have the relevant filters
+ * @param {htmlElement} datasetCard element to hide
+ */
+const hideDataset = datasetCard => {
+  datasetCard.classList.add('pc-inactive')
+  datasetCard.setAttribute('dch-passes-filter', false)
+}

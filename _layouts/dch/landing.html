@@ -42,7 +42,11 @@ layout: default
             <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt="Icon for number of datasets"/>
             {% assign sprint = site.data.sprints | where: "Name", kit.sprint-name | first %}
             {% assign data = site.data.datasets | where: "sprint", sprint.airtable_id %}
+            {% if kit.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+              {% assign data = site.data.treasury_datasets %}
+            {% endif %}
             {% assign data = data | where_exp: "item", "item.link != empty and item.link != nil" %}
+            {% assign data = data | where_exp: "item", "item.hideFromSite != true" %}
             <p class="text-ink">{{ data | size }}</p>
           </div>
           {% endif %}

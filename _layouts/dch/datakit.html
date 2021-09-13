@@ -35,13 +35,15 @@ layout: default
 {% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
   <div class="grid-container">
-    <h2 class="text-white">Filter Datasets</h2>
-      <form id="data-search-form" class="usa-search usa-search--small tablet:width-tablet" role="search">
-        <label class="usa-sr-only" for="search-field">Search datasets by keywords</label>
-        <input class="usa-input" id="search-field" type="search" name="search">
-        <button class="btn-link__primary-dark" type="submit">
-          <span class="usa-sr-only">Search</span>
-        </button>
+    <h2 class="text-white">Explore Datasets</h2>
+      <form id="data-search-form" class="usa-search usa-search--small tablet:width-tablet display-block" role="search">
+        <label class="text-white" for="search-field">Search by keyword</label>
+        <div class="display-flex margin-top-05">
+          <input class="usa-input" id="search-field" type="search" name="search">
+          <button class="btn-link__primary-dark" type="submit">
+            <span class="usa-sr-only">Search</span>
+          </button>
+        </div>
       </form>
     {% include dch/dch__filters.html data=filters checkboxSets=checkboxSets %}
   </div>
@@ -49,10 +51,12 @@ layout: default
 
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container padding-top-4">
-    <h3 id="results-count" 
-      class="text-normal font-sans-md text-white margin-bottom-4">
-        Showing {{display-datasets.size}} datasets
-    </h3>
+    <div class="display-flex flex-row flex-align-center">
+      <h3 id="results-count" 
+        class="text-normal font-sans-md text-white">
+          Showing {{display-datasets.size}} datasets
+      </h3>
+    </div>
 
     <ul class="usa-card-group">
     {% for item in display-datasets %}

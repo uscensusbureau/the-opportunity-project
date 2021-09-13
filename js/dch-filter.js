@@ -7,7 +7,8 @@ const resultsCountDisplay = document.getElementById('results-count')
 const resetButton = document.getElementById('dch-reset--geo')
 
 const advancedFilters = {}
-let filterCategory = 'all'
+const ALL_CATEGORY = 'all'
+let filterCategory = ALL_CATEGORY
 
 document.querySelectorAll('.dch__checkbox-group')
   .forEach(fieldset => {
@@ -42,6 +43,9 @@ for (const container of categoryButtons) {
   })
 }
 
+/**
+ * Search function listeners
+ */
 if (document.getElementById('data-search-form')) {
   document.getElementById('data-search-form').addEventListener('submit', e => {
     e.preventDefault()
@@ -62,6 +66,15 @@ function filterDatasets () {
   const datasets = document.getElementsByName('data-set-card')
   const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
 
+  // set reset button enabled state
+  if (resetButton) {
+    if (searchTerm.length === 0 && filterCategory === ALL_CATEGORY && activeAdvanced.length === 0) {
+      resetButton.setAttribute('disabled', '')
+    } else {
+      resetButton.removeAttribute('disabled')
+    }
+  }
+
   const filteredProducts = []
   for (const card of datasets) {
     if (card.getElementsByTagName('h2')[0]) {
@@ -69,7 +82,7 @@ function filterDatasets () {
       const dataPS = card.getElementsByClassName('dataset__ps')[0].innerText
       const dataDescription = card.getElementsByTagName('p')[0].innerText
       const searchMatch = dataName.toLowerCase().includes(searchTerm) || dataPS.toLowerCase().includes(searchTerm) || dataDescription.toLowerCase().includes(searchTerm)
-      const categoryMatch = dataPS.includes(filterCategory) || filterCategory === 'all'
+      const categoryMatch = dataPS.includes(filterCategory) || filterCategory === ALL_CATEGORY
       if (searchMatch && categoryMatch) {
         // apply advanced filtering
         let passesAdvanced = true
@@ -109,7 +122,6 @@ function filterDatasets () {
 }
 
 if (document.querySelector('body.page-datakit')) {
-  console.log(paginator)
   filterDatasets()
 }
 
@@ -122,14 +134,14 @@ if (document.querySelector('body.page-datakit')) {
 if (resetButton) {
   resetButton.addEventListener('click', e => {
     console.log('reset clicked')
-    filterCategory = 'all'
+    filterCategory = ALL_CATEGORY
     Object.keys(advancedFilters).forEach(key => { advancedFilters[key] = [] })
     console.log(advancedFilters)
 
     // clear category ui
     const categoryInputs = document.getElementsByClassName('dch__data-topic')
     for (const catInput of categoryInputs) {
-      catInput.checked = catInput.value === 'all'
+      catInput.checked = catInput.value === ALL_CATEGORY
     }
 
     // clear advanced filter ui

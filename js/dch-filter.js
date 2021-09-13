@@ -133,17 +133,17 @@ function filterDatasets () {
   paginateProducts(0, false, filteredProducts)
 }
 
-if (document.querySelector('body.page-datakit')) {
-  filterDatasets()
-}
-
 /*
- * hides a dataset from the page because it doesn't have the relevant filters
- * @param {htmlElement} datasetCard element to hide
- */
+* hides a dataset from the page because it doesn't have the relevant filters
+* @param {htmlElement} datasetCard element to hide
+*/
 const hideDataset = datasetCard => {
   datasetCard.classList.add('pc-inactive')
   datasetCard.setAttribute('dch-passes-filter', false)
+}
+
+if (document.querySelector('body.page-datakit')) {
+  filterDatasets()
 }
 
 /**

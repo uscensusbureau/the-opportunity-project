@@ -68,7 +68,7 @@ describe('Content tests', () => {
   })
 })
 
-describe.skip('Filtering tests', () => {
+describe('Filtering tests', () => {
 
   it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
@@ -167,7 +167,7 @@ describe.skip('Filtering tests', () => {
   })
 })
 
-describe.only('Advanced filtering tests', () => {
+describe('Advanced filtering tests', () => {
   const advancedUrl = base + pages[5]
   const resetButton = '#dch-reset--geo'
   const allButton = '#all'
@@ -191,7 +191,7 @@ describe.only('Advanced filtering tests', () => {
           })
       })
   }
-  function expectAllCards (numToExpect = 47) {
+  function expectAllCards (numToExpect = 48) {
     cy.get('.data-set-card[dch-passes-filter=true]').should('have.length', numToExpect)
   }
 
@@ -258,7 +258,7 @@ describe.only('Advanced filtering tests', () => {
       .invoke('attr', 'disabled')
       .should('not.exist')
   }
-  it.only('disables reset button when no search terms are present', () => {
+  it('disables reset button when no search terms are present', () => {
     expectResetButtonDisabled()
 
     cy.get('#joining-mapping')
@@ -297,7 +297,7 @@ describe.only('Advanced filtering tests', () => {
     cy.get(allButton).should('have.checked', true)
   })
 
-  it.only('resets the search field after clicking the reset filter button', () => {
+  it('resets the search field after clicking the reset filter button', () => {
     cy.get(searchField)
       .type('data')
     cy.get(searchForm).submit()

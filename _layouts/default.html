@@ -4,7 +4,7 @@ layout: base
 {% include analytics.html %}
 {% include navbar.html %}
 
-<main id="main-content">
+<main id="main-content" {% if page.class=="datakit" %}class="bg-primary-dark"{% endif %}>
   {{ content }}
 </main>
 

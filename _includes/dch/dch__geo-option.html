@@ -1,0 +1,11 @@
+{% assign option = include.data %}
+<div class="usa-checkbox dch-checkbox">
+  <input
+    class="usa-checkbox__input"
+    id="{{option.name | slugify}}"
+    type="checkbox"
+    name="{{group | slugify}}"
+    value="{{option.name | slugify}}"
+  />
+  <label class="usa-checkbox__label" for="{{option.name | slugify}}">{{ option.name }}</label>
+</div>

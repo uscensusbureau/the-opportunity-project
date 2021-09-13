@@ -248,6 +248,39 @@ describe.only('Advanced filtering tests', () => {
     }
   })
 
+  function expectResetButtonDisabled() {
+    cy.get(resetButton)
+      .invoke('attr', 'disabled')
+      .should('exist')
+  }
+  function expectResetButtonEnabled() {
+    cy.get(resetButton)
+      .invoke('attr', 'disabled')
+      .should('not.exist')
+  }
+  it.only('disables reset button when no search terms are present', () => {
+    expectResetButtonDisabled()
+
+    cy.get('#joining-mapping')
+      .click({force: true})
+    expectResetButtonEnabled()
+    
+    cy.get(resetButton).click()
+    expectResetButtonDisabled()
+
+    cy.get('#census-block')
+      .click({force: true})
+    expectResetButtonEnabled()
+
+    cy.get(resetButton).click()
+    expectResetButtonDisabled()
+
+    cy.get(searchField)
+      .type('data')
+    cy.get(searchForm).submit()
+    expectResetButtonEnabled()
+  })
+
   it('resets all button filters after clicking the RESET FILTER button', () => {
     const clicking = 
       '#government-finance, #census-tract, #census-block, #state'

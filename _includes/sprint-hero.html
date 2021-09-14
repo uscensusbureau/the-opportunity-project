@@ -41,9 +41,7 @@
           {% if include.isCurrent %}
             <div class="sprint-hero__callout">
               <p class="margin-y-0">
-                <strong>We are currently seeking participants for these sprints in many roles.</strong>
-                See detailed descriptions of the problem statements below, and if you are interested in participating, please
-                <a href="{{ site.contacts.census-form }}">complete this form</a> to express interest.
+                {{ site.data.messages.sprints.hero-callout-text[page.lang] | markdownify | remove: "<p>" | remove: "</p>"" }}
               </p>
               <p class="text-center margin-y-0">
                 <a href="{{ site.contacts.census-form }}" 

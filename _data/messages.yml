@@ -36,10 +36,10 @@ problem-statement:
   pdf-download:
     en: 'Download Full Text (PDF)'
     esp: Descargar El Texto Completo (PDF)
-  more:
+  see-more:
     en: View More
     esp: Ver Más
-  less:
+  see-less:
     en: View Less
     esp: Ver Menos
   challenge:
@@ -51,3 +51,25 @@ problem-statement:
   audience:
     en: Target Audience
     esp: Usuarios Finales Como Objetivo
+
+# lookup table into Problem Statement data
+ps-fields:
+  name: 
+    en: 'Full Title'
+    esp: 'name-esp'
+  why-matters:
+    en: Why this problem matters
+    esp: why-esp
+  challenge:
+    en: Challenge
+    esp: challenge-esp
+  audience:
+    en: Target audience / End user
+    esp: audience-esp
+  agency:
+    en: agency_text
+    esp: organization-esp
+  pdf: 
+    en: pdf
+    esp: pdf-esp
+  

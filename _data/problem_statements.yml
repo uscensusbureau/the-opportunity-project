@@ -208,12 +208,58 @@
   agency_text: Minority Business Development Agency
   airtable_createdTime: '2021-06-28T20:22:02.000Z'
   airtable_id: rec2hm93Hd703vhHw
+  audience-esp: "- Propietarios de empresas de minor\xEDas y emprendedores minoritarios\
+    \ que busquen acceso al capital\n- Organizaciones de defensa que apoyen a estas\
+    \ personas\n- Instituciones crediticias, de financiaci\xF3n y de inversi\xF3n"
+  challenge-esp: "Desarrollar productos digitales para ayudar a mejorar el acceso\
+    \ de las empresas de minor\xEDas al capital"
+  name-esp: "C\xF3mo mejorar el acceso de las empresas de minor\xEDas al capital"
+  organization-esp:
+  - "Agencia Para el Desarrollo de Empresas de Minor\xEDas (MBDA)"
   organizations:
   - recBgI6XSVcZSIN7t
   pdf: 2021-problem-statements/post-covid/MBDA_ Improving Minority Businesses Access
     to Capital.pdf
   sprint_order: 1
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "Las empresas de minor\xEDas son fundamentales para las econom\xEDas nacional\
+    \ y locales. Son parte fundamental de la creaci\xF3n y la conservaci\xF3n de m\xE1\
+    s de [2.2 millones de empleos](https://www.nmsdc.org/wp-content/uploads/Economic_Impact_Report_FINAL.pdf)\
+    \ desempe\xF1ados por personas que son directa o indirectamente empleadas por\
+    \ empresas de minor\xEDas (MBE) certificadas por el Consejo Nacional para el Desarrollo\
+    \ de Empresas Proveedoras de Propiedad de Minor\xEDas (NMSDC). \n\nSin embargo,\
+    \ estas empresas enfrentan obst\xE1culos para sobrevivir y prosperar, particularmente\
+    \ por la dificultad de acceso al capital.  Las empresas de minor\xEDas a menudo\
+    \ enfrentan obst\xE1culos para conseguir pr\xE9stamos comerciales de sus instituciones\
+    \ financieras locales.  Un [estudio realizado por Bates y Robb (2016)](https://www.researchgate.net/publication/315302976_Small_business_development_immigrants'_access_to_loan_capital)\
+    \ hall\xF3 que tasas m\xE1s altas de rechazo y montos menores en los pr\xE9stamos\
+    \ eran t\xEDpicos de los cr\xE9ditos a empresas de minor\xEDas (MBE) propiedad\
+    \ de personas negras e hispanas.  La [Encuesta sobre Cr\xE9dito para Peque\xF1\
+    as Empresas del 2021](https://www.fedsmallbusiness.org/medialibrary/FedSmallBusiness/files/2021/sbcs-report-on-firms-owned-by-people-of-color)\
+    \ inform\xF3 que las empresas propiedad de personas negras que solicitaron formas\
+    \ tradicionales de financiaci\xF3n ten\xEDan menos posibilidades de recibir toda\
+    \ la financiaci\xF3n que pidieron. El 40 % de empresas propiedad de personas blancas\
+    \ recibieron toda la financiaci\xF3n que pidieron, en comparaci\xF3n con el 31\
+    \ % de empresas propiedad de personas de origen asi\xE1tico, el 20 % de empresas\
+    \ propiedad de personas hispanas y solo el 13 % empresas propiedad de personas\
+    \ negras.  Esta tendencia persiste a\xFAn con empresas que tengan buena capacidad\
+    \ crediticia. \n\nAlgunas razones claves para la falta de financiaci\xF3n bancaria\
+    \ para las MBE son [una menor capacidad crediticia, un menor valor neto y la falta\
+    \ de activos](https://milkeninstitute.org/sites/default/files/reports-pdf/PLUM-Capstone-Report.pdf).\
+    \ Sin la capacidad de acceder al capital que necesitan, las empresas propiedad\
+    \ de minor\xEDas a menudo tienen grandes dificultades para crecer y ganar terreno\
+    \ en la industria que seleccionaron. Incluso tener que solicitar pr\xE9stamos\
+    \ bancarios, en comparaci\xF3n con otras opciones para la financiaci\xF3n de negocios,\
+    \ tiene sus desventajas. Sin opciones alternativas para obtener capital, las empresas\
+    \ reducen su capacidad operacional o cierran. Ambas opciones pueden impedir la\
+    \ creaci\xF3n de empleos, retrasar el crecimiento de las econom\xEDas locales\
+    \ e incrementar a\xFAn m\xE1s la diferencia de ingresos en los Estados Unidos.\
+    \  Esto se ha agravado debido a las inequidades de la econom\xEDa del COVID-19.\
+    \  Los afroamericanos sufrieron las mayores p\xE9rdidas como resultado de la pandemia\
+    \ de COVID-19, que elimin\xF3 al 41 por ciento de los propietarios de empresas.\
+    \ Del mismo modo, el n\xFAmero de empresas propiedad de latinos descendi\xF3 en\
+    \ un 32 % entre febrero y abril del 2020, mientras que los propietarios de empresas\
+    \ que eran inmigrantes descendieron en un 36 por ciento.\n"
 - Challenge: 'Develop innovative tools that combine datasets to help inform community
     leaders on equitable distribution of federal funding. Teams are encouraged to
     analyze how federal COVID-19 spending has been shared with communities most vulnerable
@@ -245,12 +291,36 @@
   agency_text: U.S. Department of the Treasury
   airtable_createdTime: '2021-06-28T20:20:49.000Z'
   airtable_id: rec3DhHvGbMYMTN1A
+  audience-esp: "- Funcionarios/personas responsables de la toma de decisiones a nivel\
+    \ local\n- Organizaciones que establecen normas y de defensa\n- Comunidades de\
+    \ investigaci\xF3n\n- Periodistas de datos."
+  challenge-esp: "Desarrollar herramientas innovadoras que combinen conjuntos de datos\
+    \ para ayudar a informar a los l\xEDderes comunitarios sobre la distribuci\xF3\
+    n equitativa de los fondos federales. Se alienta a los equipos a analizar c\xF3\
+    mo el gasto federal causado por el COVID-19 se ha compartido con las comunidades\
+    \ m\xE1s vulnerables a los impactos de la pandemia."
+  name-esp: "C\xF3mo analizar la equidad en los gastos federales ocasionados por el\
+    \ COVID-19"
+  organization-esp:
+  - Departamento del Tesoro de los EE. UU.
   organizations:
   - recgPNji2KEknNBA5
   pdf: 2021-problem-statements/post-covid/Treasury_ Analyzing Equity in Federal COVID-19
     Spending.pdf
   sprint_order: 2
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "Durante el curso de la pandemia de COVID-19, el gobierno federal [ha destinado\
+    \ 4.5 billones de d\xF3lares](https://www.usaspending.gov/disaster/covid-19) a\
+    \ las actividades de asistencia. \xBFC\xF3mo se gast\xF3 este dinero? Un mejor\
+    \ entendimiento de c\xF3mo los gastos del gobierno llegan a las distintas comunidades\
+    \ es un avance en cuanto a la transparencia de los datos y un llamado a la acci\xF3\
+    n para mejorar la igualdad. El acceso a datos financieros federales junto con\
+    \ datos demogr\xE1ficos puede ayudar a los l\xEDderes comunitarios a tomar decisiones\
+    \ de financiaci\xF3n de mayor impacto.  En concordancia con la [reciente Orden\
+    \ Ejecutiva](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government/)\
+    \ para fomentar la Equidad Racial y el Apoyo a las Comunidades Desatendidas mediante\
+    \ el Gobierno Federal, este planteamiento de problema busca darle prioridad a\
+    \ la equidad en los planes de gastos del gobierno."
 - Challenge: Create digital tools and resources to track federal financial assistance
     award spending starting from Federal awards and flowing down to state and/or local
     spend in response to one or more emergencies and disasters (e.g., COVID-19 Coronavirus
@@ -800,6 +870,8 @@
     GPS data, Data.gov, FedBizOps, USASpending
   image: photos/sprints/2018-accountability.png
   image-alt: A healthcare professional taking a blood-pressure reading
+  organization-esp:
+  - Departamento del Tesoro de los EE. UU.
   organizations:
   - rec9YorLrBEvA0vj4
   - recgPNji2KEknNBA5
@@ -842,6 +914,8 @@
   category: Housing
   image: photos/sprints/2016-hud.png
   image-alt: A city skyline with skyscrapers lit up at night
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
   - recRLxRGfiWtHnmAs
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity, Opportunity
@@ -921,6 +995,8 @@
   image: challenges/self-sufficiency.jpg
   image-alt: Closeup of desk with two people sitting at laptops and one of them writing
     on some paperwork
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
   - recRLxRGfiWtHnmAs
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
@@ -1280,6 +1356,8 @@
     Finance, Fish and Wildlife (TRACS), USDA NIFA Data Gateway, USASpending
   image: photos/sprints/2018-grants.png
   image-alt: A collection of one-dollar bills
+  organization-esp:
+  - Departamento del Tesoro de los EE. UU.
   organizations:
   - rec9YorLrBEvA0vj4
   - recgPNji2KEknNBA5
@@ -1456,12 +1534,39 @@
   agency_text: City of Coral Gables
   airtable_createdTime: '2021-07-09T16:26:32.000Z'
   airtable_id: recODy3F77656gS8i
+  audience-esp: "Principalmente propietarios de peque\xF1as empresas, sus empleados\
+    \ y profesionales de desarrollo econ\xF3mico, as\xED como tambi\xE9n visitantes\
+    \ y residentes"
+  challenge-esp: "Desarrollar herramientas digitales para ayudar a las personas a\
+    \ cargo de peque\xF1as empresas y a su fuerza laboral a mejorar su presencia en\
+    \ internet y su capacidad de procesar datos e informaci\xF3n relevantes para sus\
+    \ empresas en tiempo real, permiti\xE9ndoles as\xED ser competitivos en el ecosistema\
+    \ digital"
+  name-esp: "C\xF3mo ayudar a las peque\xF1as empresas a prosperar en una econom\xED\
+    a digital"
+  organization-esp:
+  - Ciudad de Coral Gables
   organizations:
   - rec2IHtoNgIK49Qgz
   pdf: 2021-problem-statements/post-covid/Coral Gables_ Helping Small Businesses Thrive
     in a Digital Economy.pdf
   sprint_order: 7
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "Tras la pandemia del COVID-19, muchas peque\xF1as empresas lucharon para\
+    \ mantenerse a flote. En mayo del 2021, el n\xFAmero de peque\xF1as empresas en\
+    \ funcionamiento se hab\xEDa reducido en un 33.8 %, en comparaci\xF3n con enero\
+    \ del 2020. Aquellas que permanecieron en funcionamiento enfrentaron una reducci\xF3\
+    n de sus ingresos, adem\xE1s de mayores gastos y nuevas realidades operacionales\
+    \ dadas las restricciones de salud y seguridad. Durante la pandemia, gran parte\
+    \ de la econom\xEDa se traslad\xF3 a internet. Sin embargo, solo el 29 % de las\
+    \ peque\xF1as empresas en Florida reportaron beneficiarse de las ventas por internet,\
+    \ destacando la falta de igualdad en la preparaci\xF3n para este cambio. Dados\
+    \ estos desaf\xEDos, la recuperaci\xF3n econ\xF3mica tampoco ser\xE1 tan simple\
+    \ para las operaciones de menor escala. Sin embargo, las peque\xF1as empresas\
+    \ tienen un papel cr\xEDtico en la econom\xEDa; el 60 % de los nuevos puestos\
+    \ netos de trabajo en Florida desde el 2012 provino de compa\xF1\xEDas con menos\
+    \ de 100 empleados, confirmando el papel fundamental de estas organizaciones para\
+    \ la econom\xEDa del estado."
 - Challenge: For the first time in 2020, people will be able to complete the Census
     online, presenting an opportunity to better count our nation, but also many challenges,
     like fake or suspicious content and targeted disinformation. Increasing digital
@@ -1696,6 +1801,8 @@
   category: Education
   image: photos/sprints/2016-doe1.png
   image-alt: Three people crowded around and pointing to a laptop screen
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
   - recBBbVkCKQN52rWM
   - recRLxRGfiWtHnmAs
@@ -1870,6 +1977,23 @@
   agency_text: National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-06-28T20:16:52.000Z'
   airtable_id: recbjIUzjzLZ5KmJS
+  audience-esp: "Los dos destinatarios principales son: (1) personas responsables\
+    \ de la toma de decisiones a nivel municipal, de condado, tribal y estatal a cargo\
+    \ de la planificaci\xF3n y de las medidas para proteger a las personas, la propiedad,\
+    \ los recursos, los servicios y la infraestructura de acontecimientos extremos\
+    \ ocasionados por el clima, especialmente en comunidades desatendidas; y (2) profesionales\
+    \ sobre adaptaci\xF3n/resiliencia al clima que proporcionan asesoramiento experto\
+    \ y servicios de traducci\xF3n a los responsables de la toma de decisiones a nivel\
+    \ local para ayudar a guiar e informar el desarrollo de los planes locales de\
+    \ resiliencia al clima."
+  challenge-esp: "Este sprint desaf\xEDa a los participantes a crear herramientas\
+    \ que permitan la toma de decisiones acerca de la resiliencia al clima y la capacidad\
+    \ federal para apoyar prioridades a nivel local, para mejorar la planificaci\xF3\
+    n con respecto a la resiliencia al clima en comunidades de todo el pa\xEDs. Esto\
+    \ puede incluir herramientas de informaci\xF3n geoespacial f\xE1ciles de usar\
+    \ para ayudar a los gobiernos locales a identificar e integrar datos federales\
+    \ que sean relevantes a nivel local para enfrentar los impactos del cambio clim\xE1\
+    tico en sus comunidades. "
   datasets copy:
   - recfS2ACBvpRqKDib
   - recCdi3hnYuSm7w3t
@@ -1925,12 +2049,41 @@
     data, Low Income Home Energy Assistance Program, Broadband Access, American Housing
     Survey, "Landscan: best available demographic (Census) and geographic data, remote
     sensing, and imagery analysis techniques", Coastal and Ocean Economy Data'
+  name-esp: "C\xF3mo enfrentar la crisis clim\xE1tica mediante comunidades clim\xE1\
+    ticamente inteligentes"
+  organization-esp:
+  - "Oficina Nacional de Administraci\xF3n Oce\xE1nica y Atmosf\xE9rica (NOAA)"
   organizations:
   - recFaEqDe9K2rgPbi
   pdf: 2021-problem-statements/post-covid/NOAA_ Tackling the Climate Crisis through
     Climate-Smart Communities.pdf
   sprint_order: 3
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "Eventos extremos y los cambios en los patrones de temperatura y precipitaci\xF3\
+    n ocasionados por el cambio clim\xE1tico est\xE1n causando problemas con reacci\xF3\
+    n en cascada en las comunidades de nuestro pa\xEDs.  A medida que aumentan la\
+    \ frecuencia, la gravedad y los costos relacionados, tambi\xE9n aumentan los riesgos\
+    \ para la poblaci\xF3n de los EE. UU., especialmente aquellas personas m\xE1s\
+    \ vulnerables a los efectos del clima, tales como las poblaciones pobres, rurales\
+    \ y minoritarias.  Algunos de los principales peligros relacionados con el clima\
+    \ incluyen calor extremo, sequ\xEDa, incendios forestales, tormentas severas y\
+    \ grandes precipitaciones, aumento del nivel del mar y marejadas cicl\xF3nicas\
+    \ m\xE1s fuertes, y deficiente calidad del aire.  Desafortunadamente, el paso\
+    \ y la escala de los impactos clim\xE1ticos generalmente superan a la respuesta\
+    \ de nuestro pa\xEDs. Por ejemplo, tanto el n\xFAmero anual y el costo combinado\
+    \ de los da\xF1os causados por [desastres naturales de miles de millones de d\xF3\
+    lares (BDD, por sus siglas en ingl\xE9s)](https://www.ncdc.noaa.gov/billions/)\
+    \ en los Estados Unidos se han cuadruplicado desde 1980.  Durante las \xFAltimas\
+    \ cuatro d\xE9cadas, nuestro pa\xEDs pas\xF3 de un promedio de 2.9 BDD que costaron\
+    \ 18 mil millones de d\xF3lares por a\xF1o en la d\xE9cada de 1980 a 12.3 BDD\
+    \ que costaron 82.5 mil millones de d\xF3lares por a\xF1o en la d\xE9cada del\
+    \ 2010.\n\nLa resiliencia a estas crecientes amenazas se debe establecer de manera\
+    \ local.  Pero para guiar e informar la planificaci\xF3n a largo plazo y tomar\
+    \ decisiones relacionadas con el clima basadas en la ciencia, quienes toman esas\
+    \ decisiones a nivel local necesitan datos a su disposici\xF3n de todos los niveles\
+    \ de gobierno.  Necesitan personalizar la informaci\xF3n geoespacial en mapas,\
+    \ im\xE1genes y texto adaptados localmente para abordar riesgos y oportunidades\
+    \ locales relacionados con el clima e informar sobre los mismos. "
 - Background: 'The Department of Labor believes that employers in every industry deserve
     the tools to develop a highly skilled workforce to help their business compete.
     For workers, apprenticeships offer opportunities to earn a salary while learning
@@ -2095,12 +2248,61 @@
   agency_text: Consumer Financial Protection Bureau
   airtable_createdTime: '2021-06-28T20:19:07.000Z'
   airtable_id: recfszna1c4jtooN4
+  audience-esp: "- Audiencia principal: peque\xF1os propietarios, inquilinos en riesgo\
+    \ y organizaciones sin fines de lucro o legales que prestan servicios a inquilinos\
+    \ vulnerables y/o a aquellos que est\xE1n en peligro de quedarse sin hogar \n\
+    - Audiencias o partes interesadas secundarias: organizaciones comerciales u otras\
+    \ entidades que quieren ayudar a los peque\xF1os propietarios a retener sus propiedades,\
+    \ prestadores de servicios financieros y gobiernos estatales, locales y tribales. "
+  challenge-esp: 'Desarrollar herramientas digitales innovadoras para evitar la dificultad
+    financiera y la inseguridad de vivienda al aumentar el conocimiento sobre los
+    recursos de asistencia para la vivienda y conectar a los hogares en riesgo con
+    la asistencia para la vivienda.  '
+  name-esp: "C\xF3mo prevenir la crisis para inquilinos de bajos ingresos y para peque\xF1\
+    os propietarios"
+  organization-esp:
+  - "Oficina para la Protecci\xF3n Financiera del Consumidor (CFPB)"
   organizations:
   - recJBNUnRBNUgTu9d
   pdf: 2021-problem-statements/post-covid/CFPB_ Preventing Crisis for Low-Income Renters
     & Small Landlords.pdf
   sprint_order: 4
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "La inseguridad de vivienda, o el acceso a vivienda asequible para hogares\
+    \ de bajos ingresos, no es un nuevo desaf\xEDo para nuestro pa\xEDs, pero se ha\
+    \ agravado debido a la pandemia de COVID-19. En el a\xF1o 2020, la cantidad de\
+    \ personas que se retrasaron por lo menos tres meses en sus pagos de hipoteca\
+    \ aument\xF3 en 250 por ciento, a m\xE1s de 2 millones de hogares. Se calcula\
+    \ que, de manera colectiva, estos hogares deben casi [90 mil millones de d\xF3\
+    lares](https://files.consumerfinance.gov/f/documents/cfpb_Housing_insecurity_and_the_COVID-19_pandemic.pdf)\
+    \ en capital, intereses, impuestos y pagos de seguro diferidos. Similarmente,\
+    \ m\xE1s de 8 millones de hogares de alquiler se retrasaron en pagar el alquiler.\
+    \ Ahora, a medida que la econom\xEDa se recupera de los impactos de la pandemia,\
+    \ las moratorias de desalojo establecidas para ayudar a inquilinos vulnerables\
+    \ caducar\xE1n.  A medida que acaben estas protecciones, muchos hogares que enfrentaban\
+    \ inseguridad de vivienda antes de y durante la pandemia tendr\xE1n mayores desaf\xED\
+    os en volver a pagar el alquiler o en poder hacer los pagos retrasados. Esto potencialmente\
+    \ podr\xEDa ocasionar que los hogares sean desplazados y/o que las personas queden\
+    \ sin hogar.  \n\nLos hogares desplazados sufrir\xE1n los efectos de otros factores\
+    \ que limitan la disponibilidad de vivienda asequible, colocando a los hogares\
+    \ desplazados en riesgo a\xFAn mayor de quedar sin hogar o de tener vivienda inestable.\
+    \  Uno de estos factores es la presi\xF3n que ocasion\xF3 la pandemia en los peque\xF1\
+    os propietarios.  Los peque\xF1os propietarios, que se define como aquellos que\
+    \ tienen 10 unidades o menos, constituyen casi la mitad de todas las unidades\
+    \ de alquiler y representan una importante fuente de vivienda asequible en muchas\
+    \ \xE1reas.  Pero muchos no est\xE1n preparados para soportar dificultades financieras\
+    \ considerables, tales como falta de pago del alquiler por parte de los inquilinos,\
+    \ y por lo tanto tal vez decidan vender sus propiedades de alquiler o encontrar\
+    \ otros inquilinos. Estos propietarios pueden sentirse a\xFAn m\xE1s desalentados\
+    \ para continuar alquilando o para retener los inquilinos que necesiten asistencia\
+    \ porque, en muchos casos, los propietarios y los inquilinos tienen que coordinar\
+    \ para beneficiarse de los programas de asistencia con el alquiler.  Seg\xFAn\
+    \ pase el tiempo, es posible que los propietarios tengan que enfrentar la dura\
+    \ decisi\xF3n de desalojar inquilinos para poder retener sus propiedades si la\
+    \ asistencia no se proporciona r\xE1pidamente, a pesar de que, de otro modo, estar\xED\
+    an dispuestos a ayudar a sus inquilinos. La importancia de identificar estos inquilinos\
+    \ y propietarios y de conectarlos con la asistencia seguir\xE1 creciendo a medida\
+    \ que enfrentemos los impactos econ\xF3micos a largo plazo de la pandemia.\n"
 - Agency Leads:
   - rec7G2N1E8SmbctT8
   - rec7LBLYqaTnUhCQw
@@ -2241,6 +2443,8 @@
   category: Equity
   image: photos/sprints/2017-grants.png
   image-alt: An archival photograph of a federal building with a streetcar in front
+  organization-esp:
+  - Departamento del Tesoro de los EE. UU.
   organizations:
   - rec9YorLrBEvA0vj4
   - recgPNji2KEknNBA5
@@ -2350,6 +2554,8 @@
   - recwo6k02qWF773ZK
   image: challenges/opportunity-zones.png
   image-alt: birdseye view of densely built residential area
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
   - recRLxRGfiWtHnmAs
   - recvVZzZWobj510rA
@@ -2650,12 +2856,56 @@
   agency_text: U.S. Department of Housing and Urban Development
   airtable_createdTime: '2021-06-28T20:13:42.000Z'
   airtable_id: recsbfXyfEmL6eaDo
+  audience-esp: "Cualquier parte interesada relacionada con la vivienda asequible,\
+    \ incluyendo clientes de HUD (de la poblaci\xF3n en general), propietarios de\
+    \ HUD, desarrolladores de bienes ra\xEDces, bancos y organizaciones de financiaci\xF3\
+    n, analistas de vivienda p\xFAblica, autoridades locales de vivienda p\xFAblica\
+    \ (PHA, por sus siglas en ingl\xE9s), organizaciones de defensa no gubernamentales,\
+    \ planificadores de las ciudades y de las regiones, gobiernos tribales, etc."
+  challenge-esp: "Durante la pandemia, las necesidades de vivienda cambiaron r\xE1\
+    pidamente, ya que algunas personas se mudaron lejos de sus empleadores a lugares\
+    \ no urbanos y algunas industrias colapsaron, crecieron o cambiaron para operar\
+    \ de forma remota. Este desaf\xEDo se trata de 1) usar datos para ayudarles a\
+    \ las partes interesadas a entender las tendencias de vivienda y migraci\xF3n\
+    \ despu\xE9s de la pandemia, y/o 2) crear herramientas que ayuden a visualizar\
+    \ y procesar esta informaci\xF3n para realizar predicciones y recomendaciones\
+    \ guiadas por los datos. Los productos que se obtengan podr\xEDan enfocarse en\
+    \ an\xE1lisis de datos o visualizaciones interactivos, herramientas de AI, mapas\
+    \ interactivos, herramientas de anal\xEDtica predictiva u otras cosas."
+  name-esp: "C\xF3mo analizar las tendencias de vivienda y migraci\xF3n despu\xE9\
+    s del COVID-19"
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
   - recRLxRGfiWtHnmAs
   pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
     Post-COVID 19.pdf
   sprint_order: 5
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "El Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD) ha\
+    \ apoyado las viviendas para personas de ingresos bajos por m\xE1s de 50 a\xF1\
+    os, usando los datos sobre las necesidades de vivienda y la demograf\xEDa para\
+    \ informar las pol\xEDticas y programas de vivienda asequible. Durante el \xFA\
+    ltimo a\xF1o, los cierres globales causados por la pandemia del COVID-19 desafiaron\
+    \ muchas suposiciones anteriores sobre las necesidades de vivienda asequible.\
+    \ Los viajes al trabajo de los oficinistas y los viajes de negocios disminuyeron\
+    \ s\xFAbita y marcadamente, con [60 millones menos de millas viajadas al trabajo](https://bfi.uchicago.edu/insight/finding/60-million-fewer-commuting-hours-per-day-how-americans-use-time-saved-by-working-from-home/),\
+    \ debido a que el 37.1 % de las personas trabajaron desde sus casas. A su vez,\
+    \ esto redujo el uso de hoteles, l\xEDneas a\xE9reas, comidas en restaurantes,\
+    \ entretenimiento y m\xE1s. Por ejemplo, [los gastos por viajes de negocios disminuyeron\
+    \ un 76 %](https://www.ustravel.org/toolkit/covid-19-travel-industry-research).\
+    \ Millones de personas siguen sin empleo. \n\nAlgunos patrones sociales y econ\xF3\
+    micos probablemente regresen despu\xE9s de la pandemia, mientras que es posible\
+    \ que otros contin\xFAen de forma cambiada o desaparezcan para siempre. Las necesidades\
+    \ de vivienda tanto de los trabajadores remotos (por ejemplo, trabajos de oficina)\
+    \ como de los trabajadores presenciales (por ejemplo, restaurantes, entrega a\
+    \ domicilio, hoteler\xEDa, etc.) est\xE1n cambiando. Es posible que la asequibilidad\
+    \ pueda cambiar en algunas \xE1reas urbanas, a medida que las personas se muden\
+    \ a lugares m\xE1s deseables y ahora s\xED obtenibles, incluyendo las zonas menos\
+    \ costosas fuera de las grandes ciudades, a los estados del sur con costos m\xE1\
+    s bajos y a comunidades que facilitan actividades ajenas al trabajo, tales como\
+    \ el golf, la navegaci\xF3n, las caminatas, el arte, la m\xFAsica y los espect\xE1\
+    culos en vivo, etc."
 - Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
     community in NYC and in cities nationwide, enabling them to access government
     resources for an equitable recovery to the impacts of COVID-19. '
@@ -2692,9 +2942,41 @@
   agency_text: New York City Maryor's Office of the Chief Technology Officer
   airtable_createdTime: '2021-06-28T20:23:56.000Z'
   airtable_id: recxiyHz22AqIcSU6
+  audience-esp: "Gobiernos locales y NGO que necesiten comunicarse con hablantes de\
+    \ idiomas diversos en los Estados Unidos. La mayor\xEDa de los usuarios finales\
+    \ ser\xE1n personas que gestionen contenido digital e impreso en instituciones\
+    \ que prestan servicios al p\xFAblico. Los beneficiarios principales de esta iniciativa\
+    \ son las personas sin dominio del ingl\xE9s, que se beneficiar\xE1n al tener\
+    \ contenido traducido continuamente disponible en el idioma que prefieran."
+  challenge-esp: "Desarrollar herramientas (idealmente de fuente abierta) para ayudar\
+    \ a prestar servicios a la comunidad cada d\xEDa m\xE1s multiling\xFCe en la ciudad\
+    \ de Nueva York y en ciudades de todo el pa\xEDs, posibilit\xE1ndole acceder a\
+    \ recursos del gobierno para que logre una recuperaci\xF3n equitativa de los impactos\
+    \ del COVID-19. "
+  name-esp: "C\xF3mo aumentar la accesibilidad a los contenidos para las comunidades\
+    \ biling\xFCes"
+  organization-esp:
+  - "Oficina del Director de Tecnolog\xEDa de la Informaci\xF3n del Alcalde de la\
+    \ Ciudad de Nueva York"
   organizations:
   - recF42Tt24lo4YTcC
   pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
     Multilingual Communities.pdf
   sprint_order: 6
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  why-esp: "Con m\xE1s de 3 millones de residentes nacidos en el extranjero provenientes\
+    \ de m\xE1s de 200 pa\xEDses distintos, la ciudad de Nueva York alberga a una\
+    \ de las poblaciones m\xE1s diversas del mundo. Los neoyorquinos provienen de\
+    \ todos los rincones del planeta y hablan m\xE1s de 200 idiomas distintos. Casi\
+    \ la mitad de los neoyorquinos hablan otro idioma aparte del ingl\xE9s en casa,\
+    \ y casi el 25 %, o 1.8 millones de personas, no dominan el ingl\xE9s.\n\nDurante\
+    \ la respuesta a una crisis y la recuperaci\xF3n, la informaci\xF3n fundamental\
+    \ sobre la salud p\xFAblica y las operaciones del gobierno se debe proporcionar\
+    \ en m\xFAltiples idiomas. Los datos surgen de manera constante, y la informaci\xF3\
+    n cambia r\xE1pidamente, pero la nueva informaci\xF3n se comparte primero y principalmente\
+    \ en ingl\xE9s, lo que hace dif\xEDcil garantizar que los millones de residentes\
+    \ que no tienen dominio del ingl\xE9s puedan recibir informaci\xF3n cr\xEDtica\
+    \ de manera oportuna.  En una situaci\xF3n de emergencia, y durante la recuperaci\xF3\
+    n econ\xF3mica de una crisis tal como la del COVID-19, si las personas no tienen\
+    \ acceso equitativo a informaci\xF3n utilizable, \xBFc\xF3mo podemos garantizar\
+    \ una recuperaci\xF3n equitativa?"

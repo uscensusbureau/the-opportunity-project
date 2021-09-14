@@ -3,6 +3,9 @@
   {% assign expandedClass = "ps-expanded" %}
 {% endif %}
 
+{% assign translations = site.data.messages.problem-statement %}
+{% assign lookups = site.data.messages.ps-fields %}
+
 <div class="problem-statement">
   <div class="grid-row">
 
@@ -11,15 +14,20 @@
         {{ site.data.messages.problem-statement.problem-statement[page.lang] }}
       </span>
       <h2 class="text-light font-sans-xl line-height-sans-3 margin-top-1 margin-bottom-1">
-        {{ include.content['Full Title'] }}
+        {% assign index = lookups.name[page.lang] %}
+        {{ include.content[index] }}
       </h2>
       <div class="lhs-content {{ expandedClass }}">
         <h3 class="problem-statement-subheader">
         {{ site.data.messages.problem-statement.challenge[page.lang] }}:
       </h3>
-        <p>{{ include.content.Challenge | markdownify }}</p>
+        {% assign index = lookups.challenge[page.lang] %}
+        <p>{{ include.content[index] | markdownify }}</p>
         <h3 class="problem-statement-subheader">{{ site.data.messages.problem-statement.why[page.lang] }}:</h3>
-        <p>{{ include.content["Why this problem matters"] | markdownify }}</p>
+        <p>
+          {% assign index = lookups.why-matters[page.lang] %}
+          {{ include.content[index] | markdownify }}
+        </p>
       </div>
     </div>
 
@@ -39,13 +47,17 @@
 
       <div class="ps-right-col-section ps-agency {{ expandedClass }}">
         <h3 class="secondary-header">{{ site.data.messages.problem-statement.agency[page.lang] }}</h3>
-        <p class="margin-top-1">{{ include.content.agency_text }}</p>
+        <p class="margin-top-1">
+          {% assign index = lookups.agency[page.lang] %}
+          {{ include.content[index] }}
+        </p>
       </div>
 
       {% if page.isCurrent and include.content.pdf %}
         <div class="ps-right-col-section ps-cta {{expandedClass}} text-center">
+          {% assign pdfIndex = lookups.pdf[page.lang] %}
           <a class="btn-link btn-link__secondary-red btn-link--small text-center ps-pdf" 
-            href="{{ site.baseurl }}/assets/files/{{ include.content.pdf }}" download
+            href="{{ site.baseurl }}/assets/files/{{ include.content[pdfIndex] }}" download
           >
             {{ site.data.messages.problem-statement.pdf-download[page.lang] }}
           </a>
@@ -54,7 +66,10 @@
 
       <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
         <h3 class="secondary-header">{{ site.data.messages.problem-statement.audience[page.lang] }}</h3>
-        <p>{{ include.content["Target audience / End user"] | markdownify }}</p>
+        <p>
+          {% assign index = lookups.audience[page.lang] %}
+          {{ include.content[index] | markdownify }}
+        </p>
       </div>
     </div>
   </div>
@@ -64,7 +79,11 @@
     <div class="ps-see-more">
       <button class="callout-button {{ expandedClass }}">
         <span>
-          {% if include.isExpanded %}See Less{% else %}See More{% endif %}
+          {% if include.isExpanded %}
+            {{ translations.see-less[page.lang] }}
+          {% else %}
+            {{ translations.see-more[page.lang] }}
+          {% endif %}
         </span>
       </button>
     </div>

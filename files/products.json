@@ -1,3 +1,5 @@
 ---
 ---
+{% comment %}
 {{ site.data.products | jsonify }}
+{% endcomment %}

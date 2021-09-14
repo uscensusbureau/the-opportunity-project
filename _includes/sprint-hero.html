@@ -20,13 +20,13 @@
             {% if include.content.translation_link %}
               {% assign translationSprint = site.data.sprints | where: "airtable_id", include.content.translation_link[0] | first %}
               {% assign translationPage = site.sprints | where: "short-name", translationSprint.short-tag | first %}
-              <div class="tablet-lg:grid-col-4 display-flex flex-row flex-align-center">
+              <div class="tablet-lg:grid-col-4 display-flex tablet-lg:flex-justify-end flex-row flex-align-center">
                 <a 
-                  class="tablet-lg:float-right btn-link btn-link__primary-red btn-link--small margin-top-0"
+                  class="btn-link btn-link__primary-red  btn-link--small margin-top-0"
                   id="translate-button"
                   href="{{site.baseurl}}{{ translationPage.url }}"
                 >
-                  Translate this page
+                  {{ site.data.messages.sprints.translate-button[page.lang] }}
                 </a>
               </div>
             {% endif %}

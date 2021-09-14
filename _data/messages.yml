@@ -22,6 +22,9 @@ sprints:
   bottom-callout-button:
     en: Click here to start the process
     esp: HAGA CLIC AQUÍ PARA COMENZAR EL PROCESO
+  translate-button:
+    en: Ver en español
+    esp: View in English
 
 problem-statement:
   problem-statement: 

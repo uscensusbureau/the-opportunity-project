@@ -155,6 +155,21 @@ describe.only('Translation tests', () => {
     cy.get('.sprint-hero__callout .btn-link').contains('PARTICIPE EN EL SPRINT', { matchCase: false})
     cy.get('h2:last-of-type').contains('¿Desea participar en este sprint')
     cy.get('h2:last-of-type+.btn-link').contains('HAGA CLIC AQUÍ PARA COMENZAR EL PROCESO', { matchCase: false })
+
+    cy.get('.problem-statement').each($ps => {
+      cy.wrap($ps)
+        .contains('Planteamiento del Problema')
+      cy.wrap($ps)
+        .contains('Agencia')
+      cy.wrap($ps)
+        .contains('El Desafío')
+      cy.wrap($ps)
+        .contains('El Problema')
+      cy.wrap($ps)
+        .contains('Descargar El Texto Completo (PDF)')
+      cy.wrap($ps)
+        .contains('Usuarios Finales Como Objetivo')
+    })
   })
   
   it.only('shows English content of general Sprint info on all English pages', () => {
@@ -168,6 +183,21 @@ describe.only('Translation tests', () => {
           cy.get('.sprint-hero__callout .btn-link').contains('JOIN A SPRINT', { matchCase: false })
           cy.get('h2:last-of-type').contains('Want to join a sprint?')
           cy.get('h2:last-of-type+.btn-link').contains('Click here', { matchCase: false })
+        }
+
+        if (sprint.numPS) {
+          cy.get('.problem-statement').each($ps => {
+            cy.wrap($ps)
+              .contains('Problem Statement')
+            cy.wrap($ps)
+              .contains('Agency')
+            cy.wrap($ps)
+              .contains('Challenge')
+            cy.wrap($ps)
+              .contains('Why This Problem is Important')
+            cy.wrap($ps)
+              .contains('Target Audience')
+          })
         }
       }
     }

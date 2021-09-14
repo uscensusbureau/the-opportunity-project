@@ -7,14 +7,18 @@
   <div class="grid-row">
 
     <div class="ps-left-col {{expandedClass}}">
-      <span class="secondary-header">Problem Statement</span>
+      <span class="secondary-header">
+        {{ site.data.messages.problem-statement.problem-statement[page.lang] }}
+      </span>
       <h2 class="text-light font-sans-xl line-height-sans-3 margin-top-1 margin-bottom-1">
         {{ include.content['Full Title'] }}
       </h2>
       <div class="lhs-content {{ expandedClass }}">
-        <h3 class="problem-statement-subheader">Challenge:</h3>
+        <h3 class="problem-statement-subheader">
+        {{ site.data.messages.problem-statement.challenge[page.lang] }}:
+      </h3>
         <p>{{ include.content.Challenge | markdownify }}</p>
-        <h3 class="problem-statement-subheader">Why This Problem is Important:</h3>
+        <h3 class="problem-statement-subheader">{{ site.data.messages.problem-statement.why[page.lang] }}:</h3>
         <p>{{ include.content["Why this problem matters"] | markdownify }}</p>
       </div>
     </div>
@@ -34,7 +38,7 @@
       {% endif %}
 
       <div class="ps-right-col-section ps-agency {{ expandedClass }}">
-        <h3 class="secondary-header">Agency</h3>
+        <h3 class="secondary-header">{{ site.data.messages.problem-statement.agency[page.lang] }}</h3>
         <p class="margin-top-1">{{ include.content.agency_text }}</p>
       </div>
 
@@ -43,13 +47,13 @@
           <a class="btn-link btn-link__secondary-red btn-link--small text-center ps-pdf" 
             href="{{ site.baseurl }}/assets/files/{{ include.content.pdf }}" download
           >
-            Download full text (pdf)
+            {{ site.data.messages.problem-statement.pdf-download[page.lang] }}
           </a>
         </div>
       {% endif %}
 
       <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
-        <h3 class="secondary-header">Target Audience</h3>
+        <h3 class="secondary-header">{{ site.data.messages.problem-statement.audience[page.lang] }}</h3>
         <p>{{ include.content["Target audience / End user"] | markdownify }}</p>
       </div>
     </div>

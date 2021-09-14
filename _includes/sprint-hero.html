@@ -11,9 +11,26 @@
       {% endif %}
       <div class="grid-col-12 tablet:grid-col-9 tablet:grid-offset-1">
         <div class="content-container display-flex flex-column padding-y-5 padding-left-4 tablet:padding-left-2 padding-right-6 light-links">
-          <h1 class="sprint-hero-header">
-            {{ include.content.Name }}
-          </h1>
+          <div class="grid-row">
+            <div class="tablet-lg:grid-col-8">
+              <h1 class="sprint-hero-header">
+                {{ include.content.Name }}
+              </h1>
+            </div>
+            {% if include.content.translation_link %}
+              {% assign translationSprint = site.data.sprints | where: "airtable_id", include.content.translation_link[0] | first %}
+              {% assign translationPage = site.sprints | where: "short-name", translationSprint.short-tag | first %}
+              <div class="tablet-lg:grid-col-4 display-flex flex-row flex-align-center">
+                <a 
+                  class="tablet-lg:float-right btn-link btn-link__primary-red btn-link--small margin-top-0"
+                  id="translate-button"
+                  href="{{site.baseurl}}{{ translationPage.url }}"
+                >
+                  Translate this page
+                </a>
+              </div>
+            {% endif %}
+          </div>
           {% if include.content.Year %}
             <span class="order-first text-mono-3xs">
               <img src="{{ site.baseurl }}/assets/img/icons/yellow-star.svg" alt="A small, 5-pointed yellow star"/>

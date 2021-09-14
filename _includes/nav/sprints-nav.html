@@ -2,14 +2,16 @@
 <nav class="site-nav-secondary sprint-nav" id="sprint-nav" role="navigation" aria-label="subnavigation">
   <ul>
     {% for link in links %}
-      {% assign pageSprints = site.data.sprints | where:'short-tag', link.short-name %}
-      {% assign name = pageSprints[0].Name %}
-      {% if link.short-name == "past" %}
-        {% assign name="Past Sprints" %}
+      {% assign linkSprint = site.data.sprints | where:'short-tag', link.short-name | first %}
+      {% if linkSprint.lang != "esp" %}
+        {% assign name = linkSprint.Name %}
+        {% if link.short-name == "past" %}
+          {% assign name="Past Sprints" %}
+        {% endif %}
+        <li class="usa-nav__primary-item sprint-nav-item" name="{{ name | slugify }}">
+          <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}{{ link.url }}#{{ link.short-name }}"><span>{{ name }}</span></a>
+        </li>
       {% endif %}
-      <li class="usa-nav__primary-item sprint-nav-item" name="{{ name | slugify }}">
-        <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}{{ link.url }}#{{ link.short-name }}"><span>{{ name }}</span></a>
-      </li>
     {% endfor %}
   </ul>
 </nav>

@@ -181,6 +181,7 @@
   Name: "Improving Minority Businesses\u2019 Access to Capital"
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: |-
     - Engaged Minority Business Owners and Minority Entrepreneurs seeking access to capital
     - Advocacy organizations supporting these individuals
@@ -212,7 +213,7 @@
   pdf: 2021-problem-statements/post-covid/MBDA_ Improving Minority Businesses Access
     to Capital.pdf
   sprint_order: 1
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
 - Challenge: 'Develop innovative tools that combine datasets to help inform community
     leaders on equitable distribution of federal funding. Teams are encouraged to
     analyze how federal COVID-19 spending has been shared with communities most vulnerable
@@ -223,6 +224,7 @@
   Name: Analyzing Equity in Federal COVID-19 Spending
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: |-
     - Local officials and decision makers
     - Policy and advocacy organizations
@@ -248,7 +250,7 @@
   pdf: 2021-problem-statements/post-covid/Treasury_ Analyzing Equity in Federal COVID-19
     Spending.pdf
   sprint_order: 2
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
 - Challenge: Create digital tools and resources to track federal financial assistance
     award spending starting from Federal awards and flowing down to state and/or local
     spend in response to one or more emergencies and disasters (e.g., COVID-19 Coronavirus
@@ -1424,6 +1426,7 @@
   Name: Helping Small Businesses Thrive in a Digital Economy
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: 'Small business owners, their employees, and economic
     development professionals, as well as visitors and residents. '
   Vision for sprint outcomes: Small businesses in South Florida will become more integrated
@@ -1458,7 +1461,7 @@
   pdf: 2021-problem-statements/post-covid/Coral Gables_ Helping Small Businesses Thrive
     in a Digital Economy.pdf
   sprint_order: 7
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
 - Challenge: For the first time in 2020, people will be able to complete the Census
     online, presenting an opportunity to better count our nation, but also many challenges,
     like fake or suspicious content and targeted disinformation. Increasing digital
@@ -1843,6 +1846,7 @@
   Name: Tackling the Climate Crisis through Climate-Smart Communities
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: |-
     1. Municipal, county, tribal, and state decision makers who are responsible for planning and action, especially in underserved communities
     2. Climate adaptation/resilience professionals who provide local decision makers with expert guidance and translation services
@@ -1866,12 +1870,67 @@
   agency_text: National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-06-28T20:16:52.000Z'
   airtable_id: recbjIUzjzLZ5KmJS
+  datasets copy:
+  - recfS2ACBvpRqKDib
+  - recCdi3hnYuSm7w3t
+  - rec4xMqeds9dcN8aQ
+  - recjKuqcqqDxhK7GY
+  - recReiIGTrZawk2dm
+  - recT3xl4qnQWnBt95
+  - recQBVqimINLrCmoE
+  - recuTx8mZcxKwIin6
+  - recUkeL0BLekZM3qe
+  - recN3HjMp59Lo7u2T
+  - recAOMJI7c7Q2dSOg
+  - recOLU1SULBxJ5d5S
+  - recWvvkOzpUmgtflW
+  - rechGYFvUSJAfuhLH
+  - recT9Gbguz7W0PKUD
+  - recz9IrLuVHuHLZXT
+  - recxvqZW3VhfT4Wyh
+  - rec2BYhBrnlYxP2TP
+  - recclTn1lOeyXPczZ
+  - reckylgluwHcF9Rz3
+  - rec4cE01JDCLBGIKn
+  - recoT5jeogid79NbG
+  - receBN5BpEnen4rNP
+  - rec3rzhgabXlvzBXp
+  - recNb25vkXc4BhKAB
+  - rec9QqIfRf1ZK8EX4
+  - rece3FIEh33mW0zDF
+  - recLOPJDbqlg8HfQi
+  - rectromRwie5gWpO4
+  - recjS8XDL8j8Ni4MR
+  - recqJZI8IiwSamfgc
+  - reckEmdSxvKwdtQzQ
+  - recT2Oy9285l5fHLg
+  - rec9nkq6q1u54b1i0
+  - reczKCI5Px1tghxf7
+  - rec7nUX62Y5OEC9cC
+  - recElOFVrnmvpgqSX
+  - recibPLUri64ROeel
+  datasets_text: 'NOAA Climate at a Glance, Global Historical Climatology Network
+    Data, Sea Level Trends, The State of High Tide Flooding and Annual Outlook, Global
+    Sea Level Rise, Sea Level Future Scenarios, Inundation from Storm Surge, Drought.gov
+    Data & Maps, Historical drought maps, Storm Events Database, LOCA Downscaled Climate
+    Projections, RCC-ACIS (Regional Climate Centers - Applied Climate Information
+    System),  USGS Current Water Data for the Nation, Digital Coast - Sea Level Rise,
+    Risk Maps and Floodplains, National Risk Index, EPA Climate Change Indicators,
+    Estimated water use in 2015, Wildland-Urban Interface Areas, Outdoor Air Quality
+    Data, Tree Canopy, Community Resilience Estimates, "Lidar, imagery, and land cover
+    data for coastal zones and Great Lakes", Digital Coast Data, The National Map,
+    Offshore Energy and Marine Planning (Marine Cadastre) , Census Tract Maps, "TIGER
+    Shapefiles, U.S. Census Bureau", Social Vulnerability Index, EPA Environmental
+    Justice Screening tool, SNAP Utilization + Expenditures, SNAP Retailers, Unemployment
+    data, Low Income Home Energy Assistance Program, Broadband Access, American Housing
+    Survey, "Landscan: best available demographic (Census) and geographic data, remote
+    sensing, and imagery analysis techniques", Coastal and Ocean Economy Data'
   organizations:
   - recFaEqDe9K2rgPbi
   pdf: 2021-problem-statements/post-covid/NOAA_ Tackling the Climate Crisis through
     Climate-Smart Communities.pdf
   sprint_order: 3
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
 - Background: 'The Department of Labor believes that employers in every industry deserve
     the tools to develop a highly skilled workforce to help their business compete.
     For workers, apprenticeships offer opportunities to earn a salary while learning
@@ -2012,6 +2071,7 @@
   Name: Preventing Crisis for Low-Income Renters & Small Landlords
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: |-
     1. Small landlords, at-risk renters, and nonprofits or legal organizations serving vulnerable renters and/or those at risk for homelessness
     2. Trade associations or other entities seeking to help small landlords retain their properties, financial services providers, and state, local, and tribal governments.
@@ -2040,7 +2100,7 @@
   pdf: 2021-problem-statements/post-covid/CFPB_ Preventing Crisis for Low-Income Renters
     & Small Landlords.pdf
   sprint_order: 4
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
 - Agency Leads:
   - rec7G2N1E8SmbctT8
   - rec7LBLYqaTnUhCQw
@@ -2558,6 +2618,7 @@
   Name: Analyzing Housing and Migration Trends Post-COVID 19
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: |-
     - HUD clients and landlords
     - real estate developers
@@ -2594,7 +2655,7 @@
   pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
     Post-COVID 19.pdf
   sprint_order: 5
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
 - Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
     community in NYC and in cities nationwide, enabling them to access government
     resources for an equitable recovery to the impacts of COVID-19. '
@@ -2604,6 +2665,7 @@
   Name: Increasing Content Accessibility for Multilingual Communities
   Sprints:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   Target audience / End user: Local governments and NGOs who need to communicate with
     diverse language speakers in the United States. The majority of target users will
     be people who manage digital and print content within public-facing institutions.
@@ -2635,4 +2697,4 @@
   pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
     Multilingual Communities.pdf
   sprint_order: 6
-  sprint_text: The World Post-COVID-19
+  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19

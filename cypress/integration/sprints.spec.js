@@ -1,22 +1,24 @@
+const base = '/sprints/'
+const sprints = [
+  { url: '', numPS: 7, isCurrent: true, showTranslate: true },
+  { url: 'post-covid', numPS: 7, isCurrent: true, showTranslate: true },
+  { url: 'pos-covid-esp', numPS: 7, isCurrent: true, showTranslate: true },
+  { url: '2020-census-data', numPS: 3, isCurrent: true },
+  { url: 'natural-environment', numPS: 4 },
+  { url: 'built-environment', numPS: 4 },
+  { url: 'geo-cohort', numPS: 4 },
+  { url: '2020-census', numPS: 4 },
+  { url: 'workforce', numPS: 4 },
+  { url: 'past-sprints' },
+]
+
 describe('Sprints test', () => {
-  const base = '/sprints/'
-  const sprints = [
-    { url: '', numPS: 7, isCurrent: true },
-    { url: 'post-covid', numPS: 7, isCurrent: true },
-    { url: '2020-census-data', numPS: 3, isCurrent: true },
-    { url: 'natural-environment', numPS: 4 },
-    { url: 'built-environment', numPS: 4 },
-    { url: 'geo-cohort', numPS: 4 },
-    { url: '2020-census', numPS: 4 },
-    { url: 'workforce', numPS: 4 },
-    { url: 'past-sprints' },
-  ]
   it('has the right number of subnav elements', () => {
     for(let i = 0; i < sprints.length; i++) {
       const url = sprints[i].url
       cy.visit(base + url)
       cy.get('#sprint-nav ul').children()
-        .should('have.length', sprints.length - 1)
+        .should('have.length', sprints.length - 2) // don't show pos-covid-esp
     }
   })
 
@@ -111,6 +113,37 @@ describe('Sprints test', () => {
 
   it('has Post-COVID pdf at proper link', () => {
     cy.request('/assets/files/Post-COVID-Problem-Statements.pdf')
+  })
+})
+
+describe.only('Translation tests', () => {
+  const translateButton = '#translate-button'
+  it.skip('shows translate button only on Post-COVID pages', () => {
+    for (const sprint of sprints) {
+      cy.visit(base + sprint.url)
+      const expecting = sprint.showTranslate ? 'exist' : 'not.exist'
+      cy.get(translateButton)
+        .should(expecting)
+    }
+  })
+
+  it('navigates to Spanish translation from English version', () => {
+    cy.visit('/sprints/post-covid')
+    cy.get(translateButton)
+      .click()
+    cy.location('pathname').should('contain', '/pos-covid-esp/')
+    
+  })
+
+  it('navigates to English from Spanish', () => {
+    cy.visit('/sprints/pos-covid-esp')
+    cy.get(translateButton)
+      .click()
+    cy.location('pathname').should('contain', '/post-covid/')
+  })
+
+  it('shows Spanish content on Spanish page', () => {
+    expect(true).to.be.false
   })
 })
 

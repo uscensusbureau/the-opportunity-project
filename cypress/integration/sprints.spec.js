@@ -147,7 +147,7 @@ describe.only('Translation tests', () => {
     cy.get('.sprint-hero-header').contains('El Mundo')
   })
 
-  it.only('shows Spanish translation of Sprint-specific content on Spanish page', () => {
+  it('shows Spanish translation of Sprint-specific content on Spanish page', () => {
     cy.visit('/sprints/pos-covid-esp')
     
     cy.get('.interior-hero p').contains('Obtenga información')
@@ -186,18 +186,27 @@ describe.only('Translation tests', () => {
         }
 
         if (sprint.numPS) {
-          cy.get('.problem-statement').each($ps => {
-            cy.wrap($ps)
-              .contains('Problem Statement')
-            cy.wrap($ps)
-              .contains('Agency')
-            cy.wrap($ps)
-              .contains('Challenge')
-            cy.wrap($ps)
-              .contains('Why This Problem is Important')
-            cy.wrap($ps)
-              .contains('Target Audience')
-          })
+          cy.get('.problem-statement').contains('Problem Statement')
+          cy.get('.problem-statement')
+            .contains('Planteamiento del Problema')
+            .should('not.exist')
+          cy.get('.problem-statement').contains('Agency')
+          cy.get('.problem-statement').contains('Challenge')
+          cy.get('.problem-statement').contains('Why This Problem is Important')
+          cy.get('.problem-statement').contains('Target Audience')
+
+          cy.get('.problem-statement')
+            .contains('El Desafío')
+            .should('not.exist')
+          cy.get('.problem-statement')
+            .contains('El Problema')
+            .should('not.exist')
+          cy.get('.problem-statement')
+            .contains('Descargar El Texto Completo (PDF)')
+            .should('not.exist')
+          cy.get('.problem-statement')
+            .contains('Usuarios Finales Como Objetivo')
+            .should('not.exist')
         }
       }
     }

@@ -127,7 +127,7 @@ describe.only('Translation tests', () => {
     }
   })
 
-  it('navigates to Spanish translation from English version', () => {
+  it.skip('navigates to Spanish translation from English version', () => {
     cy.visit('/sprints/post-covid')
     cy.get(translateButton)
       .click()
@@ -135,15 +135,49 @@ describe.only('Translation tests', () => {
     
   })
 
-  it('navigates to English from Spanish', () => {
+  it.skip('navigates to English from Spanish', () => {
     cy.visit('/sprints/pos-covid-esp')
     cy.get(translateButton)
       .click()
     cy.location('pathname').should('contain', '/post-covid/')
   })
 
-  it('shows Spanish content on Spanish page', () => {
-    expect(true).to.be.false
+  it('shows Spanish translation of Sprint-specific content on Spanish page', () => {
+    cy.visit('/sprints/pos-covid-esp')
+    cy.get('.sprint-hero-header').contains('El Mundo')
+  })
+
+  it('shows Spanish translation of Sprint-specific content on Spanish page', () => {
+    cy.visit('/sprints/pos-covid-esp')
+    
+    cy.get('.interior-hero p').contains('Obtenga información')
+
+    cy.get('.sprint-hero__callout').contains('Actualmente estamos')
+
+    cy.get('.sprint-hero__callout .btn-link').contains('PARTICIPE EN EL SPRINT')
+  })
+  it.only('shows English content of general Sprint info on all English pages', () => {
+    for (const sprint of sprints) {
+      cy.visit(base + sprint.url)
+      if (sprint.url !== 'pos-covid-esp') {
+        cy.get('.interior-hero p').contains('Learn about sprints')
+
+        if (sprint.isCurrent) {
+          cy.get('.sprint-hero__callout').contains('We are currently')
+          cy.get('.sprint-hero__callout .btn-link').contains('JOIN A SPRINT', { matchCase: false })
+          cy.get('h2:last-of-type').contains('Want to join a sprint?')
+          cy.get('h2:last-of-type+.btn-link').contains('Click here', { matchCase: false })
+        }
+      }
+    }
+  })
+
+  it('shows Spanish translation for each Problem Statement', () => {
+
+  })
+
+  it('offers Spanish translation PDF for each PS download', () => {
+
   })
 })
 

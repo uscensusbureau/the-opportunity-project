@@ -74,7 +74,7 @@
   Year: 2017
   airtable_createdTime: '2020-02-04T22:02:16.000Z'
   airtable_id: rec4F32ORdTWH8d80
-  lang: eng
+  lang: en
   problem_statements:
   - recMEER5Sc9HQrLOF
   - recGo0glu9CVxEX87
@@ -339,7 +339,7 @@
     \ and highlight multiple pathways for workers to start or advance careers."
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
-  lang: eng
+  lang: en
   order-number: 2
   problem_statements:
   - recfwUvvptMpf0PLj
@@ -532,7 +532,7 @@
     the digital divide and increasing digital literacy.
   image-alt: Closeup of sticky notes with illegible text on a whiteboard
   img: landing/Sprint-Background_03_Census.jpg
-  lang: eng
+  lang: en
   order-number: 3
   problem_statements:
   - rec2cDmW6ubg6Wco0
@@ -554,7 +554,7 @@
     nationwide.
   image-alt: An abstract design of circles and squares arranged in rows
   img: landing/COVID-Data-Light.jpg
-  lang: eng
+  lang: en
   problem_statements:
   - recrhEu7bAwQeTEck
   - recdkBaZ8qiY98UM4
@@ -578,7 +578,7 @@
   Year: 2021
   airtable_createdTime: '2021-05-10T14:44:03.000Z'
   airtable_id: recHyin6QBn2qNgni
-  lang: eng
+  lang: en
   problem_statements:
   - recFyf3r3yQQEHbx7
   short-tag: topx-covid
@@ -614,7 +614,7 @@
     \ disaster response spending."
   image-alt: A suburban street as seen from above
   img: landing/Sprint-Background_01_Built.jpg
-  lang: eng
+  lang: en
   order-number: 5
   problem_statements:
   - rec4KZSqOYnXgo2gD
@@ -667,7 +667,7 @@
   Year: 2016
   airtable_createdTime: '2020-02-21T18:27:18.000Z'
   airtable_id: recPEm69CcLh1tX2s
-  lang: eng
+  lang: en
   problem_statements:
   - recWbNwNVTeALHVEK
   - recWUq0tYLA47nFU2
@@ -697,7 +697,7 @@
   Year: 2017
   airtable_createdTime: '2020-02-11T21:24:34.000Z'
   airtable_id: recPKsumH7MWxbOTM
-  lang: eng
+  lang: en
   problem_statements:
   - recjgkTgiJVNQI06t
   - rec0ukljQMNDcv91s
@@ -707,7 +707,7 @@
   - recyKI9exBfBtz1hr
   airtable_createdTime: '2021-02-19T18:54:09.000Z'
   airtable_id: recTxx36IPxHdegzX
-  lang: eng
+  lang: en
 - Name: TOPx
   Products:
   - recTfL9YZgQqj9i78
@@ -715,7 +715,7 @@
   Year: 2020
   airtable_createdTime: '2021-01-26T16:39:37.000Z'
   airtable_id: recWgRn0SzeC0JNJ1
-  lang: eng
+  lang: en
   problem_statements:
   - recdNGSC2k2ptu3JM
   short-tag: topx
@@ -731,7 +731,7 @@
   Year: 2019
   airtable_createdTime: '2021-02-25T21:34:00.000Z'
   airtable_id: recZGDdh9VC1azeZZ
-  lang: eng
+  lang: en
   problem_statements:
   - reckgFmGDc1Hy47Lc
   short-tag: health
@@ -853,7 +853,7 @@
   Year: 2018
   airtable_createdTime: '2020-01-30T19:47:56.000Z'
   airtable_id: recbhMlc1WZWXNte0
-  lang: eng
+  lang: en
   problem_statements:
   - rec5Qmq3TNOnhhfoE
   - rec4jiLMOGoECbVXB
@@ -889,7 +889,7 @@
   Year: 2016
   airtable_createdTime: '2020-02-21T18:27:41.000Z'
   airtable_id: recdj3TovoodAthIh
-  lang: eng
+  lang: en
   short-tag: 2016-1
 - Name: Natural Environment
   Products:
@@ -914,7 +914,7 @@
     make decisions using aerial imagery data.
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
-  lang: eng
+  lang: en
   order-number: 4
   problem_statements:
   - recSM7q7ufXLojrBx
@@ -1125,7 +1125,7 @@
     and amplify environmental stewardship efforts.
   image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
-  lang: eng
+  lang: en
   order-number: 1
   problem_statements:
   - recqL51kCcBL6go3m
@@ -1151,7 +1151,7 @@
     \ infrastructure, inclusion, and accessibility in the world post-COVID."
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
-  lang: eng
+  lang: en
   problem_statements:
   - recsbfXyfEmL6eaDo
   - recbjIUzjzLZ5KmJS
@@ -1168,7 +1168,7 @@
   airtable_createdTime: '2021-07-22T15:58:30.000Z'
   airtable_id: recmM5soT47O2fdMS
   description: Helping Families, Business, and Communities Respond to COVID-19.
-  lang: eng
+  lang: en
   problem_statements:
   - recquGRxIztb7VrBj
   short-tag: asa
@@ -1210,7 +1210,7 @@
   Year: 2020
   airtable_createdTime: '2021-01-26T16:35:35.000Z'
   airtable_id: rectb6dnleigDZpvR
-  lang: eng
+  lang: en
   short-tag: naip
 - Name: University
   Products:
@@ -1226,10 +1226,10 @@
   Year: 2020
   airtable_createdTime: '2021-02-19T16:26:06.000Z'
   airtable_id: recuhdACXvzRxxZEM
-  lang: eng
+  lang: en
 - Name: Earth
   Year: 2020
   airtable_createdTime: '2020-02-11T21:27:32.000Z'
   airtable_id: reczc8aUuFa86x1WA
-  lang: eng
+  lang: en
   short-tag: earth

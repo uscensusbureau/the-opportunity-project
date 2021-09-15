@@ -4,8 +4,11 @@ const searchField = document.getElementById('search-field')
 
 const dchCheckboxes = document.querySelectorAll('.dch-checkbox input')
 const resultsCountDisplay = document.getElementById('results-count')
+const resetButton = document.getElementById('dch-reset--geo')
+
 const advancedFilters = {}
-let filterCategory = 'all'
+const ALL_CATEGORY = 'all'
+let filterCategory = ALL_CATEGORY
 
 document.querySelectorAll('.dch__checkbox-group')
   .forEach(fieldset => {
@@ -20,7 +23,7 @@ dchCheckboxes.forEach(checkbox => {
       advancedFilters[this.name].splice(
         advancedFilters[this.name].indexOf(this.value), 1)
     }
-    filterDataSets()
+    filterDatasets()
   })
 })
 
@@ -36,34 +39,47 @@ for (const container of categoryButtons) {
     // toggle the description of the challenge below the filters
     const dataCardId = container.id
     filterCategory = dataCardId
-    filterDataSets()
+    filterDatasets()
   })
 }
 
+/**
+ * Search function listeners
+ */
 if (document.getElementById('data-search-form')) {
   document.getElementById('data-search-form').addEventListener('submit', e => {
     e.preventDefault()
-    filterDataSets()
+    filterDatasets()
   })
 
   if (searchField) {
     searchField.addEventListener('search', e => {
       if (searchField.value === '') {
-        filterDataSets()
+        filterDatasets()
       }
     })
   }
 }
 
-function filterDataSets () {
+function filterDatasets () {
   const searchTerm = searchField.value.toLowerCase()
   const datasets = document.getElementsByName('data-set-card')
   const activeAdvanced = Object.values(advancedFilters).filter(filter => filter.length > 0)
   const allFilters = activeAdvanced.length > 0 ? [...activeAdvanced[0], filterCategory] : [filterCategory]
+
+  // set reset button enabled state
+  if (resetButton) {
+    if (searchTerm.length === 0 && filterCategory === ALL_CATEGORY && activeAdvanced.length === 0) {
+      resetButton.setAttribute('disabled', '')
+    } else {
+      resetButton.removeAttribute('disabled')
+    }
+  }
+
   const filteredProducts = []
   for (const card of datasets) {
     // reset tag highlighting
-    Array.from(card.getElementsByClassName('dch-card__tag')).forEach( tag => {
+    Array.from(card.getElementsByClassName('dch-card__tag')).forEach(tag => {
       tag.classList.remove('usa-tag--new')
     })
 
@@ -72,7 +88,7 @@ function filterDataSets () {
       const dataPS = card.getElementsByClassName('dataset__ps')[0].innerText
       const dataDescription = card.getElementsByTagName('p')[0].innerText
       const searchMatch = dataName.toLowerCase().includes(searchTerm) || dataPS.toLowerCase().includes(searchTerm) || dataDescription.toLowerCase().includes(searchTerm)
-      const categoryMatch = dataPS.includes(filterCategory) || filterCategory === 'all'
+      const categoryMatch = dataPS.includes(filterCategory) || filterCategory === ALL_CATEGORY
       if (searchMatch && categoryMatch) {
         // apply advanced filtering
         let passesAdvanced = true
@@ -96,7 +112,6 @@ function filterDataSets () {
           // highlight tags
           const tags = card.getElementsByClassName('dch-card__tag')
           const activeTags = Array.from(tags).filter(tag => {
-            console.log(slugify(tag.innerText.toLowerCase()))
             return (allFilters.includes(slugify(tag.innerText.toLowerCase())))
           })
           activeTags.forEach(tag => tag.classList.add('usa-tag--new'))
@@ -117,16 +132,45 @@ function filterDataSets () {
   paginateProducts(0, false, filteredProducts)
 }
 
-if (document.querySelector('body.page-datakit')) {
-  console.log(paginator)
-  filterDataSets()
-}
-
-/**
- * hides a dataset from the page because it doesn't have the relevant filters
- * @param {htmlElement} datasetCard element to hide
- */
+/*
+* hides a dataset from the page because it doesn't have the relevant filters
+* @param {htmlElement} datasetCard element to hide
+*/
 const hideDataset = datasetCard => {
   datasetCard.classList.add('pc-inactive')
   datasetCard.setAttribute('dch-passes-filter', false)
+}
+
+if (document.querySelector('body.page-datakit')) {
+  filterDatasets()
+}
+
+/**
+ * Add event listener to reset all filters
+ * - set category to ALL
+ * - uncheck all checkbox filters (if present)
+ * - display new filtered data
+ */
+if (resetButton) {
+  resetButton.addEventListener('click', e => {
+    filterCategory = ALL_CATEGORY
+    Object.keys(advancedFilters).forEach(key => { advancedFilters[key] = [] })
+
+    // clear category ui
+    const categoryInputs = document.getElementsByClassName('dch__data-topic')
+    for (const catInput of categoryInputs) {
+      catInput.checked = catInput.value === ALL_CATEGORY
+    }
+
+    // clear advanced filter ui
+    const checkboxes = document.querySelectorAll('.dch-checkbox input')
+    for (const box of checkboxes) {
+      box.checked = false
+    }
+
+    // clear searchbar
+    searchField.value = ''
+
+    filterDatasets()
+  })
 }

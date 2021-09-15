@@ -8,6 +8,8 @@ const pages = [
   '/covid-spending'
 ]
 const resultsField = '#results-count'
+const searchField = '#search-field'
+const searchForm = '#data-search-form'
 
 function testPSListShouldContain (filterVal) {
   cy.get('[name=data-set-card][dch-passes-filter=true] .dataset__ps')
@@ -66,7 +68,7 @@ describe('Content tests', () => {
   })
 })
 
-describe.skip('Filtering tests', () => {
+describe('Filtering tests', () => {
 
   it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
@@ -167,6 +169,8 @@ describe.skip('Filtering tests', () => {
 
 describe('Advanced filtering tests', () => {
   const advancedUrl = base + pages[5]
+  const resetButton = '#dch-reset--geo'
+  const allButton = '#all'
 
   function testPSListWithRegex (regex) {
     cy.get('[name=data-set-card][dch-passes-filter=true] .dataset__ps')
@@ -210,7 +214,6 @@ describe('Advanced filtering tests', () => {
   })
 
   it('filters by logical OR after checking two+ of same filter', () => {
-
     cy.get('#city, #state')
       .each($filter => {
         cy.wrap($filter).click({force: true})
@@ -233,6 +236,76 @@ describe('Advanced filtering tests', () => {
       .each($filter => {
         cy.wrap($filter).click({force: true})
       })
+    expectAllCards()
+  })
+
+  it('only shows reset button on covid-spending page', () => {
+    for (const page of pages) {
+      const expecting = page === '/covid-spending' ? 'exist' : 'not.exist'
+      cy.visit(base + page)
+      cy.get(resetButton)
+        .should(expecting)
+    }
+  })
+
+  function expectResetButtonDisabled() {
+    cy.get(resetButton)
+      .invoke('attr', 'disabled')
+      .should('exist')
+  }
+  function expectResetButtonEnabled() {
+    cy.get(resetButton)
+      .invoke('attr', 'disabled')
+      .should('not.exist')
+  }
+  it('disables reset button when no search terms are present', () => {
+    expectResetButtonDisabled()
+
+    cy.get('#joining-mapping')
+      .click({force: true})
+    expectResetButtonEnabled()
+    
+    cy.get(resetButton).click()
+    expectResetButtonDisabled()
+
+    cy.get('#census-block')
+      .click({force: true})
+    expectResetButtonEnabled()
+
+    cy.get(resetButton).click()
+    expectResetButtonDisabled()
+
+    cy.get(searchField)
+      .type('data')
+    cy.get(searchForm).submit()
+    expectResetButtonEnabled()
+  })
+
+  it('resets all button filters after clicking the RESET FILTER button', () => {
+    const clicking = 
+      '#government-finance, #census-tract, #census-block, #state'
+    cy.get(clicking).each( el => cy.wrap(el).click({force: true}))
+    
+    cy.get(resetButton).click()
+
+    // test that things are reset
+    expectAllCards()
+    cy.get(clicking).each( el => {
+      cy.wrap(el)
+        .should('not.have.checked')
+    })
+    cy.get(allButton).should('have.checked', true)
+  })
+
+  it('resets the search field after clicking the reset filter button', () => {
+    cy.get(searchField)
+      .type('data')
+    cy.get(searchForm).submit()
+
+    cy.get(resetButton).click()
+
+    cy.get(searchField)
+      .should('have.value', '')
     expectAllCards()
   })
 
@@ -261,9 +334,5 @@ describe('Advanced filtering tests', () => {
       })
     expectAllCards()
     
-  })
-
-  it('resets all filters after clicking the RESET FILTER button', () => {
-
   })
 })

@@ -45,18 +45,23 @@ layout: default
           </button>
         </div>
       </form>
+
     {% include dch/dch__filters.html data=filters checkboxSets=checkboxSets %}
+
+    {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+      <div class="width-full margin-top-4 text-center">
+        <button class="usa-button usa-button--secondary dch-reset-button" id="dch-reset--geo">Reset All Filters</button>
+      </div>
+    {% endif %}
   </div>
 </section>
 
 <section class="bg-primary-dark margin-top-0">
   <section class="usa-section usa-graphic-list grid-container padding-top-4">
-    <div class="display-flex flex-row flex-align-center">
-      <h3 id="results-count" 
-        class="text-normal font-sans-md text-white">
-          Showing {{display-datasets.size}} datasets
-      </h3>
-    </div>
+    <h3 id="results-count" 
+      class="text-normal font-sans-md text-white">
+        Showing {{display-datasets.size}} datasets
+    </h3>
 
     <ul class="usa-card-group">
     {% for item in display-datasets %}

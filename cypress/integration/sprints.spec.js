@@ -172,7 +172,7 @@ describe.only('Translation tests', () => {
     })
   })
   
-  it.only('shows English content of general Sprint info on all English pages', () => {
+  it('shows English content of general Sprint info on all English pages', () => {
     for (const sprint of sprints) {
       cy.visit(base + sprint.url)
       if (sprint.url !== 'pos-covid-esp') {
@@ -212,12 +212,36 @@ describe.only('Translation tests', () => {
     }
   })
 
-  it('shows Spanish translation for each Problem Statement', () => {
-
-  })
-
-  it('offers Spanish translation PDF for each PS download', () => {
-
+  it.only('shows Spanish translation for each Problem Statement', () => {
+    cy.visit('/sprints/pos-covid-esp')
+    // MBDA
+    cy.contains('Cómo mejorar el acceso de las empresas de minorías al capital')
+    cy.contains('Desarrollar productos')
+    cy.contains('Las empresas de minorías')
+    // Treasury
+    cy.contains('Cómo analizar la equidad en los gastos federales ocasionados por el COVID-19')
+    cy.contains('Desarrollar herramientas innovadoras que combinen conjuntos')
+    cy.contains('Durante el curso de la pandemia de COVID-19, el gobierno federal')
+    // NOAA
+    cy.contains('Cómo enfrentar la crisis climática mediante comunidades climáticamente inteligentes') 
+    cy.contains('Este sprint desafía a los participantes a crear herramientas que permitan')
+    cy.contains('Eventos extremos y los cambios en los patrones de temperatura y precipitación')
+    // CFPB
+    cy.contains('Cómo prevenir la crisis para inquilinos de bajos ingresos y para pequeños propietarios')
+    cy.contains('Desarrollar herramientas digitales innovadoras para evitar la dificultad financiera')
+    cy.contains('La inseguridad de vivienda, o el acceso a vivienda asequible para')
+    // HUD
+    cy.contains('Cómo analizar las tendencias de vivienda y migración después del COVID-19')
+    cy.contains('Durante la pandemia, las necesidades de vivienda cambiaron rápidamente')
+    cy.contains('El Departamento de Vivienda y Desarrollo Urbano de los EE. UU.')
+    // NYC
+    cy.contains('Cómo aumentar la accesibilidad a los contenidos para las comunidades bilingües')
+    cy.contains('Desarrollar herramientas (idealmente de fuente abierta) para ayudar')
+    cy.contains('Con más de 3 millones de residentes nacidos en el extranjero provenientes')
+    // Coral Gables
+    cy.contains('Cómo ayudar a las pequeñas empresas a prosperar en una economía digital')
+    cy.contains('Desarrollar herramientas digitales para ayudar a las personas a cargo de')
+    cy.contains('Tras la pandemia del COVID-19, muchas pequeñas empresas lucharon')
   })
 })
 

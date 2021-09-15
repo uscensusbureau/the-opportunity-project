@@ -63,7 +63,7 @@ function filterDataSets () {
   const filteredProducts = []
   for (const card of datasets) {
     // reset tag highlighting
-    Array.from(card.getElementsByClassName('dch-card__tag')).forEach( tag => {
+    Array.from(card.getElementsByClassName('dch-card__tag')).forEach(tag => {
       tag.classList.remove('usa-tag--new')
     })
 

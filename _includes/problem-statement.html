@@ -73,17 +73,15 @@
       </div>
     </div>
   </div>
-  
   {% if include.showMore %}
   <div class="grid-row">
     <div class="ps-see-more">
       <button class="callout-button {{ expandedClass }}">
-        <span>
-          {% if include.isExpanded %}
+        <span class="ps-see-more__less {% unless include.isExpanded %}display-none{% endunless %}">
             {{ translations.see-less[page.lang] }}
-          {% else %}
-            {{ translations.see-more[page.lang] }}
-          {% endif %}
+        </span>
+        <span class="ps-see-more__more {% if include.isExpanded %}display-none{% endif %}">
+          {{ translations.see-more[page.lang] }}
         </span>
       </button>
     </div>

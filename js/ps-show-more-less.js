@@ -22,13 +22,13 @@ if (buttons) {
           el.classList.remove(EXPANDED_CLASS)
           el.classList.add(COLLAPSED_CLASS)
         })
-        button.innerHTML = '<span>See More</span>'
+        setButtonText(button, true)
       } else if (collapsedEls.length > 0) {
         Array.from(collapsedEls).forEach(el => {
           el.classList.remove(COLLAPSED_CLASS)
           el.classList.add(EXPANDED_CLASS)
         })
-        button.innerHTML = '<span>See Less</span>'
+        setButtonText(button, false)
       }
 
       parentProblem.scrollIntoView({
@@ -36,4 +36,23 @@ if (buttons) {
       })
     })
   })
+}
+
+/**
+ * Toggles the SHOW MORE / SHOW LESS button to display proper text
+ * @param {HTMLElement} container parent container for the button text to toggle
+ * @param {boolean} showSeeMore if true, display "SEE MORE". if false, display "SEE LESS"
+ */
+const setButtonText = (container, showSeeMore) => {
+  const seeLess = container.querySelector('.ps-see-more__less')
+  const seeMore = container.querySelector('.ps-see-more__more')
+
+  const toShow = showSeeMore ? seeMore : seeLess
+  const toHide = showSeeMore ? seeLess : seeMore
+  if (toShow) {
+    toShow.classList.remove('display-none')
+  }
+  if (toHide) {
+    toHide.classList.add('display-none')
+  }
 }

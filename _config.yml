@@ -61,6 +61,7 @@ defaults:
     values:
       layout: "sprint"
       class: "sprints"
+      lang: "en"
   - scope:
       path: "_datakits"
     values:

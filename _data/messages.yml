@@ -1,0 +1,75 @@
+sprints:
+  hero-text:
+    en: 
+      'Learn about sprints and how we tackle national challenges.
+
+
+      Sprints are 12-week product development cycles that bring together tech teams and collaborators to build public-facing digital products using open data.'
+    esp:
+      'Obtenga información sobre los sprints y sobre cómo enfrentamos los desafíos del país.
+
+
+      Los sprints son ciclos de 12 semanas de desarrollo de productos que reúnen a equipos técnicos y a colaboradores para crear productos digitales orientados al público usando datos abiertos.'
+  hero-callout-text:
+    en: '**We are currently seeking participants for these sprints in many roles.** See detailed descriptions of the problem statements below, and if you are interested in participating, please [complete this form](https://www.census.gov/forms/contact-top.html) to express interest.'
+    esp: '**Actualmente estamos buscando participantes para estos sprints, en muchos roles.** A continuación vea las descripciones detalladas de los planteamientos de problemas, y si está interesado en participar, [complete este formulario](https://www.census.gov/forms/contact-top.html) para expresar su interés.'
+  hero-callout-button:
+    en: 'Join a Sprint'
+    esp: 'PARTICIPE EN EL SPRINT'
+  bottom-callout-text:
+    en: 'Want to join a sprint?'
+    esp: '¿Desea participar en este _sprint_?'
+  bottom-callout-button:
+    en: Click here to start the process
+    esp: HAGA CLIC AQUÍ PARA COMENZAR EL PROCESO
+  translate-button:
+    en: Ver en español
+    esp: View in English
+
+problem-statement:
+  problem-statement: 
+    en: Problem Statement
+    esp: Planteamiento del Problema
+  agency:
+    en: Agency
+    esp: Agencia
+  pdf-download:
+    en: 'Download Full Text (PDF)'
+    esp: Descargar El Texto Completo (PDF)
+  see-more:
+    en: View More
+    esp: Ver Más
+  see-less:
+    en: View Less
+    esp: Ver Menos
+  challenge:
+    en: Challenge
+    esp: El Desafío
+  why:
+    en: Why This Problem is Important
+    esp: El Problema
+  audience:
+    en: Target Audience
+    esp: Usuarios Finales Como Objetivo
+
+# lookup table into Problem Statement data
+ps-fields:
+  name: 
+    en: 'Full Title'
+    esp: 'name-esp'
+  why-matters:
+    en: Why this problem matters
+    esp: why-esp
+  challenge:
+    en: Challenge
+    esp: challenge-esp
+  audience:
+    en: Target audience / End user
+    esp: audience-esp
+  agency:
+    en: agency_text
+    esp: organization-esp
+  pdf: 
+    en: pdf
+    esp: pdf-esp
+  

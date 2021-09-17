@@ -127,6 +127,25 @@ describe.only('Translation tests', () => {
     }
   })
 
+  it('Has PDFs available to download on English Post-COVID page', () => {
+    cy.visit('/sprints/post-covid')
+    cy.get('.problem-statement .ps-pdf').each($pdf => {
+      cy.wrap($pdf).invoke('attr', 'href')
+        .then($pdfUrl => {
+          cy.request($pdfUrl)
+        })
+    })
+  })
+  it.only('Has PDFs available to download on Spanish Post-COVID page', () => {
+    cy.visit('/sprints/pos-covid-esp')
+    cy.get('.problem-statement .ps-pdf').each($pdf => {
+      cy.wrap($pdf).invoke('attr', 'href')
+        .then($pdfUrl => {
+          cy.request($pdfUrl)
+        })
+    })
+  })
+
   it.skip('navigates to Spanish translation from English version', () => {
     cy.visit('/sprints/post-covid')
     cy.get(translateButton)
@@ -212,7 +231,7 @@ describe.only('Translation tests', () => {
     }
   })
 
-  it.only('shows Spanish translation for each Problem Statement', () => {
+  it('shows Spanish translation for each Problem Statement', () => {
     cy.visit('/sprints/pos-covid-esp')
     // MBDA
     cy.contains('Cómo mejorar el acceso de las empresas de minorías al capital')

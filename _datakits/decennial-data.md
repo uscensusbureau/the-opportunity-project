@@ -8,8 +8,8 @@ date: 2021-09-01
 
 lead: Datasets to help visualize 2020 Census Decennial data in new and creative ways
 
-image: /assets/img/data-kits/covid.jpg
-image-alt: 'Sticky notes on a window with the words &quot;Sorry - Closed. COVID-19&quot;'
+image: /assets/img/data-kits/point-network.jpg
+image-alt: 'Sculpture of thin black wire connected at sharp angles'
 
 data-experts:
   - category: General Census Data Questions

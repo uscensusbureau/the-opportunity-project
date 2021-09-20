@@ -12,6 +12,7 @@ layout: default
   {% assign filters = filters | push: match %}
 {% endfor %}
 
+{% assign checkboxSets = null %}
 {% if page.problem-statement-name %}
   {% assign matchingPS = site.data.problem_statements | where: "Name", page.problem-statement-name | first %}
   {% assign display-datasets = display-datasets | where_exp: "dataset",
@@ -29,6 +30,7 @@ layout: default
   {% endfor %}
   {% assign filters = filters | uniq %}
 {% endif %}
+
 
 {% assign display-datasets = display-datasets | sort: "featuredDataset" | reverse %}
 
@@ -86,4 +88,3 @@ layout: default
     </section>
   {% endif %}
 </section>
-

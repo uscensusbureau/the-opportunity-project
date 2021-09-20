@@ -16,7 +16,7 @@
   - rec2cduwK0ClQdKDS
   - recApStLFY36mvxVx
   link: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-  name: TIGER Shapefiles, U.S. Census Bureau
+  name: TIGER Shapefiles
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
@@ -24,6 +24,8 @@
   - Joining & Mapping
 - airtable_createdTime: '2021-09-08T19:12:57.000Z'
   airtable_id: rec2CpdziRPWASBW5
+  data_stewards:
+  - recz3bV45yQZIbp1X
   description: A database, index, and mapping application to identify and quantify
     the social vulnerability of communities to hazardous events, such as natural hazards,
     human-caused disasters, or pandemics.
@@ -41,6 +43,8 @@
   - Demographic Information
 - airtable_createdTime: '2021-08-19T15:26:20.000Z'
   airtable_id: rec5tZ7bcx8PAUffl
+  data_stewards:
+  - recC7BPZg3TSAWxzR
   description: Detailed industry estimates of nonfarm employment, hours, and earnings
     of workers on payrolls.
   geographies:
@@ -48,10 +52,9 @@
   - rec6hnmumZhLa8ZP5
   link: https://www.bls.gov/ces/
   name: Current Employment Statistics Survey
-  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organization_text: U.S. Bureau of Labor Statistics
   organizations:
   - recZxSer4T6bBMfqU
-  - recnDoHewBvPIWrBO
   tag:
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T16:00:54.000Z'
@@ -361,7 +364,7 @@
   - rec6hnmumZhLa8ZP5
   - recfGfBKR0T88ax7R
   link: https://www.census.gov/data/experimental-data-products/small-business-pulse-survey.html
-  name: 'COVID-19 Small Business Pulse Survey, U.S. Census Bureau '
+  name: COVID-19 Small Business Pulse Survey
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
@@ -398,6 +401,8 @@
   - Families & Children
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recS1vPCvnWTrUmXb
+  data_stewards:
+  - recJ56o8cVQpOjyUa
   description: Quarterly count of employment and wages reported by employers covering
     more than 95 percent of U.S. jobs, available at the county, MSA, state and national
     levels by industry.
@@ -431,10 +436,9 @@
     and education, earnings and job outlook for hundreds of different occupations.
   link: https://www.bls.gov/ooh/
   name: Occupational Outlook Handbook
-  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organization_text: U.S. Bureau of Labor Statistics
   organizations:
   - recZxSer4T6bBMfqU
-  - recnDoHewBvPIWrBO
   tag:
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
@@ -565,6 +569,8 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:06:05.000Z'
   airtable_id: reclpwGzTVn35A5OM
+  data_stewards:
+  - rectjOQ0oSRHiOGWc
   description: Join USPS Zip Codes to various geographies.
   featuredDataset: true
   geographies:
@@ -648,6 +654,8 @@
   - Government Finance
 - airtable_createdTime: '2021-08-19T15:22:53.000Z'
   airtable_id: recsdg958IyEjneOW
+  data_stewards:
+  - recC7BPZg3TSAWxzR
   description: Monthly estimates of total employment and unemployment for over 7,500
     areas.
   featuredDataset: true
@@ -658,10 +666,9 @@
   - recApStLFY36mvxVx
   link: https://www.bls.gov/lau/
   name: Local Area Unemployment Statistics
-  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organization_text: U.S. Bureau of Labor Statistics
   organizations:
   - recZxSer4T6bBMfqU
-  - recnDoHewBvPIWrBO
   tag:
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
@@ -701,10 +708,9 @@
   - rec6hnmumZhLa8ZP5
   link: https://www.bls.gov/cpi/
   name: Consumer Price Index
-  organization_text: U.S. Bureau of Labor Statistics, U.S. Department of Labor
+  organization_text: U.S. Bureau of Labor Statistics
   organizations:
   - recZxSer4T6bBMfqU
-  - recnDoHewBvPIWrBO
   tag:
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:43.000Z'

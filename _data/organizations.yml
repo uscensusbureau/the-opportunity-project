@@ -130,6 +130,7 @@
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: rec2IHtoNgIK49Qgz
   name: City of Coral Gables
+  name-esp: Ciudad de Coral Gables
   problem statements:
   - recODy3F77656gS8i
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
@@ -663,6 +664,7 @@
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recBgI6XSVcZSIN7t
   name: Minority Business Development Agency
+  name-esp: "Agencia Para el Desarrollo de Empresas de Minor\xEDas (MBDA)"
   problem statements:
   - rec2hm93Hd703vhHw
 - airtable_createdTime: '2021-02-22T17:41:58.000Z'
@@ -810,6 +812,8 @@
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recF42Tt24lo4YTcC
   name: New York City Maryor's Office of the Chief Technology Officer
+  name-esp: "Oficina del Director de Tecnolog\xEDa de la Informaci\xF3n del Alcalde\
+    \ de la Ciudad de Nueva York"
   problem statements:
   - recxiyHz22AqIcSU6
 - airtable_createdTime: '2021-05-10T20:43:16.000Z'
@@ -860,6 +864,7 @@
   - rec08TwVapPsbmVxv
   - recMZZk0gmfw8XK6P
   name: National Oceanic and Atmospheric Administration
+  name-esp: "Oficina Nacional de Administraci\xF3n Oce\xE1nica y Atmosf\xE9rica (NOAA)"
   problem statements:
   - recbjIUzjzLZ5KmJS
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
@@ -1049,6 +1054,7 @@
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recJBNUnRBNUgTu9d
   name: Consumer Financial Protection Bureau
+  name-esp: "Oficina para la Protecci\xF3n Financiera del Consumidor (CFPB)"
   problem statements:
   - recfszna1c4jtooN4
 - airtable_createdTime: '2021-07-21T18:24:28.000Z'
@@ -1439,7 +1445,9 @@
   - recuHLtkUO3AprHCQ
   - recuQ4coKzM5eja1S
   - rechjL32mmP8Qlj6P
+  - rectjOQ0oSRHiOGWc
   name: U.S. Department of Housing and Urban Development
+  name-esp: Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   problem statements:
   - recmZQEd4gpAgWPMm
   - recWUq0tYLA47nFU2
@@ -1817,6 +1825,8 @@
   members:
   - recUcxq9GIA9kFkIl
   - recrVM9Lhn8bdMD9O
+  - recC7BPZg3TSAWxzR
+  - recJ56o8cVQpOjyUa
   name: U.S. Bureau of Labor Statistics
   treasury_datasets:
   - recsdg958IyEjneOW
@@ -2124,6 +2134,7 @@
   - reccAciJPX2dkwViT
   - recgTiXnqYgYG31Nj
   name: U.S. Department of the Treasury
+  name-esp: Departamento del Tesoro de los EE. UU.
   problem statements:
   - rec91k66NBPeRwaK7
   - recGXB6VI2XEbqemj
@@ -2461,11 +2472,6 @@
   - recLROAotmnLsG3Bw
   - recboDOGOG8eKuYc7
   - recGQ0S48RDx0VENx
-  treasury_datasets:
-  - recsdg958IyEjneOW
-  - recvq8VSOZ5Fk8uo3
-  - rec5tZ7bcx8PAUffl
-  - recU85omIJr27mWlq
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: recnOiErWbbfPhytr
   members:

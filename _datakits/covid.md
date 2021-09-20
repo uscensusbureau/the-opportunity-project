@@ -17,7 +17,7 @@ data-experts:
     contacts: 
       - name: Eric Coyle
         email: eric.a.coyle@census.gov
-      - name: Tyson Weistmeister & Kanin Reeseemail
+      - name: Tyson Weister & Kanin Reeseemail
         email: cedsci.feedback@census.gov
   
   - category: Census Data Skills Questions

@@ -8,7 +8,7 @@
       <ul class="data-card-group margin-top-7">
         {% for data in data-topics %}
           {% assign filter = data.Name | slugify | default: data %}
-          <li>
+          <li class="margin-bottom-1">
             <div 
               id="{{ filter | slugify }}" 
               class="dch__data-topic {%if forloop.first %}selected{% endif %}"

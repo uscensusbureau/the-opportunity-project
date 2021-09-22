@@ -3,7 +3,7 @@ const GA_NAME = 'gtag_UA_155922885_2'
 
 const signupLinks = document.querySelectorAll("a[href='https://public.govdelivery.com/accounts/USCENSUS/signup/16610']")
 const contactUsLinks = document.querySelectorAll("a[href='https://www.census.gov/forms/contact-top.html']")
-const coilContactLinks = document.querySelectorAll("a[href='https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB']")
+// const coilContactLinks = document.querySelectorAll("a[href='https://jmn7vkn4eg2.typeform.com/to/UM8tQQdB']")
 
 function createFunctionWithTimeout (callback, optTimeout) {
   let called = false
@@ -89,28 +89,28 @@ productLinks.forEach(link =>
 )
 
 // track clicks to COIL contact us form
-for (const link of coilContactLinks) {
-  link.addEventListener('click', e => {
-    const newTab = link.target === '_blank' || (e.ctrKey || e.metaKey)
-    if (window.ga && ga.create) {
-      if (!newTab) {
-        e.preventDefault()
-      }
-      ga(`${GA_NAME}.send`, {
-        hitType: 'event',
-        eventCategory: 'External Link',
-        eventAction: 'click',
-        hitCallback:
-          createFunctionWithTimeout(function () {
-            if (!newTab) {
-              window.location.href = link.href
-            }
-          }),
-        eventLabel: 'COIL Contact Us'
-      })
-    }
-  })
-}
+// for (const link of coilContactLinks) {
+//   link.addEventListener('click', e => {
+//     const newTab = link.target === '_blank' || (e.ctrKey || e.metaKey)
+//     if (window.ga && ga.create) {
+//       if (!newTab) {
+//         e.preventDefault()
+//       }
+//       ga(`${GA_NAME}.send`, {
+//         hitType: 'event',
+//         eventCategory: 'External Link',
+//         eventAction: 'click',
+//         hitCallback:
+//           createFunctionWithTimeout(function () {
+//             if (!newTab) {
+//               window.location.href = link.href
+//             }
+//           }),
+//         eventLabel: 'COIL Contact Us'
+//       })
+//     }
+//   })
+// }
 
 const annualReportLinks = document.querySelectorAll('a[href*=".pdf"]')
 annualReportLinks.forEach(link =>

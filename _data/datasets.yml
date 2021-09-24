@@ -980,6 +980,7 @@
   airtable_id: rec9Wrs3oIxbKf1HA
   data_stewards:
   - recb1fOmYG22E8pyM
+  datakit_order: 13
   description: Online training hub about how to access and utilize Census data; includes
     courses, short data gems, and webinars
   link: https://www.census.gov/data/academy.html
@@ -1123,6 +1124,7 @@
   data_stewards:
   - recFN7GwyK88Sd6ye
   - recjkqqi6LIliwzw7
+  datakit_order: 11
   description: 'Annual series that provides economic data for businesses that have
     no paid employees and are subject to federal income tax. Available for 450 NAICS
     industries and the state, county, MSA and CSA levels '
@@ -1146,6 +1148,7 @@
   airtable_id: recAxIXJKZTY9nl4w
   data_stewards:
   - recRvc8jXE2eX97Xd
+  datakit_order: 19
   description: Education finance data include revenues, expenditures, debt, and assets
     [cash and security holdings] of elementary and secondary public school systems.
     Statistics cover school systems in all states, and include the District of Columbia.
@@ -1195,10 +1198,12 @@
   airtable_id: recBSiUNCQOWfZNLe
   data_stewards:
   - recdTGgIJtKUJSAy0
+  datakit_order: 0
   description: Includes the resident population of each state, plus a count of the
     U.S. military personnel and federal civilian employees living outside the United
     States (and their dependents living with them) who can be allocated to a home
     state
+  featuredDataset: true
   link: https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html
   name: 2020 Census Apportionment Results
   organization_text: U.S. Census Bureau
@@ -1344,6 +1349,7 @@
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recDI7oAEke0Rom2b
+  datakit_order: 5
   description: 'Labor market data by worker age, sex, educational attainment and race/ethnicity
     at the state, county, metro/micropolitan area and workforce investment area (WIA). '
   link: https://www.census.gov/data/developers/data-sets/qwi.html
@@ -1461,6 +1467,7 @@
   airtable_id: recFEhZwCzciwyP5A
   data_stewards:
   - rec8bfHaA7zEPxfYN
+  datakit_order: 17
   description: 'Applications allow users to type an address and to receive geographic
     location '
   link: 'https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html '
@@ -1648,6 +1655,7 @@
   data_stewards:
   - recFN7GwyK88Sd6ye
   - recjkqqi6LIliwzw7
+  datakit_order: 8
   description: Data on number of businesses, first quarter payroll and annual payroll;
     Statistics are available on establishments at the U.S. level and by State, County,
     Metropolitan/Micropolitan Statistical Area (MSA), Combined Statistical Area (CSA),
@@ -1758,10 +1766,12 @@
   airtable_id: recHdmctS1Uq0iasg
   data_stewards:
   - recdTGgIJtKUJSAy0
+  datakit_order: 1
   description: "Population counts for the total population and for the population\
     \ 18 years and over are presented by race and by Hispanic or Latino origin, and\
     \ for the total group quarters population by major group\nquarters typet. Data\
     \ presented to the the block level. "
+  featuredDataset: true
   link: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
   name: 2020 Decennial Census P.L. 94-171 Redistricting Data
   organization_text: U.S. Census Bureau
@@ -1828,6 +1838,7 @@
   data_stewards:
   - recFN7GwyK88Sd6ye
   - recjkqqi6LIliwzw7
+  datakit_order: 7
   description: Survey conducted every 5 years of nealry 4 million U.S. businesses
     at zip code level; most recent data from 2017
   link: https://www.census.gov/programs-surveys/economic-census.html
@@ -2029,6 +2040,7 @@
   - recs1AuNUUppAFbr3
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recLDPDtikbUrRvil
+  datakit_order: 14
   description: Outlines the types of data available from the U.S. Census Bureau, why
     the data matters for libraries and communities, tools to use to find data, and
     how to learn more.
@@ -2208,6 +2220,7 @@
   data_stewards:
   - recxI338ZKCSCEYzo
   - recU5J7n4zgyTUanc
+  datakit_order: 4
   description: Deployed during the COVID-19 pandemic to measure household experiences
     in terms of employment, spending patterns, food security, housing, physical and
     mental health, access to health care, and educational disruption. Data is available
@@ -2677,6 +2690,7 @@
   data_stewards:
   - recFN7GwyK88Sd6ye
   - recjkqqi6LIliwzw7
+  datakit_order: 10
   description: Provides economic and demographic characteristics for nonfarm employer
     businesses and business owners by sex, ethnicity, race, and veteran status.
   link: https://www.census.gov/programs-surveys/abs/about.html
@@ -2936,6 +2950,7 @@
   airtable_id: recRm43Fz5KkjjcyN
   data_stewards:
   - recHQC1hU05Sw7kLj
+  datakit_order: 15
   description: Shows an index of resilience, or the capacity of individuals and households
     within a community to absorb, endure, and recover from the impacts of a disaster.
     Individual and household characteristics from the 2019 American Community Survey
@@ -3644,6 +3659,7 @@
   data_stewards:
   - recVIIum28cWbUGkV
   - reconuLPVwBzSj58R
+  datakit_order: 3
   description: Deployed in the midst of the COVID-19 pandemic that measures the effects
     of changing business conditions on small business operations and finances, requests
     and receipt of assistance, and measures of overall well-being and expectations
@@ -3914,6 +3930,7 @@
   airtable_id: recajSlCIFOtVXygu
   data_stewards:
   - recFypleiqj8EFblI
+  datakit_order: 2
   description: Ongoing survey that provides vital information on a yearly basis about
     occupations, work locations, educational attainment, housing, and other topics
     in geographies with populations of 65,000+. Most recent is 2019
@@ -4400,6 +4417,7 @@
   airtable_id: recfhgMMd6T7dgxKN
   data_stewards:
   - recXVfv31aTTBmzHk
+  datakit_order: 6
   description: Quarterly rental and homeowner vacancy rates for the 75 largest Metropolitan
     Statistical Areas (MSAs)
   link: https://www.census.gov/housing/hvs/index.html
@@ -4493,6 +4511,7 @@
   - reclF9Mn2Z6aMqzJk
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: rechcjiQM2OJxKbcr
+  datakit_order: 18
   description: Provides interactive & programmatic (REST) access to users interested
     in matching addresses to geographic locations and entities containing those addresses.
   link: https://geocoding.geo.census.gov/
@@ -4572,6 +4591,7 @@
   data_stewards:
   - recaTb3X7BFgLNXZw
   - recDMs9ZZKatRJ6fX
+  datakit_order: 12
   description: Data published for the 2020 Census, detailed map of each county in
     each state, recently published in March 2021
   link: https://www.census.gov/geographies/reference-maps/2020/geo/2020pl-maps/2020-census-tract.html
@@ -4652,6 +4672,7 @@
   airtable_id: recjApiKcJpm02UH5
   data_stewards:
   - recuL53hzB0sCaWAj
+  datakit_order: 20
   description: Conducted every oddly numbered year, most recent in 2019, consisting
     of the 10-30 largest MSAs on variables including the physical condition of homes
     and neighborhoods,  costs of financing and maintaining homes, and demographics
@@ -5525,12 +5546,13 @@
   data_stewards:
   - recFN7GwyK88Sd6ye
   - recjkqqi6LIliwzw7
+  datakit_order: 9
   description: Measures business initiation activity and the cycle from initiation
     to realized business formation. Uses Employer Identification Number (EIN) applications
     at the national, regional, state and county level . Available weekly and monthly
     since 2004.
   link: https://www.census.gov/econ/bfs/index.html
-  name: Buesiness Formation Statistics
+  name: Business Formation Statistics
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
@@ -5929,6 +5951,7 @@
   airtable_id: recyPvqywI0Ho1REW
   data_stewards:
   - rec8bfHaA7zEPxfYN
+  datakit_order: 16
   description: Released annually, most recently February 2021 covering 2020 data.
     Provides an extract of selected geographic and cartographic information, as well
     as information for legal boundaries and redistricting, which can be broken down

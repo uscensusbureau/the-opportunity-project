@@ -23,13 +23,9 @@ data-experts:
     contacts:
       - name: Logan Powell
         email: logan.t.powell@census.gov
-      - name: Ryan Dolan	
-        email: ryan.s.dolan@census.gov
   
   - category: Census Data Visualization Questions
     contacts:
-      - name: Ryan Dolan
-        email: ryan.s.dolan@census.gov
       - name: Gerson Vasquez
         email: gerson.d.vasquez@census.gov
 ---

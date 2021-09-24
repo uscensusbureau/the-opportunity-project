@@ -2126,7 +2126,7 @@
 - Challenge: Develop digital products or physical/digital works of art that use 2020
     Census data to build data literacy skills.
   Full Title: 'Improving Data Literacy Using Decennial Census Data '
-  Name: 'Improving Data Literacy Using Decennial Census Data '
+  Name: Improving Data Literacy
   Sprints:
   - recAocia3ypyTShB1
   Target audience / End user: Under-funded communities; librarians; community organizers;
@@ -2141,6 +2141,22 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:47:30.000Z'
   airtable_id: reccHr0aPWZzFbgi8
+  datasets copy:
+  - recBSiUNCQOWfZNLe
+  - recHdmctS1Uq0iasg
+  - recajSlCIFOtVXygu
+  - recIxdhkIqRWm8gUu
+  - recGlI99M7MzMNkqD
+  - reciZfD57nJZjU52W
+  - rec9Wrs3oIxbKf1HA
+  - recLDPDtikbUrRvil
+  - recyPvqywI0Ho1REW
+  - recFEhZwCzciwyP5A
+  - rechcjiQM2OJxKbcr
+  datasets_text: 2020 Census Apportionment Results, 2020 Decennial Census P.L. 94-171
+    Redistricting Data, American Community Survey, Economic Census , County Business
+    Patterns, Census Tract Maps, Census Academy, Census Data Literacy Guide, "TIGER
+    Shapefiles, U.S. Census Bureau", TIGERweb, Geocoder
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-ImprovingDataLiteracy.pdf
@@ -2195,8 +2211,7 @@
     for key decision making
   Full Title: Assisting Businesses, Community, and State/Local Government Leaders
     to Make Critical Decisions Using Decennial Data
-  Name: Assisting Businesses, Community, and State/Local Government Leaders to Make
-    Critical Decisions Using Decennial Data
+  Name: Local Decision Making
   Sprints:
   - recAocia3ypyTShB1
   Target audience / End user: Business decision makers, community and nonprofit organizations,
@@ -2216,6 +2231,33 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:44:46.000Z'
   airtable_id: recdkBaZ8qiY98UM4
+  datasets copy:
+  - recBSiUNCQOWfZNLe
+  - recHdmctS1Uq0iasg
+  - recajSlCIFOtVXygu
+  - recXwBWw20qB2M9Bo
+  - recMNlazZwTrrT2l7
+  - recDI7oAEke0Rom2b
+  - recfhgMMd6T7dgxKN
+  - recIxdhkIqRWm8gUu
+  - recGlI99M7MzMNkqD
+  - rectO6IN5DL3Rljc7
+  - recQ0EQjhfyiA6d54
+  - recAqtJgGfKRFtQPS
+  - reciZfD57nJZjU52W
+  - recRm43Fz5KkjjcyN
+  - recyPvqywI0Ho1REW
+  - recFEhZwCzciwyP5A
+  - rechcjiQM2OJxKbcr
+  - recjApiKcJpm02UH5
+  - recAxIXJKZTY9nl4w
+  datasets_text: 2020 Census Apportionment Results, 2020 Decennial Census P.L. 94-171
+    Redistricting Data, American Community Survey, COVID-19 Small Business Pulse Survey,
+    COVID-19 Household Pulse Survey, Quarterly Workforce Indicators, Housing Vacancies
+    and Homeownership, Economic Census , County Business Patterns, Buesiness Formation
+    Statistics, Annual Business Survey, Nonemployer Statistics, Census Tract Maps,
+    Community Resilience Estimates, "TIGER Shapefiles, U.S. Census Bureau", TIGERweb,
+    Geocoder, American Housing Survey, Annual Survey of School System Finances
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-AssistingDecisionMaking.pdf
@@ -2469,6 +2511,9 @@
   - recZod0Y9uE8dnrem
   products_text: Cura Patient
   sprint_text: TOP Health
+- Name: Improving Data Literacy Using Decennial Census Data
+  airtable_createdTime: '2021-09-20T20:07:34.000Z'
+  airtable_id: reclLC12bILYZ7ymr
 - Agency Leads:
   - recuHLtkUO3AprHCQ
   - recmMYmRWewPe8fGY
@@ -2793,7 +2838,7 @@
 - Challenge: 'Develop digital products or physical/digital works of art that creatively
     and inclusively engage hard-to-count communities in 2020 Census data.  '
   Full Title: Inclusive and Creative 2020 Census Data Engagement
-  Name: Inclusive and Creative 2020 Census Data Engagement
+  Name: Inclusive Data Engagement
   Sprints:
   - recAocia3ypyTShB1
   Target audience / End user: "Historically undercounted populations such as:\n- LGBTQ+\n\
@@ -2815,6 +2860,20 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:42:30.000Z'
   airtable_id: recrhEu7bAwQeTEck
+  datasets copy:
+  - recBSiUNCQOWfZNLe
+  - recHdmctS1Uq0iasg
+  - recajSlCIFOtVXygu
+  - recMNlazZwTrrT2l7
+  - reciZfD57nJZjU52W
+  - recRm43Fz5KkjjcyN
+  - recyPvqywI0Ho1REW
+  - recFEhZwCzciwyP5A
+  - rechcjiQM2OJxKbcr
+  datasets_text: 2020 Census Apportionment Results, 2020 Decennial Census P.L. 94-171
+    Redistricting Data, American Community Survey, COVID-19 Household Pulse Survey,
+    Census Tract Maps, Community Resilience Estimates, "TIGER Shapefiles, U.S. Census
+    Bureau", TIGERweb, Geocoder
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-InclusiveDataEngagement.pdf

@@ -5,8 +5,10 @@ const pages = [
   '/built-environment',
   '/covid-19',
   '/climate-smart',
+  '/decennial',
   '/covid-spending'
 ]
+const advancedFilterPage = pages[6]
 const resultsField = '#results-count'
 const searchField = '#search-field'
 const searchForm = '#data-search-form'
@@ -22,9 +24,7 @@ function testPSListShouldContain (filterVal) {
     .each($psList => {
       cy.wrap($psList)
         .should('not.include.text', filterVal)
-    })
-
-  
+    })  
 }
 
 function testPSFilters (url) {
@@ -68,7 +68,7 @@ describe('Content tests', () => {
   })
 })
 
-describe('Filtering tests', () => {
+describe.only('Filtering tests', () => {
 
   it('filters by PS on natural env page', () => {
     testPSFilters(pages[0])
@@ -82,8 +82,11 @@ describe('Filtering tests', () => {
   it('filters by tag on climate-smart page', () => {
     testPSFilters(pages[4])
   })
-  it('filters by tag on COVID spending', () => {
+  it('filters by tag on Decennial page', () => {
     testPSFilters(pages[5])
+  })
+  it('filters by tag on COVID spending', () => {
+    testPSFilters(pages[6])
   })
 
   function clearSearch () {
@@ -168,7 +171,7 @@ describe('Filtering tests', () => {
 })
 
 describe('Advanced filtering tests', () => {
-  const advancedUrl = base + pages[5]
+  const advancedUrl = base + advancedFilterPage
   const resetButton = '#dch-reset--geo'
   const allButton = '#all'
 
@@ -200,12 +203,13 @@ describe('Advanced filtering tests', () => {
   })
 
   it('shows relevant datasets on checking one box', () => {
-    cy.get('.dch-checkbox input')
+    cy.get('.dch-checkbox label')
       .each($filter => {
+
         cy.wrap($filter)
-          .invoke('attr', 'value')
+          .click({ force: true })
+          .invoke('attr', 'for')
           .then($filterVal => {
-            $filter.click()
             testPSListShouldContain($filterVal)
           })
         cy.wrap($filter).click({ force: true })

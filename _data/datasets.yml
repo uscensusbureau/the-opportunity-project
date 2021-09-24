@@ -242,6 +242,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Infrastructure
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -394,6 +395,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Randy Warren
   tag:
   - Imagery + Base Maps
@@ -434,6 +436,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Imagery + Base Maps
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -476,6 +479,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
   - Climate
@@ -822,6 +826,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Amanda Klimek
   tag:
   - Infrastructure
@@ -939,6 +944,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Randy Warren
   tag:
   - Imagery + Base Maps
@@ -970,6 +976,23 @@
   ps_text: Recycled Materials
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: rec9Wrs3oIxbKf1HA
+  data_stewards:
+  - recb1fOmYG22E8pyM
+  description: Online training hub about how to access and utilize Census data; includes
+    courses, short data gems, and webinars
+  link: https://www.census.gov/data/academy.html
+  name: Census Academy
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - reccHr0aPWZzFbgi8
+  ps_text: Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Alexandra Barker
 - airtable_createdTime: '2020-02-10T20:22:02.000Z'
   airtable_id: rec9YftSL69DGzUW5
   data_stewards:
@@ -1000,6 +1023,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Social Vulnerability
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1051,6 +1075,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: U.S. Climate Resilience Toolkit
   tag:
   - Risk
@@ -1093,11 +1118,49 @@
   ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recAqtJgGfKRFtQPS
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  - recjkqqi6LIliwzw7
+  description: 'Annual series that provides economic data for businesses that have
+    no paid employees and are subject to federal income tax. Available for 450 NAICS
+    industries and the state, county, MSA and CSA levels '
+  link: https://www.census.gov/programs-surveys/nonemployer-statistics.html
+  name: Nonemployer Statistics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Andy Hait, Lynda Lee
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recAt7EBpiM9uUaWG
   name: Census Bureau
   products:
   - recvDZEaGFFEtnR4l
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recAxIXJKZTY9nl4w
+  data_stewards:
+  - recRvc8jXE2eX97Xd
+  description: Education finance data include revenues, expenditures, debt, and assets
+    [cash and security holdings] of elementary and secondary public school systems.
+    Statistics cover school systems in all states, and include the District of Columbia.
+    Data available through 2019 FY and releaseing 2020 data in October
+  link: https://www.census.gov/programs-surveys/school-finances.html
+  name: Annual Survey of School System Finances
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Stephen Wheeler
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recAyYfWeVnkMgfD8
   name: Census Bureau; US Bureau of Labor Statistics; New York State Departments of
@@ -1128,6 +1191,29 @@
   ps_text: Transportation Emissions
   sprint:
   - recfjW4XBdTnujZD7
+- airtable_createdTime: '2021-09-20T19:55:16.000Z'
+  airtable_id: recBSiUNCQOWfZNLe
+  data_stewards:
+  - recdTGgIJtKUJSAy0
+  description: Includes the resident population of each state, plus a count of the
+    U.S. military personnel and federal civilian employees living outside the United
+    States (and their dependents living with them) who can be allocated to a home
+    state
+  link: https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html
+  name: 2020 Census Apportionment Results
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Stephanie Morales Garcia
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recBhF3rKqfTg39Pk
   name: "Public Use Microdata Sample of the Census Bureau\u2019s American Community\
@@ -1213,6 +1299,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: NCEI Customer Support
   tag:
   - Climate
@@ -1255,6 +1342,20 @@
   ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recDI7oAEke0Rom2b
+  description: 'Labor market data by worker age, sex, educational attainment and race/ethnicity
+    at the state, county, metro/micropolitan area and workforce investment area (WIA). '
+  link: https://www.census.gov/data/developers/data-sets/qwi.html
+  name: Quarterly Workforce Indicators
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
 - airtable_createdTime: '2020-02-10T17:21:50.000Z'
   airtable_id: recDLNFOXGAunBqCJ
   name: Program for International Student Assessment (PISA)
@@ -1314,6 +1415,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Imagery + Base Maps
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -1355,6 +1457,27 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Metis Meloche, Anne Bowser
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recFEhZwCzciwyP5A
+  data_stewards:
+  - rec8bfHaA7zEPxfYN
+  description: 'Applications allow users to type an address and to receive geographic
+    location '
+  link: 'https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html '
+  name: TIGERweb
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Patrick Jurgens
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recFLgsu3kZnW7oIu
   name: DC Department of Human Services
@@ -1520,6 +1643,28 @@
   ps_text: Career Pathways
   sprint:
   - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recGlI99M7MzMNkqD
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  - recjkqqi6LIliwzw7
+  description: Data on number of businesses, first quarter payroll and annual payroll;
+    Statistics are available on establishments at the U.S. level and by State, County,
+    Metropolitan/Micropolitan Statistical Area (MSA), Combined Statistical Area (CSA),
+    ZIP code, and Congressional District levels. Most recent data is 2019
+  link: https://www.census.gov/programs-surveys/cbp.html
+  name: County Business Patterns
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Andy Hait, Lynda Lee
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recGocS6ghzZKV9Jc
   name: BLS Occupational Employment Statistics
@@ -1609,6 +1754,29 @@
   name: Department of Labor O*NET Database; Department of Education
   products:
   - recKSyLaCXFbhyDuv
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recHdmctS1Uq0iasg
+  data_stewards:
+  - recdTGgIJtKUJSAy0
+  description: "Population counts for the total population and for the population\
+    \ 18 years and over are presented by race and by Hispanic or Latino origin, and\
+    \ for the total group quarters population by major group\nquarters typet. Data\
+    \ presented to the the block level. "
+  link: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+  name: 2020 Decennial Census P.L. 94-171 Redistricting Data
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Stephanie Morales Garcia
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recHgrOukvv1tZIHE
   name: Open Data DC Street Segments API
@@ -1655,6 +1823,26 @@
   ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recIxdhkIqRWm8gUu
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  - recjkqqi6LIliwzw7
+  description: Survey conducted every 5 years of nealry 4 million U.S. businesses
+    at zip code level; most recent data from 2017
+  link: https://www.census.gov/programs-surveys/economic-census.html
+  name: 'Economic Census '
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Andy Hait, Lynda Lee
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recJ2lhBahwKxQyLQ
   name: "Census Bureau\u2019s National Address Database Schema; United States Department\
@@ -1839,6 +2027,21 @@
   name: School-level data
   products:
   - recs1AuNUUppAFbr3
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recLDPDtikbUrRvil
+  description: Outlines the types of data available from the U.S. Census Bureau, why
+    the data matters for libraries and communities, tools to use to find data, and
+    how to learn more.
+  link: https://www.ala.org/pla/sites/ala.org.pla/files/content/data/Census_Data_Literacy_Resources.pdf
+  name: Census Data Literacy Guide
+  organization_text: American Library Association
+  organizations:
+  - recfE2fWtROzASBHd
+  problem_statements:
+  - reccHr0aPWZzFbgi8
+  ps_text: Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recLDnNQUim6OdzH0
   data_stewards:
@@ -1893,6 +2096,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Patrick Jurgens
   tag:
   - Imagery + Base Maps
@@ -1999,6 +2203,28 @@
   name: DOL
   products:
   - rectcKAi8zsdwiqjg
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recMNlazZwTrrT2l7
+  data_stewards:
+  - recxI338ZKCSCEYzo
+  - recU5J7n4zgyTUanc
+  description: Deployed during the COVID-19 pandemic to measure household experiences
+    in terms of employment, spending patterns, food security, housing, physical and
+    mental health, access to health care, and educational disruption. Data is available
+    at a state level and for the 15 largest Metropolitan Statistical Areas (MSAs)
+  link: https://www.census.gov/programs-surveys/household-pulse-survey/data.html
+  name: COVID-19 Household Pulse Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  ps_text: Inclusive Data Engagement, Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Jason Fields, Hyon Shin
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recMPHn8tRSF5Tdq8
   data_stewards:
@@ -2115,6 +2341,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: NCEI Customer Support
   tag:
   - Climate
@@ -2194,6 +2421,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Gita Urban-Mathieux
   tag:
   - Imagery + Base Maps
@@ -2260,6 +2488,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Select a Regional Climate Center
   tag:
   - Climate
@@ -2443,6 +2672,24 @@
   name: Department of Housing and Urban Development Fair Market Rent data; OpenStreetMap
   products:
   - reculF774OHizAs0S
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recQ0EQjhfyiA6d54
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  - recjkqqi6LIliwzw7
+  description: Provides economic and demographic characteristics for nonfarm employer
+    businesses and business owners by sex, ethnicity, race, and veteran status.
+  link: https://www.census.gov/programs-surveys/abs/about.html
+  name: Annual Business Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Andy Hait, Lynda Lee
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recQ22f2P0INVrPnP
   description: Data on COVID-19 testing, cases, hospitalizations, mortalities, and
@@ -2486,6 +2733,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Storm Surge FAQ
   tag:
   - Risk
@@ -2650,6 +2898,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: NOAA STAR Contact Page
   tag:
   - Climate
@@ -2683,6 +2932,27 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Metis Meloche, Anne Bowser
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recRm43Fz5KkjjcyN
+  data_stewards:
+  - recHQC1hU05Sw7kLj
+  description: Shows an index of resilience, or the capacity of individuals and households
+    within a community to absorb, endure, and recover from the impacts of a disaster.
+    Individual and household characteristics from the 2019 American Community Survey
+    (ACS) were modeled to provide tract and county level estimates.
+  link: https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html
+  name: Community Resilience Estimates
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  ps_text: Inclusive Data Engagement, Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Bethany DeSalvo
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recRskiGleSLFerp9
   data_stewards:
@@ -2938,6 +3208,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Social Vulnerability
 - airtable_createdTime: '2021-08-13T16:51:55.000Z'
@@ -2959,6 +3230,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Greg Dusek, Billy Sweet
   tag:
   - Risk
@@ -2999,6 +3271,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: FEMA Contacts
   tag:
   - Risk
@@ -3176,6 +3449,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: NCEI Customer Support
   tag:
   - Climate
@@ -3304,6 +3578,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Gita Urban-Mathieux
   tag:
   - Climate
@@ -3364,6 +3639,27 @@
   sprint:
   - recbhMlc1WZWXNte0
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recXwBWw20qB2M9Bo
+  data_stewards:
+  - recVIIum28cWbUGkV
+  - reconuLPVwBzSj58R
+  description: Deployed in the midst of the COVID-19 pandemic that measures the effects
+    of changing business conditions on small business operations and finances, requests
+    and receipt of assistance, and measures of overall well-being and expectations
+    for recovery.  Data is available by sector and state for the fifty most populous
+    Metropolitan Statistical Areas (MSAs)
+  link: https://portal.census.gov/pulse/data/
+  name: COVID-19 Small Business Pulse Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Colin J Shevlin, Kathryn Bonney
 - airtable_createdTime: '2020-02-10T18:28:58.000Z'
   airtable_id: recXye08klgBkn1My
   description: The U.S. Department of Transportation (USDOT) and its partners from
@@ -3614,6 +3910,28 @@
   name: Global Fishing Watch's Anchorages Dataset
   products:
   - recRADslXTYbyjOZ9
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recajSlCIFOtVXygu
+  data_stewards:
+  - recFypleiqj8EFblI
+  description: Ongoing survey that provides vital information on a yearly basis about
+    occupations, work locations, educational attainment, housing, and other topics
+    in geographies with populations of 65,000+. Most recent is 2019
+  link: https://www.census.gov/programs-surveys/acs
+  name: American Community Survey
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Amanda Klimek
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recaxj0fpf6Ml8lcW
   data_stewards:
@@ -3734,6 +4052,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Climate
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -3859,6 +4178,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Joshua Coutts, Bryce Davenport
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rece8G25DNqYv7wRZ
@@ -3909,6 +4229,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Randy Warren
   tag:
   - Imagery + Base Maps
@@ -4043,6 +4364,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: NCEI Customer Support
   tag:
   - Climate
@@ -4074,6 +4396,23 @@
   sprint:
   - recfjW4XBdTnujZD7
   stewards_text: Hope Pillsbury
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recfhgMMd6T7dgxKN
+  data_stewards:
+  - recXVfv31aTTBmzHk
+  description: Quarterly rental and homeowner vacancy rates for the 75 largest Metropolitan
+    Statistical Areas (MSAs)
+  link: https://www.census.gov/housing/hvs/index.html
+  name: Housing Vacancies and Homeownership
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Tricia Holley
 - airtable_createdTime: '2020-02-10T17:50:40.000Z'
   airtable_id: recfiOOFb1O1kBgQM
   name: Ready Campaign
@@ -4143,6 +4482,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Randy Warren
   tag:
   - Risk
@@ -4151,6 +4491,24 @@
   name: HUD Picture of Subsidized Households
   products:
   - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: rechcjiQM2OJxKbcr
+  description: Provides interactive & programmatic (REST) access to users interested
+    in matching addresses to geographic locations and entities containing those addresses.
+  link: https://geocoding.geo.census.gov/
+  name: Geocoder
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rechvps6UXzRf6OvX
   name: Department of Labor; Census Bureau; US Cluster Mapping Project; Proprietary
@@ -4209,6 +4567,28 @@
   sprint:
   - rec4Y10emS9DtmBpT
   stewards_text: Andy Hait
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: reciZfD57nJZjU52W
+  data_stewards:
+  - recaTb3X7BFgLNXZw
+  - recDMs9ZZKatRJ6fX
+  description: Data published for the 2020 Census, detailed map of each county in
+    each state, recently published in March 2021
+  link: https://www.census.gov/geographies/reference-maps/2020/geo/2020pl-maps/2020-census-tract.html
+  name: Census Tract Maps
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Joshua Coutts, Bryce Davenport
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: recibPLUri64ROeel
   data_stewards:
@@ -4227,6 +4607,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Randy Warren
   tag:
   - Social Vulnerability
@@ -4267,6 +4648,26 @@
   - recg9LuHpKxgB95Xy
   - rec4Y10emS9DtmBpT
   stewards_text: Eric Coyle, Logan Powell
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recjApiKcJpm02UH5
+  data_stewards:
+  - recuL53hzB0sCaWAj
+  description: Conducted every oddly numbered year, most recent in 2019, consisting
+    of the 10-30 largest MSAs on variables including the physical condition of homes
+    and neighborhoods,  costs of financing and maintaining homes, and demographics
+  link: https://www.census.gov/programs-surveys/ahs.html
+  name: American Housing Survey
+  organization_text: U.S. Department of Housing and Urban Development, U.S. Census
+    Bureau
+  organizations:
+  - recRLxRGfiWtHnmAs
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Matthew Streeter
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recjEWRBzfPed6Mjx
   data_stewards:
@@ -4302,6 +4703,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
   - Climate
@@ -4319,6 +4721,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Risk
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
@@ -4398,6 +4801,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Social Vulnerability
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4431,6 +4835,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Phil Dickerson, John White, Rob Wilderman
   tag:
   - Climate
@@ -4756,6 +5161,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Bethany DeSalvo
   tag:
   - Social Vulnerability
@@ -4844,6 +5250,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Social Vulnerability
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -5113,6 +5520,26 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: rectO6IN5DL3Rljc7
+  data_stewards:
+  - recFN7GwyK88Sd6ye
+  - recjkqqi6LIliwzw7
+  description: Measures business initiation activity and the cycle from initiation
+    to realized business formation. Uses Employer Identification Number (EIN) applications
+    at the national, regional, state and county level . Available weekly and monthly
+    since 2004.
+  link: https://www.census.gov/econ/bfs/index.html
+  name: Buesiness Formation Statistics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recdkBaZ8qiY98UM4
+  ps_text: Local Decision Making
+  sprint:
+  - recAocia3ypyTShB1
+  stewards_text: Andy Hait, Lynda Lee
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: rectThiP9XjTNOqZ9
   name: HUD Community Assessment Reporting Tool (CART)
@@ -5153,6 +5580,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Danielle Sharpe
   tag:
   - Social Vulnerability
@@ -5233,6 +5661,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   stewards_text: Technical Questions
   tag:
   - Climate
@@ -5473,6 +5902,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Climate
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
@@ -5495,6 +5925,29 @@
   stewards_text: Amanda Klimek
   tag:
   - Demographic
+- airtable_createdTime: '2021-09-20T19:55:20.000Z'
+  airtable_id: recyPvqywI0Ho1REW
+  data_stewards:
+  - rec8bfHaA7zEPxfYN
+  description: Released annually, most recently February 2021 covering 2020 data.
+    Provides an extract of selected geographic and cartographic information, as well
+    as information for legal boundaries and redistricting, which can be broken down
+    by zip code, district, and major MSAs/cities
+  link: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+  name: TIGER Shapefiles, U.S. Census Bureau
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recrhEu7bAwQeTEck
+  - recdkBaZ8qiY98UM4
+  - reccHr0aPWZzFbgi8
+  ps_text: Inclusive Data Engagement, Local Decision Making, Improving Data Literacy
+  sprint:
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  - recAocia3ypyTShB1
+  stewards_text: Patrick Jurgens
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recynfESoUGMsEDkW
   data_stewards:
@@ -5527,6 +5980,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -5547,6 +6001,7 @@
   ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
   tag:
   - Infrastructure
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'

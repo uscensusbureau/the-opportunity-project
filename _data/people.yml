@@ -851,6 +851,8 @@
   airtable_id: rec8bfHaA7zEPxfYN
   datasets copy:
   - recLOPJDbqlg8HfQi
+  - recyPvqywI0Ho1REW
+  - recFEhZwCzciwyP5A
   email: Patrick.A.Jurgens@census.gov
   name: Patrick Jurgens
   organizations:
@@ -1245,6 +1247,7 @@
   airtable_id: recDMs9ZZKatRJ6fX
   datasets copy:
   - rece3FIEh33mW0zDF
+  - reciZfD57nJZjU52W
   email: bryce.davenport@census.gov
   name: Bryce Davenport
   organizations:
@@ -1435,6 +1438,11 @@
   - recuQekdEOW8PtYFg
   - recuLJoG2jzSCIRtU
   - rec4THtncLwQX0nsV
+  - recIxdhkIqRWm8gUu
+  - recGlI99M7MzMNkqD
+  - rectO6IN5DL3Rljc7
+  - recQ0EQjhfyiA6d54
+  - recAqtJgGfKRFtQPS
   email: Andrew.W.Hait@census.gov
   name: Andy Hait
   organizations:
@@ -1485,6 +1493,7 @@
   - recSBdEFaP6LjoltA
   - recqVxeSVfcGmlSwN
   - rec7nUX62Y5OEC9cC
+  - recajSlCIFOtVXygu
   email: amanda.m.klimek@census.gov
   name: Amanda Klimek
   organizations:
@@ -1621,6 +1630,7 @@
   airtable_id: recHQC1hU05Sw7kLj
   datasets copy:
   - recoT5jeogid79NbG
+  - recRm43Fz5KkjjcyN
   email: bethany.desalvo@census.gov
   name: Bethany DeSalvo
   organizations:
@@ -2508,6 +2518,8 @@
   - recIuT0bGCeG00Fpu
 - airtable_createdTime: '2021-09-08T19:18:02.000Z'
   airtable_id: recRvc8jXE2eX97Xd
+  datasets copy:
+  - recAxIXJKZTY9nl4w
   email: Stephen.Wheeler@census.gov
   name: Stephen Wheeler
   organizations:
@@ -2736,6 +2748,7 @@
   airtable_id: recU5J7n4zgyTUanc
   datasets copy:
   - recNELQf3MtciOz96
+  - recMNlazZwTrrT2l7
   email: hyon.b.shin@census.gov
   name: Hyon Shin
   organizations:
@@ -2857,6 +2870,8 @@
   - recv59tXLzd8UjXM6
 - airtable_createdTime: '2021-09-08T19:21:47.000Z'
   airtable_id: recVIIum28cWbUGkV
+  datasets copy:
+  - recXwBWw20qB2M9Bo
   email: colin.j.shevlin@census.gov
   name: Colin J Shevlin
   organizations:
@@ -3071,6 +3086,14 @@
   - rec9e5MJi3BeiIc2m
   sprints 2:
   - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-09-20T19:59:37.000Z'
+  airtable_id: recXVfv31aTTBmzHk
+  datasets copy:
+  - recfhgMMd6T7dgxKN
+  email: sehsd.financial.market.characteristics@census.gov
+  name: Tricia Holley
+  organizations:
+  - rec9e5MJi3BeiIc2m
 - Role:
   - Census Expert
   Sprint:
@@ -3321,6 +3344,7 @@
   airtable_id: recaTb3X7BFgLNXZw
   datasets copy:
   - rece3FIEh33mW0zDF
+  - reciZfD57nJZjU52W
   email: Joshua.J.Coutts@census.gov
   name: Joshua Coutts
   organizations:
@@ -3372,6 +3396,14 @@
   - rec5KDUVIyOhJ3uLn
   sprints 2:
   - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2021-09-20T20:00:48.000Z'
+  airtable_id: recb1fOmYG22E8pyM
+  datasets copy:
+  - rec9Wrs3oIxbKf1HA
+  email: alexandra.s.barker@census.gov
+  name: Alexandra Barker
+  organizations:
+  - rec9e5MJi3BeiIc2m
 - Role:
   - User Advocate
   Sprint:
@@ -3645,6 +3677,15 @@
   name: Merav Yuravlivker
   organizations:
   - recMJVUJVjI0OTYdo
+- airtable_createdTime: '2021-09-20T19:58:15.000Z'
+  airtable_id: recdTGgIJtKUJSAy0
+  datasets copy:
+  - recBSiUNCQOWfZNLe
+  - recHdmctS1Uq0iasg
+  email: stephanie.morales.garcia@census.gov
+  name: Stephanie Morales Garcia
+  organizations:
+  - rec9e5MJi3BeiIc2m
 - Role:
   - Data Steward
   Sprint:
@@ -4282,6 +4323,18 @@
   - recwZeHp2EKYSNqod
   sprints:
   - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2021-09-20T20:00:03.000Z'
+  airtable_id: recjkqqi6LIliwzw7
+  datasets copy:
+  - recIxdhkIqRWm8gUu
+  - recGlI99M7MzMNkqD
+  - rectO6IN5DL3Rljc7
+  - recQ0EQjhfyiA6d54
+  - recAqtJgGfKRFtQPS
+  email: Lynda.Lee@census.gov
+  name: Lynda Lee
+  organizations:
+  - rec9e5MJi3BeiIc2m
 - airtable_createdTime: '2021-07-21T18:00:18.000Z'
   airtable_id: recjuqcuJGJ1fzVy8
   name: Lynda Liptrap
@@ -4696,6 +4749,14 @@
   name: Rachel Reilly
   organizations:
   - recGhaeIfcOzAjL10
+- airtable_createdTime: '2021-09-20T19:58:45.000Z'
+  airtable_id: reconuLPVwBzSj58R
+  datasets copy:
+  - recXwBWw20qB2M9Bo
+  email: Kathryn.Bonney@census.gov
+  name: Kathryn Bonney
+  organizations:
+  - rec9e5MJi3BeiIc2m
 - Role:
   - Agency Lead
   Sprint:
@@ -5221,6 +5282,14 @@
   sprints:
   - rec4Y10emS9DtmBpT
   title: Secretary
+- airtable_createdTime: '2021-09-20T20:02:19.000Z'
+  airtable_id: recuL53hzB0sCaWAj
+  datasets copy:
+  - recjApiKcJpm02UH5
+  email: Matthew.B.Streeter@census.gov
+  name: Matthew Streeter
+  organizations:
+  - rec9e5MJi3BeiIc2m
 - airtable_createdTime: '2021-07-20T17:16:53.000Z'
   airtable_id: recuPETQVrf8KEgVF
   name: Myung Moon
@@ -5592,6 +5661,7 @@
   datasets copy:
   - recNELQf3MtciOz96
   - rectCL1FIts5gf7ES
+  - recMNlazZwTrrT2l7
   email: Jason.M.Fields@Census.gov
   name: Jason Fields
   organizations:

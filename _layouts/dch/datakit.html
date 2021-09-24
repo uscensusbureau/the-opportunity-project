@@ -12,6 +12,7 @@ layout: default
   {% assign filters = filters | push: match %}
 {% endfor %}
 
+{% assign checkboxSets = null %}
 {% if page.problem-statement-name %}
   {% assign matchingPS = site.data.problem_statements | where: "Name", page.problem-statement-name | first %}
   {% assign display-datasets = display-datasets | where_exp: "dataset",
@@ -29,6 +30,7 @@ layout: default
   {% endfor %}
   {% assign filters = filters | uniq %}
 {% endif %}
+
 
 {% assign display-datasets = display-datasets | sort: "featuredDataset" | reverse %}
 
@@ -76,14 +78,7 @@ layout: default
       label="Datasets search results page" 
       class="pagination--dark" 
       id="dch-pagination" %}
-
-    {% if page.dataset == "covid" %}
-      <h3 class="font-sans-m text-white">Below are additional points of contacts for Census data in the following topics:</h3>
-      {% for expert-group in site.data.covid-census-experts %}
-        <p class="font-mono-xs text-accent-warm">{{ expert-group.name }}</p>
-        <a href="mailto:{{ expert-group.email }}?subject=Regarding The ASA Challenge" class="font-sans-2xs text-decoration-none text-white">{{ expert-group.poc }}<img src="{{ site.baseurl }}/assets/img/icons/email-white.png" class="padding-left-1" alt="email"></a>
-      {% endfor %}
-    {% endif %}
+      
   </section>
   {% assign stripped_content = content | strip_newlines %}
   {% if stripped_content.size > 0 %}
@@ -93,4 +88,3 @@ layout: default
     </section>
   {% endif %}
 </section>
-

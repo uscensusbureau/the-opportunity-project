@@ -64,7 +64,7 @@ function createFunctionWithTimeout (callback, optTimeout) {
 //   })
 // })
 
-// const productLinks = document.querySelectorAll('a[product-link]')
+// const productLinks = document.querySelectorAll('a.product-link')
 // productLinks.forEach(link =>
 //   link.addEventListener('click', e => {
 //     const newTab = link.target === '_blank' || (e.ctrKey || e.metaKey)

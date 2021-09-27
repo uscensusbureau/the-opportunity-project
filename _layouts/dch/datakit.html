@@ -31,8 +31,11 @@ layout: default
   {% assign filters = filters | uniq %}
 {% endif %}
 
-
-{% assign display-datasets = display-datasets | sort: "featuredDataset" | reverse %}
+{% assign featuredSets = display-datasets | where: "featuredDataset", "true" %}
+{% assign nonFeaturedSets = display-datasets | where_exp: "item", "item.featuredDataset == empty or item.featuredDataset == nil" %}
+{% assign setGroups = "" | split: "," %}
+{% assign setGroups = setGroups | push: featuredSets %}
+{% assign setGroups = setGroups | push: nonFeaturedSets %}
 
 {% include hero.html %}
 <section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
@@ -66,10 +69,14 @@ layout: default
     </h3>
 
     <ul class="usa-card-group">
-    {% for item in display-datasets %}
-      {% if item.link and item.hideFromSite != true %}
-        {% include dch/dataset-card.html data=item %}
-      {% endif %}
+    
+    {% for group in setGroups %}
+      {% assign groupSets = group | sort: "datakit_order" %}
+      {% for item in groupSets %}
+        {% if item.link and item.hideFromSite != true %}
+          {% include dch/dataset-card.html data=item %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
     </ul>
 

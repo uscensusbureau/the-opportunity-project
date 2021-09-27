@@ -2,6 +2,7 @@
   airtable_id: rec0IUom0g51JZvne
   data_stewards:
   - rec8bfHaA7zEPxfYN
+  datakit_order: 3
   description: Geographic and cartographic information, shapefiles
   featuredDataset: true
   geographies:
@@ -26,6 +27,7 @@
   airtable_id: rec2CpdziRPWASBW5
   data_stewards:
   - recz3bV45yQZIbp1X
+  datakit_order: 12
   description: A database, index, and mapping application to identify and quantify
     the social vulnerability of communities to hazardous events, such as natural hazards,
     human-caused disasters, or pandemics.
@@ -45,6 +47,7 @@
   airtable_id: rec5tZ7bcx8PAUffl
   data_stewards:
   - recC7BPZg3TSAWxzR
+  datakit_order: 20
   description: Detailed industry estimates of nonfarm employment, hours, and earnings
     of workers on payrolls.
   geographies:
@@ -59,6 +62,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T16:00:54.000Z'
   airtable_id: rec5taXcwL4OwuQcA
+  datakit_order: 16
   description: Research reports on Federal nutrition assistance programs
   link: https://www.fns.usda.gov/research-analysis
   name: Food and Nutrition Service Research and Analysis
@@ -69,6 +73,7 @@
   - Families & Children
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: rec7rCTnAlbgEA6y3
+  datakit_order: 45
   description: The ASE provides annual data on select economic and demographic characteristics
     of employer businesses and their owners by gender, ethnicity, race, and veteran
     status.
@@ -85,6 +90,7 @@
   - Demographic Information
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: rec82170oDuM9o0gW
+  datakit_order: 26
   description: Annual estimates of average hourly wages for occupations by selected
     job characteristics and within geographical location. The job characteristics
     include bargaining status (union and nonunion), part- and full-time work status,
@@ -103,6 +109,7 @@
   airtable_id: rec83B0cOUNewtJm0
   data_stewards:
   - recFN7GwyK88Sd6ye
+  datakit_order: 9
   description: Curated collection of tools, datasets, and analyses on COVID-19.
   featuredDataset: true
   link: https://covid19.census.gov/
@@ -114,6 +121,7 @@
   - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: rec8nJfgoXBFyOSQy
+  datakit_order: 43
   description: Daily cumulative number of cases and deaths reported in each county
     and state across the U.S. since the beginning of the pandemic.
   featuredDataset: true
@@ -132,6 +140,7 @@
   data_stewards:
   - recxI338ZKCSCEYzo
   - recU5J7n4zgyTUanc
+  datakit_order: 10
   description: "Data collected on how people\u2019s lives have been impacted by the\
     \ coronavirus pandemic."
   featuredDataset: true
@@ -148,6 +157,7 @@
   - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recBHWNG4ngk3IsX9
+  datakit_order: 32
   description: The CDFI Fund serves mission-driven financial institutions that take
     a market-based approach to supporting economically disadvantaged communities.
   geographies:
@@ -164,6 +174,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recD38RNFbJnSR20D
+  datakit_order: 42
   description: Paycheck Protection Program data. Includes demographic information
     of participants.
   featuredDataset: true
@@ -185,6 +196,7 @@
   airtable_id: recEDyyNs17h2f04R
   data_stewards:
   - recHQC1hU05Sw7kLj
+  datakit_order: 1
   description: Community resilience is the capacity of individuals and households
     within a community to absorb, endure, and recover from the impacts of a disaster.
   geographies:
@@ -200,6 +212,7 @@
   - Demographic Information
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recFbH2rLKq1Jm9XO
+  datakit_order: 23
   description: A measure of the cost of labor. The compensation series includes wages
     and salaries plus employer costs for individual employee benefits. Employee benefit
     costs are calculated as cost-per-hour-worked for individual benefits ranging from
@@ -215,6 +228,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recGBBMuy16B9G8jr
+  datakit_order: 30
   description: Data on job openings, hires, and separations.
   link: https://www.bls.gov/jlt/
   name: Job Openings and Labor Turnover Survey
@@ -225,6 +239,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:12:22.000Z'
   airtable_id: recIvdzQfwZ1pKhGZ
+  datakit_order: 15
   description: Data on Federal food distribution service programs
   geographies:
   - rec6hnmumZhLa8ZP5
@@ -239,6 +254,7 @@
   airtable_id: recIvtzwRkDfImaGx
   data_stewards:
   - recFypleiqj8EFblI
+  datakit_order: 8
   description: Premier source for detailed population and housing information.
   featuredDataset: true
   geographies:
@@ -263,6 +279,7 @@
   airtable_id: recKNVcISNvJgDf1m
   data_stewards:
   - recFHe5Z7RBmMTy9N
+  datakit_order: 5
   description: Single-year estimates of income and poverty for all U.S. states and
     counties as well as estimates of school-age children in poverty for all 13,000+
     school districts.
@@ -281,6 +298,7 @@
   - Families & Children
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recKyDR3HiNPrwsBy
+  datakit_order: 46
   description: Contract opportunities are procurement notices from federal contracting
     offices. Anyone interested in doing business with the government can use this
     system to search opportunities. Opportunities include pre-solicitation notices,
@@ -297,6 +315,7 @@
   - Government Finance
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recLhiXg7hTuVI0MK
+  datakit_order: 33
   description: Income and tax items classified by State, ZIP Code, and size of adjusted
     gross income. Data are based on individual income tax returns filed with the IRS
   featuredDataset: true
@@ -312,6 +331,7 @@
   - Government Finance
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recLxpLrUwiVz4MMp
+  datakit_order: 35
   description: Aggregated income tax returns
   geographies:
   - rec6hnmumZhLa8ZP5
@@ -326,6 +346,7 @@
   - Government Finance
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recMAvR007REkBJsp
+  datakit_order: 40
   description: 'Analysis of the fiscal condition of the states and data summaries
     of state general fund revenues, expenditures, and balances. '
   geographies:
@@ -339,6 +360,7 @@
   - Government Finance
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recMGffiV30wdTeaj
+  datakit_order: 28
   description: Annual employment and wage estimates for nearly 800 occupations.
   featuredDataset: true
   geographies:
@@ -356,6 +378,7 @@
   airtable_id: recOAUdAFRdM73U59
   data_stewards:
   - recVIIum28cWbUGkV
+  datakit_order: 11
   description: Measures the effect of changing business conditions during the Coronavirus
     pandemic on our nation's small businesses.
   featuredDataset: true
@@ -374,6 +397,7 @@
   airtable_id: recQp5USJ5bCTI3Yi
   data_stewards:
   - recQwLvEkSaq6npaH
+  datakit_order: 4
   description: Comprehensive body of data on the labor force, employment, unemployment,
     persons not in the labor force, hours of work, earnings, and other demographic
     and labor force characteristics.
@@ -389,6 +413,7 @@
   - Demographic Information
 - airtable_createdTime: '2021-09-08T19:12:24.000Z'
   airtable_id: recRXERUp5wDExYS0
+  datakit_order: 14
   description: Data on Federal child nutrition service programs
   geographies:
   - rec6hnmumZhLa8ZP5
@@ -403,6 +428,7 @@
   airtable_id: recS1vPCvnWTrUmXb
   data_stewards:
   - recJ56o8cVQpOjyUa
+  datakit_order: 29
   description: Quarterly count of employment and wages reported by employers covering
     more than 95 percent of U.S. jobs, available at the county, MSA, state and national
     levels by industry.
@@ -420,6 +446,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recSTxIzQLccxhMR5
+  datakit_order: 41
   description: "Summaries of governors\u2019 budget proposals."
   geographies:
   - rec6hnmumZhLa8ZP5
@@ -432,6 +459,7 @@
   - Government Finance
 - airtable_createdTime: '2021-08-19T15:26:20.000Z'
   airtable_id: recU85omIJr27mWlq
+  datakit_order: 21
   description: Information about the nature of work, working conditions, training
     and education, earnings and job outlook for hundreds of different occupations.
   link: https://www.bls.gov/ooh/
@@ -443,6 +471,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recVLtSJhCATZwIis
+  datakit_order: 25
   description: Current and historical data for numerous surveys and press releases.
     Individual databases (in flat file format) corresponding to each of the surveys.
   link: https://download.bls.gov/pub/time.series/
@@ -454,6 +483,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recVMHxeZdFwC2lMZ
+  datakit_order: 27
   description: Establishment-based survey that provides comprehensive measures of
     (1) employer costs for employee compensation, including wages and salaries, and
     benefits, (2) compensation trends, and (3) the incidence of employer-sponsored
@@ -467,6 +497,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recafvPkSx2L9wzQq
+  datakit_order: 38
   description: Research report on the health and well-being of girls.
   geographies:
   - rec6hnmumZhLa8ZP5
@@ -481,6 +512,7 @@
   airtable_id: recdXXwN5A82Q1laq
   data_stewards:
   - recfSt0JNd76dfj1B
+  datakit_order: 6
   description: Timely and high frequency information on new business applications
     and formations in the United States.
   geographies:
@@ -496,6 +528,7 @@
   airtable_id: recdolYiRVWN3djo9
   data_stewards:
   - recRvc8jXE2eX97Xd
+  datakit_order: 7
   description: 'Education finance data including revenues, expenditures, debt, and
     assets (cash and security holdings) of elementary and secondary public school
     systems. '
@@ -515,6 +548,7 @@
   - Families & Children
 - airtable_createdTime: '2021-09-08T19:13:00.000Z'
   airtable_id: rech6FY0fDLqglTQR
+  datakit_order: 13
   description: Supplemental Nutrition Assistance Program Participation and Benefits
   geographies:
   - rec6hnmumZhLa8ZP5
@@ -528,6 +562,7 @@
   - Families & Children
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: rechIQPXc5a4NenrR
+  datakit_order: 36
   description: Migration data for the United States are based on year-to-year address
     changes reported on individual income tax returns filed with the IRS.
   geographies:
@@ -542,6 +577,7 @@
   - Government Finance
 - airtable_createdTime: '2021-08-19T15:22:53.000Z'
   airtable_id: reckFopvDWosTJ0T6
+  datakit_order: 0
   description: Data on the number and types of private health insurance plans offered,
     benefits associated with these plans, annual premiums, annual contributions by
     employers and employees, eligibility requirements, and employer characteristics.
@@ -554,6 +590,7 @@
   - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: reckHInEgtl9GuuvU
+  datakit_order: 24
   description: A measure of the change in the cost of labor, free from the influence
     of employment shifts among occupations and industries. The total compensation
     series includes changes in wages and salaries and in employer costs for employee
@@ -571,6 +608,7 @@
   airtable_id: reclpwGzTVn35A5OM
   data_stewards:
   - rectjOQ0oSRHiOGWc
+  datakit_order: 17
   description: Join USPS Zip Codes to various geographies.
   featuredDataset: true
   geographies:
@@ -588,6 +626,7 @@
   - Joining & Mapping
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recnsCEs4SjCGSSO7
+  datakit_order: 31
   description: Official open data source of federal spending information.
   featuredDataset: true
   geographies:
@@ -605,6 +644,7 @@
   airtable_id: recq1Vji3t6Dk8Pv7
   data_stewards:
   - recek6AqRzigsJJko
+  datakit_order: 2
   description: Geographic identifier codes, names, area measurements, and representative
     latitude and longitude coordinates.
   featuredDataset: true
@@ -629,6 +669,7 @@
   - Joining & Mapping
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recqIl33mtcLxeo2b
+  datakit_order: 39
   description: Total number of Medicaid enrollees, count of individuals whom a state
     has determined are newly eligible for Medicaid.
   geographies:
@@ -642,6 +683,7 @@
   - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recr9irkXZn5kVl46
+  datakit_order: 34
   description: Publicatioins, data products, and papers which describe and measure
     elements of the U.S. tax system.
   featuredDataset: true
@@ -656,6 +698,7 @@
   airtable_id: recsdg958IyEjneOW
   data_stewards:
   - recC7BPZg3TSAWxzR
+  datakit_order: 18
   description: Monthly estimates of total employment and unemployment for over 7,500
     areas.
   featuredDataset: true
@@ -673,6 +716,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: rectZuHQJEKME3fCz
+  datakit_order: 37
   description: Number of applications, awards, and total amount approved by state
     for FEMA COVID-19 funeral expense financial assistance.
   geographies:
@@ -686,6 +730,7 @@
   - Healthcare & COVID&#8209;19
 - airtable_createdTime: '2021-09-08T19:24:46.000Z'
   airtable_id: recucGHyuFhT1Tae5
+  datakit_order: 47
   description: Crosswalk used to convert ZIP Codes to ZCTAs
   featuredDataset: true
   geographies:
@@ -699,6 +744,7 @@
   - Joining & Mapping
 - airtable_createdTime: '2021-08-19T15:22:53.000Z'
   airtable_id: recvq8VSOZ5Fk8uo3
+  datakit_order: 19
   description: 'The Consumer Price Index (CPI) is a measure of the average change
     over time in the prices paid by urban consumers for a market basket of consumer
     goods and services. Indexes are available for the U.S. and various geographic
@@ -715,6 +761,7 @@
   - Jobs & Economy
 - airtable_createdTime: '2021-09-08T19:24:43.000Z'
   airtable_id: recwk9KMzx00GAayB
+  datakit_order: 22
   description: A quarterly series of statistics on gross job gains and gross job losses.
     Gross job gains and gross job losses reveal some aspects of business dynamics,
     including establishment openings and closings and establishment expansions and
@@ -735,6 +782,7 @@
   airtable_id: recyiHOMbuiDV1SIu
   data_stewards:
   - recFN7GwyK88Sd6ye
+  datakit_order: 44
   description: 'The Annual Business Survey (ABS) provides information on selected
     economic and demographic characteristics for businesses and business owners by
     sex, ethnicity, race, and veteran status. '

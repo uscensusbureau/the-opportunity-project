@@ -843,17 +843,19 @@ main {
   .data-kit__card {
     // width: 90%;
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 4;
-    padding: 9rem 2rem 3.5rem;
-    @include at-media('desktop-lg') {
-      @include u-padding-x(7)
+    .usa-card__container {
+      border-width: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: color;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 4;
+      padding: 9rem 2rem 3.5rem;
+      @include at-media('desktop-lg') {
+        @include u-padding-x(7)
+      }
+      border-radius: 10px;
     }
-    border-radius: 10px;
-    cursor: default;
 
     h2 {
       margin-top: 0;
@@ -874,10 +876,10 @@ main {
     //   z-index: 10;
     //   transition: all 500ms ease;
     // }
-    // h2, p, .data-kit__arrow {
-    //   position: relative;
-    //   z-index: 5;
-    // }
+    p {
+      position: relative;
+      // z-index: 5;
+    }
     a::after {
       content: '';
       position: absolute;
@@ -889,18 +891,25 @@ main {
   }
 
   .data-kit__active {
-    transition: transform 400ms ease;
-    cursor: pointer;
-    pointer-events: none;
-    h2 {
-      pointer-events: auto;
-    }
-    &:hover, :active {
-      box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.25);
-      // transform: translate(-5px, -10px);
-      // .data-kit__arrow {
-      //   animation: bounce 2s infinite;
+    $datakitBoxShadow: 0 0 0 3px color('base-lightest');
+    .usa-card__container {
+      transition: transform 400ms ease;
+      &:focus-within {
+        box-shadow: $datakitBoxShadow;
+      }
+      // cursor: pointer;
+      // pointer-events: none;
+      // h2 {
+      //   pointer-events: auto;
       // }
+      &:hover, &:active {
+        box-shadow: $datakitBoxShadow;
+        // box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.25);
+        // transform: translate(-5px, -10px);
+        // .data-kit__arrow {
+        //   animation: bounce 2s infinite;
+        // }
+      }
     }
   }
 

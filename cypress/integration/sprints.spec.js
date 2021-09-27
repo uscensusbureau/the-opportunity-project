@@ -27,7 +27,10 @@ describe('Sprints test', () => {
       const url = sprints[i].url
       cy.visit(base + url)      
       
-      const index = i > 0 ? i - 1 : i
+      let index = i > 0 ? i - 1 : i
+      if (i >= 2){
+        index = i - 2
+      }
       cy.get('#sprint-nav ul>li>a')
         .eq(index).should('have.class', 'highlight')
     }
@@ -116,9 +119,9 @@ describe('Sprints test', () => {
   })
 })
 
-describe.only('Translation tests', () => {
+describe('Translation tests', () => {
   const translateButton = '#translate-button'
-  it.skip('shows translate button only on Post-COVID pages', () => {
+  it('shows translate button only on Post-COVID pages', () => {
     for (const sprint of sprints) {
       cy.visit(base + sprint.url)
       const expecting = sprint.showTranslate ? 'exist' : 'not.exist'
@@ -136,7 +139,7 @@ describe.only('Translation tests', () => {
         })
     })
   })
-  it.only('Has PDFs available to download on Spanish Post-COVID page', () => {
+  it('Has PDFs available to download on Spanish Post-COVID page', () => {
     cy.visit('/sprints/pos-covid-esp')
     cy.get('.problem-statement .ps-pdf').each($pdf => {
       cy.wrap($pdf).invoke('attr', 'href')
@@ -146,7 +149,7 @@ describe.only('Translation tests', () => {
     })
   })
 
-  it.skip('navigates to Spanish translation from English version', () => {
+  it('navigates to Spanish translation from English version', () => {
     cy.visit('/sprints/post-covid')
     cy.get(translateButton)
       .click()
@@ -154,7 +157,7 @@ describe.only('Translation tests', () => {
     
   })
 
-  it.skip('navigates to English from Spanish', () => {
+  it('navigates to English from Spanish', () => {
     cy.visit('/sprints/pos-covid-esp')
     cy.get(translateButton)
       .click()

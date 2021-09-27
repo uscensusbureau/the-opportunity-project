@@ -880,13 +880,19 @@ main {
       position: relative;
       // z-index: 5;
     }
-    a::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
+    a {
+      text-decoration: none;
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+      &:focus {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -896,6 +902,9 @@ main {
       transition: transform 400ms ease;
       &:focus-within {
         box-shadow: $datakitBoxShadow;
+        a:focus {
+          outline: none;
+        }
       }
       // cursor: pointer;
       // pointer-events: none;

@@ -10,9 +10,9 @@
     style="background-image: url('{{ kit.image | relative_url }}')">
     {% include 1px-transparent.html alt=kit.image-alt %}
     {% if kit.upcoming %}
-      <h2 class="z-200 usa-link text-no-underline" id="{{kit-id}}">{{kit.title}}</h2>
+      <h2 class="z-200 usa-link text-no-underline" id="{{kit-id}}">{{kit.title}}<span class="usa-sr-only"> datasets</span></h2>
     {% else %}
-      <h2 class="z-200 usa-link" id="{{kit-id}}"><a href="{{ kit-href }}">{{kit.title}}</a></h2>
+      <h2 class="z-200" id="{{kit-id}}"><a href="{{ kit-href }}">{{kit.title}}<span class="usa-sr-only"> datasets</span></a></h2>
     {% endif %}
     <p class="z-200">{{kit.lead}}</p>
     {% comment %}

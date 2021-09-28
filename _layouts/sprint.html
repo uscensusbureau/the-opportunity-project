@@ -18,13 +18,7 @@ layout: default
   {% endif %}
 
   {% assign isExpanded = false %}
-  {% if forloop.first %}
-    {% if page.isCurrent %}
-      {% assign isExpanded = false %}
-    {% else %}
-      {% assign isExpanded = true %}
-    {% endif %}
-  {% endif %}
+
   {% include problem-statement.html content=statement product=product 
     showMore=showMore isExpanded = isExpanded %}
 {% endfor %}

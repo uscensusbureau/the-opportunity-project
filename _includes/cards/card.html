@@ -3,13 +3,14 @@
   class="card-container {{ include.utils }} bg-base-darkest"
   style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img.src }});
           background-size: cover;">
-  {% include 1px-transparent.html alt=card.img.alt %}
   <div class="card-header">
     <h3 class="text-ls-1">
       <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}">
         {{ card.title }}
       </a>
     </h3>
+    {% include 1px-transparent.html alt=card.img.alt %}
+
     {% if card.date %}<p class="font-mono-xs card-date">{{ card.date | date: "%B %Y" }}</p>{% endif %}
     {% if card.tech_team %}<p class="font-mono-xs">{{ card.tech_team" }}</p>{% endif %}
     {% if card.details %}<p class="card-details">{{ card.details }}</p>{% endif %}

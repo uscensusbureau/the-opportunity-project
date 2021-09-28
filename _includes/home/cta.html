@@ -1,0 +1,19 @@
+{% assign data = include.data %}
+<h3>{{ data.title }}</h3>
+<p>
+  {% if data.primary %}
+    {% assign link = data.primary %}
+    <a 
+      class="usa-button usa-button--secondary"
+      href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+      {{ link.text }}
+    </a>
+  {% endif %}
+  {% if data.secondary %}
+  <a 
+    class="usa-link"
+    href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+    {{ link.text }}
+  </a>
+  {% endif %}
+</p>

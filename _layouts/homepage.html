@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="usa-section bg-white">
+  <div class="grid-container">
+    <h1>{{ page.hero.title }}</h1>
+  </div>
+</section>
+
+<section class="usa-section usa-section--dark">
+  <div class="grid-container">
+    <h2>{{ page.challenges.title}}</h2>
+    {{ page.challenges.subtitle | markdownify }}
+    {% include home/challenges-widget.html data = page.challenges.data %}
+  </div>
+</section>
+
+<section class="usa-section bg-primary">
+  <div class="grid-container">
+    {% assign cta = page.cta-sections[0] %}
+    {% include home/cta.html data=cta %}
+  </div>
+</section>

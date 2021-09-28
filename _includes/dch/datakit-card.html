@@ -34,7 +34,7 @@
       </div>
     {% else %}
       <div class="data-kit__stats">
-        <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt=""/>
+        <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt=""role="img" alt="" aria-hidden="true"/>
         {% assign sprint = site.data.sprints | where: "Name", kit.sprint-name | first %}
         {% assign data = site.data.datasets | where: "sprint", sprint.airtable_id %}
         {% if kit.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}

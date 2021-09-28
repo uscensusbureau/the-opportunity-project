@@ -725,6 +725,13 @@ main {
   color: color("primary-dark");
 }
 
+.usa-section--dark a.usa-link:visited {
+  @include u-color('primary-lightest');
+  &:hover {
+    @include u-color('primary-lighter');
+  }
+}
+
 .btn-link {
   display: inline-block;
   @include u-margin-top(3);

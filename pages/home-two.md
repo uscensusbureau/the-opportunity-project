@@ -55,9 +55,8 @@ cta-sections:
   - 
     title: Ready to solve your agency's biggest challenge?
     primary:
-      text: Get in Touch
-      href: https://www.census.gov/forms/contact-top.html
-      isExternal: true
+      text: Learn more about the TOP process
+      href: /our-process
 
 impact:
   title: Our Impact

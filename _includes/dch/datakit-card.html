@@ -3,11 +3,11 @@
 {% assign kit-href = site.baseurl | append: kit.url %}
 
 {% capture titleText %}
-  {% assign srText = " datasets" %}
-  {% assign titleWords = kit.title | split: " " %}
-  
-  {{kit.title | strip }}
-  {% unless titleWords[-1] == "Data" %}<span class="usa-sr-only"> datasets</span>{% endunless %}
+  {% assign titleString = kit.title %}
+  {% if kit.title == "Decennial Data" %}
+    {% assign titleString = 'Decennial <span aria-hidden=true>Data</span>' %}
+  {% endif %}
+  {{ titleString }}<span class="usa-sr-only"> Datasets</span>
 {% endcapture %}
 
 <li class="usa-card tablet:grid-col-6 desktop:grid-col-4 data-kit__card {% unless kit.upcoming %}data-kit__active{% endunless %}">

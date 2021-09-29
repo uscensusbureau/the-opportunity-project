@@ -22,13 +22,13 @@ content-light:
   skip-top-border: true
   skip-bottom-border: true
   body: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
-  right-col: get-involved/participate-right.md
+  right-col: participate-right.md
 
 join:
   title: Stay in the Loop
   skip-top-border: true
   skip-bottom-border: true
-  right-col: get-involved/in-the-loop-right.md
+  right-col: in-the-loop-right.md
 
 callout:
   text: Win Funding to Scale Your Technology

@@ -1,6 +1,0 @@
-{% assign tags = include.data %}
-<div class="project-tags">
-  {% for tag in tags %}
-    <span class="project-tag__{{ tag | slice: 0, 4 | downcase }}">{{ tag | replace: " ", "&nbsp;" }}</span>
-  {% endfor %}
-</div>

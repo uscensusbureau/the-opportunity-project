@@ -18,7 +18,7 @@ main-content:
   subsections:
     - text: City Builder brings transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities.
     - title: Regional inequality in the United States is growing.
-      text: Across the United States, declining economic dynamism is making it harder for cities to recover from the Great Recession while fueling increasing regional inequality. The economic vitality of people and where they live is intertwined — and by 2050, cities are expected to be home to 75% of the world’s population.
+      text: Across the United States, declining economic dynamism is making it harder for cities to recover from the Great Recession while fueling increasing regional inequality. The economic vitality of people and where they live is intertwined — and by 2050, cities are expected to be home to 75 percent of the world’s population.
     - title: Congress created Opportunity Zones to bring investment and opportunity to communities bypassed by recent economic growth.
       text: Opportunity Zones are a new community development program established by Congress in the Tax Cuts and Jobs Act of 2017 to encourage long-term investments in low-income urban and rural communities nationwide. Yet there are several challenges among key stakeholders for effective capital deployment in Opportunity Zones, including a lack of transparency, difficulty sourcing capital, and no standardized way for cities and communities to showcase their needs, priorities, and projects. In addition, investors have a growing interest to ensure their capital is reaching places where it can have a real, economic, and societal impact.
     - image: case-studies/city-builder-02.png

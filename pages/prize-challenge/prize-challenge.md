@@ -8,8 +8,8 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: Win Funding to Scale Your Technology
-  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding more than $310,000 to teams using The Opportunity Project process.'
+  text: 'Win Funding to Scale Your Technology<br/>Awarding $310,000 in prizes'
+  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
   top:

@@ -16,10 +16,10 @@ layout: default
   </div>
 </section>
 
+{% assign section = page.cta-sections[0] %}
 <section class="usa-section bg-primary usa-section--dark">
   <div class="grid-container">
-    {% assign cta = page.cta-sections[0] %}
-    {% include home/cta.html data=cta %}
+    {% include home/cta.html data=section %}
   </div>
 </section>
 
@@ -38,7 +38,12 @@ layout: default
   </div>
 </section>
 
-{% include logo-garden.html %}
+{% assign section = page.participants %}
+<section class="usa-section usa-section--dark bg-base-darkest">
+  <div class="grid-container">
+    {% include home/logo-garden--small.html title=section.title %}
+  </div>
+</section>
 
 {% assign section = page.process %}
 <section class="usa-section bg-white">
@@ -89,5 +94,12 @@ layout: default
         {% include home/vision-animation.html %}
       </div>
     </div>
+  </div>
+</section>
+
+{% assign section = page.cta-sections[1] %}
+<section class="usa-section bg-primary usa-section--dark">
+  <div class="grid-container">
+    {% include home/cta.html data=section %}
   </div>
 </section>

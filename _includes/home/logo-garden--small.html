@@ -1,0 +1,10 @@
+<h2 id="{{ include.title | slugify }}">{{ include.title }}</h2>
+<div class="grid-row">
+  {% for logoData in site.data.logos-partners limit:18 %}
+    <div class="grid-col-2 text-center padding-1">
+      {% assign src = "logos-partners/" | append: logoData.image %}
+      {% assign alt = logoData.alt | append: " logo" %}
+      {% include image.html class="logo-garden-item padding" src=src alt=src %}
+    </div>
+  {% endfor %}
+</div>

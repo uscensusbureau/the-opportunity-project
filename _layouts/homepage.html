@@ -69,3 +69,25 @@ layout: default
     </div>
   </div>
 </section>
+
+{% assign section = page.vision %}
+<section class="usa-section usa-section--dark bg-base-darkest">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-7">
+        <h2 id="{{ section.title | slugify }}">
+          {{ section.title }}
+        </h2>
+        <p class="font-sans-lg">
+          {{ section.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+        <p class="font-sans-3xs">
+          {{ section.footer | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+      </div>
+      <div class="display-none grid-col-5 tablet:display-block">
+        {% include home/vision-animation.html %}
+      </div>
+    </div>
+  </div>
+</section>

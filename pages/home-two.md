@@ -17,29 +17,32 @@ challenges:
       title: 'The [U.S. Department of Housing and Urban Development](#) and [White House Council of Economic Advisors](#) worked to catalyze investment in opportunity zones.'
       subtitle: 'HUD worked with over 10 tech teams and user advocate organizations, resulting in 6 products to help Americans get jobs (sp).'
       products:
-        - Citi Ventures
-        - Public Democracy
-        - Mastercard
-        - Burning Glass
+        - team: Citi Ventures
+        - team: Public Democracy
+        - team: Mastercard
+        - team: Burning Glass
       impact: As of 2021, xyz continues to address abc. Here's another impact statement that is really important. It shows how teams were able to build strong relationships and help the public.
     - 
       agency: 'EPA'
       title: 'The [U.S. Environmental Protection Agency](#) worked to reduce plastic pollution in oceans.'
       subtitle: 'EPA worked with over 10 tech teams and user advocate organizations, such as XYZ.'
       products:
-        - ESRI
-        - Harvard University Institute of Politics
-        - Georgetown University Beeck Center
-        - Rutgers University Computer Science
+        - team: Esri
+        - team: Harvard University Institute of Politics
+        - team: Georgetown University Beeck Center
+        - team: Rutgers University Computer Science
       impact: As of 2021, xyz continues to address abc. Here's another impact statement that is really important. It shows how teams were able to build strong relationships and help the public.
     - 
       agency: 'FEMA + DHS'
       title: 'The [Federal Emergency Management Agency](#) and the [U.S. Department for Homeland Security](#) worked to use geospatial data to prepare the public for disasters.'
       subtitle: 'FEMA and DHS workd with over 10 tech teams and user advocate organizations, resulting in XYZ.'
       products:
-        - Datel Ovela
-        - UC Santa Barbara
-        - Loveland Technologies
+        - title: Sille
+          team: Datel Ovela
+        - title: Disaster Awareness Games
+          team: Geoslug- UC Santa Barbara, Motivf
+        - title: Puerto Rico Land Grid
+          team: Loveland Technologies
       impact: Datel Ovela has continued its partnership with FEMA and is testing the use of this product for earthquake response in New York City and flooding in Miami.
 
 cta-sections:

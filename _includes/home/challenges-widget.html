@@ -39,7 +39,10 @@
         </p>
         <div class="grid-row grid-gap">
           {% for productTeam in item.products %}
-            {% assign product = site.data.products | where: "tech_team_text", productTeam | first %}
+            {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
+            {% if productTeam.title %}
+              {% assign product = site.data.products | where: "title", productTeam.title | first %}
+            {% endif %}
             <div
               class="tablet:grid-col-3 
                 usa-media-block__background-image-portrait 
@@ -56,5 +59,3 @@
     {% endfor %}
   </div>
 </div>
-
-

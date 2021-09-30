@@ -16,8 +16,41 @@ describe('widget tests', () => {
       .should('be.checked')
   })
 
+  function checkVisibleDetailsSection (nthChild) {
+    for (let i = 1; i <= 3; i++) {
+      const visExpectation = i === nthChild ? 'be.visible' : 'not.be.visible'
+      cy.get(`.challenge-widget__details:nth-child(${i})`)
+        .should(visExpectation)
+    }
+  }
+
+  it('starts with only first details visible', () => {
+    cy.get('.challenge-widget__details')
+      .should('have.length', 3)
+
+    checkVisibleDetailsSection(1)
+  })
+
   it('shows relevant PS info on clicking buttons', () => {
-    cy.expect(true).to.be.false
+    cy.get('.site-radio:nth-of-type(2)')
+      .click()
+    checkVisibleDetailsSection(2)
+
+    cy.get('.site-radio:nth-of-type(3)')
+      .click()
+    checkVisibleDetailsSection(3)
+
+    cy.get('.site-radio:nth-of-type(1)')
+      .click()
+    checkVisibleDetailsSection(1)
+
+    cy.get('.site-radio:nth-of-type(1)')
+      .click()
+    checkVisibleDetailsSection(1)
+
+    cy.get('.site-radio:nth-of-type(3)')
+      .click()
+    checkVisibleDetailsSection(3)
   })
 
   it('navigates to sprints page after clicking See All Challenges link', () => {

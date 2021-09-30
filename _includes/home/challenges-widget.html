@@ -1,7 +1,7 @@
 {% assign items = include.data %}
 <div class="usa-section--white bg-white radius-md text-ink padding-4">
   <div class="padding-bottom-4 border-bottom-1px">
-    <form id="challenge-widget-form">
+    <form id="challenge-widget__form">
       <fieldset class="usa-fieldset display-flex flex-align-center">
         <legend class="usa-legend">Select an agency</legend>
         {% for item in items %}
@@ -10,7 +10,7 @@
               class="usa-radio__input usa-radio__input--tile"
               id="{{ item.agency | slugify }}__input"
               type="radio"
-              name="challenges-widget"
+              name="challenge-widget"
               value="{{ item.agency | slugify}}"
               {% if forloop.first %}checked{% endif %}
             />
@@ -25,11 +25,16 @@
       </fieldset>
     </form>
   </div>
-  {% for item in items %}
-    <div id="{{ item.agency | slugify }}">
-      {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
-    </div>
-  {% endfor %}
+  <div>
+    {% for item in items %}
+      <div 
+        id="{{ item.agency | slugify }}" 
+        class="challenge-widget__details {% unless forloop.first %}display-none{% endunless %}"
+      >
+        {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 

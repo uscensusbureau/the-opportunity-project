@@ -22,3 +22,50 @@ layout: default
     {% include home/cta.html data=cta %}
   </div>
 </section>
+
+{% assign section = page.impact %}
+<section class="usa-section">
+  <div class="grid-container">
+    <h2 id="{{section.title | slugify }}">
+      {{ section.title }}
+    </h2>
+    {% for item in section.data %}
+      <div>
+        <h3 class="text-normal">{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</h3>
+        {{ item.subtitle | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% include logo-garden.html %}
+
+{% assign section = page.process %}
+<section class="usa-section bg-white">
+  <div class="grid-container">
+    <h2 id="{{section.title | slugify }}">
+      {{ section.title }}
+    </h2>
+    <div class="usa-accordion" aria-multiselectable="true">
+      {% for item in section.data %}
+        <h3 class="usa-accordion__heading">
+          <button
+            class="usa-accordion__button text-normal"
+            aria-expanded="false"
+            aria-controls="{{ item.title | slugify }}"
+          >
+            <strong>{{ forloop.index }}</strong>
+            <span class="margin-left-4">{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+          </button>
+        </h3>
+        <div id="{{ item.title | slugify }}" class="usa-accordion__content usa-prose">
+          {{ item.subtitle | markdownify }}
+        </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h4>{{ section.footer.title }}</h4>
+      {{ section.footer.text | markdownify }}
+    </div>
+  </div>
+</section>

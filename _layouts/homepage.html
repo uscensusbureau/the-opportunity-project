@@ -4,14 +4,16 @@ layout: default
 
 <section class="usa-section bg-white">
   <div class="grid-container">
-    <h1>{{ page.hero.title }}</h1>
+    <h1 class="font-sans-3xl">{{ page.hero.title }}</h1>
   </div>
 </section>
 
-<section class="usa-section bg-base-darkest usa-section--dark">
+<section class="usa-section bg-base-darkest">
   <div class="grid-container">
-    <h2>{{ page.challenges.title}}</h2>
-    {{ page.challenges.subtitle | markdownify }}
+    <div class="text-white">
+      <h2>{{ page.challenges.title}}</h2>
+      {{ page.challenges.subtitle | markdownify }}
+    </div>
     {% include home/challenges-widget.html data = page.challenges.data %}
   </div>
 </section>

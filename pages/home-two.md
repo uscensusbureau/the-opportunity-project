@@ -1,5 +1,5 @@
 ---
-permalink: /home-two
+permalink: /home-two/
 title: "The Opportunity Project"
 layout: homepage
 

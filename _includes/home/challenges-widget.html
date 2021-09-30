@@ -1,3 +1,35 @@
-<div class="bg-white radius-md text-ink padding-4">
-  <h3 class="text-ink">THIS IS THE CHALLENGES WIDGET</h3>
+{% assign items = include.data %}
+<div class="usa-section--white bg-white radius-md text-ink padding-4">
+  <div class="padding-bottom-4 border-bottom-1px">
+    <form id="challenge-widget-form">
+      <fieldset class="usa-fieldset display-flex flex-align-center">
+        <legend class="usa-legend">Select an agency</legend>
+        {% for item in items %}
+          <div class="usa-radio site-radio {%unless forloop.first %}margin-left-2{% endunless %}">
+            <input 
+              class="usa-radio__input usa-radio__input--tile"
+              id="{{ item.agency | slugify }}__input"
+              type="radio"
+              name="challenges-widget"
+              value="{{ item.agency | slugify}}"
+              {% if forloop.first %}checked{% endif %}
+            />
+            <label class="usa-radio__label" for="{{ item.agency | slugify}}__input">
+              {{ item.agency }}
+            </label>
+          </div>
+        {% endfor %}
+        <a class="usa-link margin-left-4" href="/showcase">
+          See all challenges
+        </a>
+      </fieldset>
+    </form>
+  </div>
+  {% for item in items %}
+    <div id="{{ item.agency | slugify }}">
+      {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
+    </div>
+  {% endfor %}
 </div>
+
+

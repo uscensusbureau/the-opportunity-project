@@ -1035,6 +1035,24 @@ main {
   }
 }
 
+.site-radio {  
+  [class$=__label] {
+    @include u-radius('pill');
+    @include u-border('1px', 'solid', 'primary-darkest');
+    @include u-bg('white');
+    @include u-color('ink');
+    padding: .25rem .5rem;
+    text-indent: 0;
+    &::before {
+      display: none;
+    }
+  }
+  input:checked+[class$=__label] {
+    @include u-bg('primary-darkest');
+    @include u-color('white');
+  }
+}
+
 .dch-radio {
   background-color: initial !important;
   .dch-radio__label {

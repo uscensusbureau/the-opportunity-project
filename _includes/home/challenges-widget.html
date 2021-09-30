@@ -31,7 +31,27 @@
         id="{{ item.agency | slugify }}" 
         class="challenge-widget__details {% unless forloop.first %}display-none{% endunless %}"
       >
-        {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
+        <p class="font-sans-md">
+          {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
+        </p>
+        <p>
+          {{ item.subtitle }}
+        </p>
+        <div class="grid-row grid-gap">
+          {% for productTeam in item.products %}
+            {% assign product = site.data.products | where: "tech_team_text", productTeam | first %}
+            <div
+              class="tablet:grid-col-3 
+                usa-media-block__background-image-portrait 
+                margin-bottom-3"
+            >
+              {% include cards/problem-statement-prod-card.html content=product utils="small-header-card" %}
+            </div>
+          {% endfor %}
+        </div>
+        <p>
+          {{ item.impact }}
+        </p>
       </div>
     {% endfor %}
   </div>

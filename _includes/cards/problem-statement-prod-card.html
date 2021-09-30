@@ -14,7 +14,9 @@
       <h3 class="text-sans-1 text-ls-1 {%if card.link%}text-underline{% endif %}">
           {{ card.title }}
       </h3>
-      <p>{{ team['Company Name'] }}</p>
+      {% if team['Company Name'] %}
+        <p>{{ team['Company Name'] }}</p>
+      {% endif %}
     </div>
   {% if card.link %}
     </a>

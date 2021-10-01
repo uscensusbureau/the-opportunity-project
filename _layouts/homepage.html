@@ -2,11 +2,7 @@
 layout: default
 ---
 
-<section class="usa-section bg-white">
-  <div class="grid-container">
-    <h1 class="font-sans-3xl">{{ page.hero.title }}</h1>
-  </div>
-</section>
+{% include home/homepage-hero.html data=page.hero %}
 
 <section class="usa-section bg-base-darkest">
   <div class="grid-container">
@@ -78,7 +74,7 @@ layout: default
     </div>
     <div>
       <h4>{{ section.footer.title }}</h4>
-      {{ section.footer.text | markdownify }}
+      {{ section.footer.text | replace: "SITE.BASEURL", site.baseurl | markdownify }}
     </div>
   </div>
 </section>

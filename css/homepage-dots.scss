@@ -1,0 +1,12 @@
+#homepage-hero__dots {
+  position: absolute;
+  top: 0;
+}
+
+.homepage-hero__dot {
+  @include u-bg('accent-warm');
+  @include u-height(2);
+  @include u-width(2);
+  @include u-radius('pill');
+  position: absolute;
+}

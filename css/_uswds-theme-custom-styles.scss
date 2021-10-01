@@ -4281,6 +4281,13 @@ $theme-table-column-gap: 4;
   }
 }
 
+.site-button {
+  @include u-radius('pill');
+  @include u-text('normal');
+  // @include u-padding-x(2);
+  // @include u-padding-y(1);
+}
+
 .site-button-list {
   .usa-button {
     @include typeset("lang", null, 1);
@@ -4967,3 +4974,4 @@ h2.section-header, h3.section-header {
 @import 'pagination.scss';
 @import 'process-list.scss';
 @import 'vision-animation.scss';
+@import 'homepage-dots.scss';

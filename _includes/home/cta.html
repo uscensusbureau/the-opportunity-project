@@ -4,7 +4,7 @@
   {% if data.primary %}
     {% assign link = data.primary %}
     <a 
-      class="usa-button usa-button--secondary site-cta"
+      class="usa-button usa-button--secondary site-button site-cta"
       href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
       {{ link.text }}
     </a>

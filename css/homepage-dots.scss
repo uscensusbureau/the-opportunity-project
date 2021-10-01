@@ -9,4 +9,8 @@
   @include u-width(2);
   @include u-radius('pill');
   position: absolute;
+
+  &:nth-of-type(1) {
+    @include u-bg('secondary');
+  }
 }

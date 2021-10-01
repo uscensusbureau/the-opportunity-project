@@ -14,7 +14,7 @@
     </div>
   </section>
   <div class="logo-garden-mobile grid-container">
-  {% for logo in site.data.logos-partners %}
+  {% for logo in site.data.logos-partners.home-one %}
     <div class="grid-col-2 margin-3 display-inline-block" >
       {% assign imgSrc = "logos-partners/" | append: logo.image %}
       {% assign imgAlt = logo.alt | append: " logo" %}

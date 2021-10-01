@@ -32,9 +32,13 @@ layout: default
       {{ section.title }}
     </h2>
     {% for item in section.data %}
-      <div>
-        <h3 class="text-normal">{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</h3>
-        {{ item.subtitle | markdownify }}
+      <div class="border-base-light border-top-1px {% if forloop.last %}border-bottom-1px{% endif %}">
+        <h3 class="text-normal font-sans-xl margin-top-1 margin-bottom-0">
+          {% include markdown_strip_ptags.html data = item.title %}
+        </h3>
+        <p class="font-sans-md margin-top-0 measure-6">
+          {% include markdown_strip_ptags.html data = item.subtitle %}
+        </p>
       </div>
     {% endfor %}
   </div>
@@ -62,7 +66,9 @@ layout: default
             aria-controls="{{ item.title | slugify }}"
           >
             <strong>{{ forloop.index }}</strong>
-            <span class="margin-left-4">{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            <span class="margin-left-4">
+              {% include markdown_strip_ptags.html data = item.title %}
+            </span>
           </button>
         </h3>
         <div id="{{ item.title | slugify }}" class="usa-accordion__content usa-prose">
@@ -86,10 +92,10 @@ layout: default
           {{ section.title }}
         </h2>
         <p class="font-sans-lg">
-          {{ section.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% include markdown_strip_ptags.html data = section.subtitle %}
         </p>
         <p class="font-sans-3xs">
-          {{ section.footer | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% include markdown_strip_ptags.html data = section.footer %}
         </p>
       </div>
       <div class="display-none grid-col-5 tablet:display-block">

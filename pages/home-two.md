@@ -66,9 +66,9 @@ impact:
   title: Our Impact
   data:
     - title: '**40+** National Challenges'
-      subtitle: addressed including ocean plastic pollution, COVID-19 economic recovery, disaster response, [and more](/sprints)
+      subtitle: addressed including ocean plastic pollution, COVID-19 economic recovery, disaster response, [and more](SITE.BASEURL/sprints)
     - title: '**135+** Public-Facing Digital Products'
-      subtitle: launched since [2016](/showcase) through TOP's 12 week technology development sprints
+      subtitle: launched since [2016](SITE.BASEURL/showcase) through TOP's 12 week technology development sprints
     - title: '**1300+** TOP Alumni'
       subtitle: including developers, designers, community leaders, data & policy experts, students, and government agencies
 
@@ -98,17 +98,17 @@ process:
         - public
   footer:
     title: What is your role as an agency?
-    text: "Agencies who've run TOP before may be fully equipped to run the TOP process by themselves using our [DIY toolkit](/topx-toolkit). If this is your first time participating in TOP, our team is here to provide all the support and guidance needed to run a successful sprint. Facilitating a sprint typically requires about 10 hours of work for 12 weeks.
+    text: "Agencies who've run TOP before may be fully equipped to run the TOP process by themselves using our [DIY toolkit](SITE.BASEURL/topx-toolkit/introduction). If this is your first time participating in TOP, our team is here to provide all the support and guidance needed to run a successful sprint. Facilitating a sprint typically requires about 10 hours of work for 12 weeks.
 
 
     [Contact Us](https://www.census.gov/forms/contact-top.html) to learn more about how TOP can work at your agency.
 
 
-    Learn more about the [TOP process](/process)."
+    Learn more about the [TOP process](SITE.BASEURL/process)."
 
 vision:
   title: Our Vision
-  subtitle: We envision a future in which every federal agency uses the TOP model. We're empowering you with the [resources and tools](/topx-toolkit) you need to lead open innovation.
+  subtitle: We envision a future in which every federal agency uses the TOP model. We're empowering you with the [resources and tools](SITE.BASEURL/topx-toolkit/introduction) you need to lead open innovation.
   footer: This program was founded in 2015 by the [Census Open Innovation Labs](https://coil.census.gov/)
         
 ---

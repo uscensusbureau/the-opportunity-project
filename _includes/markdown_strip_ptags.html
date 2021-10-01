@@ -1,0 +1,8 @@
+{% comment %} 
+  returns markdownified string without paragraph tags. 
+  useful for embedding markdown within any other tags such as headers
+  or even paragraph tags you want to style yourself
+{% endcomment %}
+
+
+{{ include.data | replace: "SITE.BASEURL", site.baseurl | markdownify | remove: "<p>" | remove: "</p>" }}

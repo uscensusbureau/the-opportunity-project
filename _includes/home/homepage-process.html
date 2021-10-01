@@ -1,0 +1,38 @@
+{% assign section = include.data %}
+<section class="usa-section bg-white">
+  <div class="grid-container">
+    <h2 id="{{section.title | slugify }}">
+      {{ section.title }}
+    </h2>
+    <div class="usa-accordion" aria-multiselectable="true">
+      {% for item in section.data %}
+        <h3 class="usa-accordion__heading">
+          <button
+            class="usa-accordion__button text-normal"
+            aria-expanded="false"
+            aria-controls="{{ item.title | slugify }}"
+          >
+            <strong>{{ forloop.index }}</strong>
+            <span class="margin-left-4">
+              {% include markdown_strip_ptags.html data = item.title %}
+            </span>
+          </button>
+        </h3>
+        <div id="{{ item.title | slugify }}" class="usa-accordion__content usa-prose">
+          {{ item.subtitle | markdownify }}
+          <div class="grid-row grid-gap">
+            {% for icon in item.icons %}
+              {% assign src = "icons/homepage-process/Icon_" | append: icon.src %}
+              {% assign alt = icon.alt %}
+              {% include image.html src=src alt=alt class="maxh-8" %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h4>{{ section.footer.title }}</h4>
+      {{ section.footer.text | replace: "SITE.BASEURL", site.baseurl | markdownify }}
+    </div>
+  </div>
+</section>

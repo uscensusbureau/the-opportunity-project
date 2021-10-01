@@ -81,21 +81,30 @@ process:
     - title: Agencies Identify a Challenge
       subtitle: Government and community organizations identify pressing, public-facing issues
       icons:
-        - gov
-        - public
+        - src: Gov
+          alt: Drawing of a federal building 
+        - src: User-Advocate
+          alt: Drawing of a person raising their hand
     - title: Agencies Recruit Participants
       subtitle: Government agencies recruit technologists, community leaders, and data experts to participate in a challenge
       icons:
-        - public      
-        - tech
-        - tech
-        - tech
+        - src: User-Advocate
+          alt: Drawing of a person raising their hand   
+        - src: Tech-Team
+          alt: Drawing of a person working at a computer
+        - src: Tech-Team
+          alt: Drawing of a person working at a computer
+        - src: Tech-Team
+          alt: Drawing of a person working at a computer
     - title: Tech Teams Build Products
       subtitle: Tech teams create products and tools based on community feedback. User research and exploration are important steps during this process
       icons:
-        - data      
-        - tech
-        - public
+        - src: Data      
+          alt: Drawing of connected squares showing data
+        - src: Tech-Team
+          alt: Drawing of a person working at a computer
+        - src: User-Advocate
+          alt: Drawing of a person raising their hand 
   footer:
     title: What is your role as an agency?
     text: "Agencies who've run TOP before may be fully equipped to run the TOP process by themselves using our [DIY toolkit](SITE.BASEURL/topx-toolkit/introduction). If this is your first time participating in TOP, our team is here to provide all the support and guidance needed to run a successful sprint. Facilitating a sprint typically requires about 10 hours of work for 12 weeks.

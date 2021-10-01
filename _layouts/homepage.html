@@ -47,37 +47,7 @@ layout: default
   </div>
 </section>
 
-{% assign section = page.process %}
-<section class="usa-section bg-white">
-  <div class="grid-container">
-    <h2 id="{{section.title | slugify }}">
-      {{ section.title }}
-    </h2>
-    <div class="usa-accordion" aria-multiselectable="true">
-      {% for item in section.data %}
-        <h3 class="usa-accordion__heading">
-          <button
-            class="usa-accordion__button text-normal"
-            aria-expanded="false"
-            aria-controls="{{ item.title | slugify }}"
-          >
-            <strong>{{ forloop.index }}</strong>
-            <span class="margin-left-4">
-              {% include markdown_strip_ptags.html data = item.title %}
-            </span>
-          </button>
-        </h3>
-        <div id="{{ item.title | slugify }}" class="usa-accordion__content usa-prose">
-          {{ item.subtitle | markdownify }}
-        </div>
-      {% endfor %}
-    </div>
-    <div>
-      <h4>{{ section.footer.title }}</h4>
-      {{ section.footer.text | replace: "SITE.BASEURL", site.baseurl | markdownify }}
-    </div>
-  </div>
-</section>
+{% include home/homepage-process.html data = page.process %}
 
 {% assign section = page.vision %}
 <section class="usa-section usa-section--dark bg-base-darkest">

@@ -29,17 +29,17 @@
             {% if link.accordion %}
               {% assign itemName = link.text | remove: " " %}
               <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-ls-2 text-light text-white" 
+                <button class="usa-accordion__button usa-nav__link  usa-current font-sans-xs text-ls-2 text-light text-white" 
                   aria-expanded="false" 
                   aria-controls="extended-nav-section-{{itemName}}">
-                  <span>{{ link.text | upcase}}</span></button>
+                  <span>{{ link.text }}</span></button>
                 <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu" hidden>
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
                       {% if subnav.accordion %}
                         <
                       {% else %}
-                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-sans-xs text-white">{{ subnav.text }}</a>
                       {% endif %}
                     </li>
                   {% endfor %}
@@ -47,13 +47,13 @@
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+                <a class="usa-nav__link font-sans-xs text-ls-2 text-light text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
               </li>
             {% endif %}
           {% endfor %}
         </ul>
       </nav>
-      <a class="get-involved btn-link__primary-red site-cta" href="{{site.baseurl}}/get-involved">Get&nbsp;Involved</a>
+      <a class="get-involved usa-button usa-button--secondary usa-button--big site-cta bg-secondary" href="{{site.baseurl}}/get-involved">Get&nbsp;Involved</a>
     </div>
 
   </div>

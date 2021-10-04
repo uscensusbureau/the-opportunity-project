@@ -35,7 +35,7 @@ layout: default
     class="usa-search usa-search--small margin-top-2 desktop:width-tablet">
     <label class="usa-sr-only" for="search-field">Search all TOP products</label>
     <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search all products">
-    <button class="btn-link__primary-dark" type="submit">
+    <button class="usa-button bg-primary-darkest" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
   </form>
@@ -52,7 +52,10 @@ layout: default
         {% include product-filter.html label="Partner Agency" data=site.data.product-filters.agencies z=300 %}
   
         <div class="display-inline-block margin-top-2">
-          <button class="btn-link__secondary-red padding-1 margin-top-0 border-0" id="reset-filter">
+          <button 
+            class="site-button usa-button usa-button--secondary padding-1 margin-top-0 border-0" 
+            id="reset-filter"
+          >
             Reset Filter <span aria-hidden="true">&#127335;</span>
           </button>
         </div>
@@ -148,7 +151,7 @@ layout: default
             </div>
           </div>
           <div class="usa-card__footer text-center">
-            <a class="btn-link__primary-red modal-link product-link" 
+            <a class="site-button usa-button usa-button--secondary modal-link product-link" 
             href="{{ product.link }}" target="_blank">Go to Product</a>
           </div>
           

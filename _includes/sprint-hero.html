@@ -22,7 +22,7 @@
               {% assign translationPage = site.sprints | where: "short-name", translationSprint.short-tag | first %}
               <div class="tablet-lg:grid-col-4 display-flex tablet-lg:flex-justify-end flex-row flex-align-center">
                 <a 
-                  class="btn-link btn-link__primary-red  btn-link--small margin-top-0"
+                  class="usa-button usa-button--secondary site-button"
                   id="translate-button"
                   href="{{site.baseurl}}{{ translationPage.url }}"
                 >
@@ -43,9 +43,9 @@
               <p class="margin-y-0">
                 {{ site.data.messages.sprints.hero-callout-text[page.lang] | markdownify | remove: "<p>" | remove: "</p>"" }}
               </p>
-              <p class="text-center margin-y-0">
+              <p class="text-center margin-bottom-0">
                 <a href="{{ site.contacts.census-form }}" 
-                class="btn-link btn-link__primary-red btn-link--small">
+                class="usa-button usa-button--secondary site-button">
                 {{ site.data.messages.sprints.hero-callout-button[page.lang] }}
               </a>
               </p>

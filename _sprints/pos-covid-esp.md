@@ -2,7 +2,7 @@
 short-name: pos-covid-esp
 order: -1
 expandAllProblemStatements: true
-isCurrent: false
+isCurrent: true
 showPDF: true
 lang: esp
 ---

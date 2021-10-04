@@ -732,98 +732,6 @@ main {
   }
 }
 
-.btn-link {
-  display: inline-block;
-  @include u-margin-top(3);
-  border: none;
-  text-transform: uppercase;
-  padding: units(2) units(5);
-  font-family: font-family("mono");
-  font-size: font-size("mono", "3xs");
-  background-color: color("primary");
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-  &__primary {
-    @extend .btn-link;
-    border: none;
-    color: color("white");
-    &:hover, &:visited {
-      color: color('white');
-    }
-
-    &-red {
-      @extend .btn-link__primary;
-      background-color: color("secondary");
-    }
-    &-dark {
-      @extend .btn-link__primary;
-      background-color: color("base-darkest");
-    }
-    &-white {
-      @extend .btn-link__primary;
-      background-color: color('white');
-      color: color('primary') !important
-    }
-  }
-
-  &__secondary {
-    @extend .btn-link;
-    border: 1px solid;
-    background-color: color("transparent");
-    @include u-color('primary');
-    &:hover, &:visited {
-      color: color('primary');
-    }
-
-    &-gray {
-      @extend .btn-link__secondary;
-      border-color: color('base');
-      color: color("base");
-      &:hover, &:visited {
-        color: color('base');
-      }
-    }
-
-    &-white {
-      @extend .btn-link__secondary;
-      border-color: color("white");
-      color: color("white");
-      &:hover, &:visited {
-        color: color('white');
-      }
-    }
-
-    &-dark {
-      @extend .btn-link__secondary;
-      border-color: color("base-darkest");
-      color: color("base-darkest");
-      &:visited {
-        color: color('base-darkest');
-      }&:hover {
-        color: color('base');
-      }
-    }
-
-    &-red {
-      @extend .btn-link__secondary;
-      color: color("secondary");
-      &:hover {
-        color: color("base")
-      }
-    }
-  }
-
-  &--small {
-    @extend .btn-link;
-    padding: units(1) units(2);
-  }
-}
-
 .border-stars {
   margin-top: units(-7);
   margin-bottom: units(7);
@@ -2884,8 +2792,16 @@ code {
 }
 
 .product-filter__button {
-  @include u-padding-left(1, !important);
+  // @include u-padding-left(1, !important);
   @include u-margin-top(0);
+  @include u-border('1px', 'solid', 'black');
+  @include u-bg('transparent');
+  &:hover{
+    @include u-bg('base-lightest');
+  }
+  &:active {
+    @include u-bg('base-lighter');
+  }
 }
 
 .usa-accordion {
@@ -3595,13 +3511,6 @@ h6 + div:not(.usa-accordion__content) {
 }
 
 .site-header {
-  .usa-button {
-    background-color: color($site-primary-vivid);
-
-    &:hover {
-      background-color: color("blue-warm-60v");
-    }
-  }
 
   .usa-button--outline-inverse {
     background-color: transparent;

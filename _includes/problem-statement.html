@@ -56,7 +56,7 @@
       {% if page.showPDF and include.content.pdf %}
         <div class="ps-right-col-section ps-cta {{expandedClass}} text-center">
           {% assign pdfIndex = lookups.pdf[page.lang] %}
-          <a class="btn-link btn-link__secondary-red btn-link--small text-center ps-pdf" 
+          <a class="site-button usa-button usa-button--outline text-center ps-pdf" 
             href="{{ site.baseurl }}/assets/files/{{ include.content[pdfIndex] }}" download
           >
             {{ site.data.messages.problem-statement.pdf-download[page.lang] }}

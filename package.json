@@ -100,7 +100,7 @@
     "nswatch": "^0.2.0",
     "pa11y-ci": "^2.4.2",
     "simplecrawler": "^1.1.9",
-    "slugify": "^1.6.0",
+    "slugify": "^1.6.1",
     "standard": "^16.0.3",
     "write-yaml": "^1.0.0",
     "yamljs": "^0.3.0"

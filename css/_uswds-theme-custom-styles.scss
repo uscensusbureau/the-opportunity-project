@@ -4286,6 +4286,9 @@ $theme-table-column-gap: 4;
   @include u-text('normal');
   // @include u-padding-x(2);
   // @include u-padding-y(1);
+  &[class*=--big] {
+    @include u-font('sans', 'md');
+  }
 }
 
 .site-button-list {

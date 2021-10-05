@@ -58,6 +58,9 @@
   $duration: math.random() * 3s + 1s;
   .home-vision__row:nth-child(#{$row}) .home-vision__dot:nth-child(#{$col}) {
     animation: $duration ease-in $delay infinite fade-out-in;
+    @media (prefers-reduced-motion) {
+      animation: none;
+    }
   }
 }
 

@@ -6,7 +6,7 @@ layout: default
 
 <section class="usa-section bg-base-darkest">
   <div class="grid-container">
-    <div class="text-white">
+    <div class="text-white margin-bottom-5">
       <h2>{{ page.challenges.title}}</h2>
       {{ page.challenges.subtitle | markdownify }}
     </div>
@@ -22,7 +22,7 @@ layout: default
 </section>
 
 {% assign section = page.impact %}
-<section class="usa-section">
+<section class="usa-section bg-white">
   <div class="grid-container">
     <h2 id="{{section.title | slugify }}">
       {{ section.title }}

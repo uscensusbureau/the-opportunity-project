@@ -127,7 +127,9 @@ General colors
 */
 
 // Links
-$theme-link-color:             'primary';
-$theme-link-visited-color:     'violet-70v';
-$theme-link-hover-color:       'primary-dark';
-$theme-link-active-color:      'primary-darker';
+$theme-link-color:              'primary';
+$theme-link-visited-color:      'violet-70v';
+$theme-link-hover-color:        'primary-dark';
+$theme-link-active-color:       'primary-darker';
+$theme-link-reverse-color:      'primary-lighter';
+$theme-link-reverse-hover-color:'primary-lightest';

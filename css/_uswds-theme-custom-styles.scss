@@ -2408,12 +2408,10 @@ code {
   color: color("white");
   padding: units(6);
   border: solid 1px rgba(255, 255, 255, 0.8);
-  @include white-links;
   &--secondary {
     @include u-padding(6);
     @include u-color('black');
     border: 1px solid black;
-    // @include dark-links;
   }
 }
 

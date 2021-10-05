@@ -51,13 +51,17 @@
 }
 
 // ANIMATE THE DOTS
-@for $i from 1 through 20 {
+@for $i from 1 through 26 {
   $row: math.random(6);
   $col: math.random(6);
   $delay: math.random() * 1s;
   $duration: math.random() * 3s + 1s;
+  $anim-name: fade-out-in;
+  @if math.random() > 0.5 {
+    $anim-name: fade-out-in--long;
+  }
   .home-vision__row:nth-child(#{$row}) .home-vision__dot:nth-child(#{$col}) {
-    animation: $duration ease-in $delay infinite fade-out-in;
+    animation: $duration ease-in $delay infinite $anim-name;
     @media (prefers-reduced-motion) {
       animation: none;
     }
@@ -91,6 +95,35 @@
     opacity: 0;
   }
   40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-out-in--long {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out-in--long {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
     opacity: 1;
   }
   100% {

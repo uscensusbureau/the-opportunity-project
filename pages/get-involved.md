@@ -32,6 +32,7 @@ join:
 
 callout:
   id: prize-challenge
+  container-class: maxw-desktop
   title: 
     text: Win Funding to Scale Your Technology
   body: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) is now live. The challenge will award at least $100,000 to teams who have created products using The Opportunity Project process.

@@ -4206,7 +4206,7 @@ $theme-table-column-gap: 4;
     @include u-font('sans', 'md');
   }
 }
-.usa-section--dark {
+.usa-section--dark, .usa-dark-background {
   .usa-button:not(.usa-button--accent-cool):not(.usa-button--accent-warm):not(.usa-button--outline) {
     @include u-color('white');
   }

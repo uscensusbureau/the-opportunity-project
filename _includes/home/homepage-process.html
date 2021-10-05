@@ -22,7 +22,7 @@
           {{ item.subtitle | markdownify }}
           <div class="grid-row grid-gap">
             {% for icon in item.icons %}
-              {% assign src = "icons/homepage-process/Icon_" | append: icon.src %}
+              {% assign src = "icons/homepage-process/Icon_" | append: icon.src | append: ".png" %}
               {% assign alt = icon.alt %}
               {% include image.html src=src alt=alt class="maxh-8" %}
             {% endfor %}

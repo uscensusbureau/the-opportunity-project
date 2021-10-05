@@ -113,7 +113,7 @@ process:
     [Contact Us](https://www.census.gov/forms/contact-top.html) to learn more about how TOP can work at your agency.
 
 
-    Learn more about the [TOP process](SITE.BASEURL/process)."
+    Learn more about the [TOP process](SITE.BASEURL/our-process)."
 
 vision:
   title: Our Vision

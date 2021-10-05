@@ -116,6 +116,17 @@ h1, h2, h3 {
   scroll-margin-top: 7rem;
 }
 
+.bg-white {
+  h1, h2, h3 {
+    @include u-color('base-darkest');
+  }
+}
+.usa-dark-background, .usa-section--dark {
+  h2, h2, h3 {
+    @include u-color('white');
+  }
+}
+
 // ========================================
 // 2. Site layout
 // ----------------------------------------
@@ -4284,8 +4295,11 @@ $theme-table-column-gap: 4;
 .site-button {
   @include u-radius('pill');
   @include u-text('normal');
-  // @include u-padding-x(2);
-  // @include u-padding-y(1);
+}
+.usa-section--dark {
+  .usa-button:not(.usa-button--accent-cool):not(.usa-button--accent-warm):not(.usa-button--outline){
+    @include u-color('white');
+  }
 }
 
 .site-button-list {
@@ -4436,11 +4450,6 @@ $theme-table-column-gap: 4;
 
 .usa-content-list {
   max-width: measure($site-measure);
-}
-
-.site-button {
-  @include typeset("lang", null, 1);
-  font-weight: fw("normal");
 }
 
 .site-table,

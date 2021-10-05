@@ -1,8 +1,7 @@
 {% assign items = include.data %}
 <div class="usa-section--white bg-white radius-md text-ink padding-4">
   <div class="padding-bottom-4 border-bottom-1px">
-    <form id="challenge-widget__form">
-      <fieldset class="usa-fieldset display-flex flex-align-center">
+      <fieldset id="challenge-widget__form" class="usa-fieldset display-flex flex-align-center">
         <legend class="usa-legend">Select an agency</legend>
         {% for item in items %}
           <div class="usa-radio site-radio {%unless forloop.first %}margin-left-2{% endunless %}">
@@ -23,7 +22,6 @@
           See all challenges
         </a>
       </fieldset>
-    </form>
   </div>
   <div>
     {% for item in items %}

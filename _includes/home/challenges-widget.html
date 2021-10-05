@@ -1,26 +1,33 @@
 {% assign items = include.data %}
 <div class="usa-section--white bg-white radius-md text-ink padding-4">
   <div class="padding-bottom-4 border-bottom-1px">
-      <fieldset id="challenge-widget__form" class="usa-fieldset display-flex flex-align-center">
+      <fieldset 
+        id="challenge-widget__form" 
+        class="usa-fieldset"
+      >
         <legend class="usa-legend">Select an agency</legend>
-        {% for item in items %}
-          <div class="usa-radio site-radio {%unless forloop.first %}margin-left-2{% endunless %}">
-            <input 
-              class="usa-radio__input usa-radio__input--tile"
-              id="{{ item.agency | slugify }}__input"
-              type="radio"
-              name="challenge-widget"
-              value="{{ item.agency | slugify}}"
-              {% if forloop.first %}checked{% endif %}
-            />
-            <label class="usa-radio__label" for="{{ item.agency | slugify}}__input">
-              {{ item.agency }}
-            </label>
+        <div class="grid-row grid-gap flex-align-center">
+          {% for item in items %}
+            <div class="grid-col-4 tablet:grid-col-2">
+              <div class="usa-radio site-radio">
+                <input 
+                  class="usa-radio__input usa-radio__input--tile"
+                  id="{{ item.agency | slugify }}__input"
+                  type="radio"
+                  name="challenge-widget"
+                  value="{{ item.agency | slugify}}"
+                  {% if forloop.first %}checked{% endif %}
+                />
+                <label class="text-center padding-x-2 usa-radio__label" for="{{ item.agency | slugify}}__input">
+                  {{ item.agency }}
+                </label>
+              </div>
           </div>
-        {% endfor %}
-        <a class="usa-link margin-left-4" href="{{site.baseurl}}/sprints">
-          See all challenges
-        </a>
+          {% endfor %}
+          <a class="usa-link grid-col-6 margin-top-2 tablet:margin-top-0" href="{{site.baseurl}}/sprints">
+            See all challenges
+          </a>
+        </div>
       </fieldset>
   </div>
   <div>

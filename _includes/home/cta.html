@@ -12,7 +12,7 @@
   {% if data.secondary %}
     {% assign link = data.secondary %}
     <a 
-      class="usa-link site-cta"
+      class="usa-link site-cta margin-left-2"
       href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
       {{ link.text }}
     </a>

@@ -31,9 +31,24 @@ join:
   right-col: get-involved/in-the-loop-right.md
 
 callout:
-  text: Win Funding to Scale Your Technology
   id: prize-challenge
-  markdownSrc: prize-callout.md
+  title: 
+    text: Win Funding to Scale Your Technology
+  body: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) is now live. The challenge will award at least $100,000 to teams who have created products using The Opportunity Project process.
+
+
+To prepare your submission and view the application timeline, visit the [prize challenge page]({{site.baseurl}}/prize-challenge). The TOP Team is leading informational webinars throughout the summer and fall to help you get ready.
+
+
+Submissions are open from September 13, 2021 – October 18, 2021.'
+  primary:
+    text: View the rules
+    href: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
+    isExternal: true
+  secondary: 
+    text: View the timeline
+    href: SITE.BASEURL/prize-challenge/
+  # markdownSrc: prize-callout.md
 
 ---
 {% include hero.html %}
@@ -47,7 +62,7 @@ callout:
 {% endcapture %}
 {% include two-column-markdown.html content=page.content-light left-col=left-col%}
 
-{% include text-callout-centered.html content=page.callout %}
+{% include home/cta.html data=page.callout %}
 
 {% capture left-join %}
   {% include image.html src="photos/get-involved/arrow.jpg" alt="Illustration of an arrow pointing to the right over a navy blue field" %}

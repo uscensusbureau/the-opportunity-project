@@ -1,20 +1,29 @@
 {% assign data = include.data %}
-<h3>{{ data.title }}</h3>
-<p>
-  {% if data.primary %}
-    {% assign link = data.primary %}
-    <a 
-      class="usa-button usa-button--secondary site-button site-cta"
-      href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
-      {{ link.text }}
-    </a>
-  {% endif %}
-  {% if data.secondary %}
-    {% assign link = data.secondary %}
-    <a 
-      class="usa-link site-cta margin-left-2"
-      href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
-      {{ link.text }}
-    </a>
-  {% endif %}
-</p>
+<section class="usa-section bg-primary usa-section--dark">
+  <div class="grid-container">
+    <h2 {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>
+      {{ data.title.text }}
+    </h2>
+    {% if data.body %}
+      {{ data.body | markdownify }}
+    {% endif %}
+    <p>
+      {% if data.primary %}
+        {% assign link = data.primary %}
+        <a 
+          class="usa-button usa-button--secondary site-button site-cta"
+          href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+          {{ link.text }}
+        </a>
+      {% endif %}
+      {% if data.secondary %}
+        {% assign link = data.secondary %}
+        <a 
+          class="usa-link site-cta margin-left-2"
+          href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+          {{ link.text }}
+        </a>
+      {% endif %}
+    </p>
+  </div>
+</section>

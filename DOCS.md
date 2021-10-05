@@ -69,7 +69,6 @@ Then, in the main section of the file, reference the components you want to incl
 "{% include announcement-banner.html %}
 {% include hero.html %}
 {% include circuit-banner.html %}
-{% include text-callout-centered.html %}
 {% include connecting-banner.html %}
 {% include two-column-wide-text.html %}
 {% include three-column-narrow-text.html %}

@@ -47,7 +47,9 @@ challenges:
 
 cta-sections:
   - 
-    title: Ready to solve your agency's biggest challenge?
+    title: 
+      text: Ready to solve your agency's biggest challenge?
+      class: font-sans-sm
     primary:
       text: Get in Touch
       href: https://www.census.gov/forms/contact-top.html
@@ -56,7 +58,9 @@ cta-sections:
       text: Learn more about the TOP process
       href: /our-process
   - 
-    title: Ready to solve your agency's biggest challenge?
+    title: 
+      text: Ready to solve your agency's biggest challenge?
+      class: font-sans-sm
     primary:
       text: Get in Touch
       href: https://www.census.gov/forms/contact-top.html

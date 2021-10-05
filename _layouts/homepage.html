@@ -15,11 +15,7 @@ layout: default
 </section>
 
 {% assign section = page.cta-sections[0] %}
-<section class="usa-section bg-primary usa-section--dark">
-  <div class="grid-container">
-    {% include home/cta.html data=section %}
-  </div>
-</section>
+{% include home/cta.html data=section %}
 
 {% assign section = page.impact %}
 <section class="usa-section bg-white">
@@ -72,8 +68,4 @@ layout: default
 </section>
 
 {% assign section = page.cta-sections[1] %}
-<section class="usa-section bg-primary usa-section--dark">
-  <div class="grid-container">
-    {% include home/cta.html data=section %}
-  </div>
-</section>
+{% include home/cta.html data=section %}

@@ -11,6 +11,7 @@
   @include u-width(4);
   @include u-height(4);
   @include u-margin('1px');
+  @include u-padding('1px');
 }
 
 .home-vision__row {

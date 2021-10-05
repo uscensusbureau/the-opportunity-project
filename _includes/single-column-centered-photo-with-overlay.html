@@ -23,7 +23,7 @@
           {% endif %}
           {% assign button = photo.overlay.button %}
           {% if button %}
-            <a class="btn-link__{{button.color}}" 
+            <a class="site-button usa-button usa-button--outline usa-button--inverse margin-top-2" 
               href="{% unless button.isExternal %}{{site.baseurl}}/{% endunless %}{{button.href}}">
               {{button.text}}
             </a>

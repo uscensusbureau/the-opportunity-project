@@ -1,3 +1,4 @@
+{% assign button-styles = "usa-button usa-button--outline usa-button--inverse site-button margin-top-2 site-cta" %}
 <section class="bg-base-darkest">
   {% for item in page.featured_items %}
   <section class="usa-section usa-graphic-list grid-container" aria-label="{{ item.name }} Section">
@@ -21,7 +22,12 @@
               <h2 class="font-sans-xl">{{ item.name}}</h2>
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
               <p>{{ item.description}}</p>
-              <a class="btn-link__secondary-white site-cta" href="{{ item.button-link }}">View Case Study</a>
+              <a 
+                class="{{ button-styles }}" 
+                href="{{ item.button-link }}"
+              >
+                View Case Study
+              </a>
             </div>
           </div>
         {% else %}
@@ -38,7 +44,12 @@
               <h2 class="font-sans-xl">{{ item.name}}</h2>
               <p class="font-mono-xs text-ls-2 text-light">{{ item.team | upcase }}</p>
               <p>{{ item.description}}</p>
-              <a href="{{ item.button-link }}" class="btn-link__secondary-white site-cta">View Case Study</a>
+              <a 
+                href="{{ item.button-link }}" 
+                class="{{ button-styles }}"
+              >
+                View Case Study
+              </a>
             </div>
           </div>
           <div class="desktop:grid-col-8 tablet:grid-col-6 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
@@ -53,7 +64,12 @@
     class="usa-media-block padding-top-11 padding-bottom-9 display-flex flex-column flex-align-center"
   >
     <div>
-      <a href="{{ site.baseurl }}/showcase" class="btn-link__primary-red">All Products</a>
+      <a 
+        href="{{ site.baseurl }}/showcase" 
+        class="usa-button usa-button--secondary usa-button--big site-button"
+      >
+        All Products
+      </a>
     </div>
   </div>
 </section>

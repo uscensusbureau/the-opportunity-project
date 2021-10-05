@@ -104,8 +104,8 @@ The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for t
 
 Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
 
-[View the rules]({{ page.challenge-gov }}){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
-{: .margin-top-0 }
+[View the rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
+{: .margin-top-4 }
 
 ### What Can You Win?
 {: .section-header .margin-top-6 }
@@ -124,9 +124,6 @@ We're looking for tools that fit into one of these categories:
 
 Submissions are open from September 13, 2021 – October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
-
-<!-- Before you submit your application, please review the submission checklist.
-[Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 } -->
 
 ### Timeline
 {: .margin-top-6 .margin-bottom-0 }

@@ -7,6 +7,6 @@ To prepare your submission and view the application timeline, visit the [prize c
 Submissions are open from September 13, 2021 – October 18, 2021.
 {: .margin-bottom-4 }
 
-[View the rules]({{ site.contacts.prize-challenge }}){: .margin-top-0 .btn-link .btn-link__primary-white }
-[View the timeline]({{site.baseurl}}/prize-challenge){: .margin-top-0 .btn-link .btn-link__secondary .margin-left-2 }
+[View the rules]({{ site.contacts.prize-challenge }}){: .margin-top-0 .site-button .usa-button .usa-button--big .usa-button--secondary }
+[View the timeline]({{site.baseurl}}/prize-challenge){: .usa-link .margin-left-2 }
 {: .text-center }

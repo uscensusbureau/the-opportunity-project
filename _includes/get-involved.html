@@ -33,7 +33,8 @@
           {% if href == "site.contacts.mailing-list" %}
             {% assign href = site.contacts.mailing-list %}
           {% endif %}
-          <a class="btn-link__{{ button.style | slugify }}" href="{{ href }}">{{ button.b }}</a>
+          {% assign button-styles = "usa-button site-button site-cta " | append: button.style %}
+          <a class="{{ button-styles }}" href="{{ href }}">{{ button.b }}</a>
           <br>
         {% endfor %}
       </div>
@@ -67,7 +68,9 @@
             <p>{{ text.description }}</p>
           {% endif %}
           {% if text.button %}
-            <a class="btn-link__{{ button.style | slugify }}" href="{{ button.link }}">{{ text.button }}</a>
+            {% assign button-styles = "usa-button site-button site-cta " | append: text.button.style %}
+
+            <a class="{{ button-styles }}" href="{{ button.link }}">{{ text.button }}</a>
             <br>
           {% endif %}
         </div>

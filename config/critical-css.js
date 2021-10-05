@@ -9,7 +9,7 @@ critical.generate({
   target: '_includes/critical.css',
   width: 1055,
   height: 480,
-  minify: true,
+  // minify: true,
   ignore: {
     atrule: ['@font-face'],
   },

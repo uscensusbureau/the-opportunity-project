@@ -1,18 +1,24 @@
 {% assign card=include.content %}
 {% assign teams=site.data.organizations | where: 'airtable_id', card.tech_team[0] %}
 {% assign team = teams[ 0 ] %}
+{% assign isInverse = include.isInverse %}
 
 <div 
   class="usa-card__container card-container ps-card {{ include.utils }}"
   style="background-image: url({{ site.baseurl}}/assets/img/photos/products/{{ card.image }});
           background-size: cover;">
   {% include 1px-transparent.html alt=card.image-alt %}
+  <!-- {{ card | inspect }} -->
   {% if card.link %}
   <a href="{{ card.link }}" class="product-link">
   {% endif %}
-    <div class="card-header">
-      <h3 class="text-sans-1 text-ls-1 text-primary-lighter {%if card.link%}text-underline{% endif %}">
+    <div class="card-header {%if isInverse %}bg-white{% endif %}">
+      <h3 class="text-sans-1 text-ls-1 {% unless isInverse %}{% if card.link %}text-primary-lighter{% endif %}{% endunless %} {%if card.link%}text-underline{% endif %}">
+        {% if isInverse %}
+          {{ card.tech_team_text }}
+        {% else %}  
           {{ card.title }}
+        {% endif %}
       </h3>
       {% if team['Company Name'] %}
         <p>{{ team['Company Name'] }}</p>

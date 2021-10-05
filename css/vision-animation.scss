@@ -51,19 +51,25 @@
 }
 
 // ANIMATE THE DOTS
-@for $i from 1 through 26 {
-  $row: math.random(6);
-  $col: math.random(6);
-  $delay: math.random() * 1s;
-  $duration: math.random() * 3s + 1s;
-  $anim-name: fade-out-in;
-  @if math.random() > 0.5 {
-    $anim-name: fade-out-in--long;
-  }
-  .home-vision__row:nth-child(#{$row}) .home-vision__dot:nth-child(#{$col}) {
-    animation: $duration ease-in $delay infinite $anim-name;
-    @media (prefers-reduced-motion) {
-      animation: none;
+@for $i from 1 through 36 {
+  $row: math.ceil(math.div($i, 6));
+  $col: ($i % 6) + 1;
+  $doAnimation: math.random() > 0.1;
+  @if $doAnimation {
+    $delay: math.random() * 1s;
+    $duration: math.random() * 3s + 1s;
+    $anim-name: fade-out-in;
+    @if math.random() > 0.33 {
+      $anim-name: fade-out-in--long;
+      @if math.random() > 0.67 {
+        $anim-name: fade-out-in--short;
+      }
+    }
+    .home-vision__row:nth-child(#{$row}) .home-vision__dot:nth-child(#{$col}) {
+      animation: $duration ease-in $delay infinite $anim-name;
+      @media (prefers-reduced-motion) {
+        animation: none;
+      }
     }
   }
 }
@@ -124,6 +130,35 @@
     opacity: 0;
   }
   60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-out-in--short {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out-in--short {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
     opacity: 1;
   }
   100% {

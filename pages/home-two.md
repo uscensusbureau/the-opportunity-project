@@ -21,7 +21,11 @@ challenges:
         - team: Public Democracy
         - team: Mastercard
         - team: Burning Glass
-      impact: As of 2021, xyz continues to address abc. Here's another impact statement that is really important. It shows how teams were able to build strong relationships and help the public.
+      impact: 
+        - Impact sentence number one
+        - Impact sentence number two
+        - Impact sentence number three
+        - Impact sentence number four
     - 
       agency: 'EPA'
       title: 'The [U.S. Environmental Protection Agency](#) worked to reduce plastic pollution in oceans.'
@@ -31,7 +35,11 @@ challenges:
         - team: Harvard University Institute of Politics
         - team: Georgetown University Beeck Center
         - team: Rutgers University Computer Science
-      impact: As of 2021, xyz continues to address abc. Here's another impact statement that is really important. It shows how teams were able to build strong relationships and help the public.
+      impact: 
+        - Impact sentence number one
+        - Impact sentence number two
+        - Impact sentence number three
+        - Impact sentence number four
     - 
       agency: 'FEMA + DHS'
       title: 'The [Federal Emergency Management Agency](#) and the [U.S. Department for Homeland Security](#) worked to use geospatial data to prepare the public for disasters.'
@@ -43,7 +51,11 @@ challenges:
           team: Geoslug- UC Santa Barbara, Motivf
         - title: Puerto Rico Land Grid
           team: Loveland Technologies
-      impact: Datel Ovela has continued its partnership with FEMA and is testing the use of this product for earthquake response in New York City and flooding in Miami.
+      impact: 
+        - Impact sentence number one
+        - Impact sentence number two
+        - Impact sentence number three
+        - Impact sentence number four
 
 cta-sections:
   - 

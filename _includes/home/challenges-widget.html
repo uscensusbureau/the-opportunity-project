@@ -8,16 +8,16 @@
       >
         <div class="grid-container grid-row padding-x-0">
           <div class="tablet:grid-col-6 padding-4">
-            <h3>
+            <h3 class="line-height-sans-5">
               {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
             </h3>
 
-            <h4 class="text-uppercase">Solutions Created</h4>
+            <h4 class="challenge-widget__subheader">Solutions Created</h4>
             {% for statement in item.impact %}
               {{ statement | markdownify }}
             {% endfor %}
 
-            <h4 class="text-uppercase">Products & Tech Teams</h4>
+            <h4 class="challenge-widget__subheader">Products & Tech Teams</h4>
             {% for productTeam in item.products %}
               {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
               {% if productTeam.title %}
@@ -39,7 +39,10 @@
             </p>
           </div>
           <div class="bg-primary grid-col-12 order-first tablet:grid-col-6 tablet:order-last">
-            THIS IS THE RIGHT HAND SIDE
+            {% assign problemStatement = site.data.problem_statements | where: "Name", item.problem-statement-name | first %}
+            {% assign imgSrc = problemStatement.image | default: "photos/sprints/2017-grants.png" %}
+            {% assign imgAlt = problemStatement.image-alt | default: "An archival photograph of a federal building with a streetcar in front" %}
+            {% include image.html src=imgSrc alt=imgAlt class="challenge-widget__image" %}
           </div>
         </div>
 

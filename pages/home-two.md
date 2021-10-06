@@ -15,7 +15,7 @@ challenges:
     - 
       agency: 'HUD + CEA'
       title: 'The [U.S. Department of Housing and Urban Development](#) and [White House Council of Economic Advisors](#) worked to catalyze investment in opportunity zones.'
-      subtitle: 'HUD worked with over 10 tech teams and user advocate organizations, resulting in 6 products to help Americans get jobs (sp).'
+      problem-statement-name: Opportunity Zones
       products:
         - team: Citi Ventures
         - team: Public Democracy
@@ -29,12 +29,12 @@ challenges:
     - 
       agency: 'EPA'
       title: 'The [U.S. Environmental Protection Agency](#) worked to reduce plastic pollution in oceans.'
-      subtitle: 'EPA worked with over 10 tech teams and user advocate organizations, such as XYZ.'
       products:
         - team: Esri
         - team: Harvard University Institute of Politics
         - team: Georgetown University Beeck Center
         - team: Rutgers University Computer Science
+      problem-statement-name: Ocean Plastics
       impact: 
         - Impact sentence number one
         - Impact sentence number two
@@ -43,7 +43,7 @@ challenges:
     - 
       agency: 'FEMA + DHS'
       title: 'The [Federal Emergency Management Agency](#) and the [U.S. Department for Homeland Security](#) worked to use geospatial data to prepare the public for disasters.'
-      subtitle: 'FEMA and DHS workd with over 10 tech teams and user advocate organizations, resulting in XYZ.'
+      problem-statement-name: Using Geospatial Data to Help People Prepare for Disasters
       products:
         - title: Sille
           team: Datel Ovela

@@ -974,8 +974,8 @@ main {
     @include u-border('2px', 'solid', 'white');
     @include u-bg('primary-darker');
     @include u-color('white');
-    @include u-width(5);
-    @include u-height(5);
+    @include u-width(4);
+    @include u-height(4);
     padding: .25rem .5rem;
     text-indent: 0;
     &::before {

@@ -34,15 +34,12 @@
             <p>
               <a class="usa-link" 
                 href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
-                Explore all products →
+                Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
               </a>
             </p>
           </div>
           <div class="radius-md bg-primary grid-col-12 order-first tablet:grid-col-5 tablet:order-last">
-            {% assign problemStatement = site.data.problem_statements | where: "Name", item.problem-statement-name | first %}
-            {% assign imgSrc = problemStatement.image | default: "photos/sprints/2017-grants.png" %}
-            {% assign imgAlt = problemStatement.image-alt | default: "An archival photograph of a federal building with a streetcar in front" %}
-            {% include image.html src=imgSrc alt=imgAlt class="challenge-widget__image" %}
+            {% include image.html src=item.image.src alt=item.image.alt class="challenge-widget__image" %}
           </div>
         </div>
 

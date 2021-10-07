@@ -25,10 +25,13 @@ challenges:
         - Storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
         - Tracking plastic pollution on college campuses and educating students on its impact
         - Increasing awareness and efficacy of beach cleanup events
+      image:
+        src: photos/home/widget/oceans.jpg
+        alt: Blue ocean waves crashing into a rocky coastline.
     - 
       agency: 'FEMA + DHS'
       title: 'FEMA and DHS Used Geospatial Data to Help People Prepare for Disasters'
-      problem-statement-name: Using Geospatial Data to Help People Prepare for Disasters
+      problem-statement-name: Disaster Preparedness
       impact: 
         - Assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
         - Gamifying emergency preparation for young adults 
@@ -40,6 +43,9 @@ challenges:
           team: Geoslug- UC Santa Barbara, Motivf
         - title: Sille
           team: Datel Ovela
+      image:
+        src: photos/home/widget/neighborhood.jpg
+        alt: A neighborhood grid of buildings and streets as seen from above.
     - 
       agency: 'HUD + CEA'
       title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
@@ -52,6 +58,9 @@ challenges:
         - team: Mastercard
         - team: Citi Ventures
         - team: Burning Glass
+      image:
+        src: photos/home/widget/hurricane.jpg
+        alt: Satellite image of a hurricane cloud over a coastline.
     
 cta-sections:
   - 

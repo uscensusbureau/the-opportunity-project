@@ -10,8 +10,8 @@
   @include u-bg('white');
   @include u-width(4);
   @include u-height(4);
-  @include u-margin('1px');
-  @include u-padding('1px');
+  @include u-margin('2px');
+  // @include u-padding('1px');
 }
 
 .home-vision__row {
@@ -74,7 +74,21 @@
  * animation fade-in
  * ----------------------------------------
  */
- @-webkit-keyframes fade-out-in {
+//  @-webkit-keyframes fade-out-in {
+//   0% {
+//     opacity: 1;
+//   }
+//   20% {
+//     opacity: 0;
+//   }
+//   40% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
+@-webkit-keyframes fade-out-in {
   0% {
     opacity: 1;
   }

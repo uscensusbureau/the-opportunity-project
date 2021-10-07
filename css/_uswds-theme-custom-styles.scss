@@ -954,17 +954,30 @@ main {
   }
 }
 
+ .challenge-widget__header{
+  @include u-line-height('sans', 5);
+  @include u-font('sans', 'lg');
+  @include u-border-bottom('1px');
+  @include u-margin-top(1);
+  @include u-padding-bottom(4);
+ }
+
 .challenge-widget__subheader {
   text-transform: uppercase;
+  @include u-color('base');
   @include u-margin-bottom(0);
   & + p {
     @include u-margin-top(0);
   }
 }
+.challenge-widget__content-section {
+  height: 13rem;
+}
 .challenge-widget__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  @include u-radius('md');
 }
 
 .site-radio {  

@@ -13,50 +13,46 @@ challenges:
   Explore how previous agencies have used TOP to address their challenges:'
   data:
     - 
-      agency: 'HUD + CEA'
-      title: 'The [U.S. Department of Housing and Urban Development](#) and [White House Council of Economic Advisors](#) worked to catalyze investment in opportunity zones.'
-      problem-statement-name: Opportunity Zones
+      agency: 'State Department'
+      title: 'The State Department Worked to Reduce Plastic Waste in Oceans'
       products:
-        - team: Citi Ventures
-        - team: Public Democracy
-        - team: Mastercard
-        - team: Burning Glass
-      impact: 
-        - Impact sentence number one
-        - Impact sentence number two
-        - Impact sentence number three
-        - Impact sentence number four
-    - 
-      agency: 'EPA'
-      title: 'The [U.S. Environmental Protection Agency](#) worked to reduce plastic pollution in oceans.'
-      products:
-        - team: Esri
-        - team: Harvard University Institute of Politics
         - team: Georgetown University Beeck Center
-        - team: Rutgers University Computer Science
+        - team: Harvard University Institute of Politics
+        - team: Esri
+        # - team: Rutgers University Computer Science
       problem-statement-name: Ocean Plastics
       impact: 
-        - Impact sentence number one
-        - Impact sentence number two
-        - Impact sentence number three
-        - Impact sentence number four
+        - Storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
+        - Tracking plastic pollution on college campuses and educating students on its impact
+        - Increasing awareness and efficacy of beach cleanup events
     - 
       agency: 'FEMA + DHS'
-      title: 'The [Federal Emergency Management Agency](#) and the [U.S. Department for Homeland Security](#) worked to use geospatial data to prepare the public for disasters.'
+      title: 'FEMA and DHS Used Geospatial Data to Help People Prepare for Disasters'
       problem-statement-name: Using Geospatial Data to Help People Prepare for Disasters
+      impact: 
+        - Assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
+        - Gamifying emergency preparation for young adults 
+        - Increasing stakeholder awareness of likely catastrophic structural failure in their areas
       products:
-        - title: Sille
-          team: Datel Ovela
-        - title: Disaster Awareness Games
-          team: Geoslug- UC Santa Barbara, Motivf
         - title: Puerto Rico Land Grid
           team: Loveland Technologies
+        - title: Disaster Awareness Games
+          team: Geoslug- UC Santa Barbara, Motivf
+        - title: Sille
+          team: Datel Ovela
+    - 
+      agency: 'HUD + CEA'
+      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
+      problem-statement-name: Opportunity Zones
       impact: 
-        - Impact sentence number one
-        - Impact sentence number two
-        - Impact sentence number three
-        - Impact sentence number four
-
+        - Bringing transparency to the Opportunity Zone ecosystem for public and private investment
+        - Ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
+        - Helping workforce and economic development conveners prioritize inclusive development in their regions
+      products:
+        - team: Mastercard
+        - team: Citi Ventures
+        - team: Burning Glass
+    
 cta-sections:
   - 
     title: 

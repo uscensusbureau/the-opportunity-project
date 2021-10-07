@@ -7,16 +7,17 @@
         class="challenge-widget__details {% unless forloop.first %}display-none{% endunless %}"
       >
         <div class="grid-container grid-row padding-x-0">
-          <div class="tablet:grid-col-6 padding-4">
-            <h3 class="line-height-sans-5">
+          <div class="tablet:grid-col-7 padding-4">
+            <h3 class="challenge-widget__header">
               {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
             </h3>
 
-            <h4 class="challenge-widget__subheader">Solutions Created</h4>
-            {% for statement in item.impact %}
-              {{ statement | markdownify }}
-            {% endfor %}
-
+            <div class="challenge-widget__content-section">
+              <h4 class="challenge-widget__subheader">Solutions Created</h4>
+              {% for statement in item.impact %}
+                {{ statement | markdownify }}
+              {% endfor %}
+            </div>
             <h4 class="challenge-widget__subheader">Products & Tech Teams</h4>
             {% for productTeam in item.products %}
               {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
@@ -27,7 +28,7 @@
                 <a class="usa-link" href="{{ product.link }}">
                   {{ product.title }}
                 </a>
-                by {{ product.tech_team_text }}
+                <br/>By {{ product.tech_team_text }}
               </p>
             {% endfor %}
             <p>
@@ -37,7 +38,7 @@
               </a>
             </p>
           </div>
-          <div class="bg-primary grid-col-12 order-first tablet:grid-col-6 tablet:order-last">
+          <div class="radius-md bg-primary grid-col-12 order-first tablet:grid-col-5 tablet:order-last">
             {% assign problemStatement = site.data.problem_statements | where: "Name", item.problem-statement-name | first %}
             {% assign imgSrc = problemStatement.image | default: "photos/sprints/2017-grants.png" %}
             {% assign imgAlt = problemStatement.image-alt | default: "An archival photograph of a federal building with a streetcar in front" %}

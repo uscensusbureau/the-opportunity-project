@@ -13,38 +13,55 @@ challenges:
   Explore how previous agencies have used TOP to address their challenges:'
   data:
     - 
-      agency: 'HUD + CEA'
-      title: 'The [U.S. Department of Housing and Urban Development](#) and [White House Council of Economic Advisors](#) worked to catalyze investment in opportunity zones.'
-      subtitle: 'HUD worked with over 10 tech teams and user advocate organizations, resulting in 6 products to help Americans get jobs (sp).'
+      agency: 'State Department'
+      title: 'The State Department Worked to Reduce Plastic Waste in Oceans'
       products:
-        - team: Citi Ventures
-        - team: Public Democracy
-        - team: Mastercard
-        - team: Burning Glass
-      impact: As of 2021, xyz continues to address abc. Here's another impact statement that is really important. It shows how teams were able to build strong relationships and help the public.
-    - 
-      agency: 'EPA'
-      title: 'The [U.S. Environmental Protection Agency](#) worked to reduce plastic pollution in oceans.'
-      subtitle: 'EPA worked with over 10 tech teams and user advocate organizations, such as XYZ.'
-      products:
-        - team: Esri
-        - team: Harvard University Institute of Politics
         - team: Georgetown University Beeck Center
-        - team: Rutgers University Computer Science
-      impact: As of 2021, xyz continues to address abc. Here's another impact statement that is really important. It shows how teams were able to build strong relationships and help the public.
+        - team: Harvard University Institute of Politics
+        - team: Esri
+        # - team: Rutgers University Computer Science
+      problem-statement-name: Ocean Plastics
+      impact: 
+        - Storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
+        - Tracking plastic pollution on college campuses and educating students on its impact
+        - Increasing awareness and efficacy of beach cleanup events
+      image:
+        src: photos/home/widget/oceans.jpg
+        alt: Blue ocean waves crashing into a rocky coastline.
     - 
       agency: 'FEMA + DHS'
-      title: 'The [Federal Emergency Management Agency](#) and the [U.S. Department for Homeland Security](#) worked to use geospatial data to prepare the public for disasters.'
-      subtitle: 'FEMA and DHS workd with over 10 tech teams and user advocate organizations, resulting in XYZ.'
+      title: 'FEMA and DHS Used Geospatial Data to Help People Prepare for Disasters'
+      problem-statement-name: Disaster Preparedness
+      impact: 
+        - Assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
+        - Gamifying emergency preparation for young adults 
+        - Increasing stakeholder awareness of likely catastrophic structural failure in their areas
       products:
-        - title: Sille
-          team: Datel Ovela
-        - title: Disaster Awareness Games
-          team: Geoslug- UC Santa Barbara, Motivf
         - title: Puerto Rico Land Grid
           team: Loveland Technologies
-      impact: Datel Ovela has continued its partnership with FEMA and is testing the use of this product for earthquake response in New York City and flooding in Miami.
-
+        - title: Disaster Awareness Games
+          team: Geoslug- UC Santa Barbara, Motivf
+        - title: Sille
+          team: Datel Ovela
+      image:
+        src: photos/home/widget/neighborhood.jpg
+        alt: A neighborhood grid of buildings and streets as seen from above.
+    - 
+      agency: 'HUD + CEA'
+      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
+      problem-statement-name: Opportunity Zones
+      impact: 
+        - Bringing transparency to the Opportunity Zone ecosystem for public and private investment
+        - Ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
+        - Helping workforce and economic development conveners prioritize inclusive development in their regions
+      products:
+        - team: Mastercard
+        - team: Citi Ventures
+        - team: Burning Glass
+      image:
+        src: photos/home/widget/hurricane.jpg
+        alt: Satellite image of a hurricane cloud over a coastline.
+    
 cta-sections:
   - 
     title: 

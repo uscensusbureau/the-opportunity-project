@@ -2254,7 +2254,7 @@
   datasets_text: 2020 Census Apportionment Results, 2020 Decennial Census P.L. 94-171
     Redistricting Data, American Community Survey, COVID-19 Small Business Pulse Survey,
     COVID-19 Household Pulse Survey, Quarterly Workforce Indicators, Housing Vacancies
-    and Homeownership, Economic Census , County Business Patterns, Buesiness Formation
+    and Homeownership, Economic Census , County Business Patterns, Business Formation
     Statistics, Annual Business Survey, Nonemployer Statistics, Census Tract Maps,
     Community Resilience Estimates, "TIGER Shapefiles, U.S. Census Bureau", TIGERweb,
     Geocoder, American Housing Survey, Annual Survey of School System Finances
@@ -2746,7 +2746,7 @@
     leaders gain a better understanding of national and community hazards and threats
     and enable the public to take appropriate preparedness actions.
   Full Title: Using Geospatial Data to Help People Prepare for Disasters
-  Name: Using Geospatial Data to Help People Prepare for Disasters
+  Name: Disaster Preparedness
   Products:
   - rec5dPCVzV3SHuZDS
   - reciAHM7OE2uo9JTi

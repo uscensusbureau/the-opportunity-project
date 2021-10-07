@@ -5,7 +5,9 @@
       {{ data.title.text }}
     </h2>
     {% if data.body %}
-      {{ data.body | markdownify }}
+      <div class="margin-bottom-4">
+        {{ data.body | replace: "SITE.BASEURL", site.baseurl | markdownify }}
+      </div>
     {% endif %}
     <p>
       {% if data.primary %}

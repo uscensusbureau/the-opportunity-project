@@ -1,66 +1,77 @@
 {% assign items = include.data %}
-<div class="usa-section--white bg-white radius-md text-ink padding-4">
-  <div class="padding-bottom-4 border-bottom-1px">
-      <fieldset 
-        id="challenge-widget__form" 
-        class="usa-fieldset"
-      >
-        <legend class="usa-legend">Select an agency</legend>
-        <div class="grid-row grid-gap flex-align-center">
-          {% for item in items %}
-            <div class="grid-col-4 tablet:grid-col-2">
-              <div class="usa-radio site-radio">
-                <input 
-                  class="usa-radio__input usa-radio__input--tile"
-                  id="{{ item.agency | slugify }}__input"
-                  type="radio"
-                  name="challenge-widget"
-                  value="{{ item.agency | slugify}}"
-                  {% if forloop.first %}checked{% endif %}
-                />
-                <label class="text-center padding-x-2 usa-radio__label" for="{{ item.agency | slugify}}__input">
-                  {{ item.agency }}
-                </label>
-              </div>
-          </div>
-          {% endfor %}
-          <a class="usa-link grid-col-6 margin-top-2 tablet:margin-top-0" href="{{site.baseurl}}/sprints">
-            See all challenges
-          </a>
-        </div>
-      </fieldset>
-  </div>
+<div class="usa-section--white bg-white radius-md text-ink">
   <div>
     {% for item in items %}
-      <div 
-        id="{{ item.agency | slugify }}" 
+      <div
+        id="{{ item.agency | slugify }}"
         class="challenge-widget__details {% unless forloop.first %}display-none{% endunless %}"
       >
-        <p class="font-sans-md">
-          {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
-        </p>
-        <p>
-          {{ item.subtitle }}
-        </p>
-        <div class="grid-row grid-gap">
-          {% for productTeam in item.products %}
-            {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
-            {% if productTeam.title %}
-              {% assign product = site.data.products | where: "title", productTeam.title | first %}
-            {% endif %}
-            <div
-              class="tablet:grid-col-3 
-                usa-media-block__background-image-portrait 
-                margin-bottom-3"
-            >
-              {% include cards/problem-statement-prod-card.html content=product utils="small-header-card" isInverse = true %}
+        <div class="grid-container grid-row padding-x-0">
+          <div class="tablet:grid-col-7 padding-4">
+            <h3 class="challenge-widget__header">
+              {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
+            </h3>
+
+            <div class="challenge-widget__content-section">
+              <h4 class="challenge-widget__subheader">Solutions Created</h4>
+              {% for statement in item.impact %}
+                {{ statement | markdownify }}
+              {% endfor %}
             </div>
-          {% endfor %}
+            <h4 class="challenge-widget__subheader">Products & Tech Teams</h4>
+            {% for productTeam in item.products %}
+              {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
+              {% if productTeam.title %}
+                {% assign product = site.data.products | where: "title", productTeam.title | first %}
+              {% endif %}
+              <p>
+                <a class="usa-link" href="{{ product.link }}">
+                  {{ product.title }}
+                </a>
+                <br/>By {{ product.tech_team_text }}
+              </p>
+            {% endfor %}
+            <p>
+              <a class="usa-link" 
+                href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
+                Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
+              </a>
+            </p>
+          </div>
+          <div class="radius-md bg-primary grid-col-12 order-first tablet:grid-col-5 tablet:order-last">
+            {% include image.html src=item.image.src alt=item.image.alt class="challenge-widget__image" %}
+          </div>
         </div>
-        <p>
-          {{ item.impact }}
-        </p>
+
       </div>
     {% endfor %}
   </div>
+</div>
+
+<div class="padding-bottom-4">
+  <fieldset
+    id="challenge-widget__form"
+    class="usa-fieldset"
+  >
+    <legend class="usa-legend">Select an agency</legend>
+    <div class="grid-row grid-gap flex-align-center flex-justify-center">
+      {% for item in items %}
+        <div class="">
+          <div class="usa-radio site-radio">
+            <input
+              class="usa-radio__input usa-radio__input--tile"
+              id="{{ item.agency | slugify }}__input"
+              type="radio"
+              name="challenge-widget"
+              value="{{ item.agency | slugify}}"
+              {% if forloop.first %}checked{% endif %}
+            />
+            <label class="text-center usa-radio__label" for="{{ item.agency | slugify}}__input">
+              <span class="usa-sr-only">{{ item.agency }}</span>
+            </label>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+  </fieldset>
 </div>

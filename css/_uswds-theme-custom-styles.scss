@@ -985,7 +985,7 @@ main {
   [class$=__label] {
     @include u-radius('pill');
     @include u-border('2px', 'solid', 'white');
-    @include u-bg('primary-darker');
+    @include u-bg('base-darker');
     @include u-color('white');
     @include u-width(4);
     @include u-height(4);

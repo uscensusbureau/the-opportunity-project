@@ -971,7 +971,7 @@ main {
   }
 }
 .challenge-widget__content-section {
-  height: 13rem;
+  @include u-height('card-lg');
 }
 .challenge-widget__image {
   width: 100%;

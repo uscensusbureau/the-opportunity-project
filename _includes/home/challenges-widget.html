@@ -7,7 +7,7 @@
         class="challenge-widget__details {% unless forloop.first %}display-none{% endunless %}"
       >
         <div class="grid-container grid-row padding-x-0">
-          <div class="tablet:grid-col-7 padding-4">
+          <div class="tablet:grid-col-6 padding-4">
             <h3 class="challenge-widget__header">
               {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
             </h3>
@@ -38,7 +38,7 @@
               </a>
             </p>
           </div>
-          <div class="radius-md bg-primary grid-col-12 order-first tablet:grid-col-5 tablet:order-last">
+          <div class="radius-md bg-primary grid-col-12 order-first tablet:grid-col-6 tablet:order-last">
             {% include image.html src=item.image.src alt=item.image.alt class="challenge-widget__image" %}
           </div>
         </div>

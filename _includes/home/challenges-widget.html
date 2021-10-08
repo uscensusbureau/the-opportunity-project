@@ -11,33 +11,35 @@
             <h3 class="challenge-widget__header">
               {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
             </h3>
-
-            <div class="challenge-widget__content-section">
-              <h4 class="challenge-widget__subheader">Solutions Created</h4>
-              {% for statement in item.impact %}
-                {{ statement | markdownify }}
-              {% endfor %}
-            </div>
-            <div class="challenge-widget__content-section">
-              <h4 class="challenge-widget__subheader">Products & Tech Teams</h4>
-              {% for productTeam in item.products %}
-                {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
-                {% if productTeam.title %}
-                  {% assign product = site.data.products | where: "title", productTeam.title | first %}
-                {% endif %}
-                <p>
-                  <a class="usa-link" href="{{ product.link }}">
-                    {{ product.title }}
+            <div>
+              <div class="challenge-widget__content-section">
+                <h4 class="challenge-widget__subheader">Solutions Included</h4>
+                {% for productTeam in item.products %}
+                  {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
+                  {% if productTeam.title %}
+                    {% assign product = site.data.products | where: "title", productTeam.title | first %}
+                  {% endif %}
+                  <p>
+                    <a class="usa-link" href="{{ product.link }}">
+                      {{ product.title }}
+                    </a>
+                    , {{ product.tech_team_text }}:
+                    {{ productTeam.text }}
+                  </p>
+                {% endfor %}
+                <!-- <p>
+                  <a class="usa-link" 
+                    href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
+                    Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
                   </a>
-                  <br/>By {{ product.tech_team_text }}
-                </p>
-              {% endfor %}
-              <p>
-                <a class="usa-link" 
-                  href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
-                  Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
-                </a>
-              </p>
+                </p> -->
+              </div>
+              <div class="challenge-widget__content-section">
+                <h4 class="challenge-widget__subheader">Lasting Impact</h4>
+                {% for statement in item.impact %}
+                  {{ statement | markdownify }}
+                {% endfor %}
+              </div>
             </div>
           </div>
           <div class="challenge-widget__image-container challenge-widget__column">

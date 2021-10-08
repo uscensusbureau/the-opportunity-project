@@ -16,8 +16,32 @@ layout: default
   </div>
 </section>
 
-{% assign section = page.cta-sections[0] %}
+{% assign section = page.cta-one %}
 {% include home/cta.html data=section %}
+
+{% include home/homepage-process.html data = page.process %}
+
+{% assign section = page.vision %}
+<section class="usa-section usa-section--dark bg-base-darkest">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-7">
+        <h2 id="{{ section.title | slugify }}">
+          {{ section.title }}
+        </h2>
+        <p class="font-sans-lg">
+          {% include markdown_strip_ptags.html data = section.subtitle %}
+        </p>
+        <p class="font-sans-3xs">
+          {% include markdown_strip_ptags.html data = section.footer %}
+        </p>
+      </div>
+      <div class="display-none grid-col-5 tablet:display-block">
+        {% include home/vision-animation.html %}
+      </div>
+    </div>
+  </div>
+</section>
 
 {% assign section = page.impact %}
 <section class="usa-section bg-white">
@@ -45,29 +69,6 @@ layout: default
   </div>
 </section>
 
-{% include home/homepage-process.html data = page.process %}
 
-{% assign section = page.vision %}
-<section class="usa-section usa-section--dark bg-base-darkest">
-  <div class="grid-container">
-    <div class="grid-row">
-      <div class="tablet:grid-col-7">
-        <h2 id="{{ section.title | slugify }}">
-          {{ section.title }}
-        </h2>
-        <p class="font-sans-lg">
-          {% include markdown_strip_ptags.html data = section.subtitle %}
-        </p>
-        <p class="font-sans-3xs">
-          {% include markdown_strip_ptags.html data = section.footer %}
-        </p>
-      </div>
-      <div class="display-none grid-col-5 tablet:display-block">
-        {% include home/vision-animation.html %}
-      </div>
-    </div>
-  </div>
-</section>
-
-{% assign section = page.cta-sections[1] %}
+{% assign section = page.cta-two %}
 {% include home/cta.html data=section %}

@@ -1040,7 +1040,15 @@ main {
 
 .challenge-widget__content-section {
   @include u-line-height('sans', 6);
+  &:first-child {
+    @include u-margin-bottom(4);
+  }
+  // &:last-child {
+  //   position: absolute;
+  //   bottom: units(4);
+  // }
 }
+
 .challenge-widget__image-container {
   @include u-radius('md');
   @include u-bg('primary-darker');

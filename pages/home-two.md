@@ -16,13 +16,15 @@ challenges:
       agency: 'State Department & The Wilson Center'
       title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
       products:
-        - team: Georgetown University Beeck Center
-        - team: Harvard University Institute of Politics
         - team: Esri
-        # - team: Rutgers University Computer Science
-      problem-statement-name: Ocean Plastics
+          text: storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
+        - team: Georgetown University Beeck Center
+          text:  tracking plastic pollution on college campuses and educating students on its impact 
+        - team: Harvard University Institute of Politics
+          text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
       impact: 
         - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus.
+      problem-statement-name: Ocean Plastics
       image:
         src: photos/home/widget/oceans.jpg
         alt: Blue ocean waves crashing into a rocky coastline.
@@ -30,15 +32,18 @@ challenges:
       agency: 'FEMA'
       title: 'FEMA Used Geospatial Data to Help People Prepare for Disasters'
       problem-statement-name: Disaster Preparedness
-      impact: 
-        - The Sille product team fostered ongoing partnerships with FEMA, as well as with Puerto Rican and NYC governments.
       products:
         - title: Puerto Rico Land Grid
           team: Loveland Technologies
+          text: assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
         - title: Disaster Awareness Games
           team: Geoslug- UC Santa Barbara, Motivf
+          text: gamifying emergency preparation for young adults
         - title: Sille
           team: Datel Ovela
+          text: increasing stakeholder awareness of likely catastrophic structural failure in their areas
+      impact: 
+        - The Sille product team fostered ongoing partnerships with FEMA, as well as with Puerto Rican and NYC governments.
       image:
         src: photos/home/widget/neighborhood.jpg
         alt: A neighborhood grid of buildings and streets as seen from above.
@@ -49,30 +54,24 @@ challenges:
       impact: 
         - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product -- adding datasets and features.
       products:
-        - team: Mastercard
         - team: Citi Ventures
+          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
+        - team: Mastercard
+          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
         - team: Burning Glass
+          text: helping workforce and economic development conveners prioritize inclusive development in their regions
       image:
         src: photos/home/widget/hurricane.jpg
         alt: Satellite image of a hurricane cloud over a coastline.
     
-cta-sections:
-  - 
-    title: 
-      text: Ready to solve the nation's biggest challenge?
-      class: font-sans-sm text-normal
-    primary:
-      text: Get in Touch
-      href: https://www.census.gov/forms/contact-top.html
-      isExternal: true
-  - 
-    title: 
-      text: Ready to make an impact?
-      class: font-sans-sm text-normal
-    primary:
-      text: Get in Touch
-      href: https://www.census.gov/forms/contact-top.html
-      isExternal: true
+cta-one:
+  title: 
+    text: Ready to solve the nation's biggest challenge?
+    class: font-sans-sm text-normal
+  primary:
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
 
 impact:
   title: Our Impact
@@ -97,18 +96,30 @@ process:
     - title: Agencies Guide Tech Teams to Build Digital Products
       subtitle: Tech teams create products and tools based on community feedback. User research and exploration are important steps during this process. Tech teams include industry start-ups, technologists from outside the government, and university students.
   footer:
-    title: What is your role as an agency?
-    text: "Agencies who've run TOP before may be fully equipped to run the TOP process by themselves using our [DIY toolkit](SITE.BASEURL/topx-toolkit/introduction). If this is your first time participating in TOP, our team is here to provide all the support and guidance needed to run a successful sprint. Facilitating a sprint typically requires about 10 hours of work for 12 weeks.
+    intro: 'Learn more about the [TOP process](SITE.BASEURL/our-process).'
+    title: How to Get Started
+    text: "We can help your organization identify the next steps to facilitate a successful TOP sprint.
 
+If your agency is interested in using the TOP framework to address national challenges, please [complete this form](https://www.census.gov/forms/contact-top.html) to get started. A member of the [Census Open Innovation Labs (COIL)](https://coil.census.gov/) team will be in touch within one week.
 
-    [Contact Us](https://www.census.gov/forms/contact-top.html) to learn more about how TOP can work at your agency.
-
-
-    Learn more about the [TOP process](SITE.BASEURL/our-process)."
+Ready to get started?"
+  cta: 
+    text: GET IN TOUCH
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
 
 vision:
   title: Our Vision
   subtitle: We envision a future in which every federal agency uses the TOP model. We're empowering you with the tools you need to lead open innovation.
+
+cta-two:
+    title: 
+      text: Ready to make an impact?
+      class: font-sans-sm text-normal
+    primary:
+      text: Get in Touch
+      href: https://www.census.gov/forms/contact-top.html
+      isExternal: true
         
 ---
 

@@ -24,8 +24,17 @@
       {% endfor %}
     </div>
     <div>
+      {{ section.footer.intro | replace: "SITE.BASEURL", site.baseurl | markdownify }}
       <h4>{{ section.footer.title }}</h4>
       {{ section.footer.text | replace: "SITE.BASEURL", site.baseurl | markdownify }}
+      <p>
+        {% assign link = section.cta %}
+        <a 
+          class="usa-button usa-button--secondary site-button site-cta"
+          href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+          {{ link.text }}
+        </a>
+      </p>
     </div>
   </div>
 </section>

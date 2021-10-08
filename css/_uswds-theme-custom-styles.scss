@@ -1028,11 +1028,32 @@ main {
 .challenge-widget__content-section {
   @include u-height('card-lg');
 }
+.challenge-widget__image-container {
+  @include u-radius('md');
+  @include u-bg('primary-darker');
+  @include grid-col(12);
+  @include u-order('first');
+  
+  @include at-media-max('tablet') {
+    @include u-height('card');
+  }
+
+  @include at-media('tablet') {
+    @include grid-col(6);
+    @include u-order('last');
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
 .challenge-widget__image {
-  width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
   @include u-radius('md');
+  @include at-media('tablet') {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 }
 
 .site-radio {  

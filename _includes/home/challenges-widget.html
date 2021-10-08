@@ -12,31 +12,33 @@
               {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
             </h3>
 
-            <div class="challenge-widget__content-section">
+            <div class="challenge-widget__content-section height-card-lg">
               <h4 class="challenge-widget__subheader">Solutions Created</h4>
               {% for statement in item.impact %}
                 {{ statement | markdownify }}
               {% endfor %}
             </div>
-            <h4 class="challenge-widget__subheader">Products & Tech Teams</h4>
-            {% for productTeam in item.products %}
-              {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
-              {% if productTeam.title %}
-                {% assign product = site.data.products | where: "title", productTeam.title | first %}
-              {% endif %}
+            <div class="challenge-widget__content-section">
+              <h4 class="challenge-widget__subheader">Products & Tech Teams</h4>
+              {% for productTeam in item.products %}
+                {% assign product = site.data.products | where: "tech_team_text", productTeam.team | first %}
+                {% if productTeam.title %}
+                  {% assign product = site.data.products | where: "title", productTeam.title | first %}
+                {% endif %}
+                <p>
+                  <a class="usa-link" href="{{ product.link }}">
+                    {{ product.title }}
+                  </a>
+                  <br/>By {{ product.tech_team_text }}
+                </p>
+              {% endfor %}
               <p>
-                <a class="usa-link" href="{{ product.link }}">
-                  {{ product.title }}
+                <a class="usa-link" 
+                  href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
+                  Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
                 </a>
-                <br/>By {{ product.tech_team_text }}
               </p>
-            {% endfor %}
-            <p>
-              <a class="usa-link" 
-                href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
-                Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
-              </a>
-            </p>
+            </div>
           </div>
           <div class="challenge-widget__image-container">
             {% include image.html src=item.image.src alt=item.image.alt class="challenge-widget__image" %}

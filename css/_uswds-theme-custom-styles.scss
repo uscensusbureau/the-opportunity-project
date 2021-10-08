@@ -249,6 +249,7 @@ h1, h2, h3 {
 
   .usa-menu-btn {
     font-size: fs("lang", "3xs");
+    width: initial;
   }
 }
 
@@ -1009,16 +1010,17 @@ main {
   }
 }
 
- .challenge-widget__header{
+.challenge-widget__header{
   @include u-line-height('sans', 5);
   @include u-font('sans', 'lg');
   @include u-border-bottom('1px');
   @include u-margin-top(1);
-  @include u-padding-bottom(4);
- }
+  @include u-padding-bottom(3);
+}
 
 .challenge-widget__subheader {
   text-transform: uppercase;
+  @include u-text('normal');
   @include u-color('base');
   @include u-margin-bottom(0);
   & + p {
@@ -1026,7 +1028,7 @@ main {
   }
 }
 .challenge-widget__content-section {
-  @include u-height('card-lg');
+  @include u-line-height('sans', 6);
 }
 .challenge-widget__image-container {
   @include u-radius('md');

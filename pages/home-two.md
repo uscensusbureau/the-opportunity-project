@@ -66,7 +66,7 @@ cta-sections:
   - 
     title: 
       text: Ready to solve your agency's biggest challenge?
-      class: font-sans-sm
+      class: font-sans-sm text-normal
     primary:
       text: Get in Touch
       href: https://www.census.gov/forms/contact-top.html
@@ -77,7 +77,7 @@ cta-sections:
   - 
     title: 
       text: Ready to solve your agency's biggest challenge?
-      class: font-sans-sm
+      class: font-sans-sm text-normal
     primary:
       text: Get in Touch
       href: https://www.census.gov/forms/contact-top.html

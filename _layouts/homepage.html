@@ -8,7 +8,9 @@ layout: default
   <div class="grid-container">
     <div class="text-white margin-bottom-5">
       <h2>{{ page.challenges.title}}</h2>
-      {{ page.challenges.subtitle | markdownify }}
+      <div class="font-sans-lg">
+        {{ page.challenges.subtitle | markdownify }}
+      </div>
     </div>
     {% include home/challenges-widget.html data = page.challenges.data %}
   </div>

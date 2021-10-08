@@ -146,11 +146,9 @@ h1, h2, h3 {
 
 .site-header {
   background-color: color("base-darkest");
-  @include u-border-bottom('primary', 0.5);
   @include typeset("lang");
+  
   @include at-media("desktop") {
-    @include u-border-color('secondary');
-
     .buttons {
       .usa-button {
         position: relative;
@@ -252,10 +250,6 @@ h1, h2, h3 {
   .usa-menu-btn {
     font-size: fs("lang", "3xs");
   }
-}
-
-.site-header {
-  
 }
 
 .navbar__search {

@@ -146,9 +146,21 @@ h1, h2, h3 {
 
 .site-header {
   background-color: color("base-darkest");
-
+  @include u-border-bottom('primary', 0.5);
+  @include typeset("lang");
   @include at-media("desktop") {
-    border-bottom: none;
+    @include u-border-color('secondary');
+
+    .buttons {
+      .usa-button {
+        position: relative;
+        bottom: units(-2px);
+      }
+      .site-button-standards {
+        box-shadow: inset 0 0 0 2px color("gold-30v");
+        color: color("gold-30v");
+      }
+    }
   }
 
   .site-logo {
@@ -195,6 +207,55 @@ h1, h2, h3 {
       @include u-margin-y(0);
     }
   }
+
+  .usa-button--outline-inverse {
+    background-color: transparent;
+    margin-right: 0;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .navbar--container {
+    @include at-media("desktop") {
+      align-items: center;
+      display: flex;
+      // padding-right: units(3);
+      height: units(10);
+      margin-top: -1px;
+      margin-bottom: -4px;
+    }
+
+    .usa-button {
+      display: none;
+
+      @include at-media("desktop") {
+        display: initial;
+      }
+    }
+
+    .usa-accordion__button {
+      &[aria-expanded="false"] {
+        @include add-background-svg("angle-arrow-down-white");
+        &:hover {
+          @include add-background-svg("angle-arrow-down-primary");
+        }
+      }
+      &[aria-expanded="true"] {
+        &:hover {
+          @include add-background-svg("angle-arrow-up-primary");
+        }
+      }
+    }
+  }
+
+  .usa-menu-btn {
+    font-size: fs("lang", "3xs");
+  }
+}
+
+.site-header {
+  
 }
 
 .navbar__search {
@@ -3549,50 +3610,7 @@ h6 + div:not(.usa-accordion__content) {
   }
 }
 
-.site-header {
 
-  .usa-button--outline-inverse {
-    background-color: transparent;
-    margin-right: 0;
-
-    &:hover {
-      background-color: transparent;
-    }
-  }
-
-  .navbar--container {
-    @include at-media("desktop") {
-      align-items: center;
-      display: flex;
-      // padding-right: units(3);
-      height: units(10);
-      margin-top: -1px;
-      margin-bottom: -4px;
-    }
-
-    .usa-button {
-      display: none;
-
-      @include at-media("desktop") {
-        display: initial;
-      }
-    }
-
-    .usa-accordion__button {
-      &[aria-expanded="false"] {
-        @include add-background-svg("angle-arrow-down-white");
-        &:hover {
-          @include add-background-svg("angle-arrow-down-primary");
-        }
-      }
-      &[aria-expanded="true"] {
-        &:hover {
-          @include add-background-svg("angle-arrow-up-primary");
-        }
-      }
-    }
-  }
-}
 
 .site-docs-card-link {
   border-top: units("05") solid color($site-base-transparent-light);
@@ -4248,14 +4266,6 @@ $theme-table-column-gap: 4;
   }
 }
 
-.site-header {
-  @include typeset("lang");
-
-  .usa-menu-btn {
-    font-size: fs("lang", "3xs");
-  }
-}
-
 .site-nav {
   @include typeset("lang");
 
@@ -4580,18 +4590,6 @@ body {
     .text {
       @include add-sr-only;
     }
-  }
-}
-
-@include at-media("desktop") {
-  .site-header .buttons .usa-button {
-    position: relative;
-    bottom: units(-2px);
-  }
-
-  .site-header .buttons .site-button-standards {
-    box-shadow: inset 0 0 0 2px color("gold-30v");
-    color: color("gold-30v");
   }
 }
 

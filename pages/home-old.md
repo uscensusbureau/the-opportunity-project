@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /home-old
 title: "The Opportunity Project"
 #class and layout determines page structure. Do not edit except for major updates!
 layout: default

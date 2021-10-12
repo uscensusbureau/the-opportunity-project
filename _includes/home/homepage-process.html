@@ -12,10 +12,10 @@
             aria-expanded="false"
             aria-controls="{{ item.title | slugify }}"
           >
-            <strong>{{ forloop.index }}</strong>
-            <span class="margin-left-4">
-              {% include markdown_strip_ptags.html data = item.title %}
-            </span>
+            <div class="homepage-process__button-text">
+              <strong>{{ forloop.index }}</strong>
+              <span class="margin-left-4">{{ item.title }}</span>
+            </div>
           </button>
         </h3>
         <div id="{{ item.title | slugify }}" class="usa-accordion__content">

@@ -17,11 +17,14 @@ challenges:
       agency: 'State Department & The Wilson Center'
       title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
       products:
-        - team: Esri
+        - title: Ocean Plastics Story Map
+          # team: Esri
           text: storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
-        - team: Georgetown University Beeck Center
+        - title: Georgetown University Campus Plastic Initiative
+          # team: Georgetown University Beeck Center
           text:  tracking plastic pollution on college campuses and educating students on its impact 
-        - team: Harvard University Institute of Politics
+        - title: The Ghost Gear Project
+          # team: Harvard University Institute of Politics
           text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
       impact: 
         - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus.
@@ -35,13 +38,11 @@ challenges:
       problem-statement-name: Disaster Preparedness
       products:
         - title: Puerto Rico Land Grid
-          team: Loveland Technologies
           text: assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
         - title: Disaster Awareness Games
-          team: Geoslug- UC Santa Barbara, Motivf
+          team-text: University of California Santa Barbara
           text: gamifying emergency preparation for young adults
         - title: Sille
-          team: Datel Ovela
           text: increasing stakeholders' awareness of likely catastrophic structural failure in their areas
       impact: 
         - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments.
@@ -55,11 +56,11 @@ challenges:
       impact: 
         - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features.
       products:
-        - team: Citi Ventures
+        - title: City Builder
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
-        - team: Mastercard
+        - title: Inclusive Growth Score
           text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
-        - team: Burning Glass
+        - title: Inclusive Development Dashboards
           text: helping workforce and economic development conveners to prioritize inclusive development in their regions
       image:
         src: photos/home/widget/neighborhood.jpg

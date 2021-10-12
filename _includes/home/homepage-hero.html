@@ -1,6 +1,11 @@
 <section class="usa-section bg-white position-relative">
-  <div class="grid-container">
-    <h1 class="font-sans-3xl position-relative z-100">{{ include.data.title }}</h1>
+  <div class="grid-container padding-y-15">
+    <div>
+      <h1 class="font-sans-3xl position-relative z-100">{{ include.data.title }}</h1>
+      <p>
+        {% include markdown_strip_ptags.html data=include.data.subtitle %}
+      </p>
+    </div>
     <div id="homepage-hero__dots">
       {% for i in (1..7) %}
         <div class="homepage-hero__dot"></div>

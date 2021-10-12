@@ -20,7 +20,7 @@
                     {% assign product = site.data.products | where: "title", productTeam.title | first %}
                   {% endif %}
                   <p>
-                    <a class="usa-link" href="{{ product.link }}">
+                    <a class="usa-link" href="{{ product.link }}" target="_blank">
                       {{ product.title }}</a>, 
                     {{ product.tech_team_text }}:
                     {{ productTeam.text }}

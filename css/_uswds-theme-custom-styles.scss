@@ -250,7 +250,6 @@ h1, h2, h3 {
   .usa-menu-btn {
     font-size: fs("lang", "3xs");
     width: initial;
-    height: 100%;
   }
 }
 
@@ -298,6 +297,14 @@ h1, h2, h3 {
 
 .site-header-navbar {
   border-bottom: color("base-light");
+  &--bordered {
+    @include u-border-bottom('05');
+    @include u-border-color('primary');
+    align-items: baseline;
+    @include at-media('desktop'){
+      @include u-border-color('secondary');
+    }
+  }
 
   @include at-media("desktop") {
     height: units(10);

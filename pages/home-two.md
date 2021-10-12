@@ -41,9 +41,9 @@ challenges:
           text: gamifying emergency preparation for young adults
         - title: Sille
           team: Datel Ovela
-          text: increasing stakeholder awareness of likely catastrophic structural failure in their areas
+          text: increasing stakeholders' awareness of likely catastrophic structural failure in their areas
       impact: 
-        - The Sille product team fostered ongoing partnerships with FEMA, as well as with Puerto Rican and NYC governments.
+        - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments.
       image:
         src: photos/home/widget/neighborhood.jpg
         alt: A neighborhood grid of buildings and streets as seen from above.
@@ -52,21 +52,21 @@ challenges:
       title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
       problem-statement-name: Opportunity Zones
       impact: 
-        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product -- adding datasets and features.
+        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features.
       products:
         - team: Citi Ventures
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
         - team: Mastercard
           text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
         - team: Burning Glass
-          text: helping workforce and economic development conveners prioritize inclusive development in their regions
+          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
       image:
         src: photos/home/widget/hurricane.jpg
         alt: Satellite image of a hurricane cloud over a coastline.
     
 cta-one:
   title: 
-    text: Ready to solve the nation's biggest challenge?
+    text: Ready to solve the nation's biggest challenges?
     class: font-sans-sm text-normal
   primary:
     text: Get in Touch
@@ -77,9 +77,9 @@ impact:
   title: Our Impact
   data:
     - title: '**40+** National Challenges'
-      subtitle: addressed including ocean plastic pollution, COVID-19 economic recovery, disaster response, [and more](SITE.BASEURL/sprints)
+      subtitle: addressed, including ocean plastic pollution, COVID-19 economic recovery, disaster response, [and more](SITE.BASEURL/sprints)
     - title: '**135+** Public-Facing Digital Products'
-      subtitle: launched since [2016](SITE.BASEURL/showcase) through TOP's 12 week technology development sprints
+      subtitle: launched [since 2016](SITE.BASEURL/showcase) through TOP's 12-week technology development sprints
     - title: '**1300+** Alumni'
       subtitle: participated in TOP sprints, including developers, designers, community leaders, data & policy experts, students, and government agencies
 

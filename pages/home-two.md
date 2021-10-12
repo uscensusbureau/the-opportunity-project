@@ -104,7 +104,7 @@ If your agency is interested in using the TOP framework to address national chal
 
 Ready to get started?"
   cta: 
-    text: GET IN TOUCH
+    text: Get in Touch
     href: https://www.census.gov/forms/contact-top.html
     isExternal: true
 

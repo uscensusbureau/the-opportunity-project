@@ -21,18 +21,11 @@
                   {% endif %}
                   <p>
                     <a class="usa-link" href="{{ product.link }}">
-                      {{ product.title }}
-                    </a>
-                    , {{ product.tech_team_text }}:
+                      {{ product.title }}</a>, 
+                    {{ product.tech_team_text }}:
                     {{ productTeam.text }}
                   </p>
                 {% endfor %}
-                <!-- <p>
-                  <a class="usa-link" 
-                    href="{{site.baseurl}}/showcase/?search={{ item.problem-statement-name | slugify }}">
-                    Explore all {{ item.problem-statement-name | downcase }} products&nbsp;&rarr;
-                  </a>
-                </p> -->
               </div>
               <div class="challenge-widget__content-section">
                 <h4 class="challenge-widget__subheader">Lasting Impact</h4>
@@ -57,7 +50,7 @@
     id="challenge-widget__form"
     class="usa-fieldset"
   >
-    <legend class="usa-legend">Select an agency</legend>
+    <legend class="usa-legend"><span class="usa-sr-only">Select an agency</span></legend>
     <div class="grid-row grid-gap flex-align-center flex-justify-center">
       {% for item in items %}
         <div class="">

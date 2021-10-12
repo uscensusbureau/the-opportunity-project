@@ -1011,7 +1011,6 @@ main {
 }
 
 .challenge-widget {
-  // bg-white radius-md text-ink
   @include u-bg('white');
   @include u-radius('md');
   @include u-text('ink');
@@ -1021,7 +1020,7 @@ main {
   @include u-line-height('sans', 5);
   @include u-font('sans', 'lg');
   @include u-border-bottom('1px');
-  @include u-margin-top(1);
+  @include u-margin-top(0);
   @include u-padding-bottom(3);
 }
 
@@ -1035,7 +1034,9 @@ main {
   }
 }
 .challenge-widget__column {
-  @include u-maxh('tablet');
+  @include at-media('desktop') {
+    @include u-maxh('tablet');
+  }
 }
 
 .challenge-widget__content-section {
@@ -1043,10 +1044,6 @@ main {
   &:first-child {
     @include u-margin-bottom(4);
   }
-  // &:last-child {
-  //   position: absolute;
-  //   bottom: units(4);
-  // }
 }
 
 .challenge-widget__image-container {

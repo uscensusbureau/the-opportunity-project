@@ -18,7 +18,7 @@
             </span>
           </button>
         </h3>
-        <div id="{{ item.title | slugify }}" class="usa-accordion__content usa-prose">
+        <div id="{{ item.title | slugify }}" class="usa-accordion__content">
           {{ item.subtitle | markdownify }}
         </div>
       {% endfor %}

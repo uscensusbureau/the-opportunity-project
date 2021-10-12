@@ -45,8 +45,8 @@ challenges:
       impact: 
         - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments.
       image:
-        src: photos/home/widget/neighborhood.jpg
-        alt: A neighborhood grid of buildings and streets as seen from above.
+        src: photos/home/widget/hurricane.jpg
+        alt: Satellite image of a hurricane cloud over a coastline.
     - 
       agency: 'HUD & The White House'
       title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
@@ -61,8 +61,8 @@ challenges:
         - team: Burning Glass
           text: helping workforce and economic development conveners to prioritize inclusive development in their regions
       image:
-        src: photos/home/widget/hurricane.jpg
-        alt: Satellite image of a hurricane cloud over a coastline.
+        src: photos/home/widget/neighborhood.jpg
+        alt: A neighborhood grid of buildings and streets as seen from above.
     
 cta-one:
   title: 

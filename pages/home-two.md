@@ -5,7 +5,7 @@ layout: homepage
 
 hero:
   title: Use government data to build digital tools with, by, and for the people.
-  subtitle: The Opportunity Project is a program of the [Census Open Innovation Labs](https://coil.census.gov/) at the U.S. Census Bureau
+  subtitle: The Opportunity Project is a program of the [Census Open Innovation Labs](https://coil.census.gov/) at the U.S. Census Bureau.
 
 challenges:
   title: Use TOP at Your Agency to Solve The Nation's Toughest Challenges

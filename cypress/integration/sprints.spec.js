@@ -169,14 +169,16 @@ describe('Translation tests', () => {
     cy.get('.sprint-hero-header').contains('El Mundo')
   })
 
-  it('shows Spanish translation of Sprint-specific content on Spanish page', () => {
+  it.only('shows Spanish translation of Sprint-specific content on Spanish page', () => {
     cy.visit('/sprints/pos-covid-esp')
     
     cy.get('.interior-hero p').contains('Obtenga información')
-    cy.get('.sprint-hero__callout').contains('Actualmente estamos')
-    cy.get('.sprint-hero__callout .site-button').contains('PARTICIPE EN EL SPRINT', { matchCase: false})
-    cy.get('h2:last-of-type').contains('¿Desea participar en este sprint')
-    cy.get('h2:last-of-type+.site-button').contains('HAGA CLIC AQUÍ PARA COMENZAR EL PROCESO', { matchCase: false })
+    if (sprints[2].isCurrent) {
+      cy.get('.sprint-hero__callout').contains('Actualmente estamos')
+      cy.get('.sprint-hero__callout .btn-link').contains('PARTICIPE EN EL SPRINT', { matchCase: false})
+      cy.get('h2:last-of-type').contains('¿Desea participar en este sprint')
+      cy.get('h2:last-of-type+.btn-link').contains('HAGA CLIC AQUÍ PARA COMENZAR EL PROCESO', { matchCase: false })
+    }
 
     cy.get('.problem-statement').each($ps => {
       cy.wrap($ps)

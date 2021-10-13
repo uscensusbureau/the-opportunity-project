@@ -1,0 +1,49 @@
+{% assign kit = include.data %}
+{% assign kit-id = kit.title | slugify %}
+{% assign kit-href = site.baseurl | append: kit.url %}
+
+{% capture titleText %}
+  {% assign titleString = kit.title %}
+  {% if kit.title == "Decennial Data" %}
+    {% assign titleString = 'Decennial <span aria-hidden=true>Data</span>' %}
+  {% endif %}
+  {{ titleString }}<span class="usa-sr-only"> Datasets</span>
+{% endcapture %}
+
+<li class="usa-card tablet:grid-col-6 desktop:grid-col-4 data-kit__card {% unless kit.upcoming %}data-kit__active{% endunless %}">
+  <div 
+    class="usa-card__container"
+    style="background-image: url('{{ kit.image | relative_url }}')">
+    
+    {% if kit.upcoming %}
+      <h2 class="z-200 text-no-underline" id="{{kit-id}}">{{ titleText }}</h2>
+    {% else %}
+      <h2 class="z-200" id="{{kit-id}}"><a href="{{ kit-href }}">{{ titleText }}</a></h2>
+    {% endif %}
+    {% include 1px-transparent.html alt=kit.image-alt %}
+    <p class="z-200">{{kit.lead}}</p>
+    {% comment %}
+    {% unless kit.upcoming %}
+      <img class="data-kit__arrow" src="{{site.baseurl}}/assets/img/icons/right-arrow.svg" alt="Right Arrow" />
+    {% endunless %}
+    {% endcomment %}
+
+    {% if kit.upcoming %}
+      <div class="data-kit__upcoming">
+        Coming Soon
+      </div>
+    {% else %}
+      <div class="data-kit__stats">
+        <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt=""role="img" alt="" aria-hidden="true"/>
+        {% assign sprint = site.data.sprints | where: "Name", kit.sprint-name | first %}
+        {% assign data = site.data.datasets | where: "sprint", sprint.airtable_id %}
+        {% if kit.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
+          {% assign data = site.data.treasury_datasets %}
+        {% endif %}
+        {% assign data = data | where_exp: "item", "item.link != empty and item.link != nil" %}
+        {% assign data = data | where_exp: "item", "item.hideFromSite != true" %}
+        <p class="text-ink">{{ data | size }}<span class="usa-sr-only"> datasets</span></p>
+      </div>
+    {% endif %}
+  </div>
+</li>

@@ -8,8 +8,8 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: Win Funding to Scale Your Technology
-  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding more than $210,000 to teams using The Opportunity Project process.'
+  text: 'Win Funding to Scale Your Technology<br/>Awarding $310,000 in prizes'
+  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
   top:
@@ -55,7 +55,7 @@ about:
   right-col-offset: 1
   skip-top-border: true
   skip-bottom-border: true
-  left-col: prize-challenge/circle-logo.md
+  left-col: circle-logo.md
   right:
     - body: '*In 2019, we launched The Opportunity Project Prize Challenge. The Census Bureau’s first ever prize competition, it awarded $100,000 in funding across 5 teams.*'
     - title: Why the 2019 Prize was Launched
@@ -72,7 +72,7 @@ judging:
   grid-gap-lg: true
   skip-top-border: true
   skip-bottom-border: true
-  left-col: prize-challenge/graphs-with-text.md
+  left-col: graphs-with-text.md
   right: 
     - body: Products in our first competition were scored for their creativity, user-friendliness, and potential for civic impact by panels of product, data, and policy specialists from private industry and government.
 

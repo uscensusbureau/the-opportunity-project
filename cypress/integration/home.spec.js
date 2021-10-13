@@ -1,4 +1,4 @@
-const url = '/home-two'
+const url = '/'
 
 describe('widget tests', () => {
   
@@ -53,11 +53,11 @@ describe('widget tests', () => {
     checkVisibleDetailsSection(3)
   })
 
-  it('navigates to sprints page after clicking See All Challenges link', () => {
-    cy.contains('See all')
-      .click()
+  // it('navigates to sprints page after clicking See All Challenges link', () => {
+  //   cy.contains('See all')
+  //     .click()
 
-    cy.location('pathname')
-      .should('contain', '/sprints')
-  })
+  //   cy.location('pathname')
+  //     .should('contain', '/sprints')
+  // })
 })

@@ -51,21 +51,19 @@
     <legend class="usa-legend"><span class="usa-sr-only">Select an agency</span></legend>
     <div class="grid-row grid-gap flex-align-center flex-justify-center">
       {% for item in items %}
-        <div class="">
-          <div class="usa-radio site-radio">
-            <input
-              class="usa-radio__input usa-radio__input--tile"
-              id="{{ item.agency | slugify }}__input"
-              type="radio"
-              name="challenge-widget"
-              value="{{ item.agency | slugify}}"
-              {% if forloop.first %}checked{% endif %}
-            />
-            <label class="text-center usa-radio__label" for="{{ item.agency | slugify}}__input">
-              <span class="usa-sr-only">{{ item.agency }}</span>
-            </label>
-          </div>
-      </div>
+        <div class="usa-radio site-radio">
+          <input
+            class="usa-radio__input usa-radio__input--tile"
+            id="{{ item.agency | slugify }}__input"
+            type="radio"
+            name="challenge-widget"
+            value="{{ item.agency | slugify}}"
+            {% if forloop.first %}checked{% endif %}
+          />
+          <label class="text-center usa-radio__label" for="{{ item.agency | slugify}}__input">
+            <span class="usa-sr-only">{{ item.agency }}</span>
+          </label>
+        </div>
       {% endfor %}
     </div>
   </fieldset>

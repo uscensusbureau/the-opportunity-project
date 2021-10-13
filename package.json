@@ -16,9 +16,7 @@
   },
   "scripts": {
     "airtable": "(./scripts/airtable.sh)",
-    "axe": "node config/run-axe.js",
     "build": "gulp build && bundle exec jekyll build",
-    "test-airtable": "npm run airtable && bundle exec jekyll build && npm run proof-external",
     "build-css": "gulp build-sass",
     "build-css-components": "gulp build-sass-components",
     "build-css-custom": "gulp build-sass-custom",
@@ -29,7 +27,6 @@
     "build-fonts": "gulp fonts",
     "build-img": "gulp images",
     "build-js": "gulp javascript",
-    "check-contrast": "node ./utils/check-contrast.js",
     "clean": "gulp clean-assets",
     "crawl": "node config/crawl.js",
     "critical": "node config/critical-css.js",
@@ -82,7 +79,6 @@
     "axe-core": "^4.3.3",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
-    "chroma-js": "^2.1.2",
     "chrome-launcher": "^0.14.1",
     "chrome-remote-interface": "^0.31.0",
     "colors": "^1.3.2",
@@ -93,17 +89,13 @@
     "eslint-plugin-promise": "^5.1.0",
     "express": "^4.17.1",
     "highlight.js": "^11.2.0",
-    "json-format": "^1.0.1",
     "merge-stream": "^2.0.0",
-    "minimist": "^1.2.3",
     "node-sass": "^6.0.1",
     "nswatch": "^0.2.0",
     "pa11y-ci": "^2.4.2",
     "simplecrawler": "^1.1.9",
     "slugify": "^1.6.1",
-    "standard": "^16.0.4",
-    "write-yaml": "^1.0.0",
-    "yamljs": "^0.3.0"
+    "standard": "^16.0.4"
   },
   "watch": {
     "./css/settings/**/*.scss": [

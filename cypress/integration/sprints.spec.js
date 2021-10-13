@@ -2,7 +2,7 @@ const base = '/sprints/'
 const sprints = [
   { url: '', numPS: 7, isCurrent: false, showPDF: true, showTranslate: true },
   { url: 'post-covid', numPS: 7, isCurrent: false, showPDF: true, showTranslate: true },
-  { url: 'pos-covid-esp', numPS: 7, isCurrent: true, showPDF: true, showTranslate: true },
+  { url: 'pos-covid-esp', numPS: 7, isCurrent: false, showPDF: true, showTranslate: true },
   { url: '2020-census-data', numPS: 3, isCurrent: false, showPDF: true, },
   { url: 'natural-environment', numPS: 4 },
   { url: 'built-environment', numPS: 4 },

@@ -99,6 +99,7 @@ exclude:
   - package-lock.json
   - pages/components.md
   - pages/hcd.md
+  - pages/home-old.md
   - config
   - js
   - img

@@ -28,7 +28,7 @@ $theme-color-base-family:           'gray';
 $theme-color-base-lightest:         #f3f3f4;
 $theme-color-base-lighter:          'gray-10';
 $theme-color-base-light:            'gray-30';
-$theme-color-base:                  #545e6a;
+$theme-color-base:                  'gray-50';
 $theme-color-base-dark:             'gray-60';
 $theme-color-base-darker:           #28303b;
 $theme-color-base-darkest:          #121923;
@@ -127,7 +127,9 @@ General colors
 */
 
 // Links
-$theme-link-color:             'primary';
-$theme-link-visited-color:     'violet-70v';
-$theme-link-hover-color:       'primary-dark';
-$theme-link-active-color:      'primary-darker';
+$theme-link-color:              'primary';
+$theme-link-visited-color:      'violet-70v';
+$theme-link-hover-color:        'primary-dark';
+$theme-link-active-color:       'primary-darker';
+$theme-link-reverse-color:      'primary-lighter';
+$theme-link-reverse-hover-color:'primary-lightest';

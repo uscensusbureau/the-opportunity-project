@@ -1,0 +1,58 @@
+@use "sass:map";
+@use "sass:list";
+
+$dotValues: (
+  (
+    "bg": "accent-warm",
+    "top": 5%,
+    "left": 5%,
+  ),
+  (
+    "bg": "secondary",
+    "top": 7%,
+    "left": 8%,
+  ),
+  (
+    "bg": "primary",
+    "top": 85%,
+    "left": 2%,
+  ),
+  (
+    "bg": "secondary",
+    "top": 25%,
+    "left": 92%,
+  ),
+  (
+    "bg": "primary-dark",
+    "top": 50%,
+    "left": 85%,
+  ),
+  (
+    "bg": "base-light",
+    "top": 55%,
+    "left": 90%,
+  ),
+  (
+    "bg": "accent-warm",
+    "top": 60%,
+    "left": 88%,
+  ),
+);
+
+.homepage-hero__dot {
+  @include u-bg('accent-warm');
+  @include u-height(2);
+  @include u-width(2);
+  @include u-radius('pill');
+  position: absolute;
+
+}
+
+@for $i from 1 through length($dotValues) {
+  .homepage-hero__dot:nth-child(#{$i}) {
+    $value: list.nth($dotValues, $i);
+    @include u-bg( map.get($value, "bg"));
+    top: map.get($value, "top");
+    left: map.get($value, "left");
+  }
+}

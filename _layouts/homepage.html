@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+{% include home/homepage-hero.html data=page.hero %}
+
+<section class="usa-section bg-base-darkest">
+  <div class="grid-container">
+    <div class="text-white margin-bottom-5">
+      <h2>{{ page.challenges.title}}</h2>
+      <div class="font-sans-lg">
+        {{ page.challenges.subtitle | markdownify }}
+      </div>
+    </div>
+    {% include home/challenges-widget.html data = page.challenges.data %}
+  </div>
+</section>
+
+{% assign section = page.cta-one %}
+{% include home/cta.html data=section %}
+
+{% include home/homepage-process.html data = page.process %}
+
+{% assign section = page.vision %}
+<section class="usa-section usa-section--dark bg-base-darkest">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-7">
+        <h2 id="{{ section.title | slugify }}">
+          {{ section.title }}
+        </h2>
+        <p class="font-sans-lg">
+          {% include markdown_strip_ptags.html data = section.subtitle %}
+        </p>
+        <p class="font-sans-3xs">
+          {% include markdown_strip_ptags.html data = section.footer %}
+        </p>
+      </div>
+      <div class="display-none grid-col-5 tablet:display-block">
+        {% include home/vision-animation.html %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% assign section = page.impact %}
+<section class="usa-section bg-white">
+  <div class="grid-container">
+    <h2 id="{{section.title | slugify }}">
+      {{ section.title }}
+    </h2>
+    {% for item in section.data %}
+      <div class="border-base-light border-top-1px {% if forloop.last %}border-bottom-1px{% endif %}">
+        <h3 class="text-normal font-sans-xl margin-top-1 margin-bottom-0">
+          {% include markdown_strip_ptags.html data = item.title %}
+        </h3>
+        <p class="font-sans-md margin-top-0 measure-6">
+          {% include markdown_strip_ptags.html data = item.subtitle %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% assign section = page.participants %}
+<section class="usa-section usa-section--dark bg-base-darkest">
+  <div class="grid-container">
+    {% include home/logo-garden--small.html title=section.title %}
+  </div>
+</section>
+
+
+{% assign section = page.cta-two %}
+{% include home/cta.html data=section %}

@@ -1,9 +1,9 @@
 const base = '/sprints/'
 const sprints = [
-  { url: '', numPS: 7, isCurrent: false, showTranslate: true, showPDF: true },
-  { url: 'post-covid', numPS: 7, isCurrent: false, showTranslate: true, showPDF: true },
-  { url: 'pos-covid-esp', numPS: 7, isCurrent: false, showTranslate: true, showPDF: true },
-  { url: '2020-census-data', numPS: 3, isCurrent: false, showPDF: true },
+  { url: '', numPS: 7, isCurrent: false, showPDF: true, showTranslate: true },
+  { url: 'post-covid', numPS: 7, isCurrent: false, showPDF: true, showTranslate: true },
+  { url: 'pos-covid-esp', numPS: 7, isCurrent: true, showPDF: true, showTranslate: true },
+  { url: '2020-census-data', numPS: 3, isCurrent: false, showPDF: true, },
   { url: 'natural-environment', numPS: 4 },
   { url: 'built-environment', numPS: 4 },
   { url: 'geo-cohort', numPS: 4 },
@@ -12,7 +12,7 @@ const sprints = [
   { url: 'past-sprints' },
 ]
 
-describe('Sprints test', () => {
+describe.only('Sprints test', () => {
   it('has the right number of subnav elements', () => {
     for(let i = 0; i < sprints.length; i++) {
       const url = sprints[i].url
@@ -204,9 +204,9 @@ describe('Translation tests', () => {
 
         if (sprint.isCurrent) {
           cy.get('.sprint-hero__callout').contains('We are currently')
-          cy.get('.sprint-hero__callout .btn-link').contains('JOIN A SPRINT', { matchCase: false })
+          cy.get('.sprint-hero__callout .site-button').contains('JOIN A SPRINT', { matchCase: false })
           cy.get('h2:last-of-type').contains('Want to join a sprint?')
-          cy.get('h2:last-of-type+.btn-link').contains('Click here', { matchCase: false })
+          cy.get('h2:last-of-type+.site-button').contains('Click here', { matchCase: false })
         }
 
         if (sprint.numPS) {

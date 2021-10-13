@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /home-old
 title: "The Opportunity Project"
 #class and layout determines page structure. Do not edit except for major updates!
 layout: default
@@ -100,10 +100,10 @@ get_involved:
     - p: Tell us what you’re interested in. We’ll keep you posted about opportunities to join a sprint, attend an event, and more.
   buttons:
     - b: View Sprints
-      style: primary dark
+      style: usa-button--secondary
       link: sprints/
     - b: Get Updates
-      style: secondary white
+      style: usa-button--inverse usa-button--outline margin-top-2
       link: site.contacts.mailing-list
   text:
     - number: 1

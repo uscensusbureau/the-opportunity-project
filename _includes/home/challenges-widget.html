@@ -1,0 +1,72 @@
+{% assign items = include.data %}
+<div class="usa-section--white challenge-widget">
+  <div>
+    {% for item in items %}
+      <div
+        id="{{ item.agency | slugify }}"
+        class="challenge-widget__details {% unless forloop.first %}display-none{% endunless %}"
+      >
+        <div class="grid-container grid-row padding-x-0">
+          <div class="tablet-lg:grid-col-6 padding-4 challenge-widget__column">
+            <h3 class="challenge-widget__header">
+              {{ item.title | markdownify | remove: "<p>" | remove: "</p>" %}}
+            </h3>
+            <div>
+              <div class="challenge-widget__content-section">
+                <h4 class="challenge-widget__subheader">Solutions Included</h4>
+                {% for productTeam in item.products %}
+                  {% assign product = site.data.products | where: "title", productTeam.title | first %}
+                  {% assign teamText = productTeam.team-text | default: product.tech_team_text %}
+                  <p>
+                    <a class="usa-link" href="{{ product.link }}" target="_blank">
+                      {{ product.title }}</a>, 
+                    {{ teamText }}:
+                    {{ productTeam.text }}
+                  </p>
+                {% endfor %}
+              </div>
+              <div class="challenge-widget__content-section">
+                <h4 class="challenge-widget__subheader">Lasting Impact</h4>
+                {% for statement in item.impact %}
+                  {{ statement | markdownify }}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="challenge-widget__image-container challenge-widget__column">
+            {% include image.html src=item.image.src alt=item.image.alt class="challenge-widget__image" %}
+          </div>
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="padding-y-2">
+  <fieldset
+    id="challenge-widget__form"
+    class="usa-fieldset"
+  >
+    <legend class="usa-legend"><span class="usa-sr-only">Select an agency</span></legend>
+    <div class="grid-row grid-gap flex-align-center flex-justify-center">
+      {% for item in items %}
+        <div class="">
+          <div class="usa-radio site-radio">
+            <input
+              class="usa-radio__input usa-radio__input--tile"
+              id="{{ item.agency | slugify }}__input"
+              type="radio"
+              name="challenge-widget"
+              value="{{ item.agency | slugify}}"
+              {% if forloop.first %}checked{% endif %}
+            />
+            <label class="text-center usa-radio__label" for="{{ item.agency | slugify}}__input">
+              <span class="usa-sr-only">{{ item.agency }}</span>
+            </label>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+  </fieldset>
+</div>

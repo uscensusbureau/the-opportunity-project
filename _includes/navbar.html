@@ -1,7 +1,7 @@
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 {% include gov-banner.html %}
-<header class="usa-header sticky site-header site-header-dark border-base-darker border-bottom z-500" role="banner">
-  <div class="usa-navbar site-header-navbar">
+<header class="usa-header sticky top-neg-2px site-header site-header-dark z-500" role="banner">
+  <div class="usa-navbar site-header-navbar site-header-navbar--bordered">
     {% if page.class == "coil" or page.class == "hcd" %}
       <div class="usa-logo site-logo logo-image-desktop width-mobile-lg" id="logo">
         <div class="">
@@ -11,16 +11,16 @@
     {% else %}
       <div class="usa-logo site-logo logo-image-mobile" id="logo-mobile">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span>{% include image.html src="top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile padding-top-1" %}</span>
+          <span>{% include image.html src="top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile" %}</span>
         </a>
       </div>
       <div class="usa-logo site-logo logo-image-desktop margin-left-2 margin-right-5" id="logo">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span>{% include image.html src="TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image padding-top-1" %}</span>
+          <span>{% include image.html src="TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image padding-top-105" %}</span>
         </a>
       </div>
     {% endif %}
-    <button class="usa-menu-btn">Menu</button>
+    <button class="usa-menu-btn usa-button">Menu</button>
     <div class="navbar--container">
       <nav class="usa-nav">
         <ul class="usa-nav__primary usa-accordion">
@@ -29,17 +29,17 @@
             {% if link.accordion %}
               {% assign itemName = link.text | remove: " " %}
               <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current font-mono-xs text-ls-2 text-light text-white" 
+                <button class="usa-accordion__button usa-nav__link  usa-current font-sans-xs text-ls-2 text-light text-white" 
                   aria-expanded="false" 
                   aria-controls="extended-nav-section-{{itemName}}">
-                  <span>{{ link.text | upcase}}</span></button>
+                  <span>{{ link.text }}</span></button>
                 <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu" hidden>
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
                       {% if subnav.accordion %}
                         <
                       {% else %}
-                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-mono-xs text-white">{{ subnav.text | upcase }}</a>
+                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-sans-xs text-white">{{ subnav.text }}</a>
                       {% endif %}
                     </li>
                   {% endfor %}
@@ -47,13 +47,13 @@
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-mono-xs text-ls-2 text-light text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+                <a class="usa-nav__link font-sans-xs text-ls-2 text-light text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
               </li>
             {% endif %}
           {% endfor %}
         </ul>
       </nav>
-      <a class="get-involved btn-link__primary-red site-cta" href="{{site.baseurl}}/get-involved">Get&nbsp;Involved</a>
+      <a class="get-involved usa-button usa-button--secondary usa-button--big site-cta bg-secondary" href="{{site.baseurl}}/get-involved">Get&nbsp;Involved</a>
     </div>
 
   </div>

@@ -4,7 +4,8 @@
     <li class="usa-process-list__item">
       <h4 class="usa-process-list__heading">{{ item.text | markdownify }}</h4>
       {% if item.subtitle %}
-        <p>{{ item.subtitle | markdownify }}</p>
+        <p {% if item.isAlert %}class="usa-alert usa-alert--warning usa-alert--no-icon padding-left-2" {%endif%}>
+          {%include markdown_strip_ptags.html data=item.subtitle %}</p>
       {% endif %}
       {% if item.items %}
         <ul>
@@ -12,10 +13,10 @@
           <li>
             {% if subitem.href %}
               <a class="usa-link" href="{{ subitem.href}}">
-                {{ subitem.text }}
+                {% include markdown_strip_ptags.html data=subitem.text %}
               </a>
             {% else %}
-              {{ subitem.text }}
+              {% include markdown_strip_ptags.html data=subitem.text %}
             {% endif %}
           </li>
         {% endfor %}

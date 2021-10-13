@@ -31,16 +31,17 @@ timeline:
     subtitle:  July 1st, 2021
     items:
       - text: General Information Session – August 23, 2:00-3:00 pm ET
-        href: https://odfggcinfowebinar2.splashthat.com/
+        # href: https://odfggcinfowebinar2.splashthat.com/
       - text: Open Data + Information Session  – September 9, 3:00-4:15 pm ET
-        href: https://odfggcinfowebinartopxtoolkit.splashthat.com
+        # href: https://odfggcinfowebinartopxtoolkit.splashthat.com
   - text: Prize Submission Opens
     subtitle: September 13th, 2021
     items:
-    - text: Info and Q&A – Oct 6, 5:00-6:00 pm ET
-      href: http://odfggcfinalinfowebinar.splashthat.com
+    - text: Info and Q&A – Oct 6, 5:00-6:00 pm ET, [View Recording](https://drive.google.com/file/d/1blb_ksmoksxWJaj0IQu1WZ0MArlJx-Fh/view)
+      # href: https://drive.google.com/file/d/1blb_ksmoksxWJaj0IQu1WZ0MArlJx-Fh/view
   - text: Prize Submission Deadline
-    subtitle: October 24th, 2021
+    subtitle: '[October 24th, 2021](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/)'
+    isAlert: true
   - text: Judging Process
     subtitle: November
   - text: Winners Announced
@@ -85,8 +86,6 @@ past-title: Past Prize Challenge
 
 winners:
   title: Past Winners
-  # subtext: '$100k awarded in The Opportunity Project’s inaugural Prize Challenge.<br/> 
-  # See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.'
 
 ---
 
@@ -104,7 +103,7 @@ The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for t
 
 Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
 
-[View the rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
+[View the Rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
 {: .margin-top-4 }
 
 ### What Can You Win?
@@ -120,10 +119,14 @@ We're looking for tools that fit into one of these categories:
 {: .section-header .margin-top-6 }
 1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 24th, 2021
 2. Attend an informational session (optional)
-3. Submit your application by the deadline via email and a short submission form
+3. Review the [scoring rubric](https://docs.google.com/document/d/1kK2WKr0x6lsjspRkXAYWTe_PIC7OGk7mrweggfpGT8w) 
+4. Submit your application by the deadline via email and a short submission form
 
 Submissions are open from September 13, 2021 – October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
+
+[View the Scoring Rubric](https://docs.google.com/document/d/1kK2WKr0x6lsjspRkXAYWTe_PIC7OGk7mrweggfpGT8w){: .usa-button .usa-button--outline .site-button }
+{: .margin-top-4 }
 
 ### Timeline
 {: .margin-top-6 .margin-bottom-0 }

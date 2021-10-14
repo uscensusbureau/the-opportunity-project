@@ -1,6 +1,6 @@
 # The Opportunity Project Website
 
-This repo includes code for the TOP website. [www.opportunity.census.gov](www.opportunity.census.gov)
+This repo includes code for the TOP website. [opportunity.census.gov](opportunity.census.gov)
 
 This project is built off of the [USWDS site code](https://github.com/uswds/uswds-site), and just like that repo, uses Jekyll for the file framework, gulp, and the node module for USWDS.
 
@@ -14,6 +14,12 @@ This project is built off of the [USWDS site code](https://github.com/uswds/uswd
 3. Bundler v1.12.3+, [Installation guides](http://bundler.io/v1.13/guides/using_bundler_inpmn_application.html#getting-started---installing-bundler-and-bundle-init)
    a. jekyll (`gem install jekyll`)
 4. Chrome v59 or higher (v60 if on Windows)
+
+### Optional Dependencies 
+The following are necessary only if you are importing new data from Airtable. See `/_data/readme.md` for more information.
+1. [airtable-export](https://pypi.org/project/airtable-export/)
+2. [Python 3](https://www.python.org/downloads/)
+
 
 <br/>
 
@@ -45,11 +51,10 @@ Go to `127.0.0.1:4000` in your browser — you should be viewing a local instanc
 We use Airtable as our single source of truth for data files. `npm run airtable` will pull the latest data from airtable and insert into the `_data` folder for use in the site if you have access to it.
 Be sure to set up a `.env` file with `AIRTABLE_TOP_ID` and `AIRTABLE_API_KEY` set for this script to work. Otherwise, you can simply run the `airtable-export` command manually, and it will work as well.
 
+See `/_data/readme.md` for more info.
 
 <br/>
 
-
-<br/>
 
 ## Building assets
 
@@ -71,21 +76,34 @@ See `/config/gulp/images.js` for more details.
 
 ## Testing
 
-As of March 2021, we run tests locally but not in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement and can possibly be figured out! But for now, this set up works pretty well. It just requires manually running tests locally. Here's how:
+As of March 2021, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
 
-### HTML Validation
+Here are the three types of tests set up to run locally:
+
+### 1) HTML Validation Tests
 
 run `npm run proof` to validate the site's HTML, check broken links, missing images & alts, etc with [HTMLProofer](https://github.com/gjtorikian/html-proofer).
 
 run `npm run proof-external` to also check all external links. This takes longer, but is useful if you've just imported new data which has a bunch of external links that may be broken!
 
-### Accessibility Testing
+### 2) Accessibility Tests
 
 We test for accessibility issues using [pa11y-ci](https://github.com/pa11y/pa11y-ci) following [this guide](https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe).
 
 There are two commands set up in `package.json`:
 1. `npm run pa11y-ci` to run against a specific set of URLs as listed in `pa11y.json`
 2. `npm run pa11y-ci:sitemap` to run against all urls found in the local sitemap and using the config specified in `.pa11y`
+
+### 3) Functionality & Content Tests
+
+There are functionality and content tests set up for key pages using `cypress` in the `/cypress/integration` folder. 
+
+To run `cypress`, use the command `npm run cypress` and use the visual test runner.
+
+**Before pushing changes, please make sure that any associated tests still pass.**
+
+See [the Cypress docs](https://docs.cypress.io/guides/overview/why-cypress) for more information on how to write your own tests for new features and pages.
+
 
 
 <br/>

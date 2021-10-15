@@ -8,7 +8,7 @@ hero:
   subtitle: The Opportunity Project is a program of the [Census Open Innovation Labs](https://coil.census.gov/) at the U.S. Census Bureau.
 
 challenges:
-  title: Use TOP at Your Agency to Solve The Nation's Toughest Challenges
+  title: Use TOP at Your Agency to Solve the Nation's Toughest Challenges
   subtitle: 'The Opportunity Project (TOP) offers a framework for agencies to facilitate collaboration between technologists and community advocates in order to rapidly design digital solutions for the public good.
 
 
@@ -28,7 +28,7 @@ challenges:
           # team: Harvard University Institute of Politics
           text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
       impact: 
-        - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus.
+        - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus
       problem-statement-name: Ocean Plastics
       image:
         src: photos/home/widget/oceans.jpg
@@ -46,7 +46,7 @@ challenges:
         - title: Sille
           text: increasing stakeholders' awareness of likely catastrophic structural failure in their areas
       impact: 
-        - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments.
+        - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments
       image:
         src: photos/home/widget/hurricane.jpg
         alt: Satellite image of a hurricane cloud over a coastline.
@@ -55,7 +55,7 @@ challenges:
       title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
       problem-statement-name: Opportunity Zones
       impact: 
-        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features.
+        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
       products:
         - title: City Builder
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment

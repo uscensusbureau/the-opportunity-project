@@ -11,4 +11,4 @@ gem 'rspec-core'
 gem 'rspec-expectations'
 gem 'webrick'
 gem 'html-proofer'
-gem 'jekyll-datapage-generator'
+gem "nokogiri", ">= 1.12.5"

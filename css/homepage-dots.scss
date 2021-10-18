@@ -1,5 +1,21 @@
 @use "sass:map";
 @use "sass:list";
+@use "sass:math";
+
+
+$dotColors: (
+  "accent-warm", 
+  "secondary", 
+  "primary", 
+  "primary-dark",
+  "base-light",
+  "primary-dark",
+  "base-light",
+  "primary-dark",
+  "base-light",
+  "primary-dark",
+  "base-light"
+);
 
 $dotValues: (
   (
@@ -39,20 +55,80 @@ $dotValues: (
   ),
 );
 
-.homepage-hero__dot {
-  @include u-bg('accent-warm');
-  @include u-height(2);
-  @include u-width(2);
-  @include u-radius('pill');
+.homepage-hero__dots-container {
   position: absolute;
-
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-@for $i from 1 through length($dotValues) {
-  .homepage-hero__dot:nth-child(#{$i}) {
-    $value: list.nth($dotValues, $i);
-    @include u-bg( map.get($value, "bg"));
-    top: map.get($value, "top");
-    left: map.get($value, "left");
+.homepage-hero__dots-row {
+  position: absolute;
+  width: 100%;
+  
+  &:nth-child(1) {
+    top: 10%;
+  }
+  &:nth-child(2) {
+    top: 15%;
+  }
+  &:nth-child(3) {
+    top: 80%;
+  }
+  &:nth-child(4) {
+    top: 85%;
   }
 }
+
+.homepage-hero__dot {
+  @include u-bg('accent-warm');
+  @include u-width(3);
+  @include u-height(3);
+  @include u-radius('pill');
+  position: absolute;
+}
+
+@for $row from 1 through 4 {
+  @for $dot from 1 through 20 {
+    .homepage-hero__dots-row:nth-child(#{$row}) .homepage-hero__dot:nth-child(#{$dot}) {
+      $colorKey: random(length($dotColors));
+      $randomColor: nth($dotColors, $colorKey);
+      @include u-bg($randomColor);
+
+      $doAnimation: math.random() > 0.3;
+      @if $doAnimation {
+        $delay: math.random() * 2s;
+        $duration: math.random() * 15s + 6s;
+        $anim-name: fade-out-in;
+        animation: $duration ease-in $delay infinite $anim-name;
+        @media (prefers-reduced-motion) {
+          animation: none;
+        }
+        
+      }
+    }
+  }
+}
+
+@for $i from 1 through 20 {
+  .homepage-hero__dots-row:nth-child(1), .homepage-hero__dots-row:nth-child(2) {
+    .homepage-hero__dot:nth-child(#{$i}) {
+      right: ($i - 1) * units(4);
+    }
+  } 
+  .homepage-hero__dots-row:nth-child(3), .homepage-hero__dots-row:nth-child(4) {
+    .homepage-hero__dot:nth-child(#{$i}) {
+      left: ($i - 1) * units(4);
+    }
+  } 
+}
+
+// @for $i from 1 through length($dotValues) {
+//   .homepage-hero__dot:nth-child(#{$i}) {
+//     $value: list.nth($dotValues, $i);
+//     @include u-bg( map.get($value, "bg"));
+//     top: map.get($value, "top");
+//     left: map.get($value, "left");
+//   }
+// }

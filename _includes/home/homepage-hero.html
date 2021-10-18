@@ -1,14 +1,22 @@
 <section class="usa-section bg-white position-relative">
-  <div class="grid-container padding-y-15">
+  <div class="grid-container padding-y-8">
     <div>
       <h1 class="font-sans-3xl position-relative z-100">{{ include.data.title }}</h1>
       <p>
         {% include markdown_strip_ptags.html data=include.data.subtitle %}
       </p>
     </div>
-    <div id="homepage-hero__dots">
-      {% for i in (1..7) %}
-        <div class="homepage-hero__dot"></div>
+    <div class="homepage-hero__dots-container">
+      {% for i in (1..4) %}
+      <div class="homepage-hero__dots-row">
+        {% assign numDots = 15 %}
+        {% if i == 1 or i == 4 %}
+          {% assign numDots = 20 %}
+        {% endif %}
+        {% for j in (1..numDots) %}
+          <div class="homepage-hero__dot"></div>
+        {% endfor %}
+      </div>
       {% endfor %}
     </div>
   </div>

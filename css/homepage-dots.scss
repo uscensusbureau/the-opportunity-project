@@ -1,7 +1,5 @@
-@use "sass:map";
 @use "sass:list";
 @use "sass:math";
-
 
 $dotColors: (
   "accent-warm", 
@@ -15,44 +13,6 @@ $dotColors: (
   "base-light",
   "primary-dark",
   "base-light"
-);
-
-$dotValues: (
-  (
-    "bg": "accent-warm",
-    "top": 5%,
-    "left": 5%,
-  ),
-  (
-    "bg": "secondary",
-    "top": 7%,
-    "left": 8%,
-  ),
-  (
-    "bg": "primary",
-    "top": 85%,
-    "left": 2%,
-  ),
-  (
-    "bg": "secondary",
-    "top": 25%,
-    "left": 92%,
-  ),
-  (
-    "bg": "primary-dark",
-    "top": 50%,
-    "left": 85%,
-  ),
-  (
-    "bg": "base-light",
-    "top": 55%,
-    "left": 90%,
-  ),
-  (
-    "bg": "accent-warm",
-    "top": 60%,
-    "left": 88%,
-  ),
 );
 
 .homepage-hero__dots-container {
@@ -74,10 +34,10 @@ $dotValues: (
     top: 15%;
   }
   &:nth-child(3) {
-    top: 80%;
+    top: 85%;
   }
   &:nth-child(4) {
-    top: 85%;
+    top: 90%;
   }
 }
 
@@ -123,12 +83,3 @@ $dotValues: (
     }
   } 
 }
-
-// @for $i from 1 through length($dotValues) {
-//   .homepage-hero__dot:nth-child(#{$i}) {
-//     $value: list.nth($dotValues, $i);
-//     @include u-bg( map.get($value, "bg"));
-//     top: map.get($value, "top");
-//     left: map.get($value, "left");
-//   }
-// }

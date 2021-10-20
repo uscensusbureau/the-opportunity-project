@@ -125,7 +125,7 @@ We're looking for tools that fit into one of these categories:
 Submissions are open from September 13, 2021 – October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
-[View the Scoring Rubric](https://docs.google.com/document/d/1kK2WKr0x6lsjspRkXAYWTe_PIC7OGk7mrweggfpGT8w){: .usa-button .usa-button--outline .site-button }
+[View the Submission Checklist](https://docs.google.com/document/d/1r9dsiQBYhOwakxtbDr-lQL0FvqSs6cMxH8HU8w_bVQ4/edit?usp=sharing){: .usa-button .usa-button--outline .site-button }
 {: .margin-top-4 }
 
 ### Timeline

@@ -127,6 +127,9 @@ Submissions are open from September 13, 2021 – October 24, 2021
 
 [View the Scoring Rubric](https://docs.google.com/document/d/1kK2WKr0x6lsjspRkXAYWTe_PIC7OGk7mrweggfpGT8w){: .usa-button .usa-button--outline .site-button }
 {: .margin-top-4 }
+    
+[View the Submission Checklist](https://docs.google.com/document/d/1r9dsiQBYhOwakxtbDr-lQL0FvqSs6cMxH8HU8w_bVQ4/edit?usp=sharing){: .usa-button .usa-button--outline .site-button }
+{: .margin-top-4 }
 
 ### Timeline
 {: .margin-top-6 .margin-bottom-0 }

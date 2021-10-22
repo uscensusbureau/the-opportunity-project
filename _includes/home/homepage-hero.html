@@ -1,10 +1,14 @@
-<section class="usa-section bg-white position-relative">
-  <div class="grid-container padding-top-8 padding-bottom-15">
-    <div>
-      <h1 class="font-sans-3xl position-relative z-100">{{ include.data.title }}</h1>
+{% assign img = page.hero.image %}
+<section class="usa-section bg-primary"
+  style="background-image: url({{ site.baseurl}}/assets/img/{{ img.src }});
+    background-size: cover;">
+  <div class="grid-container padding-top-8 padding-bottom-padding-bottom-15">
+    <div class="bg-white radius-lg padding-6">
+      <h1 class="font-sans-xl tablet:font-sans-3xl line-height-sans-4">{{ include.data.title }}</h1>
       <p>
         {% include markdown_strip_ptags.html data=include.data.subtitle %}
       </p>
     </div>
+    {% include 1px-transparent.html alt=img.alt %}
   </div>
 </section>

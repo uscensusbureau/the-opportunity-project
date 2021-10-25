@@ -73,7 +73,7 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "airtable": "^0.11.1",
-    "axe-core": "^4.3.3",
+    "axe-core": "^4.3.4",
     "chalk": "^4.1.2",
     "colors": "^1.3.2",
     "critical": "^4.0.1",

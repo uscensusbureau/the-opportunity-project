@@ -38,9 +38,7 @@ callout:
   body: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) are now closed. The challenge will award $310,000 to teams who have created products using The Opportunity Project process.
 
 
-To view the Challenge timeline, visit the [prize challenge page](SITE.BASEURL/prize-challenge).
-
-Submissions closed on October 24, 2021.'
+To view the Challenge timeline, visit the [prize challenge page](SITE.BASEURL/prize-challenge). Submissions closed on October 24, 2021.'
   primary:
     text: View the Rules
     href: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/

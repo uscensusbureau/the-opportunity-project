@@ -9,7 +9,7 @@ submission-checklist: xyz
 
 hero:
   text: 'Win Funding to Scale Your Technology<br/>Awarding $310,000 in prizes'
-  subtext: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } is now live. Awarding funding to teams who use The Opportunity Project process.'
+  subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
   top:
@@ -21,7 +21,7 @@ event-announcement:
     - Open Data
     - For Good
     - Grand Challenge
-  cta: NOW LIVE
+  cta: SUBMISSIONS CLOSED
   img: 
     src: prize/top-grand-challenge-background-01.jpg  
     alt: Pointillism photo of a mountainside with evergreen trees
@@ -122,7 +122,7 @@ We're looking for tools that fit into one of these categories:
 3. Review the [scoring rubric](https://docs.google.com/document/d/1kK2WKr0x6lsjspRkXAYWTe_PIC7OGk7mrweggfpGT8w) 
 4. Submit your application by the deadline via email and a short submission form
 
-Submissions are open from September 13, 2021 – October 24, 2021
+Submissions closed on October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
 
 [View the Submission Checklist](https://docs.google.com/document/d/1r9dsiQBYhOwakxtbDr-lQL0FvqSs6cMxH8HU8w_bVQ4/edit?usp=sharing){: .usa-button .usa-button--outline .site-button }

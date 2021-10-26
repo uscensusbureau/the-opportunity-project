@@ -35,15 +35,14 @@ callout:
   container-class: maxw-desktop
   title: 
     text: Win Funding to Scale Your Technology
-  body: 'The [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) is now live. The challenge will award at least $100,000 to teams who have created products using The Opportunity Project process.
+  body: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) are now closed. The challenge will award $310,000 to teams who have created products using The Opportunity Project process.
 
 
-To prepare your submission and view the application timeline, visit the [prize challenge page](SITE.BASEURL/prize-challenge). The TOP Team is leading informational webinars throughout the summer and fall to help you get ready.
+To view the Challenge timeline, visit the [prize challenge page](SITE.BASEURL/prize-challenge).
 
-
-Submissions are open from September 13, 2021 – October 18, 2021.'
+Submissions closed on October 24, 2021.'
   primary:
-    text: View the rules
+    text: View the Rules
     href: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
     isExternal: true
   secondary: 

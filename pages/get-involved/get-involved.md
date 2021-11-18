@@ -35,11 +35,9 @@ callout:
   container-class: maxw-desktop
   title: 
     text: Attend The Opportunity Project Summit
-  body: 'TOP Summit 2021: Open Innovation For All 
-  [The Opportunity Project Summit](http://bit.ly/TOPSummit2021) is a multi-day virtual conference to showcase the work accomplished through TOP’s 2021 sprints, feature other innovative technology and data products, host conversations with leading experts and grassroots community members, provide hands-on learning opportunities for attendees, and announce the winners of the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-
+  body: '[The Opportunity Project Summit 2021: Open Innovation For All](http://bit.ly/TOPSummit2021) is a multi-day virtual conference to showcase the work accomplished through TOP’s 2021 sprints, feature other innovative technology and data products, host conversations with leading experts and grassroots community members, provide hands-on learning opportunities for attendees, and announce the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/)'
 
-December 13–15, 2021
-12–5p.m. ET'
+body: 'December 13–15, 2021 from 12–5p.m. ET'
 
   primary:
     text: RSVP to Attend

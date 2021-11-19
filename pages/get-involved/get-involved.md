@@ -6,8 +6,8 @@ layout: default
 
 # full span, top of page section
 hero:
-  text: Get Involved
-  subtext: Join our community of innovators working to turn federal open data into technologies that solve real-world problems for people across the country.
+  text: Ready to Solve the Nation’s Greatest Challenges?
+  subtext: Join our community of innovators using government data to build digital tools with, by, and for the people. We offer ongoing opportunities to connect to The Opportunity Project throughout the year. 
 
 # connecting-banner-with-subheader-inverse.html
 banner-subheader-inverse:

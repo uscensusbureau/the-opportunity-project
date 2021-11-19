@@ -18,10 +18,10 @@ banner-subheader-inverse:
     background: white
 
 content-light:
-  title: Participate in TOP
+  title: Get Started with The Opportunity Project
   skip-top-border: true
   skip-bottom-border: true
-  body: Sprints are 12-week product development cycles where we bring together tech teams and collaborators to build digital products using open data.
+  body: Sprints are 12-week product development cycles that bring government agencies, technologists, community leaders, and data experts together to rapidly design digital solutions for the public good. TOP sprints typically begin in late summer or early fall and culminate at the annual TOP Summit in mid-December. 
   right-col: participate-right.md
 
 join:

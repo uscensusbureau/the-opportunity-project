@@ -63,9 +63,11 @@ about:
       body: After 4 years of TOP, we created the TOP  prize challenge to help address the challenges technologists face in deploying and sustaining civic tech products.  The prize challenge aimed to support technologists in getting their solutions into the hands of communities around the country.
 
 graphs:
-  - title: User Friendly
-  - title: Civic Impact
-  - title: Creativity
+  - title: Technical Skill
+  - title: Collaboration
+  - title: Use of Federal Data
+  - title: Implementation & Sustainability
+  - title: Impact
 
 judging:
   title: Judged by Experts

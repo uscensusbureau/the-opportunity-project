@@ -45,19 +45,6 @@ December 13–15, 2021 from 12–5p.m. ET'
     href: http://bit.ly/TOPSummit2021
     isExternal: true
 
-callout-2:
-  background-class: bg-secondary
-  id: adapt
-  container-class: maxw-desktop
-  title: 
-    text: Adapt The Opportunity Project Framework
-  body: 'Not able to join a TOP sprint? Use our toolkits – based on the TOP sprint model – to create civic impact with open data. 
-
-The [product development toolkit](https://opportunity.census.gov/product-development/toolkit/) can help technologists use the TOP framework to build digital tools for the American people. We cover user research, navigating federal data, and more. Civic tech organizations, coding boot camps, community organizations, and educators have all adopted the product development toolkit to create human-centered tools.
-
-The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/introduction/) enables government agencies to facilitate TOP sprints on a flexible and modifiable timeline. The toolkit includes a detailed step by step guide. Local, state, and federal government agencies have all successfully used the toolkit as a playbook to run their own sprints.'
-
-
 ---
 {% include hero.html %}
 {% include connecting-banner-with-subheader-inverse.html %}
@@ -71,7 +58,31 @@ The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/introduction/) en
 {% include two-column-markdown.html content=page.content-light left-col=left-col%}
 
 {% include home/cta.html data=page.callout %}
-{% include home/cta.html data=page.callout-2 %}
+
+<!--hard coded (emulating prize-challenge.md)-->
+{::options parse_block_html="true" /}
+<section class="usa-section">
+  <div class="grid-container maxw-desktop">
+  
+### Adapt The Opportunity Project Framework
+{: .section-header }
+
+Not able to join a TOP sprint? Use our toolkits – based on the TOP sprint model – to create civic impact with open data. 
+
+The [product development toolkit](https://opportunity.census.gov/product-development/toolkit/) can help technologists use the TOP framework to build digital tools for the American people. We cover user research, navigating federal data, and more. Civic tech organizations, coding boot camps, community organizations, and educators have all adopted the product development toolkit to create human-centered tools.
+
+The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/introduction/) enables government agencies to facilitate TOP sprints on a flexible and modifiable timeline. The toolkit includes a detailed step by step guide. Local, state, and federal government agencies have all successfully used the toolkit as a playbook to run their own sprints.
+
+### Compete for Prize Funds
+{: .section-header }
+
+If your team participates in a TOP sprint or uses the [product development toolkit](https://opportunity.census.gov/product-development/toolkit/), you may be eligible to apply for the annual Open Data for Good Grand Challenge. Submissions for the 2021 Open Data For Good Challenge are now closed, but stay tuned for our announcement of this year’s winners and news of next year’s challenge by visiting the [prize challenge page](https://opportunity.census.gov/prize-challenge).
+
+
+{::options parse_block_html="false" /}
+  </div>
+</section>
+<!--hard coded (emulating prize-challenge.md)-->
 
 {% capture left-join %}
   {% include image.html src="photos/get-involved/arrow.jpg" alt="Illustration of an arrow pointing to the right over a navy blue field" %}

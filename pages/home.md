@@ -71,6 +71,7 @@ challenges:
         alt: A neighborhood grid of buildings and streets as seen from above.
     
 cta-one:
+  background-class: bg-primary
   title: 
     text: Ready to solve the nation's biggest challenges?
     class: font-sans-sm text-normal
@@ -120,13 +121,14 @@ vision:
   subtitle: We envision a future in which every federal agency uses the TOP model. We're empowering you with the tools you need to lead open innovation.
 
 cta-two:
-    title: 
-      text: Ready to make an impact?
-      class: font-sans-sm text-normal
-    primary:
-      text: Get in Touch
-      href: https://www.census.gov/forms/contact-top.html
-      isExternal: true
+  background-class: bg-primary
+  title: 
+    text: Ready to make an impact?
+    class: font-sans-sm text-normal
+  primary:
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
         
 ---
 

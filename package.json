@@ -62,7 +62,7 @@
     "ini": ">=1.3.6",
     "jquery": "^3.6.0",
     "node-notifier": "^10.0.0",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.3",
     "postcss-csso": "^5.0.1",
     "sass": "^1.43.3",
     "uglify-es": "^3.3.9",

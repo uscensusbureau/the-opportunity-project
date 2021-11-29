@@ -64,6 +64,37 @@
   title: ECO Bloc
   year:
   - 2020
+- Product Name: Community Resilience Data Guide
+  agencies:
+  - National Oceanic and Atmospheric Administration
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rec1IW7qqlzejpNGy
+  category:
+  - Environment
+  data_sets: NOAA National Risk Index; CDC Social Vulnerability Index; Census Bureau
+    ACS, LOADS, County Business Patterns; EPA Smart Location Database
+  data_sets_text: NOAA National Risk Index; CDC Social Vulnerability Index; Census
+    Bureau ACS, LOADS, County Business Patterns; EPA Smart Location Database
+  description: Provides local leaders and first responders with critical data and
+    actionable resources on methods to reduce risks associated with increasing temperatures
+    and extreme heat
+  details: Provides local leaders and first responders with critical data and actionable
+    resources on methods to reduce risks associated with increasing temperatures and
+    extreme heat
+  image: community-resilience-data-guide.jpg
+  image-alt: Hand holding a phone with an app that displays a map of DC about temperature
+    risk
+  link: https://reports.mysidewalk.com/93bdbee3fa
+  problem_statement:
+  - recbjIUzjzLZ5KmJS
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recARG3hg63uQSHO1
+  tech_team_text: mySidewalk
+  title: Community Resilience Data Guide
+  year:
+  - 2021
 - Product Name: Resettled Refugee Services and Data Explorer
   agencies:
   - USA for United Nations High Commissioner for Refugees
@@ -135,6 +166,62 @@
   title: National Equity Atlas
   year:
   - 2016
+- Product Name: Libraries Need Diverse Books
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rec1fgYB6rdXTp52J
+  category:
+  - Census
+  data_sets: 'Census Bureau 2020 Data, ACS '
+  data_sets_text: 'Census Bureau 2020 Data, ACS '
+  description: 'Enables librarians to better understand population distribution in
+    their neighbourhoods and create diverse book collections for their libraries '
+  details: 'Enables librarians to better understand population distribution in their
+    neighbourhoods and create diverse book collections for their libraries '
+  image: libraries-need-diverse-books.jpg
+  image-alt: Map of community Census data and library data from the Oakland Library
+    in Pittsburgh, PA
+  link: https://diversity-framework.glitch.me/
+  problem_statement:
+  - reccHr0aPWZzFbgi8
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recZPTM3f3o6fXaot
+  tech_team_text: Carnegie Mellon University
+  title: Libraries Need Diverse Books
+  year:
+  - 2021
+- Product Name: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
+  agencies:
+  - National Oceanic and Atmospheric Administration
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rec2eC4jRTNiwMsQw
+  category:
+  - Environment
+  data_sets: NOAA
+  data_sets_text: NOAA
+  description: Provides unprecedented multi-hazard early warning and lifecycle situational
+    awareness for community leaders seeking parcel-level dynamic risk scores, as well
+    as automated reporting on demographic, economic, and other data
+  details: Provides unprecedented multi-hazard early warning and lifecycle situational
+    awareness for community leaders seeking parcel-level dynamic risk scores, as well
+    as automated reporting on demographic, economic, and other data
+  image: mayday-realtime-risk.jpg
+  image-alt: 3D Map that shows environmental risk areas and social media posts related
+    to the disaster
+  link: https://mayday.ai/
+  problem_statement:
+  - recbjIUzjzLZ5KmJS
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recXOIRBJMHj7laRG
+  tech_team_text: Mayday.ai
+  title: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
+  year:
+  - 2021
 - Description (Old): Lets users see how average activity relates to common health
     issues in each state, combining CDC health data with aggregated and anonymous
     Fitbit activity data from over 10 million users.
@@ -169,6 +256,57 @@
   title: Fitbit
   year:
   - 2016
+- Product Name: Archymedes
+  agencies:
+  - Minority Business Development Agency
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rec4AWZDSqgQ6wQFm
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: FDIC; SBA
+  data_sets_text: FDIC; SBA
+  description: Simplifies the process of obtaining capital for minority entrepreneurs
+  details: Simplifies the process of obtaining capital for minority entrepreneurs
+  image: archymedes.jpg
+  image-alt: Website hero image with an icon of an owl and an embedded video
+  link: http://www.archymedes.com/
+  problem_statement:
+  - rec2hm93Hd703vhHw
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recOPCFpgJCdFeJXz
+  tech_team_text: Weems Design Studio Inc
+  title: Archymedes
+  year:
+  - 2021
+- Product Name: The City Portrait
+  agencies:
+  - City of Coral Gables
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rec4C9fTa4yYao2mK
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: Census Bureau Small Business Pulse Data; City of Coral Gables data
+  data_sets_text: Census Bureau Small Business Pulse Data; City of Coral Gables data
+  description: Matches subject matter experts impacted by COVID-19 to opportunities
+    posted by economic development partners
+  details: Matches subject matter experts impacted by COVID-19 to opportunities posted
+    by economic development partners
+  image: city-portrait.jpg
+  image-alt: "Computer and two phones with images that show opportunities, a caf\xE9\
+    , and after school programs"
+  link: http://demo.participant.world
+  problem_statement:
+  - recODy3F77656gS8i
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - rec9UfpOOoeSMz3nU
+  tech_team_text: Participant AI
+  title: The City Portrait
+  year:
+  - 2021
 - Description (Old): Uses live spatial and development funding data from USDA, Census,
     DOT, and HUD to simplify funding eligibility with virtual story telling of our
     rural American communities.
@@ -377,6 +515,31 @@
   title: Air Aware
   year:
   - 2020
+- Product Name: Cens(US)
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rec6FRrwmfNsGtZcu
+  category:
+  - Census
+  data_sets: Census Bureau 2020 Data
+  data_sets_text: Census Bureau 2020 Data
+  description: Builds data literacy for students by increasing access to Census data
+  details: Builds data literacy for students by increasing access to Census data
+  image: censUS.jpg
+  image-alt: Webpage with a student resource for exploring the importance of U.S.
+    Census Data
+  link: https://linktr.ee/cens_us_
+  problem_statement:
+  - reccHr0aPWZzFbgi8
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recAx3uBSJpP8Gj3Z
+  tech_team_text: University of North Texas
+  title: Cens(US)
+  year:
+  - 2021
 - Description (Old): We used data from US EPA, INTERPOL, the Citizen Science Portal
     and multiple national and international specialists to build an ESRI Story Map.  This
     interactive online narrative compiles tangible and novel data sets to energize
@@ -438,6 +601,7 @@
     that address a variety of problems surrounding access to opportunity'
   details: ' Helps researchers and developers rapidly prototype and deploy tools that
     address a variety of problems surrounding access to opportunity'
+  image: wolfram-data-repository.jpg
   sprint:
   - recPEm69CcLh1tX2s
   tech_team:
@@ -637,6 +801,64 @@
   title: MySpot
   year:
   - 2017
+- Product Name: Wordly Real-Time Translation
+  agencies:
+  - New York City Maryor's Office of the Chief Technology Officer
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recAe4qaOrsmwsz7C
+  data_sets: Open-source data sets
+  data_sets_text: Open-source data sets
+  description: Increases accessibility and inclusivity for 67 million Americans by
+    interpreting conference and meeting speakers into more than 20 languages simultaneously,
+    24/7, while allowing attendees to follow on smartphones or laptops
+  details: Increases accessibility and inclusivity for 67 million Americans by interpreting
+    conference and meeting speakers into more than 20 languages simultaneously, 24/7,
+    while allowing attendees to follow on smartphones or laptops
+  image: worldly.jpg
+  image-alt: Illustration of a woman speaking at a podium with her words being translated
+    into 3 languages
+  link: https://portal.wordly.ai/
+  problem_statement:
+  - recxiyHz22AqIcSU6
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recgKOz07BdOcc03U
+  - recdT1jKdVlMVcgbS
+  tech_team_text: Inc., Wordly
+  title: Wordly Real-Time Translation
+  year:
+  - 2021
+- Product Name: Child Care Planning Assessment Tool
+  agencies:
+  - U.S. Department of the Treasury
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recAriCZP8D5zkLQr
+  category:
+  - Grants
+  data_sets: USAspending COVID-19 Relief Funding; Census Bureau ACS; BLS Labor Participation
+    Data
+  data_sets_text: USAspending COVID-19 Relief Funding; Census Bureau ACS; BLS Labor
+    Participation Data
+  description: Shows local government leaders connections between child care and equitable
+    labor participation and drives local child care solutions by providing actionable
+    insights
+  details: Shows local government leaders connections between child care and equitable
+    labor participation and drives local child care solutions by providing actionable
+    insights
+  image: child-care-planning.jpg
+  image-alt: Interactive map of USA with numbers on child care resources
+  link: https://top.kucppr.org/
+  problem_statement:
+  - rec3DhHvGbMYMTN1A
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recVoEITSoSOrOSSD
+  tech_team_text: University of Kansas Center for Public Partnerships and Research
+  title: Child Care Planning Assessment Tool
+  year:
+  - 2021
 - Description (Old): "Census Intelligence Center combines data from the American Community\
     \ Survey and Census Barriers, Attitudes, and Motivators studies with Civis Analytics\u2019\
     \ survey and message testing technology to empower local leaders and Census coordinators\
@@ -747,8 +969,6 @@
   title: Voatz
   year:
   - 2019
-- airtable_createdTime: '2021-05-10T20:08:13.000Z'
-  airtable_id: recCvsMDbEXL85jtT
 - Product Name: Public Finance Institute-Disaster Spending Tracker
   agencies:
   - Office of Management and Budget
@@ -779,6 +999,30 @@
   title: Public Finance Institute-Disaster Spending Tracker
   year:
   - 2020
+- Product Name: reROOT
+  agencies:
+  - null
+  airtable_createdTime: '2021-11-29T18:35:34.000Z'
+  airtable_id: recEhPFv4wMEUSOAJ
+  category:
+  - Census
+  data_sets: Census 2020 Decennial Data, ACS
+  data_sets_text: Census 2020 Decennial Data, ACS
+  description: Assists minority and disenfranchised communities with migration questions
+  details: Assists minority and disenfranchised communities with migration questions
+  image: reROOT.jpg
+  image-alt: 'Dashboard with information on a county''s diversity, '
+  link: reroot.me
+  problem_statement:
+  - recgSop1lyJ8ghl0j
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recJpncr1VUMapbMG
+  tech_team_text: TOP@Harvard
+  title: reROOT
+  year:
+  - 2021
 - Description (Old): Uses nationwide opportunity indexes to make search for opportunity
     more easily obtainable.
   Product Name: Opportunity Enabler
@@ -825,7 +1069,7 @@
   airtable_createdTime: '2020-02-04T21:28:11.000Z'
   airtable_id: recFK3C3oDrmnIwA3
   category:
-  - Entrepreneurship
+  - Entrepreneurship & Small Businesses
   data_sets: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
     Survey; Internal Revenue Service
   data_sets_text: Bureau of Labor Statistics; StatsAmerica; Census Bureau American
@@ -888,6 +1132,35 @@
   title: Sea Scavenger
   year:
   - 2020
+- Product Name: Edquity Rental Assistance
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recFXMGZh0P5fbFTA
+  category:
+  - Housing
+  data_sets: Census Bureau ACS; Urban Institute Priority Index
+  data_sets_text: Census Bureau ACS; Urban Institute Priority Index
+  description: "Assists cities and states to more quickly and equitably administer\
+    \ emergency rental assistance\u2014from application to case management to payments\
+    \ to reporting\u2014to keep the most vulnerable tenants in their homes"
+  details: "Assists cities and states to more quickly and equitably administer emergency\
+    \ rental assistance\u2014from application to case management to payments to reporting\u2014\
+    to keep the most vulnerable tenants in their homes"
+  image: edquity-rental-assistance.jpg
+  image-alt: Arrows point between a property dashboard, application details, pending
+    approval, and pending payment
+  link: https://www.edquity.co/rental-assistance
+  problem_statement:
+  - recfszna1c4jtooN4
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recpgDrjpvTUazyUo
+  tech_team_text: Edquity
+  title: Edquity Rental Assistance
+  year:
+  - 2021
 - Product Name: HealthCheck | Connected Testing Platform
   agencies:
   - U.S. Department of Health and Human Services
@@ -992,6 +1265,32 @@
   title: Data2GO.NYC
   year:
   - 2016
+- Product Name: TrendR
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recIUBOJv52IstXDO
+  category:
+  - Census
+  data_sets: Census Bureau 2020 Data, ACS
+  data_sets_text: Census Bureau 2020 Data, ACS
+  description: 'Enables community organizations working with immigrants from African
+    regions to visualize trends for actionable insights '
+  details: 'Enables community organizations working with immigrants from African regions
+    to visualize trends for actionable insights '
+  image: trendr.jpg
+  image-alt: 'Map of USA displays numbers of African Immigrants admitted by year. '
+  link: https://bocrauwels.shinyapps.io/fall-2021-opportunity-main/
+  problem_statement:
+  - recdkBaZ8qiY98UM4
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recWwtNGU9VDuDpSz
+  tech_team_text: Columbia University QMSS
+  title: TrendR
+  year:
+  - 2021
 - Description (Old): Uses commuting data from the LEHD Origin-Destination Employment
     Statistics, bus & rail transit routes to show commuter flows and gaps in access
     to transit.
@@ -1024,6 +1323,33 @@
   title: Commuter Map
   year:
   - 2016
+- Product Name: greenScan
+  agencies:
+  - U.S. Environmental Protection Agency
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recIklh16YxGUUQmW
+  category:
+  - Environment
+  data_sets: EPA Reduce, Reuse, Recycle
+  data_sets_text: EPA Reduce, Reuse, Recycle
+  description: Increases the awareness of how to recycle single-use plastics and improves
+    recycling habits by informing conscious consumers
+  details: Increases the awareness of how to recycle single-use plastics and improves
+    recycling habits by informing conscious consumers
+  image: greenScan.jpg
+  image-alt: App that allows user to scan a a product, learn about where to recycle
+    and what the numbers mean
+  link: greenscan.app
+  problem_statement:
+  - rec2dxKJmbiIV0Va5
+  sprint:
+  - recfjW4XBdTnujZD7
+  tech_team:
+  - recg0CREqvkTpeCN8
+  tech_team_text: General Assembly
+  title: greenScan
+  year:
+  - 2020
 - Product Name: Edubuddy
   agencies:
   - U.S. Department of State
@@ -1222,6 +1548,94 @@
   title: Grants Intelligence
   year:
   - 2018
+- Product Name: co.alesce
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-29T18:36:04.000Z'
+  airtable_id: recKu2BpDW4yVkhEy
+  category:
+  - Census
+  data_sets: Census 2020 Decennial Data, ACS; IRS; DOE Education Demographic and Geographic
+    Estimates
+  data_sets_text: Census 2020 Decennial Data, ACS; IRS; DOE Education Demographic
+    and Geographic Estimates
+  description: 'Connects local communities to data-driven tools for community engagement
+    and sustainable change through community-activated design workshops and social
+    media toolkits '
+  details: 'Connects local communities to data-driven tools for community engagement
+    and sustainable change through community-activated design workshops and social
+    media toolkits '
+  image: co-alesce.jpg
+  image-alt: Posters with the word circle printed, title that says co-alesce, community-activated
+    design laboratory
+  link: co.alesce.org
+  problem_statement:
+  - recrhEu7bAwQeTEck
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recE9heLLZ25J4oy9
+  tech_team_text: University of Notre Dame
+  title: co.alesce
+  year:
+  - 2021
+- Product Name: 'Bowie State University: The Opportunity Project'
+  agencies:
+  - U.S. Department of the Treasury
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recLnLmYNZAoFQbGs
+  category:
+  - Grants
+  data_sets: USA Spending; CDC Social Vulnerabiltiy Index, Vaccination Data; Census
+    Bureau 2020 Data
+  data_sets_text: USA Spending; CDC Social Vulnerabiltiy Index, Vaccination Data;
+    Census Bureau 2020 Data
+  description: Visualizes COVID vaccination rates and distributions of COVID-19 relief
+    funds to better assess equity
+  details: Visualizes COVID vaccination rates and distributions of COVID-19 relief
+    funds to better assess equity
+  image: bowie-state-university-TOP.jpg
+  image-alt: Scatter plot of series complete pct v. socioeconomic svi
+  link: https://a.flow.gl/flow/3xfvr3 , https://docs.google.com/spreadsheets/d/1DxjDuopJli97RR7ftkyLMrX7Siuoc6pcSfKYZuacnMQ/edit#gid=0
+  problem_statement:
+  - rec3DhHvGbMYMTN1A
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recBfhj7IGqaAnglB
+  tech_team_text: Bowie State University
+  title: 'Bowie State University: The Opportunity Project'
+  year:
+  - 2021
+- Product Name: Asian Owned Boston
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recMqwnUwsE7N5KIL
+  category:
+  - Census
+  data_sets: Census Bureau 2020 Data, ACS
+  data_sets_text: Census Bureau 2020 Data, ACS
+  description: 'An Instagram page that explains the Asian population and related Census
+    data in the Boston area, promotes Asian businesses, and celebrates the diversity
+    of Asian culture '
+  details: 'An Instagram page that explains the Asian population and related Census
+    data in the Boston area, promotes Asian businesses, and celebrates the diversity
+    of Asian culture '
+  image: asian-owned-boston.jpg
+  image-alt: 'Instagram page called Asian Owned Boston, including posts about statistics
+    and featured businesses '
+  link: https://www.instagram.com/asianownedboston/
+  problem_statement:
+  - recrhEu7bAwQeTEck
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recsrv1NBnniDCqOK
+  tech_team_text: Suffolk University
+  title: Asian Owned Boston
+  year:
+  - 2021
 - Description (Old): MIT's tool is a web-based artificial intelligence tool that helps
     journalists, philanthropists, public servants, and policy advocates to search
     Census Bureau, FBI, and CDC public data on demographics, criminal justice, public
@@ -1315,6 +1729,33 @@
   title: Training Finder
   year:
   - 2016
+- Product Name: Forerunner Floodplain Management Dashboard
+  agencies:
+  - National Oceanic and Atmospheric Administration
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recPqJziDWZAdmU6C
+  category:
+  - Census
+  data_sets: 'FEMA NFHL; NOAA NGS '
+  data_sets_text: 'FEMA NFHL; NOAA NGS '
+  description: Enables local government floodplain managers to effectively communicate
+    flood risk and track changes in their community
+  details: Enables local government floodplain managers to effectively communicate
+    flood risk and track changes in their community
+  image: forerunner-floodplain-management-dashboard.jpg
+  image-alt: Floodplain dashboard with a map that indicates flood risk areas in Bay
+    Head, NJ
+  link: app.withforerunner.com
+  problem_statement:
+  - recbjIUzjzLZ5KmJS
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - reclIJejOdIW2rrEK
+  tech_team_text: Forerunner
+  title: Forerunner Floodplain Management Dashboard
+  year:
+  - 2021
 - Description (Old): Helping low income families overcome the stress of finding affordable
     housing this tool combines transit access, walkability and school information
     into one unique feed of available properties.
@@ -1707,6 +2148,32 @@
   title: Data.World Workspace
   year:
   - 2016
+- Product Name: Frontdoor
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recV3g7EStarxT30F
+  category:
+  - Housing
+  data_sets: CFPB; National Low Income Housing Coalition
+  data_sets_text: CFPB; National Low Income Housing Coalition
+  description: Simplifies the process of applying for emergency rental assistance
+    for low-income renters
+  details: Simplifies the process of applying for emergency rental assistance for
+    low-income renters
+  image: frontdoor.jpg
+  image-alt: Interactive survey that walks through the rental application process
+  link: frontdoor.nationalfairhousing.org
+  problem_statement:
+  - recfszna1c4jtooN4
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recQHXbB2lUGyhaF5
+  tech_team_text: National Fair Housing Alliance
+  title: Frontdoor
+  year:
+  - 2021
 - Description (Old): Uses HUD rental data to identify areas that present a high-opportunity
     for families to supplement their housing costs through renting excess rooms or
     units.
@@ -1779,7 +2246,7 @@
   airtable_createdTime: '2020-02-04T21:28:23.000Z'
   airtable_id: recWyKy6qT8GX7jT8
   category:
-  - Entrepreneurship
+  - Entrepreneurship & Small Businesses
   data_sets: "Small Business Administration \u2018Find Local Assistance\u2019 resource"
   data_sets_text: "Small Business Administration \u2018Find Local Assistance\u2019\
     \ resource"
@@ -2066,6 +2533,39 @@
   title: FindHello
   year:
   - 2020
+- Product Name: SafeDigi-ID
+  agencies:
+  - City of Coral Gables
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recZRmad1YaKIWGoI
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: Census Bureau Small Business Pulse Survey, Coral Gables Reopening of
+    the Economy Report
+  data_sets_text: Census Bureau Small Business Pulse Survey, Coral Gables Reopening
+    of the Economy Report
+  description: Enhances data privacy for business owners and their employees and customers,
+    as well as prevents business data privacy breaches, expedites employee onboarding,
+    and facilitates certification, training and licensing efficiency for small and
+    medium businesses
+  details: Enhances data privacy for business owners and their employees and customers,
+    as well as prevents business data privacy breaches, expedites employee onboarding,
+    and facilitates certification, training and licensing efficiency for small and
+    medium businesses
+  image: safedigi-ID.jpg
+  image-alt: Phone with a screen that indicates options to select an industry between
+    food services, real estate, and insurance
+  link: http://www.safedigisolutions.com/
+  problem_statement:
+  - recODy3F77656gS8i
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - reci0pISAbFxUNizU
+  tech_team_text: Government Blockchain Association
+  title: SafeDigi-ID
+  year:
+  - 2021
 - Description (Old): "Socrata\u2019s Citizen Education Data Cloud leveraged data from\
     \ the Census Bureau, Civil Rights Data Collection Program, the National Center\
     \ for Education Statistics, and the Department of Education to fuse together disparate,\
@@ -2136,6 +2636,33 @@
   title: Tract by Tract
   year:
   - 2019
+- Product Name: 'AWS Community Chatbot '
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recZvw1TaVBYmjdhT
+  category:
+  - Housing
+  data_sets: CFPB; National Low Income Housing Coalition
+  data_sets_text: CFPB; National Low Income Housing Coalition
+  description: 'Provides pertinent and location-specific information to individual
+    renters and small business landlords who require federal or state and local rental
+    assistance  '
+  details: 'Provides pertinent and location-specific information to individual renters
+    and small business landlords who require federal or state and local rental assistance  '
+  image: aws-community-chatbot.jpg
+  image-alt: Rental Assistance Chatbot Conversation
+  link: https://d1mxrjbkixwx99.cloudfront.net/index.html
+  problem_statement:
+  - recfszna1c4jtooN4
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recXoAE0afNABnu4b
+  tech_team_text: Amazon Web Services
+  title: 'AWS Community Chatbot '
+  year:
+  - 2021
 - Product Name: Julius Career Journey Program
   agencies:
   - U.S. Department of Housing and Urban Development
@@ -2288,6 +2815,33 @@
   title: Community Led Opportunity Zones
   year:
   - 2019
+- Product Name: MSI COVID Relief Dashboard for Equity and Transparency
+  agencies:
+  - U.S. Department of the Treasury
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recbGJIKoXCGreW6P
+  category:
+  - Grants
+  data_sets: DOE Degree-Granting Institutions; USAspending Federal Spending Awards
+  data_sets_text: DOE Degree-Granting Institutions; USAspending Federal Spending Awards
+  description: Analyzes equity of COVID-19 relief award distribuiton for federal,
+    state, and local officials and organizations
+  details: Analyzes equity of COVID-19 relief award distribuiton for federal, state,
+    and local officials and organizations
+  image: msi-covid-relief-dashboard.jpg
+  image-alt: Map of USA that shows the amount of financial relief received by minority
+    serving institutions
+  link: https://app.flow.gl/flow/kuo62d54
+  problem_statement:
+  - rec3DhHvGbMYMTN1A
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recuIWir4w1QY9pIU
+  tech_team_text: Morehouse College
+  title: MSI COVID Relief Dashboard for Equity and Transparency
+  year:
+  - 2021
 - Description (Old): RefugeeAssist uses WRAPSnet data (State Dept) and BroadbandUSA
     data (NTIA) to allow refugees to identify community resources near them during
     and after their resettlement period.
@@ -2356,6 +2910,34 @@
   title: Community Counts
   year:
   - 2019
+- Product Name: XamineYourWorld
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: reccSg5kioOKUkPNu
+  category:
+  - Census
+  data_sets: 'Census Bureau 2020 Data, ACS '
+  data_sets_text: 'Census Bureau 2020 Data, ACS '
+  description: Helps K-12 students, teachers, and education stakeholders build data
+    literacy skills through analyzing, assessing, and taking action with Census data
+    visualizations
+  details: Helps K-12 students, teachers, and education stakeholders build data literacy
+    skills through analyzing, assessing, and taking action with Census data visualizations
+  image: xamine-your-world.jpg
+  image-alt: Interactive map that says let's explore the US and displays population,
+    income, and education information
+  link: '  https://decennialcensusdataliteracy2021.shinyapps.io/TOProject/'
+  problem_statement:
+  - reccHr0aPWZzFbgi8
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recP532wcyIIxk80H
+  tech_team_text: American University
+  title: XamineYourWorld
+  year:
+  - 2021
 - Description (Old): Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department
     of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
     Commission data to bring transparency to the Opportunity Zone ecosystem for investors,
@@ -2458,6 +3040,32 @@
   title: Fulcrum Community for Addressing and Disaster Preparedness
   year:
   - 2018
+- Product Name: Hard-to-Count Conversations
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recf8RNJQ752qdIJO
+  category:
+  - Census
+  data_sets: Census Bureau 2020 Data
+  data_sets_text: Census Bureau 2020 Data
+  description: Inclusively engages racial and ethnic minorities in hard-to-count communities
+    around 2020 Census data
+  details: Inclusively engages racial and ethnic minorities in hard-to-count communities
+    around 2020 Census data
+  image: hard-to-count-conversations.jpg
+  image-alt: Image of Hard-To-Count Conversation Card with a Census statistic
+  link: https://www.canva.com/design/DAEv1sleRvE/share/preview?token=4gyylxaMkWQxra2WZJufUg&role=EDITOR&utm_content=DAEv1sleRvE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+  problem_statement:
+  - recrhEu7bAwQeTEck
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recAx3uBSJpP8Gj3Z
+  tech_team_text: University of North Texas
+  title: Hard-to-Count Conversations
+  year:
+  - 2021
 - Description (Old): "IBM\u2019s tool Watson Employment Manager uses DOL Career One\
     \ Stop, O*NET  center, Walkingscore.com, and Google maps data to provide career\
     \ recommendations on potential job/apprenticeship matches based on conceptual\
@@ -2529,6 +3137,61 @@
   title: Job Opportunity Tool
   year:
   - 2019
+- Product Name: Digisults Report
+  agencies:
+  - City of Coral Gables
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recg3vX5qSdZI8Hg8
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: Census Bureau ACS, County Business Patterns, Community Resilience Estimates;
+    SBA Small Business Size Standards
+  data_sets_text: Census Bureau ACS, County Business Patterns, Community Resilience
+    Estimates; SBA Small Business Size Standards
+  description: Helps small business owners make savy marketing decisions to grow their
+    businesses and recover from the pandemic
+  details: Helps small business owners make savy marketing decisions to grow their
+    businesses and recover from the pandemic
+  image: digisults-report.jpg
+  image-alt: Webpage hero section with a hand drawing a building and people. 100%
+    free information to help you grow your business
+  link: https://www.digisultsreport.com/
+  problem_statement:
+  - recODy3F77656gS8i
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recclQFtt6qsfnVX2
+  tech_team_text: Digisults
+  title: Digisults Report
+  year:
+  - 2021
+- Product Name: Floodware
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recgvXcTS2xjaw2lk
+  category:
+  - Census
+  data_sets: 'Census Bureau 2020 Data, ACS '
+  data_sets_text: 'Census Bureau 2020 Data, ACS '
+  description: 'Identifies risk and demographics of flood-vulnerable communities for
+    Florida''s government and community decision-makers '
+  details: 'Identifies risk and demographics of flood-vulnerable communities for Florida''s
+    government and community decision-makers '
+  image: floodware.jpg
+  image-alt: 'Flood risk assessment map that displays the community risk score '
+  link: https://learngis2.maps.arcgis.com/apps/instant/minimalist/index.html?appid=046b2e4637ec4c57b36b257d27c11723
+  problem_statement:
+  - recdkBaZ8qiY98UM4
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recnjKv9aQMfe5Ya0
+  tech_team_text: Philander Smith College
+  title: Floodware
+  year:
+  - 2021
 - Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
   Product Name: Streetwyze
   agencies:
@@ -2876,8 +3539,6 @@
   title: Kanarys
   year:
   - 2019
-- airtable_createdTime: '2021-05-10T14:41:36.000Z'
-  airtable_id: reckh1lCFZTVUS1qa
 - Product Name: America's Community Collaboration Platform
   agencies:
   - U.S. Department of Housing and Urban Development
@@ -2917,6 +3578,34 @@
   title: America's Community Collaboration Platform
   year:
   - 2020
+- Product Name: Community LifeRAFT
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: reclOOlAUXgdJgW1h
+  category:
+  - Census
+  data_sets: Census Bureau 2020 Redistricting Data, ACS, Community Resilience Estimates
+  data_sets_text: Census Bureau 2020 Redistricting Data, ACS, Community Resilience
+    Estimates
+  description: Combines and analyses U.S. Census Bureau data to help decision makers
+    boost neighborhood economic resilience
+  details: Combines and analyses U.S. Census Bureau data to help decision makers boost
+    neighborhood economic resilience
+  image: community-lifeRAFT.jpg
+  image-alt: Resilience Drilldow Tool that displays the Census tract and population
+    risk factor
+  link: communityliferaft.com
+  problem_statement:
+  - recdkBaZ8qiY98UM4
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recaRrbesdQpryjgj
+  tech_team_text: Harvard University metaLAB
+  title: Community LifeRAFT
+  year:
+  - 2021
 - Description (Old): Solve uses NAICs codes and National Certifications Table to organize
     industries to better connect skills, certifications, industries and outcomes of
     training programs towards the right jobs in the right industry.
@@ -2955,6 +3644,35 @@
   title: Solve
   year:
   - 2019
+- Product Name: Pandemic Moves
+  agencies:
+  - U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recmV1xmtL2zgY4AA
+  category:
+  - Housing
+  - Economic Development
+  data_sets: Census Bureau
+  data_sets_text: Census Bureau
+  description: Uses Mapbox Movement and Redfin Home Sales to identify how change in
+    settlement patterns during the pandemic have impacted infrastructure for local
+    decision makers
+  details: Uses Mapbox Movement and Redfin Home Sales to identify how change in settlement
+    patterns during the pandemic have impacted infrastructure for local decision makers
+  image: pandemic-moves.jpg
+  image-alt: Image of tool with map of San Francisco that labels areas of change,
+    pre pandemic and post pandemic
+  link: https://mikel.akuko.io/post/3e4a086a-96a9-4a2d-aaea-532d3bfde067
+  problem_statement:
+  - recsbfXyfEmL6eaDo
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - rec8MQ3E6jwywYtZ1
+  tech_team_text: Mapbox & Redfin
+  title: Pandemic Moves
+  year:
+  - 2021
 - Description (Old): This tool from Measure of America combines various data critical
     to the well being of New Yorkers.
   Product Name: Visualizing Youth Disconnection
@@ -3051,6 +3769,34 @@
   title: Insight for ArcGIS
   year:
   - 2018
+- Product Name: Reporting Stories with Census Data
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recnXm8sjz3XWGVhZ
+  category:
+  - Census
+  data_sets: 'Census Bureau 2010 and 2020 Data, ACS '
+  data_sets_text: 'Census Bureau 2010 and 2020 Data, ACS '
+  description: Uses data from the 2020 Census and the American Community Survey to
+    report on prison populations, LGBTQ+ communities and the Asian American population
+    in NYC
+  details: Uses data from the 2020 Census and the American Community Survey to report
+    on prison populations, LGBTQ+ communities and the Asian American population in
+    NYC
+  image: reporting-stories-with-census-data.jpg
+  image-alt: Columbia Journalism School TOP Projects
+  link: https://cjs-top.glitch.me/
+  problem_statement:
+  - recrhEu7bAwQeTEck
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - reckapu34bMjFzPJ6
+  tech_team_text: Columbia Journalism School
+  title: Reporting Stories with Census Data
+  year:
+  - 2021
 - Product Name: Companion App for COVID Testing
   agencies:
   - U.S. Department of Health and Human Services
@@ -3248,9 +3994,9 @@
   datasets copy:
   - recSPs8xaWdWjtmOQ
   description: Assesses suicide and other risk in patients and guides them through
-    crisis to available support resource
+    crisis to available support resources
   details: Assesses suicide and other risk in patients and guides them through crisis
-    to available support resource
+    to available support resources
   problem_statement:
   - recIGFiEZlWX5XzD9
   sprint:
@@ -3261,6 +4007,37 @@
   title: TextHelp
   year:
   - 2016
+- Product Name: SafetyNet
+  agencies:
+  - City of Coral Gables
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recqQaCeRE9efEmAf
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: Census Bureau Small Business Pulse Survey; Coral Gables Reopening of
+    the Economy Report
+  data_sets_text: Census Bureau Small Business Pulse Survey; Coral Gables Reopening
+    of the Economy Report
+  description: "Solves small businesses\u2019 pain points in adopting digital capabilities\
+    \ and funding organizations\u2019 lack of visibility for data-driven investment\
+    \ decisions. "
+  details: "Solves small businesses\u2019 pain points in adopting digital capabilities\
+    \ and funding organizations\u2019 lack of visibility for data-driven investment\
+    \ decisions. "
+  image: safetyNet.jpg
+  image-alt: Opening page of SafetyNet Website with the title growing online is the
+    future. Can it be your business' safety net?
+  link: https://production-cybertrustamerica.secure.force.com/safetynet
+  problem_statement:
+  - recODy3F77656gS8i
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - rec5lh0YkDyzLmBFG
+  tech_team_text: Cybertrust America
+  title: SafetyNet
+  year:
+  - 2021
 - Product Name: NAIP Downloader and Education Modules
   agencies:
   - U.S. Department of Agriculture
@@ -3289,6 +4066,64 @@
   title: NAIP Downloader and Education Modules
   year:
   - 2020
+- Product Name: Remote vs. Onsite Housing Affordability Dashboard
+  agencies:
+  - U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recqfDa5vMII3tNfA
+  category:
+  - Housing
+  - Economic Development
+  data_sets: Census Bureau ACS; BLS ONET
+  data_sets_text: Census Bureau ACS; BLS ONET
+  description: Allows users to explore disparities in income and housing cost burdens
+    between workers in remote-friendly occupations and those whose jobs require them
+    to be onsite
+  details: Allows users to explore disparities in income and housing cost burdens
+    between workers in remote-friendly occupations and those whose jobs require them
+    to be onsite
+  image: remote-v-onsite-housing-affordability-dashboard.jpg
+  image-alt: Map of the Northeast and the median rent burden for workers in onsite
+    occupations
+  link: https://public.tableau.com/app/profile/apartment.list.research/viz/Remote_Onsite_Housing_Affordability/dashboard_full?publish=yes
+  problem_statement:
+  - recsbfXyfEmL6eaDo
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recZ2JcS4tmJSwTJh
+  tech_team_text: Apartment List
+  title: Remote vs. Onsite Housing Affordability Dashboard
+  year:
+  - 2021
+- Product Name: Predictive Equity Index Model
+  agencies:
+  - U.S. Department of the Treasury
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recrVhyXCCF3zds1f
+  category:
+  - Grants
+  data_sets: Census Bureau 2020 Data, Annual Business Survey; SBA PPP Data
+  data_sets_text: Census Bureau 2020 Data, Annual Business Survey; SBA PPP Data
+  description: Uses machine learning and predictive analytics to analyze federal data
+    and understand key drivers of equity and their respective impacts on the distribution
+    of PPP loans for county, state, and national level policy makers
+  details: Uses machine learning and predictive analytics to analyze federal data
+    and understand key drivers of equity and their respective impacts on the distribution
+    of PPP loans for county, state, and national level policy makers
+  image: predictive-equity-index-model.jpg
+  image-alt: Visualization of equity drivers, equity index and performance outcomes
+  link: https://work.themomproject.com/predictiveequity
+  problem_statement:
+  - rec3DhHvGbMYMTN1A
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recwAfHEYJNrLWZ2S
+  tech_team_text: The Mom Project
+  title: Predictive Equity Index Model
+  year:
+  - 2021
 - Description (Old): The California Latino Power Map uses federal, California state,
     and city level open data to showcase Latino leadership across California and make
     plain both the opportunities and the challenges that Latino communities encounter
@@ -3329,6 +4164,37 @@
   title: California Latino Power Map
   year:
   - 2019
+- Product Name: Voyager
+  agencies:
+  - U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recrsHrE7a4YPTluc
+  category:
+  - Housing
+  - Economic Development
+  data_sets: 'Census Bureau ACS, Household Pulse Survey '
+  data_sets_text: 'Census Bureau ACS, Household Pulse Survey '
+  description: "Uses mobile device data to help federal, state, and city leaders to\
+    \ track COVID migration patterns across the United States, understand the impacts\
+    \ to a specific location against key opportunity areas\u2014including housing\
+    \ and employment\u2014and predict where gaps and opportunities may result  "
+  details: "Uses mobile device data to help federal, state, and city leaders to track\
+    \ COVID migration patterns across the United States, understand the impacts to\
+    \ a specific location against key opportunity areas\u2014including housing and\
+    \ employment\u2014and predict where gaps and opportunities may result  "
+  image: voyager.jpg
+  image-alt: Interactive map of USA that shows counties by population and migration
+  link: https://hud-housing-migration.carto.io/
+  problem_statement:
+  - recsbfXyfEmL6eaDo
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recCsJxnxjlIyzCGT
+  tech_team_text: CARTO and Google
+  title: Voyager
+  year:
+  - 2021
 - Description (Old): Customizable data briefs use school-level data to help local
     school districts and education foundations inform parents and the electorate about
     the need for more funding.
@@ -3387,6 +4253,35 @@
   title: PolicyMap Tool
   year:
   - 2016
+- Product Name: Behind the Numbers
+  agencies:
+  - U.S. Census Bureau
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: rectEz89xTpElsgLH
+  category:
+  - Census
+  data_sets: Census Bureau 2020 Data, ACS, Current Population Survey Food Security
+    Supplement
+  data_sets_text: Census Bureau 2020 Data, ACS, Current Population Survey Food Security
+    Supplement
+  description: Creates an empathetic and accurate picture of hunger in the United
+    States for those who may volunteer or donate to food aid programs
+  details: Creates an empathetic and accurate picture of hunger in the United States
+    for those who may volunteer or donate to food aid programs
+  image: behind-the-numbers.jpg
+  image-alt: Behind the Numbers, photo of woman sitting at a desk. There is a small
+    description that explains how the food pantry helped get her back on her feet
+  link: https://ccl-food-insecurity.glitch.me/
+  problem_statement:
+  - reccHr0aPWZzFbgi8
+  sprint:
+  - recAocia3ypyTShB1
+  tech_team:
+  - recZPTM3f3o6fXaot
+  tech_team_text: Carnegie Mellon University
+  title: Behind the Numbers
+  year:
+  - 2021
 - Product Name: Emergency & Disaster Funding Tracking
   agencies:
   - Office of Management and Budget
@@ -3626,6 +4521,33 @@
   title: CareerSpark
   year:
   - 2016
+- Product Name: City Builder
+  agencies:
+  - National Oceanic and Atmospheric Administration
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recwQPcVWQncrk4vH
+  category:
+  - Environment
+  data_sets: EPA  Air Quality Index; Census ACS
+  data_sets_text: EPA  Air Quality Index; Census ACS
+  description: Provides investors, developers, municipalities, and community members
+    with data-driven insights to make meaningful, place-based investments
+  details: Provides investors, developers, municipalities, and community members with
+    data-driven insights to make meaningful, place-based investments
+  image: city-builder2.jpg
+  image-alt: Screens of the city builder app, saying where private capital meets public
+    growth
+  link: https://www.citivelocity.com/citybuilder/eppublic/cb/us
+  problem_statement:
+  - recbjIUzjzLZ5KmJS
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recWU7wQtwNIwHE6H
+  tech_team_text: Citi Ventures
+  title: City Builder
+  year:
+  - 2021
 - Description (Old): Burning Glass Technologies used federal open data from the Department
     of Labor and US Census Bureau, proprietary Burning Glass data on labor market
     demand, and public data from the US Cluster Mapping Project to assist regional
@@ -3778,6 +4700,33 @@
   title: PAIRIN Pathways
   year:
   - 2017
+- Product Name: BCA Culture
+  agencies:
+  - Minority Business Development Agency
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recxmBfnM4EmxOHwT
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: SBA
+  data_sets_text: SBA
+  description: Offers a step-by-step system to position companies to get approved
+    for higher limit business credit and funding
+  details: Offers a step-by-step system to position companies to get approved for
+    higher limit business credit and funding
+  image: bca-culture.jpg
+  image-alt: Website hero image with a title that says business credit and funding
+    just got easier
+  link: https://bcaculture.com
+  problem_statement:
+  - rec2hm93Hd703vhHw
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recYJrdB0YtvW7rFh
+  tech_team_text: BCA Culture
+  title: BCA Culture
+  year:
+  - 2021
 - Description (Old): Enables researchers to unobtrusively measure everyday behavior
     and integrate open data on local hazards & resources to build a risk state detection
     algorithm that powers precise, life-saving mental health interventions.
@@ -3814,6 +4763,7 @@
   Product Name: The EnVision App
   agencies:
   - U.S. Department of Housing and Urban Development
+  - Consumer Financial Protection Bureau
   airtable_createdTime: '2021-02-19T18:53:24.000Z'
   airtable_id: recyKI9exBfBtz1hr
   category:
@@ -3839,15 +4789,18 @@
   link: https://www.ops1.com/envision.aspx
   problem_statement:
   - recD4rN8c5sH3ECRi
+  - recfszna1c4jtooN4
   sprint:
   - recMpslqDTkD8bJoj
   - recTxx36IPxHdegzX
+  - recjkCdpt4YKEx7Ae
   tech_team:
   - recYN8Gz2O6ERs3y3
   tech_team_text: '"Organizational Performance Systems, Inc."'
   title: The EnVision App
   year:
   - 2020
+  - 2021
 - Description (Old): The NAIP explorer uses NAIP imagery to provides a gentle on-ramp
     and very simple way to explore imagery for users at USDA and the farmers they
     serve.

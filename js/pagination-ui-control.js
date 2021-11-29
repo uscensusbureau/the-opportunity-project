@@ -4,7 +4,7 @@ class PaginationUIControl {
     this.numPerPage = numPerPage
     this.currPage = 0
     this.onShowPage = onShowPage
-
+    this.numberButtons = 1
     if (this.navEl) {
       // add event listeners
       this.numberButtons = this.navEl.getElementsByClassName('usa-pagination__page-no')

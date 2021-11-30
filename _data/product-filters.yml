@@ -6,7 +6,7 @@ topics:
   - Economic Development
   - Education
   - Employment
-  - Entrepreneurship
+  - Entrepreneurship & Small Businesses
   - Environment
   - Grants
   - Health
@@ -25,6 +25,8 @@ years:
   - 2021
 agencies:
   - label: Census Bureau
+  - label: City of Coral Gables
+  - label: Consumer Financial Protection Bureau
   - label: Environmental Protection Agency
   - label: Department of Agriculture
   - label: Department of Education
@@ -39,6 +41,9 @@ agencies:
   - label: Economic Development Administration
   - label: Federal Emergency Management Agency
   - label: Forest Service
+  - label: Minority Business Development Agency
+  - label: National Oceanic and Atmospheric Administration
+  - label: New York City Mayor's Office of the Chief Technology Officer
   - label: Office of Management and Budget
   - label: Office of the U.S. Surgeon General
   - label: The Wilson Center
@@ -46,4 +51,3 @@ agencies:
     value: USA for United Nations High Commissioner for Refugees
   - label: White House Council of Economic Advisors
   - label: White House Office of Science and Technology Policy
-  

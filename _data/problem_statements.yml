@@ -116,6 +116,7 @@
   - recaRsKbgtQOavIpx
   - recxNb6AkmDER2KXh
   - rec0sJ3TvQo6mykBz
+  - recIklh16YxGUUQmW
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: U.S. recycling facilities and manufacturers looking
@@ -171,7 +172,7 @@
   image-alt: Workers collecting recycling
   organizations:
   - recDJthxFdnCkkHXX
-  products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
+  products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc, greenScan
   sprint_order: 2
   sprint_text: Natural Environment
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
@@ -179,6 +180,9 @@
   Executive champion: Edith McCloud, Acting National Director, MBDA
   Full Title: "Improving Minority Businesses\u2019 Access to Capital"
   Name: "Improving Minority Businesses\u2019 Access to Capital"
+  Products:
+  - rec4AWZDSqgQ6wQFm
+  - recxmBfnM4EmxOHwT
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -221,6 +225,7 @@
   pdf: 2021-problem-statements/post-covid/MBDA_Improving Minority Businesses Access
     to Capital.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__MBDA.pdf
+  products_text: Archymedes, BCA Culture
   sprint_order: 1
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Las empresas de minor\xEDas son fundamentales para las econom\xEDas nacional\
@@ -269,6 +274,11 @@
     US Treasury Department '
   Full Title: Analyzing Equity in Federal COVID-19 Spending
   Name: Analyzing Equity in Federal COVID-19 Spending
+  Products:
+  - recbGJIKoXCGreW6P
+  - recAriCZP8D5zkLQr
+  - recrVhyXCCF3zds1f
+  - recLnLmYNZAoFQbGs
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -309,6 +319,9 @@
   pdf: 2021-problem-statements/post-covid/Treasury_ Analyzing Equity in Federal COVID-19
     Spending.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__Treasury.pdf
+  products_text: 'MSI COVID Relief Dashboard for Equity and Transparency, Child Care
+    Planning Assessment Tool, Predictive Equity Index Model, Bowie State University:
+    The Opportunity Project'
   sprint_order: 2
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Durante el curso de la pandemia de COVID-19, el gobierno federal [ha destinado\
@@ -933,6 +946,9 @@
   airtable_id: recCTI1VBSwUOl4Tq
   products_text: Data.World Workspace, OpenData Network
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Name: problem_statement
+  airtable_createdTime: '2021-11-24T19:53:22.000Z'
+  airtable_id: recCkB84shhdkIcSQ
 - Challenge: Create digital collaboration platforms that enable low income families
     to holistically assess their needs and connect with the best federal, state and
     local programs to equip and empower them toward self-sufficiency and economic
@@ -1504,6 +1520,11 @@
   Executive champion: Ed Santamaria, Assistant City Manager, City of Coral Gables
   Full Title: Helping Small Businesses Thrive in a Digital Economy
   Name: Helping Small Businesses Thrive in a Digital Economy
+  Products:
+  - recg3vX5qSdZI8Hg8
+  - recZRmad1YaKIWGoI
+  - recqQaCeRE9efEmAf
+  - rec4C9fTa4yYao2mK
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1553,6 +1574,7 @@
   pdf: 2021-problem-statements/post-covid/Coral Gables_ Helping Small Businesses Thrive
     in a Digital Economy.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__Coral-Gables.pdf
+  products_text: Digisults Report, SafeDigi-ID, SafetyNet, The City Portrait
   sprint_order: 7
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Tras la pandemia del COVID-19, muchas peque\xF1as empresas lucharon para\
@@ -1954,6 +1976,11 @@
   Executive champion: Tony LaVoi, Chief Data Officer, NOAA
   Full Title: Tackling the Climate Crisis through Climate-Smart Communities
   Name: Tackling the Climate Crisis through Climate-Smart Communities
+  Products:
+  - recwQPcVWQncrk4vH
+  - rec1IW7qqlzejpNGy
+  - recPqJziDWZAdmU6C
+  - rec2eC4jRTNiwMsQw
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2061,6 +2088,9 @@
   pdf: 2021-problem-statements/post-covid/NOAA_ Tackling the Climate Crisis through
     Climate-Smart Communities.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__NOAA.pdf
+  products_text: City Builder, Community Resilience Data Guide, Forerunner Floodplain
+    Management Dashboard, Mayday.ai Realtime Risk and Disaster Intelligence (Resilient
+    USA 2.0)
   sprint_order: 3
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Eventos extremos y los cambios en los patrones de temperatura y precipitaci\xF3\
@@ -2127,6 +2157,11 @@
     Census data to build data literacy skills.
   Full Title: 'Improving Data Literacy Using Decennial Census Data '
   Name: Improving Data Literacy
+  Products:
+  - rectEz89xTpElsgLH
+  - reccSg5kioOKUkPNu
+  - rec6FRrwmfNsGtZcu
+  - rec1fgYB6rdXTp52J
   Sprints:
   - recAocia3ypyTShB1
   Target audience / End user: Under-funded communities; librarians; community organizers;
@@ -2160,6 +2195,8 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-ImprovingDataLiteracy.pdf
+  products_text: Behind the Numbers, XamineYourWorld, Cens(US), Libraries Need Diverse
+    Books
   sprint_order: 3
   sprint_text: 2020 Census Data
 - Agency Leads:
@@ -2212,6 +2249,11 @@
   Full Title: Assisting Businesses, Community, and State/Local Government Leaders
     to Make Critical Decisions Using Decennial Data
   Name: Local Decision Making
+  Products:
+  - recgvXcTS2xjaw2lk
+  - reclOOlAUXgdJgW1h
+  - recIUBOJv52IstXDO
+  - recEhPFv4wMEUSOAJ
   Sprints:
   - recAocia3ypyTShB1
   Target audience / End user: Business decision makers, community and nonprofit organizations,
@@ -2261,6 +2303,7 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-AssistingDecisionMaking.pdf
+  products_text: Floodware, Community LifeRAFT, TrendR, reROOT
   sprint_order: 2
   sprint_text: 2020 Census Data
 - Challenge: Develop digital tools to prevent financial hardship and housing insecurity
@@ -2268,6 +2311,11 @@
   Executive champion: Dave Uejio, Acting Director, CFPB
   Full Title: Preventing Crisis for Low-Income Renters & Small Landlords
   Name: Preventing Crisis for Low-Income Renters & Small Landlords
+  Products:
+  - recV3g7EStarxT30F
+  - recFXMGZh0P5fbFTA
+  - recZvw1TaVBYmjdhT
+  - recyKI9exBfBtz1hr
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2313,6 +2361,8 @@
   pdf: 2021-problem-statements/post-covid/CFPB_ Preventing Crisis for Low-Income Renters
     & Small Landlords.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__CFPB.pdf
+  products_text: Frontdoor, Edquity Rental Assistance, AWS Community Chatbot , The
+    EnVision App
   sprint_order: 4
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "La inseguridad de vivienda, o el acceso a vivienda asequible para hogares\
@@ -2839,6 +2889,11 @@
     and inclusively engage hard-to-count communities in 2020 Census data.  '
   Full Title: Inclusive and Creative 2020 Census Data Engagement
   Name: Inclusive Data Engagement
+  Products:
+  - recMqwnUwsE7N5KIL
+  - recf8RNJQ752qdIJO
+  - recnXm8sjz3XWGVhZ
+  - recKu2BpDW4yVkhEy
   Sprints:
   - recAocia3ypyTShB1
   Target audience / End user: "Historically undercounted populations such as:\n- LGBTQ+\n\
@@ -2877,6 +2932,8 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-InclusiveDataEngagement.pdf
+  products_text: Asian Owned Boston, Hard-to-Count Conversations, Reporting Stories
+    with Census Data, co.alesce
   sprint_order: 1
   sprint_text: 2020 Census Data
 - Challenge: Use data to help stakeholders understand post-pandemic housing and migration
@@ -2884,8 +2941,12 @@
     data driven predictions and recommendations.
   Executive champion: Kurt G. Usowski, Ph.D., Deputy Assistant Secretary for Economic
     Affairs, U.S. Department of Housing and Urban Development
-  Full Title: Analyzing Housing and Migration Trends Post-COVID 19
-  Name: Analyzing Housing and Migration Trends Post-COVID 19
+  Full Title: Analyzing Housing and Migration Trends Post-COVID-19
+  Name: Analyzing Housing and Migration Trends Post-COVID-19
+  Products:
+  - recmV1xmtL2zgY4AA
+  - recrsHrE7a4YPTluc
+  - recqfDa5vMII3tNfA
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2945,6 +3006,8 @@
   pdf: 2021-problem-statements/post-covid/HUD_ Analyzing Housing and Migration Trends
     Post-COVID 19.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__HUD.pdf
+  products_text: Pandemic Moves, Voyager, Remote vs. Onsite Housing Affordability
+    Dashboard
   sprint_order: 5
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "El Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD) ha\
@@ -2978,6 +3041,8 @@
     s Office"
   Full Title: Increasing Content Accessibility for Multilingual Communities
   Name: Increasing Content Accessibility for Multilingual Communities
+  Products:
+  - recAe4qaOrsmwsz7C
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3004,7 +3069,7 @@
     \ critical information in a timely manner.  In an emergency situation, and during\
     \ an economic recovery from crises such as COVID-19, if people lack equal access\
     \ to usable information, how can we ensure an equitable recovery?"
-  agency_text: New York City Maryor's Office of the Chief Technology Officer
+  agency_text: New York City Mayor's Office of the Chief Technology Officer
   airtable_createdTime: '2021-06-28T20:23:56.000Z'
   airtable_id: recxiyHz22AqIcSU6
   audience-esp: "Gobiernos locales y NGO que necesiten comunicarse con hablantes de\
@@ -3028,6 +3093,7 @@
   pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
     Multilingual Communities.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__New-York.pdf
+  products_text: Wordly Real-Time Translation
   sprint_order: 6
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Con m\xE1s de 3 millones de residentes nacidos en el extranjero provenientes\

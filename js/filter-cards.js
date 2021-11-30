@@ -212,7 +212,8 @@ function displayFilteredProducts(pageNum = 0) {
     const productAgency = card.getElementsByTagName("h5")[0]
       ? card
           .getElementsByTagName("h5")[0]
-          .innerText.toLowerCase()
+          .innerText.trim()
+          .toLowerCase()
           .split(" ")
           .join("-")
       : "";
@@ -239,6 +240,9 @@ function displayFilteredProducts(pageNum = 0) {
 
     card.classList.remove("pc-active");
     card.classList.add("pc-inactive");
+
+    // FIXME
+    console.log({ productAgency, searchMatch });
 
     if (searchMatch && filterMatch) {
       filteredProducts.push(card);

@@ -56,14 +56,10 @@
   link: https://demo.ecobloc.io
   problem_statement:
   - rec2dxKJmbiIV0Va5
-  sprint:
-  - recfjW4XBdTnujZD7
   tech_team:
   - recfOvlEY9mHSLZqc
   tech_team_text: Eco Bloc
   title: ECO Bloc
-  year:
-  - 2020
 - Product Name: Community Resilience Data Guide
   agencies:
   - National Oceanic and Atmospheric Administration
@@ -1340,15 +1336,15 @@
     and what the numbers mean
   link: https://greenscan.app
   problem_statement:
-  - rec2dxKJmbiIV0Va5
+  - recFNAXdBZ4ouFgDx
   sprint:
-  - recfjW4XBdTnujZD7
+  - rec4vys7lW5OufL2k
   tech_team:
   - recg0CREqvkTpeCN8
   tech_team_text: General Assembly
   title: greenScan
   year:
-  - 2020
+  - 2021
 - Product Name: Edubuddy
   agencies:
   - U.S. Department of State

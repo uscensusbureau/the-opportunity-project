@@ -1,103 +1,109 @@
-const PaginationUIControl = require('./pagination-ui-control.js')
-const $ = require('jquery')
+const PaginationUIControl = require("./pagination-ui-control.js");
+const $ = require("jquery");
 
-const prodSearchForm = document.getElementById('product-search-form')
-const searchField = document.getElementById('search-field')
-const filterForm = document.getElementById('product-filter-form')
-const topicsInput = document.getElementById('topics')
-const yearInput = document.getElementById('year')
-const agencyInput = document.getElementById('partner-agency')
-const filterInputs = [topicsInput, yearInput, agencyInput]
-const productCards = document.getElementsByName('productCard')
+const prodSearchForm = document.getElementById("product-search-form");
+const searchField = document.getElementById("search-field");
+const filterForm = document.getElementById("product-filter-form");
+const topicsInput = document.getElementById("topics");
+const yearInput = document.getElementById("year");
+const agencyInput = document.getElementById("partner-agency");
+const filterInputs = [topicsInput, yearInput, agencyInput];
+const productCards = document.getElementsByName("productCard");
 
-const resultsTextDisplay = document.getElementById('results-count')
-const PAGINATION_URL_PARAM = 'page'
-const CARDS_PER_PAGE = 24
+const resultsTextDisplay = document.getElementById("results-count");
+const PAGINATION_URL_PARAM = "page";
+const CARDS_PER_PAGE = 24;
 
 // define filters
-let searchTerm = ''
-let filterTopics = []
-let filterYears = []
-let filterAgencies = []
+let searchTerm = "";
+let filterTopics = [];
+let filterYears = [];
+let filterAgencies = [];
 
 const filters = [
-  { id: 'topic', checked: filterTopics },
-  { id: 'year', checked: filterYears },
-  { id: 'partner-agency', checked: filterAgencies }
-]
+  { id: "topic", checked: filterTopics },
+  { id: "year", checked: filterYears },
+  { id: "partner-agency", checked: filterAgencies },
+];
 
 // pagination controls
-const isDCH = !!document.querySelector('body.page-datakit')
-const cardSelector = isDCH ? '.data-set-card' : '.product-card'
-const paginationID = isDCH ? 'dch-pagination' : 'pagination-nav'
-let filteredProducts = document.querySelectorAll(`${cardSelector}:not(.pc-inactive)`)
-const paginator = new PaginationUIControl(paginationID, CARDS_PER_PAGE, paginateProducts)
+const isDCH = !!document.querySelector("body.page-datakit");
+const cardSelector = isDCH ? ".data-set-card" : ".product-card";
+const paginationID = isDCH ? "dch-pagination" : "pagination-nav";
+let filteredProducts = document.querySelectorAll(
+  `${cardSelector}:not(.pc-inactive)`
+);
+const paginator = new PaginationUIControl(
+  paginationID,
+  CARDS_PER_PAGE,
+  paginateProducts
+);
 if (document.getElementById(paginationID)) {
   if (isDCH) {
-    paginator.setTotalItems(document.querySelectorAll(cardSelector).length)
+    paginator.setTotalItems(document.querySelectorAll(cardSelector).length);
   } else {
-    paginator.setTotalItems(101)
+    paginator.setTotalItems(101);
   }
 }
 
 // if there's a search term in the URL params, set it and search with it
-const params = new URLSearchParams(window.location.search)
-if (window.location.pathname.includes('showcase')) {
+const params = new URLSearchParams(window.location.search);
+if (window.location.pathname.includes("showcase")) {
   if (window.location.search) {
-    const searchParam = params.get('search')
+    const searchParam = params.get("search");
     if (searchParam) {
-      searchField.value = searchParam
-      searchTerm = searchParam
+      searchField.value = searchParam;
+      searchTerm = searchParam;
     }
 
     for (const filter of filters) {
-      const terms = params.getAll(filter.id)
+      const terms = params.getAll(filter.id);
       for (const term of terms) {
-        filter.checked.push(term)
-        document.getElementById(term.replaceAll(' ', '-')).checked = true
+        filter.checked.push(term);
+        document.getElementById(term.replaceAll(" ", "-")).checked = true;
       }
     }
 
-    let pageNum = 0
+    let pageNum = 0;
     if (params.get(PAGINATION_URL_PARAM)) {
-      pageNum = params.get(PAGINATION_URL_PARAM) - 1
+      pageNum = params.get(PAGINATION_URL_PARAM) - 1;
     }
-    displayInitialProducts(pageNum, true)
+    displayInitialProducts(pageNum, true);
   } else {
-    displayInitialProducts(0, false)
+    displayInitialProducts(0, false);
   }
 }
 
-function displayInitialProducts (pageNum, scrollIntoView = true) {
+function displayInitialProducts(pageNum, scrollIntoView = true) {
   const display = () => {
-    displayFilteredProducts(pageNum)
+    displayFilteredProducts(pageNum);
     if (scrollIntoView) {
-      document.getElementById('all-products').scrollIntoView()
+      document.getElementById("all-products").scrollIntoView();
     }
-  }
+  };
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', display)
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", display);
   } else {
-    display()
+    display();
   }
 }
 
 // search
 if (prodSearchForm) {
-  prodSearchForm.addEventListener('submit', e => {
-    e.preventDefault()
-    onSearch()
-    displayFilteredProducts()
-  })
+  prodSearchForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    onSearch();
+    displayFilteredProducts();
+  });
 
   // add listener for clicking the 'x' in search input
-  searchField.addEventListener('search', e => {
-    if (searchField.value === '') {
-      onSearch()
-      displayFilteredProducts()
+  searchField.addEventListener("search", (e) => {
+    if (searchField.value === "") {
+      onSearch();
+      displayFilteredProducts();
     }
-  })
+  });
 }
 
 /*
@@ -105,69 +111,74 @@ if (prodSearchForm) {
  * Whenever someone changes any of the filters, we want to re-search.
  */
 if (filterForm) {
-  filterForm.addEventListener('change', e => {
-    e.preventDefault()
+  filterForm.addEventListener("change", (e) => {
+    e.preventDefault();
 
-    filterProducts()
-  })
+    filterProducts();
+  });
 
   // add listener to close inputs when clicking outside
-  const handleClosure = event => {
-    for (const container of document.getElementsByClassName('product-filter__container')) {
+  const handleClosure = (event) => {
+    for (const container of document.getElementsByClassName(
+      "product-filter__container"
+    )) {
       if (!container.contains(event.target)) {
-        const button = container.getElementsByClassName('product-filter__button')[0]
-        const options = container.getElementsByClassName('dropdown-menu')[0]
+        const button = container.getElementsByClassName(
+          "product-filter__button"
+        )[0];
+        const options = container.getElementsByClassName("dropdown-menu")[0];
 
-        button.setAttribute('aria-expanded', 'false')
-        options.setAttribute('hidden', '')
+        button.setAttribute("aria-expanded", "false");
+        options.setAttribute("hidden", "");
       }
     }
-  }
+  };
 
-  window.addEventListener('click', handleClosure)
-  window.addEventListener('focusin', handleClosure)
+  window.addEventListener("click", handleClosure);
+  window.addEventListener("focusin", handleClosure);
 }
 
-function onSearch () {
-  searchTerm = searchField.value
-  filterProducts()
+function onSearch() {
+  searchTerm = searchField.value;
+  filterProducts();
 }
 
 /**
  * Applies all current filters and displays appropriate products.
  */
-function filterProducts () {
-  const currSearch = searchTerm ? `?search=${searchTerm}` : '?'
-  const searchParams = new URLSearchParams(currSearch)
-  filterTopics = getCheckedInputs(topicsInput)
-  appendToURLSearchParams(searchParams, 'topic', filterTopics)
+function filterProducts() {
+  const currSearch = searchTerm ? `?search=${searchTerm}` : "?";
+  const searchParams = new URLSearchParams(currSearch);
+  filterTopics = getCheckedInputs(topicsInput);
+  appendToURLSearchParams(searchParams, "topic", filterTopics);
 
-  filterYears = getCheckedInputs(yearInput)
-  appendToURLSearchParams(searchParams, 'year', filterYears)
+  filterYears = getCheckedInputs(yearInput);
+  appendToURLSearchParams(searchParams, "year", filterYears);
 
-  filterAgencies = getCheckedInputs(agencyInput)
-  appendToURLSearchParams(searchParams, 'partner-agency', filterAgencies)
+  filterAgencies = getCheckedInputs(agencyInput);
+  appendToURLSearchParams(searchParams, "partner-agency", filterAgencies);
 
-  let newURL = window.location.origin + window.location.pathname
+  let newURL = window.location.origin + window.location.pathname;
   if (searchParams.toString()) {
-    newURL += `?${searchParams.toString()}`
+    newURL += `?${searchParams.toString()}`;
   }
-  window.history.replaceState(null, document.title, newURL)
-  displayFilteredProducts()
+  window.history.replaceState(null, document.title, newURL);
+  displayFilteredProducts();
 }
 
 /** returns array of values of all checked inputs contained within a given div */
-const getCheckedInputs = container => {
-  const inputEls = Array.from(container.getElementsByTagName('input'))
-  return inputEls.filter(input => input.checked)
-    .map(checkedInput => checkedInput.value)
-}
+const getCheckedInputs = (container) => {
+  const inputEls = Array.from(container.getElementsByTagName("input"));
+  return inputEls
+    .filter((input) => input.checked)
+    .map((checkedInput) => checkedInput.value);
+};
 /** adds all values of given array to URLSearchParams object with given key */
 const appendToURLSearchParams = (urlParams, key, values) => {
   for (const value of values) {
-    urlParams.append(key, value)
+    urlParams.append(key, value);
   }
-}
+};
 
 /**
  * Searches through all product cards.
@@ -176,55 +187,81 @@ const appendToURLSearchParams = (urlParams, key, values) => {
  *
  * IMPROVEMENT: Rather than looping DOM objects, filter through JSON
  */
-function displayFilteredProducts (pageNum = 0) {
-  filteredProducts = []
-  searchTerm = searchTerm.toLowerCase()
+function displayFilteredProducts(pageNum = 0) {
+  filteredProducts = [];
+  searchTerm = searchTerm.toLowerCase();
   for (let i = 0; i < productCards.length; i++) {
-    const card = productCards[i]
-    const productName = card.getElementsByTagName('h2')[0].innerText.toLowerCase()
-    const prodDesc = slugify(card.getElementsByTagName('p')[0].innerText)
-    const prodProblems = card.getElementsByTagName('p')[1].innerText
-    const productNameSlugified = productName.replace('\'', '-').split('.').join('-').split(':').join('-')
-    let productYear = ''
-    if (card.getElementsByTagName('h3') && card.getElementsByTagName('h3')[0]) {
-      productYear = card.getElementsByTagName('h3')[0].innerText
+    const card = productCards[i];
+    const productName = card
+      .getElementsByTagName("h2")[0]
+      .innerText.toLowerCase();
+    const prodDesc = slugify(card.getElementsByTagName("p")[0].innerText);
+    const prodProblems = card.getElementsByTagName("p")[1].innerText;
+    const productNameSlugified = productName
+      .replace("'", "-")
+      .split(".")
+      .join("-")
+      .split(":")
+      .join("-");
+    let productYear = "";
+    if (card.getElementsByTagName("h3") && card.getElementsByTagName("h3")[0]) {
+      productYear = card.getElementsByTagName("h3")[0].innerText;
     }
-    const productElement = card.getElementsByTagName('h4')[0]
-    const productTopic = productElement ? productElement.innerHTML : ''
-    const productAgency = card.getElementsByTagName('h5')[0]
-      ? card.getElementsByTagName('h5')[0].innerText.toLowerCase().split(' ').join('-')
-      : ''
-    const productDatasets = card.getElementsByClassName('product-data-sets')[0]
-      ? card.getElementsByClassName('product-data-sets')[0].innerText.toLowerCase().split(' ').join('-')
-      : ''
+    const productElement = card.getElementsByTagName("h4")[0];
+    const productTopic = productElement ? productElement.innerHTML : "";
+    const productAgency = card.getElementsByTagName("h5")[0]
+      ? card
+          .getElementsByTagName("h5")[0]
+          .innerText.toLowerCase()
+          .split(" ")
+          .join("-")
+      : "";
+    const productDatasets = card.getElementsByClassName("product-data-sets")[0]
+      ? card
+          .getElementsByClassName("product-data-sets")[0]
+          .innerText.toLowerCase()
+          .split(" ")
+          .join("-")
+      : "";
 
-    const searchMatch = productNameSlugified.includes(searchTerm) || prodDesc.includes(searchTerm) ||
-      prodProblems.includes(searchTerm) || productAgency.includes(slugify(searchTerm)) || productDatasets.includes(searchTerm)
+    const searchMatch =
+      productNameSlugified.includes(searchTerm) ||
+      prodDesc.includes(searchTerm) ||
+      prodProblems.includes(searchTerm) ||
+      productAgency.includes(slugify(searchTerm)) ||
+      productDatasets.includes(searchTerm);
 
-    const topicMatches = checkFilterMatch(productTopic, filterTopics)
-    const yearMatches = checkFilterMatch(productYear, filterYears)
-    const agencyMatches = checkFilterMatch(productAgency, filterAgencies)
+    const topicMatches = checkFilterMatch(productTopic, filterTopics);
+    const yearMatches = checkFilterMatch(productYear, filterYears);
+    const agencyMatches = checkFilterMatch(productAgency, filterAgencies);
 
-    const filterMatch = topicMatches && yearMatches && agencyMatches
+    const filterMatch = topicMatches && yearMatches && agencyMatches;
 
-    card.classList.remove('pc-active')
-    card.classList.add('pc-inactive')
+    card.classList.remove("pc-active");
+    card.classList.add("pc-inactive");
 
     if (searchMatch && filterMatch) {
-      filteredProducts.push(card)
+      filteredProducts.push(card);
     }
   }
-  paginator.setTotalItems(filteredProducts.length)
-  paginator.setCurrPage(pageNum)
-  paginateProducts(pageNum)
+  paginator.setTotalItems(filteredProducts.length);
+  paginator.setCurrPage(pageNum);
+  paginateProducts(pageNum);
 }
 
-function checkFilterMatch (productValue, filterArray) {
-  return filterArray.length === 0 ||
-    filterArray.some(filterVal => {
-      return productValue.toLowerCase().split(' ').join('-')
-        .includes(filterVal.toLowerCase().split(' ').join('-'))
+function checkFilterMatch(productValue, filterArray) {
+  return (
+    filterArray.length === 0 ||
+    filterArray.some((filterVal) => {
+      const res = productValue
+        .toLowerCase()
+        .replace("&amp;", "&")
+        .split(" ")
+        .join("-")
+        .includes(filterVal.toLowerCase().split(" ").join("-"));
+      return res;
     })
+  );
 }
 
 /**
@@ -232,139 +269,154 @@ function checkFilterMatch (productValue, filterArray) {
  * remove pc-inactive class for all cards on current page
  * @param {int} pageIndex page of products to show
  */
-function paginateProducts (pageIndex, scrollToTop = false, currentlyFiltered = null) {
+function paginateProducts(
+  pageIndex,
+  scrollToTop = false,
+  currentlyFiltered = null
+) {
   // clamp page number
-  pageIndex = Math.max(0, Math.min(Math.ceil(filteredProducts.length / CARDS_PER_PAGE) - 1, pageIndex))
-  const showStart = pageIndex * CARDS_PER_PAGE
-  filteredProducts = currentlyFiltered || filteredProducts
-  const showEnd = Math.min((pageIndex + 1) * CARDS_PER_PAGE, filteredProducts.length)
+  pageIndex = Math.max(
+    0,
+    Math.min(Math.ceil(filteredProducts.length / CARDS_PER_PAGE) - 1, pageIndex)
+  );
+  const showStart = pageIndex * CARDS_PER_PAGE;
+  filteredProducts = currentlyFiltered || filteredProducts;
+  const showEnd = Math.min(
+    (pageIndex + 1) * CARDS_PER_PAGE,
+    filteredProducts.length
+  );
   filteredProducts.forEach((card, i) => {
     if (i >= showStart && i < showEnd) {
-      card.classList.add('pc-active')
-      card.classList.remove('pc-inactive')
+      card.classList.add("pc-active");
+      card.classList.remove("pc-inactive");
     } else {
-      card.classList.remove('pc-active')
-      card.classList.add('pc-inactive')
+      card.classList.remove("pc-active");
+      card.classList.add("pc-inactive");
     }
-  })
+  });
 
   // set current page in urlparams
-  const urlParams = new URLSearchParams(window.location.search)
+  const urlParams = new URLSearchParams(window.location.search);
   if (pageIndex > 0 || urlParams.get(PAGINATION_URL_PARAM)) {
-    urlParams.set(PAGINATION_URL_PARAM, pageIndex + 1)
+    urlParams.set(PAGINATION_URL_PARAM, pageIndex + 1);
   }
-  let newURL = window.location.origin + window.location.pathname
+  let newURL = window.location.origin + window.location.pathname;
   if (urlParams.toString()) {
-    newURL += `?${urlParams.toString()}`
+    newURL += `?${urlParams.toString()}`;
   }
-  window.history.replaceState(null, document.title, newURL)
+  window.history.replaceState(null, document.title, newURL);
 
-  const noun = isDCH ? 'datasets' : 'products'
-  resultsTextDisplay.innerText = filteredProducts.length > 0
-    ? `Showing ${showStart + 1} - ${showEnd} of ${filteredProducts.length} ${noun}.`
-    : `No ${noun} found.`
+  const noun = isDCH ? "datasets" : "products";
+  resultsTextDisplay.innerText =
+    filteredProducts.length > 0
+      ? `Showing ${showStart + 1} - ${showEnd} of ${
+          filteredProducts.length
+        } ${noun}.`
+      : `No ${noun} found.`;
   if (scrollToTop) {
-    resultsTextDisplay.scrollIntoView({ block: 'center' })
+    resultsTextDisplay.scrollIntoView({ block: "center" });
   }
 }
 
 /**
  *  reset filters
  */
-if (document.getElementById('reset-filter')) {
-  document.getElementById('reset-filter').addEventListener('click', e => {
-    e.preventDefault()
-    const selectedValues = document.getElementsByName('filter-checkbox')
+if (document.getElementById("reset-filter")) {
+  document.getElementById("reset-filter").addEventListener("click", (e) => {
+    e.preventDefault();
+    const selectedValues = document.getElementsByName("filter-checkbox");
     for (let i = 0; i < selectedValues.length; i++) {
-      selectedValues[i].checked = false
+      selectedValues[i].checked = false;
     }
 
-    closeAccordions()
+    closeAccordions();
 
     // clear the search
-    searchTerm = ''
-    searchField.value = searchTerm
-    onSearch()
+    searchTerm = "";
+    searchField.value = searchTerm;
+    onSearch();
 
-    filterProducts()
-  })
+    filterProducts();
+  });
 }
 
 // close the accordions
 const closeAccordions = () => {
-  const buttons = document.getElementsByClassName('product-filter-button')
+  const buttons = document.getElementsByClassName("product-filter-button");
   for (const button of buttons) {
-    button.setAttribute('aria-expanded', 'false')
+    button.setAttribute("aria-expanded", "false");
   }
   // hide the dropdowns
-  filterInputs.forEach(input =>
-    input.setAttribute('hidden', '')
-  )
-}
+  filterInputs.forEach((input) => input.setAttribute("hidden", ""));
+};
 
 /**
  * Slugify a string
  * from https://lucidar.me/en/web-dev/how-to-slugify-a-string-in-javascript/
  **/
-function slugify (str) {
-  str = str.replace(/^\s+|\s+$/g, '')
+function slugify(str) {
+  str = str.replace(/^\s+|\s+$/g, "");
 
   // Make the string lowercase
-  str = str.toLowerCase()
+  str = str.toLowerCase();
 
   // Remove accents, swap ñ for n, etc
-  const from = 'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;'
-  const to = 'AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------'
+  const from =
+    "ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđßÆa·/_,:;";
+  const to =
+    "AAAAAACCCDEEEEEEEEIIIINNOOOOOORRSTUUUUUYYZaaaaaacccdeeeeeeeeiiiinnooooooorrstuuuuuyyzbBDdBAa------";
   for (let i = 0, l = from.length; i < l; i++) {
-    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i))
+    str = str.replace(new RegExp(from.charAt(i), "g"), to.charAt(i));
   }
 
   // Remove invalid chars
-  str = str.replace(/[^a-z0-9 -]/g, '')
+  str = str
+    .replace(/[^a-z0-9 -]/g, "")
     // Collapse whitespace and replace by -
-    .replace(/\s+/g, '-')
+    .replace(/\s+/g, "-")
     // Collapse dashes
-    .replace(/-+/g, '-')
+    .replace(/-+/g, "-");
 
-  return str
+  return str;
 }
 
-const modal = document.getElementById('product-modal')
-const cards = document.getElementsByClassName('product-card')
-Array.from(cards).forEach(card => {
-  card.addEventListener('click', e => {
-    const cardTitle = card.getElementsByClassName('usa-card__heading')[0].innerHTML
-    document.getElementById('product-modal-heading').innerHTML = cardTitle
+const modal = document.getElementById("product-modal");
+const cards = document.getElementsByClassName("product-card");
+Array.from(cards).forEach((card) => {
+  card.addEventListener("click", (e) => {
+    const cardTitle =
+      card.getElementsByClassName("usa-card__heading")[0].innerHTML;
+    document.getElementById("product-modal-heading").innerHTML = cardTitle;
 
-    const pic = card.getElementsByTagName('picture')[0]
+    const pic = card.getElementsByTagName("picture")[0];
     if (pic) {
-      const srcset = pic.children[0].srcset
-      const imgSrc = pic.children[1].src
-      const modalPic = modal.getElementsByTagName('picture')[0]
+      const srcset = pic.children[0].srcset;
+      const imgSrc = pic.children[1].src;
+      const modalPic = modal.getElementsByTagName("picture")[0];
       if (modalPic) {
-        modalPic.children[0].srcset = srcset
-        modalPic.children[1].src = imgSrc
-        modalPic.children[1].alt = pic.children[1].alt
+        modalPic.children[0].srcset = srcset;
+        modalPic.children[1].src = imgSrc;
+        modalPic.children[1].alt = pic.children[1].alt;
       }
     }
 
-    modal.getElementsByClassName('modal-tech-team')[0].innerHTML =
-      card.getElementsByClassName('product-tech-team')[0].innerHTML
-    modal.getElementsByClassName('modal-data-sets')[0].innerText =
-      card.getElementsByClassName('product-data-sets')[0].innerText
-    document.getElementById('modal-desc').innerText =
-      card.getElementsByClassName('product-desc')[0].innerText
+    modal.getElementsByClassName("modal-tech-team")[0].innerHTML =
+      card.getElementsByClassName("product-tech-team")[0].innerHTML;
+    modal.getElementsByClassName("modal-data-sets")[0].innerText =
+      card.getElementsByClassName("product-data-sets")[0].innerText;
+    document.getElementById("modal-desc").innerText =
+      card.getElementsByClassName("product-desc")[0].innerText;
 
-    const href = card.getElementsByClassName('product-link')[0].innerText
-    modal.getElementsByClassName('modal-link')[0].href = href
-  })
-})
+    const href = card.getElementsByClassName("product-link")[0].innerText;
+    modal.getElementsByClassName("modal-link")[0].href = href;
+  });
+});
 
 const closeModal = () => {
-  modal.classList.remove('modal-active')
-  modal.classList.add('modal-inactive')
-}
+  modal.classList.remove("modal-active");
+  modal.classList.add("modal-inactive");
+};
 
-$('.close').on('click', closeModal)
+$(".close").on("click", closeModal);
 
-module.exports = [paginateProducts, paginator, slugify]
+module.exports = [paginateProducts, paginator, slugify];

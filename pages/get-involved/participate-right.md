@@ -14,17 +14,23 @@
 {% endfor %}
 
 {% if currSprintTags.size > 0 %}
-### [Join an Upcoming Sprint →]({{ site.baseurl }}/sprints)
-We're getting ready to launch sprints focused on {% for tag in currSprintTags %}{% assign match = site.data.sprints | where: "short-tag", tag | first %}{% assign prefix = "" %}{% if forloop.last and currSprintTags.size >= 3 %}{% assign prefix = ", and " %}{% elsif forloop.index0 > 0 %}{% if currSprintTags.size == 2 %}{% assign prefix = " and " %}{% else %}{% assign prefix = ", " %}{% endif %}{% endif %}{% assign link = site.sprints | where: "short-name", tag | first %}{{ prefix }}[{{ match.Name }}]({{ link.url }}){% endfor %}. Learn more about the challenges we're addressing, and then [complete this form]({{ site.contacts.census-form}}) to express interest.
+[Sprints]({{ site.baseurl }}/sprints) are 12-week product development cycles that bring government agencies, technologists, community leaders, and data experts together to rapidly design digital solutions for the public good. TOP sprints typically begin in late summer or early fall and culminate at the annual TOP Summit in mid-December.
+<!---### [Join an Upcoming Sprint →]({{ site.baseurl }}/sprints)
+We're getting ready to launch sprints focused on {% for tag in currSprintTags %}{% assign match = site.data.sprints | where: "short-tag", tag | first %}{% assign prefix = "" %}{% if forloop.last and currSprintTags.size >= 3 %}{% assign prefix = ", and " %}{% elsif forloop.index0 > 0 %}{% if currSprintTags.size == 2 %}{% assign prefix = " and " %}{% else %}{% assign prefix = ", " %}{% endif %}{% endif %}{% assign link = site.sprints | where: "short-name", tag | first %}{{ prefix }}[{{ match.Name }}]({{ link.url }}){% endfor %}. Learn more about the challenges we're addressing, and then [complete this form]({{ site.contacts.census-form}}) to express interest.-->
 {% else %}
-### Check Out Our Sprints
-We recently launched sprints focused on {% for tag in allSprintTags %}{% assign match = site.data.sprints | where: "short-tag", tag | first %}{% assign prefix = "" %}{% if forloop.last and allSprintTags.size >= 3 %}{% assign prefix = ", and " %}{% elsif forloop.index0 > 0 %}{% if allSprintTags.size == 2 %}{% assign prefix = " and " %}{% else %}{% assign prefix = ", " %}{% endif %}{% endif %}{% assign link = site.sprints | where: "short-name", tag | first %}{{ prefix }}[{{ match.Name }}]({{ link.url }}){% endfor %}, and we're always getting more sprints ready.
+### Run a Sprint
+We can help your organization facilitate a successful TOP sprint to address national challenges.
+<!---We recently launched sprints focused on {% for tag in allSprintTags %}{% assign match = site.data.sprints | where: "short-tag", tag | first %}{% assign prefix = "" %}{% if forloop.last and allSprintTags.size >= 3 %}{% assign prefix = ", and " %}{% elsif forloop.index0 > 0 %}{% if allSprintTags.size == 2 %}{% assign prefix = " and " %}{% else %}{% assign prefix = ", " %}{% endif %}{% endif %}{% assign link = site.sprints | where: "short-name", tag | first %}{{ prefix }}[{{ match.Name }}]({{ link.url }}){% endfor %}, and we're always getting more sprints ready.-->
 
-Fill out [our interest form](https://www.census.gov/forms/contact-top.html) to get in touch about upcoming sprints.
 {% endif %}
 
-### [Run a TOPx Sprint →](https://opportunity.census.gov/topx-toolkit/introduction/)
-Are you a federal agency looking to adopt The Opportunity Project model? Use our TOPx toolkit—a step-by-step resource complete with sample materials—to help run your own TOP sprint.
+### Participate in a Sprint
+We can match your skills and expertise, as a user advocate or technologist, to relevant TOP sprints. 
+[Learn more about participants’ roles in a sprint.]({{site.baseurl}}/our-process) 
 
-### [Build with Open Data →]({{site.baseurl}}/product-development/toolkit) 
-Not able to join a TOP sprint? Use our product development toolkit—based on the TOP sprint model—to create civic impact with open data. We cover user research, navigating federal data, and more.
+### Advise Sprint Participants
+We can connect you to TOP sprint teams seeking product and technology development experts as a member of the TOP Advisor Network.
+
+Ready to get started? When you complete our signup form, a member of the [Census Open Innovation Labs](https://coil.census.gov/) (COIL) team will be in touch within one week.
+
+[Get in Touch](https://www.census.gov/forms/contact-top.html)

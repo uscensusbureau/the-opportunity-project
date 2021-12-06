@@ -7,7 +7,7 @@ layout: default
 # full span, top of page section
 hero:
   text: Ready to Solve the Nation’s Greatest Challenges?
-  subtext: Join our community of innovators working to turn federal open data into technologies that solve real-world problems for people across the country.
+  subtext: Join our community of innovators using government data to build digital tools with, by, and for the people. We offer ongoing opportunities to connect to The Opportunity Project throughout the year.
 
 # connecting-banner-with-subheader-inverse.html
 banner-subheader-inverse:
@@ -37,6 +37,7 @@ callout:
   title: 
     text: Attend The Opportunity Project Summit
   body: '[The Opportunity Project Summit 2021: Open Innovation For All](http://bit.ly/TOPSummit2021) is a multi-day virtual conference to showcase the work accomplished through TOP’s 2021 sprints, feature other innovative technology and data products, host conversations with leading experts and grassroots community members, provide hands-on learning opportunities for attendees, and announce the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/)
+  
   
 December 13–15, 2021 from 12–5p.m. ET'
 

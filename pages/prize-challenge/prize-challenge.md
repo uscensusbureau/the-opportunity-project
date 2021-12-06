@@ -8,8 +8,8 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'Win Funding to Scale Your Technology<br/>Awarding $310,000 in prizes'
-  subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
+  text: 'Win Funding to Scale Your Technology'
+  subtext: 'The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for teams who have created high-impact digital tools that solve problems for the public.'
 
 banner-subheader:
   top:
@@ -77,15 +77,15 @@ judging:
   right: 
     - body: Products in our first competition were scored for their creativity, user-friendliness, and potential for civic impact by panels of product, data, and policy specialists from private industry and government.
 
-judge-photo: 
+<!-- judge-photo: 
   src: prize/02_Judges_prize-winner.jpg
   alt: a man and woman handing a $20k check from The Opportunity Project to a woman on a stage
-  caption: '2019 Prize Challenge winner Kristen Lewis of Measure of America receives her prize from Ron Jarmin, Acting Director of the U.S. Census Bureau and Suzette Kent, Former Federal Chief Information Officer'
+  caption: '2019 Prize Challenge winner Kristen Lewis of Measure of America receives her prize from Ron Jarmin, Acting Director of the U.S. Census Bureau and Suzette Kent, Former Federal Chief Information Officer'-->
 
-past-title: 2021 Open Data for Good Grand Prize Challenge
+past-title: Past Prize Challenge
 
 winners:
-  title: 2021 Winners
+  title: Past Winners
 
 ---
 
@@ -96,15 +96,15 @@ winners:
 <section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
 
-<!-- ### What is It?
-{: .section-header } -->
+### 2021 Prize Winnners
+{: .section-header }
 
-The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for teams who have created high-impact digital tools that solve problems for the public.
+$310,000 was awarded to over 15 prize winners.
 
-Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
+Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) to review the 2021 Open Data for Good Grand Challenge full rules and application requirements.
 
-[View the Rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
-{: .margin-top-4 }
+<!--[View the Rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
+{: .margin-top-4 } -->
 
 <!-- ### What Can You Win?
 {: .section-header .margin-top-6 } -->
@@ -125,7 +125,7 @@ We're looking for tools that fit into one of these categories:
 <!-- Submissions closed on October 24, 2021
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 } -->
 
-[View the Submission Checklist](https://docs.google.com/document/d/1r9dsiQBYhOwakxtbDr-lQL0FvqSs6cMxH8HU8w_bVQ4/edit?usp=sharing){: .usa-button .usa-button--outline .site-button }
+<!--[View the Submission Checklist](https://docs.google.com/document/d/1r9dsiQBYhOwakxtbDr-lQL0FvqSs6cMxH8HU8w_bVQ4/edit?usp=sharing){: .usa-button .usa-button--outline .site-button } -->
 {: .margin-top-4 }
 
 <!-- ### Timeline

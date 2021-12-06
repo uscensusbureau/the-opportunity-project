@@ -37,5 +37,4 @@ We can connect you to TOP sprint teams seeking product and technology developmen
 
 Ready to get started? When you complete our signup form, a member of the [Census Open Innovation Labs](https://coil.census.gov/) (COIL) team will be in touch within one week.
 
-[Get in Touch](https://www.census.gov/forms/contact-top.html){: .usa-button--big .usa-button--secondary .site-button }
-<br>
+[Get in Touch](https://www.census.gov/forms/contact-top.html){: .usa-button .usa-button--secondary .site-button }

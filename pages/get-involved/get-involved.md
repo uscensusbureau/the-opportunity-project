@@ -17,12 +17,38 @@ banner-subheader-inverse:
   bottom:
     background: white
 
-content-light:
+<!--content-light:
   title: Get Started with The Opportunity Project
   skip-top-border: true
   skip-bottom-border: true
   body: Sprints are 12-week product development cycles that bring government agencies, technologists, community leaders, and data experts together to rapidly design digital solutions for the public good. TOP sprints typically begin in late summer or early fall and culminate at the annual TOP Summit in mid-December. 
-  right-col: participate-right.md
+  right-col: participate-right.md-->
+<!--hard coded (emulating prize-challenge.md)-->
+{::options parse_block_html="true" /}
+<section class="usa-section">
+  <div class="grid-container maxw-desktop">
+  
+### Get Started with The Opportunity Project
+{: .section-header }
+
+[Sprints]({{ site.baseurl }}/sprints) are 12-week product development cycles that bring government agencies, technologists, community leaders, and data experts together to rapidly design digital solutions for the public good. TOP sprints typically begin in late summer or early fall and culminate at the annual TOP Summit in mid-December.
+    
+**Run a Sprint**
+We can help your organization facilitate a successful TOP sprint to address national challenges.
+    
+**Participate in a Sprint**
+We can match your skills and expertise, as a user advocate or technologist, to relevant TOP sprints. 
+[Learn more about participants’ roles in a sprint.]({{site.baseurl}}/our-process/#roles) 
+
+**Advise Sprint Participants**
+We can connect you to TOP sprint teams seeking product and technology development experts as a member of the TOP Advisor Network.
+
+Ready to get started? When you complete our signup form, a member of the [Census Open Innovation Labs](https://coil.census.gov/) (COIL) team will be in touch within one week.
+
+cta: 
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
 
 join:
   title: Stay in the Loop
@@ -36,10 +62,7 @@ callout:
   container-class: maxw-desktop
   title: 
     text: Attend The Opportunity Project Summit
-  body: '[The Opportunity Project Summit 2021: Open Innovation For All](http://bit.ly/TOPSummit2021) is a multi-day virtual conference to showcase the work accomplished through TOP’s 2021 sprints, feature other innovative technology and data products, host conversations with leading experts and grassroots community members, provide hands-on learning opportunities for attendees, and announce the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/)
-  
-  
-December 13–15, 2021 from 12–5p.m. ET'
+  body: '[The Opportunity Project Summit 2021: Open Innovation For All](http://bit.ly/TOPSummit2021) is a multi-day virtual conference to showcase the work accomplished through TOP’s 2021 sprints, feature other innovative technology and data products, host conversations with leading experts and grassroots community members, provide hands-on learning opportunities for attendees, and announce the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/) <br> December 13–15, 2021 from 12–5p.m. ET'
 
   primary:
     text: RSVP to Attend

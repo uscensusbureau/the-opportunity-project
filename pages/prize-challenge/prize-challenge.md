@@ -96,7 +96,7 @@ winners:
 <section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
 
-### 2021 Prize Winnners
+### What is It?
 {: .section-header }
 
 $310,000 was awarded to over 15 prize winners.

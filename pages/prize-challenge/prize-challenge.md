@@ -127,7 +127,7 @@ National Oceanic and Atmospheric Administration awards the following prizes:
 - Best UI/UX, $15,000: __Forerunner Floodplain Management Dashboard__
 - Best Tool for Equity & Inclusion, $10,000: __R Story__
 - Best Use of Federal Data, $10,000: __Mayday.ai__
-- Honorable Mention 
+- Honorable Mentions: 
   - __Climunity Planning Tool__
   - __City Builder__
 

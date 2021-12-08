@@ -8,7 +8,7 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'Win Funding to Scale Your Technology<br/>Awarding $310,000 in prizes'
+  text: 'Win Funding to Scale Your Solution'
   subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
@@ -21,7 +21,7 @@ event-announcement:
     - Open Data
     - For Good
     - Grand Challenge
-  cta: SUBMISSIONS CLOSED
+  cta: WINNERS ANNOUNCED
   img: 
     src: prize/top-grand-challenge-background-01.jpg  
     alt: Pointillism photo of a mountainside with evergreen trees
@@ -99,44 +99,77 @@ winners:
 ### What is It?
 {: .section-header }
 
-The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for teams who have created high-impact digital tools that solve problems for the public.
+The Open Data for Good Grand Challenge is a set of cash and in-kind prizes awarded for teams who have created high-impact digital tools that solve problems for the public.
 
-Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
+Please visit the [official challenge.gov posting]({{ page.challenge-gov }}) to view Challenge details.
 
-[View the Rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
-{: .margin-top-4 }
+<!--[View the Rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
+{: .margin-top-4 }-->
+$310,000 in prizes were announced during The Opportunity Project Summit on December 13 - 15, 2021.
+{: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-2 }
 
-### What Can You Win?
+### Climate, Resilience, & the Natural Environment Awards
 {: .section-header .margin-top-6 }
 
-Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
-We're looking for tools that fit into one of these categories:
-- Climate, Resilience, and the Natural Environment
-- Society, Economy, and the Built Environment
-- Health and COVID-19
+U.S. Census Bureau awards the following prizes:
 
-### What Do You Have To Do?
+- Grand Prize, $25,000: __Climunity Planning Tool__
+- Runner Up, $15,000: __Community Resilience Toolkit__
+- Student Prize, $10,000: __R Story__
+
+
+### Climate Smart Community Challenge Awards
 {: .section-header .margin-top-6 }
-1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 24th, 2021
-2. Attend an informational session (optional)
-3. Review the [scoring rubric](https://docs.google.com/document/d/1kK2WKr0x6lsjspRkXAYWTe_PIC7OGk7mrweggfpGT8w) 
-4. Submit your application by the deadline via email and a short submission form
 
-Submissions closed on October 24, 2021
-{: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
+National Oceanic and Atmospheric Administration awards the following prizes:
 
-[View the Submission Checklist](https://docs.google.com/document/d/1r9dsiQBYhOwakxtbDr-lQL0FvqSs6cMxH8HU8w_bVQ4/edit?usp=sharing){: .usa-button .usa-button--outline .site-button }
-{: .margin-top-4 }
+- Best All Around, $15,000: __Community Resilience Toolkit__
+- Best UI/UX, $15,000: __Forerunner Floodplain Management Dashboard__
+- Best Tool for Equity & Inclusion, $10,000: __R Story__
+- Best Use of Federal Data, $10,000: __Mayday.ai__
+- Honorable Mention 
+  - __Climunity Planning Tool__
+  - __City Builder__
 
-### Timeline
-{: .margin-top-6 .margin-bottom-0 }
-{% include process-list.html data=page.timeline %}
+
+### Health & COVID-19 Awards
+{: .section-header .margin-top-6 }
+
+U.S. Department of Health & Human Services awards the following prizes:
+
+- $20,000: __Activity Finder__
+- $20,000: __Front Door__
+- $20,000: __Black Equity Coalition COVID-19 Allegheny County Data Dashboard__
+- $20,000: __SAVI COVID-19 Impact Index__
+- $20,000: __Proyecto Quinqué__
+
+
+
+### Society, Economy, & the Built Environment Awards
+{: .section-header .margin-top-6 }
+
+U.S. Census Bureau awards the following prizes:
+
+- Grand Prize, $25,000: __Childcare Planning Assessment Tool__
+- Runner Up, $15,000: __District Builder__
+- Runner Up, $10,000: __The Envision App__
+- Student Prize, $10,000: __Proyecto Quinque__
+- Honorable Mentions:
+  - __Public Domain Map__
+  - __Safe-T-Grid Covid Tracker__
+  - __Bridging the Divide Mapping Tool__
+
+### In-Kind Awards
+{: .section-header .margin-top-6 }
+
+U.S. Census Bureau awards the following prizes:
+
+- Orange Sparkle Ball Prize: __Mayday.ai__
+- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index__
+- CivStart Prize: __Forerunner Floodplain Management Dashboard__
+
 
 {::options parse_block_html="false" /}
-<figure>
-  {% include image.html src=page.judge-photo.src alt=page.judge-photo.alt class="border-1px" %}
- <figcaption>{{ page.judge-photo.caption }}</figcaption>
-</figure>
 
   </div>
 </section>

@@ -114,7 +114,6 @@ $260,000 in prizes were announced during The Opportunity Project Summit on Decem
 prize-challenge
 U.S. Census Bureau awards the following prizes:
 
-main
 - Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__
 - Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
 - Student Prize, $10,000: __R Story by Columbia University-based student team__
@@ -130,7 +129,7 @@ U.S. Census Bureau awards the following prizes:
 - Runner Up, $10,000: __The Envision App by Organizational Performance Systems__
 - Student Prize, $10,000: __Proyecto Quinque by Solo Hechos__
 - Honorable Mentions:
-  - __Public Domain Map by OpenStreetMap US__
+  - *Public Domain Map by OpenStreetMap US*
   - __Safe-T-Grid Covid Tracker by Safe-T-Grid__
   - __Bridging the Divide Mapping Tool by University of Louisiana System__    
     
@@ -166,9 +165,9 @@ U.S. Department of Health & Human Services awards the following prizes:
 
 U.S. Census Bureau awards the following prizes:
 
-- Orange Sparkle Ball Prize: __Mayday.ai__
-- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index__
-- CivStart Prize: __Forerunner Floodplain Management Dashboard__
+- Orange Sparkle Ball Prize: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
+- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index by mySidewalk__
+- CivStart Prize: __Forerunner Floodplain Management Dashboard by Forerunner__
 
 
 {::options parse_block_html="false" /}

@@ -8,7 +8,7 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'Win Funding to Scale Your Technology Awarding $260,000 in prizes'
+  text: 'Win Funding to Scale Your Technology Awarding $260,000 in Prizes'
   subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:

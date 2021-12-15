@@ -7,9 +7,8 @@ class: prize
 challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
 submission-checklist: xyz
 
-hero: prize-challenge
-text: 'Win Funding to Scale Your Solution'
-main:
+hero:
+  text: 'Win Funding to Scale Your Solution'
   subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:

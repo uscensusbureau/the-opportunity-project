@@ -129,7 +129,7 @@ U.S. Census Bureau awards the following prizes:
 - Runner Up, $10,000: __The Envision App by Organizational Performance Systems__
 - Student Prize, $10,000: __Proyecto Quinque by Solo Hechos__
 - Honorable Mentions:
-  - *Public Domain Map by OpenStreetMap US*
+  - __Public Domain Map by OpenStreetMap US__
   - __Safe-T-Grid Covid Tracker by Safe-T-Grid__
   - __Bridging the Divide Mapping Tool by University of Louisiana System__    
     

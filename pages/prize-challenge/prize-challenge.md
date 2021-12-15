@@ -8,7 +8,9 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
+prize-challenge
   text: 'Win Funding to Scale Your Solution'
+main
   subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
@@ -105,31 +107,48 @@ Please visit the [official challenge.gov posting]({{ page.challenge-gov }}) to v
 
 <!--[View the Rules]({{ page.challenge-gov }}){: .site-button .usa-button .usa-button--secondary }
 {: .margin-top-4 }-->
-$310,000 in prizes were announced during The Opportunity Project Summit on December 13 - 15, 2021.
+$260,000 in prizes were announced during The Opportunity Project Summit on December 13 - 15, 2021.
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-2 }
 
 ### Climate, Resilience, & the Natural Environment Awards
 {: .section-header .margin-top-6 }
 
+prize-challenge
 U.S. Census Bureau awards the following prizes:
 
-- Grand Prize, $25,000: __Climunity Planning Tool__
-- Runner Up, $15,000: __Community Resilience Toolkit__
-- Student Prize, $10,000: __R Story__
+main
+- Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__
+- Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
+- Student Prize, $10,000: __R Story by Columbia University-based student team__
 
+    
+### Society, Economy, & the Built Environment Awards
+{: .section-header .margin-top-6 }
 
+U.S. Census Bureau awards the following prizes:
+
+- Grand Prize, $25,000: __Childcare Planning Assessment Tool by University of Kansas Center for Public Partnerships and Research__
+- Runner Up, $15,000: __District Builder by Azavea__
+- Runner Up, $10,000: __The Envision App by Organizational Performance Systems__
+- Student Prize, $10,000: __Proyecto Quinque by Solo Hechos__
+- Honorable Mentions:
+  - __Public Domain Map by OpenStreetMap US __
+  - __Safe-T-Grid Covid Tracker by Safe-T-Grid__
+  - __Bridging the Divide Mapping Tool by University of Louisiana System__    
+    
+    
 ### Climate Smart Community Challenge Awards
 {: .section-header .margin-top-6 }
 
 National Oceanic and Atmospheric Administration awards the following prizes:
 
-- Best All Around, $15,000: __Community Resilience Toolkit__
-- Best UI/UX, $15,000: __Forerunner Floodplain Management Dashboard__
-- Best Tool for Equity & Inclusion, $10,000: __R Story__
-- Best Use of Federal Data, $10,000: __Mayday.ai__
+- Best All Around, $15,000: __Community Resilience Toolkit by mySidewalk__
+- Best UI/UX, $15,000: __Forerunner Floodplain Management Dashboard by Forerunner__
+- Best Tool for Equity & Inclusion, $10,000: __R Story by Columbia University-based student team__
+- Best Use of Federal Data, $10,000: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
 - Honorable Mentions: 
-  - __Climunity Planning Tool__
-  - __City Builder__
+  - __Climunity Planning Tool by Deloitte__
+  - __City Builder by Citi Ventures__
 
 
 ### Health & COVID-19 Awards
@@ -137,34 +156,19 @@ National Oceanic and Atmospheric Administration awards the following prizes:
 
 U.S. Department of Health & Human Services awards the following prizes:
 
-- $20,000: __Activity Finder__
-- $20,000: __Front Door__
-- $20,000: __Black Equity Coalition COVID-19 Allegheny County Data Dashboard__
-- $20,000: __SAVI COVID-19 Impact Index__
-- $20,000: __Proyecto Quinqué__
+- $20,000: __Activity Finder by Health Professional Student Association (HPSA)__
+- $20,000: __Front Door by National Fair Housing Alliance__
+- $20,000: __Black Equity Coalition COVID-19 Allegheny County Data Dashboard by Black Equity Coalition__
+- $20,000: __SAVI COVID-19 Impact Index by The Polis Center at IUPUI__
+- $20,000: __Proyecto Quinqué by Solo Hechos__
 
-
-
-### Society, Economy, & the Built Environment Awards
-{: .section-header .margin-top-6 }
-
-U.S. Census Bureau awards the following prizes:
-
-- Grand Prize, $25,000: __Childcare Planning Assessment Tool__
-- Runner Up, $15,000: __District Builder__
-- Runner Up, $10,000: __The Envision App__
-- Student Prize, $10,000: __Proyecto Quinque__
-- Honorable Mentions:
-  - __Public Domain Map__
-  - __Safe-T-Grid Covid Tracker__
-  - __Bridging the Divide Mapping Tool__
 
 ### In-Kind Awards
 {: .section-header .margin-top-6 }
 
-- Orange Sparkle Ball Prize: __Mayday.ai__
-- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index__
-- CivStart Prize: __Forerunner Floodplain Management Dashboard__
+- Orange Sparkle Ball Prize: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
+- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index by mySidewalk__
+- CivStart Prize: __Forerunner Floodplain Management Dashboard by Forerunner__
 
 
 {::options parse_block_html="false" /}

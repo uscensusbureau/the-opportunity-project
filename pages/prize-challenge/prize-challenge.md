@@ -111,7 +111,6 @@ $260,000 in prizes were announced during The Opportunity Project Summit on Decem
 ### Climate, Resilience, & the Natural Environment Awards
 {: .section-header .margin-top-6 }
 
-prize-challenge
 U.S. Census Bureau awards the following prizes:
 
 - Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__

@@ -101,7 +101,7 @@ winners:
 ### What is It?
 {: .section-header }
 
-The Open Data for Good Grand Challenge is a set of cash and in-kind prizes awarded for teams who have created high-impact digital tools that solve problems for the public.
+The Open Data for Good Grand Challenge is a set of monetary and in-kind prizes awarded for teams who have created high-impact digital tools that solve problems for the public.
 
 Please visit the [official challenge.gov posting]({{ page.challenge-gov }}) to view Challenge details.
 

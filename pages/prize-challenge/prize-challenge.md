@@ -109,7 +109,7 @@ Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for 
 ### What Can You Win?
 {: .section-header .margin-top-6 }
 
-Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
+Prizes range from $10,000 to $25,000 with additional prizes expected to be announced!  
 We're looking for tools that fit into one of these categories:
 - Climate, Resilience, and the Natural Environment
 - Society, Economy, and the Built Environment

@@ -8,7 +8,7 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'Win Funding to Scale Your Technology<br/>Awarding $310,000 in prizes'
+  text: 'Win Funding to Scale Your Technology<br/>Awarding $260,000 in prizes'
   subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
@@ -109,7 +109,7 @@ Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for 
 ### What Can You Win?
 {: .section-header .margin-top-6 }
 
-Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
+Prizes range from $10,000 to $25,000 with additional prizes expected to be announced!  
 We're looking for tools that fit into one of these categories:
 - Climate, Resilience, and the Natural Environment
 - Society, Economy, and the Built Environment

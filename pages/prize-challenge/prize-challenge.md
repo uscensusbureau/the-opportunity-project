@@ -162,8 +162,6 @@ U.S. Department of Health & Human Services awards the following prizes:
 ### In-Kind Awards
 {: .section-header .margin-top-6 }
 
-U.S. Census Bureau awards the following prizes:
-
 - Orange Sparkle Ball Prize: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
 - Orange Sparkle Ball Prize: __Vaccine Hesitancy Index by mySidewalk__
 - CivStart Prize: __Forerunner Floodplain Management Dashboard by Forerunner__

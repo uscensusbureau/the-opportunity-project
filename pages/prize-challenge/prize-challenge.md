@@ -8,7 +8,7 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'Win Funding to Scale Your Technology Awarding $260,000 in prizes'
+  text: 'Win Funding to Scale Your Technology Awarding $260,000 in Prizes'
   subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
 
 banner-subheader:
@@ -111,10 +111,8 @@ $260,000 in prizes were announced during The Opportunity Project Summit on Decem
 ### Climate, Resilience, & the Natural Environment Awards
 {: .section-header .margin-top-6 }
 
-prize-challenge
 U.S. Census Bureau awards the following prizes:
 
-main
 - Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__
 - Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
 - Student Prize, $10,000: __R Story by Columbia University-based student team__
@@ -164,11 +162,9 @@ U.S. Department of Health & Human Services awards the following prizes:
 ### In-Kind Awards
 {: .section-header .margin-top-6 }
 
-U.S. Census Bureau awards the following prizes:
-
-- Orange Sparkle Ball Prize: __Mayday.ai__
-- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index__
-- CivStart Prize: __Forerunner Floodplain Management Dashboard__
+- Orange Sparkle Ball Prize: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
+- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index by mySidewalk__
+- CivStart Prize: __Forerunner Floodplain Management Dashboard by Forerunner__
 
 
 {::options parse_block_html="false" /}

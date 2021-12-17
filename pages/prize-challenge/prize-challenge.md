@@ -8,8 +8,8 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'Win Funding to Scale Your Technology Awarding $260,000 in Prizes'
-  subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who use The Opportunity Project process.'
+  text: 'The Open Data for Good Grand Challenge Awarded $260,000 in Prizes'
+  subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who built technology products with federal open data.'
 
 banner-subheader:
   top:
@@ -115,7 +115,7 @@ U.S. Census Bureau awards the following prizes:
 
 - Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__
 - Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
-- Student Prize, $10,000: __R Story by Columbia University-based student team__
+<!--- - Student Prize, $10,000: __R Story by Columbia University-based student team__-->
 
     
 ### Society, Economy, & the Built Environment Awards
@@ -126,7 +126,7 @@ U.S. Census Bureau awards the following prizes:
 - Grand Prize, $25,000: __Childcare Planning Assessment Tool by University of Kansas Center for Public Partnerships and Research__
 - Runner Up, $15,000: __District Builder by Azavea__
 - Runner Up, $10,000: __The Envision App by Organizational Performance Systems__
-- Student Prize, $10,000: __Proyecto Quinque by Solo Hechos__
+- Student Prize, $10,000: __Proyecto Quinqué by Solo Hechos__
 - Honorable Mentions:
   - __Public Domain Map by OpenStreetMap US__
   - __Safe-T-Grid Covid Tracker by Safe-T-Grid__

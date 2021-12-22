@@ -208,6 +208,7 @@
   image-alt: 3D Map that shows environmental risk areas and social media posts related
     to the disaster
   link: https://mayday.ai/
+  prize_status: Winner
   problem_statement:
   - recbjIUzjzLZ5KmJS
   sprint:
@@ -844,6 +845,7 @@
   image: child-care-planning.jpg
   image-alt: Interactive map of USA with numbers on child care resources
   link: https://top.kucppr.org/
+  prize_status: Winner
   problem_statement:
   - rec3DhHvGbMYMTN1A
   sprint:
@@ -1741,6 +1743,7 @@
   image-alt: Floodplain dashboard with a map that indicates flood risk areas in Bay
     Head, NJ
   link: https://app.withforerunner.com
+  prize_status: Winner
   problem_statement:
   - recbjIUzjzLZ5KmJS
   sprint:
@@ -3924,6 +3927,38 @@
   title: 'PAGAF: Precision Ag for all American Farmers'
   year:
   - 2020
+- Product Name: Climunity Planning Tool
+  agencies:
+  - National Oceanic and Atmospheric Administration
+  airtable_createdTime: '2021-12-16T21:18:24.000Z'
+  airtable_id: recoW8nJLn3UHMkcZ
+  category:
+  - Disasters
+  - Environment
+  data_sets: Census Bureau Geographic Boundaries, American Community Survey; NOAA
+    Sea Level Rise Web Layer; FEMA; CDC; EPA; USDA; USGS
+  data_sets_text: Census Bureau Geographic Boundaries, American Community Survey;
+    NOAA Sea Level Rise Web Layer; FEMA; CDC; EPA; USDA; USGS
+  description: Helps community planners to combine and visualize external and local
+    datasets for use in community and legislative planning, grant applications, and
+    other community climate response efforts
+  details: Helps community planners to combine and visualize external and local datasets
+    for use in community and legislative planning, grant applications, and other community
+    climate response efforts
+  image: climunity_planner.png
+  image-alt: Flood hazard map with charts and a map
+  link: https://arcg.is/1CuniS0
+  prize_status: Winner
+  problem_statement:
+  - recbjIUzjzLZ5KmJS
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  tech_team:
+  - recaF4OziBcwT4V22
+  tech_team_text: Deloitte
+  title: Climunity Planning Tool
+  year:
+  - 2021
 - Description (Old): A collaboration with Zillow to help families find housing near
     high opportunity schools.
   Product Name: GreatSchools

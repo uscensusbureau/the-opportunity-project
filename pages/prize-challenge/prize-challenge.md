@@ -115,7 +115,7 @@ U.S. Census Bureau awards the following prizes:
 
 - Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__
 - Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
-<!--- - Student Prize, $10,000: __R Story by Columbia University-based student team__-->
+<!-- - Student Prize, $10,000: __R Story by Columbia University-based student team__-->
 
     
 ### Society, Economy, & the Built Environment Awards
@@ -141,7 +141,7 @@ National Oceanic and Atmospheric Administration awards the following prizes:
 - Best All Around, $15,000: __Community Resilience Toolkit by mySidewalk__
 - Best UI/UX, $15,000: __Forerunner Floodplain Management Dashboard by Forerunner__
 - Best Tool for Equity & Inclusion, $10,000: __R Story by Columbia University-based student team__
-- Best Use of Federal Data, $10,000: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
+<!--- - Best Use of Federal Data, $10,000: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__ ---> 
 - Honorable Mentions: 
   - __Climunity Planning Tool by Deloitte__
   - __City Builder by Citi Ventures__
@@ -162,9 +162,8 @@ U.S. Department of Health & Human Services awards the following prizes:
 ### In-Kind Awards
 {: .section-header .margin-top-6 }
 
-- Orange Sparkle Ball Prize: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__
-- Orange Sparkle Ball Prize: __Vaccine Hesitancy Index by mySidewalk__
-- CivStart Prize: __Forerunner Floodplain Management Dashboard by Forerunner__
+- Orange Sparkle Ball awarded four individual start-up acceleration sessions and storytelling, customer acquisition, product launch, and pitch support to the __Vaccine Hesitancy Index by mySidewalk__
+- CivStart awarded consultation with CivStart staff on go-to-market strategies, introductions to select corporate partners and access to CivStart Community and resources to __Forerunner Floodplain Management Dashboard by Forerunner__
 
 
 {::options parse_block_html="false" /}

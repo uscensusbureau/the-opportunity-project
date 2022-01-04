@@ -36,11 +36,11 @@ callout:
   container-class: maxw-desktop
   title: 
     text: Watch The Opportunity Project Summit
-  body: '[The Opportunity Project Summit 2021: Open Innovation For All](www.youtube.com/watch?v=Bz56ED2TT30&t=11730s) was a multi-day virtual conference that showcased work accomplished through TOP’s 2021 sprints. The event also featured conversations with leading experts and grassroots community members, provided hands-on learning opportunities for attendees, and announced the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/)'
+  body: '[The Opportunity Project Summit 2021: Open Innovation For All](https://www.youtube.com/watch?v=Bz56ED2TT30&t=11730s) was a multi-day virtual conference that showcased work accomplished through TOP’s 2021 sprints. The event also featured conversations with leading experts and grassroots community members, provided hands-on learning opportunities for attendees, and announced the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/)'
 
   primary:
     text: Watch the Event
-    href: www.youtube.com/watch?v=Bz56ED2TT30&t=11730s
+    href: https://www.youtube.com/watch?v=Bz56ED2TT30&t=11730s
     isExternal: true
 
 ---

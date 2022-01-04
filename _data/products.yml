@@ -207,8 +207,6 @@
   image: mayday-realtime-risk.jpg
   image-alt: 3D Map that shows environmental risk areas and social media posts related
     to the disaster
-  link: https://mayday.ai/
-  prize_status: Winner
   problem_statement:
   - recbjIUzjzLZ5KmJS
   sprint:
@@ -845,7 +843,6 @@
   image: child-care-planning.jpg
   image-alt: Interactive map of USA with numbers on child care resources
   link: https://top.kucppr.org/
-  prize_status: Winner
   problem_statement:
   - rec3DhHvGbMYMTN1A
   sprint:
@@ -1743,7 +1740,6 @@
   image-alt: Floodplain dashboard with a map that indicates flood risk areas in Bay
     Head, NJ
   link: https://app.withforerunner.com
-  prize_status: Winner
   problem_statement:
   - recbjIUzjzLZ5KmJS
   sprint:
@@ -3948,7 +3944,6 @@
   image: climunity_planner.png
   image-alt: Flood hazard map with charts and a map
   link: https://arcg.is/1CuniS0
-  prize_status: Winner
   problem_statement:
   - recbjIUzjzLZ5KmJS
   sprint:

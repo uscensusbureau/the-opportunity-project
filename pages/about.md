@@ -36,6 +36,21 @@ content-primary:
 #white background section
 content-light:
   title: 
+  
+# three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
+impact:
+  - statistic: '100+'
+    underline: short yellow accent
+    description: Consumer-facing digital tools built through our sprints since 2016 <br><br>
+    border: statistic-border-right
+  - statistic: '800+'
+    underline: short yellow accent
+    description: Contributors including designers, developers, data stewards, and community advocates
+    border: statistic-border-right
+  - statistic: '34'
+    underline: short yellow accent
+    description: Unique problem statements addressed through TOP
+    border: padding-right-3
 
 # centered photo with overlay
 photo:
@@ -43,6 +58,7 @@ photo:
   img-alt: Abstract exploding data with vibrant red and blue lines
   overlay:
     title: From the Census Open Innovation Labs
+    color: secondary-white
     text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.
     button:
       text: Read about the Team
@@ -55,6 +71,7 @@ photo:
 {% include hero.html %}
 {% include circuit-banner.html %}
 {% include sidebar-and-content-primary.html %}
+{% include three-column-narrow-text.html %}
 
 <section class="bg-base-lightest">
   <section class="usa-section grid-container bg-white">

@@ -30,6 +30,32 @@
   title: Social Impact Reporting Platform
   year:
   - 2017
+- Product Name: Smartcat
+  agencies:
+  - New York City
+  airtable_createdTime: '2022-01-19T19:30:17.000Z'
+  airtable_id: rec0mb2097kAhBqzs
+  data_sets: Open-source data sets
+  data_sets_text: Open-source data sets
+  description: 'Shares the needs, challenges, and opportunities for real-time translation
+    of multi-lingual content through a white paper '
+  details: 'Shares the needs, challenges, and opportunities for real-time translation
+    of multi-lingual content through a white paper '
+  image: smartcat.png
+  image-alt: A white paper that connect CMS to TMS
+  link: https://www.smartcat.com/translation-and-localization-for-government-agencies-whitepaper/
+  problem_statement:
+  - recxiyHz22AqIcSU6
+  sprint:
+  - recjkCdpt4YKEx7Ae
+  - recnrr8LKTIFIKsHU
+  tech_team:
+  - recwAlzX9WMAnFiI2
+  tech_team_text: Smartcat
+  title: Smartcat
+  year:
+  - 2021
+  - 2021
 - Product Name: ECO Bloc
   agencies:
   - U.S. Environmental Protection Agency
@@ -798,7 +824,7 @@
   - 2017
 - Product Name: Wordly Real-Time Translation
   agencies:
-  - New York City Mayor's Office of the Chief Technology Officer
+  - New York City
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recAe4qaOrsmwsz7C
   data_sets: Open-source data sets
@@ -1274,7 +1300,7 @@
     to visualize trends for actionable insights '
   image: trendr.jpg
   image-alt: 'Map of USA displays numbers of African Immigrants admitted by year. '
-  link: https://bocrauwels.shinyapps.io/fall-2021-opportunity-main/
+  link: https://qmssprogram.shinyapps.io/TrendR_ColumbiaOpportunityProject/
   problem_statement:
   - recdkBaZ8qiY98UM4
   sprint:
@@ -4111,7 +4137,7 @@
   image: remote-v-onsite-housing-affordability-dashboard.jpg
   image-alt: Map of the Northeast and the median rent burden for workers in onsite
     occupations
-  link: https://public.tableau.com/app/profile/apartment.list.research/viz/Remote_Onsite_Housing_Affordability/dashboard_full?publish=yes
+  link: https://www.apartmentlist.com/research/remote-work-housing-affordability-dashboard
   problem_statement:
   - recsbfXyfEmL6eaDo
   sprint:

@@ -115,7 +115,7 @@ U.S. Census Bureau awards the following prizes:
 
 - Grand Prize, $25,000: __Climunity Planning Tool by Deloitte__
 - Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
-<!-- - Student Prize, $10,000: __R Story by Columbia University-based student team__-->
+- Student Prize, $10,000: __R Story by Columbia University-based student team__
 
     
 ### Society, Economy, & the Built Environment Awards

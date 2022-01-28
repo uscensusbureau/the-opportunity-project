@@ -138,9 +138,9 @@ U.S. Census Bureau awards the following prizes:
 
 National Oceanic and Atmospheric Administration awards the following prizes:
 
-- Best All Around, $15,000: __Community Resilience Toolkit by mySidewalk__
-- Best UI/UX, $15,000: __Forerunner Floodplain Management Dashboard by Forerunner__
-- Best Tool for Equity & Inclusion, $10,000: __R Story by Columbia University-based student team__
+- Best All Around, $16,666: __Community Resilience Toolkit by mySidewalk__
+- Best UI/UX, $16,666: __Forerunner Floodplain Management Dashboard by Forerunner__
+- Best Tool for Equity & Inclusion, $16,666: __R Story by Columbia University-based student team__
 <!--- - Best Use of Federal Data, $10,000: __Mayday.ai Real Time Disaster & Risk Intelligence by Mayday.ai__ ---> 
 - Honorable Mentions: 
   - __Climunity Planning Tool by Deloitte__

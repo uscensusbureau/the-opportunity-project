@@ -76,7 +76,7 @@ The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/introduction/) en
 ### Compete for Prize Funds
 {: .section-header }
 
-If your team participates in a TOP sprint or uses the [product development toolkit](https://opportunity.census.gov/product-development/toolkit/), you may be eligible to apply for the annual Open Data for Good Grand Challenge. Submissions for the 2021 Open Data For Good Challenge are now closed, but stay tuned for our announcement of this year’s winners and news of next year’s challenge by visiting the [prize challenge page](https://opportunity.census.gov/prize-challenge).
+If your team participates in a TOP sprint or uses the [product development toolkit](https://opportunity.census.gov/product-development/toolkit/), you may be eligible to apply for the annual Open Data for Good Grand Challenge. Submissions for the 2021 Open Data For Good Challenge are now closed, but you can view this year’s winners and news of next year’s challenge by visiting the [prize challenge page](https://opportunity.census.gov/prize-challenge).
 
 
 {::options parse_block_html="false" /}

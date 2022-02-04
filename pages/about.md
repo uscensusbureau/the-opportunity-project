@@ -7,7 +7,7 @@ layout: default
 # hero section
 lead:
   - 'The Opportunity Project helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
-  - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 100 consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
+  - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 175+ consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
 
 circuit-banner:
   background-color: primary
@@ -43,7 +43,7 @@ impact:
     underline: short yellow accent
     description: National challenges addressed, including ocean plastic pollution, COVID-19 economic recovery, disaster <br><br>
     border: statistic-border-right
-  - statistic: '135+'
+  - statistic: '175+'
     underline: short yellow accent
     description: Public-facing digital products launched since 2016 through TOP’s 12-week technology development sprints
     border: statistic-border-right
@@ -82,7 +82,7 @@ photo:
       <p>The Opportunity Project launched in March 2016 as a White House initiative to catalyze new technologies that use federal and local data to empower communities with information about critical resources, such as affordable housing, quality schools, and jobs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through data, technology, and user centered design.
       </p>
       <p>
-        In the past 4 years, TOP’s hundreds of participants have created 100 digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the <a href="https://strategy.data.gov/" class="text-bold text-black opacity-80">Federal Data Strategy</a>, <a href="https://www.whitehouse.gov/omb/management/pma/" class="text-bold text-black opacity-80">the President’s Management Agenda</a>, <a href="https://performance.gov" class="text-bold text-black opacity-80">performance.gov</a>,  <a href="https://www.commerce.gov/about/strategic-plan" class="text-bold text-black opacity-80">Department of Commerce’s Strategic Plan</a>, <a href="https://www.usda.gov/sites/default/files/documents/rural-prosperity-report.pdf" class="text-bold text-black opacity-80">the Task Force on Agriculture and Rural Prosperity Report</a>, and many others. In 2019, <a href="{{site.top-bill}}" class="text-bold text-black opacity-80">The Opportunity Project Act of 2019</a> was introduced to permanently authorize the program.</p>
+        In the past 6 years, TOP’s hundreds of participants have created 175+ digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the <a href="https://strategy.data.gov/" class="text-bold text-black opacity-80">Federal Data Strategy</a>, <a href="https://www.whitehouse.gov/omb/management/pma/" class="text-bold text-black opacity-80">the President’s Management Agenda</a>, <a href="https://performance.gov" class="text-bold text-black opacity-80">performance.gov</a>,  <a href="https://www.commerce.gov/about/strategic-plan" class="text-bold text-black opacity-80">Department of Commerce’s Strategic Plan</a>, <a href="https://www.usda.gov/sites/default/files/documents/rural-prosperity-report.pdf" class="text-bold text-black opacity-80">the Task Force on Agriculture and Rural Prosperity Report</a>, and many others. In 2019, <a href="{{site.top-bill}}" class="text-bold text-black opacity-80">The Opportunity Project Act of 2019</a> was introduced to permanently authorize the program.</p>
        
       </div>
     </div>

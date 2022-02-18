@@ -18,8 +18,8 @@ files:
 # Problem Statement Submission
 {: .text-base-darkest }
 
-The problem statement submission for The Opportunity Project (TOP) summer/fall 2022 sprint cycle is now open.**We will be reviewing submissions on a rolling basis until April 1, 2022.**
-
+The problem statement submission for The Opportunity Project (TOP) summer/fall 2022 sprint cycle is now open. 
+**We will be reviewing submissions on a rolling basis until April 1, 2022.**
 {: .font-sans-md }
 
 - Before you start drafting your problem statement proposal, please review the problem statement guidelines below. 

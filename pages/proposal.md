@@ -5,11 +5,11 @@ layout: ps-proposal
 
 files:
   federal:
-    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2021_Federal-Agencies.docx'
-    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Federal_Agencies.pdf'
+    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2022_Federal-Agencies.docx'
+    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2022_Federal_Agencies.pdf'
   ngos:
-    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2021_Partners.docx'
-    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2021_Partners.pdf'
+    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2022_Partners.docx'
+    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2022_Partners.pdf'
 
 ---
 {% assign templateUrl = site.baseurl | append: "/assets/files/" | append: page.files.template %}
@@ -18,7 +18,8 @@ files:
 # Problem Statement Submission
 {: .text-base-darkest }
 
-The problem statement submission window has now closed for our summer/fall 2021 sprint cycle. Off-cycle sprints are still possible so we encourage stakeholders to submit problem statements following the below steps, and The Opportunity Project team will follow up.  Submissions will be reviewed on a rolling basis.
+The problem statement submission for The Opportunity Project (TOP) summer/fall 2022 sprint cycle is now open. 
+**We will be reviewing submissions on a rolling basis until April 1, 2022.**
 {: .font-sans-md }
 
 - Before you start drafting your problem statement proposal, please review the problem statement guidelines below. 

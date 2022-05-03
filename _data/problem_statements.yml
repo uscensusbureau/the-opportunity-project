@@ -116,7 +116,6 @@
   - recaRsKbgtQOavIpx
   - recxNb6AkmDER2KXh
   - rec0sJ3TvQo6mykBz
-  - recIklh16YxGUUQmW
   Sprints:
   - recfjW4XBdTnujZD7
   Target audience / End user: U.S. recycling facilities and manufacturers looking
@@ -172,7 +171,7 @@
   image-alt: Workers collecting recycling
   organizations:
   - recDJthxFdnCkkHXX
-  products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc, greenScan
+  products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
   sprint_order: 2
   sprint_text: Natural Environment
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
@@ -386,6 +385,53 @@
     Public Finance Institute-Disaster Spending Tracker
   sprint_order: 3
   sprint_text: Built Environment
+- Challenge: Create digital tools that use open data to help state, local, tribal,
+    and territorial governments navigate potential grant opportunities enabled by
+    the Bipartisan Infrastructure Law (BIL) and other major initiatives to optimize
+    the use of their limited staff resources and enable them to better plan for upcoming
+    opportunities.
+  Executive champion: Denice Ross, U.S. Chief Data Scientist, White House Office of
+    Science & Technology Policy and Oliver Wise, Chief Data Officer, U.S. Department
+    of Commerce
+  Full Title: Helping Communities Access Infrastructure Grant Funding
+  Name: Helping Communities Access Infrastructure Grant Funding
+  Sprints:
+  - recX8qMzecPlE76HV
+  Target audience / End user: Lower-resourced state, local, tribal, and territorial
+    governments seeking competitive Federal grant funding. Specific examples of offices/users
+    include mayoral offices, community leaders, tribal leaders, county administrators,
+    and state agency representatives.
+  Vision for sprint outcomes: Through access to user-friendly digital tools and information,
+    state, local, tribal, and territorial governments of all capacities will be more
+    aware of and better prepared to access federal grant funding from the BIL, helping
+    to ensure public dollars work to reduce existing inequities.
+  Why this problem matters: "The Federal Government awards over $1.5 trillion in Federal\
+    \ contracts and financial assistance each year\u2014and sometimes much more in\
+    \ times of crisis.  The Bipartisan Infrastructure Law (BIL), enacted in November\
+    \ 2021, represents a once-in-a-generation investment in our nation\u2019s infrastructure\
+    \ and competitiveness with $1.2 trillion in appropriations funding for over 375\
+    \ programs, many of which are competitive grant programs that jurisdictions must\
+    \ apply for.\n\nUnfortunately, many historic barriers exist to accessing financial\
+    \ assistance, especially for lower-resourced communities, including difficulties\
+    \ in obtaining information about when grant opportunities become available.  The\
+    \ short application window of some grant opportunities, and requirements like\
+    \ the need to provide matching funds or limits imposed on indirect costs, can\
+    \ also make the decision to apply for specific grants challenging. \n \nMany jurisdictions\
+    \ have expressed that they lack the capacity to navigate through the mountain\
+    \ of information on programs funded by the Bipartisan Infrastructure Law (BIL)\
+    \ and other major initiatives in a relatively short time period.  This makes it\
+    \ difficult to find the programs most relevant to their locality, and lower-resourced\
+    \ communities in particular lack the technical assistance needed to develop quality\
+    \ grant applications that have a higher chance of being selected.  This reinforces\
+    \ existing inequities as higher-resourced communities are more successful in accessing\
+    \ these grant opportunities while lower-resourced communities are left behind.\n"
+  agency_text: White House Office of Science and Technology Policy
+  airtable_createdTime: '2022-05-03T15:17:52.000Z'
+  airtable_id: rec4f1ZKErT6siTgx
+  organizations:
+  - rec0txaC5vlg0xonh
+  pdf: 2022-OSTP_DOC.pdf
+  sprint_text: 2022 Sprints
 - Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
     \ passed in 2015\u2014 requires states to make an estimated 2,107 data points\
     \ about their public school systems accessible to parents. In response, states\
@@ -440,6 +486,44 @@
   pdf: 2018-reportcard.pdf
   products_text: Socrata Citizen Education Data Cloud
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
+- Challenge: "Help American island communities such as Puerto Rico transition to a\
+    \ resilient grid powered 100% by renewable energy, by creating digital tools that\
+    \ use federal open data to assist city planners, developers of energy solutions,\
+    \ and local leaders to achieve their communities\u2019 renewable energy goals. "
+  Executive champion: Garrett Nilsen, Acting Director, Solar Energy Technologies Office,
+    U.S. Department of Energy
+  Full Title: "Supporting Island Communities\u2019 Transition to Resilient Renewable\
+    \ Energy"
+  Name: "Supporting Island Communities\u2019 Transition to Resilient Renewable Energy"
+  Sprints:
+  - recipwGjLyYQUZF2g
+  Target audience / End user: City planners, developers, community leaders, engaged
+    citizens
+  Vision for sprint outcomes: Island communities have better access to data-driven
+    tools and information to quickly and easily identify priority areas for resiliency
+    investments, better assess risk and reward, anticipate future needs, and make
+    informed investments that help Puerto Rican and other island communities achieve
+    their renewable energy goals while supporting local communities.
+  Why this problem matters: "Climate change poses an increasing threat to the resiliency\
+    \ and efficiency of our nation\u2019s electric grids.  Nowhere is this more prominent\
+    \ than our island communities, where rising global temperatures and changing weather\
+    \ patterns are challenging grid operators to rethink infrastructure and make new\
+    \ investments in resiliency.  Island communities are facing increased wildfire\
+    \ risk. Rising sea water and warming water temperatures are reducing the efficiency\
+    \ of water-cooled energy generation facilities, forcing them to curtail generation,\
+    \ or, in some cases, even shut down due to water temperature issues.  Extreme\
+    \ temperatures and severe storms are testing the limits of energy generation and\
+    \ delivery operations.  Complicating matters further, a lack of data-driven tools\
+    \ makes it difficult for decision makers to prioritize investments, accurately\
+    \ assess risk and opportunities, or evaluate the costs and benefits of emerging\
+    \ technologies."
+  agency_text: National Renewable Energy Laboratory
+  airtable_createdTime: '2022-05-03T14:49:31.000Z'
+  airtable_id: rec52uEVxyphCPkqF
+  organizations:
+  - recDsCKAN08Cgxavh
+  pdf: 2022-NREL.pdf
+  sprint_text: TOP Puerto Rico
 - Background: Many state and local governments do not have a database of addresses
     with geospatial coordinates (also known as address point data), which is critical
     for high priority issues like emergency response. In some cases, where the governments
@@ -936,6 +1020,51 @@
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity, Opportunity
     Enabler, Affordable Housing Finder
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Challenge: "Supporting children\u2019s resilience \u2013 their ability to bounce\
+    \ back in the face of adversity \u2013 is critical to their wellbeing, including\
+    \ by helping avoid long-term negative mental health outcomes. Create tools and\
+    \ resources designed specifically for Puerto Rican children and youth that promote\
+    \ resilience, such as by addressing mental health stigma."
+  Executive champion: Jennifer Cannistra, Deputy Assistant Secretary for Policy, Administration
+    for Children and Families, HHS
+  Full Title: "Enhancing Children\u2019s Resilience to Adversity in Puerto Rico"
+  Name: "Enhancing Children\u2019s Resilience to Adversity in Puerto Rico"
+  Sprints:
+  - recipwGjLyYQUZF2g
+  Target audience / End user: Children and youth, parents, educators, community-based
+    organizations, other service providers in Puerto Rico
+  Vision for sprint outcomes: Through the creation and distribution of child- and
+    youth-friendly tools and resources specifically designed for the unique culture,
+    language, and resources in Puerto Rico, more children and youth in Puerto Rico
+    could have access to new skills and resources to strengthen their responses to
+    adversity.
+  Why this problem matters: 'COVID-19 and other disasters have exacerbated and shined
+    a light on critical gaps in behavioral health care for children and youth in the
+    United States.  All levels of government, as well as many communities, youth,
+    and families across the country, are focused on addressing this challenge.  In
+    December 2021, the U.S. Surgeon General released an Advisory on Protecting Youth
+    Mental Health, which highlighted that rates of psychological distress among young
+    people, including symptoms of anxiety, depression, and other mental health disorders,
+    increased during the COVID-19 pandemic.  Mental health emergencies among young
+    people have also increased.  In 2020, there was a 24 percent increase in emergency
+    room visits for mental health reasons for children ages 5 through 11, and more
+    than a 30 percent increase in such visits for those ages 12 to 17.  Tools and
+    resources to address stigma and promote resilience in children and youth must
+    be created in consultation and partnership with the end user (children and youth)
+    and must be culturally relevant and user friendly.  Advancing equity in mental
+    health for children and youth in Puerto Rico is particularly pressing because
+    of the significant exposure to natural disasters, the impact of COVID-19 in the
+    community, and the limited access to resources to support and strengthen the mental
+    health of children and youth. '
+  agency_text: U.S. Department of Health and Human Services, Instituto del Desarrollo
+    de la Juventud
+  airtable_createdTime: '2022-05-03T15:02:35.000Z'
+  airtable_id: recCRT4zbEOa2TGo0
+  organizations:
+  - recZod0Y9uE8dnrem
+  - recQopFzHcyBWeeLi
+  pdf: 2022-HHS-ACF.pdf
+  sprint_text: TOP Puerto Rico
 - Name: Data Discovery
   Products:
   - recV0aW7ZolC7aIoy
@@ -1114,6 +1243,138 @@
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
   sprint_order: 4
   sprint_text: Built Environment
+- Challenge: "Use existing well-being frameworks, along with input from people with\
+    \ lived experience and federal data, to create national-level indicator(s) of\
+    \ well-being that better capture individuals' and families\u2019 overall sense\
+    \ of economic stability, economic opportunity, health, dignity, agency, and community."
+  Executive champion: Don Graves, Deputy Secretary, U.S, Department of Commerce; Mira
+    Patel, Senior Advisor to the Deputy Secretary, US Department of Commerce; Janis
+    Bowdler, Counselor to the Secretary, US Department of the Treasury; Chike Aguh,
+    Chief Innovation Officer, US Department of Labor;  Elizabeth Garlow, Director,
+    New Practice Lab, New America
+  Full Title: Developing Community-Informed National-Level Indicators of Well-Being
+  Name: Developing Community-Informed National-Level Indicators of Well-Being
+  Sprints:
+  - recX8qMzecPlE76HV
+  Target audience / End user: Federal, state, tribal, and local policymakers; communities
+    interested in aligning public spending and policymaking priorities with contributors
+    to well-being.
+  Vision for sprint outcomes: 'Through the use of data and community input, federal
+    and local policymakers can begin to identify new indicators that capture dimensions
+    of well-being beyond traditional economic indicators.  Doing so will help elevate
+    the things that matter most to households and communities, and in turn shape policy
+    priorities.  For example, it may help policymakers select infrastructure projects
+    that go beyond refreshing aging roads and instead target well-being goals holistically:
+    such as new economic opportunities for residents, public spaces that contribute
+    to good mental and physical health, and/or investments that prioritize equity.'
+  Why this problem matters: "Resiliency among households and communities requires\
+    \ more than economic means.  Weathering an unprecedented disruption to everyday\
+    \ life like the COVID-19 pandemic has required strong social networks, stable\
+    \ housing, healthy food, access to outdoor recreational space, mental health resources,\
+    \ and other social infrastructure, which many have not had access to.  At the\
+    \ same time, the OECD\u2019s better life index gives the U.S. low marks in several\
+    \ areas of well-being despite the U.S. leading the entire OECD in household income.\
+    \  Americans work longer hours, have lower life expectancies, and are exposed\
+    \ to more air pollution than most other OECD nations.  The pandemic has also underscored\
+    \ how the impacts of crises are felt unevenly across the U.S., particularly amongst\
+    \ different racial and ethnic groups and in communities of color, and how individual\
+    \ stressors can compound within communities. \n\nHowever, these resources, challenges,\
+    \ and disparities are not captured by macroeconomic measures such as the unemployment\
+    \ rate or GDP, and traditional measures of economic progress fail to account for\
+    \ the multiple dimensions of well-being that matter to individuals, families,\
+    \ and communities.  Furthermore, little is done to understand the shared experiences\
+    \ of people across the nation.  Some communities, like Santa Monica, CA, have\
+    \ developed new well-being measures to assess progress at a local level.  This\
+    \ is a promising step forward but has not changed the national narrative about\
+    \ equitable social and economic progress. \n\nThe cross-sector community focused\
+    \ on well-being in the U.S. does not currently have agreed-upon measures of the\
+    \ economic, cultural, social, natural, and other forms of well-being that contribute\
+    \ to a flourishing life.  Yet the presence of national-level indicators is critical\
+    \ because the federal government, along with local stakeholders, is currently\
+    \ making significant investments in infrastructure and other pillars of recovery\
+    \ with the aim of enabling all Americans to fully participate in the economy.\
+    \  These investments have the potential to advance the resilience and well-being\
+    \ of families and communities across the country if they start with what matters\
+    \ most to people in their communities and the foundational aspects of well-being\
+    \ such as belonging, stability, meaningful access to resources, and more.  This\
+    \ requires being in dialogue with households and communities, centering their\
+    \ lived experience, and seeking their input into the development of indicators\
+    \ to evaluate and report on well-being.\n"
+  agency_text: U.S. Department of Commerce, U.S. Department of Labor, U.S. Department
+    of the Treasury, New America
+  airtable_createdTime: '2022-05-03T15:22:31.000Z'
+  airtable_id: recE3t7URGHw5zsCM
+  organization-esp:
+  - Departamento del Tesoro de los EE. UU.
+  organizations:
+  - recLvJEYyQsXZr2LJ
+  - recnDoHewBvPIWrBO
+  - recgPNji2KEknNBA5
+  - reczOy5j4CLUvyWCz
+  pdf: 2022-DOC-DOL-Treasury.pdf
+  sprint_text: 2022 Sprints
+- Challenge: Develop innovative digital solutions that connect domestic recycling
+    facilities with manufacturers to enhance recycling markets and increase the use
+    of recycled materials.
+  Full Title: Developing Markets for Recycled Materials
+  Name: Recycled Materials 2
+  Products:
+  - recIklh16YxGUUQmW
+  Sprints:
+  - rec4vys7lW5OufL2k
+  Target audience / End user: U.S. recycling facilities and manufacturers looking
+    to produce, sell, and buy quality recycled materials; rural or tribal communities;
+    organizations and state and local governments striving to improve their recycling
+    facilities and infrastructure.
+  Why this problem matters: Recycling facilities, ranging from those operated by large
+    waste management corporations to smaller, family-owned facilities, process the
+    nearly 70M tons of material that Americans throw into their recycling bins each
+    year. While international markets were historically significant purchasers of
+    materials from these U.S. recycling facilities, recent years have seen tightening
+    of international markets, due largely to contamination of traditional recycling
+    streams by newer products (e.g., plastic bags, flexible pouches, and lithium batteries),
+    which our outdated recycling infrastructure is ill-equipped to manage. Many recycling
+    facilities are unable to fill the gap left by international markets, as they are
+    not connected to domestic manufacturers (e.g., paper mills, bottling plants) that
+    have demand for using these recycled materials in new products. These dynamics
+    have contributed to recycling programs across the country shrinking or even shutting
+    down.
+  agency_text: U.S. Environmental Protection Agency
+  airtable_createdTime: '2021-11-30T15:58:31.000Z'
+  airtable_id: recFNAXdBZ4ouFgDx
+  datasets copy:
+  - recjoZTz0R5gmsAKx
+  - recRFaeTZ3xjJOnfi
+  - recjEWRBzfPed6Mjx
+  - recZg3fGxDmbe7UNP
+  - recfcLCZL0Xw7ghsq
+  - recSrchAqvHORzn9O
+  - recqMZ6EvgVdROZb5
+  - recaxnp7O7OTu9lJj
+  - recSTi0OtbctLeV2g
+  - rec9VSLDwiFfkf2Gv
+  - recEhddUqzLwngJGe
+  - reccQXF6uh1ySoJG0
+  - recg2zww1xm5i28l2
+  - rece8msRdyrgdK6fm
+  - rec9CVvWU2Jbx29XH
+  - recG4Nq4VUB2lC2b6
+  - recsRyhNeaMZuOMbq
+  datasets_text: 'Recycling Demand Mapping in the Southeast, Annual Mineral Commodity
+    Summaries, Recycling Market Development Platform, Can Manufacturers Institute
+    Statistics, Recycling Economic Information (REI) Report, "Facts and Figures about
+    Materials, Waste and Recycling", Plastics Data , Recycling Commodities, Map of
+    Commingled Residential MRFs in the United States, Steel Industry Data, U.S. State
+    and Local Waste and Materials Characterization Reports, The Business of Chemistry
+    By the Numbers, Glass Resource Locator, Buyers and Sellers Information, Aluminum
+    Association Industry Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off
+    Facilities", Aluminum Association Buyers'' Guide'
+  image: challenges/recycling.jpg
+  image-alt: Workers collecting recycling
+  organizations:
+  - recDJthxFdnCkkHXX
+  products_text: greenScan
+  sprint_text: Natural Environment GA
 - Full Title: ' Creating Digital Tools that Bring Diagnostic Data to Consumers,'
   Name: COVID-19 Testing
   Products:
@@ -1716,6 +1977,59 @@
     Ag for all American Farmers'
   sprint_order: 1
   sprint_text: Natural Environment
+- Challenge: Develop awareness campaigns, guidelines, tools, and solutions to local
+    addressing and geolocation challenges in the Commonwealth of Puerto Rico, especially
+    within vulnerable communities (i.e. those disproportionately affected during a
+    natural disaster or emergency situation due to accessibility, demographic characteristics,
+    historic vulnerabilities, and/or socio-economic inequities).
+  Executive champion: Deirdre Dalpiaz Bishop, Chief, Geography Division, U.S. Census
+    Bureau
+  Full Title: Transforming Local Addressing Systems in Puerto Rico
+  Name: Transforming Local Addressing Systems in Puerto Rico
+  Sprints:
+  - recipwGjLyYQUZF2g
+  Target audience / End user: Tribal, federal, state, and municipal government leaders;
+    mail delivery stakeholders; community members; advocates; first responders in
+    the Commonwealth of Puerto Rico
+  Vision for sprint outcomes: This TOP sprint will provide the necessary momentum
+    for municipal governments to continue their efforts to fill in locatable address
+    and street name gaps, standardize and openly share address information, and develop
+    best practices to build an address data infrastructure that will advance equity
+    and benefit communities.
+  Why this problem matters: "Though often taken for granted, locatable civic addresses\
+    \ are critical during catastrophic events such as hurricanes and earthquakes,\
+    \ when residences and businesses cannot be located using traditional means of\
+    \ navigation that rely on structures, street signs, and landmarks.  Residents\
+    \ of housing units that lack a locatable civic address may not receive services\
+    \ or assistance, such as emergency aid, as well as utilities, mail and package\
+    \ delivery.  These services can even be out of reach to residents with existing\
+    \ addresses if they are not locatable and portrayed in consistent, uniform, and\
+    \ unambiguous ways to service providers. \n\nUnfortunately, much of Puerto Rico\
+    \ faces a myriad of local addressing challenges including a lack of locatable\
+    \ civic addresses.  First, many housing units do not have a unique address, and\
+    \ there may be several homes with the same address.  Second, many housing units\
+    \ have mailing addresses that are not locatable to people on the ground and not\
+    \ locatable by digital mapping applications (e.g., P.O. Box and Highway Contract\
+    \ Route addresses).  Third, citizens and institutions may not be aware of how\
+    \ to portray addresses so they are easily understood and can be processed by automated\
+    \ systems.  Unnamed roads and streets compound these challenges.  \n\nFurther,\
+    \ local governments in Puerto Rico may not have the resources to build an address\
+    \ data infrastructure to assign, collect, and maintain standardized and locatable\
+    \ civic addresses, especially within vulnerable areas.  As a result, many communities\
+    \ lack locatable civic addresses with a house number and a street name associated\
+    \ with a geospatial coordinate that make them locatable by people and mapping\
+    \ technology.  In other cases, where local governments have addressing programs,\
+    \ the address database is not openly available, limiting the benefit to the community."
+  agency_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2022-05-03T15:07:51.000Z'
+  airtable_id: recSzR9PlTnjGwpcH
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  - recRLxRGfiWtHnmAs
+  pdf: 2022-Census-HUD.pdf
+  sprint_text: TOP Puerto Rico
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
     opioids increased more than five-fold, from about 8,000 to over 42,000. Both prescription
@@ -1981,6 +2295,7 @@
   - rec1IW7qqlzejpNGy
   - recPqJziDWZAdmU6C
   - rec2eC4jRTNiwMsQw
+  - recoW8nJLn3UHMkcZ
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2090,7 +2405,7 @@
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__NOAA.pdf
   products_text: City Builder, Community Resilience Data Guide, Forerunner Floodplain
     Management Dashboard, Mayday.ai Realtime Risk and Disaster Intelligence (Resilient
-    USA 2.0)
+    USA 2.0), Climunity Planning Tool
   sprint_order: 3
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Eventos extremos y los cambios en los patrones de temperatura y precipitaci\xF3\
@@ -2153,6 +2468,59 @@
   pdf: 2016-dol.pdf
   products_text: Opportunity Enabler
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Challenge: 'Create data-driven tools to help state, local, tribal, and territorial
+    emergency managers, elected officials, and members of the public visualize both
+    the risks of climate change to their communities and the impacts of implementing
+    mitigation and adaptation strategies. '
+  Executive champion: Erin Hoffman, Director, Office of National Exercises and Technological
+    Hazards, FEMA
+  Full Title: Building Community and Individual Climate Resilience
+  Name: Building Community and Individual Climate Resilience
+  Sprints:
+  - recX8qMzecPlE76HV
+  Target audience / End user: State, local, tribal, and territorial emergency managers
+    and elected officials, as well as city planners, transportation officials, public
+    health authorities, individuals, households, NGOs serving them, others involved
+    in planning
+  Vision for sprint outcomes: Using accurate data on risk and outcomes of various
+    climate adaptation strategies, future modeling techniques, and plain language
+    messaging, emergency managers, state and local decision makers, and individuals
+    will be better prepared to make informed and timely decisions to improve their
+    resilience to the effects of climate change.  The resulting tools will communicate
+    highly technical information in easily understood, relatable ways to support individual
+    and community decision making and help communities improve their climate resilience
+    through systems-based investments in climate adaptation.
+  Why this problem matters: "Climate change represents a profound crisis for the nation,\
+    \ making natural disasters more frequent, more intense, and more destructive.\
+    \  In 2020 alone, there were 22 weather and climate disaster events, with total\
+    \ losses exceeding $1 billion across the U.S.  In comparison, the previous record\
+    \ set in both 2011 and 2017 was 16 disasters.  Emergency managers in communities\
+    \ across the country face increasing demands generated by more extreme and frequent\
+    \ disasters \u2014 from wildfires and coastal storms to inland flooding \u2013\
+    \ as well as climate-related emergencies such as drought and extreme heat. \n\n\
+    The growing severity of disasters increases the time it takes for communities\
+    \ to recover \u2014 a process that can be further complicated by repeat events\
+    \ in areas already struggling to bounce back.  These cascading and compounding\
+    \ impacts, propelled by climate change, pose the greatest risk to our communal\
+    \ and nationwide resilience.  Natural disasters often disproportionately affect\
+    \ people in underserved communities where weakened infrastructure, fewer resources,\
+    \ and less support to invest in hazard mitigation can compound a disaster\u2019\
+    s impact. \n\nTo help confront these threats, we must enhance the nation\u2019\
+    s ability to anticipate, prepare for, and adapt to future climate conditions.\
+    \  This starts with fostering a common understanding of how climate change will\
+    \ reshape emergency management at both the community and household level, and\
+    \ includes building better resources and tools to drive understanding of future\
+    \ risk and enhance a community\u2019s ability to act.  While risk maps and climate\
+    \ projection data for specific hazards exist, we do not yet have widely available\
+    \ tools to help communities and individuals prioritize mitigation strategies based\
+    \ on cost, impact, and other factors."
+  agency_text: Federal Emergency Management Agency
+  airtable_createdTime: '2022-05-03T15:15:21.000Z'
+  airtable_id: reccBn4jTjxtqv7u1
+  organizations:
+  - recCGtljPyEpJ15UO
+  pdf: 2022-FEMA.pdf
+  sprint_text: 2022 Sprints
 - Challenge: Develop digital products or physical/digital works of art that use 2020
     Census data to build data literacy skills.
   Full Title: 'Improving Data Literacy Using Decennial Census Data '
@@ -3043,6 +3411,7 @@
   Name: Increasing Content Accessibility for Multilingual Communities
   Products:
   - recAe4qaOrsmwsz7C
+  - rec0mb2097kAhBqzs
   Sprints:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3069,7 +3438,7 @@
     \ critical information in a timely manner.  In an emergency situation, and during\
     \ an economic recovery from crises such as COVID-19, if people lack equal access\
     \ to usable information, how can we ensure an equitable recovery?"
-  agency_text: New York City Mayor's Office of the Chief Technology Officer
+  agency_text: New York City
   airtable_createdTime: '2021-06-28T20:23:56.000Z'
   airtable_id: recxiyHz22AqIcSU6
   audience-esp: "Gobiernos locales y NGO que necesiten comunicarse con hablantes de\
@@ -3093,7 +3462,7 @@
   pdf: 2021-problem-statements/post-covid/NYC_ Increasing Content Accessibility for
     Multilingual Communities.pdf
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__New-York.pdf
-  products_text: Wordly Real-Time Translation
+  products_text: Wordly Real-Time Translation, Smartcat
   sprint_order: 6
   sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
   why-esp: "Con m\xE1s de 3 millones de residentes nacidos en el extranjero provenientes\

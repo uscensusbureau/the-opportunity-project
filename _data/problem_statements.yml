@@ -431,6 +431,7 @@
   organizations:
   - rec0txaC5vlg0xonh
   pdf: 2022-OSTP_DOC.pdf
+  sprint_order: 2
   sprint_text: 2022 Sprints
 - Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
     \ passed in 2015\u2014 requires states to make an estimated 2,107 data points\
@@ -523,6 +524,7 @@
   organizations:
   - recDsCKAN08Cgxavh
   pdf: 2022-NREL.pdf
+  sprint_order: 1
   sprint_text: TOP Puerto Rico
 - Background: Many state and local governments do not have a database of addresses
     with geospatial coordinates (also known as address point data), which is critical
@@ -1064,6 +1066,7 @@
   - recZod0Y9uE8dnrem
   - recQopFzHcyBWeeLi
   pdf: 2022-HHS-ACF.pdf
+  sprint_order: 2
   sprint_text: TOP Puerto Rico
 - Name: Data Discovery
   Products:
@@ -1312,6 +1315,7 @@
   - recgPNji2KEknNBA5
   - reczOy5j4CLUvyWCz
   pdf: 2022-DOC-DOL-Treasury.pdf
+  sprint_order: 3
   sprint_text: 2022 Sprints
 - Challenge: Develop innovative digital solutions that connect domestic recycling
     facilities with manufacturers to enhance recycling markets and increase the use
@@ -2029,6 +2033,7 @@
   - rec9e5MJi3BeiIc2m
   - recRLxRGfiWtHnmAs
   pdf: 2022-Census-HUD.pdf
+  sprint_order: 3
   sprint_text: TOP Puerto Rico
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
@@ -2520,6 +2525,7 @@
   organizations:
   - recCGtljPyEpJ15UO
   pdf: 2022-FEMA.pdf
+  sprint_order: 1
   sprint_text: 2022 Sprints
 - Challenge: Develop digital products or physical/digital works of art that use 2020
     Census data to build data literacy skills.

@@ -1,5 +1,5 @@
 ---
 short-name: work
-order: 5
+order: 8
 expandAllProblemStatements: true
 ---

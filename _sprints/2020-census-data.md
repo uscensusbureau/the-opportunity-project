@@ -1,6 +1,6 @@
 ---
 short-name: '2020-data'
-order: 0
+order: 3
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

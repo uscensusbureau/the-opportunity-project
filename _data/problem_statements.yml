@@ -425,11 +425,13 @@
     \ grant applications that have a higher chance of being selected.  This reinforces\
     \ existing inequities as higher-resourced communities are more successful in accessing\
     \ these grant opportunities while lower-resourced communities are left behind.\n"
-  agency_text: White House Office of Science and Technology Policy
+  agency_text: White House Office of Science and Technology Policy, U.S. Department
+    of Commerce
   airtable_createdTime: '2022-05-03T15:17:52.000Z'
   airtable_id: rec4f1ZKErT6siTgx
   organizations:
   - rec0txaC5vlg0xonh
+  - recLvJEYyQsXZr2LJ
   pdf: 2022-OSTP_DOC.pdf
   sprint_order: 3
   sprint_text: Summer 2022 Sprints

@@ -16,7 +16,7 @@ annual_reports:
 banner:
   text: View the Summer 2022 Sprints Problem Statements
   href: https://opportunity.census.gov/sprints/summer-2022-sprints/
-  isExternal: true
+#   isExternal: true
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text
 

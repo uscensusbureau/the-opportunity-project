@@ -1,5 +1,5 @@
 ---
 short-name: natl
-order: 4
+order: 3
 expandAllProblemStatements: true
 ---

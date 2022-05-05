@@ -1,6 +1,6 @@
 ---
 short-name: post-covid
-order: 2
+order: 1
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

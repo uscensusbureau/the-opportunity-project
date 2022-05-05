@@ -328,7 +328,7 @@
   airtable_createdTime: '2020-01-30T17:48:59.000Z'
   airtable_id: rec4Y10emS9DtmBpT
   description: "America\u2019s workers, entrepreneurs, and investors have defined\
-    \ the American ethos and economy from the moment our nation was born Unfortunately,\
+    \ the American ethos and economy from the moment our nation was founded. Unfortunately,\
     \ much of the country\u2019s economic investment focuses in just a few major cities.\
     \ Many small towns, mid-size cities, and rural communities lack consistent investment\
     \ and high-tech talent pools, leaving these communities with limited career options\
@@ -340,6 +340,7 @@
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   lang: en
+  order-number: 7
   problem_statements:
   - recfwUvvptMpf0PLj
   - rec6Coqk1u4BTdxLI
@@ -542,6 +543,7 @@
   image-alt: Closeup of sticky notes with illegible text on a whiteboard
   img: landing/Sprint-Background_03_Census.jpg
   lang: en
+  order-number: 6
   problem_statements:
   - rec2cDmW6ubg6Wco0
   - recPYnQdPuuZ0FZZ9
@@ -565,14 +567,13 @@
   Year: 2021
   airtable_createdTime: '2021-07-20T20:39:12.000Z'
   airtable_id: recAocia3ypyTShB1
-  description: This fall, a 10-12 week sprint will bring together university-based
+  description: In fall 2021, a 10-12 week sprint brought together university-based
     artists, designers, data scientists and technologists along with community leaders
     and Census Bureau data experts to develop digital and physical art and technology.
-    The resulting designs and products will visualize 2020 Census Decennial data in
-    new and creative ways, engaging a broader set of stakeholders than ever before
-    in visualizing and experiencing the data.  The sprint will culminate in a showcase
-    that presents and celebrates the projects to lift up, amplify, and share the work
-    nationwide.
+    The resulting designs and products visualized 2020 Census Decennial data in new
+    and creative ways, engaging a broader set of stakeholders than ever before. The
+    sprint culminated in a showcase that presented and celebrated the projects to
+    lift up, amplify, and share the work nationwide.
   image-alt: An abstract design of circles and squares arranged in rows
   img: landing/COVID-Data-Light.jpg
   lang: en
@@ -626,7 +627,7 @@
   airtable_id: recMpslqDTkD8bJoj
   description: "Our human-made environments require support and sustainment to ensure\
     \ their longevity and inclusivity. Tech teams including Emsi, Center on Rural\
-    \ Innovation, Julius Education and others developed digital products aimed at\
+    \ Innovation, Julius Education, and others developed digital products aimed at\
     \ improving the country\u2019s built environment. These included tools to connect\
     \ low income families with resources to equip and empower them toward self-sufficiency;\
     \ assistance for rural communities in implementing and evaluating solutions to\
@@ -740,7 +741,7 @@
   problem_statements:
   - recdNGSC2k2ptu3JM
   short-tag: topx
-- Name: 2022 Sprints
+- Name: Summer 2022 Sprints
   Year: 2022
   airtable_createdTime: '2022-04-27T20:23:45.000Z'
   airtable_id: recX8qMzecPlE76HV
@@ -748,15 +749,21 @@
     \ community preparedness and resilience. This year\u2019s sprints offer opportunities\
     \ for communities to inform the national metrics we use to evaluate well-being,\
     \ support communities in building climate resilience, and help localities to access\
-    \ much-needed grant funding. "
+    \ much-needed grant funding. \n\nAnd In the aftermath of Hurricane Maria, a series\
+    \ of earthquakes, and the COVID-19 pandemic, Puerto Rico is still working to rebuild.\
+    \ This year\u2019s TOP sprints are also tackling issues facing Puerto Rico \u2013\
+    \ including supporting the transition to renewable energy, strengthening children\u2019\
+    s resilience to adversity, and transforming local addressing systems."
   image-alt: A bitmapped image of waves
-  img: 2022-TOP-background.jpeg
   lang: en
-  order-number: 0
+  order-number: 1
   problem_statements:
   - reccBn4jTjxtqv7u1
   - rec4f1ZKErT6siTgx
   - recE3t7URGHw5zsCM
+  - recCRT4zbEOa2TGo0
+  - rec52uEVxyphCPkqF
+  - recSzR9PlTnjGwpcH
   short-tag: top-2022
 - Agency Leads:
   - recqPmk1QAJORe6wJ
@@ -945,7 +952,7 @@
   description: As stewards of our planet, we must work to limit our negative impacts
     on earth. Unfortunately, the public is often unaware of how their own decisions
     and actions affect the planet. In this sprint, tech teams including SAP, Esri,
-    Code for America, OpenAQ and others developed digital products to address a variety
+    Code for America, OpenAQ, and others developed digital products to address a variety
     of natural environment challenges. These included tools to help the public understand
     the air quality and health effects of transportation emissions, as well as products
     to reduce ocean plastic pollution, strengthen recycling markets, and help farmers
@@ -1171,24 +1178,6 @@
   - recZDeKZkpRgp2x1j
   - rec55VBughwHjCFWp
   short-tag: geo
-- Name: TOP Puerto Rico
-  Year: 2022
-  airtable_createdTime: '2022-04-27T20:11:10.000Z'
-  airtable_id: recipwGjLyYQUZF2g
-  description: "In the aftermath of Hurricane Maria, a series of earthquakes, and\
-    \ the COVID-19 pandemic, Puerto Rico is still working to rebuild. This year\u2019\
-    s TOP sprints are tackling issues facing Puerto Rico \u2013 including supporting\
-    \ the transition to renewable energy, strengthening children\u2019s resilience\
-    \ to adversity, and transforming local addressing systems."
-  image-alt: A bitmapped image of waves
-  img: 2022-TOP-background.jpeg
-  lang: en
-  order-number: 1
-  problem_statements:
-  - rec52uEVxyphCPkqF
-  - recCRT4zbEOa2TGo0
-  - recSzR9PlTnjGwpcH
-  short-tag: top-pr
 - Name: The World Post-COVID-19
   Products:
   - recwQPcVWQncrk4vH
@@ -1218,18 +1207,19 @@
   Year: 2021
   airtable_createdTime: '2021-06-28T20:12:46.000Z'
   airtable_id: recjkCdpt4YKEx7Ae
-  description: "Over the past year, our economy and social systems have been tested\
-    \ in ways we\u2019ve never seen before. Businesses were forced to respond rapidly\
-    \ to a digital economy, social support systems faced greater needs than ever,\
-    \ and even the way we go about daily work and life activities changed dramatically.\
-    \ At the same time the ways in which human activities affect the planet may shift\
-    \ as we move beyond the COVID-19 pandemic. \n\nFollowing our 2020 Earth sprints\
-    \ focused on the natural and built environment, TOP\u2019s 2021 sprints focus\
-    \ on the world post covid:  society, economy, and environment.  Technologists,\
-    \ community and advocacy organizations, and government leaders will develop digital\
-    \ products to tackle 7 challenges related to preventing economic and climate crisis\
-    \ for the most vulnerable communities, shaping the future of business, and redefining\
-    \ infrastructure, inclusion, and accessibility in the world post-COVID."
+  description: "Since the onset of the COVID-19 pandemic, our economy and social systems\
+    \ have been tested in ways we\u2019ve never seen before. Businesses were forced\
+    \ to respond rapidly to a digital economy, social support systems faced greater\
+    \ needs than ever, and even the way we go about daily work and life activities\
+    \ changed dramatically. At the same time, the ways in which human activities affect\
+    \ the planet may shift as we prepare for life after the COVID-19 pandemic. \n\n\
+    Following our 2020 Earth sprints focused on the natural and built environment,\
+    \ TOP\u2019s 2021 sprints focused on a world post-COVID including society, economy,\
+    \ and environment.  Technologists, community and advocacy organizations, and government\
+    \ leaders developed digital products to tackle seven challenges related to preventing\
+    \ economic and climate crisis for the most vulnerable communities, shaping the\
+    \ future of business, and redefining infrastructure, inclusion, and accessibility\
+    \ in the world post-COVID."
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   lang: en

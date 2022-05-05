@@ -1,7 +1,7 @@
 ---
 short-name: past
 layout: past-sprints
-order: 9
+order: 7
 expandAllProblemStatements: false
 
 hero:

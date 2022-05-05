@@ -1,5 +1,5 @@
 ---
 short-name: 20cen
-order: 7
+order: 6
 expandAllProblemStatements: true
 ---

@@ -1,6 +1,6 @@
 # The Opportunity Project Website
 
-This repo includes code for the TOP website. [opportunity.census.gov](opportunity.census.gov)
+This repo includes code for the TOP website. [opportunity.census.gov](https://opportunity.census.gov)
 
 This project is built off of the [USWDS site code](https://github.com/uswds/uswds-site), and just like that repo, uses Jekyll for the file framework, gulp, and the node module for USWDS.
 

@@ -23,7 +23,7 @@ For additional documentation check out the [documentation directory](/docs/READM
    - [Accessibility Tests](#2-accessibility-tests)
    - [Functionality & Content Tests](#3-functionality--content-tests)
 - [Building with Federalist](#building-with-federalist)
-   - [When a build fails](#when-a-build-fails)
+   - [When a Build Fails](#when-a-build-fails)
 
 <br/>
 
@@ -34,13 +34,13 @@ For additional documentation check out the [documentation directory](/docs/READM
 
 1. Ruby v2.7.2
 2. Node v14.17.0
-   a. gulp (`npm i -g gulp`)
+   - gulp (`npm i -g gulp`)
 3. Bundler v2.2.31
-   a. jekyll (`gem install jekyll`)
+   - jekyll (`gem install jekyll`)
 4. Chrome v59 or higher (v60 if on Windows)
 
 We recommend using a universal verion manager such as `asdf` 
-- [installation guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
+- [asdf Installation Guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
 
 **NOTE: Ensure that `legacy_version_file = yes` has been added to your `.asdfrc` file in your home directory. Requires terminal restart.**
 - [Configuring $HOME/.asdfrc](https://asdf-vm.com/manage/configuration.html#home-asdfrc)
@@ -107,6 +107,8 @@ The project uses gulp to compile assets, and many plugins for a smooth build pro
 
 Place all assets (images, js files, pdfs, etc.) in their respective root folders. Do *not* place them in `/assets` or `_site/assets`. The gulp files will find them :-)
 
+<br/>
+
 ### Processing images with `gulp-webp` 
 You can place `.png` and `.jpg` images right in `/img` and the build process will automatically create a `.webp` copy during the build. It is not necessary to create `.webp` images yourself. 
 
@@ -123,15 +125,19 @@ See `/config/gulp/images.js` for more details.
 
 ## Testing
 
-As of March 2021, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
+As of May 2022, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
 
 Here are the three types of tests set up to run locally:
+
+<br/>
 
 ### 1) HTML Validation Tests
 
 run `npm run proof` to validate the site's HTML, check broken links, missing images & alts, etc with [HTMLProofer](https://github.com/gjtorikian/html-proofer).
 
 run `npm run proof-external` to also check all external links. This takes longer, but is useful if you've just imported new data which has a bunch of external links that may be broken!
+
+<br/>
 
 ### 2) Accessibility Tests
 
@@ -140,6 +146,8 @@ We test for accessibility issues using [pa11y-ci](https://github.com/pa11y/pa11y
 There are two commands set up in `package.json`:
 1. `npm run pa11y-ci` to run against a specific set of URLs as listed in `pa11y.json`
 2. `npm run pa11y-ci:sitemap` to run against all urls found in the local sitemap and using the config specified in `.pa11y`
+
+<br/>
 
 ### 3) Functionality & Content Tests
 
@@ -166,6 +174,8 @@ Whenever you push changes to Github, Federalist will make a new build (using the
 Federalist will then provide a URL for this build which you can use for user testing. To get the URL for the build, click on the green check-mark next to the build status for whatever branch you just pushed to, and then click the "Details" link.
 
 When you merge a branch into `main`, Federalist will then make a new build with the same process and deploy it to opportunity.census.gov
+
+<br/>
 
 ### When a build fails
 

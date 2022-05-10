@@ -8,10 +8,10 @@ This project is built off of the [USWDS site code](https://github.com/uswds/uswd
 
 ## Dependencies
 
-1. Ruby v2.2.2+, [Installation guides](https://www.ruby-lang.org/en/documentation/installation/)
-2. Node v4.2.3+, [Installation guides](https://nodejs.org/en/download/)
+1. Ruby v2.7.2
+2. Node v14.17.0
    a. gulp (`npm i -g gulp`)
-3. Bundler v1.12.3+, [Installation guides](http://bundler.io/v1.13/guides/using_bundler_inpmn_application.html#getting-started---installing-bundler-and-bundle-init)
+3. Bundler v2.2.31
    a. jekyll (`gem install jekyll`)
 4. Chrome v59 or higher (v60 if on Windows)
 

@@ -1,4 +1,4 @@
-# The Opportunity Project Website
+<h1><img src="img/TOP-logo.png" alt="The Opportunity Project Logo"/></h1>
 
 This repo includes code for the TOP website. [opportunity.census.gov](https://opportunity.census.gov)
 

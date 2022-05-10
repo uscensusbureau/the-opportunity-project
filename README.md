@@ -4,6 +4,8 @@ This repo includes code for the TOP website. [opportunity.census.gov](https://op
 
 This project is built off of the [USWDS site code](https://github.com/uswds/uswds-site), and just like that repo, uses Jekyll for the file framework, gulp, and the node module for USWDS.
 
+For additional documentation check out the [documentation directory](/docs/README.md) in the `/docs` folder.
+
 <br/>
 
 ---

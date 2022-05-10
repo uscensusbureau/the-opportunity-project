@@ -98,6 +98,7 @@ See `/_data/readme.md` for more info.
 
 <br/>
 
+---
 
 ## Building assets
 
@@ -116,6 +117,8 @@ See `/config/gulp/images.js` for more details.
 
 
 <br/>
+
+---
 
 ## Testing
 
@@ -150,6 +153,9 @@ See [the Cypress docs](https://docs.cypress.io/guides/overview/why-cypress) for 
 
 
 <br/>
+
+
+---
 
 ## Building with Federalist
 

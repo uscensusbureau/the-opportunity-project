@@ -15,6 +15,13 @@ This project is built off of the [USWDS site code](https://github.com/uswds/uswd
    a. jekyll (`gem install jekyll`)
 4. Chrome v59 or higher (v60 if on Windows)
 
+We recommend using a universal verion manager such as `asdf` 
+- [installation guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
+
+**NOTE: Ensure that `legacy_version_file = yes` has been added to your `.asdfrc` file in your home directory. Requires terminal restart.**
+- [Configuring $HOME/.asdfrc](https://asdf-vm.com/manage/configuration.html#home-asdfrc)
+
+
 ### Optional Dependencies 
 The following are necessary only if you are importing new data from Airtable. See `/_data/readme.md` for more information.
 1. [airtable-export](https://pypi.org/project/airtable-export/)

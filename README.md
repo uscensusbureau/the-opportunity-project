@@ -6,6 +6,8 @@ This project is built off of the [USWDS site code](https://github.com/uswds/uswd
 
 <br/>
 
+---
+
 ## Dependencies
 
 1. Ruby v2.7.2
@@ -22,6 +24,8 @@ We recommend using a universal verion manager such as `asdf`
 - [Configuring $HOME/.asdfrc](https://asdf-vm.com/manage/configuration.html#home-asdfrc)
 
 
+<br/>
+
 ### Optional Dependencies 
 The following are necessary only if you are importing new data from Airtable. See `/_data/readme.md` for more information.
 1. [airtable-export](https://pypi.org/project/airtable-export/)
@@ -29,6 +33,8 @@ The following are necessary only if you are importing new data from Airtable. Se
 
 
 <br/>
+
+---
 
 ## Getting Started
 

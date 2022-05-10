@@ -23,7 +23,7 @@ For additional documentation check out the [documentation directory](/docs/READM
    - [Accessibility Tests](#2-accessibility-tests)
    - [Functionality & Content Tests](#3-functionality--content-tests)
 - [Building with Federalist](#building-with-federalist)
-   - [When a build fails](#when-a-build-fails)
+   - [When a Build Fails](#when-a-build-fails)
 
 <br/>
 
@@ -34,13 +34,13 @@ For additional documentation check out the [documentation directory](/docs/READM
 
 1. Ruby v2.7.2
 2. Node v14.17.0
-   a. gulp (`npm i -g gulp`)
+   - gulp (`npm i -g gulp`)
 3. Bundler v2.2.31
-   a. jekyll (`gem install jekyll`)
+   - jekyll (`gem install jekyll`)
 4. Chrome v59 or higher (v60 if on Windows)
 
 We recommend using a universal verion manager such as `asdf` 
-- [installation guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
+- [asdf Installation Guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
 
 **NOTE: Ensure that `legacy_version_file = yes` has been added to your `.asdfrc` file in your home directory. Requires terminal restart.**
 - [Configuring $HOME/.asdfrc](https://asdf-vm.com/manage/configuration.html#home-asdfrc)
@@ -123,7 +123,7 @@ See `/config/gulp/images.js` for more details.
 
 ## Testing
 
-As of March 2021, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
+As of May 2022, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
 
 Here are the three types of tests set up to run locally:
 

@@ -38,16 +38,23 @@ The following are necessary only if you are importing new data from Airtable. Se
 
 ## Getting Started
 
-To work on the site, switch to your local copy of the repository in terminal then run the following command to install project dependencies:
+To work on the site, first [clone the repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). After switching to your local copy of the repository in terminal, run the following command to install project dependencies:
 
 ```sh
 npm install
 ```
 
-Now that all of your dependencies are installed, you can run your local server by running the following command:
+Now that all of your dependencies are installed, build the site using:
 
 ```sh
-npm start
+npm run preserve
+```
+
+
+Once the site is built, you can run your local server by running the following command:
+
+```sh
+npm run serve
 ```
 
 Go to `127.0.0.1:4000` in your browser — you should be viewing a local instance
@@ -58,6 +65,8 @@ Go to `127.0.0.1:4000` in your browser — you should be viewing a local instanc
 
 
 <br/>
+
+---
 
 ## Importing Data
 

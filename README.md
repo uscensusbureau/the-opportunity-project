@@ -8,6 +8,25 @@ This project is built off of the [USWDS site code](https://github.com/uswds/uswd
 
 ---
 
+## Contents
+
+- [Dependencies](#dependencies)
+   - [Optional Dependencies](#optional-dependencies)
+- [Getting Started](#getting-started)
+- [Importing Data](#importing-data)
+- [Building assets](#building-assets)
+- [Testing](#testing)
+   - [HTML Validation Tests](#1-html-validation-tests)
+   - [Accessibility Tests](#2-accessibility-tests)
+   - [Functionality & Content Tests](#3-functionality--content-tests)
+- [Building with Federalist](#building-with-federalist)
+   - [When a build fails](#when-a-build-fails)
+
+<br/>
+
+---
+
+
 ## Dependencies
 
 1. Ruby v2.7.2

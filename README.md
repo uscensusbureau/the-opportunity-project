@@ -1,19 +1,52 @@
-# The Opportunity Project Website
+<h1><img src="img/TOP-logo.png" alt="The Opportunity Project Logo"/></h1>
 
 This repo includes code for the TOP website. [opportunity.census.gov](https://opportunity.census.gov)
 
 This project is built off of the [USWDS site code](https://github.com/uswds/uswds-site), and just like that repo, uses Jekyll for the file framework, gulp, and the node module for USWDS.
 
+For additional documentation check out the [documentation directory](/docs/README.md) in the `/docs` folder.
+
 <br/>
+
+---
+
+## Contents
+
+- [Dependencies](#dependencies)
+   - [Optional Dependencies](#optional-dependencies)
+- [Getting Started](#getting-started)
+- [Importing Data](#importing-data)
+- [Building Assets](#building-assets)
+   - [Processing Images with `gulp-webp`](#processing-images-with-gulp-webp)
+- [Testing](#testing)
+   - [HTML Validation Tests](#1-html-validation-tests)
+   - [Accessibility Tests](#2-accessibility-tests)
+   - [Functionality & Content Tests](#3-functionality--content-tests)
+- [Building with Federalist](#building-with-federalist)
+   - [When a Build Fails](#when-a-build-fails)
+
+<br/>
+
+---
+
 
 ## Dependencies
 
-1. Ruby v2.2.2+, [Installation guides](https://www.ruby-lang.org/en/documentation/installation/)
-2. Node v4.2.3+, [Installation guides](https://nodejs.org/en/download/)
-   a. gulp (`npm i -g gulp`)
-3. Bundler v1.12.3+, [Installation guides](http://bundler.io/v1.13/guides/using_bundler_inpmn_application.html#getting-started---installing-bundler-and-bundle-init)
-   a. jekyll (`gem install jekyll`)
+1. Ruby v2.7.2
+2. Node v14.17.0
+   - gulp (`npm i -g gulp`)
+3. Bundler v2.2.31
+   - jekyll (`gem install jekyll`)
 4. Chrome v59 or higher (v60 if on Windows)
+
+We recommend using a universal verion manager such as `asdf` 
+- [asdf Installation Guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
+
+**NOTE: Ensure that `legacy_version_file = yes` has been added to your `.asdfrc` file in your home directory. Requires terminal restart.**
+- [Configuring $HOME/.asdfrc](https://asdf-vm.com/manage/configuration.html#home-asdfrc)
+
+
+<br/>
 
 ### Optional Dependencies 
 The following are necessary only if you are importing new data from Airtable. See `/_data/readme.md` for more information.
@@ -23,18 +56,27 @@ The following are necessary only if you are importing new data from Airtable. Se
 
 <br/>
 
+---
+
 ## Getting Started
 
-To work on the site, switch to your local copy of the repository in terminal then run the following command to install project dependencies:
+To work on the site, first [clone the repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). After switching to your local copy of the repository in terminal, run the following command to install project dependencies:
 
 ```sh
 npm install
 ```
 
-Now that all of your dependencies are installed, you can run your local server by running the following command:
+Now that all of your dependencies are installed, build the site using:
 
 ```sh
-npm start
+npm run preserve
+```
+
+
+Once the site is built, you can run your local server by running the following command:
+
+```sh
+npm run serve
 ```
 
 Go to `127.0.0.1:4000` in your browser — you should be viewing a local instance
@@ -46,6 +88,8 @@ Go to `127.0.0.1:4000` in your browser — you should be viewing a local instanc
 
 <br/>
 
+---
+
 ## Importing Data
 
 We use Airtable as our single source of truth for data files. `npm run airtable` will pull the latest data from airtable and insert into the `_data` folder for use in the site if you have access to it.
@@ -55,12 +99,15 @@ See `/_data/readme.md` for more info.
 
 <br/>
 
+---
 
 ## Building assets
 
 The project uses gulp to compile assets, and many plugins for a smooth build process and to shrink assets. Check out `/config/gulp/*` for more info.
 
 Place all assets (images, js files, pdfs, etc.) in their respective root folders. Do *not* place them in `/assets` or `_site/assets`. The gulp files will find them :-)
+
+<br/>
 
 ### Processing images with `gulp-webp` 
 You can place `.png` and `.jpg` images right in `/img` and the build process will automatically create a `.webp` copy during the build. It is not necessary to create `.webp` images yourself. 
@@ -74,17 +121,23 @@ See `/config/gulp/images.js` for more details.
 
 <br/>
 
+---
+
 ## Testing
 
-As of March 2021, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
+As of May 2022, we run tests locally. We do not run tests in the cloud due to limitations integrating GitHub Actions with Federalist. This is a potential area for improvement.
 
 Here are the three types of tests set up to run locally:
+
+<br/>
 
 ### 1) HTML Validation Tests
 
 run `npm run proof` to validate the site's HTML, check broken links, missing images & alts, etc with [HTMLProofer](https://github.com/gjtorikian/html-proofer).
 
 run `npm run proof-external` to also check all external links. This takes longer, but is useful if you've just imported new data which has a bunch of external links that may be broken!
+
+<br/>
 
 ### 2) Accessibility Tests
 
@@ -93,6 +146,8 @@ We test for accessibility issues using [pa11y-ci](https://github.com/pa11y/pa11y
 There are two commands set up in `package.json`:
 1. `npm run pa11y-ci` to run against a specific set of URLs as listed in `pa11y.json`
 2. `npm run pa11y-ci:sitemap` to run against all urls found in the local sitemap and using the config specified in `.pa11y`
+
+<br/>
 
 ### 3) Functionality & Content Tests
 
@@ -108,6 +163,9 @@ See [the Cypress docs](https://docs.cypress.io/guides/overview/why-cypress) for 
 
 <br/>
 
+
+---
+
 ## Building with Federalist
 
 This repository is hooked up to [Federalist](https://federalist.18f.gov/documentation/), an automatic build process used by many government websites.
@@ -116,6 +174,8 @@ Whenever you push changes to Github, Federalist will make a new build (using the
 Federalist will then provide a URL for this build which you can use for user testing. To get the URL for the build, click on the green check-mark next to the build status for whatever branch you just pushed to, and then click the "Details" link.
 
 When you merge a branch into `main`, Federalist will then make a new build with the same process and deploy it to opportunity.census.gov
+
+<br/>
 
 ### When a build fails
 

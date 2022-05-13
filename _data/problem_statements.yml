@@ -94,6 +94,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:07.000Z'
   airtable_id: rec2cDmW6ubg6Wco0
+  category: 2020 Census
   datasets copy:
   - recRReYvboveMbC1a
   - recYCrI9w3xnJppbB
@@ -1183,6 +1184,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:35.000Z'
   airtable_id: recDkOPeR5RLFwe2e
+  category: 2020 Census
   datasets copy:
   - recdQrFDR0Ebv22jm
   - recdv9rOjZ0nfEe71
@@ -1872,6 +1874,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:14.000Z'
   airtable_id: recPYnQdPuuZ0FZZ9
+  category: 2020 Census
   featured_product:
   - recSXynrxBTKXTh63
   organizations:
@@ -3123,7 +3126,7 @@
     \ households across America that do not respond by mail or online. Help leverage\
     \ the gig economy and new tech platforms for job search to better recruit this\
     \ critical workforce."
-  Full Title: Promoting 2020 Census jobs
+  Full Title: Promoting 2020 Census Jobs
   Name: Promoting 2020 Census Jobs
   Products:
   - recYOMiqxyb3IN11r
@@ -3143,6 +3146,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-01-30T19:49:23.000Z'
   airtable_id: recnJuVbZsWFhpBW8
+  category: 2020 Census
   datasets copy:
   - reclA1AoNLTt5ENL7
   datasets_text: Census Takers

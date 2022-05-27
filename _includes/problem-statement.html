@@ -23,11 +23,6 @@
       </h3>
         {% assign index = lookups.challenge[page.lang] %}
         <p>{{ include.content[index] | markdownify }}</p>
-        <h3 class="problem-statement-subheader">{{ site.data.messages.problem-statement.why[page.lang] }}:</h3>
-        <p>
-          {% assign index = lookups.why-matters[page.lang] %}
-          {{ include.content[index] | markdownify }}
-        </p>
       </div>
     </div>
 

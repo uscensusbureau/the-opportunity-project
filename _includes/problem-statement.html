@@ -51,11 +51,24 @@
       {% if page.showPDF and include.content.pdf %}
         <div class="ps-right-col-section ps-cta {{expandedClass}} text-center">
           {% assign pdfIndex = lookups.pdf[page.lang] %}
+          <ul class="usa-button-group text-center">
+            <li class="usa-button-group__item2">
           <a class="site-button usa-button usa-button--outline text-center ps-pdf" 
-            href="{{ site.baseurl }}/assets/files/{{ include.content[pdfIndex] }}" download
+            href="{{ site.baseurl }}/assets/files/{{ include.content.pdf }}" download
           >
-            {{ site.data.messages.problem-statement.pdf-download[page.lang] }}
+            {{ site.data.messages.problem-statement.pdf-download.en }}
           </a>
+        </li>
+        {% if include.content['pdf-esp']%}
+        <li class="usa-button-group__item">
+          <a class="site-button usa-button usa-button--outline text-center ps-pdf" 
+            href="{{ site.baseurl }}/assets/files/{{ include.content['pdf-esp'] }}" download
+          >
+            {{ site.data.messages.problem-statement.pdf-download.esp }}
+          </a>
+        </li>
+        {% endif %}
+        </ul>
         </div>
       {% endif %}
 

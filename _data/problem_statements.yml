@@ -521,11 +521,13 @@
     \ makes it difficult for decision makers to prioritize investments, accurately\
     \ assess risk and opportunities, or evaluate the costs and benefits of emerging\
     \ technologies."
-  agency_text: National Renewable Energy Laboratory
+  agency_text: "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xED\
+    a"
   airtable_createdTime: '2022-05-03T14:49:31.000Z'
   airtable_id: rec52uEVxyphCPkqF
   organizations:
   - recDsCKAN08Cgxavh
+  - recbXvVy1e7CtTM89
   pdf: 2022-NREL-2.pdf
   pdf-esp: 2022-NREL-esp.pdf
   sprint_order: 5

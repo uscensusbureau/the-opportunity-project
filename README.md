@@ -66,6 +66,10 @@ To work on the site, first [clone the repository](https://help.github.com/en/git
 npm install
 ```
 
+```sh
+bundle install
+```
+
 Now that all of your dependencies are installed, build the site using:
 
 ```sh

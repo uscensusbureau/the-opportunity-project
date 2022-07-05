@@ -119,7 +119,7 @@
   - recxNb6AkmDER2KXh
   - rec0sJ3TvQo6mykBz
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: U.S. recycling facilities and manufacturers looking
     to produce, sell, and buy quality recycled materials; rural or tribal communities;
     organizations and state and local governments striving to improve their recycling
@@ -174,8 +174,8 @@
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
-  sprint_order: 2
-  sprint_text: Natural Environment
+  sprint_order: 5
+  sprint_text: Earth
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
     \ to capital"
   Executive champion: Edith McCloud, Acting National Director, MBDA
@@ -348,7 +348,7 @@
   - rectcKAi8zsdwiqjg
   - recCzsRojdXhNdzCu
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: American public, researchers, engaged citizens, state/local
     communities, rural or tribal communities, grant/loan recipients, small businesses,
     managers of disaster funds, appropriators
@@ -385,8 +385,8 @@
   - rec9YorLrBEvA0vj4
   products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
     Public Finance Institute-Disaster Spending Tracker
-  sprint_order: 3
-  sprint_text: Built Environment
+  sprint_order: 1
+  sprint_text: Earth
 - Challenge: Create digital tools that use open data to help state, local, tribal,
     and territorial governments navigate potential grant opportunities enabled by
     the Bipartisan Infrastructure Law (BIL) and other major initiatives to optimize
@@ -1100,7 +1100,7 @@
   - rec5TopxenNeIOsJO
   - reca9CUrcr39DStIc
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: Low to moderate income heads of households; case managers;
     guidance counselors; life coaches; community and ministry leaders; service providers;
     philanthropic organizations; federal, state and local government service program
@@ -1158,8 +1158,8 @@
   - recRLxRGfiWtHnmAs
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
     360-Degree Data Fusion Virtual Ecosystem Platform, Julius Career Journey Program
-  sprint_order: 1
-  sprint_text: Built Environment
+  sprint_order: 2
+  sprint_text: Earth
 - Challenge: Historically, certain groups of people are undercounted in the Census,
     including the LGBTQ community, children under 5, people experiencing homelessness,
     renters, and members of underrepresented minorities. An accurate count is vital
@@ -1220,7 +1220,7 @@
   - rec1WFJn1OGTTGrZi
   - recZC1VP8ywUBxS8q
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: Resettled refugees in the United States, nonprofits
     that provide help to refugees
   Why this problem matters: 'In the last five years, more than 250,000 refugees have
@@ -1252,8 +1252,8 @@
   organizations:
   - reccYXaD7aLLyyBqy
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
-  sprint_order: 4
-  sprint_text: Built Environment
+  sprint_order: 6
+  sprint_text: Earth
 - Challenge: "Use existing well-being frameworks, along with input from people with\
     \ lived experience and federal data, to create national-level indicator(s) of\
     \ well-being that better capture individuals' and families\u2019 overall sense\
@@ -1427,7 +1427,7 @@
   - recJjNKdphBCWsER0
   - rec68a7razj3IGOyX
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: Engaged citizens and the general public, especially
     those at higher risk for respiratory illnesses (e.g., individuals over 65, children,
     those with respiratory ailments), urban populations and communities (e.g., high
@@ -1497,8 +1497,8 @@
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
-  sprint_order: 4
-  sprint_text: Natural Environment
+  sprint_order: 8
+  sprint_text: Earth
 - Background: The Department of Labor believes that dynamic, rich data about the workforce
     can better connect Americans and their skills to jobs that need to be filled.
     Unlocking this data can make it easier for Americans who are chronically unemployed
@@ -1901,7 +1901,7 @@
   - recRADslXTYbyjOZ9
   - recFOmdpx7Q6uE0Xl
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: Engaged citizens passionate about reducing plastic pollution,
     rural or tribal communities, as well as policymakers, advocates, and researchers
   Why this problem matters: Ocean plastics directly impact more than 800 species world-wide.  Further,
@@ -1949,8 +1949,8 @@
   - recUpxLd9XCMfSOw9
   products_text: Ocean Plastics Story Map, Georgetown University Campus Plastic Initiative,
     PPIO, The Ghost Gear Project, Sea Scavenger
-  sprint_order: 3
-  sprint_text: Natural Environment
+  sprint_order: 4
+  sprint_text: Earth
 - Challenge: Create digital tools that provide farmers, ranchers, and researchers
     with timely access to National Agriculture Imagery Program (NAIP) data to help
     them make important agricultural and planning decisions.
@@ -1961,7 +1961,7 @@
   - recqWVxkeZ3bYz68R
   - recoLzsQ10XA9A8CY
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: Farmers, ranchers, engaged citizens, rural or tribal
     communities, emergency managers, state and local government, federal agencies,
     university researchers.
@@ -1989,8 +1989,8 @@
   - recRKu6t2inmGXXce
   products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision
     Ag for all American Farmers'
-  sprint_order: 1
-  sprint_text: Natural Environment
+  sprint_order: 3
+  sprint_text: Earth
 - Challenge: Develop awareness campaigns, guidelines, tools, and solutions to local
     addressing and geolocation challenges in the Commonwealth of Puerto Rico, especially
     within vulnerable communities (i.e. those disproportionately affected during a
@@ -3060,7 +3060,7 @@
   - rec8PdH7hI4omQshl
   - recQjVq9yZgfpri29
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: Local officials or other local decision makers; regional
     planning groups; rural or tribal communities; communities that have been impacted
     by recent pandemic outfall, loss of key industry, and/or extreme weather events
@@ -3126,8 +3126,8 @@
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
-  sprint_order: 2
-  sprint_text: Built Environment
+  sprint_order: 7
+  sprint_text: Earth
 - Challenge: "The Decennial Census is our nation\u2019s largest peacetime mobilization\
     \ -- in 2020, the federal government will hire 500,000 Census takers to help count\
     \ households across America that do not respond by mail or online. Help leverage\

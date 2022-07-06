@@ -663,6 +663,39 @@
   pdf: 2018-stem.pdf
   products_text: Nepris Industry Connections
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
+- Challenge: Develop digital tools to help job seekers find, train for, and succeed
+    in jobs within high-growth industries, with particular focus on individuals in
+    marginalized communities (i.e. youth, people experiencing homelessness, recent
+    immigrants, families with housing choice vouchers, underemployed individuals,
+    and NAP and TANF recipients).
+  Full Title: Supporting Workforce Development in Puerto Rico
+  Name: Supporting Workforce Development in Puerto Rico
+  Sprints:
+  - recpMcza8s2IjzutX
+  Target audience / End user: Youth, job seekers, business owners, and municipal government
+    leaders in the Commonwealth of Puerto Rico.
+  Why this problem matters: "Puerto Rico and its 3 million residents have faced the\
+    \ layered challenges of natural disasters, including the devastating Hurricane\
+    \ Maria in 2017, earthquakes, the COVID-19 pandemic, and high overall and child\
+    \ poverty rates (43% and 57%, respectively), underscored by a waning economy.\
+    \  These  challenges complicate recovery efforts, and will require a well-trained\
+    \ workforce to overcome.  Unfortunately, studies suggest that outmigration, labor\
+    \ shortages, and skill gaps prevent progress in critical, high-growth industries\
+    \ including technology, health, construction, and management.  Yet PR also faces\
+    \ an increasing unemployment rate (6.5% unemployment as of March 2022), signaling\
+    \ a mismatch between job seekers\u2019 skills and labor needs in the industries\
+    \ that could catalyze much needed  community recovery and development."
+  agency_text: Puerto Rico Department of Economic Development and Commerce, U.S. Department
+    of Health and Human Services, U.S. Department of Agriculture
+  airtable_createdTime: '2022-07-06T14:32:57.000Z'
+  airtable_id: rec5TDfLlBw4DrprF
+  organizations:
+  - recByKBMuMoM1z2Vv
+  - recZod0Y9uE8dnrem
+  - recRKu6t2inmGXXce
+  pdf: 2022-HHS-USDA-DDEC.pdf
+  sprint_order: 1
+  sprint_text: Fall 2022 Sprints
 - Agency Leads:
   - recQKd9S8NEvZbnxG
   - recUWE6o2y4owHOph
@@ -2046,6 +2079,40 @@
   pdf-esp: 2022-Census-HUD-esp.pdf
   sprint_order: 6
   sprint_text: Summer 2022 Sprints
+- Challenge: "Develop potential new structures for parents and/or caregivers to meaningfully\
+    \ engage in Puerto Rico\u2019s unique education system, providing the island\u2019\
+    s schools a mechanism of accountability."
+  Full Title: Creating Opportunities for Parent/Caregiver Engagement for Puerto Rico
+    Schools
+  Name: Creating Opportunities for Parent/Caregiver Engagement for Puerto Rico Schools
+  Sprints:
+  - recpMcza8s2IjzutX
+  Target audience / End user: 'Parents, caregivers, students, teachers, school administrators,
+    and other local education stakeholders in Puerto Rico '
+  Why this problem matters: "Following two natural disasters and a global pandemic,\
+    \ the approximately 260,000 students in Puerto Rico who are part of the public\
+    \ school system now more than ever need their fiercest advocates, their parents\
+    \ or caregivers, to ensure they are receiving a high-quality education. This is\
+    \ particularly true given that students in Puerto Rico currently perform lower\
+    \ than those in all 50 states on the National Assessment of Educational Progress\
+    \ (NAEP). Unfortunately, Puerto Rico\u2019s education system lacks a public governance\
+    \ structure - such as boards of education and parent advisory groups -  that allows\
+    \ for public accountability. This prevents families and caregivers from engaging\
+    \ with school leadership in a meaningful way, particularly when recourse is needed\
+    \ for students who are not receiving the services they are entitled to. In contrast,\
+    \ other jurisdictions have a variety of governance structures such as state boards\
+    \ of education, local boards of education, or parent advisory groups like PTAs\
+    \ or PTOs, to name a few, that allow for reciprocal communication and mechanisms\
+    \ for accountability."
+  agency_text: Puerto Rico Department of Education, U.S. Department of Education
+  airtable_createdTime: '2022-07-06T14:26:48.000Z'
+  airtable_id: recTK2wyWGMlp8SAb
+  organizations:
+  - rec71AqSovfx7EgrY
+  - recBBbVkCKQN52rWM
+  pdf: 2022-ED.pdf
+  sprint_order: 2
+  sprint_text: Fall 2022 Sprints
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
     opioids increased more than five-fold, from about 8,000 to over 42,000. Both prescription
@@ -2946,6 +3013,51 @@
   - recZod0Y9uE8dnrem
   products_text: Cura Patient
   sprint_text: TOP Health
+- Challenge: Create digital tools to help public transit agencies as well as state,
+    regional, and local stakeholders identify transit infrastructure that is vulnerable
+    to extreme weather events and/or can serve as community resources in emergencies.
+  Full Title: "Integrating Data to Improve Public Transportation\u2019s Resilience\
+    \ to Climate Change"
+  Name: "Integrating Data to Improve Public Transportation\u2019s Resilience to Climate\
+    \ Change"
+  Sprints:
+  - recpMcza8s2IjzutX
+  Target audience / End user: Members of the public; transit agencies; local, regional,
+    and state decision makers; climate adaptation/resilience and emergency preparedness
+    professionals who provide local decision makers with expert guidance
+  Why this problem matters: "Public transportation provides 10 billion trips each\
+    \ year in the United States, improves mobility, and enhances quality of life for\
+    \ millions of Americans.  Transit helps commuters get to work, customers reach\
+    \ businesses, and rural residents access services, while providing essential mobility\
+    \ for people who cannot drive or do not have access to a personal vehicle.\n\n\
+    However, public transportation infrastructure is increasingly vulnerable to the\
+    \ effects of climate change.  Impacts will vary, but all regions and public transportation\
+    \ systems, large and small, will be affected.  Intense rainfall has already flooded\
+    \ subway tunnels and low-lying facilities, bus lots, and rights-of-way.   Heat\
+    \ waves will continue to stress materials, buckle rails, and jeopardize customer\
+    \ and worker safety and comfort.  In the longer term, rising sea-levels, compounded\
+    \ by worsening storm surges, will threaten assets in many coastal areas.\n\nClimate\
+    \ impacts on transit assets will make it difficult to keep public transportation\
+    \ systems in good repair and provide reliable and safe service, which may then\
+    \ impact ridership.  Individuals with disabilities, older adults, and low-income\
+    \ individuals\u2014groups who disproportionately depend on public transportation\u2014\
+    \ will suffer from disruptions and degradation in service, which will have downstream\
+    \ consequences on their ability to earn income, receive services, and participate\
+    \ in social and civic life.\n\nAt the same time, transit can strengthen community\
+    \ resiliency.  Transit evacuates people who are in harm\u2019s way and provides\
+    \ mobility to people displaced by disasters.  Buses have served as cooling shelters\
+    \ in heatwaves and some vehicles can even generate power in emergencies.  During\
+    \ the COVID-19 pandemic, transit provided internet access and meal delivery, shuttled\
+    \ tests to clinics, gave people free rides to vaccine locations, and served as\
+    \ mobile vaccine clinics.\n"
+  agency_text: U.S. Department of Transportation
+  airtable_createdTime: '2022-07-06T14:31:28.000Z'
+  airtable_id: reclJYrMI3Nr3I6Jy
+  organizations:
+  - recQJhXANnrCe4tUP
+  pdf: 2022-DOT.pdf
+  sprint_order: 3
+  sprint_text: Fall 2022 Sprints
 - Name: Improving Data Literacy Using Decennial Census Data
   airtable_createdTime: '2021-09-20T20:07:34.000Z'
   airtable_id: reclLC12bILYZ7ymr

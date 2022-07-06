@@ -744,8 +744,7 @@
     \nThe 6 summer 2022 sprints focus on wellbeing, access to grant funding, and climate\
     \ resilience, along with TOP\u2019s first geographically focused sprints \u2013\
     \ TOP Puerto Rico \u2013 with problem statements on energy, addressing, and youth\
-    \ resilience in Puerto Rico. \n\nThis year, TOP will also host fall sprints, to\
-    \ be announced in early June."
+    \ resilience in Puerto Rico. "
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
@@ -1282,6 +1281,10 @@
   img: landing/2022-TOP-background.jpg
   lang: en
   order-number: 0
+  problem_statements:
+  - recTK2wyWGMlp8SAb
+  - reclJYrMI3Nr3I6Jy
+  - rec5TDfLlBw4DrprF
   short-tag: top-fall-2022
 - Name: NAIP
   Year: 2020

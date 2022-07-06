@@ -340,7 +340,7 @@
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   lang: en
-  order-number: 6
+  order-number: 5
   problem_statements:
   - recfwUvvptMpf0PLj
   - rec6Coqk1u4BTdxLI
@@ -636,12 +636,6 @@
   image-alt: A suburban street as seen from above
   img: landing/Sprint-Background_01_Built.jpg
   lang: en
-  order-number: 3
-  problem_statements:
-  - rec4KZSqOYnXgo2gD
-  - recD4rN8c5sH3ECRi
-  - recDnQq3aDp59z637
-  - recn0ONeaB72GbD8z
   short-tag: built
 - Name: Agency Cohort (2016 Sprint 2/3)
   Products:
@@ -750,8 +744,7 @@
     \nThe 6 summer 2022 sprints focus on wellbeing, access to grant funding, and climate\
     \ resilience, along with TOP\u2019s first geographically focused sprints \u2013\
     \ TOP Puerto Rico \u2013 with problem statements on energy, addressing, and youth\
-    \ resilience in Puerto Rico. \n\nThis year, TOP will also host fall sprints, to\
-    \ be announced in early June."
+    \ resilience in Puerto Rico. "
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
@@ -959,12 +952,6 @@
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   lang: en
-  order-number: 4
-  problem_statements:
-  - recSM7q7ufXLojrBx
-  - recQeWP4kfK1EakJW
-  - rec2dxKJmbiIV0Va5
-  - recG9NY8ns2oza4vp
   short-tag: natl
 - Agency Leads:
   - recyOfHeMH6WJXcdt
@@ -1170,7 +1157,7 @@
   image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
   lang: en
-  order-number: 5
+  order-number: 4
   problem_statements:
   - recqL51kCcBL6go3m
   - recUnXFEYwEO7Uea6
@@ -1280,6 +1267,25 @@
   short-tag: pos-covid-esp
   translation_link:
   - recjkCdpt4YKEx7Ae
+- Name: Fall 2022 Sprints
+  Year: 2022
+  airtable_createdTime: '2022-06-30T17:34:09.000Z'
+  airtable_id: recpMcza8s2IjzutX
+  description: "This year\u2019s sprints offer opportunities to help new audiences\
+    \ access and use data, provide the public with more timely and accurate data through\
+    \ government-tech collaboration, and support critical challenges in Puerto Rico.\n\
+    \nThis year\u2019s fall 2022 sprints focus on transit infrastructure and climate\
+    \ change, parental engagement opportunities for Puerto Rico schools, and workforce\
+    \ development in Puerto Rico."
+  image-alt: A bitmapped image of waves
+  img: landing/2022-TOP-background.jpg
+  lang: en
+  order-number: 0
+  problem_statements:
+  - recTK2wyWGMlp8SAb
+  - reclJYrMI3Nr3I6Jy
+  - rec5TDfLlBw4DrprF
+  short-tag: top-fall-2022
 - Name: NAIP
   Year: 2020
   airtable_createdTime: '2021-01-26T16:35:35.000Z'
@@ -1305,5 +1311,34 @@
   Year: 2020
   airtable_createdTime: '2020-02-11T21:27:32.000Z'
   airtable_id: reczc8aUuFa86x1WA
+  description: "Natural environment: As stewards of our planet, we must work to limit\
+    \ our negative impacts on earth. Unfortunately, the public is often unaware of\
+    \ how their own decisions and actions affect the planet. In this sprint, tech\
+    \ teams including SAP, Esri, Code for America, OpenAQ, and others developed digital\
+    \ products to address a variety of natural environment challenges. These included\
+    \ tools to help the public understand the air quality and health effects of transportation\
+    \ emissions, as well as products to reduce ocean plastic pollution, strengthen\
+    \ recycling markets, and help farmers make decisions using aerial imagery data.\n\
+    \nBuilt environment: Our human-made environments require support and sustainment\
+    \ to ensure their longevity and inclusivity. Tech teams including Emsi, Center\
+    \ on Rural Innovation, Julius Education, and others developed digital products\
+    \ aimed at improving the country\u2019s built environment. These included tools\
+    \ to connect low income families with resources to equip and empower them toward\
+    \ self-sufficiency; assistance for rural communities in implementing and evaluating\
+    \ solutions to economic, environmental, and human health challenges; products\
+    \ to connect recently resettled refugees with resources and services; and tools\
+    \ that track federal disaster response spending."
+  image-alt: Waves crashing into a cliff as seen from above
+  img: landing/Sprint-Background_02_Natural.jpg
   lang: en
+  order-number: 3
+  problem_statements:
+  - rec4KZSqOYnXgo2gD
+  - recD4rN8c5sH3ECRi
+  - recQeWP4kfK1EakJW
+  - recSM7q7ufXLojrBx
+  - rec2dxKJmbiIV0Va5
+  - recDnQq3aDp59z637
+  - recn0ONeaB72GbD8z
+  - recG9NY8ns2oza4vp
   short-tag: earth

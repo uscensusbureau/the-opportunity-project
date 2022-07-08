@@ -1,6 +1,6 @@
 ---
-short-name: '2020-data'
-order: 3
+short-name: earth
+order: 4
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

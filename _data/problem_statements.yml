@@ -105,6 +105,7 @@
   - recro3E8gXTIQ5IHO
   organizations:
   - rec9e5MJi3BeiIc2m
+  pdf: inclusive-and-creative-2020.pdf
   products_text: Voatz, California Latino Power Map
   sprint_order: 3
   sprint_text: 2020 Census
@@ -118,7 +119,7 @@
   - recxNb6AkmDER2KXh
   - rec0sJ3TvQo6mykBz
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: U.S. recycling facilities and manufacturers looking
     to produce, sell, and buy quality recycled materials; rural or tribal communities;
     organizations and state and local governments striving to improve their recycling
@@ -173,8 +174,8 @@
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
-  sprint_order: 2
-  sprint_text: Natural Environment
+  sprint_order: 5
+  sprint_text: Earth
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
     \ to capital"
   Executive champion: Edith McCloud, Acting National Director, MBDA
@@ -347,7 +348,7 @@
   - rectcKAi8zsdwiqjg
   - recCzsRojdXhNdzCu
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: American public, researchers, engaged citizens, state/local
     communities, rural or tribal communities, grant/loan recipients, small businesses,
     managers of disaster funds, appropriators
@@ -384,8 +385,8 @@
   - rec9YorLrBEvA0vj4
   products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
     Public Finance Institute-Disaster Spending Tracker
-  sprint_order: 3
-  sprint_text: Built Environment
+  sprint_order: 1
+  sprint_text: Earth
 - Challenge: Create digital tools that use open data to help state, local, tribal,
     and territorial governments navigate potential grant opportunities enabled by
     the Bipartisan Infrastructure Law (BIL) and other major initiatives to optimize
@@ -520,12 +521,15 @@
     \ makes it difficult for decision makers to prioritize investments, accurately\
     \ assess risk and opportunities, or evaluate the costs and benefits of emerging\
     \ technologies."
-  agency_text: National Renewable Energy Laboratory
+  agency_text: "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xED\
+    a"
   airtable_createdTime: '2022-05-03T14:49:31.000Z'
   airtable_id: rec52uEVxyphCPkqF
   organizations:
   - recDsCKAN08Cgxavh
+  - recbXvVy1e7CtTM89
   pdf: 2022-NREL-2.pdf
+  pdf-esp: 2022-NREL-esp.pdf
   sprint_order: 5
   sprint_text: Summer 2022 Sprints
 - Background: Many state and local governments do not have a database of addresses
@@ -659,6 +663,39 @@
   pdf: 2018-stem.pdf
   products_text: Nepris Industry Connections
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
+- Challenge: Develop digital tools to help job seekers find, train for, and succeed
+    in jobs within high-growth industries, with particular focus on individuals in
+    marginalized communities (i.e. youth, people experiencing homelessness, recent
+    immigrants, families with housing choice vouchers, underemployed individuals,
+    and NAP and TANF recipients).
+  Full Title: Supporting Workforce Development in Puerto Rico
+  Name: Supporting Workforce Development in Puerto Rico
+  Sprints:
+  - recpMcza8s2IjzutX
+  Target audience / End user: Youth, job seekers, business owners, and municipal government
+    leaders in the Commonwealth of Puerto Rico.
+  Why this problem matters: "Puerto Rico and its 3 million residents have faced the\
+    \ layered challenges of natural disasters, including the devastating Hurricane\
+    \ Maria in 2017, earthquakes, the COVID-19 pandemic, and high overall and child\
+    \ poverty rates (43% and 57%, respectively), underscored by a waning economy.\
+    \  These  challenges complicate recovery efforts, and will require a well-trained\
+    \ workforce to overcome.  Unfortunately, studies suggest that outmigration, labor\
+    \ shortages, and skill gaps prevent progress in critical, high-growth industries\
+    \ including technology, health, construction, and management.  Yet PR also faces\
+    \ an increasing unemployment rate (6.5% unemployment as of March 2022), signaling\
+    \ a mismatch between job seekers\u2019 skills and labor needs in the industries\
+    \ that could catalyze much needed  community recovery and development."
+  agency_text: Puerto Rico Department of Economic Development and Commerce, U.S. Department
+    of Health and Human Services, U.S. Department of Agriculture
+  airtable_createdTime: '2022-07-06T14:32:57.000Z'
+  airtable_id: rec5TDfLlBw4DrprF
+  organizations:
+  - recByKBMuMoM1z2Vv
+  - recZod0Y9uE8dnrem
+  - recRKu6t2inmGXXce
+  pdf: 2022-HHS-USDA-DDEC.pdf
+  sprint_order: 1
+  sprint_text: Fall 2022 Sprints
 - Agency Leads:
   - recQKd9S8NEvZbnxG
   - recUWE6o2y4owHOph
@@ -1068,6 +1105,7 @@
   - recZod0Y9uE8dnrem
   - recQopFzHcyBWeeLi
   pdf: 2022-HHS-ACF.pdf
+  pdf-esp: 2022-HHS-ACF-esp.pdf
   sprint_order: 4
   sprint_text: Summer 2022 Sprints
 - Name: Data Discovery
@@ -1095,7 +1133,7 @@
   - rec5TopxenNeIOsJO
   - reca9CUrcr39DStIc
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: Low to moderate income heads of households; case managers;
     guidance counselors; life coaches; community and ministry leaders; service providers;
     philanthropic organizations; federal, state and local government service program
@@ -1153,8 +1191,8 @@
   - recRLxRGfiWtHnmAs
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
     360-Degree Data Fusion Virtual Ecosystem Platform, Julius Career Journey Program
-  sprint_order: 1
-  sprint_text: Built Environment
+  sprint_order: 2
+  sprint_text: Earth
 - Challenge: Historically, certain groups of people are undercounted in the Census,
     including the LGBTQ community, children under 5, people experiencing homelessness,
     renters, and members of underrepresented minorities. An accurate count is vital
@@ -1215,7 +1253,7 @@
   - rec1WFJn1OGTTGrZi
   - recZC1VP8ywUBxS8q
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: Resettled refugees in the United States, nonprofits
     that provide help to refugees
   Why this problem matters: 'In the last five years, more than 250,000 refugees have
@@ -1247,8 +1285,8 @@
   organizations:
   - reccYXaD7aLLyyBqy
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
-  sprint_order: 4
-  sprint_text: Built Environment
+  sprint_order: 6
+  sprint_text: Earth
 - Challenge: "Use existing well-being frameworks, along with input from people with\
     \ lived experience and federal data, to create national-level indicator(s) of\
     \ well-being that better capture individuals' and families\u2019 overall sense\
@@ -1422,7 +1460,7 @@
   - recJjNKdphBCWsER0
   - rec68a7razj3IGOyX
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: Engaged citizens and the general public, especially
     those at higher risk for respiratory illnesses (e.g., individuals over 65, children,
     those with respiratory ailments), urban populations and communities (e.g., high
@@ -1492,8 +1530,8 @@
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
-  sprint_order: 4
-  sprint_text: Natural Environment
+  sprint_order: 8
+  sprint_text: Earth
 - Background: The Department of Labor believes that dynamic, rich data about the workforce
     can better connect Americans and their skills to jobs that need to be filled.
     Unlocking this data can make it easier for Americans who are chronically unemployed
@@ -1879,6 +1917,7 @@
   - recSXynrxBTKXTh63
   organizations:
   - rec9e5MJi3BeiIc2m
+  pdf: improving-data-2020.pdf
   products_text: '#WhyWeCount'
   sprint_order: 4
   sprint_text: 2020 Census
@@ -1895,7 +1934,7 @@
   - recRADslXTYbyjOZ9
   - recFOmdpx7Q6uE0Xl
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: Engaged citizens passionate about reducing plastic pollution,
     rural or tribal communities, as well as policymakers, advocates, and researchers
   Why this problem matters: Ocean plastics directly impact more than 800 species world-wide.  Further,
@@ -1943,8 +1982,8 @@
   - recUpxLd9XCMfSOw9
   products_text: Ocean Plastics Story Map, Georgetown University Campus Plastic Initiative,
     PPIO, The Ghost Gear Project, Sea Scavenger
-  sprint_order: 3
-  sprint_text: Natural Environment
+  sprint_order: 4
+  sprint_text: Earth
 - Challenge: Create digital tools that provide farmers, ranchers, and researchers
     with timely access to National Agriculture Imagery Program (NAIP) data to help
     them make important agricultural and planning decisions.
@@ -1955,7 +1994,7 @@
   - recqWVxkeZ3bYz68R
   - recoLzsQ10XA9A8CY
   Sprints:
-  - recfjW4XBdTnujZD7
+  - reczc8aUuFa86x1WA
   Target audience / End user: Farmers, ranchers, engaged citizens, rural or tribal
     communities, emergency managers, state and local government, federal agencies,
     university researchers.
@@ -1983,8 +2022,8 @@
   - recRKu6t2inmGXXce
   products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision
     Ag for all American Farmers'
-  sprint_order: 1
-  sprint_text: Natural Environment
+  sprint_order: 3
+  sprint_text: Earth
 - Challenge: Develop awareness campaigns, guidelines, tools, and solutions to local
     addressing and geolocation challenges in the Commonwealth of Puerto Rico, especially
     within vulnerable communities (i.e. those disproportionately affected during a
@@ -2037,8 +2076,43 @@
   - rec9e5MJi3BeiIc2m
   - recRLxRGfiWtHnmAs
   pdf: 2022-Census-HUD.pdf
+  pdf-esp: 2022-Census-HUD-esp.pdf
   sprint_order: 6
   sprint_text: Summer 2022 Sprints
+- Challenge: "Develop potential new structures for parents and/or caregivers to meaningfully\
+    \ engage in Puerto Rico\u2019s unique education system, providing the island\u2019\
+    s schools a mechanism of accountability."
+  Full Title: Creating Opportunities for Parent/Caregiver Engagement for Puerto Rico
+    Schools
+  Name: Creating Opportunities for Parent/Caregiver Engagement for Puerto Rico Schools
+  Sprints:
+  - recpMcza8s2IjzutX
+  Target audience / End user: 'Parents, caregivers, students, teachers, school administrators,
+    and other local education stakeholders in Puerto Rico '
+  Why this problem matters: "Following two natural disasters and a global pandemic,\
+    \ the approximately 260,000 students in Puerto Rico who are part of the public\
+    \ school system now more than ever need their fiercest advocates, their parents\
+    \ or caregivers, to ensure they are receiving a high-quality education. This is\
+    \ particularly true given that students in Puerto Rico currently perform lower\
+    \ than those in all 50 states on the National Assessment of Educational Progress\
+    \ (NAEP). Unfortunately, Puerto Rico\u2019s education system lacks a public governance\
+    \ structure - such as boards of education and parent advisory groups -  that allows\
+    \ for public accountability. This prevents families and caregivers from engaging\
+    \ with school leadership in a meaningful way, particularly when recourse is needed\
+    \ for students who are not receiving the services they are entitled to. In contrast,\
+    \ other jurisdictions have a variety of governance structures such as state boards\
+    \ of education, local boards of education, or parent advisory groups like PTAs\
+    \ or PTOs, to name a few, that allow for reciprocal communication and mechanisms\
+    \ for accountability."
+  agency_text: Puerto Rico Department of Education, U.S. Department of Education
+  airtable_createdTime: '2022-07-06T14:26:48.000Z'
+  airtable_id: recTK2wyWGMlp8SAb
+  organizations:
+  - rec71AqSovfx7EgrY
+  - recBBbVkCKQN52rWM
+  pdf: 2022-ED.pdf
+  sprint_order: 2
+  sprint_text: Fall 2022 Sprints
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
     opioids increased more than five-fold, from about 8,000 to over 42,000. Both prescription
@@ -2939,6 +3013,51 @@
   - recZod0Y9uE8dnrem
   products_text: Cura Patient
   sprint_text: TOP Health
+- Challenge: Create digital tools to help public transit agencies as well as state,
+    regional, and local stakeholders identify transit infrastructure that is vulnerable
+    to extreme weather events and/or can serve as community resources in emergencies.
+  Full Title: "Integrating Data to Improve Public Transportation\u2019s Resilience\
+    \ to Climate Change"
+  Name: "Integrating Data to Improve Public Transportation\u2019s Resilience to Climate\
+    \ Change"
+  Sprints:
+  - recpMcza8s2IjzutX
+  Target audience / End user: Members of the public; transit agencies; local, regional,
+    and state decision makers; climate adaptation/resilience and emergency preparedness
+    professionals who provide local decision makers with expert guidance
+  Why this problem matters: "Public transportation provides 10 billion trips each\
+    \ year in the United States, improves mobility, and enhances quality of life for\
+    \ millions of Americans.  Transit helps commuters get to work, customers reach\
+    \ businesses, and rural residents access services, while providing essential mobility\
+    \ for people who cannot drive or do not have access to a personal vehicle.\n\n\
+    However, public transportation infrastructure is increasingly vulnerable to the\
+    \ effects of climate change.  Impacts will vary, but all regions and public transportation\
+    \ systems, large and small, will be affected.  Intense rainfall has already flooded\
+    \ subway tunnels and low-lying facilities, bus lots, and rights-of-way.   Heat\
+    \ waves will continue to stress materials, buckle rails, and jeopardize customer\
+    \ and worker safety and comfort.  In the longer term, rising sea-levels, compounded\
+    \ by worsening storm surges, will threaten assets in many coastal areas.\n\nClimate\
+    \ impacts on transit assets will make it difficult to keep public transportation\
+    \ systems in good repair and provide reliable and safe service, which may then\
+    \ impact ridership.  Individuals with disabilities, older adults, and low-income\
+    \ individuals\u2014groups who disproportionately depend on public transportation\u2014\
+    \ will suffer from disruptions and degradation in service, which will have downstream\
+    \ consequences on their ability to earn income, receive services, and participate\
+    \ in social and civic life.\n\nAt the same time, transit can strengthen community\
+    \ resiliency.  Transit evacuates people who are in harm\u2019s way and provides\
+    \ mobility to people displaced by disasters.  Buses have served as cooling shelters\
+    \ in heatwaves and some vehicles can even generate power in emergencies.  During\
+    \ the COVID-19 pandemic, transit provided internet access and meal delivery, shuttled\
+    \ tests to clinics, gave people free rides to vaccine locations, and served as\
+    \ mobile vaccine clinics.\n"
+  agency_text: U.S. Department of Transportation
+  airtable_createdTime: '2022-07-06T14:31:28.000Z'
+  airtable_id: reclJYrMI3Nr3I6Jy
+  organizations:
+  - recQJhXANnrCe4tUP
+  pdf: 2022-DOT.pdf
+  sprint_order: 3
+  sprint_text: Fall 2022 Sprints
 - Name: Improving Data Literacy Using Decennial Census Data
   airtable_createdTime: '2021-09-20T20:07:34.000Z'
   airtable_id: reclLC12bILYZ7ymr
@@ -3053,7 +3172,7 @@
   - rec8PdH7hI4omQshl
   - recQjVq9yZgfpri29
   Sprints:
-  - recMpslqDTkD8bJoj
+  - reczc8aUuFa86x1WA
   Target audience / End user: Local officials or other local decision makers; regional
     planning groups; rural or tribal communities; communities that have been impacted
     by recent pandemic outfall, loss of key industry, and/or extreme weather events
@@ -3119,8 +3238,8 @@
   organizations:
   - recDJthxFdnCkkHXX
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
-  sprint_order: 2
-  sprint_text: Built Environment
+  sprint_order: 7
+  sprint_text: Earth
 - Challenge: "The Decennial Census is our nation\u2019s largest peacetime mobilization\
     \ -- in 2020, the federal government will hire 500,000 Census takers to help count\
     \ households across America that do not respond by mail or online. Help leverage\
@@ -3154,6 +3273,7 @@
   - recYOMiqxyb3IN11r
   organizations:
   - rec9e5MJi3BeiIc2m
+  pdf: assisting-businesses-2020.pdf
   products_text: Census Taker
   sprint_order: 2
   sprint_text: 2020 Census

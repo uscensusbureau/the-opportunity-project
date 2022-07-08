@@ -13,9 +13,9 @@ annual_reports:
   '2020': assets/files/top-annual-report-2020.pdf
   '2019': assets/files/annual_report_2019.pdf
 
-banner:
-  text: View the Summer 2022 Sprints Problem Statements
-  href: sprints/summer-2022-sprints/
+# banner:
+#   text: View the Fall 2022 Sprints Problem Statements
+#   href: sprints/top-fall-2022/
 #   isExternal: true
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

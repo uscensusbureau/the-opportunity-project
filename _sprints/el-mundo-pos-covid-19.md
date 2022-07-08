@@ -1,6 +1,6 @@
 ---
 short-name: pos-covid-esp
-order: 2
+order: 3
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

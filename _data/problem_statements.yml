@@ -694,6 +694,7 @@
   - recZod0Y9uE8dnrem
   - recRKu6t2inmGXXce
   pdf: 2022-HHS-USDA-DDEC.pdf
+  pdf-esp: 2022-HHS-USDA-DDEC-esp.pdf
   sprint_order: 1
   sprint_text: Fall 2022 Sprints
 - Agency Leads:
@@ -2111,6 +2112,7 @@
   - rec71AqSovfx7EgrY
   - recBBbVkCKQN52rWM
   pdf: 2022-ED.pdf
+  pdf-esp: 2022-ED-esp.pdf
   sprint_order: 2
   sprint_text: Fall 2022 Sprints
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in

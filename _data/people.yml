@@ -484,6 +484,17 @@
   name: Mandy Richardson
   organizations:
   - recn2ciz5HGTT8Guy
+- airtable_createdTime: '2022-08-01T23:34:14.000Z'
+  airtable_id: rec5ZKFWH6yDgNvK1
+  datasets copy:
+  - recvUPFiteUDDjQ66
+  - rec7eG7ioSJy5wVUz
+  - recxHyUgFgQOst3eS
+  - recRH2Mdnk2dK2gDs
+  - recI8J6vavHcHDdBT
+  - recJwVtXI41rgOWhi
+  - recObK5u1KXbnBpY8
+  name: Zack McRae
 - airtable_createdTime: '2021-08-13T21:19:24.000Z'
   airtable_id: rec5ZkJ6H0Bs2wNeW
   datasets copy:
@@ -492,6 +503,12 @@
   name: Technical Questions
   organizations:
   - recFaEqDe9K2rgPbi
+- airtable_createdTime: '2022-08-01T21:16:57.000Z'
+  airtable_id: rec5ghfC9LHRoqvB1
+  datasets copy:
+  - reclTH3Nx3SA8DtoU
+  email: Cover.Benjamin@bls.gov
+  name: Ben Cover
 - Role:
   - Data Steward
   airtable_createdTime: '2021-07-21T18:45:10.000Z'
@@ -1502,6 +1519,7 @@
   - recqVxeSVfcGmlSwN
   - rec7nUX62Y5OEC9cC
   - recajSlCIFOtVXygu
+  - rec3OpjcFWSJPAa4a
   email: amanda.m.klimek@census.gov
   name: Amanda Klimek
   organizations:
@@ -1749,6 +1767,8 @@
   - recu60AFUaN2dfUPt
 - airtable_createdTime: '2021-09-20T16:21:41.000Z'
   airtable_id: recJ56o8cVQpOjyUa
+  datasets copy:
+  - recgOvkoif8F1PfAs
   email: thompson.trent@bls.gov
   name: Trent Thompson
   organizations:

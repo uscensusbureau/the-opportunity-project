@@ -879,6 +879,7 @@
   - recLOPJDbqlg8HfQi
   - recyPvqywI0Ho1REW
   - recFEhZwCzciwyP5A
+  - rectqNgZPCyQSjHQ5
   email: Patrick.A.Jurgens@census.gov
   name: Patrick Jurgens
   organizations:
@@ -1127,6 +1128,12 @@
   treasury_datasets:
   - recsdg958IyEjneOW
   - rec5tZ7bcx8PAUffl
+- airtable_createdTime: '2022-08-09T17:39:38.000Z'
+  airtable_id: recCG22PCl0IfGkRB
+  datasets copy:
+  - recJ1bzJpG7cyTV0M
+  email: mailto:mary.ana.mckay@census.gov
+  name: Mary Ana McKay
 - Role:
   - Agency Lead
   Sprint:
@@ -1253,6 +1260,8 @@
   - HTC
   airtable_createdTime: '2020-03-24T17:14:59.000Z'
   airtable_id: recD7uHboyqbIfhJw
+  datasets copy:
+  - recPR6lzeKII9RCI0
   email: kevin.j.hawley@census.gov
   name: Kevin Hawley
   organizations:
@@ -1430,6 +1439,13 @@
   name: Megan Malone
   organizations:
   - recHNjjPXIHJWQt72
+- airtable_createdTime: '2022-08-09T17:45:15.000Z'
+  airtable_id: recFE5ogDTq3q6I4y
+  datasets copy:
+  - recjgnJjFfOyD4fwj
+  - recZvHmtVabx7n59M
+  email: g.david.cackowski@census.gov
+  name: David Cackowski
 - airtable_createdTime: '2021-09-08T19:16:19.000Z'
   airtable_id: recFHe5Z7RBmMTy9N
   email: carolyn.e.gann@census.gov
@@ -1723,6 +1739,12 @@
   name: 'Hannah Kirby '
   organizations:
   - recKKQIUWNUoeI0zf
+- airtable_createdTime: '2022-08-09T13:07:33.000Z'
+  airtable_id: recIUCZI3kVHLw0c8
+  datasets copy:
+  - rec3lT5GM2jraB8xY
+  email: augustin.misago@census.gov
+  name: Augustin Misago
 - Role:
   - Data Steward
   Sprint:
@@ -1858,6 +1880,8 @@
   - recg9LuHpKxgB95Xy
   airtable_createdTime: '2021-07-21T17:46:41.000Z'
   airtable_id: recJsfniriaJt5jK4
+  datasets copy:
+  - recLQN4Jm1K7ChwrP
   email: matthew.a.zimolzak@census.gov
   name: Matthew Zimolzak
   organizations:
@@ -3061,6 +3085,12 @@
   name: Conor Delaney
   organizations:
   - recgy3YAmN5mTuv7b
+- airtable_createdTime: '2022-08-09T17:50:04.000Z'
+  airtable_id: recWmFGv84RT7BtPr
+  datasets copy:
+  - recAXyWNbx1fLYdvx
+  email: alexandra.t.zablotny@census.gov
+  name: Alexandra Zablotny
 - Role:
   - Data Steward
   Sprint:
@@ -4192,6 +4222,13 @@
   - recFnuIRWReDhsPry
   sprints 2:
   - rec5A5h9cq07ijoPk
+- airtable_createdTime: '2022-08-09T17:41:27.000Z'
+  airtable_id: reciOYUxvvptzSo2o
+  datasets copy:
+  - recjNDpvQDA9EONKv
+  email: FEMA-GIO@fema.dhs.gov
+  name: Chris Vaughan
+  title: FEMA Geospatial Information Officer
 - Role:
   - User Advocate
   Sprint:
@@ -5073,6 +5110,9 @@
   - recVzwV1Kc8lrucQf
 - airtable_createdTime: '2021-07-21T18:00:18.000Z'
   airtable_id: recrz0F1lp6MApPX3
+  datasets copy:
+  - recLQN4Jm1K7ChwrP
+  email: steve.lewis@dot.gov
   name: Steve Lewis
   organizations 2:
   - recQJhXANnrCe4tUP

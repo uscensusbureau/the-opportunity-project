@@ -362,24 +362,6 @@
   name: Attitudes
   products:
   - recB5iDMet16XnjXe
-- airtable_createdTime: '2022-08-01T22:54:06.000Z'
-  airtable_id: rec3OpjcFWSJPAa4a
-  data_stewards:
-  - recFypleiqj8EFblI
-  datakit_order: 2
-  description: The American Community Survey (ACS) is the premier source for detailed
-    population and housing information about our nation.
-  link: https://www.census.gov/programs-surveys/acs/data.html
-  name: American Community Survey
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Amanda Klimek
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec3eN0uMx9yxVU2Z
   name: US EPA
@@ -397,24 +379,6 @@
   ps_text: Disaster Preparedness
   sprint:
   - recg9LuHpKxgB95Xy
-- airtable_createdTime: '2022-08-09T13:06:54.000Z'
-  airtable_id: rec3lT5GM2jraB8xY
-  data_stewards:
-  - recIUCZI3kVHLw0c8
-  description: The files include total housing units (including transitory units)
-    and total group quarters counts, by 2020 census tabulation block. These housing
-    unit and group quarters counts represent final counts for the 2020 Census.
-  link: https://www.census.gov/geographies/reference-files/2020/geo/2020addcountlisting.html#:~:text=2020%20The%20Address%20Count%20Listing%20files%20are%20available,and%20do%20not%20represent%20final%202020%20Census%20counts.?msclkid=273dcd94b60611ecbf7869bc6d4dbd7d
-  name: Address Count Listing Files and Map Viewer - U.S. Census Bureau
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Augustin Misago
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: rec3rzhgabXlvzBXp
   data_stewards:
@@ -844,27 +808,6 @@
   sprint:
   - reczc8aUuFa86x1WA
   stewards_text: Metis Meloche, Anne Bowser
-- airtable_createdTime: '2022-08-01T23:26:45.000Z'
-  airtable_id: rec7eG7ioSJy5wVUz
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 4
-  description: Each year, the U.S. Department of Housing and Urban Development (HUD)
-    receives custom tabulations of American Community Survey (ACS) data from the U.S.
-    Census Bureau. These data, known as the "CHAS" data (Comprehensive Housing Affordability
-    Strategy), demonstrate the extent of housing problems and housing needs, particularly
-    for low income households.
-  link: https://www.huduser.gov/portal/datasets/cp.html#2006-2018_data
-  name: Comprehensive Housing Affordability Strategy
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: rec7nUX62Y5OEC9cC
   data_stewards:
@@ -1146,22 +1089,6 @@
   name: US Census Bureau; Local emergency response data
   products:
   - recnSpNUcyeoVi28K
-- airtable_createdTime: '2022-08-09T17:49:03.000Z'
-  airtable_id: recAXyWNbx1fLYdvx
-  data_stewards:
-  - recWmFGv84RT7BtPr
-  link: https://mtgis-portal.geo.census.gov/arcgis/apps/webappviewer/index.html?id=99d7bf4900d64cfead6e405687bc3826
-  name: Predominant Address Type by Census Block in Puerto Rico (forthcoming data
-    expected May 2022)
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Alexandra Zablotny
 - airtable_createdTime: '2021-07-19T22:03:19.000Z'
   airtable_id: recAXzAxWMJcMuNgI
   description: Individual Assistance (IA) is provided by FEMA to individuals and families
@@ -1364,24 +1291,6 @@
     and Prevention
   products:
   - recMyCXtD901elAkR
-- airtable_createdTime: '2022-08-01T22:42:50.000Z'
-  airtable_id: recCc3Oihgr2cPq6T
-  datakit_order: 1
-  description: The U.S. Census Bureau, in collaboration with multiple federal agencies,
-    produce data on the social and economic effects of coronavirus on American households.
-    The Household Pulse Survey is designed to deploy quickly and efficiently, collecting
-    data to measure household experiences and data are disseminated in near real-time
-    to inform federal and state response and recovery planning.
-  link: https://www.census.gov/data/experimental-data-products/household-pulse-survey.html
-  name: Household Pulse Survey
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
 - airtable_createdTime: '2021-08-13T16:36:01.000Z'
   airtable_id: recCdi3hnYuSm7w3t
   data_stewards:
@@ -1891,22 +1800,6 @@
   name: Open Data DC Street Segments API
   products:
   - recyl8q9tZWnPoQQt
-- airtable_createdTime: '2022-08-01T23:27:16.000Z'
-  airtable_id: recI8J6vavHcHDdBT
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 7
-  link: https://www.huduser.gov/portal/datasets/ahs.html
-  name: American Housing Survey
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recIO6XWO5Cij8bJ5
   name: Office of the Surgeon General; Department of Transportation
@@ -1969,24 +1862,6 @@
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
   stewards_text: Andy Hait, Lynda Lee
-- airtable_createdTime: '2022-08-09T17:35:35.000Z'
-  airtable_id: recJ1bzJpG7cyTV0M
-  data_stewards:
-  - recCG22PCl0IfGkRB
-  description: The Puerto Rico Community Survey provides data every year -- giving
-    communities the current information they need to manage change. It is part of
-    the Census Bureau's American Community Survey, customized for Puerto Rico.
-  link: https://www.census.gov/programs-surveys/acs/about/puerto-rico-community-survey.html
-  name: "Puerto Rico Community Survey \u2013 U.S. Census Bureau"
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Mary Ana McKay
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recJ2lhBahwKxQyLQ
   name: "Census Bureau\u2019s National Address Database Schema; United States Department\
@@ -2058,28 +1933,6 @@
   ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
-- airtable_createdTime: '2022-08-01T23:27:27.000Z'
-  airtable_id: recJwVtXI41rgOWhi
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 8
-  description: LIHTC program gives State and local LIHTC-allocating agencies the equivalent
-    of approximately $8 billion in annual budget authority to issue tax credits for
-    the acquisition, rehabilitation, or new construction of rental housing targeted
-    to lower-income households. HUD collects LIHTC data at the property level and
-    the tenant level. HUD's property database includes information on the size, unit
-    mix, and location of individual projects.
-  link: https://www.huduser.gov/portal/datasets/lihtc.html
-  name: Low-Income Housing Tax Credit
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recK0PvnrhMoDw2P2
   name: Libraries
@@ -2267,29 +2120,6 @@
   stewards_text: Patrick Jurgens
   tag:
   - Imagery + Base Maps
-- airtable_createdTime: '2022-08-09T17:47:07.000Z'
-  airtable_id: recLQN4Jm1K7ChwrP
-  data_stewards:
-  - recrz0F1lp6MApPX3
-  - recJsfniriaJt5jK4
-  description: The U.S. Department of Transportation (USDOT) and its partners from
-    all levels of government recognize the need for a National Address Database (NAD).  Accurate
-    and up-to-date addresses are critical to transportation safety and are a vital
-    part of Next Generation 9-1-1. They are also essential for a broad range of government
-    services, including mail delivery, permitting, and school siting. To meet this
-    need, USDOT partners with address programs from state, local, and tribal governments
-    to compile their authoritative data into the NAD.
-  link: https://www.transportation.gov/sites/dot.gov/files/docs/mission/gis/national-address-database/308816/nad-schema-v1.pdf
-  name: The National Address Database (NAD) Schema
-  organization_text: Department of Transportation (DOT)
-  organizations:
-  - reczBuU7IMQfXf0hp
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Steve Lewis, Matthew Zimolzak
 - airtable_createdTime: '2020-02-10T17:32:22.000Z'
   airtable_id: recLQhRQGBSo9KYnC
   name: Federal Procurement Data System (FPDS)
@@ -2757,23 +2587,6 @@
   sprint:
   - reczc8aUuFa86x1WA
   stewards_text: Britney McCoy
-- airtable_createdTime: '2022-08-01T23:27:43.000Z'
-  airtable_id: recObK5u1KXbnBpY8
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 9
-  description: Summary data of HUD assisted housing programs.
-  link: https://www.huduser.gov/portal/datasets/assthsg.html
-  name: Picture of Subsidized Households
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recOcdeX1JFgqFD4D
   name: Waste and Recycling
@@ -2864,22 +2677,6 @@
   name: EPA WARM Model
   products:
   - recxNb6AkmDER2KXh
-- airtable_createdTime: '2022-08-09T13:10:39.000Z'
-  airtable_id: recPR6lzeKII9RCI0
-  data_stewards:
-  - recD7uHboyqbIfhJw
-  description: Population Density, Population Change, and Population Age 18 and Over
-  link: https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7
-  name: "2020 Census Demographic Data Viewer \u2013 U.S. Census Bureau"
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Kevin Hawley
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recPciOoWssRZ3ajj
   name: Census Bureau; Department of Agriculture; Department of Education; U.S. Securities
@@ -2896,23 +2693,6 @@
   name: Department of Housing and Urban Development Fair Market Rent data; OpenStreetMap
   products:
   - reculF774OHizAs0S
-- airtable_createdTime: '2022-08-09T17:42:31.000Z'
-  airtable_id: recPzFvjXDG1iQnQ7
-  description: The imagery posted on this site was acquired by the NOAA Remote Sensing
-    Division to support NOAA homeland security and emergency response requirements.
-    In addition, it will be used for ongoing research efforts for testing and developing
-    standards for airborne digital imagery.
-  link: https://storms.ngs.noaa.gov/
-  name: "Emergency Response Imagery \u2013 National Oceanic and Atmospheric Administration\
-    \ (NOAA) National Geodetic Survey (NGS)"
-  organization_text: National Oceanic and Atmospheric Administration
-  organizations:
-  - recFaEqDe9K2rgPbi
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recQ0EQjhfyiA6d54
   data_stewards:
@@ -3053,27 +2833,6 @@
   - reczc8aUuFa86x1WA
   - rec4vys7lW5OufL2k
   stewards_text: Tom Crafford, Beth Sangine
-- airtable_createdTime: '2022-08-01T23:27:05.000Z'
-  airtable_id: recRH2Mdnk2dK2gDs
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 6
-  description: Each year, the U.S. Department of Housing and Urban Development (HUD)
-    receives custom tabulations of American Community Survey (ACS) data from the U.S.
-    Census Bureau. These data, known as the "CHAS" data (Comprehensive Housing Affordability
-    Strategy), demonstrate the extent of housing problems and housing needs, particularly
-    for low income households.
-  link: https://www.huduser.gov/portal/datasets/hads/hads.html
-  name: Housing Affordability Data System
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recRNl86Jv4lOJKqy
   name: Census County Business Patterns
@@ -4117,22 +3876,6 @@
   ps_text: Improving Access to and Management of Federal Grants
   sprint:
   - recbhMlc1WZWXNte0
-- airtable_createdTime: '2022-08-09T17:46:00.000Z'
-  airtable_id: recZvHmtVabx7n59M
-  data_stewards:
-  - recFE5ogDTq3q6I4y
-  description: Address Data Collection Tools for local governments.
-  link: https://opportunity.census.gov/showcase/?search=helping-tribal-state-and-local-governments-with-local-address-data-collection
-  name: TOP 2018 tools created in response to an earlier version of this challenge
-  organization_text: The Opportunity Project
-  organizations:
-  - recIXJVODarYWxZ0I
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: David Cackowski
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reca0iePHTw88poRP
   name: HHS Annual Performance Report
@@ -4752,28 +4495,6 @@
   name: DC GIS Master Address Repository
   products:
   - recyl8q9tZWnPoQQt
-- airtable_createdTime: '2022-08-01T23:34:33.000Z'
-  airtable_id: recgOvkoif8F1PfAs
-  data_stewards:
-  - recJ56o8cVQpOjyUa
-  datakit_order: 10
-  description: The Quarterly Census of Employment and Wages (QCEW) is a quarterly
-    count of establishments, employment, and wages reported by employers covering
-    more than 95 percent of U.S. jobs, available at the county, Metropolitan Statistical
-    Area (MSA), state and U.S. national levels by North American Industry Classification
-    System (NAICS) industry, ownership and size. Our data is available about six months
-    after the end of each referenced quarter.
-  link: https://www.bls.gov/cew/data.htm
-  name: Quarterly Census of Employment and Wages
-  organization_text: U.S. Bureau of Labor Statistics
-  organizations:
-  - recZxSer4T6bBMfqU
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Trent Thompson
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recgS9hiCUoKIGzZr
   description: Nationally consistent dataset and approach for combining environmental
@@ -5035,24 +4756,6 @@
   stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
   - Climate
-- airtable_createdTime: '2022-08-09T17:40:13.000Z'
-  airtable_id: recjNDpvQDA9EONKv
-  data_stewards:
-  - reciOYUxvvptzSo2o
-  description: The form is produced in Spanish and English. Survey results are used
-    to help make sure that your community gets a fair share of federal funds.
-  link: https://gis-fema.hub.arcgis.com/pages/usa-structures
-  name: USA Structures - Oak Ridge National Laboratory/Federal Emergency Management
-    Agency
-  organization_text: Oak Ridge National Laboratory
-  organizations:
-  - recz5k2Gwg08jOh1T
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Chris Vaughan
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: recjS8XDL8j8Ni4MR
   description: Mapping tool based on nationally consistent data and an approach that
@@ -5070,23 +4773,6 @@
   - recnrr8LKTIFIKsHU
   tag:
   - Risk
-- airtable_createdTime: '2022-08-09T17:44:44.000Z'
-  airtable_id: recjgnJjFfOyD4fwj
-  data_stewards:
-  - recFE5ogDTq3q6I4y
-  description: Reports on the state of Federal Agencies Puerto Rico Address Data collection
-    and maintenance.
-  link: https://ngda-address-geoplatform.hub.arcgis.com/pages/puerto-rico-address-data-working-group
-  name: Puerto Rico Address Data Working Group reports
-  organization_text: Puerto Rico Address Data Working Group
-  organizations:
-  - recZ6IoDkLZmcv6yZ
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: David Cackowski
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
   airtable_id: recjjHhrKIfcmATHw
   description: Wide-ranging education access and equity data collected from our nation's
@@ -5243,28 +4929,6 @@
   sprint:
   - rec5A5h9cq07ijoPk
   stewards_text: Sari Sue Jolly, Anna Parikos, Monika Dukes
-- airtable_createdTime: '2022-07-27T19:14:56.000Z'
-  airtable_id: reclTH3Nx3SA8DtoU
-  data_stewards:
-  - rec5ghfC9LHRoqvB1
-  datakit_order: 0
-  description: The Occupational Employment and Wage Statistics (OEWS) program produces
-    employment and wage estimates annually for nearly 800 occupations. These estimates
-    are available for the nation as a whole, for individual states, and for metropolitan
-    and nonmetropolitan areas; national occupational estimates for specific industries
-    are also available. Data are published annually in the spring, with about a 10-month
-    lag
-  link: https://www.bls.gov/oes/#data
-  name: Occupational Employment and Wage Statistics
-  organization_text: U.S. Bureau of Labor Statistics
-  organizations:
-  - recZxSer4T6bBMfqU
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Ben Cover
 - airtable_createdTime: '2020-02-10T17:42:07.000Z'
   airtable_id: reclZWlEoquCih4Jh
   name: Benefits.gov
@@ -5955,34 +5619,6 @@
   ps_text: Reaching Hard-to-Count Communities
   sprint:
   - rec5A5h9cq07ijoPk
-- airtable_createdTime: '2022-08-09T13:08:36.000Z'
-  airtable_id: rectqNgZPCyQSjHQ5
-  data_stewards:
-  - rec8bfHaA7zEPxfYN
-  description: "The core TIGER/Line Files and Shapefiles do not include demographic\
-    \ data, but they do contain geographic entity codes (GEOIDs) that can be linked\
-    \ to the Census Bureau\u2019s demographic data, available on data.census.gov."
-  link: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-  name: Geographic Areas/Boundaries, Roads, Address Ranges, and Name Relationships,
-    from TIGER/Line - U.S. Census Bureau
-  organization_text: U.S. Census Bureau
-  organizations:
-  - rec9e5MJi3BeiIc2m
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Patrick Jurgens
-- airtable_createdTime: '2022-08-09T17:50:37.000Z'
-  airtable_id: rectrgRlNJCZyAExe
-  link: https://www.arcgis.com/home/webmap/viewer.html?webmap=e72119d2f9d347899cc2d221d4bec45a&extent=-68.2619,17.2094,-64.4496,19.3893
-  name: 'Centro''s Data Hub: Esri Social Vulnerability Index for Puerto Rico'
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: rectromRwie5gWpO4
   data_stewards:
@@ -6141,25 +5777,6 @@
   name: EPA National Emissions Inventory
   products:
   - rec68a7razj3IGOyX
-- airtable_createdTime: '2022-08-01T23:26:19.000Z'
-  airtable_id: recvUPFiteUDDjQ66
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 3
-  description: Fair Market Rents (FMRs) are used to determine payment standard amounts
-    for multiple federal housing programs. They are calculated annually and are estimates
-    of 40th percentile gross rents for standard quality units.
-  link: https://www.huduser.gov/portal/datasets/fmr.html#2022_data
-  name: Fair Market Rents
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recvYdRCWPra59SDl
   description: The Citizen Science Cloud is a place where anyone can share and access
@@ -6305,24 +5922,6 @@
   ps_text: Promoting Access to and Interest in STEM Fields
   sprint:
   - recbhMlc1WZWXNte0
-- airtable_createdTime: '2022-08-01T23:26:54.000Z'
-  airtable_id: recxHyUgFgQOst3eS
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
-  datakit_order: 5
-  description: This publicly available, interactive tool provides access to HUD-provided
-    data
-  link: https://egis.hud.gov/affht/
-  name: Affirmatively Furthering Fair Housing Tool
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recE3t7URGHw5zsCM
-  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
-  sprint:
-  - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recxReBEEKnZu27SS
   data_stewards:

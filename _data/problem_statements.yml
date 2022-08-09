@@ -2088,6 +2088,29 @@
   agency_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2022-05-03T15:07:51.000Z'
   airtable_id: recSzR9PlTnjGwpcH
+  datasets copy:
+  - rec3lT5GM2jraB8xY
+  - rectqNgZPCyQSjHQ5
+  - recPR6lzeKII9RCI0
+  - recJ1bzJpG7cyTV0M
+  - recjNDpvQDA9EONKv
+  - recPzFvjXDG1iQnQ7
+  - recjgnJjFfOyD4fwj
+  - recZvHmtVabx7n59M
+  - recLQN4Jm1K7ChwrP
+  - recAXyWNbx1fLYdvx
+  - rectrgRlNJCZyAExe
+  datasets_text: "Address Count Listing Files and Map Viewer - U.S. Census Bureau,\
+    \ \"Geographic Areas/Boundaries, Roads, Address Ranges, and Name Relationships,\
+    \ from TIGER/Line - U.S. Census Bureau\", 2020 Census Demographic Data Viewer\
+    \ \u2013 U.S. Census Bureau, Puerto Rico Community Survey \u2013 U.S. Census Bureau,\
+    \ USA Structures - Oak Ridge National Laboratory/Federal Emergency Management\
+    \ Agency, Emergency Response Imagery \u2013 National Oceanic and Atmospheric Administration\
+    \ (NOAA) National Geodetic Survey (NGS), Puerto Rico Address Data Working Group\
+    \ reports, TOP 2018 tools created in response to an earlier version of this challenge,\
+    \ The National Address Database (NAD) Schema, Predominant Address Type by Census\
+    \ Block in Puerto Rico (forthcoming data expected May 2022), Centro's Data Hub:\
+    \ Esri Social Vulnerability Index for Puerto Rico"
   organization-esp:
   - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:

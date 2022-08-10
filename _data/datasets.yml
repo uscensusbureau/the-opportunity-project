@@ -5974,15 +5974,6 @@
   sprint:
   - recX8qMzecPlE76HV
   stewards_text: Patrick Jurgens
-- airtable_createdTime: '2022-08-09T17:50:37.000Z'
-  airtable_id: rectrgRlNJCZyAExe
-  link: https://www.arcgis.com/home/webmap/viewer.html?webmap=e72119d2f9d347899cc2d221d4bec45a&extent=-68.2619,17.2094,-64.4496,19.3893
-  name: 'Centro''s Data Hub: Esri Social Vulnerability Index for Puerto Rico'
-  problem_statements:
-  - recSzR9PlTnjGwpcH
-  ps_text: Transforming Local Addressing Systems in Puerto Rico
-  sprint:
-  - recX8qMzecPlE76HV
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: rectromRwie5gWpO4
   data_stewards:

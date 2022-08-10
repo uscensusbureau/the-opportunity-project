@@ -4,7 +4,7 @@ permalink: /data/well-being/
 class: datakit
 
 sprint-name: Summer 2022 Sprints
-problem-statement-name: Demographic, economic, and geographic data to inform national-level indicators of well-being
+problem-statement-name: Developing Community-Informed National-Level Indicators of Well-Being
 date: 2022-08-01
 
 lead: Demographic, economic, and geographic data to inform national-level indicators of well-being

@@ -339,6 +339,26 @@
   - rec4Y10emS9DtmBpT
   - reczc8aUuFa86x1WA
   stewards_text: Ted Payne, John Huggins
+- airtable_createdTime: '2022-08-11T14:34:57.000Z'
+  airtable_id: rec2pUPL2jV1kpAmz
+  data_stewards:
+  - recClbihJAqUquHX7
+  description: Small Area Health Insurance Estimates (SAHIE) data are model-based
+    estimates of health insurance coverage, produced annually by combining survey
+    data with administrative records data. SAHIE publishes one-year estimates for
+    all counties and states by select age, sex, and income groups, as well as race/ethnicity
+    for states only; 2020 estimates will be released August 11, 2022.
+  link: https://www.census.gov/programs-surveys/sahie.html
+  name: Small Area Health Insurance Estimates
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: James Mouser
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec33Lhf2RbQSTHWv
   data_stewards:
@@ -365,7 +385,7 @@
 - airtable_createdTime: '2022-08-01T22:54:06.000Z'
   airtable_id: rec3OpjcFWSJPAa4a
   data_stewards:
-  - recFypleiqj8EFblI
+  - recCG22PCl0IfGkRB
   datakit_order: 2
   description: The American Community Survey (ACS) is the premier source for detailed
     population and housing information about our nation.
@@ -379,7 +399,7 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Amanda Klimek
+  stewards_text: Mary Ana McKay
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec3eN0uMx9yxVU2Z
   name: US EPA
@@ -951,6 +971,23 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - recg9LuHpKxgB95Xy
+- airtable_createdTime: '2022-08-11T14:57:10.000Z'
+  airtable_id: rec8xzuKVISPio9yn
+  data_stewards:
+  - recROkSUzb5vq1pFD
+  description: Tax Stats includes a wide range of tables, articles, and data that
+    describe and measure elements of the U.S. tax system.
+  link: https://www.irs.gov/statistics
+  name: Tax Stats
+  organization_text: Internal Revenue Service
+  organizations:
+  - recZKzbkKqIm9Onc7
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: 'Kevin Pierce '
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9CVvWU2Jbx29XH
   description: Annual and monthly reports with statistics and business information
@@ -3883,6 +3920,24 @@
     Performance Data
   sprint:
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2022-08-11T14:16:53.000Z'
+  airtable_id: recX77rTWlcbp8rtV
+  data_stewards:
+  - rec63pw7Rf4nShKiB
+  description: A comprehensive measure of the economies of counties, metropolitan
+    statistical areas, and some other local areas. Gross domestic product estimates
+    the value of the goods and services produced in an area.
+  link: https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas
+  name: GDP by County, Metro, and Other Areas
+  organization_text: Bureau of Economic Analysis
+  organizations:
+  - recufk4lk7AY52NuC
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: Jeff Newman
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recXITRDvy1uaWFZg
   name: EPA Livability Indicators
@@ -3898,6 +3953,31 @@
   name: HUD EnVision Centers
   products:
   - reclF9Mn2Z6aMqzJk
+- airtable_createdTime: '2022-08-11T14:44:35.000Z'
+  airtable_id: recXedw1urGLCiWkL
+  data_stewards:
+  - rechRaahy1e0fhvhM
+  description: The American Time Use Survey (ATUS) provides nationally representative
+    estimates of how, where, and with whom Americans spend their time, and is the
+    only federal survey providing data on the full range of nonmarket activities,
+    from childcare to volunteering. The ATUS publishes microdata files that include
+    respondent-level data collected in the survey, in addition to thousands of estimates
+    and data series. The microdata files include detailed information collected from
+    nearly 228,000 interviews from 2003 to 2021. The data files include geographic
+    detail at the region, division, and state levels. These ATUS data are published
+    annually, with a 6-to-7-month lag. The most recent data include interviews conducted
+    in 2021 and were released on June 23, 2022.
+  link: https://www.bls.gov/tus/
+  name: American Time Use Survey
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - recZxSer4T6bBMfqU
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: Rose Woods
 - airtable_createdTime: '2020-02-10T17:32:08.000Z'
   airtable_id: recXpPrWBZtEtCQ62
   name: Grants.gov
@@ -4952,6 +5032,23 @@
   ps_text: Using AI to Connect Veterans with Registered Apprenticeships
   sprint:
   - recbhMlc1WZWXNte0
+- airtable_createdTime: '2022-08-11T14:52:40.000Z'
+  airtable_id: recj8poMXpwVWep1e
+  data_stewards:
+  - recvUgBTxcNrx0Dya
+  description: The LEHD program produces cost effective, public-use information combining
+    federal, state and Census Bureau data on employers and employees.
+  link: https://lehd.ces.census.gov/
+  name: Longitudinal Employer-Household Dynamics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rec9e5MJi3BeiIc2m
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: Heath Hayward
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recj9uFk4uyksjHp8
   data_stewards:
@@ -6092,6 +6189,27 @@
   products:
   - rectcKAi8zsdwiqjg
   - rec8PdH7hI4omQshl
+- airtable_createdTime: '2022-08-11T14:55:33.000Z'
+  airtable_id: recuiNIjq1QKCFacZ
+  data_stewards:
+  - recnVz3wTGaiRi2Fq
+  description: The National Crime Victimization Survey (NCVS) is an annual data collection
+    on criminal victimization (violent and property crime), including crimes reported
+    and not reported to police, from a nationally representative sample of U.S. households.
+    Data users can generate national estimates on criminal victimization, incidents,
+    and prevalence by various victim demographics (such as victim sex, race/Hispanic
+    origin) and incident characteristics (such as reporting to police, weapon use).
+  link: https://bjs.ojp.gov/data-collection/ncvs
+  name: National Crime Victimization Survey
+  organization_text: Department of Justice
+  organizations:
+  - recXJub4MjWcaDpgE
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: Lexy Thompson
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: reculZxaACMYLbtZl
   data_stewards:
@@ -6272,6 +6390,30 @@
     and Library Services; other data from federal agencies and twelve cities
   products:
   - recV0aW7ZolC7aIoy
+- airtable_createdTime: '2022-08-11T14:47:03.000Z'
+  airtable_id: recwiodSndr7tgy4n
+  data_stewards:
+  - rec7IjsBAdHyQV6j1
+  description: The Contingent Worker Supplement (CWS) collected information about
+    contingent workers (people who do not expect their jobs to last or who report
+    that their jobs are temporary) and those in alternative employment arrangements
+    (independent contractors, on-call workers, temporary help agency workers, and
+    workers provided by contract firms). These data were most recently collected in
+    a May 2017 survey and include national data with demographic characteristics and
+    job characteristics of the employed people on their main job (including industry
+    and occupation, the hours they work, earnings, preference for and reason they
+    are in the arrangement, and health insurance and pension participation).
+  link: https://www.bls.gov/news.release/conemp.toc.htm
+  name: Contingent and Alternative Employment Arrangements
+  organization_text: Bureau of Labor Statistics
+  organizations:
+  - recMS8fpTdKsCyLLv
+  problem_statements:
+  - recE3t7URGHw5zsCM
+  ps_text: Developing Community-Informed National-Level Indicators of Well-Being
+  sprint:
+  - recX8qMzecPlE76HV
+  stewards_text: Karen Kosanovich
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recwpJdy7nLKeyB9n
   name: FEMA Mission Summaries

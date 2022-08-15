@@ -531,6 +531,12 @@
   name: David Willis, MD
   organizations:
   - rec0mMptJT4UmFmc4
+- airtable_createdTime: '2022-08-11T14:19:44.000Z'
+  airtable_id: rec63pw7Rf4nShKiB
+  datasets copy:
+  - recX77rTWlcbp8rtV
+  email: jeffrey.newman@bea.gov
+  name: Jeff Newman
 - Role:
   - Technologist
   Sprint:
@@ -678,6 +684,12 @@
   name: Catherine D Buffington
   organizations:
   - rec9e5MJi3BeiIc2m
+- airtable_createdTime: '2022-08-11T14:52:17.000Z'
+  airtable_id: rec7IjsBAdHyQV6j1
+  datasets copy:
+  - recwiodSndr7tgy4n
+  email: kosanovich.karen@bls.gov
+  name: Karen Kosanovich
 - Role:
   - Agency Lead
   Sprint:
@@ -1132,7 +1144,8 @@
   airtable_id: recCG22PCl0IfGkRB
   datasets copy:
   - recJ1bzJpG7cyTV0M
-  email: mailto:mary.ana.mckay@census.gov
+  - rec3OpjcFWSJPAa4a
+  email: mary.ana.mckay@census.gov
   name: Mary Ana McKay
 - Role:
   - Agency Lead
@@ -1241,6 +1254,12 @@
   name: Ben Bolender
   organizations:
   - rec9e5MJi3BeiIc2m
+- airtable_createdTime: '2022-08-11T14:43:50.000Z'
+  airtable_id: recClbihJAqUquHX7
+  datasets copy:
+  - rec2pUPL2jV1kpAmz
+  email: sehsd.sahie@census.gov
+  name: James Mouser
 - Role:
   - Data Steward
   airtable_createdTime: '2021-07-21T18:43:53.000Z'
@@ -1536,7 +1555,6 @@
   - recqVxeSVfcGmlSwN
   - rec7nUX62Y5OEC9cC
   - recajSlCIFOtVXygu
-  - rec3OpjcFWSJPAa4a
   email: amanda.m.klimek@census.gov
   name: Amanda Klimek
   organizations:
@@ -2529,6 +2547,7 @@
   airtable_id: recROkSUzb5vq1pFD
   datasets copy:
   - recmHtppXb3wSH6uI
+  - rec8xzuKVISPio9yn
   email: kevin.k.pierce@irs.gov
   name: 'Kevin Pierce '
   organizations:
@@ -4172,6 +4191,12 @@
 - airtable_createdTime: '2021-07-20T17:16:53.000Z'
   airtable_id: rechMIevtEeRMxoNi
   name: Joel Schlagel
+- airtable_createdTime: '2022-08-11T14:46:06.000Z'
+  airtable_id: rechRaahy1e0fhvhM
+  datasets copy:
+  - recXedw1urGLCiWkL
+  email: woods.rose@bls.gov
+  name: Rose Woods
 - Role:
   - Agency Lead
   Sprint:
@@ -4743,6 +4768,12 @@
   name: Samantha Romain
   organizations:
   - recZEIrEWw8IlVla5
+- airtable_createdTime: '2022-08-11T14:56:39.000Z'
+  airtable_id: recnVz3wTGaiRi2Fq
+  datasets copy:
+  - recuiNIjq1QKCFacZ
+  email: alexandra.thompson@usdoj.gov
+  name: Lexy Thompson
 - Role:
   - Agency Lead
   Sprint:
@@ -5513,6 +5544,12 @@
   name: Mark O'Brien
   organizations:
   - recgT5oEXYh06kjYv
+- airtable_createdTime: '2022-08-11T14:55:12.000Z'
+  airtable_id: recvUgBTxcNrx0Dya
+  datasets copy:
+  - recj8poMXpwVWep1e
+  email: patrick.hayward@census.gov
+  name: Heath Hayward
 - Role:
   - Agency Lead
   Sprint:

@@ -1361,11 +1361,21 @@
   - recJwVtXI41rgOWhi
   - recObK5u1KXbnBpY8
   - recgOvkoif8F1PfAs
+  - recX77rTWlcbp8rtV
+  - rec2pUPL2jV1kpAmz
+  - recXedw1urGLCiWkL
+  - recwiodSndr7tgy4n
+  - recj8poMXpwVWep1e
+  - recuiNIjq1QKCFacZ
+  - rec8xzuKVISPio9yn
   datasets_text: Occupational Employment and Wage Statistics, Household Pulse Survey,
     American Community Survey, Fair Market Rents, Comprehensive Housing Affordability
     Strategy, Affirmatively Furthering Fair Housing Tool, Housing Affordability Data
     System, American Housing Survey, Low-Income Housing Tax Credit, Picture of Subsidized
-    Households, Quarterly Census of Employment and Wages
+    Households, Quarterly Census of Employment and Wages, "GDP by County, Metro, and
+    Other Areas", Small Area Health Insurance Estimates, American Time Use Survey,
+    Contingent and Alternative Employment Arrangements, Longitudinal Employer-Household
+    Dynamics, National Crime Victimization Survey, Tax Stats
   organization-esp:
   - Departamento del Tesoro de los EE. UU.
   organizations:
@@ -2099,7 +2109,6 @@
   - recZvHmtVabx7n59M
   - recLQN4Jm1K7ChwrP
   - recAXyWNbx1fLYdvx
-  - rectrgRlNJCZyAExe
   datasets_text: "Address Count Listing Files and Map Viewer - U.S. Census Bureau,\
     \ \"Geographic Areas/Boundaries, Roads, Address Ranges, and Name Relationships,\
     \ from TIGER/Line - U.S. Census Bureau\", 2020 Census Demographic Data Viewer\
@@ -2109,8 +2118,7 @@
     \ (NOAA) National Geodetic Survey (NGS), Puerto Rico Address Data Working Group\
     \ reports, TOP 2018 tools created in response to an earlier version of this challenge,\
     \ The National Address Database (NAD) Schema, Predominant Address Type by Census\
-    \ Block in Puerto Rico (forthcoming data expected May 2022), Centro's Data Hub:\
-    \ Esri Social Vulnerability Index for Puerto Rico"
+    \ Block in Puerto Rico"
   organization-esp:
   - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:

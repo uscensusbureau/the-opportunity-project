@@ -694,6 +694,7 @@
   - recZod0Y9uE8dnrem
   - recRKu6t2inmGXXce
   pdf: 2022-HHS-USDA-DDEC.pdf
+  pdf-esp: 2022-HHS-USDA-DDEC-esp.pdf
   sprint_order: 1
   sprint_text: Fall 2022 Sprints
 - Agency Leads:
@@ -1348,6 +1349,33 @@
     of the Treasury, New America
   airtable_createdTime: '2022-05-03T15:22:31.000Z'
   airtable_id: recE3t7URGHw5zsCM
+  datasets copy:
+  - reclTH3Nx3SA8DtoU
+  - recCc3Oihgr2cPq6T
+  - rec3OpjcFWSJPAa4a
+  - recvUPFiteUDDjQ66
+  - rec7eG7ioSJy5wVUz
+  - recxHyUgFgQOst3eS
+  - recRH2Mdnk2dK2gDs
+  - recI8J6vavHcHDdBT
+  - recJwVtXI41rgOWhi
+  - recObK5u1KXbnBpY8
+  - recgOvkoif8F1PfAs
+  - recX77rTWlcbp8rtV
+  - rec2pUPL2jV1kpAmz
+  - recXedw1urGLCiWkL
+  - recwiodSndr7tgy4n
+  - recj8poMXpwVWep1e
+  - recuiNIjq1QKCFacZ
+  - rec8xzuKVISPio9yn
+  datasets_text: Occupational Employment and Wage Statistics, Household Pulse Survey,
+    American Community Survey, Fair Market Rents, Comprehensive Housing Affordability
+    Strategy, Affirmatively Furthering Fair Housing Tool, Housing Affordability Data
+    System, American Housing Survey, Low-Income Housing Tax Credit, Picture of Subsidized
+    Households, Quarterly Census of Employment and Wages, "GDP by County, Metro, and
+    Other Areas", Small Area Health Insurance Estimates, American Time Use Survey,
+    Contingent and Alternative Employment Arrangements, Longitudinal Employer-Household
+    Dynamics, National Crime Victimization Survey, Tax Stats
   organization-esp:
   - Departamento del Tesoro de los EE. UU.
   organizations:
@@ -2070,6 +2098,27 @@
   agency_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2022-05-03T15:07:51.000Z'
   airtable_id: recSzR9PlTnjGwpcH
+  datasets copy:
+  - rec3lT5GM2jraB8xY
+  - rectqNgZPCyQSjHQ5
+  - recPR6lzeKII9RCI0
+  - recJ1bzJpG7cyTV0M
+  - recjNDpvQDA9EONKv
+  - recPzFvjXDG1iQnQ7
+  - recjgnJjFfOyD4fwj
+  - recZvHmtVabx7n59M
+  - recLQN4Jm1K7ChwrP
+  - recAXyWNbx1fLYdvx
+  datasets_text: "Address Count Listing Files and Map Viewer - U.S. Census Bureau,\
+    \ \"Geographic Areas/Boundaries, Roads, Address Ranges, and Name Relationships,\
+    \ from TIGER/Line - U.S. Census Bureau\", 2020 Census Demographic Data Viewer\
+    \ \u2013 U.S. Census Bureau, Puerto Rico Community Survey \u2013 U.S. Census Bureau,\
+    \ USA Structures - Oak Ridge National Laboratory/Federal Emergency Management\
+    \ Agency, Emergency Response Imagery \u2013 National Oceanic and Atmospheric Administration\
+    \ (NOAA) National Geodetic Survey (NGS), Puerto Rico Address Data Working Group\
+    \ reports, TOP 2018 tools created in response to an earlier version of this challenge,\
+    \ The National Address Database (NAD) Schema, Predominant Address Type by Census\
+    \ Block in Puerto Rico"
   organization-esp:
   - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
@@ -2111,6 +2160,7 @@
   - rec71AqSovfx7EgrY
   - recBBbVkCKQN52rWM
   pdf: 2022-ED.pdf
+  pdf-esp: 2022-ED-esp.pdf
   sprint_order: 2
   sprint_text: Fall 2022 Sprints
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in

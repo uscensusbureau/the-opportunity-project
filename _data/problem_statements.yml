@@ -2153,12 +2153,11 @@
     \ of education, local boards of education, or parent advisory groups like PTAs\
     \ or PTOs, to name a few, that allow for reciprocal communication and mechanisms\
     \ for accountability."
-  agency_text: Puerto Rico Department of Education, U.S. Department of Education
+  agency_text: Puerto Rico Department of Education
   airtable_createdTime: '2022-07-06T14:26:48.000Z'
   airtable_id: recTK2wyWGMlp8SAb
   organizations:
   - rec71AqSovfx7EgrY
-  - recBBbVkCKQN52rWM
   pdf: 2022-ED.pdf
   pdf-esp: 2022-ED-esp.pdf
   sprint_order: 2

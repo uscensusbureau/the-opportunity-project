@@ -1361,11 +1361,21 @@
   - recJwVtXI41rgOWhi
   - recObK5u1KXbnBpY8
   - recgOvkoif8F1PfAs
+  - recX77rTWlcbp8rtV
+  - rec2pUPL2jV1kpAmz
+  - recXedw1urGLCiWkL
+  - recwiodSndr7tgy4n
+  - recj8poMXpwVWep1e
+  - recuiNIjq1QKCFacZ
+  - rec8xzuKVISPio9yn
   datasets_text: Occupational Employment and Wage Statistics, Household Pulse Survey,
     American Community Survey, Fair Market Rents, Comprehensive Housing Affordability
     Strategy, Affirmatively Furthering Fair Housing Tool, Housing Affordability Data
     System, American Housing Survey, Low-Income Housing Tax Credit, Picture of Subsidized
-    Households, Quarterly Census of Employment and Wages
+    Households, Quarterly Census of Employment and Wages, "GDP by County, Metro, and
+    Other Areas", Small Area Health Insurance Estimates, American Time Use Survey,
+    Contingent and Alternative Employment Arrangements, Longitudinal Employer-Household
+    Dynamics, National Crime Victimization Survey, Tax Stats
   organization-esp:
   - Departamento del Tesoro de los EE. UU.
   organizations:
@@ -2143,12 +2153,11 @@
     \ of education, local boards of education, or parent advisory groups like PTAs\
     \ or PTOs, to name a few, that allow for reciprocal communication and mechanisms\
     \ for accountability."
-  agency_text: Puerto Rico Department of Education, U.S. Department of Education
+  agency_text: Puerto Rico Department of Education
   airtable_createdTime: '2022-07-06T14:26:48.000Z'
   airtable_id: recTK2wyWGMlp8SAb
   organizations:
   - rec71AqSovfx7EgrY
-  - recBBbVkCKQN52rWM
   pdf: 2022-ED.pdf
   pdf-esp: 2022-ED-esp.pdf
   sprint_order: 2

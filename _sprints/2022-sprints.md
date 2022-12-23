@@ -1,7 +1,7 @@
 ---
-short-name: top-fall-2022
+short-name: 2022-sprints
 order: 0
 expandAllProblemStatements: true
-# isCurrent: false
+isCurrent: false
 showPDF: true
 ---

@@ -3,7 +3,7 @@ title: Local Address Data in Puerto Rico
 permalink: /data/addressing/
 class: datakit
 
-sprint-name: Summer 2022 Sprints
+sprint-name: 2022 Sprints
 problem-statement-name: Transforming Local Addressing Systems in Puerto Rico
 date: 2022-08-09
 

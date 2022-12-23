@@ -435,8 +435,8 @@
   - rec0txaC5vlg0xonh
   - recLvJEYyQsXZr2LJ
   pdf: 2022-OSTP_DOC.pdf
-  sprint_order: 3
-  sprint_text: Summer 2022 Sprints
+  sprint_order: 5
+  sprint_text: 2022 Sprints
 - Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
     \ passed in 2015\u2014 requires states to make an estimated 2,107 data points\
     \ about their public school systems accessible to parents. In response, states\
@@ -530,8 +530,8 @@
   - recbXvVy1e7CtTM89
   pdf: 2022-NREL-2.pdf
   pdf-esp: 2022-NREL-esp.pdf
-  sprint_order: 5
-  sprint_text: Summer 2022 Sprints
+  sprint_order: 7
+  sprint_text: 2022 Sprints
 - Background: Many state and local governments do not have a database of addresses
     with geospatial coordinates (also known as address point data), which is critical
     for high priority issues like emergency response. In some cases, where the governments
@@ -671,7 +671,7 @@
   Full Title: Supporting Workforce Development in Puerto Rico
   Name: Supporting Workforce Development in Puerto Rico
   Sprints:
-  - recpMcza8s2IjzutX
+  - recX8qMzecPlE76HV
   Target audience / End user: Youth, job seekers, business owners, and municipal government
     leaders in the Commonwealth of Puerto Rico.
   Why this problem matters: "Puerto Rico and its 3 million residents have faced the\
@@ -695,8 +695,8 @@
   - recRKu6t2inmGXXce
   pdf: 2022-HHS-USDA-DDEC.pdf
   pdf-esp: 2022-HHS-USDA-DDEC-esp.pdf
-  sprint_order: 1
-  sprint_text: Fall 2022 Sprints
+  sprint_order: 8
+  sprint_text: 2022 Sprints
 - Agency Leads:
   - recQKd9S8NEvZbnxG
   - recUWE6o2y4owHOph
@@ -1108,7 +1108,7 @@
   pdf: 2022-HHS-ACF.pdf
   pdf-esp: 2022-HHS-ACF-esp.pdf
   sprint_order: 4
-  sprint_text: Summer 2022 Sprints
+  sprint_text: 2022 Sprints
 - Name: Data Discovery
   Products:
   - recV0aW7ZolC7aIoy
@@ -1384,8 +1384,8 @@
   - recgPNji2KEknNBA5
   - reczOy5j4CLUvyWCz
   pdf: 2022-DOC-DOL-Treasury-2.pdf
-  sprint_order: 2
-  sprint_text: Summer 2022 Sprints
+  sprint_order: 3
+  sprint_text: 2022 Sprints
 - Challenge: Develop innovative digital solutions that connect domestic recycling
     facilities with manufacturers to enhance recycling markets and increase the use
     of recycled materials.
@@ -2126,8 +2126,8 @@
   - recRLxRGfiWtHnmAs
   pdf: 2022-Census-HUD.pdf
   pdf-esp: 2022-Census-HUD-esp.pdf
-  sprint_order: 6
-  sprint_text: Summer 2022 Sprints
+  sprint_order: 9
+  sprint_text: 2022 Sprints
 - Challenge: "Develop potential new structures for parents and/or caregivers to meaningfully\
     \ engage in Puerto Rico\u2019s unique education system, providing the island\u2019\
     s schools a mechanism of accountability."
@@ -2135,7 +2135,7 @@
     Schools
   Name: Creating Opportunities for Parent/Caregiver Engagement for Puerto Rico Schools
   Sprints:
-  - recpMcza8s2IjzutX
+  - recX8qMzecPlE76HV
   Target audience / End user: 'Parents, caregivers, students, teachers, school administrators,
     and other local education stakeholders in Puerto Rico '
   Why this problem matters: "Following two natural disasters and a global pandemic,\
@@ -2161,7 +2161,7 @@
   pdf: 2022-ED.pdf
   pdf-esp: 2022-ED-esp.pdf
   sprint_order: 2
-  sprint_text: Fall 2022 Sprints
+  sprint_text: 2022 Sprints
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
     opioids increased more than five-fold, from about 8,000 to over 42,000. Both prescription
@@ -2653,7 +2653,7 @@
   - recCGtljPyEpJ15UO
   pdf: 2022-FEMA.pdf
   sprint_order: 1
-  sprint_text: Summer 2022 Sprints
+  sprint_text: 2022 Sprints
 - Challenge: Develop digital products or physical/digital works of art that use 2020
     Census data to build data literacy skills.
   Full Title: 'Improving Data Literacy Using Decennial Census Data '
@@ -3069,7 +3069,7 @@
   Name: "Integrating Data to Improve Public Transportation\u2019s Resilience to Climate\
     \ Change"
   Sprints:
-  - recpMcza8s2IjzutX
+  - recX8qMzecPlE76HV
   Target audience / End user: Members of the public; transit agencies; local, regional,
     and state decision makers; climate adaptation/resilience and emergency preparedness
     professionals who provide local decision makers with expert guidance
@@ -3104,8 +3104,8 @@
   organizations:
   - recQJhXANnrCe4tUP
   pdf: 2022-DOT.pdf
-  sprint_order: 3
-  sprint_text: Fall 2022 Sprints
+  sprint_order: 6
+  sprint_text: 2022 Sprints
 - Name: Improving Data Literacy Using Decennial Census Data
   airtable_createdTime: '2021-09-20T20:07:34.000Z'
   airtable_id: reclLC12bILYZ7ymr

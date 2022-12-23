@@ -734,21 +734,21 @@
   problem_statements:
   - recdNGSC2k2ptu3JM
   short-tag: topx
-- Name: Summer 2022 Sprints
+- Name: 2022 Sprints
   Year: 2022
   airtable_createdTime: '2022-04-27T20:23:45.000Z'
   airtable_id: recX8qMzecPlE76HV
-  description: "This year\u2019s sprints offer opportunities to help new audiences\
-    \ access and use data, provide the public with more timely and accurate data through\
-    \ government-tech collaboration, and support critical challenges in Puerto Rico.\n\
-    \nThe 6 summer 2022 sprints focus on wellbeing, access to grant funding, and climate\
-    \ resilience, along with TOP\u2019s first geographically focused sprints \u2013\
-    \ TOP Puerto Rico \u2013 with problem statements on energy, addressing, and youth\
-    \ resilience in Puerto Rico. "
+  description: "2022 sprints focused on measuring wellbeing across the nation, expanding\
+    \ access to grant funding for low-resourced communities, promoting climate resilience,\
+    \ and connecting transit infrastructure to climate resilience. 2022 also introduced\
+    \ TOP\u2019s first geographically-targeted sprints \u2013 TOP Puerto Rico \u2013\
+    \ focusing on renewable energy, local address challenges, promoting youth resilience,\
+    \ parental engagement opportunities in Puerto Rico schools, and workforce development\
+    \ in Puerto Rico."
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
-  order-number: 1
+  order-number: 0
   problem_statements:
   - reccBn4jTjxtqv7u1
   - rec4f1ZKErT6siTgx
@@ -756,7 +756,10 @@
   - recCRT4zbEOa2TGo0
   - rec52uEVxyphCPkqF
   - recSzR9PlTnjGwpcH
-  short-tag: top-2022
+  - rec5TDfLlBw4DrprF
+  - recTK2wyWGMlp8SAb
+  - reclJYrMI3Nr3I6Jy
+  short-tag: 2022-sprints
 - Agency Leads:
   - recqPmk1QAJORe6wJ
   Name: TOP Health
@@ -1255,7 +1258,7 @@
   image-alt: La Tierra vista desde el espacio con un cielo lleno de estrellas
   img: landing/Post-COVID.jpg
   lang: esp
-  order-number: 2
+  order-number: 1
   problem_statements:
   - recsbfXyfEmL6eaDo
   - recbjIUzjzLZ5KmJS
@@ -1280,11 +1283,6 @@
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
-  order-number: 0
-  problem_statements:
-  - recTK2wyWGMlp8SAb
-  - reclJYrMI3Nr3I6Jy
-  - rec5TDfLlBw4DrprF
   short-tag: top-fall-2022
 - Name: NAIP
   Year: 2020

@@ -2587,11 +2587,21 @@ code {
 
  .inline-number {
    display: inline-block;
+   .page-toolkit & {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   }
    p {
      color: color("white");
      background-color: color("secondary");
      font-size: font-size("lang", "xs");
      padding-left: units(1);
+    .page-toolkit & {
+          border-radius: 50%;
+          width: 26px;
+          padding-left: 0   ;
+      }
    }
  }
 

@@ -19,6 +19,8 @@ sidebar:
 phase: 1
 color: blue-cool-20v
 text-color: text-base-darkest
+refresh-accent: red-warm-50v
+refresh-white: gray-1
 
 header: Pre-Sprint Planning
 lead:

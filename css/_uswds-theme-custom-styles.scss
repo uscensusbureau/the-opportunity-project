@@ -1520,6 +1520,9 @@ main {
   scroll-snap-margin-top: 10rem;  // for safari mobile
 }
 
+.toolkit-header h1 {
+  width: fit-content;
+}
 
 // Styleguide Content -------- //
 

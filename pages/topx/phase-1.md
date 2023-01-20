@@ -6,21 +6,12 @@ permalink: /topx-toolkit/phase-1/
 layout: toolkit
 data-ref: site.data.toolkits.topx.phase-1.body
 
-sidebar:
-  - text: STEP 1
-    href: "#toolkit-step-1"
-  - text: STEP 2
-    href: "#toolkit-step-2"
-  - text: STEP 3
-    href: "#toolkit-step-3"
-  - text: STEP 4
-    href: "#toolkit-step-4"
-
 phase: 1
 color: blue-cool-20v
 text-color: text-base-darkest
 refresh-accent: red-warm-50v
 refresh-white: gray-1
+refresh-gray: gray-20
 
 header: Pre-Sprint Planning
 lead:
@@ -32,23 +23,16 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
 ---
 
 {% include toolkit-hero.html %}
-<section class="grid-container display-inline-block padding-top-8 grid-col-12">
+<section class="grid-container padding-top-8">
   <div class="grid-row">
-    <div class="desktop:grid-col-4">
-      {% include toolkit-sidenav.html %}
-    </div>
-    <div
-      class="desktop:grid-col-7 desktop:margin-left-7 grid-col-12 display-inline-block"
-    >
+    <div>
       {% for item in site.data.toolkits.topx.phase-1.body %}
         <div class="toolkit-section margin-top-10">
           {% include toolkit-header.html %}
           {% include toolkit-key-actions.html %}
           {% include toolkit-resources.html %}
-          <div class="toolkit-colored-div height-4 bg-{{page.color}} margin-bottom-neg-2">
-          </div>
         </div>
       {% endfor %}
     </div>
-  </div>  
+  </div>
 </section>

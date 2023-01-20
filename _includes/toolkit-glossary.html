@@ -1,13 +1,23 @@
-<section>
-  <section class="grid-container display-inline-block padding-top-8">
-    <div
-      class="desktop:grid-offset-4 desktop:grid-col-7 desktop:padding-left-6 tablet:grid-col-6 grid-col-12 display-inline-block"
-    >
-      <h2>Glossary</h2>
-      <div class="toolkit-resources margin-top-9 margin-bottom-9 padding-7">
+<section class="bg-orange-5">
+  <section class="grid-container grid-row padding-y-8 toolkit-glossary bg-orange-5">
+    <div class="grid-col">
+      <h2>Overview</h2>
+      <p>Blurb</p>
+
+      <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+        <h3>TOP</h3>
         {% for resource in page.resources %}
-          <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
-          <p>{{ resource.description}}</p>
+        <h4 class="usa-accordion__heading">
+          <button type="button" class="usa-accordion__button light bg-blue-warm-60v text-white" aria-expanded="true" aria-controls="m-a{{ forloop.index }}">
+            {{resource.title}}
+          </button>
+        </h4>
+
+        <div id="m-a{{ forloop.index }}" class="usa-accordion__content usa-prose">
+          <p class="grid-container">
+            {{ resource.description}}
+          </p>
+        </div>
         {% endfor %}
       </div>
     </div>

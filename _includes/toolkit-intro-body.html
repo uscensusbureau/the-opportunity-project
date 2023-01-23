@@ -27,9 +27,28 @@
                 {% endif %}
               {% endfor %}
             </ul>
-          {% endif %}
-        {% endfor %}
-        </p>
+          </div>
+        </section>
+        <p>StatVentures scouts technology through collaborations with innovators outside government to ensure the U.S.
+          Census
+          Bureau provides quality data more efficiently, creatively, and effectively.</p>
+        <a class="statventures-btn" href="mailto:statventures@census.gov?subject=Subscribe for Updates" target="_blank">Sign
+          Up for Updates</a>
+      </section>
+    </section>
+    <!-- video section -->
+    <!-- CTA from TOP site -->
+    {% assign section = page.cta-one %}
+    {% include home/cta.html data=section %}
+    <!-- Timeline section -->
+    <!-- repurpose TOP CTA into mail us section -->
+    {% assign section = page.cta-two %}
+    {% include home/cta.html data=section %}
+    <!-- Products section -->
+    <section class="usa-section usa-graphic-list">
+      <div id="featured-products"
+        class="border-base-lighter border-top display-flex flex-column flex-align-center tablet:margin-y-5 margin-y-3">
+        <h2 class="tag-header bg-base-darkest text-uppercase">Featured Products</h2>
       </div>
 
       <div class="grid-container">

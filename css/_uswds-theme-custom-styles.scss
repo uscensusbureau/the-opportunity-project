@@ -1524,6 +1524,31 @@ main {
   width: fit-content;
 }
 
+.topx-hero {
+  background: url('../img/toolkits/hero-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+
+  h1 {
+    font-size: 3em;
+    color: white;
+  }
+  .scrolling-words-container {
+      display: flex;
+      font-size: 4rem;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+      z-index: -1;
+      font-weight: 700;
+      padding: 0;
+      color: white;
+  }
+}
+
 // Styleguide Content -------- //
 
 .styleguide-content {

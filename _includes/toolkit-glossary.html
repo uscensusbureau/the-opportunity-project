@@ -1,25 +1,27 @@
 <section class="bg-orange-5">
   <section class="grid-container grid-row padding-y-8 toolkit-glossary bg-orange-5">
     <div class="grid-col">
-      <h2>Overview</h2>
-      <p>Blurb</p>
+      {% for category in page.resources %}
+
+      <h2>{{ category.title }}</h2>
+      <p>{{ category.description }}</p>
 
       <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
-        <h3>TOP</h3>
-        {% for resource in page.resources %}
+        {% for term in category.terms %}
         <h4 class="usa-accordion__heading">
           <button type="button" class="usa-accordion__button light bg-blue-warm-60v text-white" aria-expanded="true" aria-controls="m-a{{ forloop.index }}">
-            {{resource.title}}
+            {{term.term}}
           </button>
         </h4>
 
         <div id="m-a{{ forloop.index }}" class="usa-accordion__content usa-prose">
           <p class="grid-container">
-            {{ resource.description}}
+            {{ term.definition}}
           </p>
         </div>
         {% endfor %}
       </div>
+      {% endfor %}
     </div>
   </section>
 </section>

@@ -1525,14 +1525,32 @@ main {
 }
 
 .topx-hero {
-  background: url('../img/toolkits/hero-image.png');
+  // background: url('../img/toolkits/hero-image.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: bottom;
+  position: relative;
+
+  .content-container {
+    position: absolute;
+    top: 90px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: white;
+      max-width: 500px;
+      margin-left: 50px;
+      margin-top: 80px;
+      background-color: blue;
+      padding: 10px;
+    }
+  }
 
   h1 {
     font-size: 3em;
-    color: white;
+    // color: white;
   }
   .scrolling-words-container {
       display: flex;
@@ -1542,10 +1560,73 @@ main {
       justify-content: center;
       width: 100%;
       position: relative;
-      z-index: -1;
+      // z-index: -1;
       font-weight: 700;
       padding: 0;
       color: white;
+
+      div.scrolling-words-box {
+          height: 5.5rem;
+          overflow: hidden;
+
+          ul {
+            margin: 0;
+            padding: 0;
+            animation: scrollUp 4s infinite;
+
+
+            li {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              height: 5rem;
+              list-style: none;
+              width: fit-content;
+              width: fit-content;
+            }
+          }
+        }
+  }
+  $item-count: 7;
+
+  @keyframes scrollUp {
+    @for $i from 1 through ($item-count - 1) {
+
+      #{($i * 11) - 6%},
+      #{$i * 11%} {
+        transform: translateY((-100% / $item-count) * $i);
+      }
+    }
+  }
+}
+
+.video-section {
+  background-color: #FAF3E9;
+
+  h2 {
+    margin: 0;
+  }
+
+  .iframe-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .iframe-container {
+      width: 50%;
+    }
+
+    p {
+      align-self: center;
+      max-width: 400px;
+      background-color: white;
+      padding: 35px;
+    }
+
+    #player {
+      border-bottom: blue 5px solid;
+      border-left: blue 5px solid;
+    }
   }
 }
 

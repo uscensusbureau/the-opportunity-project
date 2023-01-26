@@ -1,20 +1,22 @@
 <section class="bg-orange-5">
   <section class="grid-container grid-row padding-y-8 toolkit-glossary bg-orange-5">
     <div class="grid-col">
-      {% for category in page.resources %}
-
-      <h2>{{ category.title }}</h2>
-      <p>{{ category.description }}</p>
+      {% assign categories = page.resources | sort: 'category' | reverse %}
+      {% for category in categories %}
+      <header class="bg-white padding-x-6 padding-y-3 margin-top-6 margin-bottom-3">
+        <h2 class="text-{{ category.color }}">{{ category.category }} Terms</h2>
+        <p>{{ category.description }}</p>
+      </header>
 
       <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
         {% for term in category.terms %}
         <h4 class="usa-accordion__heading">
-          <button type="button" class="usa-accordion__button light bg-blue-warm-60v text-white" aria-expanded="true" aria-controls="m-a{{ forloop.index }}">
+          <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white" aria-expanded="true" aria-controls="m-a{{ term.num }}">
             {{term.term}}
           </button>
         </h4>
 
-        <div id="m-a{{ forloop.index }}" class="usa-accordion__content usa-prose">
+        <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
           <p class="grid-container">
             {{ term.definition}}
           </p>

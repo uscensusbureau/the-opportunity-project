@@ -1630,11 +1630,15 @@ main {
       background-color: white;
       padding: 35px;
     }
+  }
+}
 
-    #player {
-      border-bottom: blue 5px solid;
-      border-left: blue 5px solid;
-    }
+.products {
+   .card-container {
+    background-image: none;
+    border: 0;
+    border-bottom: red solid 20px;
+    border-left: red solid 20px;
   }
 }
 

@@ -1602,6 +1602,9 @@ main {
 
 .video-section {
   background-color: #FAF3E9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h2 {
     margin: 0;
@@ -1611,9 +1614,14 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
 
-    .iframe-container {
-      width: 50%;
+    iframe {
+      border: 0;
+      @media screen and (min-width: 640px){
+        border-bottom: color('blue-warm-60v') 15px solid;
+        border-left: color('blue-warm-60v') 20px solid;
+      }
     }
 
     p {

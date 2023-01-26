@@ -15,7 +15,7 @@ img:
   src: toolkits/hero-image.png
 
 cta-one:
-  background-class: bg-primary
+  background-class: bg-blue-warm-60v
   title:
     text: Ready to solve the nation's biggest challenges?
     class: font-sans-sm text-normal
@@ -25,7 +25,7 @@ cta-one:
     isExternal: true
 
 cta-two:
-  background-class: bg-primary
+  background-class: bg-blue-warm-60v
   title:
     text: Ready to make an impact?
     class: font-sans-sm text-normal

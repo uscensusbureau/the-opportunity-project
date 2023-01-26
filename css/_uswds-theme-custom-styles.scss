@@ -1543,7 +1543,7 @@ main {
       max-width: 500px;
       margin-left: 50px;
       margin-top: 80px;
-      background-color: blue;
+      background-color: color('blue-warm-60v');
       padding: 10px;
     }
   }
@@ -1637,8 +1637,8 @@ main {
    .card-container {
     background-image: none;
     border: 0;
-    border-bottom: red solid 20px;
-    border-left: red solid 20px;
+    border-bottom: color('red-warm-50v') solid 20px;
+    border-left: color('red-warm-50v') solid 20px;
   }
 }
 

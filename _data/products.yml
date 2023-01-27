@@ -261,7 +261,7 @@
   image: micasa.jpg
   image-alt: A screenshot of the MiCasa homepage that reads in Spanish "Tu direccion
     importa"
-  link: MiCasa.pr
+  link: https://micasa.pr/home
   problem_statement:
   - recSzR9PlTnjGwpcH
   sprint:
@@ -1919,7 +1919,7 @@
   image: thunderbird-software.jpg
   image-alt: This image shows a plane in flight with the words "paving the way to
     the future of airline sustainability, one airport at a time...hop on  board."
-  link: forever-flight.squarespace.com/thunderbird
+  link: https://forever-flight.squarespace.com/thunderbird
   problem_statement:
   - rec52uEVxyphCPkqF
   sprint:

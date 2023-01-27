@@ -243,6 +243,35 @@
   title: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
   year:
   - 2021
+- Product Name: MiCasa.pr
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2023-01-26T19:03:45.000Z'
+  airtable_id: rec33vKdT0WrK7iVS
+  category:
+  - Addressing
+  data_sets: USA Structures - Oak Ridge National Laboratory/Federal Emergency Management
+    Agency
+  data_sets_text: USA Structures - Oak Ridge National Laboratory/Federal Emergency
+    Management Agency
+  description: MiCasa.pr uses US Structures datasets to allow community-based organizations
+    engage residents on identifying structures with physical address issues.
+  details: MiCasa.pr uses US Structures datasets to allow community-based organizations
+    engage residents on identifying structures with physical address issues.
+  image: micasa.jpg
+  image-alt: A screenshot of the MiCasa homepage that reads in Spanish "Tu direccion
+    importa"
+  link: MiCasa.pr
+  problem_statement:
+  - recSzR9PlTnjGwpcH
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recLLztOBBEW4AlhA
+  tech_team_text: Social Solutions
+  title: MiCasa.pr
+  year:
+  - 2022
 - Description (Old): Lets users see how average activity relates to common health
     issues in each state, combining CDC health data with aggregated and anonymous
     Fitbit activity data from over 10 million users.
@@ -608,6 +637,35 @@
   title: Ocean Plastics Story Map
   year:
   - 2020
+- Product Name: GrantVEST
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-01-26T19:03:04.000Z'
+  airtable_id: rec6tR2DwQJHtk8Nd
+  category:
+  - Grants
+  data_sets: Grants.gov, Build.gov
+  data_sets_text: Grants.gov, Build.gov
+  description: 'We used federal open data from grants.gov and build.gov to create
+    GrantVEST which helps municipalities identify the capital and in-kind goods/services
+    needed to meet match requirements. '
+  details: 'We used federal open data from grants.gov and build.gov to create GrantVEST
+    which helps municipalities identify the capital and in-kind goods/services needed
+    to meet match requirements. '
+  image: grantvest.jpg
+  image-alt: Screenshot showing the homepage of the GrantVest website with an evolving
+    headline reading "Grants and Matching Investment for..."
+  link: https://grantvest.co/
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recTDpFlqsTapkH4m
+  tech_team_text: GrantVEST
+  title: GrantVEST
+  year:
+  - 2022
 - Description (Old): Uses datasets from multiple agencies to help researchers and
     developers rapidly prototype and deploy tools that address a variety of problems
     surrounding access to opportunity.
@@ -699,6 +757,34 @@
   title: Urban Intelligence Platform
   year:
   - 2020
+- Product Name: Bridge
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-01-26T19:03:11.000Z'
+  airtable_id: rec86K6NjboD1CLNR
+  category:
+  - Grants
+  data_sets: Build.gov, Grants.gov
+  data_sets_text: Build.gov, Grants.gov
+  description: Bridge is a Grant Management application, focused on empowering small
+    understaffed & underserved communities with the tools they need to better manage
+    grant applications.
+  details: Bridge is a Grant Management application, focused on empowering small understaffed
+    & underserved communities with the tools they need to better manage grant applications.
+  image: xcell-bridge.jpg
+  image-alt: Screenshot showing the xcell bridge homepage including a purple overlay
+    ontop of an evolving demo of the product
+  link: https://xcell.co/projects/bridge
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recAfc9pEOSMHJc2Z
+  tech_team_text: Xcell
+  title: Bridge
+  year:
+  - 2022
 - Product Name: R Story
   agencies:
   - U.S. Environmental Protection Agency
@@ -989,6 +1075,35 @@
   title: Voatz
   year:
   - 2019
+- Product Name: Intergrants
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-01-26T19:02:20.000Z'
+  airtable_id: recCoeaajs0uSPnml
+  category:
+  - Grants
+  data_sets: Grants.gov
+  data_sets_text: Grants.gov
+  description: Intergrants uses Grants.gov and state data to provide accessible information
+    and guidance for individuals applying for broadband grants on behalf of underserved/low
+    resourced communities.
+  details: Intergrants uses Grants.gov and state data to provide accessible information
+    and guidance for individuals applying for broadband grants on behalf of underserved/low
+    resourced communities.
+  image: intergrants.jpg
+  image-alt: Screenshot showing the homepage of the Intergrants website including
+    the statement "We make finding grants easy!"
+  link: https://intergrants.netlify.app/
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recg0CREqvkTpeCN8
+  tech_team_text: General Assembly
+  title: Intergrants
+  year:
+  - 2022
 - Product Name: Public Finance Institute-Disaster Spending Tracker
   agencies:
   - Office of Management and Budget
@@ -1019,6 +1134,36 @@
   title: Public Finance Institute-Disaster Spending Tracker
   year:
   - 2020
+- Product Name: Get Out the Lead
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-01-26T19:02:22.000Z'
+  airtable_id: recDijXK19MwsWRTJ
+  category:
+  - Environment
+  - Disasters
+  data_sets: Hazel Crest and Flint Michigan Open Dataset
+  data_sets_text: Hazel Crest and Flint Michigan Open Dataset
+  description: Get Out The Lead Out uses the Hazel Crest and Flint Michigan Open Dataset
+    to help under-resourced communities crowdsource information about lead pipes in
+    their community.
+  details: Get Out The Lead Out uses the Hazel Crest and Flint Michigan Open Dataset
+    to help under-resourced communities crowdsource information about lead pipes in
+    their community.
+  image: get-out-the-lead.jpg
+  image-alt: Screenshot showing the homepage of the Get Out the Lead website including
+    the question "Do you know if you have lead pipes in your home?"
+  link: https://gettheleadout.netlify.app/
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recg0CREqvkTpeCN8
+  tech_team_text: General Assembly
+  title: Get Out the Lead
+  year:
+  - 2022
 - Product Name: reROOT
   agencies:
   - U.S. Census Bureau
@@ -1181,6 +1326,38 @@
   title: Edquity Rental Assistance
   year:
   - 2021
+- Product Name: Acceso Laboral
+  agencies:
+  - Puerto Rico Department of Economic Development and Commerce, U.S. Department of
+    Health and Human Services, U.S. Department of Agriculture
+  airtable_createdTime: '2023-01-26T19:04:14.000Z'
+  airtable_id: recFrXpT18zwzIhBH
+  category:
+  - Employment
+  data_sets: DDEC, DOL, Puerto Rico Family Department
+  data_sets_text: DDEC, DOL, Puerto Rico Family Department
+  description: "Acceso Laboral is a fully integrated website and mobile application\
+    \ connected with DDEC\u2019s Case Management Labor Data, to give participants,\
+    \ training providers, employers, and administrative staff better visibility of\
+    \ real time job and training offerings."
+  details: "Acceso Laboral is a fully integrated website and mobile application connected\
+    \ with DDEC\u2019s Case Management Labor Data, to give participants, training\
+    \ providers, employers, and administrative staff better visibility of real time\
+    \ job and training offerings."
+  image: acceso-laboral.jpg
+  image-alt: 'A screenshot of the Accesso Laboral homepage showing a search bar and
+    the text "Discover New Opportunities" '
+  link: https://dev-topprototype.azurewebsites.net/
+  problem_statement:
+  - rec5TDfLlBw4DrprF
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recgtus1BYflzYI2f
+  tech_team_text: Softek
+  title: Acceso Laboral
+  year:
+  - 2022
 - Product Name: HealthCheck | Connected Testing Platform
   agencies:
   - U.S. Department of Health and Human Services
@@ -1722,6 +1899,97 @@
   title: Job Crowdsourcing Tool
   year:
   - 2016
+- Product Name: Thunderbird Software
+  agencies:
+  - "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xEDa"
+  airtable_createdTime: '2023-01-26T19:03:29.000Z'
+  airtable_id: recOB0pONhXpGSzjD
+  category:
+  - Economic Development
+  - Environment
+  - Transportation
+  data_sets: NREL Solar Irradiance, NOAAA Wave/Tidal Strength, FEMA P.R. Infrastructure
+    Damage
+  data_sets_text: NREL Solar Irradiance, NOAAA Wave/Tidal Strength, FEMA P.R. Infrastructure
+    Damage
+  description: The Thunderbird Software uses renewable energy data sets to plan for
+    future energy capacity needs of commercial entities (specifically airports).
+  details: The Thunderbird Software uses renewable energy data sets to plan for future
+    energy capacity needs of commercial entities (specifically airports).
+  image: thunderbird-software.jpg
+  image-alt: This image shows a plane in flight with the words "paving the way to
+    the future of airline sustainability, one airport at a time...hop on  board."
+  link: forever-flight.squarespace.com/thunderbird
+  problem_statement:
+  - rec52uEVxyphCPkqF
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recz2vgJkeAX2t3CG
+  tech_team_text: Forever Flight
+  title: Thunderbird Software
+  year:
+  - 2022
+- Product Name: Livable Cities Tool
+  agencies:
+  - U.S. Department of Commerce, U.S. Department of Labor, U.S. Department of the
+    Treasury, New America
+  airtable_createdTime: '2023-01-26T19:03:18.000Z'
+  airtable_id: recP3AmB5hfyh341h
+  category:
+  - Health
+  - Economic Development
+  - Environment
+  data_sets: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
+  data_sets_text: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
+  description: The Livable Cities Tool uses openly available federal datasets to help
+    decision-makers understand how the economic conditions map onto specific social,
+    environmental, and health outcomes experienced or observed in cities.
+  details: The Livable Cities Tool uses openly available federal datasets to help
+    decision-makers understand how the economic conditions map onto specific social,
+    environmental, and health outcomes experienced or observed in cities.
+  image: livable-cities-tool.jpg
+  image-alt: Screenshot of Tableau dashboard that reads "The Opportunity Project -
+    Livable Cities"
+  link: https://public.tableau.com/app/profile/social.progress.imperative/viz/TOPProject/TOPProject?publish=yes
+  problem_statement:
+  - recE3t7URGHw5zsCM
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recTmC22ZFZtu0R1W
+  tech_team_text: Social Progress Imperative
+  title: Livable Cities Tool
+  year:
+  - 2022
+- Product Name: PR Addressing StoryMap
+  agencies:
+  - U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2023-01-26T19:03:39.000Z'
+  airtable_id: recPG3SA4ECmqOJKw
+  category:
+  - Addressing
+  data_sets: 2020 Census Address, Census Demographic Data
+  data_sets_text: 2020 Census Address, Census Demographic Data
+  description: StoryMap highlighting PR Predominant Address Type Viewer, Social Vulnerability,
+    Address Schema and Solutions in support of raising awareness and generating addresses
+    in PR.
+  details: StoryMap highlighting PR Predominant Address Type Viewer, Social Vulnerability,
+    Address Schema and Solutions in support of raising awareness and generating addresses
+    in PR.
+  image: pr-addressing-storymap.jpg
+  image-alt: An image showing an ArcGIS dashboard of a map of Puerto Rico
+  link: https://storymaps.arcgis.com/stories/937851de2c4447f8b061baacfa7ac8de
+  problem_statement:
+  - recSzR9PlTnjGwpcH
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recJKjOOhTrMk1R2e
+  tech_team_text: Esri
+  title: PR Addressing StoryMap
+  year:
+  - 2022
 - Description (Old): Uses data from eligible training provider lists (ETPL) to surface
     education options that lead to in-demand careers for job seekers.
   Product Name: Training Finder
@@ -1752,6 +2020,7 @@
 - Product Name: Forerunner Floodplain Management Dashboard
   agencies:
   - National Oceanic and Atmospheric Administration
+  - Federal Emergency Management Agency
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recPqJziDWZAdmU6C
   category:
@@ -1768,14 +2037,17 @@
   link: https://app.withforerunner.com
   problem_statement:
   - recbjIUzjzLZ5KmJS
+  - reccBn4jTjxtqv7u1
   sprint:
   - recjkCdpt4YKEx7Ae
+  - recX8qMzecPlE76HV
   tech_team:
   - reclIJejOdIW2rrEK
   tech_team_text: Forerunner
   title: Forerunner Floodplain Management Dashboard
   year:
   - 2021
+  - 2022
 - Description (Old): Helping low income families overcome the stress of finding affordable
     housing this tool combines transit access, walkability and school information
     into one unique feed of available properties.
@@ -2958,6 +3230,36 @@
   title: XamineYourWorld
   year:
   - 2021
+- Product Name: VetAssist
+  agencies:
+  - Puerto Rico Department of Economic Development and Commerce, U.S. Department of
+    Health and Human Services, U.S. Department of Agriculture
+  airtable_createdTime: '2023-01-26T19:04:19.000Z'
+  airtable_id: reccUu5AaGUtadhGK
+  category:
+  - Employment
+  data_sets: VA Lighthouse API
+  data_sets_text: VA Lighthouse API
+  description: VetAssist uses VBA Benefit Intake API so that Puerto Rican veterans
+    can engage with high demand technical training for rapid employment and apply
+    for the Post-9/11 GI Bill program.
+  details: VetAssist uses VBA Benefit Intake API so that Puerto Rican veterans can
+    engage with high demand technical training for rapid employment and apply for
+    the Post-9/11 GI Bill program.
+  image: vet-assist.jpg
+  image-alt: A screenshot of the VBA Benefit Intake API homepage used to create the
+    VetAssit tool.
+  link: https://suhetu-cloudleaptech-vetassist-vetassist-cxr34s.streamlit.app/
+  problem_statement:
+  - rec5TDfLlBw4DrprF
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recXmxnvdEQqQL0J9
+  tech_team_text: CloudLeap
+  title: VetAssist
+  year:
+  - 2022
 - Description (Old): Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department
     of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
     Commission data to bring transparency to the Opportunity Zone ecosystem for investors,
@@ -2995,6 +3297,36 @@
   title: City Builder
   year:
   - 2019
+- Product Name: Federal Grant Finder
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-01-26T19:02:06.000Z'
+  airtable_id: rece40f707JgnDKqK
+  category:
+  - Grants
+  - Discovery
+  data_sets: Grants.gov
+  data_sets_text: Grants.gov
+  description: SEAP created a resource to streamline the Federal discretionary grant
+    search for our partners across the South. Using grants.gov data, we developed
+    a dashboard that simplifies grant discoverability and understanding of grant eligibility.
+  details: SEAP created a resource to streamline the Federal discretionary grant search
+    for our partners across the South. Using grants.gov data, we developed a dashboard
+    that simplifies grant discoverability and understanding of grant eligibility.
+  image: federal-grant-finder.jpg
+  image-alt: Screenshot showing the Tableau dashboard that reads "3 Steps to Find
+    Your Grant"
+  link: https://public.tableau.com/app/profile/southern.economic.advancement.project.seap./viz/FederalGrantFinder-MVP/MVP
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recn61ScC8wqiNtrT
+  tech_team_text: Southern Economic Advancement Project (SEAP)
+  title: Federal Grant Finder
+  year:
+  - 2022
 - Product Name: Clean Air Hero
   agencies:
   - U.S. Environmental Protection Agency
@@ -3157,6 +3489,35 @@
   title: Job Opportunity Tool
   year:
   - 2019
+- Product Name: Payver
+  agencies:
+  - U.S. Department of Transportation
+  airtable_createdTime: '2023-01-26T19:03:49.000Z'
+  airtable_id: recfrYJmmy1aXTJix
+  category:
+  - Transportation
+  data_sets: FEMA Expected Annual Loss
+  data_sets_text: FEMA Expected Annual Loss
+  description: 'Payver uses federal open data sets in conjunction with AI insights
+    on the quality of bus shelters to provide actionable insights for DOT''s and other
+    transit agencies. '
+  details: 'Payver uses federal open data sets in conjunction with AI insights on
+    the quality of bus shelters to provide actionable insights for DOT''s and other
+    transit agencies. '
+  image: payver.jpg
+  image-alt: An image showing traffic cones and road closed signs highlighted in bright
+    colors.
+  link: https://blyncsy.com/payver/
+  problem_statement:
+  - reclJYrMI3Nr3I6Jy
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - reciwNzsZy4CjbrJO
+  tech_team_text: Blynscy
+  title: Payver
+  year:
+  - 2022
 - Product Name: Digisults Report
   agencies:
   - City of Coral Gables
@@ -3335,6 +3696,39 @@
   title: Puerto Rico Land Grid
   year:
   - 2018
+- Product Name: Child Vulnerability Index Dashboard
+  agencies:
+  - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
+  airtable_createdTime: '2023-01-25T17:09:12.000Z'
+  airtable_id: reciNLZ3RpJClerUp
+  category:
+  - Health
+  data_sets: 2021 American Community Survey 5-Year Estimates
+  data_sets_text: 2021 American Community Survey 5-Year Estimates
+  description: 'Child Vulnerability Index Dashboard for Puerto Rico uses 2021 American
+    Community Survey 5-year estimates data to allow local children-focused nonprofits,
+    community leaders, educators, and policy analysts to determine where children
+    are affected and most vulnerable by certain social conditions such as poverty,
+    disability, and lack of internet access. '
+  details: 'Child Vulnerability Index Dashboard for Puerto Rico uses 2021 American
+    Community Survey 5-year estimates data to allow local children-focused nonprofits,
+    community leaders, educators, and policy analysts to determine where children
+    are affected and most vulnerable by certain social conditions such as poverty,
+    disability, and lack of internet access. '
+  image: child-vulnerability-index-dashboard.jpg
+  image-alt: Screenshot showing the Child Vulnerability Index Dashboard including
+    a map of Puerto Rico and population information
+  link: https://centropr.hunter.cuny.edu/tools/child-vulnerability-index-dashboard/
+  problem_statement:
+  - recCRT4zbEOa2TGo0
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recoApUDnORVBNNzq
+  tech_team_text: CUNY Center for PR Studies
+  title: Child Vulnerability Index Dashboard
+  year:
+  - 2022
 - Description (Old): Civis Analytics partnered with SkillsEngine, a workforce development
     and technology nonprofit, to create an algorithm that uses Department of Labor
     data and Natural Language Processing to show veterans the most relevant registered
@@ -3529,6 +3923,40 @@
   title: School ResourceMapper
   year:
   - 2016
+- Product Name: "PWR \u2013 The Power Project"
+  agencies:
+  - "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xEDa"
+  airtable_createdTime: '2023-01-26T19:03:34.000Z'
+  airtable_id: recjlSOZv5WXmiKmx
+  category:
+  - Environment
+  - Discovery
+  data_sets: NOAA nowCOAST, Justice40, GRASP, CDC Social Vulnerability Index, EPA
+    Toxics Release Inventory, USFS Cartographic 2016 Tree Canopy, National Hurricane
+    Centers Inundation Areas, World Bank, Solar GIS
+  data_sets_text: NOAA nowCOAST, Justice40, GRASP, CDC Social Vulnerability Index,
+    EPA Toxics Release Inventory, USFS Cartographic 2016 Tree Canopy, National Hurricane
+    Centers Inundation Areas, World Bank, Solar GIS
+  description: PWR helps leaders identify their community's opportunities for renewable
+    energy by mastering how to learn from open data to identify the solutions and
+    partners which best suit their needs.
+  details: PWR helps leaders identify their community's opportunities for renewable
+    energy by mastering how to learn from open data to identify the solutions and
+    partners which best suit their needs.
+  image: power-project.jpg
+  image-alt: A screenshot of The Power Project homepage including a laptop displaying
+    a map of Puerto Rico
+  link: https://pwr.softr.app
+  problem_statement:
+  - rec52uEVxyphCPkqF
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recPvH4jyWq47muLW
+  tech_team_text: Orange Sparkle Ball
+  title: "PWR \u2013 The Power Project"
+  year:
+  - 2022
 - Description (Old): Kanarys uses open EEOC data and Census Bureau data and reports
     to create more inclusive, nontoxic workplaces for individuals and their employers.
   Product Name: Kanarys
@@ -4059,6 +4487,74 @@
   title: TextHelp
   year:
   - 2016
+- Product Name: 'GeoNode GeoStories for Building Code Adoption Analysis: Spatial Correlations
+    Between BCAT, Flood Risk, and Equity'
+  agencies:
+  - Federal Emergency Management Agency
+  airtable_createdTime: '2023-01-26T19:04:08.000Z'
+  airtable_id: recpa9DMbyRLrW2wF
+  category:
+  - Disasters
+  - Environment
+  data_sets: |
+    FEMA Special Flood Hazard Area, HUD Properties,
+    Climate and Economic Justice Screening Tool
+  data_sets_text: |
+    FEMA Special Flood Hazard Area, HUD Properties,
+    Climate and Economic Justice Screening Tool
+  description: Open-source GIS GeoNode/GeoStory application is used to correlate federal
+    open datasets to create immersive multimedia storytelling and geospatial analytics
+    correlating building code adoption (BCAT), special flood hazard areas (SFHA),
+    and disadvantaged communities identified by the Climate and Economic Justice Screening
+    Tool (CEJST).
+  details: Open-source GIS GeoNode/GeoStory application is used to correlate federal
+    open datasets to create immersive multimedia storytelling and geospatial analytics
+    correlating building code adoption (BCAT), special flood hazard areas (SFHA),
+    and disadvantaged communities identified by the Climate and Economic Justice Screening
+    Tool (CEJST).
+  image: geonode-buildingcode.jpg
+  image-alt: An image of a multi-colored map of the United States at a county level
+  link: https://geonode.geosolutionsgroup.com/catalogue/#/geostory/50
+  problem_statement:
+  - reccBn4jTjxtqv7u1
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - rec8MvwWmNoaQk9nV
+  tech_team_text: GeoSolutions
+  title: 'GeoNode GeoStories for Building Code Adoption Analysis: Spatial Correlations
+    Between BCAT, Flood Risk, and Equity'
+  year:
+  - 2022
+- Product Name: Climate Resilient Communities Hub
+  agencies:
+  - Federal Emergency Management Agency
+  airtable_createdTime: '2023-01-26T19:04:03.000Z'
+  airtable_id: recqC7xemAAVwhbaQ
+  category:
+  - Environment
+  data_sets: FEMA, NOAA, Census, US Forest Service
+  data_sets_text: FEMA, NOAA, Census, US Forest Service
+  description: 'The Climate Resilient Communities Hub provides open access to federal
+    web GIS data along with maps, apps, and templates to support resilience planning
+    at the local level. '
+  details: 'The Climate Resilient Communities Hub provides open access to federal
+    web GIS data along with maps, apps, and templates to support resilience planning
+    at the local level. '
+  image: climate-resilient-communities-hub.jpg
+  image-alt: A screenshot of the Climate Resilient Communities Hub homepage that reads
+    "Solutions for Climate Resilient Communities"
+  link: https://community-climatesolutions.hub.arcgis.com/
+  problem_statement:
+  - reccBn4jTjxtqv7u1
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recJKjOOhTrMk1R2e
+  tech_team_text: Esri
+  title: Climate Resilient Communities Hub
+  year:
+  - 2022
 - Product Name: SafetyNet
   agencies:
   - City of Coral Gables

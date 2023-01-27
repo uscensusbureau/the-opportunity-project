@@ -23,26 +23,34 @@ cta-one:
     text: Get in Touch
     href: https://www.census.gov/forms/contact-top.html
     isExternal: true
+    class: secondary
 
 cta-two:
   background-class: bg-blue-warm-60v
   title:
     text: Ready to make an impact?
-    class: font-sans-sm text-normal
+    class: font-sans-sm
+  blurb:
+    text: Heyo!
   primary:
     text: Get in Touch
     href: https://www.census.gov/forms/contact-top.html
     isExternal: true
+    class:
 
 cta-three:
   background-class: bg-white
   title:
     text: Yo?
-    class: font-sans-sm text-normal
+    class: font-sans-sm text-blue-warm-60v
+  blurb:
+    text: sick!
+    class: text-blue-warm-60v
   primary:
     text: Get in Touch
     href: https://www.census.gov/forms/contact-top.html
     isExternal: true
+    class: base-darkest
 
 cta-four:
   background-class: bg-blue-warm-60v
@@ -53,6 +61,7 @@ cta-four:
     text: Get in Touch
     href: https://www.census.gov/forms/contact-top.html
     isExternal: true
+    class: bg-white
 ---
 
 

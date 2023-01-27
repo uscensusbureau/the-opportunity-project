@@ -1526,24 +1526,48 @@ main {
 
 .topx-hero {
   background: color('blue-warm-60v');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
   @media screen and (min-width: 640px) {
-    background: url('../img/toolkits/hero-image.png');
+    background: url('../img/toolkits/hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
     min-height: 900px;
   }
   @media screen and (min-width: 1024px) {
     min-height: 900px;
   }
 
+  h1 {
+    font-size: 3rem;
+    color: white;
+
+    &.visually-hidden {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute !important;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px 1px 1px 1px);
+        /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+        clip: rect(1px, 1px, 1px, 1px);
+        /*maybe deprecated but we need to support legacy browsers */
+        clip-path: inset(50%);
+        /*modern browsers, clip-path works inwards from each corner*/
+        white-space: nowrap;
+        /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+      }
+  }
+
+
   .content-container {
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    min-width: 100%;
+    // align-items: center;
+    width: 100%;
 
     p {
       color: white;
@@ -1555,15 +1579,11 @@ main {
     }
   }
 
-  h1 {
-    font-size: 3em;
-    // color: white;
-  }
   .scrolling-words-container {
       display: flex;
       font-size: 4rem;
       flex-direction: column;
-      align-items: center;
+      // align-items: center;
       justify-content: center;
       width: 100%;
       position: relative;

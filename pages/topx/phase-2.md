@@ -12,6 +12,20 @@ color: accent-cool-lightest
 
 
 header: Sprint Facilitation
+effort:
+  - title: Duration
+    amount: 3-4
+  - title: Time
+    amount: 5-20
+intro:
+  - title: Overview
+    content: some stuff
+  - title: Goals
+    content:
+     - item: some stuff 1
+     - item: some stuff 2
+     - item: some stuff 3
+     - item: some stuff 4
 lead:
   - text:
     - p: Once you have developed problem statements, recruited participants, and spent some time preparing, you are ready to launch the sprint! In the next steps, you will find information on different phases of the sprint, including milestones, which are check-ins where facilitators and participants share resources and information, while tech teams provide progress updates and receive feedback. In addition to suggested timelines, we offer guidance of what to cover during each milestone and suggestions for how participants can use the time between calls.
@@ -20,7 +34,7 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
 
 ---
 
-{% include toolkit-hero.html %}
+{% include toolkit-hero-refresh.html %}
 <section class="grid-container padding-top-8 ">
   <div class="grid-row">
     <div>

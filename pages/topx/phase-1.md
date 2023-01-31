@@ -13,7 +13,21 @@ refresh-accent: red-warm-50v
 refresh-white: gray-1
 refresh-gray: gray-20
 
-header: Pre-Sprint Planning
+header: Planning
+effort:
+  - title: Duration
+    amount: 3-4
+  - title: Time
+    amount: 5-20
+intro:
+  - title: Overview
+    content: some stuff
+  - title: Goals
+    content:
+     - item: some stuff 1
+     - item: some stuff 2
+     - item: some stuff 3
+     - item: some stuff 4
 lead:
   - text:
     - p: The first few months of TOPx involves pre-sprint planning. It will be important to form a team within your agency that will work on day-to-day operations, spread the word about TOPx within your agency, and identify a senior-level champion. Next, your team will engage others in the agency to define problem statement(s) for which sprint participants will develop solutions. After problem statement development, you will recruit sprint participants, who include tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts from government.
@@ -23,6 +37,7 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
 ---
 
 {% include toolkit-hero.html %}
+{% include toolkit-hero-refresh.html %}
 <section class="grid-container padding-top-8">
   <div class="grid-row">
     <div>

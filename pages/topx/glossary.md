@@ -76,5 +76,4 @@ resources:
 
 ---
 
-{% include toolkit-hero.html %}
 {% include toolkit-glossary.html %}

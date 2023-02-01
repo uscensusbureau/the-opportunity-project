@@ -12,11 +12,12 @@ body:
     offset: 2
     color:
     header: Form a Facilitation Team
-    time: "2-4 weeks"
+    duration: "2-4"
+    time: 5
     effort-out-of-4: 2
     empty: 2
     plain-text: As you begin the process of planning a TOPx sprint, it is important to build a coalition around your sprint within the agency.
-    highlight: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
+    overview: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
     illustration:
     key_actions:
       - number: 1

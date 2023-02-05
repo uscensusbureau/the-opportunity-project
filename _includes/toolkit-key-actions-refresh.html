@@ -1,0 +1,68 @@
+<h2 class="text-underline">TO DO:</h2>
+
+{% for action in item.to_do %}
+<div class="usa-media-block__inline-items">
+  <!-- number -->
+  <div class="inline-number">
+    <p class="border-{{page.refresh-accent}} {{page.refresh-white}} text-center">{{ forloop.index }}</p>
+  </div>
+  <!-- number -->
+  <!-- step overview -->
+  <div class="margin-left-3">
+    {% for phrase in action.overview %}
+    <p>
+      {{ phrase.copy }}
+    </p>
+    {% endfor %}
+    <!-- step overview -->
+
+    <!-- resource -->
+    {% for resource in action.resources %} {% if resource.download-link %}
+    <a href="{{site.baseurl}}/assets/files/{{resource.download-link}}" class="toolkit-resource-link" target="_blank">
+      {{ resource.title }}
+    </a>
+    {% elsif resource.internal-link %}
+    <a href="{{ site.baseurl }}/{{resource.internal-link}}" class="toolkit-resource-link" target="_blank">
+      {{ resource.title }}
+    </a>
+    {% elsif resource.dummy %}
+    <p class="toolkit-resource-link">{{ resource.title }}</p>
+    <!--<h3>{{ resource.title }}</h3>-->
+    {% else %}
+    <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank">
+      {{ resource.title }}
+    </a>
+    {% endif %}
+    <p class="text-italic">{{ resource.description}}</p>
+    {% endfor %}
+    <!-- resource -->
+
+    {% for tip in action.toggle %}
+    <!-- tip container -->
+    <div class="margin-left-4">
+      <details>
+        <summary>Tip</summary>
+        <div id="{{action.toggle.id}}" class="margin-left-2 margin-top-1">
+          <p>
+            {% for phrase in action.toggle %}
+            {% if phrase.copy %}
+            {{ phrase.copy }}
+            {% endif %}
+            {% if phrase.ul %}
+          <ul>
+            {% for li in phrase.ul %}
+            <li>{{ li.li }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% endfor %}
+          </p>
+        </div>
+      </details>
+    </div>
+    <!-- tip container -->
+    {% endfor %}
+
+  </div>
+</div>
+{% endfor %}

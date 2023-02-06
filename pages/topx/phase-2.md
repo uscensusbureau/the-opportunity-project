@@ -40,9 +40,8 @@ image-alt: Three vertical rectangles in a row. The center rectangle is filled in
     <div>
       {% for item in site.data.toolkits.topx.phase-2.body %}
         <div class="toolkit-section margin-top-10">
-          {% include toolkit-header.html %}
-          {% include toolkit-key-actions.html %}
-          {% include toolkit-resources.html %}
+          {% include toolkit-header-refresh.html %}
+          {% include toolkit-key-actions-refresh.html %}
         </div>
       {% endfor %}
     </div>

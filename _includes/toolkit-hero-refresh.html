@@ -17,11 +17,11 @@
           </h2>
           {% endfor %}
         </div>
-        <div class="grid-row flex-justify">
+        <div class="grid-row">
           {% assign blurbs = page.intro %}
           {% for content in blurbs %}
           <div class="bg-white">
-            <h2 class="margin-bottom-3">{{ content.title }}</h2>
+            <h2 class="margin-bottom-3 text-center text-underline">{{ content.title }}</h2>
             {% if content.title == "Overview" %}
             <p class="text-base-darkest">{{ content.content }}</p>
             {% elsif content.title == "Goals" %}

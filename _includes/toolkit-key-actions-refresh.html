@@ -8,8 +8,7 @@
   </div>
   <!-- number -->
   <!-- step overview -->
-  <div class="margin-left-3">
-    {% for phrase in action.overview %}
+  <div class="margin-left-3 toolkit-todo">
     <p>
       {{ phrase.copy }}
     </p>
@@ -33,15 +32,15 @@
       {{ resource.title }}
     </a>
     {% endif %}
-    <p class="text-italic">{{ resource.description}}</p>
     {% endfor %}
-    <!-- resource -->
+    </p>
+    <!-- step overview -->
 
     {% for tip in action.toggle %}
     <!-- tip container -->
     <div class="margin-left-4">
       <details>
-        <summary>Tip</summary>
+        <summary class="text-red-warm-50v">Tip</summary>
         <div id="{{action.toggle.id}}" class="margin-left-2 margin-top-1">
           <p>
             {% for phrase in action.toggle %}

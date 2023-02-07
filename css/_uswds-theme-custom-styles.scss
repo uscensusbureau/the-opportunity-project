@@ -1669,6 +1669,23 @@ main {
   }
 }
 
+div.toolkit-todo {
+  summary {
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+div.toolkit-todo__resources {
+  a {
+    border-radius: 15px;
+  }
+}
+
 // Styleguide Content -------- //
 
 .styleguide-content {

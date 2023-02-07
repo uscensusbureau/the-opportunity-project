@@ -1,11 +1,11 @@
-<h2>Key Actions</h2>
+<h2 class="text-underline underline-primary.text-underline">Key Actions</h2>
 {% for action in item.key_actions %}
   <div
     class="usa-media-block__inline-items"
   >
     <div class="inline-number">
       {% if action.number %}
-        <p class="circle-3 bg-{{page.color}} {{page.text-color}}">{{ action.number }}</p>
+        <p class="border-{{page.refresh-accent}} {{page.refresh-white}} text-center">{{ action.number }}</p>
       {% endif %}
     </div>
     {% if action.text %}

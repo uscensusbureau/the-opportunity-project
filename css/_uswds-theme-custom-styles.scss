@@ -1520,6 +1520,171 @@ main {
   scroll-snap-margin-top: 10rem;  // for safari mobile
 }
 
+.toolkit-header-refresh h2 {
+  width: fit-content;
+}
+
+.topx-hero {
+  background: color('blue-warm-60v');
+  @media screen and (min-width: 640px) {
+    background: url('../img/toolkits/hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 900px;
+  }
+  @media screen and (min-width: 1024px) {
+    min-height: 900px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: white;
+
+    &.visually-hidden {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute !important;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px 1px 1px 1px);
+        /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+        clip: rect(1px, 1px, 1px, 1px);
+        /*maybe deprecated but we need to support legacy browsers */
+        clip-path: inset(50%);
+        /*modern browsers, clip-path works inwards from each corner*/
+        white-space: nowrap;
+        /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+      }
+  }
+
+
+  .content-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    width: 100%;
+
+    p {
+      color: white;
+      max-width: 500px;
+      // margin-left: 50px;
+      // margin-top: 80px;
+      background-color: color('blue-warm-60v');
+      padding: 10px;
+    }
+  }
+
+  .scrolling-words-container {
+      display: flex;
+      font-size: 4rem;
+      flex-direction: column;
+      // align-items: center;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+      // z-index: -1;
+      font-weight: 700;
+      padding: 0;
+      color: white;
+
+      div.scrolling-words-box {
+          height: 5.5rem;
+          overflow: hidden;
+
+          ul {
+            margin: 0;
+            padding: 0;
+            animation: scrollUp 4s infinite;
+
+
+            li {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              height: 5rem;
+              list-style: none;
+              width: fit-content;
+              width: fit-content;
+            }
+          }
+        }
+  }
+  $item-count: 7;
+
+  @keyframes scrollUp {
+    @for $i from 1 through ($item-count - 1) {
+
+      #{($i * 11) - 6%},
+      #{$i * 11%} {
+        transform: translateY((-100% / $item-count) * $i);
+      }
+    }
+  }
+}
+
+.video-section {
+  background-color: #FAF3E9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+  }
+
+  .iframe-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+
+    iframe {
+      border: 0;
+      @media screen and (min-width: 640px){
+        border-bottom: color('blue-warm-60v') 15px solid;
+        border-left: color('blue-warm-60v') 20px solid;
+      }
+    }
+
+    p {
+      align-self: center;
+      max-width: 400px;
+      background-color: white;
+      padding: 35px;
+    }
+  }
+}
+
+.products {
+   .card-container {
+    background-image: none;
+    border: 0;
+    border-bottom: color('red-warm-50v') solid 20px;
+    border-left: color('red-warm-50v') solid 20px;
+  }
+}
+
+div.toolkit-todo {
+  summary {
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+div.toolkit-todo__resources {
+  a {
+    border-radius: 15px;
+  }
+}
 
 // Styleguide Content -------- //
 
@@ -2587,11 +2752,21 @@ code {
 
  .inline-number {
    display: inline-block;
+   .page-toolkit & {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   }
    p {
      color: color("white");
      background-color: color("secondary");
      font-size: font-size("lang", "xs");
      padding-left: units(1);
+    .page-toolkit & {
+          border-radius: 50%;
+          width: 26px;
+          padding-left: 0   ;
+      }
    }
  }
 

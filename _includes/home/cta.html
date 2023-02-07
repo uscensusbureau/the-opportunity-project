@@ -9,10 +9,15 @@
         {{ data.body | replace: "SITE.BASEURL", site.baseurl | markdownify }}
       </div>
     {% endif %}
+    {% if data.blurb %}
+      <p {% if data.blurb.class %}class="{{ data.blurb.class }}"{% endif %}>
+        {{ data.blurb.text }}
+      </p>
+    {% endif %}
     <p>
       {% if data.primary %}
         {% assign link = data.primary %}
-        <a 
+        <a
           class="usa-button usa-button--secondary site-button site-cta"
           href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
           {{ link.text }}

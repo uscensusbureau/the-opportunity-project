@@ -7,15 +7,62 @@ layout: toolkit
 data-ref: site.data.toolkits.topx.intro.body
 name: intro
 
-lead:
-  - text:
-    - p: For the first time, The Opportunity Project is opening up its playbook to enable federal agencies to transform open data into digital tools that solve key national challenges at the hearts of their missions.
-    - p: Email us at census.opportunityproject@census.gov and a member of the TOP team will get in touch to answer questions and help you get started.
 
 image: introduction.png
 image-alt: Illustration of three vertical rectangles in a row. They are red, yellow, and blue.
 
+img:
+  src: toolkits/hero-image.png
+
+cta-one:
+  background-class: bg-blue-warm-60v
+  title:
+    text: Ready to solve the nation's biggest challenges?
+    class: font-sans-sm text-normal
+  primary:
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
+    class: secondary
+
+cta-two:
+  background-class: bg-blue-warm-60v
+  title:
+    text: Ready to make an impact?
+    class: font-sans-sm
+  blurb:
+    text: Heyo!
+  primary:
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
+    class:
+
+cta-three:
+  background-class: bg-white
+  title:
+    text: Yo?
+    class: font-sans-sm text-blue-warm-60v
+  blurb:
+    text: sick!
+    class: text-blue-warm-60v
+  primary:
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
+    class: base-darkest
+
+cta-four:
+  background-class: bg-blue-warm-60v
+  title:
+    text: Ready to make an impact?
+    class: font-sans-sm text-normal
+  primary:
+    text: Get in Touch
+    href: https://www.census.gov/forms/contact-top.html
+    isExternal: true
+    class: bg-white
 ---
 
-{% include toolkit-hero.html %}
+
 {% include toolkit-intro-body.html %}

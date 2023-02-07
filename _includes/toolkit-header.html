@@ -1,16 +1,23 @@
-<div id="toolkit-{{item.section | slugify }}" class="toolkit-header bg-base-darkest usa-media-block__body desktop:margin-left-neg-3 padding-4 padding-right-8 padding-top-0 padding-bottom-0">
-  <h1>{{item.section}}:<br>{{item.header}}</h1>
-  
+<div id="toolkit-{{item.section | slugify }}" class="toolkit-header usa-media-block__body">
+  <h1 class="bg-base-darkest text-center padding-x-3">{{item.section}}: "{{item.header}}"</h1>
+
   {% if item.time %}
-  <div class="display-inline-block">
-      <p class="display-inline-block">Time: {{item.time}}</p>
-      <p class="display-inline-block margin-left-4">Effort:</p>
-      {% for i in (1..item.effort-out-of-4) %}
-        <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-      {% endfor %}
-      {% for i in (1..item.empty) %}
-        <p class="bg-white circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-      {% endfor %}
+  <div class="grid-row">
+    <div class="grid-row flex-justify {{page.refresh-gray}} ">
+      <p class="grid-col">Time:</p>
+      <p class="grid-col">{{item.time}}</p>
+    </div>
+      <div class="grid-row flex-justify bg-red-cool-90v">
+        <p class="grid-col">Effort:</p>
+        <div class="grid-col flex-align-self-center">
+          {% for i in (1..item.effort-out-of-4) %}
+            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
+          {% endfor %}
+          {% for i in (1..item.empty) %}
+            <p class="bg-white circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
+        {% endfor %}
+        </div>
+      </div>
   </div>
   {% endif %}
 

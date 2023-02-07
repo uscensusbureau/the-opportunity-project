@@ -1,195 +1,73 @@
-  <section class="grid-container display-inline-block padding-top-8">
-    <div
-      class="desktop:grid-offset-4 desktop:grid-col-7 grid-col-12  display-inline-block desktop:padding-left-6"
-    >
-    <h1>Introduction</h1>
-    <p>
-      <a href="https://opportunity.census.gov" target="_blank">The Opportunity Project</a> brings technologists, government, and communities to rapidly prototype digital products—powered by federal open data—that solve real-world problems for communities across the country. TOPx is an adaptable toolkit for federal agencies, developed by the TOP team at the U.S. Census Bureau, that enables other federal agencies to facilitate virtual technology development sprints that address key national challenges. To learn about TOP, check out the <a href="{{site.baseurl}}/our-process">Process</a> page on the TOP website.
-    </p>
-    {% for section in site.data.toolkits.topx.intro.body %}
-      {% if section.title %}
-        <h2 class="font-sans-6">{{ section.title }}</h2>
-      {% endif %}
-      <div class="inline-text">
-        <p>
-        {% for phrase in section.text %}
-          {% if phrase.b %}
-            <b>{{ phrase.b }}</b>
-          {% elsif phrase.p %}
-            {{ phrase.p }}
-          {% elsif phrase.ul %}
-            <ul class="toolkit-checkmark">
-              {% for li in phrase.ul %}
-                {% if li.li %}
-                  <li>{{ li.li }}</li>
-                {% elsif li.p %}
-                  <li class="nested-bullet">{{ li.p}}</li>
-                {% endif %}
-              {% endfor %}
+  <section>
+    <div class="grid-col-12">
+    <!-- hero -->
+    <section class="topx-hero grid-row">
+      <!-- <img src="{{site.baseurl}}/assets/img/toolkits/hero-image.png" alt="People at in-person TOPx Meeting"> -->
+      <section class="content-container grid-container grid-row">
+        <h1 class="visually-hidden">Use the TOPx Toolkit to solve thing 1</h1>
+        <section class="scrolling-words-container grid-container margin-bottom-6">
+          <span>Use the TOPx Toolkit to solve</span>
+          <div class="scrolling-words-box">
+            <ul>
+              <li>thing 1</li>
+              <li>thing 2</li>
+              <li>thing 3</li>
+              <li>refrigerator</li>
+              <li>sriracha</li>
+              <li>microchip</li>
+              <li>thing 1</li>
             </ul>
-          {% endif %}
-        {% endfor %}
-        </p>
+          </div>
+        </section>
+        <p class="margin-top-3">StatVentures scouts technology through collaborations with innovators outside government to ensure the U.S.Census Bureau provides quality data more efficiently, creatively, and effectively.</p>
+      </section>
+    </section>
+    <!-- video section -->
+    <section class="video-section padding-9">
+      <h2 class="text-blue-warm-60v">What is TOP?</h2>
+      <div class="iframe-content">
+        <iframe title="Video about The Opportunity Project: Putting America’s Data to Work for the People" src="https://player.vimeo.com/video/497726351?h=0496f5a6b3&title=0&byline=0&portrait=0" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea doloribus minima, id nobis voluptatem est, consequatur quia repellendus voluptatibus dolores perspiciatis? Sed ut vel ab hic voluptatem, est dolorem.</p>
       </div>
-    {% endfor %}
-    <h3>What’s involved in facilitating a TOPx sprint?</h3>
-      <table class="usa-table toolkit-table margin-bottom-5">
-        <tr>
-          <th class="margin-left-neg-3">Phase 1: Pre-Sprint Planning</th>
-          <th>Effort</th>
-          <th>Time</th>
-        </tr>
-        <tr>
-          <td class="col-1">Form a Facilitation Team</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">2-4 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Define Problem Statement</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">2-4 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Recruit Sprint Participants</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">1-2 months</td>
-        </tr>
-        <tr>
-          <td class="col-1">Sprint Preparation</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">1-2 weeks</td>
-        </tr>
-      </table>
-
-      <table class="usa-table toolkit-table margin-bottom-5">
-        <tr>
-          <th>Phase 2: Sprint Facilitation</th>
-          <th>Effort</th>
-          <th>Time</th>
-        </tr>
-        <tr>
-          <td class="col-1">Ongoing Tasks</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">12-14 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Kickoff</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">1-2 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">User Research</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">2 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Data Exploration</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">2 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Product Development</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">5-6 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Sprint Wrap Up</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">2-3 weeks</td>
-        </tr>
-      </table>
-
-      <table class="usa-table toolkit-table margin-bottom-5">
-        <tr>
-          <th>Phase 3: Post-Sprint</th>
-          <th>Effort</th>
-          <th>Time</th>
-        </tr>
-        <tr>
-          <td class="col-1">Post-Sprint Event</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-warm-70v text-white">4-6 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Post-Sprint Engagement</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-warm-70v text-white">2-4 weeks</td>
-        </tr>
-      </table>
-
-      <div class="toolkit-resources margin-top-9 margin-bottom-9  padding-7">
-        <h3 class="margin-top-0">Where to Start</h3>
-        {% for resource in site.data.toolkits.topx.intro.resources %}
-          {% if resource.link %}
-            <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
-          {% elsif resource.internal-link %}
-            <a href="{{ site.baseurl }}/{{resource.internal-link}}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
-          {% else %}
-            <p class="text-bold">{{resource.title }}</p>
-          {% endif %}
-          <p>{{ resource.description}}</p>
-        {% endfor %}
+    </section>
+    <!-- CTA from TOP site -->
+    {% assign section = page.cta-one %}
+    {% include home/cta.html data=section %}
+    <!-- Timeline section -->
+    <section class="timeline bg-base-darkest padding-y-9">
+      <div class="grid-container content-container">
+        <h2 class="margin-0 bg-orange-5 margin-bottom-4">How It Works</h2>
+        <p class="margin-0 text-white maxw-tablet margin-bottom-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor perferendis doloribus. Voluptatem alias est porro deserunt quae quisquam mollitia, neque sed placeat, nisi explicabo corrupti earum repellendus non repudiandae?</p>
+        <img src="{{site.baseurl}}/assets/img/toolkits/sprint-timeline.png" alt="People at in-person TOPx Meeting">
       </div>
+    </section>
+    <!-- repurpose TOP CTA into mail us section -->
+    {% assign section = page.cta-two %}
+    {% include home/cta.html data=section %}
+    <!-- Products section -->
+    <section class="usa-section usa-graphic-list products">
+
+      <div class="grid-container">
+        {% assign featured_products = site.data.toolkits.topx.featured_products %}
+        <header class="padding-x-6 padding-y-7 bg-orange-5 margin-y-7">
+          <h3>Lorem ipsum dolor sit</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempora aperiam illo fugiat modi alias quos nihil atque reprehenderit nobis fugit enim praesentium, blanditiis temporibus eaque deleniti vero officia doloribus?</p>
+        </header>
+        <div class="grid-row grid-gap-lg
+        flex-wrap flex-justify-center">
+          {% for product in featured_products %}
+          <div class="tablet:grid-col-4 usa-media-block__background-image-portrait margin-bottom-3">
+            {% include cards/card.html content=product utils="small-header-card" %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+          {% assign section = page.cta-three %}
+          {% include home/cta.html data=section %}
+    </section>
+    <!-- CTA -->
+    {% assign section = page.cta-four %}
+    {% include home/cta.html data=section %}
 
     </div>
   </section>

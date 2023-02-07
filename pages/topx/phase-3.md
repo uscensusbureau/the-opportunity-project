@@ -8,14 +8,21 @@ layout: toolkit
 phase: 3
 color: blue-warm-70v
 
-sidebar:
-  - text: STEP 1
-    href: "#toolkit-step-1"
-  - text: STEP 2
-    href: "#toolkit-step-2"
-
-
 header: Post-Sprint
+effort:
+  - title: Duration
+    amount: 3-4
+  - title: Time
+    amount: 5-20
+intro:
+  - title: Overview
+    content: some stuff
+  - title: Goals
+    content:
+     - item: some stuff 1
+     - item: some stuff 2
+     - item: some stuff 3
+     - item: some stuff 4
 lead:
   - text:
     - p: Once teams have presented their final demos and the sprint has concluded, there are a variety of options for post-sprint engagement. We encourage agencies to host even an end-of-sprint event to celebrate the conclusion of the sprint and the work that was done. There are also opportunities to continue engaging with participants after the sprint by tracking product metrics, offering funding opportunities, and connecting participants with the TOP Alumni Community.
@@ -24,24 +31,16 @@ image-alt: Three vertical rectangles in a row. The last is filled in blue with a
 
 ---
 
-{% include toolkit-hero.html %}
-<section class="grid-container display-inline-block padding-top-8 grid-col-12">
+{% include toolkit-hero-refresh.html %}
+<section class="grid-container padding-top-8">
   <div class="grid-row">
-    <div class="desktop:grid-col-4">
-      {% include toolkit-sidenav.html %}
-    </div>
-    <div
-      class="desktop:grid-col-7 desktop:margin-left-7 grid-col-12 display-inline-block"
-    >
+    <div>
       {% for item in site.data.toolkits.topx.phase-3.body %}
         <div class="toolkit-section  margin-top-10">
-          {% include toolkit-header.html %}
-          {% include toolkit-key-actions.html %}
-          {% include toolkit-resources.html %}
-          <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-neg-2">
-          </div>
+          {% include toolkit-header-refresh.html %}
+          {% include toolkit-key-actions-refresh.html %}
         </div>
       {% endfor %}
     </div>
-  </div>  
+  </div>
 </section>

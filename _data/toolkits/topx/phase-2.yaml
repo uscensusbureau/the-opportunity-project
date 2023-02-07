@@ -3,205 +3,164 @@
 
 body:
 # use Step 2 as step template!
-  - section: Step Template
+  - section: "Ongoing Tasks"
     header: Header
-    duration: "x-x"
-    time: 2
+    duration: "ongoing"
+    time: "ongoing"
     overview: Overview
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
+      - copy: "TEXT ONGOING TODO 1"
       toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+        - copy: "TIP TEXT"
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
+      - copy: "TEXT ONGOING TODO 2"
       resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+        - download-link: "topx-resources/problem-statement-template.pdf"
+          title: Download link Name
+    - overview:
+      - copy: "TEXT ONGOING TODO 3"
+      toggle:
+        - copy: "TIP TEXT"
+    - overview:
+      - copy: "TEXT ONGOING TODO 4"
+      toggle:
+        - copy: "TIP TEXT"
+    - overview:
+      - copy: "TEXT ONGOING TODO 5"
+    - overview:
+      - copy: "TEXT ONGOING TODO 6"
 
 # use Step 2 as step template!
-  - section: Step Template
-    header: Header
+  - section: Step 1
+    header: Kickoff
     duration: "x-x"
     time: 2
     overview: Overview
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
+      - copy: "TEXT STEP 1 TODO 1"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
       resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
       - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+        title: DOWNLOAD LINK NAME
 
 # use Step 2 as step template!
-  - section: Step Template
-    header: Header
+  - section: Step 2
+    header: User Research
     duration: "x-x"
     time: 2
     overview: Overview
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
+      - copy: "TEXT STEP 2 TODO 1"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
+      resources:
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
     - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
+        - copy: "TEXT STEP 2 TODO 2"
         - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+          - li: "TEXT FOR LIST ITEM"
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+        - copy: "TEXT STEP 2 TODO 3"
+    - overview:
+        - copy: "TEXT STEP 2 TODO 4"
+        - ul:
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+
 
 # use Step 2 as step template!
-  - section: Step Template
-    header: Header
+  - section: Step 3
+    header: Data Exploration
     duration: "x-x"
     time: 2
     overview: Overview
     to_do:
-    - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
+      - overview:
+        - copy: "TEXT STEP 3 TODO 1"
+      - overview:
+        - copy: "TEXT STEP 3 TODO 2"
         - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+      - overview:
+        - copy: "TEXT STEP 3 TODO 3"
+        - ul:
+          - li: "TEXT FOR LIST ITEM"
+        toggle:
+          - copy: "TIP TEXT"
+          - ul:
+            - li: "TEXT FOR LIST ITEM"
+        toggle:
+          - copy: "TIP TEXT"
+
+
 
 # use Step 2 as step template!
-  - section: Step Template
-    header: Header
+  - section: Step 4
+    header: Product Development
     duration: "x-x"
     time: 2
     overview: Overview
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
+        - copy: "TEXT STEP 4 TODO 1"
     - overview:
-      - copy: Develop 1-3 detailed problem statements
+      - copy: "TEXT STEP 4 TODO 2"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
       toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+      - copy: "TIP TEXT"
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
+      - copy: "TEXT STEP 4 TODO 3"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
+      toggle:
+      - copy: "TIP TEXT"
       resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
       - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+        title: DOWNLOAD LINK NAME
 
 # use Step 2 as step template!
-  - section: Step Template
-    header: Header
+  - section: Step 5
+    header: Final Product Development
     duration: "x-x"
     time: 2
     overview: Overview
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
+      - copy: "TEXT STEP 5 TODO 1"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
       toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+      - copy: "TIP TEXT"
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+      - copy: "TEXT STEP 5 TODO 2"
+    - overview:
+      - copy: "TEXT STEP 5 TODO 3"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+    - overview:
+      - copy: "TEXT STEP 5 TODO 4"
+      - ul:
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
+        - li: "TEXT FOR LIST ITEM"
+      toggle:
+      - copy: "TIP TEXT"

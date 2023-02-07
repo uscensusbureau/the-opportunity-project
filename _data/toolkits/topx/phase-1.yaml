@@ -9,29 +9,43 @@ body:
     overview: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
     to_do:
     - overview:
-      - copy: Spread the word
-      - copy: about TOPx within your office and the broader agency
+      - copy: "TEXT STEP 1 TODO 1"
+      toggle:
+        - copy: "TIP TEXT"
       resources:
-        - dummy: true
-          title: Introduction to TOPx Email
-          description: Modify this template email depending on the audience to spread the word about TOPx within your agency
+        - download-link: "topx-resources/problem-statement-template.pdf"
+          title: Download link Name
     - overview:
-      - copy: Identify at least one senior agency official
-      - copy: (up to your agency’s Secretary, Administrator, etc.) who is aware and supportive of the sprint and can serve as your
-      - copy: executive level champion
+      - copy: "TEXT STEP 1 TODO 2"
+    - overview:
+      - copy: "TEXT STEP 1 TODO 3"
       resources:
-        - download-link: "topx-resources/topx-overview-for-agencies.docx"
-          title: TOPx Overview for Agencies
-          description: Attach this information sheet when spreading the word about TOPx within your agency
-        - download-link: "topx-resources/potential-roles.pdf"
-          title: TOPx Facilitation Team - Potential Roles
-          description: A list of potential roles for a TOPx facilitation team, which can be modified as needed
+        - download-link: "topx-resources/problem-statement-template.pdf"
+          title: Download Link Name
     - overview:
-      - copy: Build a staff-level facilitation team.
-      - copy: While a TOPx sprint may be facilitated by two people or eight depending on bandwidth, facilitating a TOPx sprint will require finding others within your agency to help you along the way
+      - copy: "TEXT STEP 1 TODO 4"
     - overview:
-      - copy: Begin meeting weekly as a facilitation team
-      - copy: pto efficiently distribute responsibility and share out progress
+      - copy: "TEXT STEP 1 TODO 5"
+      resources:
+        - download-link: "topx-resources/problem-statement-template.pdf"
+          title: Download Link Name
+        - download-link: "topx-resources/problem-statement-template.pdf"
+          title: Download Link Name
+    - overview:
+      - copy: "TEXT STEP 1 TODO 6"
+      toggle:
+        - copy: "TIP TEXT"
+        - ul:
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+      resources:
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: Download Link Name
+    - overview:
+      - copy: "TEXT STEP 1 TODO 7"
+      toggle:
+        - copy: "TIP TEXT"
+
 
   - section: Step 2 Refresh
     header: Define Problem Statement(s)
@@ -40,29 +54,59 @@ body:
     overview: Be sure to review the Resources section below for guidelines, examples of past problem statements, and a template for writing your own.
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
+      - copy: "TEXT STEP 2 TODO 1"
     - overview:
-      - copy: Develop 1-3 detailed problem statements
+      - copy: "TEXT STEP 2 TODO 2"
       toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
+        - copy: "TIP TEXT"
       resources:
         - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+          title: DOWNLOAD LINK NAME
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      - copy: who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams
+      - copy: "TEXT STEP 2 TODO 3"
+      toggle:
+        - copy: "TIP TEXT"
       resources:
-        - link: https://opportunity.census.gov/sprints/past-sprints/#past
-          title: Past TOP Problem Statements
-          description: Explore past problem statements to help you brainstorm and get a sense of the typical language
         - download-link: "topx-resources/problem-statement-template.docx"
-          title: Problem Statement Template
-          description: Use this template to draft problem statements
+          title: DOWNLOAD LINK NAME
+    - overview:
+      - copy: "TEXT STEP 2 TODO 4"
+      resources:
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
+    - overview:
+      - copy: "TEXT STEP 2 TODO 5"
+      toggle:
+        - copy: "TIP TEXT"
+      resources:
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
+    - overview:
+      - copy: "TEXT STEP 2 TODO 6"
+      resources:
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/problem-statement-template.docx"
+          title: DOWNLOAD LINK NAME
+    - overview:
+      - copy: "TEXT STEP 2 TODO 7"
+      toggle:
+        - copy: "TIP TEXT"
+    - overview:
+      - copy: "TEXT STEP 2 TODO 8"
+      toggle:
+        - copy: "TIP TEXT"
+        - ul:
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+    - overview:
+      - copy: "TEXT STEP 2 TODO 9"
+      toggle:
+        - copy: "TIP TEXT"
+    - overview:
+      - copy: "TEXT STEP 2 TODO 10"
+
 
 
   - section: Step 3 Refresh
@@ -72,87 +116,27 @@ body:
     overview: Collaboration is an essential part of the TOPx process. Each sprint includes technologists from industry and/or universities, data and policy experts from government, community leaders, and advocates. The recruitment process gets these collaborators on board to participate in the sprint.
     to_do:
       - overview:
-        - copy: Identify start and end weeks for your sprint
+        - copy: "TEXT STEP 3 TODO 1"
       - overview:
-        - copy: To approximate a start date, consider that after you finish recruitment, you will need another 2-3 weeks to finalize sprint facilitation preparations. To decide on an end date, consider that a typical sprint is 12-14 weeks
-      - overview:
-        - copy: Create a detailed sprint timeline,
-        - copy: including the number and frequency of milestones. See Resources below for a template
-      - overview:
-        - copy: Some agencies will choose to increase the number of touch-points, for example by including a weekly check-in call, while others will have fewer touchpoints, for instance only two or three milestone calls. If your challenge involves technical information that would help orient the tech teams, consider offering a Problem Statement 101 session where you would give more details of terms, data, past solutions, and any additional relevant information
-      - overview:
-        - copy: Review explanations of sprint roles on the TOP website.
-        - copy: A typical TOPx sprint will include policy experts (e.g., problem statement leads), data stewards, tech teams, and user advocates
-      - overview:
-        - copy: Reach out to potential participants
-        - copy: with relevant outreach emails and materials, including tech team or user advocate overview documents, problem statements and a timeline.
-      - overview:
-        - copy: Engage with interested parties and share further information.
-        - copy: Set up individual briefing calls
-      - overview:
-        - copy: Consider also organizing a webinar or conference call to share information
-      - overview:
-        - copy: Begin developing a list of likely participants.
-        toggle:
-          - copy: "We recommend that each problem statement include:"
-          - ul:
-            - li: 3-4 tech teams
-            - li: At least 2-3 user advocates
-            - li: Where possible, 1 data steward for every data set
-      - overview:
-        - copy: Connect with data stewards
-        - copy: to be sure they understand their role and identify additional data stewards as needed
-        toggle:
-          - copy: Some data stewards were identified in the problem statement development step. Data stewards should be available to answer questions about data sets throughout the sprint and should plan to join the data exploration milestone, as well as both demos
-        resources:
-          - download-link: "topx-resources/sprint-timeline-template.docx"
-            title: Sprint Timeline
-            description: High-level timeline of the sprint, which you can modify to work best for your agency
-          - link: https://opportunity.census.gov/our-process/#roles
-            title: Sprint Roles
-            description: Review the TOP website to learn more about each role in a sprint
-          - download-link: "topx-resources/identifying-sprint-participants.pdf"
-            title: Tips for Identifying Potential Sprint Participants
-            description: Information on what organizations sprint participants come from and what skills to look for
-          - dummy: true
-            title: TOPx Recruitment Email
-            description: Modify this template email to recruit tech teams and user advocates
-          - download-link: "topx-resources/tech-team-role-overview.docx"
-            title: Tech Team Role Overview
-            description: Explain TOPx and outline the tech team role
-          - download-link: "topx-resources/user-advocate-role-overview.docx"
-            title: User Advocate Role Overview
-            description: Explain TOPx and outline the user advocate role
-
-
-  - section: Step 4 Refresh
-    header: Define Problem Statement(s)
-    duration: "2-4"
-    time: 2
-    overview: Be sure to review the Resources section below for guidelines, examples of past problem statements, and a template for writing your own.
-    to_do:
-    - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
+        - copy: "TEXT STEP 3 TODO 2"
         - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      - copy: who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams
-      resources:
-        - link: https://opportunity.census.gov/sprints/past-sprints/#past
-          title: Past TOP Problem Statements
-          description: Explore past problem statements to help you brainstorm and get a sense of the typical language
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+        resources:
         - download-link: "topx-resources/problem-statement-template.docx"
-          title: Problem Statement Template
-          description: Use this template to draft problem statements
-
+          title: DOWNLOAD LINK NAME
+      - overview:
+        - copy: "TEXT STEP 3 TODO 3"
+        - ul:
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+          - li: "TEXT FOR LIST ITEM"
+        toggle:
+        - copy: "TIP TEXT"
+      - overview:
+        - copy: "TEXT STEP 3 TODO 4"
+        - ul:
+          - li: "TEXT FOR LIST ITEM"
+      - overview:
+        - copy: "TEXT STEP 3 TODO 5"

@@ -10,27 +10,16 @@
   <!-- step overview -->
   <div class="margin-left-3 toolkit-todo">
     <p>
+      {% for phrase in action.overview %}
+      {% if phrase.copy %}
       {{ phrase.copy }}
-    </p>
-    {% endfor %}
-    <!-- step overview -->
-
-    <!-- resource -->
-    {% for resource in action.resources %} {% if resource.download-link %}
-    <a href="{{site.baseurl}}/assets/files/{{resource.download-link}}" class="toolkit-resource-link" target="_blank">
-      {{ resource.title }}
-    </a>
-    {% elsif resource.internal-link %}
-    <a href="{{ site.baseurl }}/{{resource.internal-link}}" class="toolkit-resource-link" target="_blank">
-      {{ resource.title }}
-    </a>
-    {% elsif resource.dummy %}
-    <p class="toolkit-resource-link">{{ resource.title }}</p>
-    <!--<h3>{{ resource.title }}</h3>-->
-    {% else %}
-    <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank">
-      {{ resource.title }}
-    </a>
+      {% endif %}
+      {% if phrase.ul %}
+    <ul class="toolkit-checkmark">
+      {% for li in phrase.ul %}
+      <li>{{ li.li }}</li>
+      {% endfor %}
+    </ul>
     {% endif %}
     {% endfor %}
     </p>
@@ -61,6 +50,33 @@
     </div>
     <!-- tip container -->
     {% endfor %}
+
+    <!-- resource -->
+    <div class="toolkit-todo__resources grid-row tablet:flex-row flex-wrap text-center">
+      {% for resource in action.resources %} {% if resource.download-link %}
+      <a href="{{site.baseurl}}/assets/files/{{resource.download-link}}"
+        class="toolkit-resource-link bg-orange-5 text-base-darkest padding-y-0 padding-x-2 margin-x-2 margin-y-1"
+        target="_blank">
+        {{ resource.title }}
+      </a>
+      {% elsif resource.internal-link %}
+      <a href="{{ site.baseurl }}/{{resource.internal-link}}"
+        class="toolkit-resource-link text-base-darkest bg-orange-5 padding-y-0 padding-x-2 margin-x-2 margin-y-1"
+        target="_blank">
+        {{ resource.title }}
+      </a>
+      {% elsif resource.dummy %}
+      <p class="toolkit-resource-link  bg-orange-5 text-base-darkest">{{ resource.title }}</p>
+      <!--<h3>{{ resource.title }}</h3>-->
+      {% else %}
+      <a href="{{ resource.link }}"
+        class="toolkit-resource-link text-base-darkest padding-y-0 padding-x-2 margin-x-2 margin-y-1" target="_blank">
+        {{ resource.title }}
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <!-- resource -->
 
   </div>
 </div>

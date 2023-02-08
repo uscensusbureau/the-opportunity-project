@@ -14,9 +14,9 @@ annual_reports:
   '2019': assets/files/annual_report_2019.pdf
 
 banner:
-  text: View the Fall 2022 Sprints Problem Statements
-  href: /sprints/fall-2022-sprints/
-  isExternal: false
+  text: "Start Your Year On TOP! RSVP to Attend TOP Summit on Feb 22 - 24"
+  href: https://topsummit2023.splashthat.com/
+  isExternal: true
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text
 

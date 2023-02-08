@@ -18,8 +18,6 @@
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec0EuLirFTikoiVR
-  data_stewards:
-  - reccZ2t5M10wRIKNy
   description: Charity Navigator, charity assessment organization that evaluates charitable
     organizations in the U.S., has been scraped for non-profit organizations that
     work with recently resettled refugees
@@ -33,7 +31,6 @@
   ps_text: Refugees
   sprint:
   - reczc8aUuFa86x1WA
-  stewards_text: Nicole Smith
 - airtable_createdTime: '2020-02-10T18:28:42.000Z'
   airtable_id: rec0KtKpasrNEpAY6
   description: 'The National Agriculture Imagery Program (NAIP) acquires aerial imagery
@@ -341,8 +338,6 @@
   stewards_text: Ted Payne, John Huggins
 - airtable_createdTime: '2022-08-11T14:34:57.000Z'
   airtable_id: rec2pUPL2jV1kpAmz
-  data_stewards:
-  - recClbihJAqUquHX7
   description: Small Area Health Insurance Estimates (SAHIE) data are model-based
     estimates of health insurance coverage, produced annually by combining survey
     data with administrative records data. SAHIE publishes one-year estimates for
@@ -358,7 +353,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: James Mouser
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: rec33Lhf2RbQSTHWv
   data_stewards:
@@ -384,8 +378,6 @@
   - recB5iDMet16XnjXe
 - airtable_createdTime: '2022-08-01T22:54:06.000Z'
   airtable_id: rec3OpjcFWSJPAa4a
-  data_stewards:
-  - recCG22PCl0IfGkRB
   datakit_order: 2
   description: The American Community Survey (ACS) is the premier source for detailed
     population and housing information about our nation.
@@ -399,7 +391,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Mary Ana McKay
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rec3eN0uMx9yxVU2Z
   name: US EPA
@@ -419,8 +410,6 @@
   - recg9LuHpKxgB95Xy
 - airtable_createdTime: '2022-08-09T13:06:54.000Z'
   airtable_id: rec3lT5GM2jraB8xY
-  data_stewards:
-  - recIUCZI3kVHLw0c8
   description: The files include total housing units (including transitory units)
     and total group quarters counts, by 2020 census tabulation block. These housing
     unit and group quarters counts represent final counts for the 2020 Census.
@@ -434,11 +423,8 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Augustin Misago
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: rec3rzhgabXlvzBXp
-  data_stewards:
-  - recMZZk0gmfw8XK6P
   description: Coastal hazard, weather, climate, marine habitat, water quality, and
     infrastructure data for coastal management needs.
   link: https://coast.noaa.gov/digitalcoast/data/
@@ -452,7 +438,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Randy Warren
   tag:
   - Imagery + Base Maps
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
@@ -520,8 +505,6 @@
   - reczc8aUuFa86x1WA
 - airtable_createdTime: '2021-08-13T16:43:46.000Z'
   airtable_id: rec4xMqeds9dcN8aQ
-  data_stewards:
-  - recEIDxytoLp6R5vj
   description: Local measurements of relative sea level trends measured by tide gauges.
     Meaurements account for the combination of global sea level rise and local vertical
     land motion.
@@ -536,7 +519,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
   - Climate
 - airtable_createdTime: '2021-05-10T20:31:18.000Z'
@@ -866,8 +848,6 @@
   stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2022-08-01T23:26:45.000Z'
   airtable_id: rec7eG7ioSJy5wVUz
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 4
   description: Each year, the U.S. Department of Housing and Urban Development (HUD)
     receives custom tabulations of American Community Survey (ACS) data from the U.S.
@@ -884,7 +864,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: rec7nUX62Y5OEC9cC
   data_stewards:
@@ -1026,8 +1005,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: rec9QqIfRf1ZK8EX4
-  data_stewards:
-  - recMZZk0gmfw8XK6P
   description: A joint BOEM and NOAA initiative providing authoritative data to meet
     the needs of the offshore energy and marine planning communities.
   link: https://marinecadastre.gov/data/
@@ -1041,7 +1018,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Randy Warren
   tag:
   - Imagery + Base Maps
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -1076,8 +1052,6 @@
   - rec4vys7lW5OufL2k
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: rec9Wrs3oIxbKf1HA
-  data_stewards:
-  - recb1fOmYG22E8pyM
   datakit_order: 13
   description: Online training hub about how to access and utilize Census data; includes
     courses, short data gems, and webinars
@@ -1091,7 +1065,6 @@
   ps_text: Improving Data Literacy
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Alexandra Barker
 - airtable_createdTime: '2020-02-10T20:22:02.000Z'
   airtable_id: rec9YftSL69DGzUW5
   data_stewards:
@@ -1160,8 +1133,6 @@
   - rec0XnfpVCBwdQJAg
 - airtable_createdTime: '2021-08-13T21:21:20.000Z'
   airtable_id: recAOMJI7c7Q2dSOg
-  data_stewards:
-  - recMQLLKGxov0pic1
   description: "Historical modeled (1950\u20132005) and projected (2006\u20132100)\
     \ CMIP5 results for North America for two scenarios, downscaled to U.S. counties."
   link: https://crt-climate-explorer.nemac.org/
@@ -1175,7 +1146,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: U.S. Climate Resilience Toolkit
   tag:
   - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1185,8 +1155,6 @@
   - recnSpNUcyeoVi28K
 - airtable_createdTime: '2022-08-09T17:49:03.000Z'
   airtable_id: recAXyWNbx1fLYdvx
-  data_stewards:
-  - recWmFGv84RT7BtPr
   link: https://mtgis-portal.geo.census.gov/arcgis/apps/webappviewer/index.html?id=99d7bf4900d64cfead6e405687bc3826
   name: Predominant Address Type by Census Block in Puerto Rico
   organization_text: U.S. Census Bureau
@@ -1197,7 +1165,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Alexandra Zablotny
 - airtable_createdTime: '2021-07-19T22:03:19.000Z'
   airtable_id: recAXzAxWMJcMuNgI
   description: Individual Assistance (IA) is provided by FEMA to individuals and families
@@ -1236,7 +1203,6 @@
   airtable_id: recAqtJgGfKRFtQPS
   data_stewards:
   - recFN7GwyK88Sd6ye
-  - recjkqqi6LIliwzw7
   datakit_order: 11
   description: 'Annual series that provides economic data for businesses that have
     no paid employees and are subject to federal income tax. Available for 450 NAICS
@@ -1251,7 +1217,7 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Andy Hait, Lynda Lee
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recAt7EBpiM9uUaWG
   name: Census Bureau
@@ -1259,8 +1225,6 @@
   - recvDZEaGFFEtnR4l
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recAxIXJKZTY9nl4w
-  data_stewards:
-  - recRvc8jXE2eX97Xd
   datakit_order: 19
   description: Education finance data include revenues, expenditures, debt, and assets
     [cash and security holdings] of elementary and secondary public school systems.
@@ -1276,7 +1240,6 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Stephen Wheeler
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recAyYfWeVnkMgfD8
   name: Census Bureau; US Bureau of Labor Statistics; New York State Departments of
@@ -1309,8 +1272,6 @@
   - reczc8aUuFa86x1WA
 - airtable_createdTime: '2021-09-20T19:55:16.000Z'
   airtable_id: recBSiUNCQOWfZNLe
-  data_stewards:
-  - recdTGgIJtKUJSAy0
   datakit_order: 0
   description: Includes the resident population of each state, plus a count of the
     U.S. military personnel and federal civilian employees living outside the United
@@ -1331,7 +1292,6 @@
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Stephanie Morales Garcia
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recBhF3rKqfTg39Pk
   name: "Public Use Microdata Sample of the Census Bureau\u2019s American Community\
@@ -1420,8 +1380,6 @@
   - recX8qMzecPlE76HV
 - airtable_createdTime: '2021-08-13T16:36:01.000Z'
   airtable_id: recCdi3hnYuSm7w3t
-  data_stewards:
-  - rec392HdqWBNiJk6Q
   description: An integrated database of climate summaries from land surface stations
     across the globe that have been subjected to a common suite of quality assurance
     reviews.
@@ -1436,7 +1394,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: NCEI Customer Support
   tag:
   - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -1598,8 +1555,6 @@
   stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recFEhZwCzciwyP5A
-  data_stewards:
-  - rec8bfHaA7zEPxfYN
   datakit_order: 17
   description: 'Applications allow users to type an address and to receive geographic
     location '
@@ -1617,7 +1572,6 @@
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Patrick Jurgens
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recFLgsu3kZnW7oIu
   name: DC Department of Human Services
@@ -1789,7 +1743,6 @@
   airtable_id: recGlI99M7MzMNkqD
   data_stewards:
   - recFN7GwyK88Sd6ye
-  - recjkqqi6LIliwzw7
   datakit_order: 8
   description: Data on number of businesses, first quarter payroll and annual payroll;
     Statistics are available on establishments at the U.S. level and by State, County,
@@ -1807,7 +1760,7 @@
   sprint:
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Andy Hait, Lynda Lee
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recGocS6ghzZKV9Jc
   name: BLS Occupational Employment Statistics
@@ -1839,7 +1792,6 @@
   airtable_id: recH9vKhftk4FCNsp
   data_stewards:
   - recfnjb85oXlSzlzL
-  - rec0MQ4fL2OggNZ9D
   description: Refugee arrival data by city and state, with information on age, gender,
     ethnicity, religion, language, and education
   link: https://ireports.wrapsnet.org/
@@ -1852,7 +1804,7 @@
   ps_text: Refugees
   sprint:
   - reczc8aUuFa86x1WA
-  stewards_text: Nicole Patel, Marisa Hydrick
+  stewards_text: Nicole Patel
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recHOUBPkUDcaiw3x
   description: Software that estimates the health impacts and economic value of changes
@@ -1899,8 +1851,6 @@
   - recKSyLaCXFbhyDuv
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recHdmctS1Uq0iasg
-  data_stewards:
-  - recdTGgIJtKUJSAy0
   datakit_order: 1
   description: "Population counts for the total population and for the population\
     \ 18 years and over are presented by race and by Hispanic or Latino origin, and\
@@ -1921,7 +1871,6 @@
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Stephanie Morales Garcia
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recHgrOukvv1tZIHE
   name: Open Data DC Street Segments API
@@ -1929,8 +1878,6 @@
   - recyl8q9tZWnPoQQt
 - airtable_createdTime: '2022-08-01T23:27:16.000Z'
   airtable_id: recI8J6vavHcHDdBT
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 7
   link: https://www.huduser.gov/portal/datasets/ahs.html
   name: American Housing Survey
@@ -1942,7 +1889,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recIO6XWO5Cij8bJ5
   name: Office of the Surgeon General; Department of Transportation
@@ -1988,7 +1934,6 @@
   airtable_id: recIxdhkIqRWm8gUu
   data_stewards:
   - recFN7GwyK88Sd6ye
-  - recjkqqi6LIliwzw7
   datakit_order: 7
   description: Survey conducted every 5 years of nealry 4 million U.S. businesses
     at zip code level; most recent data from 2017
@@ -2004,11 +1949,9 @@
   sprint:
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Andy Hait, Lynda Lee
+  stewards_text: Andy Hait
 - airtable_createdTime: '2022-08-09T17:35:35.000Z'
   airtable_id: recJ1bzJpG7cyTV0M
-  data_stewards:
-  - recCG22PCl0IfGkRB
   description: The Puerto Rico Community Survey provides data every year -- giving
     communities the current information they need to manage change. It is part of
     the Census Bureau's American Community Survey, customized for Puerto Rico.
@@ -2022,7 +1965,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Mary Ana McKay
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recJ2lhBahwKxQyLQ
   name: "Census Bureau\u2019s National Address Database Schema; United States Department\
@@ -2096,8 +2038,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2022-08-01T23:27:27.000Z'
   airtable_id: recJwVtXI41rgOWhi
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 8
   description: LIHTC program gives State and local LIHTC-allocating agencies the equivalent
     of approximately $8 billion in annual budget authority to issue tax credits for
@@ -2115,7 +2055,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recK0PvnrhMoDw2P2
   name: Libraries
@@ -2283,8 +2222,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: recLOPJDbqlg8HfQi
-  data_stewards:
-  - rec8bfHaA7zEPxfYN
   description: Released annually, most recently February 2021 covering 2020 data.
     Provides an extract of selected geographic and cartographic information, as well
     as information for legal boundaries and redistricting, which can be broken down
@@ -2300,14 +2237,10 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Patrick Jurgens
   tag:
   - Imagery + Base Maps
 - airtable_createdTime: '2022-08-09T17:47:07.000Z'
   airtable_id: recLQN4Jm1K7ChwrP
-  data_stewards:
-  - recrz0F1lp6MApPX3
-  - recJsfniriaJt5jK4
   description: The U.S. Department of Transportation (USDOT) and its partners from
     all levels of government recognize the need for a National Address Database (NAD).  Accurate
     and up-to-date addresses are critical to transportation safety and are a vital
@@ -2325,7 +2258,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Steve Lewis, Matthew Zimolzak
 - airtable_createdTime: '2020-02-10T17:32:22.000Z'
   airtable_id: recLQhRQGBSo9KYnC
   name: Federal Procurement Data System (FPDS)
@@ -2552,8 +2484,6 @@
   - rec8PdH7hI4omQshl
 - airtable_createdTime: '2021-08-13T21:20:19.000Z'
   airtable_id: recN3HjMp59Lo7u2T
-  data_stewards:
-  - rec392HdqWBNiJk6Q
   description: Storms and other significant weather phenomena having sufficient intensity
     to cause loss of life, injuries, significant property damage, and/or disruption
     to commerce; Rare, unusual, weather phenomena that generate media attention; and
@@ -2569,7 +2499,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: NCEI Customer Support
   tag:
   - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -2698,8 +2627,6 @@
   - reczc8aUuFa86x1WA
 - airtable_createdTime: '2021-08-13T21:22:32.000Z'
   airtable_id: recOLU1SULBxJ5d5S
-  data_stewards:
-  - rec08TwVapPsbmVxv
   description: RCC-ACIS provides a system architecture to manage the complex flow
     of climate information from data collectors to end users of climate information.
     Accessed via a programming interface, the system delivers operational information
@@ -2716,7 +2643,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Select a Regional Climate Center
   tag:
   - Climate
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -2795,8 +2721,6 @@
   stewards_text: Britney McCoy
 - airtable_createdTime: '2022-08-01T23:27:43.000Z'
   airtable_id: recObK5u1KXbnBpY8
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 9
   description: Summary data of HUD assisted housing programs.
   link: https://www.huduser.gov/portal/datasets/assthsg.html
@@ -2809,7 +2733,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recOcdeX1JFgqFD4D
   name: Waste and Recycling
@@ -2953,7 +2876,6 @@
   airtable_id: recQ0EQjhfyiA6d54
   data_stewards:
   - recFN7GwyK88Sd6ye
-  - recjkqqi6LIliwzw7
   datakit_order: 10
   description: Provides economic and demographic characteristics for nonfarm employer
     businesses and business owners by sex, ethnicity, race, and veteran status.
@@ -2967,7 +2889,7 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Andy Hait, Lynda Lee
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recQ22f2P0INVrPnP
   description: Data on COVID-19 testing, cases, hospitalizations, mortalities, and
@@ -2996,8 +2918,6 @@
   - recyl8q9tZWnPoQQt
 - airtable_createdTime: '2021-08-13T21:17:05.000Z'
   airtable_id: recQBVqimINLrCmoE
-  data_stewards:
-  - recCZ5sBL2w3bJLMR
   description: Provides a worst case snapshot for a particular storm category under
     "perfect" storm conditions. Each MOM considers combinations of forward speed,
     trajectory, and initial tide leve
@@ -3012,7 +2932,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Storm Surge FAQ
   tag:
   - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3052,8 +2971,6 @@
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recRAv87ashgDIkwM
-  data_stewards:
-  - recs4WYrAFQqhKYqI
   description: Effort to establish baseline data, aggregate multiple data streams,
     and track disaster giving by philanthropists, government agencies, and NGOs from
     2013 to 2017, segmented by disaster type
@@ -3067,7 +2984,6 @@
   ps_text: Disaster Spending
   sprint:
   - reczc8aUuFa86x1WA
-  stewards_text: Tanya Gulliver-Garcia
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recRFaeTZ3xjJOnfi
   data_stewards:
@@ -3091,8 +3007,6 @@
   stewards_text: Tom Crafford, Beth Sangine
 - airtable_createdTime: '2022-08-01T23:27:05.000Z'
   airtable_id: recRH2Mdnk2dK2gDs
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 6
   description: Each year, the U.S. Department of Housing and Urban Development (HUD)
     receives custom tabulations of American Community Survey (ACS) data from the U.S.
@@ -3109,7 +3023,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recRNl86Jv4lOJKqy
   name: Census County Business Patterns
@@ -3185,8 +3098,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-08-13T16:46:27.000Z'
   airtable_id: recReiIGTrZawk2dm
-  data_stewards:
-  - recir68FPBwdpyXsl
   description: Long-term change in global mean sea level from satellite altimeter
     radar measurements
   link: https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/
@@ -3200,7 +3111,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: NOAA STAR Contact Page
   tag:
   - Climate
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -3235,8 +3145,6 @@
   stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recRm43Fz5KkjjcyN
-  data_stewards:
-  - recHQC1hU05Sw7kLj
   datakit_order: 15
   description: Shows an index of resilience, or the capacity of individuals and households
     within a community to absorb, endure, and recover from the impacts of a disaster.
@@ -3255,7 +3163,6 @@
   sprint:
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Bethany DeSalvo
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recRskiGleSLFerp9
   data_stewards:
@@ -3520,9 +3427,6 @@
   - Social Vulnerability
 - airtable_createdTime: '2021-08-13T16:51:55.000Z'
   airtable_id: recT3xl4qnQWnBt95
-  data_stewards:
-  - recZxlHqXRkm0Ldn3
-  - recQiYmUbUChFqjdR
   description: Six representative global mean sea level rise scenarios, based on the
     most up-to-date scientific literature on global mean sea level projections, including
     recent observational and modeling studies related to the potential for rapid ice
@@ -3538,7 +3442,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Greg Dusek, Billy Sweet
   tag:
   - Risk
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
@@ -3564,8 +3467,6 @@
   stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: recT9Gbguz7W0PKUD
-  data_stewards:
-  - recNDEkd12iDTLJQb
   description: Maps and information that encourage individuals, organizations and
     communities to take proactive steps to reducing flood risk
   link: https://www.fema.gov/flood-maps/tools-resources/risk-map
@@ -3579,7 +3480,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: FEMA Contacts
   tag:
   - Risk
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -3743,8 +3643,6 @@
   - rec4Y10emS9DtmBpT
 - airtable_createdTime: '2021-08-13T21:19:45.000Z'
   airtable_id: recUkeL0BLekZM3qe
-  data_stewards:
-  - rec392HdqWBNiJk6Q
   description: Time series graphs and information to put current drought into context
   link: https://www.ncdc.noaa.gov/temp-and-precip/drought/historical-palmers/
   name: Historical drought maps
@@ -3757,7 +3655,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: NCEI Customer Support
   tag:
   - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -3922,8 +3819,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2022-08-11T14:16:53.000Z'
   airtable_id: recX77rTWlcbp8rtV
-  data_stewards:
-  - rec63pw7Rf4nShKiB
   description: A comprehensive measure of the economies of counties, metropolitan
     statistical areas, and some other local areas. Gross domestic product estimates
     the value of the goods and services produced in an area.
@@ -3937,7 +3832,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Jeff Newman
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recXITRDvy1uaWFZg
   name: EPA Livability Indicators
@@ -3955,8 +3849,6 @@
   - reclF9Mn2Z6aMqzJk
 - airtable_createdTime: '2022-08-11T14:44:35.000Z'
   airtable_id: recXedw1urGLCiWkL
-  data_stewards:
-  - rechRaahy1e0fhvhM
   description: The American Time Use Survey (ATUS) provides nationally representative
     estimates of how, where, and with whom Americans spend their time, and is the
     only federal survey providing data on the full range of nonmarket activities,
@@ -3977,7 +3869,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Rose Woods
 - airtable_createdTime: '2020-02-10T17:32:08.000Z'
   airtable_id: recXpPrWBZtEtCQ62
   name: Grants.gov
@@ -3991,9 +3882,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recXwBWw20qB2M9Bo
-  data_stewards:
-  - recVIIum28cWbUGkV
-  - reconuLPVwBzSj58R
   datakit_order: 3
   description: Deployed in the midst of the COVID-19 pandemic that measures the effects
     of changing business conditions on small business operations and finances, requests
@@ -4010,7 +3898,6 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Colin J Shevlin, Kathryn Bonney
 - airtable_createdTime: '2020-02-10T18:28:58.000Z'
   airtable_id: recXye08klgBkn1My
   description: The U.S. Department of Transportation (USDOT) and its partners from
@@ -4198,8 +4085,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2022-08-09T17:46:00.000Z'
   airtable_id: recZvHmtVabx7n59M
-  data_stewards:
-  - recFE5ogDTq3q6I4y
   description: Address Data Collection Tools for local governments.
   link: https://opportunity.census.gov/showcase/?search=helping-tribal-state-and-local-governments-with-local-address-data-collection
   name: TOP 2018 tools created in response to an earlier version of this challenge
@@ -4211,7 +4096,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: David Cackowski
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reca0iePHTw88poRP
   name: HHS Annual Performance Report
@@ -4538,9 +4422,6 @@
   stewards_text: Suzanne McArdle
 - airtable_createdTime: '2021-08-13T21:45:02.000Z'
   airtable_id: rece3FIEh33mW0zDF
-  data_stewards:
-  - recaTb3X7BFgLNXZw
-  - recDMs9ZZKatRJ6fX
   description: Demographic and socio-economic data from the 2020 Census
   link: https://www.census.gov/data.html
   name: Census Tract Maps
@@ -4553,7 +4434,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Joshua Coutts, Bryce Davenport
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rece8G25DNqYv7wRZ
   data_stewards:
@@ -4591,8 +4471,6 @@
   - rec4vys7lW5OufL2k
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: receBN5BpEnen4rNP
-  data_stewards:
-  - recMZZk0gmfw8XK6P
   description: Data viewer lets users earch for and download elevation (lidar), imagery,
     and land cover data for the coastal U.S. and its territories.
   link: https://coast.noaa.gov/dataviewer/#/
@@ -4606,7 +4484,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Randy Warren
   tag:
   - Imagery + Base Maps
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
@@ -4727,8 +4604,6 @@
   stewards_text: Theresa Firestine
 - airtable_createdTime: '2021-08-13T16:35:36.000Z'
   airtable_id: recfS2ACBvpRqKDib
-  data_stewards:
-  - rec392HdqWBNiJk6Q
   description: Maps, graphs, and tabular climate data
   link: https://www.ncdc.noaa.gov/cag/
   name: NOAA Climate at a Glance
@@ -4741,7 +4616,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: NCEI Customer Support
   tag:
   - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4776,8 +4650,6 @@
   stewards_text: Hope Pillsbury
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recfhgMMd6T7dgxKN
-  data_stewards:
-  - recXVfv31aTTBmzHk
   datakit_order: 6
   description: Quarterly rental and homeowner vacancy rates for the 75 largest Metropolitan
     Statistical Areas (MSAs)
@@ -4791,7 +4663,6 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Tricia Holley
 - airtable_createdTime: '2020-02-10T17:50:40.000Z'
   airtable_id: recfiOOFb1O1kBgQM
   name: Ready Campaign
@@ -4833,8 +4704,6 @@
   - recyl8q9tZWnPoQQt
 - airtable_createdTime: '2022-08-01T23:34:33.000Z'
   airtable_id: recgOvkoif8F1PfAs
-  data_stewards:
-  - recJ56o8cVQpOjyUa
   datakit_order: 10
   description: The Quarterly Census of Employment and Wages (QCEW) is a quarterly
     count of establishments, employment, and wages reported by employers covering
@@ -4852,7 +4721,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Trent Thompson
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recgS9hiCUoKIGzZr
   description: Nationally consistent dataset and approach for combining environmental
@@ -4870,8 +4738,6 @@
   - reczc8aUuFa86x1WA
 - airtable_createdTime: '2021-08-13T21:31:28.000Z'
   airtable_id: rechGYFvUSJAfuhLH
-  data_stewards:
-  - recMZZk0gmfw8XK6P
   description: The Sea Level Rise Viewer lets users visualize community-level impacts
     from coastal flooding or sea level rise up to 10 feet above average high tides.
     Data are also available as MapServices.
@@ -4886,7 +4752,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Randy Warren
   tag:
   - Risk
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -4973,9 +4838,6 @@
   stewards_text: Andy Hait
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: reciZfD57nJZjU52W
-  data_stewards:
-  - recaTb3X7BFgLNXZw
-  - recDMs9ZZKatRJ6fX
   datakit_order: 12
   description: Data published for the 2020 Census, detailed map of each county in
     each state, recently published in March 2021
@@ -4993,11 +4855,8 @@
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Joshua Coutts, Bryce Davenport
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: recibPLUri64ROeel
-  data_stewards:
-  - recMZZk0gmfw8XK6P
   description: "Coastal and ocean resources are productive drivers for the nation\u2019\
     s economy. NOAA's Digital Coast provides the tools and data sets used to quantify\
     \ these impacts; communities use this information to make informed decisions about\
@@ -5013,7 +4872,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Randy Warren
   tag:
   - Social Vulnerability
 - airtable_createdTime: '2020-02-10T17:42:53.000Z'
@@ -5034,8 +4892,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2022-08-11T14:52:40.000Z'
   airtable_id: recj8poMXpwVWep1e
-  data_stewards:
-  - recvUgBTxcNrx0Dya
   description: The LEHD program produces cost effective, public-use information combining
     federal, state and Census Bureau data on employers and employees.
   link: https://lehd.ces.census.gov/
@@ -5048,7 +4904,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Heath Hayward
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recj9uFk4uyksjHp8
   data_stewards:
@@ -5071,8 +4926,6 @@
   stewards_text: Eric Coyle, Logan Powell
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recjApiKcJpm02UH5
-  data_stewards:
-  - recuL53hzB0sCaWAj
   datakit_order: 20
   description: Conducted every oddly numbered year, most recent in 2019, consisting
     of the 10-30 largest MSAs on variables including the physical condition of homes
@@ -5089,7 +4942,6 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Matthew Streeter
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recjEWRBzfPed6Mjx
   data_stewards:
@@ -5111,8 +4963,6 @@
   stewards_text: Scott Breen
 - airtable_createdTime: '2021-08-13T16:45:40.000Z'
   airtable_id: recjKuqcqqDxhK7GY
-  data_stewards:
-  - recEIDxytoLp6R5vj
   description: Documentation of changes in high-tide flooding patterns from the previous
     year at 97 NOAA tide gauges along the U.S. coast, and provides a flooding outlook
     for these locations for the coming year, as well as projections for the next several
@@ -5128,13 +4978,10 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Center for Operational Oceanographic Products and Services (CO-OPS)
   tag:
   - Climate
 - airtable_createdTime: '2022-08-09T17:40:13.000Z'
   airtable_id: recjNDpvQDA9EONKv
-  data_stewards:
-  - reciOYUxvvptzSo2o
   description: The form is produced in Spanish and English. Survey results are used
     to help make sure that your community gets a fair share of federal funds.
   link: https://gis-fema.hub.arcgis.com/pages/usa-structures
@@ -5148,7 +4995,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Chris Vaughan
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: recjS8XDL8j8Ni4MR
   description: Mapping tool based on nationally consistent data and an approach that
@@ -5168,8 +5014,6 @@
   - Risk
 - airtable_createdTime: '2022-08-09T17:44:44.000Z'
   airtable_id: recjgnJjFfOyD4fwj
-  data_stewards:
-  - recFE5ogDTq3q6I4y
   description: Reports on the state of Federal Agencies Puerto Rico Address Data collection
     and maintenance.
   link: https://ngda-address-geoplatform.hub.arcgis.com/pages/puerto-rico-address-data-working-group
@@ -5182,7 +5026,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: David Cackowski
 - airtable_createdTime: '2020-02-10T17:18:27.000Z'
   airtable_id: recjjHhrKIfcmATHw
   description: Wide-ranging education access and equity data collected from our nation's
@@ -5283,8 +5126,6 @@
   airtable_id: reckylgluwHcF9Rz3
   data_stewards:
   - rec0aGJ5QGJLkM0Pg
-  - recEZqkoFDkhvGgwM
-  - recv3umaNZat8xdhG
   description: This query provides ozone and PM2.5 data from AirNow for recent days
   link: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
   name: Outdoor Air Quality Data
@@ -5297,7 +5138,7 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Phil Dickerson, John White, Rob Wilderman
+  stewards_text: Phil Dickerson
   tag:
   - Climate
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
@@ -5341,8 +5182,6 @@
   stewards_text: Sari Sue Jolly, Anna Parikos, Monika Dukes
 - airtable_createdTime: '2022-07-27T19:14:56.000Z'
   airtable_id: reclTH3Nx3SA8DtoU
-  data_stewards:
-  - rec5ghfC9LHRoqvB1
   datakit_order: 0
   description: The Occupational Employment and Wage Statistics (OEWS) program produces
     employment and wage estimates annually for nearly 800 occupations. These estimates
@@ -5360,7 +5199,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Ben Cover
 - airtable_createdTime: '2020-02-10T17:42:07.000Z'
   airtable_id: reclZWlEoquCih4Jh
   name: Benefits.gov
@@ -5630,8 +5468,6 @@
   stewards_text: Sarah Hay , Tara Lawley
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: recoT5jeogid79NbG
-  data_stewards:
-  - recHQC1hU05Sw7kLj
   description: Community resilience for each county and in some areas by neighbood,
     most recent data gathered from 2019 ACS
   link: https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html
@@ -5645,7 +5481,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Bethany DeSalvo
   tag:
   - Social Vulnerability
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
@@ -6011,7 +5846,6 @@
   airtable_id: rectO6IN5DL3Rljc7
   data_stewards:
   - recFN7GwyK88Sd6ye
-  - recjkqqi6LIliwzw7
   datakit_order: 9
   description: Measures business initiation activity and the cycle from initiation
     to realized business formation. Uses Employer Identification Number (EIN) applications
@@ -6027,7 +5861,7 @@
   ps_text: Local Decision Making
   sprint:
   - recAocia3ypyTShB1
-  stewards_text: Andy Hait, Lynda Lee
+  stewards_text: Andy Hait
 - airtable_createdTime: '2021-07-20T17:15:07.000Z'
   airtable_id: rectThiP9XjTNOqZ9
   name: HUD Community Assessment Reporting Tool (CART)
@@ -6053,8 +5887,6 @@
   - rec5A5h9cq07ijoPk
 - airtable_createdTime: '2022-08-09T13:08:36.000Z'
   airtable_id: rectqNgZPCyQSjHQ5
-  data_stewards:
-  - rec8bfHaA7zEPxfYN
   description: "The core TIGER/Line Files and Shapefiles do not include demographic\
     \ data, but they do contain geographic entity codes (GEOIDs) that can be linked\
     \ to the Census Bureau\u2019s demographic data, available on data.census.gov."
@@ -6069,7 +5901,6 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Patrick Jurgens
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: rectromRwie5gWpO4
   data_stewards:
@@ -6155,8 +5986,6 @@
   stewards_text: Andy Hait
 - airtable_createdTime: '2021-08-13T21:18:21.000Z'
   airtable_id: recuTx8mZcxKwIin6
-  data_stewards:
-  - rec5ZkJ6H0Bs2wNeW
   description: Current and historical conditions and impacts from drought
   link: https://www.drought.gov/
   name: Drought.gov Data & Maps
@@ -6169,7 +5998,6 @@
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
-  stewards_text: Technical Questions
   tag:
   - Climate
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
@@ -6191,8 +6019,6 @@
   - rec8PdH7hI4omQshl
 - airtable_createdTime: '2022-08-11T14:55:33.000Z'
   airtable_id: recuiNIjq1QKCFacZ
-  data_stewards:
-  - recnVz3wTGaiRi2Fq
   description: The National Crime Victimization Survey (NCVS) is an annual data collection
     on criminal victimization (violent and property crime), including crimes reported
     and not reported to police, from a nationally representative sample of U.S. households.
@@ -6209,7 +6035,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Lexy Thompson
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: reculZxaACMYLbtZl
   data_stewards:
@@ -6251,8 +6076,6 @@
   - rec68a7razj3IGOyX
 - airtable_createdTime: '2022-08-01T23:26:19.000Z'
   airtable_id: recvUPFiteUDDjQ66
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 3
   description: Fair Market Rents (FMRs) are used to determine payment standard amounts
     for multiple federal housing programs. They are calculated annually and are estimates
@@ -6267,7 +6090,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-07-20T15:43:56.000Z'
   airtable_id: recvYdRCWPra59SDl
   description: The Citizen Science Cloud is a place where anyone can share and access
@@ -6392,8 +6214,6 @@
   - recV0aW7ZolC7aIoy
 - airtable_createdTime: '2022-08-11T14:47:03.000Z'
   airtable_id: recwiodSndr7tgy4n
-  data_stewards:
-  - rec7IjsBAdHyQV6j1
   description: The Contingent Worker Supplement (CWS) collected information about
     contingent workers (people who do not expect their jobs to last or who report
     that their jobs are temporary) and those in alternative employment arrangements
@@ -6413,7 +6233,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Karen Kosanovich
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recwpJdy7nLKeyB9n
   name: FEMA Mission Summaries
@@ -6439,8 +6258,6 @@
   - recbhMlc1WZWXNte0
 - airtable_createdTime: '2022-08-01T23:26:54.000Z'
   airtable_id: recxHyUgFgQOst3eS
-  data_stewards:
-  - rec5ZKFWH6yDgNvK1
   datakit_order: 5
   description: This publicly available, interactive tool provides access to HUD-provided
     data
@@ -6454,7 +6271,6 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - recX8qMzecPlE76HV
-  stewards_text: Zack McRae
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recxReBEEKnZu27SS
   data_stewards:
@@ -6516,8 +6332,6 @@
   - Demographic
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recyPvqywI0Ho1REW
-  data_stewards:
-  - rec8bfHaA7zEPxfYN
   datakit_order: 16
   description: Released annually, most recently February 2021 covering 2020 data.
     Provides an extract of selected geographic and cartographic information, as well
@@ -6537,7 +6351,6 @@
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
   - recAocia3ypyTShB1
-  stewards_text: Patrick Jurgens
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recynfESoUGMsEDkW
   data_stewards:

@@ -30,18 +30,17 @@
               {% assign active = "text-underline" %}
             {% endif %}
             <li class="usa-nav__primary-item">
-              <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15 margin-bottom-6 {{active}}" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
+              <a class="usa-nav__link text-ls-2 font-sans-3xs text-light text-white margin-top-15 margin-bottom-6 {{active}}" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text | upcase }}</span></a>
             </li>
           {% endfor %}
+            <li class="usa-nav__primary-item">
+              {% if page.type == "topx" %}
+            <a class="usa-nav__link text-ls-2 font-sans-3xs text-light text-center text-base-darkest bg-orange-5 margin-top-15 margin-bottom-6" style="max-width:13ch; padding:0.5rem;"
+              href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD ALL RESOURCES</a>
+            {% endif %}
+          </li>
         </ul>
       </nav>
-      <div class="download-pdf margin-right-5">
-        {% if page.type == "topx" %}
-          <a class="usa-nav__link font-mono-2xs text-ls-2 text-light text-white margin-left-2 margin-top-15" 
-          href="{{site.baseurl}}/{{site.data.nav.toolkit.download-pdf-link}}" target="_blank">DOWNLOAD PDF</a>
-          <img src="{{site.baseurl}}/assets/img/icons/download-white-sm.png" alt="Download icon" class="margin-left-1">
-        {% endif %}
-      </div>
     </div>
     {% endif %}
   </div>

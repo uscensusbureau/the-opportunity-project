@@ -40,7 +40,7 @@ continue-text: Phase 2
 ---
 
 {% include toolkit-hero-refresh.html %}
-<section class="grid-container padding-top-8">
+<section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-1.body %}

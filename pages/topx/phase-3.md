@@ -36,7 +36,7 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
 ---
 
 {% include toolkit-hero-refresh.html %}
-<section class="grid-container padding-top-8">
+<section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-3.body %}

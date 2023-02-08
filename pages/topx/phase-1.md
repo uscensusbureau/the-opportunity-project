@@ -34,6 +34,9 @@ lead:
 image: phase-1.png
 image-alt: Three vertical rectangles in a row. The first is filled in red with a one in the center. The rest are outlined
 
+download-text: Phase 1 Templates
+continue-text: Phase 2
+
 ---
 
 {% include toolkit-hero-refresh.html %}
@@ -46,6 +49,22 @@ image-alt: Three vertical rectangles in a row. The first is filled in red with a
           {% include toolkit-key-actions-refresh.html %}
         </div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="text-white bg-primary usa-section">
+  <div class="grid-container">
+    <div>
+      <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
+          class="usa-button usa-button--inverse usa-button--outline site-button">
+          Download All {{page.download-text}}
+      </a>
+    </div>
+    <div>
+      <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
+        class="usa-button margin-top-4 usa-button--secondary site-button">
+        Continue to {{page.continue-text}}
+      </a>
     </div>
   </div>
 </section>

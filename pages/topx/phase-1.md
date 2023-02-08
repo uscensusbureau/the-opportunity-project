@@ -21,7 +21,10 @@ effort:
     amount: 5-20
 intro:
   - title: Overview
-    content: some stuff
+    content:
+      - copy: some stuff
+      - copy: some stuff 2
+      - copy: some stuff 3
   - title: Goals
     content:
      - item: some stuff 1

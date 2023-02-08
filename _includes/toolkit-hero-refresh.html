@@ -23,7 +23,11 @@
           <div class="bg-white">
             <h2 class="margin-bottom-3 text-center text-underline">{{ content.title }}</h2>
             {% if content.title == "Overview" %}
-            <p class="text-base-darkest">{{ content.content }}</p>
+
+              {% for copy in content.content %}
+                <p class="margin-left-0 margin-bottom-3 text-base-darkest">{{copy.copy}}</p>
+              {% endfor %}
+
             {% elsif content.title == "Goals" %}
             <ul class="text-base-darkest">
               {% for items in content.content%}

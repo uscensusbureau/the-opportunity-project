@@ -9,42 +9,42 @@ body:
     overview: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
     to_do:
     - overview:
-      - copy: "TEXT STEP 1 TODO 1"
+      - copy: "Spread the word about TOP within your office and throughout your agency to generate interest and support for your project."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, intranet, internal networks, and broader communications tools to generate interest and find collaborators."
       resources:
-        - download-link: "topx-resources/problem-statement-template.pdf"
-          title: Download link Name
+        - download-link: "topx-resources/phase1-step1-top-information-sheet-template.pdf"
+          title: "Phase 1 Step 1 - TOP Information Sheet Template"
     - overview:
-      - copy: "TEXT STEP 1 TODO 2"
+      - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
-      - copy: "TEXT STEP 1 TODO 3"
+      - copy: "Build a staff-level facilitation team of sprint leaders. Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
       resources:
-        - download-link: "topx-resources/problem-statement-template.pdf"
-          title: Download Link Name
+        - download-link: "topx-resources/phase1-step1-top-facilitation-team-potential-role.pdf"
+          title: "Phase 1 Step 1 - TOP Facilitation Team - Potential Roles"
     - overview:
-      - copy: "TEXT STEP 1 TODO 4"
+      - copy: "Begin meeting weekly as a facilitation team to efficiently distribute responsibility and track progress."
     - overview:
-      - copy: "TEXT STEP 1 TODO 5"
+      - copy: "Consider issue areas that are priorities for your agency, affect communities nationwide, and where open data could be part of effective solutions."
       resources:
-        - download-link: "topx-resources/problem-statement-template.pdf"
-          title: Download Link Name
-        - download-link: "topx-resources/problem-statement-template.pdf"
-          title: Download Link Name
+        - download-link: "topx-resources/phase1-step1-what-makes-a-good-problem-statement.pdf"
+          title: "Phase 1 Step 1 - What Makes a Good Problem Statement"
+        - download-link: "topx-resources/phase1-step1-past-problem-statement.pdf"
+          title: "Phase 1 Step 1 - Past TOP Problem Statements"
     - overview:
-      - copy: "TEXT STEP 1 TODO 6"
+      - copy: "Develop a detailed problem statement."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "To source problem statements, consider:"
         - ul:
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
+          - li: "Search within your agency’s strategic plan, learning agenda, or government-wide documents like the President’s Management Agenda."
+          - li: "Sending a broad request for possible topics to offices across the agency."
       resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: Download Link Name
+        - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
+          title: "Phase 1 Step 1 - Problem Statement Template"
     - overview:
-      - copy: "TEXT STEP 1 TODO 7"
+      - copy: "Identify 1-3 points of contact/sprint leaders who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Sprint leaders are subject matter experts, special advisors, or others knowledgeable about the challenge."
 
 
   - section: Step 2 Refresh

@@ -57,16 +57,16 @@ body:
     - overview:
       - copy: "Provide teams with resources to conduct user research. Linked below are some useful resources."
       - ul:
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
+        - li: "(NO LIST ITEM)"
+        - li: "(NO LIST ITEM)"
+        - li: "(NO LIST ITEM)"
       resources:
-        - download-link: "NO RESOURCE INCLUDED"
-          title: "NO RESOURCE INCLUDED"
-        - download-link: "NO RESOURCE INCLUDED"
-          title: "NO RESOURCE INCLUDED"
-        - download-link: "NO RESOURCE INCLUDED"
-          title: "NO RESOURCE INCLUDED"
+        - download-link: "(NO RESOURCE INCLUDED)"
+          title: "(NO RESOURCE INCLUDED)"
+        - download-link: "(NO RESOURCE INCLUDED)"
+          title: "(NO RESOURCE INCLUDED)"
+        - download-link: "(NO RESOURCE INCLUDED)"
+          title: "(NO RESOURCE INCLUDED)"
     - overview:
         - copy: "Tech teams begin connecting with user advocates to learn more about the needs and pain points of the communities they represent."
         - ul:
@@ -74,10 +74,10 @@ body:
     - overview:
         - copy: "Consider facilitating a problem statement 101 call."
     - overview:
-        - copy: "Facilitate a user research milestone call. User research is ongoing throughout the sprint, but this milestone is solely dedicated to reporting out on user research that informs the rest of the sprint. This is one way the TOP sprint process emphasizes human centered design. (NEED TO INCLUDE THREE RESOURCES)"
+        - copy: "Facilitate a user research milestone call. User research is ongoing throughout the sprint, but this milestone is solely dedicated to reporting out on user research that informs the rest of the sprint. This is one way the TOP sprint process emphasizes human centered design."
         - ul:
           - li: "Tech teams share about their target end users, as well as plans for continued user research."
-          - li: "Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
+          - li: "(NEED TO INCLUDE THREE RESOURCES) Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
 
 
 # use Step 2 as step template!
@@ -98,13 +98,13 @@ body:
       - overview:
         - copy: "Tech teams begin data exploration."
         - ul:
-          - li: "In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
+          - li: "(ADD ANOTHER CHECK MARK LIST BELOW) In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
         toggle:
           - copy: "Share these resources:"
           - ul:
-            - li: "Data.gov - Search over 200,000 datasets from federal agencies. Census.gov/data - Access to all data products and tools from the Census Bureau. Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions (SHOULD THIS BE FORMATTED SEPARATE LISTS?)"
+            - li: "(SHOULD THIS BE FORMATTED SEPARATE LISTS?) Data.gov - Search over 200,000 datasets from federal agencies. Census.gov/data - Access to all data products and tools from the Census Bureau. Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions"
         toggle:
-          - copy: "(NEED TO ADD SECTION FOR CHECK MARK LIST BEFORE TIP - Tech teams begin exploring datasets...) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
+          - copy: "(NEED TO CONFIRM IF THIS IS A TIP TEXT) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
 
 
 
@@ -131,10 +131,10 @@ body:
         - li: "Begin testing their products. User advocates can help to identify potential end users who could serve as beta testers of the tools."
         - li: "Identify at least one key metric they plan to use for measuring usage and impact (e.g., number of downloads, number of monthly active users)."
       toggle:
-      - copy: "Consider sharing these resources as tech teams continue product development, usability testing, and develop plans for measuring impact:"
+      - copy: "(NOT INCLUDED IN MVP) Consider sharing these resources as tech teams continue product development, usability testing, and develop plans for measuring impact:"
       resources:
-      - download-link: "LIST OF FOUR DIFFERENT EXTERNAL LINKS"
-        title: "LIST OF FOUR DIFFERENT EXTERNAL LINKS"
+      - download-link: "(NO RESOURCE)"
+        title: "(NO RESOURCE)"
 
 # use Step 2 as step template!
   - section: Step 5
@@ -146,21 +146,21 @@ body:
     - overview:
       - copy: "Tech teams begin to prepare for a Final MVP Demo. Teams will present a Minimum Viable Product (MVP), which has enough features to allow for testing."
       - ul:
-        - li: "NO LIST"
-        - li: "NO LIST"
+        - li: "(NO LIST)"
+        - li: "(NO LIST)"
       toggle:
-      - copy: "NO TIP"
+      - copy: "(NO TIP)"
     - overview:
-      - copy: "Facilitate a Final MVP Demo. (INCLUDE CHECK MARK LIST AND TIP)"
+      - copy: "(INCLUDE CHECK MARK LIST AND TIP) Facilitate a Final MVP Demo."
     - overview:
       - copy: "After the demo, encourage tech teams to:"
       - ul:
-        - li: "Incorporate feedback from the demo and continue iterating on their product long past the end of the sprint. With input from user advocates, continue to test their product. Develop plans for launching the product to users (if new), or rolling out a new feature of an existing product. (SHOULD THIS BE FORMATTED IN SEPARATE LISTS? AND INCLUDE TIP AFTER)"
+        - li: "(SHOULD THIS BE FORMATTED IN SEPARATE LISTS? AND INCLUDE TIP AFTER) Incorporate feedback from the demo and continue iterating on their product long past the end of the sprint. With input from user advocates, continue to test their product. Develop plans for launching the product to users (if new), or rolling out a new feature of an existing product."
     - overview:
-      - copy: "STEP FOUR REMOVED"
+      - copy: "(STEP FOUR REMOVED)"
       - ul:
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
+        - li: "(NO LIST ITEM)"
+        - li: "(NO LIST ITEM)"
+        - li: "(NO LIST ITEM)"
       toggle:
-      - copy: "NO TIP"
+      - copy: "(NO TIP)"

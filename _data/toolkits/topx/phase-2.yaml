@@ -4,163 +4,163 @@
 body:
 # use Step 2 as step template!
   - section: "Ongoing Tasks"
-    header: Header
+    header: "Ongoing Tasks"
     duration: "ongoing"
     time: "ongoing"
-    overview: Overview
+    overview: "These are your main tasks and resources to execute key action items throughout Phase 2."
     to_do:
     - overview:
-      - copy: "TEXT ONGOING TODO 1"
+      - copy: "Send calendar invitations for all sprint milestone calls 1 - 2 weeks in advance. Sprint milestones include user research, data exploration, concept pitch, beta demo, product sustainability workshop, MVP demo, and a showcase event."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Facilitating milestone calls at the same time and day of the week allows for the most effective cadence. You may want to share calendar invitations for all milestone calls upfront."
     - overview:
-      - copy: "TEXT ONGOING TODO 2"
+      - copy: "Develop a facilitation guide for each milestone call."
       resources:
-        - download-link: "topx-resources/problem-statement-template.pdf"
-          title: Download link Name
+        - download-link: "topx-resources/ongoing-tasks-milestone-facilitation-guide-template.pdf"
+          title: "Milestone Facilitation Guide Template"
     - overview:
-      - copy: "TEXT ONGOING TODO 3"
+      - copy: "Facilitate milestone calls."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Assign a designated facilitator and note-taker from your team."
     - overview:
-      - copy: "TEXT ONGOING TODO 4"
+      - copy: "Use emails and communication tools (e.g., Slack or Microsoft Teams) to share reminders of key actions that sprint participants should be engaging in between milestones."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Refer to the sections below for guidance."
     - overview:
-      - copy: "TEXT ONGOING TODO 5"
+      - copy: "Connect the tech teams with experts whose areas of expertise are relevant to the team’s problem statement. Experts can be user advocates and data, community, and policy experts."
     - overview:
-      - copy: "TEXT ONGOING TODO 6"
+      - copy: "Monitor the progress of each tech team. Check-in 1:1 as needed."
 
 # use Step 2 as step template!
   - section: Step 1
     header: Kickoff
-    duration: "x-x"
-    time: 2
-    overview: Overview
+    duration: "2 weeks"
+    time: "10 hours/week"
+    overview: "Kick off your sprint by hosting a call for all sprint participants to meet and learn more about the problem statement(s). During these first 2 weeks, tech teams will also develop a plan for their work during the sprint."
     to_do:
     - overview:
-      - copy: "TEXT STEP 1 TODO 1"
+      - copy: "Facilitate a kickoff call."
       - ul:
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
+        - li: "Sprint participants (e.g., sprint leaders, tech teams, user advocates) introduce themselves."
+        - li: "Sprint leaders provide high-level information on the sprint process and timeline."
       resources:
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: DOWNLOAD LINK NAME
+      - download-link: "topx-resources/phase2-step1-tips-on-leading-a-meeting-with-remote-participants.docx"
+        title: "Tips on Leading a Meeting with Remote Participants"
 
 # use Step 2 as step template!
   - section: Step 2
     header: User Research
-    duration: "x-x"
-    time: 2
-    overview: Overview
+    duration: "4 weeks"
+    time: "20 hours/week"
+    overview: "After the kickoff call, tech teams will begin user research. They will connect with user advocates who can offer insights into their communities. During this process, participants will likely require more guidance and introductions."
     to_do:
     - overview:
-      - copy: "TEXT STEP 2 TODO 1"
+      - copy: "Provide teams with resources to conduct user research. Linked below are some useful resources."
       - ul:
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
+        - li: "NO LIST ITEM"
+        - li: "NO LIST ITEM"
+        - li: "NO LIST ITEM"
       resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
+        - download-link: "NO RESOURCE INCLUDED"
+          title: "NO RESOURCE INCLUDED"
+        - download-link: "NO RESOURCE INCLUDED"
+          title: "NO RESOURCE INCLUDED"
+        - download-link: "NO RESOURCE INCLUDED"
+          title: "NO RESOURCE INCLUDED"
     - overview:
-        - copy: "TEXT STEP 2 TODO 2"
+        - copy: "Tech teams begin connecting with user advocates to learn more about the needs and pain points of the communities they represent."
         - ul:
-          - li: "TEXT FOR LIST ITEM"
+          - li: "Tech teams should also consider reaching out to additional advocacy organizations, service providers, or others with experience relevant to the challenge. If they already have end users or partners, they can certainly collaborate with those groups during the sprint."
     - overview:
-        - copy: "TEXT STEP 2 TODO 3"
+        - copy: "Consider facilitating a problem statement 101 call."
     - overview:
-        - copy: "TEXT STEP 2 TODO 4"
+        - copy: "Facilitate a user research milestone call. User research is ongoing throughout the sprint, but this milestone is solely dedicated to reporting out on user research that informs the rest of the sprint. This is one way the TOP sprint process emphasizes human centered design. (NEED TO INCLUDE THREE RESOURCES)"
         - ul:
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
+          - li: "Tech teams share about their target end users, as well as plans for continued user research."
+          - li: "Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
 
 
 # use Step 2 as step template!
   - section: Step 3
     header: Data Exploration
-    duration: "x-x"
-    time: 2
-    overview: Overview
+    duration: "3 weeks"
+    time: "20 hours/week"
+    overview: "In this next milestone, tech teams begin identifying and exploring relevant datasets. Tech teams will connect with data stewards via email and phone to learn more about available datasets. Participants will still need some guidance from the facilitation team."
     to_do:
       - overview:
-        - copy: "TEXT STEP 3 TODO 1"
+        - copy: "Share the list of suggested datasets that includes dataset descriptions, links, and data steward contact information."
       - overview:
-        - copy: "TEXT STEP 3 TODO 2"
+        - copy: "Facilitate a data exploration milestone call. Products should all use federal open data, so this milestone is an important opportunity to ensure teams can find the data they need."
         - ul:
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
+          - li: "Data stewards provide an introduction to datasets in which they have expertise."
+          - li: "Tech teams give brief updates on what data they are looking for."
+          - li: "Sprint leaders facilitate a Q&A between data stewards and tech teams."
       - overview:
-        - copy: "TEXT STEP 3 TODO 3"
+        - copy: "Tech teams begin data exploration."
         - ul:
-          - li: "TEXT FOR LIST ITEM"
+          - li: "In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
         toggle:
-          - copy: "TIP TEXT"
+          - copy: "Share these resources:"
           - ul:
-            - li: "TEXT FOR LIST ITEM"
+            - li: "Data.gov - Search over 200,000 datasets from federal agencies. Census.gov/data - Access to all data products and tools from the Census Bureau. Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions (SHOULD THIS BE FORMATTED SEPARATE LISTS?)"
         toggle:
-          - copy: "TIP TEXT"
+          - copy: "(NEED TO ADD SECTION FOR CHECK MARK LIST BEFORE TIP - Tech teams begin exploring datasets...) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
 
 
 
 # use Step 2 as step template!
   - section: Step 4
     header: Product Development
-    duration: "x-x"
-    time: 2
-    overview: Overview
+    duration: "6 weeks"
+    time: "20 hours/week"
+    overview: "Over the course of the next 5-6 weeks, tech teams will develop their products. Two weeks into this process, tech teams will present initial demos of their product ideas to all participants."
     to_do:
     - overview:
-        - copy: "TEXT STEP 4 TODO 1"
+        - copy: "Encourage tech teams to begin preparing for an initial demo by engaging in scoping, ideation, design, and development."
     - overview:
-      - copy: "TEXT STEP 4 TODO 2"
+      - copy: "Facilitate a “Concept Pitch” milestone call."
       - ul:
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
+        - li: "Sprint leaders assign each tech team a time slot during this milestone call to share their initial progress. This call is best facilitated via video conferencing."
+        - li: "Sprint leaders, user advocates, data stewards, and other tech teams offer feedback to each team."
       toggle:
-      - copy: "TIP TEXT"
+      - copy: "There will likely be significant variation in terms of progress and product maturity. Some teams may present using a slide deck with initial concepts, while others may have wireframes, mockups, or initial tools in progress."
     - overview:
-      - copy: "TEXT STEP 4 TODO 3"
+      - copy: "After the demo, encourage teams to:"
       - ul:
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
+        - li: "Incorporate feedback from the demo."
+        - li: "Begin testing their products. User advocates can help to identify potential end users who could serve as beta testers of the tools."
+        - li: "Identify at least one key metric they plan to use for measuring usage and impact (e.g., number of downloads, number of monthly active users)."
       toggle:
-      - copy: "TIP TEXT"
+      - copy: "Consider sharing these resources as tech teams continue product development, usability testing, and develop plans for measuring impact:"
       resources:
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: DOWNLOAD LINK NAME
+      - download-link: "LIST OF FOUR DIFFERENT EXTERNAL LINKS"
+        title: "LIST OF FOUR DIFFERENT EXTERNAL LINKS"
 
 # use Step 2 as step template!
   - section: Step 5
     header: Final Product Development
-    duration: "x-x"
-    time: 2
-    overview: Overview
+    duration: "2 weeks"
+    time: "15 hours/week"
+    overview: "The last two weeks of the sprint include facilitating final demos, and beginning to plan an end-of-sprint Demo Day."
     to_do:
     - overview:
-      - copy: "TEXT STEP 5 TODO 1"
+      - copy: "Tech teams begin to prepare for a Final MVP Demo. Teams will present a Minimum Viable Product (MVP), which has enough features to allow for testing."
       - ul:
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
+        - li: "NO LIST"
+        - li: "NO LIST"
       toggle:
-      - copy: "TIP TEXT"
+      - copy: "NO TIP"
     - overview:
-      - copy: "TEXT STEP 5 TODO 2"
+      - copy: "Facilitate a Final MVP Demo. (INCLUDE CHECK MARK LIST AND TIP)"
     - overview:
-      - copy: "TEXT STEP 5 TODO 3"
+      - copy: "After the demo, encourage tech teams to:"
       - ul:
-        - li: "TEXT FOR LIST ITEM"
+        - li: "Incorporate feedback from the demo and continue iterating on their product long past the end of the sprint. With input from user advocates, continue to test their product. Develop plans for launching the product to users (if new), or rolling out a new feature of an existing product. (SHOULD THIS BE FORMATTED IN SEPARATE LISTS? AND INCLUDE TIP AFTER)"
     - overview:
-      - copy: "TEXT STEP 5 TODO 4"
+      - copy: "STEP FOUR REMOVED"
       - ul:
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
-        - li: "TEXT FOR LIST ITEM"
+        - li: "NO LIST ITEM"
+        - li: "NO LIST ITEM"
+        - li: "NO LIST ITEM"
       toggle:
-      - copy: "TIP TEXT"
+      - copy: "NO TIP"

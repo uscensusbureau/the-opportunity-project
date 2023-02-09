@@ -3,13 +3,13 @@
   <div class="grid-container padding-bottom-5">
     <div class="grid-row desktop:height-mobile flex-column">
 
-        <h1 class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-base-darkest">
+        <h1 class="font-sans-3xl text-semi-bold  text-base-darkest">
           {{ page.header }}
         </h1>
         {% assign indicators = page.effort %}
         <div class="grid-row">
           {% for indicator in indicators %}
-          <h2 class=" padding-1 desktop:margin-bottom-5 desktop:margin-right-3 bg-red-warm-50v text-center">
+          <h2 class=" padding-1 margin-bottom-5 margin-right-3 bg-red-warm-50v text-center">
             {% if indicator.title == "Duration" %}
             Total {{ indicator.title }}: {{ indicator.amount }} months
             {% elsif indicator.title == "Time" %}
@@ -18,10 +18,10 @@
           </h2>
           {% endfor %}
         </div>
-        <div class="grid-row">
+        <div class="grid-row grid-gap-lg">
           {% assign blurbs = page.intro %}
           {% for content in blurbs %}
-          <div class="bg-white">
+          <div class="bg-white margin-3 grid-col-8 tablet:grid-col ">
             <h2 class="margin-bottom-3 text-center text-underline">{{ content.title }}</h2>
             {% if content.title == "Overview" %}
 

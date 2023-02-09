@@ -124,8 +124,8 @@ body:
           - li: "Make sure you have access to a phone dial-in number for facilitating milestone calls."
           - li: "Select a video conferencing tool that is approved by your agency, such as Zoom, Teams, Webex, or Google Meet. Some check-ins (e.g., demos) are better facilitated by video conferences."
         resources:
-        - download-link: "RESOURCE REMOVED"
-          title: "RESOURCE REMOVED"
+        - download-link: "(RESOURCE REMOVED)"
+          title: "(RESOURCE REMOVED)"
       - overview:
         - copy: "When you’re ready to kick off, send a welcome email to all sprint participants. This email should include:"
         - ul:

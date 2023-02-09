@@ -147,7 +147,7 @@ h1, h2, h3 {
 .site-header {
   background-color: color("base-darkest");
   @include typeset("lang");
-  
+
   @include at-media("desktop") {
     .buttons {
       .usa-button {
@@ -473,7 +473,7 @@ h1, h2, h3 {
     position: relative;
     text-decoration: none;
     height: 100%;
-    
+
     &:active {
       @include add-bar(0.5, 'secondary', "bottom", 0, 2, 0);
       color: color('secondary');
@@ -525,7 +525,7 @@ h1, h2, h3 {
       flex-direction: row;
       justify-content: center;
     }
-    
+
     @include at-media('desktop'){
       top: 5em;
       height: 100%; //units($height-nav-secondary);
@@ -831,7 +831,7 @@ main {
     padding: 0 5rem;
     margin-bottom: -1rem;
   }
-  
+
   .data-kit__card {
     // width: 90%;
     position: relative;
@@ -960,7 +960,7 @@ main {
       vertical-align: middle;
     }
   }
-  
+
 }
 
 
@@ -1082,7 +1082,7 @@ main {
   @include u-bg('primary-darker');
   @include grid-col(12);
   @include u-order('first');
-  
+
   @include at-media-max('tablet-lg') {
     @include u-height('card');
   }
@@ -1105,7 +1105,7 @@ main {
   }
 }
 
-.site-radio {  
+.site-radio {
   @include u-bg('transparent');
   [class$=__label] {
     @include u-radius('pill');
@@ -1157,7 +1157,7 @@ main {
     &::before {
       background-color: transparent;
       box-shadow: 0 0 0 2px color('white');
-      
+
     }
   }
   input:checked+label::before {
@@ -1195,7 +1195,7 @@ main {
 }
 
 .dkh-details {
-  
+
   color: color("white");
   h3 {
     font-weight: 700;
@@ -1401,35 +1401,38 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: end;
   width: 100%;
   height: 100%;
-  max-width: 278px;
-  max-height: 169px;
+
 
   .toolkit-blue-rectangle {
     @include grid-col;
-    @include u-bg('primary');
-    @include u-outline('1px');
-    @include u-outline-color('white');
-    @include u-margin-x(1);
-    @include u-minh(15);
+    @include u-bg('white');
+    @include u-minh(8);
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
+    border-left: 2px color('base-darkest') solid;
+    border-right: 2px color('base-darkest') solid;
+
     &:nth-child(1) {
       @include u-margin-left(0);
-      @include u-bg('blue-cool-20v');
+
     }
     &:nth-child(2) {
-      @include u-bg('accent-cool-lightest')
+
     }
     &:nth-child(3) {
       @include u-margin-right(0);
-      @include u-bg('blue-warm-70v')
     }
 
     &.hide {
-      background-color: transparent;
+      // border: none;
+      @include u-border-color('primary');
+      @include u-bg('primary');
+      @include u-maxh(4);
+      margin: 0 2px;
     }
   }
 }
@@ -3133,7 +3136,7 @@ code {
       padding-bottom: .6rem;
       padding-top: .7rem;
     }
-  } 
+  }
 }
 
 .product-filter__button {
@@ -3292,7 +3295,7 @@ code {
     color: color('base-darkest');
     border-left-width: 1px;
     border-right-width: 1px;
-    
+
   }
 }
 
@@ -4568,7 +4571,7 @@ $theme-table-column-gap: 4;
   .nav-svg {
     // #5c5c5c
     filter: invert(32%) sepia(0%) saturate(4070%) hue-rotate(139deg) brightness(105%) contrast(88%);
-    
+
   }
   &:hover {
     .nav-svg {
@@ -4938,8 +4941,8 @@ body {
   justify-content: space-between;
 }
 
-.card-header, 
-.news-blurb, 
+.card-header,
+.news-blurb,
 .usa-media-block__background-image-landscape {
   h3 a {
     position: relative;
@@ -4999,7 +5002,7 @@ body {
   a {
     text-decoration: none;
     color: color("white");
-    
+
     &:hover {
       color: color("base-light");
       text-decoration: underline;
@@ -5031,7 +5034,7 @@ body {
 .short-card {
   @include u-maxh('card-lg');
   @include u-margin-bottom(2);
-  
+
   &:last-child{
     @include u-margin-bottom(0);
   }
@@ -5097,7 +5100,7 @@ h2.section-header, h3.section-header {
     padding-left: units($theme-column-gap-mobile / 2) !important;
     padding-right: units($theme-column-gap-mobile / 2) !important;
   }
-    
+
 }
 
 .news-blurb {
@@ -5129,7 +5132,7 @@ h2.section-header, h3.section-header {
     > * {
       @include u-padding-left(2);
     }
-    
+
   }
   &:last-child .grid-row {
     @include u-border-bottom(0);

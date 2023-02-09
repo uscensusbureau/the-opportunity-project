@@ -3,10 +3,10 @@
 
 body:
   - section: Step 1 Refresh
-    header: Form a Facilitation Team
-    duration: "2-4"
-    time: 5
-    overview: This step and the following (Define Problem Statements) can be done in any order, or concurrently.
+    header: Form a Team to Identify Your Problem
+    duration: "2-4 weeks"
+    time: "5 hours/week"
+    overview: "As you begin planning for your TOP sprint, you will need to recruit a team within your agency to help facilitate the project and work on day-to-day operations. Members of this team will all be considered ‘sprint leaders’ and you will see that term used frequently throughout this Toolkit. You will also need to identify the problem you are seeking to solve through your sprint. Your problem statement should describe a challenge your agency is working to solve for the public. Challenges can be any priority within your agency’s mission. Tech teams from outside of government will build tools that use data to help solve this challenge." 
     to_do:
     - overview:
       - copy: "Spread the word about TOP within your office and throughout your agency to generate interest and support for your project."
@@ -14,23 +14,23 @@ body:
         - copy: "Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, intranet, internal networks, and broader communications tools to generate interest and find collaborators."
       resources:
         - download-link: "topx-resources/phase1-step1-top-information-sheet-template.pdf"
-          title: "Phase 1 Step 1 - TOP Information Sheet Template"
+          title: "TOP Information Sheet Template"
     - overview:
       - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
       - copy: "Build a staff-level facilitation team of sprint leaders. Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
       resources:
         - download-link: "topx-resources/phase1-step1-top-facilitation-team-potential-role.pdf"
-          title: "Phase 1 Step 1 - TOP Facilitation Team - Potential Roles"
+          title: "TOP Facilitation Team - Potential Roles"
     - overview:
       - copy: "Begin meeting weekly as a facilitation team to efficiently distribute responsibility and track progress."
     - overview:
       - copy: "Consider issue areas that are priorities for your agency, affect communities nationwide, and where open data could be part of effective solutions."
       resources:
         - download-link: "topx-resources/phase1-step1-what-makes-a-good-problem-statement.pdf"
-          title: "Phase 1 Step 1 - What Makes a Good Problem Statement"
+          title: "What Makes a Good Problem Statement"
         - download-link: "topx-resources/phase1-step1-past-problem-statement.pdf"
-          title: "Phase 1 Step 1 - Past TOP Problem Statements"
+          title: "Past TOP Problem Statements"
     - overview:
       - copy: "Develop a detailed problem statement."
       toggle:
@@ -40,7 +40,7 @@ body:
           - li: "Sending a broad request for possible topics to offices across the agency."
       resources:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
-          title: "Phase 1 Step 1 - Problem Statement Template"
+          title: "Problem Statement Template"
     - overview:
       - copy: "Identify 1-3 points of contact/sprint leaders who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams."
       toggle:
@@ -48,95 +48,95 @@ body:
 
 
   - section: Step 2 Refresh
-    header: Define Problem Statement(s)
-    duration: "2-4"
-    time: 2
-    overview: Be sure to review the Resources section below for guidelines, examples of past problem statements, and a template for writing your own.
+    header: Recruit Sprint Participants
+    duration: "4-6 weeks"
+    time: "20 hours/week"
+    overview: "Collaboration is an essential part of the TOP process. Once you have identified a clear and compelling problem statement, it is time to recruit technologists, universities, data and policy experts, community leaders, and advocates to participate in the sprint."
     to_do:
     - overview:
-      - copy: "TEXT STEP 2 TODO 1"
+      - copy: "Identify the start and end dates for your sprint."
     - overview:
-      - copy: "TEXT STEP 2 TODO 2"
+      - copy: "Create a detailed sprint timeline, including the number and frequency of milestones."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "If your sprint topic involves jargon or technical information that the participants will have to navigate, consider offering an orientation session to provide more information on technical terms, data, past solutions, and any additional relevant information."
       resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/phase1-step2-customizable-sprint-timeline-template.pdf"
+          title: "Customizable Sprint Timeline Template"
     - overview:
-      - copy: "TEXT STEP 2 TODO 3"
+      - copy: "Review the Sprint Roles resource linked below. A typical TOP sprint will include subject matter experts (e.g., sprint leaders), data stewards, tech teams, and user advocates."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Consider identifying experts from outside of government who can act as “product advisors” and offer tech teams product strategy advice."
       resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/phase1-step2-sprint-roles.docx"
+          title: "Sprint Roles"
     - overview:
-      - copy: "TEXT STEP 2 TODO 4"
+      - copy: "Customize the templates to develop outreach emails and recruitment materials to recruit tech teams and user advocates."
       resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/phase1-step2-top-recruitment-email.docx"
+          title: "TOP Recruitment Email"
     - overview:
-      - copy: "TEXT STEP 2 TODO 5"
+      - copy: "Develop a list of potential participants."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Engage your agency’s outreach and partnerships team to leverage existing networks and relationships."
       resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/phase1-step2-tips-for-identifying-potential-sprint-participants .docx"
+          title: "Tips for Identifying Potential Sprint Participants "
     - overview:
-      - copy: "TEXT STEP 2 TODO 6"
+      - copy: "Reach out to potential participants by email and include tech teams or user advocate overview documents, problem statements, and a timeline. Consider reaching out with an overview first, and then follow up with details after receiving initial interest."
       resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
+        - download-link: "topx-resources/phase1-step2-tech-team-role-overview.docx"
+          title: "Tech Team Role Overview"
+        - download-link: "topx-resources/phase1-step2-user-advocate-role-overview.docx"
+          title: "User Advocate Role Overview"
     - overview:
-      - copy: "TEXT STEP 2 TODO 7"
+      - copy: "Follow up with interested parties and share further information through individual meetings and/or open information sessions."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Consider organizing a webinar or conference call to share information with many stakeholders at once."
     - overview:
-      - copy: "TEXT STEP 2 TODO 8"
+      - copy: "Begin developing a list of likely participants."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "For each problem statement you should aim to identify:"
         - ul:
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
+          - li: "3-4 tech teams."
+          - li: "At least 2-3 user advocates."
+          - li: "Where possible, 1 data steward for every dataset."
     - overview:
-      - copy: "TEXT STEP 2 TODO 9"
+      - copy: "Connect with the team you’ve assembled to be sprint leaders to ensure they understand their roles and responsibilities."
       toggle:
-        - copy: "TIP TEXT"
+        - copy: "Sprint Leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
     - overview:
-      - copy: "TEXT STEP 2 TODO 10"
+      - copy: "Connect with data stewards to be sure they understand their role and identify additional data stewards as needed."
 
 
 
   - section: Step 3 Refresh
-    header: Recruit Sprint Participants
-    duration: "2-4"
-    time: 3
-    overview: Collaboration is an essential part of the TOPx process. Each sprint includes technologists from industry and/or universities, data and policy experts from government, community leaders, and advocates. The recruitment process gets these collaborators on board to participate in the sprint.
+    header: Sprint Preparation
+    duration: "3 weeks"
+    time: "10-15 hours/week"
+    overview: "Once you have identified sprint participants, take a few weeks to prepare for the launch of your sprint." 
     to_do:
       - overview:
-        - copy: "TEXT STEP 3 TODO 1"
+        - copy: "Confirm participation of sprint collaborators."
       - overview:
-        - copy: "TEXT STEP 3 TODO 2"
+        - copy: "Select the communication tools you will use."
         - ul:
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
+          - li: "Select a digital communication platform. For agencies that approve of its use, Slack is a useful resource for collaboration. It allows users to share messages, tools, and files. Microsoft Teams also provides similar features."
+          - li: "Make sure you have access to a phone dial-in number for facilitating milestone calls."
+          - li: "Select a video conferencing tool that is approved by your agency, such as Zoom, Teams, Webex, or Google Meet. Some check-ins (e.g., demos) are better facilitated by video conferences."
         resources:
-        - download-link: "topx-resources/problem-statement-template.docx"
-          title: DOWNLOAD LINK NAME
+        - download-link: "(RESOURCE REMOVED)"
+          title: "(RESOURCE REMOVED)"
       - overview:
-        - copy: "TEXT STEP 3 TODO 3"
+        - copy: "When you’re ready to kick off, send a welcome email to all sprint participants. This email should include:"
         - ul:
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
-          - li: "TEXT FOR LIST ITEM"
+          - li: "Sprint timeline"
+          - li: "Finalized problem statements"
+          - li: "A sprint participant contact list to encourage email communication between participants, if all parties have agreed to share their information with one another."
         toggle:
-        - copy: "TIP TEXT"
+        - copy: "Be sure to first ask if all participants are comfortable having their contact information shared with others, and provide an opportunity to opt out of the contact list."
       - overview:
-        - copy: "TEXT STEP 3 TODO 4"
+        - copy: "Finalize the list of suggested open datasets and confirm data stewards"
         - ul:
-          - li: "TEXT FOR LIST ITEM"
+          - li: "In a word document, compile descriptions, data steward names, and data steward emails for each dataset. This document will be shared with participants after the User Research Milestone."
       - overview:
-        - copy: "TEXT STEP 3 TODO 5"
+        - copy: "Set a date for a kickoff call and send a calendar invitation to all sprint participants."

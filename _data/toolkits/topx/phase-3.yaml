@@ -2,212 +2,38 @@
 # the main content is divided into sections, which are rendered onto the page in order.
 
 body:
-# use Step 2 as step template!
-  - section: Step Template
-    header: Header
-    duration: "x-x"
-    time: 2
-    overview: Overview
+  - section: Step 1
+    header: Share the Results of the Sprint
+    duration: "4"
+    time: 10
+    overview: "Formally showcasing and launching the tools developed through the sprint allows participants to further network their products to gain end users and help make an impact on the problem and the communities they were built to serve. It also helps you highlight the work your team and agency supported by leading a TOP sprint, and highlights the value of your open data. You can host a small event just for your agency, invite external stakeholders to hear from tech teams about their products, or share the results of your sprint via an agency press release."
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
+      - copy: "Decide how you will  showcase the results of your sprint."
     - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+      - copy: "Coordinate with your agency’s communications team to publicize and highlight the outcome of your sprint."
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
+      - copy: "If you decide to host an end-of sprint event:"
+      - ul:
+        - li: "Invite key stakeholders. Include all sprint participants and key stakeholders within the agency. If you have the capacity to host external stakeholders, consider inviting people from civil society and community organizations, other agencies or parts of the government, and foundations or philanthropies."
+        - li: "If your event will be held virtually, consider what platforms are available for use by your agency."
+        - li: " Identify sprint participants to speak about their experience and the products they built."
+    - overview:
+      - copy: "Reach out to the TOP team at COIL if you would like the tools developed through your sprint to be highlighted during The Opportunity Project Summit, an annual virtual conference hosted by COIL to showcase the tools developed through TOP sprints"
 
-
-# use Step 2 as step template!
-  - section: Step Template
-    header: Header
-    duration: "x-x"
-    time: 2
-    overview: Overview
+  - section: Step 2
+    header: "Post-Sprint Engagement"
+    duration: "4"
+    time: 5
+    overview: "After hosting an end-of-sprint event, share with the teams options for staying in touch and continuing product development and deployment."
     to_do:
     - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
+      - copy: "Tell the TOP team at COIL about your methods and experience with the TOPx Toolkit."
     - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
+      - copy: "Define ways for sprint participants to stay in touch with your agency and one another. This could include a Slack channel, email communications, and/or periodic check-in calls."
+      - ul:
+        - li: "To track product impact, ask tech teams to periodically report back to you on the metrics they collect (e.g., number of downloads, number of monthly active users)."
     - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
-
-
-# use Step 2 as step template!
-  - section: Step Template
-    header: Header
-    duration: "x-x"
-    time: 2
-    overview: Overview
-    to_do:
-    - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
-
-
-# use Step 2 as step template!
-  - section: Step Template
-    header: Header
-    duration: "x-x"
-    time: 2
-    overview: Overview
-    to_do:
-    - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
-
-
-# use Step 2 as step template!
-  - section: Step Template
-    header: Header
-    duration: "x-x"
-    time: 2
-    overview: Overview
-    to_do:
-    - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
-
-
-# use Step 2 as step template!
-  - section: Step Template
-    header: Header
-    duration: "x-x"
-    time: 2
-    overview: Overview
-    to_do:
-    - overview:
-      - copy: Consider issue areas
-      - copy: that are priorities for your agency, affect communities nationwide, and require data or technology innovation
-    - overview:
-      - copy: Develop 1-3 detailed problem statements
-      toggle:
-        - copy: "To source problem statements, consider:"
-        - ul:
-          - li: Building a working group with representatives from across offices
-          - li: Sending a broad request for statements to offices across the agency. Offices will submit problem statement proposals to the TOPx facilitation team
-      resources:
-        - download-link: "topx-resources/what-makes-a-good-problem-statement.pdf"
-          title: What Makes a Good Problem Statement
-          description: Read guidelines for which problem statements are most effective and impactful
-    - overview:
-      - copy: Each problem statement should include 1-3 points of contact/problem statement leads
-      resources:
-      - link: https://opportunity.census.gov/sprints/past-sprints/#past
-        title: Past TOP Problem Statements
-        description: Link example
-      - download-link: "topx-resources/problem-statement-template.docx"
-        title: Problem Statement Template
-        description: Download link example
-      - internal-link: "product-development/toolkit"
-        title: TOP Product Development Toolkit
-        description: Internal link example
-
+      - copy: "Connect participants with post-sprint opportunities facilitated by the TOP team at COIL:"
+      - ul:
+        - li: "TOP Advisor Network: We can connect your tech teams to product and technology development experts."

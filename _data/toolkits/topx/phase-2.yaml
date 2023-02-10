@@ -4,9 +4,9 @@
 body:
 # use Step 2 as step template!
   - section: "Ongoing Tasks"
-    header: "Ongoing Tasks"
-    duration: "ongoing"
-    time: "ongoing"
+    header:
+    duration: "varying"
+    time: "varying"
     overview: "These are your main tasks and resources to execute key action items throughout Phase 2."
     to_do:
     - overview:
@@ -50,41 +50,38 @@ body:
 # use Step 2 as step template!
   - section: Step 2
     header: User Research
-    duration: "4 weeks"
-    time: "20 hours/week"
+    duration: "4"
+    time: "20"
     overview: "After the kickoff call, tech teams will begin user research. They will connect with user advocates who can offer insights into their communities. During this process, participants will likely require more guidance and introductions."
     to_do:
     - overview:
       - copy: "Provide teams with resources to conduct user research. Linked below are some useful resources."
-      - ul:
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
-      resources:
-        - download-link: "NO RESOURCE INCLUDED"
-          title: "NO RESOURCE INCLUDED"
-        - download-link: "NO RESOURCE INCLUDED"
-          title: "NO RESOURCE INCLUDED"
-        - download-link: "NO RESOURCE INCLUDED"
-          title: "NO RESOURCE INCLUDED"
     - overview:
-        - copy: "Tech teams begin connecting with user advocates to learn more about the needs and pain points of the communities they represent."
-        - ul:
-          - li: "Tech teams should also consider reaching out to additional advocacy organizations, service providers, or others with experience relevant to the challenge. If they already have end users or partners, they can certainly collaborate with those groups during the sprint."
+      - copy: "Tech teams begin connecting with user advocates to learn more about the needs and pain points of the communities they represent."
+      - ul:
+        - li: "Tech teams should also consider reaching out to additional advocacy organizations, service providers, or others with experience relevant to the challenge. If they already have end users or partners, they can certainly collaborate with those groups during the sprint."
     - overview:
         - copy: "Consider facilitating a problem statement 101 call."
     - overview:
-        - copy: "Facilitate a user research milestone call. User research is ongoing throughout the sprint, but this milestone is solely dedicated to reporting out on user research that informs the rest of the sprint. This is one way the TOP sprint process emphasizes human centered design. (NEED TO INCLUDE THREE RESOURCES)"
-        - ul:
-          - li: "Tech teams share about their target end users, as well as plans for continued user research."
-          - li: "Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
+      - copy: "Facilitate a user research milestone call. User research is ongoing throughout the sprint, but this milestone is solely dedicated to reporting out on user research that informs the rest of the sprint. This is one way the TOP sprint process emphasizes human centered design."
+      - ul:
+        - li: "Tech teams share about their target end users, as well as plans for continued user research."
+        - li: "Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
+      resources:
+      - link: #
+        title: "What is User Research"
+      - link: #
+        title: "How to Conduct User Interviews"
+      - link: #
+        title: "Empathy Isn't Enough"
+
 
 
 # use Step 2 as step template!
   - section: Step 3
     header: Data Exploration
-    duration: "3 weeks"
-    time: "20 hours/week"
+    duration: "3"
+    time: "20"
     overview: "In this next milestone, tech teams begin identifying and exploring relevant datasets. Tech teams will connect with data stewards via email and phone to learn more about available datasets. Participants will still need some guidance from the facilitation team."
     to_do:
       - overview:
@@ -99,20 +96,20 @@ body:
         - copy: "Tech teams begin data exploration."
         - ul:
           - li: "In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
+          - li: "Tech teams begin exploring datasets and identifying questions they would like clarified by data stewards in the data exploration milestone call."
+          - li: "By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
         toggle:
           - copy: "Share these resources:"
-          - ul:
-            - li: "Data.gov - Search over 200,000 datasets from federal agencies. Census.gov/data - Access to all data products and tools from the Census Bureau. Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions (SHOULD THIS BE FORMATTED SEPARATE LISTS?)"
-        toggle:
-          - copy: "(NEED TO ADD SECTION FOR CHECK MARK LIST BEFORE TIP - Tech teams begin exploring datasets...) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
+            ul:
+            - li: "Data.gov - Search over 200,000 datasets from federal agencies."
+            - li: "Census.gov/data - Access to all data products and tools from the Census Bureau."
+            - li: "Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions"
 
 
-
-# use Step 2 as step template!
   - section: Step 4
     header: Product Development
-    duration: "6 weeks"
-    time: "20 hours/week"
+    duration: "6"
+    time: "20"
     overview: "Over the course of the next 5-6 weeks, tech teams will develop their products. Two weeks into this process, tech teams will present initial demos of their product ideas to all participants."
     to_do:
     - overview:
@@ -130,37 +127,27 @@ body:
         - li: "Incorporate feedback from the demo."
         - li: "Begin testing their products. User advocates can help to identify potential end users who could serve as beta testers of the tools."
         - li: "Identify at least one key metric they plan to use for measuring usage and impact (e.g., number of downloads, number of monthly active users)."
-      toggle:
-      - copy: "Consider sharing these resources as tech teams continue product development, usability testing, and develop plans for measuring impact:"
-      resources:
-      - download-link: "LIST OF FOUR DIFFERENT EXTERNAL LINKS"
-        title: "LIST OF FOUR DIFFERENT EXTERNAL LINKS"
 
 # use Step 2 as step template!
   - section: Step 5
     header: Final Product Development
-    duration: "2 weeks"
-    time: "15 hours/week"
+    duration: "2"
+    time: "15"
     overview: "The last two weeks of the sprint include facilitating final demos, and beginning to plan an end-of-sprint Demo Day."
     to_do:
     - overview:
       - copy: "Tech teams begin to prepare for a Final MVP Demo. Teams will present a Minimum Viable Product (MVP), which has enough features to allow for testing."
-      - ul:
-        - li: "NO LIST"
-        - li: "NO LIST"
-      toggle:
-      - copy: "NO TIP"
     - overview:
-      - copy: "Facilitate a Final MVP Demo. (INCLUDE CHECK MARK LIST AND TIP)"
+      - copy: "Facilitate a Final MVP Demo."
+      - ul:
+        - li: "Sprint leaders set a time with each team for a final presentation of what they have built during the sprint. This can be another milestone session with all teams present, or one-on-one calls with each participating tech team.  MVP demos culminate the sprint process for tech teams, and allow sprint leaders to assess the results."
+      toggle:
+      - copy: "The audience for each MVP demo should be sprint leaders, 1-2 user advocates that the team worked closely with throughout the sprint, and any champions from your agency that are interested in seeing the sprint outcomes."
     - overview:
       - copy: "After the demo, encourage tech teams to:"
       - ul:
-        - li: "Incorporate feedback from the demo and continue iterating on their product long past the end of the sprint. With input from user advocates, continue to test their product. Develop plans for launching the product to users (if new), or rolling out a new feature of an existing product. (SHOULD THIS BE FORMATTED IN SEPARATE LISTS? AND INCLUDE TIP AFTER)"
-    - overview:
-      - copy: "STEP FOUR REMOVED"
-      - ul:
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
-        - li: "NO LIST ITEM"
+        - li: "Incorporate feedback from the demo and continue iterating on their product long past the end of the sprint."
+        - li: "With input from user advocates, continue to test their product."
+        - li: "Develop plans for launching the product to users (if new), or rolling out a new feature of an existing product."
       toggle:
-      - copy: "NO TIP"
+      - copy: "Tech teams can coordinate with user advocates and community organizations who can share the products with intended end users through their outreach platforms."

@@ -2227,6 +2227,36 @@
   title: ClinIQ Health
   year:
   - 2021
+- Product Name: Windyfi
+  agencies:
+  - "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xEDa"
+  airtable_createdTime: '2023-02-10T15:35:49.000Z'
+  airtable_id: recRgbtrGr8ahFiVZ
+  category:
+  - Economic Development
+  - Environment
+  data_sets: DOI Puerto Rico and Virgin Islands High Resolution Wind Resource, DOI
+    US Offshore Wind Resource Data for 2000-2020
+  data_sets_text: DOI Puerto Rico and Virgin Islands High Resolution Wind Resource,
+    DOI US Offshore Wind Resource Data for 2000-2020
+  description: 'Windyfi uses available geospatial and weather data to enable renewable
+    developers to generate concepts and basic design within minutes instead of months. '
+  details: 'Windyfi uses available geospatial and weather data to enable renewable
+    developers to generate concepts and basic design within minutes instead of months. '
+  image: windyfi.jpg
+  image-alt: A screenshot of the Windyfi website including an image of a windmill
+    and text that reads "Instant concept development for renewables".
+  link: https://windyfi.com/
+  problem_statement:
+  - rec52uEVxyphCPkqF
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recvvjgV2qecaicPN
+  tech_team_text: Windyfi
+  title: Windyfi
+  year:
+  - 2022
 - Description (Old): A tool by Zillow for exploring the opportunity and growth potential
     of Baltimore's neighborhoods.
   Product Name: Baltimore Explorer
@@ -2527,6 +2557,42 @@
   title: STEWMAP Explorer
   year:
   - 2018
+- Product Name: TREC
+  agencies:
+  - U.S. Department of Transportation
+  airtable_createdTime: '2023-02-03T15:21:00.000Z'
+  airtable_id: recWblnT5cMOweZBG
+  category:
+  - Environment
+  - Transportation
+  data_sets: CDC/ATSDR's Social Vulnerability Index (SVI); American Community Survey,
+    LEHD Origin-Destination Employment Statistics, USGS Geographic Names Information
+    System
+  data_sets_text: CDC/ATSDR's Social Vulnerability Index (SVI); American Community
+    Survey, LEHD Origin-Destination Employment Statistics, USGS Geographic Names Information
+    System
+  description: Transit Resiliency for Essential Commuting (TREC) uses federal and
+    local open data on climate risk scores, community vulnerability scores, service
+    locations, and transit information to surface essential transit stops at high
+    risk of climate events for transit planners and community organizations.
+  details: Transit Resiliency for Essential Commuting (TREC) uses federal and local
+    open data on climate risk scores, community vulnerability scores, service locations,
+    and transit information to surface essential transit stops at high risk of climate
+    events for transit planners and community organizations.
+  image: trec.jpg
+  image-alt: An interactive map of New York City showing hospital and transit stop
+    locations.
+  link: http://trec.tsdataclinic.com
+  problem_statement:
+  - reclJYrMI3Nr3I6Jy
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recSyujO5KDBOZik8
+  tech_team_text: Two Sigma Data Clinic
+  title: TREC
+  year:
+  - 2022
 - Description (Old): "Visa's Practical Business Skills chat bot uses several federal\
     \ data, such as Small Business Administration\u2019s \u2018Find Local Assistance\u2019\
     \ resource, to empower growth-minded entrepreneurs with the financial and business\
@@ -2989,6 +3055,36 @@
   title: Julius Career Journey Program
   year:
   - 2020
+- Product Name: JobInn
+  agencies:
+  - Puerto Rico Department of Economic Development and Commerce, U.S. Department of
+    Health and Human Services, U.S. Department of Agriculture
+  airtable_createdTime: '2023-02-03T15:16:16.000Z'
+  airtable_id: recaLkGnstwunDwSa
+  category:
+  - Employment
+  data_sets: Department of Labor and WIOA Reports
+  data_sets_text: Department of Labor and WIOA Reports
+  description: JobInn uses WIOA Reports to increase the awareness and accessibility
+    of jobs and services opportunities to the population in need using targeted marketing
+    through non-traditional digital and social media channels.
+  details: JobInn uses WIOA Reports to increase the awareness and accessibility of
+    jobs and services opportunities to the population in need using targeted marketing
+    through non-traditional digital and social media channels.
+  image: jobinn.jpg
+  image-alt: A screenshot of the JobInn homepage including a photo of a person with
+    long dark hair wearing a black blazer and text that reads "Find your Dream Job".
+  link: 'jobinnapp.com '
+  problem_statement:
+  - rec5TDfLlBw4DrprF
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - rec1CuaTkmURQGV9K
+  tech_team_text: Strategic Technology Advisors
+  title: JobInn
+  year:
+  - 2022
 - Description (Old): Our solution aims to empower city officials to make informed
     decisions around waste management that lead to transparency, investment and job
     creation.
@@ -4980,6 +5076,35 @@
   title: Data2Go for Census Outreach
   year:
   - 2017
+- Product Name: Grant Guide
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-02-03T15:10:55.000Z'
+  airtable_id: recvZC25u6iWvYRVY
+  category:
+  - Grants
+  data_sets: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
+  data_sets_text: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
+  description: Grant Guide uses USASpending, Michigan.gov, Build.gov, Grants.gov,
+    and SAM.gov to help users find and save grants, connect with volunteer mentors,
+    and locate environmental remediation grant resources.
+  details: Grant Guide uses USASpending, Michigan.gov, Build.gov, Grants.gov, and
+    SAM.gov to help users find and save grants, connect with volunteer mentors, and
+    locate environmental remediation grant resources.
+  image: grant-guide.jpg
+  image-alt: A screenshot of the Grant Guide homepage that reads "Expert guidance
+    on Environmental grants".
+  link: https://grant-guide.herokuapp.com/
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recg0CREqvkTpeCN8
+  tech_team_text: General Assembly
+  title: Grant Guide
+  year:
+  - 2022
 - Product Name: Cura Patient
   agencies:
   - U.S. Department of Health and Human Services

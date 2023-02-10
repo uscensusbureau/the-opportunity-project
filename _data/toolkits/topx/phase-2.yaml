@@ -16,7 +16,7 @@ body:
     - overview:
       - copy: "Develop a facilitation guide for each milestone call."
       resources:
-        - download-link: "topx-resources/ongoing-tasks-milestone-facilitation-guide-template.pdf"
+        - download-link: "topx-resources/ongoing-tasks-facilitation-guides-email-templates.pdf"
           title: "Milestone Facilitation Guide Template"
     - overview:
       - copy: "Facilitate milestone calls."
@@ -44,8 +44,8 @@ body:
         - li: "Sprint participants (e.g., sprint leaders, tech teams, user advocates) introduce themselves."
         - li: "Sprint leaders provide high-level information on the sprint process and timeline."
       resources:
-      - download-link: "topx-resources/phase2-step1-tips-on-leading-a-meeting-with-remote-participants.docx"
-        title: "Tips on Leading a Meeting with Remote Participants"
+      - download-link: "topx-resources/phase2-step1-leading-a-remote-meeting.docx"
+        title: "Tips on Leading a Remote Meeting"
 
 # use Step 2 as step template!
   - section: Step 2

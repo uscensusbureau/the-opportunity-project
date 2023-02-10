@@ -1,10 +1,10 @@
-- title: YO
+- title: City Builder
   tech_team: Citi Ventures
   cohort: Workforce
   problem_statement: Opportunity Zones
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
   href: city-builder
-  details: Bringing transparency to the Opportunity Zone ecosystem for private investors, fund managers, wealth managers, and municipalities
+  details: Provides investors, developers, municipalities, and community members with data-driven insights to make meaningful, place-based investments
   description_new:
     Brings transparency to the Opportunity Zone ecosystem for investors, fund
     manager, wealth managers, and cities
@@ -18,14 +18,14 @@
     Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
     Commission data to bring transparency to the Opportunity Zone ecosystem for
     investors, fund manager, wealth managers, and cities.
-- title: Sille
+- title: Community Led Opportunity Zones
   short_url: sille
   href: sille
-  tech_team: Datel Ovela
+  tech_team: PUBLIC DEMOCRACY
   cohort: Geocohort
   problem_statement: Using Geospatial Data to Help People Prepare for Disasters
   link: 'https://sille.space/app_fema/'
-  details: Helping leaders prepare for crisis by identifying whether local infrastructure is at risk of catastrophic failure <br><br>
+  details: Ensures that community priorities inform Opportunity Zones strategies employed by policy decision-makers, economic development officials, and investors in Birmingham, Alabama
   description_new:
     'Block level structural risk product that encourages local stakeholders to
     prepare for crisis through increased awareness of the likelihood of
@@ -42,16 +42,16 @@
     access using login: fema@sille.space, password: Planahead2019'
   product_advisors: nil
   participants: nil
-- title: PRADOS
+- title: Inclusive Growth Score
   short_url: icasa
   href: prados
-  tech_team: iCASA PR
+  tech_team: MASTERCARD
   cohort: Geocohort
   problem_statement:
     "Helping Tribal, State, and Local Governments with Local Address Data
     Collection"
   link: 'https://icasapr.com/'
-  details: Helping municipalities and communities in Puerto Rico collect and use address data to improve emergency response <br><br>
+  details: Provides community leaders with local, data-driven insights that measure the degree to which place, economy and community in a given Opportunity Zone benefit from equitable growth
   description_new:
     Helps the municipalities and communities in Puerto Rico enhance their
     address infrastructure to support the reconstruction process, improve

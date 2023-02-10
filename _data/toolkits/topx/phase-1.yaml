@@ -7,10 +7,13 @@ body:
     duration: "2-4"
     time: "5"
     overview: |-
-      As you begin planning for your TOP sprint, you will need to recruit a team within your agency to help facilitate the project and work on day-to-day operations. Members of this team will all be considered ‘sprint leaders’ and you will see that term used frequently throughout this Toolkit.
+      As you begin planning for your TOP sprint, you will need to recruit a team within your agency to help facilitate the project and work on day-to-day operations. Members of this team will all be considered ‘sprint leaders’ and you will see that term used frequently throughout this Toolkit.<br><br>
 
 
-      You will also need to identify the problem you are seeking to solve through your sprint. Your problem statement should describe a challenge your agency is working to solve for the public. Challenges can be any priority within your agency’s mission. Tech teams from outside of government will build tools that use data to help solve this challenge.
+      You will also need to identify the problem you are seeking to solve through your sprint. Your problem statement should describe a challenge your agency is working to solve for the public. Challenges can be any priority within your agency’s mission. Tech teams from outside of government will build tools that use data to help solve this challenge.<br><br>
+
+      Components of a problem statement
+
     to_do:
     - overview:
       - copy: "Spread the word about TOP within your office and throughout your agency to generate interest and support for your project."

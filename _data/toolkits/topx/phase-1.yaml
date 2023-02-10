@@ -2,11 +2,18 @@
 # the main content is divided into sections, which are rendered onto the page in order.
 
 body:
-  - section: Step 1 Refresh
+  - section: Step 1
     header: Form a Team to Identify Your Problem
-    duration: "2-4 weeks"
-    time: "5 hours/week"
-    overview: "As you begin planning for your TOP sprint, you will need to recruit a team within your agency to help facilitate the project and work on day-to-day operations. Members of this team will all be considered ‘sprint leaders’ and you will see that term used frequently throughout this Toolkit. You will also need to identify the problem you are seeking to solve through your sprint. Your problem statement should describe a challenge your agency is working to solve for the public. Challenges can be any priority within your agency’s mission. Tech teams from outside of government will build tools that use data to help solve this challenge." 
+    duration: "2-4"
+    time: "5"
+    overview: |-
+      As you begin planning for your TOP sprint, you will need to recruit a team within your agency to help facilitate the project and work on day-to-day operations. Members of this team will all be considered ‘sprint leaders’ and you will see that term used frequently throughout this Toolkit.<br><br>
+
+
+      You will also need to identify the problem you are seeking to solve through your sprint. Your problem statement should describe a challenge your agency is working to solve for the public. Challenges can be any priority within your agency’s mission. Tech teams from outside of government will build tools that use data to help solve this challenge.<br><br>
+
+      Components of a problem statement
+
     to_do:
     - overview:
       - copy: "Spread the word about TOP within your office and throughout your agency to generate interest and support for your project."
@@ -35,7 +42,7 @@ body:
       - copy: "Develop a detailed problem statement."
       toggle:
         - copy: "To source problem statements, consider:"
-        - ul:
+          ul:
           - li: "Search within your agency’s strategic plan, learning agenda, or government-wide documents like the President’s Management Agenda."
           - li: "Sending a broad request for possible topics to offices across the agency."
       resources:
@@ -47,10 +54,10 @@ body:
         - copy: "Sprint leaders are subject matter experts, special advisors, or others knowledgeable about the challenge."
 
 
-  - section: Step 2 Refresh
+  - section: Step 2
     header: Recruit Sprint Participants
-    duration: "4-6 weeks"
-    time: "20 hours/week"
+    duration: "4-6"
+    time: "20"
     overview: "Collaboration is an essential part of the TOP process. Once you have identified a clear and compelling problem statement, it is time to recruit technologists, universities, data and policy experts, community leaders, and advocates to participate in the sprint."
     to_do:
     - overview:
@@ -96,7 +103,7 @@ body:
       - copy: "Begin developing a list of likely participants."
       toggle:
         - copy: "For each problem statement you should aim to identify:"
-        - ul:
+          ul:
           - li: "3-4 tech teams."
           - li: "At least 2-3 user advocates."
           - li: "Where possible, 1 data steward for every dataset."
@@ -109,11 +116,11 @@ body:
 
 
 
-  - section: Step 3 Refresh
+  - section: Step 3
     header: Sprint Preparation
-    duration: "3 weeks"
-    time: "10-15 hours/week"
-    overview: "Once you have identified sprint participants, take a few weeks to prepare for the launch of your sprint." 
+    duration: "3"
+    time: "10-15"
+    overview: "Once you have identified sprint participants, take a few weeks to prepare for the launch of your sprint."
     to_do:
       - overview:
         - copy: "Confirm participation of sprint collaborators."
@@ -123,9 +130,6 @@ body:
           - li: "Select a digital communication platform. For agencies that approve of its use, Slack is a useful resource for collaboration. It allows users to share messages, tools, and files. Microsoft Teams also provides similar features."
           - li: "Make sure you have access to a phone dial-in number for facilitating milestone calls."
           - li: "Select a video conferencing tool that is approved by your agency, such as Zoom, Teams, Webex, or Google Meet. Some check-ins (e.g., demos) are better facilitated by video conferences."
-        resources:
-        - download-link: "(RESOURCE REMOVED)"
-          title: "(RESOURCE REMOVED)"
       - overview:
         - copy: "When you’re ready to kick off, send a welcome email to all sprint participants. This email should include:"
         - ul:

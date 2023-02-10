@@ -50,8 +50,8 @@ body:
 # use Step 2 as step template!
   - section: Step 2
     header: User Research
-    duration: "4"
-    time: "20"
+    duration: "4 weeks"
+    time: "20 hours/weeks"
     overview: "After the kickoff call, tech teams will begin user research. They will connect with user advocates who can offer insights into their communities. During this process, participants will likely require more guidance and introductions."
     to_do:
     - overview:
@@ -96,7 +96,7 @@ body:
         - ul:
           - li: "In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
           - li: "Tech teams begin exploring datasets and identifying questions they would like clarified by data stewards in the data exploration milestone call."
-          - li: "By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
+          - li: "(INCLUDED IN TIP) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
         toggle:
           - copy: "Share these resources:"
             ul:

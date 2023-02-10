@@ -43,6 +43,11 @@
   members:
   - rec5qqGO1EWtk9A4R
   name: Institute of Scrap Recycling Industries
+- airtable_createdTime: '2023-02-03T15:16:17.000Z'
+  airtable_id: rec1CuaTkmURQGV9K
+  name: Strategic Technology Advisors
+  products:
+  - recaLkGnstwunDwSa
 - airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: rec1PqA4dmUJp7i8a
   datasets:
@@ -1387,6 +1392,11 @@
   name: GreaterMSP
   sprints:
   - rec4Y10emS9DtmBpT
+- airtable_createdTime: '2023-02-03T15:21:00.000Z'
+  airtable_id: recSyujO5KDBOZik8
+  name: Two Sigma Data Clinic
+  products:
+  - recWblnT5cMOweZBG
 - airtable_createdTime: '2020-02-05T23:09:30.000Z'
   airtable_id: recT4XK6OfXia3Q47
   name: HTTP
@@ -2010,6 +2020,7 @@
   - recIklh16YxGUUQmW
   - recCoeaajs0uSPnml
   - recDijXK19MwsWRTJ
+  - recvZC25u6iWvYRVY
 - airtable_createdTime: '2020-02-05T22:36:00.000Z'
   airtable_id: recgD93zc764CnU0d
   name: Data XD
@@ -2561,6 +2572,11 @@
   datasets:
   - recG4Nq4VUB2lC2b6
   name: Glass Recycling Coalition
+- airtable_createdTime: '2023-02-10T15:35:50.000Z'
+  airtable_id: recvvjgV2qecaicPN
+  name: Windyfi
+  products:
+  - recRgbtrGr8ahFiVZ
 - airtable_createdTime: '2020-02-10T15:51:32.000Z'
   airtable_id: recw5wWtMIDR9pMLV
   name: Spatial Networks

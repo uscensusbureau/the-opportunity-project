@@ -76,7 +76,6 @@ body:
         title: "Empathy Isn't Enough"
 
 
-
 # use Step 2 as step template!
   - section: Step 3
     header: Data Exploration
@@ -104,7 +103,6 @@ body:
             - li: "Data.gov - Search over 200,000 datasets from federal agencies."
             - li: "Census.gov/data - Access to all data products and tools from the Census Bureau."
             - li: "Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions"
-
 
   - section: Step 4
     header: Product Development

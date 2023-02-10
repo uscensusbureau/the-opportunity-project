@@ -13,24 +13,25 @@ refresh-accent: red-warm-50v
 refresh-white: gray-1
 refresh-gray: gray-20
 
-header: Planning
+header: Phase 1 - Plan
 effort:
   - title: Duration
     amount: 3-4
   - title: Time
-    amount: 5-20
+    amount: 5-20 
 intro:
   - title: Overview
     content:
-      - copy: some stuff
-      - copy: some stuff 2
+      - copy: In the first few months, you will set the stage for your sprint. Along with building a coalition around your sprint topic within your agency, you will need to define your problem statement and recruit participants.
+      - copy: Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).
       - copy: some stuff 3
   - title: Goals
     content:
-     - item: some stuff 1
-     - item: some stuff 2
-     - item: some stuff 3
-     - item: some stuff 4
+     - item: Form an agency facilitation/project management team
+     - item: Identify a senior-level champion
+     - item: Define the problem statement
+     - item: Recruit sprint participants: tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts
+     - item: Prepare documentation for sprint execution
 
 
 download-text: Phase 1 Templates

@@ -25,11 +25,19 @@
       {% endif %}
       {% if data.secondary %}
         {% assign link = data.secondary %}
-        <a 
-          class="usa-link site-cta margin-left-2"
-          href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
-          {{ link.text }}
-        </a>
+        <a
+        class="usa-link site-cta margin-left-2"
+        href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+        {{ link.text }}
+      </a>
+      {% endif %}
+      {% if data.custom %}
+      {% assign link = data.custom %}
+      <a
+        class="usa-button usa-button--outline {{data.custom.class}} site-button site-cta"
+        href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+        {{ link.text }}
+      </a>
       {% endif %}
     </p>
   </div>

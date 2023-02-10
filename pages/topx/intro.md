@@ -55,11 +55,11 @@ cta-four:
   title:
     text: Ready to get started?
     class: font-sans-sm text-normal
-  primary:
+  custom:
     text: Go to Phase 1
     href: #
     isExternal: false
-    class: bg-white
+    class: bg-base-darkest text-white
 ---
 
 

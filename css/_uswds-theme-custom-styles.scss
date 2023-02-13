@@ -1602,7 +1602,7 @@ main {
           ul {
             margin: 0;
             padding: 0;
-            animation: scrollUp 4s infinite;
+            animation: scrollUp 10s infinite;
 
 
             li {
@@ -1617,7 +1617,7 @@ main {
           }
         }
   }
-  $item-count: 7;
+  $item-count: 6;
 
   @keyframes scrollUp {
     @for $i from 1 through ($item-count - 1) {

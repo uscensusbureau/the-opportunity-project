@@ -102,4 +102,5 @@ resources:
 
 ---
 
+{% include toolkit-hero-refresh.html %}
 {% include toolkit-glossary.html %}

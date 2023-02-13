@@ -23,7 +23,6 @@ intro:
     content:
       - copy: It’s time to launch your sprint! During this phase, the tech teams develop their products. Your role is to facilitate this process, which will include several tasks and milestones.
       - copy: Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).
-      - copy: some stuff 3
   - title: Goals
     content:
      - item: Kick off the sprint.

@@ -1644,6 +1644,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
 
     iframe {
@@ -1654,9 +1655,10 @@ main {
       }
     }
 
-    p {
+    div {
       align-self: center;
-      max-width: 400px;
+      max-width: 50%;
+      min-width: 300px;
       background-color: white;
       padding: 35px;
     }

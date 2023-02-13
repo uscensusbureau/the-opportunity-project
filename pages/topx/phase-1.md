@@ -30,7 +30,7 @@ intro:
      - item: Form an agency facilitation/project management team
      - item: Identify a senior-level champion
      - item: Define the problem statement
-     - item: Recruit sprint participants: tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts
+     - item: "Recruit sprint participants: tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts"
      - item: Prepare documentation for sprint execution
 
 

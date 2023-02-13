@@ -44,18 +44,18 @@ cta-three:
   blurb:
     text: These three digital products demonstrate the breadth of solutions that noteworthy tech teams from civil society and industry develop during TOP sprints to address national challenges. All still in use, these tools empower meaningful investment using data-driven insights, and helped the federal offices leading the sprint to address mission-critical priorities.
     class: text-blue-warm-60v
-  primary:
+  custom:
     text: Explore Other Success Stories
     href: https://opportunity.census.gov/showcase/
     isExternal: false
-    class: base-darkest
+    class: usa-button--inverse bg-base-darkest
 
 cta-four:
   background-class: bg-blue-warm-60v
   title:
     text: Ready to get started?
     class: font-sans-sm text-normal
-  custom:
+  primary:
     text: Go to Phase 1
     href: #
     isExternal: false

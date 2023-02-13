@@ -4,17 +4,18 @@
     <section class="topx-hero grid-row">
       <!-- <img src="{{site.baseurl}}/assets/img/toolkits/hero-image.png" alt="People at in-person TOPx Meeting"> -->
       <section class="content-container grid-container grid-row">
-        <h1 class="visually-hidden">Use the TOPx Toolkit to solve thing 1</h1>
+        <h1 class="visually-hidden">Use the TOPx Toolkit to solve the nation's challenges</h1>
         <section class="scrolling-words-container grid-container margin-bottom-6">
-          <span>Use the TOPx Toolkit to:</span>
-          <div class="scrolling-words-box">
+          <span class="desktop:display-none">Use the TOPx Toolkit to solve the nation's challenges</span>
+          <span class="display-none desktop:display-inline">Use the TOPx Toolkit to:</span>
+          <div class="scrolling-words-box display-none desktop:display-block">
             <ul>
-              <li>build climate resilience</li>
+              <li>solve the nation's challenges</li>
               <li>increase access to grant funding</li>
               <li>improve education systems</li>
               <li>connect veterans with jobs</li>
-              <li>solve the nation's toughest challenges</li>
               <li>build climate resilience</li>
+              <li>solve the nation's challenges</li>
             </ul>
           </div>
         </section>
@@ -27,7 +28,19 @@
       <h2 class="text-blue-warm-60v">Why Should I Use the TOPx Toolkit at My Agency?</h2>
       <div class="iframe-content">
         <iframe title="Video about The Opportunity Project: Putting America’s Data to Work for the People" src="https://player.vimeo.com/video/497726351?h=0496f5a6b3&title=0&byline=0&portrait=0" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea doloribus minima, id nobis voluptatem est, consequatur quia repellendus voluptatibus dolores perspiciatis? Sed ut vel ab hic voluptatem, est dolorem.</p>
+        <div>
+          <h3>Your Challenge + Data + Technologists & Communities
+          = Digital Products That Solve Real-World Problems</h3>
+          <p>The Opportunity Project (TOP) is a tested innovation method that helps federal agencies rapidly and creatively solve
+          problems. The resources in this Toolkit enable you to use the TOP sprint model to:</p>
+          <ul class="toolkit-checkmark">
+            <li>Address priorities at the heart of your agency’s mission that require data and innovation.</li>
+            <li>Meet requirements to promote the reuse of your data.</li>
+            <li>Catalyze innovation within your agency.</li>
+            <li>Engage with data consumers and improve data quality.</li>
+            <li>Collaborate with cross-sector partners to create digital solutions.</li>
+          </ul>
+        </div>
       </div>
     </section>
     <!-- CTA from TOP site -->
@@ -36,10 +49,24 @@
     <!-- Timeline section -->
     <section class="timeline bg-base-darkest padding-y-9">
       <div class="grid-container content-container">
-        <h2 class="margin-0 bg-orange-5 margin-bottom-4">What is the TOPx Toolkit?</h2>
-        <p class="margin-0 text-white maxw-tablet margin-bottom-4">Census Open Innovation Labs created this Toolkit so that anyone can use The Opportunity Project (TOP) method to solve
+        <h2 class="margin-0 text-white margin-bottom-4">What is the TOPx Toolkit?</h2>
+        <h3 class="text-white">Census Open Innovation Labs created this Toolkit so that anyone can use The Opportunity Project (TOP) method to solve
         problems. This Toolkit provides you with the necessary information to execute a 12-week product development cycle –
-        called a ‘TOP sprint’ – to rapidly develop digital solutions alongside technologists and community advocates.</p>
+        called a ‘TOP sprint’ – to rapidly develop digital solutions alongside technologists and community advocates.</h3>
+        <p class="margin-0 text-white maxw-tablet margin-bottom-4">The Toolkit will help you learn how to:</p>
+        <ol class="text-white">
+          <li>Define a problem statement and assemble a team.</li>
+          <li>Identify external sprint participants from the technology industry and more, and then lead the sprint process.</li>
+          <li>Celebrate the accomplishments of sprint participants and measure results.</li>
+        </ol>
+        <p class="text-white">Included in the TOPx Toolkit, you will find a detailed step-by-step guide to executing a TOP sprint. Each sequential
+        step includes:</p>
+        <ul class="text-white">
+          <li>Checklists with key action items</li>
+          <li>Tips and best practices</li>
+          <li><a href="http://" class="text-white">Downloadable templates</a> (e.g. emails, outreach materials, facilitation guides)</li>
+        </ul>
+        <p class="text-white">The <a href="mailto:#" class="text-white">TOP team at the Census Open Innovation Labs (COIL)</a> is available to assist you with any assistance, clarifications, or to collaborate with you on your sprint.</p>
         <img src="{{site.baseurl}}/assets/img/toolkits/sprint-timeline.png" alt="People at in-person TOPx Meeting">
       </div>
     </section>
@@ -51,10 +78,9 @@
 
       <div class="grid-container">
         {% assign featured_products = site.data.toolkits.topx.featured_products %}
-        <header class="padding-x-6 padding-y-7 bg-orange-5 margin-y-7">
-          <h3>What Does a Successful TOP Sprint Look Like</h3>
-          <p>The Department of Housing and Urban Development and White House Council of Economic Advisors led a TOP sprint to
-          increase financial investment in America’s  8,764 Opportunity Zones. <span>This led to six standout solutions including:</span></p>
+        <header>
+          <h2>What Does a Successful TOP Sprint Look Like</h2>
+          <h3 class="padding-x-6 padding-y-7 bg-orange-5 margin-y-3">The Department of Housing and Urban Development and White House Council of Economic Advisors led a TOP sprint to increase financial investment in America’s  8,764 Opportunity Zones. <span>This led to six standout solutions including:</span></h3>
         </header>
         <div class="grid-row grid-gap-lg
         flex-wrap flex-justify-center">

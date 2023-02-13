@@ -49,23 +49,15 @@ resources:
         num: 8
         term: Wireframe
         definition: An initial design of a website or app at the structural level. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content is added.
-      - link: https://www.experienceux.co.uk/faqs/what-is-wireframing/
-        num: 9
-        term: (REMOVED)
-        definition: (REMOVED)
-      - link: (REMOVED)
-        num: 10
-        term: (REMOVED)
-        definition: (REMOVED)
   - category: TOP
     description: The TOP team has adopted these terms from the civic tech and product development community for use in the TOP sprint framework.
     color: red-warm-50v
     terms:
-      - link: https://www.interaction-design.org/literature/topics/user-research
+      - link: 
         num: 11
         term: Beta Demo Milestone
         definition:  Tech teams present a prototype of their product for feedback.
-      - link: (NO LINK)
+      - link: 
         num: 12
         term: Data Exploration Phase/Milestone
         definition: During the data exploration sprint phase, teams explore federal government open datasets to identify data they can use in their sprint products. During the data exploration milestone at the end of that phase, teams connect with federal data stewards to present what they’ve learned and ask questions about how to find and work with federal data.
@@ -73,7 +65,14 @@ resources:
         num: 13
         term: Data Steward
         definition: Data stewards are experts on specific open datasets or data tools (e.g., data.census.gov) who help tech teams identify federal open datasets to use in their products, and answer technical questions about the data.
-
+      - num: 14
+        link: 
+        term: MVP (Minimum Viable Product) Demo Milestone
+        definition: The final milestone of the sprint process, in which teams present their ‘MVP’ to the sprint leaders to culminate the sprint. Their MVP should include working features and be ready for use by an end user, but can be improved upon in the future, especially after receiving user feedback.
+      - num: 15
+        link:
+        term:
+        definition:
 
 ---
 

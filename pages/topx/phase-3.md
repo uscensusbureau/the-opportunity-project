@@ -8,7 +8,8 @@ layout: toolkit
 phase: 3
 color: blue-warm-70v
 
-header: Showcase
+header: Phase 3
+action: Showcase
 effort:
   - title: Duration
     amount: 1-2

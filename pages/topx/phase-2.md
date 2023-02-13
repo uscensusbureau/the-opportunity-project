@@ -11,7 +11,8 @@ color: accent-cool-lightest
 #text-color: text-black
 
 
-header: Execute
+header: Phase 2
+action: Execute
 effort:
   - title: Duration
     amount: 4

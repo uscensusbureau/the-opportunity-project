@@ -13,7 +13,8 @@ refresh-accent: red-warm-50v
 refresh-white: gray-1
 refresh-gray: gray-20
 
-header: Phase 1 - Plan
+header: Phase 1
+action: Plan
 effort:
   - title: Duration
     amount: 3-4

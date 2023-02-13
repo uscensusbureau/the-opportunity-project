@@ -20,23 +20,23 @@ body:
       toggle:
         - copy: "Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, intranet, internal networks, and broader communications tools to generate interest and find collaborators."
       resources:
-        - download-link: "topx-resources/phase1-step1-top-information-sheet-template.pdf"
+        - download-link: "topx-resources/phase1-step1-top-information-sheet.pdf"
           title: "TOP Information Sheet Template"
     - overview:
       - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
       - copy: "Build a staff-level facilitation team of sprint leaders. Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
       resources:
-        - download-link: "topx-resources/phase1-step1-top-facilitation-team-potential-role.pdf"
+        - download-link: "topx-resources/phase1-step1-top-facilitation-team-roles.pdf"
           title: "TOP Facilitation Team - Potential Roles"
     - overview:
       - copy: "Begin meeting weekly as a facilitation team to efficiently distribute responsibility and track progress."
     - overview:
       - copy: "Consider issue areas that are priorities for your agency, affect communities nationwide, and where open data could be part of effective solutions."
       resources:
-        - download-link: "topx-resources/phase1-step1-what-makes-a-good-problem-statement.pdf"
+        - download-link: "topx-resources/phase1-step1-a-good-problem-statement.pdf"
           title: "What Makes a Good Problem Statement"
-        - download-link: "topx-resources/phase1-step1-past-problem-statement.pdf"
+        - download-link: "(LINK TO TOP NO PDF) topx-resources/phase1-step1-past-problem-statement.pdf"
           title: "Past TOP Problem Statements"
     - overview:
       - copy: "Develop a detailed problem statement."
@@ -67,7 +67,7 @@ body:
       toggle:
         - copy: "If your sprint topic involves jargon or technical information that the participants will have to navigate, consider offering an orientation session to provide more information on technical terms, data, past solutions, and any additional relevant information."
       resources:
-        - download-link: "topx-resources/phase1-step2-customizable-sprint-timeline-template.pdf"
+        - download-link: "topx-resources/phase1-step2-sprint-timeline-template.pdf"
           title: "Customizable Sprint Timeline Template"
     - overview:
       - copy: "Review the Sprint Roles resource linked below. A typical TOP sprint will include subject matter experts (e.g., sprint leaders), data stewards, tech teams, and user advocates."
@@ -86,14 +86,14 @@ body:
       toggle:
         - copy: "Engage your agency’s outreach and partnerships team to leverage existing networks and relationships."
       resources:
-        - download-link: "topx-resources/phase1-step2-tips-for-identifying-potential-sprint-participants .docx"
-          title: "Tips for Identifying Potential Sprint Participants "
+        - download-link: "topx-resources/phase1-step2-identifying-sprint-participants.docx"
+          title: "Tips for Identifying Potential Sprint Participants"
     - overview:
       - copy: "Reach out to potential participants by email and include tech teams or user advocate overview documents, problem statements, and a timeline. Consider reaching out with an overview first, and then follow up with details after receiving initial interest."
       resources:
-        - download-link: "topx-resources/phase1-step2-tech-team-role-overview.docx"
+        - download-link: "topx-resources/phase1-step2-tech-team-overview.docx"
           title: "Tech Team Role Overview"
-        - download-link: "topx-resources/phase1-step2-user-advocate-role-overview.docx"
+        - download-link: "topx-resources/phase1-step2-user-advocate-overview.docx"
           title: "User Advocate Role Overview"
     - overview:
       - copy: "Follow up with interested parties and share further information through individual meetings and/or open information sessions."

@@ -11,24 +11,24 @@ color: accent-cool-lightest
 #text-color: text-black
 
 
-header: Sprint Facilitation
+header: Execute
 effort:
   - title: Duration
-    amount: 3-4
+    amount: 4
   - title: Time
-    amount: 5-20
+    amount: 15-20
 intro:
   - title: Overview
     content:
-      - copy: some stuff
-      - copy: some stuff 2
+      - copy: It’s time to launch your sprint! During this phase, the tech teams develop their products. Your role is to facilitate this process, which will include several tasks and milestones.
+      - copy: Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).
       - copy: some stuff 3
   - title: Goals
     content:
-     - item: some stuff 1
-     - item: some stuff 2
-     - item: some stuff 3
-     - item: some stuff 4
+     - item: Kick off the sprint.
+     - item: Manage weekly communications
+     - item: Motivate sprint participant progress
+     - item: Execute sprint milestones
 
 
 download-text: Phase 2 Templates

@@ -34,8 +34,8 @@ body:
 # use Step 2 as step template!
   - section: Step 1
     header: Kickoff
-    duration: "2 weeks"
-    time: "10 hours/week"
+    duration: "2"
+    time: "10"
     overview: "Kick off your sprint by hosting a call for all sprint participants to meet and learn more about the problem statement(s). During these first 2 weeks, tech teams will also develop a plan for their work during the sprint."
     to_do:
     - overview:
@@ -50,8 +50,8 @@ body:
 # use Step 2 as step template!
   - section: Step 2
     header: User Research
-    duration: "4 weeks"
-    time: "20 hours/weeks"
+    duration: "4"
+    time: "20"
     overview: "After the kickoff call, tech teams will begin user research. They will connect with user advocates who can offer insights into their communities. During this process, participants will likely require more guidance and introductions."
     to_do:
     - overview:

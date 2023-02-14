@@ -1,10 +1,13 @@
 {% include toolkit-hero-image.html %}
+{% if page.name == "glossary.md" %}
+<section class="display-none"></section>
+{% else %}
 <section class="interior-hero padding-top-4 bg-orange-5">
   <div class="grid-container padding-bottom-5">
     <div class="grid-row desktop:height-mobile flex-column">
 
         <h1 class="font-sans-3xl text-semi-bold  text-base-darkest">
-          {{ page.header }}
+          {{ page.header }}{{ page.action | prepend: ' - '}}
         </h1>
         {% assign indicators = page.effort %}
         <div class="grid-row">
@@ -43,3 +46,4 @@
     </div>
   </div>
 </section>
+{% endif %}

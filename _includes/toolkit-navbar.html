@@ -34,7 +34,7 @@
         {% if page.url contains slug %}
         {% assign active = "text-underline" %}
         {% endif %}
-        <li class="usa-nav__primary-item">
+        <li class="usa-nav__primary-item bg-base-darkest">
           <a href="{{ site.baseurl }}/{{ link.href }}" class="usa-nav-link text-ls-2 font-sans-3xs text-light text-white {{active}}"><span>{{ link.text | upcase }}</span></a>
         </li>
         {% endfor %}

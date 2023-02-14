@@ -25,14 +25,16 @@
           {% assign phaseMatch = true %}
         {% endif %}
         <!-- {{ isIntro }} {{ phaseMatch }} -->
-        <div class="toolkit-blue-rectangle padding-left-1 desktop:padding-left-4 {% if isIntro != true and phaseMatch != true %}hide{% endif %}">
+        <div class="toolkit-blue-rectangle {% if isIntro != true and phaseMatch != true %}hide{% endif %}">
           {% if phaseMatch == true and isIntro == false %}
-            <div class="phase-box ">
+            <div class="phase-box padding-left-1 desktop:padding-left-4">
               <h2 class="text-primary bg-white margin-bottom-0">Phase {{ forloop.index }}</h2>
-              <p class="margin-0">{{page.action}}</p>
+              <h3 class="margin-0 text-primary text-normal padding-bottom-1">{{page.action}}</h3>
             </div>
             {% else %}
+            <a href="{{site.baseurl}}/topx-toolkit/phase-{{ forloop.index }}" class="width-full text-no-underline  padding-left-1 desktop:padding-left-4">
             <p class="text-white padding-left-1 desktop:padding-left-4">Phase {{ forloop.index }}</p>
+            </a>
           {% endif %}
         </div>
       {% endfor %}

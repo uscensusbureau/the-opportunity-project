@@ -45,7 +45,7 @@ body:
       toggle:
         - copy: "To source problem statements, consider:"
           ul:
-          - li: "Search within your agency’s strategic plan, learning agenda, or government-wide documents like the President’s Management Agenda."
+          - li: "Searching within your agency’s strategic plan, learning agenda, or government-wide documents like the President’s Management Agenda."
           - li: "Sending a broad request for possible topics to offices across the agency."
       resources:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
@@ -112,7 +112,7 @@ body:
     - overview:
       - copy: "Connect with the team you’ve assembled to be sprint leaders to ensure they understand their roles and responsibilities."
       toggle:
-        - copy: "Sprint Leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
+        - copy: "Sprint leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
     - overview:
       - copy: "Connect with data stewards to be sure they understand their role and identify additional data stewards as needed."
 

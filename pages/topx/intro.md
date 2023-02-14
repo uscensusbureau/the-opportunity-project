@@ -32,7 +32,7 @@ cta-two:
     class: font-sans-sm
   primary:
     text: Tell Us About Your Sprint
-    href: mailto:statventures@census.gov?subject=Subscribe for Updates
+    href: mailto:census.opportunityproject@census.gov?subject=My TOP Challenge
     isExternal: false
     class:
 
@@ -57,7 +57,7 @@ cta-four:
     class: font-sans-sm text-normal
   primary:
     text: Go to Phase 1
-    href: #
+    href: /topx-toolkit/phase-1
     isExternal: false
     class: bg-base-darkest text-white
 ---

@@ -25,7 +25,7 @@ intro:
       - copy: Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).
   - title: Goals
     content:
-     - item: Kick off the sprint.
+     - item: Kick off the sprint
      - item: Manage weekly communications
      - item: Motivate sprint participant progress
      - item: Execute sprint milestones
@@ -57,7 +57,7 @@ continue-text: Phase 3
       </a>
     </div>
     <div>
-      <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
+      <a href="{{ site.baseurl }}/topx-toolkit/phase-3"
         class="usa-button margin-top-4 usa-button--secondary site-button">
         Continue to {{page.continue-text}}
       </a>

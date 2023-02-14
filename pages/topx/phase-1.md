@@ -55,13 +55,13 @@ continue-text: Phase 2
 <section class="text-white bg-primary usa-section">
   <div class="grid-container">
     <div>
-      <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
+      <a href="{{ site.baseurl }}" target="_blank"
           class="usa-button usa-button--inverse usa-button--outline site-button">
           Download All {{page.download-text}}
       </a>
     </div>
     <div>
-      <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
+      <a href="{{ site.baseurl }}/topx-toolkit/phase-2"
         class="usa-button margin-top-4 usa-button--secondary site-button">
         Continue to {{page.continue-text}}
       </a>

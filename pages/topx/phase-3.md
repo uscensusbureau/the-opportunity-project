@@ -57,7 +57,7 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
       {{ page.blurb }}
     </h2>
     <div>
-      <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
+      <a href="mailto:census.opportunityproject@census.gov" target="_blank"
         class="usa-button usa-button--secondary site-button">
         {{page.continue-text}}
       </a>

@@ -19,7 +19,7 @@ intro:
   - title: Overview
     content:
       - copy: Once the sprint has concluded, we encourage agencies to celebrate the accomplishments of all participants. This could be by hosting an end-of-sprint event – whether large or small – or via agency-led communications to help others learn about the work completed in the sprint.
-      - copy:Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).
+      - copy: Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).
   - title: Goals
     content:
      - item: Celebrate the accomplishments of sprint participants and help get the word out about the products to potential end users, to ensure the work makes an impact

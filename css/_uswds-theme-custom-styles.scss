@@ -1390,6 +1390,18 @@ main {
 
 // TOOLKITS ----------------- //
 
+.content--title {
+  text-decoration-color: color(red-warm-50v);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.to-do--title {
+  text-decoration-color: color(red-warm-50v);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
 .toolkit-hero-image {
   @include at-media("desktop") {
     margin-left: -50px;

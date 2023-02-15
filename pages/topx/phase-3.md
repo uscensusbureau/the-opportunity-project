@@ -53,9 +53,9 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
           Download All {{page.download-text}}
       </a>
     </div>
-    <h2 {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>
+    <p {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>
       {{ page.blurb }}
-    </h2>
+    </p>
     <div>
       <a href="mailto:census.opportunityproject@census.gov" target="_blank"
         class="usa-button usa-button--secondary site-button">

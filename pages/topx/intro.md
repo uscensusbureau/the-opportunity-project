@@ -48,7 +48,7 @@ cta-three:
     text: Explore Other Success Stories
     href: https://opportunity.census.gov/showcase/
     isExternal: false
-    class: bg-base-darkest
+    class: margin-top-4 bg-base-darkest
 
 cta-four:
   background-class: bg-blue-warm-60v

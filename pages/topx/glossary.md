@@ -14,7 +14,9 @@ image-alt: Illustration of a group of red, yellow, and blue squares and rectangl
 
 resources:
   - category: Design
-    description: These terms are borrowed from the design community. Click the term for additional resources and the source of each definition.
+    description: |-
+      These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
+
     color: blue-warm-60v
     terms:
       - link: https://www.productplan.com/glossary/beta-test/#:~:text=Beta%20testing%20is%20an%20opportunity,product%20to%20a%20wide%20audience

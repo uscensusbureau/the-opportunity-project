@@ -34,7 +34,7 @@
       {% if data.custom %}
       {% assign link = data.custom %}
       <a
-        class="usa-button usa-button--outline {{data.custom.class}} site-button site-cta"
+        class="usa-button {{data.custom.class}} site-button site-cta"
         href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
         {{ link.text }}
       </a>

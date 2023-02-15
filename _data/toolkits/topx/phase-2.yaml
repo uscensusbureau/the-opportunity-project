@@ -67,13 +67,6 @@ body:
       - ul:
         - li: "Tech teams share about their target end users, as well as plans for continued user research."
         - li: "Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
-      resources:
-      - link: #
-        title: "What is User Research"
-      - link: #
-        title: "How to Conduct User Interviews"
-      - link: #
-        title: "Empathy Isn't Enough"
 
 
 # use Step 2 as step template!
@@ -96,13 +89,14 @@ body:
         - ul:
           - li: "In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
           - li: "Tech teams begin exploring datasets and identifying questions they would like clarified by data stewards in the data exploration milestone call."
-          - li: "(INCLUDED IN TIP) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
         toggle:
-          - copy: "Share these resources:"
+          - copy: |-
+              By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need.<br>
+              Share these resources:
             ul:
             - li: "Data.gov - Search over 200,000 datasets from federal agencies."
             - li: "Census.gov/data - Access to all data products and tools from the Census Bureau."
-            - li: "Stack Exchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions"
+            - li: "StackExchange.com - A vibrant open data community, which is a great place to ask questions and find quick answers to your data and developer-related questions"
 
   - section: Step 4
     header: Product Development
@@ -131,7 +125,7 @@ body:
     header: Final Product Development
     duration: "2"
     time: "15"
-    overview: "The last two weeks of the sprint include facilitating final demos, and beginning to plan an end-of-sprint Demo Day."
+    overview: "The last two weeks of the sprint include facilitating final demos, and beginning to plan an end-of-sprint event."
     to_do:
     - overview:
       - copy: "Tech teams begin to prepare for a Final MVP Demo. Teams will present a Minimum Viable Product (MVP), which has enough features to allow for testing."

@@ -4,66 +4,19 @@
   problem_statement: Opportunity Zones
   link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
   href: city-builder
-  details: Provides investors, developers, municipalities, and community members with data-driven insights to make meaningful, place-based investments
-  description_new:
-    Brings transparency to the Opportunity Zone ecosystem for investors, fund
-    manager, wealth managers, and cities
-  data_sets:
-    Census Bureau; Department of Agriculture; Department of Education; U.S.
-    Securities and Exchange Commission
-  prize_status: Winner
-  category: economic-development
-  description_old:
-    Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department of
-    Agriculture, U.S. Department of Education, and U.S. Securities and Exchange
-    Commission data to bring transparency to the Opportunity Zone ecosystem for
-    investors, fund manager, wealth managers, and cities.
+  details: Provides investors, developers, municipalities, and community members with data-driven insights to make meaningful, place-based investments<br><br>
+
 - title: Community Led Opportunity Zones
-  short_url: sille
-  href: sille
+  short_url: "/showcase/?search=community+led"
+  href: "https://www.publicdemocracy.io/opportunity-zones-local-impact"
+  target: '_blank'
+  isExternal: true
   tech_team: PUBLIC DEMOCRACY
-  cohort: Geocohort
-  problem_statement: Using Geospatial Data to Help People Prepare for Disasters
-  link: 'https://sille.space/app_fema/'
   details: Ensures that community priorities inform Opportunity Zones strategies, policies, and investment in Birmingham, Alabama
-  description_new:
-    'Block level structural risk product that encourages local stakeholders to
-    prepare for crisis through increased awareness of the likelihood of
-    catastrophic failure of their structures in a disaster. Public access using
-    login: fema@sille.space, password: Planahead2019'
-  data_sets: 'ensus block data; Open EU Sentinel 1 InSAR '
-  prize_status: nil
-  category: disasters
-  description_old:
-    'Datel Ovela’s tool uses census block data with open EU sentinel 1 InSAR to
-    build a block level structural risk product that encourages local
-    stakeholders to prepare for crisis through increased awareness of the
-    likelihood of catastrophic failure of their structures in a disaster. Public
-    access using login: fema@sille.space, password: Planahead2019'
-  product_advisors: nil
-  participants: nil
+
 - title: Inclusive Growth Score
-  short_url: icasa
-  href: prados
+  href: 'https://inclusivegrowthscore.com/'
+  target: '_blank'
+  isExternal: true
   tech_team: MASTERCARD
-  cohort: Geocohort
-  problem_statement:
-    "Helping Tribal, State, and Local Governments with Local Address Data
-    Collection"
-  link: 'https://icasapr.com/'
   details: Provides community leaders with local, data-driven insights that measure how Opportunity Zones benefit from equitable growth
-  description_new:
-    Helps the municipalities and communities in Puerto Rico enhance their
-    address infrastructure to support the reconstruction process, improve
-    emergency response and foster a more resilient future
-  data_sets: Census Bureau; U.S. Postal Service; National Address Database (NAD) schema
-  prize_status: Winner
-  category: addressing
-  description_old:
-    ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal Service,
-    and the National Address Database (NAD) schema to help the municipalities
-    and communities in Puerto Rico enhance their address infrastructure to
-    support the reconstruction process, improve emergency response and foster a
-    more resilient future.
-  product_advisors: nil
-  participants: nil

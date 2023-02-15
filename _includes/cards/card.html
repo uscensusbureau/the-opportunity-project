@@ -1,11 +1,12 @@
 {% assign card=include.content %}
-<div 
+<div
   class="card-container {{ include.utils }} bg-base-darkest"
   style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img.src }});
           background-size: cover;">
   <div class="card-header">
     <h3 class="text-ls-1">
-      <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}">
+      <a href="{% unless card.isExternal %}{{ site.baseurl }}/{% endunless %}{{ card.href }}"
+      {% if card.target %}target="{{ card.target }}"{% endif %}>
         {{ card.title }}
       </a>
     </h3>

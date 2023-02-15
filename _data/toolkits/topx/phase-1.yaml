@@ -9,10 +9,12 @@ body:
     overview: |-
       As you begin planning for your TOP sprint, you will need to recruit a team within your agency to help facilitate the project and work on day-to-day operations. Members of this team will all be considered ‘sprint leaders’ and you will see that term used frequently throughout this Toolkit.<br><br>
 
-
       You will also need to identify the problem you are seeking to solve through your sprint. Your problem statement should describe a challenge your agency is working to solve for the public. Challenges can be any priority within your agency’s mission. Tech teams from outside of government will build tools that use data to help solve this challenge.<br><br>
 
-      Components of a problem statement
+      Components of a problem statement:<br>
+        • The background and history of the challenge<br>
+        • Potential end users who would benefit from a digital product<br>
+        • Some relevant datasets<br>
 
     to_do:
     - overview:
@@ -43,7 +45,7 @@ body:
       toggle:
         - copy: "To source problem statements, consider:"
           ul:
-          - li: "Search within your agency’s strategic plan, learning agenda, or government-wide documents like the President’s Management Agenda."
+          - li: "Searching within your agency’s strategic plan, learning agenda, or government-wide documents like the President’s Management Agenda."
           - li: "Sending a broad request for possible topics to offices across the agency."
       resources:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
@@ -110,7 +112,7 @@ body:
     - overview:
       - copy: "Connect with the team you’ve assembled to be sprint leaders to ensure they understand their roles and responsibilities."
       toggle:
-        - copy: "Sprint Leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
+        - copy: "Sprint leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
     - overview:
       - copy: "Connect with data stewards to be sure they understand their role and identify additional data stewards as needed."
 

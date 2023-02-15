@@ -89,9 +89,10 @@ body:
         - ul:
           - li: "In addition to the datasets identified by the sprint leaders and data stewards, provide tech teams with additional resources to explore open federal data."
           - li: "Tech teams begin exploring datasets and identifying questions they would like clarified by data stewards in the data exploration milestone call."
-          - li: "(INCLUDED IN TIP) By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need."
         toggle:
-          - copy: "Share these resources:"
+          - copy: |-
+              By the beginning of this milestone, tech teams should have already explored available data and thought about the type of data they will need.<br>
+              Share these resources:
             ul:
             - li: "Data.gov - Search over 200,000 datasets from federal agencies."
             - li: "Census.gov/data - Access to all data products and tools from the Census Bureau."

@@ -29,11 +29,11 @@
             {% if content.title == "Overview" %}
 
               {% for copy in content.content %}
-                <p class="margin-left-0 margin-bottom-3 text-base-darkest">{{copy.copy}}</p>
+                <p class="margin-left-3 margin-right-2 margin-bottom-3 text-base-darkest">{{copy.copy}}</p>
               {% endfor %}
 
             {% elsif content.title == "Goals" %}
-            <ul class="text-base-darkest">
+            <ul class="text-base-darkest margin-right-2">
               {% for items in content.content%}
               <li>{{ items.item }}</li>
               {% endfor %}

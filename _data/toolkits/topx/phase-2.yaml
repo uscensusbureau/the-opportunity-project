@@ -16,7 +16,7 @@ body:
     - overview:
       - copy: "Develop a facilitation guide for each milestone call."
       resources:
-        - download-link: "topx-resources/ongoing-tasks-facilitation-guides-email-templates.docx"
+        - download-link: "topx-resources/phase2-ongoing-tasks-facilitation-guides-email-templates.docx"
           title: "Milestone Facilitation Guide Template"
     - overview:
       - copy: "Facilitate milestone calls."

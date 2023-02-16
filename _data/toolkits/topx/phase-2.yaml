@@ -124,7 +124,7 @@ body:
         - li: "Begin testing their products. User advocates can help to identify potential end users who could serve as beta testers of the tools."
         - li: "Identify at least one key metric they plan to use for measuring usage and impact (e.g., number of downloads, number of monthly active users)."
       resources:
-      - link: "https://opportunity.census.gov/product-development/toolkit/"
+      - internal-link: "product-development/toolkit/"
         title: "TOP Product Development Toolkit"
       - link: "https://www.nngroup.com/articles/usability-testing-101/"
         title: "How to Implement an Effective Usability Test"

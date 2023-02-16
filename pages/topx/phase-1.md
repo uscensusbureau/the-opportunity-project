@@ -55,7 +55,7 @@ continue-text: Phase 2
 <section class="text-white bg-primary usa-section">
   <div class="grid-container">
     <div>
-      <a href="{{ site.baseurl }}" target="_blank"
+      <a href="{{ site.baseurl }}/assets/files/topx-resources/phase2-step1-leading-a-remote-meeting.docx" target="_blank"
           class="usa-button usa-button--inverse usa-button--outline site-button">
           Download All {{page.download-text}}
       </a>

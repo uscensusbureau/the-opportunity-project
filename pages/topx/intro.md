@@ -21,8 +21,8 @@ cta-one:
     class: font-sans-sm text-normal
   primary:
     text: Skip to Phase 1
-    href: #
-    isExternal: true
+    href: /topx-toolkit/phase-1
+    isExternal: false
     class: secondary
 
 cta-two:
@@ -46,7 +46,7 @@ cta-three:
     class: text-blue-warm-60v
   custom:
     text: Explore Other Success Stories
-    href: https://opportunity.census.gov/showcase/
+    href: /showcase/
     isExternal: false
     class: margin-top-4 bg-base-darkest
 

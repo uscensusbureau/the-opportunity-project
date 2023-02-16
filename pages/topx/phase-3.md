@@ -49,7 +49,7 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
   <div class="grid-container">
     <div>
       <a href="{{ site.baseurl }}/{{ page.permalink }}" target="_blank"
-          class="usa-button usa-button--inverse usa-button--outline site-button">
+          class="usa-button usa-button--inverse usa-button--outline margin-bottom-3 site-button">
           Download All {{page.download-text}}
       </a>
     </div>

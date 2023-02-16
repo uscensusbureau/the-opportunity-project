@@ -33,7 +33,7 @@ cta-two:
   primary:
     text: Tell Us About Your Sprint
     href: mailto:census.opportunityproject@census.gov?subject=My TOP Challenge
-    isExternal: false
+    isExternal: true
     class:
 
 cta-three:
@@ -49,6 +49,7 @@ cta-three:
     href: /showcase/
     isExternal: false
     class: margin-top-4 bg-base-darkest
+    target: _blank
 
 cta-four:
   background-class: bg-blue-warm-60v

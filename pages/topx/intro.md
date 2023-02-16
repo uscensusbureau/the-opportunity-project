@@ -33,7 +33,7 @@ cta-two:
   primary:
     text: Tell Us About Your Sprint
     href: mailto:census.opportunityproject@census.gov?subject=My TOP Challenge
-    isExternal: false
+    isExternal: true
     class:
 
 cta-three:

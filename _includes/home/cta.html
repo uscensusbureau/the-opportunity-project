@@ -19,7 +19,8 @@
         {% assign link = data.primary %}
         <a
           class="usa-button usa-button--secondary site-button site-cta"
-          href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+          href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
+          {% if card.target %}target="{{ card.target }}"{% endif %}>
           {{ link.text }}
         </a>
       {% endif %}
@@ -27,7 +28,8 @@
         {% assign link = data.secondary %}
         <a
         class="usa-link site-cta margin-left-2"
-        href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+        href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
+        {% if card.target %}target="{{ card.target }}"{% endif %}>
         {{ link.text }}
       </a>
       {% endif %}
@@ -35,7 +37,8 @@
       {% assign link = data.custom %}
       <a
         class="usa-button {{data.custom.class}} site-button site-cta"
-        href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}">
+        href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
+        {% if card.target %}target="{{ card.target }}"{% endif %}>
         {{ link.text }}
       </a>
       {% endif %}

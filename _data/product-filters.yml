@@ -30,6 +30,7 @@ agencies:
   - label: Consumer Financial Protection Bureau
   - label: Environmental Protection Agency
   - label: Department of Agriculture
+  - label: Department of Commerce
   - label: Department of Education
   - label: Department of Health and Human Services
   - label: Department of Homeland Security
@@ -55,3 +56,4 @@ agencies:
   - label: USA for UNHCR
     value: USA for United Nations High Commissioner for Refugees
   - label: White House Council of Economic Advisors
+  - label: White House Office of Science and Technology Policy

@@ -1,0 +1,49 @@
+{% include toolkit-hero-image.html %}
+{% if page.name == "glossary.md" %}
+<section class="display-none"></section>
+{% else %}
+<section class="interior-hero padding-top-4 bg-orange-5">
+  <div class="grid-container padding-bottom-5">
+    <div class="grid-row desktop:height-mobile flex-column">
+
+        <h1 class="font-sans-3xl text-semi-bold  text-base-darkest">
+          {{ page.header }}{{ page.action | prepend: ' - '}}
+        </h1>
+        {% assign indicators = page.effort %}
+        <div class="grid-row">
+          {% for indicator in indicators %}
+          <h2 class=" padding-1 margin-bottom-5 margin-right-3 bg-red-warm-50v text-center">
+            {% if indicator.title == "Duration" %}
+            Total {{ indicator.title }}: {{ indicator.amount }} months
+            {% elsif indicator.title == "Time" %}
+            {{ indicator.title }}: {{ indicator.amount }} hours/week
+            {% endif %}
+          </h2>
+          {% endfor %}
+        </div>
+        <div class="grid-row grid-gap-lg">
+          {% assign blurbs = page.intro %}
+          {% for content in blurbs %}
+          <div class="bg-white margin-3 grid-col-8 tablet:grid-col ">
+            <h2 class="margin-bottom-3 text-center content--title">{{ content.title }}</h2>
+            {% if content.title == "Overview" %}
+
+              {% for copy in content.content %}
+                <p class="margin-left-3 margin-right-2 margin-bottom-3 text-base-darkest">{{copy.copy}}</p>
+              {% endfor %}
+
+            {% elsif content.title == "Goals" %}
+            <ul class="text-base-darkest margin-right-2">
+              {% for items in content.content%}
+              <li>{{ items.item }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+    </div>
+  </div>
+</section>
+{% endif %}

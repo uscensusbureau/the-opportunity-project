@@ -1,15 +1,36 @@
-<section>
-  <section class="grid-container display-inline-block padding-top-8">
-    <div
-      class="desktop:grid-offset-4 desktop:grid-col-7 desktop:padding-left-6 tablet:grid-col-6 grid-col-12 display-inline-block"
-    >
-      <h2>Glossary</h2>
-      <div class="toolkit-resources margin-top-9 margin-bottom-9 padding-7">
-        {% for resource in page.resources %}
-          <a href="{{ resource.link }}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
-          <p>{{ resource.description}}</p>
+<section class="bg-orange-5">
+  <section class="grid-container padding-y-8 toolkit-glossary bg-orange-5">
+    <div class="grid-col">
+      {% assign categories = page.resources | sort: 'category' | reverse %}
+      {% for category in categories %}
+      <header class="bg-white padding-x-6 padding-y-3 margin-top-6 margin-bottom-3">
+        <h2 class="text-{{ category.color }}">{{ category.category }} Terms</h2>
+        <p>{{ category.description }}</p>
+      </header>
+
+      <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+        {% for term in category.terms %}
+        <h4 class="usa-accordion__heading">
+          <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white" aria-expanded="true" aria-controls="m-a{{ term.num }}">
+            {{term.term}}
+          </button>
+        </h4>
+
+        <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
+          <p class="grid-container">
+            {{ term.definition}}
+          </p>
+          {% if term.link %}
+          <a href="{{ term.link }}"
+            class="toolkit-resource-link text-base-darkest padding-y-0 padding-x-2 margin-x-2 margin-y-1"
+            target="_blank">
+            Source
+          </a>
+          {% endif %}
+        </div>
         {% endfor %}
       </div>
+      {% endfor %}
     </div>
   </section>
 </section>

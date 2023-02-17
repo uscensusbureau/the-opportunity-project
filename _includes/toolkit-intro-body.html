@@ -1,195 +1,129 @@
-  <section class="grid-container display-inline-block padding-top-8">
-    <div
-      class="desktop:grid-offset-4 desktop:grid-col-7 grid-col-12  display-inline-block desktop:padding-left-6"
-    >
-    <h1>Introduction</h1>
-    <p>
-      <a href="https://opportunity.census.gov" target="_blank">The Opportunity Project</a> brings technologists, government, and communities to rapidly prototype digital products—powered by federal open data—that solve real-world problems for communities across the country. TOPx is an adaptable toolkit for federal agencies, developed by the TOP team at the U.S. Census Bureau, that enables other federal agencies to facilitate virtual technology development sprints that address key national challenges. To learn about TOP, check out the <a href="{{site.baseurl}}/our-process">Process</a> page on the TOP website.
-    </p>
-    {% for section in site.data.toolkits.topx.intro.body %}
-      {% if section.title %}
-        <h2 class="font-sans-6">{{ section.title }}</h2>
-      {% endif %}
-      <div class="inline-text">
-        <p>
-        {% for phrase in section.text %}
-          {% if phrase.b %}
-            <b>{{ phrase.b }}</b>
-          {% elsif phrase.p %}
-            {{ phrase.p }}
-          {% elsif phrase.ul %}
-            <ul class="toolkit-checkmark">
-              {% for li in phrase.ul %}
-                {% if li.li %}
-                  <li>{{ li.li }}</li>
-                {% elsif li.p %}
-                  <li class="nested-bullet">{{ li.p}}</li>
-                {% endif %}
-              {% endfor %}
+  <section>
+    <div class="grid-col-12">
+    <!-- hero -->
+    <section class="topx-hero grid-row">
+      <!-- <img src="{{site.baseurl}}/assets/img/toolkits/hero-image.png" alt="People at in-person TOPx Meeting"> -->
+      <section class="content-container grid-container grid-row">
+        <h1 class="visually-hidden">Use the TOPx Toolkit to solve the nation's challenges</h1>
+        <section class="scrolling-words-container grid-container margin-bottom-6">
+          <span class="desktop:display-none" style="line-height: 1.5;">Use the TOPx Toolkit to solve the nation's challenges</span>
+          <span class="display-none desktop:display-inline">Use the TOPx Toolkit to</span>
+          <div class="scrolling-words-box display-none desktop:display-block">
+            <ul>
+              <li>solve the nation's challenges</li>
+              <li>increase access to grant funding</li>
+              <li>improve education systems</li>
+              <li>connect veterans with jobs</li>
+              <li>build climate resilience</li>
+              <li>solve the nation's challenges</li>
             </ul>
-          {% endif %}
-        {% endfor %}
-        </p>
+          </div>
+        </section>
+        <p class="margin-top-0 font-sans-lg desktop:margin-top-0 text-white">The TOPx Toolkit enables federal agencies to catalyze projects that transform open data into solutions to key national
+        challenges at the heart of their missions.</p>
+      </section>
+    </section>
+    <!-- video section -->
+    <section class="video-section padding-9">
+      <h2 class="text-blue-warm-60v padding-left-6">Why Should I Use the TOPx Toolkit at My Agency?</h2>
+      <div class="iframe-content">
+        <iframe title="Video about The Opportunity Project: Putting America’s Data to Work for the People" src="https://player.vimeo.com/video/497726351?h=0496f5a6b3&title=0&byline=0&portrait=0" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div>
+          <h3>Your Challenge + Data + Technologists & Communities
+          = Digital Products That Solve Real-World Problems</h3>
+          <p>The Opportunity Project (TOP) is a tested innovation method that helps federal agencies rapidly and creatively solve
+          problems. The resources in this Toolkit enable you to use the TOP sprint model to:</p>
+          <ul class="toolkit-checkmark">
+            <li>Address priorities at the heart of your agency’s mission that require data and innovation.</li>
+            <li>Meet requirements to promote the reuse of your data.</li>
+            <li>Catalyze innovation within your agency.</li>
+            <li>Engage with data consumers and improve data quality.</li>
+            <li>Collaborate with cross-sector partners to create digital solutions.</li>
+          </ul>
+        </div>
       </div>
-    {% endfor %}
-    <h3>What’s involved in facilitating a TOPx sprint?</h3>
-      <table class="usa-table toolkit-table margin-bottom-5">
-        <tr>
-          <th class="margin-left-neg-3">Phase 1: Pre-Sprint Planning</th>
-          <th>Effort</th>
-          <th>Time</th>
-        </tr>
-        <tr>
-          <td class="col-1">Form a Facilitation Team</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">2-4 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Define Problem Statement</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">2-4 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Recruit Sprint Participants</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">1-2 months</td>
-        </tr>
-        <tr>
-          <td class="col-1">Sprint Preparation</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-cool-20v">1-2 weeks</td>
-        </tr>
-      </table>
-
-      <table class="usa-table toolkit-table margin-bottom-5">
-        <tr>
-          <th>Phase 2: Sprint Facilitation</th>
-          <th>Effort</th>
-          <th>Time</th>
-        </tr>
-        <tr>
-          <td class="col-1">Ongoing Tasks</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">12-14 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Kickoff</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">1-2 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">User Research</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">2 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Data Exploration</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">2 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Product Development</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">5-6 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Sprint Wrap Up</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-accent-cool-lightest text-white">2-3 weeks</td>
-        </tr>
-      </table>
-
-      <table class="usa-table toolkit-table margin-bottom-5">
-        <tr>
-          <th>Phase 3: Post-Sprint</th>
-          <th>Effort</th>
-          <th>Time</th>
-        </tr>
-        <tr>
-          <td class="col-1">Post-Sprint Event</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-warm-70v text-white">4-6 weeks</td>
-        </tr>
-        <tr>
-          <td class="col-1">Post-Sprint Engagement</td>
-          <td class="col-2">
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-accent-warm circle-2 display-inline-block margin-0 margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-            <p class="bg-base-lighter circle-2 display-inline-block margin-0  margin-bottom-neg-2px"></p>
-          </td>
-          <td class="col-3 padding-left-2 bg-blue-warm-70v text-white">2-4 weeks</td>
-        </tr>
-      </table>
-
-      <div class="toolkit-resources margin-top-9 margin-bottom-9  padding-7">
-        <h3 class="margin-top-0">Where to Start</h3>
-        {% for resource in site.data.toolkits.topx.intro.resources %}
-          {% if resource.link %}
-            <a href="{{ resouce.link }}" class="toolkit-resource-link"> {{ resource.title }}</a>
-          {% elsif resource.internal-link %}
-            <a href="{{ site.baseurl }}/{{resource.internal-link}}" class="toolkit-resource-link" target="_blank"> {{ resource.title }}</a>
-          {% else %}
-            <p class="text-bold">{{resource.title }}</p>
-          {% endif %}
-          <p>{{ resource.description}}</p>
-        {% endfor %}
+    </section>
+    <!-- CTA from TOP site -->
+    {% assign section = page.cta-one %}
+    {% include home/cta.html data=section %}
+    <!-- Timeline section -->
+    <section class="timeline bg-base-darkest padding-y-9">
+      <div class="grid-container content-container">
+        <h2 class="margin-0 text-white margin-bottom-4">What is the TOPx Toolkit?</h2>
+        <h3 class="text-white">Census Open Innovation Labs created this Toolkit so that anyone can use The Opportunity Project (TOP) method to solve
+        problems. This Toolkit provides you with the necessary information to execute a 12-week product development cycle –
+        called a ‘TOP sprint’ – to rapidly develop digital solutions alongside technologists and community advocates.</h3>
+        <p class="margin-0 text-white maxw-tablet margin-bottom-4">The Toolkit will help you learn how to:</p>
+        <ol class="text-white">
+          <li>Define a problem statement and assemble a team.</li>
+          <li>Identify external sprint participants from the technology industry and more, and then lead the sprint process.</li>
+          <li>Celebrate the accomplishments of sprint participants and measure results.</li>
+        </ol>
+        <p class="text-white">Included in the TOPx Toolkit, you will find a detailed step-by-step guide to executing a TOP sprint. Each sequential
+        step includes:</p>
+        <ul class="text-white">
+          <li>Checklists with key action items</li>
+          <li>Tips and best practices</li>
+          <li>Downloadable templates (e.g. emails, outreach materials, facilitation guides)</li>
+        </ul>
+        <p class="text-white">The <a href="mailto:census.opportunityproject@census.gov" target="_blank" class="text-white">TOP team at the Census Open Innovation Labs (COIL)</a> is available to assist you with any assistance, clarifications, or to collaborate with you on your sprint.</p>
+        <img class="tablet:display-none display-block" src="{{site.baseurl}}/assets/img/toolkits/sprint-timeline-mobile.png" alt="Sprint timeline with an overview length and broken down in phases">
+        <img class="display-none tablet:display-block" src="{{site.baseurl}}/assets/img/toolkits/sprint-timeline.png" alt="Sprint timeline with an overview length and broken down in phases">
+        <!-- <div class="timeline-graphic">
+          <section class="bg-primary-lighter">
+            <h4 class="display-inline">overview</h4>
+            <h5 class="display-inline">[11 months]</h5>
+          </section>
+          <div class="phases-wrapper text-white">
+            <section class="phase1">
+              <div>
+              <h4>Phase 1</h4>
+              <h5>weeks</h5>
+              </div>
+            </section>
+            <section class="phase2">
+              <div>
+              <h4>Phase 2</h4>
+              <h5>weeks</h5>
+              </div>
+            </section>
+            <section class="phase3">
+              <div>
+              <h4>Phase 3</h4>
+              <h5>weeks</h5>
+              </div>
+            </section>
+          </div>
+        </div> -->
       </div>
+    </section>
+    <!-- repurpose TOP CTA into mail us section -->
+    {% assign section = page.cta-two %}
+    {% include home/cta.html data=section %}
+    <!-- Products section -->
+    <section class="usa-section usa-graphic-list products">
+
+      <div class="grid-container">
+        {% assign featured_products = site.data.toolkits.topx.featured_products %}
+        <header>
+          <h2>What Does a Successful TOP Sprint Look Like</h2>
+          <h3 class="padding-x-6 padding-y-7 bg-orange-5 margin-y-3"><span class="text-normal">The Department of Housing and Urban Development and White House Council of Economic Advisors led a TOP sprint to increase financial investment in America’s  8,764 Opportunity Zones.</span> This led to six standout solutions including:</h3>
+        </header>
+        <div class="grid-row grid-gap-lg
+        flex-wrap flex-justify-center">
+          {% for product in featured_products %}
+          <div class="tablet:grid-col-4 usa-media-block__background-image-portrait margin-bottom-3">
+            {% include cards/card.html content=product utils="small-header-card" %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+          {% assign section = page.cta-three %}
+          {% include home/cta.html data=section %}
+    </section>
+    <!-- CTA -->
+    {% assign section = page.cta-four %}
+    {% include home/cta.html data=section %}
 
     </div>
   </section>

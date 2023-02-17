@@ -36,8 +36,9 @@
   meta: For the first time, The Opportunity Project is opening up its playbook to
     enable federal agencies to transform open data into digital tools that solve key
     national challenges at the hearts of their missions.
+  notes: redirects *from* /topx-toolkit/introduction/
   title: TOPx Toolkit
-  url: /topx-toolkit/introduction/
+  url: /topx-toolkit/
 - airtable_createdTime: '2021-03-09T17:58:31.000Z'
   airtable_id: recEIvq6me7eshOnK
   meta: Puerto Rico Address Database Operations Support (PRADOS) helps municipalities
@@ -145,7 +146,7 @@
     \ national metrics we use to evaluate well-being, support communities in building\
     \ climate resilience, and help localities to access much-needed grant funding. "
   title: 2022 Sprints
-  url: /sprints/top-2022/
+  url: /sprints/2022-sprints/
 - airtable_createdTime: '2021-03-09T17:56:04.000Z'
   airtable_id: recmLGwaquBzhHeVP
   meta: 'INTERNAL: A list of web components used to build this site.'

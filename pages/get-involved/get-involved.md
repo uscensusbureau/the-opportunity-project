@@ -61,15 +61,15 @@ callout:
 {::options parse_block_html="true" /}
 <section class="usa-section">
   <div class="grid-container maxw-desktop">
-  
+
 ### Adapt The Opportunity Project Framework
 {: .section-header }
 
-Not able to join a TOP sprint? Use our toolkits – based on the TOP sprint model – to create civic impact with open data. 
+Not able to join a TOP sprint? Use our toolkits – based on the TOP sprint model – to create civic impact with open data.
 
 The [product development toolkit](https://opportunity.census.gov/product-development/toolkit/) can help technologists use the TOP framework to build digital tools for the American people. We cover user research, navigating federal data, and more. Civic tech organizations, coding boot camps, community organizations, and educators have all adopted the product development toolkit to create human-centered tools.
 
-The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/introduction/) enables government agencies to facilitate TOP sprints on a flexible and modifiable timeline. The toolkit includes a detailed step by step guide. Local, state, and federal government agencies have all successfully used the toolkit as a playbook to run their own sprints.
+The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/) enables government agencies to facilitate TOP sprints on a flexible and modifiable timeline. The toolkit includes a detailed step by step guide. Local, state, and federal government agencies have all successfully used the toolkit as a playbook to run their own sprints.
 
 <br>
 

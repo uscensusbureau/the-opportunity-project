@@ -23,7 +23,7 @@ primary:
       - text: Datasets
         href: data/
       - text: TOPx Toolkit for Federal Agencies
-        href: topx-toolkit/introduction/
+        href: topx-toolkit/
       - text: TOP Product Development Toolkit
         href: product-development/toolkit/
 
@@ -71,7 +71,7 @@ footer:
   - text: Datasets
     href: data/
   - text: TOPx Toolkit
-    href: topx-toolkit/introduction/
+    href: topx-toolkit/
   - text: Product Toolkit
     href: product-development/toolkit/
   - text: data.census.gov
@@ -114,7 +114,7 @@ footer-bottom-coil:
 toolkit:
   topx:
     - text: Introduction
-      href: topx-toolkit/introduction/
+      href: topx-toolkit/
     - text: Phase 1
       href: topx-toolkit/phase-1/
     - text: Phase 2

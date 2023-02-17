@@ -32,9 +32,9 @@ second-section:
   skip-top-border: true
   right: 
     - title: Does this cost money?
-      body: TOP is a lightweight process by design.  Attending our events, participating in our sprints and challenges does not cost money. It is free and open for nonprofits, companies, civic tech groups, and agencies to get involved. Our [TOPx toolkit](../topx-toolkit/introduction) is now open to all federal agencies and interested stakeholders.  Receiving technical assistance from our team specifically to launch TOPx in other federal agencies may require an interagency agreement. [Please contact us for details](mailto:census.opportunityproject@census.gov).
-    - title: How can I get involved? 
-      body: Check out our [Get Involved page](../get-involved) to see if there is an active sprint running, and if not, [sign up to receive updates](https://public.govdelivery.com/accounts/USCENSUS/signup/16610) about upcoming sprints and opportunities to engage with us. 
+      body: TOP is a lightweight process by design.  Attending our events, participating in our sprints and challenges does not cost money. It is free and open for nonprofits, companies, civic tech groups, and agencies to get involved. Our [TOPx toolkit](../topx-toolkit/) is now open to all federal agencies and interested stakeholders.  Receiving technical assistance from our team specifically to launch TOPx in other federal agencies may require an interagency agreement. [Please contact us for details](mailto:census.opportunityproject@census.gov).
+    - title: How can I get involved?
+      body: Check out our [Get Involved page](../get-involved) to see if there is an active sprint running, and if not, [sign up to receive updates](https://public.govdelivery.com/accounts/USCENSUS/signup/16610) about upcoming sprints and opportunities to engage with us.
 
 third-section:
   left-include: faqs/timeline.md

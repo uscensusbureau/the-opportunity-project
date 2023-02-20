@@ -1674,6 +1674,48 @@ main {
   }
 }
 
+@mixin space-between-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeline-graphic {
+
+}
+
+.phase--title, .full-sprint {
+  @include space-between-text;
+}
+
+.phase--title, .full-sprint {
+  @include u-padding-x(2);
+}
+
+.steps {
+  // outline: red 5px dashed;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  li {
+    list-style-type: none;
+    // border: 3px green solid;
+    margin: 15px 0 0;
+    a {
+      @include space-between-text;
+      color: white;
+      text-decoration: none;
+      @include u-padding-x(2);
+    }
+  }
+}
+
+div[id*=toolkit-step-] {
+  scroll-snap-margin-top: 18rem;
+  scroll-margin-top: 18rem;
+}
+
+
 .products {
    .card-container {
     background-image: none;

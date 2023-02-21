@@ -4,7 +4,7 @@
 body:
   - section: Step 1
     header: Share the Results of the Sprint
-    duration: "4"
+    duration: "4-8"
     time: 10
     overview: "Formally showcasing and launching the tools developed through the sprint allows participants to further network their products to gain end users and help make an impact on the problem and the communities they were built to serve. It also helps you highlight the work your team and agency supported by leading a TOP sprint, and highlights the value of your open data. You can host a small event just for your agency, invite external stakeholders to hear from tech teams about their products, or share the results of your sprint via an agency press release."
     to_do:
@@ -23,8 +23,8 @@ body:
 
   - section: Step 2
     header: "Post-Sprint Engagement"
-    duration: "4"
-    time: 5
+    duration: "4+"
+    time: '5+'
     overview: "After hosting an end-of-sprint event, share with the teams options for staying in touch and continuing product development and deployment."
     to_do:
     - overview:

@@ -21,9 +21,6 @@ body:
       - copy: "Spread the word about TOP within your office and throughout your agency to generate interest and support for your project."
       toggle:
         - copy: "Consider holding an informational meeting, as well as utilizing agency newsletters, listservs, intranet, internal networks, and broader communications tools to generate interest and find collaborators."
-      resources:
-        - download-link: "topx-resources/phase1-step1-top-information-sheet.docx"
-          title: "TOP Information Sheet Template"
     - overview:
       - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
@@ -58,7 +55,7 @@ body:
 
   - section: Step 2
     header: Recruit Sprint Participants
-    duration: "4-6"
+    duration: "4-8"
     time: "20"
     overview: "Collaboration is an essential part of the TOP process. Once you have identified a clear and compelling problem statement, it is time to recruit technologists, universities, data and policy experts, community leaders, and advocates to participate in the sprint."
     to_do:
@@ -80,9 +77,6 @@ body:
           title: "Sprint Roles"
     - overview:
       - copy: "Customize the templates to develop outreach emails and recruitment materials to recruit tech teams and user advocates."
-      resources:
-        - download-link: "topx-resources/phase1-step2-top-recruitment-email.docx"
-          title: "TOP Recruitment Email"
     - overview:
       - copy: "Develop a list of potential participants."
       toggle:

@@ -403,6 +403,7 @@
   - recDijXK19MwsWRTJ
   - rec6tR2DwQJHtk8Nd
   - rec86K6NjboD1CLNR
+  - recvZC25u6iWvYRVY
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: Lower-resourced state, local, tribal, and territorial
@@ -441,7 +442,8 @@
   - rec0txaC5vlg0xonh
   - recLvJEYyQsXZr2LJ
   pdf: 2022-OSTP_DOC.pdf
-  products_text: Federal Grant Finder, Intergrants, Get Out the Lead, GrantVEST, Bridge
+  products_text: Federal Grant Finder, Intergrants, Get Out the Lead, GrantVEST, Bridge,
+    Grant Guide
   sprint_order: 5
   sprint_text: 2022 Sprints
 - Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
@@ -509,6 +511,7 @@
   Products:
   - recOB0pONhXpGSzjD
   - recjlSOZv5WXmiKmx
+  - recRgbtrGr8ahFiVZ
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: City planners, developers, community leaders, engaged
@@ -540,7 +543,7 @@
   - recbXvVy1e7CtTM89
   pdf: 2022-NREL-2.pdf
   pdf-esp: 2022-NREL-esp.pdf
-  products_text: "Thunderbird Software, PWR \u2013 The Power Project"
+  products_text: "Thunderbird Software, PWR \u2013 The Power Project, Windyfi"
   sprint_order: 7
   sprint_text: 2022 Sprints
 - Background: Many state and local governments do not have a database of addresses
@@ -684,6 +687,7 @@
   Products:
   - recFrXpT18zwzIhBH
   - reccUu5AaGUtadhGK
+  - recaLkGnstwunDwSa
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: Youth, job seekers, business owners, and municipal government
@@ -709,7 +713,7 @@
   - recRKu6t2inmGXXce
   pdf: 2022-HHS-USDA-DDEC.pdf
   pdf-esp: 2022-HHS-USDA-DDEC-esp.pdf
-  products_text: Acceso Laboral, VetAssist
+  products_text: Acceso Laboral, VetAssist, JobInn
   sprint_order: 8
   sprint_text: 2022 Sprints
 - Background: To many Americans ,earning a 4-year university degree is held up as
@@ -2725,7 +2729,7 @@
     Books
   sprint_order: 3
   sprint_text: 2020 Census Data
-- Name: Building Climate Change Resilience Through Public Transit
+- Name: 'climate resilience '
   airtable_createdTime: '2023-01-26T19:03:49.000Z'
   airtable_id: reccwVnKzrvYhr045
 - Challenge: Modernize civics training in secondary schools by developing digital
@@ -3092,6 +3096,7 @@
     \ Change"
   Products:
   - recfrYJmmy1aXTJix
+  - recWblnT5cMOweZBG
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: Members of the public; transit agencies; local, regional,
@@ -3128,7 +3133,7 @@
   organizations:
   - recQJhXANnrCe4tUP
   pdf: 2022-DOT.pdf
-  products_text: Payver
+  products_text: Payver, TREC
   sprint_order: 6
   sprint_text: 2022 Sprints
 - Name: Improving Data Literacy Using Decennial Census Data

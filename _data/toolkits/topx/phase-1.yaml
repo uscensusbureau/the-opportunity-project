@@ -25,9 +25,6 @@ body:
       - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
       - copy: "Build a staff-level facilitation team of sprint leaders. Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
-      resources:
-        - download-link: "topx-resources/phase1-step1-top-facilitation-team-roles.docx"
-          title: "TOP Facilitation Team - Potential Roles"
     - overview:
       - copy: "Begin meeting weekly as a facilitation team to efficiently distribute responsibility and track progress."
     - overview:

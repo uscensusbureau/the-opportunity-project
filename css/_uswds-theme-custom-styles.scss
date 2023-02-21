@@ -1687,12 +1687,18 @@ main {
 
 }
 
-.phase--title, .full-sprint {
+.phase--title a, .full-sprint {
   @include space-between-text;
 }
 
-.phase--title, .full-sprint {
+.phase--title a, .full-sprint {
   @include u-padding-x(2);
+}
+
+.phase--title a {
+  width: 100%;
+  color: white;
+  text-decoration: none;
 }
 
 .steps {
@@ -1708,8 +1714,59 @@ main {
       @include space-between-text;
       color: white;
       text-decoration: none;
-      @include u-padding-x(2);
+      @include u-padding-x(1);
+
+      h5 {
+        @include u-text('normal')
+      }
     }
+  }
+}
+
+.phase--section__phase1 .steps {
+  li:first-child {
+    width: 90%;
+  }
+  li:nth-child(2) {
+    width: 80%;
+    align-self: end;
+    margin-right: 1.6rem;
+  }
+  li:nth-child(3) {
+    width: 60%;
+    align-self: end;
+  }
+}
+.phase--section__phase2 .steps {
+  li:first-child {
+    width: 33%;
+  }
+  li:nth-child(2) {
+    width: 60%;
+    margin-left: 1.6rem;
+  }
+  li:nth-child(3) {
+    width: 70%;
+    align-self: center;
+  }
+  li:nth-child(4) {
+    width: 70%;
+    align-self: end;
+    margin-right: 1.6rem;
+  }
+  li:nth-child(5) {
+    width: 70%;
+    align-self: end;
+  }
+}
+.phase--section__phase3 .steps {
+  li:first-child {
+    width: 90%;
+  }
+  li:nth-child(2) {
+    width: 80%;
+    align-self: end;
+    // margin-left: 1.6rem;
   }
 }
 

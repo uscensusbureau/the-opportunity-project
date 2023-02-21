@@ -15,9 +15,6 @@ body:
         - copy: "Facilitating milestone calls at the same time and day of the week allows for the most effective cadence. You may want to share calendar invitations for all milestone calls upfront."
     - overview:
       - copy: "Develop a facilitation guide for each milestone call."
-      resources:
-        - download-link: "topx-resources/phase2-ongoing-tasks-facilitation-guides-email-templates.docx"
-          title: "Milestone Facilitation Guide Template"
     - overview:
       - copy: "Facilitate milestone calls."
       toggle:
@@ -34,7 +31,7 @@ body:
 # use Step 2 as step template!
   - section: Step 1
     header: Kickoff
-    duration: "2"
+    duration: "1+"
     time: "10"
     overview: "Kick off your sprint by hosting a call for all sprint participants to meet and learn more about the problem statement(s). During these first 2 weeks, tech teams will also develop a plan for their work during the sprint."
     to_do:
@@ -47,7 +44,7 @@ body:
 # use Step 2 as step template!
   - section: Step 2
     header: User Research
-    duration: "4"
+    duration: "2-3"
     time: "20"
     overview: "After the kickoff call, tech teams will begin user research. They will connect with user advocates who can offer insights into their communities. During this process, participants will likely require more guidance and introductions."
     to_do:
@@ -76,7 +73,7 @@ body:
 # use Step 2 as step template!
   - section: Step 3
     header: Data Exploration
-    duration: "3"
+    duration: "2-3"
     time: "20"
     overview: "In this next milestone, tech teams begin identifying and exploring relevant datasets. Tech teams will connect with data stewards via email and phone to learn more about available datasets. Participants will still need some guidance from the facilitation team."
     to_do:
@@ -104,7 +101,7 @@ body:
 
   - section: Step 4
     header: Product Development
-    duration: "6"
+    duration: "4-6"
     time: "20"
     overview: "Over the course of the next 5-6 weeks, tech teams will develop their products. Two weeks into this process, tech teams will present initial demos of their product ideas to all participants."
     to_do:
@@ -118,11 +115,18 @@ body:
       toggle:
       - copy: "There will likely be significant variation in terms of progress and product maturity. Some teams may present using a slide deck with initial concepts, while others may have wireframes, mockups, or initial tools in progress."
     - overview:
+      - copy: "Facilitate a Beta Demo milestone call."
+      - ul:
+        - li: "Teams come together to showcase and share feedback on more mature versions of their products. Typically, tools have reached at least wireframes and have some functioning features by this stage."
+        - li: "Beta demos provide another opportunity for feedback from the user advocates, data stewards, product advisors and other tech teams— and a chance for teams to showcase the progress they have made since the concept pitch."
+      toggle:
+      - copy: " See pages 7 - 9 in the Milestone Facilitation Guide Template in Ongoing Tasks Key Action #2 above for more details."
+    - overview:
       - copy: "After the demo, encourage teams to:"
       - ul:
         - li: "Incorporate feedback from the demo."
-        - li: "Begin testing their products. User advocates can help to identify potential end users who could serve as beta testers of the tools."
-        - li: "Identify at least one key metric they plan to use for measuring usage and impact (e.g., number of downloads, number of monthly active users)."
+        - li: "Begin testing their products with end users. User advocates can help to identify potential end users who could serve as beta testers of the tools."
+        - li: "Consider key metrics they plan to use for measuring usage and impact (e.g., number of downloads, number of monthly active users, etc.)."
       resources:
       - internal-link: "product-development/toolkit/"
         title: "TOP Product Development Toolkit"
@@ -135,7 +139,7 @@ body:
 
 # use Step 2 as step template!
   - section: Step 5
-    header: Final Product Development
+    header: Minimum Viable Products
     duration: "2"
     time: "15"
     overview: "The last two weeks of the sprint include facilitating final demos, and beginning to plan an end-of-sprint event."

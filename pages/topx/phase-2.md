@@ -15,7 +15,7 @@ header: Phase 2
 action: Execute
 effort:
   - title: Duration
-    amount: 4
+    amount: 3
   - title: Time
     amount: 15-20
 intro:

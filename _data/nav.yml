@@ -123,7 +123,7 @@ toolkit:
       href: topx-toolkit/phase-3/
     - text: Glossary
       href: topx-toolkit/glossary/
-  download-pdf-link: assets/files/TOPx_Toolkit.pdf
+  download-pdf-link: assets/files/topx-resources/topx-toolkit-resources.zip
   product:
     - text: STEP 1
       href: "#toolkit-step-1"

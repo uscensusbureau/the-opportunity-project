@@ -404,6 +404,7 @@
   - rec6tR2DwQJHtk8Nd
   - rec86K6NjboD1CLNR
   - recvZC25u6iWvYRVY
+  - recXhx0WXg2wpnybC
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: Lower-resourced state, local, tribal, and territorial
@@ -443,7 +444,7 @@
   - recLvJEYyQsXZr2LJ
   pdf: 2022-OSTP_DOC.pdf
   products_text: Federal Grant Finder, Intergrants, Get Out the Lead, GrantVEST, Bridge,
-    Grant Guide
+    Grant Guide, Grant Success Toolkit
   sprint_order: 5
   sprint_text: 2022 Sprints
 - Background: "The Every Student Succeeds Act\u2014a landmark federal education law\
@@ -1085,6 +1086,11 @@
   Name: "Enhancing Children\u2019s Resilience to Adversity in Puerto Rico"
   Products:
   - reciNLZ3RpJClerUp
+  - recT0uz6xv4PQEycX
+  - recNw70rfdT6yHWF6
+  - recRW4kaojPY4cdjT
+  - recJ40LKMRGFq3SGW
+  - recDAw95F5rrwDP9T
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: |
@@ -1121,7 +1127,9 @@
   - recQopFzHcyBWeeLi
   pdf: 2022-HHS-ACF.pdf
   pdf-esp: 2022-HHS-ACF-esp.pdf
-  products_text: Child Vulnerability Index Dashboard
+  products_text: 'Child Vulnerability Index Dashboard, Mental Health Toolkit: Student
+    Guide, Mental Health Toolkit: Teacher Guide, Bambini Health, SunnyR, Community
+    & Connections'
   sprint_order: 4
   sprint_text: 2022 Sprints
 - Name: Data Discovery
@@ -1316,6 +1324,7 @@
   Name: Developing Community-Informed National-Level Indicators of Well-Being
   Products:
   - recP3AmB5hfyh341h
+  - recDLYC3UKTrlhkCL
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: Federal, state, tribal, and local policymakers; communities
@@ -1401,7 +1410,7 @@
   - recgPNji2KEknNBA5
   - reczOy5j4CLUvyWCz
   pdf: 2022-DOC-DOL-Treasury-2.pdf
-  products_text: Livable Cities Tool
+  products_text: Livable Cities Tool, Wellbeing Insights & Tradeoffs Tool
   sprint_order: 3
   sprint_text: 2022 Sprints
 - Challenge: Develop innovative digital solutions that connect domestic recycling
@@ -2256,6 +2265,9 @@
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
+- Name: Building Climate Change Resilience Through Public Transit
+  airtable_createdTime: '2023-02-19T18:03:46.000Z'
+  airtable_id: recVuHKtwhP3yRV1Y
 - Background: 'The Department of Education is focused on ensuring that parents, students,
     and policymakers are able to use its publicly available data to take meaningful
     action to improve outcomes. '
@@ -2634,6 +2646,8 @@
   - recPqJziDWZAdmU6C
   - recqC7xemAAVwhbaQ
   - recpa9DMbyRLrW2wF
+  - rec0YJCTNT7DpWaek
+  - recJJKcu8AalaPtkC
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: State, local, tribal, and territorial emergency managers
@@ -2680,7 +2694,8 @@
   pdf: 2022-FEMA.pdf
   products_text: 'Forerunner Floodplain Management Dashboard, Climate Resilient Communities
     Hub, "GeoNode GeoStories for Building Code Adoption Analysis: Spatial Correlations
-    Between BCAT, Flood Risk, and Equity"'
+    Between BCAT, Flood Risk, and Equity", Climate Change Resiliency Dashboard, Heat
+    Wave Education Website'
   sprint_order: 1
   sprint_text: 2022 Sprints
 - Challenge: Develop digital products or physical/digital works of art that use 2020
@@ -3097,6 +3112,7 @@
   Products:
   - recfrYJmmy1aXTJix
   - recWblnT5cMOweZBG
+  - recnos5G54efmkDFE
   Sprints:
   - recX8qMzecPlE76HV
   Target audience / End user: Members of the public; transit agencies; local, regional,
@@ -3133,7 +3149,8 @@
   organizations:
   - recQJhXANnrCe4tUP
   pdf: 2022-DOT.pdf
-  products_text: Payver, TREC
+  products_text: Payver, TREC, Measuring Climate Risk and Resilience for Public Transit
+    Tool
   sprint_order: 6
   sprint_text: 2022 Sprints
 - Name: Improving Data Literacy Using Decennial Census Data

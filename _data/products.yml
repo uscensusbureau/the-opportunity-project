@@ -30,6 +30,35 @@
   title: Social Impact Reporting Platform
   year:
   - 2017
+- Product Name: Climate Change Resiliency Dashboard
+  agencies:
+  - Federal Emergency Management Agency
+  airtable_createdTime: '2023-02-19T18:03:56.000Z'
+  airtable_id: rec0YJCTNT7DpWaek
+  category:
+  - Disasters
+  - Environment
+  data_sets: CDC Social Vulnerability Index, Agency for Toxic Substances and Disease
+    Registry (ATSDR)
+  data_sets_text: CDC Social Vulnerability Index, Agency for Toxic Substances and
+    Disease Registry (ATSDR)
+  description: 'A Climate Change Resiliency Dashboard for elementary school students
+    in New York City. '
+  details: 'A Climate Change Resiliency Dashboard for elementary school students in
+    New York City. '
+  image: climate-resiliency-dashboard.jpg
+  image-alt: A screenshot that reads "Flooding in NYC".
+  link: https://sites.google.com/view/columbiafall2022-topsprint/home?pli=1
+  problem_statement:
+  - reccBn4jTjxtqv7u1
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - reckLt6YrO4IJcvyb
+  tech_team_text: Columbia University
+  title: Climate Change Resiliency Dashboard
+  year:
+  - 2022
 - Product Name: Smartcat
   agencies:
   - New York City
@@ -1134,6 +1163,66 @@
   title: Public Finance Institute-Disaster Spending Tracker
   year:
   - 2020
+- Product Name: Community & Connections
+  agencies:
+  - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
+  airtable_createdTime: '2023-02-19T18:06:47.000Z'
+  airtable_id: recDAw95F5rrwDP9T
+  category:
+  - Health
+  - Education
+  data_sets: Census Data
+  data_sets_text: Census Data
+  description: Community & Connections solves the lack of resiliency in youth in Puerto
+    Rico to adversities for high school students aged 15-18 going to college.
+  details: Community & Connections solves the lack of resiliency in youth in Puerto
+    Rico to adversities for high school students aged 15-18 going to college.
+  image: community-connections.jpg
+  image-alt: An image that reads "7 C's = Resiliency".
+  link: https://appetize.io/app/5qqjgj254j6lgcdeek4u6fqgbq?device=pixel4&osVersion=11.0&scale=75
+  problem_statement:
+  - recCRT4zbEOa2TGo0
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recPpcwB3FazBNpbC
+  tech_team_text: Bowie State
+  title: Community & Connections
+  year:
+  - 2022
+- Product Name: Wellbeing Insights & Tradeoffs Tool
+  agencies:
+  - U.S. Department of Commerce, U.S. Department of Labor, U.S. Department of the
+    Treasury, New America
+  airtable_createdTime: '2023-02-19T18:03:46.000Z'
+  airtable_id: recDLYC3UKTrlhkCL
+  category:
+  - Economic Development
+  data_sets: Census Data, American Community Survey, EPA Smart Location Mapping
+  data_sets_text: Census Data, American Community Survey, EPA Smart Location Mapping
+  description: "The Wellbeing Insights & Tradeoffs Tool (WITT) solves the gap in data\
+    \ on infrastructure/built environment projects\u2019 projected impact on equitable\
+    \ access to wellbeing. WITT provides transparent, accessible and otherwise unavailable\
+    \ insights that can be used to reduce inequities and advance community wellbeing,\
+    \ for both government decision-makers and community stakeholders."
+  details: "The Wellbeing Insights & Tradeoffs Tool (WITT) solves the gap in data\
+    \ on infrastructure/built environment projects\u2019 projected impact on equitable\
+    \ access to wellbeing. WITT provides transparent, accessible and otherwise unavailable\
+    \ insights that can be used to reduce inequities and advance community wellbeing,\
+    \ for both government decision-makers and community stakeholders."
+  image: witt.jpg
+  image-alt: A screenshot from the WITT tool website.
+  link: https://www.fullframeinitiative.org/wiatt
+  problem_statement:
+  - recE3t7URGHw5zsCM
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recm9eQUaFazju42b
+  tech_team_text: Full Frame Initiative
+  title: Wellbeing Insights & Tradeoffs Tool
+  year:
+  - 2022
 - Product Name: Get Out the Lead
   agencies:
   - White House Office of Science and Technology Policy, U.S. Department of Commerce
@@ -1578,6 +1667,34 @@
   title: Edubuddy
   year:
   - 2020
+- Product Name: SunnyR
+  agencies:
+  - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
+  airtable_createdTime: '2023-02-19T18:04:06.000Z'
+  airtable_id: recJ40LKMRGFq3SGW
+  category:
+  - Health
+  - Education
+  data_sets: CDC, NCTSN, ABES
+  data_sets_text: CDC, NCTSN, ABES
+  description: SunnyR provides behavioral indicator tools, mental health resources,
+    and mindful activities for educators of youth ages 12-17 in Puerto Rico.
+  details: SunnyR provides behavioral indicator tools, mental health resources, and
+    mindful activities for educators of youth ages 12-17 in Puerto Rico.
+  image: sunnyr.jpg
+  image-alt: A screenshot of the website that includes an image of a small illustrated
+    person with a large shadow.
+  link: https://topteamau.shinyapps.io/topyouthresilience/
+  problem_statement:
+  - recCRT4zbEOa2TGo0
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recxwKwF1MmC0dcHX
+  tech_team_text: American Unviersity
+  title: SunnyR
+  year:
+  - 2022
 - Description (Old): Uses traffic accident and fatality data to provide dynamic location-based
     visualizations of hazardous traffic corridors for citizens and community decision
     makers.
@@ -1610,6 +1727,33 @@
   title: Create
   year:
   - 2016
+- Product Name: Heat Wave Education Website
+  agencies:
+  - Federal Emergency Management Agency
+  airtable_createdTime: '2023-02-19T18:03:58.000Z'
+  airtable_id: recJJKcu8AalaPtkC
+  category:
+  - Disasters
+  - Environment
+  data_sets: FEMA
+  data_sets_text: FEMA
+  description: The University of Arizona built a website to educate the general public
+    about the dangers of heat waves in Arizona and how it affects the population.
+  details: The University of Arizona built a website to educate the general public
+    about the dangers of heat waves in Arizona and how it affects the population.
+  image: heat-wav-ed.jpg
+  image-alt: A screenshot with an image that reads "but it's a dry heat Arizona".
+  link: https://uarizona-top.github.io/
+  problem_statement:
+  - reccBn4jTjxtqv7u1
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recUDw00kx2iRxy5O
+  tech_team_text: University of Arizona
+  title: Heat Wave Education Website
+  year:
+  - 2022
 - Product Name: Pollution Policy Watch
   agencies:
   - U.S. Environmental Protection Agency
@@ -1899,6 +2043,34 @@
   title: Job Crowdsourcing Tool
   year:
   - 2016
+- Product Name: 'Mental Health Toolkit: Teacher Guide'
+  agencies:
+  - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
+  airtable_createdTime: '2023-02-19T18:03:46.000Z'
+  airtable_id: recNw70rfdT6yHWF6
+  category:
+  - Education
+  - Health
+  data_sets: Various sources
+  data_sets_text: Various sources
+  description: This guide is for use by teachers, counselors, and staff working in
+    intermediate and high schools in Puerto Rico.
+  details: This guide is for use by teachers, counselors, and staff working in intermediate
+    and high schools in Puerto Rico.
+  image: mental-health-toolkit-teachers-guide.jpg
+  image-alt: 'A screenshot from the toolkit that reads "TOP Mental Health Toolkit:
+    Teacher''s Guide".'
+  link: https://drive.google.com/file/d/1eCDpt8bSzcIzS3j3eoa-fa8XHKjc4XTw/view
+  problem_statement:
+  - recCRT4zbEOa2TGo0
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recfYzPh4WByVH8Vm
+  tech_team_text: Women's Campaign International Team 1 (WCI)
+  title: 'Mental Health Toolkit: Teacher Guide'
+  year:
+  - 2022
 - Product Name: Thunderbird Software
   agencies:
   - "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xEDa"
@@ -2227,6 +2399,39 @@
   title: ClinIQ Health
   year:
   - 2021
+- Product Name: Bambini Health
+  agencies:
+  - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
+  airtable_createdTime: '2023-02-19T18:03:46.000Z'
+  airtable_id: recRW4kaojPY4cdjT
+  category:
+  - Health
+  data_sets: N/A
+  data_sets_text: N/A
+  description: Bambini Health Inc. is a health technology start-up that provides evidence-based
+    menu planning for food suppliers, schools, parents, and children including food
+    nutrition breakdown at the macro level, intuitive meal decision-making and payment
+    for parents, and a gamified app to encourage children and teens to make proactive
+    choices in eating healthfully.
+  details: Bambini Health Inc. is a health technology start-up that provides evidence-based
+    menu planning for food suppliers, schools, parents, and children including food
+    nutrition breakdown at the macro level, intuitive meal decision-making and payment
+    for parents, and a gamified app to encourage children and teens to make proactive
+    choices in eating healthfully.
+  image: bambini-health.jpg
+  image-alt: A screenshot from the Bambini Health website that reads "a healthy body
+    eats healthy food".
+  link: https://bambinihealth.com/
+  problem_statement:
+  - recCRT4zbEOa2TGo0
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recopJGFimaCVpOBC
+  tech_team_text: Bambini Health
+  title: Bambini Health
+  year:
+  - 2022
 - Product Name: Windyfi
   agencies:
   - "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xEDa"
@@ -2360,6 +2565,34 @@
   title: Tech Talent Tracker
   year:
   - 2020
+- Product Name: 'Mental Health Toolkit: Student Guide'
+  agencies:
+  - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
+  airtable_createdTime: '2023-02-19T18:03:19.000Z'
+  airtable_id: recT0uz6xv4PQEycX
+  category:
+  - Education
+  - Health
+  data_sets: Various sources
+  data_sets_text: Various sources
+  description: The tools within the guide are intended to be used in combination with
+    the associated mental health toolkit for intermediate and high school students.
+  details: The tools within the guide are intended to be used in combination with
+    the associated mental health toolkit for intermediate and high school students.
+  image: mental-health-toolkit-student-guide.jpg
+  image-alt: 'A screenshot from the toolkit that reads "Addressing Resilience to Adversity
+    Toolkit: Student Edition".'
+  link: https://drive.google.com/file/d/1SMKMdBzT6nr9tLInuGNEzMf4QBlST482/view
+  problem_statement:
+  - recCRT4zbEOa2TGo0
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recfYzPh4WByVH8Vm
+  tech_team_text: Women's Campaign International Team 1 (WCI)
+  title: 'Mental Health Toolkit: Student Guide'
+  year:
+  - 2022
 - Description (Old): Care Partners Plus's tool uses Census Bureau and HUD data to
     help veterans communicate needs to their care team in real time, identifying high-risk
     veterans for suicide, homelessness and substance use for improved follow-up, transparency,
@@ -2699,6 +2932,34 @@
   title: Disaster Awareness Games
   year:
   - 2018
+- Product Name: Grant Success Toolkit
+  agencies:
+  - White House Office of Science and Technology Policy, U.S. Department of Commerce
+  airtable_createdTime: '2023-02-19T18:04:18.000Z'
+  airtable_id: recXhx0WXg2wpnybC
+  category:
+  - Grants
+  data_sets: Grants.gov
+  data_sets_text: Grants.gov
+  description: The grant success toolkit provides Federal grantors with the framework
+    and resources for how they can use data to ensure that they are meeting the needs
+    of grantees.
+  details: The grant success toolkit provides Federal grantors with the framework
+    and resources for how they can use data to ensure that they are meeting the needs
+    of grantees.
+  image: grant-success-tool.jpg
+  image-alt: A screenshot of a pdf that reads "Grantee Success Toolkit".
+  link: https://drive.google.com/drive/folders/1sExg55_GM_2iHTAGeQwWH7M8K2gFKKy_?usp=sharing
+  problem_statement:
+  - rec4f1ZKErT6siTgx
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - rech5KkIQXoD4dMZO
+  tech_team_text: Cityfi
+  title: Grant Success Toolkit
+  year:
+  - 2022
 - Description (Old): A tool from Esri that shows where opportunities are for low income
     citizens with children.
   Product Name: Affordable Housing Finder
@@ -4342,6 +4603,36 @@
   title: Reporting Stories with Census Data
   year:
   - 2021
+- Product Name: Measuring Climate Risk and Resilience for Public Transit Tool
+  agencies:
+  - U.S. Department of Transportation
+  airtable_createdTime: '2023-02-19T18:03:46.000Z'
+  airtable_id: recnos5G54efmkDFE
+  category:
+  - Disasters
+  - Transportation
+  data_sets: USFS Tree Canopy, FEMA Heat Wave Risk, National Transit Database
+  data_sets_text: USFS Tree Canopy, FEMA Heat Wave Risk, National Transit Database
+  description: The Measuring Climate Risk and Resilience for Public Transit Tool allows
+    city and other local officials to assess how to best analyze risks and resilience
+    indicators associated with public transit.
+  details: The Measuring Climate Risk and Resilience for Public Transit Tool allows
+    city and other local officials to assess how to best analyze risks and resilience
+    indicators associated with public transit.
+  image: measuring-climate-risk.jpg
+  image-alt: A screenshot of the website that reads "Urban Heat Island Effect Solutions
+    and Funding".
+  link: https://www.nlc.org/article/2023/02/13/urban-heat-island-effect-solutions-and-funding/
+  problem_statement:
+  - reclJYrMI3Nr3I6Jy
+  sprint:
+  - recX8qMzecPlE76HV
+  tech_team:
+  - recS2wTybA0XuXTuV
+  tech_team_text: National League of Cities
+  title: Measuring Climate Risk and Resilience for Public Transit Tool
+  year:
+  - 2022
 - Product Name: Companion App for COVID Testing
   agencies:
   - U.S. Department of Health and Human Services

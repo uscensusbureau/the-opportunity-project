@@ -1,6 +1,6 @@
 name: html-proofer tests
 
-on: 
+on:
   [pull_request, workflow_dispatch]
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
           bundler-cache: true
 
       - uses: c-hive/gha-npm-cache@v1
-      
+
       - name: Install proofer dependencies.
         run: npm install
 
@@ -34,5 +34,5 @@ jobs:
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: --ignore-status-codes 0 --url-ignore "/community.amstat.org/,/fhwa.dot.gov/,/www.cyberseek.org/,/www.clustermapping.us/,/www.bls.gov\/cew/,/bit.ly\,/splashthat.com/"
+          arguments: --ignore-status-codes 0 --ignore-urls "/community.amstat.org/,/fhwa.dot.gov/,/www.cyberseek.org/,/www.clustermapping.us/,/www.bls.gov\/cew/,/bit.ly\,/splashthat.com/"
           # The arguments to pass to HTMLProofer

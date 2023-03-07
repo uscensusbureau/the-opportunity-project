@@ -1,8 +1,11 @@
 ---
 short-name: past
 layout: past-sprints
-order: 7
+order: 6
 expandAllProblemStatements: false
+redirect_from:
+  - /sprints/2020-census-data/
+  - /sprints/2020-census-data/#2020-data
 
 hero:
   Name: Past Sprints

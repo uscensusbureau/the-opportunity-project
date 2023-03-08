@@ -1635,7 +1635,7 @@ main {
 
       #{($i * 11) - 6%},
       #{$i * 11%} {
-        transform: translateY((-100% / $item-count) * $i);
+        transform: translateY(calc(-100% / $item-count) * $i);
       }
     }
   }

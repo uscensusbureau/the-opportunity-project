@@ -32,11 +32,10 @@ For additional documentation check out the [documentation directory](/docs/READM
 
 ## Dependencies
 
-1. Ruby v2.7.2
-2. Node v14.17.0
-   - gulp (`npm i -g gulp`)
-3. Bundler v2.2.31
-   - jekyll (`gem install jekyll`)
+1. Ruby v2.7.5
+  - jekyll (`gem install jekyll`)
+2. Node v18
+  - gulp (`npm i -g gulp`)
 4. Chrome v59 or higher (v60 if on Windows)
 
 We recommend using a universal verion manager such as `asdf` 

@@ -60,7 +60,7 @@ cta-four:
     class: font-sans-sm text-normal
   primary:
     text: Go to Phase 1
-    href: /topx-toolkit/phase-1
+    href: /topx-toolkit/phase-1/
     isExternal: false
     class: bg-base-darkest text-white
 ---

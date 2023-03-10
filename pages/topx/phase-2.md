@@ -57,7 +57,7 @@ continue-text: Phase 3
       </a>
     </div>
     <div>
-      <a href="{{ site.baseurl }}/topx-toolkit/phase-3"
+      <a href="{{ site.baseurl }}/topx-toolkit/phase-3/"
         class="usa-button margin-top-4 usa-button--secondary site-button">
         Continue to {{page.continue-text}}
       </a>

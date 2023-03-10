@@ -228,7 +228,7 @@
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__MBDA.pdf
   products_text: Archymedes, BCA Culture
   sprint_order: 1
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "Las empresas de minor\xEDas son fundamentales para las econom\xEDas nacional\
     \ y locales. Son parte fundamental de la creaci\xF3n y la conservaci\xF3n de m\xE1\
     s de [2.2 millones de empleos](https://www.nmsdc.org/wp-content/uploads/Economic_Impact_Report_FINAL.pdf)\
@@ -324,7 +324,7 @@
     Planning Assessment Tool, Predictive Equity Index Model, Bowie State University:
     The Opportunity Project'
   sprint_order: 2
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "Durante el curso de la pandemia de COVID-19, el gobierno federal [ha destinado\
     \ 4.5 billones de d\xF3lares](https://www.usaspending.gov/disaster/covid-19) a\
     \ las actividades de asistencia. \xBFC\xF3mo se gast\xF3 este dinero? Un mejor\
@@ -1937,7 +1937,7 @@
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__Coral-Gables.pdf
   products_text: Digisults Report, SafeDigi-ID, SafetyNet, The City Portrait
   sprint_order: 7
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "Tras la pandemia del COVID-19, muchas peque\xF1as empresas lucharon para\
     \ mantenerse a flote. En mayo del 2021, el n\xFAmero de peque\xF1as empresas en\
     \ funcionamiento se hab\xEDa reducido en un 33.8 %, en comparaci\xF3n con enero\
@@ -2573,7 +2573,7 @@
     Management Dashboard, Mayday.ai Realtime Risk and Disaster Intelligence (Resilient
     USA 2.0), Climunity Planning Tool
   sprint_order: 3
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "Eventos extremos y los cambios en los patrones de temperatura y precipitaci\xF3\
     n ocasionados por el cambio clim\xE1tico est\xE1n causando problemas con reacci\xF3\
     n en cascada en las comunidades de nuestro pa\xEDs.  A medida que aumentan la\
@@ -2721,6 +2721,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:47:30.000Z'
   airtable_id: reccHr0aPWZzFbgi8
+  category: 2020 Census
   datasets copy:
   - recBSiUNCQOWfZNLe
   - recHdmctS1Uq0iasg
@@ -2819,6 +2820,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:44:46.000Z'
   airtable_id: recdkBaZ8qiY98UM4
+  category: 2020 Census
   datasets copy:
   - recBSiUNCQOWfZNLe
   - recHdmctS1Uq0iasg
@@ -2910,7 +2912,7 @@
   products_text: Frontdoor, Edquity Rental Assistance, AWS Community Chatbot , The
     EnVision App
   sprint_order: 4
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "La inseguridad de vivienda, o el acceso a vivienda asequible para hogares\
     \ de bajos ingresos, no es un nuevo desaf\xEDo para nuestro pa\xEDs, pero se ha\
     \ agravado debido a la pandemia de COVID-19. En el a\xF1o 2020, la cantidad de\
@@ -3504,6 +3506,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:42:30.000Z'
   airtable_id: recrhEu7bAwQeTEck
+  category: 2020 Census
   datasets copy:
   - recBSiUNCQOWfZNLe
   - recHdmctS1Uq0iasg
@@ -3598,7 +3601,7 @@
   products_text: Pandemic Moves, Voyager, Remote vs. Onsite Housing Affordability
     Dashboard
   sprint_order: 5
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "El Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD) ha\
     \ apoyado las viviendas para personas de ingresos bajos por m\xE1s de 50 a\xF1\
     os, usando los datos sobre las necesidades de vivienda y la demograf\xEDa para\
@@ -3685,7 +3688,7 @@
   pdf-esp: 2021-problem-statements/post-covid/esp/SPA_Post-COVID__New-York.pdf
   products_text: Wordly Real-Time Translation, Smartcat
   sprint_order: 6
-  sprint_text: The World Post-COVID-19, El Mundo Pos-COVID-19
+  sprint_text: 2021 Sprints, Sprints del 2021
   why-esp: "Con m\xE1s de 3 millones de residentes nacidos en el extranjero provenientes\
     \ de m\xE1s de 200 pa\xEDses distintos, la ciudad de Nueva York alberga a una\
     \ de las poblaciones m\xE1s diversas del mundo. Los neoyorquinos provienen de\

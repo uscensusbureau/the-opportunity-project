@@ -175,7 +175,7 @@
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   lang: en
-  order-number: 5
+  order-number: 6
   problem_statements:
   - recfwUvvptMpf0PLj
   - rec6Coqk1u4BTdxLI
@@ -550,7 +550,7 @@
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
-  order-number: 0
+  order-number: 1
   problem_statements:
   - reccBn4jTjxtqv7u1
   - rec4f1ZKErT6siTgx
@@ -843,7 +843,7 @@
   image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
   lang: en
-  order-number: 4
+  order-number: 5
   problem_statements:
   - recqL51kCcBL6go3m
   - recUnXFEYwEO7Uea6
@@ -895,7 +895,7 @@
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   lang: en
-  order-number: 2
+  order-number: 3
   problem_statements:
   - recsbfXyfEmL6eaDo
   - recbjIUzjzLZ5KmJS
@@ -907,6 +907,36 @@
   short-tag: 2021-sprints
   translation_link:
   - recnrr8LKTIFIKsHU
+- Name: FDA Diagnostic Data Exchange
+  Tech Team Companies:
+  - recYuOnniDp1hEOTT
+  Year: 2023
+  airtable_createdTime: '2023-03-09T18:57:38.000Z'
+  airtable_id: reckS75HxEiwFqcDD
+  description: "Over the past three years, it has become clear that health affects\
+    \ everything from our families and communities to the global economy, education,\
+    \ and more. The COVID-19 pandemic response introduced critical health innovations\
+    \ and laid out a path for future innovations in diagnostic testing, telemedicine,\
+    \ patient education, data standards, and health technology. In spite of these\
+    \ advances, many challenges remain, and a great deal of work needs to be done\
+    \ in order to ensure that our communities \u2013 and the entire healthcare ecosystem\
+    \ \u2013 are empowered with data and technology to be as effective as possible\
+    \ in the face of health threats. This TOP sprint, led by the U.S. Food and Drug\
+    \ Administration (FDA) in collaboration with the U.S. Census Bureau, aims to tackle\
+    \ four challenges that center on improving the quality and utility of diagnostic\
+    \ data \u2013 from tests used anywhere \u2013 to improve health. Through the development\
+    \ of digital products and tools, teams in this sprint will strengthen the healthcare\
+    \ ecosystem\u2019s ability to ensure the best possible care for patients and communities. "
+  image-alt: An abstract illustration including light blue forms on a dark blue background.
+  img: landing/2023-fda-diagnostic.jpg
+  lang: en
+  order-number: 0
+  problem_statements:
+  - rectR08mqC2mAZf9r
+  - rece5WcPsno5Pqfye
+  - recrFLzn5Dg3gBmO4
+  - recqUfrCK8oQwJTFe
+  short-tag: fda-diagnostic
 - Name: ASA Data Challenge Expo
   Year: 2021
   airtable_createdTime: '2021-07-22T15:58:30.000Z'
@@ -941,7 +971,7 @@
   image-alt: La Tierra vista desde el espacio con un cielo lleno de estrellas
   img: landing/Post-COVID.jpg
   lang: esp
-  order-number: 1
+  order-number: 2
   problem_statements:
   - recsbfXyfEmL6eaDo
   - recbjIUzjzLZ5KmJS
@@ -1012,7 +1042,7 @@
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   lang: en
-  order-number: 3
+  order-number: 4
   problem_statements:
   - rec4KZSqOYnXgo2gD
   - recD4rN8c5sH3ECRi

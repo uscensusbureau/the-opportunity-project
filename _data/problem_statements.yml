@@ -107,7 +107,6 @@
   - rec9e5MJi3BeiIc2m
   pdf: inclusive-and-creative-2020.pdf
   products_text: Voatz, California Latino Power Map
-  sprint_order: 3
   sprint_text: 2020 Census
 - Challenge: Develop innovative digital solutions that connect domestic recycling
     facilities with manufacturers to enhance recycling markets and increase the use
@@ -1263,7 +1262,6 @@
   organizations:
   - rec9e5MJi3BeiIc2m
   products_text: Community Counts, Tract by Tract, Census Intelligence Center
-  sprint_order: 1
   sprint_text: 2020 Census
 - Challenge: ' Create a tool that connects resettled refugees with resources and vital
     services, such as access to medical care and mental health treatment, English
@@ -1974,7 +1972,6 @@
   - rec9e5MJi3BeiIc2m
   pdf: improving-data-2020.pdf
   products_text: '#WhyWeCount'
-  sprint_order: 4
   sprint_text: 2020 Census
 - Challenge: 'Create open data sets and engaging digital tools that complement existing
     citizen science plastics data, to help the public understand the amount of plastic
@@ -2743,7 +2740,6 @@
   pdf: 2021-problem-statements/2020-census/TOP-ImprovingDataLiteracy.pdf
   products_text: Behind the Numbers, XamineYourWorld, Cens(US), Libraries Need Diverse
     Books
-  sprint_order: 3
   sprint_text: 2020 Census Data
 - Name: 'climate resilience '
   airtable_createdTime: '2023-01-26T19:03:49.000Z'
@@ -2852,8 +2848,38 @@
   - rec9e5MJi3BeiIc2m
   pdf: 2021-problem-statements/2020-census/TOP-AssistingDecisionMaking.pdf
   products_text: Floodware, Community LifeRAFT, TrendR, reROOT
-  sprint_order: 2
   sprint_text: 2020 Census Data
+- Challenge: 'In vitro diagnostic (IVD) tests, such as SARS-CoV-2 or COVID-19 tests,
+    are critical data sources for the healthcare ecosystem. But with the advent of
+    new at-anywhere and non-lab based tests, capturing data these tests generate requires
+    innovation and new digital technologies. We challenge teams to create tools that
+    integrate emerging technologies, such as image capture and IoT, into IVD testing
+    devices, to help easily capture and transmit this information, while doing so
+    in accordance with best practice data standards. '
+  Full Title: Capturing Harmonized Data from In Vitro Diagnostics (IVDs)
+  Name: Capturing Harmonized Data from In Vitro Diagnostics (IVDs)
+  Sprints:
+  - reckS75HxEiwFqcDD
+  Target audience / End user: 'Test users (healthcare providers, caregivers, patients
+    and the general public); test producers (test manufacturers, pharmacies); and
+    those utilizing the resulting data (federal, state, and local public health agencies). '
+  Why this problem matters: Data from IVDs, especially from tests that are not processed
+    in a traditional physical laboratory, but rather used at the point of need, point
+    of care (POC) and over the counter (OTC), needs to be captured in a uniform format
+    in order to avoid ambiguities when the data is transmitted from the IVD to a health
+    care provider or public health institution. Establishing a uniform format for
+    data collection and transmission with logical and consistent definitions will
+    help create a standardized data infrastructure. Multiple government agencies have
+    attempted to tackle this issue, but without a streamlined approach, some related
+    efforts have not yet been fully integrated.
+  agency_text: U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-03-09T19:10:03.000Z'
+  airtable_id: rece5WcPsno5Pqfye
+  organizations:
+  - recYuOnniDp1hEOTT
+  pdf: 2023-fda-capturing-harmonized-data.pdf
+  sprint_order: 2
+  sprint_text: FDA Diagnostic Data Exchange
 - Challenge: Develop digital tools to prevent financial hardship and housing insecurity
     by raising awareness of and connecting at-risk households to housing assistance.
   Executive champion: Dave Uejio, Acting Director, CFPB
@@ -3367,8 +3393,9 @@
   - rec9e5MJi3BeiIc2m
   pdf: assisting-businesses-2020.pdf
   products_text: Census Taker
-  sprint_order: 2
   sprint_text: 2020 Census
+- airtable_createdTime: '2023-03-09T19:21:07.000Z'
+  airtable_id: recpBKIl7001XnjYK
 - Background: "A significant number of young Americans are not aware of the risks\
     \ they face and are not taking meaningful preparedness actions to improve their\
     \ chance of successfully weathering a disaster. Personal and family preparedness\
@@ -3436,6 +3463,30 @@
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
   sprint_order: 2
   sprint_text: Geo-Cohort
+- Challenge: 'Create tools and leverage existing platforms and technologies to ensure
+    that diagnostic testing and telemedicine are integrated. This will help to maximize
+    the clinical utility of expanded access to diagnostic tests by ensuring that patients
+    and physicians can quickly use test results to inform clinical care and treatment
+    plans. '
+  Full Title: Enabling the Use of Diagnostic Testing with Telehealth Platforms
+  Name: Enabling the Use of Diagnostic Testing with Telehealth Platforms
+  Sprints:
+  - reckS75HxEiwFqcDD
+  Target audience / End user: 'Telehealth companies and telemedicine healthcare providers;
+    pharmacies; healthcare delivery organizations; patients.    '
+  Why this problem matters: The use of telehealth expanded dramatically during the
+    recent pandemic, as providers and patients sought to safely deliver and access
+    healthcare services. As a result, attitudes toward telehealth have improved, and
+    it is increasingly being adopted as an integral part of healthcare. However, telehealth
+    holds other potential benefits for patients that have not yet been fully realized.
+  agency_text: U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-03-09T19:21:04.000Z'
+  airtable_id: recqUfrCK8oQwJTFe
+  organizations:
+  - recYuOnniDp1hEOTT
+  pdf: 2023-fda-telehealth.pdf
+  sprint_order: 4
+  sprint_text: FDA Diagnostic Data Exchange
 - Full Title: Helping Families, Businesses, and Communities Respond to COVID-19
   Name: Helping Families, Businesses, and Communities Respond to COVID-19
   Sprints:
@@ -3476,6 +3527,44 @@
   - rec9e5MJi3BeiIc2m
   - rec1f9YjZtzLVwot1
   sprint_text: ASA Data Challenge Expo
+- Challenge: 'Create tools that help harmonize and aggregate diagnostic data with
+    other information, such as data on chronic disease and social determinants of
+    health (SDOH), to power analytics for individuals and populations. These tools
+    should adopt Fast Healthcare Interoperability Resources (FHIR) standards for exchanging
+    electronic health data across information systems to ensure that diagnostic data
+    is fully integrated into medical records and public health systems. '
+  Full Title: Advancing Health Data Aggregation for Improved Patient Care
+  Name: Advancing Health Data Aggregation for Improved Patient Care
+  Sprints:
+  - reckS75HxEiwFqcDD
+  Target audience / End user: 'Community health workers; healthcare providers; academics
+    and researchers analyzing population health and community health interventions;
+    public health agencies.   '
+  Why this problem matters: 'There has been a recent proliferation of over the counter
+    (OTC) and point of care (POC) tests, which are generally conducted outside of
+    physical laboratories and conventional clinical settings, disconnected from traditional
+    reporting systems. As a consequence, consumers are now more in control of their
+    health data than ever before. However, to inform individual patient care and for
+    effective public health coordination and response, this data needs to be easily
+    captured, transmitted, and analyzed with the right context by relevant stakeholders
+    to ensure the safety of both individuals and communities. Currently, much of this
+    health data remains underutilized: data resulting from diagnostic tests performed
+    outside of laboratories is not connected to existing health data systems, and
+    reports indicate that only up to 24 percent of healthcare companies currently
+    use APIs at scale in order to exchange electronic health data across information
+    systems. FHIR protocols lay out a path for connecting disparate information systems
+    using an application-based approach to interoperability. Lightweight, low-cost
+    solutions are needed to make the FHIR messages consumable and actionable by Electronic
+    Medical Records (EMRs) and Electronic Health Records (EHRs) as well as by public
+    health systems.'
+  agency_text: U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-03-09T19:19:03.000Z'
+  airtable_id: recrFLzn5Dg3gBmO4
+  organizations:
+  - recYuOnniDp1hEOTT
+  pdf: 2023-fda-enabling-health-data-aggregation.pdf
+  sprint_order: 3
+  sprint_text: FDA Diagnostic Data Exchange
 - Challenge: 'Develop digital products or physical/digital works of art that creatively
     and inclusively engage hard-to-count communities in 2020 Census data.  '
   Full Title: Inclusive and Creative 2020 Census Data Engagement
@@ -3526,7 +3615,6 @@
   pdf: 2021-problem-statements/2020-census/TOP-InclusiveDataEngagement.pdf
   products_text: Asian Owned Boston, Hard-to-Count Conversations, Reporting Stories
     with Census Data, co.alesce
-  sprint_order: 1
   sprint_text: 2020 Census Data
 - Challenge: Use data to help stakeholders understand post-pandemic housing and migration
     trends, and create tools that help to visualize and process this information for
@@ -3626,6 +3714,38 @@
     s bajos y a comunidades que facilitan actividades ajenas al trabajo, tales como\
     \ el golf, la navegaci\xF3n, las caminatas, el arte, la m\xFAsica y los espect\xE1\
     culos en vivo, etc."
+- Challenge: New modes of testing and care delivery rely in part on patients to input
+    and share health data to provide a complete picture to those using population-level
+    data.  Yet patients may have questions and concerns regarding the safety, security,
+    and utility of sharing their health information. We challenge sprint teams to
+    create tools and digital resources that increase clarity, transparency, and autonomy
+    regarding health privacy and security in order to empower patients to understand,
+    own, use, and voluntarily share diagnostic data with greater confidence.
+  Full Title: Empowering Consumers (Patients) Through Knowledge of Privacy and Security
+    Regarding Their Health Data
+  Name: Empowering Consumers (Patients) Through Knowledge of Privacy and Security
+    Regarding Their Health Data
+  Sprints:
+  - reckS75HxEiwFqcDD
+  Target audience / End user: Patients/consumers; health and patient advocacy organizations;
+    healthcare providers; consumer protection organizations.
+  Why this problem matters: 'Patient education and patient privacy are important pillars
+    of healthcare delivery, and they are considered to be two key responsibilities
+    of the healthcare provider. Taking time to counsel patients helps build trust
+    and has been shown to be an important driver of behavior change. Empowering patients
+    to realize they are in control of their health data likewise helps strengthen
+    that trust, especially when it comes to sharing personal health data. The COVID-19
+    pandemic served as a powerful reminder that effective patient education and empowerment
+    can fall outside of the traditional doctor-patient relationship, and that achieving
+    these goals can be especially challenging in uncertain times. '
+  agency_text: U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-03-09T19:07:49.000Z'
+  airtable_id: rectR08mqC2mAZf9r
+  organizations:
+  - recYuOnniDp1hEOTT
+  pdf: 2023-fda-empowering-consumers.pdf
+  sprint_order: 1
+  sprint_text: FDA Diagnostic Data Exchange
 - Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
     community in NYC and in cities nationwide, enabling them to access government
     resources for an equitable recovery to the impacts of COVID-19. '

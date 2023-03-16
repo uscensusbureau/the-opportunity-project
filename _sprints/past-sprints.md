@@ -1,7 +1,7 @@
 ---
 short-name: past
 layout: past-sprints
-order: 6
+order: 7
 expandAllProblemStatements: false
 redirect_from:
   - /sprints/2020-census-data/

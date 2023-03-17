@@ -1,6 +1,6 @@
 ---
 short-name: fda-diagnostic
-title: FDA Diagnostic Data Exchange
+title: Diagnostic Data Exchange (FDA)
 order: 0
 expandAllProblemStatements: true
 isCurrent: false

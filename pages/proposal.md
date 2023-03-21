@@ -17,8 +17,9 @@ files:
 
 The problem statement submission for The Opportunity Project (TOP) 2023 sprint cycle is now open.
 
-**We will be reviewing submissions on a rolling basis until April 30, 2023.**
+**We will be reviewing submissions on a rolling basis until Friday, May 5, 2023.**
 {: .font-sans-md }
 
 - Before you start drafting your problem statement proposal, please review the problem statement guidelines below.
+- We encourage you to reach out to us at census.opportunityproject@census.gov to schedule a call in which we can help you brainstorm, learn more about your interest in TOP and potential problem statements, and provide early feedback.
 - To submit a topic, please download and complete the Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov?subject=Problem Statement Proposal - [name of organization]) with the subject line *“Problem Statement Proposal - [name of organization]”*.

@@ -2797,6 +2797,14 @@ code {
   }
 }
 
+.usa-modal .modal-column {
+  z-index: 1;
+}
+
+.usa-modal .usa-modal__close {
+  z-index: 2;
+}
+
 .modal-column > div, .modal-column > header {
   margin-left: 0 !important;
 }

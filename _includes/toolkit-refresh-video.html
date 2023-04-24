@@ -1,0 +1,21 @@
+{% assign data = include.data %}
+<section class="video-section padding-9">
+  <h2  {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>{{ data.title.text }}</h2>
+  <div class="iframe-content">
+    <iframe width="640" height="360" src="{{ data.video.src }}"
+      title="{{ data.video.alt-text }}" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <div>
+      {% if data.blurb %}
+      <h3>{{ data.blurb.title }}</h3>
+      <p>{{ data.blurb.p }}</p>
+      {% endif %}
+      <ul class="toolkit-checkmark">
+        {% for items in data.list %}
+        <li>{{ items.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

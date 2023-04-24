@@ -40,6 +40,8 @@ continue-text: Phase 2
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.video-one %}
+{% include toolkit-refresh-video.html data=section %}
 <section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>

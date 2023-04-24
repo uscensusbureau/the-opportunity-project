@@ -25,6 +25,9 @@ body:
       - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
       - copy: "Build a staff-level facilitation team of sprint leaders. Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
+      resources:
+        - video-link: "https://www.youtube.com/embed/Qs-za9O0OHU"
+          title: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
     - overview:
       - copy: "Begin meeting weekly as a facilitation team to efficiently distribute responsibility and track progress."
     - overview:
@@ -44,6 +47,8 @@ body:
       resources:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
           title: "Problem Statement Template"
+        - video-link: "https://www.youtube.com/embed/Qs-za9O0OHU"
+          title: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
     - overview:
       - copy: "Identify 1-3 points of contact/sprint leaders who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams."
       toggle:
@@ -70,6 +75,8 @@ body:
       toggle:
         - copy: "Consider identifying experts from outside of government who can act as “product advisors” and offer tech teams product strategy advice."
       resources:
+        - video-link: "https://www.youtube.com/embed/Qs-za9O0OHU"
+          title: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
         - download-link: "topx-resources/phase1-step2-sprint-roles.docx"
           title: "Sprint Roles"
     - overview:
@@ -106,6 +113,9 @@ body:
         - copy: "Sprint leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
     - overview:
       - copy: "Connect with data stewards to be sure they understand their role and identify additional data stewards as needed."
+      resources:
+        - video-link: "https://www.youtube.com/embed/Qs-za9O0OHU"
+          title: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
 
 
 

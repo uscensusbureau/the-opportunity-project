@@ -1,4 +1,5 @@
 {% assign data = include.data %}
+{% assign to_do-item = site.data.toolkits.topx.{{page.slug}}.body.to_do.overview.copy %}
 <section class="video-section padding-9">
   <h2  {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>{{ data.title.text }}</h2>
   <div class="iframe-content">
@@ -7,14 +8,24 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
     <div>
-      {% if data.blurb %}
       <h3>{{ data.blurb.title }}</h3>
+      {% if data.blurb.p %}
       <p>{{ data.blurb.p }}</p>
       {% endif %}
       <ul class="toolkit-checkmark">
+        {% if page.name == intro.md %}
         {% for items in data.list %}
         <li>{{ items.item }}</li>
         {% endfor %}
+        {% else %}
+        {% for resources in to_do-item %}
+        {% if resources.video-link %}
+        <li>
+          <a href="{{ resources.video-link }}">{{ resources.video-link.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
       </ul>
     </div>
   </div>

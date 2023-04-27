@@ -96,6 +96,8 @@ winners:
 <section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
 
+[![Alternate Text]({https://www.youtube.com/watch?v=-c-DaW3ZHko&t=2083s})]({https://www.youtube.com/watch?v=-c-DaW3ZHko&t=2083s} "Link Title")
+    
 ### What is It?
 {: .section-header }
 

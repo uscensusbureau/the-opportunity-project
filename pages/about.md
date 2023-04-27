@@ -36,6 +36,21 @@ content-primary:
 #white background section
 content-light:
   title: 
+  
+# three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
+impact:
+  - statistic: '40+'
+    underline: short yellow accent
+    description: National challenges addressed, including ocean plastic pollution, COVID-19 economic recovery, disaster <br><br>
+    border: statistic-border-right
+  - statistic: '135+'
+    underline: short yellow accent
+    description: Public-facing digital products launched since 2016 through TOP’s 12-week technology development sprints
+    border: statistic-border-right
+  - statistic: '1300+'
+    underline: short yellow accent
+    description: Alumni participated in TOP sprints, including developers, designers, community leaders, data & policy experts, students, and government agencies
+    border: padding-right-3
 
 # three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
 impact:
@@ -58,6 +73,7 @@ photo:
   img-alt: Abstract exploding data with vibrant red and blue lines
   overlay:
     title: From the Census Open Innovation Labs
+    color: secondary-white
     text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.
     button:
       text: Read about the Team

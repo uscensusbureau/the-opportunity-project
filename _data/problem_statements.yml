@@ -147,7 +147,6 @@
   - recfcLCZL0Xw7ghsq
   - recSrchAqvHORzn9O
   - recqMZ6EvgVdROZb5
-  - recaxnp7O7OTu9lJj
   - recSTi0OtbctLeV2g
   - rec9VSLDwiFfkf2Gv
   - recEhddUqzLwngJGe
@@ -160,14 +159,14 @@
   datasets_text: 'Recycling Demand Mapping in the Southeast, Annual Mineral Commodity
     Summaries, Recycling Market Development Platform, Can Manufacturers Institute
     Statistics, Recycling Economic Information (REI) Report, "Facts and Figures about
-    Materials, Waste and Recycling", Plastics Data , Recycling Commodities, Map of
-    Commingled Residential MRFs in the United States, Steel Industry Data, U.S. State
-    and Local Waste and Materials Characterization Reports, The Business of Chemistry
-    By the Numbers, Glass Resource Locator, Buyers and Sellers Information, Aluminum
-    Association Industry Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off
-    Facilities", Aluminum Association Buyers'' Guide'
+    Materials, Waste and Recycling", Plastics Data , Map of Commingled Residential
+    MRFs in the United States, Steel Industry Data, U.S. State and Local Waste and
+    Materials Characterization Reports, The Business of Chemistry By the Numbers,
+    Glass Resource Locator, Buyers and Sellers Information, Aluminum Association Industry
+    Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off Facilities", Aluminum
+    Association Buyers'' Guide'
   featured_product:
-  - recaRsKbgtQOavIpx
+  - recxNb6AkmDER2KXh
   image: challenges/recycling.jpg
   image-alt: Workers collecting recycling
   organizations:
@@ -793,7 +792,7 @@
     Individual Assistance Data, CDC Social Vulnerability Index, TIGER Line Roads Data,
     TIGER Line Address Range-Feature, Business Formation Statistics
   featured_product:
-  - recleNeiLRdZwSdLt
+  - reckOdJi2Y6DUxI09
   image: challenges/pathways.png
   image-alt: Woman in graduation cap and gown
   organizations:
@@ -869,7 +868,7 @@
     matching, and retention in mid-size cities across the country, to help them achieve
     innovation and regional economic growth. '
   Executive champion: Dennis Alvord, Emily Miller, Craig Buerstatte
-  Full Title: Modernizing Talent Discovery for High Growth Entreprenership
+  Full Title: Modernizing Talent Discovery for High Growth Entrepreneurship
   Name: Talent Discovery
   Products:
   - recfqTRYC5LXFiOUe
@@ -1188,21 +1187,18 @@
   - rec6xXLK2MnjolW6R
   - recmHtppXb3wSH6uI
   - recrHa6YWyn6u6GXF
-  - recPBCaWu7TqcxSI9
   - recOOfo569jN44oeT
   - recZ889pE3kdEcyf0
   - recSVR7Yvb8H9IAZ7
   - rec6iiVcmH91bxr5i
-  - recOVmpdAhCpJrXg2
   - rec2jAFENLjEPUYdp
   datasets_text: Picture of Subsidized Households, HUD Data Portal, American Housing
     Survey, Low-Income Housing Tax Credit Qualified Census Tracts, Low-Income Housing
     Tax Credit Database, Fair-Market Rent Data, HUD Services Data , HUD Community
     Assessment Reporting Tool (CART) , HUD EnVision Centers, Treasury ZIP Code Statistics
-    of Income, "Poverty Estimates, Trends, and Analysis", HHS Data Initiative, HHS
-    Social Services Programs, HHS Wellness Programs, Employment Data from Census by
-    Geography, County Business Patterns, Map of Opportunity Zones and Affordable Housing,
-    HUD Enterprise GIS
+    of Income, "Poverty Estimates, Trends, and Analysis", HHS Social Services Programs,
+    HHS Wellness Programs, Employment Data from Census by Geography, County Business
+    Patterns, HUD Enterprise GIS
   featured_product:
   - recyKI9exBfBtz1hr
   image: challenges/self-sufficiency.jpg
@@ -1295,12 +1291,9 @@
   airtable_id: recDnQq3aDp59z637
   datasets copy:
   - rec0EuLirFTikoiVR
-  - recH9vKhftk4FCNsp
-  - rec4lJmGkCAq2jlUL
   - reck0WMNhs1NhH3vr
-  datasets_text: Charity Navigator, WRAPSNET, Hello Neighbor, FindHello Resources
+  datasets_text: Charity Navigator, FindHello Resources
   featured_product:
-  - recbsgNzUmmrKuEYn
   - rec1WFJn1OGTTGrZi
   image: challenges/refugee.jpg
   image-alt: White tents in a refugee camp
@@ -1448,7 +1441,6 @@
   - recfcLCZL0Xw7ghsq
   - recSrchAqvHORzn9O
   - recqMZ6EvgVdROZb5
-  - recaxnp7O7OTu9lJj
   - recSTi0OtbctLeV2g
   - rec9VSLDwiFfkf2Gv
   - recEhddUqzLwngJGe
@@ -1461,12 +1453,12 @@
   datasets_text: 'Recycling Demand Mapping in the Southeast, Annual Mineral Commodity
     Summaries, Recycling Market Development Platform, Can Manufacturers Institute
     Statistics, Recycling Economic Information (REI) Report, "Facts and Figures about
-    Materials, Waste and Recycling", Plastics Data , Recycling Commodities, Map of
-    Commingled Residential MRFs in the United States, Steel Industry Data, U.S. State
-    and Local Waste and Materials Characterization Reports, The Business of Chemistry
-    By the Numbers, Glass Resource Locator, Buyers and Sellers Information, Aluminum
-    Association Industry Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off
-    Facilities", Aluminum Association Buyers'' Guide'
+    Materials, Waste and Recycling", Plastics Data , Map of Commingled Residential
+    MRFs in the United States, Steel Industry Data, U.S. State and Local Waste and
+    Materials Characterization Reports, The Business of Chemistry By the Numbers,
+    Glass Resource Locator, Buyers and Sellers Information, Aluminum Association Industry
+    Statistics, "Glass Recycling: End Markets, MRFs, and Drop-off Facilities", Aluminum
+    Association Buyers'' Guide'
   image: challenges/recycling.jpg
   image-alt: Workers collecting recycling
   organizations:
@@ -1552,7 +1544,6 @@
   - recHPHeIIRTFMimuy
   - recP5cGDzT2zGEsK6
   - reco4lJ8yKVLXcWrU
-  - recqtqPIPuHLrODlE
   - recBI0V3O5BTzu2DR
   - recLdaL3z2v32oZ2o
   - recHOUBPkUDcaiw3x
@@ -1570,14 +1561,14 @@
     Support Community Participation, Learning and Teaching about the Environment Web
     Resource, National Port Strategy Assessment: Reducing Air Pollution and Greenhouse
     Gases at U.S. Ports, Reducing School Bus Idling: Clean Air Poster, Freight Analysis
-    Framework, Green Vehicle Guide, Best Practices for Reducing Near-Road Pollution
-    Exposure at Schools, Recommendations for Constructing Roadside Vegetation Barriers
-    to Improve Near road Air quality, Air Pollutant Emissions Trends Data, Environmental
-    Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE), National
-    Emissions Inventory (NEI), EJSCREEN: Environmental Justice Screening and Mapping
-    Tool, Automotive Trends Data, API & Developer Resources for Census Bureau Data'
+    Framework, Green Vehicle Guide, Recommendations for Constructing Roadside Vegetation
+    Barriers to Improve Near road Air quality, Air Pollutant Emissions Trends Data,
+    Environmental Benefits Mapping and Analysis Program - Community Edition (BenMAP-CE),
+    National Emissions Inventory (NEI), EJSCREEN: Environmental Justice Screening
+    and Mapping Tool, Automotive Trends Data, API & Developer Resources for Census
+    Bureau Data'
   featured_product:
-  - recyl8q9tZWnPoQQt
+  - receafMaV7aRWkMwG
   image: challenges/air-quality.jpg
   image-alt: Blue sky with white clouds
   organizations:
@@ -2008,8 +1999,6 @@
   - recTDMCt3kpzfrdSQ
   - recntonEwdCa5VewX
   - recF98kOtSiE6hJas
-  - recJrpmj5ur4g6XUC
-  - recT9E2tGLYcH0thL
   - recTb9j7AlUKhYVko
   - rec9uesU1D98puAio
   - rec7bnuqwVugVXeUw
@@ -2020,9 +2009,8 @@
   datasets_text: 'Source Data: TIDES Coastal Cleanup, Integrated Data: Marine Debris
     Monitoring and Assessment Project, Earth Challenge: Top 10 Most Common Plastics
     By Country Data, Earth Challenge: Open Data Documentation, Earth Challenge: Citizen
-    Science Cloud: Plastics Page, Earth Challenge: Citizen Science Cloud Data Portal,
-    Integrated Data: TIDES Coastal Clean Up, Earth Challenge: Integrated Ocean Plastics
-    Data, Integrated Data: Marine Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget
+    Science Cloud: Plastics Page, Earth Challenge: Integrated Ocean Plastics Data,
+    Integrated Data: Marine Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget
     Data , Our World In Data , Global Alert - Floating Trash, Source Data: Marine
     Debris Monitoring and Assessment Project, Source Data: Marine Litter Watch'
   featured_product:
@@ -2061,11 +2049,9 @@
   airtable_id: recSM7q7ufXLojrBx
   datasets copy:
   - rece8G25DNqYv7wRZ
-  - reczjUOvg10Zbj1FM
   - recSMjx72oMwTtWq5
   - recZ9K6s5qUYHPiN1
-  datasets_text: Federal Geo-platform, NAIP public image dates, NAIP public image
-    service, USGS National Map
+  datasets_text: Federal Geo-platform, NAIP public image service, USGS National Map
   featured_product:
   - recyPJeX2onUtcMln
   image: challenges/agricultural.jpg
@@ -3253,7 +3239,6 @@
   - recw6qS7nsiuFzmp9
   - recMPHn8tRSF5Tdq8
   - recRskiGleSLFerp9
-  - recOVmpdAhCpJrXg2
   - rec2jAFENLjEPUYdp
   datasets_text: Location of Energy Infrastructure, Food Access Research Atlas, American
     Community Survey - Population Data, Opportunity Zone Status, Opportunity Zone
@@ -3263,10 +3248,10 @@
     Data, CDC Social Vulnerability Index, TIGER Line Roads Data, TIGER Line Address
     Range-Feature, Business Formation Statistics, American Community Survey APIs,
     Treasury ZIP Code Statistics of Income, Low-Income Housing Tax Credit Qualified
-    Census Tracts, Fair-Market Rent Data, Atlas of Rural and Small-Town America, Map
-    of Opportunity Zones and Affordable Housing, HUD Enterprise GIS
+    Census Tracts, Fair-Market Rent Data, Atlas of Rural and Small-Town America, HUD
+    Enterprise GIS
   featured_product:
-  - recwo6k02qWF773ZK
+  - recxPFYJEXMA7YTmC
   image: challenges/opportunity-zones.png
   image-alt: birdseye view of densely built residential area
   organization-esp:
@@ -3456,7 +3441,7 @@
     National Household Survey, National Centers for Environmental Information, Wildfire
     Data, Ready Campaign, Datasets on terrorist and other man-made threats
   featured_product:
-  - rec5dPCVzV3SHuZDS
+  - reciAHM7OE2uo9JTi
   organizations:
   - recCGtljPyEpJ15UO
   - reccMfE4DUNwSQzCz

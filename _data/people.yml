@@ -32,8 +32,6 @@
   - recTDMCt3kpzfrdSQ
   - recntonEwdCa5VewX
   - recF98kOtSiE6hJas
-  - recJrpmj5ur4g6XUC
-  - recT9E2tGLYcH0thL
   - recTb9j7AlUKhYVko
   - rec9uesU1D98puAio
   - rec7bnuqwVugVXeUw
@@ -227,8 +225,6 @@
   - Data Steward
   airtable_createdTime: '2021-07-21T18:45:10.000Z'
   airtable_id: rec5qqGO1EWtk9A4R
-  datasets copy:
-  - recaxnp7O7OTu9lJj
   email: aadler@isri.org
   name: Adina Adler
   natl env datasets: Recycling Commodities
@@ -243,8 +239,6 @@
   - recTDMCt3kpzfrdSQ
   - recntonEwdCa5VewX
   - recF98kOtSiE6hJas
-  - recJrpmj5ur4g6XUC
-  - recT9E2tGLYcH0thL
   - recTb9j7AlUKhYVko
   - rec9uesU1D98puAio
   - rec7bnuqwVugVXeUw
@@ -726,10 +720,6 @@
   - Census API
   airtable_createdTime: '2020-03-24T17:13:49.000Z'
   airtable_id: recGWCjzJBwAycyap
-  datasets copy:
-  - recFmVA8iwxXjGsAs
-  - recj9uFk4uyksjHp8
-  - recYHXoQAnB07bJSb
   email: logan.t.powell@census.gov
   name: Logan Powell
   natl env datasets: APIs & Developer Resources
@@ -753,7 +743,6 @@
   airtable_createdTime: '2021-07-21T18:41:33.000Z'
   airtable_id: recHqGLtbCyU6UHxO
   datasets copy:
-  - reczjUOvg10Zbj1FM
   - recSMjx72oMwTtWq5
   email: joan.biediger@usda.gov
   name: Joan Biediger
@@ -1053,7 +1042,6 @@
   airtable_id: recTQSv3vwggEenrX
   datasets copy:
   - rec2jAFENLjEPUYdp
-  - recOVmpdAhCpJrXg2
   email: john.c.huggins@hud.gov
   name: John Huggins
   organizations:
@@ -1379,7 +1367,6 @@
   airtable_id: recZU4opwIrZqSGqp
   datasets copy:
   - recrHa6YWyn6u6GXF
-  - recPBCaWu7TqcxSI9
   - recOOfo569jN44oeT
   - recZ889pE3kdEcyf0
   - recGTmLrGu4XStmFe
@@ -1661,8 +1648,6 @@
   - Data Steward
   airtable_createdTime: '2021-07-20T14:19:35.000Z'
   airtable_id: recfnjb85oXlSzlzL
-  datasets copy:
-  - recH9vKhftk4FCNsp
   email: patelnj@state.gov
   name: Nicole Patel
   organizations:
@@ -1832,7 +1817,6 @@
   airtable_id: recmjkUuGFC0Riqng
   datasets copy:
   - rec2jAFENLjEPUYdp
-  - recOVmpdAhCpJrXg2
   - recTCoN4IMaSTrDbs
   email: ted.e.payne@hud.gov
   name: Ted Payne

@@ -46,7 +46,7 @@ sidebar:
     text:
       - Puerto Rico Address Database Operations Support (PRADOS)
     button:
-      - link:
+      - link: https://icasapr.com/
   - title: TECH TEAM
     text:
       - iCASAPR (Civic Address and Governance Platform for Puerto Rico)

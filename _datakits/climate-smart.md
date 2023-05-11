@@ -3,7 +3,7 @@ title: Climate-Smart Communities
 permalink: /data/climate-smart/
 class: datakit
 
-sprint-name: The World Post-COVID-19
+sprint-name: 2021 Sprints
 problem-statement-name: Tackling the Climate Crisis through Climate-Smart Communities
 date: 2021-08-01
 

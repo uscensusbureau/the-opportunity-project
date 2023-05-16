@@ -69,6 +69,7 @@
       {% endif %}
 
       {% if item.data_stewards %}
+
       {% assign steward = site.data.people | where: "airtable_id", item.data_stewards[0] | first %}
         {% if steward.size > 1 %}
           {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}

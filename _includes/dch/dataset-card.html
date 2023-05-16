@@ -63,14 +63,15 @@
       {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
         <ul class="usa-collection__meta" aria-label="Tags">
           {% for filter in filters %}
-            <li class="usa-collection__meta-item usa-tag dch-card__tag">{{ filter }}</li>
+            <li class="usa-collection__meta-item usa-tag dch-card__tag">{{ filter }} </li>
           {% endfor %}
         </ul>
       {% endif %}
 
       {% if item.data_stewards %}
-        {% if item.data_stewards.size > 0 %}
-          {% assign steward = site.data.people | where: "airtable_id", item.data_stewards[0] | first %}
+
+      {% assign steward = site.data.people | where: "airtable_id", item.data_stewards[0] | first %}
+        {% if steward.size > 1 %}
           {% assign firstFourEmailChars = steward.email | slice: 0, 4 %}
           {% assign isContactPage = false %}
           {% if firstFourEmailChars == "http" %}

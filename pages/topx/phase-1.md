@@ -24,7 +24,7 @@ intro:
   - title: Overview
     content:
       - copy: In the first few months, you will set the stage for your sprint. Along with building a coalition around your sprint topic within your agency, you will need to define your problem statement and recruit participants.
-      - copy: <em>Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
+      - copy: <em>Duration and time are estimated based on 1 problem statement, a team of sprint leaders of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
   - title: Goals
     content:
      - item: Form an agency facilitation/project management team

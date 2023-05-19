@@ -26,8 +26,9 @@ body:
     - overview:
       - copy: "Build a staff-level facilitation team of sprint leaders. Identify 1-3 points of contact/sprint leaders who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams."
       toggle:
-        - copy: "Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
-        - copy: "Sprint leaders are subject matter experts, special advisors, or others knowledgeable about the challenge."
+        - ul:
+          - li: "Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
+          - li: "Sprint leaders are subject matter experts, special advisors, or others knowledgeable about the challenge."
       resources:
         - download-link: "topx-resources/phase1-step1-top-sprint-leader-roles.docx"
           title: "TOP Sprint Leaders Role Overview"

@@ -27,10 +27,10 @@ intro:
       - copy: <em>Duration and time are estimated based on 1 problem statement, a team of sprint leaders of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
   - title: Goals
     content:
-     - item: Form an agency facilitation/project management team
+     - item: Form a team of sprint leaders
      - item: Identify a senior-level champion
      - item: Define the problem statement
-     - item: "Recruit sprint participants: tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts"
+     - item: "Recruit sprint participants: tech teams, community leaders, user advocates, individuals with direct lived experience, and data and policy experts"
      - item: Prepare documentation for sprint execution
 
 

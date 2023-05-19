@@ -1,14 +1,14 @@
 {% assign data = include.data %}
 {% assign to_do-item = site.data.toolkits.topx.{{page.slug}}.body.to_do.overview.copy %}
-<section class="video-section padding-9">
+<section class="{% if page.phase >= 0 %}bg-white text-white{% endif %} video-section padding-9">
   <h2  {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>{{ data.title.text }}</h2>
   <div class="iframe-content">
-    <iframe width="640" height="360" src="{{ data.video.src }}"
+    <iframe width="640" height="360" src="{{ data.video.src }}" class="{% if page.phase >= 0 %}border-0{% endif %}"
       title="{{ data.video.alt-text }}" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
-    <div>
-      <h3>{{ data.blurb.title }}</h3>
+    <div class="{% if page.phase >= 0%}bg-blue-warm-60v text-white{% endif %}">
+      <h3 class="{% if page.phase >= 0 %}text-white{% endif %}">{{ data.blurb.title }}</h3>
       {% if data.blurb.p %}
       <p>{{ data.blurb.p }}</p>
       {% endif %}

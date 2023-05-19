@@ -13,9 +13,9 @@
       <p>{{ data.blurb.p }}</p>
       {% endif %}
       <ul class="toolkit-checkmark">
-        {% if page.name == intro.md %}
-        {% for items in data.list %}
-        <li>{{ items.item }}</li>
+        {% if data.checkmarks %}
+        {% for items in data.checkmarks %}
+        <li> {{ items.item }}</li>
         {% endfor %}
         {% else %}
         {% for resources in to_do-item %}

@@ -21,7 +21,7 @@ body:
       - download-link: "topx-resources/phase2-ongoing-tasks-facilitation-guide.docx"
         title: "Milestone Facilitation Guide"
     - overview:
-      - copy: "Facilitate milestone calls"
+      - copy: "Facilitate milestone calls."
       toggle:
         - copy: "Assign a designated facilitator and note-taker from your team."
     - overview:

@@ -16,6 +16,40 @@ image-alt: Illustration of three vertical rectangles in a row. They are red, yel
 img:
   src: toolkits/hero-image.png
 
+video-one:
+  title:
+    text: "Why Should I Use the TOPx Toolkit at My Agency?"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/Qs-za9O0OHU
+    alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
+  blurb:
+    title: "Your Challenge + Data + Technologists & Communities = Digital Products That Solve Real-World Problems"
+    p: "The Opportunity Project (TOP) is a tested innovation method that helps federal agencies rapidly and creatively solve problems. The resources in this Toolkit enable you to use the TOP sprint model to:"
+    class: defined-width
+  checkmarks:
+    - item: "Address priorities at the heart of your agency’s mission that require data and innovation."
+    - item: "Meet requirements to promote the reuse of your data."
+    - item: "Catalyze innovation within your agency."
+    - item: "Engage with data consumers and improve data quality."
+    - item: "Collaborate with cross-sector partners to create digital solutions."
+
+
+video-two:
+  title:
+    text: "How Do I Facilitate a TOP Sprint?"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/Qs-za9O0OHU
+    alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
+  blurb:
+    title: "The Toolkit is a step-by-step guide on how to facilitate a TOP sprint."
+    p: "You will learn how to:"
+  checkmarks:
+    - item: "Define a problem statement and assemble a team."
+    - item: Identify external sprint participants from the technology industry and more, and then lead the sprint process."
+    - item: "Celebrate the accomplishments of sprint participants and measure results."
+
 cta-one:
   background-class: bg-blue-warm-60v
   title:

@@ -65,6 +65,12 @@
         target="_blank">
         {{ resource.title }}
       </a>
+      {% elsif resource.video-link %}
+      <a href="{{resource.video-link}}"
+        class="toolkit-resource-link text-white bg-primary padding-y-0 padding-x-2 margin-x-2 margin-y-1"
+        target="_blank">
+        {{ resource.title }}
+      </a>
       {% elsif resource.dummy %}
       <p class="toolkit-resource-link  bg-orange-5 text-base-darkest">{{ resource.title }}</p>
       <!--<h3>{{ resource.title }}</h3>-->

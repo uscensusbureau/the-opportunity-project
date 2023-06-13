@@ -546,6 +546,7 @@
     password: Planahead2019'
   image: sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
+  link: https://opportunity.census.gov/sille/
   problem_statement:
   - recqL51kCcBL6go3m
   sprint:
@@ -2913,6 +2914,7 @@
   details: Serious game that engages young adults in preparing for emergencies
   image: disaster-awareness-games.jpg
   image-alt: Screenshot of a computer game displaying an overhead view of city blocks
+  link: https://opportunity.census.gov/showcase/?partner-agency=Federal+Emergency+Management+Agency
   prize_status: Applied
   problem_statement:
   - recqL51kCcBL6go3m

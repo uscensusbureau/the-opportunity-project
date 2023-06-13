@@ -30,12 +30,24 @@ intro:
      - item: Motivate sprint participant progress
      - item: Execute sprint milestones
 
+phase-info-video:
+  title:
+    text: "Why Should I Use the TOPx Toolkit at My Agency?"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/Qs-za9O0OHU
+    alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
+  blurb:
+    title: "Your Challenge + Data + Technologists & Communities = Digital Products That Solve Real-World Problems"
+
 
 download-text: Phase 2 Templates
 continue-text: Phase 3
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8 ">
   <div class="grid-row">
     <div>

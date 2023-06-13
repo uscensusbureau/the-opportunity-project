@@ -2438,7 +2438,6 @@
     of local-level priorities.
   Executive champion: Tony LaVoi, Chief Data Officer, NOAA
   Full Title: Tackling the Climate Crisis through Climate-Smart Communities
-  Name: Tackling the Climate Crisis through Climate-Smart Communities
   Products:
   - recwQPcVWQncrk4vH
   - rec1IW7qqlzejpNGy
@@ -3170,6 +3169,23 @@
 - Name: Improving Data Literacy Using Decennial Census Data
   airtable_createdTime: '2021-09-20T20:07:34.000Z'
   airtable_id: reclLC12bILYZ7ymr
+- Challenge: 'Create tools that help local communities strengthen and leverage social
+    infrastructure to recover from pandemic-induced social isolation and build resilience
+    in the face of future crises.  '
+  Full Title: Building Social Infrastructure Resilience for Local Communities
+  Name: Building Social Infrastructure Resilience for Local Communities
+  Sprints:
+  - recPFr2RcdCDMr2ev
+  Target audience / End user: Local government leaders, community organizations, and
+    and other non-governmental organizations that support local communities.
+  agency_text: National League of Cities
+  airtable_createdTime: '2023-06-13T13:21:02.000Z'
+  airtable_id: reclkhIYhUtozwSCZ
+  organizations:
+  - recS2wTybA0XuXTuV
+  pdf: 2023-NLC.pdf
+  sprint_order: 1
+  sprint_text: 2023 Sprints
 - Background: The American dream is fading. Almost all children born in 1940 earned
     more than their parents, but the same was true for only half of children born
     in the 1980s. The decline in mobility is related to growing regional inequality.
@@ -3379,8 +3395,23 @@
   pdf: assisting-businesses-2020.pdf
   products_text: Census Taker
   sprint_text: 2020 Census
-- airtable_createdTime: '2023-03-09T19:21:07.000Z'
+- Challenge: 'Enable consumers to shop for the best credit card to meet their needs
+    and promote competition in the credit card market. '
+  Full Title: Promoting Competition in the Credit Card Market
+  Name: Promoting Competition in the Credit Card Market
+  Sprints:
+  - recPFr2RcdCDMr2ev
+  Target audience / End user: 'American consumers in need of a credit card. '
+  agency_text: Consumer Financial Protection Bureau
+  airtable_createdTime: '2023-03-09T19:21:07.000Z'
   airtable_id: recpBKIl7001XnjYK
+  organization-esp:
+  - "Oficina para la Protecci\xF3n Financiera del Consumidor (CFPB)"
+  organizations:
+  - recJBNUnRBNUgTu9d
+  pdf: 2023-CFPB.pdf
+  sprint_order: 2
+  sprint_text: 2023 Sprints
 - Background: "A significant number of young Americans are not aware of the risks\
     \ they face and are not taking meaningful preparedness actions to improve their\
     \ chance of successfully weathering a disaster. Personal and family preparedness\

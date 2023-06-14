@@ -63,7 +63,9 @@
       {% if page.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
         <ul class="usa-collection__meta" aria-label="Tags">
           {% for filter in filters %}
-            <li class="usa-collection__meta-item usa-tag dch-card__tag">{{ filter }}</li>
+            <li class="usa-collection__meta-item usa-tag dch-card__tag">
+              {{ filter }}
+            </li>
           {% endfor %}
         </ul>
       {% endif %}

@@ -1,5 +1,5 @@
 {% assign data = include.data %}
-{% assign to_do-item = site.data.toolkits.topx.{{page.slug}}.body.to_do.overview.copy %}
+{% assign video-data = include.video-data %}
 <section class="{% if page.phase >= 0 %}bg-white text-white{% endif %} video-section padding-9">
   <h2  {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>{{ data.title.text }}</h2>
   <div class="iframe-content">
@@ -7,26 +7,32 @@
       title="{{ data.video.alt-text }}" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
-    <div class="{% if page.phase >= 0%}bg-blue-warm-60v text-white{% endif %}">
+
+      <div class="{% if page.phase >= 0%}bg-blue-warm-60v text-white{% endif %}">
       <h3 class="{% if page.phase >= 0 %}text-white{% endif %} {{ data.blurb.class }}">{{ data.blurb.title }}</h3>
       {% if data.blurb.p %}
-      <p>{{ data.blurb.p }}</p>
+      <p>{{ data.blurb.p }} </p>
       {% endif %}
+      {% if data.checkmarks %}
       <ul class="toolkit-checkmark">
-        {% if data.checkmarks %}
+
         {% for items in data.checkmarks %}
-        <li> {{ items.item }}</li>
+        <li>{{ items.item }}</li>
         {% endfor %}
-        {% else %}
-        {% for resources in to_do-item %}
-        {% if resources.video-link %}
-        <li>
-          <a href="{{ resources.video-link }}">{{ resources.video-link.title }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
+
+
       </ul>
+      {% endif %}
+      {% if data.phase-video-list %}
+      {{phase-video-list}}
+      <ul class="add-list-reset">
+        {% for video in data.phase-video-list %}
+        <li class="text-white">
+          <a class="text-white" href="{{ video.src }}">{{ video.title }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </div>
 </section>

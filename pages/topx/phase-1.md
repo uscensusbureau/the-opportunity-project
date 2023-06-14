@@ -33,7 +33,7 @@ intro:
      - item: "Recruit sprint participants: tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts"
      - item: Prepare documentation for sprint execution
 
-video-one:
+phase-info-video:
   title:
     text: "Why Should I Use the TOPx Toolkit at My Agency?"
     class: text-blue-warm-60v padding-left-6
@@ -42,12 +42,17 @@ video-one:
     alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
   blurb:
     title: "Your Challenge + Data + Technologists & Communities = Digital Products That Solve Real-World Problems"
-  list:
-    - item: "Address priorities at the heart of your agency’s mission that require data and innovation."
-    - item: "Meet requirements to promote the reuse of your data."
-    - item: "Catalyze innovation within your agency."
-    - item: "Engage with data consumers and improve data quality."
-    - item: "Collaborate with cross-sector partners to create digital solutions."
+  phase-video-list:
+    - video-1:
+      src: https://www.youtube.com/embed/Qs-za9O0OHU
+      title: "Address priorities at the heart of your agency’s mission that require data and innovation."
+    - video-2:
+      src: https://www.youtube.com/embed/Qs-za9O0OHU
+      title: "Title"
+    - video-3:
+      src: https://www.youtube.com/embed/Qs-za9O0OHU
+      title: "Title 3"
+
 
 download-text: Phase 1 Templates
 continue-text: Phase 2
@@ -55,8 +60,8 @@ continue-text: Phase 2
 ---
 
 {% include toolkit-hero-refresh.html %}
-{% assign section = page.video-one %}
-{% include toolkit-refresh-video.html data=section %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>

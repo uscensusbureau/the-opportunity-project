@@ -18,8 +18,12 @@
                   {% assign product = site.data.products | where: "title", productTeam.title | first %}
                   {% assign teamText = productTeam.team-text | default: product.tech_team_text %}
                   <p>
+                    {% if product.link%}
                     <a class="usa-link" href="{{ product.link }}" target="_blank">
-                      {{ product.title }}</a>, 
+                      {{ product.title }}</a>,
+                      {% else %}
+                        {{ product.title }},
+                     {% endif %}
                     {{ teamText }}:
                     {{ productTeam.text }}
                   </p>

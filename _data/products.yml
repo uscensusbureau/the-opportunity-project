@@ -67,9 +67,9 @@
   data_sets: Open-source data sets
   data_sets_text: Open-source data sets
   description: 'Shares the needs, challenges, and opportunities for real-time translation
-    of multi-lingual content through a white paper '
+    of multilingual content through a white paper '
   details: 'Shares the needs, challenges, and opportunities for real-time translation
-    of multi-lingual content through a white paper '
+    of multilingual content through a white paper '
   image: smartcat.png
   image-alt: Icons of white papers that connect CMS to TMS
   link: https://www.smartcat.com/translation-and-localization-for-government-agencies-whitepaper/
@@ -108,7 +108,6 @@
   image-alt: Screenshot of the Eco Bloc search function. A profile has been selected,
     with the name 'Supplier', contact information, and products, such as plastic and
     metal.
-  link: https://demo.ecobloc.io
   problem_statement:
   - rec2dxKJmbiIV0Va5
   tech_team:
@@ -226,10 +225,10 @@
   - Census
   data_sets: 'Census Bureau 2020 Data, ACS '
   data_sets_text: 'Census Bureau 2020 Data, ACS '
-  description: 'Enables librarians to better understand population distribution in
-    their neighbourhoods and create diverse book collections for their libraries '
-  details: 'Enables librarians to better understand population distribution in their
-    neighbourhoods and create diverse book collections for their libraries '
+  description: Enables librarians to better understand population distribution in
+    their neighborhoods and create diverse book collections for their libraries
+  details: Enables librarians to better understand population distribution in their
+    neighborhoods and create diverse book collections for their libraries
   image: libraries-need-diverse-books.jpg
   image-alt: Map of community Census data and library data from the Oakland Library
     in Pittsburgh, PA
@@ -375,7 +374,6 @@
   image: city-portrait.jpg
   image-alt: "Computer and two phones with images that show opportunities, a caf\xE9\
     , and after school programs"
-  link: http://demo.participant.world
   problem_statement:
   - recODy3F77656gS8i
   sprint:
@@ -474,9 +472,9 @@
   - rec0vXFnbyQLE68Z9
   - recRx00woviPE3tWN
   description: Provides novel insights to promote economic self-sufficiency to low-income
-    familites by integrating federal data and user-generated content
+    families by integrating federal data and user-generated content
   details: Provides novel insights to promote economic self-sufficiency to low-income
-    familites by integrating federal data and user-generated content
+    families by integrating federal data and user-generated content
   image: iDISPLA-360-Degree-Data.jpg
   image-alt: The image contains screenshots from the product, with the title 'Broadband
     Access & Poverty'
@@ -546,11 +544,9 @@
     to prepare for crisis through increased awareness of the likelihood of catastrophic
     failure of their structures in a disaster. Public access using login: fema@sille.space,
     password: Planahead2019'
-  featured_in:
-  - recqL51kCcBL6go3m
   image: sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
-  link: https://sille.space/app_fema/
+  link: https://opportunity.census.gov/sille/
   problem_statement:
   - recqL51kCcBL6go3m
   sprint:
@@ -842,7 +838,7 @@
   image-alt: This app is a scrolling image, you can select your county, and the audience
     you want to pitch to (ex. developers). The app will then display graphs that target
     that audience.
-  link: https://toptool.shinyapps.io/dashboard/
+  link: https://linktr.ee/rstorytool
   problem_statement:
   - recn0ONeaB72GbD8z
   sprint:
@@ -1053,7 +1049,7 @@
     manner with confidentiality, integrity of identity, and immutability of data.  '
   image: Oracle.jpg
   image-alt: Complex diagram showing the inner technical workings of a software products
-  link: https://staging.waters.hhs.gov/docs/
+  link: https://blogs.oracle.com/blockchain/post/blockchain-solutions-in-covid-19-fight
   problem_statement:
   - recFyf3r3yQQEHbx7
   sprint:
@@ -1691,7 +1687,7 @@
   - recX8qMzecPlE76HV
   tech_team:
   - recxwKwF1MmC0dcHX
-  tech_team_text: American Unviersity
+  tech_team_text: American University
   title: SunnyR
   year:
   - 2022
@@ -1772,7 +1768,6 @@
   image: Pollution-Policy-Watch.jpg
   image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris
     type, and state for policy enactment.
-  link: http://www.pollutionpolicywatch.com
   problem_statement:
   - recG9NY8ns2oza4vp
   sprint:
@@ -1927,9 +1922,9 @@
   airtable_id: recLnLmYNZAoFQbGs
   category:
   - Grants
-  data_sets: USA Spending; CDC Social Vulnerabiltiy Index, Vaccination Data; Census
+  data_sets: USA Spending; CDC Social Vulnerability Index, Vaccination Data; Census
     Bureau 2020 Data
-  data_sets_text: USA Spending; CDC Social Vulnerabiltiy Index, Vaccination Data;
+  data_sets_text: USA Spending; CDC Social Vulnerability Index, Vaccination Data;
     Census Bureau 2020 Data
   description: Visualizes COVID vaccination rates and distributions of COVID-19 relief
     funds to better assess equity
@@ -2242,7 +2237,7 @@
   - recPEm69CcLh1tX2s
   tech_team:
   - reco9K5fOjP6TLgnH
-  tech_team_text: Loveland Technologies
+  tech_team_text: Regrid
   title: FindHome
   year:
   - 2016
@@ -2919,7 +2914,7 @@
   details: Serious game that engages young adults in preparing for emergencies
   image: disaster-awareness-games.jpg
   image-alt: Screenshot of a computer game displaying an overhead view of city blocks
-  link: http://www.thedagames.com/
+  link: https://opportunity.census.gov/showcase/?partner-agency=Federal+Emergency+Management+Agency
   prize_status: Applied
   problem_statement:
   - recqL51kCcBL6go3m
@@ -3003,7 +2998,6 @@
   - recnJuVbZsWFhpBW8
   image: census-taker_amava.jpg
   image-alt: Screenshot of Census Taker's website
-  link: https://amava.com/flexible-jobs/census-taker
   problem_statement:
   - recnJuVbZsWFhpBW8
   sprint:
@@ -3042,7 +3036,6 @@
     promising rural startups ready to scale that otherwise would have been overlooked
   image: rural-startup-scout.jpg
   image-alt: Map of a portion of Texas titled Tech Entrepreneurship
-  link: https://oz.ruralopportunitymap.us/
   problem_statement:
   - recmZQEd4gpAgWPMm
   sprint:
@@ -3376,13 +3369,10 @@
   details: Empowers city officials to make informed decisions around waste management
     that lead to transparency, investment and job creation through the development
     of a circular economy
-  featured_in:
-  - rec2dxKJmbiIV0Va5
   image: chicago-circular-economy.png
   image-alt: Screenshot of the Topolytics application. The app displays a map of the
     united states; the travel of waste products is color coded and tracked from place
     to place.
-  link: https://chicago.topolyticsapp.com
   problem_statement:
   - rec2dxKJmbiIV0Va5
   sprint:
@@ -3473,9 +3463,9 @@
   - Grants
   data_sets: DOE Degree-Granting Institutions; USAspending Federal Spending Awards
   data_sets_text: DOE Degree-Granting Institutions; USAspending Federal Spending Awards
-  description: Analyzes equity of COVID-19 relief award distribuiton for federal,
+  description: Analyzes equity of COVID-19 relief award distribution for federal,
     state, and local officials and organizations
-  details: Analyzes equity of COVID-19 relief award distribuiton for federal, state,
+  details: Analyzes equity of COVID-19 relief award distribution for federal, state,
     and local officials and organizations
   image: msi-covid-relief-dashboard.jpg
   image-alt: Map of USA that shows the amount of financial relief received by minority
@@ -3510,12 +3500,9 @@
     after their resettlement period to the United States
   details: Enables refugees to identify community resources near them during and after
     their resettlement period to the United States
-  featured_in:
-  - recDnQq3aDp59z637
   image: RefugeeAssist.jpg
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below
     that say 'Medical', 'Legal', 'Religious', etc.
-  link: https://refugeeassist.herokuapp.com/
   problem_statement:
   - recDnQq3aDp59z637
   sprint:
@@ -3548,7 +3535,6 @@
   image: community-counts.jpg
   image-alt: Two open laptops with a web application open, with Community Counts,
     2020Census written below
-  link: https://2020counts.org/
   problem_statement:
   - recDkOPeR5RLFwe2e
   sprint:
@@ -3700,6 +3686,8 @@
     students, parents, and teachers to create healthier school environments
   details: Educates young students about air quality and bus emissions and encourages
     students, parents, and teachers to create healthier school environments
+  featured_in:
+  - recG9NY8ns2oza4vp
   image: Clean-Air-Hero_rutgers.png
   image-alt: Image of Clean  Air Hero Product
   link: https://www.figma.com/proto/VpqqzfTu9FeHba7G0s44YQ/Demo?node-id=1%3A17&scaling=min-zoom
@@ -3871,7 +3859,7 @@
   - recX8qMzecPlE76HV
   tech_team:
   - reciwNzsZy4CjbrJO
-  tech_team_text: Blynscy
+  tech_team_text: Blyncsy
   title: Payver
   year:
   - 2022
@@ -3886,9 +3874,9 @@
     SBA Small Business Size Standards
   data_sets_text: Census Bureau ACS, County Business Patterns, Community Resilience
     Estimates; SBA Small Business Size Standards
-  description: Helps small business owners make savy marketing decisions to grow their
-    businesses and recover from the pandemic
-  details: Helps small business owners make savy marketing decisions to grow their
+  description: Helps small business owners make savvy marketing decisions to grow
+    their businesses and recover from the pandemic
+  details: Helps small business owners make savvy marketing decisions to grow their
     businesses and recover from the pandemic
   image: digisults-report.jpg
   image-alt: Webpage hero section with a hand drawing a building and people. 100%
@@ -3919,7 +3907,6 @@
     government and community decision-makers '
   image: floodware.jpg
   image-alt: 'Flood risk assessment map that displays the community risk score '
-  link: https://learngis2.maps.arcgis.com/apps/instant/minimalist/index.html?appid=046b2e4637ec4c57b36b257d27c11723
   problem_statement:
   - recdkBaZ8qiY98UM4
   sprint:
@@ -4040,6 +4027,8 @@
     properties on the island of Puerto Rico
   details: Assesses the occupancy, condition, land use, and needs of all 1.5 million
     properties on the island of Puerto Rico
+  featured_in:
+  - recqL51kCcBL6go3m
   image: puerto-rico-land-grid.jpg
   image-alt: Map of Puerto Rico
   link: https://landgrid.com/us/pr#b=admin
@@ -4049,7 +4038,7 @@
   - recg9LuHpKxgB95Xy
   tech_team:
   - reco9K5fOjP6TLgnH
-  tech_team_text: Loveland Technologies
+  tech_team_text: Regrid
   title: Puerto Rico Land Grid
   year:
   - 2018
@@ -4145,7 +4134,7 @@
   image: CoVerify.jpg
   image-alt: Flowchart with many rectangles entitled Employer/Vendor setup and usage
     with QR code/POC Workflow
-  link: https://www.co-verify.com/public/user/index.php
+  link: https://appadvice.com/app/co-verify/1536462663
   problem_statement:
   - recFyf3r3yQQEHbx7
   sprint:
@@ -4330,6 +4319,8 @@
   description: Creates more inclusive, nontoxic workplaces for individuals and their
     employers
   details: Creates more inclusive, nontoxic workplaces for individuals and their employers
+  featured_in:
+  - rec6Coqk1u4BTdxLI
   image: kanarys.jpg
   image-alt: Photo of a grid of iPads
   link: https://app.kanarys.com/
@@ -4400,7 +4391,7 @@
   image: community-lifeRAFT.jpg
   image-alt: Resilience Drilldow Tool that displays the Census tract and population
     risk factor
-  link: https://communityliferaft.com
+  link: https://www.arcgis.com/apps/dashboards/ccb5a55e2b814f249222a069daf656cc
   problem_statement:
   - recdkBaZ8qiY98UM4
   sprint:
@@ -4433,8 +4424,6 @@
   details: Helps small businesses, nonprofit resource centers, and institutions to
     better connect skills, certifications, industries and outcomes of training programs
     towards the right jobs in the right industry
-  featured_in:
-  - rec6Coqk1u4BTdxLI
   image: solve.jpg
   image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
     barriers that each link to information about organizations working in these areas
@@ -4835,7 +4824,6 @@
     plastics in CA over time. There is a section wih suggestsions on how many voluteers
     you'll need, the number of items that need to be collected, and the average meters
     expected to cover.
-  link: http://ocean-plastic-pollution.herokuapp.com/
   problem_statement:
   - recQeWP4kfK1EakJW
   sprint:
@@ -4962,7 +4950,6 @@
   image: safetyNet.jpg
   image-alt: Opening page of SafetyNet Website with the title growing online is the
     future. Can it be your business' safety net?
-  link: https://production-cybertrustamerica.secure.force.com/safetynet
   problem_statement:
   - recODy3F77656gS8i
   sprint:
@@ -5542,12 +5529,9 @@
     and prioritize initiatives to achieve inclusive development in their regions and
     to build an inclusive development network that includes leaders from the civic
     sector, government, and industry
-  featured_in:
-  - recmZQEd4gpAgWPMm
   image: inclusive-development-dashboards.jpg
   image-alt: Screenshot of a webpage containing several paragraphs of text. Text is
     not legible.
-  link: https://www.burning-glass.com/census/community.html
   prize_status: Winner
   problem_statement:
   - recmZQEd4gpAgWPMm
@@ -5576,6 +5560,8 @@
     community relationship, material sorting, value of materials, and end market success
   details: A certification for material recovery facilities reflecting level of community
     relationship, material sorting, value of materials, and end market success
+  featured_in:
+  - rec2dxKJmbiIV0Va5
   image: Scorecard-TruCycle-MRF.png
   image-alt: This is a chart of different commodities, such as mixed paper and PET.
     Each column contains a category and the grade for each commodity. For example,
@@ -5615,6 +5601,8 @@
   details: Provides community leaders with local, data-driven insights that measure
     the degree to which place, economy and community in a given Opportunity Zone benefit
     from equitable growth
+  featured_in:
+  - recmZQEd4gpAgWPMm
   image: inclusive-growth-score.jpg
   image-alt: Screenshot of Inclusive Growth Score app with a header that reads Helping
     communities discover the opportunity in Opportunity Zones
@@ -5826,8 +5814,6 @@
   details: Compiles and analyzes real-time data on traffic patterns and air pollution
     in the District of Columbia  to allow policymakers to explore the effect of transportation
     on air quality
-  featured_in:
-  - recG9NY8ns2oza4vp
   image: AirMotionDC.png
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option

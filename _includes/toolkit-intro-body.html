@@ -25,10 +25,31 @@
       </section>
     </section>
     <!-- video section -->
+
     {% assign section = page.video-one %}
     {% include toolkit-refresh-video.html data=section %}
     {% assign section = page.video-two %}
     {% include toolkit-refresh-video.html data=section %}
+    <section class="video-section padding-9">
+      <h2 class="text-blue-warm-60v padding-left-6">Why Should I Use the TOPx Toolkit at My Agency?</h2>
+      <div class="iframe-content">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/Qs-za9O0OHU" title="Video about The Opportunity Project: Putting America’s Data to Work for the People" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+          <h3 class="defined-width">Your Challenge + Data + Technologists & Communities
+          = Digital Products That Solve Real-World Problems</h3>
+          <p>The Opportunity Project (TOP) is a tested innovation method that helps federal agencies rapidly and creatively solve
+          problems. The resources in this Toolkit enable you to use the TOP sprint model to:</p>
+          <ul class="toolkit-checkmark">
+            <li>Address priorities at the heart of your agency’s mission that require data and innovation.</li>
+            <li>Meet requirements to promote the reuse of your data.</li>
+            <li>Catalyze innovation within your agency.</li>
+            <li>Engage with data consumers and improve data quality.</li>
+            <li>Collaborate with cross-sector partners to create digital solutions.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA from TOP site -->
     {% assign section = page.cta-one %}
     {% include home/cta.html data=section %}

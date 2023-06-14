@@ -236,7 +236,7 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -434,7 +434,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -474,7 +474,7 @@
   - recVknKqal8oDRtBt
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -487,22 +487,6 @@
     Transportation Authority; New Jersey Transit; State of Delaware
   products:
   - recXOkjSet73HILtM
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: rec4lJmGkCAq2jlUL
-  description: A crowdsourced database of nonprofits and social service agencies across
-    the United States available to assist recently resettled refugees and families.
-    This information is compiled by Hello Neighbor but crowdsourced from families,
-    refugees, communities, and people across the country
-  link: https://www.helloneighbor.io/database
-  name: Hello Neighbor
-  organization_text: Hello Neighbor
-  organizations:
-  - reca1uqBuCaLkRdOl
-  problem_statements:
-  - recDnQq3aDp59z637
-  ps_text: Refugees
-  sprint:
-  - reczc8aUuFa86x1WA
 - airtable_createdTime: '2021-08-13T16:43:46.000Z'
   airtable_id: rec4xMqeds9dcN8aQ
   description: Local measurements of relative sea level trends measured by tide gauges.
@@ -515,7 +499,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -834,8 +818,7 @@
     to take a picture of plastic pollution anywhere its found wherever they are in
     the world.
   hasMultipleLinks: true
-  link: '- [Plastics Mobile Widget Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/-data-earth-challenge-mobile-app-plastic-pollution)-
-    [Data Dictionary](https://portal-data.cscloud.host/documentation)'
+  link: '- [Plastics Mobile Widget Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/-data-earth-challenge-mobile-app-plastic-pollution)'
   name: 'Earth Challenge 2020 Plastics Mobile  Widget Data '
   organization_text: Earth Challenge
   organizations:
@@ -879,7 +862,7 @@
   - recRLxRGfiWtHnmAs
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1014,7 +997,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1092,7 +1075,7 @@
   - recZod0Y9uE8dnrem
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1142,7 +1125,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1390,7 +1373,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1508,7 +1491,7 @@
   - recepxMBIQcZROaVw
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -1605,15 +1588,12 @@
   - rec0sJ3TvQo6mykBz
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recFmVA8iwxXjGsAs
-  data_stewards:
-  - recGWCjzJBwAycyap
   description: Software developer resources for Census Bureau Data.
   link: https://www.census.gov/developers/
   name: API & Developer Resources for Census Bureau Data
   organization_text: U.S. Census Bureau
   organizations:
   - rec9e5MJi3BeiIc2m
-  stewards_text: Logan Powell
 - airtable_createdTime: '2020-02-05T22:05:09.000Z'
   airtable_id: recFrLRheWNuusPVD
   data_stewards:
@@ -1788,23 +1768,6 @@
   - reczc8aUuFa86x1WA
   - rec4Y10emS9DtmBpT
   stewards_text: Riley Zipper, Carol Rogers
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: recH9vKhftk4FCNsp
-  data_stewards:
-  - recfnjb85oXlSzlzL
-  description: Refugee arrival data by city and state, with information on age, gender,
-    ethnicity, religion, language, and education
-  link: https://ireports.wrapsnet.org/
-  name: WRAPSNET
-  organization_text: U.S. Department of State
-  organizations:
-  - recj1G6ZElwqUBXSu
-  problem_statements:
-  - recDnQq3aDp59z637
-  ps_text: Refugees
-  sprint:
-  - reczc8aUuFa86x1WA
-  stewards_text: Nicole Patel
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recHOUBPkUDcaiw3x
   description: Software that estimates the health impacts and economic value of changes
@@ -1988,29 +1951,6 @@
   name: Census Bureau; Department of Housing and Urban Development
   products:
   - recT8TuI7EDLqeTIk
-- airtable_createdTime: '2021-07-21T18:58:06.000Z'
-  airtable_id: recJrpmj5ur4g6XUC
-  data_stewards:
-  - rec6I9sSC85tcOIZO
-  - rec0tSeM1ATlKXoV3
-  description: The Citizen Science Cloud Data Portal is a developer-friendly portal
-    to explore datasets from various citizen science projects. These data sets have
-    been transformed and aligned to our common data schema and are interoperable with
-    one another.
-  hasMultipleLinks: true
-  link: '- [Citizen Science Cloud Data Portal](https://portal-data.cscloud.host/)-
-    [Citizen Science Cloud Data Portal Datasets Page](https://portal-data.cscloud.host/apis)-
-    [Documentation Page and Data Schema](https://portal-data.cscloud.host/documentation)'
-  name: 'Earth Challenge: Citizen Science Cloud Data Portal'
-  organization_text: Earth Challenge
-  organizations:
-  - recJOJN6WyJNclqWu
-  problem_statements:
-  - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
-  sprint:
-  - reczc8aUuFa86x1WA
-  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2020-02-10T18:07:11.000Z'
   airtable_id: recJthf6OcgmZXxsk
   description: 'Since 1975 the MTF survey has measured drug and alcohol use and related
@@ -2233,7 +2173,7 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2495,7 +2435,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2574,7 +2514,7 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2639,7 +2579,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -2681,27 +2621,6 @@
   sprint:
   - reczc8aUuFa86x1WA
   stewards_text: Hua Lu
-- airtable_createdTime: '2020-02-05T22:11:34.000Z'
-  airtable_id: recOVmpdAhCpJrXg2
-  data_stewards:
-  - recmjkUuGFC0Riqng
-  - recTQSv3vwggEenrX
-  description: 'Includes public housing, assisted multifamily properties, HUD-insured
-    healthcare properties, Housing Choice Vouchers, Low-Income Housing Tax Credit
-    properties, USDA Rural Development, and Promise Zones. '
-  link: https://hud.maps.arcgis.com/apps/View/index.html?appid=cc05a273151d40a7b2eff47dc70bd745
-  name: Map of Opportunity Zones and Affordable Housing
-  organization_text: U.S. Department of Housing and Urban Development
-  organizations:
-  - recRLxRGfiWtHnmAs
-  problem_statements:
-  - recmZQEd4gpAgWPMm
-  - recD4rN8c5sH3ECRi
-  ps_text: Opportunity Zones, Economic Self-Sufficiency
-  sprint:
-  - rec4Y10emS9DtmBpT
-  - reczc8aUuFa86x1WA
-  stewards_text: Ted Payne, John Huggins
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recOb2tc0ZdTy1BO9
   data_stewards:
@@ -2774,22 +2693,6 @@
   sprint:
   - reczc8aUuFa86x1WA
   stewards_text: Birat Pandey
-- airtable_createdTime: '2021-07-20T14:33:54.000Z'
-  airtable_id: recPBCaWu7TqcxSI9
-  data_stewards:
-  - recZU4opwIrZqSGqp
-  description: 4,500 datasets collected by HHS for use by researchers and entrepreneurs
-  link: https://www.hhs.gov/cto/initiatives/data-initiative/index.html
-  name: HHS Data Initiative
-  organization_text: U.S. Department of Health and Human Services
-  organizations:
-  - recZod0Y9uE8dnrem
-  problem_statements:
-  - recD4rN8c5sH3ECRi
-  ps_text: Economic Self-Sufficiency
-  sprint:
-  - reczc8aUuFa86x1WA
-  stewards_text: Bishen Singh
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recPCN7ziJN9rI8f5
   data_stewards:
@@ -2928,7 +2831,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3107,7 +3010,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3130,8 +3033,7 @@
     and Assesment Project (MDMAP) accumulation report. This data is one of the three
     datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
   hasMultipleLinks: true
-  link: '- [Integrated Dataset](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)-
-    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
+  link: '- [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
     [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers)'
   name: 'Integrated Data: Marine Debris Monitoring and Assessment Project'
   organization_text: Earth Challenge
@@ -3419,7 +3321,7 @@
   - recZxSer4T6bBMfqU
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3438,33 +3340,12 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
   tag:
   - Risk
-- airtable_createdTime: '2021-07-21T18:58:06.000Z'
-  airtable_id: recT9E2tGLYcH0thL
-  data_stewards:
-  - rec6I9sSC85tcOIZO
-  - rec0tSeM1ATlKXoV3
-  description: A cleaned, curated and integrated global plastics pollution dataset
-    sourced from Ocean Conservancy's TIDES dataset. This data is one of the three
-    datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
-  hasMultipleLinks: true
-  link: '- [Integrated TIDES Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-trash-information-and-data-for-education-and-solutions-tides-plastic-pollution)-
-    [All Integrated Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)'
-  name: 'Integrated Data: TIDES Coastal Clean Up'
-  organization_text: Earth Challenge
-  organizations:
-  - recJOJN6WyJNclqWu
-  problem_statements:
-  - recQeWP4kfK1EakJW
-  ps_text: Ocean Plastics
-  sprint:
-  - reczc8aUuFa86x1WA
-  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: recT9Gbguz7W0PKUD
   description: Maps and information that encourage individuals, organizations and
@@ -3476,7 +3357,7 @@
   - recCGtljPyEpJ15UO
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3514,8 +3395,7 @@
     -2018.
   hasMultipleLinks: true
   link: '- [Top 10 Plastics Most Common Plastics by Country Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-top-10-sources-of-plastic-pollution-by-country-?geometry=136.406%2C-89.405%2C-136.406%2C85.899)-
-    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
-    [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-intergrated-plastics-top-10-plastics-by-country-?geometry=-180.000%2C-89.405%2C180.000%2C85.899)'
+    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)'
   name: 'Earth Challenge: Top 10 Most Common Plastics By Country Data'
   organization_text: Earth Challenge
   organizations:
@@ -3544,8 +3424,7 @@
     schema and quality control methods were implemented for ease of re-use.  Data
     was collected from 2015 -2018.
   hasMultipleLinks: true
-  link: '- [Integrated Dataset](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)
-    - [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)
+  link: '- [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)
     - [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers)'
   name: 'Earth Challenge: Integrated Ocean Plastics Data'
   organization_text: Earth Challenge
@@ -3651,7 +3530,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3779,7 +3658,7 @@
   - recAiwIuDDDxpNvUR
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -3951,8 +3830,6 @@
   stewards_text: Kurt Bauman, Mike Martin
 - airtable_createdTime: '2021-07-19T22:01:15.000Z'
   airtable_id: recYHXoQAnB07bJSb
-  data_stewards:
-  - recGWCjzJBwAycyap
   description: Software developer resources for Census Bureau Data.
   link: https://www.census.gov/data/developers.html
   name: API & Developer Resources for Census Bureau Data
@@ -3975,7 +3852,6 @@
   - rec4Y10emS9DtmBpT
   - reczc8aUuFa86x1WA
   - reczc8aUuFa86x1WA
-  stewards_text: Logan Powell
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recYRtBzCxYPpsMfL
   description: Model-based estimates of health insurance coverage for counties and
@@ -4206,25 +4082,6 @@
   stewards_text: Amanda Klimek
   tag:
   - Demographic
-- airtable_createdTime: '2021-07-21T18:58:06.000Z'
-  airtable_id: recaxnp7O7OTu9lJj
-  data_stewards:
-  - rec5qqGO1EWtk9A4R
-  description: Monthly, quarterly, and annual data on overall and materials-specific
-    recycling industry economics
-  link: https://www.isri.org/recycling-commodities
-  name: Recycling Commodities
-  organization_text: Institute of Scrap Recycling Industries
-  organizations:
-  - rec18wOOpv9fbmdqY
-  problem_statements:
-  - rec2dxKJmbiIV0Va5
-  - recFNAXdBZ4ouFgDx
-  ps_text: Recycled Materials, Recycled Materials 2
-  sprint:
-  - reczc8aUuFa86x1WA
-  - rec4vys7lW5OufL2k
-  stewards_text: Adina Adler
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recbPZ9m7vQmuTt4f
   description: Resources including The College Financing Plan, Net Price Calculator,
@@ -4307,7 +4164,7 @@
   - recPAd21zCWlQqnrZ
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -4430,7 +4287,7 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -4480,7 +4337,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -4612,7 +4469,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -4748,7 +4605,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -4868,7 +4725,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -4908,7 +4765,6 @@
   airtable_id: recj9uFk4uyksjHp8
   data_stewards:
   - recTWGqTv1NjgxSAt
-  - recGWCjzJBwAycyap
   description: The American Community Survey is the premier source for detailed population
     and housing information about the U.S.
   link: https://www.census.gov/programs-surveys/acs/
@@ -4923,7 +4779,7 @@
   sprint:
   - recg9LuHpKxgB95Xy
   - rec4Y10emS9DtmBpT
-  stewards_text: Eric Coyle, Logan Powell
+  stewards_text: Eric Coyle
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recjApiKcJpm02UH5
   datakit_order: 20
@@ -4974,7 +4830,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5006,7 +4862,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5102,7 +4958,7 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5134,7 +4990,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5477,7 +5333,7 @@
   - rec9e5MJi3BeiIc2m
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5565,7 +5421,7 @@
   - recRKu6t2inmGXXce
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5633,21 +5489,6 @@
   stewards_text: Eric Coyle, Amanda Klimek
   tag:
   - Demographic
-- airtable_createdTime: '2021-07-21T18:58:06.000Z'
-  airtable_id: recqtqPIPuHLrODlE
-  description: Information for school communities to identify strategies for reducing
-    traffic-related pollution exposure at schools located downwind of heavily traveled
-    roadways
-  link: https://www.epa.gov/schools/best-practices-reducing-near-road-pollution-exposure-schools
-  name: Best Practices for Reducing Near-Road Pollution Exposure at Schools
-  organization_text: U.S. Environmental Protection Agency
-  organizations:
-  - recDJthxFdnCkkHXX
-  problem_statements:
-  - recG9NY8ns2oza4vp
-  ps_text: Transportation Emissions
-  sprint:
-  - reczc8aUuFa86x1WA
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recqua69dHBYaGQxY
   name: EPA Municipal Solid Waste Report
@@ -5915,7 +5756,7 @@
   - recVv9NEouQmQIFQj
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -5994,7 +5835,7 @@
   - recFaEqDe9K2rgPbi
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -6304,7 +6145,7 @@
   - recDJthxFdnCkkHXX
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -6380,7 +6221,7 @@
   - recCGtljPyEpJ15UO
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -6401,7 +6242,7 @@
   - recUpuoU27MFAPSsp
   problem_statements:
   - recbjIUzjzLZ5KmJS
-  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
+  ps_text: Unnamed record
   sprint:
   - recjkCdpt4YKEx7Ae
   - recnrr8LKTIFIKsHU
@@ -6465,23 +6306,3 @@
   sprint:
   - rec4Y10emS9DtmBpT
   stewards_text: Andy Hait
-- airtable_createdTime: '2021-07-21T18:58:06.000Z'
-  airtable_id: reczjUOvg10Zbj1FM
-  data_stewards:
-  - recHqGLtbCyU6UHxO
-  description: ArcGIS Rest Service URL for vector services that include information
-    about the NAIP collection 2011-2017. Date indexes are state based and contain
-    polygon information used in the collection of the imagery, including acquisition
-    date, camera type, sensor or lens serial number, and the electromagnetic spectrum
-    range for the red, blue, green, and near infrared bands.
-  link: https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/NAIP_Image_Dates/MapServer
-  name: NAIP public image dates
-  organization_text: U.S. Department of Agriculture
-  organizations:
-  - recRKu6t2inmGXXce
-  problem_statements:
-  - recSM7q7ufXLojrBx
-  ps_text: Enabling NAIP Data
-  sprint:
-  - reczc8aUuFa86x1WA
-  stewards_text: Joan Biediger

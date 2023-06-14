@@ -1670,6 +1670,9 @@ main {
       max-width: 640px;
       min-width: 300px;
       padding: 35px;
+      .defined-width {
+        width: 44ch;
+      }
       @media screen and (min-width: 1024px) {
           background-color: white;
         }

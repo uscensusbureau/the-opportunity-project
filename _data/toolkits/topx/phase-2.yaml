@@ -14,21 +14,22 @@ body:
       toggle:
         - copy: "Facilitating milestone calls at the same time and day of the week allows for the most effective cadence. You may want to share calendar invitations for all milestone calls upfront."
     - overview:
-      - copy: "Develop a facilitation guide for each milestone call."
+      - copy: "Send weekly emails to share reminders of key actions that sprint participants should take between milestones. You may also want to post key actions in your selected communication tool (i.e. Slack or Teams)."
+    - overview:
+      - copy: "Develop a facilitation guide for each milestone call. Use the resource below to develop your weekly emails and milestone agendas. You will use this guide consistently throughout your sprint."
+      resources:
+      - download-link: "topx-resources/phase2-ongoing-tasks-facilitation-guide.docx"
+        title: "Milestone Facilitation Guide"
     - overview:
       - copy: "Facilitate milestone calls."
       toggle:
         - copy: "Assign a designated facilitator and note-taker from your team."
     - overview:
-      - copy: "Use emails and communication tools (e.g., Slack or Microsoft Teams) to share reminders of key actions that sprint participants should be engaging in between milestones."
-      toggle:
-        - copy: "Refer to the sections below for guidance."
-    - overview:
       - copy: "Connect the tech teams with experts whose areas of expertise are relevant to the team’s problem statement. Experts can be user advocates and data, community, and policy experts."
     - overview:
       - copy: "Monitor the progress of each tech team. Check-in 1:1 as needed."
 
-# use Step 2 as step template!
+
   - section: Step 1
     header: Kickoff
     duration: "1+"
@@ -41,7 +42,7 @@ body:
         - li: "Sprint participants (e.g., sprint leaders, tech teams, user advocates) introduce themselves."
         - li: "Sprint leaders provide high-level information on the sprint process and timeline."
 
-# use Step 2 as step template!
+
   - section: Step 2
     header: User Research
     duration: "2-3"
@@ -50,6 +51,13 @@ body:
     to_do:
     - overview:
       - copy: "Provide teams with resources to conduct user research. Linked below are some useful resources."
+      resources:
+      - link: "https://www.interaction-design.org/literature/topics/user-research"
+        title: "What is User Research"
+      - link: "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews"
+        title: "How to Conduct User Interviews"
+      - link: "https://www.invisionapp.com/inside-design/empathy-isnt-enough/"
+        title: "Empathy Isn't Enough"
     - overview:
       - copy: "Tech teams begin connecting with user advocates to learn more about the needs and pain points of the communities they represent."
       - ul:
@@ -61,13 +69,6 @@ body:
       - ul:
         - li: "Tech teams share about their target end users, as well as plans for continued user research."
         - li: "Sprint leaders and user advocates provide feedback to each team, suggesting additional ways to reach potential end users."
-      resources:
-      - link: "https://www.interaction-design.org/literature/topics/user-research"
-        title: "What is User Research"
-      - link: "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews"
-        title: "How to Conduct User Interviews"
-      - link: "https://www.invisionapp.com/inside-design/empathy-isnt-enough/"
-        title: "Empathy Isn't Enough"
 
 
 # use Step 2 as step template!
@@ -75,7 +76,7 @@ body:
     header: Data Exploration
     duration: "2-3"
     time: "20"
-    overview: "In this next milestone, tech teams begin identifying and exploring relevant datasets. Tech teams will connect with data stewards via email and phone to learn more about available datasets. Participants will still need some guidance from the facilitation team."
+    overview: "In this next milestone, tech teams begin identifying and exploring relevant datasets. Tech teams will connect with data stewards via email and phone to learn more about available datasets. Participants will still need some guidance from the sprint leaders."
     to_do:
       - overview:
         - copy: "Share the list of suggested datasets that includes dataset descriptions, links, and data steward contact information."
@@ -120,7 +121,7 @@ body:
         - li: "Teams come together to showcase and share feedback on more mature versions of their products. Typically, tools have reached at least wireframes and have some functioning features by this stage."
         - li: "Beta demos provide another opportunity for feedback from the user advocates, data stewards, product advisors and other tech teams— and a chance for teams to showcase the progress they have made since the concept pitch."
       toggle:
-      - copy: " See pages 7 - 9 in the Milestone Facilitation Guide Template in Ongoing Tasks Key Action #2 above for more details."
+      - copy: "See pages 11 - 12 in the Milestone Facilitation Guide in Ongoing Tasks #3 above for more details."
     - overview:
       - copy: "After the demo, encourage teams to:"
       - ul:
@@ -151,7 +152,7 @@ body:
       - ul:
         - li: "Sprint leaders set a time with each team for a final presentation of what they have built during the sprint. This can be another milestone session with all teams present, or one-on-one calls with each participating tech team.  MVP demos culminate the sprint process for tech teams, and allow sprint leaders to assess the results."
       toggle:
-      - copy: "The audience for each MVP demo should be sprint leaders, 1-2 user advocates that the team worked closely with throughout the sprint, and any champions from your agency that are interested in seeing the sprint outcomes."
+      - copy: "The audience for each MVP demo should be sprint leaders, 1-2 user advocates that the team worked closely with throughout the sprint, and any champions from your agency who are interested in seeing the sprint outcomes."
     - overview:
       - copy: "After the demo, encourage tech teams to:"
       - ul:

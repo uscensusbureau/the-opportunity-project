@@ -25,25 +25,12 @@
       </section>
     </section>
     <!-- video section -->
-    <section class="video-section padding-9">
-      <h2 class="text-blue-warm-60v padding-left-6">Why Should I Use the TOPx Toolkit at My Agency?</h2>
-      <div class="iframe-content">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/Qs-za9O0OHU" title="Video about The Opportunity Project: Putting America’s Data to Work for the People" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
-          <h3 class="defined-width">Your Challenge + Data + Technologists & Communities
-          = Digital Products That Solve Real-World Problems</h3>
-          <p>The Opportunity Project (TOP) is a tested innovation method that helps federal agencies rapidly and creatively solve
-          problems. The resources in this Toolkit enable you to use the TOP sprint model to:</p>
-          <ul class="toolkit-checkmark">
-            <li>Address priorities at the heart of your agency’s mission that require data and innovation.</li>
-            <li>Meet requirements to promote the reuse of your data.</li>
-            <li>Catalyze innovation within your agency.</li>
-            <li>Engage with data consumers and improve data quality.</li>
-            <li>Collaborate with cross-sector partners to create digital solutions.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+
+    {% assign section = page.video-one %}
+    {% include toolkit-refresh-video.html data=section %}
+    {% assign section = page.video-two %}
+    {% include toolkit-refresh-video.html data=section %}
+
     <!-- CTA from TOP site -->
     {% assign section = page.cta-one %}
     {% include home/cta.html data=section %}
@@ -54,12 +41,7 @@
         <h3 class="text-white">Census Open Innovation Labs created this Toolkit so that anyone can use The Opportunity Project (TOP) method to solve
         problems. This Toolkit provides you with the necessary information to execute a 12-week product development cycle –
         called a ‘TOP sprint’ – to rapidly develop digital solutions alongside technologists and community advocates.</h3>
-        <p class="margin-0 text-white maxw-tablet margin-bottom-4">The Toolkit will help you learn how to:</p>
-        <ol class="text-white">
-          <li>Define a problem statement and assemble a team.</li>
-          <li>Identify external sprint participants from the technology industry and more, and then lead the sprint process.</li>
-          <li>Celebrate the accomplishments of sprint participants and measure results.</li>
-        </ol>
+
         <p class="text-white">Included in the TOPx Toolkit, you will find a detailed step-by-step guide to executing a TOP sprint. Each sequential
         step includes:</p>
         <ul class="text-white">

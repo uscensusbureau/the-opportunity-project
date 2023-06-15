@@ -30,12 +30,34 @@ intro:
      - item: Motivate sprint participant progress
      - item: Execute sprint milestones
 
+phase-info-video:
+  title:
+    text: "How To Execute Your TOP Sprint"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/bad8acAJ9lg
+    alt-text: "TOPx: How To Execute Your TOP Sprint?"
+  blurb:
+    title: "More videos coming soon."
+  # phase-video-list:
+  #   - video-1:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Address priorities at the heart of your agency’s mission that require data and innovation."
+  #   - video-2:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title"
+  #   - video-3:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title 3"
+
 
 download-text: Phase 2 Templates
 continue-text: Phase 3
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8 ">
   <div class="grid-row">
     <div>

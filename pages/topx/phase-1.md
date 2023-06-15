@@ -33,6 +33,26 @@ intro:
      - item: "Recruit sprint participants: tech teams, community leaders, user advocates, individuals with direct lived experience, and data and policy experts"
      - item: Prepare documentation for sprint execution
 
+phase-info-video:
+  title:
+    text: "How to Plan for Your TOP Sprint"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/OyrkKHP3nBA
+    alt-text: "TOPx: How to Plan for Your TOP Sprint"
+  blurb:
+    title: "More videos coming soon."
+  # phase-video-list:
+  #   - video-1:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Address priorities at the heart of your agency’s mission that require data and innovation."
+  #   - video-2:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title"
+  #   - video-3:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title 3"
+
 
 download-text: Phase 1 Templates
 continue-text: Phase 2
@@ -40,6 +60,8 @@ continue-text: Phase 2
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>

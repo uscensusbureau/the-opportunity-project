@@ -26,6 +26,26 @@ intro:
      - item: Support post-sprint engagement
 
 
+phase-info-video:
+  title:
+    text: "How to Showcase Your TOP Solutions"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/BXLrQv8VgMU
+    alt-text: "TOPx: How to Showcase Your TOP Solutions"
+  blurb:
+    title: "More videos coming soon."
+  # phase-video-list:
+  #   - video-1:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Address priorities at the heart of your agency’s mission that require data and innovation."
+  #   - video-2:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title"
+  #   - video-3:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title 3"
+
 download-text: TOPx Toolkit Templates
 continue-text: Tell Us How it Went
 blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
@@ -33,6 +53,8 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>

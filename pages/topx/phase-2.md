@@ -32,13 +32,23 @@ intro:
 
 phase-info-video:
   title:
-    text: "Why Should I Use the TOPx Toolkit at My Agency?"
+    text: "How To Execute Your TOP Sprint"
     class: text-blue-warm-60v padding-left-6
   video:
-    src: https://www.youtube.com/embed/Qs-za9O0OHU
-    alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
+    src: https://www.youtube.com/embed/bad8acAJ9lg
+    alt-text: "TOPx: How To Execute Your TOP Sprint?"
   blurb:
-    title: "Your Challenge + Data + Technologists & Communities = Digital Products That Solve Real-World Problems"
+    title: "More videos coming soon."
+  # phase-video-list:
+  #   - video-1:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Address priorities at the heart of your agency’s mission that require data and innovation."
+  #   - video-2:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title"
+  #   - video-3:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title 3"
 
 
 download-text: Phase 2 Templates

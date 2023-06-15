@@ -18,11 +18,11 @@ img:
 
 video-one:
   title:
-    text: "Why Should I Use the TOPx Toolkit at My Agency?"
+    text: "Why Should I Facilitate a TOP Sprint at My Agency?"
     class: text-blue-warm-60v padding-left-6
   video:
-    src: https://www.youtube.com/embed/Qs-za9O0OHU
-    alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
+    src: https://www.youtube.com/embed/hH5NwCca_5o
+    alt-text: "Why Should I Facilitate a TOP Sprint at My Agency?"
   blurb:
     title: "Your Challenge + Data + Technologists & Communities = Digital Products That Solve Real-World Problems"
     p: "The Opportunity Project (TOP) is a tested innovation method that helps federal agencies rapidly and creatively solve problems. The resources in this Toolkit enable you to use the TOP sprint model to:"
@@ -40,8 +40,8 @@ video-two:
     text: "How Do I Facilitate a TOP Sprint?"
     class: text-blue-warm-60v padding-left-6
   video:
-    src: https://www.youtube.com/embed/Qs-za9O0OHU
-    alt-text: "Video about The Opportunity Project: Putting America’s Data to Work for the People"
+    src: https://www.youtube.com/embed/z6zl7kSo_GY
+    alt-text: "How Do I Facilitate a TOP Sprint?"
   blurb:
     title: "The Toolkit is a step-by-step guide on how to facilitate a TOP sprint."
     p: "You will learn how to:"

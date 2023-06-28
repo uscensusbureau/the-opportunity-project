@@ -38,17 +38,23 @@ phase-info-video:
     src: https://www.youtube.com/embed/bad8acAJ9lg
     alt-text: "TOPx: How To Execute Your TOP Sprint?"
   blurb:
-    title: "More videos coming soon."
-  # phase-video-list:
-  #   - video-1:
-  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
-  #     title: "Address priorities at the heart of your agency’s mission that require data and innovation."
-  #   - video-2:
-  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
-  #     title: "Title"
-  #   - video-3:
-  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
-  #     title: "Title 3"
+    title: "View More Phase 2 Videos In-Step Below"
+    phase-video-list:
+    - video-1:
+    src: https://www.youtube.com/embed/mTSdiqHa3Iw
+    title: "How to Kick off Your Sprint"
+    - video-2:
+    src: https://www.youtube.com/embed/fv3-m-dYkZQ
+    title: "Tips for Facilitating the User Research Process"
+    - video-3:
+    src: https://www.youtube.com/embed/BC3CU_j0aTc
+    title: "Tips for Facilitating the Data Exploration Process"
+    - video-4:
+    src: https://www.youtube.com/embed/DtmwJ_ttRcI
+    title: "Tips for Facilitating the Product Development Process"
+    - video-5:
+    src: https://www.youtube.com/embed/O_--CD_kO6k
+    title: "Wrapping Up The Sprint: The MVP"
 
 
 download-text: Phase 2 Templates

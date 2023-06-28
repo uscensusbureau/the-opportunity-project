@@ -41,7 +41,7 @@ phase-info-video:
     src: https://www.youtube.com/embed/OyrkKHP3nBA
     alt-text: "TOPx: How to Plan for Your TOP Sprint"
   blurb:
-    title: "Phase 1 Videos"
+    title: "View More Phase 1 Videos In-Step Below"
     phase-video-list:
       - video-1:
           src: https://www.youtube.com/embed/GzXRCwnb7gc 

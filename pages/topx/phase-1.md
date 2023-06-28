@@ -41,17 +41,17 @@ phase-info-video:
     src: https://www.youtube.com/embed/OyrkKHP3nBA
     alt-text: "TOPx: How to Plan for Your TOP Sprint"
   blurb:
-    title: "View More Phase 1 Videos In-Step Below"
-    phase-video-list:
-    - video-1:
-      src: https://www.youtube.com/embed/GzXRCwnb7gc 
-      title: "How to Define Your Problem Statement"
-    - video-2: 
-      src: https://www.youtube.com/embed/kmsqQq1AvKs
-      title: "Tips for Recruiting Sprint Participants"
-    - video-3:
-      src: https://www.youtube.com/embed/6TDEd1DOHbk
-      title: "How Do I Prepare to Execute My Sprint?"
+    title: "More videos coming soon."
+  # phase-video-list:
+  #   - video-1:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Address priorities at the heart of your agency’s mission that require data and innovation."
+  #   - video-2:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title"
+  #   - video-3:
+  #     src: https://www.youtube.com/embed/Qs-za9O0OHU
+  #     title: "Title 3"
 
 
 download-text: Phase 1 Templates

@@ -51,8 +51,6 @@ body:
       resources:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
           title: "Problem Statement Template"
-        - video-link: "https://youtu.be/GzXRCwnb7gc"
-          title: "How to Define Your Problem Statement"
     - overview:
       - copy: "Socialize the sprint within your agency. Coordinate with counsel and communications offices to proactively share information about the sprint, seek their feedback, and anticipate any challenges or considerations specific to your agency."
 
@@ -81,9 +79,6 @@ body:
           title: "Sprint Roles"
     - overview:
       - copy: "Customize the templates to develop outreach emails and recruitment materials to recruit tech teams and user advocates."
-      resources:
-        - video-link: "https://youtu.be/kmsqQq1AvKs"
-          title: "Tips for Recruiting Sprint Participants"
     - overview:
       - copy: "Develop a list of potential participants."
       toggle:
@@ -129,9 +124,6 @@ body:
     to_do:
       - overview:
         - copy: "Confirm participation of sprint collaborators."
-        resources:
-        - video-link: "https://youtu.be/6TDEd1DOHbk"
-          title: "How Do I Prepare to Execute My Sprint?"
       - overview:
         - copy: "Select the communication tools you will use."
         - ul:

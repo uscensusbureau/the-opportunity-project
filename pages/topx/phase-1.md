@@ -44,14 +44,14 @@ phase-info-video:
     title: "Phase 1 Videos"
     phase-video-list:
       - video-1:
-        src: https://www.youtube.com/embed/GzXRCwnb7gc 
-        title: "How to Define Your Problem Statement"
+          src: https://www.youtube.com/embed/GzXRCwnb7gc 
+          title: "How to Define Your Problem Statement"
       - video-2: 
-        src: https://www.youtube.com/embed/kmsqQq1AvKs
-        title: "Tips for Recruiting Sprint Participants"
+          src: https://www.youtube.com/embed/kmsqQq1AvKs
+          title: "Tips for Recruiting Sprint Participants"
       - video-3:
-        src: https://www.youtube.com/embed/6TDEd1DOHbk
-        title: "How Do I Prepare to Execute My Sprint?"
+          src: https://www.youtube.com/embed/6TDEd1DOHbk
+          title: "How Do I Prepare to Execute My Sprint?"
 
 
 download-text: Phase 1 Templates

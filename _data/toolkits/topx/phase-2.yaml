@@ -41,6 +41,9 @@ body:
       - ul:
         - li: "Sprint participants (e.g., sprint leaders, tech teams, user advocates) introduce themselves."
         - li: "Sprint leaders provide high-level information on the sprint process and timeline."
+      resources:
+      - video-link: "https://youtu.be/mTSdiqHa3Iw"
+        title: "How to Kick off Your Sprint"
 
 
   - section: Step 2
@@ -58,6 +61,8 @@ body:
         title: "How to Conduct User Interviews"
       - link: "https://www.invisionapp.com/inside-design/empathy-isnt-enough/"
         title: "Empathy Isn't Enough"
+      - video-link: "https://youtu.be/fv3-m-dYkZQ"
+        title: "Tips for Facilitating the User Research Process"
     - overview:
       - copy: "Tech teams begin connecting with user advocates to learn more about the needs and pain points of the communities they represent."
       - ul:
@@ -86,6 +91,9 @@ body:
           - li: "Data stewards provide an introduction to datasets in which they have expertise."
           - li: "Tech teams give brief updates on what data they are looking for."
           - li: "Sprint leaders facilitate a Q&A between data stewards and tech teams."
+        resources:
+        - video-link: "https://youtu.be/BC3CU_j0aTc"
+          title: "Tips for Facilitating the Data Exploration Process"
       - overview:
         - copy: "Tech teams begin data exploration."
         - ul:
@@ -108,6 +116,9 @@ body:
     to_do:
     - overview:
         - copy: "Encourage tech teams to begin preparing for an initial demo by engaging in scoping, ideation, design, and development."
+        resources:
+        - video-link: "https://youtu.be/DtmwJ_ttRcI"
+          title: "Tips for Facilitating the Product Development Process"
     - overview:
       - copy: "Facilitate a “Concept Pitch” milestone call."
       - ul:
@@ -147,6 +158,9 @@ body:
     to_do:
     - overview:
       - copy: "Tech teams begin to prepare for a Final MVP Demo. Teams will present a Minimum Viable Product (MVP), which has enough features to allow for testing."
+      resources:
+      - video-link: "https://youtu.be/O_--CD_kO6k"
+        title: "Wrapping Up The Sprint: The MVP"
     - overview:
       - copy: "Facilitate a Final MVP Demo."
       - ul:

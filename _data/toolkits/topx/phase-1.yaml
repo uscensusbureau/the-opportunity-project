@@ -52,7 +52,7 @@ body:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
           title: "Problem Statement Template"
         - video-link: "https://youtu.be/GzXRCwnb7gc"
-          title: "How to Define Your Problem Statement"
+          title: "How to Define Your Problem Statement "
     - overview:
       - copy: "Socialize the sprint within your agency. Coordinate with counsel and communications offices to proactively share information about the sprint, seek their feedback, and anticipate any challenges or considerations specific to your agency."
 

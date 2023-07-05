@@ -115,10 +115,10 @@ body:
     overview: "Over the course of the next 5-6 weeks, tech teams will develop their products. Two weeks into this process, tech teams will present initial demos of their product ideas to all participants."
     to_do:
     - overview:
-        - copy: "Encourage tech teams to begin preparing for an initial demo by engaging in scoping, ideation, design, and development."
-        resources:
-        - video-link: "https://youtu.be/DtmwJ_ttRcI"
-          title: "Tips for Facilitating the Product Development Process"
+      - copy: "Encourage tech teams to begin preparing for an initial demo by engaging in scoping, ideation, design, and development."
+      resources:
+      - video-link: "https://youtu.be/DtmwJ_ttRcI"
+        title: "Tips for Facilitating the Product Development Process"
     - overview:
       - copy: "Facilitate a “Concept Pitch” milestone call."
       - ul:

@@ -39,22 +39,22 @@ phase-info-video:
     alt-text: "TOPx: How To Execute Your TOP Sprint?"
   blurb:
     title: "View More Phase 2 Videos In-Step Below"
-  #  phase-video-list:
-  #  - video-1:
-  #  src: https://www.youtube.com/embed/mTSdiqHa3Iw
-  #  title: "How to Kick off Your Sprint"
-  #  - video-2:
-  #  src: https://www.youtube.com/embed/fv3-m-dYkZQ
-  #  title: "Tips for Facilitating the User Research Process"
-  #  - video-3:
-  #  src: https://www.youtube.com/embed/BC3CU_j0aTc
-  #  title: "Tips for Facilitating the Data Exploration Process"
-  #  - video-4:
-  #  src: https://www.youtube.com/embed/DtmwJ_ttRcI
-  #  title: "Tips for Facilitating the Product Development Process"
-  #  - video-5:
-  #  src: https://www.youtube.com/embed/O_--CD_kO6k
-  #  title: "Wrapping Up The Sprint: The MVP"
+  phase-video-list:
+    - video-1:
+      src: https://www.youtube.com/embed/mTSdiqHa3Iw
+      title: "How to Kick off Your Sprint"
+    - video-2:
+      src: https://www.youtube.com/embed/fv3-m-dYkZQ
+      title: "Tips for Facilitating the User Research Process"
+    - video-3:
+      src: https://www.youtube.com/embed/BC3CU_j0aTc
+      title: "Tips for Facilitating the Data Exploration Process"
+    - video-4:
+      src: https://www.youtube.com/embed/DtmwJ_ttRcI
+      title: "Tips for Facilitating the Product Development Process"
+    - video-5:
+      src: https://www.youtube.com/embed/O_--CD_kO6k
+      title: "Wrapping Up The Sprint: The MVP"
 
 
 download-text: Phase 2 Templates

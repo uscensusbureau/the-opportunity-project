@@ -34,7 +34,7 @@ phase-info-video:
     src: https://www.youtube.com/embed/BXLrQv8VgMU
     alt-text: "TOPx: How to Showcase Your TOP Solutions"
   blurb:
-    title: "More videos coming soon."
+    title: "How to Showcase Your TOP Solutions"
   # phase-video-list:
   #   - video-1:
   #     src: https://www.youtube.com/embed/Qs-za9O0OHU

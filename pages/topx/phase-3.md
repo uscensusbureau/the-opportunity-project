@@ -75,7 +75,7 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
           Download All {{page.download-text}}
       </a>
     </div>
-    <p {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>
+    <p class="text-white">
       {{ page.blurb }}
     </p>
     <div>

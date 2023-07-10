@@ -1,0 +1,38 @@
+{% assign data = include.data %}
+{% assign video-data = include.video-data %}
+<section class="{% if page.phase >= 0 %}bg-white text-white{% endif %} video-section padding-9">
+  <h2  {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>{{ data.title.text }}</h2>
+  <div class="iframe-content">
+    <iframe width="640" height="360" src="{{ data.video.src }}" class="{% if page.phase >= 0 %}border-0{% endif %}"
+      title="{{ data.video.alt-text }}" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+      <div class="{% if page.phase >= 0%}bg-blue-warm-60v text-white{% endif %}">
+      <h3 class="{% if page.phase >= 0 %}text-white{% endif %} {{ data.blurb.class }}">{{ data.blurb.title }}</h3>
+      {% if data.blurb.p %}
+      <p>{{ data.blurb.p }} </p>
+      {% endif %}
+      {% if data.checkmarks %}
+      <ul class="toolkit-checkmark">
+
+        {% for items in data.checkmarks %}
+        <li>{{ items.item }}</li>
+        {% endfor %}
+
+
+      </ul>
+      {% endif %}
+      {% if data.phase-video-list %}
+      {{phase-video-list}}
+      <ul class="add-list-reset">
+        {% for video in data.phase-video-list %}
+        <li class="text-white">
+          <a class="text-white" target="_blank" href="{{ video.src }}">{{ video.title }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</section>

@@ -22,7 +22,7 @@ intro:
   - title: Overview
     content:
       - copy: It’s time to launch your sprint! During this phase, the tech teams develop their products. Your role is to facilitate this process, which will include several tasks and milestones.
-      - copy: <em>Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
+      - copy: <em>Duration and time are estimated based on 1 problem statement, a team of sprint leaders of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
   - title: Goals
     content:
      - item: Kick off the sprint
@@ -30,12 +30,40 @@ intro:
      - item: Motivate sprint participant progress
      - item: Execute sprint milestones
 
+phase-info-video:
+  title:
+    text: "How To Execute Your TOP Sprint"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/bad8acAJ9lg
+    alt-text: "TOPx: How To Execute Your TOP Sprint?"
+  blurb:
+    title: "View More Phase 2 Videos In-Step Below"
+  phase-video-list:
+    - video-1:
+      src: https://youtu.be/mTSdiqHa3Iw
+      title: "How to Kick off Your Sprint"
+    - video-2:
+      src: https://youtu.be/fv3-m-dYkZQ
+      title: "Tips for Facilitating the User Research Process"
+    - video-3:
+      src: https://youtu.be/BC3CU_j0aTc
+      title: "Tips for Facilitating the Data Exploration Process"
+    - video-4:
+      src: https://youtu.be/DtmwJ_ttRcI
+      title: "Tips for Facilitating the Product Development Process"
+    - video-5:
+      src: https://youtu.be/O_--CD_kO6k
+      title: "Wrapping Up The Sprint: The MVP"
+
 
 download-text: Phase 2 Templates
 continue-text: Phase 3
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8 ">
   <div class="grid-row">
     <div>

@@ -13,10 +13,12 @@ annual_reports:
   '2020': assets/files/top-annual-report-2020.pdf
   '2019': assets/files/annual_report_2019.pdf
 
-banner:
-  text: "Watch recordings from TOP Summit 2023 on YouTube"
-  href: https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
-  isExternal: true
+
+# banner:
+#   text: "Watch recordings from TOP Summit 2023 on YouTube"
+#   href: https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+#   isExternal: true
+
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text
 

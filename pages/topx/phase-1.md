@@ -24,14 +24,34 @@ intro:
   - title: Overview
     content:
       - copy: In the first few months, you will set the stage for your sprint. Along with building a coalition around your sprint topic within your agency, you will need to define your problem statement and recruit participants.
-      - copy: <em>Duration and time are estimated based on 1 problem statement, an agency facilitation team of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
+      - copy: <em>Duration and time are estimated based on 1 problem statement, a team of sprint leaders of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
   - title: Goals
     content:
-     - item: Form an agency facilitation/project management team
+     - item: Form a team of sprint leaders
      - item: Identify a senior-level champion
      - item: Define the problem statement
-     - item: "Recruit sprint participants: tech teams, community leaders, advocates, individuals with direct lived experience, and data and policy experts"
+     - item: "Recruit sprint participants: tech teams, community leaders, user advocates, individuals with direct lived experience, and data and policy experts"
      - item: Prepare documentation for sprint execution
+
+phase-info-video:
+  title:
+    text: "How to Plan for Your TOP Sprint"
+    class: text-blue-warm-60v padding-left-6
+  video:
+    src: https://www.youtube.com/embed/OyrkKHP3nBA
+    alt-text: "TOPx: How to Plan for Your TOP Sprint"
+  blurb:
+    title: View More Phase 1 Videos In-Step Below
+  phase-video-list:
+    - video-1:
+      src: https://youtu.be/GzXRCwnb7gc
+      title: "How to Define Your Problem Statement"
+    - video-2:
+      src: https://youtu.be/kmsqQq1AvKs
+      title: "Tips for Recruiting Sprint Participants"
+    - video-3:
+      src:  https://youtu.be/6TDEd1DOHbk
+      title: "How Do I Prepare to Execute My Sprint?"
 
 
 download-text: Phase 1 Templates
@@ -40,6 +60,8 @@ continue-text: Phase 2
 ---
 
 {% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
 <section class="grid-container padding-y-8">
   <div class="grid-row">
     <div>

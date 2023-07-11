@@ -33,7 +33,7 @@ intro:
 phase-info-video:
   title:
     text: "How To Execute Your TOP Sprint"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/bad8acAJ9lg
     alt-text: "TOPx: How To Execute Your TOP Sprint?"
@@ -64,7 +64,7 @@ continue-text: Phase 3
 {% include toolkit-hero-refresh.html %}
 {% assign section = page.phase-info-video %}
 {% include toolkit-refresh-video.html data=section video-data=phase-resources %}
-<section class="grid-container padding-y-8 ">
+<section class="grid-container padding-top-3 padding-bottom-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-2.body %}

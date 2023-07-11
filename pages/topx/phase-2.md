@@ -33,7 +33,7 @@ intro:
 phase-info-video:
   title:
     text: "How To Execute Your TOP Sprint"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/bad8acAJ9lg
     alt-text: "TOPx: How To Execute Your TOP Sprint?"

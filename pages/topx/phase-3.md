@@ -29,7 +29,7 @@ intro:
 phase-info-video:
   title:
     text: "How to Showcase Your TOP Solutions"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/BXLrQv8VgMU
     alt-text: "TOPx: How to Showcase Your TOP Solutions"

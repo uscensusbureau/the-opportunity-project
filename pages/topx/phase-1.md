@@ -36,7 +36,7 @@ intro:
 phase-info-video:
   title:
     text: "How to Plan for Your TOP Sprint"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/OyrkKHP3nBA
     alt-text: "TOPx: How to Plan for Your TOP Sprint"

@@ -62,7 +62,7 @@ continue-text: Phase 2
 {% include toolkit-hero-refresh.html %}
 {% assign section = page.phase-info-video %}
 {% include toolkit-refresh-video.html data=section video-data=phase-resources %}
-<section class="grid-container padding-top-3 padding-bottom-8">
+<section class="grid-container padding-bottom-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-1.body %}

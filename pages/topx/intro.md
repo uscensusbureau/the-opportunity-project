@@ -17,6 +17,7 @@ img:
   src: toolkits/hero-image.png
 
 video-one:
+  class: padding-bottom-9 padding-top-8 padding-x-9
   title:
     text: "Why Should I Facilitate a TOP Sprint at My Agency?"
     class: text-blue-warm-60v padding-left-6
@@ -36,6 +37,7 @@ video-one:
 
 
 video-two:
+  class: padding-bottom-9 padding-top-0 padding-x-9
   title:
     text: "How Do I Facilitate a TOP Sprint?"
     class: text-blue-warm-60v padding-left-6

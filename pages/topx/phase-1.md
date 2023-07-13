@@ -34,6 +34,7 @@ intro:
      - item: Prepare documentation for sprint execution
 
 phase-info-video:
+  class: padding-top-6
   title:
     text: "How to Plan for Your TOP Sprint"
     class: text-blue-warm-60v text-center
@@ -66,7 +67,7 @@ continue-text: Phase 2
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-1.body %}
-        <div class="toolkit-section margin-top-10">
+        <div class="toolkit-section margin-top-6">
           {% include toolkit-header-refresh.html %}
           {% include toolkit-key-actions-refresh.html %}
         </div>

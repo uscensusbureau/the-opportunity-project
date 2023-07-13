@@ -27,6 +27,7 @@ intro:
 
 
 phase-info-video:
+  class: padding-top-6
   title:
     text: "How to Showcase Your TOP Solutions"
     class: text-blue-warm-60v text-center
@@ -59,7 +60,7 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-3.body %}
-        <div class="toolkit-section  margin-top-10">
+        <div class="toolkit-section  margin-top-6">
           {% include toolkit-header-refresh.html %}
           {% include toolkit-key-actions-refresh.html %}
         </div>

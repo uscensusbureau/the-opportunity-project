@@ -36,7 +36,7 @@ callout:
   container-class: maxw-desktop
   title: 
     text: Watch The Opportunity Project Summit
-  body: '[The Opportunity Project Summit 2023 : Open Innovation For All](https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme) was a multi-day virtual conference that showcased work accomplished through TOP’s 2022 sprints. The event also featured conversations with leading experts and grassroots community members and provided hands-on learning opportunities for attendees.'
+  body: '[The Opportunity Project Summit 2023](https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme) was a multi-day virtual conference that showcased work accomplished through TOP’s 2022 sprints. The event also featured conversations with leading experts and grassroots community members and provided hands-on learning opportunities for attendees.'
 
   primary:
     text: Watch the Event

@@ -31,6 +31,7 @@ intro:
      - item: Execute sprint milestones
 
 phase-info-video:
+  class: padding-top-6
   title:
     text: "How To Execute Your TOP Sprint"
     class: text-blue-warm-60v text-center
@@ -68,7 +69,7 @@ continue-text: Phase 3
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-2.body %}
-        <div class="toolkit-section margin-top-10">
+        <div class="toolkit-section margin-top-6">
           {% include toolkit-header-refresh.html %}
           {% include toolkit-key-actions-refresh.html %}
         </div>

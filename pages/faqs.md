@@ -28,16 +28,16 @@ phase-info-video:
     title: "Watch Other #ASKTOP Videos"
   phase-video-list:
     - video-1:
-      src: https://youtu.be/GzXRCwnb7gc
+      src: https://www.youtube.com/watch?v=3rpYFjSfB0Q
       title: "Do you only work with open data?"
     - video-2:
-      src: https://youtu.be/kmsqQq1AvKs
+      src: https://www.youtube.com/watch?v=E-AaC7RkPSU&t=3s
       title: "What happens during a sprint?"
     - video-3:
-      src:  https://youtu.be/6TDEd1DOHbk
+      src:  https://www.youtube.com/watch?v=H1co4JaMMXo
       title: "Who builds the products?"
     - video-3:
-      src:  https://youtu.be/6TDEd1DOHbk
+      src:  https://www.youtube.com/watch?v=TLqMAv1Td1I
       title: "What happens to the products after the sprint?"
 
 resources:
@@ -77,14 +77,14 @@ resources:
         num: 6
         term: What is The Opportunity Project?
         definition: |-
-         The Opportunity Project (a.k.a. ‘TOP’) offers a framework for government agencies to facilitate collaboration between technologists and community organizations in order to rapidly design digital solutions for the public good.
+         The Opportunity Project (a.k.a. ‘TOP’) offers a framework for government agencies to facilitate collaboration between technologists and community organizations in order to rapidly design digital solutions for the public good.<br><br>
 
          TOP operates through 12-week technology design sprints, focused on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and workforce development. To date, over 200 digital products have been created, using open data to serve families, businesses, and communities nationwide.
 
       - link:
         num: 7
         term: Who runs The Opportunity Project?
-        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau. Learn more about COIL.
+        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau.
       - link:
         num: 8
         term: How long has TOP been around?
@@ -105,7 +105,7 @@ resources:
         link:
         term: Who can participate in a TOP sprint and how do you select participants?
         definition: |-
-          Participation in The Opportunity Project takes many forms and is open to the general public. Participants are selected based on skill sets, expertise, and alignment with specific problem statements that have been selected in a given year.
+          Participation in The Opportunity Project takes many forms and is open to the general public. Participants are selected based on skill sets, expertise, and alignment with specific problem statements that have been selected in a given year.<br><br>
 
           If you’re from a government agency, tech company, university, community organization, NGO, or other entity and would like to participate in a future TOP sprint, please contact us.
 
@@ -119,7 +119,7 @@ resources:
           - User advocates provide feedback and ensure the products meet real user needs.<br>
           - Data stewards provide feedback and help teams find and use relevant federal open datasets.<br>
           - Product advisors help tech teams develop products with a viable long term strategy.<br><br>
-          Learn more about each role and sign up to receive updates about upcoming sprints	and opportunities to engage with us.
+          Sign up to receive updates about upcoming sprints	and opportunities to engage with us.
 
       - num: 17
         link:

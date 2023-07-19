@@ -130,18 +130,33 @@ resources:
 ---
 
 {% include hero.html %}
-{% include connecting-banner-with-subheader.html %}
-{% include two-column-markdown.html content=page.first %}
+<!-- video section -->
+{% assign section = page.phase-info-video %}
+<section class="video-section bg-gray-10 padding-top-8">
+  <h2 class="text-center">{{page.phase-info-video.title.text}}</h2>
+  <div class="iframe-content">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/0CHRd6YSXKA" class="border-0"
+      title="#ASKTOP: Does it Cost Money to Partner with TOP?" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
 
-{% capture left-mid %}
-  {% include_relative {{ page.second-section.left-include }} %}
-{% endcapture %}
-{% include two-column-markdown.html content = page.second-section left-col = left-mid %}
+      <div class="bg-white text-black">
+      <h3>{{page.phase-info-video.blurb.title}}</h3>
 
-{% capture right-mid %}
-  {% include_relative {{ page.third-section.left-include }} %}
-{% endcapture %}
-{% include two-column-markdown.html content = page.third-section left-col = right-mid %}
-
+      {% if page.phase-info-video %}
+      <ul class="add-list-reset">
+        {% for video in page.phase-info-video.phase-video-list %}
+        <li>
+          <a target="_blank" class="text-black" href="{{ video.src }}">{{ video.title }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</section>
+<!--  -->
+{% assign categories = page.resources %}
+{% include faq-glossary.html %}
 <br>
 <br>

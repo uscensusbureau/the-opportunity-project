@@ -19,11 +19,11 @@ banner-subheader:
 phase-info-video:
   class: padding-bottom-9 padding-top-8 padding-x-9
   title:
-    text: "#ASKTOP: Does it Cost Money to Partner with TOP?"
+    text: "Do Agencies Need Funding to Partner with TOP?"
     class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/0CHRd6YSXKA
-    alt-text: "#ASKTOP: Does it Cost Money to Partner with TOP?"
+    alt-text: "Do Agencies Need Funding to Partner with TOP?"
   blurb:
     title: "Watch Other #ASKTOP Videos"
   phase-video-list:

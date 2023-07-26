@@ -715,6 +715,9 @@
   - rec69m4lQ0MfiNFes
   sprints:
   - recXANOXQ6JCTp5FU
+- airtable_createdTime: '2023-07-25T21:06:06.000Z'
+  airtable_id: recGJW5nXxapOW4up
+  name: Economic Development Administration
 - acronym: CBO
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recGLorFzsThEnqOn
@@ -1330,6 +1333,7 @@
   problem statements:
   - recMZUPI5AFRXvAfe
   - reccbsHySlRrke1TZ
+  - reczViJ9R5i84HkLl
 - airtable_createdTime: '2021-05-10T20:31:44.000Z'
   airtable_id: recTzFwTKYubKkOI2
   name: Lifepoint Informatics
@@ -1418,6 +1422,7 @@
   name: U.S. Economic Development Administration
   problem statements:
   - receu4m30sPzioUPN
+  - recvGCiCh48crr8iQ
 - acronym: NTIA
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recW02RSB5lEflHTP

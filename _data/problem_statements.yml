@@ -3545,6 +3545,24 @@
   pdf: assisting-businesses-2020.pdf
   products_text: Census Taker
   sprint_text: 2020 Census
+- Challenge: "Improving Indigenous communities\u2019 access to capital, investment,\
+    \ and representation in financial data sets through community-led and data-driven\
+    \ solutions."
+  Full Title: Improving Access to Capital in Indigenous Communities through Data
+  Name: Improving Access to Capital in Indigenous Communities through Data
+  Sprints:
+  - recXBSKFq7AYEnaRX
+  Target audience / End user: Indigenous communities and thought leaders, economic
+    development practitioners, private philanthropic institutions and other funders,
+    think tanks and nonprofits seeking to better serve indigenous communities.
+  agency_text: U.S. Economic Development Administration
+  airtable_createdTime: '2023-07-25T21:05:16.000Z'
+  airtable_id: recvGCiCh48crr8iQ
+  organizations:
+  - recVal1KOBeL00l5j
+  pdf: 2023-EDA.pdf
+  sprint_order: 5
+  sprint_text: 2023 Sprints
 - Challenge: Create digital tools that help rural communities access and use data
     to implement solutions to economic, environmental, and human health challenges,
     taking care to reach places that have limited professional capacity and small
@@ -3811,8 +3829,24 @@
   pdf: 2023-fda-enabling-health-data-aggregation.pdf
   sprint_order: 3
   sprint_text: Diagnostic Data Exchange (FDA)
-- airtable_createdTime: '2023-07-10T19:21:26.000Z'
+- Challenge: Improve access to data for local policymakers, especially those facing
+    resource and capacity constraints, to help them better understand and serve the
+    place they live, work, or represent.
+  Full Title: Improved Data Access for Local Policymakers
+  Name: Improved Data Access for Local Policymakers
+  Sprints:
+  - recXBSKFq7AYEnaRX
+  Target audience / End user: Local elected officials, local policymakers, and economic
+    development practitioners (e.g., Members of Congress and their staff, Mayors,
+    City Council People, County Managers)
+  agency_text: U.S. Department of Commerce
+  airtable_createdTime: '2023-07-10T19:21:26.000Z'
   airtable_id: reczViJ9R5i84HkLl
+  organizations:
+  - recTramMMKqiRnaob
+  pdf: 2023-DOC.pdf
+  sprint_order: 4
+  sprint_text: 2023 Sprints
 - Challenge: 'Develop digital products or physical/digital works of art that creatively
     and inclusively engage hard-to-count communities in 2020 Census data.  '
   Full Title: Inclusive and Creative 2020 Census Data Engagement

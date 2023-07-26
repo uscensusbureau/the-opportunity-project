@@ -19,11 +19,11 @@ banner-subheader:
 phase-info-video:
   class: padding-bottom-9 padding-top-8 padding-x-9
   title:
-    text: "#ASKTOP: Does it Cost Money to Partner with TOP?"
+    text: "#ASKTOP: Do agencies need funding to partner with TOP?"
     class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/0CHRd6YSXKA
-    alt-text: "#ASKTOP: Does it Cost Money to Partner with TOP?"
+    alt-text: "#ASKTOP: Do agencies need funding to partner with TOP?"
   blurb:
     title: "Watch Other #ASKTOP Videos"
   phase-video-list:
@@ -32,7 +32,7 @@ phase-info-video:
       title: "Do you only work with open data?"
     - video-2:
       src: https://www.youtube.com/watch?v=E-AaC7RkPSU&t=3s
-      title: "What happens during a sprint?"
+      title: "How do sprint participants collaborate and communicate during sprints?"
     - video-3:
       src:  https://www.youtube.com/watch?v=H1co4JaMMXo
       title: "Who builds the products?"

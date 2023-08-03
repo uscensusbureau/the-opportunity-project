@@ -2663,6 +2663,41 @@
   - recoLe16gECFfJJdx
   pdf: 2018-accountability.pdf
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
+- Challenge: Design solutions that help individuals and communities to understand
+    spending and impact of federal funds in Puerto Rico.
+  Full Title: Tracking Federal Funding Impact in Puerto Rico
+  Name: Tracking Federal Funding Impact in Puerto Rico
+  Sprints:
+  - recXBSKFq7AYEnaRX
+  Target audience / End user: Beneficiaries of federal funding allocations in Puerto
+    Rico, especially highly vulnerable and marginalized communities, and Puerto Rico
+    residents interested in understanding the impact of federal spending in local
+    communities.
+  agency_text: PolicyLink, U.S. Department of Commerce
+  airtable_createdTime: '2023-08-02T02:10:27.000Z'
+  airtable_id: recj5r6ttN3R5VAxQ
+  organizations:
+  - recWXdjjG5IULXiTu
+  - recTramMMKqiRnaob
+  sprint_order: 6
+  sprint_text: 2023 Sprints
+- Challenge: "Help educational organizations, government and the public gain a more\
+    \ robust understanding of Puerto Rican parents\u2019 and children\u2019s literacy,\
+    \ access to reading materials, and use of literacy skills."
+  Full Title: Reducing the Literacy Gap in Puerto Rico Households
+  Name: Reducing the Literacy Gap in Puerto Rico Households
+  Sprints:
+  - recXBSKFq7AYEnaRX
+  Target audience / End user: Government agencies, community leaders, non-profit education
+    related organizations, families, caregivers, school directors, teachers and other
+    education stakeholders.
+  agency_text: Todos a Leer Coalition
+  airtable_createdTime: '2023-08-03T19:29:21.000Z'
+  airtable_id: recj83TcuOR5DPoZB
+  organizations:
+  - recEET7wP4lgddAwY
+  sprint_order: 7
+  sprint_text: 2023 Sprints
 - Challenge: Improve climate resilience planning in communities around the nation
     by creating tools that enable local decision making and facilitate federal support
     of local-level priorities.

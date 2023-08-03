@@ -605,6 +605,11 @@
   - recFdHhpWFTFn6zqy
   sprints:
   - reccBuKC57Rhz4lLs
+- airtable_createdTime: '2023-08-03T19:33:18.000Z'
+  airtable_id: recEET7wP4lgddAwY
+  name: Todos a Leer Coalition
+  problem statements:
+  - recj83TcuOR5DPoZB
 - acronym: USFA
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recEUK4EelD9p4qa0
@@ -1334,6 +1339,7 @@
   - recMZUPI5AFRXvAfe
   - reccbsHySlRrke1TZ
   - reczViJ9R5i84HkLl
+  - recj5r6ttN3R5VAxQ
 - airtable_createdTime: '2021-05-10T20:31:44.000Z'
   airtable_id: recTzFwTKYubKkOI2
   name: Lifepoint Informatics
@@ -1461,6 +1467,11 @@
   name: Weems Design Studio Inc
   products:
   - reccwnHr6kebYsYiO
+- airtable_createdTime: '2023-08-02T02:18:05.000Z'
+  airtable_id: recWXdjjG5IULXiTu
+  name: PolicyLink
+  problem statements:
+  - recj5r6ttN3R5VAxQ
 - airtable_createdTime: '2020-02-07T17:11:55.000Z'
   airtable_id: recWbjMmhnBCm62MB
   name: Osage Nation

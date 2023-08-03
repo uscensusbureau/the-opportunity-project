@@ -1,36 +1,34 @@
-<section class="bg-orange-5">
-  <section class="grid-container padding-y-8 toolkit-glossary bg-orange-5">
-    <div class="grid-col">
-      {% assign categories = page.resources | sort: 'category' | reverse %}
-      {% for category in categories %}
-      <header class="bg-white padding-x-6 padding-y-3 margin-top-6 margin-bottom-3">
-        <h2 class="text-{{ category.color }}">{{ category.category }} Terms</h2>
-        <p>{{ category.description }}</p>
-      </header>
+<section class="grid-container padding-y-8 toolkit-glossary">
+  <div class="grid-col">
+    {% for category in categories %}
+    <header class="bg-white padding-x-6 padding-y-3 margin-top-6 margin-bottom-3">
+      <h2 class="text-{{ category.color }}">{{ category.category }} Terms</h2>
+      <p>{{ category.description }}</p>
+    </header>
 
-      <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
-        {% for term in category.terms %}
-        <h4 class="usa-accordion__heading">
-          <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white" aria-expanded="true" aria-controls="m-a{{ term.num }}">
-            {{term.term}}
-          </button>
-        </h4>
+    <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+      {% for term in category.terms %}
+      <h4 class="usa-accordion__heading">
+        <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white" aria-expanded="true" aria-controls="m-a{{ term.num }}">
+          {{term.term}}
+        </button>
+      </h4>
 
-        <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
-          <p class="grid-container">
-            {{ term.definition}}
-          </p>
-          {% if term.link %}
-          <a href="{{ term.link }}"
-            class="toolkit-resource-link text-base-darkest padding-y-0 padding-x-2 margin-x-2 margin-y-1"
-            target="_blank">
-            Source
-          </a>
-          {% endif %}
-        </div>
-        {% endfor %}
+      <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
+        <p class="grid-container">
+          {{ term.definition}}
+        </p>
+        {% if term.link %}
+        <a href="{{ term.link }}"
+          class="toolkit-resource-link text-base-darkest padding-y-0 padding-x-2 margin-x-2 margin-y-1"
+          target="_blank">
+          Source
+        </a>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
-  </section>
+    {% endfor %}
+  </div>
 </section>
+

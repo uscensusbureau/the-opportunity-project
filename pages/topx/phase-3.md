@@ -27,9 +27,10 @@ intro:
 
 
 phase-info-video:
+  class: padding-top-6
   title:
     text: "How to Showcase Your TOP Solutions"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v text-center
   video:
     src: https://www.youtube.com/embed/BXLrQv8VgMU
     alt-text: "TOPx: How to Showcase Your TOP Solutions"
@@ -55,11 +56,11 @@ blurb: Did you use the Toolkit to facilitate a TOP sprint at your agency?
 {% include toolkit-hero-refresh.html %}
 {% assign section = page.phase-info-video %}
 {% include toolkit-refresh-video.html data=section video-data=phase-resources %}
-<section class="grid-container padding-y-8">
+<section class="grid-container padding-bottom-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-3.body %}
-        <div class="toolkit-section  margin-top-10">
+        <div class="toolkit-section  margin-top-6">
           {% include toolkit-header-refresh.html %}
           {% include toolkit-key-actions-refresh.html %}
         </div>

@@ -1,6 +1,6 @@
 {% assign data = include.data %}
 {% assign video-data = include.video-data %}
-<section class="{% if page.phase >= 0 %}bg-white text-white{% endif %} video-section padding-9">
+<section class="{% if page.phase >= 0 %}bg-white text-white{% endif %}{% if data.class %} {{ data.class }} {% endif %} video-section">
   <h2  {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>{{ data.title.text }}</h2>
   <div class="iframe-content">
     <iframe width="640" height="360" src="{{ data.video.src }}" class="{% if page.phase >= 0 %}border-0{% endif %}"

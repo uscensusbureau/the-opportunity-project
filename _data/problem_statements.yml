@@ -1808,6 +1808,29 @@
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
   sprint_order: 5
   sprint_text: Earth
+- Challenge: Help Puerto Rico-based lab-to-market entities, researchers, and entrepreneurs
+    find and easily use information on financing and resources that advance innovation
+    and commercialization.
+  Full Title: Financing for Innovation and Technology Transfer in Puerto Rico
+  Name: Financing for Innovation and Technology Transfer in Puerto Rico
+  Sprints:
+  - recXBSKFq7AYEnaRX
+  Target audience / End user: The primary target end users are Puerto Rican innovators
+    and entrepreneurs,  eventually expanding to innovators and entrepreneurs in communities
+    throughout the U.S. and U.S territories.
+  agency_text: Minority Business Development Agency, "Puerto Rico Science, Technology
+    & Research Trust", Colmena66
+  airtable_createdTime: '2023-08-08T17:45:16.000Z'
+  airtable_id: recaJpLTQROHfEZBW
+  organization-esp:
+  - "Agencia Para el Desarrollo de Empresas de Minor\xEDas (MBDA)"
+  organizations:
+  - recJc9OL6PakKEVKV
+  - rec3uH465KY2Ahcwm
+  - recy7r5lTXwMaxrGI
+  pdf: 2023-MBDA-PRSTRT-colmena66.pdf
+  sprint_order: 8
+  sprint_text: 2023 Sprints
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
     \ to capital"
   Executive champion: Edith McCloud, Acting National Director, MBDA

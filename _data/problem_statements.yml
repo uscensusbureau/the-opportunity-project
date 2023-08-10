@@ -2696,13 +2696,15 @@
     Rico, especially highly vulnerable and marginalized communities, and Puerto Rico
     residents interested in understanding the impact of federal spending in local
     communities.
-  agency_text: PolicyLink, U.S. Department of Commerce
+  agency_text: PolicyLink, U.S. Department of Commerce, The Puerto Rico Office of
+    Management and Budget
   airtable_createdTime: '2023-08-02T02:10:27.000Z'
   airtable_id: recj5r6ttN3R5VAxQ
   organizations:
   - recWXdjjG5IULXiTu
   - recTramMMKqiRnaob
-  pdf: 2023-doc-policylink.pdf
+  - recc8ezOALNO0uLpH
+  pdf: 2023-doc-policylink-promb.pdf
   sprint_order: 6
   sprint_text: 2023 Sprints
 - Challenge: "Help educational organizations, government and the public gain a more\

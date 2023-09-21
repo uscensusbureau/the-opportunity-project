@@ -7,8 +7,8 @@
   {% if link.accordion %}
     {% assign itemName = link.text | remove: " " %}
     <li class="usa-nav__primary-item">
-      <button class="usa-accordion__button usa-nav__link" 
-        aria-expanded="false" 
+      <button class="usa-accordion__button usa-nav__link"
+        aria-expanded="false"
         aria-controls="collapsed-nav-section-{{itemName}}">
         <span>{{ link.text }}</span></button>
       <ul id="collapsed-nav-section-{{itemName}}" class="usa-nav__submenu">
@@ -38,6 +38,6 @@
   </li>
 {% else %}
   <li class="usa-nav__primary-item site-cta">
-    <a href="{{ site.baseurl }}/get-involved"><span>Get Involved</span></a>
+    <a href="mailto:census.opportunityproject@census.gov"><span>Email TOP</span></a>
   </li>
 {% endif %}

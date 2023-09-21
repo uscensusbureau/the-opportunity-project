@@ -30,17 +30,46 @@ intro:
      - item: Motivate sprint participant progress
      - item: Execute sprint milestones
 
+phase-info-video:
+  class: padding-top-6
+  title:
+    text: "How To Execute Your TOP Sprint"
+    class: text-blue-warm-60v text-center
+  video:
+    src: https://www.youtube.com/embed/bad8acAJ9lg
+    alt-text: "TOPx: How To Execute Your TOP Sprint?"
+  blurb:
+    title: "View More Phase 2 Videos In-Step Below"
+  phase-video-list:
+    - video-1:
+      src: https://youtu.be/mTSdiqHa3Iw
+      title: "How to Kick off Your Sprint"
+    - video-2:
+      src: https://youtu.be/fv3-m-dYkZQ
+      title: "Tips for Facilitating the User Research Process"
+    - video-3:
+      src: https://youtu.be/BC3CU_j0aTc
+      title: "Tips for Facilitating the Data Exploration Process"
+    - video-4:
+      src: https://youtu.be/DtmwJ_ttRcI
+      title: "Tips for Facilitating the Product Development Process"
+    - video-5:
+      src: https://youtu.be/O_--CD_kO6k
+      title: "Wrapping Up The Sprint: The MVP"
+
 
 download-text: Phase 2 Templates
 continue-text: Phase 3
 ---
 
 {% include toolkit-hero-refresh.html %}
-<section class="grid-container padding-y-8 ">
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
+<section class="grid-container padding-bottom-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-2.body %}
-        <div class="toolkit-section margin-top-10">
+        <div class="toolkit-section margin-top-6">
           {% include toolkit-header-refresh.html %}
           {% include toolkit-key-actions-refresh.html %}
         </div>

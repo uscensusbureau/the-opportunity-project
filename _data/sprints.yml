@@ -61,7 +61,7 @@
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
-  order-number: 2
+  order-number: 3
   problem_statements:
   - reckxOM77dvOirf7t
   - reccbsHySlRrke1TZ
@@ -130,7 +130,7 @@
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   lang: en
-  order-number: 4
+  order-number: 6
   problem_statements:
   - reccGqAe2Sli8kaT5
   - recL0SvWqZq2VAKuK
@@ -296,11 +296,11 @@
   airtable_createdTime: '2023-06-13T13:18:25.000Z'
   airtable_id: recXBSKFq7AYEnaRX
   description: Some of the 2023 TOP sprints focus on the theme of financial and economic
-    inclusion. More fall sprint topics will be added through June and July.
+    inclusion.
   image-alt: An illustrative photo collage of two hands shaking and a city skyline.
   img: landing/2023-summer-background.jpg
   lang: en
-  order-number: 0
+  order-number: 1
   problem_statements:
   - recxxbq9lUYmPjrBc
   - rectgIqMvOrJrs0fr
@@ -509,7 +509,7 @@
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   lang: en
-  order-number: 6
+  order-number: 8
   problem_statements:
   - recnsldjDnKK7WXoL
   - receyP88fo2WL9Foa
@@ -928,7 +928,7 @@
   image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
   lang: en
-  order-number: 5
+  order-number: 7
   problem_statements:
   - recyHwJ8Q6z6YcwGO
   - rec2jonscqC9ZQmNy
@@ -980,7 +980,7 @@
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   lang: en
-  order-number: 3
+  order-number: 5
   problem_statements:
   - recA7GFmtyk6YaigQ
   - recjf9CnxtJkXGumk
@@ -1015,7 +1015,7 @@
   image-alt: An abstract illustration including light blue forms on a dark blue background.
   img: landing/2023-fda-diagnostic.jpg
   lang: en
-  order-number: 1
+  order-number: 2
   problem_statements:
   - recBNrQaEw0HsVnMT
   - recm1nUDGhmqHmnbG
@@ -1056,7 +1056,7 @@
   image-alt: La Tierra vista desde el espacio con un cielo lleno de estrellas
   img: landing/Post-COVID.jpg
   lang: esp
-  order-number: 3
+  order-number: 4
   problem_statements:
   - recA7GFmtyk6YaigQ
   - recjf9CnxtJkXGumk

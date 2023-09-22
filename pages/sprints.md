@@ -6,7 +6,7 @@ layout: sprint
 short-name: 2023-sprints
 order: 0
 expandAllProblemStatements: true
-isCurrent: true
+# isCurrent: true
 showPDF: true
 lang: en
 ---

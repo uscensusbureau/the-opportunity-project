@@ -1396,9 +1396,15 @@ main {
     background-size: cover;
   }
 }
-.banner-background {
-  background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
-  background-size: cover;
+
+// Summit page
+.page-annual-innovation-summit {
+  background: color("base-darkest");
+
+  .banner-background{
+    background: url("../img/photos/summit/desktop-hero-background.png") no-repeat 0 0;
+    background-size: cover;
+  }
 }
 
 

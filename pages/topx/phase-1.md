@@ -33,6 +33,27 @@ intro:
      - item: "Recruit sprint participants: tech teams, community leaders, user advocates, individuals with direct lived experience, and data and policy experts"
      - item: Prepare documentation for sprint execution
 
+phase-info-video:
+  class: padding-top-6
+  title:
+    text: "How to Plan for Your TOP Sprint"
+    class: text-blue-warm-60v text-center
+  video:
+    src: https://www.youtube.com/embed/OyrkKHP3nBA
+    alt-text: "TOPx: How to Plan for Your TOP Sprint"
+  blurb:
+    title: View More Phase 1 Videos In-Step Below
+  phase-video-list:
+    - video-1:
+      src: https://youtu.be/GzXRCwnb7gc
+      title: "How to Define Your Problem Statement"
+    - video-2:
+      src: https://youtu.be/kmsqQq1AvKs
+      title: "Tips for Recruiting Sprint Participants"
+    - video-3:
+      src:  https://youtu.be/6TDEd1DOHbk
+      title: "How Do I Prepare to Execute My Sprint?"
+
 
 download-text: Phase 1 Templates
 continue-text: Phase 2
@@ -40,11 +61,13 @@ continue-text: Phase 2
 ---
 
 {% include toolkit-hero-refresh.html %}
-<section class="grid-container padding-y-8">
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
+<section class="grid-container padding-bottom-8">
   <div class="grid-row">
     <div>
       {% for item in site.data.toolkits.topx.phase-1.body %}
-        <div class="toolkit-section margin-top-10">
+        <div class="toolkit-section margin-top-6">
           {% include toolkit-header-refresh.html %}
           {% include toolkit-key-actions-refresh.html %}
         </div>

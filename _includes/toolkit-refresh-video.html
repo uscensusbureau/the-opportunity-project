@@ -8,7 +8,7 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
 
-      <div class="{% if page.phase >= 0%}bg-blue-warm-60v text-white{% endif %}">
+      <div class="{% if page.phase >= 0%}bg-blue-warm-60v text-white{% endif %} {{data.copy-class}}">
       <h3 class="{% if page.phase >= 0 %}text-white{% endif %} {{ data.blurb.class }}">{{ data.blurb.title }}</h3>
       {% if data.blurb.p %}
       <p>{{ data.blurb.p }} </p>

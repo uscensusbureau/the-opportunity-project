@@ -5,8 +5,9 @@
       <div class="usa-banner__inner">
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text font-sans-xs">
+            {{ banner.text }}
             <a href="{% unless banner.isExternal %}{{site.baseurl}}{% endunless %}{{ banner.href }}">
-              {{ banner.text }}
+              Learn More
             </a>
           </p>
         </div>

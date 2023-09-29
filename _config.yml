@@ -14,10 +14,10 @@ annual_reports:
   '2019': assets/files/annual_report_2019.pdf
 
 
-# banner:
-#   text: "Watch recordings from TOP Summit 2023 on YouTube"
-#   href: https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
-#   isExternal: true
+banner:
+  text: "Due to a lapse in federal funding, this website is not being updated."
+  href: https://www.commerce.gov/news/blog
+  isExternal: true
 
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

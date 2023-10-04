@@ -32,7 +32,7 @@ video-one:
   copy-class: bg-white
   blurb:
     title: "2023 TOP Summit"
-    p: "Highlighted more than 25 new technology products created through 2022 TOP sprints including five sprints focused on challenges impacting Puerto Rico and other island territories."
+    p: "Highlighted more than 25 new technology products created through 2022 TOP sprints including five sprints focused on challenges impacting Puerto Rico."
     class: defined-width
 
 

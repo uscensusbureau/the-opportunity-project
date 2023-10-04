@@ -3186,9 +3186,17 @@ code {
     }
   }
 
+  .video-section-container {
+    // put this in here
+    // flex-column flex-no-wrap flex-align-center flex-justify-center tablet: flex-row tablet:flex-wrap tablet:flex-align-start
+  }
+
   .video-section {
     // max-width: 375px;
     width: 233px;
+    .iframe-content div {
+      min-width: 125px;
+    }
   }
 }
 // Logo Garden

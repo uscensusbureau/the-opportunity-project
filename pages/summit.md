@@ -124,7 +124,7 @@ video-seven:
   <h2 class="text-center text-white">Past Events</h2>
     {% assign section = page.video-one %}
     {% include toolkit-refresh-video.html data=section %}
-  <div class="grid-row flex-wrap flex-align-start flex-justify-center">
+  <div class="grid-row video-section-container">
     {% assign section = page.video-two %}
     {% include toolkit-refresh-video.html data=section %}
     {% assign section = page.video-three %}

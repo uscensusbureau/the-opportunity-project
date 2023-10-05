@@ -38,6 +38,8 @@ phase-info-video:
   video:
     src: https://www.youtube.com/embed/bad8acAJ9lg
     alt-text: "TOPx: How To Execute Your TOP Sprint?"
+    width: 640
+    height: 360
   blurb:
     title: "View More Phase 2 Videos In-Step Below"
   phase-video-list:

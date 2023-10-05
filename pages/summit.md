@@ -29,8 +29,12 @@ video-one:
   video:
     src: https://www.youtube.com/embed/videoseries?si=qtl6VAkzlIoFThBN&amp;list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
     alt-text: "2023 TOP Summit"
-    width: 233
-    height: 414
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 318
+    tablet-height: 170
+    desktop-width: 510
+    desktop-height: 273
   copy-class: bg-white
   blurb:
     title: "2023 TOP Summit"
@@ -39,12 +43,16 @@ video-one:
 
 
 video-two:
-  class:
+  class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/videoseries?si=cDwzTAWNVcuRFq0V&amp;list=PLewV-zKXDZkitrXN6T7a0MG-oTi7WGTu_
     alt-text: "2021 TOP Summit: Open Innovation for All"
-    width: 233
-    height:  125
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
   copy-class: bg-white
   blurb:
     title: "2021 TOP Summit: Open Innovation for All"
@@ -52,12 +60,16 @@ video-two:
 
 
 video-three:
-  class:
+  class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/-c-DaW3ZHko?si=3kNadCt7cT3SNqo-
     alt-text: "2020 TOP Demo Week: A Virtual Tech, Data, and Community Conference"
-    width: 233
-    height:  125
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
   copy-class: bg-white
   blurb:
     title: "2020 TOP Demo Week: A Virtual Tech, Data, and Community Conference"
@@ -65,12 +77,16 @@ video-three:
 
 
 video-four:
-  class:
+  class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/_qLQ8OD4bWI?si=mBiaainthFXorljE
     alt-text: "2019 December Census Demo Day + Summit at Georgetown"
-    width: 233
-    height:  125
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
   copy-class: bg-white
   blurb:
     title: "2019 December Census Demo Day + Summit at Georgetown"
@@ -78,12 +94,16 @@ video-four:
 
 
 video-five:
-  class:
+  class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/36sdFlR1F-s?si=VzuwsflRIfhGJsEh
     alt-text: "2019 March Census Demo Day"
-    width: 233
-    height:  125
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
   copy-class: bg-white
   blurb:
     title: "2019 March Census Demo Day"
@@ -91,12 +111,16 @@ video-five:
 
 
 video-six:
-  class:
+  class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/hiqn9a64wlo?si=uRRzo67q5XYXnk-p
     alt-text: "2017 Census Demo Day"
-    width: 233
-    height:  125
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
   copy-class: bg-white
   blurb:
     title: "2017 Census Demo Day"
@@ -104,12 +128,16 @@ video-six:
 
 
 video-seven:
-  class:
+  class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/uqIiMj2S_Vk?si=zjm-En0_68jsmAo3
     alt-text: "2016 White House Demo Day"
-    width: 233
-    height:  125
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
   copy-class: bg-white
   blurb:
     title: "2016 White House Demo Day"
@@ -122,20 +150,22 @@ video-seven:
 {% include home/cta.html  data=section  %}
 <section class="past-events grid-container">
   <h2 class="text-center text-white">Past Events</h2>
+  <div class="grid-row flex-column flex-align-center highlight-video-container">
     {% assign section = page.video-one %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
+  </div>
   <div class="grid-row video-section-container">
     {% assign section = page.video-two %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
     {% assign section = page.video-three %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
     {% assign section = page.video-four %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
     {% assign section = page.video-five %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
     {% assign section = page.video-six %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
     {% assign section = page.video-seven %}
-    {% include toolkit-refresh-video.html data=section %}
+    {% include  summit-video.html data=section %}
   </div>
 </section>

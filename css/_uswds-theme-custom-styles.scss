@@ -3189,6 +3189,17 @@ code {
   .video-section-container {
     // put this in here
     // flex-column flex-no-wrap flex-align-center flex-justify-center tablet: flex-row tablet:flex-wrap tablet:flex-align-start
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    @include at-media("tablet") {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: start;
+    }
   }
 
   .video-section {
@@ -3197,8 +3208,19 @@ code {
     .iframe-content div {
       min-width: 125px;
     }
+    @include at-media("tablet") {
+      width: 247px;
+    }
+    @include at-media("desktop") {
+      width: 392px;
+    }
+  }
+  .video-section-text-container {
+      font-size: 10px;
+      line-height: 12.6px;
   }
 }
+
 // Logo Garden
 
 .logo-garden-container {

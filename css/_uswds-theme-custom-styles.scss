@@ -3215,9 +3215,42 @@ code {
       width: 392px;
     }
   }
-  .video-section-text-container {
+  div.video-section-text-container {
       font-size: 10px;
       line-height: 12.6px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        padding: 0;
+      }
+      @include at-media("tablet") {
+        max-width: 247px;
+        height: 144px;
+        }
+
+      @include at-media("desktop") {
+        max-width: 392px;
+        height: 230px;
+        h3 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  section.highlight-video-section div.video-section-text-container h3 {
+    @include at-media("desktop") {
+      font-size: 24px;
+      line-height: 24px;
   }
 }
 

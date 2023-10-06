@@ -3,8 +3,9 @@ title: "Annual Innovation Summit"
 permalink: /summit/
 layout: default
 name: summit
+class: summit
 
-background: banner-background
+background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
   text: The Opportunity Project Summit is an annual multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities.
   subtext: Showcasing open innovation in the public sector, new civic technology, and emerging models for cross-sector collaboration and inclusive design.
@@ -39,7 +40,7 @@ video-one:
   blurb:
     title: "2023 TOP Summit"
     p: "Highlighted more than 25 new technology products created through 2022 TOP sprints including five sprints focused on challenges impacting Puerto Rico."
-    class: defined-width
+    class:
 
 
 video-two:
@@ -154,7 +155,7 @@ video-seven:
     {% assign section = page.video-one %}
     {% include  summit-video.html data=section %}
   </div>
-  <div class="grid-row video-section-container">
+  <div class="grid-row video-section-container tablet:margin-top-7 desktop:margin-top-15">
     {% assign section = page.video-two %}
     {% include  summit-video.html data=section %}
     {% assign section = page.video-three %}

@@ -149,24 +149,26 @@ video-seven:
 {% include hero.html %}
 <!-- {% assign section = page.cta-one %}
 {% include home/cta.html  data=section  %} -->
-<section class="past-events grid-container">
-  <h2 class="text-center text-white">Past Events</h2>
-  <div class="grid-row flex-column flex-align-center highlight-video-container">
-    {% assign section = page.video-one %}
-    {% include  summit-video.html data=section %}
-  </div>
-  <div class="grid-row video-section-container tablet:margin-top-7 desktop:margin-top-15">
-    {% assign section = page.video-two %}
-    {% include  summit-video.html data=section %}
-    {% assign section = page.video-three %}
-    {% include  summit-video.html data=section %}
-    {% assign section = page.video-four %}
-    {% include  summit-video.html data=section %}
-    {% assign section = page.video-five %}
-    {% include  summit-video.html data=section %}
-    {% assign section = page.video-six %}
-    {% include  summit-video.html data=section %}
-    {% assign section = page.video-seven %}
-    {% include  summit-video.html data=section %}
+<section class="past-events">
+  <div class="grid-container">
+    <h2 class="text-center text-white">Past Events</h2>
+    <div class="grid-row flex-column flex-align-center highlight-video-container">
+      {% assign section = page.video-one %}
+      {% include  summit-video.html data=section %}
+    </div>
+    <div class="grid-row video-section-container tablet:margin-top-7 desktop:margin-top-15">
+      {% assign section = page.video-two %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-three %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-four %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-five %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-six %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-seven %}
+      {% include  summit-video.html data=section %}
+    </div>
   </div>
 </section>

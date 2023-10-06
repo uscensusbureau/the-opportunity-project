@@ -3125,6 +3125,15 @@ code {
     background: url("../img/photos/summit/desktop-hero-background.png") no-repeat 0 0;
     background-size: cover;
   }
+  .past-events {
+    background: url("../img/photos/summit/mobile-pastevents-background.png") no-repeat 0 0;
+    background-size: cover;
+    @include at-media('tablet') {
+      background: url("../img/photos/summit/desktop-pastevents-background.png") no-repeat 0 0;
+      background-size: cover;
+
+    }
+  }
 
   h1 {
     font-size: 10px;

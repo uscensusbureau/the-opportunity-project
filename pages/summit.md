@@ -147,8 +147,8 @@ video-seven:
 
 ---
 {% include hero.html %}
-{% assign section = page.cta-one %}
-{% include home/cta.html  data=section  %}
+<!-- {% assign section = page.cta-one %}
+{% include home/cta.html  data=section  %} -->
 <section class="past-events grid-container">
   <h2 class="text-center text-white">Past Events</h2>
   <div class="grid-row flex-column flex-align-center highlight-video-container">

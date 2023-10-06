@@ -3223,16 +3223,19 @@ code {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      h3 {
+        padding: 0;
+      }
       @include at-media("tablet") {
-        max-width: 196px;
+        max-width: 247px;
         height: 144px;
         }
 
       @include at-media("desktop") {
-        max-width: 314px;
-        height: 231px;
+        max-width: 392px;
+        height: 230px;
         h3 {
-          font-size: 24px;
+          font-size: 16px;
           line-height: 24px;
         }
 
@@ -3241,6 +3244,7 @@ code {
           line-height: 20px;
         }
       }
+    }
   }
 
   section.highlight-video-section div.video-section-text-container h3 {

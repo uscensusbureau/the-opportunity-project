@@ -39,6 +39,7 @@ video-one:
   copy-class: bg-white
   blurb:
     title: "2023 TOP Summit"
+    class: text-center
     p: "Highlighted more than 25 new technology products created through 2022 TOP sprints including five sprints focused on challenges impacting Puerto Rico."
     class:
 
@@ -57,6 +58,7 @@ video-two:
   copy-class: bg-white
   blurb:
     title: "2021 TOP Summit: Open Innovation for All"
+    class: text-center
     p: "Featured digital products envisioning the world post-COVID-19 and announced more than $300,000 in awards to the winners of the Open Data for Good Grand Challenge."
 
 
@@ -74,6 +76,7 @@ video-three:
   copy-class: bg-white
   blurb:
     title: "2020 TOP Demo Week: A Virtual Tech, Data, and Community Conference"
+    class: text-center
     p: "Showcased 35+ new digital tools resulting from Earth-themed sprints focused on challenges impacting the natural and built environment."
 
 
@@ -91,6 +94,7 @@ video-four:
   copy-class: bg-white
   blurb:
     title: "2019 December Census Demo Day + Summit at Georgetown"
+    class: text-center
     p: "Demonstrated 20+ digital tools that tackled a number of challenges — such as disaster response, standardized address data collection, and more."
 
 
@@ -108,6 +112,7 @@ video-five:
   copy-class: bg-white
   blurb:
     title: "2019 March Census Demo Day"
+    class: text-center
     p: "Explored 20+ digital tools that addressed issues like connecting veterans to jobs, student access to STEM fields, the opioid crisis, and more."
 
 
@@ -125,6 +130,7 @@ video-six:
   copy-class: bg-white
   blurb:
     title: "2017 Census Demo Day"
+    class: text-center
     p: "Celebrated new tools that took on problems such as youth and veteran homelessness, engaging hard-to-count populations in the decennial census, and making federal grant data user-friendly."
 
 
@@ -142,6 +148,7 @@ video-seven:
   copy-class: bg-white
   blurb:
     title: "2016 White House Demo Day"
+    class: text-center
     p: "Featured digital tools that promoted emotional wellbeing, connected the unemployed with skills and jobs, improved transit accessibility in low income neighborhoods, and helped families find affordable housing in safe neighborhoods with access to quality schools."
 
 

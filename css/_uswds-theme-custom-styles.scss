@@ -3234,15 +3234,18 @@ code {
       justify-content: center;
       h3 {
         padding: 0;
+        margin:0;
       }
       @include at-media("tablet") {
         max-width: 247px;
         height: 144px;
+        padding: 24px;
         }
 
       @include at-media("desktop") {
         max-width: 392px;
         height: 230px;
+        padding: 32px;
         h3 {
           font-size: 16px;
           line-height: 24px;

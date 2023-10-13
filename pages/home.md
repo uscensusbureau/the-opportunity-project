@@ -76,7 +76,7 @@ cta-one:
     text: Ready to solve the nation's biggest challenges?
     class: font-sans-sm text-normal
   primary:
-    text: Get in Touch
+    text: Email TOP
     href: mailto:census.opportunityproject@census.gov
     isExternal: true
 
@@ -109,9 +109,9 @@ process:
 
 
 Ready to get started?"
-  cta: 
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+  cta:
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
 
 vision:
@@ -124,7 +124,7 @@ cta-two:
     text: Ready to make an impact?
     class: font-sans-sm text-normal
   primary:
-    text: Get in Touch
+    text: Email TOP
     href: mailto:census.opportunityproject@census.gov
     isExternal: true
         

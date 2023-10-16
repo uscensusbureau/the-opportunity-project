@@ -7,17 +7,21 @@ class: summit
 
 background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: The Opportunity Project Summit is an annual multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities.
-  subtext: Showcasing open innovation in the public sector, new civic technology, and emerging models for cross-sector collaboration and inclusive design.
+  text: The Opportunity Project (TOP) Summit is an annual multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities by and for the TOP community.
+  subtext: Showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Join us virtually for The Opportunity Project Summit [year] on, [date/time] to view new digital products and many more innovations from the TOP community!
+    text: Save the date! TOP Summit 2024 is scheduled for January 17 - 19, 2024.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
-    text: TOP Summit [year] will include [no. of days] days of keynotes, lightning talks, interactive sessions, hands-on learning, and technology demos.
+    text: |-
+      Join us virtually to view new digital products and many more innovations from the TOP community.<br/><br/>
+      More information is coming soon.
+
+
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   primary:
     text: RSVP to Attend
@@ -29,7 +33,7 @@ video-one:
   class: highlight-video-section tablet:width-full
   video:
     src: https://www.youtube.com/embed/videoseries?si=qtl6VAkzlIoFThBN&amp;list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
-    alt-text: "2023 TOP Summit"
+    alt-text: "2022 TOP Summit (February 2023)"
     mobile-width: 233
     mobile-height: 125
     tablet-width: 318
@@ -38,9 +42,9 @@ video-one:
     desktop-height: 273
   copy-class: bg-white
   blurb:
-    title: "2023 TOP Summit"
+    title: "2022 TOP Summit (February 2023)"
     class: text-center
-    p: "Highlighted more than 25 new technology products created through 2022 TOP sprints including five sprints focused on challenges impacting Puerto Rico."
+    p: "Featured more than 25 new technology products created through 2022 TOP sprints focused on national and Puerto Rico-specific challenges."
     class:
 
 
@@ -59,7 +63,7 @@ video-two:
   blurb:
     title: "2021 TOP Summit: Open Innovation for All"
     class: text-center
-    p: "Featured digital products envisioning the world post-COVID-19 and announced more than $300,000 in awards to the winners of the Open Data for Good Grand Challenge."
+    p: "Featured digital products envisioning the world post-COVID 19 and announced $260,000 in awards to the winners of the Open Data for Good Grand Challenge."
 
 
 video-three:
@@ -77,14 +81,14 @@ video-three:
   blurb:
     title: "2020 TOP Demo Week: A Virtual Tech, Data, and Community Conference"
     class: text-center
-    p: "Showcased 35+ new digital tools resulting from Earth-themed sprints focused on challenges impacting the natural and built environment."
+    p: "Showcased 35+ new digital tools focused on challenges impacting the natural and built environment."
 
 
 video-four:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/_qLQ8OD4bWI?si=mBiaainthFXorljE
-    alt-text: "2019 December Census Demo Day + Summit at Georgetown"
+    alt-text: "2019 December Census Demo Day + TOP Summit at Georgetown University"
     mobile-width: 233
     mobile-height: 125
     tablet-width: 247
@@ -93,16 +97,16 @@ video-four:
     desktop-height: 211
   copy-class: bg-white
   blurb:
-    title: "2019 December Census Demo Day + Summit at Georgetown"
+    title: "2019 December Census Demo Day + TOP Summit at Georgetown University"
     class: text-center
-    p: "Demonstrated 20+ digital tools that tackled a number of challenges — such as disaster response, standardized address data collection, and more."
+    p: "Featured 20+ digital tools that tackled a number of challenges — such as disaster response, local address data collection, and more."
 
 
 video-five:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/36sdFlR1F-s?si=VzuwsflRIfhGJsEh
-    alt-text: "2019 March Census Demo Day"
+    alt-text: "2018 TOP Demo Day (March 2019)"
     mobile-width: 233
     mobile-height: 125
     tablet-width: 247
@@ -111,16 +115,16 @@ video-five:
     desktop-height: 211
   copy-class: bg-white
   blurb:
-    title: "2019 March Census Demo Day"
+    title: "2018 TOP Demo Day (March 2019)"
     class: text-center
-    p: "Explored 20+ digital tools that addressed issues like connecting veterans to jobs, student access to STEM fields, the opioid crisis, and more."
+    p: "Showcased 20+ digital tools that addressed issues like connecting veterans to jobs, student access to STEM fields, the opioid crisis, and more."
 
 
 video-six:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/hiqn9a64wlo?si=uRRzo67q5XYXnk-p
-    alt-text: "2017 Census Demo Day"
+    alt-text: "2017 TOP Demo Day at the Census Bureau"
     mobile-width: 233
     mobile-height: 125
     tablet-width: 247
@@ -129,9 +133,9 @@ video-six:
     desktop-height: 211
   copy-class: bg-white
   blurb:
-    title: "2017 Census Demo Day"
+    title: "2017 TOP Demo Day at the Census Bureau"
     class: text-center
-    p: "Celebrated new tools that took on problems such as youth and veteran homelessness, engaging hard-to-count populations in the decennial census, and making federal grant data user-friendly."
+    p: "Featured 10 new tools that took on problems such as youth and veteran homelessness, engaging hard-to-count populations in the decennial census, and making federal grant data user-friendly."
 
 
 video-seven:
@@ -150,6 +154,25 @@ video-seven:
     title: "2016 White House Demo Day"
     class: text-center
     p: "Featured digital tools that promoted emotional wellbeing, connected the unemployed with skills and jobs, improved transit accessibility in low income neighborhoods, and helped families find affordable housing in safe neighborhoods with access to quality schools."
+
+
+
+video-eight:
+  class: tablet:margin-x-105 desktop:margin-x-205
+  video:
+    src: https://www.youtube.com/embed/6un7g9HhbrU?si=sNeLdDEd6fmZQY3b
+    alt-text: "2016 White House Launch of The Opportunity Project (March 2016)"
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
+  copy-class: bg-white
+  blurb:
+    title: "2016 White House Launch of The Opportunity Project (March 2016)"
+    class: text-center
+    p: "Featuring tools from the first-ever TOP sprint, and officially launching The Opportunity Project as an ongoing innovation program."
 
 
 ---
@@ -175,6 +198,8 @@ video-seven:
       {% assign section = page.video-six %}
       {% include  summit-video.html data=section %}
       {% assign section = page.video-seven %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-eight %}
       {% include  summit-video.html data=section %}
     </div>
   </div>

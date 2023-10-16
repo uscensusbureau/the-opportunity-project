@@ -26,6 +26,8 @@ primary:
     accordion:
       - text: Prize Challenge
         href: prize-challenge/
+      - text: Annual Innovation Summit
+        href: summit/
 
 secondary:
   - text: Our Process

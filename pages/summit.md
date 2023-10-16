@@ -142,7 +142,7 @@ video-seven:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/uqIiMj2S_Vk?si=zjm-En0_68jsmAo3
-    alt-text: "2016 White House Demo Day"
+    alt-text: "2016 TOP Demo Day at the White House (October 2016)"
     mobile-width: 233
     mobile-height: 125
     tablet-width: 247
@@ -151,9 +151,9 @@ video-seven:
     desktop-height: 211
   copy-class: bg-white
   blurb:
-    title: "2016 White House Demo Day"
+    title: "2016 TOP Demo Day at the White House (October 2016)"
     class: text-center
-    p: "Featured digital tools that promoted emotional wellbeing, connected the unemployed with skills and jobs, improved transit accessibility in low income neighborhoods, and helped families find affordable housing in safe neighborhoods with access to quality schools."
+    p: "Featured digital tools that promoted emotional wellbeing, connected people with job opportunities, improved transit accessibility, and helped families find affordable housing."
 
 
 

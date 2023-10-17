@@ -3165,6 +3165,21 @@ code {
     }
   }
 
+  h2 {
+  font-size: 16px;
+  line-height: 21px;
+
+    @include at-media("tablet") {
+      font-size: 32px;
+      line-height: 22px;
+    }
+
+    @include at-media("desktop") {
+      font-size: 48px;
+      line-height: 36px;
+    }
+  }
+
   .cta-one {
     font-size: 8px;
     line-height: 9.37px;

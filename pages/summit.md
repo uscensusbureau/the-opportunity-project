@@ -20,14 +20,12 @@ cta-one:
     text: |-
       Join us virtually to view new digital products and many more innovations from the TOP community.<br/><br/>
       More information is coming soon.
-
-
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
-  primary:
+  custom:
     text: RSVP to Attend
     href: /topx-toolkit/phase-1
     isExternal: true
-    class: secondary
+    class: display-none
 
 video-one:
   class: highlight-video-section tablet:width-full
@@ -177,8 +175,8 @@ video-eight:
 
 ---
 {% include hero.html %}
-<!-- {% assign section = page.cta-one %}
-{% include home/cta.html  data=section  %} -->
+{% assign section = page.cta-one %}
+{% include home/cta.html  data=section  %}
 <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">
     <h2 class="text-center text-white">Past Events</h2>

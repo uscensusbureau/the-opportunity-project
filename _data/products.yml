@@ -42,6 +42,38 @@
   title: '#WhyWeCount'
   year:
   - 2019
+- Product Name: My Health Vault
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: rec0siTyzPwmHJJSB
+  category:
+  - Health
+  data_sets: "GUDI, IVD Over the Counter (OTC), WATERS \n\n"
+  data_sets_text: "GUDI, IVD Over the Counter (OTC), WATERS \n\n"
+  description: "We used FDA\u2019s IVD Over-the-Counter (OTC) and GUDI Databases to\
+    \ build a Web3-based Consumer Diagnostic Test Platform, which provides up-to-date\
+    \ information regarding FDA-authorized DTC diagnostic tests and confidentially\
+    \ captures, stores and transfers consumer diagnostic test results and relevant\
+    \ clinical information, for the use of the general public."
+  details: "We used FDA\u2019s IVD Over-the-Counter (OTC) and GUDI Databases to build\
+    \ a Web3-based Consumer Diagnostic Test Platform, which provides up-to-date information\
+    \ regarding FDA-authorized DTC diagnostic tests and confidentially captures, stores\
+    \ and transfers consumer diagnostic test results and relevant clinical information,\
+    \ for the use of the general public."
+  image: Interpret DNA_FDA.png
+  image-alt: A screenshot of the mobile application home screen.
+  link: https://drive.google.com/file/d/1ukMygiqXrr8yGXE5aatmDTfa_HH51UOt/view?usp=drive_link
+  problem_statement:
+  - recm1nUDGhmqHmnbG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - rec1bmOJlEu85P4s9
+  tech_team_text: Interpret-DNA LLC
+  title: My Health Vault
+  year:
+  - 2023
 - Description (Old): Tech Talent Tracker uses BEA, FCC, ED, and USCB data (and third-party
     data from GoDaddy, Facebook, and Deloitte) to create digital economy reports for
     rural leaders designing economic development strategies.
@@ -618,6 +650,35 @@
   title: Affordable Housing Finder
   year:
   - 2016
+- Product Name: OPS Self-Help Healthcare Diagnostic Tool
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: rec74zxBFMIm8CzLg
+  category:
+  - Health
+  data_sets: Census Household Pulse Survey, CDC/ATSDR Social Vulnerability Index
+  data_sets_text: Census Household Pulse Survey, CDC/ATSDR Social Vulnerability Index
+  description: OPS provides an accurate, equitable, and private quick-check diagnostic
+    for people in need who are experiencing healthcare issues and who may struggle
+    to get appropriate help.
+  details: OPS provides an accurate, equitable, and private quick-check diagnostic
+    for people in need who are experiencing healthcare issues and who may struggle
+    to get appropriate help.
+  image: OPS_FDA.png
+  image-alt: A screenshot of a questionaire about the users sysmptoms in the desktop
+    application.
+  link: https://envision.ops1.com/envision.aspx#anchor_breaking
+  problem_statement:
+  - recyQG9qY2mboF1iG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recMq8z1gZ2cyazOl
+  tech_team_text: Organizational Performance Systems
+  title: OPS Self-Help Healthcare Diagnostic Tool
+  year:
+  - 2023
 - Product Name: SafeDigi-ID
   agencies:
   - City of Coral Gables
@@ -932,6 +993,36 @@
   - recnKW3sc3k2KH73E
   tech_team_text: Eco Bloc
   title: ECO Bloc
+- Product Name: COVID-19 Self-Test Outreach & Education Tool
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: rec8wQwjxmma2Y284
+  category:
+  - Health
+  data_sets: COVID-19 Case Surveillance with Geography
+  data_sets_text: COVID-19 Case Surveillance with Geography
+  description: |-
+    The self-test outreach and education tool uses COVID-19 Case Surveillance with Geography to educate and encourage Spanish-speaking communities in Northern California to report self-test results.
+
+    Text "COVIDTEST" to 222020
+  details: |-
+    The self-test outreach and education tool uses COVID-19 Case Surveillance with Geography to educate and encourage Spanish-speaking communities in Northern California to report self-test results.
+
+    Text "COVIDTEST" to 222020
+  image: CommunityConnect Labs_FDA.png
+  image-alt: A screenshot of a potential text exchange with the service tool.
+  link: https://communityconnectlabs.com/government-services-solutions/
+  problem_statement:
+  - recm1nUDGhmqHmnbG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - rec4CqCqIs9w65IEm
+  tech_team_text: CommunityConnect Labs
+  title: COVID-19 Self-Test Outreach & Education Tool
+  year:
+  - 2023
 - Description (Old): A PolicyLink tool to allow comparison of disaggregated demographic
     indicators.
   Product Name: National Equity Atlas
@@ -1061,6 +1152,62 @@
   title: Libraries Need Diverse Books
   year:
   - 2021
+- Product Name: Guidehouse SDOH Mapping Service
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: rec9cVrhxWltQN61K
+  category:
+  - Health
+  data_sets: American Community Survey, Illinois Department of Public Health, Chicago
+    Crime Data Portal
+  data_sets_text: American Community Survey, Illinois Department of Public Health,
+    Chicago Crime Data Portal
+  description: "Guidehouse enhances patient\u2019s health record with a set of SDOH\
+    \ indicators for use by healthcare providers.\_"
+  details: "Guidehouse enhances patient\u2019s health record with a set of SDOH indicators\
+    \ for use by healthcare providers.\_"
+  image: Guidehouse_FDA.png
+  image-alt: A flow chart illustrating the mapping service.
+  link: https://discover.guidehouse.com/nlp/sdoh-mapping
+  problem_statement:
+  - reczBchbjxeo8xurw
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recQz2XNJKyHWuGN2
+  tech_team_text: Guidehouse
+  title: Guidehouse SDOH Mapping Service
+  year:
+  - 2023
+- Product Name: Risk and Quality Solution for MCOs Driving ROI
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: rec9nDfB3aogwuBX6
+  category:
+  - Health
+  data_sets: SVI, ACS, & SAHIE
+  data_sets_text: SVI, ACS, & SAHIE
+  description: Recuro has leveraged SVI, ACS and SAHIE datasets to improve member
+    engagement and adoption directly impacting Health Plan quality scores and risk
+    score accuracy.
+  details: Recuro has leveraged SVI, ACS and SAHIE datasets to improve member engagement
+    and adoption directly impacting Health Plan quality scores and risk score accuracy.
+  image: Recuro_FDA.png
+  image-alt: A marketing graphic of the application that includes the words "Elevating
+    Care".
+  link: https://recurohealth.com/
+  problem_statement:
+  - recyQG9qY2mboF1iG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recNqJ6wwbEXEhHcS
+  tech_team_text: Recuro
+  title: Risk and Quality Solution for MCOs Driving ROI
+  year:
+  - 2023
 - Description (Old): A tool that allows users to identify areas of opportunity by
     specifying their most important priorities.
   Product Name: PolicyMap Tool
@@ -1196,6 +1343,34 @@
   title: Behind the Numbers
   year:
   - 2021
+- Product Name: Health Awareness Framework
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: recBJ5GfDDHyjMXjT
+  category:
+  - Health
+  data_sets: CDC's Telemedicine Use in the Last 4 Weeks
+  data_sets_text: CDC's Telemedicine Use in the Last 4 Weeks
+  description: The Health Awareness Framework uses the Telemedicine Use open data
+    set to address the educational gaps of health data privacy and transparency for
+    patients.
+  details: The Health Awareness Framework uses the Telemedicine Use open data set
+    to address the educational gaps of health data privacy and transparency for patients.
+  image: K'ept Health_FDA.png
+  image-alt: A screenshot of the website including digital illustrations of adults
+    nursing babies.
+  link: https://www.figma.com/proto/I1EUhL9lSyTVnlCHMSapa1/FDA-Project?node-id=22967-1273&starting-point-node-id=22967%3A1273&mode=design&t=dstPPcWw33lvpNxK-1
+  problem_statement:
+  - recyQG9qY2mboF1iG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recoMtzZZTniopsLv
+  tech_team_text: K'ept Health
+  title: Health Awareness Framework
+  year:
+  - 2023
 - Description (Old): Uses a combination of 30 datasets to generate instant insights
     that address accessibility of opportunity and emotional well-being for citizens
     across the county.
@@ -2717,6 +2892,38 @@
   title: Georgetown University Campus Plastic Initiative
   year:
   - 2020
+- Product Name: FHIR to OMOP Data Mapping
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: recRjSY3q0avBcABp
+  category:
+  - Health
+  data_sets: Athena OHDSI Database
+  data_sets_text: Athena OHDSI Database
+  description: The FHIR to OMOP data mapping tool uses open-source health coding libraries
+    and synthetic COVID IVD data to solve data format inconsistencies, organizational
+    differences, and attribute/column definition mismatches between FHIR and OMOP
+    data for FDA reviewers and users who would leverage the standardized mappings
+    such as other public health agencies, EHR systems, and health research organizations.
+  details: The FHIR to OMOP data mapping tool uses open-source health coding libraries
+    and synthetic COVID IVD data to solve data format inconsistencies, organizational
+    differences, and attribute/column definition mismatches between FHIR and OMOP
+    data for FDA reviewers and users who would leverage the standardized mappings
+    such as other public health agencies, EHR systems, and health research organizations.
+  image: Palantir_FDA.jpg
+  image-alt: A screenshot of the tool's inbox including "attribute" and "value" categories.
+  link: https://www.palantir.com/docs/foundry/use-case-examples/translating-from-omop-to-fhir-to-bridge-the-gap-between-electronic-health-record-formats/index.html
+  problem_statement:
+  - recm1nUDGhmqHmnbG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recwYwHFq9X9iW8F7
+  tech_team_text: Palantir Technologies
+  title: FHIR to OMOP Data Mapping
+  year:
+  - 2023
 - Description (Old): "eCivis\u2019 tool Grants Intelligence - Homelessness uses data\
     \ from the Census Bureau, USASpending.gov, SAM.gov, grants.gov, and HUD to make\
     \ homelessness stats and related funding data easily accessible for grants professionals,\
@@ -2790,6 +2997,41 @@
   title: Nepris Industry Connections
   year:
   - 2018
+- Product Name: HealthCheck
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: recSorwcNhErHdNgC
+  category:
+  - Health
+  data_sets: 'Social Determinants of Health Database, Household Pulse Survey: Measuring
+    Social and Economic Impacts during the Coronavirus Pandemic, Small Area Health
+    Insurance Estimates (SAHIE) Program, CDC/ATSDR Social Vulnerability Index, NHANES
+    Questionnaires, Datasets, and Related Documentation, American Housing Survey (AHS)'
+  data_sets_text: 'Social Determinants of Health Database, Household Pulse Survey:
+    Measuring Social and Economic Impacts during the Coronavirus Pandemic, Small Area
+    Health Insurance Estimates (SAHIE) Program, CDC/ATSDR Social Vulnerability Index,
+    NHANES Questionnaires, Datasets, and Related Documentation, American Housing Survey
+    (AHS)'
+  description: "HealthCheck enables access to diagnostics testing in telehealth platforms,\
+    \ with an emphasis on\_configurations to support underserved populations who lack\
+    \ access to quality care."
+  details: "HealthCheck enables access to diagnostics testing in telehealth platforms,\
+    \ with an emphasis on\_configurations to support underserved populations who lack\
+    \ access to quality care."
+  image: SAFE_FDA.png
+  image-alt: A screenshot of the sign in screen in the mobile application.
+  link: https://healthcheck.com/
+  problem_statement:
+  - recyQG9qY2mboF1iG
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - rec0pEkCsOYrYswru
+  tech_team_text: Safe Health
+  title: HealthCheck
+  year:
+  - 2023
 - Product Name: co.alesce
   agencies:
   - U.S. Census Bureau
@@ -3208,6 +3450,45 @@
   title: FindHome
   year:
   - 2016
+- Product Name: Health Feature Store
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: recYd2YgrGpGdOz2Y
+  category:
+  - Health
+  data_sets: COVID-19 Reported Patient Impact & Hospital Capcity by State, COVID-19
+    Community Vulnerability Crosswalk Rank Ordered by Score, COVID-19 Reported Patient
+    Impact & Hospital Capacity by Facility, COVID-19 Case Surveillance Public Use
+    Data with Geography
+  data_sets_text: COVID-19 Reported Patient Impact & Hospital Capcity by State, COVID-19
+    Community Vulnerability Crosswalk Rank Ordered by Score, COVID-19 Reported Patient
+    Impact & Hospital Capacity by Facility, COVID-19 Case Surveillance Public Use
+    Data with Geography
+  description: Health Feature Store is a superior data environment that can organize,
+    aggregate, and manage diagnostic data for a holistic view of patient health across
+    different healthcare settings, for AI/ML and data analytics professionals within
+    public health organizations, healthcare and insurance providers as well as emergency
+    response organizations.
+  details: Health Feature Store is a superior data environment that can organize,
+    aggregate, and manage diagnostic data for a holistic view of patient health across
+    different healthcare settings, for AI/ML and data analytics professionals within
+    public health organizations, healthcare and insurance providers as well as emergency
+    response organizations.
+  image: Aerospike_FDA.png
+  image-alt: A one-page document about the "The Aerospike Real-time Decision Support
+    Platform".
+  link: https://aerospike.com/blog/build-a-performant-feature-store-with-aerospike-to-power-ml-applications/
+  problem_statement:
+  - reczBchbjxeo8xurw
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recvRoPPq2LMvQLxu
+  tech_team_text: Aerospike
+  title: Health Feature Store
+  year:
+  - 2023
 - Product Name: Maine Business Resources
   agencies:
   - U.S. Environmental Protection Agency
@@ -3811,6 +4092,41 @@
   title: GrantVEST
   year:
   - 2022
+- Product Name: 'SHAPE SDOH/At-Home Test Data Collection App '
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:34.000Z'
+  airtable_id: recfHtVN6KirIkFRa
+  category:
+  - Health
+  data_sets: "CDC\u2019s Social Vulnerability Index and AHRQ Social Determinants of\
+    \ Health data sets"
+  data_sets_text: "CDC\u2019s Social Vulnerability Index and AHRQ Social Determinants\
+    \ of Health data sets"
+  description: The SHAPE at-home test & SDOH data collection App helps State, Community,
+    & Tribal Health leaders survey their communities on topics they currently struggle
+    to answer, integrate collected data with clinical EHR and federal open Social
+    Determinants of Health data, and gives individuals actionable insights based on
+    their risk factors.
+  details: The SHAPE at-home test & SDOH data collection App helps State, Community,
+    & Tribal Health leaders survey their communities on topics they currently struggle
+    to answer, integrate collected data with clinical EHR and federal open Social
+    Determinants of Health data, and gives individuals actionable insights based on
+    their risk factors.
+  image: IBM_FDA.png
+  image-alt: An infographic of the potential users of the SHAPE application and the
+    actions they take.
+  link: https://github.com/FDA/SHAPE
+  problem_statement:
+  - reczBchbjxeo8xurw
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recUQ15JcMHRIHNU5
+  tech_team_text: IBM
+  title: 'SHAPE SDOH/At-Home Test Data Collection App '
+  year:
+  - 2023
 - Description (Old): Uses datasets from multiple agencies to help researchers and
     developers rapidly prototype and deploy tools that address a variety of problems
     surrounding access to opportunity.
@@ -5737,6 +6053,38 @@
   title: NAIP Downloader and Education Modules
   year:
   - 2020
+- Product Name: Social Determinants Indexing 1.0
+  agencies:
+  - U.S. Food and Drug Administration (FDA)
+  airtable_createdTime: '2023-10-30T19:21:39.000Z'
+  airtable_id: recyXMhNRhA5Ep9Ap
+  category:
+  - Health
+  data_sets: Census Bureau's American Community Survey, State of California's Open
+    Data Health Portal
+  data_sets_text: Census Bureau's American Community Survey, State of California's
+    Open Data Health Portal
+  description: Social Determinants Indexing 1.0 harmonizes public open data sources
+    of healthcare data using proprietary algorithms to quickly present useful Social
+    Determiants of Health information "to the bedside" for the clinical practitioner
+    to make better healthcare decisions while reducing the overall cost of healthcare.
+  details: Social Determinants Indexing 1.0 harmonizes public open data sources of
+    healthcare data using proprietary algorithms to quickly present useful Social
+    Determiants of Health information "to the bedside" for the clinical practitioner
+    to make better healthcare decisions while reducing the overall cost of healthcare.
+  image: Social Determinants Indexing_FDA.jpg
+  image-alt: A slide illustrating the snapshot of data available in the product.
+  link: www.SDIndexing.com
+  problem_statement:
+  - reczBchbjxeo8xurw
+  sprint:
+  - recsOyNvLygRxmkg5
+  tech_team:
+  - recSvOPIHl0TTiatk
+  tech_team_text: Social Determinants Indexing Inc + CloudLeap Technologies
+  title: Social Determinants Indexing 1.0
+  year:
+  - 2023
 - Product Name: Remote vs. Onsite Housing Affordability Dashboard
   agencies:
   - U.S. Department of Housing and Urban Development

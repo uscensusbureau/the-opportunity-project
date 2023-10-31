@@ -3135,6 +3135,10 @@
     in accordance with best practice data standards. '
   Full Title: Capturing Harmonized Data from In Vitro Diagnostics (IVDs)
   Name: Capturing Harmonized Data from In Vitro Diagnostics (IVDs)
+  Products:
+  - rec0siTyzPwmHJJSB
+  - rec8wQwjxmma2Y284
+  - recRjSY3q0avBcABp
   Sprints:
   - recsOyNvLygRxmkg5
   Target audience / End user: 'Test users (healthcare providers, caregivers, patients
@@ -3155,6 +3159,8 @@
   organizations:
   - rec6qf5bwxnm9AWwl
   pdf: 2023-fda-capturing-harmonized-data.pdf
+  products_text: My Health Vault, COVID-19 Self-Test Outreach & Education Tool, FHIR
+    to OMOP Data Mapping
   sprint_order: 2
   sprint_text: Diagnostic Data Exchange (FDA)
 - Challenge: Develop digital tools to prevent financial hardship and housing insecurity
@@ -3796,6 +3802,11 @@
     plans. '
   Full Title: Enabling the Use of Diagnostic Testing with Telehealth Platforms
   Name: Enabling the Use of Diagnostic Testing with Telehealth Platforms
+  Products:
+  - recSorwcNhErHdNgC
+  - rec74zxBFMIm8CzLg
+  - recBJ5GfDDHyjMXjT
+  - rec9nDfB3aogwuBX6
   Sprints:
   - recsOyNvLygRxmkg5
   Target audience / End user: 'Telehealth companies and telemedicine healthcare providers;
@@ -3811,6 +3822,8 @@
   organizations:
   - rec6qf5bwxnm9AWwl
   pdf: 2023-fda-telehealth.pdf
+  products_text: HealthCheck, OPS Self-Help Healthcare Diagnostic Tool, Health Awareness
+    Framework, Risk and Quality Solution for MCOs Driving ROI
   sprint_order: 4
   sprint_text: Diagnostic Data Exchange (FDA)
 - Full Title: Helping Families, Businesses, and Communities Respond to COVID-19
@@ -3861,6 +3874,11 @@
     is fully integrated into medical records and public health systems. '
   Full Title: Advancing Health Data Aggregation for Improved Patient Care
   Name: Advancing Health Data Aggregation for Improved Patient Care
+  Products:
+  - recfHtVN6KirIkFRa
+  - rec9cVrhxWltQN61K
+  - recyXMhNRhA5Ep9Ap
+  - recYd2YgrGpGdOz2Y
   Sprints:
   - recsOyNvLygRxmkg5
   Target audience / End user: 'Community health workers; healthcare providers; academics
@@ -3889,6 +3907,8 @@
   organizations:
   - rec6qf5bwxnm9AWwl
   pdf: 2023-fda-enabling-health-data-aggregation.pdf
+  products_text: SHAPE SDOH/At-Home Test Data Collection App , Guidehouse SDOH Mapping
+    Service, Social Determinants Indexing 1.0, Health Feature Store
   sprint_order: 3
   sprint_text: Diagnostic Data Exchange (FDA)
 - Challenge: Improve access to data for local policymakers, especially those facing
@@ -3904,6 +3924,45 @@
   agency_text: U.S. Department of Commerce
   airtable_createdTime: '2023-07-10T19:21:26.000Z'
   airtable_id: reczViJ9R5i84HkLl
+  datasets copy:
+  - recqUfC3lNsSFiV7q
+  - recD1BtWi96mmITl5
+  - recm2SUqMJlskBQ3X
+  - recqFPOo4dyUaRa0T
+  - recM0ypn4glfYE907
+  - recQlMfxdjgz8EAUp
+  - recXx7mFAPNbgrseM
+  - recDZ9euQPpmXHg1l
+  - recZKGj1o18OPllW0
+  - recf0icXL8cOWhFoC
+  - recpmLHJBG5YOR72E
+  - recrOvjNP210SJEjl
+  - recw4DvgY39jiIl0U
+  - recrrg40XFvcyJa8f
+  - recYeRQibsnMHOIOj
+  - recIE4i2WidC4xC77
+  - recFMBKeI3KDHBqJS
+  - recjzmtcHqTdXvP0T
+  - recGlX6TMHDWHQ4Uc
+  - receOltJBNofrZora
+  - recZbuzc8gMM1g7oo
+  - recqEBFSXQOykEExz
+  - recFzjsUvmAcmmCRs
+  - rec1Xitv8iCVWovd4
+  - recdHcbIeWjW4e23Y
+  - rec96VSBOR5IZbbr1
+  - recu0nspuvI729KIZ
+  - recXFh4Eki8pFMAvk
+  - recpOlHVBkiKQaj0e
+  - recoGnqdQQVpeZRCA
+  - recaISNy9cHBGDHTV
+  datasets_text: |-
+    American Community Survey (ACS), Small Area Income and Poverty Estimates (SAIPE), Population and Housing Unit Estimates, "Longitudinal Employer-Household Dynamics
+     - Quarterly Workforce Indicators (QWI)
+     - LEHD Origin-Destination Employment Statistics (LODES)
+     - Job-to-Job Flows (J2J)
+     - Post-Secondary Employment Outcomes (PSEO)
+     - Veteran Employment Outcomes (VEO)", Economic Census, Community Resilience Estimates, Gini Index, Census Business Builder, GDP, RPP, Personal income, Personal consumption expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary Education Data System, Higher Education Research & Development Survey (HERD), CDC WONDER, Birth data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum, Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor, Unnamed record
   organizations:
   - recTramMMKqiRnaob
   pdf: 2023-DOC.pdf

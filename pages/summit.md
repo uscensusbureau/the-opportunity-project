@@ -7,14 +7,14 @@ class: summit
 
 background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: The Opportunity Project (TOP) Summit is an annual multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities by and for the TOP community.
+  text: Our annual innovation summit is a multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities by and for the TOP community.
   subtext: Showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Save the date! TOP Summit 2024 is scheduled for January 17 - 19, 2024.
+    text: Save the date! Census Open Innovation Summit is scheduled for January 17 - 19, 2024.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-

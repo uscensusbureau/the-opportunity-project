@@ -3126,7 +3126,7 @@ code {
     background-size: cover;
   }
   .impact {
-    background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
+    background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
     background-size: cover;
     font-size: 14px;
     font-weight: 600;
@@ -3145,8 +3145,6 @@ code {
       line-height: 18px;
     }
     @include at-media('tablet') {
-      background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
-      background-size: cover;
       font-size: 20px;
       padding-top:68px;
       padding-bottom:136px;

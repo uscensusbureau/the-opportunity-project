@@ -187,7 +187,7 @@ video-eight:
       </div>
     </div>
 </section>
-<section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
+<section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">
     <h2 class="text-center text-white">Past Events</h2>
     <div class="grid-row flex-column flex-align-center highlight-video-container">

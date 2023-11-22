@@ -177,6 +177,16 @@ video-eight:
 {% include hero.html %}
 {% assign section = page.cta-one %}
 {% include home/cta.html  data=section  %}
+<section class="impact text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+    <div class="grid-container">
+    <h2 class="text-center">8 Events and:</h2>
+      <div class="grid-row text-white flex-align-center impact-numbers-container">
+        <p>xxx impressive figure</p>
+        <p>xxx impressive figure</p>
+        <p>xxx impressive figure</p>
+      </div>
+    </div>
+</section>
 <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">
     <h2 class="text-center text-white">Past Events</h2>

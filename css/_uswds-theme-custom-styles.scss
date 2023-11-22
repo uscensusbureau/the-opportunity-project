@@ -3125,6 +3125,55 @@ code {
     background: url("../img/photos/summit/desktop-hero-background.png") no-repeat 0 0;
     background-size: cover;
   }
+  .impact {
+    background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top:48px;
+    padding-bottom:40px;
+    h2 {
+      line-height: 3.5px;
+    }
+    .impact-numbers-container {
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      width: min-content;
+      text-align: center;
+      line-height: 18px;
+    }
+    @include at-media('tablet') {
+      background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
+      background-size: cover;
+      font-size: 20px;
+      padding-top:68px;
+      padding-bottom:136px;
+      h2 {
+        line-height: 7px;
+      }
+      .impact-numbers-container {
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      p {
+        line-height: 24px;
+      }
+    }
+
+    @include at-media('desktop') {
+      font-size: 32px;
+      padding-top: 120px;
+      padding-bottom: 216px;
+      h2 {
+        line-height: 11px;
+      }
+      p {
+        line-height: 36px;
+      }
+    }
+  }
   .past-events {
     background: url("../img/photos/summit/mobile-pastevents-background.png") no-repeat 0 0;
     background-size: cover;

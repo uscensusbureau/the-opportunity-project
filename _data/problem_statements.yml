@@ -243,7 +243,8 @@
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
-- Name: Building Climate Change Resilience Through Public Transit
+- Full Title: Building Climate Change Resilience Through Public Transit
+  Name: Building Climate Change Resilience Through Public Transit
   airtable_createdTime: '2023-02-19T18:03:46.000Z'
   airtable_id: rec3q8shKbNoqN3Eq
 - Background: 'The Department of Transportation is focused on increasing safety and
@@ -485,6 +486,7 @@
   Challenge: During the academic year, many students rely on school meals for breakfast
     and lunch. In the summer, students and families seek a reliable alternative, but
     information on summer meals sites is often lacking.
+  Full Title: Summer Food Programs
   Name: Summer Food Programs
   Sprints:
   - recXANOXQ6JCTp5FU
@@ -821,7 +823,8 @@
     & Connections'
   sprint_order: 4
   sprint_text: 2022 Sprints
-- Name: Data Discovery
+- Full Title: Data Discovery
+  Name: Data Discovery
   Products:
   - rec3WBEVdijXZ6Q10
   - recr515MFR2AA1MPH
@@ -1463,7 +1466,8 @@
   pdf: 2017-veterans.pdf
   products_text: Get Vets Help, PAIRIN Pathways
   sprint_text: 2017 Sprint 1 (ED HUD VA)
-- Name: Veterans Suicide Prevention
+- Full Title: Veterans Suicide Prevention
+  Name: Veterans Suicide Prevention
   Products:
   - recGDyAI7oVONMMWS
   - recxMi3VnnIDpK6kM
@@ -3626,6 +3630,23 @@
   agency_text: U.S. Economic Development Administration
   airtable_createdTime: '2023-07-25T21:05:16.000Z'
   airtable_id: recvGCiCh48crr8iQ
+  datasets copy:
+  - recaISNy9cHBGDHTV
+  - recbW3DgJBYh9TZwF
+  - recGP5IvaBQl3eYzQ
+  - reciP1VnzqGReOPEp
+  - rec9vUlS3GQcbEvbe
+  - reclqmKDADxgZRTDj
+  - recE8ATejdtcpBOuF
+  - recWtTYP50jrxS7ii
+  - recLvycbMSNIJhABX
+  - recn15Rw88yyM4SW4
+  - recauviDI0eIQO4oi
+  datasets_text: 'USDA Rural Gateway, Tribal Data Across Census Products, CDFI Fund:
+    Transaction Level Report (TLR) & Consumer Loan Report (CLR) Data, HUD: Section
+    184 Program Data, HUD Data Portal, SBA Datasets, USA Spending, Local Area Unemployment
+    Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing
+    Wage, Quarterly Census of Employment Wages (QCEW)'
   organizations:
   - recVal1KOBeL00l5j
   pdf: 2023-EDA.pdf
@@ -3955,14 +3976,13 @@
   - recXFh4Eki8pFMAvk
   - recpOlHVBkiKQaj0e
   - recoGnqdQQVpeZRCA
-  - recaISNy9cHBGDHTV
   datasets_text: |-
     American Community Survey (ACS), Small Area Income and Poverty Estimates (SAIPE), Population and Housing Unit Estimates, "Longitudinal Employer-Household Dynamics
      - Quarterly Workforce Indicators (QWI)
      - LEHD Origin-Destination Employment Statistics (LODES)
      - Job-to-Job Flows (J2J)
      - Post-Secondary Employment Outcomes (PSEO)
-     - Veteran Employment Outcomes (VEO)", Economic Census, Community Resilience Estimates, Gini Index, Census Business Builder, GDP, RPP, Personal income, Personal consumption expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary Education Data System, Higher Education Research & Development Survey (HERD), CDC WONDER, Birth data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum, Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor, Unnamed record
+     - Veteran Employment Outcomes (VEO)", Economic Census, Community Resilience Estimates, Gini Index, Census Business Builder, GDP, RPP, Personal income, Personal consumption expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary Education Data System, Higher Education Research & Development Survey (HERD), CDC WONDER, Birth data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum, Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor
   organizations:
   - recTramMMKqiRnaob
   pdf: 2023-DOC.pdf

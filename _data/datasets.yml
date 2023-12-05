@@ -1132,6 +1132,24 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - reco5ccvDEvBt5dA0
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: rec9vUlS3GQcbEvbe
+  data_stewards:
+  - recOoSIkASnCcNVEH
+  description: Information on median family incomes and income limits for HUD programs,
+    as well as microdata from research initiatives on topics such as housing discrimination,
+    the HUD-insured multifamily housing stock, and the public housing population
+  link: https://data.hud.gov/
+  name: HUD Data Portal
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recZHYzutcUOzjudU
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Lydia Taghavi
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recAIaI2VzxNs8HZA
   data_stewards:
@@ -1651,6 +1669,26 @@
   ps_text: Rural Development
   sprint:
   - recH8zSIIz8tYt9z2
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recE8ATejdtcpBOuF
+  data_stewards:
+  - recEcM0DyvD6Wl0m6
+  description: USAspending.gov is the official source for spending data for the U.S.
+    Government. Its mission is to show the American public what the federal government
+    spends every year and how it spends the money. You can follow the money from the
+    Congressional appropriations to the federal agencies and down to local communities
+    and businesses.
+  link: https://www.usaspending.gov/
+  name: USA Spending
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recoLe16gECFfJJdx
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Amanda Cayton
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recERWkPH52bMnW6e
   name: "and Motivators; Civis Analytics\u2019 survey and message testing technology"
@@ -1829,6 +1867,30 @@
   - recIkD0YhsnTLOpet
   - recIkD0YhsnTLOpet
   - recIkD0YhsnTLOpet
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recGP5IvaBQl3eYzQ
+  data_stewards:
+  - recxHFTSg570VVyxE
+  description: "The Transaction Level Report (TLR) contains data detailing how CDFI\
+    \ Program and NACA Program FA Recipients provide loans and investments in low-income\
+    \ communities. The data file includes the features and locations of over 222,000\
+    \ individual loans and investments totaling more than $26 billion made in FY 2021\
+    \ and reported in FY 2022 by 398 CDFIs. \nConsumer Loan Report (CLR) data details\
+    \ the methods by which CDFI banks and credit unions with CDFI and NACA Program\
+    \ Awards provided consumer loans in low-income communities. The data file includes\
+    \ over 700,000 consumer loans totaling more than $12 billion that were made in\
+    \ FY 2021 and reported in FY 2022 by 136 banks and credit unions"
+  link: https://www.cdfifund.gov/news/529
+  name: 'CDFI Fund: Transaction Level Report (TLR) & Consumer Loan Report (CLR) Data'
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recoLe16gECFfJJdx
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Shannon A. McKay
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recGZoKOJ5Z7f9gEf
   data_stewards:
@@ -2341,6 +2403,24 @@
   ps_text: Entrepreneurship
   sprint:
   - reccUsI2AM7YliJ2l
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recLvycbMSNIJhABX
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The CES survey measures jobs on payrolls, which can be thought of as
+    a gauge of the met demand for labor by employers. Net changes in the numbers of
+    payroll jobs, therefore, indirectly imply changes in the demand for workers.
+  link: https://www.bls.gov/sae/overview.htm
+  name: State & Area Current Employment Statistics (CES)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2023-10-17T14:35:47.000Z'
   airtable_id: recM0ypn4glfYE907
   data_stewards:
@@ -3599,6 +3679,27 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - reco5ccvDEvBt5dA0
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recWtTYP50jrxS7ii
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: "The LAUS program is a hierarchy of non-survey methodologies used to\
+    \ replicate for roughly 7,600 subnational areas the household employment and unemployment\
+    \ concepts of the Current Population Survey (CPS), which is the source of the\
+    \ U.S. unemployment rate. The unemployment rate is a direct measure of slack in\
+    \ the supply of labor (but not the only one possible\u2014see the article at https://www.bls.gov/opub/mlr/1995/10/art3full.pdf\
+    \ for a discussion of the alternative measures of labor underutilization)"
+  link: https://www.bls.gov/lau/lauov.htm
+  name: Local Area Unemployment Statistics (LAUS)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recX1DorNN0UyAAny
   data_stewards:
@@ -4136,14 +4237,25 @@
   stewards_text: Britney McCoy
 - airtable_createdTime: '2023-10-30T18:32:55.000Z'
   airtable_id: recaISNy9cHBGDHTV
-  organization_text: U.S. Food and Drug Administration (FDA)
+  data_stewards:
+  - recpStP9tGUxmPLd8
+  description: The data enable the exploration of RD investments to the program level
+    through a state/county/CD lens. They can be used to determine where loan, grant,
+    and loan guarantee investments are made; how investment within a state/county
+    has been trending over time; and how investment financing compares to other counties
+    in the same state or other states. The various views allow access to data about
+    all states, counties, programs and investment types from 2011 to 2023.
+  link: https://www.rd.usda.gov/rural-data-gateway/rural-investments
+  name: USDA Rural Gateway
+  organization_text: U.S. Department of Agriculture
   organizations:
-  - rec6qf5bwxnm9AWwl
+  - recZGVOhgclHyT5PG
   problem_statements:
-  - reczViJ9R5i84HkLl
-  ps_text: Improved Data Access for Local Policymakers
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
   sprint:
   - recXBSKFq7AYEnaRX
+  stewards_text: James Barham
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recaR8lxhjjhQtIsO
   data_stewards:
@@ -4236,6 +4348,25 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - rec54Runs6NGw3ekn
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recauviDI0eIQO4oi
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The Quarterly Census of Employment and Wages (QCEW) program publishes
+    a quarterly count of employment and wages reported by employers covering more
+    than 95 percent of U.S. jobs, available at the county, MSA, state and national
+    levels by industry.
+  link: https://www.bls.gov/cew/
+  name: Quarterly Census of Employment Wages (QCEW)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: recaxpZpFhjjpLawh
   description: Water use by sector from 2015
@@ -4272,6 +4403,23 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - rec54Runs6NGw3ekn
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recbW3DgJBYh9TZwF
+  data_stewards:
+  - rec1S78HJVLE8t0dV
+  description: Tribal data on numerous Census datasets (ACS, SAIPE, Economic Census,
+    Community Resilience Estimates) and information on APIs.
+  link: https://www.census.gov/tribal/
+  name: Tribal Data Across Census Products
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Eric Coyle
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recbZcZ3gL9bKPPzX
   data_stewards:
@@ -5101,6 +5249,27 @@
     Performance Data
   sprint:
   - recjdd30fQXhPJBRs
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: reciP1VnzqGReOPEp
+  data_stewards:
+  - recGdztiYZaZdiT6d
+  description: The Section 184 Indian Home Loan Guarantee Program is a home mortgage
+    product for Native American and Alaska Native families. It has low downpayment
+    and flexible underwriting. Section 184 loans can be used, both on and off native
+    lands, for new construction, rehabilitation, purchase of an existing home, or
+    refinance. One of the only federal loan gurantee programs of its type & scale.
+    Will be of high interest to Native lenders in group.
+  link: https://www.hud.gov/section184
+  name: 'HUD: Section 184 Program Data'
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recZHYzutcUOzjudU
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jad Atallah
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reciUvUwEjkcQ8Do8
   name: Census Income and Poverty
@@ -5348,6 +5517,27 @@
     datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset:
     https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701'
   name: 'Integrated Data: TIDES Coastal Clean Up'
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: reclqmKDADxgZRTDj
+  data_stewards:
+  - recoYFoZhCRBe0Lym
+  description: 'Includes data on Regional Innovation Clusters, state licenses and
+    permits, Procurement Technical Assistance Centers, and more. The 1) SBA 7(a) and
+    504 loan data reports, 2) SBA Coronavirus (COVID-19) Relief Options: Paycheck
+    Protection Program (PPP) Report and Data, and 3) SBA Coronavirus (COVID-19) Relief
+    Options: Economic Injury Disaster Loan (EIDL) Loans Report, would likely be most
+    relevant to this Sprint.'
+  link: https://catalog.data.gov/dataset?q=SBA
+  name: SBA Datasets
+  organization_text: Small Business Administration
+  organizations:
+  - recpWYU9m41axHFU2
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Joshua Dykema
 - airtable_createdTime: '2020-02-10T20:20:40.000Z'
   airtable_id: reclrA9CxTYI7AmKt
   data_stewards:
@@ -5534,6 +5724,23 @@
   - recvnSQzYNG0AGAkm
   tag:
   - Imagery + Base Maps
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recn15Rw88yyM4SW4
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The prevailing wage rate is defined as the average wage paid to similarly
+    employed workers in a specific occupation in the area of intended employment.
+  link: https://www.dol.gov/agencies/eta/foreign-labor/wages
+  name: Prevailing Wage
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2020-02-05T22:11:19.000Z'
   airtable_id: recn1nNkU3ZZRZ8K4
   data_stewards:

@@ -24,7 +24,7 @@ cta-one:
     text: RSVP to Attend
     href: http://coilsummit2024.splashthat.com
     isExternal: true
-    class:
+    class: usa-button--secondary
 
 video-one:
   class: highlight-video-section tablet:width-full

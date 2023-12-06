@@ -14,18 +14,17 @@ cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Save the date! Census Open Innovation Summit is scheduled for January 17 - 19, 2024.
+    text: Census Open Innovation Summit is January 17 - 19, 2024!
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Join us virtually to view new digital products and many more innovations from the TOP community.<br/><br/>
-      More information is coming soon.
+      Our annual innovation conference will showcase 30+ new products built by hundreds of participants in The Opportunity Project sprints in 2023.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   custom:
     text: RSVP to Attend
-    href: /topx-toolkit/phase-1
+    href: http://coilsummit2024.splashthat.com
     isExternal: true
-    class: display-none
+    class:
 
 video-one:
   class: highlight-video-section tablet:width-full

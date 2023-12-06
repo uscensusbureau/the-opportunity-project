@@ -261,11 +261,11 @@
 - airtable_createdTime: '2023-10-17T14:35:47.000Z'
   airtable_id: rec1Xitv8iCVWovd4
   description: 'The data enable the exploration of RD investments to the program level
-    through a state/county/CD lens. They can be used to determine where loan, grant,
+    through a state/county/CD lens.  They can be used to determine where loan, grant,
     and loan guarantee investments are made; how investment within a state/county
     has been trending over time; and how investment financing compares to other counties
-    in the same state or other states. The various views allow access to data about
-    all states, counties, programs, and investment types from 2011 to 2023.  '
+    in the same state or other states.  The various views allow access to data about
+    all states, counties, programs and investment types from 2011 to 2023.  '
   link: https://www.rd.usda.gov/rural-data-gateway/rural-investments/by-county
   name: Rural Investments
   organization_text: U.S. Department of Agriculture
@@ -1035,7 +1035,7 @@
   - recdPP7lshLzAKAmg
 - airtable_createdTime: '2023-10-17T14:35:47.000Z'
   airtable_id: rec96VSBOR5IZbbr1
-  description: US energy infrastructure and resources layers
+  description: US energy infrasturcutre and resources layers
   link: https://www.eia.gov/state/; https://atlas.eia.gov/apps/all-energy-infrastructure-and-resources/explore
   name: Energy Sources and Estimates
   organization_text: U.S. Energy Information Administration
@@ -1138,7 +1138,7 @@
   - recOoSIkASnCcNVEH
   description: Information on median family incomes and income limits for HUD programs,
     as well as microdata from research initiatives on topics such as housing discrimination,
-    the HUD-insured multifamily housing stock, and the public housing population.
+    the HUD-insured multifamily housing stock, and the public housing population
   link: https://data.hud.gov/
   name: HUD Data Portal
   organization_text: U.S. Department of Housing and Urban Development
@@ -1875,11 +1875,11 @@
     \ Program and NACA Program FA Recipients provide loans and investments in low-income\
     \ communities. The data file includes the features and locations of over 222,000\
     \ individual loans and investments totaling more than $26 billion made in FY 2021\
-    \ and reported in FY 2022 by 398 CDFIs. \n\nConsumer Loan Report (CLR) data details\
+    \ and reported in FY 2022 by 398 CDFIs. \nConsumer Loan Report (CLR) data details\
     \ the methods by which CDFI banks and credit unions with CDFI and NACA Program\
     \ Awards provided consumer loans in low-income communities. The data file includes\
     \ over 700,000 consumer loans totaling more than $12 billion that were made in\
-    \ FY 2021 and reported in FY 2022 by 136 banks and credit unions."
+    \ FY 2021 and reported in FY 2022 by 136 banks and credit unions"
   link: https://www.cdfifund.gov/news/529
   name: 'CDFI Fund: Transaction Level Report (TLR) & Consumer Loan Report (CLR) Data'
   organization_text: U.S. Department of the Treasury
@@ -3683,11 +3683,12 @@
   airtable_id: recWtTYP50jrxS7ii
   data_stewards:
   - rechrpfLxNh1DeTDZ
-  description: The LAUS program is a hierarchy of non-survey methodologies used to
-    replicate for roughly 7,600 subnational areas the household employment and unemployment
-    concepts of the Current Population Survey (CPS), which is the source of the U.S.
-    unemployment rate. The unemployment rate is a direct measure of slack in the supply
-    of labor.
+  description: "The LAUS program is a hierarchy of non-survey methodologies used to\
+    \ replicate for roughly 7,600 subnational areas the household employment and unemployment\
+    \ concepts of the Current Population Survey (CPS), which is the source of the\
+    \ U.S. unemployment rate. The unemployment rate is a direct measure of slack in\
+    \ the supply of labor (but not the only one possible\u2014see the article at https://www.bls.gov/opub/mlr/1995/10/art3full.pdf\
+    \ for a discussion of the alternative measures of labor underutilization)"
   link: https://www.bls.gov/lau/lauov.htm
   name: Local Area Unemployment Statistics (LAUS)
   organization_text: U.S. Bureau of Labor Statistics
@@ -4014,7 +4015,7 @@
   data_stewards:
   - recw8xiF4heXzLuPN
   description: Gross domestic product (GDP) measures the value of final goods and
-    services produced within a geography.
+    services produced within a geography
   link: https://www.bea.gov/data/gdp/gross-domestic-product
   name: GDP
   organization_text: Bureau of Economic Analysis
@@ -4730,7 +4731,7 @@
   - recBNbbJZ1YZiHDSY
   description: Final birth data are available through 2022 on WONDER.
   link: https://wonder.cdc.gov/natality.html
-  name: Birth Data
+  name: Birth data
   organization_text: Center for Disease Control
   organizations:
   - rec3rAvsCoOHIENtL
@@ -4850,9 +4851,9 @@
   description: Regional price parities (RPPs) are regional price levels expressed
     as a percentage of the overall national price level for a given year. The price
     level is determined by the average prices paid by consumers for the mix of goods
-    and services consumed in each region.
+    and services consumed in each region
   link: https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area
-  name: Regional Price Parities
+  name: RPP
   organization_text: Bureau of Economic Analysis
   organizations:
   - recCbLM9y1yjXYV74
@@ -5377,11 +5378,16 @@
   airtable_id: recjzmtcHqTdXvP0T
   data_stewards:
   - recv8QNB0PLS0wNtn
-  description: The Higher Education Research and Development survey is an annual census
-    of all U.S. higher education institutions with at least $150,000 in R&D expenditures.
-    The survey has been conducted annually since 1972. In fiscal year 2022, 900 institutions
-    were in the survey frame and the response rate was 96%. NCSES imputes for unit
-    and item non-responses.
+  description: "The Higher Education Research and Development survey is an annual\
+    \ census of all U.S. higher education institutions with at least $150,000 in R&D\
+    \ expenditures. The survey has been conducted annually since 1972. In FY 2022,\
+    \ 900 institutions were in the survey frame and the response rate was 96%. NCSES\
+    \ imputes for unit and item nonresponses. Key variables\n\u2022        R&D expenditures\
+    \ by field and source of funds (i.e., federal government, state and local government,\
+    \ business)\n\u2022        R&D expenditures funded from foreign sources\n\u2022\
+    \        R&D expenditures by type of R&D (i.e., basic research, applied research,\
+    \ and experimental development)\n\u2022        Federally funded R&D expenditures\
+    \ by field and federal agency"
   link: https://ncses.nsf.gov/surveys/higher-education-research-development/2021
   name: Higher Education Research & Development Survey (HERD)
   organization_text: National Science Foundation
@@ -5520,7 +5526,7 @@
     504 loan data reports, 2) SBA Coronavirus (COVID-19) Relief Options: Paycheck
     Protection Program (PPP) Report and Data, and 3) SBA Coronavirus (COVID-19) Relief
     Options: Economic Injury Disaster Loan (EIDL) Loans Report, would likely be most
-    relevant to this topic.'
+    relevant to this Sprint.'
   link: https://catalog.data.gov/dataset?q=SBA
   name: SBA Datasets
   organization_text: Small Business Administration
@@ -6017,9 +6023,9 @@
   - recw8xiF4heXzLuPN
   description: Personal income is the income received by persons from all sources.
     It includes income received from participation in production as well as from government
-    and business transfer payments.
+    and business transfer payments
   link: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
-  name: Personal Income
+  name: Personal income
   organization_text: Bureau of Economic Analysis
   organizations:
   - recCbLM9y1yjXYV74
@@ -6113,14 +6119,25 @@
   data_stewards:
   - recfMpSmk5Chd4kB0
   - recHT4eugB58tCHXj
-  description: "The Longitudinal Employer-Household Dynamics is part of the Center\
-    \ for Economic Studies at the U.S. Census Bureau. The LEHD program produces cost\
-    \ effective, public-use information combining federal, state and Census Bureau\
-    \ data on employers and employees. \n\nIncludes: Quarterly Workforce Indicators\
-    \ (QWI), LEHD Origin-Destination Emp. Statistics (LODES), Job-to-Job Flows (J2J),\
-    \ Post-Secondary Employment Outcomes (PSEO), and Veteran Employment Outcomes (VEO)."
+  description: "Quarterly Workforce Indicators (QWI)\n - Indicators on Employment,\
+    \ Employment Change, and Earnings\n - by Industry (NAICS 2, 3, and 4-digit), Firm\
+    \ Age, Firm Size\n - by Worker Age, Race, Ethnicity, Sex, Education\n - by State,\
+    \ County, CBSA, WIB Area\n LEHD Origin-Destination Emp. Statistics (LODES)\n -\
+    \ Connects a job/worker\u2019s employment and residential locations\n - Data at\
+    \ census block detail\n - Less characteristic detail than QWI\n Job-to-Job Flows\
+    \ (J2J)\n - Flows between jobs as well as into/out of nonemployment\n - Compare\
+    \ earnings before and after job transition\n Post-Secondary Employment Outcomes\
+    \ (PSEO)\n - Earnings and employment outcomes for college and university graduates\n\
+    \ Veteran Employment Outcomes (VEO)\n - Earnings and employment outcomes for recently\
+    \ discharged Army veterans"
   link: https://lehd.ces.census.gov/
-  name: Longitudinal Employer-Household Dynamics
+  name: |-
+    Longitudinal Employer-Household Dynamics
+     - Quarterly Workforce Indicators (QWI)
+     - LEHD Origin-Destination Employment Statistics (LODES)
+     - Job-to-Job Flows (J2J)
+     - Post-Secondary Employment Outcomes (PSEO)
+     - Veteran Employment Outcomes (VEO)
   organization_text: U.S. Census Bureau
   organizations:
   - rechawuxwXzzaEkFO
@@ -6291,9 +6308,9 @@
   data_stewards:
   - recw8xiF4heXzLuPN
   description: Personal consumption expenditures (PCE) are the goods and services
-    purchased by persons.
+    purchased by persons
   link: https://www.bea.gov/data/consumer-spending/main
-  name: Personal Consumption Expentidures (PCE)
+  name: Personal consumption expentidures (PCE)
   organization_text: Bureau of Economic Analysis
   organizations:
   - recCbLM9y1yjXYV74
@@ -6390,11 +6407,12 @@
   airtable_id: recrrg40XFvcyJa8f
   data_stewards:
   - rechrpfLxNh1DeTDZ
-  description: The LAUS program is a hierarchy of non-survey methodologies used to
-    replicate for roughly 7,600 subnational areas the household employment and unemployment
-    concepts of the Current Population Survey (CPS), which is the source of the U.S.
-    unemployment rate. The unemployment rate is a direct measure of slack in the supply
-    of labor.
+  description: "The LAUS program is a hierarchy of non-survey methodologies used to\
+    \ replicate for roughly 7,600 subnational areas the household employment and unemployment\
+    \ concepts of the Current Population Survey (CPS), which is the source of the\
+    \ U.S. unemployment rate. The unemployment rate is a direct measure of slack in\
+    \ the supply of labor (but not the only one possible\u2014see the article at https://www.bls.gov/opub/mlr/1995/10/art3full.pdf\
+    \ for a discussion of the alternative measures of labor underutilization)"
   link: https://www.bls.gov/lau/lauov.htm
   name: Local Area Unemployment Statistics (LAUS)
   organization_text: U.S. Bureau of Labor Statistics
@@ -6815,7 +6833,7 @@
   airtable_id: recw4DvgY39jiIl0U
   data_stewards:
   - recw8xiF4heXzLuPN
-  description: Employment is measured as a count of jobs.
+  description: Employment measured as a count of jobs
   link: https://www.bea.gov/data/employment/employment-county-metro-and-other-areas
   name: Employment
   organization_text: Bureau of Economic Analysis

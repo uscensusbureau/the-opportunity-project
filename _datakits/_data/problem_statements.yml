@@ -3977,16 +3977,13 @@
   - recXFh4Eki8pFMAvk
   - recpOlHVBkiKQaj0e
   - recoGnqdQQVpeZRCA
-  datasets_text: American Community Survey (ACS), Small Area Income and Poverty Estimates
-    (SAIPE), Population and Housing Unit Estimates, Longitudinal Employer-Household
-    Dynamics, Economic Census, Community Resilience Estimates, Gini Index, Census
-    Business Builder, GDP, Regional Price Parities, Personal Income, Personal Consumption
-    Expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State
-    & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary
-    Education Data System, Higher Education Research & Development Survey (HERD),
-    CDC WONDER, Birth Data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum,
-    Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan
-    Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor
+  datasets_text: |-
+    American Community Survey (ACS), Small Area Income and Poverty Estimates (SAIPE), Population and Housing Unit Estimates, "Longitudinal Employer-Household Dynamics
+     - Quarterly Workforce Indicators (QWI)
+     - LEHD Origin-Destination Employment Statistics (LODES)
+     - Job-to-Job Flows (J2J)
+     - Post-Secondary Employment Outcomes (PSEO)
+     - Veteran Employment Outcomes (VEO)", Economic Census, Community Resilience Estimates, Gini Index, Census Business Builder, GDP, RPP, Personal income, Personal consumption expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary Education Data System, Higher Education Research & Development Survey (HERD), CDC WONDER, Birth data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum, Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor
   organizations:
   - recTramMMKqiRnaob
   pdf: 2023-DOC.pdf

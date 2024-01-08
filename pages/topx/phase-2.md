@@ -6,50 +6,92 @@ permalink: /topx-toolkit/phase-2/
 layout: toolkit
 data-ref: site.data.toolkits.topx.phase-2.body
 
-sidebar:
-  - text: STEP 1
-    href: "#toolkit-step-1"
-  - text: STEP 2
-    href: "#toolkit-step-2"
-  - text: STEP 3
-    href: "#toolkit-step-3"
-  - text: STEP 4
-    href: "#toolkit-step-4"
-  - text: STEP 5
-    href: "#toolkit-step-5"
-  - text: STEP 6
-    href: "#toolkit-step-6"
-
 phase: 2
 color: accent-cool-lightest
 #text-color: text-black
 
 
-header: Sprint Facilitation
-lead:
-  - text:
-    - p: Once you have developed problem statements, recruited participants, and spent some time preparing, you are ready to launch the sprint! In the next steps, you will find information on different phases of the sprint, including milestones, which are check-ins where facilitators and participants share resources and information, while tech teams provide progress updates and receive feedback. In addition to suggested timelines, we offer guidance of what to cover during each milestone and suggestions for how participants can use the time between calls.
-image: phase-2.png
-image-alt: Three vertical rectangles in a row. The center rectangle is filled in yellow with a 2 in the center. The rest are outlined.
+header: Phase 2
+action: Execute
+effort:
+  - title: Duration
+    amount: 3
+  - title: Time
+    amount: 15-20
+intro:
+  - title: Overview
+    content:
+      - copy: It’s time to launch your sprint! During this phase, the tech teams develop their products. Your role is to facilitate this process, which will include several tasks and milestones.
+      - copy: <em>Duration and time are estimated based on 1 problem statement, a team of sprint leaders of 2 - 4 individuals, and 3 - 5 tech teams (with a recommended maximum of 6).</em>
+  - title: Goals
+    content:
+     - item: Kick off the sprint
+     - item: Manage weekly communications
+     - item: Motivate sprint participant progress
+     - item: Execute sprint milestones
 
+phase-info-video:
+  class: padding-top-6
+  title:
+    text: "How To Execute Your TOP Sprint"
+    class: text-blue-warm-60v text-center
+  video:
+    src: https://www.youtube.com/embed/bad8acAJ9lg
+    alt-text: "TOPx: How To Execute Your TOP Sprint?"
+    width: 640
+    height: 360
+  blurb:
+    title: "View More Phase 2 Videos In-Step Below"
+  phase-video-list:
+    - video-1:
+      src: https://youtu.be/mTSdiqHa3Iw
+      title: "How to Kick off Your Sprint"
+    - video-2:
+      src: https://youtu.be/fv3-m-dYkZQ
+      title: "Tips for Facilitating the User Research Process"
+    - video-3:
+      src: https://youtu.be/BC3CU_j0aTc
+      title: "Tips for Facilitating the Data Exploration Process"
+    - video-4:
+      src: https://youtu.be/DtmwJ_ttRcI
+      title: "Tips for Facilitating the Product Development Process"
+    - video-5:
+      src: https://youtu.be/O_--CD_kO6k
+      title: "Wrapping Up The Sprint: The MVP"
+
+
+download-text: Phase 2 Templates
+continue-text: Phase 3
 ---
 
-{% include toolkit-hero.html %}
-<section class="grid-container display-inline-block padding-top-8 grid-col-12">
+{% include toolkit-hero-refresh.html %}
+{% assign section = page.phase-info-video %}
+{% include toolkit-refresh-video.html data=section video-data=phase-resources %}
+<section class="grid-container padding-bottom-8">
   <div class="grid-row">
-    <div class="desktop:grid-col-4">
-      {% include toolkit-sidenav.html %}
-    </div>
-    <div class="desktop:grid-col-7 desktop:margin-left-7 grid-col-12 display-inline-block">
+    <div>
       {% for item in site.data.toolkits.topx.phase-2.body %}
-        <div class="toolkit-section margin-top-10">
-          {% include toolkit-header.html %}
-          {% include toolkit-key-actions.html %}
-          {% include toolkit-resources.html %}
-          <div class="toolkit-colored-div height-4 bg-{{page.color}}  margin-bottom-neg-2">
-          </div>
-        </div>  
+        <div class="toolkit-section margin-top-6">
+          {% include toolkit-header-refresh.html %}
+          {% include toolkit-key-actions-refresh.html %}
+        </div>
       {% endfor %}
     </div>
-  </div>  
+  </div>
+</section>
+<section class="text-white bg-primary usa-section">
+  <div class="grid-container">
+    <div>
+      <a href="{{site.baseurl}}/assets/files/topx-resources/topx-toolkit-phase-2-resources.zip" target="_blank"
+          class="usa-button usa-button--inverse usa-button--outline site-button">
+          Download All {{page.download-text}}
+      </a>
+    </div>
+    <div>
+      <a href="{{ site.baseurl }}/topx-toolkit/phase-3/"
+        class="usa-button margin-top-4 usa-button--secondary site-button">
+        Continue to {{page.continue-text}}
+      </a>
+    </div>
+  </div>
 </section>

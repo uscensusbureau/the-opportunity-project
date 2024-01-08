@@ -22,13 +22,8 @@ data-experts:
   
   - category: Census Data Skills Questions
     contacts:
-      - name: Alexandra Barkeremail
+      - name: Alexandra Barker
         email: alexandra.s.barker@census.gov
-  
-  - category: Census API Questions
-    contacts:
-      - name: Logan Powell
-        email: logan.t.powell@census.gov
   
   - category: Census Data Visualization Questions
     contacts:

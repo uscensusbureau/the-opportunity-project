@@ -36,11 +36,11 @@ callout:
   container-class: maxw-desktop
   title: 
     text: Watch The Opportunity Project Summit
-  body: '[The Opportunity Project Summit 2021: Open Innovation For All](https://www.youtube.com/playlist?list=PLewV-zKXDZkitrXN6T7a0MG-oTi7WGTu_) was a multi-day virtual conference that showcased work accomplished through TOP’s 2021 sprints. The event also featured conversations with leading experts and grassroots community members, provided hands-on learning opportunities for attendees, and announced the winners of the [Open Data For Good Challenge.](https://opportunity.census.gov/prize-challenge/)'
+  body: '[The Opportunity Project Summit 2023](https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme) was a multi-day virtual conference that showcased work accomplished through TOP’s 2022 sprints. The event also featured conversations with leading experts and grassroots community members and provided hands-on learning opportunities for attendees.'
 
   primary:
     text: Watch the Event
-    href: https://www.youtube.com/playlist?list=PLewV-zKXDZkitrXN6T7a0MG-oTi7WGTu_
+    href: https://www.youtube.com/playlist?list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
     isExternal: true
 
 ---
@@ -61,15 +61,15 @@ callout:
 {::options parse_block_html="true" /}
 <section class="usa-section">
   <div class="grid-container maxw-desktop">
-  
+
 ### Adapt The Opportunity Project Framework
 {: .section-header }
 
-Not able to join a TOP sprint? Use our toolkits – based on the TOP sprint model – to create civic impact with open data. 
+Not able to join a TOP sprint? Use our toolkits – based on the TOP sprint model – to create civic impact with open data.
 
 The [product development toolkit](https://opportunity.census.gov/product-development/toolkit/) can help technologists use the TOP framework to build digital tools for the American people. We cover user research, navigating federal data, and more. Civic tech organizations, coding boot camps, community organizations, and educators have all adopted the product development toolkit to create human-centered tools.
 
-The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/introduction/) enables government agencies to facilitate TOP sprints on a flexible and modifiable timeline. The toolkit includes a detailed step by step guide. Local, state, and federal government agencies have all successfully used the toolkit as a playbook to run their own sprints.
+The [TOPx toolkit](https://opportunity.census.gov/topx-toolkit/) enables government agencies to facilitate TOP sprints on a flexible and modifiable timeline. The toolkit includes a detailed step by step guide. Local, state, and federal government agencies have all successfully used the toolkit as a playbook to run their own sprints.
 
 <br>
 

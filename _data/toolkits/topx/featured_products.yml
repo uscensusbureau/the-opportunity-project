@@ -1,0 +1,22 @@
+- title: City Builder
+  tech_team: Citi Ventures
+  cohort: Workforce
+  problem_statement: Opportunity Zones
+  link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
+  href: city-builder
+  details: Provides investors, developers, municipalities, and community members with data-driven insights to make meaningful, place-based investments<br><br>
+
+- title: Community Led Opportunity Zones
+  short_url: "/showcase/?search=community+led"
+  href: "https://www.publicdemocracy.io/opportunity-zones-local-impact"
+  target: '_blank'
+  isExternal: true
+  tech_team: PUBLIC DEMOCRACY
+  details: Ensures that community priorities inform Opportunity Zones strategies, policies, and investment in Birmingham, Alabama
+
+- title: Inclusive Growth Score
+  href: 'https://inclusivegrowthscore.com/'
+  target: '_blank'
+  isExternal: true
+  tech_team: MASTERCARD
+  details: Provides community leaders with local, data-driven insights that measure how Opportunity Zones benefit from equitable growth

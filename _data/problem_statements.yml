@@ -130,6 +130,7 @@
   - recoqYQaViNJqssuM
   - rec77OFxnjgiXnp3q
   - recwXFKF1KE1Tdznl
+  - recdyM6jC7RVnQCHT
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Federal, state, local, tribal, and territorial officials,
@@ -143,7 +144,7 @@
   pdf: 2023-TOPUniversity-DOE.pdf
   products_text: 'ASSERT, Energy Poverty Awareness Scorecard/Dashboard, Guiding Utility
     Investments with Social Capital, MEIT: Multidimensional Energy Insecurity Tool,
-    N-POWER'
+    N-POWER, GoodNeighUBors'
   sprint_order: 3
   sprint_text: 2023 Sprints
 - Challenge: "Develop potential new structures for parents and/or caregivers to meaningfully\
@@ -2646,6 +2647,9 @@
   pdf: 2016-ag.pdf
   products_text: Findyour.town
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Name: Improving Access to Electrical Power for Climate Resilience
+  airtable_createdTime: '2024-01-09T14:31:50.000Z'
+  airtable_id: rech42FBPSF27Q7Pa
 - Background: The Federal government has extensive data that currently exists in silos.
     Agencies maintain data about their programs, open data sources maintain various
     elements of meta data, and government-wide systems like Performance.gov and USASpending.gov

@@ -3419,6 +3419,10 @@ code {
 
 // Products Showcase Page
 
+#all-products {
+  padding-top: 4rem;
+}
+
 #product-search-form {
   @include u-width('mobile');
 

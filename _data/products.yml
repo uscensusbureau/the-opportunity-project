@@ -581,6 +581,33 @@
   title: Grant Success Toolkit
   year:
   - 2022
+- Product Name: 'Grant Glider '
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-16T15:47:54.000Z'
+  airtable_id: rec623c9emJhagSb1
+  category:
+  - Environment
+  data_sets: Various datasets from DOE, NSF, HHS, and USDA
+  data_sets_text: Various datasets from DOE, NSF, HHS, and USDA
+  description: Grant Glider uses federal open data and approved grants to simplify
+    and optimize the grant application process for nonprofits of all sizes.
+  details: Grant Glider uses federal open data and approved grants to simplify and
+    optimize the grant application process for nonprofits of all sizes.
+  image: grant-glider.png
+  image-alt: A screenshot of the Grant Glider webpage that reads" Empower your grant
+    applications with AI."
+  link: https://grantglider.webflow.io/
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recq5ZeICZSA6emlM
+  tech_team_text: Tufts University
+  title: 'Grant Glider '
+  year:
+  - 2023
 - Description (Old): Uses labor/employment info from multiple federal data sources
     to help navigate careers in government for Americans.
   Product Name: Opportunity.hackernest.com
@@ -4143,6 +4170,8 @@
   title: The Ghost Gear Project
   year:
   - 2020
+- airtable_createdTime: '2024-01-16T17:13:42.000Z'
+  airtable_id: recaTHfncTRM7rZyK
 - Product Name: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
   agencies:
   - National Oceanic and Atmospheric Administration
@@ -4267,6 +4296,38 @@
   title: Findyour.town
   year:
   - 2016
+- Product Name: TechTransfer
+  agencies:
+  - Minority Business Development Agency, "Puerto Rico Science, Technology & Research
+    Trust", Colmena66
+  airtable_createdTime: '2024-01-16T17:13:41.000Z'
+  airtable_id: reccYTpXIyC09vRJ2
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: 'United States Census Bureau, United States Summary; United States Census
+    Bureau, State Profile: Puerto Rico; US Census Bureau: Detailed E-Commerce Statistics
+    for Puerto Rico: 2017'
+  data_sets_text: 'United States Census Bureau, United States Summary; United States
+    Census Bureau, State Profile: Puerto Rico; US Census Bureau: Detailed E-Commerce
+    Statistics for Puerto Rico: 2017'
+  description: TechTransfer addresses the challenges that Puerto Rico entrepreneurs
+    and business-supporting organizations face in accessing technologies sustainably.
+  details: TechTransfer addresses the challenges that Puerto Rico entrepreneurs and
+    business-supporting organizations face in accessing technologies sustainably.
+  image: techtransfer.png
+  image-alt: A screenshot of the TechTransfer website including a volunteer registration
+    prompt.
+  link: https://www.cybertrustamerica.org/techtransfer
+  problem_statement:
+  - recaJpLTQROHfEZBW
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recdhIIMyxwUDiJi8
+  tech_team_text: Cybertrust America
+  title: TechTransfer
+  year:
+  - 2023
 - Description (Old): ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal
     Service, and the National Address Database (NAD) schema to help the municipalities
     and communities in Puerto Rico enhance their address infrastructure to support
@@ -5100,6 +5161,8 @@
   title: ASSERT
   year:
   - 2023
+- airtable_createdTime: '2024-01-16T17:13:42.000Z'
+  airtable_id: recj83ElUR0OAsv6N
 - Product Name: MSI COVID Relief Dashboard for Equity and Transparency
   agencies:
   - U.S. Department of the Treasury

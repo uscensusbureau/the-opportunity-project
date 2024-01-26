@@ -89,21 +89,24 @@ resources:
         term: Sprint
         definition: The 12 - 14 week timeline in which tech teams build data-driven solutions to urgent problems identified by federal agencies and advocacy organizations.
       - num: 17
-        link: 
+        link:
         term: Sprint Leader(s)
         definition: A group of colleagues who are recruited by the agency within their agency to frame the problem statement, manage the TOP sprint, and work on day-to-day operations such as leading milestone sessions and coordinating with tech teams.
       - num: 18
-        link: 
+        link:
         term: Tech Team
         definition: A group of people, typically from a tech company or university, who build a product through the sprint — whether new or within an existing product or platform — that uses open data to solve a problem statement.
       - num: 19
-        link: 
+        link:
         term: User Research Milestone
         definition: Teams conduct user research and present what they’ve learned about their end user to cross-sector experts for feedback.
-        
-        
+
+
 
 ---
 
 {% include toolkit-hero-refresh.html %}
-{% include toolkit-glossary.html %}
+<section class="bg-orange-5">
+  {% assign categories = page.resources | sort: 'category' | reverse %}
+  {% include toolkit-glossary.html %}
+</section>

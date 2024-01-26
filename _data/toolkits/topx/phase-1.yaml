@@ -3,7 +3,7 @@
 
 body:
   - section: Step 1
-    header: Form a Team to Identify Your Problem
+    header: Form a Team and Identify Your Problem
     duration: "2-4"
     time: "5"
     overview: |-
@@ -24,11 +24,18 @@ body:
     - overview:
       - copy: "Identify at least one senior agency official (such as a Senior Executive or even your agency’s Secretary or Administrator) who is aware and supportive of the sprint and can serve as your executive-level champion."
     - overview:
-      - copy: "Build a staff-level facilitation team of sprint leaders. Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
+      - copy: "Build a staff-level facilitation team of sprint leaders. Identify 1-3 points of contact/sprint leaders who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams."
+      toggle:
+        - ul:
+          - li: "Facilitating a TOP sprint will require finding others within your agency, or other agencies, to help along the way. The size of your team will depend on each team member’s bandwidth, as well as the number of challenges and tech teams that will be part of your sprint."
+          - li: "Sprint leaders are subject matter experts, special advisors, or others knowledgeable about the challenge."
+      resources:
+        - download-link: "topx-resources/phase1-step1-top-sprint-leader-roles.docx"
+          title: "TOP Sprint Leaders Role Overview"
     - overview:
       - copy: "Begin meeting weekly as a facilitation team to efficiently distribute responsibility and track progress."
     - overview:
-      - copy: "Consider issue areas that are priorities for your agency, affect communities nationwide, and where open data could be part of effective solutions."
+      - copy: "Start working with your team on developing the problem statement by considering issue areas that are priorities for your agency, affect communities nationwide, and where open data could be part of effective solutions."
       resources:
         - download-link: "topx-resources/phase1-step1-a-good-problem-statement.docx"
           title: "What Makes a Good Problem Statement"
@@ -44,10 +51,10 @@ body:
       resources:
         - download-link: "topx-resources/phase1-step1-problem-statement-template.docx"
           title: "Problem Statement Template"
+        - video-link: "https://youtu.be/GzXRCwnb7gc"
+          title: "How to Define Your Problem Statement "
     - overview:
-      - copy: "Identify 1-3 points of contact/sprint leaders who will participate in sprint milestones, address policy and operational questions, and provide feedback on the products to tech teams."
-      toggle:
-        - copy: "Sprint leaders are subject matter experts, special advisors, or others knowledgeable about the challenge."
+      - copy: "Socialize the sprint within your agency. Coordinate with counsel and communications offices to proactively share information about the sprint, seek their feedback, and anticipate any challenges or considerations specific to your agency."
 
 
   - section: Step 2
@@ -66,14 +73,17 @@ body:
         - download-link: "topx-resources/phase1-step2-sprint-timeline-template.docx"
           title: "Customizable Sprint Timeline Template"
     - overview:
-      - copy: "Review the Sprint Roles resource linked below. A typical TOP sprint will include subject matter experts (e.g., sprint leaders), data stewards, tech teams, and user advocates."
+      - copy: "Review the Sprint Roles overview linked below. A typical TOP sprint will include subject matter experts (e.g., sprint leaders), data stewards, tech teams, and user advocates."
       toggle:
         - copy: "Consider identifying experts from outside of government who can act as “product advisors” and offer tech teams product strategy advice."
       resources:
-        - download-link: "topx-resources/phase1-step2-sprint-roles.docx"
+        - link: "https://opportunity.census.gov/our-process/#roles"
           title: "Sprint Roles"
     - overview:
       - copy: "Customize the templates to develop outreach emails and recruitment materials to recruit tech teams and user advocates."
+      resources:
+        - video-link: "https://youtu.be/kmsqQq1AvKs"
+          title: "Tips for Recruiting Sprint Participants"
     - overview:
       - copy: "Develop a list of potential participants."
       toggle:
@@ -82,12 +92,14 @@ body:
         - download-link: "topx-resources/phase1-step2-identifying-sprint-participants.docx"
           title: "Tips for Identifying Potential Sprint Participants"
     - overview:
-      - copy: "Reach out to potential participants by email and include tech teams or user advocate overview documents, problem statements, and a timeline. Consider reaching out with an overview first, and then follow up with details after receiving initial interest."
+      - copy: "Reach out to potential participants by email. Include tech teams, user advocate, or data steward overview documents, problem statements, and a timeline. Consider reaching out with an overview first, and then follow up with details after receiving initial interest."
       resources:
         - download-link: "topx-resources/phase1-step2-tech-team-overview.docx"
           title: "Tech Team Role Overview"
         - download-link: "topx-resources/phase1-step2-user-advocate-overview.docx"
           title: "User Advocate Role Overview"
+        - download-link: "topx-resources/phase1-step2-data-steward-overview.docx"
+          title: "Data Steward Role Overview"
     - overview:
       - copy: "Follow up with interested parties and share further information through individual meetings and/or open information sessions."
       toggle:
@@ -101,7 +113,7 @@ body:
           - li: "At least 2-3 user advocates."
           - li: "Where possible, 1 data steward for every dataset."
     - overview:
-      - copy: "Connect with the team you’ve assembled to be sprint leaders to ensure they understand their roles and responsibilities."
+      - copy: "Connect with the team you’ve assembled to be sprint leaders to ensure they understand their roles and responsibilities during the recruitment process."
       toggle:
         - copy: "Sprint leaders should be available to address operational and challenge questions throughout the sprint and participate in all milestones."
     - overview:
@@ -117,6 +129,9 @@ body:
     to_do:
       - overview:
         - copy: "Confirm participation of sprint collaborators."
+        resources:
+        - video-link: "https://youtu.be/6TDEd1DOHbk"
+          title: "How Do I Prepare to Execute My Sprint?"
       - overview:
         - copy: "Select the communication tools you will use."
         - ul:
@@ -132,8 +147,8 @@ body:
         toggle:
         - copy: "Be sure to first ask if all participants are comfortable having their contact information shared with others, and provide an opportunity to opt out of the contact list."
       - overview:
-        - copy: "Finalize the list of suggested open datasets and confirm data stewards"
+        - copy: "Finalize the list of suggested open datasets and confirm data stewards."
         - ul:
-          - li: "In a word document, compile descriptions, data steward names, and data steward emails for each dataset. This document will be shared with participants after the User Research Milestone."
+          - li: "Compile descriptions, data steward names, and data steward emails for each dataset. This document will be shared with participants after the User Research Milestone."
       - overview:
         - copy: "Set a date for a kickoff call and send a calendar invitation to all sprint participants."

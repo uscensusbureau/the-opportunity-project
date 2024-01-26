@@ -5,11 +5,8 @@ layout: ps-proposal
 
 files:
   federal:
-    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2022_Federal-Agencies.docx'
-    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2022_Federal_Agencies.pdf'
-  ngos:
-    template: 'problem-statement-proposal/2021/Problem Statement Proposal Template_TOP 2022_Partners.docx'
-    guidance: 'problem-statement-proposal/2021/TOP_Problem_Statement_Guidance_2022_Partners.pdf'
+    template: 'problem-statement-proposal/2023/PS_Template_TOP2023.docx'
+    guidance: 'problem-statement-proposal/2023/PS_Guidelines_TOP2023.pdf'
 
 ---
 {% assign templateUrl = site.baseurl | append: "/assets/files/" | append: page.files.template %}
@@ -18,8 +15,11 @@ files:
 # Problem Statement Submission
 {: .text-base-darkest }
 
-**The problem statement submission window for The Opportunity Project (TOP) summer/fall 2022 sprint cycle is now closed.**
+The problem statement submission for The Opportunity Project (TOP) 2023 sprint cycle is now open.
+
+**The deadline for Summer 2023 problem statement submission passed on May 5th, but we will accept late submissions on a case-by-case basis and recommend submitting as soon as possible. We will be reviewing submissions for Fall 2023 sprints on a rolling basis until Friday, May 26, 2023.**
 {: .font-sans-md }
 
-- Before you start drafting your problem statement proposal, please review the problem statement guidelines below. 
-- To submit a topic, please download and complete the appropriate Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov?subject=Problem Statement Proposal - [name of organization]) with the subject line *“Problem Statement Proposal - [name of organization]”*.
+- Review the guidelines: Before you start drafting your problem statement proposal, please review the problem statement guidelines below.
+- (Optional) Set up a call with our team: We encourage you to reach out to us at census.opportunityproject@census.gov to schedule a call in which we can help you brainstorm, learn more about your interest in TOP and potential problem statements, and provide early feedback.
+- Submit your proposal by May 26th: To submit a topic, please download and complete the Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov?subject=Problem Statement Proposal - [name of organization]) with the subject line *“Problem Statement Proposal - [name of organization]”*.

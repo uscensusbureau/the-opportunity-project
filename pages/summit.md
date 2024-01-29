@@ -14,12 +14,12 @@ cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Census Open Innovation Summit 2024 showcased 30+ new products built by hundreds of participants in The Opportunity Project (TOP) Sprints in 2023 and brought together over 85 trailblazers in the government innovation space who spoke about technology, business investment and entrepreneurship, local government innovation, human-centered data, and more.
+    text: Missed Census Open Innovation Summit 2024? Watch the recordings on YouTube, featuring 25 sessions, more than 90 speakers, and 30 new tech products.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
       Watch recordings of the sessions on the U.S. Census Bureau's YouTube channel:
-    class: text-normal cta-one padding-x-5 tablet:padding-x-9
+    class: text-normal cta-one padding-x-5 tablet:padding-x-9 display-none
   custom:
     text: Catch Up on YouTube
     href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme

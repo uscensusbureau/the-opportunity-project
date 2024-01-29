@@ -7,22 +7,22 @@ class: summit
 
 background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: Our annual innovation summit is a multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities by and for the TOP community.
+  text: Our annual innovation summit is a multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities on open innovation in the public sector, new civic technology, and emerging models for cross-sector collaboration and inclusive design.
   subtext: Showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Census Open Innovation Summit is January 17 - 19, 2024!
+    text: Census Open Innovation Summit 2024 showcased 30+ new products built by hundreds of participants in The Opportunity Project (TOP) Sprints in 2023 and brought together over 85 trailblazers in the government innovation space who spoke about technology, business investment and entrepreneurship, local government innovation, human-centered data, and more.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Our annual innovation conference will showcase 30+ new products built by hundreds of participants in The Opportunity Project sprints in 2023.
+      Watch recordings of the sessions on the U.S. Census Bureau's YouTube channel:
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   custom:
-    text: RSVP to Attend
-    href: http://coilsummit2024.splashthat.com
+    text: Catch Up on YouTube
+    href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
     isExternal: true
     class: usa-button--secondary
 

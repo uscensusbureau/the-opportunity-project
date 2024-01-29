@@ -29,7 +29,7 @@ cta-one:
 video-one:
   class: highlight-video-section tablet:width-full
   video:
-    src: https://www.youtube.com/embed/videoseries?si=qtl6VAkzlIoFThBN&amp;list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+    src: https://www.youtube.com/embed/aUvG5fpQtD0?si=0H25_23CWMbxpkpj
     alt-text: "2022 TOP Summit (February 2023)"
     mobile-width: 233
     mobile-height: 125

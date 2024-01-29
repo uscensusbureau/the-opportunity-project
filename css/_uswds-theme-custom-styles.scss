@@ -938,6 +938,7 @@ main {
     right: 2rem;
   }
   .data-kit__stats {
+    display: none;
     color: color("primary-dark");
     font-weight: 400;
     letter-spacing: 0.8px;
@@ -3417,6 +3418,10 @@ code {
 
 
 // Products Showcase Page
+
+#all-products {
+  padding-top: 4rem;
+}
 
 #product-search-form {
   @include u-width('mobile');

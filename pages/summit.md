@@ -7,8 +7,8 @@ class: summit
 
 background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: Our annual innovation summit is a multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities on open innovation in the public sector, new civic technology, and emerging models for cross-sector collaboration and inclusive design.
-  subtext:
+  text: Our annual innovation summit is a multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities by and for the TOP community.
+  subtext: Showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one

@@ -14,7 +14,7 @@ cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Missed [Census Open Innovation Summit 2024](https://coilsummit2024.splashthat.com/) ? Watch the recordings on YouTube, featuring 25 sessions, more than 90 speakers, and 30 new tech products.
+    text: Missed [Census Open Innovation Summit 2024](https://coilsummit2024.splashthat.com/)? Watch the recordings on YouTube, featuring 25 sessions, more than 90 speakers, and 30 new tech products.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-

@@ -2,7 +2,7 @@
 <section class="usa-section {{data.background-class}} usa-section--dark">
   <div class="grid-container {{data.container-class}}">
     <h2 {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>
-      {{ data.title.text }}
+      {{ data.title.text | markdownify }}
     </h2>
     {% if data.body %}
       <div class="margin-bottom-4">

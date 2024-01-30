@@ -20,7 +20,7 @@
         <a
           class="usa-button usa-button--secondary site-button site-cta"
           href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
-          {% if card.target %}target="{{ card.target }}"{% endif %}>
+          {% if link.target %}target="{{ link.target }}"{% endif %}>
           {{ link.text }}
         </a>
       {% endif %}
@@ -29,7 +29,7 @@
         <a
         class="usa-link site-cta margin-left-2"
         href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
-        {% if card.target %}target="{{ card.target }}"{% endif %}>
+        {% if link.target %}target="{{ link.target }}"{% endif %}>
         {{ link.text }}
       </a>
       {% endif %}
@@ -38,7 +38,7 @@
       <a
         class="usa-button {{data.custom.class}} site-button site-cta"
         href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
-        {% if card.target %}target="{{ card.target }}"{% endif %}>
+        {% if link.target %}target="{{ link.target }}"{% endif %}>
         {{ link.text }}
       </a>
       {% endif %}

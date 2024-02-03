@@ -1,0 +1,53 @@
+{% assign data = include.data %}
+{% assign video-data = include.video-data %}
+<section
+  class="{% if data.class %} {{ data.class }} {% endif %} video-section">
+  <h2 {% if data.title.class %}class="{{ data.title.class }}" {% endif %}>{{ data.title.text }}</h2>
+  <div class="iframe-content">
+    <!-- mobile -->
+    <iframe width="{{ data.video.mobile-width }}" height="{{ data.video.mobile-height }}" src="{{ data.video.src }}"
+      class="tablet:display-none" title="{{ data.video.alt-text }}" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+      <!-- tablet -->
+          <iframe width="{{ data.video.tablet-width }}" height="{{ data.video.tablet-height }}" src="{{ data.video.src }}" class="display-none tablet:display-block desktop:display-none" title="{{ data.video.alt-text }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+      <!-- desktop -->
+          <iframe width="{{ data.video.desktop-width }}"
+            height="{{ data.video.desktop-height }}" src="{{ data.video.src }}" class="display-none desktop:display-block" title="{{ data.video.alt-text }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    <div class="video-section-text-container {{data.copy-class}}">
+      <h3 class="{{ data.blurb.class }}">{{ data.blurb.title }}</h3>
+      {% if data.blurb.p %}
+      <p>{{ data.blurb.p }} </p>
+      {% endif %}
+      {% if data.checkmarks %}
+      <ul class="toolkit-checkmark">
+
+        {% for items in data.checkmarks %}
+        <li>{{ items.item }}</li>
+        {% endfor %}
+
+
+      </ul>
+      {% endif %}
+      {% if data.phase-video-list %}
+      {{phase-video-list}}
+      <ul class="add-list-reset">
+        {% for video in data.phase-video-list %}
+        <li class="text-white">
+          <a class="text-white" target="_blank" href="{{ video.src }}">{{ video.title }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</section>

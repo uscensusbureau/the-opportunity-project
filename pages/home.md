@@ -76,8 +76,8 @@ cta-one:
     text: Ready to solve the nation's biggest challenges?
     class: font-sans-sm text-normal
   primary:
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
 
 impact:
@@ -105,15 +105,13 @@ process:
   footer:
     intro: 'Learn more about the [TOP process](SITE.BASEURL/our-process).'
     title: How to Get Started
-    text: "We can help your organization identify the next steps to facilitate a successful TOP sprint.
-
-If your agency is interested in using the TOP framework to address national challenges, please [complete this form](https://www.census.gov/forms/contact-top.html) to get started. A member of the [Census Open Innovation Labs (COIL)](https://coil.census.gov/) team will be in touch within one week.
+    text: "We can help your organization identify the next steps to facilitate a successful TOP sprint. If your agency is interested in using the TOP framework to address national challenges, please [email us](mailto:census.opportunityproject@census.gov). A member of the TOP team will be in touch within one week.
 
 
 Ready to get started?"
-  cta: 
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+  cta:
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
 
 vision:
@@ -126,8 +124,8 @@ cta-two:
     text: Ready to make an impact?
     class: font-sans-sm text-normal
   primary:
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
         
 ---

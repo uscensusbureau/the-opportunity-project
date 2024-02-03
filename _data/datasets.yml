@@ -222,7 +222,7 @@
   - recKCU373sCKBXdxg
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -258,6 +258,24 @@
   sprint:
   - recH8zSIIz8tYt9z2
   stewards_text: Metis Meloche, Anne Bowser
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: rec1Xitv8iCVWovd4
+  description: 'The data enable the exploration of RD investments to the program level
+    through a state/county/CD lens. They can be used to determine where loan, grant,
+    and loan guarantee investments are made; how investment within a state/county
+    has been trending over time; and how investment financing compares to other counties
+    in the same state or other states. The various views allow access to data about
+    all states, counties, programs, and investment types from 2011 to 2023.  '
+  link: https://www.rd.usda.gov/rural-data-gateway/rural-investments/by-county
+  name: Rural Investments
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recZGVOhgclHyT5PG
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: rec1YfgXg23GXbPoI
   description: People are unemployed if they do not have a job, have actively looked
@@ -269,7 +287,7 @@
   - rec7tjWfiN4wtIn3m
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -288,7 +306,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -431,7 +449,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -559,7 +577,7 @@
   - recIeXqiRxBShJDxj
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -1015,6 +1033,19 @@
   name: Census Bureau ACS
   products:
   - recdPP7lshLzAKAmg
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: rec96VSBOR5IZbbr1
+  description: US energy infrastructure and resources layers
+  link: https://www.eia.gov/state/; https://atlas.eia.gov/apps/all-energy-infrastructure-and-resources/explore
+  name: Energy Sources and Estimates
+  organization_text: U.S. Energy Information Administration
+  organizations:
+  - recZlxtm17X9qFInJ
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: rec9DQ0ZppYqORnCs
   description: Online tool that increases interaction and connectivity to plastic
@@ -1101,6 +1132,24 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - reco5ccvDEvBt5dA0
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: rec9vUlS3GQcbEvbe
+  data_stewards:
+  - recOoSIkASnCcNVEH
+  description: Information on median family incomes and income limits for HUD programs,
+    as well as microdata from research initiatives on topics such as housing discrimination,
+    the HUD-insured multifamily housing stock, and the public housing population.
+  link: https://data.hud.gov/
+  name: HUD Data Portal
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recZHYzutcUOzjudU
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Lydia Taghavi
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recAIaI2VzxNs8HZA
   data_stewards:
@@ -1279,7 +1328,7 @@
   - rec3rAvsCoOHIENtL
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -1383,7 +1432,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -1447,6 +1496,25 @@
     Department of Housing and Urban Development
   products:
   - recc7C6xK9u1A5lXW
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recD1BtWi96mmITl5
+  data_stewards:
+  - recBE5e4EdcxwgEUs
+  description: "The U.S. Census Bureau\u2019s Small Area Income and Poverty Estimates\
+    \ program produces single-year estimates of income and poverty for all U.S. states\
+    \ and counties as well as estimates of school-age children in poverty for all\
+    \ 13,000+ school districts."
+  link: https://www.census.gov/programs-surveys/saipe.html
+  name: Small Area Income and Poverty Estimates (SAIPE)
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Alexandra Barker
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recD5StL4JPWbdZ7U
   name: SAM.gov; grants.gov; Department of Housing and Urban Development
@@ -1485,6 +1553,24 @@
     the power of GIS. On the CS Cloud, you can expect to find citizen science data
     on various focus areas including information on ocean plastics datasets.
   name: 'Earth Challenge: Citizen Science Cloud: Plastics Page'
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recDZ9euQPpmXHg1l
+  data_stewards:
+  - recXbzTTSUXL0vNm8
+  description: The Census Business Builder (CBB) is a suite of services that provide
+    selected demographic and economic data from the Census Bureau tailored to specific
+    types of users in a simple to access and use format.
+  link: https://www.census.gov/data/data-tools/cbb.html
+  name: Census Business Builder
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Michael Sprung
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recDatXsYsCllS0F7
   data_stewards:
@@ -1583,6 +1669,26 @@
   ps_text: Rural Development
   sprint:
   - recH8zSIIz8tYt9z2
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recE8ATejdtcpBOuF
+  data_stewards:
+  - recEcM0DyvD6Wl0m6
+  description: USAspending.gov is the official source for spending data for the U.S.
+    Government. Its mission is to show the American public what the federal government
+    spends every year and how it spends the money. You can follow the money from the
+    Congressional appropriations to the federal agencies and down to local communities
+    and businesses.
+  link: https://www.usaspending.gov/
+  name: USA Spending
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recoLe16gECFfJJdx
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Amanda Cayton
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recERWkPH52bMnW6e
   name: "and Motivators; Civis Analytics\u2019 survey and message testing technology"
@@ -1654,6 +1760,22 @@
   ps_text: Promoting Access to and Interest in STEM Fields
   sprint:
   - recjdd30fQXhPJBRs
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recFMBKeI3KDHBqJS
+  description: IPEDS is a system of 12 interrelated survey components conducted annually
+    that gathers data from every college, university, and technical and vocational
+    institution that participates in the federal student financial aid programs. The
+    data collections occur in fall, winter, and spring.
+  link: https://nces.ed.gov/ipeds/
+  name: Integrated Postsecondary Education Data System
+  organization_text: U.S. Department of Education
+  organizations:
+  - recJxCD8QEO8XYzze
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recFNFjsSElkmYfvk
   data_stewards:
@@ -1687,7 +1809,7 @@
   - recLFUZlT7lXcgPAp
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -1698,6 +1820,32 @@
   name: Congressional Research Service
   products:
   - rec1bcRMdaOLb5qKA
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recFzjsUvmAcmmCRs
+  data_stewards:
+  - recnuvmtw7ozVpHnX
+  description: 'The 2013 Rural-Urban Continuum Codes form a classification scheme
+    that distinguishes metropolitan counties by the population size of their metro
+    area, and nonmetropolitan counties by degree of urbanization and adjacency to
+    a metro area. The official Office of Management and Budget (OMB) metro and nonmetro
+    categories have been subdivided into three metro and six nonmetro categories.
+    Each county in the U.S., municipio in Puerto Rico, and Census Bureau-designated
+    county-equivalent area of the Virgin Islands/other inhabited island territories
+    of the U.S. is assigned one of the 9 codes. This scheme allows researchers to
+    break county data into finer residential groups, beyond metro and nonmetro, particularly
+    for the analysis of trends in nonmetro areas that are related to population density
+    and metro influence. '
+  link: https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
+  name: Rural-Urban Continuum
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recZGVOhgclHyT5PG
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: John Cromartie
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recGLW8mKCY2gXZho
   datakit_order: 16
@@ -1719,6 +1867,30 @@
   - recIkD0YhsnTLOpet
   - recIkD0YhsnTLOpet
   - recIkD0YhsnTLOpet
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recGP5IvaBQl3eYzQ
+  data_stewards:
+  - recxHFTSg570VVyxE
+  description: "The Transaction Level Report (TLR) contains data detailing how CDFI\
+    \ Program and NACA Program FA Recipients provide loans and investments in low-income\
+    \ communities. The data file includes the features and locations of over 222,000\
+    \ individual loans and investments totaling more than $26 billion made in FY 2021\
+    \ and reported in FY 2022 by 398 CDFIs. \n\nConsumer Loan Report (CLR) data details\
+    \ the methods by which CDFI banks and credit unions with CDFI and NACA Program\
+    \ Awards provided consumer loans in low-income communities. The data file includes\
+    \ over 700,000 consumer loans totaling more than $12 billion that were made in\
+    \ FY 2021 and reported in FY 2022 by 136 banks and credit unions."
+  link: https://www.cdfifund.gov/news/529
+  name: 'CDFI Fund: Transaction Level Report (TLR) & Consumer Loan Report (CLR) Data'
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recoLe16gECFfJJdx
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Shannon A. McKay
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recGZoKOJ5Z7f9gEf
   data_stewards:
@@ -1756,6 +1928,24 @@
   sprint:
   - recH8zSIIz8tYt9z2
   stewards_text: Patrick Zhang
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recGlX6TMHDWHQ4Uc
+  data_stewards:
+  - recBNbbJZ1YZiHDSY
+  description: CDC WONDER is an online data system which allows users to look at deaths
+    by cause of death, geographic (region, state, county), demographic characteristics
+    (age, sex, race/Hispanic origin, etc), and time (year, month, week).
+  link: https://wonder.cdc.gov/mcd.html; https://www.cdc.gov/nchs/nvss/drug-overdose-deaths.htm
+  name: CDC WONDER
+  organization_text: Center for Disease Control
+  organizations:
+  - rec3rAvsCoOHIENtL
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Farida Ahmed
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: recH599zIPFPzH7Al
   description: Mapping application from FEMA that identifies communities most at risk
@@ -1768,7 +1958,7 @@
   - recKCU373sCKBXdxg
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -1822,7 +2012,7 @@
   - rec2lV6Ig1K0sL05R
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -1867,6 +2057,20 @@
   ps_text: Transportation Emissions
   sprint:
   - recH8zSIIz8tYt9z2
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recIE4i2WidC4xC77
+  description: The prevailing wage rate is defined as the average wage paid to similarly
+    employed workers in a specific occupation in the area of intended employment.
+  link: https://www.dol.gov/agencies/eta/foreign-labor/wages
+  name: Prevailing Wage
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recIEw8sMLfJGfueF
   name: Grants.gov database
@@ -1883,7 +2087,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -2078,7 +2282,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -2199,6 +2403,43 @@
   ps_text: Entrepreneurship
   sprint:
   - reccUsI2AM7YliJ2l
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recLvycbMSNIJhABX
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The CES survey measures jobs on payrolls, which can be thought of as
+    a gauge of the met demand for labor by employers. Net changes in the numbers of
+    payroll jobs, therefore, indirectly imply changes in the demand for workers.
+  link: https://www.bls.gov/sae/overview.htm
+  name: State & Area Current Employment Statistics (CES)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recM0ypn4glfYE907
+  data_stewards:
+  - recXbzTTSUXL0vNm8
+  description: 'The Economic Census is the official five-year measure of American
+    businesses providing comprehensive statistics at the national, state, and local
+    levels. It serves as the benchmark for current economic activity, such as the
+    Gross Domestic Product and Producer Price Index.  '
+  link: https://www.census.gov/EconomicCensus
+  name: Economic Census
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Michael Sprung
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recMdEVIEtJRfcRjG
   description: links to state and local waste characterization studies, including
@@ -2247,7 +2488,7 @@
   - recmlYupWKakJKiyY
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -2629,6 +2870,24 @@
   name: "Woldemar d\u2019Ambri\xE8res"
   products:
   - receE3OszUl8bOqf2
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recQlMfxdjgz8EAUp
+  data_stewards:
+  - recBE5e4EdcxwgEUs
+  description: The Community Resilience Estimates (CRE) provide an easily understood
+    metric for how at-risk every neighborhood in the United States is to the impacts
+    of disasters, including COVID-19.
+  link: https://www.census.gov/programs-surveys/community-resilience-estimates.html
+  name: Community Resilience Estimates
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Alexandra Barker
 - airtable_createdTime: '2020-02-10T17:28:32.000Z'
   airtable_id: recQmVkBTnyxzFtJG
   name: BLS Job Outcomes Data
@@ -2905,7 +3164,7 @@
   - rechawuxwXzzaEkFO
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3185,7 +3444,7 @@
   - recIeXqiRxBShJDxj
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3259,7 +3518,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3359,7 +3618,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3420,6 +3679,26 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - reco5ccvDEvBt5dA0
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recWtTYP50jrxS7ii
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The LAUS program is a hierarchy of non-survey methodologies used to
+    replicate for roughly 7,600 subnational areas the household employment and unemployment
+    concepts of the Current Population Survey (CPS), which is the source of the U.S.
+    unemployment rate. The unemployment rate is a direct measure of slack in the supply
+    of labor.
+  link: https://www.bls.gov/lau/lauov.htm
+  name: Local Area Unemployment Statistics (LAUS)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recX1DorNN0UyAAny
   data_stewards:
@@ -3448,6 +3727,26 @@
   name: Department of Housing and Urban Development; Community partners
   products:
   - reck27McNd55fwPJG
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recXFh4Eki8pFMAvk
+  data_stewards:
+  - rec9mso94wFAhugj0
+  description: USAspending.gov is the official source for spending data for the U.S.
+    Government. Its mission is to show the American public what the federal government
+    spends every year and how it spends the money. You can follow the money from the
+    Congressional appropriations to the federal agencies and down to local communities
+    and businesses.
+  link: https://www.usaspending.gov/search
+  name: USA Spending
+  organization_text: U.S. Department of the Treasury
+  organizations:
+  - recoLe16gECFfJJdx
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Meredith Brown
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recXK0F9RXTZLSs8z
   name: EPA WARM Model
@@ -3496,6 +3795,26 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - rec54Runs6NGw3ekn
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recXx7mFAPNbgrseM
+  description: The Gini Index is a summary measure of income inequality. The Gini
+    coefficient incorporates the detailed shares data into a single statistic, which
+    summarizes the dispersion of income across the entire income distribution. The
+    Gini coefficient ranges from 0, indicating perfect equality (where everyone receives
+    an equal share), to 1, perfect inequality (where only one recipient or group of
+    recipients receives all the income). The Gini is based on the difference between
+    the Lorenz curve (the observed cumulative income distribution) and the notion
+    of a perfectly equal income distribution.
+  link: https://www.census.gov/topics/income-poverty/income-inequality/data/data-tables.html
+  name: Gini Index
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-07-20T14:44:14.000Z'
   airtable_id: recXyePnwDLujEgSx
   data_stewards:
@@ -3578,6 +3897,24 @@
   - recuIwac7Y59Ublpk
   tag:
   - Health
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recYeRQibsnMHOIOj
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: 'The CES survey measures jobs on payrolls, which can be thought of
+    as a gauge of the met demand for labor by employers. Net changes in the numbers
+    of payroll jobs, therefore, indirectly imply changes in the demand for workers. '
+  link: https://www.bls.gov/sae/overview.htm
+  name: State & Area Current Employment Statistics (CES)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2021-07-19T22:04:13.000Z'
   airtable_id: recYmd1f2qxNLy9My
   description: Uses Census tract-level data to help identify communities that may
@@ -3610,7 +3947,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3672,6 +4009,23 @@
   products:
   - rec0uXzwM8OZkTEfS
   - recYfm8XMTeAhnqFB
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recZKGj1o18OPllW0
+  data_stewards:
+  - recw8xiF4heXzLuPN
+  description: Gross domestic product (GDP) measures the value of final goods and
+    services produced within a geography.
+  link: https://www.bea.gov/data/gdp/gross-domestic-product
+  name: GDP
+  organization_text: Bureau of Economic Analysis
+  organizations:
+  - recCbLM9y1yjXYV74
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jake Dillon
 - airtable_createdTime: '2021-07-20T14:33:29.000Z'
   airtable_id: recZLJYt4aiXjtf3C
   data_stewards:
@@ -3739,7 +4093,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3752,6 +4106,26 @@
     and Assesment Project (MDMAP) accumulation report. This data is one of the three
     datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
   name: 'Integrated Data: Marine Debris Monitoring and Assessment Project'
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recZbuzc8gMM1g7oo
+  data_stewards:
+  - recBNbbJZ1YZiHDSY
+  description: This report presents final 2021 U.S. mortality data on deaths and death
+    rates by cause of death and demographic characteristics. These data provide information
+    on mortality patterns among U.S. residents by variables such as sex, age, race
+    and Hispanic origin, and cause of death.
+  link: https://www.cdc.gov/nchs/fastats/life-expectancy.htm; https://www.cdc.gov/nchs/products/databriefs/db456.htm;
+    https://www.cdc.gov/nchs/data-visualization/state-life-expectancy/index_2020.htm
+  name: Life Expectancy
+  organization_text: Center for Disease Control
+  organizations:
+  - rec3rAvsCoOHIENtL
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Farida Ahmed
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recZgkMmvFEU3UmmR
   data_stewards:
@@ -3860,6 +4234,27 @@
   sprint:
   - recH8zSIIz8tYt9z2
   stewards_text: Britney McCoy
+- airtable_createdTime: '2023-10-30T18:32:55.000Z'
+  airtable_id: recaISNy9cHBGDHTV
+  data_stewards:
+  - recpStP9tGUxmPLd8
+  description: The data enable the exploration of RD investments to the program level
+    through a state/county/CD lens. They can be used to determine where loan, grant,
+    and loan guarantee investments are made; how investment within a state/county
+    has been trending over time; and how investment financing compares to other counties
+    in the same state or other states. The various views allow access to data about
+    all states, counties, programs and investment types from 2011 to 2023.
+  link: https://www.rd.usda.gov/rural-data-gateway/rural-investments
+  name: USDA Rural Gateway
+  organization_text: U.S. Department of Agriculture
+  organizations:
+  - recZGVOhgclHyT5PG
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: James Barham
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recaR8lxhjjhQtIsO
   data_stewards:
@@ -3952,6 +4347,25 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - rec54Runs6NGw3ekn
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recauviDI0eIQO4oi
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The Quarterly Census of Employment and Wages (QCEW) program publishes
+    a quarterly count of employment and wages reported by employers covering more
+    than 95 percent of U.S. jobs, available at the county, MSA, state and national
+    levels by industry.
+  link: https://www.bls.gov/cew/
+  name: Quarterly Census of Employment Wages (QCEW)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2021-08-13T21:31:30.000Z'
   airtable_id: recaxpZpFhjjpLawh
   description: Water use by sector from 2015
@@ -3962,7 +4376,7 @@
   - recIeXqiRxBShJDxj
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -3988,6 +4402,23 @@
   ps_text: Developing Community-Informed National-Level Indicators of Well-Being
   sprint:
   - rec54Runs6NGw3ekn
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recbW3DgJBYh9TZwF
+  data_stewards:
+  - rec1S78HJVLE8t0dV
+  description: Tribal data on numerous Census datasets (ACS, SAIPE, Economic Census,
+    Community Resilience Estimates) and information on APIs.
+  link: https://www.census.gov/tribal/
+  name: Tribal Data Across Census Products
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Eric Coyle
 - airtable_createdTime: '2021-07-20T14:33:54.000Z'
   airtable_id: recbZcZ3gL9bKPPzX
   data_stewards:
@@ -4049,7 +4480,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4067,7 +4498,7 @@
   - rec3gOseof6JvNBeV
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4111,7 +4542,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4130,6 +4561,22 @@
   name: FEMA Annual Performance Report
   products:
   - recB8bi6mtqyoeyWI
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recdHcbIeWjW4e23Y
+  description: The National Risk Index (NRI) is an easy-to-use, interactive tool that
+    shows which communities are most at risk to natural hazards. It includes data
+    about the expected annual losses to individual natural hazards, social vulnerability
+    and community resilience, available at county and Census tract levels.
+  link: https://hazards.fema.gov/nri/map
+  name: FEMA Expected Annual Loss
+  organization_text: Federal Emergency Management Agency
+  organizations:
+  - recKCU373sCKBXdxg
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recdOnxq0Az2ubs0H
   name: HUD Opportunity Zones
@@ -4277,6 +4724,22 @@
   ps_text: Harnessing Data and Leveraging Digital Tools to Combat the Opioid Crisis
   sprint:
   - reco5ccvDEvBt5dA0
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: receOltJBNofrZora
+  data_stewards:
+  - recBNbbJZ1YZiHDSY
+  description: Final birth data are available through 2022 on WONDER.
+  link: https://wonder.cdc.gov/natality.html
+  name: Birth Data
+  organization_text: Center for Disease Control
+  organizations:
+  - rec3rAvsCoOHIENtL
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Farida Ahmed
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: receRzRW2q2Pe716k
   name: American Community Survey; Proprietary enterprise level marketing systems
@@ -4380,6 +4843,25 @@
   name: The Recycling Partnership
   products:
   - reciNTsZunO92rQ2Z
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recf0icXL8cOWhFoC
+  data_stewards:
+  - recw8xiF4heXzLuPN
+  description: Regional price parities (RPPs) are regional price levels expressed
+    as a percentage of the overall national price level for a given year. The price
+    level is determined by the average prices paid by consumers for the mix of goods
+    and services consumed in each region.
+  link: https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area
+  name: Regional Price Parities
+  organization_text: Bureau of Economic Analysis
+  organizations:
+  - recCbLM9y1yjXYV74
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jake Dillon
 - airtable_createdTime: '2020-02-10T20:22:37.000Z'
   airtable_id: recf1mNCHEbprKsZC
   data_stewards:
@@ -4477,7 +4959,7 @@
   - recZHYzutcUOzjudU
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4596,7 +5078,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4674,7 +5156,7 @@
   - rec7kEIMnoCt5jzRO
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4766,6 +5248,27 @@
     Performance Data
   sprint:
   - recjdd30fQXhPJBRs
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: reciP1VnzqGReOPEp
+  data_stewards:
+  - recGdztiYZaZdiT6d
+  description: The Section 184 Indian Home Loan Guarantee Program is a home mortgage
+    product for Native American and Alaska Native families. It has low downpayment
+    and flexible underwriting. Section 184 loans can be used, both on and off native
+    lands, for new construction, rehabilitation, purchase of an existing home, or
+    refinance. One of the only federal loan gurantee programs of its type & scale.
+    Will be of high interest to Native lenders in group.
+  link: https://www.hud.gov/section184
+  name: 'HUD: Section 184 Program Data'
+  organization_text: U.S. Department of Housing and Urban Development
+  organizations:
+  - recZHYzutcUOzjudU
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jad Atallah
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reciUvUwEjkcQ8Do8
   name: Census Income and Poverty
@@ -4870,6 +5373,26 @@
   name: Buyers and Sellers
   products:
   - reciNTsZunO92rQ2Z
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recjzmtcHqTdXvP0T
+  data_stewards:
+  - recv8QNB0PLS0wNtn
+  description: The Higher Education Research and Development survey is an annual census
+    of all U.S. higher education institutions with at least $150,000 in R&D expenditures.
+    The survey has been conducted annually since 1972. In fiscal year 2022, 900 institutions
+    were in the survey frame and the response rate was 96%. NCSES imputes for unit
+    and item non-responses.
+  link: https://ncses.nsf.gov/surveys/higher-education-research-development/2021
+  name: Higher Education Research & Development Survey (HERD)
+  organization_text: National Science Foundation
+  organizations:
+  - recFEdbJgp0Q6qHmn
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Michael Gibbons
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: reck1rE9EBSQgbtDA
   name: MDMAP
@@ -4916,7 +5439,7 @@
   - recXwEKPNwUGImv4r
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -4988,6 +5511,27 @@
     datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset:
     https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701'
   name: 'Integrated Data: TIDES Coastal Clean Up'
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: reclqmKDADxgZRTDj
+  data_stewards:
+  - recoYFoZhCRBe0Lym
+  description: 'Includes data on Regional Innovation Clusters, state licenses and
+    permits, Procurement Technical Assistance Centers, and more. The 1) SBA 7(a) and
+    504 loan data reports, 2) SBA Coronavirus (COVID-19) Relief Options: Paycheck
+    Protection Program (PPP) Report and Data, and 3) SBA Coronavirus (COVID-19) Relief
+    Options: Economic Injury Disaster Loan (EIDL) Loans Report, would likely be most
+    relevant to this topic.'
+  link: https://catalog.data.gov/dataset?q=SBA
+  name: SBA Datasets
+  organization_text: Small Business Administration
+  organizations:
+  - recpWYU9m41axHFU2
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Joshua Dykema
 - airtable_createdTime: '2020-02-10T20:20:40.000Z'
   airtable_id: reclrA9CxTYI7AmKt
   data_stewards:
@@ -5029,6 +5573,26 @@
   stewards_text: Randy Moore, Kristina Pasquino-Frates
   tag:
   - Economic
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recm2SUqMJlskBQ3X
+  data_stewards:
+  - recBE5e4EdcxwgEUs
+  description: The population and housing unit estimates are released on a flow basis
+    throughout each year. Each new series of estimates (referred to as a "vintage")
+    is revised annually beginning with the date of the most recent decennial census
+    to incorporate the latest administrative record data, geographic boundaries, and
+    methodology.
+  link: https://www.census.gov/programs-surveys/popest.html
+  name: Population and Housing Unit Estimates
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Alexandra Barker
 - airtable_createdTime: '2021-07-21T18:58:06.000Z'
   airtable_id: recm47KTRHojn3Eur
   data_stewards:
@@ -5128,7 +5692,7 @@
   - rechawuxwXzzaEkFO
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5148,12 +5712,29 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
   tag:
   - Imagery + Base Maps
+- airtable_createdTime: '2023-11-17T15:27:19.000Z'
+  airtable_id: recn15Rw88yyM4SW4
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The prevailing wage rate is defined as the average wage paid to similarly
+    employed workers in a specific occupation in the area of intended employment.
+  link: https://www.dol.gov/agencies/eta/foreign-labor/wages
+  name: Prevailing Wage
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - recvGCiCh48crr8iQ
+  ps_text: Improving Access to Capital in Indigenous Communities through Data
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2020-02-05T22:11:19.000Z'
   airtable_id: recn1nNkU3ZZRZ8K4
   data_stewards:
@@ -5228,7 +5809,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5291,6 +5872,25 @@
   name: FEMA Disaster Summaries
   products:
   - recB8bi6mtqyoeyWI
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recoGnqdQQVpeZRCA
+  description: "The Clean Investment Monitor (CIM) is a joint project of Rhodium Group\
+    \ and MIT\u2019s Center for Energy and Environmental Policy Research (CEEPR).\
+    \ The CIM tracks public and private investments in climate technologies in the\
+    \ United States. Through this data and analysis, the CIM provides insights into\
+    \ investment trends, the effects of federal and state policies, and on-the-ground\
+    \ progress in the U.S. towards net-zero greenhouse gas emissions. "
+  link: https://www.cleaninvestmentmonitor.org/
+  name: Clean Investment Monitor
+  organization_text: Rhodium Group, MIT
+  organizations:
+  - recAmlCCK9OnZo4D9
+  - recNaZkRA3ZEVaLR1
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recoJiBSLAbIM3TWb
   name: DC GIS Master Address Repository
@@ -5381,12 +5981,54 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
   tag:
   - Risk
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recpOlHVBkiKQaj0e
+  data_stewards:
+  - rec9mso94wFAhugj0
+  description: Census tracts that are overburdened and underserved are highlighted
+    as being disadvantaged. Federally Recognized Tribes, including Alaska Native Villages,
+    are also considered disadvantaged communities. The tool uses datasets as indicators
+    of burdens. The burdens are organized into categories. A community is highlighted
+    as disadvantaged on the CEJST map if it is in a census tract that is (1) at or
+    above the threshold for one or more environmental, climate, or other burdens,
+    and (2) at or above the threshold for an associated socioeconomic burden. In addition,
+    a census tract that is completely surrounded by disadvantaged communities and
+    is at or above the 50% percentile for low income is also considered disadvantaged.
+  link: https://screeningtool.geoplatform.gov/en/#3/33.47/-97.5
+  name: Justice40
+  organization_text: White House Council of Economic Advisors
+  organizations:
+  - recDRqhNai9EXX842
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Meredith Brown
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recpmLHJBG5YOR72E
+  data_stewards:
+  - recw8xiF4heXzLuPN
+  description: Personal income is the income received by persons from all sources.
+    It includes income received from participation in production as well as from government
+    and business transfer payments.
+  link: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
+  name: Personal Income
+  organization_text: Bureau of Economic Analysis
+  organizations:
+  - recCbLM9y1yjXYV74
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jake Dillon
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: recprQaU8Rxc72W8p
   name: Department of Labor; Census Bureau; US Cluster Mapping Project; Proprietary
@@ -5406,7 +6048,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5448,6 +6090,46 @@
   ps_text: Ocean Plastics
   sprint:
   - recH8zSIIz8tYt9z2
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recqEBFSXQOykEExz
+  data_stewards:
+  - recBNbbJZ1YZiHDSY
+  description: The Provisional Drug Overdose Death Counts report provide non-final
+    death counts for total drug overdose deaths and deaths involving specific drugs
+    nationally and by state.
+  link: 'https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm '
+  name: Drug Overdose Deaths
+  organization_text: Center for Disease Control
+  organizations:
+  - rec3rAvsCoOHIENtL
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Farida Ahmed
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recqFPOo4dyUaRa0T
+  data_stewards:
+  - recfMpSmk5Chd4kB0
+  - recHT4eugB58tCHXj
+  description: "The Longitudinal Employer-Household Dynamics is part of the Center\
+    \ for Economic Studies at the U.S. Census Bureau. The LEHD program produces cost\
+    \ effective, public-use information combining federal, state and Census Bureau\
+    \ data on employers and employees. \n\nIncludes: Quarterly Workforce Indicators\
+    \ (QWI), LEHD Origin-Destination Emp. Statistics (LODES), Job-to-Job Flows (J2J),\
+    \ Post-Secondary Employment Outcomes (PSEO), and Veteran Employment Outcomes (VEO)."
+  link: https://lehd.ces.census.gov/
+  name: Longitudinal Employer-Household Dynamics
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Patrick (Heath) Hayward, Earlene Dowell
 - airtable_createdTime: '2021-07-19T21:45:02.000Z'
   airtable_id: recqSueiNp3hgIZaJ
   data_stewards:
@@ -5465,6 +6147,25 @@
   sprint:
   - reccUsI2AM7YliJ2l
   stewards_text: Andy Hait
+- airtable_createdTime: '2023-10-17T14:33:58.000Z'
+  airtable_id: recqUfC3lNsSFiV7q
+  data_stewards:
+  - recyFditAP6sdnN6v
+  description: The American Community Survey (ACS) helps local officials, community
+    leaders, and businesses understand the changes taking place in their communities.
+    It is the premier source for detailed population and housing information about
+    our nation.
+  link: https://www.census.gov/programs-surveys/acs/
+  name: American Community Survey (ACS)
+  organization_text: U.S. Census Bureau
+  organizations:
+  - rechawuxwXzzaEkFO
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Caleb Hopler
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recqVGlTlhHkbQdFo
   datakit_order: 12
@@ -5564,7 +6265,7 @@
   - recN658rs3InjcXOK
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5585,6 +6286,23 @@
   ps_text: Transforming Local Addressing Systems in Puerto Rico
   sprint:
   - rec54Runs6NGw3ekn
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recrOvjNP210SJEjl
+  data_stewards:
+  - recw8xiF4heXzLuPN
+  description: Personal consumption expenditures (PCE) are the goods and services
+    purchased by persons.
+  link: https://www.bea.gov/data/consumer-spending/main
+  name: Personal Consumption Expentidures (PCE)
+  organization_text: Bureau of Economic Analysis
+  organizations:
+  - recCbLM9y1yjXYV74
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jake Dillon
 - airtable_createdTime: '2021-08-13T21:45:05.000Z'
   airtable_id: recrOzFrZ2htFecpj
   description: Mapping tool based on nationally consistent data and an approach that
@@ -5596,7 +6314,7 @@
   - recLFUZlT7lXcgPAp
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5668,6 +6386,26 @@
   sprint:
   - reccUsI2AM7YliJ2l
   stewards_text: Mike DeMale
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recrrg40XFvcyJa8f
+  data_stewards:
+  - rechrpfLxNh1DeTDZ
+  description: The LAUS program is a hierarchy of non-survey methodologies used to
+    replicate for roughly 7,600 subnational areas the household employment and unemployment
+    concepts of the Current Population Survey (CPS), which is the source of the U.S.
+    unemployment rate. The unemployment rate is a direct measure of slack in the supply
+    of labor.
+  link: https://www.bls.gov/lau/lauov.htm
+  name: Local Area Unemployment Statistics (LAUS)
+  organization_text: U.S. Bureau of Labor Statistics
+  organizations:
+  - rec7tjWfiN4wtIn3m
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Tom Krolik
 - airtable_createdTime: '2021-09-20T19:55:20.000Z'
   airtable_id: recrwQ0yqDnHSY2kx
   datakit_order: 20
@@ -5710,7 +6448,7 @@
   - recZGVOhgclHyT5PG
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5742,7 +6480,7 @@
   - recLFUZlT7lXcgPAp
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -5882,6 +6620,26 @@
   sprint:
   - recdwwZXqkYsafwsM
   stewards_text: Sari Sue Jolly, Anna Parikos, Monika Dukes
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recu0nspuvI729KIZ
+  data_stewards:
+  - rec9mso94wFAhugj0
+  description: These maps are intended to be illustrative of the scope of the Bipartisan
+    Infrastructure Law and the impact it has in all American communities. Data represents
+    announced funding (formula and discretionary) as of August 7, 2023 and awarded
+    funding as of June 30, 2023. This is a small subset of what the Bipartisan Infrastructure
+    Law will fund and is not intended to be comprehensive.
+  link: https://d2d.gsa.gov/report/bipartisan-infrastructure-law-bil-maps-dashboard
+  name: Bipartisan Infrastructure Law Investments
+  organization_text: General Services Administration
+  organizations:
+  - recEV51IEKWwQUln6
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Meredith Brown
 - airtable_createdTime: '2020-02-10T18:29:01.000Z'
   airtable_id: recu872NS01ksLMyT
   description: 'The purpose of this document is to lay out the National Address Database
@@ -6053,6 +6811,22 @@
   ps_text: Transportation Emissions
   sprint:
   - recH8zSIIz8tYt9z2
+- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recw4DvgY39jiIl0U
+  data_stewards:
+  - recw8xiF4heXzLuPN
+  description: Employment is measured as a count of jobs.
+  link: https://www.bea.gov/data/employment/employment-county-metro-and-other-areas
+  name: Employment
+  organization_text: Bureau of Economic Analysis
+  organizations:
+  - recCbLM9y1yjXYV74
+  problem_statements:
+  - reczViJ9R5i84HkLl
+  ps_text: Improved Data Access for Local Policymakers
+  sprint:
+  - recXBSKFq7AYEnaRX
+  stewards_text: Jake Dillon
 - airtable_createdTime: '2020-02-05T22:11:34.000Z'
   airtable_id: recwGorKcKSfePNuQ
   data_stewards:
@@ -6085,7 +6859,7 @@
   - rechawuxwXzzaEkFO
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm
@@ -6173,7 +6947,7 @@
   - recZGVOhgclHyT5PG
   problem_statements:
   - recjf9CnxtJkXGumk
-  ps_text: Unnamed record
+  ps_text: Tackling the Climate Crisis through Climate-Smart Communities
   sprint:
   - recrg3VdHYW5wtfdG
   - recvnSQzYNG0AGAkm

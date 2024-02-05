@@ -50,7 +50,7 @@ resources:
       - link: https://www.youtube.com/watch?v=0CHRd6YSXKA
         num: 1
         term: Do agencies need funding to partner with TOP?
-        definition: Funding is not required to partner with TOP or to run a TOP sprint. You are welcome to use the [TOPx Toolkit](https://opportunity.census.gov/topx-toolkit/) to run your own TOP sprint at any time and doing so does not necessarily require a budget. What you should plan to do is spend some staff time on all the aspects of managing your TOP sprint – including sending weekly emails, recruiting participants, and other tasks through the three phases of the TOP process. If you feel that you'll need more assistance from our team at Census Open Innovation Labs, please [reach out to](mailto:census.opportunityproject@census.gov) us to explore an interagency agreement.
+        definition: Funding is not required to partner with TOP or to run a TOP sprint. You are welcome to use the [TOPx Toolkit](https://opportunity.census.gov/topx-toolkit/) to run your own TOP sprint at any time and doing so does not necessarily require a budget. What you should plan to do is spend some staff time on all the aspects of managing your TOP sprint – including sending weekly emails, recruiting participants, and other tasks through the three phases of the TOP process. If you feel that you'll need more assistance from our team at Census Open Innovation Labs, please [reach out to us](mailto:census.opportunityproject@census.gov) to explore an interagency agreement.
       - link: https://www.youtube.com/watch?v=3rpYFjSfB0Q
         num: 2
         term: Do you only work with open data?

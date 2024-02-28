@@ -116,6 +116,33 @@
   title: Tech Talent Tracker
   year:
   - 2020
+- Product Name: Native CDFI Workforce Resource Map
+  agencies:
+  - U.S. Economic Development Administration
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: rec0ugnUjdcIKTzoW
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: Census
+  data_sets_text: Census
+  description: The Native CDFI Workforce Resource Map provides information to Native
+    CDFIs looking to build their staff capacity.
+  details: The Native CDFI Workforce Resource Map provides information to Native CDFIs
+    looking to build their staff capacity.
+  image: Native-CDFI-Workforce-Resource-Map.png
+  image-alt: A map of the contiguous United States depicting 'Native CFDI Workforce
+    Resource'.
+  link: https://www.sweetgrassconsulting.net/native-cdfi-workforce-resource-map
+  problem_statement:
+  - recvGCiCh48crr8iQ
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recy1S4Z8Vffo2HgG
+  tech_team_text: Sweet Grass Consulting
+  title: Native CDFI Workforce Resource Map
+  year:
+  - 2023
 - Description (Old): A tool by Zillow for exploring the opportunity and growth potential
     of Baltimore's neighborhoods.
   Product Name: Baltimore Explorer
@@ -170,6 +197,32 @@
   title: Get Vets Help
   year:
   - 2017
+- Product Name: CardGenius
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: rec1QkccgLw2TFUld
+  category:
+  - Consumer Finance
+  data_sets: 2022 TCCP Survey Data
+  data_sets_text: 2022 TCCP Survey Data
+  description: CardGenius helps college students with making more informed credit
+    card decisions and educates them in their credit card shopping journey.
+  details: CardGenius helps college students with making more informed credit card
+    decisions and educates them in their credit card shopping journey.
+  image: cardgenius2023.png
+  image-alt: A prototype of the mobile interface of the CardGenius app.
+  link: https://top-cardgenius.glide.page/
+  problem_statement:
+  - recxxbq9lUYmPjrBc
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recsHUOMFI23B8DbD
+  tech_team_text: Columbia University
+  title: CardGenius
+  year:
+  - 2023
 - Product Name: 'Mental Health Toolkit: Student Guide'
   agencies:
   - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
@@ -506,7 +559,7 @@
   airtable_createdTime: '2023-02-19T18:04:18.000Z'
   airtable_id: rec5dYIKba0RhjGO4
   category:
-  - Grants
+  - Federal Funding
   data_sets: Grants.gov
   data_sets_text: Grants.gov
   description: The grant success toolkit provides Federal grantors with the framework
@@ -528,6 +581,33 @@
   title: Grant Success Toolkit
   year:
   - 2022
+- Product Name: 'Grant Glider '
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-16T15:47:54.000Z'
+  airtable_id: rec623c9emJhagSb1
+  category:
+  - Environment
+  data_sets: Various datasets from DOE, NSF, HHS, and USDA
+  data_sets_text: Various datasets from DOE, NSF, HHS, and USDA
+  description: Grant Glider uses federal open data and approved grants to simplify
+    and optimize the grant application process for nonprofits of all sizes.
+  details: Grant Glider uses federal open data and approved grants to simplify and
+    optimize the grant application process for nonprofits of all sizes.
+  image: grant-glider.png
+  image-alt: A screenshot of the Grant Glider webpage that reads" Empower your grant
+    applications with AI."
+  link: https://grantglider.webflow.io/
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recq5ZeICZSA6emlM
+  tech_team_text: Tufts University
+  title: 'Grant Glider '
+  year:
+  - 2023
 - Description (Old): Uses labor/employment info from multiple federal data sources
     to help navigate careers in government for Americans.
   Product Name: Opportunity.hackernest.com
@@ -619,6 +699,36 @@
   title: Rural Startup Scout
   year:
   - 2019
+- Product Name: Credit Hike
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: rec6jHBb1OIYBFhSt
+  category:
+  - Consumer Finance
+  data_sets: CFPB 2022 Data Set
+  data_sets_text: CFPB 2022 Data Set
+  description: Credit Hike is an educational tool that allows users to expand their
+    financial literacy through the context of a simulated journey through credit card
+    ownership. Here, users can learn how to make informed decisions regarding their
+    financial future.
+  details: Credit Hike is an educational tool that allows users to expand their financial
+    literacy through the context of a simulated journey through credit card ownership.
+    Here, users can learn how to make informed decisions regarding their financial
+    future.
+  image: credit-hike.png
+  image-alt: A prototype of the mobile interface of the Credit Hike app.
+  link: https://credithike.netlify.app/
+  problem_statement:
+  - recxxbq9lUYmPjrBc
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recoW3zsEpiehaKqA
+  tech_team_text: General Assembly
+  title: Credit Hike
+  year:
+  - 2023
 - Description (Old): A tool from Esri that shows where opportunities are for low income
     citizens with children.
   Product Name: Affordable Housing Finder
@@ -679,6 +789,35 @@
   title: OPS Self-Help Healthcare Diagnostic Tool
   year:
   - 2023
+- Product Name: 'MEIT: Multidimensional Energy Insecurity Tool'
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: rec77OFxnjgiXnp3q
+  category:
+  - Environment
+  data_sets: EIA  Residential Energy Consumption Survey, FEMA Climate Risk and Resilience
+    Portal, US Census American Community Survey, EIA Form 861
+  data_sets_text: EIA  Residential Energy Consumption Survey, FEMA Climate Risk and
+    Resilience Portal, US Census American Community Survey, EIA Form 861
+  description: MEIT is a high resolution estimate of the prevalence of energy insecurity,
+    according to a multidimensional set of metrics.
+  details: MEIT is a high resolution estimate of the prevalence of energy insecurity,
+    according to a multidimensional set of metrics.
+  image: MEIT2023.png
+  image-alt: A map of the contiguous United States divided by county including media
+    SCALEB predictions.
+  link: https://public.tableau.com/app/profile/aline.abayo/viz/EnergyPovertyMetricsintheUS/Predicted#1
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recalN8xONKfePEWy
+  tech_team_text: UC Berkeley
+  title: 'MEIT: Multidimensional Energy Insecurity Tool'
+  year:
+  - 2023
 - Product Name: SafeDigi-ID
   agencies:
   - City of Coral Gables
@@ -723,7 +862,7 @@
   airtable_createdTime: '2020-02-04T21:30:14.000Z'
   airtable_id: rec7ZBToNYyY324ur
   category:
-  - Grants
+  - Federal Funding
   data_sets: Department of Health and Human Services; Department of Education; USASpending.gov;
     SAM.gov; Grants.gov; FEMA
   data_sets_text: Department of Health and Human Services; Department of Education;
@@ -886,7 +1025,7 @@
   airtable_createdTime: '2020-02-10T15:57:43.000Z'
   airtable_id: rec8TOXd9wzR5MRdI
   category:
-  - Grants
+  - Federal Funding
   data_sets: Grants.gov database
   data_sets_text: Grants.gov database
   datasets copy:
@@ -1371,6 +1510,34 @@
   title: Health Awareness Framework
   year:
   - 2023
+- Product Name: The National Economic Resilience Data Explorer (NERDE)
+  agencies:
+  - U.S. Department of Commerce
+  airtable_createdTime: '2024-01-05T19:50:17.000Z'
+  airtable_id: recCRTcNwwy5DA1rN
+  category:
+  - Economic Development
+  data_sets: Census ACS, Census County Business Patterns, BEA, DOL
+  data_sets_text: Census ACS, Census County Business Patterns, BEA, DOL
+  description: 'National Economic Resilience Data Explorer (NERDE) helps Economic
+    Development Districts and local governments better understand their community''s
+    vulnerabilities and helps them to build data guided solutions. '
+  details: 'National Economic Resilience Data Explorer (NERDE) helps Economic Development
+    Districts and local governments better understand their community''s vulnerabilities
+    and helps them to build data guided solutions. '
+  image: NERDE2023.png
+  image-alt: A screenshot of the product website that reads "Discover, Explore, Research".
+  link: https://www.anl.gov/dis/national-economic-resilience-data-explorer-nerde
+  problem_statement:
+  - reczViJ9R5i84HkLl
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - reciUWklafQRJLpuE
+  tech_team_text: Argonne National Lab
+  title: The National Economic Resilience Data Explorer (NERDE)
+  year:
+  - 2023
 - Description (Old): Uses a combination of 30 datasets to generate instant insights
     that address accessibility of opportunity and emotional well-being for citizens
     across the county.
@@ -1443,7 +1610,7 @@
   airtable_createdTime: '2023-02-03T15:10:55.000Z'
   airtable_id: recDV3KTI0ghnUZyq
   category:
-  - Grants
+  - Federal Funding
   data_sets: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
   data_sets_text: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
   description: Grant Guide uses USASpending, Michigan.gov, Build.gov, Grants.gov,
@@ -1618,6 +1785,34 @@
   title: City Builder
   year:
   - 2021
+- Product Name: Energy Poverty Awareness Scorecard/Dashboard
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recEO3M01DFzo0HRU
+  category:
+  - Environment
+  data_sets: EPA Emissions & Generation Resource Integrated Database (eGRID), Census
+    Household Pulse Survey
+  data_sets_text: EPA Emissions & Generation Resource Integrated Database (eGRID),
+    Census Household Pulse Survey
+  description: Energy Poverty Awareness Scorecard/Dashboard allows state governments
+    to visualize and analyze their shortcomings when it comes to energy poverty.
+  details: Energy Poverty Awareness Scorecard/Dashboard allows state governments to
+    visualize and analyze their shortcomings when it comes to energy poverty.
+  image: Energy-Poverty-Awareness-ScorecardDashboard.png
+  image-alt: A screenshot including a map of Maryland.
+  link: https://energypoverty5.wordpress.com/
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recJbI1VWAovsjoY3
+  tech_team_text: Bowie State University
+  title: Energy Poverty Awareness Scorecard/Dashboard
+  year:
+  - 2023
 - Description (Old): Burning Glass Technologies used federal open data from the Department
     of Labor and US Census Bureau, proprietary Burning Glass data on labor market
     demand, and public data from the US Cluster Mapping Project to assist regional
@@ -1946,6 +2141,36 @@
   title: AirMotionDC
   year:
   - 2020
+- Product Name: 'Opportunity Map: Invest in Native CDFIs'
+  agencies:
+  - U.S. Economic Development Administration
+  airtable_createdTime: '2024-01-03T18:56:29.000Z'
+  airtable_id: recGkuLc845ee6100
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: CDFI Fund list of Certified CDFIs
+  data_sets_text: CDFI Fund list of Certified CDFIs
+  description: Opportunity Map is an interactive map for Native Community Development
+    Financial Institutions (CDFIs) looking for funding that supports moving capital
+    into Native American, Alaskan Native, and Native Hawaiian communities by connecting
+    Native CDFIs and investors.
+  details: Opportunity Map is an interactive map for Native Community Development
+    Financial Institutions (CDFIs) looking for funding that supports moving capital
+    into Native American, Alaskan Native, and Native Hawaiian communities by connecting
+    Native CDFIs and investors.
+  image: nativeCDFIs-map.png
+  image-alt: 'A map of the United States demarcating locations of Native CDFIs. '
+  link: 'https://mapboxlocators.oweesta.org/TOP-Map-NCDFIs/ '
+  problem_statement:
+  - recvGCiCh48crr8iQ
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - rec7ADZS5gA6lgCVt
+  tech_team_text: Oweesta Corporation
+  title: 'Opportunity Map: Invest in Native CDFIs'
+  year:
+  - 2023
 - Description (Old): Cisco DevNet's tool uses American Community Survey data from
     the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials
     and application developers so they can solve social problems using open data available
@@ -2047,7 +2272,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recInJkN32BqrgTtT
   category:
-  - Grants
+  - Federal Funding
   data_sets: USAspending COVID-19 Relief Funding; Census Bureau ACS; BLS Labor Participation
     Data
   data_sets_text: USAspending COVID-19 Relief Funding; Census Bureau ACS; BLS Labor
@@ -2187,7 +2412,7 @@
   airtable_createdTime: '2023-01-26T19:02:20.000Z'
   airtable_id: recKkFSYxmYPKLvZN
   category:
-  - Grants
+  - Federal Funding
   data_sets: Grants.gov
   data_sets_text: Grants.gov
   description: Intergrants uses Grants.gov and state data to provide accessible information
@@ -2216,8 +2441,8 @@
   airtable_createdTime: '2021-02-22T16:51:54.000Z'
   airtable_id: recKvTzcx7VCF9HfW
   category:
-  - Grants
   - Disasters
+  - Federal Funding
   data_sets: USA Spending
   data_sets_text: USA Spending
   datasets copy:
@@ -2303,6 +2528,36 @@
   title: Get Out the Lead
   year:
   - 2022
+- Product Name: Leamos App
+  agencies:
+  - Todos a Leer Coalition
+  airtable_createdTime: '2024-01-05T16:08:26.000Z'
+  airtable_id: recLompwuIpseaHVu
+  category:
+  - Education
+  data_sets: '2022: ACS 1-year Estimates 2000: DEC 110th Congressional District Demographic
+    Profile'
+  data_sets_text: '2022: ACS 1-year Estimates 2000: DEC 110th Congressional District
+    Demographic Profile'
+  description: Leamos App informs parents on literacy issues in Puerto Rico and provides
+    parents with reading resources and games for their children to promote at-home
+    reading.
+  details: Leamos App informs parents on literacy issues in Puerto Rico and provides
+    parents with reading resources and games for their children to promote at-home
+    reading.
+  image: leamos.png
+  image-alt: An image of the product's mobile prototype that displays Reading Progress.
+  link: https://www.adastramedia.org/
+  problem_statement:
+  - recj83TcuOR5DPoZB
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - reca4iOr3V8nTQSTV
+  tech_team_text: Ad Astra Media
+  title: Leamos App
+  year:
+  - 2023
 - Product Name: Community & Connections
   agencies:
   - U.S. Department of Health and Human Services, Instituto del Desarrollo de la Juventud
@@ -2558,6 +2813,40 @@
   title: Opportunity Enabler
   year:
   - 2016
+- Product Name: Economic Developer GeoExplorer (EDGE)
+  agencies:
+  - U.S. Department of Commerce
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recO6PeJ1qi2X6KPv
+  category:
+  - Economic Development
+  data_sets: Various Census surveys and datasets including ACS, USA 2020 Census, and
+    Tribal data
+  data_sets_text: Various Census surveys and datasets including ACS, USA 2020 Census,
+    and Tribal data
+  description: This prototype application designed by Esri provides users with valuable
+    data driven insights to support better decision-making regarding grant applications,
+    attracting investments at a local-level, and to showcase the progress and growth
+    within their own communities, as well as any other communities across the country
+    for comparison.
+  details: This prototype application designed by Esri provides users with valuable
+    data driven insights to support better decision-making regarding grant applications,
+    attracting investments at a local-level, and to showcase the progress and growth
+    within their own communities, as well as any other communities across the country
+    for comparison.
+  image: Economic-Developer-GeoExplorer.png
+  image-alt: A screenshot of a desktop interactive map of Johnston, Pennsylvania.
+  link: https://experience.arcgis.com/experience/552847aeaa2343f7b13e537d1cdf4455/page/Home/
+  problem_statement:
+  - reczViJ9R5i84HkLl
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recRGKwCvNp7cXZFG
+  tech_team_text: Esri
+  title: Economic Developer GeoExplorer (EDGE)
+  year:
+  - 2023
 - Description (Old): IBM's tool is an iOS application to support the logistical planning,
     coordination, execution, and data collection effort undertaken by Census Bureau
     employees conducting the homeless count.
@@ -2628,6 +2917,35 @@
   title: Data2GO.NYC
   year:
   - 2016
+- Product Name: Neighborhood Explorer
+  agencies:
+  - National League of Cities
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recPUDlatHj609fv7
+  category:
+  - Health
+  data_sets: CDC PLACES, Census American Community Survey
+  data_sets_text: CDC PLACES, Census American Community Survey
+  description: Neighborhood Explorer reduces social isolation among Tulsa residents
+    by providing an interactive and gamified dashboard of neighborhood-level amenities
+    and services that boost social connection and health outcomes.
+  details: Neighborhood Explorer reduces social isolation among Tulsa residents by
+    providing an interactive and gamified dashboard of neighborhood-level amenities
+    and services that boost social connection and health outcomes.
+  image: Neighborhood-Explorer.png
+  image-alt: A screenshot of the product website that reads "How can we make Tulsa
+    better?".
+  link: https://www.neighborhoodexplorer.org/
+  problem_statement:
+  - rectgIqMvOrJrs0fr
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recNJ62y20QNUkWwC
+  tech_team_text: 9B Corp
+  title: Neighborhood Explorer
+  year:
+  - 2023
 - Product Name: TrendR
   agencies:
   - U.S. Census Bureau
@@ -2831,6 +3149,32 @@
   title: Heat Wave Education Website
   year:
   - 2022
+- Product Name: Definitive Choice
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recRej7RjybCc0BCO
+  category:
+  - Consumer Finance
+  data_sets: TCCP survey data
+  data_sets_text: TCCP survey data
+  description: Definitive Choice combines data with a proven decision making process
+    to assist consumers in making the best choices for their credit needs.
+  details: Definitive Choice combines data with a proven decision making process to
+    assist consumers in making the best choices for their credit needs.
+  image: definitive-choice.png
+  image-alt: Screenshots of the mobile interface of the Definitive Choice app.
+  link: http://www.definitivechoice.com/
+  problem_statement:
+  - recxxbq9lUYmPjrBc
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recXVjMaWzTfLMiN6
+  tech_team_text: Definitive Business Solutions
+  title: Definitive Choice
+  year:
+  - 2023
 - Product Name: Pollution Policy Watch
   agencies:
   - U.S. Environmental Protection Agency
@@ -2924,6 +3268,34 @@
   title: FHIR to OMOP Data Mapping
   year:
   - 2023
+- Product Name: Bridge
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recRz8HvDJwsWRmvx
+  category:
+  - Consumer Finance
+  data_sets: CFPB Credit Card database
+  data_sets_text: CFPB Credit Card database
+  description: 'Bridge is a user-centric product that helps consumers living on low
+    and moderate incomes get rid of predatory credit cards by giving them access to
+    the best balance transfer credit cards that they are eligible for. '
+  details: 'Bridge is a user-centric product that helps consumers living on low and
+    moderate incomes get rid of predatory credit cards by giving them access to the
+    best balance transfer credit cards that they are eligible for. '
+  image: bridge-to-better-debt.png
+  image-alt: A screenshot of a mobile app that reads "Bridge to Better Debt".
+  link: https://neighborhoodtrust.org/insights/
+  problem_statement:
+  - recxxbq9lUYmPjrBc
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recHfQCmH5z4W4DHu
+  tech_team_text: Neighborhood Trust Financial Partners
+  title: Bridge
+  year:
+  - 2023
 - Description (Old): "eCivis\u2019 tool Grants Intelligence - Homelessness uses data\
     \ from the Census Bureau, USASpending.gov, SAM.gov, grants.gov, and HUD to make\
     \ homelessness stats and related funding data easily accessible for grants professionals,\
@@ -2935,8 +3307,8 @@
   airtable_createdTime: '2020-02-04T21:30:23.000Z'
   airtable_id: recS7BtmNHTnpRGan
   category:
-  - Grants
   - Discovery
+  - Federal Funding
   data_sets: Census Bureau; USASpending.gov, SAM.gov; grants.gov; Department of Housing
     and Urban Development
   data_sets_text: Census Bureau; USASpending.gov, SAM.gov; grants.gov; Department
@@ -3069,7 +3441,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recTjc4M1TyJxMjjU
   category:
-  - Grants
+  - Federal Funding
   data_sets: USA Spending; CDC Social Vulnerability Index, Vaccination Data; Census
     Bureau 2020 Data
   data_sets_text: USA Spending; CDC Social Vulnerability Index, Vaccination Data;
@@ -3158,6 +3530,38 @@
   title: Bayes BD
   year:
   - 2017
+- Product Name: Cheyenne River Thriving Wage
+  agencies:
+  - U.S. Economic Development Administration
+  airtable_createdTime: '2024-01-05T20:01:06.000Z'
+  airtable_id: recV0M7dq4826qszM
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: N/A
+  data_sets_text: N/A
+  description: "Cheyenne River Reservation Thriving Wage product solves the invisibility\
+    \ and inaccuracy of current federal data sets for Native CDFI\u2019s, reservation-based\
+    \ businesses with employees, businesses considering hiring a reservation-based\
+    \ workforce, and tribal economic development departments."
+  details: "Cheyenne River Reservation Thriving Wage product solves the invisibility\
+    \ and inaccuracy of current federal data sets for Native CDFI\u2019s, reservation-based\
+    \ businesses with employees, businesses considering hiring a reservation-based\
+    \ workforce, and tribal economic development departments."
+  image: Cheyenne-River-Thriving-Wage.png
+  image-alt: A visual that reads "Resourceful Cashflow | Challenging Narratives" and
+    compares the 'Buffalo Economy' and the 'Western Economy'.
+  link: https://www.mountainplainscoalition.org/
+  problem_statement:
+  - recvGCiCh48crr8iQ
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recgMkdt8kq4yGCKl
+  tech_team_text: Mountain | Plains Regional Native CDFI Coalition & Indigenous Impact
+    Co
+  title: Cheyenne River Thriving Wage
+  year:
+  - 2023
 - Description (Old): Ushahidi Job Postings combines crowdsourced job reports to share
     alerts of local job openings.
   Product Name: Job Crowdsourcing Tool
@@ -3214,6 +3618,35 @@
   title: 'Mental Health Toolkit: Teacher Guide'
   year:
   - 2022
+- Product Name: Civic Roundtable
+  agencies:
+  - U.S. Department of Commerce
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recWBDws9Rs7G445P
+  category:
+  - Economic Development
+  data_sets: N/A
+  data_sets_text: N/A
+  description: Civic Roundtable is a collaboration tool for policymakers to communicate
+    with data providers, digital tool creators, and each other on best practices for
+    using data in economic development decision-making.
+  details: Civic Roundtable is a collaboration tool for policymakers to communicate
+    with data providers, digital tool creators, and each other on best practices for
+    using data in economic development decision-making.
+  image: Civic-Roundtable.png
+  image-alt: A screenshot of the platform homepage that reads "Census Data in Economic
+    Development".
+  link: http://app.civicroundtable.com/
+  problem_statement:
+  - reczViJ9R5i84HkLl
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recCyVM4n5WxkTHG7
+  tech_team_text: Civic Roundtable
+  title: Civic Roundtable
+  year:
+  - 2023
 - Product Name: Thunderbird Software
   agencies:
   - "National Renewable Energy Laboratory, Puerto Rico Negociado de Energ\xEDa"
@@ -3245,6 +3678,38 @@
   title: Thunderbird Software
   year:
   - 2022
+- Product Name: CreditBoost
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recX5cAhAZFbfeguu
+  category:
+  - Consumer Finance
+  data_sets: |
+    CFPB Terms of credit card plans
+  data_sets_text: |
+    CFPB Terms of credit card plans
+  description: CreditBoost is a comprehensive financial literacy app which provides
+    real-time economic indicators to provide personalized financial education and
+    guidance, empowering users, particularly college or university students both undergraduate
+    and graduate students, to make informed and sustainable financial decisions.
+  details: CreditBoost is a comprehensive financial literacy app which provides real-time
+    economic indicators to provide personalized financial education and guidance,
+    empowering users, particularly college or university students both undergraduate
+    and graduate students, to make informed and sustainable financial decisions.
+  image: CreditBoost2023.png
+  image-alt: The user flow of the CreditBoost mobile app.
+  link: https://www.figma.com/file/6VhLNUFSH8zEXWHothsx4M/PHILANDER-SMITH-UNIVERSITY-TOP-UNI-SPRINT-CREDITBOOST-APP-PROTOTYPE-(Copy)?type=design&node-id=10%3A3000&mode=design&t=wY3aNsMkDvj3dlI2-1
+  problem_statement:
+  - recxxbq9lUYmPjrBc
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recYQOkCYrBjS1eWX
+  tech_team_text: Philander Smith University
+  title: CreditBoost
+  year:
+  - 2023
 - Product Name: PR Addressing StoryMap
   agencies:
   - U.S. Census Bureau, U.S. Department of Housing and Urban Development
@@ -3363,6 +3828,34 @@
   year:
   - 2021
   - 2022
+- Product Name: 'Opportunity Map: Investors Interested in Funding Native Communities'
+  agencies:
+  - U.S. Economic Development Administration
+  airtable_createdTime: '2024-01-03T18:56:37.000Z'
+  airtable_id: recXx34NtlBINGkzz
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: CDFI Fund list of Certified CDFIs
+  data_sets_text: CDFI Fund list of Certified CDFIs
+  description: Opportunity Map is an interactive map for funders looking to invest
+    in Native communities that supports moving capital into Native American, Alaskan
+    Native, and Native Hawaiian communities by connecting Native CDFIs and investors.
+  details: Opportunity Map is an interactive map for funders looking to invest in
+    Native communities that supports moving capital into Native American, Alaskan
+    Native, and Native Hawaiian communities by connecting Native CDFIs and investors.
+  image: investors-oweesta.png
+  image-alt: 'A map of the United States demarcating locations of Native CDFIs. '
+  link: https://mapboxlocators.oweesta.org/TOP-Map-Investors/
+  problem_statement:
+  - recvGCiCh48crr8iQ
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - rec7ADZS5gA6lgCVt
+  tech_team_text: Oweesta Corporation
+  title: 'Opportunity Map: Investors Interested in Funding Native Communities'
+  year:
+  - 2023
 - Product Name: Digital Health Pass
   agencies:
   - U.S. Department of Health and Human Services
@@ -3612,6 +4105,39 @@
   title: Windyfi
   year:
   - 2022
+- Product Name: GrantVEST - Commercialization Intelligence
+  agencies:
+  - Minority Business Development Agency, "Puerto Rico Science, Technology & Research
+    Trust", Colmena66
+  airtable_createdTime: '2024-01-03T18:59:13.000Z'
+  airtable_id: recZjQBlMYEFAqR5f
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: NASA, DOE, NSF Commercialization Standards, USDA Rural Investment Data,
+    Justice 40 Data, SBIR Open Topic Data , FLC IP Data, Bureau of Economic Analysis,
+    and others
+  data_sets_text: NASA, DOE, NSF Commercialization Standards, USDA Rural Investment
+    Data, Justice 40 Data, SBIR Open Topic Data , FLC IP Data, Bureau of Economic
+    Analysis, and others
+  description: 'GrantVEST helps entrepreneurs and researchers score their technologies''
+    commercialization potential, determine how to increase their success rate, and
+    identify the federal capital available for doing so. '
+  details: 'GrantVEST helps entrepreneurs and researchers score their technologies''
+    commercialization potential, determine how to increase their success rate, and
+    identify the federal capital available for doing so. '
+  image: grantvest2023.png
+  image-alt: A screenshot of the product website that reads "Market Readiness".
+  link: https://grantvest.co/
+  problem_statement:
+  - recaJpLTQROHfEZBW
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - rec1zQn9EmRvhgPHO
+  tech_team_text: GrantVEST
+  title: GrantVEST - Commercialization Intelligence
+  year:
+  - 2023
 - Product Name: The Ghost Gear Project
   agencies:
   - U.S. Department of State, The Wilson Center
@@ -3644,6 +4170,8 @@
   title: The Ghost Gear Project
   year:
   - 2020
+- airtable_createdTime: '2024-01-16T17:13:42.000Z'
+  airtable_id: recaTHfncTRM7rZyK
 - Product Name: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
   agencies:
   - National Oceanic and Atmospheric Administration
@@ -3768,6 +4296,38 @@
   title: Findyour.town
   year:
   - 2016
+- Product Name: TechTransfer
+  agencies:
+  - Minority Business Development Agency, "Puerto Rico Science, Technology & Research
+    Trust", Colmena66
+  airtable_createdTime: '2024-01-16T17:13:41.000Z'
+  airtable_id: reccYTpXIyC09vRJ2
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: 'United States Census Bureau, United States Summary; United States Census
+    Bureau, State Profile: Puerto Rico; US Census Bureau: Detailed E-Commerce Statistics
+    for Puerto Rico: 2017'
+  data_sets_text: 'United States Census Bureau, United States Summary; United States
+    Census Bureau, State Profile: Puerto Rico; US Census Bureau: Detailed E-Commerce
+    Statistics for Puerto Rico: 2017'
+  description: TechTransfer addresses the challenges that Puerto Rico entrepreneurs
+    and business-supporting organizations face in accessing technologies sustainably.
+  details: TechTransfer addresses the challenges that Puerto Rico entrepreneurs and
+    business-supporting organizations face in accessing technologies sustainably.
+  image: techtransfer.png
+  image-alt: A screenshot of the TechTransfer website including a volunteer registration
+    prompt.
+  link: https://www.cybertrustamerica.org/techtransfer
+  problem_statement:
+  - recaJpLTQROHfEZBW
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recdhIIMyxwUDiJi8
+  tech_team_text: Cybertrust America
+  title: TechTransfer
+  year:
+  - 2023
 - Description (Old): ZIPDatum tool uses data sets from the Census Bureau, U.S. Postal
     Service, and the National Address Database (NAD) schema to help the municipalities
     and communities in Puerto Rico enhance their address infrastructure to support
@@ -3958,6 +4518,31 @@
   title: Telemed
   year:
   - 2021
+- Product Name: GoodNeighUBors
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-09T14:31:49.000Z'
+  airtable_id: recdyM6jC7RVnQCHT
+  category:
+  - Environment
+  data_sets: Social Vulnerability data and Census data
+  data_sets_text: Social Vulnerability data and Census data
+  description: GoodNeighUBors improves the emergency response system in Buffalo, New
+    York.
+  details: GoodNeighUBors improves the emergency response system in Buffalo, New York.
+  image: GoodNeighUBors.png
+  image-alt: A user flow of the product.
+  link: https://www.youtube.com/watch?v=HA1ocnVJLPw
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recwArXD4vD6jlfo5
+  tech_team_text: University at Buffalo
+  title: GoodNeighUBors
+  year:
+  - 2023
 - Product Name: Air Aware
   agencies:
   - U.S. Environmental Protection Agency
@@ -4069,7 +4654,7 @@
   airtable_createdTime: '2023-01-26T19:03:04.000Z'
   airtable_id: recepiKrKKH2lggqF
   category:
-  - Grants
+  - Federal Funding
   data_sets: Grants.gov, Build.gov
   data_sets_text: Grants.gov, Build.gov
   description: 'We used federal open data from grants.gov and build.gov to create
@@ -4150,6 +4735,45 @@
   title: Wolfram Data Repository
   year:
   - 2016
+- Product Name: Puerto Rico Federal Funding & Impact Data Source Catalog
+  agencies:
+  - PolicyLink, U.S. Department of Commerce, Puerto Rico Office of Management and
+    Budget
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recfxGYOLFvGyAPwL
+  category:
+  - Federal Funding
+  data_sets: Federal Register, USAspending.gov, fiscaldata.gov, HUD-CDBG grants, data.gov,
+    White House Infrastructure Progress Map, US Census Data, and others
+  data_sets_text: Federal Register, USAspending.gov, fiscaldata.gov, HUD-CDBG grants,
+    data.gov, White House Infrastructure Progress Map, US Census Data, and others
+  description: As the first step towards the creation of a Federal Funding & Impact
+    Tracker for Puerto Rico, Sembrando Sentido has created a live Data Catalog that
+    categorizes data types and data sources on federal funds and impact allocated
+    to Puerto Rico, aiming to identify available information, analyze its quality,
+    define opportunities and challenges to address, in order to combine these data
+    sources and increase transparency of spending and impact.
+  details: As the first step towards the creation of a Federal Funding & Impact Tracker
+    for Puerto Rico, Sembrando Sentido has created a live Data Catalog that categorizes
+    data types and data sources on federal funds and impact allocated to Puerto Rico,
+    aiming to identify available information, analyze its quality, define opportunities
+    and challenges to address, in order to combine these data sources and increase
+    transparency of spending and impact.
+  image: Puerto-Rico-Federal-Funding-Impact-Data Source-Catalog.png
+  image-alt: |-
+    An image of Peurto Rican flags accompanied by the words "PUERTO RICO
+    FEDERAL FUNDING DATA SOURCE CATALOG HOW-TO GUIDE".
+  link: https://www.canva.com/design/DAF1vjEInkc/s_iK-NFIV7bAiC3mSEi8cQ/edit?utm_content=DAF1vjEInkc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+  problem_statement:
+  - recj5r6ttN3R5VAxQ
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recQwwyoa3gjcFL2t
+  tech_team_text: Sembrando Sentido
+  title: Puerto Rico Federal Funding & Impact Data Source Catalog
+  year:
+  - 2023
 - Product Name: Urban Intelligence Platform
   agencies:
   - Office of Management and Budget
@@ -4187,7 +4811,7 @@
   airtable_createdTime: '2023-01-26T19:03:11.000Z'
   airtable_id: recg2bOBx5mYTyTqj
   category:
-  - Grants
+  - Federal Funding
   data_sets: Build.gov, Grants.gov
   data_sets_text: Build.gov, Grants.gov
   description: Bridge is a Grant Management application, focused on empowering small
@@ -4508,13 +5132,44 @@
   title: Smart Clinical Testing Ecosystem for COVID-19
   year:
   - 2021
+- Product Name: ASSERT
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recieatw1jI8oqot3
+  category:
+  - Environment
+  data_sets: CDC/ATSDR Social Vulerability Indices, Outage Data Initiative power outage
+    dataset
+  data_sets_text: CDC/ATSDR Social Vulerability Indices, Outage Data Initiative power
+    outage dataset
+  description: ASSERT solves the problem of determining resource allocation for those
+    who distribute electric utility resources due to power outages.
+  details: ASSERT solves the problem of determining resource allocation for those
+    who distribute electric utility resources due to power outages.
+  image: assert2023.png
+  image-alt: A map of the United States demarcating locations of investors interested
+    in providing capital to NCDFIs.
+  link: https://suobset.github.io/assert/
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recwNy7LhSepYjemI
+  tech_team_text: University of Massachusetts
+  title: ASSERT
+  year:
+  - 2023
+- airtable_createdTime: '2024-01-16T17:13:42.000Z'
+  airtable_id: recj83ElUR0OAsv6N
 - Product Name: MSI COVID Relief Dashboard for Equity and Transparency
   agencies:
   - U.S. Department of the Treasury
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recjCaqyCRA1ja4Jh
   category:
-  - Grants
+  - Federal Funding
   data_sets: DOE Degree-Granting Institutions; USAspending Federal Spending Awards
   data_sets_text: DOE Degree-Granting Institutions; USAspending Federal Spending Awards
   description: Analyzes equity of COVID-19 relief award distribution for federal,
@@ -4740,8 +5395,8 @@
   airtable_createdTime: '2023-01-26T19:02:06.000Z'
   airtable_id: recm0rXVe1HBfzS3c
   category:
-  - Grants
   - Discovery
+  - Federal Funding
   data_sets: Grants.gov
   data_sets_text: Grants.gov
   description: SEAP created a resource to streamline the Federal discretionary grant
@@ -4857,6 +5512,35 @@
   title: Hard-to-Count Conversations
   year:
   - 2021
+- Product Name: Funding Journey
+  agencies:
+  - Minority Business Development Agency, "Puerto Rico Science, Technology & Research
+    Trust", Colmena66
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recn9m4ObOmd72xxK
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: "SBIR \nSolicitations API"
+  data_sets_text: "SBIR \nSolicitations API"
+  description: Funding Journey leverages AI to present curated solicitation for underrepresented
+    founders. The platform incorporates gamification and deep learning to assist founders
+    in identifying opportunities to apply to best related to their business expertise.
+  details: Funding Journey leverages AI to present curated solicitation for underrepresented
+    founders. The platform incorporates gamification and deep learning to assist founders
+    in identifying opportunities to apply to best related to their business expertise.
+  image: Funding-Journey.png
+  image-alt: A screenshot of the Funding Journey website that reads "viaje de financiacion...".
+  link: https://app6054.prod.dittofi.link/#/
+  problem_statement:
+  - recaJpLTQROHfEZBW
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recFjMa3lkU7jzS6P
+  tech_team_text: Tech Levitate
+  title: Funding Journey
+  year:
+  - 2023
 - Description (Old): "IBM\u2019s tool Watson Employment Manager uses DOL Career One\
     \ Stop, O*NET  center, Walkingscore.com, and Google maps data to provide career\
     \ recommendations on potential job/apprenticeship matches based on conceptual\
@@ -4986,6 +5670,36 @@
   title: Digisults Report
   year:
   - 2021
+- Product Name: Guiding Utility Investments with Social Capital
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recoqYQaViNJqssuM
+  category:
+  - Environment
+  data_sets: ODIN (Outage Data Initiative Nationwide); Resilience Analysis and Planning
+    Tool (RAPT) from the Federal Emergency Management Agency (FEMA); Social Vulnerability
+    Index (SVI) from the Center for Disease Control (CDC).
+  data_sets_text: ODIN (Outage Data Initiative Nationwide); Resilience Analysis and
+    Planning Tool (RAPT) from the Federal Emergency Management Agency (FEMA); Social
+    Vulnerability Index (SVI) from the Center for Disease Control (CDC).
+  description: Guiding Utility Investments with Social Capital includes data on blackouts,
+    social capital, and social vulnerability at a census tract resolution.
+  details: Guiding Utility Investments with Social Capital includes data on blackouts,
+    social capital, and social vulnerability at a census tract resolution.
+  image: Guiding-Utility-Investments-Social-Capital.png
+  image-alt: A map of the Pacific Northwest including the words "Clustering Methods".
+  link: https://storymaps.arcgis.com/stories/3c07482b58c341408c5bfc7d09d4a7fd
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recWjzZBO9dETap2g
+  tech_team_text: UT Austin RESET Lab
+  title: Guiding Utility Investments with Social Capital
+  year:
+  - 2023
 - Product Name: Floodware
   agencies:
   - U.S. Census Bureau
@@ -5011,6 +5725,35 @@
   title: Floodware
   year:
   - 2021
+- Product Name: Limit
+  agencies:
+  - Consumer Financial Protection Bureau
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recoyEEG6OjKAiMj7
+  category:
+  - Consumer Finance
+  data_sets: Terms of Credit Card Plans survey (CFPB), Census Financial Wellbeing
+    survey
+  data_sets_text: Terms of Credit Card Plans survey (CFPB), Census Financial Wellbeing
+    survey
+  description: Limit demystifies what credit is and provides college-aged students
+    (18-22) their ideal credit card matches based on user personality types.
+  details: Limit demystifies what credit is and provides college-aged students (18-22)
+    their ideal credit card matches based on user personality types.
+  image: limit2023.png
+  image-alt: A screenshot of the product website that reads "Welcome to Limit, the
+    Solution to Your Credit Card Worries."
+  link: http://limitcards.glitch.me
+  problem_statement:
+  - recxxbq9lUYmPjrBc
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - rec5xCRBoTlPoXaVP
+  tech_team_text: Rutgers University
+  title: Limit
+  year:
+  - 2023
 - Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
   Product Name: Streetwyze
   agencies:
@@ -5043,6 +5786,36 @@
   title: Streetwyze
   year:
   - 2016
+- Product Name: MTSS Toolkit
+  agencies:
+  - Todos a Leer Coalition
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recpN4VIAbNUpV0gD
+  category:
+  - Education
+  data_sets: Census Bureau TIGER/Line Geodatabases for maps
+  data_sets_text: Census Bureau TIGER/Line Geodatabases for maps
+  description: 'The MTSS Toolkit is designed to offer teachers and school leaders
+    a comprehensive view of student demographics and needs. This enables more targeted
+    interventions and demonstrably enhances literacy progress in schools, tailoring
+    educational strategies to the diverse needs of students.  '
+  details: 'The MTSS Toolkit is designed to offer teachers and school leaders a comprehensive
+    view of student demographics and needs. This enables more targeted interventions
+    and demonstrably enhances literacy progress in schools, tailoring educational
+    strategies to the diverse needs of students.  '
+  image: MTSS-Toolkit-openarchitects.png
+  image-alt: A screenshot of the Open Architects platform depicting school performance.
+  link: https://www.openarchitectsk12.com/packages/mtss/
+  problem_statement:
+  - recj83TcuOR5DPoZB
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recrj0l6GaYvBjlcp
+  tech_team_text: Open Architects
+  title: MTSS Toolkit
+  year:
+  - 2023
 - Description (Old): Story maps providing visibility into the affordability of opportunity
     for children in U.S. metro areas.
   Product Name: diversitydatakids.org
@@ -5093,6 +5866,34 @@
   title: At-Home Testing Platform
   year:
   - 2021
+- Product Name: Polis
+  agencies:
+  - U.S. Department of Commerce
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recpzBKrOpGvFf9sx
+  category:
+  - Economic Development
+  data_sets: Census, ACS, BLS, BEA, EPA, and USASpending
+  data_sets_text: Census, ACS, BLS, BEA, EPA, and USASpending
+  description: "Polis allows users to compute how similar jurisdictions are to each\
+    \ other based on customizable metrics, with the aim of identifying \u201Csister\
+    \ locations\u201D in which policy outcomes are more likely to transfer."
+  details: "Polis allows users to compute how similar jurisdictions are to each other\
+    \ based on customizable metrics, with the aim of identifying \u201Csister locations\u201D\
+    \ in which policy outcomes are more likely to transfer."
+  image: polis2023.png
+  image-alt: A map of the contiguous United States comparing counties based on similarities.
+  link: http://polis.basis.ai/
+  problem_statement:
+  - reczViJ9R5i84HkLl
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recfNjvp0QHUxOaBi
+  tech_team_text: Basis.ai
+  title: Polis
+  year:
+  - 2023
 - Product Name: Co-Verify
   agencies:
   - U.S. Department of Health and Human Services
@@ -5196,6 +5997,34 @@
   title: Veteran Apprenticeship Matcher
   year:
   - 2018
+- Product Name: Sidekick
+  agencies:
+  - U.S. Department of Commerce
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recqpP2GaZJh8fWFj
+  category:
+  - Economic Development
+  data_sets: Census ACS
+  data_sets_text: Census ACS
+  description: Sidekick is an AI assistant that helps community leaders and changemakers
+    find, visualize, and share data to inform decisions and improve outcomes.
+  details: Sidekick is an AI assistant that helps community leaders and changemakers
+    find, visualize, and share data to inform decisions and improve outcomes.
+  image: sidekick2023.png
+  image-alt: |-
+    A screenshot of the product website that reads "Meet Sidekick, the future of data-
+    driven governance."
+  link: https://visit.mysidewalk.com/experience-sidekick
+  problem_statement:
+  - reczViJ9R5i84HkLl
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recIN7L5u01PIOPrt
+  tech_team_text: mySidewalk
+  title: Sidekick
+  year:
+  - 2023
 - Description (Old): Puerto Rico Land Grid by Loveland Technologies combines a parcel
     map of Puerto Rico with a scalable mobile survey platform and federal open data
     sets and overlays. An accompanying survey plan and budget details an approach
@@ -5299,6 +6128,41 @@
   title: State Reporting Hub
   year:
   - 2021
+- Product Name: Knowledge Nodes Service (KNS)
+  agencies:
+  - Minority Business Development Agency, "Puerto Rico Science, Technology & Research
+    Trust", Colmena66
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recrDBDNmZ2pDTeMl
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: "SBIR and STTR America\u2019s Seed Fund, GRANTS.GOV, Challenge.gov, USASpending.gov,\
+    \ Federal Register, Federal Research and Development (R&D) Budget Data, Federal\
+    \ Agency-Specific Funding Portals "
+  data_sets_text: "SBIR and STTR America\u2019s Seed Fund, GRANTS.GOV, Challenge.gov,\
+    \ USASpending.gov, Federal Register, Federal Research and Development (R&D) Budget\
+    \ Data, Federal Agency-Specific Funding Portals "
+  description: "Knowledge Node Service (KNS) is an online platform mapping Puerto\
+    \ Rico\u2019s R&D ecosystem to solve economic developers and investors\u2019 challenge\
+    \ to easily find and act upon information on who\u2019s doing what in R&D on the\
+    \ Island."
+  details: "Knowledge Node Service (KNS) is an online platform mapping Puerto Rico\u2019\
+    s R&D ecosystem to solve economic developers and investors\u2019 challenge to\
+    \ easily find and act upon information on who\u2019s doing what in R&D on the\
+    \ Island."
+  image: Knowledge-Nodes-Service.png
+  image-alt: A screenshot of the product website that reads "Knowledge Node Map".
+  link: http://tinyurl.com/KNSDemo
+  problem_statement:
+  - recaJpLTQROHfEZBW
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - reclpqGUWvsc37YFN
+  tech_team_text: '"Digital Koru, LLC"'
+  title: Knowledge Nodes Service (KNS)
+  year:
+  - 2023
 - Description (Old): Great Schools and Education Cities' uses college readiness data
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
@@ -5817,6 +6681,35 @@
   title: Climunity Planning Tool
   year:
   - 2021
+- Product Name: N-POWER
+  agencies:
+  - U.S. Department of Energy
+  airtable_createdTime: '2024-01-03T18:59:15.000Z'
+  airtable_id: recwXFKF1KE1Tdznl
+  category:
+  - Environment
+  data_sets: EAGLE-I, ACS, emPOWER, BRIC
+  data_sets_text: EAGLE-I, ACS, emPOWER, BRIC
+  description: The N-POWER dashboard offers visualizations of electricity outage impacts
+    on diverse demographic groups, utilizing multiple federal open data sources for
+    both technical and non-technical users.
+  details: The N-POWER dashboard offers visualizations of electricity outage impacts
+    on diverse demographic groups, utilizing multiple federal open data sources for
+    both technical and non-technical users.
+  image: N-POWER.png
+  image-alt: A map of the state of Texas divided by county that depicts average customer
+    outage by hour by county.
+  link: https://youtu.be/7pUs1EX677o
+  problem_statement:
+  - rec179ZNGEoGhSceF
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recsHUOMFI23B8DbD
+  tech_team_text: Columbia University
+  title: N-POWER
+  year:
+  - 2023
 - Product Name: Companion App for COVID Testing
   agencies:
   - U.S. Department of Health and Human Services
@@ -5995,6 +6888,33 @@
   title: PPIO
   year:
   - 2020
+- Product Name: Ecosystem Partner Portal
+  agencies:
+  - National League of Cities
+  airtable_createdTime: '2024-01-03T18:58:44.000Z'
+  airtable_id: recxnGDJAOYstw6oy
+  category:
+  - Health
+  data_sets: Community Resilience Estimates and the American Community Survey
+  data_sets_text: Community Resilience Estimates and the American Community Survey
+  description: Ecosystem Partner Portal is a visualization of network dynamics for
+    intentional intervention in network growth for community members.
+  details: Ecosystem Partner Portal is a visualization of network dynamics for intentional
+    intervention in network growth for community members.
+  image: Ecosystem-Partner-Portal.png
+  image-alt: A bar graph depicting "Strength and Amount of Connections Among the Hatchery's
+    Network".
+  link: https://www.orangesparkleball.com/ecosystempartner1
+  problem_statement:
+  - rectgIqMvOrJrs0fr
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recXr8M7MQopZiCoo
+  tech_team_text: Orange Sparkle Ball
+  title: Ecosystem Partner Portal
+  year:
+  - 2023
 - Product Name: SafetyNet
   agencies:
   - City of Coral Gables
@@ -6115,6 +7035,35 @@
   title: Remote vs. Onsite Housing Affordability Dashboard
   year:
   - 2021
+- Product Name: Indigenous Stories by Geography
+  agencies:
+  - U.S. Economic Development Administration
+  airtable_createdTime: '2024-01-05T20:01:04.000Z'
+  airtable_id: recydTbslQzpfvQzR
+  category:
+  - Entrepreneurship & Small Businesses
+  data_sets: My Tribal Area
+  data_sets_text: My Tribal Area
+  description: Lenderfit used My Tribal Area to build a geography-based story solution
+    to both personalize and add additional context to this publicly available data
+    set.
+  details: Lenderfit used My Tribal Area to build a geography-based story solution
+    to both personalize and add additional context to this publicly available data
+    set.
+  image: Indigenous-Stories-by-Geography.png
+  image-alt: 'A screenshot of the survey homepage stating "We want to learn about
+    your journey!". '
+  link: https://lenderfit2.formstack.com/forms/top_sprint_public_link
+  problem_statement:
+  - recvGCiCh48crr8iQ
+  sprint:
+  - recXBSKFq7AYEnaRX
+  tech_team:
+  - recBupZp3NEmWYRcT
+  tech_team_text: Lenderfit
+  title: Indigenous Stories by Geography
+  year:
+  - 2023
 - Product Name: Climate Resilient Communities Hub
   agencies:
   - Federal Emergency Management Agency
@@ -6150,7 +7099,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: reczRIgLQwDor9AEH
   category:
-  - Grants
+  - Federal Funding
   data_sets: Census Bureau 2020 Data, Annual Business Survey; SBA PPP Data
   data_sets_text: Census Bureau 2020 Data, Annual Business Survey; SBA PPP Data
   description: Uses machine learning and predictive analytics to analyze federal data

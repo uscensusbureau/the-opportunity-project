@@ -124,6 +124,14 @@
     \ student teams."
   Full Title: Improving Access to Electrical Power for Climate Resilience
   Name: Improving Access to Electrical Power for Climate Resilience
+  Products:
+  - recieatw1jI8oqot3
+  - recEO3M01DFzo0HRU
+  - recoqYQaViNJqssuM
+  - rec77OFxnjgiXnp3q
+  - recwXFKF1KE1Tdznl
+  - recdyM6jC7RVnQCHT
+  - rec623c9emJhagSb1
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Federal, state, local, tribal, and territorial officials,
@@ -135,6 +143,9 @@
   organizations:
   - recmlYupWKakJKiyY
   pdf: 2023-TOPUniversity-DOE.pdf
+  products_text: 'ASSERT, Energy Poverty Awareness Scorecard/Dashboard, Guiding Utility
+    Investments with Social Capital, MEIT: Multidimensional Energy Insecurity Tool,
+    N-POWER, GoodNeighUBors, Grant Glider '
   sprint_order: 3
   sprint_text: 2023 Sprints
 - Challenge: "Develop potential new structures for parents and/or caregivers to meaningfully\
@@ -243,7 +254,8 @@
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
-- Name: Building Climate Change Resilience Through Public Transit
+- Full Title: Building Climate Change Resilience Through Public Transit
+  Name: Building Climate Change Resilience Through Public Transit
   airtable_createdTime: '2023-02-19T18:03:46.000Z'
   airtable_id: rec3q8shKbNoqN3Eq
 - Background: 'The Department of Transportation is focused on increasing safety and
@@ -485,6 +497,7 @@
   Challenge: During the academic year, many students rely on school meals for breakfast
     and lunch. In the summer, students and families seek a reliable alternative, but
     information on summer meals sites is often lacking.
+  Full Title: Summer Food Programs
   Name: Summer Food Programs
   Sprints:
   - recXANOXQ6JCTp5FU
@@ -821,7 +834,8 @@
     & Connections'
   sprint_order: 4
   sprint_text: 2022 Sprints
-- Name: Data Discovery
+- Full Title: Data Discovery
+  Name: Data Discovery
   Products:
   - rec3WBEVdijXZ6Q10
   - recr515MFR2AA1MPH
@@ -1463,7 +1477,8 @@
   pdf: 2017-veterans.pdf
   products_text: Get Vets Help, PAIRIN Pathways
   sprint_text: 2017 Sprint 1 (ED HUD VA)
-- Name: Veterans Suicide Prevention
+- Full Title: Veterans Suicide Prevention
+  Name: Veterans Suicide Prevention
   Products:
   - recGDyAI7oVONMMWS
   - recxMi3VnnIDpK6kM
@@ -1813,6 +1828,11 @@
     and commercialization.
   Full Title: Financing for Innovation and Technology Transfer in Puerto Rico
   Name: Financing for Innovation and Technology Transfer in Puerto Rico
+  Products:
+  - recn9m4ObOmd72xxK
+  - recZjQBlMYEFAqR5f
+  - recrDBDNmZ2pDTeMl
+  - reccYTpXIyC09vRJ2
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: The primary target end users are Puerto Rican innovators
@@ -1829,6 +1849,8 @@
   - rec3uH465KY2Ahcwm
   - recy7r5lTXwMaxrGI
   pdf: 2023-MBDA-PRSTRT-colmena66.pdf
+  products_text: Funding Journey, GrantVEST - Commercialization Intelligence, Knowledge
+    Nodes Service (KNS), TechTransfer
   sprint_order: 8
   sprint_text: 2023 Sprints
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
@@ -2627,6 +2649,9 @@
   pdf: 2016-ag.pdf
   products_text: Findyour.town
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Name: Improving Access to Electrical Power for Climate Resilience
+  airtable_createdTime: '2024-01-09T14:31:50.000Z'
+  airtable_id: rech42FBPSF27Q7Pa
 - Background: The Federal government has extensive data that currently exists in silos.
     Agencies maintain data about their programs, open data sources maintain various
     elements of meta data, and government-wide systems like Performance.gov and USASpending.gov
@@ -2690,14 +2715,16 @@
     spending and impact of federal funds in Puerto Rico.
   Full Title: Tracking Federal Funding Impact in Puerto Rico
   Name: Tracking Federal Funding Impact in Puerto Rico
+  Products:
+  - recfxGYOLFvGyAPwL
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Beneficiaries of federal funding allocations in Puerto
     Rico, especially highly vulnerable and marginalized communities, and Puerto Rico
     residents interested in understanding the impact of federal spending in local
     communities.
-  agency_text: PolicyLink, U.S. Department of Commerce, The Puerto Rico Office of
-    Management and Budget
+  agency_text: PolicyLink, U.S. Department of Commerce, Puerto Rico Office of Management
+    and Budget
   airtable_createdTime: '2023-08-02T02:10:27.000Z'
   airtable_id: recj5r6ttN3R5VAxQ
   organizations:
@@ -2705,6 +2732,7 @@
   - recTramMMKqiRnaob
   - recc8ezOALNO0uLpH
   pdf: 2023-doc-policylink-promb.pdf
+  products_text: Puerto Rico Federal Funding & Impact Data Source Catalog
   sprint_order: 6
   sprint_text: 2023 Sprints
 - Challenge: "Help educational organizations, government and the public gain a more\
@@ -2712,6 +2740,9 @@
     \ access to reading materials, and use of literacy skills."
   Full Title: Reducing the Literacy Gap in Puerto Rico Households
   Name: Reducing the Literacy Gap in Puerto Rico Households
+  Products:
+  - recpN4VIAbNUpV0gD
+  - recLompwuIpseaHVu
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Government agencies, community leaders, non-profit education
@@ -2723,6 +2754,7 @@
   organizations:
   - recEET7wP4lgddAwY
   pdf: 2023-todos-a-leer-coalition.pdf
+  products_text: MTSS Toolkit, Leamos App
   sprint_order: 7
   sprint_text: 2023 Sprints
 - Challenge: Improve climate resilience planning in communities around the nation
@@ -2730,6 +2762,7 @@
     of local-level priorities.
   Executive champion: Tony LaVoi, Chief Data Officer, NOAA
   Full Title: Tackling the Climate Crisis through Climate-Smart Communities
+  Name: Tackling the Climate Crisis through Climate-Smart Communities
   Products:
   - recEMgUJaKlxjgc89
   - rec9EnPeEfxzblVj0
@@ -3472,6 +3505,9 @@
     in the face of future crises.
   Full Title: Building Social Infrastructure Resilience for Local Communities
   Name: Building Social Infrastructure Resilience for Local Communities
+  Products:
+  - recxnGDJAOYstw6oy
+  - recPUDlatHj609fv7
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Local government leaders, community organizations, and
@@ -3482,6 +3518,7 @@
   organizations:
   - rec0YXBmpuYimT17n
   pdf: 2023-NLC.pdf
+  products_text: Ecosystem Partner Portal, Neighborhood Explorer
   sprint_order: 1
   sprint_text: 2023 Sprints
 - Background: The American dream is fading. Almost all children born in 1940 earned
@@ -3618,6 +3655,12 @@
     \ solutions."
   Full Title: Improving Access to Capital in Indigenous Communities through Data
   Name: Improving Access to Capital in Indigenous Communities through Data
+  Products:
+  - recGkuLc845ee6100
+  - recXx34NtlBINGkzz
+  - rec0ugnUjdcIKTzoW
+  - recydTbslQzpfvQzR
+  - recV0M7dq4826qszM
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Indigenous communities and thought leaders, economic
@@ -3626,9 +3669,29 @@
   agency_text: U.S. Economic Development Administration
   airtable_createdTime: '2023-07-25T21:05:16.000Z'
   airtable_id: recvGCiCh48crr8iQ
+  datasets copy:
+  - recaISNy9cHBGDHTV
+  - recbW3DgJBYh9TZwF
+  - recGP5IvaBQl3eYzQ
+  - reciP1VnzqGReOPEp
+  - rec9vUlS3GQcbEvbe
+  - reclqmKDADxgZRTDj
+  - recE8ATejdtcpBOuF
+  - recWtTYP50jrxS7ii
+  - recLvycbMSNIJhABX
+  - recn15Rw88yyM4SW4
+  - recauviDI0eIQO4oi
+  datasets_text: 'USDA Rural Gateway, Tribal Data Across Census Products, CDFI Fund:
+    Transaction Level Report (TLR) & Consumer Loan Report (CLR) Data, HUD: Section
+    184 Program Data, HUD Data Portal, SBA Datasets, USA Spending, Local Area Unemployment
+    Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing
+    Wage, Quarterly Census of Employment Wages (QCEW)'
   organizations:
   - recVal1KOBeL00l5j
   pdf: 2023-EDA.pdf
+  products_text: 'Opportunity Map: Invest in Native CDFIs, Opportunity Map: Investors
+    Interested in Funding Native Communities, Native CDFI Workforce Resource Map,
+    Indigenous Stories by Geography, Cheyenne River Thriving Wage'
   sprint_order: 5
   sprint_text: 2023 Sprints
 - Challenge: Create digital tools that help rural communities access and use data
@@ -3715,6 +3778,13 @@
     and promote competition in the credit card market.
   Full Title: Promoting Competition in the Credit Card Market
   Name: Promoting Competition in the Credit Card Market
+  Products:
+  - recRz8HvDJwsWRmvx
+  - rec1QkccgLw2TFUld
+  - rec6jHBb1OIYBFhSt
+  - recX5cAhAZFbfeguu
+  - recRej7RjybCc0BCO
+  - recoyEEG6OjKAiMj7
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: American consumers in need of a credit card.
@@ -3726,6 +3796,8 @@
   organizations:
   - recRxeCb5vLf8PCMF
   pdf: 2023-CFPB.pdf
+  products_text: Bridge, CardGenius, Credit Hike, CreditBoost, Definitive Choice,
+    Limit
   sprint_order: 2
   sprint_text: 2023 Sprints
 - Background: "A significant number of young Americans are not aware of the risks\
@@ -3916,6 +3988,12 @@
     place they live, work, or represent.
   Full Title: Improved Data Access for Local Policymakers
   Name: Improved Data Access for Local Policymakers
+  Products:
+  - recWBDws9Rs7G445P
+  - recO6PeJ1qi2X6KPv
+  - recpzBKrOpGvFf9sx
+  - recqpP2GaZJh8fWFj
+  - recCRTcNwwy5DA1rN
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Local elected officials, local policymakers, and economic
@@ -3955,17 +4033,21 @@
   - recXFh4Eki8pFMAvk
   - recpOlHVBkiKQaj0e
   - recoGnqdQQVpeZRCA
-  - recaISNy9cHBGDHTV
-  datasets_text: |-
-    American Community Survey (ACS), Small Area Income and Poverty Estimates (SAIPE), Population and Housing Unit Estimates, "Longitudinal Employer-Household Dynamics
-     - Quarterly Workforce Indicators (QWI)
-     - LEHD Origin-Destination Employment Statistics (LODES)
-     - Job-to-Job Flows (J2J)
-     - Post-Secondary Employment Outcomes (PSEO)
-     - Veteran Employment Outcomes (VEO)", Economic Census, Community Resilience Estimates, Gini Index, Census Business Builder, GDP, RPP, Personal income, Personal consumption expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary Education Data System, Higher Education Research & Development Survey (HERD), CDC WONDER, Birth data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum, Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor, Unnamed record
+  datasets_text: American Community Survey (ACS), Small Area Income and Poverty Estimates
+    (SAIPE), Population and Housing Unit Estimates, Longitudinal Employer-Household
+    Dynamics, Economic Census, Community Resilience Estimates, Gini Index, Census
+    Business Builder, GDP, Regional Price Parities, Personal Income, Personal Consumption
+    Expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State
+    & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary
+    Education Data System, Higher Education Research & Development Survey (HERD),
+    CDC WONDER, Birth Data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum,
+    Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan
+    Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor
   organizations:
   - recTramMMKqiRnaob
   pdf: 2023-DOC.pdf
+  products_text: Civic Roundtable, Economic Developer GeoExplorer (EDGE), Polis, Sidekick,
+    The National Economic Resilience Data Explorer (NERDE)
   sprint_order: 4
   sprint_text: 2023 Sprints
 - Challenge: 'Develop digital products or physical/digital works of art that creatively

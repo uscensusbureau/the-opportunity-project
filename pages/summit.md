@@ -7,30 +7,29 @@ class: summit
 
 background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: Our annual innovation summit is a multi-day virtual conference that features speakers, discussions, product demonstrations, and hands-on learning opportunities by and for the TOP community.
-  subtext: Showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
+  text: Our annual innovation summit is a multi-day virtual conference showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
+  subtext:
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Save the date! Census Open Innovation Summit is scheduled for January 17 - 19, 2024.
+    text: Missed [Census Open Innovation Summit 2024](https://coilsummit2024.splashthat.com/)? Watch the recordings on YouTube, featuring 25 sessions, more than 90 speakers, and 30 new tech products.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Join us virtually to view new digital products and many more innovations from the TOP community.<br/><br/>
-      More information is coming soon.
-    class: text-normal cta-one padding-x-5 tablet:padding-x-9
+      Watch recordings of the sessions on the U.S. Census Bureau's YouTube channel:
+    class: text-normal cta-one padding-x-5 tablet:padding-x-9 display-none
   custom:
-    text: RSVP to Attend
-    href: /topx-toolkit/phase-1
+    text: Catch Up on YouTube
+    href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
     isExternal: true
-    class: display-none
+    class: usa-button--secondary
 
 video-one:
   class: highlight-video-section tablet:width-full
   video:
-    src: https://www.youtube.com/embed/videoseries?si=qtl6VAkzlIoFThBN&amp;list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+    src: https://www.youtube.com/embed/aUvG5fpQtD0?si=0H25_23CWMbxpkpj
     alt-text: "2022 TOP Summit (February 2023)"
     mobile-width: 233
     mobile-height: 125

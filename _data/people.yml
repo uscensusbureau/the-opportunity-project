@@ -21,6 +21,7 @@
   datasets copy:
   - recr5Vn8iowFkfP2A
   - recyRYWG99a1eh09f
+  - recbW3DgJBYh9TZwF
   email: eric.a.coyle@census.gov
   name: Eric Coyle
   organizations:
@@ -625,6 +626,7 @@
   airtable_id: recEcM0DyvD6Wl0m6
   datasets copy:
   - recTzOvE8ckrG9Hks
+  - recE8ATejdtcpBOuF
   email: Amanda.Cayton@fiscal.treasury.gov
   name: Amanda Cayton
   organizations:
@@ -774,6 +776,24 @@
   natl env datasets: Annual Mineral Commodity Summaries
   organizations:
   - recIeXqiRxBShJDxj
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:30.000Z'
+  airtable_id: recGdztiYZaZdiT6d
+  datasets copy:
+  - reciP1VnzqGReOPEp
+  email: jad.k.atallah@hud.gov
+  name: Jad Atallah
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:57.000Z'
+  airtable_id: recH71v2BPYe2JI1M
+  email: iris.friday@hud.gov
+  name: Iris Friday
+  organizations:
+  - recZHYzutcUOzjudU
 - Role:
   - Data Steward
   Sprint:
@@ -1097,6 +1117,7 @@
   - recfHbMURBlYFpyUg
   - recZLJYt4aiXjtf3C
   - recFNFjsSElkmYfvk
+  - rec9vUlS3GQcbEvbe
   email: Lydia.B.Taghavi@hud.gov
   name: Lydia Taghavi
   organizations:
@@ -1305,6 +1326,14 @@
   - recsSGW4gI1BkXCmo
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-11-17T15:19:32.000Z'
+  airtable_id: recWc6YibYhLEOLDM
+  email: tedd.buelow@usda.gov
+  name: Tedd Buelow
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Data Steward
   airtable_createdTime: '2023-10-17T14:26:50.000Z'
   airtable_id: recXbzTTSUXL0vNm8
   datasets copy:
@@ -1429,6 +1458,14 @@
   natl env datasets: OpenDataPhilly
   organizations:
   - reckYpauKMu322FXH
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:22:04.000Z'
+  airtable_id: recbknqXAxD7PJFWg
+  email: alejandro.contreras@sba.gov
+  name: Alejandro Contreras
+  organizations:
+  - recpWYU9m41axHFU2
 - Role:
   - Data Steward
   Sprint:
@@ -1791,6 +1828,10 @@
   datasets copy:
   - recrrg40XFvcyJa8f
   - recYeRQibsnMHOIOj
+  - recWtTYP50jrxS7ii
+  - recLvycbMSNIJhABX
+  - recn15Rw88yyM4SW4
+  - recauviDI0eIQO4oi
   email: krolik.thomas@bls.gov
   name: Tom Krolik
   organizations:
@@ -2095,6 +2136,16 @@
   - recfNhzdQXkEkVrPK
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-11-17T15:21:34.000Z'
+  airtable_id: recoYFoZhCRBe0Lym
+  datasets copy:
+  - reclqmKDADxgZRTDj
+  email: Joshua.dykema@sba.gov
+  name: Joshua Dykema
+  organizations:
+  - recpWYU9m41axHFU2
+- Role:
+  - Data Steward
   Sprint:
   - reccUsI2AM7YliJ2l
   - reco5ccvDEvBt5dA0
@@ -2108,8 +2159,16 @@
   name: Chip Walker
   organizations:
   - rechawuxwXzzaEkFO
-- airtable_createdTime: '2023-10-17T14:35:47.000Z'
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:35:47.000Z'
   airtable_id: recpStP9tGUxmPLd8
+  datasets copy:
+  - recaISNy9cHBGDHTV
+  email: james.barham@usda.gov
+  name: James Barham
+  organizations:
+  - recKjtIf9bIp28eDl
 - Role:
   - Census Expert
   Sprint:
@@ -2136,6 +2195,14 @@
   name: Maria (Angie) Santos
   organizations:
   - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:18:41.000Z'
+  airtable_id: recqwCCgXTyqCxbR0
+  email: karl.leckrone@usda.gov
+  name: Karl Leckrone
+  organizations:
+  - recKjtIf9bIp28eDl
 - Role:
   - Data Steward
   Sprint:
@@ -2339,6 +2406,16 @@
   name: "Michael Qualter \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   organizations:
   - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:01.000Z'
+  airtable_id: recxHFTSg570VVyxE
+  datasets copy:
+  - recGP5IvaBQl3eYzQ
+  email: mckays@cdfi.treas.gov
+  name: Shannon A. McKay
+  organizations:
+  - recoLe16gECFfJJdx
 - Role:
   - Data Steward
   airtable_createdTime: '2021-07-20T15:16:48.000Z'

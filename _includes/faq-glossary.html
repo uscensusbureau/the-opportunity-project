@@ -12,7 +12,7 @@
 
       <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
         <p class="grid-container padding-y-5 overflow-hidden">
-          {{ term.definition}}
+          {{ term.definition | markdownify | remove: "<p>" | remove: "</p>" }}
         </p>
         {% if term.link %}
         <a href="{{ term.link }}"

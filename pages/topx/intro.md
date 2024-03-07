@@ -102,6 +102,7 @@ cta-four:
     text: Go to Phase 1
     href: /topx-toolkit/phase-1/
     isExternal: false
+    target: _self
     class: bg-base-darkest text-white
 ---
 

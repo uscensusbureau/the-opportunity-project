@@ -13,7 +13,13 @@
     {% endif %}
     <li class="usa-nav__primary-item sprint-nav-item" name="{{ name | slugify }}">
       <a class="usa-nav__link font-sans-3xs" href="{{ site.baseurl }}{{ link.url }}#{{ link.short-name }}">
-        <span>{{ label }}</span>
+        <span>
+          {% if link.html-label %}
+            {{ label }}
+            {% else %}
+            {{name}}
+          {% endif %}
+        </span>
       </a>
     </li>
     {% endif %}

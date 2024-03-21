@@ -4,7 +4,7 @@ description: The Opportunity Project helps teams use federal open data to build 
 
 contacts:
   mailing-list: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
-  census-form: https://www.census.gov/forms/contact-top.html
+  census-form: mailto:census.opportunityproject@census.gov
   email: census.opportunityproject@census.gov
   coil-email: census.openinnovationlabs@census.gov
   prize-challenge: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
@@ -13,10 +13,12 @@ annual_reports:
   '2020': assets/files/top-annual-report-2020.pdf
   '2019': assets/files/annual_report_2019.pdf
 
+
 banner:
-  text: "Submit your Fall 2023 problem statement proposal by May 26."
+  text: "Now accepting problem statement submissions until April 15!"
   href: /proposal/
   isExternal: false
+
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text
 

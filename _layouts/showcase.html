@@ -4,27 +4,6 @@ layout: default
 
 {% include hero.html %}
 
-<section class="usa-section usa-graphic-list">
-  <div id="featured-products"
-    class="border-base-lighter border-top display-flex flex-column flex-align-center tablet:margin-y-5 margin-y-3">
-    <h2 class="tag-header bg-base-darkest text-uppercase">Featured Products</h2>
-  </div>
-
-  <div class="grid-container">
-    {% assign case_studies = site.data.case_studies %}
-    <div class="grid-row grid-gap-lg 
-    flex-wrap flex-justify-center">
-    {% for case in case_studies %}
-      <div
-        class="tablet:grid-col-4 
-          usa-media-block__background-image-portrait 
-          margin-bottom-3">
-          {% include cards/card.html content=case utils="small-header-card" %}
-      </div>
-    {% endfor %}
-  </div>
-</section>
-
 <div id="all-products"
   class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5">
   <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>

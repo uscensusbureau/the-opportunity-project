@@ -246,8 +246,8 @@
     schema and quality control methods were implemented for ease of re-use.  Data
     was collected from 2015 -2018.
   hasMultipleLinks: true
-  link: '- [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)
-    - [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers)'
+  link: https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)
+    - [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers
   name: 'Earth Challenge: Integrated Ocean Plastics Data'
   organization_text: Earth Challenge
   organizations:
@@ -366,8 +366,8 @@
     the top 10 most common plastics found by country. Data was collected from 2015
     -2018.
   hasMultipleLinks: true
-  link: '- [Top 10 Plastics Most Common Plastics by Country Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-top-10-sources-of-plastic-pollution-by-country-?geometry=136.406%2C-89.405%2C-136.406%2C85.899)-
-    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)'
+  link: https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-top-10-sources-of-plastic-pollution-by-country-?geometry=136.406%2C-89.405%2C-136.406%2C85.899)-
+    [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882
   name: 'Earth Challenge: Top 10 Most Common Plastics By Country Data'
   organization_text: Earth Challenge
   organizations:
@@ -1051,7 +1051,7 @@
   description: Online tool that increases interaction and connectivity to plastic
     pollution by allowing users to report, rate and map trash hot-spots in their waterways
     and coastlines via mobile devices and a web-based platform
-  link: https://www.oceanrecov.org/global-ocean-alert-system/solution.html
+  link: https://www.oceanrecov.org/global-alert
   name: Global Alert - Floating Trash
   organization_text: Ocean Recovery Alliance
   organizations:
@@ -1935,7 +1935,7 @@
   description: CDC WONDER is an online data system which allows users to look at deaths
     by cause of death, geographic (region, state, county), demographic characteristics
     (age, sex, race/Hispanic origin, etc), and time (year, month, week).
-  link: https://wonder.cdc.gov/mcd.html; https://www.cdc.gov/nchs/nvss/drug-overdose-deaths.htm
+  link: https://wonder.cdc.gov/mcd.html
   name: CDC WONDER
   organization_text: Center for Disease Control
   organizations:
@@ -2509,8 +2509,8 @@
     the power of GIS. On the CS Cloud, you can expect to find citizen science data
     on various focus areas including information on ocean plastics datasets.
   hasMultipleLinks: true
-  link: '- [Citizen Science Cloud](https://cscloud-ec2020.opendata.arcgis.com/)- [Citizen
-    Science Cloud, Plastics Dataset Page](https://cscloud-ec2020.opendata.arcgis.com/search?tags=plastics%2Cplastic)'
+  link: https://cscloud-ec2020.opendata.arcgis.com/)- [Citizen Science Cloud, Plastics
+    Dataset Page](https://cscloud-ec2020.opendata.arcgis.com/search?tags=plastics%2Cplastic
   name: 'Earth Challenge: Citizen Science Cloud: Plastics Page'
   organization_text: Earth Challenge
   organizations:
@@ -3757,7 +3757,7 @@
   data_stewards:
   - recL3VpZCsowAbpmY
   description: Population Density, Population Change, and Population Age 18 and Over
-  link: https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7
+  link: https://www.census.gov/library/visualizations/2021/geo/demographicmapviewer.html
   name: "2020 Census Demographic Data Viewer \u2013 U.S. Census Bureau"
   organization_text: U.S. Census Bureau
   organizations:
@@ -4114,8 +4114,7 @@
     rates by cause of death and demographic characteristics. These data provide information
     on mortality patterns among U.S. residents by variables such as sex, age, race
     and Hispanic origin, and cause of death.
-  link: https://www.cdc.gov/nchs/fastats/life-expectancy.htm; https://www.cdc.gov/nchs/products/databriefs/db456.htm;
-    https://www.cdc.gov/nchs/data-visualization/state-life-expectancy/index_2020.htm
+  link: https://www.cdc.gov/nchs/fastats/life-expectancy.htm
   name: Life Expectancy
   organization_text: Center for Disease Control
   organizations:
@@ -4136,8 +4135,8 @@
     and Assesment Project (MDMAP) accumulation report. This data is one of the three
     datasets used in the Earth Challenge 2020 Integrated Oceans Plastics Dataset.
   hasMultipleLinks: true
-  link: '- [Meta Data Dictionary](https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
-    [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers)'
+  link: https://docs.google.com/spreadsheets/d/10LGR3hAnZNt0Ilpn-M8YuOTjo17WTOPDOUZUR2Aq1Pg/edit#gid=1401383882)-
+    [Visualization](https://cscloud-ec2020.opendata.arcgis.com/app/dashboard-integrated-plastic-pollution-clean-up-events-and-volunteers
   name: 'Integrated Data: Marine Debris Monitoring and Assessment Project'
   organization_text: Earth Challenge
   organizations:
@@ -4897,7 +4896,7 @@
     to take a picture of plastic pollution anywhere its found wherever they are in
     the world.
   hasMultipleLinks: true
-  link: '- [Plastics Mobile Widget Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/-data-earth-challenge-mobile-app-plastic-pollution)'
+  link: https://cscloud-ec2020.opendata.arcgis.com/datasets/-data-earth-challenge-mobile-app-plastic-pollution
   name: 'Earth Challenge 2020 Plastics Mobile  Widget Data '
   organization_text: Earth Challenge
   organizations:
@@ -5162,28 +5161,6 @@
   - recvnSQzYNG0AGAkm
   tag:
   - Social Vulnerability
-- airtable_createdTime: '2021-07-21T18:58:06.000Z'
-  airtable_id: rechqFaIfx7thqIVQ
-  data_stewards:
-  - receEAaGQ23O4KQCg
-  - rec8pjWAfuRGCTwyv
-  description: A cleaned, curated and integrated global plastics pollution dataset
-    sourced from the European Environmental Agencies Marine Litter Watch (MLW) dataset.
-    This data is one of the three datasets used in the Earth Challenge 2020 Integrated
-    Oceans Plastics Dataset.
-  hasMultipleLinks: true
-  link: '- [Integrated MLW Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-marine-litter-watch-mlw-plastic-pollution)-
-    [All Integrated Data](https://cscloud-ec2020.opendata.arcgis.com/datasets/data-earth-challenge-integrated-data-plastic-pollution-mlw-mdmap-tides-?geometry=92.357%2C-68.714%2C-87.643%2C81.701)'
-  name: 'Integrated Data: Marine Litter Watch'
-  organization_text: Earth Challenge
-  organizations:
-  - recRKavUasH84hyzW
-  problem_statements:
-  - recYanxSy9Imw6smo
-  ps_text: Ocean Plastics
-  sprint:
-  - recH8zSIIz8tYt9z2
-  stewards_text: Metis Meloche, Anne Bowser
 - airtable_createdTime: '2021-02-26T23:06:53.000Z'
   airtable_id: rechqZICsexlnAenk
   name: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
@@ -5634,7 +5611,7 @@
   - recbPxVJvU4vhaUNw
   description: Philadelphia local transportation data, including on walkability scores,
     bike networks, airport runways, traffic counts, air monitoring stations, etc.
-  link: https://www.opendataphilly.org/dataset?groups=transportation-group
+  link: https://opendataphilly.org/
   name: OpenDataPhilly
   organization_text: OpenDataPhilly
   organizations:

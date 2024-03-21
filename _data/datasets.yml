@@ -1935,7 +1935,7 @@
   description: CDC WONDER is an online data system which allows users to look at deaths
     by cause of death, geographic (region, state, county), demographic characteristics
     (age, sex, race/Hispanic origin, etc), and time (year, month, week).
-  link: https://wonder.cdc.gov/mcd.html; https://www.cdc.gov/nchs/nvss/drug-overdose-deaths.htm
+  link: https://wonder.cdc.gov/mcd.html
   name: CDC WONDER
   organization_text: Center for Disease Control
   organizations:
@@ -3757,7 +3757,7 @@
   data_stewards:
   - recL3VpZCsowAbpmY
   description: Population Density, Population Change, and Population Age 18 and Over
-  link: https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7
+  link: https://www.census.gov/library/visualizations/2021/geo/demographicmapviewer.html
   name: "2020 Census Demographic Data Viewer \u2013 U.S. Census Bureau"
   organization_text: U.S. Census Bureau
   organizations:
@@ -4114,8 +4114,7 @@
     rates by cause of death and demographic characteristics. These data provide information
     on mortality patterns among U.S. residents by variables such as sex, age, race
     and Hispanic origin, and cause of death.
-  link: https://www.cdc.gov/nchs/fastats/life-expectancy.htm; https://www.cdc.gov/nchs/products/databriefs/db456.htm;
-    https://www.cdc.gov/nchs/data-visualization/state-life-expectancy/index_2020.htm
+  link: https://www.cdc.gov/nchs/fastats/life-expectancy.htm
   name: Life Expectancy
   organization_text: Center for Disease Control
   organizations:
@@ -5634,7 +5633,6 @@
   - recbPxVJvU4vhaUNw
   description: Philadelphia local transportation data, including on walkability scores,
     bike networks, airport runways, traffic counts, air monitoring stations, etc.
-  link: https://www.opendataphilly.org/dataset?groups=transportation-group
   name: OpenDataPhilly
   organization_text: OpenDataPhilly
   organizations:

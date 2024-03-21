@@ -3757,7 +3757,7 @@
   data_stewards:
   - recL3VpZCsowAbpmY
   description: Population Density, Population Change, and Population Age 18 and Over
-  link: https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7
+  link: https://www.census.gov/library/visualizations/2021/geo/demographicmapviewer.html
   name: "2020 Census Demographic Data Viewer \u2013 U.S. Census Bureau"
   organization_text: U.S. Census Bureau
   organizations:
@@ -5634,7 +5634,6 @@
   - recbPxVJvU4vhaUNw
   description: Philadelphia local transportation data, including on walkability scores,
     bike networks, airport runways, traffic counts, air monitoring stations, etc.
-  link: https://www.opendataphilly.org/dataset?groups=transportation-group
   name: OpenDataPhilly
   organization_text: OpenDataPhilly
   organizations:

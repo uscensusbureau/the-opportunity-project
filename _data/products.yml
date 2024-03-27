@@ -31,7 +31,7 @@
   image: whywecount.jpg
   image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
     reads Being Counted Saves Lives.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recXUOy13oskSB7CB
   product_advisors: Jeff Meisel
@@ -153,7 +153,7 @@
   - Housing
   description: Explores the opportunity and growth potential of Baltimore's neighborhoods
   details: Explores the opportunity and growth potential of Baltimore's neighborhoods
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -281,7 +281,7 @@
   image: Bites-Media.png
   image-alt: An webpage that explains foreign aid, and shows how you can understand
     why governments want to either increase or decrease foreign aid.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - reclJ7Aqge0Klqbme
   sprint:
@@ -370,7 +370,7 @@
     their housing costs through renting excess rooms or units
   details: Identifies areas that present a high-opportunity for families to supplement
     their housing costs through renting excess rooms or units
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recJtXvdtyoOpOMOa
   sprint:
@@ -654,7 +654,7 @@
   - recvFVDZdmU09lJzA
   image: census-taker_amava.jpg
   image-alt: Screenshot of Census Taker's website
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recvFVDZdmU09lJzA
   sprint:
@@ -693,7 +693,7 @@
     promising rural startups ready to scale that otherwise would have been overlooked
   image: rural-startup-scout.jpg
   image-alt: Map of a portion of Texas titled Tech Entrepreneurship
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recuVhm1ianV8SXpO
   sprint:
@@ -845,7 +845,7 @@
   image: safedigi-ID.jpg
   image-alt: Phone with a screen that indicates options to select an industry between
     food services, real estate, and insurance
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recWzZLtl14qYc0LK
   sprint:
@@ -978,7 +978,7 @@
     and small business landlords who require federal or state and local rental assistance  '
   image: aws-community-chatbot.jpg
   image-alt: Rental Assistance Chatbot Conversation
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recno05Yf62Elkwqw
   sprint:
@@ -1131,7 +1131,7 @@
   image-alt: Screenshot of the Eco Bloc search function. A profile has been selected,
     with the name 'Supplier', contact information, and products, such as plastic and
     metal.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - reca9YsxA5g3NW3Nx
   tech_team:
@@ -1157,7 +1157,7 @@
     Text "COVIDTEST" to 222020
   image: CommunityConnect Labs_FDA.png
   image-alt: A screenshot of a potential text exchange with the service tool.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recm1nUDGhmqHmnbG
   sprint:
@@ -1401,7 +1401,7 @@
     foundations inform parents and the electorate about the need for more funding
   details: Customizable data briefs that help local school districts and education
     foundations inform parents and the electorate about the need for more funding
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - rec4QRIhcFypZjNxu
   sprint:
@@ -1755,7 +1755,7 @@
   image: data2gonyc.jpg
   image-alt: Screenshot of Data 2 Go app showing a map in gradient shades of white,
     yellow and orange.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - rec8qL374GLY4rhEU
   sprint:
@@ -1853,7 +1853,7 @@
   image: inclusive-development-dashboards.jpg
   image-alt: Screenshot of a webpage containing several paragraphs of text. Text is
     not legible.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   prize_status: Winner
   problem_statement:
   - recuVhm1ianV8SXpO
@@ -2022,7 +2022,7 @@
   details: Enables researchers to unobtrusively measure everyday behavior to build
     a risk state detection algorithm that powers precise, life-saving mental health
     interventions
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recQC60sdfUiXTHgB
   sprint:
@@ -2141,7 +2141,7 @@
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option
     to sort by the day, the ward, and the location.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recO5eGWBm0Jr6c8R
   sprint:
@@ -2465,7 +2465,7 @@
   image: Public-Finance-Institute-Disaster-Spending-Tracker.png
   image-alt: The image shows a map of COVID-19 Fiscal assistance, where you can view
     the fund share by category.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - reccGqAe2Sli8kaT5
   sprint:
@@ -2875,7 +2875,7 @@
   details: iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting the
     homeless count
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - rec8qL374GLY4rhEU
   sprint:
@@ -3032,7 +3032,7 @@
   image: greenScan.jpg
   image-alt: App that allows user to scan a a product, learn about where to recycle
     and what the numbers mean
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recNJ1F1PT2JmBogZ
   sprint:
@@ -3205,7 +3205,7 @@
   image: Pollution-Policy-Watch.jpg
   image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris
     type, and state for policy enactment.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recO5eGWBm0Jr6c8R
   sprint:
@@ -3680,7 +3680,7 @@
   image: thunderbird-software.jpg
   image-alt: This image shows a plane in flight with the words "paving the way to
     the future of airline sustainability, one airport at a time...hop on  board."
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recdYVmJLsnCuLs37
   sprint:
@@ -3768,7 +3768,7 @@
   description: ' Surfaces education options that lead to in-demand careers for job
     seekers'
   details: ' Surfaces education options that lead to in-demand careers for job seekers'
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recOMrASmLBSSRMqZ
   sprint:
@@ -3888,7 +3888,7 @@
   image: IBM.jpg
   image-alt: Schematic showing a mobile wallet being used to verify a vaccination
     record
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -3947,7 +3947,7 @@
   details: Helping low income families overcome the stress of finding affordable housing,
     this tool combines transit access, walkability and school information into one
     unique feed of available properties
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recJtXvdtyoOpOMOa
   sprint:
@@ -4046,7 +4046,7 @@
   image: ClinIQ.jpg
   image-alt: Screenshot of the ClinIQ web app with a choice of where to sign up for
     a COVID-19 RT-PCR test
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -4203,7 +4203,7 @@
   image: mayday-realtime-risk.jpg
   image-alt: 3D Map that shows environmental risk areas and social media posts related
     to the disaster
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recjf9CnxtJkXGumk
   sprint:
@@ -4422,7 +4422,7 @@
   image: city-portrait.jpg
   image-alt: "Computer and two phones with images that show opportunities, a caf\xE9\
     , and after school programs"
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recWzZLtl14qYc0LK
   sprint:
@@ -4742,7 +4742,7 @@
   details: ' Helps researchers and developers rapidly prototype and deploy tools that
     address a variety of problems surrounding access to opportunity'
   image: wolfram-data-repository.jpg
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   sprint:
   - recXANOXQ6JCTp5FU
   tech_team:
@@ -4968,7 +4968,7 @@
   - Health
   description: Finds areas of opportunity through geographic visualizations and reports
   details: Finds areas of opportunity through geographic visualizations and reports
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -5063,7 +5063,7 @@
   image: jobinn.jpg
   image-alt: A screenshot of the JobInn homepage including a photo of a person with
     long dark hair wearing a black blazer and text that reads "Find your Dream Job".
-  link: 'jobinnapp.com '
+  link: https://jobinnapp.com/
   problem_statement:
   - recdP4Xzzvupvnx47
   sprint:
@@ -5108,7 +5108,7 @@
   image-alt: Screenshot of the Topolytics application. The app displays a map of the
     united states; the travel of waste products is color coded and tracked from place
     to place.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - reca9YsxA5g3NW3Nx
   sprint:
@@ -5140,7 +5140,7 @@
   image-alt: Diagram showing data from the OraLiva servers flowing to state databases,
     patients, providers, medical records, point-of-care screening, and a pre-screening
     algorithm
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -5269,7 +5269,7 @@
   image: RefugeeAssist.jpg
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below
     that say 'Medical', 'Legal', 'Religious', etc.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recLjh8Roxnq1veGz
   sprint:
@@ -5302,7 +5302,7 @@
   image: community-counts.jpg
   image-alt: Two open laptops with a web application open, with Community Counts,
     2020Census written below
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recLgfx25ZP6xsmFG
   sprint:
@@ -5360,7 +5360,7 @@
   image: vet-assist.jpg
   image-alt: A screenshot of the VBA Benefit Intake API homepage used to create the
     VetAssit tool.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recdP4Xzzvupvnx47
   sprint:
@@ -5520,7 +5520,7 @@
     around 2020 Census data
   image: hard-to-count-conversations.jpg
   image-alt: Image of Hard-To-Count Conversation Card with a Census statistic
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - reczd5cVpuub6PMPM
   sprint:
@@ -5549,7 +5549,7 @@
     in identifying opportunities to apply to best related to their business expertise.
   image: Funding-Journey.png
   image-alt: A screenshot of the Funding Journey website that reads "viaje de financiacion...".
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recaJpLTQROHfEZBW
   sprint:
@@ -5734,7 +5734,7 @@
     government and community decision-makers '
   image: floodware.jpg
   image-alt: 'Flood risk assessment map that displays the community risk score '
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - reclg2SNmkgj142pw
   sprint:
@@ -5849,7 +5849,7 @@
     in U.S. metro areas'
   details: ' Provides visibility into the affordability of opportunity for children
     in U.S. metro areas'
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -6202,7 +6202,7 @@
     groups to help advocates increased equity
   details: Measures gaps in access to educational opportunities across student groups
     to help advocates increased equity
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - receDpPWSS0MjPotS
   sprint:
@@ -6407,7 +6407,7 @@
   image: solve.jpg
   image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
     barriers that each link to information about organizations working in these areas
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   prize_status: Applied
   problem_statement:
   - receyP88fo2WL9Foa
@@ -6773,7 +6773,7 @@
   - Education
   description: '!!! Broken link'
   details: '!!! Broken link'
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -6869,7 +6869,7 @@
     crisis to available support resources
   details: Assesses suicide and other risk in patients and guides them through crisis
     to available support resources
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recQC60sdfUiXTHgB
   sprint:
@@ -6903,7 +6903,7 @@
     plastics in CA over time. There is a section wih suggestsions on how many voluteers
     you'll need, the number of items that need to be collected, and the average meters
     expected to cover.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recYanxSy9Imw6smo
   sprint:
@@ -6961,7 +6961,7 @@
   image: safetyNet.jpg
   image-alt: Opening page of SafetyNet Website with the title growing online is the
     future. Can it be your business' safety net?
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - recWzZLtl14qYc0LK
   sprint:
@@ -6989,7 +6989,7 @@
     anyone who wants to learn.
   image: NAIP-Downloader-Education-Modules.png
   image-alt: This image appears to be an arial screenshot from 2017.
-  link: https://opportunity.census.gov/showcase/
+  link: no-link
   problem_statement:
   - rec0Iy8VI9V6gfzeZ
   sprint:

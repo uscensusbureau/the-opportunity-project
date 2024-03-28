@@ -412,7 +412,7 @@ Array.from(cards).forEach((card) => {
       card.getElementsByClassName("product-desc")[0].innerText;
 
     const href = card.getElementsByClassName("product-link")[0].innerText;
-    if (href.length > 0) {
+    if (href.trim() !== 'no-link') {
       modal.getElementsByClassName("modal-link")[0].href = href;
     } else {
       modal.getElementsByClassName("modal-link")[0].style.display = "none";

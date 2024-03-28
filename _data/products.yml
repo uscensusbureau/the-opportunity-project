@@ -543,7 +543,7 @@
   details: Serious game that engages young adults in preparing for emergencies
   image: disaster-awareness-games.jpg
   image-alt: Screenshot of a computer game displaying an overhead view of city blocks
-  link: https://opportunity.census.gov/showcase/?year=2018&partner-agency=Federal+Emergency+Management+Agency
+  link: no-link
   prize_status: Applied
   problem_statement:
   - recyHwJ8Q6z6YcwGO
@@ -4459,7 +4459,7 @@
     password: Planahead2019'
   image: sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
-  link: https://opportunity.census.gov/sille/
+  link: no-link
   problem_statement:
   - recyHwJ8Q6z6YcwGO
   sprint:

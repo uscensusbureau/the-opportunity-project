@@ -134,6 +134,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  ffi
   html-proofer
   jekyll!
   jekyll-datapage-generator

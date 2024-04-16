@@ -14,10 +14,10 @@ annual_reports:
   '2019': assets/files/annual_report_2019.pdf
 
 
-banner:
-  text: "Watch recordings of all Census Open Innovation Summit 2024 sessions on YouTube."
-  href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
-  isExternal: true
+# banner:
+#   text: "Now accepting problem statement submissions until April 15!"
+#   href: /proposal/
+#   isExternal: false
 
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

@@ -4449,14 +4449,12 @@
   data_sets_text: ensus block data; Open EU Sentinel 1 InSAR
   datasets copy:
   - recV2NDmUAF5s87sp
-  description: 'Block level structural risk product that encourages local stakeholders
+  description: Block level structural risk product that encourages local stakeholders
     to prepare for crisis through increased awareness of the likelihood of catastrophic
-    failure of their structures in a disaster. Public access using login: fema@sille.space,
-    password: Planahead2019'
-  details: 'Block level structural risk product that encourages local stakeholders
+    failure of their structures in a disaster.
+  details: Block level structural risk product that encourages local stakeholders
     to prepare for crisis through increased awareness of the likelihood of catastrophic
-    failure of their structures in a disaster. Public access using login: fema@sille.space,
-    password: Planahead2019'
+    failure of their structures in a disaster.
   image: sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
   link: no-link

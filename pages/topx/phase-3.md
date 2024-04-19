@@ -34,6 +34,8 @@ phase-info-video:
   video:
     src: https://www.youtube.com/embed/BXLrQv8VgMU
     alt-text: "TOPx: How to Showcase Your TOP Solutions"
+    width: 640
+    height: 360
   blurb:
     title: "How to Showcase Your TOP Solutions"
   # phase-video-list:

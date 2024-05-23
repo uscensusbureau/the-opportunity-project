@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-2 tablet:padding-top-4 text-white opacity-80 padding-bottom-5">
+  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center text-white opacity-80 margin-top-5 tablet:margin-top-1 padding-bottom-5">
     {% for bottomLink in site.data.nav.footer-bottom %}
     <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}" class="border-base-dark
              {% unless forloop.first %} border-left padding-left-2 {% endunless %}

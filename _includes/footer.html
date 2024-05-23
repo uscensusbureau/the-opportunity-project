@@ -2,16 +2,6 @@
   <div class="usa-footer__secondary-section bg-base-darkest">
     <div class="grid-container footer-content padding-left-4 padding-right-3">
 
-      <div class="grid-row footer-contact-links margin-top-0 margin-bottom-2">
-        <div class="text-white tablet:display-flex flex-align-center">
-
-          <a href="{{ site.baseurl }}" class="text-white display-inline-block">
-            <img src="{{ site.baseurl }}/assets/img/TOP-logo-mobile.png" alt="TOP Logo" class="top-logo">
-          </a>
-
-          <p>is a program of Census Open Innovation Labs at the U.S. Census Bureau.</p>
-        </div>
-        </div>
 
       <div class="grid-row">
         {% for section in site.data.nav.footer %}
@@ -38,7 +28,7 @@
         <div class="usa-media-block__footer display-none tablet:display-block tablet:grid-col-2 subsection-subscribe">
           <h3 class=" text-bold text-white padding-top-4 text-uppercase">Subscribe</h3>
           <p class=" text-white margin-0">
-          Sign up to our email list to be notified of news and opportunities.
+          Sign up to our<br>email list to<br>be notified of<br> news and opportunities.
           </p>
           <a href="{{ site.contacts.mailing-list }}" class="usa-button usa-button--secondary  site-button site-cta width-full">
             SIGN UP
@@ -52,11 +42,11 @@
         <div class="tablet:order-last tablet:padding-left-3">
           <div class="usa-media-block__footer">
             <p class="text-white">
-              Sign up to our email list to be notified of news and opportunities.
+              Sign up to our email list <br> to be notified of news<br> and opportunities.
             </p>
             <a href="{{ site.contacts.mailing-list }}"
               class="usa-button usa-button--secondary  site-button site-cta">
-              SIGN UP
+              SUBSCRIBE
             </a>
           </div>
           <!-- check tablet/desktop button -->
@@ -66,7 +56,7 @@
     </div>
   </div>
 
-  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-4 text-white">
+  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-2 tablet:padding-top-4 text-white opacity-80 padding-bottom-5">
     {% for bottomLink in site.data.nav.footer-bottom %}
     <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}" class="border-base-dark
              {% unless forloop.first %} border-left padding-left-2 {% endunless %}

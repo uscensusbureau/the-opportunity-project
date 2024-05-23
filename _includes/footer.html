@@ -6,7 +6,7 @@
       <div class="grid-row">
         {% for section in site.data.nav.footer %}
         <div class="usa-media-block__footer text-white tablet:grid-col-2">
-          <h3 class="padding-top-4 text-uppercase">
+          <h3 class="padding-top-4 tablet:padding-y-4 desktop:padding-y-5 text-uppercase">
             {% if section.subsection.href %}
             <a href="{{ section.subsection.href }}" class="text-underline">{{ section.subsection.title }}</a>
             {% else %}
@@ -17,7 +17,7 @@
           <ul class="add-list-reset">
             {% for link in section.subsection.links %}
             <li>
-              <a href="{{ link.href }}" class="text-underline">{{ link.text }}</a>
+              <a href="{{site.baseurl}}/{{ link.href }}" class="text-underline">{{ link.text }}</a>
             </li>
             {% endfor %}
           </ul>
@@ -28,7 +28,7 @@
         <div class="usa-media-block__footer display-none tablet:display-block tablet:grid-col-2 subsection-subscribe">
           <h3 class=" text-bold text-white padding-top-4 text-uppercase">Subscribe</h3>
           <p class=" text-white margin-0">
-          Sign up to our<br>email list to<br>be notified of<br> news and opportunities.
+          Sign up to our email list to be notified of<br> news and opportunities.
           </p>
           <a href="{{ site.contacts.mailing-list }}" class="usa-button usa-button--secondary  site-button site-cta width-full">
             SIGN UP
@@ -38,7 +38,7 @@
       </div>
 
 
-      <div class="grid-row margin-top-5 tablet:display-none">
+      <div class="grid-row margin-top-2 tablet:display-none">
         <div class="tablet:order-last tablet:padding-left-3">
           <div class="usa-media-block__footer">
             <p class="text-white">

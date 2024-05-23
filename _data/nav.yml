@@ -87,7 +87,7 @@ footer:
         - text: TOPx Toolkit
           href: topx-toolkit/
         - text: Product Toolkit
-          href: product/
+          href: product-development/toolkit
   - subsection:
       title: More
       links:

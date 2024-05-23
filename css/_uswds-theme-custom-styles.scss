@@ -2042,11 +2042,11 @@ div.toolkit-todo__resources {
   ul li {
 
     @include at-media ('tablet') {
-        margin-block-end: 0;
+        margin-block-end: 8px;
       }
 
       @include at-media('desktop') {
-        margin-block-end: 16px;
+        margin-block-end: 13px;
       }
   }
 
@@ -2064,10 +2064,10 @@ div.toolkit-todo__resources {
 
   .subsection-subscribe {
     p {
-      padding-block-start:7px;
+      padding-block-start:37px;
       padding-block-end: 24px;
       @include at-media('desktop') {
-          padding-block-start: 3px;
+          padding-block-start: 23px;
           padding-block-end: 22px;
         }
     }

@@ -6,7 +6,7 @@
       <div class="grid-row">
         {% for section in site.data.nav.footer %}
         <div class="usa-media-block__footer text-white tablet:grid-col-2">
-          <h3 class="padding-top-4 text-uppercase">
+          <h3 class="padding-top-4 tablet:padding-y-4 desktop:padding-y-5 text-uppercase">
             {% if section.subsection.href %}
             <a href="{{ section.subsection.href }}" class="text-underline">{{ section.subsection.title }}</a>
             {% else %}
@@ -38,7 +38,7 @@
       </div>
 
 
-      <div class="grid-row margin-top-5 tablet:display-none">
+      <div class="grid-row margin-top-2 tablet:display-none">
         <div class="tablet:order-last tablet:padding-left-3">
           <div class="usa-media-block__footer">
             <p class="text-white">

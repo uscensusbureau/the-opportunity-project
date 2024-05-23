@@ -1,74 +1,79 @@
 <footer class="usa-footer site-footer bg-base-darkest" role="contentinfo">
   <div class="usa-footer__secondary-section bg-base-darkest">
-    <div class="grid-container footer-content">
-      
-      <div class="grid-row footer-contact-links margin-top-0">
-        <div class="grid-col-6 tablet:grid-col-3">
-          <div class="usa-media-block__body usa-media-block__footer">
-            <p class="font-sans-2xs">
-              <a href="{{ site.baseurl }}" id="return-to-top">
-                Back to top&nbsp;&uarr;
-              </a>
-            </p>
-            <p class="font-sans-sm">The Opportunity Project</p>
-          </div>
+    <div class="grid-container footer-content padding-left-4 padding-right-3">
+
+      <div class="grid-row footer-contact-links margin-top-0 margin-bottom-2">
+        <div class="text-white tablet:display-flex flex-align-center">
+
+          <a href="{{ site.baseurl }}" class="text-white display-inline-block">
+            <img src="/assets/img/TOP-logo-mobile.png" alt="TOP Logo" class="top-logo">
+          </a>
+
+          <p>is a program of Census Open Innovation Labs at the U.S. Census Bureau.</p>
+        </div>
         </div>
 
-        <div class="grid-col-6 tablet:grid-col-3 tablet:order-last tablet:padding-left-3">
+      <div class="grid-row">
+        {% for section in site.data.nav.footer %}
+        <div class="usa-media-block__footer text-white tablet:grid-col-2">
+          <h3 class="padding-top-4 text-uppercase">
+            {% if section.subsection.href %}
+            <a href="{{ section.subsection.href }}" class="text-underline">{{ section.subsection.title }}</a>
+            {% else %}
+            {{ section.subsection.title }}
+            {% endif %}
+          </h3>
+          {% if section.subsection.links %}
+          <ul class="add-list-reset">
+            {% for link in section.subsection.links %}
+            <li>
+              <a href="{{ link.href }}" class="text-underline">{{ link.text }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+          {% endfor %}
+
+        <div class="usa-media-block__footer display-none tablet:display-block tablet:grid-col-2 subsection-subscribe">
+          <h3 class=" text-bold text-white padding-top-4 text-uppercase">Subscribe</h3>
+          <p class=" text-white margin-0">
+          Sign up to our email list to be notified of news and opportunities.
+          </p>
+          <a href="{{ site.contacts.mailing-list }}" class="usa-button usa-button--secondary  site-button site-cta width-full">
+            SIGN UP
+          </a>
+          <!-- check mobile button -->
+        </div>
+      </div>
+
+
+      <div class="grid-row margin-top-5 tablet:display-none">
+        <div class="tablet:order-last tablet:padding-left-3">
           <div class="usa-media-block__footer">
-            <p class="font-sans-2xs text-bold text-white">Stay in the Loop</p>
-            <p class="font-sans-2xs text-white">
-              Subscribe to an email list to be notified of news and
-              opportunities.
+            <p class="text-white">
+              Sign up to our email list to be notified of news and opportunities.
             </p>
             <a href="{{ site.contacts.mailing-list }}"
-               class="usa-button usa-button--outline usa-button--inverse site-button site-cta">
-              Get Updates
+              class="usa-button usa-button--secondary  site-button site-cta">
+              SIGN UP
             </a>
-            </button>
           </div>
+          <!-- check tablet/desktop button -->
         </div>
-
-        {% assign perCol = 4 %}
-        {% for link in site.data.nav.footer %}
-          {% assign remainder = forloop.index0 | modulo: perCol %}
-          {% if remainder == 0 %}
-            {% if forloop.first == false %}
-                </div>
-              </div>
-            {% endif %}
-
-            <div class="grid-col-4 tablet:grid-col-2">
-              <div class="usa-media-block__footer">
-          {% endif %}
-
-                <p class="border-bottom border-base-dark padding-bottom-05">
-                  
-                  <a href="{% unless link.isExternal %}{{ site.baseurl }}/{% endunless %}{{ link.href }}">
-                    {{ link.text }}
-                  </a>
-                </p>
-          {% if forloop.index0 | modulo: perCol != 0 and forloop.last %}
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
- 
-        
       </div>
-      
-      <div
-        class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-4"
-      >
-        {% for bottomLink in site.data.nav.footer-bottom %}
-          <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}"
-            class="border-base-dark
+
+    </div>
+  </div>
+
+  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center padding-top-4 text-white">
+    {% for bottomLink in site.data.nav.footer-bottom %}
+    <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}" class="border-base-dark
              {% unless forloop.first %} border-left padding-left-2 {% endunless %}
              {% unless forloop.last %} padding-right-2 {% endunless %}
-            "
-          >{{ bottomLink.text }}</a>
-        {% endfor %}
-      </div>
-    </div>
+            ">{{ bottomLink.text }}</a>
+    {% endfor %}
+  </div>
+  </div>
   </div>
 </footer>

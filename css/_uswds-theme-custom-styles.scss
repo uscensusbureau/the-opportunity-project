@@ -2040,7 +2040,7 @@ div.toolkit-todo__resources {
   }
 
   ul li {
-    margin-block-end: 16px;
+
     @include at-media ('tablet') {
         margin-block-end: 0;
       }

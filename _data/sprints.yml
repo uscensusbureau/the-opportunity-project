@@ -969,11 +969,18 @@
   - recd1mjiubu2byNzR
   short-tag: geo
 - Name: 2024 Sprints
+  Year: 2024
   airtable_createdTime: '2024-04-19T15:52:31.000Z'
   airtable_id: recqHIMEqN3eizixc
+  image-alt: A collaged image from the Census Bureau microfiche record archives.
+  img: landing/2024-top-problem-statement-graphic.jpg
+  lang: en
   order-number: 1
   problem_statements:
-  - rectgIqMvOrJrs0fr
+  - recVSSpNy6UIY65qH
+  - recoXokr6PYYoKRhX
+  - recW0QkXbhskAz4Bo
+  - recRIlWUy5nyj0PXs
   short-tag: 2024-sprints
 - Name: 2021 Sprints
   Products:

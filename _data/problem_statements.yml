@@ -1505,6 +1505,28 @@
   organizations:
   - recJxCD8QEO8XYzze
   pdf: 2024-DOE.pdf
+  sprint_order: 5
+  sprint_text: 2024 Sprints
+- Challenge: 'Create tools that will improve and enhance access to homeownership and
+    housing stability for American Indian and Alaska Native (AIAN) populations and
+    Indigenous communities, particularly on reservations and/or other tribal areas. '
+  Full Title: Expanding Opportunities for Native Homeownership and Housing Stability
+  Name: Expanding Opportunities for Native Homeownership and Housing Stability
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: American Indian and Alaska Native individuals, families,
+    and elders that wish to accumulate wealth through homeownership; stakeholders
+    involved in housing, including Tribes, Tribally Designated Housing Entities, Native
+    and Tribal Nonprofits, banks and funding organizations, and Native CDFIs.
+  agency_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2024-06-14T14:26:51.000Z'
+  airtable_id: recSFc6htX0KsowGp
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
+  organizations:
+  - rechawuxwXzzaEkFO
+  - recZHYzutcUOzjudU
+  pdf: 2024-Census-HUD.pdf
   sprint_order: 4
   sprint_text: 2024 Sprints
 - Background: "Veterans have difficulty translating their military skills to civilian\

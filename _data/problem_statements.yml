@@ -1491,6 +1491,44 @@
   - recFLmrJGVUp96SaR
   products_text: EARS, TextHelp
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Challenge: Develop tools that enable local education agencies, states, and school
+    districts to expand and strengthen their STEM teacher workforce.
+  Full Title: 'Strengthening the STEM Educator Workforce '
+  Name: Strengthening the STEM Educator Workforce
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: States, school districts, schools, teachers, and teacher
+    preparation programs.
+  agency_text: U.S. Department of Education
+  airtable_createdTime: '2024-06-12T13:04:10.000Z'
+  airtable_id: recRIlWUy5nyj0PXs
+  organizations:
+  - recJxCD8QEO8XYzze
+  pdf: 2024-DOE.pdf
+  sprint_order: 5
+  sprint_text: 2024 Sprints
+- Challenge: 'Create tools that will improve and enhance access to homeownership and
+    housing stability for American Indian and Alaska Native (AIAN) populations and
+    Indigenous communities, particularly on reservations and/or other tribal areas. '
+  Full Title: Expanding Opportunities for Native Homeownership and Housing Stability
+  Name: Expanding Opportunities for Native Homeownership and Housing Stability
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: American Indian and Alaska Native individuals, families,
+    and elders that wish to accumulate wealth through homeownership; stakeholders
+    involved in housing, including Tribes, Tribally Designated Housing Entities, Native
+    and Tribal Nonprofits, banks and funding organizations, and Native CDFIs.
+  agency_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2024-06-14T14:26:51.000Z'
+  airtable_id: recSFc6htX0KsowGp
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
+  organizations:
+  - rechawuxwXzzaEkFO
+  - recZHYzutcUOzjudU
+  pdf: 2024-Census-HUD.pdf
+  sprint_order: 4
+  sprint_text: 2024 Sprints
 - Background: "Veterans have difficulty translating their military skills to civilian\
     \ skills. This is both a relevancy problem (they don\u2019t know how their military\
     \ skills relate to civilian skills) and a communication problem (they don\u2019\
@@ -1569,6 +1607,50 @@
   pdf: 2017-youth.pdf
   products_text: MySpot
   sprint_text: 2017 Sprint 1 (ED HUD VA)
+- Challenge: 'Develop community and data driven solutions that empower Indigenous
+    communities to navigate a complex grant and funding landscape and increase their
+    capabilities to successfully secure funding. '
+  Full Title: 'Building Stronger Pathways to Grants and Funding for Indigenous Communities '
+  Name: 'Building Stronger Pathways to Grants and Funding for Indigenous Communities '
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: Tribal stakeholders, tribal leaders, Native Hawaiian
+    stakeholders, researchers, and others responsible for preparing grant applications
+    or who utilize the data in those applications for other purposes, including internal
+    use, research reports, policy and legislative efforts, and public education.
+  agency_text: Native Counts Coalition, National Urban Indian Family Coalition
+  airtable_createdTime: '2024-06-12T12:57:56.000Z'
+  airtable_id: recVSSpNy6UIY65qH
+  organizations:
+  - recgsggqDENLZOr9O
+  - rechmVw7sbRYAolgA
+  pdf: 2024-NCC-NUIFC.pdf
+  sprint_order: 1
+  sprint_text: 2024 Sprints
+- Challenge: 'Enhance research & development (R&D) capacity at organizations across
+    the innovation ecosystem by broadening access to federal science & technology
+    (S&T) funding opportunities. '
+  Full Title: Enhancing Access to Federal Science and Technology Research & Development
+    Funding
+  Name: Enhancing Access to Federal Science and Technology Research & Development
+    Funding
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: "Institutions of higher education (both public and private)\
+    \ with an emphasis on Minority Serving Institutions (MSIs), nonprofit organizations,\
+    \ small businesses, and other entities within the nation\u2019s innovation ecosystem\
+    \ where levels of federal funding for S&T research and development have historically\
+    \ been low."
+  agency_text: National Institute of Biomedical Imaging and Bioengineering, National
+    Institutes of Health
+  airtable_createdTime: '2024-06-12T13:02:03.000Z'
+  airtable_id: recW0QkXbhskAz4Bo
+  organizations:
+  - rectpq4txB3uKy0l8
+  - recC2rit84Ln5b2sV
+  pdf: 2024-NIBIB-NIH.pdf
+  sprint_order: 3
+  sprint_text: 2024 Sprints
 - Challenge: 'Develop digital tools that help small business leaders and their workforces
     to enhance their online presence and ability to process data and information relevant
     to their businesses in real time, thereby allowing them to be competitive in the
@@ -3379,6 +3461,30 @@
   products_text: Practical Business Skills
   sprint_order: 4
   sprint_text: Workforce
+- Challenge: Local policymakers need high-quality data to make informed policy decisions,
+    but existing measures of policy success at the national level often fail to measure
+    what matters most for communities. Many local governments and communities lack
+    the resources and capabilities to develop an actionable wellbeing data solution
+    that can be adapted to their context.
+  Full Title: Empowering Community-Led Wellbeing Measurement
+  Name: Empowering Community-Led Wellbeing Measurement
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: 'Local government leaders and community members, with
+    a particular focus on officials from under-resourced cities, historically disadvantaged
+    communities, and places that could not otherwise develop meaningful measures of
+    individual and family wellbeing. '
+  agency_text: Harvard Business School, U.S. Department of Commerce, National League
+    of Cities
+  airtable_createdTime: '2024-06-12T13:00:24.000Z'
+  airtable_id: recoXokr6PYYoKRhX
+  organizations:
+  - rec2dpyYkYfM0n78X
+  - recTramMMKqiRnaob
+  - rec0YXBmpuYimT17n
+  pdf: 2024-DOC-NLC.pdf
+  sprint_order: 2
+  sprint_text: 2024 Sprints
 - Background: State, local, and tribal governments, nonprofits, and universities complain
     that, despite the plethora of public data available, it can be dif cult to navigate
     information about federal programs, funding opportunities, and current awards

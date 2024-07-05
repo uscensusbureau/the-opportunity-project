@@ -2498,7 +2498,7 @@
     \ for both government decision-makers and community stakeholders."
   image: witt.jpg
   image-alt: A screenshot from the WITT tool website.
-  link: https://www.fullframeinitiative.org/wiatt
+  link: https://www.fullframeinitiative.org/resources/new-tool-centers-equity-and-wellbeing-in-infrastructure-investment/
   problem_statement:
   - recMZUPI5AFRXvAfe
   sprint:
@@ -3205,7 +3205,7 @@
   image: Pollution-Policy-Watch.jpg
   image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris
     type, and state for policy enactment.
-  link: no-link
+  link: https://science.gmu.edu/news/mason-students-build-data-science-tools-tackle-air-and-plastic-pollution
   problem_statement:
   - recO5eGWBm0Jr6c8R
   sprint:
@@ -3888,7 +3888,7 @@
   image: IBM.jpg
   image-alt: Schematic showing a mobile wallet being used to verify a vaccination
     record
-  link: no-link
+  link: https://newsroom.ibm.com/2021-12-15-IBM-Digital-Health-Pass-Integrating-with-Healthcare-IT-Leaders-Healthy-Returns-Practice-to-Provide-COVID-19-Digital-Credentials
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -4836,7 +4836,7 @@
   image: xcell-bridge.jpg
   image-alt: Screenshot showing the xcell bridge homepage including a purple overlay
     ontop of an evolving demo of the product
-  link: https://xcell.co/projects/bridge
+  link: https://www.figma.com/proto/TsIa58VB3vZzBeJZGTOJAw/TOPs-Design?page-id=834%3A19763&node-id=1974-60156&viewport=261%2C404%2C0.06&t=PpBYyabRI84AeYvy-1&scaling=scale-down&starting-point-node-id=1974%3A60156&show-proto-sidebar=1
   problem_statement:
   - reccbsHySlRrke1TZ
   sprint:
@@ -5106,7 +5106,7 @@
   image-alt: Screenshot of the Topolytics application. The app displays a map of the
     united states; the travel of waste products is color coded and tracked from place
     to place.
-  link: no-link
+  link: https://news.sap.com/2020/12/opportunity-project-circular-economy-chicago/
   problem_statement:
   - reca9YsxA5g3NW3Nx
   sprint:
@@ -5847,7 +5847,7 @@
     in U.S. metro areas'
   details: ' Provides visibility into the affordability of opportunity for children
     in U.S. metro areas'
-  link: no-link
+  link: https://www.diversitydatakids.org/
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -7019,7 +7019,7 @@
     to make better healthcare decisions while reducing the overall cost of healthcare.
   image: Social Determinants Indexing_FDA.jpg
   image-alt: A slide illustrating the snapshot of data available in the product.
-  link: https://sdindexing.com/
+  link: no-link
   problem_statement:
   - reczBchbjxeo8xurw
   sprint:

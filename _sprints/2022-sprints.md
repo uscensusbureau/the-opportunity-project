@@ -1,6 +1,6 @@
 ---
 short-name: 2022-sprints
-order: 2
+order: 3
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

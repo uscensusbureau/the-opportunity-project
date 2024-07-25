@@ -264,4 +264,3 @@ role-descriptions:
 <div class="process-section" id="{{ page.card-explanation.title | slugify }}">
   {% include two-column-card-text.html %}
 </div>
-{% include single-column-banner-photo-overlay-and-content.html %}

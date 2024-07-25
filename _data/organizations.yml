@@ -1009,6 +1009,11 @@
   - reckxOM77dvOirf7t
   treasury_datasets:
   - recBVVpEXyI7wZnf1
+- airtable_createdTime: '2024-07-25T12:00:13.000Z'
+  airtable_id: recKLaSy9OiaqvP0R
+  name: Natives Count Coalition
+  problem statements:
+  - recVSSpNy6UIY65qH
 - airtable_createdTime: '2020-02-04T22:17:16.000Z'
   airtable_id: recKMFFb0XoOtKOwU
   name: Socrata
@@ -2036,11 +2041,6 @@
   name: State of Hawaii
   sprints:
   - reco5ccvDEvBt5dA0
-- airtable_createdTime: '2024-06-12T12:58:38.000Z'
-  airtable_id: recgsggqDENLZOr9O
-  name: Native Counts Coalition
-  problem statements:
-  - recVSSpNy6UIY65qH
 - airtable_createdTime: '2020-02-07T17:51:43.000Z'
   airtable_id: rech0toJ1v6W1l7dJ
   name: IDEO

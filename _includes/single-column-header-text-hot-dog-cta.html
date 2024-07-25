@@ -1,0 +1,21 @@
+{% assign data = include.data %}
+
+<section class="grid-container padding-y-7 padding-x-4 {% if data.class %}{{ data.class }}{% endif %} bg-blue header-text-hot-dog">
+ <h2 class="margin-top-0 {% if data.title.class %}{{data.title.class}}{% endif %} text-white">{{data.title.text}}</h2>
+<div class="text-wrapper padding-x-4 padding-top-4 padding-bottom-5 bg-white">
+  {% if data.blurb.title %}
+  <h3 class="margin-0">{{data.blurb.title}}</h3>
+  {% endif %}
+
+  <p class="margin-bottom-0 overflow-hidden">
+    {{ data.blurb.text | markdownify | remove: "<p>" | remove: "</p>" }}
+</p>
+
+
+
+</div>
+{% if data.cta %}
+<h3>{{data.blurb.title}}</h3>
+{% endif %}
+
+</section>

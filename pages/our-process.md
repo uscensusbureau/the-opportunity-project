@@ -5,9 +5,34 @@ layout: default
 class: our-process
 
 # hero section
-lead:
-  - 'The Opportunity Project facilitates 12-week product development cycles—called “sprints”—focused on helping companies, non-profits, and universities build products with federal open data that help solve national challenges.'
-  - 'We give teams access to subject-matter and data experts to accelerate their progress. By emphasizing virtual communication, we make cross-sector collaboration easy and effective.'
+background: banner-background
+hero:
+  text: Sprint Process
+  subtext: Learn more about The Opportunity Project sprint process and participant roles.
+
+# how it works
+how-it-works:
+  title:
+    text: How It Works
+  blurb:
+    title: Title
+    text: |-
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!<br><br>
+
+
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!
+
+
+#roles
+roles-intro:
+  title:
+    text: Roles
+  blurb:
+    text: |-
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!<br><br>
+
+
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!
 
 connecting-banner:
   background-color: dark

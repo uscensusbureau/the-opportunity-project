@@ -251,7 +251,8 @@ role-descriptions:
 ---
 
 {% include hero.html %}
-{% include secondary-nav.html %}
+{% include single-column-header-text-hot-dog-cta.html data=page.how-it-works %}
+{% include single-column-header-text-hot-dog-cta.html data=page.roles-intro %}
 <div class="process-section" id="our-process">
   {% include connecting-banner-notched.html %}
   {% include single-column-centered-list.html %}

@@ -27,9 +27,8 @@ roles-intro:
   - text:
       title: Roles
       blurb: |-
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!<br><br>
+        What participants do in each sprint varies depending on their role:
 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!
 
     download:
       link: |-

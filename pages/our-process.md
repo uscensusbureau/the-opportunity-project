@@ -2,7 +2,7 @@
 title: Our Process
 permalink: /our-process/
 layout: default
-class: our-process
+class: sprint-process
 
 # hero section
 background: banner-background

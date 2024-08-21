@@ -41,36 +41,36 @@ roles-details:
       blurb: |-
         Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and own and maintain the products after the sprints. Teams may also develop non-digital products, such as toolkits, policy interventions and more.
     download:
-        link: |-
-          [Tech Team Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+        href: files/sprint-process-page/tech-team-role-overview.pdf
+        text: Tech Team Overview
   - role:
       title: Sprint Leaders
       blurb: |-
         Sprint leaders typically consist of three-four team members from the federal agency or NGO that identify major challenges facing the public within their mission areas. During the 12-14 week sprint, experts and data stewards from each agency or NGO will provide feedback to the participating teams and assistance working with federal open data.
     download:
-      link: |-
-        [Sprint Leader Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+      href: files/sprint-process-page/sprint-leader-overview.pdf
+      text: Sprint Leader Overview
   - role :
       title: User Advocates
       blurb: |-
         User Advocates are individuals who have experience with issues directly related to the challenges, and who work closely with end-users. Even better, they can be individuals who have experienced the problem directly. Community leaders, local or national advocates, service providers, and people with direct lived experience make great user advocates.
     download:
-      link: |-
-        [User Advocate Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+      text: User Advocate Overview
+      href: files/sprint-process-page/user-advocate-overview.pdf
   - role:
       title: Data Stewards
       blurb: |-
         Data stewards are integral to making sure the right federal, state or local open data is used, and help to answer technical questions participants may have.
     download:
-      link: |-
-        [Data Steward Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+      href: files/sprint-process-page/data-steward-overview.pdf
+      text: Data Steward Overview
   - role:
       title: Product Advisors
       blurb: |-
         Product advisors are experts outside of government that consult and help teams develop products with a viable long term strategy; making sure that the product can be maintained and has a real, lasting impact on the intended end user after the sprint.
     download:
-      link: |-
-        [Product Advisor Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+      href: files/sprint-process-page/product-advisor-overview.pdf
+      text: Product Advisor Overview
 
 
 cta-one:

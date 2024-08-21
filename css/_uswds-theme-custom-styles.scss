@@ -1388,6 +1388,23 @@ main {
   }
 
 
+// Sprint process page ----------------- //
+.page-sprint-process {
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+
 // FAQ page ----------------- //
 .page-faqs {
   background: #E6E6E6;
@@ -2084,6 +2101,17 @@ div.toolkit-todo__resources {
       font-size: 16px;
       line-height: 19.2px;
     }
+  }
+}
+
+.semi-cta {
+  border: 1px black solid;
+  // border-radius: 130px 0 0 130px;
+  padding: 50px 25px;
+  min-height: 172px;
+
+  &.radius-left-pill {
+    border-right-style: none;
   }
 }
 

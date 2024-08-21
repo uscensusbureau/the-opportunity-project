@@ -2087,6 +2087,17 @@ div.toolkit-todo__resources {
   }
 }
 
+.semi-cta {
+  border: 1px black solid;
+  // border-radius: 130px 0 0 130px;
+  padding: 50px 25px;
+  min-height: 172px;
+
+  &.radius-left-pill {
+    border-right-style: none;
+  }
+}
+
 .footer-contact-links {
   @include grid-gap(2);
 

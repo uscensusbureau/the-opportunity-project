@@ -12,59 +12,82 @@ hero:
 
 # how it works
 how-it-works:
-  title:
-    text: How It Works
-  blurb:
-    title: Title
-    text: |-
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!<br><br>
+  - text:
+      title: How It Works
+      subtitle: The TOP Model
+      blurb: |-
+        The Opportunity Project (TOP) works through 12-14 week product development cycles—called ‘sprints.’<br><br>
 
 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!
+        Federal agencies first define problem statements and then collaborate with technologists and community advocates outside of government, who rapidly build digital products to solve those challenges using open data.
 
 
 #roles
 roles-intro:
+  - text:
+      title: Roles
+      blurb: |-
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!<br><br>
+
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!
+
+    download:
+      link: |-
+        [Test link](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+
+roles-details:
+  - role:
+      title: Tech Teams
+      blurb: |-
+        Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and own and maintain the products after the sprints. Teams may also develop non-digital products, such as toolkits, policy interventions and more.
+    download:
+        link: |-
+          [Tech Team Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+  - role:
+      title: Sprint Leaders
+      blurb: |-
+        Sprint leaders typically consist of three-four team members from the federal agency or NGO that identify major challenges facing the public within their mission areas. During the 12-14 week sprint, experts and data stewards from each agency or NGO will provide feedback to the participating teams and assistance working with federal open data.
+    download:
+      link: |-
+        [Sprint Leader Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+  - role :
+      title: User Advocates
+      blurb: |-
+        User Advocates are individuals who have experience with issues directly related to the challenges, and who work closely with end-users. Even better, they can be individuals who have experienced the problem directly. Community leaders, local or national advocates, service providers, and people with direct lived experience make great user advocates.
+    download:
+      link: |-
+        [User Advocate Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+  - role:
+      title: Data Stewards
+      blurb: |-
+        Data stewards are integral to making sure the right federal, state or local open data is used, and help to answer technical questions participants may have.
+    download:
+      link: |-
+        [Data Steward Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+  - role:
+      title: Product Advisors
+      blurb: |-
+        Product advisors are experts outside of government that consult and help teams develop products with a viable long term strategy; making sure that the product can be maintained and has a real, lasting impact on the intended end user after the sprint.
+    download:
+      link: |-
+        [Product Advisor Overview](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+
+
+cta-one:
+  container-class: display-flex flex-column flex-align-center text-center cta-one
+  background-class: bg-blue-warm-60v
   title:
-    text: Roles
+    text: Missed [Census Open Innovation Summit 2024](https://coilsummit2024.splashthat.com/)? Watch the recordings on YouTube, featuring 25 sessions, more than 90 speakers, and 30 new tech products.
+    class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!<br><br>
-
-
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt impedit hic. Numquam illum obcaecati quasi!
-
-connecting-banner:
-  background-color: dark
-  image: process/process-banner.png
-  alt: "Man in suit on stage presenting with two large screens projecting a slide deck"
-  notch-left: bg-base-darkest
-  notch-right: bg-white
-
-# main explanation section
-explanation:
-  text:
-  - title: Sprint Cycle
-    image: photos/process/process-01.png
-    image-alt: Man and woman standing behind a computer monitor facing each other and smiling.
-    description: In 12 weeks, tech teams build solutions to urgent problems identified by federal agencies and advocacy organizations. Along the way, we create opportunities for teams to hear from experts in federal data and policy and the communities they’re trying to help.
-  - title: Share Insights
-    image: photos/process/process-02.png
-    image-alt: group of four people in conversation
-    description: Tech teams get the insight they need to wrangle federal data, navigate policy contexts, and authentically address the needs of a community. They retain full control of their team, technical vision, business strategy, and resulting intellectual property.
-  - title: Launch Products
-    image: photos/process/process-03.png
-    image-alt: Man presenting on stage with presentation slide displayed on a screen behind him
-    description: Sprints typically run through the summer and fall and culminate in an annual Demo Day, where press, data enthusiasts, technologists, and people in government gather to celebrate the launch of products built through The Opportunity Project that year.
-
-
-banner-subheader:
-  top:
-    background: white
-  bottom:
-    background: base-darkest
-    line: '-light'
-    subheader: How it Works
+      Watch recordings of the sessions on the U.S. Census Bureau's YouTube channel:
+    class: text-normal cta-one padding-x-5 tablet:padding-x-9 display-none
+  custom:
+    text: Catch Up on YouTube
+    href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+    isExternal: true
+    class: usa-button--secondary
 
 # sprint timeline
 progress-bar:

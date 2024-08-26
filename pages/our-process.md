@@ -37,8 +37,7 @@ roles-intro:
 roles-details:
   - role:
       title: Tech Teams
-      blurb: |-
-        Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and own and maintain the products after the sprints. Teams may also develop non-digital products, such as toolkits, policy interventions and more.
+      blurb: Tech teams are the companies, universities, non-profits, and students who build digital products in the sprints. They design, develop, and launch the products they build, and own and maintain the products after the sprints. Teams may also develop non-digital products, such as toolkits, policy interventions and more.
     download:
         href: files/sprint-process-page/tech-team-role-overview.pdf
         text: Tech Team Overview

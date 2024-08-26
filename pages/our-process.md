@@ -91,27 +91,37 @@ cta-one:
 ---
 
 {% include hero.html %}
+<section class="bg-blue md">
+  <div class="header-text-hot-dog">
 {% include single-column-header-text-hot-dog-cta.html data=page.how-it-works %}
-{% include how-it-works-details.html data=page.how-it-works %}
-
-<section class="grid-container padding-y-7 padding-x-4 bg-blue header-text-hot-dog">
-  <div>
-    <a href="https://opportunity.census.gov/topx-toolkit/" target="_blank"
-      class="usa-button text-ink padding-y-1 padding-x-3 usa-button--outline margin-top-4 site-button">
-      Facilitate a TOP sprint at your agency on your timeline with the TOPx Toolkit.
-    </a>
   </div>
 </section>
-{% include single-column-header-text-hot-dog-cta.html data=page.roles-intro %}
-{% include single-column-header-text-hot-dog-cta.html data=page.roles-details %}
-<section class="bg-white header-text-hot-dog padding-y-3 display-flex flex-justify-end">
-  <div class="radius-left-pill semi-cta bg-blue">
-    <div class="grid-container padding-x-4">
-      <p>Interested in participating in a sprint?</p>
-    <a href="{{ site.baseurl }}/{{ site.annual_reports.2019 }}" target="_blank"
-      class="text-ink padding-y-1 margin-top-4">
-      Email the TOP team.
-    </a>
+
+
+{% include how-it-works-details.html data=page.how-it-works utils='how-it-works' %}
+
+
+<section class="bg-blue md">
+  <div class="header-text-hot-dog">
+    {% include single-column-header-text-hot-dog-cta.html data=page.roles-intro %}
+  </div>
+</section>
+
+<div class="bg-base full-width-screen-spilt">
+ <!-- padding-y-8 padding-x-4 tablet:padding-y-7 tablet:padding-x-9 -->
+  <div class="roles-content-block padding-top-8">
+  {% include single-column-header-text-hot-dog-cta.html data=page.roles-details %}
+  </div>
+  <div
+  class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-justify-end semi-cta-block">
+    <div class="radius-left-pill semi-cta bg-blue margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+        <p>Interested in participating in a sprint?</p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Email the TOP team.
+      </a>
+      </div>
     </div>
   </div>
-</section>
+</div>

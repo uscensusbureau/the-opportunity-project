@@ -1,51 +1,75 @@
 {% assign data = include.data %}
 
 
-{% if data.text.title %}
-<h2 class="margin-top-0 {% if data.text.title %}{{data.text.title | slugify}}{% endif %} text-white">{{data.text.title}}
-</h2>
-{% endif %}
 
-<div class="text-wrapper padding-x-4 padding-top-4 padding-bottom-5 margin-y-4 bg-white">
-  {% if data.text.subtitle %}
-
-  <h3 class="margin-0">{{data.text.subtitle}}</h3>
-
+{% for data in data %}
+<div class="grid-container  padding-0 {% if data.custom.class %}{{ data.custom.class | slugify }}{% endif %}">
+  {% if data.text.title %}
+  <h2 class="margin-y-0 {% if data.text.title %}{{ data.text.title | slugify }}{% endif %} text-white">{{ data.text.title }}
+  </h2>
   {% endif %}
 
-  {% if data.role.title %}
+  <div class="text-wrapper padding-205 tablet:padding-3 {%if data.role %} margin-bottom-3 desktop:margin-bottom-7 {% endif %} tablet:margin-top-205 desktop:padding-y-5 desktop:padding-x-5 bg-white">
+    {% if data.text.subtitle %}
 
-  <h3 class="margin-0">{{data.role.title}}</h3>
+    <h3 class="margin-0">{{data.text.subtitle}}</h3>
 
+    {% endif %}
+
+    {% if data.role.title %}
+
+    <h3 class="margin-0">{{data.role.title}}</h3>
+
+    {% endif %}
+
+    {% if data.text.blurb %}
+    <p class="margin-bottom-0 overflow-hidden">
+      {{ data.text.blurb | markdownify | remove: "<p>" | remove: "</p>" }}
+    </p>
+
+    {% endif %}
+
+    {% if data.role.blurb %}
+    <p class="margin-bottom-0 overflow-hidden">
+      {{ data.role.blurb | markdownify | remove: "<p>" | remove: "</p>" }}
+    </p>
+  {% endif%}
+
+  {% if data.download.href %}
+  <div class=" display-flex flex-align-start margin-top-105 desktop:margin-top-3 roles-downloads">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" aria-hidden="true"
+      class="width-2 desktop:width-3 margin-right-05">
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2z" />
+    </svg>
+    <a href="{{site.baseurl}}/{{ data.download.href}} " class="">{{ data.download.text}}
+    </a>
+  </div>
   {% endif %}
 
+  </div>
 
-  <p class="margin-bottom-0 overflow-hidden">
-    {{ data.text.blurb | markdownify | remove: "<p>" | remove: "</p>" }}
-  </p>
 
-  <p class="margin-bottom-0 overflow-hidden">
-    {{ data.role.blurb | markdownify | remove: "<p>" | remove: "</p>" }}
-  </p>
 
-{% if data.download.href %}
-<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" aria-hidden="true"
-  class="width-205 margin-right-05">
-  <path d="M0 0h24v24H0z" fill="none" />
-  <path
-    d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2z" />
-</svg>
-<a href="{{site.baseurl}}/{{ data.download.href}}">{{ data.download.text}}</a>
-{% endif %}
 
+
+  {% if data.cta %}
+  <h3>{{data.blurb.title}}</h3>
+  {% endif %}
+
+  {% if data.role-details %}
+  <div class="bg-white header-text-hot-dog padding-y-3 display-flex flex-justify-end">
+    <div class="radius-left-pill semi-cta bg-blue margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4">
+        <p>Interested in participating in a sprint?</p>
+        <a href="{{ site.baseurl }}/{{ site.annual_reports.2019 }}" target="_blank"
+          class="text-ink padding-y-1 margin-top-4">
+          Email the TOP team.
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endif %}
 </div>
-
-
-
-
-
-{% if data.cta %}
-<h3>{{data.blurb.title}}</h3>
-{% endif %}
-
 {% endfor %}

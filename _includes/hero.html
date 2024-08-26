@@ -120,6 +120,14 @@
       {{ page.hero.subtext | markdownify }}
     </div>
   </div>
+{% elsif page.class == "sprint-process" %}
+<section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
+  <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
+    <h1 class="usa-hero__title text-center">{{ page.hero.text}}</h1>
+    <div class="usa-hero__subtitle text-center">
+      {{ page.hero.subtext | markdownify }}
+    </div>
+  </div>
 {% else %}
 <section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">

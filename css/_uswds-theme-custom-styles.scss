@@ -1392,15 +1392,212 @@ main {
 .page-sprint-process {
   h2 {
     font-size: 14px;
+
+    @include at-media('tablet') {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    @include at-media('desktop') {
+      font-size: 32px;
+      line-height: 32px;
+    }
   }
 
   h3 {
     font-size: 12px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 24px;
+      }
   }
 
   p {
     font-size: 12px;
     line-height: 17px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 30px;
+      }
+  }
+
+  .interior-hero {
+    padding-bottom: 60px;
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+    @include at-media('tablet') {
+      width: 343px;
+      // min-height: ;
+    }
+
+    @include at-media('desktop') {
+        width: 571px;
+      }
+  }
+
+  .usa-hero__title {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+  }
+
+  .usa-hero__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+  }
+
+  div.header-text-hot-dog, div.how-it-works-details {
+    padding: 52.64px 30.08px;
+
+    @include at-media('tablet') {
+      padding: 52.64px 67.68px;
+    }
+    @include at-media('desktop') {
+      padding: 112px 127.5px;
+    }
+  }
+  div.grid-container div.text-wrapper {
+    margin: 15.04px 0;
+
+    @include at-media('tablet') {
+        margin: 30px 0 8px;
+      }
+    @include at-media('desktop') {
+        margin: 30px 0px 0px;
+      }
+        a {
+        font-size: 12px;
+        line-height: 17px;
+        @include at-media('tablet') {
+            font-size: 14px;
+          }
+        @include at-media('desktop') {
+            font-size: 24px;
+          }
+        }
+  }
+  .how-it-works-details {
+    ol {
+      list-style-position: inside;
+      font-size: 12px;
+      @include at-media('tablet') {
+          font-size: 14px;
+          line-height: 17px;
+        }
+      @include at-media('desktop') {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      .usa-accordion__button {
+        font-size: 12px;
+        line-height: 12px;
+        @include at-media('tablet') {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        @include at-media('desktop') {
+            font-size: 24px;
+            line-height: 24px;
+          }
+      }
+    }
+  }
+  .site-button.usa-button {
+    box-shadow: inset 0 0 0 1px black;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 17px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      &::hover {
+        text-decoration: underline;
+      }
+      @include at-media('desktop') {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+          }
+        &:visited {
+            color: black;
+          }
+      }
+  }
+  .full-width-screen-spilt {
+    display: grid;
+    // max width of grid-container is 64
+    // padding in mobile is 1rem
+    grid-template-columns: minmax(30.08px, 1fr) minmax(0, auto) minmax(30.08px, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      ". roles ."
+      "semi semi semi";
+
+    .roles-content-block {
+      grid-column: 1/2;
+      grid-area: roles;
+    }
+
+    .roles-downloads {
+      a {
+        text-decoration: none;
+        color: black;
+        &:visited {
+          color: black;
+        }
+        &:hover {
+          text-decoration: underline;
+          color: black;
+        }
+      }
+    }
+    .semi-cta-block {
+      grid-column: 2/-1;
+      justify-self: end;
+      grid-area: semi;
+    }
+    @include at-media('tablet') {
+      grid-template-columns: 67.68px auto 67.68px;
+    }
+    @include at-media('desktop') {
+      grid-template-columns: 127.5px auto 127.5px;
+    }
   }
 }
 
@@ -2104,14 +2301,35 @@ div.toolkit-todo__resources {
   }
 }
 
+.roles-downloads a {
+  font-size: 12px;
+}
+
 .semi-cta {
   border: 1px black solid;
   // border-radius: 130px 0 0 130px;
   padding: 50px 25px;
-  min-height: 172px;
+  min-height: 108px;
+
+  @include at-media('tablet') {
+    width: 100%;
+  }
 
   &.radius-left-pill {
     border-right-style: none;
+  }
+
+  a {
+   font-size: 12px;
+   line-height: 17px;
+  @include at-media('tablet') {
+      font-size: 14px;
+    }
+  @include at-media('desktop') {
+      font-size: 24px;
+      line-height: 24px;
+
+    }
   }
 }
 

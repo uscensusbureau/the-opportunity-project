@@ -1,7 +1,5 @@
 {% assign data = include.data %}
 
-<section class="grid-container padding-y-7 padding-x-4 {% if data.text.title %}{{ data.text.title | slugify }}{% endif %} bg-blue header-text-hot-dog">
-  {% for data in data %}
 
 {% if data.text.title %}
 <h2 class="margin-top-0 {% if data.text.title %}{{data.text.title | slugify}}{% endif %} text-white">{{data.text.title}}
@@ -51,4 +49,3 @@
 {% endif %}
 
 {% endfor %}
-</section>

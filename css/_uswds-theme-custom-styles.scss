@@ -1579,13 +1579,12 @@ main {
 
     .roles-downloads {
       a {
-        text-decoration: none;
+        text-decoration: underline;
         color: black;
         &:visited {
           color: black;
         }
         &:hover {
-          text-decoration: underline;
           color: black;
         }
       }

@@ -1430,6 +1430,12 @@ main {
 
   .interior-hero {
     padding-bottom: 60px;
+    background: url('../img/sprint-process-page/tablet-hero-background.png') no-repeat 0 0;
+      background-size: cover;
+    @include at-media("desktop") {
+      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
+        background-size: cover;
+    }
   }
 
   .usa-hero__bg {
@@ -1478,8 +1484,15 @@ main {
     }
   }
 
+  .how-it-works-bg, .roles-intro-bg {
+    background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
+    background-size: cover;
+  }
 
-
+.how-it-works-details-bg, .roles-details-bg {
+  background: url('../img/sprint-process-page/desktop-how-it-works-steps-background.png') repeat 0 0;
+  background-size: cover;
+}
   div.header-text-hot-dog, div.how-it-works-details {
     padding: 52.64px 30.08px;
 

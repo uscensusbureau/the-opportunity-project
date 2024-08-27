@@ -113,7 +113,7 @@ cta-one:
   </div>
   <div
   class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-justify-end semi-cta-block">
-    <div class="radius-left-pill semi-cta bg-blue margin-left-4 padding-y-205">
+    <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
         <p>Interested in participating in a sprint?</p>
       <a href="mailto:{{ site.contacts.email }}" target="_blank"

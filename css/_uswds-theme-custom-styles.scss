@@ -1444,38 +1444,41 @@ main {
     @include at-media('desktop') {
         width: 571px;
       }
-  }
 
-  .usa-hero__title {
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    padding-top: 25px;
-    @include at-media('tablet') {
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
         font-size: 20px;
         line-height: 20px;
-      }
-    @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-      }
-  }
-
-  .usa-hero__subtitle {
-    font-size: 12px;
-    line-height: 17px;
-    margin-bottom: 0;
-    padding-bottom: 16px;
-    @include at-media('tablet') {
-        font-size: 14px;
-        line-height: 17px;
       }
 
       @include at-media('desktop') {
         font-size: 32px;
         line-height: 32px;
       }
+    }
+    h1.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+      @include at-media('tablet') {
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        @include at-media('desktop') {
+          font-size: 32px;
+          line-height: 32px;
+        }
+    }
   }
+
+
 
   div.header-text-hot-dog, div.how-it-works-details {
     padding: 52.64px 30.08px;
@@ -1576,13 +1579,12 @@ main {
 
     .roles-downloads {
       a {
-        text-decoration: none;
+        text-decoration: underline;
         color: black;
         &:visited {
           color: black;
         }
         &:hover {
-          text-decoration: underline;
           color: black;
         }
       }

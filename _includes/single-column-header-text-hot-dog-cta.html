@@ -12,7 +12,7 @@
   <div class="text-wrapper padding-205 tablet:padding-3 {%if data.role %} margin-bottom-3 desktop:margin-bottom-7 {% endif %} tablet:margin-top-205 desktop:padding-y-5 desktop:padding-x-5 bg-white">
     {% if data.text.subtitle %}
 
-    <h3 class="margin-0">{{data.text.subtitle}}</h3>
+    <h3 class="margin-0 margin-bottom-2">{{data.text.subtitle}}</h3>
 
     {% endif %}
 
@@ -23,7 +23,7 @@
     {% endif %}
 
     {% if data.text.blurb %}
-    <p class="margin-bottom-0 overflow-hidden">
+    <p class="margin-y-0 overflow-hidden">
       {{ data.text.blurb | markdownify | remove: "<p>" | remove: "</p>" }}
     </p>
 

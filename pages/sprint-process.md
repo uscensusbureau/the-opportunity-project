@@ -1,8 +1,8 @@
 ---
 title: Sprint Process
-permalink: /sprint-process
+permalink: /sprint-process/
 redirect_from:
-  - /our-process
+  - /our-process/
 
 layout: default
 class: sprint-process

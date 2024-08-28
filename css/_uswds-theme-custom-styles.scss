@@ -1430,11 +1430,12 @@ main {
 
   .interior-hero {
     padding-bottom: 60px;
-    background: url('../img/sprint-process-page/tablet-hero-background.png') no-repeat 0 0;
-      background-size: cover;
+    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
+      background-size: contain;
     @include at-media("desktop") {
       background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
-        background-size: cover;
+      background-size: cover;
+      padding: 117px 0 124px;
     }
   }
 
@@ -1465,9 +1466,10 @@ main {
       @include at-media('desktop') {
         font-size: 32px;
         line-height: 32px;
+        padding-top: 30px;
       }
     }
-    h1.usa-hero__subtitle {
+    div.usa-hero__subtitle {
       font-size: 12px;
       line-height: 17px;
       margin-bottom: 0;
@@ -1476,11 +1478,17 @@ main {
           font-size: 14px;
           line-height: 17px;
         }
-
         @include at-media('desktop') {
           font-size: 32px;
           line-height: 32px;
+          padding-bottom: 30px;
         }
+         p {
+          margin: 8px 0 0px;
+          @include at-media('desktop') {
+              margin-top: 20px;
+            }
+         }
     }
   }
 

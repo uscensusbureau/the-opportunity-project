@@ -1,8 +1,8 @@
 ---
 title: Sprint Process
-permalink: /sprint-process
+permalink: /sprint-process/
 redirect_from:
-  - /our-process
+  - /our-process/
 
 layout: default
 class: sprint-process
@@ -32,12 +32,6 @@ roles-intro:
       blurb: |-
         What participants do in each sprint varies depending on their role:
 
-
-    download:
-      link: |-
-        [Test link](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
-    custom:
-      class: test
 
 roles-details:
   - role:

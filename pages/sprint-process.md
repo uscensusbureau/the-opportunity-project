@@ -36,6 +36,8 @@ roles-intro:
     download:
       link: |-
         [Test link](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+    custom:
+      class: test
 
 roles-details:
   - role:

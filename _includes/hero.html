@@ -31,21 +31,6 @@
       <p class="usa-hero__subtitle desktop:grid-col-5">{{ page.hero.subtext }}</p>
       </div>
     </div>
-{% elsif page.class == "about"%}
-<section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
-  <div class="grid-container">
-    
-    <div class="maxw-mobile-lg grid-offset-1 margin-top-9">
-      <h1
-        class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white margin-top-10"
-      >
-        {{ page.title }}
-      </h1>
-      {% for p in page.lead %}
-        <p class="font-sans-md text-white">{{ p }}</p>
-      {% endfor %}
-    </div>
-  </div>
 {% elsif page.class == "datakit" %}
 <section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
@@ -120,7 +105,7 @@
       {{ page.hero.subtext | markdownify }}
     </div>
   </div>
-{% elsif page.class == "sprint-process" %}
+{% elsif page.class == "sprint-process" or page.class == "about" %}
 <section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
     <h1 class="usa-hero__title text-center">{{ page.hero.text}}</h1>

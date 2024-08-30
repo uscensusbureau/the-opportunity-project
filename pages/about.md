@@ -5,9 +5,10 @@ permalink: /about/
 layout: default
 
 # hero section
-lead:
-  - 'The Opportunity Project helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
-  - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 175+ consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
+background: banner-background
+hero:
+  text: About TOP
+  subtext: Learn more about The Opportunity Project program and initiatives.
 
 circuit-banner:
   background-color: primary

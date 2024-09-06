@@ -99,3 +99,14 @@ roles-intro:
     {% include single-column-header-text-hot-dog-cta.html data=page.roles-intro %}
   </div>
 </section>
+
+<section class="bg-blue roles-intro-bg">
+  <div class="grid-row grid-gap-lg
+  flex-wrap flex-justify-center">
+    {% for product in featured_products %}
+    <div class="tablet:grid-col-4 usa-media-block__background-image-portrait margin-bottom-3">
+      {% include cards/card.html content=product utils="small-header-card" %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

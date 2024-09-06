@@ -46,6 +46,54 @@ roles-intro:
   </div>
 </section>
 
+<section class="bg-base-lighter roles-intro-bg" id="coil-intro">
+<div class="grid-container display-flex">
+    <div class="img-container">
+      <span>{% include image.html src="top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile" %}</span>
+    </div>
+    <div class="content-container">
+      <p class="font-sans-lg">TOP is led by Census Open Innovation Labs (a.k.a. ‘COIL’), an office at the U.S. Census Bureau, with a portfolio of award-winning projects that continue to raise the bar for open innovation across government.</p>
+      <a href="https://coil.census.gov/about/" class="text-white">Meet the COIL Team</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div
+  class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-column flex-justify-end semi-cta-block">
+    <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+      <h3>Collaboration, Simplified</h3>
+        <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Email the TOP team.
+      </a>
+      </div>
+    </div>
+    <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+      <h3>Collaboration, Simplified</h3>
+        <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Email the TOP team.
+      </a>
+      </div>
+    </div>
+    <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+      <h3>Collaboration, Simplified</h3>
+        <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Email the TOP team.
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="bg-blue roles-intro-bg" id="roles-intro">
   <div class="header-text-hot-dog">
     {% include single-column-header-text-hot-dog-cta.html data=page.roles-intro %}

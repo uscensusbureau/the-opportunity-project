@@ -1624,6 +1624,141 @@ main {
   }
 }
 
+// About page ----------------- //
+.page-about {
+  h2 {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+
+  h3 {
+    font-size: 12px;
+
+    @include at-media('tablet') {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    @include at-media('desktop') {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 17px;
+
+    @include at-media('tablet') {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    @include at-media('desktop') {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  .interior-hero {
+    padding-bottom: 60px;
+    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
+    background-size: contain;
+
+    @include at-media("desktop") {
+      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
+      background-size: cover;
+      padding: 117px 0 124px;
+    }
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+
+    @include at-media('tablet') {
+      width: 343px;
+      // min-height: ;
+    }
+
+    @include at-media('desktop') {
+      width: 571px;
+    }
+
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 30px;
+      }
+    }
+
+    div.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 30px;
+      }
+
+      p {
+        margin: 8px 0 0px;
+
+        @include at-media('desktop') {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .about-bg,
+  .history-bg {
+    background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
+    background-size: cover;
+  }
+
+  div.header-text-hot-dog {
+    padding: 52.64px 30.08px;
+
+    @include at-media('tablet') {
+      padding: 52.64px 67.68px;
+    }
+
+    @include at-media('desktop') {
+      padding: 112px 127.5px;
+    }
+  }
+
+}
 
 // FAQ page ----------------- //
 .page-faqs {

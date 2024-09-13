@@ -5,87 +5,133 @@ permalink: /about/
 layout: default
 
 # hero section
-lead:
-  - 'The Opportunity Project helps companies, non-profits, and universities turn federal open data into new technologies that solve real-world problems for people across the country.'
-  - 'We focus on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and strengthening the workforce. To date, 175+ consumer-facing digital products have been created, using open data to serve families, businesses and communities nationwide.'
+background: banner-background
+hero:
+  text: About TOP
+  subtext: Learn more about The Opportunity Project program and initiatives.
 
-circuit-banner:
-  background-color: primary
-  image: icons/circuity-pattern.svg
-  sidebar-color: base-darkest
+# about
+about:
+  - text:
+      title: About
+      blurb: |-
+        The Opportunity Project (a.k.a. ‘TOP’) engages technologists, government, and communities to prototype digital products that solve real-world problems with open data.<br><br>
+
+         It operates through 12-14 week technology design sprints, focused on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and workforce development. To date, over 200 digital products have been created, using open data to serve families, businesses, local leaders, and communities nationwide.<br><br>
+
+        TOP addresses broad national challenges as well as specific community and regional challenges, such as those facing Puerto Rico or Indigenous Communities.
 
 
-#blue background section
-content-primary:
-  title: How America’s Data Becomes America’s Innovation
-  description:
-    - 'We facilitate 12-week product development cycles (called “sprints”) that pull together innovators from every sector. Tech teams join a sprint to build data-powered solutions to critical problems facing the public. Then, we match them with subject-matter experts, who offer valuable information and feedback. '
-  subsections:
-    - title: Collaboration, Simplified
-      description: We facilitate virtual collaboration across government, industry, and communities. In our sprints, cross-sector expertise is only an email, chat room, or call away.
-      image: photos/about/about-01.png
-      image-alt: Three people analyzing sticky notes on the wall at a workshop
-    - title: Federal Data, Explained
-      description: The Opportunity Project unlocks the potential of open data. We help teams find, understand, and integrate government data into products that provide value and help solve important problems.
-      image: photos/about/about-02.png
-      image-alt: A man writing on a poster at a workshop
-  button:
-    - link:
-      text: Learn More
+#our history
+history:
+  - text:
+      title: Our History
+      blurb: |-
+        TOP launched in March 2016 as a White House initiative to put data and tools in the hands of the American people to help them navigate critical issues facing the nation. In 2017, the U.S. Department of Commerce took up leadership of TOP, led by the U.S. Census Bureau’s Census Open Innovation Labs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through open data, technology, and human-centered design.<br><br>
 
-#white background section
-content-light:
-  title: 
+        Since its launch, TOP’s participants have created hundreds of digital products. Today, TOP has been referenced as a best practice in policies like the Federal Data Strategy, the President’s Management Agenda, performance.gov, Department of Commerce’s Strategic Plan, the Task Force on Agriculture and Rural Prosperity Report, and many others. It is a key mechanism supporting implementation of the Foundations for Evidence Based Policy Making Act (“The Evidence Act”).
 
-# three column layout of statistics; the border value indicates a vertical line to the side of the text. The underline indicates a separator between the statistic and the description
-impact:
-  - statistic: '40+'
-    underline: short yellow accent
-    description: National challenges addressed, including ocean plastic pollution, COVID-19 economic recovery, disaster <br><br>
-    border: statistic-border-right
-  - statistic: '175+'
-    underline: short yellow accent
-    description: Public-facing digital products launched since 2016 through TOP’s 12-week technology development sprints
-    border: statistic-border-right
-  - statistic: '1300+'
-    underline: short yellow accent
-    description: Alumni participated in TOP sprints, including developers, designers, community leaders, data & policy experts, students, and government agencies
-    border: padding-right-3
 
-# centered photo with overlay
-photo:
-  image: photos/about/about-coil.png
-  img-alt: Abstract exploding data with vibrant red and blue lines
-  overlay:
-    title: From the Census Open Innovation Labs
-    text: The Opportunity Project is led by Census Open Innovation Labs (COIL) at the U.S. Census Bureau. We’re a nimble, startup-like team with a portfolio of initiatives that are setting a new standard for open innovation in the federal government.
-    button:
-      text: Read about the Team
-      href: https://coil.census.gov/
-      color: secondary-white
-      isExternal: true
-  background: bg-base-lightest
+    download:
+      link: |-
+        [Have more questions? Visit our FAQ page](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
+    custom:
+      class: test
+
+featured_products:
+  - title: City Builder
+    tech_team: Citi Ventures
+    cohort: Workforce
+    problem_statement: Opportunity Zones
+    link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
+    href: city-builder
+    details: Provides investors, developers, municipalities, and community members with data-driven insights to make meaningful, place-based investments<br><br>
+  - title: Community Led Opportunity Zones
+    short_url: "/showcase/?search=community+led"
+    href: "https://www.publicdemocracy.io/opportunity-zones-local-impact"
+    target: '_blank'
+    isExternal: true
+    tech_team: PUBLIC DEMOCRACY
+    details: Ensures that community priorities inform Opportunity Zones strategies, policies, and investment in Birmingham, Alabama
+  - title: Inclusive Growth Score
+    href: 'https://inclusivegrowthscore.com/'
+    target: '_blank'
+    isExternal: true
+    tech_team: MASTERCARD
+    details: Provides community leaders with local, data-driven insights that measure how Opportunity Zones benefit from equitable growth
+
+
 ---
 
 {% include hero.html %}
-{% include circuit-banner.html %}
-{% include sidebar-and-content-primary.html %}
-{% include three-column-narrow-text.html %}
+<section class="bg-blue about-bg md">
+  <div class="header-text-hot-dog">
+{% include single-column-header-text-hot-dog-cta.html data=page.about %}
+  </div>
+</section>
 
-<section class="bg-base-lightest">
-  <section class="usa-section grid-container bg-white">
-    <div class="grid-row grid-gap">
-      <div class="desktop:grid-col-3 tablet:grid-col-3 grid-offset-1">
-          <h2 style="font-size:32px;" class="padding-right-3 margin-top-0 line-height-sans-3">Our History</h2>
-      </div>
-      <div class="desktop:grid-col-7 tablet:grid-col-6 border-top border-base-lighter">
-      <p>The Opportunity Project launched in March 2016 as a White House initiative to catalyze new technologies that use federal and local data to empower communities with information about critical resources, such as affordable housing, quality schools, and jobs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through data, technology, and user centered design.
-      </p>
-      <p>
-        In the past 6 years, TOP’s hundreds of participants have created 175+ digital products. Today, TOP is widely referenced as a model for how the government can seed cross-sector collaboration around open data, and has been included in policies like the <a href="https://strategy.data.gov/" class="text-bold text-black opacity-80">Federal Data Strategy</a>, <a href="https://www.whitehouse.gov/omb/management/pma/" class="text-bold text-black opacity-80">the President’s Management Agenda</a>, <a href="https://performance.gov" class="text-bold text-black opacity-80">performance.gov</a>,  <a href="https://www.commerce.gov/about/strategic-plan" class="text-bold text-black opacity-80">Department of Commerce’s Strategic Plan</a>, <a href="https://www.usda.gov/sites/default/files/documents/rural-prosperity-report.pdf" class="text-bold text-black opacity-80">the Task Force on Agriculture and Rural Prosperity Report</a>, and many others. In 2019, <a href="{{site.top-bill}}" class="text-bold text-black opacity-80">The Opportunity Project Act of 2019</a> was introduced to permanently authorize the program.</p>
-       
+<section class="bg-base-lighter roles-intro-bg" id="coil-intro">
+<div class="grid-container display-flex">
+    <div class="img-container">
+      <span>{% include image.html src="top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile" %}</span>
+    </div>
+    <div class="content-container">
+      <p class="font-sans-lg">TOP is led by Census Open Innovation Labs (a.k.a. ‘COIL’), an office at the U.S. Census Bureau, with a portfolio of award-winning projects that continue to raise the bar for open innovation across government.</p>
+      <a href="https://coil.census.gov/about/" class="text-white">Meet the COIL Team</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div
+  class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-column flex-justify-end semi-cta-block">
+    <h2>Our Vision</h2>
+    <div class="radius-right-pill semi-cta bg-white margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+      <h3>Collaboration, Simplified</h3>
+        <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Email the TOP team.
+      </a>
       </div>
     </div>
-  </section>
+    <div class="radius-right-pill semi-cta bg-white margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+      <h3>Federal Data, Explained</h3>
+        <p>TOP unlocks the potential of open data. We believe that government data is a significantly under-tapped resource that can be transformed into products that solve important problems.</p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Email the TOP team.
+      </a>
+      </div>
+    </div>
+    <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
+      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+      <h3>Collaboration, Simplified</h3>
+        <p>Federal Agencies can also lead their own TOP sprints using the “TOPx Toolkit” - a step-by-step guide to the TOP sprint model.</p>
+      <a href="mailto:{{ site.contacts.email }}" target="_blank"
+        class="text-ink padding-y-1 margin-top-4">
+        Check out the TOPx Toolkit
+      </a>
+      </div>
+    </div>
+  </div>
 </section>
-{% include single-column-centered-photo-with-overlay.html photo=page.photo %}
+
+<section class="bg-blue history-bg" id="history">
+  <div class="header-text-hot-dog">
+    {% include single-column-header-text-hot-dog-cta.html data=page.history %}
+  </div>
+</section>
+
+<section class="bg-blue roles-intro-bg">
+  <div class="grid-row grid-gap-lg
+  flex-wrap flex-justify-center">
+    {% for product in page.featured_products %}
+    <div class="tablet:grid-col-4 usa-media-block__background-image-portrait margin-bottom-3">
+      {% include cards/card.html content=product utils="small-header-card" %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

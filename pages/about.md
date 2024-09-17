@@ -39,26 +39,17 @@ history:
       class: test
 
 featured_products:
-  - title: City Builder
-    tech_team: Citi Ventures
-    cohort: Workforce
-    problem_statement: Opportunity Zones
+  - title: TOP University
     link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
     href: city-builder
-    details: Provides investors, developers, municipalities, and community members with data-driven insights to make meaningful, place-based investments<br><br>
-  - title: Community Led Opportunity Zones
+  - title: Annual Innovation Summit
     short_url: "/showcase/?search=community+led"
     href: "https://www.publicdemocracy.io/opportunity-zones-local-impact"
     target: '_blank'
-    isExternal: true
-    tech_team: PUBLIC DEMOCRACY
-    details: Ensures that community priorities inform Opportunity Zones strategies, policies, and investment in Birmingham, Alabama
-  - title: Inclusive Growth Score
+  - title: Prize Challenge
     href: 'https://inclusivegrowthscore.com/'
     target: '_blank'
     isExternal: true
-    tech_team: MASTERCARD
-    details: Provides community leaders with local, data-driven insights that measure how Opportunity Zones benefit from equitable growth
 
 
 ---
@@ -72,11 +63,11 @@ featured_products:
 
 <section class="bg-base-lighter roles-intro-bg" id="coil-intro">
 <div class="grid-container display-flex">
-    <div class="img-container">
-      <span>{% include image.html src="top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile" %}</span>
+    <div class="img-container bg-white padding-y-6 padding-x-5 tablet:order-last">
+      <span>{% include image.html src="coil-logo-l-navy.png" alt="The Census Open Innovation Lab Logo" class="logo-image logo-image-mobile" %}</span>
     </div>
     <div class="content-container">
-      <p class="font-sans-lg">TOP is led by Census Open Innovation Labs (a.k.a. ‘COIL’), an office at the U.S. Census Bureau, with a portfolio of award-winning projects that continue to raise the bar for open innovation across government.</p>
+      <p class="font-sans-lg">TOP is led by <a href="https://coil.census.gov/">Census Open Innovation Labs</a> (a.k.a. ‘COIL’), an office at the U.S. Census Bureau, with a portfolio of award-winning projects that continue to raise the bar for open innovation across government.</p>
       <a href="https://coil.census.gov/about/" class="text-white">Meet the COIL Team</a>
     </div>
   </div>
@@ -86,29 +77,20 @@ featured_products:
   <div
   class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-column flex-justify-end semi-cta-block">
     <h2>Our Vision</h2>
-    <div class="radius-right-pill semi-cta bg-white margin-left-4 padding-y-205">
+    <div class="radius-right-pill semi-cta bg-white margin-right-4 padding-y-205 margin-bottom-3">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
       <h3>Collaboration, Simplified</h3>
         <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
-      <a href="mailto:{{ site.contacts.email }}" target="_blank"
-        class="text-ink padding-y-1 margin-top-4">
-        Email the TOP team.
-      </a>
       </div>
     </div>
-    <div class="radius-right-pill semi-cta bg-white margin-left-4 padding-y-205">
+    <div class="radius-right-pill semi-cta bg-white margin-right-4 padding-y-205 margin-bottom-3">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
       <h3>Federal Data, Explained</h3>
         <p>TOP unlocks the potential of open data. We believe that government data is a significantly under-tapped resource that can be transformed into products that solve important problems.</p>
-      <a href="mailto:{{ site.contacts.email }}" target="_blank"
-        class="text-ink padding-y-1 margin-top-4">
-        Email the TOP team.
-      </a>
       </div>
     </div>
     <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
-      <h3>Collaboration, Simplified</h3>
         <p>Federal Agencies can also lead their own TOP sprints using the “TOPx Toolkit” - a step-by-step guide to the TOP sprint model.</p>
       <a href="mailto:{{ site.contacts.email }}" target="_blank"
         class="text-ink padding-y-1 margin-top-4">

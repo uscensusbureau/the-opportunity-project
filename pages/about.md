@@ -77,13 +77,13 @@ featured_products:
   <div
   class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-column flex-justify-end semi-cta-block">
     <h2>Our Vision</h2>
-    <div class="radius-right-pill semi-cta bg-white margin-left-4 padding-y-205">
+    <div class="radius-right-pill semi-cta bg-white margin-right-4 padding-y-205 margin-bottom-3">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
       <h3>Collaboration, Simplified</h3>
         <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
       </div>
     </div>
-    <div class="radius-right-pill semi-cta bg-white margin-left-4 padding-y-205">
+    <div class="radius-right-pill semi-cta bg-white margin-right-4 padding-y-205 margin-bottom-3">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
       <h3>Federal Data, Explained</h3>
         <p>TOP unlocks the potential of open data. We believe that government data is a significantly under-tapped resource that can be transformed into products that solve important problems.</p>

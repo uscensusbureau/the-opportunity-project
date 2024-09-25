@@ -1,6 +1,6 @@
 {% assign card=include.content %}
 <div
-  class="card-container {{ include.utils }} bg-base-darkest"
+  class="card-container {{ include.utils }} {% unless page.class == 'about' %}bg-base-darkest{% endunless %}"
   style="background-image: url({{ site.baseurl}}/assets/img/{{ card.img.src }});
           background-size: cover;">
   <div class="card-header">

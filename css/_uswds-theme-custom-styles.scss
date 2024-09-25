@@ -1654,7 +1654,9 @@ main {
     }
   }
 
-  p {
+  p,
+  .coil-intro-container a.text-white,
+  .header-text-hot-dog a.text-underline {
     font-size: 12px;
     line-height: 17px;
 
@@ -1742,11 +1744,14 @@ main {
 
   .about-bg,
   .history-bg {
-    background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
-    background-size: cover;
+    background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
+    background-size: contain;
   }
 
-  div.header-text-hot-dog {
+  div.header-text-hot-dog,
+  // .initiatives .initiatives-container,
+  #coil-intro .coil-intro-container
+    {
     padding: 52.64px 30.08px;
 
     @include at-media('tablet') {
@@ -1758,6 +1763,173 @@ main {
     }
   }
 
+  .header-text-hot-dog {
+    h2.about,
+    h2.our-history {
+      @include at-media('desktop') {
+          @include u-padding-bottom(5);
+        }
+    }
+    a {
+    width: 200px;
+    color: rgba(0, 0, 0, .8);
+
+    @include at-media('tablet') {
+      width: 336px;
+    }
+    @include at-media('desktop') {
+      width: 575px;
+    }
+  }
+  }
+
+  #coil-intro {
+    background: url('../img/about-page/desktop-coil-team-background.png') no-repeat 0 0;
+    background-size: cover;
+
+    .coil-intro-container  {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      @include at-media('tablet') {
+        flex-direction: row;
+        align-items: center;
+      }
+    .content-container {
+      @include at-media('tablet') {
+      width: 262px;
+      margin-right: 18px;
+    }
+    @include at-media('desktop') {
+      width: 476px;
+      margin-right: 28px;
+      }
+    }
+    }
+  }
+
+  .full-width-screen-spilt {
+    display: grid;
+    // max width of grid-container is 64
+    // padding in mobile is 1rem
+    grid-template-columns: minmax(30.08px, 1fr) minmax(0, auto) minmax(30.08px, 1fr);
+    grid-template-rows: auto auto;
+    &.vision {
+      grid-template-areas:
+        ". contained ."
+        "semi semi semi";
+    }
+    &.initiatives{
+      grid-template-areas:
+        ". contained ."
+        "semi semi semi";
+      }
+    .contained-container {
+      // grid-column: 1 / 2;
+      grid-area: contained;
+      padding: 60px 25px 22px;
+      h2 {
+        margin: 0;
+      }
+      @include at-media('tablet') {
+        padding: 60px 0px 22px;
+      }
+    }
+    .semi-cta-block {
+      // grid-column: 2 / -1;
+      justify-self: end;
+      grid-area: semi;
+    }
+    .radius-right-pill,
+    .radius-left-pill {
+      width: calc(100% - 30.08px);
+      @include at-media('desktop') {
+        width: calc(100% - 127.5px);
+      }
+
+      &.semi-cta {
+        border: none;
+      }
+    }
+    @include at-media('tablet') {
+      grid-template-columns: 67.68px auto 67.68px;
+    }
+    @include at-media('desktop') {
+      grid-template-columns: 127.5px auto 127.5px;
+    }
+  }
+
+  .coil-intro-container .img-container {
+    width: 260px;
+    height: 178px;
+    @include at-media("desktop") {
+        width: 318px;
+        height: 235px;
+      }
+
+    img {
+      width: 163px;
+      @include at-media("tablet") {
+        width: 140px;
+      }
+      @include at-media("desktop") {
+        width: 222px;
+      }
+    }
+  }
+ .initiatives {
+    .contained-container {
+      padding-bottom: 0px;
+    }
+    div.initiatives-container .usa-media-block__background-image-portrait {
+
+      @include at-media ('tablet') {
+      padding-right: 30px !important;
+      padding-left: 0px !important;
+      }
+   &:nth-child(3) {
+        padding-right: 0px !important;
+      }
+    }
+  .small-header-card {
+    max-height: 258px;
+    width: 258px;
+    padding: 0;
+    box-shadow: -2px 2px 2px 1px #121923;
+
+    @include at-media("tablet") {
+        width: 140px;
+        height: 140px;
+      }
+    @include at-media("desktop") {
+        width: 240px;
+        height: 240px;
+      }
+
+    .card-header {
+      // background-color: transparent;
+      background-color: white;
+      width: 100%;
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+    h3 {
+      a {
+      display: inline-block;
+      width: min-content;
+      color: black;
+      font-size: 14px;
+
+      @include at-media("tablet") {
+        font-size: 12px;
+      }
+      @include at-media("desktop") {
+        font-size: 16px;
+      }
+      }
+    }
+  }
+ }
 }
 
 // FAQ page ----------------- //
@@ -2488,6 +2660,9 @@ div.toolkit-todo__resources {
       line-height: 24px;
 
     }
+  }
+  .page-about & {
+    padding: 0;
   }
 }
 

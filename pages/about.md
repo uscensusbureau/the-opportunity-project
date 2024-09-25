@@ -15,9 +15,9 @@ about:
   - text:
       title: About
       blurb: |-
-        The Opportunity Project (a.k.a. ‘TOP’) engages technologists, government, and communities to prototype digital products that solve real-world problems with open data.<br><br>
+        <b>The Opportunity Project (a.k.a. ‘TOP’) engages technologists, government, and communities to prototype digital products</b> that solve real-world problems with open data.<br><br>
 
-         It operates through 12-14 week technology design sprints, focused on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and workforce development. To date, over 200 digital products have been created, using open data to serve families, businesses, local leaders, and communities nationwide.<br><br>
+         It operates through 12-14 week technology design [sprints](https://opportunity.census.gov/sprints/), focused on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and workforce development. To date, over 200 digital [products](https://opportunity.census.gov/showcase/) have been created, using [open data](https://opportunity.census.gov/data/) to serve families, businesses, local leaders, and communities nationwide.<br><br>
 
         TOP addresses broad national challenges as well as specific community and regional challenges, such as those facing Puerto Rico or Indigenous Communities.
 
@@ -27,29 +27,29 @@ history:
   - text:
       title: Our History
       blurb: |-
-        TOP launched in March 2016 as a White House initiative to put data and tools in the hands of the American people to help them navigate critical issues facing the nation. In 2017, the U.S. Department of Commerce took up leadership of TOP, led by the U.S. Census Bureau’s Census Open Innovation Labs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through open data, technology, and human-centered design.<br><br>
+        <b>TOP [launched in March 2016](https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data) as a White House initiative</b> to put data and tools in the hands of the American people to help them navigate critical issues facing the nation. In 2017, the U.S. Department of Commerce took up leadership of TOP, led by the U.S. Census Bureau’s Census Open Innovation Labs. Since then, the program has grown in scope and impact, and is now a widely used model for collaborative problem solving through open data, technology, and human-centered design.<br><br>
 
-        Since its launch, TOP’s participants have created hundreds of digital products. Today, TOP has been referenced as a best practice in policies like the Federal Data Strategy, the President’s Management Agenda, performance.gov, Department of Commerce’s Strategic Plan, the Task Force on Agriculture and Rural Prosperity Report, and many others. It is a key mechanism supporting implementation of the Foundations for Evidence Based Policy Making Act (“The Evidence Act”).
+        Since its launch, TOP’s participants have created hundreds of digital products. Today, TOP has been referenced as a best practice in policies like the [Federal Data Strategy](https://strategy.data.gov/), [President’s Management Agenda](https://www.whitehouse.gov/omb/management/pma/), [performance.gov](http://performance.gov), [Department of Commerce’s Strategic Plan](https://www.commerce.gov/about/strategic-plan), [Task Force on Agriculture and Rural Prosperity Report](https://www.usda.gov/sites/default/files/documents/rural-prosperity-report.pdf), and many others. It is a key mechanism supporting implementation of the Foundations for Evidence Based Policy Making Act (“[The Evidence Act](https://www.congress.gov/bill/115th-congress/house-bill/4174)”).
 
-
-    download:
-      link: |-
-        [Have more questions? Visit our FAQ page](https://federalist-9ba9ab66-1882-44c4-b8df-e5444939133c.sites.pages.cloud.gov/preview/uscensusbureau/the-opportunity-project/sadiejay-update-sprint/sprints/)
-    custom:
-      class: test
 
 featured_products:
   - title: TOP University
     link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
     href: city-builder
+    img:
+      src: about-page/top-university-card.png
   - title: Annual Innovation Summit
     short_url: "/showcase/?search=community+led"
     href: "https://www.publicdemocracy.io/opportunity-zones-local-impact"
     target: '_blank'
+    img:
+      src: about-page/summit-card.png
   - title: Prize Challenge
     href: 'https://inclusivegrowthscore.com/'
     target: '_blank'
     isExternal: true
+    img:
+      src: about-page/prize-challenge-card.png
 
 
 ---

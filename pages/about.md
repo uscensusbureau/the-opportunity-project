@@ -34,20 +34,18 @@ history:
 
 featured_products:
   - title: TOP University
-    link: 'https://www.citivelocity.com/citybuilder/eppublic/cb'
-    href: city-builder
+    href: "files/top-university-overview.pdf"
+    isExternal: false
     img:
       src: about-page/top-university-card.png
   - title: Annual Innovation Summit
-    short_url: "/showcase/?search=community+led"
-    href: "https://www.publicdemocracy.io/opportunity-zones-local-impact"
-    target: '_blank'
+    short_url: "summit"
+    href: "summit/"
     img:
       src: about-page/summit-card.png
   - title: Prize Challenge
-    href: 'https://inclusivegrowthscore.com/'
-    target: '_blank'
-    isExternal: true
+    href: 'prize-challenge/'
+    isExternal: false
     img:
       src: about-page/prize-challenge-card.png
 
@@ -81,24 +79,25 @@ featured_products:
 </section>
 
 <section class="vision full-width-screen-spilt bg-base-lighter">
-  <div class="contained-container  desktop:padding-top-15 desktop:padding-bottom-8">
+  <div class="contained-container
+  tablet:padding-top-10 desktop:padding-top-15 desktop:padding-bottom-8">
     <h2 class="desktop:padding-left-1">Our Vision</h2>
   </div>
   <div
-  class="padding-top-0 padding-bottom-8 desktop:padding-bottom-15 display-flex flex-column flex-justify-end semi-cta-block">
-    <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-3 tablet:margin-bottom-6 desktop:padding-left-9 desktop:margin-bottom-6">
+  class="padding-top-0 padding-bottom-8 tablet:padding-bottom-10 desktop:padding-bottom-15 display-flex flex-column flex-justify-end semi-cta-block">
+    <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-3 padding-left-4 padding-right-6 tablet:padding-left-0 tablet:margin-bottom-6 desktop:padding-left-9 desktop:margin-bottom-6">
       <div class="grid-container padding-x-0 tablet:padding-x-9  desktop:padding-bottom-0">
       <h3>Collaboration, Simplified</h3>
         <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
       </div>
     </div>
-    <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-4 tablet:margin-bottom-9 desktop:padding-left-9 desktop:padding-bottom-3">
+    <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-4 padding-right-6 tablet:margin-bottom-9 padding-left-4 tablet:padding-left-0 desktop:padding-left-9 desktop:padding-bottom-3">
       <div class="grid-container padding-x-0 tablet:padding-x-9 desktop:padding-bottom-0">
       <h3>Federal Data, Explained</h3>
         <p>TOP unlocks the potential of open data. We believe that government data is a significantly under-tapped resource that can be transformed into products that solve important problems.</p>
       </div>
     </div>
-    <div class="radius-left-pill semi-cta bg-white  padding-y-205 margin-left-3 flex-align-self-end">
+    <div class="radius-left-pill semi-cta bg-white  padding-y-205 tablet:padding-y-2 padding-left-6 margin-left-3 flex-align-self-end">
       <div class="grid-container padding-x-4 tablet:padding-x-9 desktop:padding-bottom-3">
         <p>Federal Agencies can also lead their own TOP sprints using the “TOPx Toolkit” - a step-by-step guide to the TOP sprint model.</p>
       <a href="{{site.baseurl}}/topx-toolkit/" target="_blank"
@@ -126,7 +125,7 @@ featured_products:
   <div class="contained-container">
   <h2 class="margin-bottom-2 tablet:margin-bottom-4 desktop:margin-bottom-8 text-center">Our Initiatives</h2>
   <div class="initiatives-container grid-row grid-gap-lg
-  flex-wrap flex-justify-center tablet:margin-bottom-3 desktop:margin-bottom-10">
+  flex-wrap flex-justify-center tablet:margin-bottom-3 desktop:margin-bottom-6">
     {% for product in page.featured_products %}
     <div class="usa-media-block__background-image-portrait margin-bottom-4">
       {% include cards/card.html content=product utils="small-header-card bg-white" %}
@@ -135,9 +134,9 @@ featured_products:
   </div>
   </div>
   <div
-  class="tablet:margin-top-105 padding-bottom-9 desktop:padding-bottom-15 display-flex flex-justify-end semi-cta-block">
-  <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205 tablet:margin-left-0">
-      <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
+  class="width-full tablet:margin-top-105 desktop:margin-top-0 padding-bottom-9 desktop:padding-bottom-15 display-flex flex-justify-end semi-cta-block">
+  <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205 padding-left-6 tablet:margin-left-0">
+      <div class="grid-container padding-x-4 tablet:padding-x-9 desktop:padding-left-9 desktop:padding-bottom-3">
         <p>Stay in the loop of TOP events and opportunities.</p>
       <a href="https://public.govdelivery.com/accounts/USCENSUS/signup/16610" target="_blank"
         class="text-ink padding-y-1 margin-top-4">

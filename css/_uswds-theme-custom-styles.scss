@@ -1673,11 +1673,11 @@ main {
 
   .interior-hero {
     padding-bottom: 60px;
-    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
-    background-size: contain;
+    background: url('../img/about-page/desktop-hero-background.png') no-repeat center;
+    background-size: cover;
 
     @include at-media("desktop") {
-      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
+      background: url('../img/about-page/desktop-hero-background.png') no-repeat 0 0;
       background-size: cover;
       padding: 117px 0 124px;
     }
@@ -1847,15 +1847,21 @@ main {
         width: calc(100% - 127.5px);
       }
 
-      &.semi-cta {
-        border: none;
-      }
     }
     @include at-media('tablet') {
       grid-template-columns: 67.68px auto 67.68px;
     }
     @include at-media('desktop') {
       grid-template-columns: 127.5px auto 127.5px;
+    }
+
+      .radius-left-pill {
+        @include at-media('tablet') {
+          width: calc(100% - 195px);
+        }
+      }
+      .radius-right-pill.semi-cta {
+      border: none;
     }
   }
 

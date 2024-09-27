@@ -67,7 +67,7 @@ featured_products:
 </section>
 
 <section class="bg-base-lighter" id="coil-intro">
-<div class="coil-intro-container grid-container display-flex margin-0 width-full">
+<div class="coil-intro-container display-flex margin-0 width-full">
     <div class="img-container bg-white display-flex flex-justify-center flex-align-center tablet:order-last tablet:margin-top-0 ">
       <span>{% include image.html src="coil-logo-l-navy.png" alt="The Census Open Innovation Lab Logo" class="logo-image logo-image-mobile" %}</span>
     </div>
@@ -84,7 +84,7 @@ featured_products:
     <h2 class="desktop:padding-left-1">Our Vision</h2>
   </div>
   <div
-  class="padding-top-0 padding-bottom-8 tablet:padding-bottom-10 desktop:padding-bottom-15 display-flex flex-column flex-justify-end semi-cta-block">
+  class="padding-top-0 padding-bottom-8 tablet:padding-bottom-10 desktop:padding-bottom-15 display-flex flex-column flex-justify-end semi-cta-block width-full">
     <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-3 padding-left-4 padding-right-6 tablet:padding-left-0 tablet:margin-bottom-6 desktop:padding-left-9 desktop:margin-bottom-6">
       <div class="grid-container padding-x-0 tablet:padding-x-9  desktop:padding-bottom-0">
       <h3>Collaboration, Simplified</h3>
@@ -99,7 +99,7 @@ featured_products:
     </div>
     <div class="radius-left-pill semi-cta bg-white  padding-y-205 tablet:padding-y-2 padding-left-6 margin-left-3 flex-align-self-end">
       <div class="grid-container padding-x-4 tablet:padding-x-9 desktop:padding-bottom-3">
-        <p>Federal Agencies can also lead their own TOP sprints using the “TOPx Toolkit” - a step-by-step guide to the TOP sprint model.</p>
+        <p>Federal Agencies can also lead their own TOP sprints using the TOPx Toolkit – a step-by-step guide to the TOP sprint model.</p>
       <a href="{{site.baseurl}}/topx-toolkit/" target="_blank"
         class="text-ink padding-y-1 margin-top-4">
         Check out the TOPx Toolkit

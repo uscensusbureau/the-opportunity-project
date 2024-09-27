@@ -99,7 +99,7 @@ featured_products:
     </div>
     <div class="radius-left-pill semi-cta bg-white  padding-y-205 tablet:padding-y-2 padding-left-6 margin-left-3 flex-align-self-end">
       <div class="grid-container padding-x-4 tablet:padding-x-9 desktop:padding-bottom-3">
-        <p>Federal Agencies can also lead their own TOP sprints using the “TOPx Toolkit” - a step-by-step guide to the TOP sprint model.</p>
+        <p>Federal Agencies can also lead their own TOP sprints using the TOPx Toolkit – a step-by-step guide to the TOP sprint model.</p>
       <a href="{{site.baseurl}}/topx-toolkit/" target="_blank"
         class="text-ink padding-y-1 margin-top-4">
         Check out the TOPx Toolkit

@@ -20,7 +20,7 @@ video-one:
   class: padding-bottom-9 padding-top-8 padding-x-9
   title:
     text: "Why Should I Facilitate a TOP Sprint at My Agency?"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v tablet:padding-left-6
   video:
     src: https://www.youtube.com/embed/hH5NwCca_5o
     alt-text: "Why Should I Facilitate a TOP Sprint at My Agency?"
@@ -42,7 +42,7 @@ video-two:
   class: padding-bottom-9 padding-top-0 padding-x-9
   title:
     text: "How Do I Facilitate a TOP Sprint?"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v tablet:padding-left-6
   video:
     src: https://www.youtube.com/embed/z6zl7kSo_GY
     alt-text: "How Do I Facilitate a TOP Sprint?"

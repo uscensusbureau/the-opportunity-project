@@ -10,6 +10,11 @@ data-ref: site.data.toolkits.topx.intro.body
 name: intro
 
 
+banner:
+  text: "Email us with your feedback"
+  href: mailto:census.opportunityproject@census.gov?subject=TOPx Toolkit Feedback
+  isExternal: true
+
 image: introduction.png
 image-alt: Illustration of three vertical rectangles in a row. They are red, yellow, and blue.
 
@@ -107,4 +112,5 @@ cta-four:
 ---
 
 
+{% include toolkit-banner.html %}
 {% include toolkit-intro-body.html %}

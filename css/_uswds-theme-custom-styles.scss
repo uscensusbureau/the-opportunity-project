@@ -1552,6 +1552,15 @@ main {
   width: fit-content;
 }
 
+.page-topx-toolkit {
+  .site-banner {
+    background: #ffbe2e;
+    p, a {
+      color: black;
+    }
+  }
+}
+
 .topx-hero {
   background: color('blue-warm-60v');
   background: url('../img/toolkits/hero-image.png');

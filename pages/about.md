@@ -69,7 +69,9 @@ featured_products:
 <section class="bg-base-lighter" id="coil-intro">
 <div class="coil-intro-container display-flex margin-0 width-full">
     <div class="img-container bg-white display-flex flex-justify-center flex-align-center tablet:order-last tablet:margin-top-0 ">
+    <a class="text-white" href="https://coil.census.gov/">
       <span>{% include image.html src="coil-logo-l-navy.png" alt="The Census Open Innovation Lab Logo" class="logo-image logo-image-mobile" %}</span>
+      </a>
     </div>
     <div class="content-container tablet:margin-y-4">
       <p class="text-white margin-top-5 tablet:margin-top-0 margin-top-7 margin-bottom-2">TOP is led by <a class="text-white" href="https://coil.census.gov/">Census Open Innovation Labs</a> (a.k.a. ‘COIL’), an office at the U.S. Census Bureau, with a portfolio of award-winning projects that continue to raise the bar for open innovation across government.</p>

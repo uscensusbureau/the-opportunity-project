@@ -1893,6 +1893,9 @@ main {
       padding-right: 30px !important;
       padding-left: 0px !important;
       }
+      &:nth-child(1) .card-header h3 a::after {
+        content: "↧";
+      }
    &:nth-child(3) {
         padding-right: 0px !important;
       }

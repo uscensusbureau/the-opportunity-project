@@ -938,7 +938,6 @@ main {
     right: 2rem;
   }
   .data-kit__stats {
-    display: none;
     color: color("primary-dark");
     font-weight: 400;
     letter-spacing: 0.8px;
@@ -1389,6 +1388,239 @@ main {
   }
 
 
+// Sprint process page ----------------- //
+.page-sprint-process {
+  h2 {
+    font-size: 14px;
+
+    @include at-media('tablet') {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    @include at-media('desktop') {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  }
+
+  h3 {
+    font-size: 12px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 24px;
+      }
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 17px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 30px;
+      }
+  }
+
+  .interior-hero {
+    padding-bottom: 60px;
+    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
+      background-size: contain;
+    @include at-media("desktop") {
+      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
+      background-size: cover;
+      padding: 117px 0 124px;
+    }
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+    @include at-media('tablet') {
+      width: 343px;
+      // min-height: ;
+    }
+
+    @include at-media('desktop') {
+        width: 571px;
+      }
+
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 30px;
+      }
+    }
+    div.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+      @include at-media('tablet') {
+          font-size: 14px;
+          line-height: 17px;
+        }
+        @include at-media('desktop') {
+          font-size: 32px;
+          line-height: 32px;
+          padding-bottom: 30px;
+        }
+         p {
+          margin: 8px 0 0px;
+          @include at-media('desktop') {
+              margin-top: 20px;
+            }
+         }
+    }
+  }
+
+  .how-it-works-bg, .roles-intro-bg {
+    background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
+    background-size: cover;
+  }
+
+  div.header-text-hot-dog, div.how-it-works-details {
+    padding: 52.64px 30.08px;
+
+    @include at-media('tablet') {
+      padding: 52.64px 67.68px;
+    }
+    @include at-media('desktop') {
+      padding: 112px 127.5px;
+    }
+  }
+  div.grid-container div.text-wrapper {
+    margin: 15.04px 0;
+
+    @include at-media('tablet') {
+        margin: 30px 0 8px;
+      }
+    @include at-media('desktop') {
+        margin: 30px 0px 0px;
+      }
+        a {
+        font-size: 12px;
+        line-height: 17px;
+        @include at-media('tablet') {
+            font-size: 14px;
+          }
+        @include at-media('desktop') {
+            font-size: 24px;
+          }
+        }
+  }
+  .how-it-works-details {
+    ol {
+      list-style-position: inside;
+      font-size: 12px;
+      @include at-media('tablet') {
+          font-size: 14px;
+          line-height: 17px;
+        }
+      @include at-media('desktop') {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      .usa-accordion__button {
+        font-size: 12px;
+        line-height: 12px;
+        @include at-media('tablet') {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        @include at-media('desktop') {
+            font-size: 24px;
+            line-height: 24px;
+          }
+      }
+    }
+  }
+  .site-button.usa-button {
+    box-shadow: inset 0 0 0 1px black;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 17px;
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      &::hover {
+        text-decoration: underline;
+      }
+      @include at-media('desktop') {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+          }
+        &:visited {
+            color: black;
+          }
+      }
+  }
+  .full-width-screen-spilt {
+    display: grid;
+    // max width of grid-container is 64
+    // padding in mobile is 1rem
+    grid-template-columns: minmax(30.08px, 1fr) minmax(0, auto) minmax(30.08px, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      ". roles ."
+      "semi semi semi";
+
+    .roles-content-block {
+      grid-column: 1/2;
+      grid-area: roles;
+    }
+
+    .roles-downloads {
+      a {
+        text-decoration: underline;
+        color: black;
+        &:visited {
+          color: black;
+        }
+        &:hover {
+          color: black;
+        }
+      }
+    }
+    .semi-cta-block {
+      grid-column: 2/-1;
+      justify-self: end;
+      grid-area: semi;
+    }
+    @include at-media('tablet') {
+      grid-template-columns: 67.68px auto 67.68px;
+    }
+    @include at-media('desktop') {
+      grid-template-columns: 127.5px auto 127.5px;
+    }
+  }
+}
+
+
 // FAQ page ----------------- //
 .page-faqs {
   background: #E6E6E6;
@@ -1553,6 +1785,15 @@ main {
   width: fit-content;
 }
 
+.page-topx-toolkit {
+  #main-content .site-banner {
+    background: #ffbe2e;
+    p, a {
+      color: black;
+    }
+  }
+}
+
 .topx-hero {
   background: color('blue-warm-60v');
   background: url('../img/toolkits/hero-image.png');
@@ -1687,7 +1928,9 @@ main {
       min-width: 300px;
       padding: 35px;
       .defined-width {
+        @include at-media('tablet') {
         width: 44ch;
+        }
       }
       @media screen and (min-width: 1024px) {
           background-color: white;
@@ -2010,14 +2253,111 @@ div.toolkit-todo__resources {
 }
 
 .footer-content {
-  margin-bottom: units(5);
-
+  // margin-bottom: units(5);
+  .top-logo {
+    width: 140px;
+  }
   h3 {
-    @include typeset("lang", "lg", 2);
+    font-size: 14px;
     margin: 0;
+    @include at-media('tablet') {
+        font-size: 12px;
+        line-height: 14.4px;
+      }
+      @include at-media('desktop') {
+        font-size: 16px;
+        line-height: 19.2px;
+        padding-block-end: 24px;
+      }
   }
   p {
-    max-width: measure($site-measure);
+    font-size: 14px;
+    @include at-media('tablet') {
+      margin-inline-start: 8px;
+      font-size: 12px;
+      line-height: 14.4px;
+    }
+    @include at-media('desktop') {
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+  }
+
+  ul li {
+
+    @include at-media ('tablet') {
+        margin-block-end: 8px;
+      }
+
+      @include at-media('desktop') {
+        margin-block-end: 13px;
+      }
+  }
+
+  ul li a {
+    font-size: 14px;
+    @include at-media ('tablet') {
+    font-size: 12px;
+    line-height: 14.4px;
+    }
+    @include at-media('desktop') {
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+  }
+
+  .subsection-subscribe {
+    p {
+      padding-block-start:37px;
+      padding-block-end: 24px;
+      @include at-media('desktop') {
+          padding-block-start: 23px;
+          padding-block-end: 22px;
+        }
+    }
+  }
+
+  .site-button {
+    font-size: 14px;
+    @include at-media('tablet') {
+      font-size: 12px;
+    }
+    @include at-media('desktop') {
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+  }
+}
+
+.roles-downloads a {
+  font-size: 12px;
+}
+
+.semi-cta {
+  border: 1px black solid;
+  // border-radius: 130px 0 0 130px;
+  padding: 50px 25px;
+  min-height: 108px;
+
+  @include at-media('tablet') {
+    width: 100%;
+  }
+
+  &.radius-left-pill {
+    border-right-style: none;
+  }
+
+  a {
+   font-size: 12px;
+   line-height: 17px;
+  @include at-media('tablet') {
+      font-size: 14px;
+    }
+  @include at-media('desktop') {
+      font-size: 24px;
+      line-height: 24px;
+
+    }
   }
 }
 
@@ -2055,12 +2395,17 @@ div.toolkit-todo__resources {
 }
 
 .footer-section-bottom {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.8);
-
+  font-size: 10px;
   width: 90%;
   margin: 0 auto;
   justify-content: center;
+  @include at-media('tablet') {
+    font-size: 12px;
+  }
+
+  @include at-media('desktop') {
+    font-size: 16px;
+  }
 }
 
 // Pattern Preview Boxes -------- //

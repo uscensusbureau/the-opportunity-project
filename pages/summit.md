@@ -29,8 +29,8 @@ cta-one:
 video-one:
   class: highlight-video-section tablet:width-full
   video:
-    src: https://www.youtube.com/embed/aUvG5fpQtD0?si=0H25_23CWMbxpkpj
-    alt-text: "2022 TOP Summit (February 2023)"
+    src: https://www.youtube.com/embed/JLzaa3T0HGc?si=uGLgOvvajjl6JrCo
+    alt-text: "Census Open Innovation Summit (January 2024)"
     mobile-width: 233
     mobile-height: 125
     tablet-width: 318
@@ -39,13 +39,30 @@ video-one:
     desktop-height: 273
   copy-class: bg-white
   blurb:
-    title: "2022 TOP Summit (February 2023)"
+    title: "Census Open Innovation Summit (January 2024)"
     class: text-center
-    p: "Featured more than 25 new technology products created through 2022 TOP sprints focused on national and Puerto Rico-specific challenges."
-    class:
+    p: "Featured more than 30 new technology products created through 2023 TOP sprints focused on financial inclusion, economic growth, and data quality, and highlighted sprints focused on Indigenous communities and Puerto Rico."
 
 
 video-two:
+  class: tablet:margin-x-105 desktop:margin-x-205
+  video:
+    src: https://www.youtube.com/embed/aUvG5fpQtD0?si=0H25_23CWMbxpkpj
+    alt-text: "2022 TOP Summit (February 2023)"
+    mobile-width: 233
+    mobile-height: 125
+    tablet-width: 247
+    tablet-height: 133
+    desktop-width: 392
+    desktop-height: 211
+  copy-class: bg-white
+  blurb:
+    title: "2022 TOP Summit (February 2023)"
+    class: text-center
+    p: "Featured more than 25 new technology products created through 2022 TOP sprints focused on national and Puerto Rico-specific challenges."
+
+
+video-three:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/videoseries?si=cDwzTAWNVcuRFq0V&amp;list=PLewV-zKXDZkitrXN6T7a0MG-oTi7WGTu_
@@ -63,7 +80,7 @@ video-two:
     p: "Featured digital products envisioning the world post-COVID 19 and announced $260,000 in awards to the winners of the Open Data for Good Grand Challenge."
 
 
-video-three:
+video-four:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/-c-DaW3ZHko?si=3kNadCt7cT3SNqo-
@@ -81,7 +98,7 @@ video-three:
     p: "Showcased 35+ new digital tools focused on challenges impacting the natural and built environment."
 
 
-video-four:
+video-five:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/_qLQ8OD4bWI?si=mBiaainthFXorljE
@@ -99,7 +116,7 @@ video-four:
     p: "Featured 20+ digital tools that tackled a number of challenges — such as disaster response, local address data collection, and more."
 
 
-video-five:
+video-six:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/36sdFlR1F-s?si=VzuwsflRIfhGJsEh
@@ -117,7 +134,7 @@ video-five:
     p: "Showcased 20+ digital tools that addressed issues like connecting veterans to jobs, student access to STEM fields, the opioid crisis, and more."
 
 
-video-six:
+video-seven:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/hiqn9a64wlo?si=uRRzo67q5XYXnk-p
@@ -135,7 +152,7 @@ video-six:
     p: "Featured 10 new tools that took on problems such as youth and veteran homelessness, engaging hard-to-count populations in the decennial census, and making federal grant data user-friendly."
 
 
-video-seven:
+video-8:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/uqIiMj2S_Vk?si=zjm-En0_68jsmAo3
@@ -154,7 +171,7 @@ video-seven:
 
 
 
-video-eight:
+video-9:
   class: tablet:margin-x-105 desktop:margin-x-205
   video:
     src: https://www.youtube.com/embed/6un7g9HhbrU?si=sNeLdDEd6fmZQY3b

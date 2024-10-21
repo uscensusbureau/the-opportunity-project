@@ -191,8 +191,6 @@ video-9:
 
 ---
 {% include hero.html %}
-{% assign section = page.cta-one %}
-{% include home/cta.html  data=section  %}
 <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">
     <h2 class="text-center text-white">Past Events</h2>

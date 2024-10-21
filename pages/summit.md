@@ -213,7 +213,9 @@ video-9:
       {% include  summit-video.html data=section %}
       {% assign section = page.video-seven %}
       {% include  summit-video.html data=section %}
-      {% assign section = page.video-eight %}
+      {% assign section = page.video-8 %}
+      {% include  summit-video.html data=section %}
+      {% assign section = page.video-9 %}
       {% include  summit-video.html data=section %}
     </div>
   </div>

@@ -3,10 +3,10 @@ title: Sprints
 permalink: /sprints/
 class: sprints
 layout: sprint
-short-name: 2023-sprints
+short-name: 2024-sprints
 order: 0
 expandAllProblemStatements: true
-isCurrent: false
+isCurrent: true
 showPDF: true
 lang: en
 ---

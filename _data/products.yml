@@ -31,6 +31,7 @@
   image: whywecount.jpg
   image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
     reads Being Counted Saves Lives.
+  link: no-link
   problem_statement:
   - recXUOy13oskSB7CB
   product_advisors: Jeff Meisel
@@ -152,6 +153,7 @@
   - Housing
   description: Explores the opportunity and growth potential of Baltimore's neighborhoods
   details: Explores the opportunity and growth potential of Baltimore's neighborhoods
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -279,7 +281,7 @@
   image: Bites-Media.png
   image-alt: An webpage that explains foreign aid, and shows how you can understand
     why governments want to either increase or decrease foreign aid.
-  link: https://bitesmedia.com/
+  link: no-link
   problem_statement:
   - reclJ7Aqge0Klqbme
   sprint:
@@ -368,6 +370,7 @@
     their housing costs through renting excess rooms or units
   details: Identifies areas that present a high-opportunity for families to supplement
     their housing costs through renting excess rooms or units
+  link: no-link
   problem_statement:
   - recJtXvdtyoOpOMOa
   sprint:
@@ -540,7 +543,7 @@
   details: Serious game that engages young adults in preparing for emergencies
   image: disaster-awareness-games.jpg
   image-alt: Screenshot of a computer game displaying an overhead view of city blocks
-  link: https://opportunity.census.gov/showcase/?partner-agency=Federal+Emergency+Management+Agency
+  link: no-link
   prize_status: Applied
   problem_statement:
   - recyHwJ8Q6z6YcwGO
@@ -651,6 +654,7 @@
   - recvFVDZdmU09lJzA
   image: census-taker_amava.jpg
   image-alt: Screenshot of Census Taker's website
+  link: no-link
   problem_statement:
   - recvFVDZdmU09lJzA
   sprint:
@@ -689,6 +693,7 @@
     promising rural startups ready to scale that otherwise would have been overlooked
   image: rural-startup-scout.jpg
   image-alt: Map of a portion of Texas titled Tech Entrepreneurship
+  link: no-link
   problem_statement:
   - recuVhm1ianV8SXpO
   sprint:
@@ -840,7 +845,7 @@
   image: safedigi-ID.jpg
   image-alt: Phone with a screen that indicates options to select an industry between
     food services, real estate, and insurance
-  link: http://www.safedigisolutions.com/
+  link: no-link
   problem_statement:
   - recWzZLtl14qYc0LK
   sprint:
@@ -973,7 +978,7 @@
     and small business landlords who require federal or state and local rental assistance  '
   image: aws-community-chatbot.jpg
   image-alt: Rental Assistance Chatbot Conversation
-  link: https://d1mxrjbkixwx99.cloudfront.net/index.html
+  link: no-link
   problem_statement:
   - recno05Yf62Elkwqw
   sprint:
@@ -1126,6 +1131,7 @@
   image-alt: Screenshot of the Eco Bloc search function. A profile has been selected,
     with the name 'Supplier', contact information, and products, such as plastic and
     metal.
+  link: no-link
   problem_statement:
   - reca9YsxA5g3NW3Nx
   tech_team:
@@ -1151,7 +1157,7 @@
     Text "COVIDTEST" to 222020
   image: CommunityConnect Labs_FDA.png
   image-alt: A screenshot of a potential text exchange with the service tool.
-  link: https://communityconnectlabs.com/government-services-solutions/
+  link: no-link
   problem_statement:
   - recm1nUDGhmqHmnbG
   sprint:
@@ -1395,6 +1401,7 @@
     foundations inform parents and the electorate about the need for more funding
   details: Customizable data briefs that help local school districts and education
     foundations inform parents and the electorate about the need for more funding
+  link: no-link
   problem_statement:
   - rec4QRIhcFypZjNxu
   sprint:
@@ -1748,6 +1755,7 @@
   image: data2gonyc.jpg
   image-alt: Screenshot of Data 2 Go app showing a map in gradient shades of white,
     yellow and orange.
+  link: no-link
   problem_statement:
   - rec8qL374GLY4rhEU
   sprint:
@@ -1774,7 +1782,7 @@
   image: city-builder2.jpg
   image-alt: Screens of the city builder app, saying where private capital meets public
     growth
-  link: https://www.citivelocity.com/citybuilder/eppublic/cb/us
+  link: https://www.citi.com/ventures/city-builder.html
   problem_statement:
   - recjf9CnxtJkXGumk
   sprint:
@@ -1845,6 +1853,7 @@
   image: inclusive-development-dashboards.jpg
   image-alt: Screenshot of a webpage containing several paragraphs of text. Text is
     not legible.
+  link: no-link
   prize_status: Winner
   problem_statement:
   - recuVhm1ianV8SXpO
@@ -2013,6 +2022,7 @@
   details: Enables researchers to unobtrusively measure everyday behavior to build
     a risk state detection algorithm that powers precise, life-saving mental health
     interventions
+  link: no-link
   problem_statement:
   - recQC60sdfUiXTHgB
   sprint:
@@ -2131,6 +2141,7 @@
   image-alt: A screenshot of the product with the title 'Assessment of Air Quality
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option
     to sort by the day, the ward, and the location.
+  link: no-link
   problem_statement:
   - recO5eGWBm0Jr6c8R
   sprint:
@@ -2454,7 +2465,7 @@
   image: Public-Finance-Institute-Disaster-Spending-Tracker.png
   image-alt: The image shows a map of COVID-19 Fiscal assistance, where you can view
     the fund share by category.
-  link: https://www.publicfinanceinstitute.org/covid-19
+  link: no-link
   problem_statement:
   - reccGqAe2Sli8kaT5
   sprint:
@@ -2487,7 +2498,7 @@
     \ for both government decision-makers and community stakeholders."
   image: witt.jpg
   image-alt: A screenshot from the WITT tool website.
-  link: https://www.fullframeinitiative.org/wiatt
+  link: https://www.fullframeinitiative.org/resources/new-tool-centers-equity-and-wellbeing-in-infrastructure-investment/
   problem_statement:
   - recMZUPI5AFRXvAfe
   sprint:
@@ -2598,7 +2609,7 @@
   details: Assists minority and disenfranchised communities with migration questions
   image: reROOT.jpg
   image-alt: 'Dashboard with information on a county''s diversity, '
-  link: https://reroot.me
+  link: https://projects.iq.harvard.edu/top/reroot
   problem_statement:
   - reclg2SNmkgj142pw
   sprint:
@@ -2864,6 +2875,7 @@
   details: iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting the
     homeless count
+  link: no-link
   problem_statement:
   - rec8qL374GLY4rhEU
   sprint:
@@ -3020,7 +3032,7 @@
   image: greenScan.jpg
   image-alt: App that allows user to scan a a product, learn about where to recycle
     and what the numbers mean
-  link: https://greenscan.app
+  link: no-link
   problem_statement:
   - recNJ1F1PT2JmBogZ
   sprint:
@@ -3193,6 +3205,7 @@
   image: Pollution-Policy-Watch.jpg
   image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris
     type, and state for policy enactment.
+  link: https://science.gmu.edu/news/mason-students-build-data-science-tools-tackle-air-and-plastic-pollution
   problem_statement:
   - recO5eGWBm0Jr6c8R
   sprint:
@@ -3667,7 +3680,7 @@
   image: thunderbird-software.jpg
   image-alt: This image shows a plane in flight with the words "paving the way to
     the future of airline sustainability, one airport at a time...hop on  board."
-  link: https://forever-flight.squarespace.com/thunderbird
+  link: no-link
   problem_statement:
   - recdYVmJLsnCuLs37
   sprint:
@@ -3755,6 +3768,7 @@
   description: ' Surfaces education options that lead to in-demand careers for job
     seekers'
   details: ' Surfaces education options that lead to in-demand careers for job seekers'
+  link: no-link
   problem_statement:
   - recOMrASmLBSSRMqZ
   sprint:
@@ -3874,7 +3888,7 @@
   image: IBM.jpg
   image-alt: Schematic showing a mobile wallet being used to verify a vaccination
     record
-  link: https://www.ibm.com/products/digital-health-pass
+  link: https://newsroom.ibm.com/2021-12-15-IBM-Digital-Health-Pass-Integrating-with-Healthcare-IT-Leaders-Healthy-Returns-Practice-to-Provide-COVID-19-Digital-Credentials
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -3933,6 +3947,7 @@
   details: Helping low income families overcome the stress of finding affordable housing,
     this tool combines transit access, walkability and school information into one
     unique feed of available properties
+  link: no-link
   problem_statement:
   - recJtXvdtyoOpOMOa
   sprint:
@@ -4031,7 +4046,7 @@
   image: ClinIQ.jpg
   image-alt: Screenshot of the ClinIQ web app with a choice of where to sign up for
     a COVID-19 RT-PCR test
-  link: https://cliniq.health
+  link: no-link
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -4170,8 +4185,6 @@
   title: The Ghost Gear Project
   year:
   - 2020
-- airtable_createdTime: '2024-01-16T17:13:42.000Z'
-  airtable_id: recaTHfncTRM7rZyK
 - Product Name: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
   agencies:
   - National Oceanic and Atmospheric Administration
@@ -4190,6 +4203,7 @@
   image: mayday-realtime-risk.jpg
   image-alt: 3D Map that shows environmental risk areas and social media posts related
     to the disaster
+  link: no-link
   problem_statement:
   - recjf9CnxtJkXGumk
   sprint:
@@ -4408,6 +4422,7 @@
   image: city-portrait.jpg
   image-alt: "Computer and two phones with images that show opportunities, a caf\xE9\
     , and after school programs"
+  link: no-link
   problem_statement:
   - recWzZLtl14qYc0LK
   sprint:
@@ -4434,17 +4449,15 @@
   data_sets_text: ensus block data; Open EU Sentinel 1 InSAR
   datasets copy:
   - recV2NDmUAF5s87sp
-  description: 'Block level structural risk product that encourages local stakeholders
+  description: Block level structural risk product that encourages local stakeholders
     to prepare for crisis through increased awareness of the likelihood of catastrophic
-    failure of their structures in a disaster. Public access using login: fema@sille.space,
-    password: Planahead2019'
-  details: 'Block level structural risk product that encourages local stakeholders
+    failure of their structures in a disaster.
+  details: Block level structural risk product that encourages local stakeholders
     to prepare for crisis through increased awareness of the likelihood of catastrophic
-    failure of their structures in a disaster. Public access using login: fema@sille.space,
-    password: Planahead2019'
+    failure of their structures in a disaster.
   image: sille.jpg
   image-alt: Screenshot of the SILLE web application with a graph modal
-  link: https://opportunity.census.gov/sille/
+  link: no-link
   problem_statement:
   - recyHwJ8Q6z6YcwGO
   sprint:
@@ -4565,7 +4578,7 @@
   image: Air-Aware.jpg
   image-alt: The dashboard shows the air quality in certain areas along with transportation
     emissions, compared to housing statistics (e.g. house price and rent).
-  link: http://www.airawareapp.com
+  link: https://science.gmu.edu/news/mason-students-build-data-science-tools-tackle-air-and-plastic-pollution
   problem_statement:
   - recO5eGWBm0Jr6c8R
   sprint:
@@ -4727,6 +4740,7 @@
   details: ' Helps researchers and developers rapidly prototype and deploy tools that
     address a variety of problems surrounding access to opportunity'
   image: wolfram-data-repository.jpg
+  link: no-link
   sprint:
   - recXANOXQ6JCTp5FU
   tech_team:
@@ -4822,7 +4836,7 @@
   image: xcell-bridge.jpg
   image-alt: Screenshot showing the xcell bridge homepage including a purple overlay
     ontop of an evolving demo of the product
-  link: https://xcell.co/projects/bridge
+  link: https://www.figma.com/proto/TsIa58VB3vZzBeJZGTOJAw/TOPs-Design?page-id=834%3A19763&node-id=1974-60156&viewport=261%2C404%2C0.06&t=PpBYyabRI84AeYvy-1&scaling=scale-down&starting-point-node-id=1974%3A60156&show-proto-sidebar=1
   problem_statement:
   - reccbsHySlRrke1TZ
   sprint:
@@ -4952,6 +4966,7 @@
   - Health
   description: Finds areas of opportunity through geographic visualizations and reports
   details: Finds areas of opportunity through geographic visualizations and reports
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -5046,7 +5061,7 @@
   image: jobinn.jpg
   image-alt: A screenshot of the JobInn homepage including a photo of a person with
     long dark hair wearing a black blazer and text that reads "Find your Dream Job".
-  link: 'jobinnapp.com '
+  link: https://jobinnapp.com/
   problem_statement:
   - recdP4Xzzvupvnx47
   sprint:
@@ -5091,6 +5106,7 @@
   image-alt: Screenshot of the Topolytics application. The app displays a map of the
     united states; the travel of waste products is color coded and tracked from place
     to place.
+  link: https://news.sap.com/2020/12/opportunity-project-circular-economy-chicago/
   problem_statement:
   - reca9YsxA5g3NW3Nx
   sprint:
@@ -5122,6 +5138,7 @@
   image-alt: Diagram showing data from the OraLiva servers flowing to state databases,
     patients, providers, medical records, point-of-care screening, and a pre-screening
     algorithm
+  link: no-link
   problem_statement:
   - recNuGLfhsObwDjaz
   sprint:
@@ -5161,8 +5178,6 @@
   title: ASSERT
   year:
   - 2023
-- airtable_createdTime: '2024-01-16T17:13:42.000Z'
-  airtable_id: recj83ElUR0OAsv6N
 - Product Name: MSI COVID Relief Dashboard for Equity and Transparency
   agencies:
   - U.S. Department of the Treasury
@@ -5252,6 +5267,7 @@
   image: RefugeeAssist.jpg
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below
     that say 'Medical', 'Legal', 'Religious', etc.
+  link: no-link
   problem_statement:
   - recLjh8Roxnq1veGz
   sprint:
@@ -5284,6 +5300,7 @@
   image: community-counts.jpg
   image-alt: Two open laptops with a web application open, with Community Counts,
     2020Census written below
+  link: no-link
   problem_statement:
   - recLgfx25ZP6xsmFG
   sprint:
@@ -5341,7 +5358,7 @@
   image: vet-assist.jpg
   image-alt: A screenshot of the VBA Benefit Intake API homepage used to create the
     VetAssit tool.
-  link: https://suhetu-cloudleaptech-vetassist-vetassist-cxr34s.streamlit.app/
+  link: no-link
   problem_statement:
   - recdP4Xzzvupvnx47
   sprint:
@@ -5377,7 +5394,7 @@
   image: city-builder.jpg
   image-alt: Screenshot of the City Builder website, showing a map of St. Louis with
     information that there are 33 opportunity zones in St. Louis
-  link: https://www.citivelocity.com/citybuilder/eppublic/cb
+  link: https://www.citi.com/ventures/city-builder.html
   prize_status: Winner
   problem_statement:
   - recuVhm1ianV8SXpO
@@ -5501,7 +5518,7 @@
     around 2020 Census data
   image: hard-to-count-conversations.jpg
   image-alt: Image of Hard-To-Count Conversation Card with a Census statistic
-  link: https://www.canva.com/design/DAEv1sleRvE/share/preview?token=4gyylxaMkWQxra2WZJufUg&role=EDITOR&utm_content=DAEv1sleRvE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+  link: no-link
   problem_statement:
   - reczd5cVpuub6PMPM
   sprint:
@@ -5530,7 +5547,7 @@
     in identifying opportunities to apply to best related to their business expertise.
   image: Funding-Journey.png
   image-alt: A screenshot of the Funding Journey website that reads "viaje de financiacion...".
-  link: https://app6054.prod.dittofi.link/#/
+  link: no-link
   problem_statement:
   - recaJpLTQROHfEZBW
   sprint:
@@ -5715,6 +5732,7 @@
     government and community decision-makers '
   image: floodware.jpg
   image-alt: 'Flood risk assessment map that displays the community risk score '
+  link: no-link
   problem_statement:
   - reclg2SNmkgj142pw
   sprint:
@@ -5829,6 +5847,7 @@
     in U.S. metro areas'
   details: ' Provides visibility into the affordability of opportunity for children
     in U.S. metro areas'
+  link: https://www.diversitydatakids.org/
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -6181,6 +6200,7 @@
     groups to help advocates increased equity
   details: Measures gaps in access to educational opportunities across student groups
     to help advocates increased equity
+  link: no-link
   problem_statement:
   - receDpPWSS0MjPotS
   sprint:
@@ -6385,6 +6405,7 @@
   image: solve.jpg
   image-alt: Screenshot of Solve dashboard that shows a circle chart with 10 identified
     barriers that each link to information about organizations working in these areas
+  link: no-link
   prize_status: Applied
   problem_statement:
   - receyP88fo2WL9Foa
@@ -6750,6 +6771,7 @@
   - Education
   description: '!!! Broken link'
   details: '!!! Broken link'
+  link: no-link
   sprint:
   - reclfuBcJimyspplJ
   tech_team:
@@ -6815,7 +6837,7 @@
     Tool (CEJST).
   image: geonode-buildingcode.jpg
   image-alt: An image of a multi-colored map of the United States at a county level
-  link: https://geonode.geosolutionsgroup.com/catalogue/#/geostory/50
+  link: https://www.geosolutionsgroup.com/blog/geonode-4-webinar-fema/
   problem_statement:
   - reckxOM77dvOirf7t
   sprint:
@@ -6845,6 +6867,7 @@
     crisis to available support resources
   details: Assesses suicide and other risk in patients and guides them through crisis
     to available support resources
+  link: no-link
   problem_statement:
   - recQC60sdfUiXTHgB
   sprint:
@@ -6878,6 +6901,7 @@
     plastics in CA over time. There is a section wih suggestsions on how many voluteers
     you'll need, the number of items that need to be collected, and the average meters
     expected to cover.
+  link: no-link
   problem_statement:
   - recYanxSy9Imw6smo
   sprint:
@@ -6935,6 +6959,7 @@
   image: safetyNet.jpg
   image-alt: Opening page of SafetyNet Website with the title growing online is the
     future. Can it be your business' safety net?
+  link: no-link
   problem_statement:
   - recWzZLtl14qYc0LK
   sprint:
@@ -6962,7 +6987,7 @@
     anyone who wants to learn.
   image: NAIP-Downloader-Education-Modules.png
   image-alt: This image appears to be an arial screenshot from 2017.
-  link: https://naip.io
+  link: no-link
   problem_statement:
   - rec0Iy8VI9V6gfzeZ
   sprint:
@@ -6994,7 +7019,7 @@
     to make better healthcare decisions while reducing the overall cost of healthcare.
   image: Social Determinants Indexing_FDA.jpg
   image-alt: A slide illustrating the snapshot of data available in the product.
-  link: https://sdindexing.com/
+  link: no-link
   problem_statement:
   - reczBchbjxeo8xurw
   sprint:

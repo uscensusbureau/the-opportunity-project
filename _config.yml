@@ -14,10 +14,10 @@ annual_reports:
   '2019': assets/files/annual_report_2019.pdf
 
 
-banner:
-  text: "Join us on January 17 - 19, 2024 for the Census Open Innovation Summit! RSVP to Attend."
-  href: https://coilsummit2024.splashthat.com/
-  isExternal: true
+# banner:
+#   text: "Now accepting problem statement submissions until April 15!"
+#   href: /proposal/
+#   isExternal: false
 
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

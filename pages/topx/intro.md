@@ -10,6 +10,11 @@ data-ref: site.data.toolkits.topx.intro.body
 name: intro
 
 
+banner:
+  text: "Email us with your feedback"
+  href: mailto:census.opportunityproject@census.gov?subject=TOPx Toolkit Feedback
+  isExternal: true
+
 image: introduction.png
 image-alt: Illustration of three vertical rectangles in a row. They are red, yellow, and blue.
 
@@ -20,7 +25,7 @@ video-one:
   class: padding-bottom-9 padding-top-8 padding-x-9
   title:
     text: "Why Should I Facilitate a TOP Sprint at My Agency?"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v tablet:padding-left-6
   video:
     src: https://www.youtube.com/embed/hH5NwCca_5o
     alt-text: "Why Should I Facilitate a TOP Sprint at My Agency?"
@@ -42,7 +47,7 @@ video-two:
   class: padding-bottom-9 padding-top-0 padding-x-9
   title:
     text: "How Do I Facilitate a TOP Sprint?"
-    class: text-blue-warm-60v padding-left-6
+    class: text-blue-warm-60v tablet:padding-left-6
   video:
     src: https://www.youtube.com/embed/z6zl7kSo_GY
     alt-text: "How Do I Facilitate a TOP Sprint?"
@@ -102,8 +107,10 @@ cta-four:
     text: Go to Phase 1
     href: /topx-toolkit/phase-1/
     isExternal: false
+    target: _self
     class: bg-base-darkest text-white
 ---
 
 
+{% include toolkit-banner.html %}
 {% include toolkit-intro-body.html %}

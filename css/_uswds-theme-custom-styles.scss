@@ -3621,14 +3621,17 @@ code {
         }
       }
     }
+    section.highlight-video-section div.video-section-text-container {
+      height: auto;
+      h3 {
+        @include at-media("desktop") {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+    }
   }
 
-  section.highlight-video-section div.video-section-text-container h3 {
-    @include at-media("desktop") {
-      font-size: 24px;
-      line-height: 24px;
-  }
-}
 
 // Logo Garden
 

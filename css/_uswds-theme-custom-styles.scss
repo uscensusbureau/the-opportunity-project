@@ -1792,6 +1792,9 @@ main {
       color: black;
     }
   }
+  section.cta-three.usa-section--dark p {
+    color: color('blue-warm-60v');
+  }
 }
 
 .topx-hero {
@@ -3467,7 +3470,7 @@ code {
 }
 
 // Summit page
-.page-annual-innovation-summit {
+.page-annual-innovation-event {
   background: color("base-darkest");
 
   .banner-background {

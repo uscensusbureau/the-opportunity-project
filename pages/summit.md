@@ -1,5 +1,5 @@
 ---
-title: "Annual Innovation Summit"
+title: "Annual Innovation Event"
 permalink: /summit/
 layout: default
 name: summit

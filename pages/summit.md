@@ -14,7 +14,7 @@ cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: <b>The Opportunity Project 2024 Product Showcase</b> <br> Wednesday, December 11th, 2024 <br> 11:30am - 5:00pm ET
+    text: <b>The Opportunity Project 2024 Product Showcase</b> <br> Wednesday, December 11, 2024 <br>11:30 a.m. - 5 p.m. ET
 
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
@@ -25,7 +25,7 @@ cta-one:
     text: RSVP
     href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
     isExternal: true
-    class: usa-button--secondary display-none
+    class: usa-button--secondary margin-top-1 display-none
 
 video-one:
   class: highlight-video-section tablet:width-full

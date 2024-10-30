@@ -25,7 +25,7 @@ cta-one:
     text: RSVP
     href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
     isExternal: true
-    class: usa-button--secondary margin-top-1 display-none
+    class: usa-button--secondary margin-top-1
 
 video-one:
   class: highlight-video-section tablet:width-full

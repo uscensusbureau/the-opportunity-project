@@ -1792,6 +1792,9 @@ main {
       color: black;
     }
   }
+  section.cta-three.usa-section--dark p {
+    color: color('blue-warm-60v');
+  }
 }
 
 .topx-hero {
@@ -3467,7 +3470,7 @@ code {
 }
 
 // Summit page
-.page-annual-innovation-summit {
+.page-annual-innovation-event {
   background: color("base-darkest");
 
   .banner-background {
@@ -3529,9 +3532,16 @@ code {
     }
   }
 
-  .cta-one {
-    font-size: 8px;
-    line-height: 9.37px;
+  h2.text-normal {
+    margin-top: 0px;
+    >p:nth-child(1) {
+        margin-top: 0px;
+      }
+  }
+
+  .cta-one, .cta-one>p a.site-cta {
+    font-size: 12px;
+    line-height: 16px;
 
     @include at-media("tablet") {
       font-size: 14px;
@@ -3543,19 +3553,8 @@ code {
       line-height: 30px;
     }
 
-    >p a.site-cta {
-      font-size: 5px;
-      line-height: 6.39px;
-
-      @include at-media("tablet") {
-        font-size: 10px;
-        line-height: 12.8px;
-      }
-
-      @include at-media("desktop") {
-        font-size: 16px;
-        line-height: 20.4px;
-      }
+    >p {
+      margin-bottom: 0px;
     }
   }
 

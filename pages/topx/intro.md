@@ -84,7 +84,7 @@ cta-two:
     class:
 
 cta-three:
-  background-class: bg-white
+  background-class: bg-white cta-three
   title:
     text: TOP Sprints Create Lasting Impact
     class: font-sans-sm text-blue-warm-60v

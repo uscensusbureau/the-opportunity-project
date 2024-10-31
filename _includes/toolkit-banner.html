@@ -1,13 +1,14 @@
-{% assign banner = site.banner %}
+{% assign banner = page.banner %}
 <section class="site-banner flex-align-center border-bottom-1px">
   <div class="usa-accordion">
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text font-sans-xs">
-            <!-- <a href="{% unless banner.isExternal %}{{site.baseurl}}{% endunless %}{{ banner.href }}"> -->
+            How is your TOPx Toolkit experience?
+            <a href="{% unless banner.isExternal %}{{site.baseurl}}{% endunless %}{{ banner.href }}">
               {{ banner.text }}
-            <!-- </a> -->
+            </a>
           </p>
         </div>
       </div>

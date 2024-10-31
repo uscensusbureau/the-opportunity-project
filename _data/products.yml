@@ -2171,7 +2171,7 @@
     Native CDFIs and investors.
   image: nativeCDFIs-map.png
   image-alt: 'A map of the United States demarcating locations of Native CDFIs. '
-  link: 'https://mapboxlocators.oweesta.org/TOP-Map-NCDFIs/ '
+  link: https://www.oweesta.org/oweesta-maps/
   problem_statement:
   - recvGCiCh48crr8iQ
   sprint:
@@ -3859,7 +3859,7 @@
     Native, and Native Hawaiian communities by connecting Native CDFIs and investors.
   image: investors-oweesta.png
   image-alt: 'A map of the United States demarcating locations of Native CDFIs. '
-  link: https://mapboxlocators.oweesta.org/TOP-Map-Investors/
+  link: https://www.oweesta.org/oweesta-maps/
   problem_statement:
   - recvGCiCh48crr8iQ
   sprint:

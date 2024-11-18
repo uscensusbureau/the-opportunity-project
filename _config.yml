@@ -14,8 +14,8 @@ annual_reports:
   '2019': assets/files/annual_report_2019.pdf
 
 
-# banner:
-#   text: "Now accepting problem statement submissions until April 15!"
+banner:
+  text: "Save the Date: The Opportunity Project 2024 Virtual Product Showcase is December 11, 2024!"
 #   href: /proposal/
 #   isExternal: false
 

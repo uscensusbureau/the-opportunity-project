@@ -1430,10 +1430,10 @@ main {
 
   .interior-hero {
     padding-bottom: 60px;
-    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
+    // background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
       background-size: contain;
     @include at-media("desktop") {
-      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
+      // background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
       background-size: cover;
       padding: 117px 0 124px;
     }

@@ -1673,11 +1673,11 @@ main {
 
   .interior-hero {
     padding-bottom: 60px;
-    background: url('../img/about-page/desktop-hero-background.png') no-repeat center;
+    // background: url('../img/about-page/desktop-hero-background.png') no-repeat center;
     background-size: cover;
 
     @include at-media("desktop") {
-      background: url('../img/about-page/desktop-hero-background.png') no-repeat 0 0;
+      // background: url('../img/about-page/desktop-hero-background.png') no-repeat 0 0;
       background-size: cover;
       padding: 117px 0 124px;
     }

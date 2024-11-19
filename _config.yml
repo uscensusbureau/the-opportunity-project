@@ -16,8 +16,8 @@ annual_reports:
 
 banner:
   text: "Save the Date: The Opportunity Project 2024 Virtual Product Showcase is December 11, 2024!"
-#   href: /proposal/
-#   isExternal: false
+  href: /proposal/
+  isExternal: false
 
 
 

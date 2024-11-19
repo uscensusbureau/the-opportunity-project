@@ -23,7 +23,7 @@ cta-one:
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   custom:
     text: RSVP
-    href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+    href: https://top2024showcase.splashthat.com
     isExternal: true
     class: usa-button--secondary margin-top-1
 

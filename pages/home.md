@@ -17,7 +17,23 @@ challenges:
 
   Explore how agencies have used TOP to address national challenges:'
   data:
-    - 
+    -
+      agency: 'HUD & The White House'
+      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
+      problem-statement-name: Opportunity Zones
+      impact:
+        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
+      products:
+        - title: City Builder
+          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
+        - title: Inclusive Growth Score
+          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
+        - title: Inclusive Development Dashboards
+          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
+      image:
+        src: photos/home/widget/neighborhood.jpg
+        alt: A neighborhood grid of buildings and streets as seen from above.
+    -
       agency: 'State Department & The Wilson Center'
       title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
       products:
@@ -53,23 +69,7 @@ challenges:
       image:
         src: photos/home/widget/hurricane.jpg
         alt: Satellite image of a hurricane cloud over a coastline.
-    - 
-      agency: 'HUD & The White House'
-      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
-      problem-statement-name: Opportunity Zones
-      impact: 
-        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
-      products:
-        - title: City Builder
-          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
-        - title: Inclusive Growth Score
-          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
-        - title: Inclusive Development Dashboards
-          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
-      image:
-        src: photos/home/widget/neighborhood.jpg
-        alt: A neighborhood grid of buildings and streets as seen from above.
-    
+
 cta-one:
   background-class: bg-primary
   title: 

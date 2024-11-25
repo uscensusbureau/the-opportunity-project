@@ -1,5 +1,5 @@
 ---
-title: "Annual Innovation Summit"
+title: "Annual Innovation Event"
 permalink: /summit/
 layout: default
 name: summit
@@ -7,24 +7,25 @@ class: summit
 
 background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: Our annual innovation summit is a multi-day virtual conference showcasing the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
+  text: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
   subtext:
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: Missed [Census Open Innovation Summit 2024](https://coilsummit2024.splashthat.com/)? Watch the recordings on YouTube, featuring 25 sessions, more than 90 speakers, and 30 new tech products.
+    text: <b>The Opportunity Project 2024 Virtual Product Showcase</b> <br> Wednesday, December 11, 2024 <br>11:30 a.m. - 5 p.m. ET
+
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Watch recordings of the sessions on the U.S. Census Bureau's YouTube channel:
-    class: text-normal cta-one padding-x-5 tablet:padding-x-9 display-none
+      Join The Opportunity Project as we celebrate the incredible work accomplished in this year’s technology development sprints that tackled topics such as Empowering Community-Led Wellbeing Measurement, Expanding Opportunities for Native Homeownership and Housing Stability, Strengthening the STEM Educator Workforce, and [more](https://opportunity.census.gov/sprints/2024-sprints)!
+    class: text-normal cta-one padding-x-5 tablet:padding-x-9
   custom:
-    text: Catch Up on YouTube
-    href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+    text: RSVP
+    href: https://top2024showcase.splashthat.com
     isExternal: true
-    class: usa-button--secondary
+    class: usa-button--secondary margin-top-1
 
 video-one:
   class: highlight-video-section tablet:width-full
@@ -191,6 +192,8 @@ video-9:
 
 ---
 {% include hero.html %}
+{% assign section = page.cta-one %}
+{% include home/cta.html  data=section %}
 <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">
     <h2 class="text-center text-white">Past Events</h2>

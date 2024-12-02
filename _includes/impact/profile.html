@@ -1,0 +1,13 @@
+{% assign data = include.data %}
+
+{% for profile in data %}
+<div>
+  <img src="" alt="{{profile.img.alt}}">
+  <div>
+    <h3>{{profile.title}}</h3>
+    <p>{{profile.name}}</p>
+    <p>{{profile.org}}</p>
+    <p>{{profile.blurb}}</p>
+  </div>
+</div>
+{% endfor %}

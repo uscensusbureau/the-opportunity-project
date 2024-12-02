@@ -1949,6 +1949,30 @@ main {
  }
 }
 
+.page-impact {
+  div.content-container, .shadow-box {
+      padding: 52.64px 30.08px;
+
+      @include at-media('tablet') {
+        padding: 52.64px 67.68px;
+      }
+
+      @include at-media('desktop') {
+        padding: 112px 127.5px;
+      }
+    }
+  .grid-background {
+    background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
+      background-size: cover;
+      background-color: #FAF3E9;
+  }
+  .shadow-box {
+    background-color: white;
+    border: black solid .6px;
+    box-shadow: 12px 12px 2px 1px #13192F;
+  }
+}
+
 
 // TOOLKITS ----------------- //
 

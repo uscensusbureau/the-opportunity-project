@@ -1,7 +1,11 @@
-<div class="report-number">
-  <p class="number">300+</p>
-  <div class="report-details outline-1px outline-black">
-    <h3 class="title">title ex. products in use</h3>
-    <p class="info">info ex. Dui sapien eget mi proin sed libero enim. Proin sagittis nisl rhoncus.</p>
+{% assign data = include.data %}
+
+{% for item in data %}
+<div class="impact-item">
+  <p class="number">{{item.number}}</p>
+  <div class="report-details shadow-box">
+    <h3 class="title">{{item.title}}</h3>
+    <p class="info">{{item.blurb}}</p>
   </div>
 </div>
+{% endfor %}

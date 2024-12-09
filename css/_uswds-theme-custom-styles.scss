@@ -1971,6 +1971,25 @@ main {
     border: black solid .6px;
     box-shadow: 12px 12px 2px 1px #13192F;
   }
+
+  .impact-numbers div.content-container {
+
+    @include at-media("tablet") {
+      display: grid;
+
+    }
+  }
+
+  .individual-profile {
+    @include at-media("tablet") {
+      display: flex;
+
+      &.inverted {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
 }
 
 

@@ -27,6 +27,7 @@ profiles:
   - title: On Communities
     name: name
     org: org
+    class: inverted
     img:
       src:
       alt: smiling headshot
@@ -41,6 +42,7 @@ profiles:
   - title: On Federal Agencies
     name: name
     org: org
+    class: inverted
     img:
       src:
       alt: smiling headshot
@@ -63,7 +65,7 @@ profiles:
   </div>
 </section>
 
-<section class="grid-background">
+<section class="grid-background impact-numbers">
   <div class="content-container">
     {% assign section = page.impact_numbers %}
     {% include impact/numbers.html data=section %}
@@ -87,7 +89,7 @@ profiles:
   <div class="shadow-box">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, voluptatum reprehenderit. Vel, assumenda, eum maiores dignissimos rerum non sequi natus beatae fugiat, ea ipsa sunt blanditiis molestias aliquam asperiores esse!</p>
   </div>
-  <div>
+  <div class="profiles-container">
     {% assign section = page.profiles %}
     {% include impact/profile.html data=section %}
   </div>

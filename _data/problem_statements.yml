@@ -1455,13 +1455,8 @@
   products_text: Social Impact Reporting Platform
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
 - Name: Building Stronger Pathways to Grants and Funding for Indigenous Communities
-  Products:
-  - recG4SfTM6uiSkEN9
-  - recL4qs5WjgBkVI4Q
-  - recCsIietBweXPdMJ
   airtable_createdTime: '2024-12-09T15:19:03.000Z'
   airtable_id: recIQCg8jZYCsoyeR
-  products_text: Philanthropono, City Health Dashboard, Indigenous Data Review Project
 - Full Title: Using AI to Help Patients Find Clinical Trials
   Name: Using AI to Help Patients Find Clinical Trials
   Products:
@@ -2342,7 +2337,11 @@
     communities to navigate a complex grant and funding landscape and increase their
     capabilities to successfully secure funding. '
   Full Title: 'Building Stronger Pathways to Grants and Funding for Indigenous Communities '
-  Name: 'Building Stronger Pathways to Grants and Funding for Indigenous Communities '
+  Name: Building Stronger Pathways to Grants and Funding for Indigenous Communities
+  Products:
+  - recG4SfTM6uiSkEN9
+  - recL4qs5WjgBkVI4Q
+  - recCsIietBweXPdMJ
   Sprints:
   - recHvWpLtcuFRNCH0
   Target audience / End user: Tribal stakeholders, tribal leaders, Native Hawaiian
@@ -2356,6 +2355,7 @@
   - rec1zovFcdJBZJ9aF
   - recya99evAip9CFqo
   pdf: 2024-NCC-NUIFC.pdf
+  products_text: Philanthropono, City Health Dashboard, Indigenous Data Review Project
   sprint_order: 1
   sprint_text: 2024 Sprints
 - Challenge: 'Enhance research & development (R&D) capacity at organizations across

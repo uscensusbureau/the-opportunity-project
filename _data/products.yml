@@ -2395,6 +2395,35 @@
   title: Knowledge Nodes Service (KNS)
   year:
   - 2023
+- Product Name: Ed-Fi Teacher Workforce Tool
+  agencies:
+  - U.S. Department of Education
+  airtable_createdTime: '2024-12-09T20:11:10.000Z'
+  airtable_id: recJR8h80G1lwBkNr
+  category:
+  - Education
+  - Employment
+  data_sets: NCES Common CORE data
+  data_sets_text: NCES Common CORE data
+  description: The Ed-Fi Teacher Workforce Tool aims to empower districts and educational
+    service agencies with data-driven insights to optimize staffing, address vacancies,
+    and improve teacher retention.
+  details: The Ed-Fi Teacher Workforce Tool aims to empower districts and educational
+    service agencies with data-driven insights to optimize staffing, address vacancies,
+    and improve teacher retention.
+  image: ed-fi-2024.jpg
+  image-alt: A screenshot of the Ed-Fi website homepage.
+  link: https://www.ed-fi.org/
+  problem_statement:
+  - rec8wzz1BuOZSe97g
+  sprint:
+  - recHvWpLtcuFRNCH0
+  tech_team:
+  - recEqquhamnIfAOVA
+  tech_team_text: Ed-Fi Alliance
+  title: Ed-Fi Teacher Workforce Tool
+  year:
+  - 2024
 - Description (Old): Kanarys uses open EEOC data and Census Bureau data and reports
     to create more inclusive, nontoxic workplaces for individuals and their employers.
   Product Name: Kanarys
@@ -3497,6 +3526,39 @@
   title: LiveStories
   year:
   - 2016
+- Product Name: Social Data Indexing
+  agencies:
+  - Harvard Business School, U.S. Department of Commerce, National League of Cities
+  airtable_createdTime: '2024-12-09T20:15:00.000Z'
+  airtable_id: recRuxTB2qI4xqv3o
+  category:
+  - Discovery
+  data_sets: American Community Survey, State of California's Open Data Health Portal
+  data_sets_text: American Community Survey, State of California's Open Data Health
+    Portal
+  description: Social Data Indexing harmonizes public open data sources of healthcare
+    data using proprietary algorithms to quickly present useful Social Determinants
+    of Health information "to the bedside" for the clinical practitioner to make better
+    healthcare decisions while reducing the overall cost of healthcare.
+  details: Social Data Indexing harmonizes public open data sources of healthcare
+    data using proprietary algorithms to quickly present useful Social Determinants
+    of Health information "to the bedside" for the clinical practitioner to make better
+    healthcare decisions while reducing the overall cost of healthcare.
+  image: enterprise501c3-2024.jpg
+  image-alt: |-
+    A screenshot of the homepage that reads "Treating the Whole Person
+    by looking at the social factors."
+  link: https://enterprise501c3.org/
+  problem_statement:
+  - recFLCXy9eppXYbrL
+  sprint:
+  - recHvWpLtcuFRNCH0
+  tech_team:
+  - recHe6oZAWLljUSvd
+  tech_team_text: Enterprise 501c3
+  title: Social Data Indexing
+  year:
+  - 2024
 - Product Name: Emergency & Disaster Funding Tracking
   agencies:
   - Office of Management and Budget
@@ -4451,6 +4513,35 @@
   title: 'Bowie State University: The Opportunity Project'
   year:
   - 2021
+- Product Name: SumRise
+  agencies:
+  - U.S. Department of Education
+  airtable_createdTime: '2024-12-09T20:11:36.000Z'
+  airtable_id: recbIdNXxF18hEbNo
+  category:
+  - Education
+  - Employment
+  data_sets: 'ELSI, SAIPE, BLS, & ACS '
+  data_sets_text: 'ELSI, SAIPE, BLS, & ACS '
+  description: SumRise is an interactive tool that allows prospective teachers and
+    policymakers to quickly assess the climate of a particular school (or district)
+    as it pertains to the viability of a career in education.
+  details: SumRise is an interactive tool that allows prospective teachers and policymakers
+    to quickly assess the climate of a particular school (or district) as it pertains
+    to the viability of a career in education.
+  image: studio-b3-2024.jpg
+  image-alt: A screenshot of the Studio B3 homepage.
+  link: https://studiob3.org/stemrise
+  problem_statement:
+  - rec8wzz1BuOZSe97g
+  sprint:
+  - recHvWpLtcuFRNCH0
+  tech_team:
+  - rec5VDh0o1POLieEh
+  tech_team_text: Studio B3
+  title: SumRise
+  year:
+  - 2024
 - Product Name: Asian Owned Boston
   agencies:
   - U.S. Census Bureau

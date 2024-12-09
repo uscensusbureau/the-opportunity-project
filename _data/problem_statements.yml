@@ -712,6 +712,8 @@
   - recgnYa1p18cBPg0j
   - recWn87IlXBvIdr6L
   - rec7BjcrjIFetDqjs
+  - recJR8h80G1lwBkNr
+  - recbIdNXxF18hEbNo
   Sprints:
   - recHvWpLtcuFRNCH0
   Target audience / End user: States, school districts, schools, teachers, and teacher
@@ -722,7 +724,8 @@
   organizations:
   - rec0lQgfT3fzwcTJ2
   pdf: 2024-ED.pdf
-  products_text: Teacher Supply Model , Stemavator, SETA-ED
+  products_text: Teacher Supply Model , Stemavator, SETA-ED, Ed-Fi Teacher Workforce
+    Tool, SumRise
   sprint_order: 5
   sprint_text: 2024 Sprints
 - Challenge: 'Create tools that will improve and enhance access to homeownership and
@@ -1376,6 +1379,7 @@
   - recFzRyJzAYUPtsuq
   - recjm0bfMYKetEa2z
   - recPg2UL8lvwVvGCK
+  - recRuxTB2qI4xqv3o
   Sprints:
   - recHvWpLtcuFRNCH0
   Target audience / End user: 'Local government leaders and community members, with
@@ -1392,7 +1396,8 @@
   - rechMbetsTpJV7lhb
   pdf: 2024-Harvard-DOC-NLC.pdf
   products_text: Sidekick, mySidewalk Wellbeing Toolset, Greater Growth Initiative,
-    Community Wellbeing Asset Mapping Tool (CWAM), Neurodiverse Wellbeing Index
+    Community Wellbeing Asset Mapping Tool (CWAM), Neurodiverse Wellbeing Index, Social
+    Data Indexing
   sprint_order: 2
   sprint_text: 2024 Sprints
 - Background: State, local, and tribal governments, nonprofits, and universities complain

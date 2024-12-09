@@ -275,6 +275,11 @@
   - recJyS4djhvplHaNp
   sprints:
   - rectIGl9DbypUw3c9
+- airtable_createdTime: '2024-12-09T20:12:44.000Z'
+  airtable_id: rec5VDh0o1POLieEh
+  name: Studio B3
+  products:
+  - recbIdNXxF18hEbNo
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: rec5yUTrrJ7tuZBNv
   name: American Society of Addiction Medicine (ASAM)
@@ -678,6 +683,11 @@
   airtable_id: recEoHARKadl123ut
   datasets: Census Data Literacy Guide
   name: American Library Association
+- airtable_createdTime: '2024-12-09T20:11:13.000Z'
+  airtable_id: recEqquhamnIfAOVA
+  name: Ed-Fi Alliance
+  products:
+  - recJR8h80G1lwBkNr
 - airtable_createdTime: '2021-02-22T17:51:52.000Z'
   airtable_id: recEyaGzfsLtjVrds
   name: Eco Bloc
@@ -821,6 +831,11 @@
   name: Tufts University
   products:
   - recnQhPghLaIJuclP
+- airtable_createdTime: '2024-12-09T20:15:00.000Z'
+  airtable_id: recHe6oZAWLljUSvd
+  name: Enterprise 501c3
+  products:
+  - recRuxTB2qI4xqv3o
 - airtable_createdTime: '2023-01-26T19:03:49.000Z'
   airtable_id: recHgsUngRtoKlTw4
   name: Blyncsy

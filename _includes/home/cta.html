@@ -11,7 +11,7 @@
     {% endif %}
     {% if data.blurb %}
       <p {% if data.blurb.class %}class="{{ data.blurb.class }}"{% endif %}>
-        {{ data.blurb.text }}
+        {{ data.blurb.text | markdownify | remove: "<p>" | remove: "</p>"}}
       </p>
     {% endif %}
     <p>

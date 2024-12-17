@@ -1,13 +1,19 @@
 {% assign data = include.data %}
 
-{% for profile in data %}
-<div class="individual-profile {% if profile.class%}{{profile.class}}{%endif%}">
-  <img src="" alt="{{profile.img.alt}}">
-  <div class="profile-info">
-    <h3>{{profile.title}}</h3>
-    <p>{{profile.name}}</p>
-    <p>{{profile.org}}</p>
-    <p>{{profile.blurb}}</p>
+{% for info in data %}
+<div class="individual-info {% if info.class%}{{info.class}}{%endif%}">
+  <div class="info-img-container">
+    <img src="{{info.img.src}}" alt="{{info.img.alt}}">
+  </div>
+  <div class="info-content">
+    <h3>{{info.title}}</h3>
+    {% if info.subtitle %}
+      <p class="subtitle">{{info.subtitle}}</p>
+    {% endif %}
+    {% if info.org %}
+      <p class="org">{{info.org}}</p>
+    {% endif %}
+    <p class="blurb">{{info.blurb}}</p>
   </div>
 </div>
 {% endfor %}

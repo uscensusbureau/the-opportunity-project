@@ -1972,6 +1972,18 @@ main {
     box-shadow: 12px 12px 2px 1px #13192F;
   }
 
+  .nav-content-container {
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    border: .5px black solid;
+    border-radius: 200px;
+
+    a {
+      color: black;
+    }
+  }
+
   .impact-numbers div.content-container {
 
     @include at-media("tablet") {

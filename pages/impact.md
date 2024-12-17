@@ -10,6 +10,30 @@ hero:
   text: Impact
   subtext: Learn more about The Opportunity Project sprint process and participant roles.
 
+#years section
+years:
+  - title: 2015
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2015.jpg
+      alt: something
+  - title: 2016
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2016.jpg
+      alt: something
+  - title: 2017
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2017.jpg
+      alt: something
+
+
 #impact numbers
 impact_numbers:
   - number: 200+
@@ -22,31 +46,51 @@ impact_numbers:
     title: Economic Impact
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl rhoncus.
 
+#sucess stories section
+companies:
+  - title: company
+    class: inverted
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg
+      alt: smiling headshot
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.jpg
+      alt: smiling headshot
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.jpg
+      alt: smiling headshot
+
 #profile section
 profiles:
   - title: On Communities
-    name: name
+    subtitle: name
     org: org
     class: inverted
-    img:
-      src:
-      alt: smiling headshot
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg
+      alt: smiling headshot
   - title: On Data
-    name: name
+    subtitle: name
     org: org
-    img:
-      src:
-      alt: smiling headshot
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.jpg
+      alt: smiling headshot
   - title: On Federal Agencies
-    name: name
+    subtitle: name
     org: org
     class: inverted
-    img:
-      src:
-      alt: smiling headshot
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.jpg
+      alt: smiling headshot
 ---
 {% include hero.html %}
 <section id="team-intro" class="team-intro grid-background">

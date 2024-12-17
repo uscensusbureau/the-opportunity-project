@@ -49,8 +49,19 @@ profiles:
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
 ---
 {% include hero.html %}
-<section class="team-intro grid-background">
-  <div class="content-container">
+<section id="team-intro" class="team-intro grid-background">
+  <div class="content-container grid-container">
+  {% include impact/subnav.html %}
+  <nav id="subnav" class="tablet:display-none">
+    <div class="nav-content-container">
+      <a href="{{site.baseurl}}/impact#team-intro">Note From the Team</a>
+      <a href="{{site.baseurl}}/impact#years">Through the Years</a>
+      <a href="{{site.baseurl}}/impact#impact-numbers">By the Numbers</a>
+      <a href="{{site.baseurl}}/impact#sucess">Success Stories</a>
+      <a href="{{site.baseurl}}/impact#broader-impact">Broader Impact</a>
+      <a href="{{site.baseurl}}/impact#report-download">Report Download</a>
+    </div>
+  </nav>
   <h2>Note from the Team</h2>
   <div class="shadow-box">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, voluptatum reprehenderit. Vel, assumenda, eum maiores dignissimos rerum non sequi natus beatae fugiat, ea ipsa sunt blanditiis molestias aliquam asperiores esse!</p>
@@ -65,26 +76,43 @@ profiles:
   </div>
 </section>
 
-<section class="grid-background impact-numbers">
-  <div class="content-container">
+<section id="years" class="years">
+  <div class="content-container grid-container">
+    {% include impact/subnav.html %}
+    <div class="year-counter-container">
+      <h2>Through the Years</h2>
+    </div>
+    {% assign section = page.years %}
+    {% include impact/profile.html data=section %}
+  </div>
+</section>
+
+<section id="impact-numbers" class="grid-background impact-numbers">
+  <div class="content-container grid-container">
+    {% include impact/subnav.html %}
+    <h2>By the Numbers</h2>
     {% assign section = page.impact_numbers %}
     {% include impact/numbers.html data=section %}
   </div>
 </section>
 
-<section class="success">
-  <div class="content-container">
+<section id="success" class="success">
+  <div class="content-container grid-container">
+  {% include impact/subnav.html %}
     <h2>Success Stories</h2>
     <div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui sapien eget mi proin sed libero enim.</p>
     </div>
-    <div>
-    </div>
+  <div class="profiles-container">
+    {% assign section = page.companies %}
+    {% include impact/profile.html data=section %}
+  </div>
   </div>
 </section>
 
-<section class="broader-impact grid-background">
-  <div class="content-container">
+<section id="broader-impact" class="broader-impact grid-background">
+  <div class="content-container grid-container">
+  {% include impact/subnav.html %}
   <h2>Broader Impact</h2>
   <div class="shadow-box">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, voluptatum reprehenderit. Vel, assumenda, eum maiores dignissimos rerum non sequi natus beatae fugiat, ea ipsa sunt blanditiis molestias aliquam asperiores esse!</p>
@@ -96,8 +124,9 @@ profiles:
   </div>
 </section>
 
-<section class="report-download">
-  <div class="content-container">
+<section id="report-download" class="report-download">
+  <div class="content-container grid-container">
+  {% include impact/subnav.html %}
   <h2>Report Download</h2>
   <div>
   <p>Placeholder</p>

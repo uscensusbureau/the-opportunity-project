@@ -1992,7 +1992,14 @@ main {
     }
   }
 
-  .individual-profile {
+  .individual-info {
+    background-color: red;
+    .info-img-container {
+        width: fit-content;
+      }
+    .info-content {
+      width: 125%;
+    }
     @include at-media("tablet") {
       display: flex;
 

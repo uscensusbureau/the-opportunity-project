@@ -2018,6 +2018,16 @@ main {
     }
   }
 
+  .years {
+    color: white;
+    .year-counter-container{
+      background: color('blue-warm-60v');
+    }
+    .year-timeline-container {
+      background: color('base-darkest');
+    }
+  }
+
 }
 
 

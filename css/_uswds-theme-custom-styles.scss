@@ -1966,6 +1966,14 @@ main {
     background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
       background-size: cover;
       background-color: #FAF3E9;
+
+      h2 {
+        color: white;
+        background: orangered;
+        width: fit-content;
+        padding: 4px 24px;
+        box-shadow: -4px 4px 2px 1px #7A1B00;
+      }
   }
   .shadow-box {
     background-color: white;

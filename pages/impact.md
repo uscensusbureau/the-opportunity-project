@@ -159,7 +159,9 @@ profiles:
 <section id="broader-impact" class="broader-impact grid-background">
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
-  <h2>Broader Impact</h2>
+  <div>
+    <h2>Broader Impact</h2>
+  </div>
   <div class="shadow-box">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, voluptatum reprehenderit. Vel, assumenda, eum maiores dignissimos rerum non sequi natus beatae fugiat, ea ipsa sunt blanditiis molestias aliquam asperiores esse!</p>
   </div>

@@ -1949,6 +1949,116 @@ main {
  }
 }
 
+// Impact page ----------------- //
+.page-impact {
+  div.content-container, .shadow-box {
+      padding: 52.64px 30.08px;
+
+      @include at-media('tablet') {
+        padding: 52.64px 67.68px;
+      }
+
+      @include at-media('desktop') {
+        padding: 112px 127.5px;
+      }
+    }
+  .grid-background {
+    background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
+      background-size: cover;
+      background-color: #FAF3E9;
+
+      h2 {
+        color: white;
+        background: orangered;
+        width: fit-content;
+        padding: 4px 24px;
+        box-shadow: -4px 4px 2px 1px #7A1B00;
+      }
+  }
+  .shadow-box {
+    background-color: white;
+    border: black solid .6px;
+    box-shadow: 12px 12px 2px 1px #13192F;
+  }
+
+  .nav-content-container {
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    border: .5px black solid;
+    border-radius: 200px;
+
+    a {
+      color: black;
+    }
+  }
+
+  .impact-numbers div.content-container {
+
+    @include at-media("tablet") {
+      display: grid;
+
+    }
+  }
+
+  .individual-info {
+    // background-color: red;
+    .info-img-container {
+        width: fit-content;
+      }
+    .info-content {
+      width: 125%;
+    }
+    @include at-media("tablet") {
+      display: flex;
+
+      &.inverted {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  .success {
+    background: color('base-darkest');
+    color: white;
+    .nav-content-container {
+        border-color: white;
+
+        a {
+          color: white;
+        }
+      }
+  }
+
+  .years {
+    color: white;
+    .year-counter-container{
+      background: color('blue-warm-60v');
+      .nav-content-container {
+        border-color: white;
+        a {
+            color: white;
+        }
+      }
+    }
+    .year-timeline-container {
+      background: color('base-darkest');
+    }
+  }
+
+  .report-download {
+    background: color('blue-warm-60v');
+    color: white;
+    .nav-content-container {
+        border-color: white;
+
+        a {
+          color: white;
+        }
+      }
+  }
+}
+
 
 // TOOLKITS ----------------- //
 

@@ -49,7 +49,6 @@ impact_numbers:
 #sucess stories section
 companies:
   - title: company
-    class: inverted
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
       src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg

@@ -121,15 +121,19 @@ profiles:
 </section>
 
 <section id="years" class="years">
-  <div class="year-counter-container content-container grid-container">
+  <div class="year-counter-container">
+  <div class="grid-container content-container">
     {% include impact/subnav.html %}
     <div class="">
       <h2>Through the Years</h2>
     </div>
+    </div>
   </div>
-  <div class="year-timeline-container content-container grid-container">
+  <div class="year-timeline-container">
+  <div class="grid-container content-container">
     {% assign section = page.years %}
     {% include impact/profile.html data=section %}
+  </div>
   </div>
 </section>
 

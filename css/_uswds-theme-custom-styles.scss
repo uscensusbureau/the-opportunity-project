@@ -2018,16 +2018,45 @@ main {
     }
   }
 
+  .success {
+    background: color('base-darkest');
+    color: white;
+    .nav-content-container {
+        border-color: white;
+
+        a {
+          color: white;
+        }
+      }
+  }
+
   .years {
     color: white;
     .year-counter-container{
       background: color('blue-warm-60v');
+      .nav-content-container {
+        border-color: white;
+        a {
+            color: white;
+        }
+      }
     }
     .year-timeline-container {
       background: color('base-darkest');
     }
   }
 
+  .report-download {
+    background: color('blue-warm-60v');
+    color: white;
+    .nav-content-container {
+        border-color: white;
+
+        a {
+          color: white;
+        }
+      }
+  }
 }
 
 

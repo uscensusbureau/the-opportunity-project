@@ -16,8 +16,6 @@ primary:
     href: showcase/
   - text: Resources
     accordion:
-      - text: Curated Datasets
-        href: data/
       - text: TOPx Toolkit for Federal Agencies
         href: topx-toolkit/
       - text: TOP Product Development Toolkit
@@ -82,8 +80,6 @@ footer:
   - subsection:
       title: Resources
       links:
-        - text: Datasets
-          href: data/
         - text: TOPx Toolkit
           href: topx-toolkit/
         - text: Product Toolkit

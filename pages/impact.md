@@ -100,18 +100,18 @@ companies:
   - title: company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.png
       alt: smiling headshot
   - title: Company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     class: inverted
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.png
       alt: smiling headshot
   - title: Company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.png
       alt: smiling headshot
 
 #profile section
@@ -122,14 +122,14 @@ profiles:
     class: inverted
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.png
       alt: smiling headshot
   - title: On Data
     subtitle: name
     org: org
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.png
       alt: smiling headshot
   - title: On Federal Agencies
     subtitle: name
@@ -137,7 +137,7 @@ profiles:
     class: inverted
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.png
       alt: smiling headshot
 ---
 {% include hero.html %}

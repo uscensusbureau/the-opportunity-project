@@ -19,7 +19,7 @@ about:
 
          It operates through 12-14 week technology design [sprints](https://opportunity.census.gov/sprints/), focused on the nation’s toughest challenges, from the opioid crisis and disaster relief to improving STEM education and workforce development. To date, over 200 digital [products](https://opportunity.census.gov/showcase/) have been created, using [open data](https://opportunity.census.gov/data/) to serve families, businesses, local leaders, and communities nationwide.<br><br>
 
-        TOP addresses broad national challenges as well as specific community and regional challenges, such as those facing Puerto Rico or Indigenous Communities.
+        TOP addresses broad national challenges as well as specific community and regional challenges.
 
 
 #our history

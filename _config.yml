@@ -14,10 +14,11 @@ annual_reports:
   '2019': assets/files/annual_report_2019.pdf
 
 
-# banner:
-#   text: "Now accepting problem statement submissions until April 15!"
-#   href: /proposal/
-#   isExternal: false
+banner:
+  text: "Missed The Opportunity Project 2024 Product Showcase?"
+  href: https://www.youtube.com/watch?v=W7HeCaRJbtA
+  isExternal: true
+
 
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

@@ -1430,10 +1430,10 @@ main {
 
   .interior-hero {
     padding-bottom: 60px;
-    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
+    // background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
       background-size: contain;
     @include at-media("desktop") {
-      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
+      // background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
       background-size: cover;
       padding: 117px 0 124px;
     }
@@ -1497,10 +1497,6 @@ main {
     background-size: cover;
   }
 
-.how-it-works-details-bg, .roles-details-bg {
-  background: url('../img/sprint-process-page/desktop-how-it-works-steps-background.png') repeat 0 0;
-  background-size: cover;
-}
   div.header-text-hot-dog, div.how-it-works-details {
     padding: 52.64px 30.08px;
 
@@ -2103,6 +2099,18 @@ main {
 
 .toolkit-header-refresh h2 {
   width: fit-content;
+}
+
+.page-topx-toolkit {
+  #main-content .site-banner {
+    background: #ffbe2e;
+    p, a {
+      color: black;
+    }
+  }
+  section.cta-three.usa-section--dark p {
+    color: color('blue-warm-60v');
+  }
 }
 
 .topx-hero {
@@ -3781,7 +3789,7 @@ code {
 }
 
 // Summit page
-.page-annual-innovation-summit {
+.page-annual-innovation-event {
   background: color("base-darkest");
 
   .banner-background {
@@ -3843,9 +3851,16 @@ code {
     }
   }
 
-  .cta-one {
-    font-size: 8px;
-    line-height: 9.37px;
+  h2.text-normal {
+    margin-top: 0px;
+    >p:nth-child(1) {
+        margin-top: 0px;
+      }
+  }
+
+  .cta-one, .cta-one>p a.site-cta {
+    font-size: 12px;
+    line-height: 16px;
 
     @include at-media("tablet") {
       font-size: 14px;
@@ -3857,19 +3872,8 @@ code {
       line-height: 30px;
     }
 
-    >p a.site-cta {
-      font-size: 5px;
-      line-height: 6.39px;
-
-      @include at-media("tablet") {
-        font-size: 10px;
-        line-height: 12.8px;
-      }
-
-      @include at-media("desktop") {
-        font-size: 16px;
-        line-height: 20.4px;
-      }
+    >p {
+      margin-bottom: 0px;
     }
   }
 
@@ -3935,14 +3939,17 @@ code {
         }
       }
     }
+    section.highlight-video-section div.video-section-text-container {
+      height: auto;
+      h3 {
+        @include at-media("desktop") {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+    }
   }
 
-  section.highlight-video-section div.video-section-text-container h3 {
-    @include at-media("desktop") {
-      font-size: 24px;
-      line-height: 24px;
-  }
-}
 
 // Logo Garden
 

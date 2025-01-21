@@ -33,22 +33,6 @@ challenges:
       image:
         src: photos/home/widget/neighborhood.jpg
         alt: A neighborhood grid of buildings and streets as seen from above.
-    -
-      agency: 'State Department & The Wilson Center'
-      title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
-      products:
-        - title: Georgetown University Campus Plastic Initiative
-          # team: Georgetown University Beeck Center
-          text:  tracking plastic pollution on college campuses and educating students on its impact 
-        - title: The Ghost Gear Project
-          # team: Harvard University Institute of Politics
-          text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
-      impact: 
-        - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus
-      problem-statement-name: Ocean Plastics
-      image:
-        src: photos/home/widget/oceans.jpg
-        alt: Blue ocean waves crashing into a rocky coastline.
     - 
       agency: 'FEMA'
       title: 'FEMA Used Geospatial Data to Help People Prepare for Disasters'

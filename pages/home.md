@@ -37,9 +37,6 @@ challenges:
       agency: 'State Department & The Wilson Center'
       title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
       products:
-        - title: Ocean Plastics Story Map
-          # team: Esri
-          text: storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
         - title: Georgetown University Campus Plastic Initiative
           # team: Georgetown University Beeck Center
           text:  tracking plastic pollution on college campuses and educating students on its impact 

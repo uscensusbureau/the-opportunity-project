@@ -2,7 +2,7 @@
 <section class="usa-section {{data.background-class}} usa-section--dark">
   <div class="grid-container {{data.container-class}}">
     <h2 {% if data.title.class %}class="{{ data.title.class }}"{% endif %}>
-      {{ data.title.text }}
+      {{ data.title.text | markdownify }}
     </h2>
     {% if data.body %}
       <div class="margin-bottom-4">
@@ -11,7 +11,7 @@
     {% endif %}
     {% if data.blurb %}
       <p {% if data.blurb.class %}class="{{ data.blurb.class }}"{% endif %}>
-        {{ data.blurb.text }}
+        {{ data.blurb.text | markdownify | remove: "<p>" | remove: "</p>"}}
       </p>
     {% endif %}
     <p>
@@ -20,7 +20,7 @@
         <a
           class="usa-button usa-button--secondary site-button site-cta"
           href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
-          {% if card.target %}target="{{ card.target }}"{% endif %}>
+          {% if link.target %}target="{{ link.target }}"{% endif %}>
           {{ link.text }}
         </a>
       {% endif %}
@@ -29,7 +29,7 @@
         <a
         class="usa-link site-cta margin-left-2"
         href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
-        {% if card.target %}target="{{ card.target }}"{% endif %}>
+        {% if link.target %}target="{{ link.target }}"{% endif %}>
         {{ link.text }}
       </a>
       {% endif %}
@@ -38,7 +38,7 @@
       <a
         class="usa-button {{data.custom.class}} site-button site-cta"
         href="{% unless link.isExternal %}{{ site.baseurl }}{% endunless %}{{ link.href }}"
-        {% if card.target %}target="{{ card.target }}"{% endif %}>
+        {% if link.target %}target="{{ link.target }}"{% endif %}>
         {{ link.text }}
       </a>
       {% endif %}

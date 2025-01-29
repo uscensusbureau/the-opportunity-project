@@ -17,25 +17,22 @@ challenges:
 
   Explore how agencies have used TOP to address national challenges:'
   data:
-    - 
-      agency: 'State Department & The Wilson Center'
-      title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
+    -
+      agency: 'HUD & The White House'
+      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
+      problem-statement-name: Opportunity Zones
+      impact:
+        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
       products:
-        - title: Ocean Plastics Story Map
-          # team: Esri
-          text: storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
-        - title: Georgetown University Campus Plastic Initiative
-          # team: Georgetown University Beeck Center
-          text:  tracking plastic pollution on college campuses and educating students on its impact 
-        - title: The Ghost Gear Project
-          # team: Harvard University Institute of Politics
-          text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
-      impact: 
-        - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus
-      problem-statement-name: Ocean Plastics
+        - title: City Builder
+          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
+        - title: Inclusive Growth Score
+          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
+        - title: Inclusive Development Dashboards
+          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
       image:
-        src: photos/home/widget/oceans.jpg
-        alt: Blue ocean waves crashing into a rocky coastline.
+        src: photos/home/widget/neighborhood.jpg
+        alt: A neighborhood grid of buildings and streets as seen from above.
     - 
       agency: 'FEMA'
       title: 'FEMA Used Geospatial Data to Help People Prepare for Disasters'
@@ -53,23 +50,7 @@ challenges:
       image:
         src: photos/home/widget/hurricane.jpg
         alt: Satellite image of a hurricane cloud over a coastline.
-    - 
-      agency: 'HUD & The White House'
-      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
-      problem-statement-name: Opportunity Zones
-      impact: 
-        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
-      products:
-        - title: City Builder
-          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
-        - title: Inclusive Growth Score
-          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
-        - title: Inclusive Development Dashboards
-          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
-      image:
-        src: photos/home/widget/neighborhood.jpg
-        alt: A neighborhood grid of buildings and streets as seen from above.
-    
+
 cta-one:
   background-class: bg-primary
   title: 

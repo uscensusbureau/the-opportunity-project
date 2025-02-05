@@ -1951,6 +1951,144 @@ main {
 
 // Impact page ----------------- //
 .page-impact {
+  scroll-behavior: smooth;
+
+  h2 {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+
+    h3 {
+      font-size: 12px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 14px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .info-content h3 {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+
+    p,
+    .content-container a.usa-button {
+      font-size: 12px;
+      line-height: 17px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+
+    .nav-content-container a {
+      font-size: 7px;
+      line-height: 9px;
+
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+  .interior-hero {
+    padding-bottom: 60px;
+    background-size: cover;
+
+    @include at-media("desktop") {
+      background-size: cover;
+      padding: 117px 0 124px;
+    }
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+
+    @include at-media('tablet') {
+      width: 343px;
+    }
+
+    @include at-media('desktop') {
+      width: 571px;
+    }
+
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 30px;
+      }
+    }
+
+    div.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 30px;
+      }
+
+      p {
+        margin: 8px 0 0px;
+
+        @include at-media('desktop') {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
   div.content-container, .shadow-box {
       padding: 52.64px 30.08px;
 
@@ -1965,13 +2103,16 @@ main {
   .grid-background {
     background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
       background-size: cover;
-      background-color: #FAF3E9;
+      background-color: #fff9eaff;
+      .nav-content-container {
+        background-color: #fff9eaff;
+      }
 
       h2 {
         color: white;
-        background: orangered;
+        background: #DE4317;
         width: fit-content;
-        padding: 4px 24px;
+        padding: 24px 20px;
         box-shadow: -4px 4px 2px 1px #7A1B00;
       }
   }
@@ -1990,6 +2131,9 @@ main {
 
     a {
       color: black;
+      :active {
+        font-weight: bold;
+      }
     }
   }
 
@@ -2003,6 +2147,7 @@ main {
 
   .individual-info {
     // background-color: red;
+
     .info-img-container {
         width: fit-content;
       }
@@ -2028,12 +2173,19 @@ main {
           color: white;
         }
       }
+      .individual-info {
+        padding-top: 112px;
+      }
+      .blurb-container {
+        border: 1px white solid;
+        padding: 26px;
+      }
   }
 
   .years {
     color: white;
     .year-counter-container{
-      background: color('blue-warm-60v');
+      background: #014280;
       .nav-content-container {
         border-color: white;
         a {
@@ -2044,10 +2196,19 @@ main {
     .year-timeline-container {
       background: color('base-darkest');
     }
+    .individual-info {
+      padding-top: 112px;
+    }
+  }
+
+  .broader-impact {
+    .individual-info {
+        padding-top: 112px;
+      }
   }
 
   .report-download {
-    background: color('blue-warm-60v');
+    background: #014280;
     color: white;
     .nav-content-container {
         border-color: white;
@@ -2056,6 +2217,11 @@ main {
           color: white;
         }
       }
+
+    .individual-info-container p {
+      border: 1px white solid;
+      padding: 30px;
+    }
   }
 }
 

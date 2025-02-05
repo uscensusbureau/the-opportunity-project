@@ -17,20 +17,69 @@ years:
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2015.jpg
+      src: /assets/img/impact-page/timeline/desktop-timeline-2015.png
       alt: something
   - title: 2016
     subtitle: Dui sapien eget mi proin sed
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2016.jpg
+      src: /assets/img/impact-page/timeline/desktop-timeline-2016.png
       alt: something
   - title: 2017
     subtitle: Dui sapien eget mi proin sed
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2017.jpg
+      src: /assets/img/impact-page/timeline/desktop-timeline-2017.png
+      alt: something
+  - title: 2018
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    # class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2018.png
+      alt: something
+  - title: 2019
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2019.png
+      alt: something
+  - title: 2020
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    # class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2020.png
+      alt: something
+  - title: 2021
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2021.png
+      alt: something
+  - title: 2022
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    # class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2022.png
+      alt: something
+  - title: 2023
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2023.png
+      alt: something
+  - title: 2024
+    subtitle: Dui sapien eget mi proin sed
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    # class: inverted
+    img:
+      src: /assets/img/impact-page/timeline/desktop-timeline-2024.png
       alt: something
 
 
@@ -51,18 +100,18 @@ companies:
   - title: company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.png
       alt: smiling headshot
   - title: Company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     class: inverted
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.png
       alt: smiling headshot
   - title: Company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.png
       alt: smiling headshot
 
 #profile section
@@ -73,14 +122,14 @@ profiles:
     class: inverted
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.png
       alt: smiling headshot
   - title: On Data
     subtitle: name
     org: org
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.png
       alt: smiling headshot
   - title: On Federal Agencies
     subtitle: name
@@ -88,7 +137,7 @@ profiles:
     class: inverted
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.jpg
+      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.png
       alt: smiling headshot
 ---
 {% include hero.html %}

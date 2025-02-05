@@ -3256,12 +3256,12 @@
   - Discovery
   data_sets: ACS, CDC, and DOL data
   data_sets_text: ACS, CDC, and DOL data
-  description: Neurodiverse Wellbeing Index which helps to explore the challenges
-    faced when creating neurotypical-related policies, and how programs can benefit
-    from using digital tools for policymakers.
-  details: Neurodiverse Wellbeing Index which helps to explore the challenges faced
+  description: Neurodiverse Wellbeing Index helps to explore the challenges faced
     when creating neurotypical-related policies, and how programs can benefit from
     using digital tools for policymakers.
+  details: Neurodiverse Wellbeing Index helps to explore the challenges faced when
+    creating neurotypical-related policies, and how programs can benefit from using
+    digital tools for policymakers.
   image: rutgers-2024.jpg
   image-alt: A prototype of the wellbeing index.
   link: 'https://www.figma.com/proto/3cNW6U91H7ZGpzAJNjnL9U/Wellbeing-Prototype?node-id=0-1&t=yCnxbjUnzAmFLj3W-1  '

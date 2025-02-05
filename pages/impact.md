@@ -100,19 +100,58 @@ companies:
   - title: company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.png
-      alt: smiling headshot
+      src: /assets/img/impact-page/logos/desktop-success-logo-1.png
+      alt: company logo
   - title: Company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     class: inverted
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.png
-      alt: smiling headshot
+      src: /assets/img/impact-page/logos/desktop-success-logo-2.png
+      alt: company logo
   - title: Company
     blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.png
-      alt: smiling headshot
+      src: /assets/img/impact-page/logos/desktop-success-logo-3.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-4.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-5.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-6.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-7.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-8.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-9.png
+      alt: company logo
+  - title: Company
+    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+    class: inverted
+    img:
+      src: /assets/img/impact-page/logos/desktop-success-logo-10.png
+      alt: company logo
 
 #profile section
 profiles:
@@ -198,7 +237,7 @@ profiles:
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
     <h2>Success Stories</h2>
-    <div>
+    <div class="blurb-container">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui sapien eget mi proin sed libero enim.</p>
     </div>
   <div class="profiles-container">
@@ -228,14 +267,18 @@ profiles:
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
   <h2>Report Download</h2>
-  <div>
+  <div class="individual-info">
+  <div class="individual-info-container">
   <p>Placeholder text</p>
-  <p>Placeholder img</p>
-    <div class="display-flex flex-justify-center margin-top-4">
+  <div class="display-flex flex-justify-center margin-top-4">
     <a href="https://opportunity.census.gov/our-process/" target="_blank"
       class="usa-button text-ink margin-top-2 tablet:padding-y-2 padding-x-205 usa-button--outline  .outline-1px.outline-black  tablet:margin-top-4 site-button bg-white text-underline">
       Learn more about the TOP Sprint Process
     </a>
+  </div>
+  </div>
+  <div class="info-img-container">
+  <img src="/assets/img/impact-page/desktop_report download_report.png" alt="" />
   </div>
   </div>
   </div>

@@ -3,6 +3,7 @@ title: FAQs
 permalink: /faqs/
 layout: default
 name: faqs
+class: faqs
 
 background: banner-background
 hero:

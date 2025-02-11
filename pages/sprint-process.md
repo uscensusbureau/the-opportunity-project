@@ -105,7 +105,7 @@ cta-one:
   </div>
 </section>
 
-<div class="bg-base-lighter full-width-screen-spilt roles-details-bg">
+<div class="full-width-screen-spilt roles-details-bg">
  <!-- padding-y-8 padding-x-4 tablet:padding-y-7 tablet:padding-x-9 -->
   <div class="roles-content-block padding-top-8">
   {% include single-column-header-text-hot-dog-cta.html data=page.roles-details %}

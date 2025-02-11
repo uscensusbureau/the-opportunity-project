@@ -1527,6 +1527,9 @@ main {
           }
         }
   }
+  .how-it-works-details-bg, .roles-details-bg {
+    background: #fff9ea;
+  }
   .how-it-works-details {
     ol {
       list-style-position: inside;
@@ -1810,6 +1813,7 @@ main {
     // padding in mobile is 1rem
     grid-template-columns: minmax(30.08px, 1fr) minmax(0, auto) minmax(30.08px, 1fr);
     grid-template-rows: auto auto;
+    background: #fff9ea;
     &.vision {
       grid-template-areas:
         ". contained ."

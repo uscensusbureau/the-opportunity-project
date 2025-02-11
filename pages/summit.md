@@ -14,16 +14,16 @@ cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: <b>The Opportunity Project 2024 Virtual Product Showcase</b> <br> Wednesday, December 11, 2024 <br>11:30 a.m. - 5 p.m. ET
+    text: Missed The Opportunity Project 2024 Product Showcase?
 
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Join The Opportunity Project as we celebrate the incredible work accomplished in this year’s technology development sprints that tackled topics such as Empowering Community-Led Wellbeing Measurement, Expanding Opportunities for Native Homeownership and Housing Stability, Strengthening the STEM Educator Workforce, and [more](https://opportunity.census.gov/sprints/2024-sprints)!
+       [Watch the recordings on YouTube](https://www.youtube.com/watch?v=W7HeCaRJbtA), featuring 29 new products created in the 2024 TOP sprints.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   custom:
-    text: RSVP
-    href: https://top2024showcase.splashthat.com
+    text: Catch Up on YouTube
+    href: https://www.youtube.com/watch?v=W7HeCaRJbtA
     isExternal: true
     class: usa-button--secondary margin-top-1
 

@@ -5,7 +5,6 @@ layout: default
 name: faqs
 class: faqs
 
-background: banner-background
 hero:
   text: FAQs
   subtext: Answers to the questions we hear most frequently.

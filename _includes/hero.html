@@ -78,23 +78,16 @@
         <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
       </div>
     </div>
-{% elsif page.class == "prize" %}
-  <section class="interior-hero bg-base-darkest usa-dark-background">
-    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-      <h1 class="usa-hero__title text-center font-family-serif">{{ page.hero.text}}</h1>
-      <div class="grid-col-4 usa-hero__subtitle text-center">
-        {{ page.hero.subtext | markdownify }}
-      </div>
-    </div>
-{% elsif page.class =="summit" %}
-<section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
-  <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-    <h1 class="usa-hero__title font-family-serif">{{ page.hero.text}}</h1>
-    <div class="usa-hero__subtitle">
-      {{ page.hero.subtext | markdownify }}
-    </div>
-  </div>
-{% elsif page.class == "sprint-process" or page.class == "about" or page.class == "impact" or page.class == "faqs" or page.class == "sprints" or page.class =="showcase" or page.class =="summit" %}
+{%
+  elsif page.class == "about"
+  or page.class == "faqs"
+  or page.class == "impact"
+  or page.class =="prize"
+  or page.class =="showcase"
+  or page.class == "sprints"
+  or page.class == "sprint-process"
+  or page.class =="summit"
+  %}
 <section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
     <h1 class="usa-hero__title text-center font-family-serif">{{ page.hero.text}}</h1>

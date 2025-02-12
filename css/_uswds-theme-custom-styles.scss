@@ -3638,6 +3638,9 @@ code {
 
 .page-curated-datasets {
   @include u-bg('primary-vivid');
+  h1 {
+    font-family: family('serif');
+  }
 }
 
 .hero {

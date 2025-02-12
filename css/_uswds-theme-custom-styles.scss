@@ -3754,13 +3754,8 @@ code {
     background-size: cover;
   }
   .past-events {
-    background: url("../img/photos/summit/mobile-pastevents-background.png") no-repeat 0 0;
-    background-size: cover;
-    @include at-media('tablet') {
-      background: url("../img/photos/summit/desktop-pastevents-background.png") no-repeat 0 0;
-      background-size: cover;
+    background: rgba(19, 25, 47, 1);
 
-    }
   }
 
   h1 {

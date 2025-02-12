@@ -1898,11 +1898,28 @@ main {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
     background-size: cover;
   }
+
  #m-a13 ul li {
   max-width: none;
  }
 }
 
+// Press page ----------------- //
+.page-press {
+  h1.usa-hero__title {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+}
 
 // TOOLKITS ----------------- //
 

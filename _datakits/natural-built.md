@@ -1,6 +1,8 @@
 ---
-title: Earth
-permalink: /data/earth/
+title: Natural & Built Environments
+permalink: /data/natural-built/
+redirect_from:
+  - /data/earth/
 class: datakit
 
 sprint-name: 'Earth'

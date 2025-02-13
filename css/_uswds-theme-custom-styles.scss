@@ -3797,7 +3797,7 @@ code {
     background-size: cover;
   }
   .impact {
-    background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
+    background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
     background-size: cover;
     font-size: 14px;
     font-weight: 600;
@@ -3809,6 +3809,12 @@ code {
     .impact-numbers-container {
       display: flex;
       flex-direction: column;
+      div {
+        width: 6.5em;
+        height: 6.5em;
+        border-radius: 50%;
+        background: color("base-darkest");
+      }
     }
     p {
       width: min-content;
@@ -3816,6 +3822,8 @@ code {
       line-height: 18px;
     }
     @include at-media('tablet') {
+      background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
+      background-size: cover;
       font-size: 20px;
       padding-top:68px;
       padding-bottom:136px;

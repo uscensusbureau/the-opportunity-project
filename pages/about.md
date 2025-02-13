@@ -80,7 +80,7 @@ featured_products:
   </div>
 </section>
 
-<section class="vision full-width-screen-spilt">
+<section class="vision full-width-screen-spilt bg-base-lighter">
   <div class="contained-container
   tablet:padding-top-10 desktop:padding-top-15 desktop:padding-bottom-8">
     <h2 class="desktop:padding-left-1">Our Vision</h2>
@@ -123,7 +123,7 @@ featured_products:
   </div>
 </section>
 
-<section class="initiatives full-width-screen-spilt tablet:padding-top-2 desktop:padding-top-7">
+<section class="initiatives full-width-screen-spilt bg-base-lighter tablet:padding-top-2 desktop:padding-top-7">
   <div class="contained-container">
   <h2 class="margin-bottom-2 tablet:margin-bottom-4 desktop:margin-bottom-8 text-center">Our Initiatives</h2>
   <div class="initiatives-container grid-row grid-gap-lg

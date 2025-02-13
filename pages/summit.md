@@ -195,6 +195,20 @@ video-9:
 {% assign section = page.cta-one %}
 
 {% include home/cta.html  data=section %}
+<section class="impact text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+    <div class="grid-container">
+    <h2 class="text-center">10 Events and:</h2>
+      <div class="impact-numbers-container grid-row text-white flex-align-center margin-top-4 tablet:margin-top-5 desktop:margin-top-15">
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>33,352 Total Viewers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>481 Total Speakers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>107 Total Sessions</p></div>
+      </div>
+    </div>
+</section>
+<section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
+
+<!-- <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15"> main version? keeping to see which is prefered-->
+
 <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">
     <h2 class="text-center text-white">Past Events</h2>

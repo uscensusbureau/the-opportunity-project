@@ -5,10 +5,10 @@ layout: default
 name: summit
 class: summit
 
-background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
+background: padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
-  subtext:
+  text: Annual Innovation Event
+  subtext: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one

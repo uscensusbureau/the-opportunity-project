@@ -123,7 +123,7 @@ featured_products:
   </div>
 </section>
 
-<section class="bg-base-lighter initiatives full-width-screen-spilt tablet:padding-top-2 desktop:padding-top-7">
+<section class="initiatives full-width-screen-spilt bg-base-lighter tablet:padding-top-2 desktop:padding-top-7">
   <div class="contained-container">
   <h2 class="margin-bottom-2 tablet:margin-bottom-4 desktop:margin-bottom-8 text-center">Our Initiatives</h2>
   <div class="initiatives-container grid-row grid-gap-lg

@@ -1,6 +1,7 @@
 ---
 short-name: sprints-del-2021
-order: 3
+html-label: sprints-del-2021
+order: 4
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

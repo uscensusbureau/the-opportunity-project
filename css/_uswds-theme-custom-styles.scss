@@ -3809,6 +3809,12 @@ code {
     .impact-numbers-container {
       display: flex;
       flex-direction: column;
+      div {
+        width: 6.5em;
+        height: 6.5em;
+        border-radius: 50%;
+        background: color("base-darkest");
+      }
     }
     p {
       width: min-content;

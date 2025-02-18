@@ -9,4 +9,6 @@ expandAllProblemStatements: true
 isCurrent: false
 showPDF: true
 lang: en
+hero:
+  text: Sprints
 ---

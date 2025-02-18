@@ -1388,6 +1388,90 @@ main {
   }
 
 
+// Standardizing headers ----------------- //
+.page-about,
+.page-faqs,
+.page-prize,
+.page-showcase,
+.page-sprints,
+.page-sprint-process,
+.page-summit  {
+  .interior-hero {
+    padding-bottom: 60px;
+
+    @include at-media("desktop") {
+      padding: 117px 0 124px;
+    }
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+    @include at-media('tablet') {
+      width: 343px;
+      // min-height: ;
+    }
+
+    @include at-media('desktop') {
+        width: 571px;
+      }
+
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 30px;
+      }
+    }
+
+    div.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 30px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 8px 0 0px;
+
+        @include at-media('tablet') {
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        @include at-media('desktop') {
+          font-size: 24px;
+          line-height: 30px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
 // Sprint process page ----------------- //
 .page-sprint-process {
   h2 {
@@ -1428,69 +1512,6 @@ main {
       }
   }
 
-  .interior-hero {
-    padding-bottom: 60px;
-    // background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
-      background-size: contain;
-    @include at-media("desktop") {
-      // background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
-      background-size: cover;
-      padding: 117px 0 124px;
-    }
-  }
-
-  .usa-hero__bg {
-    width: 200px;
-    min-height: 114px;
-    background-color: #121923;
-    @include at-media('tablet') {
-      width: 343px;
-      // min-height: ;
-    }
-
-    @include at-media('desktop') {
-        width: 571px;
-      }
-
-    h1.usa-hero__title {
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      padding-top: 25px;
-
-      @include at-media('tablet') {
-        font-size: 20px;
-        line-height: 20px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-        padding-top: 30px;
-      }
-    }
-    div.usa-hero__subtitle {
-      font-size: 12px;
-      line-height: 17px;
-      margin-bottom: 0;
-      padding-bottom: 16px;
-      @include at-media('tablet') {
-          font-size: 14px;
-          line-height: 17px;
-        }
-        @include at-media('desktop') {
-          font-size: 32px;
-          line-height: 32px;
-          padding-bottom: 30px;
-        }
-         p {
-          margin: 8px 0 0px;
-          @include at-media('desktop') {
-              margin-top: 20px;
-            }
-         }
-    }
-  }
 
   .how-it-works-bg, .roles-intro-bg {
     background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
@@ -1527,6 +1548,7 @@ main {
           }
         }
   }
+
   .how-it-works-details {
     ol {
       list-style-position: inside;
@@ -1667,77 +1689,6 @@ main {
     }
   }
 
-  .interior-hero {
-    padding-bottom: 60px;
-    // background: url('../img/about-page/desktop-hero-background.png') no-repeat center;
-    background-size: cover;
-
-    @include at-media("desktop") {
-      // background: url('../img/about-page/desktop-hero-background.png') no-repeat 0 0;
-      background-size: cover;
-      padding: 117px 0 124px;
-    }
-  }
-
-  .usa-hero__bg {
-    width: 200px;
-    min-height: 114px;
-    background-color: #121923;
-
-    @include at-media('tablet') {
-      width: 343px;
-      // min-height: ;
-    }
-
-    @include at-media('desktop') {
-      width: 571px;
-    }
-
-    h1.usa-hero__title {
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      padding-top: 25px;
-
-      @include at-media('tablet') {
-        font-size: 20px;
-        line-height: 20px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-        padding-top: 30px;
-      }
-    }
-
-    div.usa-hero__subtitle {
-      font-size: 12px;
-      line-height: 17px;
-      margin-bottom: 0;
-      padding-bottom: 16px;
-
-      @include at-media('tablet') {
-        font-size: 14px;
-        line-height: 17px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-        padding-bottom: 30px;
-      }
-
-      p {
-        margin: 8px 0 0px;
-
-        @include at-media('desktop') {
-          margin-top: 20px;
-        }
-      }
-    }
-  }
-
   .about-bg,
   .history-bg {
     background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
@@ -1810,6 +1761,7 @@ main {
     // padding in mobile is 1rem
     grid-template-columns: minmax(30.08px, 1fr) minmax(0, auto) minmax(30.08px, 1fr);
     grid-template-rows: auto auto;
+
     &.vision {
       grid-template-areas:
         ". contained ."
@@ -1944,11 +1896,28 @@ main {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
     background-size: cover;
   }
+
  #m-a13 ul li {
   max-width: none;
  }
 }
 
+// Press page ----------------- //
+.page-press {
+  h1.usa-hero__title {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+}
 
 // TOOLKITS ----------------- //
 
@@ -3684,6 +3653,9 @@ code {
 
 .page-curated-datasets {
   @include u-bg('primary-vivid');
+  h1 {
+    font-family: family('serif');
+  }
 }
 
 .hero {
@@ -3846,13 +3818,8 @@ code {
     }
   }
   .past-events {
-    background: url("../img/photos/summit/mobile-pastevents-background.png") no-repeat 0 0;
-    background-size: cover;
-    @include at-media('tablet') {
-      background: url("../img/photos/summit/desktop-pastevents-background.png") no-repeat 0 0;
-      background-size: cover;
+    background: rgba(19, 25, 47, 1);
 
-    }
   }
 
   h1 {

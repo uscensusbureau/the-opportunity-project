@@ -1388,6 +1388,90 @@ main {
   }
 
 
+// Standardizing headers ----------------- //
+.page-about,
+.page-faqs,
+.page-prize,
+.page-showcase,
+.page-sprints,
+.page-sprint-process,
+.page-summit  {
+  .interior-hero {
+    padding-bottom: 60px;
+
+    @include at-media("desktop") {
+      padding: 117px 0 124px;
+    }
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+    @include at-media('tablet') {
+      width: 343px;
+      // min-height: ;
+    }
+
+    @include at-media('desktop') {
+        width: 571px;
+      }
+
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 30px;
+      }
+    }
+
+    div.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 30px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 8px 0 0px;
+
+        @include at-media('tablet') {
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        @include at-media('desktop') {
+          font-size: 24px;
+          line-height: 30px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
 // Sprint process page ----------------- //
 .page-sprint-process {
   h2 {
@@ -1428,69 +1512,6 @@ main {
       }
   }
 
-  .interior-hero {
-    padding-bottom: 60px;
-    background: url('../img/sprint-process-page/tablet-hero-background.png') repeat 0 0;
-      background-size: contain;
-    @include at-media("desktop") {
-      background: url('../img/sprint-process-page/desktop-hero-background.png') no-repeat 0 0;
-      background-size: cover;
-      padding: 117px 0 124px;
-    }
-  }
-
-  .usa-hero__bg {
-    width: 200px;
-    min-height: 114px;
-    background-color: #121923;
-    @include at-media('tablet') {
-      width: 343px;
-      // min-height: ;
-    }
-
-    @include at-media('desktop') {
-        width: 571px;
-      }
-
-    h1.usa-hero__title {
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      padding-top: 25px;
-
-      @include at-media('tablet') {
-        font-size: 20px;
-        line-height: 20px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-        padding-top: 30px;
-      }
-    }
-    div.usa-hero__subtitle {
-      font-size: 12px;
-      line-height: 17px;
-      margin-bottom: 0;
-      padding-bottom: 16px;
-      @include at-media('tablet') {
-          font-size: 14px;
-          line-height: 17px;
-        }
-        @include at-media('desktop') {
-          font-size: 32px;
-          line-height: 32px;
-          padding-bottom: 30px;
-        }
-         p {
-          margin: 8px 0 0px;
-          @include at-media('desktop') {
-              margin-top: 20px;
-            }
-         }
-    }
-  }
 
   .how-it-works-bg, .roles-intro-bg {
     background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
@@ -1527,6 +1548,7 @@ main {
           }
         }
   }
+
   .how-it-works-details {
     ol {
       list-style-position: inside;
@@ -1620,6 +1642,252 @@ main {
   }
 }
 
+// About page ----------------- //
+.page-about {
+  h2 {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+
+  h3 {
+    font-size: 12px;
+
+    @include at-media('tablet') {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    @include at-media('desktop') {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+
+  p,
+  .coil-intro-container a.text-white,
+  .header-text-hot-dog a.text-underline {
+    font-size: 12px;
+    line-height: 17px;
+
+    @include at-media('tablet') {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    @include at-media('desktop') {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  .about-bg,
+  .history-bg {
+    background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
+    background-size: contain;
+  }
+
+  div.header-text-hot-dog,
+  // .initiatives .initiatives-container,
+  #coil-intro .coil-intro-container
+    {
+    padding: 52.64px 30.08px;
+
+    @include at-media('tablet') {
+      padding: 52.64px 67.68px;
+    }
+
+    @include at-media('desktop') {
+      padding: 112px 127.5px;
+    }
+  }
+
+  .header-text-hot-dog {
+    h2.about,
+    h2.our-history {
+      @include at-media('desktop') {
+          @include u-padding-bottom(5);
+        }
+    }
+    a {
+    width: 200px;
+    color: rgba(0, 0, 0, .8);
+
+    @include at-media('tablet') {
+      width: 336px;
+    }
+    @include at-media('desktop') {
+      width: 575px;
+    }
+  }
+  }
+
+  #coil-intro {
+    background: url('../img/about-page/desktop-coil-team-background.png') no-repeat 0 0;
+    background-size: cover;
+
+    .coil-intro-container  {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      @include at-media('tablet') {
+        flex-direction: row;
+        align-items: center;
+      }
+    .content-container {
+      @include at-media('tablet') {
+      width: 262px;
+      margin-right: 18px;
+    }
+    @include at-media('desktop') {
+      width: 476px;
+      margin-right: 28px;
+      }
+    }
+    }
+  }
+
+  .full-width-screen-spilt {
+    display: grid;
+    // max width of grid-container is 64
+    // padding in mobile is 1rem
+    grid-template-columns: minmax(30.08px, 1fr) minmax(0, auto) minmax(30.08px, 1fr);
+    grid-template-rows: auto auto;
+
+    &.vision {
+      grid-template-areas:
+        ". contained ."
+        "semi semi semi";
+    }
+    &.initiatives{
+      grid-template-areas:
+        ". contained ."
+        "semi semi semi";
+      }
+    .contained-container {
+      // grid-column: 1 / 2;
+      grid-area: contained;
+      padding: 60px 25px 22px;
+      h2 {
+        margin: 0;
+      }
+      @include at-media('tablet') {
+        padding: 60px 0px 22px;
+      }
+    }
+    .semi-cta-block {
+      // grid-column: 2 / -1;
+      justify-self: end;
+      grid-area: semi;
+    }
+    .radius-right-pill,
+    .radius-left-pill {
+      width: calc(100% - 30.08px);
+      @include at-media('desktop') {
+        width: calc(100% - 127.5px);
+      }
+
+    }
+    @include at-media('tablet') {
+      grid-template-columns: 67.68px auto 67.68px;
+    }
+    @include at-media('desktop') {
+      grid-template-columns: 127.5px auto 127.5px;
+    }
+
+      .radius-left-pill {
+        @include at-media('tablet') {
+          width: calc(100% - 195px);
+        }
+      }
+      .radius-right-pill.semi-cta {
+      border: none;
+    }
+  }
+
+  .coil-intro-container .img-container {
+    width: 260px;
+    height: 178px;
+    @include at-media("desktop") {
+        width: 318px;
+        height: 235px;
+      }
+
+    img {
+      width: 163px;
+      @include at-media("tablet") {
+        width: 140px;
+      }
+      @include at-media("desktop") {
+        width: 222px;
+      }
+    }
+  }
+ .initiatives {
+    .contained-container {
+      padding-bottom: 0px;
+    }
+    div.initiatives-container .usa-media-block__background-image-portrait {
+
+      @include at-media ('tablet') {
+      padding-right: 30px !important;
+      padding-left: 0px !important;
+      }
+      &:nth-child(1) .card-header h3 a::after {
+        content: "↧";
+      }
+   &:nth-child(3) {
+        padding-right: 0px !important;
+      }
+    }
+  .small-header-card {
+    max-height: 258px;
+    width: 258px;
+    padding: 0;
+    box-shadow: -2px 2px 2px 1px #121923;
+
+    @include at-media("tablet") {
+        width: 140px;
+        height: 140px;
+      }
+    @include at-media("desktop") {
+        width: 240px;
+        height: 240px;
+      }
+
+    .card-header {
+      // background-color: transparent;
+      background-color: white;
+      width: 100%;
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+    h3 {
+      a {
+      display: inline-block;
+      width: min-content;
+      color: black;
+      font-size: 14px;
+
+      @include at-media("tablet") {
+        font-size: 12px;
+      }
+      @include at-media("desktop") {
+        font-size: 16px;
+      }
+      }
+    }
+  }
+ }
+}
 
 // FAQ page ----------------- //
 .page-faqs {
@@ -1628,11 +1896,28 @@ main {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
     background-size: cover;
   }
+
  #m-a13 ul li {
   max-width: none;
  }
 }
 
+// Press page ----------------- //
+.page-press {
+  h1.usa-hero__title {
+      font-size: 14px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+}
 
 // TOOLKITS ----------------- //
 
@@ -2361,6 +2646,9 @@ div.toolkit-todo__resources {
       line-height: 24px;
 
     }
+  }
+  .page-about & {
+    padding: 0;
   }
 }
 
@@ -3365,6 +3653,9 @@ code {
 
 .page-curated-datasets {
   @include u-bg('primary-vivid');
+  h1 {
+    font-family: family('serif');
+  }
 }
 
 .hero {
@@ -3477,14 +3768,58 @@ code {
     background: url("../img/photos/summit/desktop-hero-background.png") no-repeat 0 0;
     background-size: cover;
   }
-  .past-events {
-    background: url("../img/photos/summit/mobile-pastevents-background.png") no-repeat 0 0;
+  .impact {
+    background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
     background-size: cover;
-    @include at-media('tablet') {
-      background: url("../img/photos/summit/desktop-pastevents-background.png") no-repeat 0 0;
-      background-size: cover;
-
+    font-size: 14px;
+    font-weight: 600;
+    padding-top:48px;
+    padding-bottom:40px;
+    h2 {
+      line-height: 3.5px;
     }
+    .impact-numbers-container {
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      width: min-content;
+      text-align: center;
+      line-height: 18px;
+    }
+    @include at-media('tablet') {
+      background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
+      background-size: cover;
+      font-size: 20px;
+      padding-top:68px;
+      padding-bottom:136px;
+      h2 {
+        line-height: 7px;
+      }
+      .impact-numbers-container {
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      p {
+        line-height: 24px;
+      }
+    }
+
+    @include at-media('desktop') {
+      font-size: 32px;
+      padding-top: 120px;
+      padding-bottom: 216px;
+      h2 {
+        line-height: 11px;
+      }
+      p {
+        line-height: 36px;
+      }
+    }
+  }
+  .past-events {
+    background: rgba(19, 25, 47, 1);
+
   }
 
   h1 {
@@ -3518,16 +3853,16 @@ code {
   }
 
   h2 {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 21px;
 
     @include at-media("tablet") {
-      font-size: 32px;
+      font-size: 24px;
       line-height: 22px;
     }
 
     @include at-media("desktop") {
-      font-size: 48px;
+      font-size: 32px;
       line-height: 36px;
     }
   }

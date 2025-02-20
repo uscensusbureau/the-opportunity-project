@@ -5,27 +5,27 @@ layout: default
 name: summit
 class: summit
 
-background: banner-background padding-x-4 tablet:padding-x-6 desktop:padding-x-10
+background: padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
-  text: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
-  subtext:
+  text: Annual Innovation Event
+  subtext: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
   background-class: bg-blue-warm-60v
   title:
-    text: <b>The Opportunity Project 2024 Product Showcase</b> <br> Wednesday, December 11, 2024 <br>11:30 a.m. - 5 p.m. ET
+    text: Missed The Opportunity Project 2024 Product Showcase?
 
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   blurb:
     text: |-
-      Join The Opportunity Project as we celebrate the incredible work accomplished in this year’s technology development sprints that tackled topics such as Empowering Community-Led Wellbeing Measurement, Expanding Opportunities for Native Homeownership and Housing Stability, Strengthening the STEM Educator Workforce, and [more](https://opportunity.census.gov/sprints/2024-sprints)!
+       [Watch the recordings on YouTube](https://www.youtube.com/watch?v=W7HeCaRJbtA), featuring 29 new products created in the 2024 TOP sprints.
     class: text-normal cta-one padding-x-5 tablet:padding-x-9
   custom:
-    text: RSVP
-    href: https://www.youtube.com/watch?v=Jj6WyVAmvmQ&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme
+    text: Catch Up on YouTube
+    href: https://www.youtube.com/watch?v=W7HeCaRJbtA
     isExternal: true
-    class: usa-button--secondary margin-top-1 display-none
+    class: usa-button--secondary margin-top-1
 
 video-one:
   class: highlight-video-section tablet:width-full
@@ -193,6 +193,7 @@ video-9:
 ---
 {% include hero.html %}
 {% assign section = page.cta-one %}
+
 {% include home/cta.html  data=section %}
 <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
   <div class="grid-container">

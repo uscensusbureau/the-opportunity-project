@@ -1,12 +1,14 @@
 ---
-title: Decennial Data
-permalink: /data/decennial/
+title: 2020 Census Data
+permalink: /data/2020-census/
+redirect_from:
+  - /data/indigenous-communities/
 class: datakit
 
 sprint-name: 2020 Census Data
 date: 2021-09-01
 
-lead: Datasets to help visualize 2020 Census Decennial data in new and creative ways
+lead: Datasets to help visualize 2020 Census data in new and creative ways
 
 image: /assets/img/data-kits/decennial-data.jpg
 image-alt: 'Overhead view of a city block with rooftops and cars on the street'

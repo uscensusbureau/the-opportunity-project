@@ -15,9 +15,10 @@ annual_reports:
 
 
 banner:
-  text: "Save the Date: The Opportunity Project 2024 Product Showcase is December 11, 2024!"
-#   href: /proposal/
-#   isExternal: false
+  text: "Missed The Opportunity Project 2024 Product Showcase?"
+  href: https://www.youtube.com/watch?v=W7HeCaRJbtA
+  isExternal: true
+
 
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

@@ -1,0 +1,15 @@
+{% assign data = include.data %}
+<div class="grid-container">
+  <h2 class="text-center">Featured Speakers</h2>
+    <div
+      class="featured-speakers-container grid-row text-white flex-align-center flex-row margin-top-4 tablet:margin-top-5 desktop:margin-top-15">
+      {% for speaker in page.speakers %}
+      <div
+        class="featured-speaker-individual tablet:grid-col-6 desktop:grid-col-3 display-flex flex-column flex-justify-center flex-align-center margin-bottom-3 tablet:margin-x-0">
+        <img src="" alt="portrait of speaker">
+        <p class="featured-speaker-name margin-0 text-center">{{speaker.name}}</p>
+        <p class="featured-speaker-title margin-0 text-center">{{speaker.title}}</p>
+      </div>
+      {% endfor %}
+  </div>
+</div>

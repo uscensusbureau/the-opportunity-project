@@ -27,6 +27,57 @@ cta-one:
     isExternal: true
     class: usa-button--secondary margin-top-1
 
+speakers:
+  - name: Wilbur Ross
+    title: Former Secretary of Commerce
+    img:
+  - name: Karen Dunn Kelley
+    title: Former Deputy Secretary of Commerce
+    img:
+  - name: Steven Dillingham
+    title: Former Census Bureau Director
+    img:
+  - name: Dr. Neil Jacobs
+    title: Former Under Secretary of Commerce for Oceans and Atmosphere, NOAA
+    img:
+  - name: Scott Turner
+    title: Secretary of Housing and Urban Development (HUD), Former White House Advisor
+    img:
+  - name: Sara Brenner
+    title: Acting Commissioner, Food and Drug Administration (FDA), Former Associate Director of Medical Affairs and Chief Medical Officer for in-Vitro Diagnostics, FDA
+    img:
+  - name: Ben Carson
+    title: Former Secretary of HUD
+    img:
+  - name: Patrick Pizzella
+    title: Former Deputy Secretary of Labor
+    img:
+  - name: Chris Liddel
+    title: Former White House Deputy Chief of Staff
+    img:
+  - name: Suzette Kent
+    title: Former Federal Chief Information Officer
+    img:
+  - name: Ja’Ron Smith
+    title: Former Deputy Assistant to the President
+    img:
+  - name: Juliane Gallina
+    title: Deputy Director of Digital Innovation, CIA
+    img:
+  - name: Robert Santos
+    title: Former Census Bureau Director
+    img:
+  - name: Dr. Richard Spinrad
+    title: NOAA Administrator
+    img:
+  - name: Pedro Pierluisi
+    title: Puerto Rico Governor
+    img:
+  - name: Daymond John
+    title: CEO and Founder of FUBU and the Shark Group
+    img:
+
+
 video-one:
   class: highlight-video-section tablet:width-full
   video:
@@ -205,6 +256,11 @@ video-9:
       </div>
     </div>
 </section>
+
+<section class="featured-speakers text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+  {% include featured-speakers.html data=section %}
+</section>
+
 <section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
 
 <!-- <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15"> main version? keeping to see which is prefered-->

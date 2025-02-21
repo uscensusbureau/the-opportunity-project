@@ -204,43 +204,6 @@ video-seven:
     p: "Featured 10 new tools that took on problems such as youth and veteran homelessness, engaging hard-to-count populations in the decennial census, and making federal grant data user-friendly."
 
 
-video-8:
-  class: tablet:margin-x-105 desktop:margin-x-205
-  video:
-    src: https://www.youtube.com/embed/uqIiMj2S_Vk?si=zjm-En0_68jsmAo3
-    alt-text: "2016 TOP Demo Day at the White House (October 2016)"
-    mobile-width: 233
-    mobile-height: 125
-    tablet-width: 247
-    tablet-height: 133
-    desktop-width: 392
-    desktop-height: 211
-  copy-class: bg-white
-  blurb:
-    title: "2016 TOP Demo Day at the White House (October 2016)"
-    class: text-center
-    p: "Featured digital tools that promoted emotional wellbeing, connected people with job opportunities, improved transit accessibility, and helped families find affordable housing."
-
-
-
-video-9:
-  class: tablet:margin-x-105 desktop:margin-x-205
-  video:
-    src: https://www.youtube.com/embed/6un7g9HhbrU?si=sNeLdDEd6fmZQY3b
-    alt-text: "2016 White House Launch of The Opportunity Project (March 2016)"
-    mobile-width: 233
-    mobile-height: 125
-    tablet-width: 247
-    tablet-height: 133
-    desktop-width: 392
-    desktop-height: 211
-  copy-class: bg-white
-  blurb:
-    title: "2016 White House Launch of The Opportunity Project (March 2016)"
-    class: text-center
-    p: "Featuring tools from the first-ever TOP sprint, and officially launching The Opportunity Project as an ongoing innovation program."
-
-
 ---
 {% include hero.html %}
 {% assign section = page.cta-one %}
@@ -283,10 +246,6 @@ video-9:
       {% assign section = page.video-six %}
       {% include  summit-video.html data=section %}
       {% assign section = page.video-seven %}
-      {% include  summit-video.html data=section %}
-      {% assign section = page.video-8 %}
-      {% include  summit-video.html data=section %}
-      {% assign section = page.video-9 %}
       {% include  summit-video.html data=section %}
     </div>
   </div>

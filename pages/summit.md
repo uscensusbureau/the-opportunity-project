@@ -30,52 +30,52 @@ cta-one:
 speakers:
   - name: Wilbur Ross
     title: Former Secretary of Commerce
-    img:
+    img: img/featured-speakers-headshots/wilbur_ross.png
   - name: Karen Dunn Kelley
     title: Former Deputy Secretary of Commerce
-    img:
+    img: img/featured-speakers-headshots/karen_dunn_kelly.png
   - name: Steven Dillingham
     title: Former Census Bureau Director
-    img:
+    img: img/featured-speakers-headshots/steven_dillingham.png
   - name: Dr. Neil Jacobs
     title: Former Under Secretary of Commerce for Oceans and Atmosphere, NOAA
-    img:
+    img: img/featured-speakers-headshots/dr_neil_jacobs.png
   - name: Scott Turner
     title: Secretary of Housing and Urban Development (HUD), Former White House Advisor
-    img:
+    img: img/featured-speakers-headshots/scott_turner.png
   - name: Sara Brenner
     title: Acting Commissioner, Food and Drug Administration (FDA), Former Associate Director of Medical Affairs and Chief Medical Officer for in-Vitro Diagnostics, FDA
-    img:
+    img: img/featured-speakers-headshots/sara_brenner.png
   - name: Ben Carson
     title: Former Secretary of HUD
-    img:
+    img: img/featured-speakers-headshots/ben_carson.png
   - name: Patrick Pizzella
     title: Former Deputy Secretary of Labor
-    img:
+    img: img/featured-speakers-headshots/patrick_pizzella.png
   - name: Chris Liddel
     title: Former White House Deputy Chief of Staff
-    img:
+    img: img/featured-speakers-headshots/chris_liddell.png
   - name: Suzette Kent
     title: Former Federal Chief Information Officer
-    img:
+    img: img/featured-speakers-headshots/suzette_kent.png
   - name: Ja’Ron Smith
     title: Former Deputy Assistant to the President
-    img:
+    img: img/featured-speakers-headshots/ja_ron_smith.png
   - name: Juliane Gallina
     title: Deputy Director of Digital Innovation, CIA
-    img:
+    img: img/featured-speakers-headshots/juliane_gallina.png
   - name: Robert Santos
     title: Former Census Bureau Director
-    img:
+    img: img/featured-speakers-headshots/robert_santos.png
   - name: Dr. Richard Spinrad
     title: NOAA Administrator
-    img:
+    img: img/featured-speakers-headshots/dr_richard_spinrad.png
   - name: Pedro Pierluisi
     title: Puerto Rico Governor
-    img:
+    img: img/featured-speakers-headshots/pedro_pierluisi.png
   - name: Daymond John
     title: CEO and Founder of FUBU and the Shark Group
-    img:
+    img: img/featured-speakers-headshots/daymond_john.png
 
 
 video-one:

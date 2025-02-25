@@ -220,7 +220,7 @@ video-seven:
     </div>
 </section>
 
-<section class="featured-speakers text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+<section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
   {% include featured-speakers.html data=section %}
 </section>
 

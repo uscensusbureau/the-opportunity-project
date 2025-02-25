@@ -42,9 +42,6 @@
   products_text: Housing Calculator, FindHome, Neighborhood Opportunity, Opportunity
     Enabler, Affordable Housing Finder
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Name: problem_statement
-  airtable_createdTime: '2021-11-24T19:53:22.000Z'
-  airtable_id: rec14gtZJAGZLSEF6
 - Challenge: "Supporting children\u2019s resilience \u2013 their ability to bounce\
     \ back in the face of adversity \u2013 is critical to their wellbeing, including\
     \ by helping avoid long-term negative mental health outcomes. Create tools and\
@@ -100,7 +97,7 @@
   products_text: 'Child Vulnerability Index Dashboard, Mental Health Toolkit: Student
     Guide, Mental Health Toolkit: Teacher Guide, Bambini Health, SunnyR, Community
     & Connections'
-  sprint_order: 4
+  sprint_order: 1
   sprint_text: 2022 Sprints
 - Full Title: Data Discovery
   Name: Data Discovery
@@ -205,6 +202,7 @@
   image-alt: White tents in a refugee camp
   organizations:
   - recBICvyotaxZI3dO
+  pdf: earth-unhcr.pdf
   products_text: RefugeeAssist, Resettled Refugee Services and Data Explorer, FindHello
   sprint_order: 6
   sprint_text: Earth
@@ -280,13 +278,11 @@
   - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
   organizations:
   - recgvccBwBlf8xOnI
+  pdf: earth-economic.pdf
   products_text: The EnVision App, America's Community Collaboration Platform, iDISPLA
     360-Degree Data Fusion Virtual Ecosystem Platform, Julius Career Journey Program
   sprint_order: 2
   sprint_text: Earth
-- Name: http://crafteducation.com/
-  airtable_createdTime: '2024-12-09T15:17:14.000Z'
-  airtable_id: rec2w0aNKdyqGaOPJ
 - Challenge: "Use existing well-being frameworks, along with input from people with\
     \ lived experience and federal data, to create national-level indicator(s) of\
     \ well-being that better capture individuals' and families\u2019 overall sense\
@@ -395,7 +391,7 @@
   - recYydqelVaGWIopP
   pdf: 2022-DOC-DOL-Treasury-2.pdf
   products_text: Livable Cities Tool, Wellbeing Insights & Tradeoffs Tool
-  sprint_order: 3
+  sprint_order: 6
   sprint_text: 2022 Sprints
 - Full Title: ' Creating Digital Tools that Bring Diagnostic Data to Consumers,'
   Name: COVID-19 Testing
@@ -578,56 +574,6 @@
   products_text: Job Crowdsourcing Tool, Training Finder, Opportunity.hackernest.com,
     CareerSpark, Opportunity Score, PolicyMap Tool
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Background: 'The Office of the Surgeon General is focused on promoting health and
-    wellbeing nationwide and empowering individuals with information on health. '
-  Challenge: Parents and community leaders could benefit from evidence-based tools
-    that provide information regarding Emotional Well-Being and cultivate individual
-    and community-level EWB.
-  Full Title: Promoting Health and Wellbeing Nationwide
-  Name: Promoting Health and Wellbeing Nationwide
-  Products:
-  - recsnq4JcjmNWR9Iu
-  - recGwP2awdbTa8NQB
-  Sprints:
-  - receo1r4Tva3sDpPI
-  Target audience / End user: Parents, local officials, health advocates, policymakers
-  Vision for sprint outcomes: "Parents looking to move to a specific neighborhood\
-    \ want to know how a neighborhood rates in terms of EWB. Local city officials\
-    \ and community leaders looking to understanding the challenges to EWB (e.g.,\
-    \ lack of sleep, burdensome amount of stress, trauma, Adverse Childhood Experiences,\
-    \ etc.) and which tools can best be leveraged to best address those challenges\
-    \ (e.g. meditation, mental health services, counseling, social connection programs,\
-    \ drug therapies, etc.). Advocates and state/federal leaders looking identifying\
-    \ populations that have a high likelihood for violence, suicide, trauma and other\
-    \ adverse behaviors related to a lack of EWB. This information can help direct\
-    \ resources, including funding, to the places where it\u2019s most needed. Policymakers\
-    \ are looking to overlay data about other health challenges (e.g., lack of physical\
-    \ activity, poor nutrition, high rates of substance abuse, etc.) to identify possible\
-    \ correlations with EWB. This will help them develop comprehensive public health\
-    \ policies that address the totality of a community\u2019s needs, rather than\
-    \ working in silos."
-  Why this problem matters: "Emotional Well-Being is defined as one\u2019s ability\
-    \ to overcome adversity and/or reach one\u2019s fullest potential, has been shown\
-    \ to increase cognitive function, immunity and longevity and has been associated\
-    \ with higher graduation rates, productivity, and life satisfaction. Investigators\
-    \ have found that we can potentially monitor EWB and related health behaviors/outcomes\
-    \ by examining patterns in sleep, social interactions, activity, keywords in search\
-    \ engines, and social media messages. Parents and community leaders could benefit\
-    \ from evidence-based tools that provide information regarding EWBs and cultivate\
-    \ individual and community-level EWB."
-  agency_text: U.S. Department of Health and Human Services, Office of the U.S. Surgeon
-    General
-  airtable_createdTime: '2020-02-10T17:49:16.000Z'
-  airtable_id: rec5AcJUvAG75vaRw
-  category: Workforce
-  image: photos/sprints/2016-sg.png
-  image-alt: A bicycle in a park in front of people
-  organizations:
-  - reco8SlTqN3UExT1C
-  - recRMHZMuHUJyvmc6
-  pdf: 2016-sg.pdf
-  products_text: Fitbit, Streetwyze
-  sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Background: "Grant managers\u2014including those that administer funds from inside\
     \ the Federal Government and those from external organizations that receive Federal\
     \ funds\u2014report spending 40% of their time using antiquated processes to monitor\
@@ -781,6 +727,7 @@
   image-alt: Blue sky with white clouds
   organizations:
   - rec2t8CsWwMoLu9Kd
+  pdf: earth-air-quality.pdf
   products_text: Clean Air Hero, AirMotionDC, Pollution Policy Watch, Air Aware
   sprint_order: 8
   sprint_text: Earth
@@ -1095,9 +1042,6 @@
   products_text: MTSS Toolkit, Leamos App
   sprint_order: 7
   sprint_text: 2023 Sprints
-- Name: 'climate resilience '
-  airtable_createdTime: '2023-01-26T19:03:49.000Z'
-  airtable_id: recBgAIFQKUKIBsRl
 - Challenge: 'Create data-driven tools to help state, local, tribal, and territorial
     emergency managers, elected officials, and members of the public visualize both
     the risks of climate change to their communities and the impacts of implementing
@@ -1160,7 +1104,7 @@
     Hub, "GeoNode GeoStories for Building Code Adoption Analysis: Spatial Correlations
     Between BCAT, Flood Risk, and Equity", Climate Change Resiliency Dashboard, Heat
     Wave Education Website'
-  sprint_order: 1
+  sprint_order: 8
   sprint_text: 2022 Sprints
 - Challenge: Develop digital products or physical/digital works of art that use 2020
     Census data to build data literacy skills.
@@ -1287,7 +1231,7 @@
     of how American institutions work.
   Executive champion: Jim Richardson, Director, Office of Foreign Assistance at Department
     of State
-  Full Title: Reimaging Civics Education for a New Generation
+  Full Title: Reimagining Civics Education for a New Generation
   Name: Civics Education
   Products:
   - reciZquTgzfcKjKUo
@@ -1553,6 +1497,7 @@
   image-alt: Sign reading come on in we're open
   organizations:
   - recpdcvxmOK2rHQax
+  pdf: workforce-entrepreneurship.pdf
   products_text: Practical Business Skills
   sprint_order: 4
   sprint_text: Workforce
@@ -1644,9 +1589,6 @@
   pdf: 2017-grants.pdf
   products_text: Social Impact Reporting Platform
   sprint_text: 2017 Sprint 2 (Census OMB/Treasury)
-- Name: Building Stronger Pathways to Grants and Funding for Indigenous Communities
-  airtable_createdTime: '2024-12-09T15:19:03.000Z'
-  airtable_id: recIQCg8jZYCsoyeR
 - Full Title: Using AI to Help Patients Find Clinical Trials
   Name: Using AI to Help Patients Find Clinical Trials
   Products:
@@ -1729,11 +1671,8 @@
   pdf: 2022-DOT.pdf
   products_text: Payver, TREC, Measuring Climate Risk and Resilience for Public Transit
     Tool
-  sprint_order: 6
+  sprint_order: 9
   sprint_text: 2022 Sprints
-- Name: Improving Data Literacy Using Decennial Census Data
-  airtable_createdTime: '2021-09-20T20:07:34.000Z'
-  airtable_id: recKvhmXs1aKqh09H
 - Background: The American dream is fading. Almost all children born in 1940 earned
     more than their parents, but the same was true for only half of children born
     in the 1980s. The decline in mobility is related to growing regional inequality.
@@ -1833,6 +1772,7 @@
   organizations:
   - recgvccBwBlf8xOnI
   - recUFEUUdHA5wbseQ
+  pdf: workforce-investment.pdf
   products_text: City Builder, Rural Startup Scout, Inclusive Growth Score, Community
     Led Opportunity Zones, Inclusive Development Dashboards
   sprint_order: 1
@@ -1925,6 +1865,7 @@
   image-alt: birdseye view of a farm
   organizations:
   - rec2t8CsWwMoLu9Kd
+  pdf: earth-rural-development.pdf
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
   sprint_order: 7
   sprint_text: Earth
@@ -1962,7 +1903,6 @@
   - recnyrDlORAP9XtOH
   organizations:
   - recyYK7Ezm00JSEPC
-  pdf: assisting-businesses-2020.pdf
   products_text: Census Taker
   sprint_text: 2020 Census
 - Challenge: "Improving Indigenous communities\u2019 access to capital, investment,\
@@ -2186,13 +2126,14 @@
   organizations:
   - rec1q8Ge6R3babxH4
   - recBwUZZUdcij01pP
+  pdf: geo-geospatial-disasters.pdf
   products_text: Sille, Puerto Rico Land Grid, Disaster Awareness Games
   sprint_order: 2
   sprint_text: Geo-Cohort
 - Challenge: 'Develop digital products or physical/digital works of art that creatively
-    and inclusively engage hard-to-count communities in 2020 Census data.  '
-  Full Title: Inclusive and Creative 2020 Census Data Engagement
-  Name: Inclusive Data Engagement
+    engage hard-to-count communities in 2020 Census data.  '
+  Full Title: Creative 2020 Census Data Engagement
+  Name: Data Engagement
   Products:
   - recbabIPNL3Tefcv1
   - recESw8E7quORnaw4
@@ -2213,9 +2154,9 @@
     needs, illustrating ways in which decision makers use the data, and helping communities
     see themselves represented in the numbers are critical steps to ensuring the public
     is engaged with census data and understands its importance as we look to ensuring
-    accurate future counts in 2030 and beyond, and increased public trust in government.  Examples
-    of alternative and creative methods of sharing data might include works of art
-    based on the data, leveraging new media platforms, and participatory approaches. '
+    accurate future counts in 2030 and beyond, and increased public trust in government.
+    Examples of alternative and creative methods of sharing data might include works
+    of art based on the data, leveraging new media platforms, and participatory approaches. '
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2021-07-20T20:42:30.000Z'
   airtable_id: recQ1jP2sTVCF36ZA
@@ -2802,7 +2743,6 @@
   - rechHdImOUiwo3JTj
   organizations:
   - recyYK7Ezm00JSEPC
-  pdf: improving-data-2020.pdf
   products_text: '#WhyWeCount'
   sprint_text: 2020 Census
 - Challenge: 'Create open data sets and engaging digital tools that complement existing
@@ -2867,6 +2807,7 @@
   organizations:
   - recILlrUVEVclLpFK
   - recj9c68qg1yG2gjp
+  pdf: earth-plastic-oceans.pdf
   products_text: Ocean Plastics Story Map, Georgetown University Campus Plastic Initiative,
     PPIO, The Ghost Gear Project, Sea Scavenger
   sprint_order: 4
@@ -2959,7 +2900,7 @@
   pdf: 2022-Census-HUD.pdf
   pdf-esp: 2022-Census-HUD-esp.pdf
   products_text: PR Addressing StoryMap, MiCasa.pr
-  sprint_order: 9
+  sprint_order: 2
   sprint_text: 2022 Sprints
 - Challenge: Create digital tools that provide farmers, ranchers, and researchers
     with timely access to National Agriculture Imagery Program (NAIP) data to help
@@ -2996,6 +2937,7 @@
   image-alt: Large open field on a farm
   organizations:
   - recgu9rojBM877pZu
+  pdf: earth-agriculture.pdf
   products_text: 'NAIP Explorer, NAIP Downloader and Education Modules, PAGAF: Precision
     Ag for all American Farmers'
   sprint_order: 3
@@ -3064,7 +3006,7 @@
   - recwLfLNFOEjyOIee
   pdf: 2022-ED.pdf
   pdf-esp: 2022-ED-esp.pdf
-  sprint_order: 2
+  sprint_order: 4
   sprint_text: 2022 Sprints
 - Background: Opioid misuse, addiction, and overdose have reached crisis levels in
     the United States. From 1999 to 2016, the number of overdose deaths involving
@@ -3141,13 +3083,10 @@
   - recMC48PtRDamsuV0
   organizations:
   - recpdcvxmOK2rHQax
+  pdf: geo-opioid-crisis
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
-- Full Title: Building Climate Change Resilience Through Public Transit
-  Name: Building Climate Change Resilience Through Public Transit
-  airtable_createdTime: '2023-02-19T18:03:46.000Z'
-  airtable_id: reckem5oNAePZ1nOe
 - Background: 'The Department of Education is focused on ensuring that parents, students,
     and policymakers are able to use its publicly available data to take meaningful
     action to improve outcomes. '
@@ -3191,61 +3130,8 @@
   organizations:
   - rec0lQgfT3fzwcTJ2
   - recgvccBwBlf8xOnI
-  pdf: 2016-doe.pdf
+  pdf: 2016-ed.pdf
   products_text: School ResourceMapper, LiveStories, Visualizing Youth Disconnection
-  sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Background: 'The Department of Transportation is focused on increasing safety and
-    mobility across the country so that people can be connected to key resources like
-    jobs, healthcare and education. '
-  Challenge: Community advocates often have a difficult time synthesizing/disseminating
-    complete information about issues their neighborhoods are facing. Without good
-    data, these advocates have a hard time effectively engaging with their local governments
-    to drive meaningful change in their community.
-  Full Title: Increasing Safety and Mobility Across the Nation
-  Name: Increasing Safety and Mobility Across the Nation
-  Products:
-  - recT3N6qI7KiyAnMB
-  - rec8qvWUz6m4BaaLC
-  - rec72VWvzKvRI3Gvq
-  - recmyZENvMwP8Sdg2
-  Sprints:
-  - receo1r4Tva3sDpPI
-  Target audience / End user: Local community leaders
-  Vision for sprint outcomes: "Anthony lives in an area of town that is cut off from\
-    \ opportunity. Transportation options are limited. It\u2019s difficult to access\
-    \ jobs, training, and even healthcare. His community is diverse \u2013 it\u2019\
-    s a mix of English-speaking, established residents as well as New Americans who\
-    \ are less proficient English and with engaging their government. Anthony and\
-    \ his neighbors would benefit from tools that make it easier to talk about how\
-    \ their community is disconnected from opportunity, so they can help their local\
-    \ officials understand the \u201Cwhole picture\u201D about opportunity in his\
-    \ community. As a leader in his community, he\u2019s involved with a number of\
-    \ volunteer groups that are helping their neighbors get around and make their\
-    \ community safer. He\u2019s heard about transportation projects that are being\
-    \ proposed by his government, but he and his neighbors don\u2019t have data to\
-    \ bring to the table when they\u2019re meeting with their government officials.\
-    \ For him, it\u2019s not just about access to jobs, training, and healthcare.\
-    \ There are safety issues in his community \u2013 his neighbors feel like the\
-    \ streets are too dangerous for getting around, and crime is prevalent. Plus,\
-    \ his neighbors are concerned about their environment. There\u2019s a lot of industrial\
-    \ traffic that cuts through his community, not to mention potentially dangerous\
-    \ infrastructure like pipelines \u2013 neighbors are concerned about their safety.\
-    \ Anthony knows that these safety issues are barriers to accessing opportunity,\
-    \ too. "
-  Why this problem matters: Community advocates often have a difficult time synthesizing/disseminating
-    complete information about issues their neighborhoods are facing. Without good
-    data, these advocates have a hard time effectively engaging with their local governments
-    to drive meaningful change in their community.
-  agency_text: U.S. Department of Transportation
-  airtable_createdTime: '2020-02-10T17:27:25.000Z'
-  airtable_id: reclVsRIccDmcRnr0
-  category: Workforce
-  image: photos/sprints/2016-dot.png
-  image-alt: A city bus pulled up to the sidewalk in the snow
-  organizations:
-  - recftWiv4GQoFeVH5
-  pdf: 2016-dot.pdf
-  products_text: mySidewalk, Create, Commuter Map, Transit Analyst
   sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Background: "Worldwide and across the United States, cities and towns are grappling\
     \ with aging infrastructure, fluctuating populations, and a changing climate.\
@@ -3330,6 +3216,7 @@
   - recNRIvV2Pd1zrDbv
   organizations:
   - recAvbjIg1vPHNGys
+  pdf: geo-civic-stewardship.pdf
   products_text: STEWMAP Explorer, Bloomberg DEVOP
   sprint_order: 4
   sprint_text: Geo-Cohort
@@ -3376,7 +3263,7 @@
   agency_text: U.S. Census Bureau
   airtable_createdTime: '2020-02-10T18:25:38.000Z'
   airtable_id: recpeZGe75cpDFBOI
-  category: Workforce
+  category: 2020 Census
   image: photos/sprints/2017-census.png
   image-alt: Clipboard holding a Census survey
   organizations:
@@ -3534,7 +3421,6 @@
   - recQ8IZ3xgiuhfau4
   organizations:
   - recyYK7Ezm00JSEPC
-  pdf: inclusive-and-creative-2020.pdf
   products_text: Voatz, California Latino Power Map
   sprint_text: 2020 Census
 - Challenge: Develop innovative digital solutions that connect domestic recycling
@@ -3609,6 +3495,7 @@
   image-alt: Workers collecting recycling
   organizations:
   - rec2t8CsWwMoLu9Kd
+  pdf: earth-recycled-materials.pdf
   products_text: Chicago Circular Economy, TruCycle MRF, ECO Bloc
   sprint_order: 5
   sprint_text: Earth
@@ -3824,7 +3711,7 @@
   pdf: 2022-OSTP_DOC.pdf
   products_text: Federal Grant Finder, Intergrants, Get Out the Lead, GrantVEST, Bridge,
     Grant Guide, Grant Success Toolkit
-  sprint_order: 5
+  sprint_order: 7
   sprint_text: 2022 Sprints
 - Challenge: Create digital tools and resources to track federal financial assistance
     award spending starting from Federal awards and flowing down to state and/or local
@@ -3875,6 +3762,7 @@
   image-alt: Flooded street with cars and a building in the background
   organizations:
   - recyI3MGIU3h1aX6k
+  pdf: earth-disaster-funding.pdf
   products_text: Urban Intelligence Platform, Emergency & Disaster Funding Tracking,
     Public Finance Institute-Disaster Spending Tracker
   sprint_order: 1
@@ -3976,7 +3864,7 @@
   pdf: 2022-HHS-USDA-DDEC.pdf
   pdf-esp: 2022-HHS-USDA-DDEC-esp.pdf
   products_text: Acceso Laboral, VetAssist, JobInn
-  sprint_order: 8
+  sprint_order: 3
   sprint_text: 2022 Sprints
 - Challenge: "Help American island communities such as Puerto Rico transition to a\
     \ resilient grid powered 100% by renewable energy, by creating digital tools that\
@@ -4022,7 +3910,7 @@
   pdf: 2022-NREL-2.pdf
   pdf-esp: 2022-NREL-esp.pdf
   products_text: "Thunderbird Software, PWR \u2013 The Power Project, Windyfi"
-  sprint_order: 7
+  sprint_order: 5
   sprint_text: 2022 Sprints
 - Background: Many state and local governments do not have a database of addresses
     with geospatial coordinates (also known as address point data), which is critical
@@ -4095,6 +3983,7 @@
   organizations:
   - recyYK7Ezm00JSEPC
   - recftWiv4GQoFeVH5
+  pdf: geo-address-collection.pdf
   products_text: The TomTom Centaur Data Logging App, Fulcrum Community for Addressing
     and Disaster Preparedness, PRADOS
   sprint_order: 1
@@ -4188,6 +4077,7 @@
   image-alt: Two women working together at a laptop
   organizations:
   - reccYzERR0FczeFf7
+  pdf: workforce-modernizing-talent.pdf
   products_text: Job Opportunity Tool, Talent Finder Tool
   sprint_order: 2
   sprint_text: Workforce
@@ -4279,96 +4169,10 @@
   image-alt: Woman in graduation cap and gown
   organizations:
   - rec0lQgfT3fzwcTJ2
+  pdf: workforce-career-growth.pdf
   products_text: Kanarys, Solve
   sprint_order: 3
   sprint_text: Workforce
-- Background: 'The Department of Education is focused on ensuring that parents, students,
-    and policymakers are able to use its publicly available data to take meaningful
-    action to improve outcomes. '
-  Challenge: Develop tools that leverage data to help stakeholders understand where
-    educational inequities exist.
-  Full Title: Identifying Equity Scores and Gaps
-  Name: Identifying Equity Scores and Gaps
-  Products:
-  - recIMno1EXetvAohv
-  - recGwP2awdbTa8NQB
-  - recqUxhiu3ARLA2qy
-  - recITfITIgt19f6Zv
-  Sprints:
-  - receo1r4Tva3sDpPI
-  Target audience / End user: Decision-makers (e.g. superintendents, principals, school
-    board members, state departments of education), municipal leaders (e.g. mayors,
-    city council members), and parents
-  Vision for sprint outcomes: A local superintendent sees that students in a certain
-    part of his district do not have the same access to rigorous coursework as those
-    in another part and adjusts course offerings by making different decisions around
-    human capital and budgeting. A principal sees that her school has far fewer actual
-    resources than a school with a similar demographic of students and uses the data
-    to make their case to the school board and superintendent for additional resources.
-    A parent sees gaps between groups (e.g. English learners and non-English learners)
-    of students citywide in access to experienced teachers, investigates and discovers
-    that is because there is not enough support given to teachers of ELs so they turnover
-    more frequently, and works with the school district and school board to address
-    those gaps.
-  Why this problem matters: 'Within and across school districts and communities there
-    are significant disparities in outcomes (e.g. achievement, graduation rate) between
-    different student groups, in whole or in part due to inequitable access to resources
-    (e.g. per-pupil expenditures, rigorous coursework, effective teachers). Decision-makers
-    (e.g. superintendents, principals, school board members, state departments of
-    education), municipal leaders (e.g. mayors, city council members), and parents
-    to would benefit from information that could help them understand these inequities
-    and/or identify where gaps between groups of students may exist. '
-  agency_text: U.S. Department of Education
-  airtable_createdTime: '2020-02-10T17:43:23.000Z'
-  airtable_id: recvrDs3VhrdS3IDG
-  category: Workforce
-  image: photos/sprints/2016-doe2.png
-  image-alt: A woman pointing something out on a laptop screen to a man
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-  pdf: 2016-doe.pdf
-  products_text: Opportunity Dashboard, Streetwyze, National Equity Atlas, OpenData
-    Network
-  sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Background: USDA Rural Development helps improve the quality of life for families
-    in rural communities through technical assistance and a range of grant and loan
-    programs, including for housing, essential community facilities, infrastructure,
-    and small business development.
-  Challenge: Many small towns lack the capacity/human capital to take advantage of
-    programs (e.g. grants and low cost loans for broadband, health facilities, water
-    systems, businesses, housing) for which they are eligible.
-  Full Title: Small Town Resource Guide
-  Name: Small Town Resource Guide
-  Products:
-  - rectVQJENyVs9jF7K
-  Sprints:
-  - receo1r4Tva3sDpPI
-  Target audience / End user: Local officials, community leaders
-  Vision for sprint outcomes: "A volunteer firefighter in St Mary\u2019s county, MD\
-    \ has been selling donuts all year to raise funds for a new fire truck. He uses\
-    \ a tool to look up his town and types of emergency services. He then sees that\
-    \ his town has FAR fewer emergency vehicles than its neighbors, realizes that\
-    \ his town had not taken advantage of RD\u2019s grant and loan programs for emergency\
-    \ equipment and vehicles, and is better able to allocate local resources."
-  Why this problem matters: "Many small towns lack the capacity/human capital to take\
-    \ advantage of programs (e.g. grants and low cost loans for broadband, health\
-    \ facilities, water systems, businesses, housing) for which they are eligible.\
-    \ Often times the \u201Cgrant writer\u201D for a rural community is its part-time\
-    \ mayor, who fills out applications on her dining room table after work. Recognizing\
-    \ stretched local capacity, community leaders and residents would benefit from\
-    \ information regarding available programs and funds."
-  agency_text: U.S. Department of Agriculture
-  airtable_createdTime: '2020-02-10T18:17:19.000Z'
-  airtable_id: recwzfA7vUDiS48Mj
-  category: Workforce
-  image: photos/sprints/2016-ag1.png
-  image-alt: A patchwork of small buildings and fields below mountains and a cloudy
-    sky
-  organizations:
-  - recgu9rojBM877pZu
-  pdf: 2016-ag.pdf
-  products_text: Findyour.town
-  sprint_text: Agency Cohort (2016 Sprint 2/3)
 - Background: The Federal government has extensive data that currently exists in silos.
     Agencies maintain data about their programs, open data sources maintain various
     elements of meta data, and government-wide systems like Performance.gov and USASpending.gov
@@ -4424,6 +4228,3 @@
   - recFzsEdj336OX3nl
   pdf: 2018-accountability.pdf
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Name: Improving Access to Electrical Power for Climate Resilience
-  airtable_createdTime: '2024-01-09T14:31:50.000Z'
-  airtable_id: recySgiISh6tG4rZY

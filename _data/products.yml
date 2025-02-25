@@ -710,8 +710,6 @@
     Statistics, bus & rail transit routes to show commuter flows and gaps in access
     to transit.
   Product Name: Commuter Map
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:02:02.000Z'
   airtable_id: rec72VWvzKvRI3Gvq
   category:
@@ -727,8 +725,6 @@
   image: commuter-map.jpg
   image-alt: Map of Washington metro area commuter data
   link: http://split.us/opportunity-project
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -1025,8 +1021,6 @@
     visualizations of hazardous traffic corridors for citizens and community decision
     makers.
   Product Name: Create
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:45.000Z'
   airtable_id: rec8qvWUz6m4BaaLC
   category:
@@ -1042,8 +1036,6 @@
   image-alt: Map with side panel containing information about road conditions and
     traffic accidents
   link: https://www.facebook.com/createrealestate/
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -2001,9 +1993,6 @@
   - 2023
 - Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
   Product Name: Streetwyze
-  agencies:
-  - U.S. Department of Health and Human Services, Office of the U.S. Surgeon General
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:16:49.000Z'
   airtable_id: recGwP2awdbTa8NQB
   category:
@@ -2020,9 +2009,6 @@
   image-alt: Demo of map with interaction that allows users to ground truth and submit
     information about what a location is
   link: http://www.streetwyze.com/
-  problem_statement:
-  - rec5AcJUvAG75vaRw
-  - recvrDs3VhrdS3IDG
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -2241,8 +2227,6 @@
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
   Product Name: Opportunity Dashboard
-  agencies:
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:00:16.000Z'
   airtable_id: recIMno1EXetvAohv
   category:
@@ -2255,8 +2239,6 @@
   details: Measures gaps in access to educational opportunities across student groups
     to help advocates increased equity
   link: no-link
-  problem_statement:
-  - recvrDs3VhrdS3IDG
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -2299,7 +2281,6 @@
   Product Name: OpenData Network
   agencies:
   - null
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:20.000Z'
   airtable_id: recITfITIgt19f6Zv
   category:
@@ -2314,7 +2295,6 @@
   link: https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
   problem_statement:
   - rec1DnmQSbVGfvwGG
-  - recvrDs3VhrdS3IDG
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -3658,8 +3638,6 @@
     that address accessibility of opportunity and emotional well-being for citizens
     across the county.
   Product Name: mySidewalk
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:34.000Z'
   airtable_id: recT3N6qI7KiyAnMB
   category:
@@ -3676,8 +3654,6 @@
   image-alt: Map of Kansas city with side panel displaying statistics on income, health
     insurance, and income to poverty ratio.
   link: https://theopportunityproject.mysidewalk.com/
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -5703,8 +5679,6 @@
   title: STEWMAP Explorer
   year:
   - 2018
-- airtable_createdTime: '2024-12-09T15:24:19.000Z'
-  airtable_id: reclUOyiZ1RzqXUyM
 - Product Name: TREC
   agencies:
   - U.S. Department of Transportation
@@ -5837,15 +5811,9 @@
   title: Grant Success Toolkit
   year:
   - 2022
-- airtable_createdTime: '2024-12-09T15:24:27.000Z'
-  airtable_id: recmF1M1jjOqaEPyp
-- airtable_createdTime: '2024-12-09T15:24:23.000Z'
-  airtable_id: recmVsBYyLl9cwf9M
 - Description (Old): An interactive tool from Azavea for exploring transit accessibility
     to target resources from focus areas.
   Product Name: Transit Analyst
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:16:03.000Z'
   airtable_id: recmyZENvMwP8Sdg2
   category:
@@ -5869,8 +5837,6 @@
   image-alt: Map of Gloucester City and Camden, New Jersey displaying the accessibility
     and distance of Head Start locations
   link: https://transitanalyst.com/
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -6520,8 +6486,6 @@
 - Description (Old): A PolicyLink tool to allow comparison of disaggregated demographic
     indicators.
   Product Name: National Equity Atlas
-  agencies:
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:05.000Z'
   airtable_id: recqUxhiu3ARLA2qy
   category:
@@ -6543,8 +6507,6 @@
   image: national-equity-atlas.jpg
   image-alt: Bar chart of Air Polution equity index in Los Angeles
   link: https://www.nationalequityatlas.org/
-  problem_statement:
-  - recvrDs3VhrdS3IDG
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -6701,8 +6663,6 @@
     issues in each state, combining CDC health data with aggregated and anonymous
     Fitbit activity data from over 10 million users.
   Product Name: Fitbit
-  agencies:
-  - U.S. Department of Health and Human Services, Office of the U.S. Surgeon General
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: recsnq4JcjmNWR9Iu
   category:
@@ -6721,8 +6681,6 @@
   image-alt: Scatter plot of average steps vs. diabetes rate that shows an inverse
     correlation
   link: https://www.fitbit.com/us/activity-index
-  problem_statement:
-  - rec5AcJUvAG75vaRw
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -6767,8 +6725,6 @@
     DOT, and HUD to simplify funding eligibility with virtual story telling of our
     rural American communities.
   Product Name: Findyour.town
-  agencies:
-  - U.S. Department of Agriculture
   airtable_createdTime: '2020-02-10T16:02:12.000Z'
   airtable_id: rectVQJENyVs9jF7K
   category:
@@ -6786,8 +6742,6 @@
   image: findyourtown.jpg
   image-alt: Photo collage with text titled 'Find your American Story.'
   link: https://findyour.town
-  problem_statement:
-  - recwzfA7vUDiS48Mj
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -7003,8 +6957,6 @@
   title: GoodNeighUBors
   year:
   - 2023
-- airtable_createdTime: '2024-12-04T15:52:50.000Z'
-  airtable_id: recv0O2fO9yv3s773
 - Product Name: Air Aware
   agencies:
   - U.S. Environmental Protection Agency

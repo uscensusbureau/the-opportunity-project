@@ -382,8 +382,6 @@
   Year: 2024
   airtable_createdTime: '2024-04-19T15:52:31.000Z'
   airtable_id: recHvWpLtcuFRNCH0
-  description: TOP's 2024 sprints include challenges from new and ongoing partners,
-    as well as the first set of TOP sprints dedicated to Indigenous communities.
   image-alt: A collaged image from the Census Bureau microfiche record archives.
   img: landing/2024-top-problem-statement-graphic.jpg
   lang: en
@@ -463,19 +461,11 @@
   - recfNwVyLKJdA1ayu
   - recNbq7W9DPgG2a80
   - recLMpSjnojlhbSRN
-  description: "Since the onset of the COVID-19 pandemic, our economy and social systems\
-    \ have been tested in ways we\u2019ve never seen before. Businesses were forced\
-    \ to respond rapidly to a digital economy, social support systems faced greater\
-    \ needs than ever, and even the way we go about daily work and life activities\
-    \ changed dramatically. At the same time, the ways in which human activities affect\
-    \ the planet may shift as we prepare for life after the COVID-19 pandemic. \n\n\
-    Following our 2020 Earth sprints focused on the natural and built environment,\
-    \ TOP\u2019s 2021 sprints focused on a world post-COVID including society, economy,\
-    \ and environment.  Technologists, community and advocacy organizations, and government\
-    \ leaders developed digital products to tackle seven challenges related to preventing\
-    \ economic and climate crisis for the most vulnerable communities, shaping the\
-    \ future of business, and redefining infrastructure, inclusion, and accessibility\
-    \ in the world post-COVID."
+  description: "TOP\u2019s 2021 sprints focused on a world post-COVID including society,\
+    \ economy, and environment. Technologists, community and advocacy organizations,\
+    \ and government leaders developed digital products to tackle seven challenges\
+    \ related to preventing economic and climate crisis for the most vulnerable communities,\
+    \ shaping the future of business, and redefining infrastructure."
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   lang: en
@@ -779,23 +769,20 @@
   - recoIQcx6OisWSpu6
   - rec1Cjf1WRwwlqrjn
   - recAMcEe5OwoiCCrs
-  description: "Natural environment: As stewards of our planet, we must work to limit\
-    \ our negative impacts on earth. Unfortunately, the public is often unaware of\
-    \ how their own decisions and actions affect the planet. In this sprint, tech\
-    \ teams including SAP, Esri, Code for America, OpenAQ, and others developed digital\
-    \ products to address a variety of natural environment challenges. These included\
-    \ tools to help the public understand the air quality and health effects of transportation\
-    \ emissions, as well as products to reduce ocean plastic pollution, strengthen\
-    \ recycling markets, and help farmers make decisions using aerial imagery data.\n\
-    \nBuilt environment: Our human-made environments require support and sustainment\
-    \ to ensure their longevity and inclusivity. Tech teams including Emsi, Center\
+  description: "Built environment: In this sprint, tech teams including Emsi, Center\
     \ on Rural Innovation, Julius Education, and others developed digital products\
     \ aimed at improving the country\u2019s built environment. These included tools\
     \ to connect low income families with resources to equip and empower them toward\
     \ self-sufficiency; assistance for rural communities in implementing and evaluating\
     \ solutions to economic, environmental, and human health challenges; products\
     \ to connect recently resettled refugees with resources and services; and tools\
-    \ that track federal disaster response spending."
+    \ that track federal disaster response spending.\n\nNatural environment: In this\
+    \ sprint, tech teams including SAP, Esri, Code for America, OpenAQ, and others\
+    \ developed digital products to address a variety of natural environment challenges.\
+    \ These included tools to help the public understand the air quality and health\
+    \ effects of transportation emissions, as well as products to reduce ocean plastic\
+    \ pollution, strengthen recycling markets, and help farmers make decisions using\
+    \ aerial imagery data."
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   lang: en
@@ -948,14 +935,10 @@
   airtable_id: receo1r4Tva3sDpPI
   lang: en
   problem_statements:
-  - reclVsRIccDmcRnr0
   - reclE5lof4ZQyx7Hi
-  - recvrDs3VhrdS3IDG
   - rec0hb8kwXPfY26YY
-  - rec5AcJUvAG75vaRw
   - recA8i9B5Zx0bEqZn
   - rec5AFdZpa2jr56AN
-  - recwzfA7vUDiS48Mj
   - recqYLwNKlEqrUGOk
   - rec7qkDzgElJw71qp
   - rec1DnmQSbVGfvwGG
@@ -1039,8 +1022,6 @@
   - recF35AftftDEJr9J
   - recrAJdOGmvMfrihb
   - recHyJkc8wqmpXqb3
-  description: Some of the 2023 TOP sprints focus on the theme of financial and economic
-    inclusion.
   image-alt: An illustrative photo collage of two hands shaking and a city skyline.
   img: landing/2023-summer-background.jpg
   lang: en
@@ -1158,13 +1139,10 @@
   - rec5HuCO7oaqkqQHa
   - recwvOMewBtX9eaVK
   - rec3gRvEFrkuMr4Hk
-  description: "2022 sprints focused on measuring wellbeing across the nation, expanding\
-    \ access to grant funding for low-resourced communities, promoting climate resilience,\
-    \ and connecting transit infrastructure to climate resilience. 2022 also introduced\
-    \ TOP\u2019s first geographically-targeted sprints \u2013 TOP Puerto Rico \u2013\
-    \ focusing on renewable energy, local address challenges, promoting youth resilience,\
-    \ parental engagement opportunities in Puerto Rico schools, and workforce development\
-    \ in Puerto Rico."
+  description: "2022 introduced TOP\u2019s first geographically-targeted sprints \u2013\
+    \ TOP Puerto Rico \u2013 focusing on renewable energy, local address challenges,\
+    \ promoting youth resilience, parental engagement opportunities in Puerto Rico\
+    \ schools, and workforce development in Puerto Rico."
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en

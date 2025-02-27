@@ -3826,6 +3826,21 @@ code {
 
   .featured-speakers {
     background: rgba(250, 243, 233, 1);
+    .featured-speaker-individual {
+      height: 275px;
+      @include at-media("tablet") {
+        height: 315px;
+      }
+      img {
+        width: 161px;
+        @include at-media("tablet") {
+          width: 110px;
+        }
+        @include at-media("desktop") {
+          width:161px;
+        }
+      }
+    }
   }
 
   .past-events {

@@ -44,7 +44,7 @@ speakers:
     title: Secretary of Housing and Urban Development (HUD), Former White House Advisor
     img: img/featured-speakers-headshots/scott_turner.png
   - name: Sara Brenner
-    title: Acting Commissioner, Food and Drug Administration (FDA), Former Associate Director of Medical Affairs and Chief Medical Officer for in-Vitro Diagnostics, FDA
+    title: Acting Commissioner, Food and Drug Administration (FDA)
     img: img/featured-speakers-headshots/sara_brenner.png
   - name: Ben Carson
     title: Former Secretary of HUD

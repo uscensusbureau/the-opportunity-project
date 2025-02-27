@@ -223,7 +223,6 @@ video-seven:
 <section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
   {% include featured-speakers.html data=section %}
 </section>
-
 <section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
 
 <!-- <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15"> main version? keeping to see which is prefered-->

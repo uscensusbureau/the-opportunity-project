@@ -27,6 +27,57 @@ cta-one:
     isExternal: true
     class: usa-button--secondary margin-top-1
 
+speakers:
+  - name: Wilbur Ross
+    title: Former Secretary of Commerce
+    img: img/featured-speakers-headshots/wilbur_ross.png
+  - name: Karen Dunn Kelley
+    title: Former Deputy Secretary of Commerce
+    img: img/featured-speakers-headshots/karen_dunn_kelly.png
+  - name: Steven Dillingham
+    title: Former Census Bureau Director
+    img: img/featured-speakers-headshots/steven_dillingham.png
+  - name: Dr. Neil Jacobs
+    title: Former Under Secretary of Commerce for Oceans and Atmosphere, NOAA
+    img: img/featured-speakers-headshots/dr_neil_jacobs.png
+  - name: Scott Turner
+    title: Secretary of Housing and Urban Development (HUD), Former White House Advisor
+    img: img/featured-speakers-headshots/scott_turner.png
+  - name: Sara Brenner
+    title: Acting Commissioner, Food and Drug Administration (FDA), Former Associate Director of Medical Affairs and Chief Medical Officer for in-Vitro Diagnostics, FDA
+    img: img/featured-speakers-headshots/sara_brenner.png
+  - name: Ben Carson
+    title: Former Secretary of HUD
+    img: img/featured-speakers-headshots/ben_carson.png
+  - name: Patrick Pizzella
+    title: Former Deputy Secretary of Labor
+    img: img/featured-speakers-headshots/patrick_pizzella.png
+  - name: Chris Liddel
+    title: Former White House Deputy Chief of Staff
+    img: img/featured-speakers-headshots/chris_liddell.png
+  - name: Suzette Kent
+    title: Former Federal Chief Information Officer
+    img: img/featured-speakers-headshots/suzette_kent.png
+  - name: Ja’Ron Smith
+    title: Former Deputy Assistant to the President
+    img: img/featured-speakers-headshots/ja_ron_smith.png
+  - name: Juliane Gallina
+    title: Deputy Director of Digital Innovation, CIA
+    img: img/featured-speakers-headshots/juliane_gallina.png
+  - name: Robert Santos
+    title: Former Census Bureau Director
+    img: img/featured-speakers-headshots/robert_santos.png
+  - name: Dr. Richard Spinrad
+    title: NOAA Administrator
+    img: img/featured-speakers-headshots/dr_richard_spinrad.png
+  - name: Pedro Pierluisi
+    title: Puerto Rico Governor
+    img: img/featured-speakers-headshots/pedro_pierluisi.png
+  - name: Daymond John
+    title: CEO and Founder of FUBU and the Shark Group
+    img: img/featured-speakers-headshots/daymond_john.png
+
+
 video-one:
   class: highlight-video-section tablet:width-full
   video:
@@ -153,43 +204,6 @@ video-seven:
     p: "Featured 10 new tools that took on problems such as youth and veteran homelessness, engaging hard-to-count populations in the decennial census, and making federal grant data user-friendly."
 
 
-video-8:
-  class: tablet:margin-x-105 desktop:margin-x-205
-  video:
-    src: https://www.youtube.com/embed/uqIiMj2S_Vk?si=zjm-En0_68jsmAo3
-    alt-text: "2016 TOP Demo Day at the White House (October 2016)"
-    mobile-width: 233
-    mobile-height: 125
-    tablet-width: 247
-    tablet-height: 133
-    desktop-width: 392
-    desktop-height: 211
-  copy-class: bg-white
-  blurb:
-    title: "2016 TOP Demo Day at the White House (October 2016)"
-    class: text-center
-    p: "Featured digital tools that promoted emotional wellbeing, connected people with job opportunities, improved transit accessibility, and helped families find affordable housing."
-
-
-
-video-9:
-  class: tablet:margin-x-105 desktop:margin-x-205
-  video:
-    src: https://www.youtube.com/embed/6un7g9HhbrU?si=sNeLdDEd6fmZQY3b
-    alt-text: "2016 White House Launch of The Opportunity Project (March 2016)"
-    mobile-width: 233
-    mobile-height: 125
-    tablet-width: 247
-    tablet-height: 133
-    desktop-width: 392
-    desktop-height: 211
-  copy-class: bg-white
-  blurb:
-    title: "2016 White House Launch of The Opportunity Project (March 2016)"
-    class: text-center
-    p: "Featuring tools from the first-ever TOP sprint, and officially launching The Opportunity Project as an ongoing innovation program."
-
-
 ---
 {% include hero.html %}
 {% assign section = page.cta-one %}
@@ -204,6 +218,10 @@ video-9:
         <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>107 Total Sessions</p></div>
       </div>
     </div>
+</section>
+
+<section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+  {% include featured-speakers.html data=section %}
 </section>
 <section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
 
@@ -227,10 +245,6 @@ video-9:
       {% assign section = page.video-six %}
       {% include  summit-video.html data=section %}
       {% assign section = page.video-seven %}
-      {% include  summit-video.html data=section %}
-      {% assign section = page.video-8 %}
-      {% include  summit-video.html data=section %}
-      {% assign section = page.video-9 %}
       {% include  summit-video.html data=section %}
     </div>
   </div>

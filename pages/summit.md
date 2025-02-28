@@ -33,7 +33,7 @@ speakers:
     img: img/featured-speakers-headshots/wilbur_ross.png
   - name: Karen Dunn Kelley
     title: Former Deputy Secretary of Commerce
-    img: img/featured-speakers-headshots/karen_dunn_kelly.png
+    img: img/featured-speakers-headshots/karen_dunn_kelley.png
   - name: Steven Dillingham
     title: Former Census Bureau Director
     img: img/featured-speakers-headshots/steven_dillingham.png

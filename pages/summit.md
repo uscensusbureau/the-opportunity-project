@@ -8,7 +8,7 @@ class: summit
 background: padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
   text: Annual Innovation Event
-  subtext: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design
+  subtext: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
@@ -68,10 +68,10 @@ speakers:
     title: Former Census Bureau Director
     img: img/featured-speakers-headshots/robert_santos.png
   - name: Dr. Richard Spinrad
-    title: NOAA Administrator
+    title: Former NOAA Administrator
     img: img/featured-speakers-headshots/dr_richard_spinrad.png
   - name: Pedro Pierluisi
-    title: Puerto Rico Governor
+    title: Former Governor of Puerto Rico
     img: img/featured-speakers-headshots/pedro_pierluisi.png
   - name: Daymond John
     title: CEO and Founder of FUBU and the Shark Group
@@ -220,7 +220,7 @@ video-seven:
     </div>
 </section>
 
-<section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+<section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-10 padding-bottom-5 tablet:padding-bottom-15">
   {% include featured-speakers.html data=section %}
 </section>
 <section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">

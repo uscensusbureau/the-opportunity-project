@@ -8,7 +8,7 @@ class: summit
 background: padding-x-4 tablet:padding-x-6 desktop:padding-x-10
 hero:
   text: Annual Innovation Event
-  subtext: Our annual event showcases the latest in open innovation, cross-sector collaboration, civic technology, open data, and human-centered design.
+  subtext: Our annual event showcases the latest in open innovation, cross-sector collaboration, technology, open data, and human-centered design.
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
@@ -203,16 +203,14 @@ video-seven:
 
 ---
 {% include hero.html %}
-{% assign section = page.cta-one %}
 
-{% include home/cta.html  data=section %}
 <section class="impact text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
     <div class="grid-container">
-    <h2 class="text-center">10 Events and</h2>
+    <h2 class="text-center">10 Events</h2>
       <div class="impact-numbers-container grid-row text-white flex-align-center margin-top-4 tablet:margin-top-5 desktop:margin-top-15">
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>33,352 Total Viewers</p></div>
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>481 Total Speakers</p></div>
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>107 Total Sessions</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>33,352 Viewers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>481 Speakers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>107 Sessions</p></div>
       </div>
     </div>
 </section>

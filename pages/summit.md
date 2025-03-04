@@ -52,7 +52,7 @@ speakers:
   - name: Patrick Pizzella
     title: Former Deputy Secretary of Labor
     img: img/featured-speakers-headshots/patrick_pizzella.png
-  - name: Chris Liddel
+  - name: Chris Liddell
     title: Former White House Deputy Chief of Staff
     img: img/featured-speakers-headshots/chris_liddell.png
   - name: Suzette Kent
@@ -73,9 +73,6 @@ speakers:
   - name: Pedro Pierluisi
     title: Former Governor of Puerto Rico
     img: img/featured-speakers-headshots/pedro_pierluisi.png
-  - name: Daymond John
-    title: CEO and Founder of FUBU and the Shark Group
-    img: img/featured-speakers-headshots/daymond_john.png
 
 
 video-one:

@@ -25,8 +25,12 @@ challenges:
         - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
       products:
         - title: City Builder
+          link: https://www.citi.com/ventures/city-builder.html
+          team: Citi Ventures
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
         - title: Mastercard's product
+          link: https://inclusivegrowthscore.com/
+          team:  Mastercard
           text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
       image:
         src: photos/home/widget/neighborhood.jpg
@@ -37,11 +41,14 @@ challenges:
       problem-statement-name: Disaster Preparedness
       products:
         - title: Puerto Rico Land Grid
+          link: https://landgrid.com/us/pr#b=admin
+          team:  Regrid
           text: assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
         - title: Disaster Awareness Games
-          team-text: University of California Santa Barbara
+          team: University of California Santa Barbara
           text: gamifying emergency preparation for young adults
         - title: Sille
+          team: Datel Ovela
           text: increasing stakeholders' awareness of likely catastrophic structural failure in their areas
       impact: 
         - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments

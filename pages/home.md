@@ -26,14 +26,12 @@ challenges:
       products:
         - title: City Builder
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
-        - title: Inclusive Growth Score
+        - title: Mastercard's product
           text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
-        - title: Inclusive Development Dashboards
-          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
       image:
         src: photos/home/widget/neighborhood.jpg
         alt: A neighborhood grid of buildings and streets as seen from above.
-    - 
+    -
       agency: 'FEMA'
       title: 'FEMA Used Geospatial Data to Help People Prepare for Disasters'
       problem-statement-name: Disaster Preparedness

@@ -472,9 +472,7 @@
   order-number: 6
   problem_statements:
   - recRVUitwXLxxoCqE
-  - recA3nfuASaLwUOw8
   - recEceI5ivt5UyQAk
-  - recsnW2qXubKd3fOQ
   - recr11uYYwwMuFJuM
   - recW2d2ujlZc9mkHm
   - recdndoAoqvRxqkVy
@@ -594,31 +592,19 @@
   - recfNwVyLKJdA1ayu
   - recNbq7W9DPgG2a80
   - recLMpSjnojlhbSRN
-  description: "Durante el \xFAltimo a\xF1o, nuestros sistemas econ\xF3mico y social\
-    \ fueron puestos a prueba de maneras que nunca antes hab\xEDamos visto. Las empresas\
-    \ se vieron forzadas a responder r\xE1pidamente a una econom\xEDa digital, los\
-    \ sistemas de apoyo social enfrentaron necesidades mayores que las del pasado,\
-    \ y hasta el modo en que realizamos nuestro trabajo diario y nuestras actividades\
-    \ habituales cambi\xF3 dr\xE1sticamente. Al mismo tiempo, las formas en las que\
-    \ las actividades humanas afectan el planeta pueden cambiar a medida que salgamos\
-    \ de la pandemia de COVID-19.\n\nDespu\xE9s de nuestros _sprints_ del 2020 sobre\
-    \ la Tierra, que estaban enfocados en el medio ambiente natural y el artificial,\
-    \ los _sprints_ de TOP del 2021 se enfocan en el mundo pos-COVID: la sociedad,\
-    \ la econom\xEDa y el medio ambiente. Los tecn\xF3logos, las organizaciones comunitarias\
-    \ y de defensa y los l\xEDderes gubernamentales desarrollar\xE1n productos digitales\
-    \ para enfrentar 7 desaf\xEDos relacionados con la prevenci\xF3n de crisis econ\xF3\
-    micas y clim\xE1ticas en las comunidades m\xE1s vulnerables. Esto le dar\xE1 forma\
-    \ al futuro de los negocios y redefinir\xE1 la infraestructura, la inclusi\xF3\
-    n y la accesibilidad en el mundo pos-COVID."
+  description: "Los _sprints_ de TOP del 2021 se enfocan en el mundo pos-COVID: la\
+    \ sociedad, la econom\xEDa y el medio ambiente. Los tecn\xF3logos, las organizaciones\
+    \ comunitarias y de defensa y los l\xEDderes gubernamentales desarrollar\xE1n\
+    \ productos digitales para enfrentar 7 desaf\xEDos relacionados con la prevenci\xF3\
+    n de crisis econ\xF3micas y clim\xE1ticas en las comunidades m\xE1s vulnerables.\
+    \ Esto le dar\xE1 forma al futuro de los negocios y redefinir\xE1 la infraestructura."
   image-alt: La Tierra vista desde el espacio con un cielo lleno de estrellas
   img: landing/Post-COVID.jpg
   lang: esp
   order-number: 5
   problem_statements:
   - recRVUitwXLxxoCqE
-  - recA3nfuASaLwUOw8
   - recEceI5ivt5UyQAk
-  - recsnW2qXubKd3fOQ
   - recr11uYYwwMuFJuM
   - recW2d2ujlZc9mkHm
   - recdndoAoqvRxqkVy
@@ -632,9 +618,9 @@
   description: "This year\u2019s sprints offer opportunities to help new audiences\
     \ access and use data, provide the public with more timely and accurate data through\
     \ government-tech collaboration, and support critical challenges in Puerto Rico.\n\
-    \nThis year\u2019s fall 2022 sprints focus on transit infrastructure and climate\
-    \ change, parental engagement opportunities for Puerto Rico schools, and workforce\
-    \ development in Puerto Rico."
+    \nThis year\u2019s fall 2022 sprints focus on transit infrastructure, parental\
+    \ engagement opportunities for Puerto Rico schools, and workforce development\
+    \ in Puerto Rico."
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
@@ -793,9 +779,7 @@
   - recfYBaZBy9N5kMwc
   - rechwML2LymxPtToN
   - recrXc5EDuHumanXl
-  - rec27vLYrWORAJyQn
   - recMKt89rUwO7l5VP
-  - rec5Tsj3ELra0kwiF
   short-tag: earth
 - Name: 2020 Census Data
   Products:
@@ -934,14 +918,6 @@
   airtable_createdTime: '2020-02-21T18:27:18.000Z'
   airtable_id: receo1r4Tva3sDpPI
   lang: en
-  problem_statements:
-  - reclE5lof4ZQyx7Hi
-  - rec0hb8kwXPfY26YY
-  - recA8i9B5Zx0bEqZn
-  - rec5AFdZpa2jr56AN
-  - recqYLwNKlEqrUGOk
-  - rec7qkDzgElJw71qp
-  - rec1DnmQSbVGfvwGG
   short-tag: 2016-2
 - Name: 2023 Sprints
   Products:
@@ -1139,16 +1115,11 @@
   - rec5HuCO7oaqkqQHa
   - recwvOMewBtX9eaVK
   - rec3gRvEFrkuMr4Hk
-  description: "2022 introduced TOP\u2019s first geographically-targeted sprints \u2013\
-    \ TOP Puerto Rico \u2013 focusing on renewable energy, local address challenges,\
-    \ promoting youth resilience, parental engagement opportunities in Puerto Rico\
-    \ schools, and workforce development in Puerto Rico."
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
   order-number: 3
   problem_statements:
-  - recBl2peaCWfRFzhh
   - rectZGkFVKiSTsl3N
   - rec3N8sP8Z6iwJUp2
   - rec1BypusXdWt38bg
@@ -1156,7 +1127,6 @@
   - rechjwuKCcM57GRZX
   - recuDiAGCUVQ4BReV
   - reciuHRtdZb7Qiknr
-  - recKtDMHZmcduSywO
   short-tag: 2022-sprints
 - Name: TOP Health
   Products:

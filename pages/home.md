@@ -30,7 +30,6 @@ challenges:
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
         - title: Mastercard's product
           link: https://inclusivegrowthscore.com/
-          team:  Mastercard
           text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
       image:
         src: photos/home/widget/neighborhood.jpg

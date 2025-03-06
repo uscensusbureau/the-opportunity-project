@@ -21,7 +21,9 @@
                       {% else %}
                         {{ productTeam.title }},
                      {% endif %}
-                    {{ productTeam.team }}:
+                    {% if productTeam.team %}
+                     {{ productTeam.team }}:
+                     {% endif %}
                     {{ productTeam.text }}
                   </p>
                 {% endfor %}

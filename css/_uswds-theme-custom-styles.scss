@@ -3781,6 +3781,12 @@ code {
     .impact-numbers-container {
       display: flex;
       flex-direction: column;
+      div {
+        width: 6.5em;
+        height: 6.5em;
+        border-radius: 50%;
+        background: color("base-darkest");
+      }
     }
     p {
       width: min-content;
@@ -3817,6 +3823,26 @@ code {
       }
     }
   }
+
+  .featured-speakers {
+    background: rgba(250, 243, 233, 1);
+    .featured-speaker-individual {
+      height: 288px;
+      @include at-media("tablet") {
+        height: 336px;
+      }
+      img {
+        width: 161px;
+        @include at-media("tablet") {
+          width: 110px;
+        }
+        @include at-media("desktop") {
+          width:161px;
+        }
+      }
+    }
+  }
+
   .past-events {
     background: rgba(19, 25, 47, 1);
 

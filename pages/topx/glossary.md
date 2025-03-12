@@ -53,7 +53,7 @@ resources:
         definition: An initial design of a website or app at the structural level. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content is added.
   - category: TOP
     description: |-
-      These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
+      The TOP team has adopted these terms from the civic tech and product development community for use in the TOP sprint framework. Below are some key terms that are referenced in the toolkit:
     color: red-warm-50v
     terms:
       - link: 

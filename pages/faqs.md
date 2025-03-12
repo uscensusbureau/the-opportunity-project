@@ -3,8 +3,8 @@ title: FAQs
 permalink: /faqs/
 layout: default
 name: faqs
+class: faqs
 
-background: banner-background
 hero:
   text: FAQs
   subtext: Answers to the questions we hear most frequently.
@@ -50,7 +50,7 @@ resources:
       - link: https://www.youtube.com/watch?v=0CHRd6YSXKA
         num: 1
         term: Do agencies need funding to partner with TOP?
-        definition: Funding is not required to partner with TOP or to run a TOP sprint. You are welcome to use the TOPx Toolkit to run your own TOP sprint at any time and doing so does not necessarily require a budget. What you should plan to do is spend some staff time on all the aspects of managing your TOP sprint – including sending weekly emails, recruiting participants, and other tasks through the three phases of the TOP process. If you feel that you'll need more assistance from our team at Census Open Innovation Labs, please reach out to us to explore an interagency agreement.
+        definition: Funding is not required to partner with TOP or to run a TOP sprint. You are welcome to use the [TOPx Toolkit](https://opportunity.census.gov/topx-toolkit/) to run your own TOP sprint at any time and doing so does not necessarily require a budget. What you should plan to do is spend some staff time on all the aspects of managing your TOP sprint – including sending weekly emails, recruiting participants, and other tasks through the three phases of the TOP process. If you feel that you'll need more assistance from our team at Census Open Innovation Labs, please [reach out to us](mailto:census.opportunityproject@census.gov) to explore an interagency agreement.
       - link: https://www.youtube.com/watch?v=3rpYFjSfB0Q
         num: 2
         term: Do you only work with open data?
@@ -62,7 +62,7 @@ resources:
       - link: https://www.youtube.com/watch?v=H1co4JaMMXo
         num: 4
         term: Who builds the products?
-        definition: The products in a TOP sprint are built by technologists outside of government. Past participants include some of the largest global companies, as well as startups, small businesses, and students. Visit our product gallery to learn more about past teams and the products they built.
+        definition: The products in a TOP sprint are built by technologists outside of government. Past participants include some of the largest global companies, as well as startups, small businesses, and students. Visit our [product gallery](https://opportunity.census.gov/showcase/) to learn more about past teams and the products they built.
       - link: https://www.youtube.com/watch?v=TLqMAv1Td1I
         num: 5
         term: What happens to the products after the sprint?
@@ -84,11 +84,11 @@ resources:
       - link:
         num: 7
         term: Who runs The Opportunity Project?
-        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau.
+        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau. Learn more about [COIL](http://coil.census.gov).
       - link:
         num: 8
         term: How long has TOP been around?
-        definition: TOP has been operating since its launch in 2016. Since then, TOP’s thousands of participants have created 200+ digital products.
+        definition: TOP has been operating since its [launch in 2016](https://obamawhitehouse.archives.gov/photos-and-video/video/2016/10/06/opportunity-project-white-house-demos). Since then, TOP’s thousands of participants have created 200+ digital [products](https://opportunity.census.gov/showcase/).
       - num: 9
         link:
         term: What is a ‘TOP sprint’?
@@ -100,26 +100,25 @@ resources:
       - num: 11
         link:
         term: What if I want to run a TOP sprint on my own timeline at my agency?
-        definition: If our summer and fall sprint timelines do not suit your needs, the TOP team has developed the TOPx Toolkit for federal agencies, a step-by-step guide on how to facilitate a TOP sprint at your agency. The TOPx Toolkit enables federal agencies to run a TOP sprint on a flexible and modifiable timeline. It provides users with the necessary information and tools to execute a TOP sprint.
+        definition: If our summer and fall sprint timelines do not suit your needs, the TOP team has developed the [TOPx Toolkit for federal agencies](https://opportunity.census.gov/topx-toolkit/), a step-by-step guide on how to facilitate a TOP sprint at your agency. The TOPx Toolkit enables federal agencies to run a TOP sprint on a flexible and modifiable timeline. It provides users with the necessary information and tools to execute a TOP sprint.
       - num: 12
         link:
         term: Who can participate in a TOP sprint and how do you select participants?
         definition: |-
           Participation in The Opportunity Project takes many forms and is open to the general public. Participants are selected based on skill sets, expertise, and alignment with specific problem statements that have been selected in a given year.<br><br>
 
-          If you’re from a government agency, tech company, university, community organization, NGO, or other entity and would like to participate in a future TOP sprint, please contact us.
+          If you’re from a government agency, tech company, university, community organization, NGO, or other entity and would like to participate in a future TOP sprint, please [contact us](mailto: census.opportunityproject@census.gov).
 
       - num: 13
         link:
         term: If I join a TOP sprint as a participant, what am I signing up for?
         definition: |-
-          What each participant does in each sprint varies depending on their role:<br><br>
-
+          What each participant does in each sprint varies depending on their role:
           - Tech teams build products with federal open data that help solve national challenges.<br>
           - User advocates provide feedback and ensure the products meet real user needs.<br>
           - Data stewards provide feedback and help teams find and use relevant federal open datasets.<br>
           - Product advisors help tech teams develop products with a viable long term strategy.<br><br>
-          Sign up to receive updates about upcoming sprints	and opportunities to engage with us.
+          [Learn more about each role](https://opportunity.census.gov/our-process/#how-it-works) and [sign up to receive updates](https://public.govdelivery.com/accounts/USCENSUS/signup/16610) about upcoming sprints	and opportunities to engage with us.
 
       - num: 17
         link:

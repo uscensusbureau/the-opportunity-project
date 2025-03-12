@@ -4,7 +4,7 @@ description: The Opportunity Project helps teams use federal open data to build 
 
 contacts:
   mailing-list: https://public.govdelivery.com/accounts/USCENSUS/signup/16610
-  census-form: https://www.census.gov/forms/contact-top.html
+  census-form: mailto:census.opportunityproject@census.gov
   email: census.opportunityproject@census.gov
   coil-email: census.openinnovationlabs@census.gov
   prize-challenge: https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/
@@ -15,9 +15,11 @@ annual_reports:
 
 
 banner:
-  text: "Due to a lapse in federal funding, this website is not being updated."
-  href: https://www.commerce.gov/news/blog
+
+  text: "Missed The Opportunity Project 2024 Product Showcase?"
+  href: https://www.youtube.com/watch?v=W7HeCaRJbtA
   isExternal: true
+
 
 
 top-bill: https://www.congress.gov/bill/116th-congress/house-bill/3528/text

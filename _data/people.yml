@@ -21,6 +21,7 @@
   datasets copy:
   - recr5Vn8iowFkfP2A
   - recyRYWG99a1eh09f
+  - recbW3DgJBYh9TZwF
   email: eric.a.coyle@census.gov
   name: Eric Coyle
   organizations:
@@ -398,7 +399,6 @@
   - recvpP5sK7AvXRm9p
   - recN5z2CHMgZYdRNU
   - rec17A1VOfS59U3XQ
-  - rechqFaIfx7thqIVQ
   - recf7OceKPsBNTmxY
   email: 'anne.bowser@wilsoncenter.org '
   name: Anne Bowser
@@ -460,6 +460,18 @@
   - recFc6nCFymTrQxns
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-10-17T14:30:45.000Z'
+  airtable_id: rec9mso94wFAhugj0
+  datasets copy:
+  - recu0nspuvI729KIZ
+  - recXFh4Eki8pFMAvk
+  - recpOlHVBkiKQaj0e
+  email: mbrown8@doc.gov
+  name: Meredith Brown
+  organizations:
+  - recTramMMKqiRnaob
+- Role:
+  - Data Steward
   Sprint:
   - reco5ccvDEvBt5dA0
   Topics:
@@ -482,6 +494,31 @@
   name: Karen Deblasio
   organizations:
   - recZHYzutcUOzjudU
+- Role:
+  - Census Expert
+  airtable_createdTime: '2023-10-16T21:09:35.000Z'
+  airtable_id: recBE5e4EdcxwgEUs
+  datasets copy:
+  - recD1BtWi96mmITl5
+  - recm2SUqMJlskBQ3X
+  - recQlMfxdjgz8EAUp
+  email: alexandra.s.barker@census.gov
+  name: Alexandra Barker
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:29:22.000Z'
+  airtable_id: recBNbbJZ1YZiHDSY
+  datasets copy:
+  - recGlX6TMHDWHQ4Uc
+  - receOltJBNofrZora
+  - recZbuzc8gMM1g7oo
+  - recqEBFSXQOykEExz
+  email: hhi0@cdc.gov
+  name: Farida Ahmed
+  organizations:
+  - rec3rAvsCoOHIENtL
 - Role:
   - Data Steward
   Sprint:
@@ -588,6 +625,7 @@
   airtable_id: recEcM0DyvD6Wl0m6
   datasets copy:
   - recTzOvE8ckrG9Hks
+  - recE8ATejdtcpBOuF
   email: Amanda.Cayton@fiscal.treasury.gov
   name: Amanda Cayton
   organizations:
@@ -739,6 +777,24 @@
   - recIeXqiRxBShJDxj
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:30.000Z'
+  airtable_id: recGdztiYZaZdiT6d
+  datasets copy:
+  - reciP1VnzqGReOPEp
+  email: jad.k.atallah@hud.gov
+  name: Jad Atallah
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:57.000Z'
+  airtable_id: recH71v2BPYe2JI1M
+  email: iris.friday@hud.gov
+  name: Iris Friday
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
   Sprint:
   - reccUsI2AM7YliJ2l
   airtable_createdTime: '2020-03-24T17:13:49.000Z'
@@ -771,6 +827,16 @@
   name: James Bruno
   organizations:
   - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-16T21:10:40.000Z'
+  airtable_id: recHT4eugB58tCHXj
+  datasets copy:
+  - recqFPOo4dyUaRa0T
+  email: 'earlene.kp.dowell@census.gov '
+  name: Earlene Dowell
+  organizations:
+  - rechawuxwXzzaEkFO
 - Role:
   - Data Steward
   airtable_createdTime: '2021-07-20T14:22:14.000Z'
@@ -1050,6 +1116,7 @@
   - recfHbMURBlYFpyUg
   - recZLJYt4aiXjtf3C
   - recFNFjsSElkmYfvk
+  - rec9vUlS3GQcbEvbe
   email: Lydia.B.Taghavi@hud.gov
   name: Lydia Taghavi
   organizations:
@@ -1258,6 +1325,25 @@
   - recsSGW4gI1BkXCmo
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-11-17T15:19:32.000Z'
+  airtable_id: recWc6YibYhLEOLDM
+  email: tedd.buelow@usda.gov
+  name: Tedd Buelow
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:26:50.000Z'
+  airtable_id: recXbzTTSUXL0vNm8
+  datasets copy:
+  - recM0ypn4glfYE907
+  - recDZ9euQPpmXHg1l
+  email: michael.j.sprung@census.gov
+  name: Michael Sprung
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   airtable_createdTime: '2021-07-20T15:16:13.000Z'
   airtable_id: recXgEHmZN3snfKs9
   datasets copy:
@@ -1373,6 +1459,14 @@
   - reckYpauKMu322FXH
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-11-17T15:22:04.000Z'
+  airtable_id: recbknqXAxD7PJFWg
+  email: alejandro.contreras@sba.gov
+  name: Alejandro Contreras
+  organizations:
+  - recpWYU9m41axHFU2
+- Role:
+  - Data Steward
   Sprint:
   - recdwwZXqkYsafwsM
   Topics:
@@ -1472,7 +1566,6 @@
   - recvpP5sK7AvXRm9p
   - recN5z2CHMgZYdRNU
   - rec17A1VOfS59U3XQ
-  - rechqFaIfx7thqIVQ
   - recf7OceKPsBNTmxY
   email: metis.meloche@wilsoncenter.org
   name: Metis Meloche
@@ -1539,6 +1632,16 @@
   name: Timothy Parker
   organizations:
   - recZGVOhgclHyT5PG
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-16T21:10:18.000Z'
+  airtable_id: recfMpSmk5Chd4kB0
+  datasets copy:
+  - recqFPOo4dyUaRa0T
+  email: patrick.hayward@census.gov
+  name: Patrick (Heath) Hayward
+  organizations:
+  - rechawuxwXzzaEkFO
 - Role:
   - Data Steward
   Sprint:
@@ -1716,6 +1819,21 @@
   natl env datasets: Traffic Volume Trends
   organizations:
   - recYFIFo1hpX60Bxh
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:28:30.000Z'
+  airtable_id: rechrpfLxNh1DeTDZ
+  datasets copy:
+  - recrrg40XFvcyJa8f
+  - recYeRQibsnMHOIOj
+  - recWtTYP50jrxS7ii
+  - recLvycbMSNIJhABX
+  - recn15Rw88yyM4SW4
+  - recauviDI0eIQO4oi
+  email: krolik.thomas@bls.gov
+  name: Tom Krolik
+  organizations:
+  - recUOzXd77INuuToX
 - Role:
   - Data Steward
   airtable_createdTime: '2021-07-21T18:37:37.000Z'
@@ -1994,6 +2112,16 @@
   - recZHYzutcUOzjudU
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-10-17T14:30:19.000Z'
+  airtable_id: recnuvmtw7ozVpHnX
+  datasets copy:
+  - recFzjsUvmAcmmCRs
+  email: john.cromartie@usda.gov
+  name: John Cromartie
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Data Steward
   Sprint:
   - reco5ccvDEvBt5dA0
   Topics:
@@ -2004,6 +2132,16 @@
   name: Cecelia Spitznas
   organizations:
   - recfNhzdQXkEkVrPK
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:21:34.000Z'
+  airtable_id: recoYFoZhCRBe0Lym
+  datasets copy:
+  - reclqmKDADxgZRTDj
+  email: Joshua.dykema@sba.gov
+  name: Joshua Dykema
+  organizations:
+  - recpWYU9m41axHFU2
 - Role:
   - Data Steward
   Sprint:
@@ -2019,6 +2157,16 @@
   name: Chip Walker
   organizations:
   - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recpStP9tGUxmPLd8
+  datasets copy:
+  - recaISNy9cHBGDHTV
+  email: james.barham@usda.gov
+  name: James Barham
+  organizations:
+  - recKjtIf9bIp28eDl
 - Role:
   - Census Expert
   Sprint:
@@ -2045,6 +2193,14 @@
   name: Maria (Angie) Santos
   organizations:
   - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:18:41.000Z'
+  airtable_id: recqwCCgXTyqCxbR0
+  email: karl.leckrone@usda.gov
+  name: Karl Leckrone
+  organizations:
+  - recKjtIf9bIp28eDl
 - Role:
   - Data Steward
   Sprint:
@@ -2170,6 +2326,16 @@
   - recdwwZXqkYsafwsM
 - Role:
   - Data Steward
+  airtable_createdTime: '2023-10-17T14:29:07.000Z'
+  airtable_id: recv8QNB0PLS0wNtn
+  datasets copy:
+  - recjzmtcHqTdXvP0T
+  email: mgibbons@nsf.gov
+  name: Michael Gibbons
+  organizations:
+  - recFEdbJgp0Q6qHmn
+- Role:
+  - Data Steward
   Sprint:
   - reco5ccvDEvBt5dA0
   Topics:
@@ -2193,6 +2359,20 @@
   name: Amanda Moritz
   organizations:
   - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:27:45.000Z'
+  airtable_id: recw8xiF4heXzLuPN
+  datasets copy:
+  - recZKGj1o18OPllW0
+  - recf0icXL8cOWhFoC
+  - recpmLHJBG5YOR72E
+  - recrOvjNP210SJEjl
+  - recw4DvgY39jiIl0U
+  email: jake.dillon@bea.gov
+  name: Jake Dillon
+  organizations:
+  - recCbLM9y1yjXYV74
 - Role:
   - Census Expert
   Sprint:
@@ -2224,6 +2404,16 @@
   name: "Michael Qualter \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   organizations:
   - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:01.000Z'
+  airtable_id: recxHFTSg570VVyxE
+  datasets copy:
+  - recGP5IvaBQl3eYzQ
+  email: mckays@cdfi.treas.gov
+  name: Shannon A. McKay
+  organizations:
+  - recoLe16gECFfJJdx
 - Role:
   - Data Steward
   airtable_createdTime: '2021-07-20T15:16:48.000Z'
@@ -2261,6 +2451,16 @@
   name: Matt McMahon
   organizations:
   - recC2rit84Ln5b2sV
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-16T21:09:03.000Z'
+  airtable_id: recyFditAP6sdnN6v
+  datasets copy:
+  - recqUfC3lNsSFiV7q
+  email: caleb.m.hopler@census.gov
+  name: Caleb Hopler
+  organizations:
+  - rechawuxwXzzaEkFO
 - Role:
   - Data Steward
   Sprint:

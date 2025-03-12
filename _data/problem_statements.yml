@@ -124,6 +124,14 @@
     \ student teams."
   Full Title: Improving Access to Electrical Power for Climate Resilience
   Name: Improving Access to Electrical Power for Climate Resilience
+  Products:
+  - recieatw1jI8oqot3
+  - recEO3M01DFzo0HRU
+  - recoqYQaViNJqssuM
+  - rec77OFxnjgiXnp3q
+  - recwXFKF1KE1Tdznl
+  - recdyM6jC7RVnQCHT
+  - rec623c9emJhagSb1
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Federal, state, local, tribal, and territorial officials,
@@ -135,6 +143,9 @@
   organizations:
   - recmlYupWKakJKiyY
   pdf: 2023-TOPUniversity-DOE.pdf
+  products_text: 'ASSERT, Energy Poverty Awareness Scorecard/Dashboard, Guiding Utility
+    Investments with Social Capital, MEIT: Multidimensional Energy Insecurity Tool,
+    N-POWER, GoodNeighUBors, Grant Glider '
   sprint_order: 3
   sprint_text: 2023 Sprints
 - Challenge: "Develop potential new structures for parents and/or caregivers to meaningfully\
@@ -243,9 +254,6 @@
   products_text: Insight for ArcGIS
   sprint_order: 3
   sprint_text: Geo-Cohort
-- Name: Building Climate Change Resilience Through Public Transit
-  airtable_createdTime: '2023-02-19T18:03:46.000Z'
-  airtable_id: rec3q8shKbNoqN3Eq
 - Background: 'The Department of Transportation is focused on increasing safety and
     mobility across the country so that people can be connected to key resources like
     jobs, healthcare and education. '
@@ -485,6 +493,7 @@
   Challenge: During the academic year, many students rely on school meals for breakfast
     and lunch. In the summer, students and families seek a reliable alternative, but
     information on summer meals sites is often lacking.
+  Full Title: Summer Food Programs
   Name: Summer Food Programs
   Sprints:
   - recXANOXQ6JCTp5FU
@@ -725,7 +734,7 @@
     in the most effective way possible.
   Challenge: Develop tools to connect potential landlords with the providers of Rapid
     Rehousing servicess to the homeless.
-  Full Title: '                                Policymakers, and Front Line Providers '
+  Full Title: 'Policymakers, and Front Line Providers '
   Name: Ending Homelessness
   Products:
   - rec3yoz6FPqKiWeFO
@@ -821,7 +830,8 @@
     & Connections'
   sprint_order: 4
   sprint_text: 2022 Sprints
-- Name: Data Discovery
+- Full Title: Data Discovery
+  Name: Data Discovery
   Products:
   - rec3WBEVdijXZ6Q10
   - recr515MFR2AA1MPH
@@ -831,9 +841,6 @@
   airtable_id: recKP9JJPMufGhcwS
   products_text: Data.World Workspace, OpenData Network
   sprint_text: Agency Cohort (2016 Sprint 2/3)
-- Name: problem_statement
-  airtable_createdTime: '2021-11-24T19:53:22.000Z'
-  airtable_id: recKg2QSGbfycEkvi
 - Challenge: Create digital collaboration platforms that enable low income families
     to holistically assess their needs and connect with the best federal, state and
     local programs to equip and empower them toward self-sufficiency and economic
@@ -1463,7 +1470,8 @@
   pdf: 2017-veterans.pdf
   products_text: Get Vets Help, PAIRIN Pathways
   sprint_text: 2017 Sprint 1 (ED HUD VA)
-- Name: Veterans Suicide Prevention
+- Full Title: Veterans Suicide Prevention
+  Name: Veterans Suicide Prevention
   Products:
   - recGDyAI7oVONMMWS
   - recxMi3VnnIDpK6kM
@@ -1476,6 +1484,44 @@
   - recFLmrJGVUp96SaR
   products_text: EARS, TextHelp
   sprint_text: Agency Cohort (2016 Sprint 2/3)
+- Challenge: Develop tools that enable local education agencies, states, and school
+    districts to expand and strengthen their STEM teacher workforce.
+  Full Title: 'Strengthening the STEM Educator Workforce '
+  Name: Strengthening the STEM Educator Workforce
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: States, school districts, schools, teachers, and teacher
+    preparation programs.
+  agency_text: U.S. Department of Education
+  airtable_createdTime: '2024-06-12T13:04:10.000Z'
+  airtable_id: recRIlWUy5nyj0PXs
+  organizations:
+  - recJxCD8QEO8XYzze
+  pdf: 2024-ED.pdf
+  sprint_order: 5
+  sprint_text: 2024 Sprints
+- Challenge: 'Create tools that will improve and enhance access to homeownership and
+    housing stability for American Indian and Alaska Native (AIAN) populations and
+    Indigenous communities, particularly on reservations and/or other tribal areas. '
+  Full Title: Expanding Opportunities for Native Homeownership and Housing Stability
+  Name: Expanding Opportunities for Native Homeownership and Housing Stability
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: American Indian and Alaska Native individuals, families,
+    and elders that wish to accumulate wealth through homeownership; stakeholders
+    involved in housing, including Tribes, Tribally Designated Housing Entities, Native
+    and Tribal Nonprofits, banks and funding organizations, and Native CDFIs.
+  agency_text: U.S. Census Bureau, U.S. Department of Housing and Urban Development
+  airtable_createdTime: '2024-06-14T14:26:51.000Z'
+  airtable_id: recSFc6htX0KsowGp
+  organization-esp:
+  - Departamento de Vivienda y Desarrollo Urbano de los EE. UU. (HUD)
+  organizations:
+  - rechawuxwXzzaEkFO
+  - recZHYzutcUOzjudU
+  pdf: 2024-Census-HUD.pdf
+  sprint_order: 4
+  sprint_text: 2024 Sprints
 - Background: "Veterans have difficulty translating their military skills to civilian\
     \ skills. This is both a relevancy problem (they don\u2019t know how their military\
     \ skills relate to civilian skills) and a communication problem (they don\u2019\
@@ -1554,6 +1600,50 @@
   pdf: 2017-youth.pdf
   products_text: MySpot
   sprint_text: 2017 Sprint 1 (ED HUD VA)
+- Challenge: 'Develop community and data driven solutions that empower Indigenous
+    communities to navigate a complex grant and funding landscape and increase their
+    capabilities to successfully secure funding. '
+  Full Title: 'Building Stronger Pathways to Grants and Funding for Indigenous Communities '
+  Name: 'Building Stronger Pathways to Grants and Funding for Indigenous Communities '
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: Tribal stakeholders, tribal leaders, Native Hawaiian
+    stakeholders, researchers, and others responsible for preparing grant applications
+    or who utilize the data in those applications for other purposes, including internal
+    use, research reports, policy and legislative efforts, and public education.
+  agency_text: Natives Count Coalition, National Urban Indian Family Coalition
+  airtable_createdTime: '2024-06-12T12:57:56.000Z'
+  airtable_id: recVSSpNy6UIY65qH
+  organizations:
+  - recKLaSy9OiaqvP0R
+  - rechmVw7sbRYAolgA
+  pdf: 2024-NCC-NUIFC.pdf
+  sprint_order: 1
+  sprint_text: 2024 Sprints
+- Challenge: 'Enhance research & development (R&D) capacity at organizations across
+    the innovation ecosystem by broadening access to federal science & technology
+    (S&T) funding opportunities. '
+  Full Title: Enhancing Access to Federal Science and Technology Research & Development
+    Funding
+  Name: Enhancing Access to Federal Science and Technology Research & Development
+    Funding
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: "Institutions of higher education (both public and private)\
+    \ with an emphasis on Minority Serving Institutions (MSIs), nonprofit organizations,\
+    \ small businesses, and other entities within the nation\u2019s innovation ecosystem\
+    \ where levels of federal funding for S&T research and development have historically\
+    \ been low."
+  agency_text: National Institute of Biomedical Imaging and Bioengineering, National
+    Institutes of Health
+  airtable_createdTime: '2024-06-12T13:02:03.000Z'
+  airtable_id: recW0QkXbhskAz4Bo
+  organizations:
+  - rectpq4txB3uKy0l8
+  - recC2rit84Ln5b2sV
+  pdf: 2024-NIBIB-NIH.pdf
+  sprint_order: 3
+  sprint_text: 2024 Sprints
 - Challenge: 'Develop digital tools that help small business leaders and their workforces
     to enhance their online presence and ability to process data and information relevant
     to their businesses in real time, thereby allowing them to be competitive in the
@@ -1691,7 +1781,6 @@
   - recvpP5sK7AvXRm9p
   - recN5z2CHMgZYdRNU
   - rec17A1VOfS59U3XQ
-  - rechqFaIfx7thqIVQ
   - recf7OceKPsBNTmxY
   - recqBovvjpK1pbVNY
   - rec9DQ0ZppYqORnCs
@@ -1701,9 +1790,9 @@
     Monitoring and Assessment Project, Earth Challenge: Top 10 Most Common Plastics
     By Country Data, Earth Challenge: Open Data Documentation, Earth Challenge: Citizen
     Science Cloud: Plastics Page, Earth Challenge: Integrated Ocean Plastics Data,
-    Integrated Data: Marine Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget
-    Data , Our World In Data , Global Alert - Floating Trash, Source Data: Marine
-    Debris Monitoring and Assessment Project, Source Data: Marine Litter Watch'
+    Earth Challenge 2020 Plastics Mobile  Widget Data , Our World In Data , Global
+    Alert - Floating Trash, Source Data: Marine Debris Monitoring and Assessment Project,
+    Source Data: Marine Litter Watch'
   featured_product:
   - receE3OszUl8bOqf2
   image: challenges/ocean-plastics.jpg
@@ -1813,6 +1902,11 @@
     and commercialization.
   Full Title: Financing for Innovation and Technology Transfer in Puerto Rico
   Name: Financing for Innovation and Technology Transfer in Puerto Rico
+  Products:
+  - recn9m4ObOmd72xxK
+  - recZjQBlMYEFAqR5f
+  - recrDBDNmZ2pDTeMl
+  - reccYTpXIyC09vRJ2
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: The primary target end users are Puerto Rican innovators
@@ -1829,6 +1923,8 @@
   - rec3uH465KY2Ahcwm
   - recy7r5lTXwMaxrGI
   pdf: 2023-MBDA-PRSTRT-colmena66.pdf
+  products_text: Funding Journey, GrantVEST - Commercialization Intelligence, Knowledge
+    Nodes Service (KNS), TechTransfer
   sprint_order: 8
   sprint_text: 2023 Sprints
 - Challenge: "Develop digital products to help improve minority businesses\u2019 access\
@@ -2690,14 +2786,16 @@
     spending and impact of federal funds in Puerto Rico.
   Full Title: Tracking Federal Funding Impact in Puerto Rico
   Name: Tracking Federal Funding Impact in Puerto Rico
+  Products:
+  - recfxGYOLFvGyAPwL
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Beneficiaries of federal funding allocations in Puerto
     Rico, especially highly vulnerable and marginalized communities, and Puerto Rico
     residents interested in understanding the impact of federal spending in local
     communities.
-  agency_text: PolicyLink, U.S. Department of Commerce, The Puerto Rico Office of
-    Management and Budget
+  agency_text: PolicyLink, U.S. Department of Commerce, Puerto Rico Office of Management
+    and Budget
   airtable_createdTime: '2023-08-02T02:10:27.000Z'
   airtable_id: recj5r6ttN3R5VAxQ
   organizations:
@@ -2705,6 +2803,7 @@
   - recTramMMKqiRnaob
   - recc8ezOALNO0uLpH
   pdf: 2023-doc-policylink-promb.pdf
+  products_text: Puerto Rico Federal Funding & Impact Data Source Catalog
   sprint_order: 6
   sprint_text: 2023 Sprints
 - Challenge: "Help educational organizations, government and the public gain a more\
@@ -2712,6 +2811,9 @@
     \ access to reading materials, and use of literacy skills."
   Full Title: Reducing the Literacy Gap in Puerto Rico Households
   Name: Reducing the Literacy Gap in Puerto Rico Households
+  Products:
+  - recpN4VIAbNUpV0gD
+  - recLompwuIpseaHVu
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Government agencies, community leaders, non-profit education
@@ -2723,6 +2825,7 @@
   organizations:
   - recEET7wP4lgddAwY
   pdf: 2023-todos-a-leer-coalition.pdf
+  products_text: MTSS Toolkit, Leamos App
   sprint_order: 7
   sprint_text: 2023 Sprints
 - Challenge: Improve climate resilience planning in communities around the nation
@@ -2730,6 +2833,7 @@
     of local-level priorities.
   Executive champion: Tony LaVoi, Chief Data Officer, NOAA
   Full Title: Tackling the Climate Crisis through Climate-Smart Communities
+  Name: Tackling the Climate Crisis through Climate-Smart Communities
   Products:
   - recEMgUJaKlxjgc89
   - rec9EnPeEfxzblVj0
@@ -2954,9 +3058,6 @@
   products_text: Behind the Numbers, XamineYourWorld, Cens(US), Libraries Need Diverse
     Books
   sprint_text: 2020 Census Data
-- Name: 'climate resilience '
-  airtable_createdTime: '2023-01-26T19:03:49.000Z'
-  airtable_id: recksm5yNltj9n8Hx
 - Challenge: 'Create data-driven tools to help state, local, tribal, and territorial
     emergency managers, elected officials, and members of the public visualize both
     the risks of climate change to their communities and the impacts of implementing
@@ -3135,6 +3236,10 @@
     in accordance with best practice data standards. '
   Full Title: Capturing Harmonized Data from In Vitro Diagnostics (IVDs)
   Name: Capturing Harmonized Data from In Vitro Diagnostics (IVDs)
+  Products:
+  - rec0siTyzPwmHJJSB
+  - rec8wQwjxmma2Y284
+  - recRjSY3q0avBcABp
   Sprints:
   - recsOyNvLygRxmkg5
   Target audience / End user: 'Test users (healthcare providers, caregivers, patients
@@ -3155,6 +3260,8 @@
   organizations:
   - rec6qf5bwxnm9AWwl
   pdf: 2023-fda-capturing-harmonized-data.pdf
+  products_text: My Health Vault, COVID-19 Self-Test Outreach & Education Tool, FHIR
+    to OMOP Data Mapping
   sprint_order: 2
   sprint_text: Diagnostic Data Exchange (FDA)
 - Challenge: Develop digital tools to prevent financial hardship and housing insecurity
@@ -3341,6 +3448,30 @@
   products_text: Practical Business Skills
   sprint_order: 4
   sprint_text: Workforce
+- Challenge: Local policymakers need high-quality data to make informed policy decisions,
+    but existing measures of policy success at the national level often fail to measure
+    what matters most for communities. Many local governments and communities lack
+    the resources and capabilities to develop an actionable wellbeing data solution
+    that can be adapted to their context.
+  Full Title: Empowering Community-Led Wellbeing Measurement
+  Name: Empowering Community-Led Wellbeing Measurement
+  Sprints:
+  - recqHIMEqN3eizixc
+  Target audience / End user: 'Local government leaders and community members, with
+    a particular focus on officials from under-resourced cities, historically disadvantaged
+    communities, and places that could not otherwise develop meaningful measures of
+    individual and family wellbeing. '
+  agency_text: Harvard Business School, U.S. Department of Commerce, National League
+    of Cities
+  airtable_createdTime: '2024-06-12T13:00:24.000Z'
+  airtable_id: recoXokr6PYYoKRhX
+  organizations:
+  - rec2dpyYkYfM0n78X
+  - recTramMMKqiRnaob
+  - rec0YXBmpuYimT17n
+  pdf: 2024-Harvard-DOC-NLC.pdf
+  sprint_order: 2
+  sprint_text: 2024 Sprints
 - Background: State, local, and tribal governments, nonprofits, and universities complain
     that, despite the plethora of public data available, it can be dif cult to navigate
     information about federal programs, funding opportunities, and current awards
@@ -3458,14 +3589,14 @@
     Tool
   sprint_order: 6
   sprint_text: 2022 Sprints
-- Name: Improving Data Literacy Using Decennial Census Data
-  airtable_createdTime: '2021-09-20T20:07:34.000Z'
-  airtable_id: rectH3JQpCJjR3GZT
 - Challenge: Create tools that help local communities strengthen and leverage social
     infrastructure to recover from pandemic-induced social isolation and build resilience
     in the face of future crises.
   Full Title: Building Social Infrastructure Resilience for Local Communities
   Name: Building Social Infrastructure Resilience for Local Communities
+  Products:
+  - recxnGDJAOYstw6oy
+  - recPUDlatHj609fv7
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Local government leaders, community organizations, and
@@ -3476,6 +3607,7 @@
   organizations:
   - rec0YXBmpuYimT17n
   pdf: 2023-NLC.pdf
+  products_text: Ecosystem Partner Portal, Neighborhood Explorer
   sprint_order: 1
   sprint_text: 2023 Sprints
 - Background: The American dream is fading. Almost all children born in 1940 earned
@@ -3612,6 +3744,12 @@
     \ solutions."
   Full Title: Improving Access to Capital in Indigenous Communities through Data
   Name: Improving Access to Capital in Indigenous Communities through Data
+  Products:
+  - recGkuLc845ee6100
+  - recXx34NtlBINGkzz
+  - rec0ugnUjdcIKTzoW
+  - recydTbslQzpfvQzR
+  - recV0M7dq4826qszM
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Indigenous communities and thought leaders, economic
@@ -3620,9 +3758,29 @@
   agency_text: U.S. Economic Development Administration
   airtable_createdTime: '2023-07-25T21:05:16.000Z'
   airtable_id: recvGCiCh48crr8iQ
+  datasets copy:
+  - recaISNy9cHBGDHTV
+  - recbW3DgJBYh9TZwF
+  - recGP5IvaBQl3eYzQ
+  - reciP1VnzqGReOPEp
+  - rec9vUlS3GQcbEvbe
+  - reclqmKDADxgZRTDj
+  - recE8ATejdtcpBOuF
+  - recWtTYP50jrxS7ii
+  - recLvycbMSNIJhABX
+  - recn15Rw88yyM4SW4
+  - recauviDI0eIQO4oi
+  datasets_text: 'USDA Rural Gateway, Tribal Data Across Census Products, CDFI Fund:
+    Transaction Level Report (TLR) & Consumer Loan Report (CLR) Data, HUD: Section
+    184 Program Data, HUD Data Portal, SBA Datasets, USA Spending, Local Area Unemployment
+    Statistics (LAUS), State & Area Current Employment Statistics (CES), Prevailing
+    Wage, Quarterly Census of Employment Wages (QCEW)'
   organizations:
   - recVal1KOBeL00l5j
   pdf: 2023-EDA.pdf
+  products_text: 'Opportunity Map: Invest in Native CDFIs, Opportunity Map: Investors
+    Interested in Funding Native Communities, Native CDFI Workforce Resource Map,
+    Indigenous Stories by Geography, Cheyenne River Thriving Wage'
   sprint_order: 5
   sprint_text: 2023 Sprints
 - Challenge: Create digital tools that help rural communities access and use data
@@ -3709,6 +3867,13 @@
     and promote competition in the credit card market.
   Full Title: Promoting Competition in the Credit Card Market
   Name: Promoting Competition in the Credit Card Market
+  Products:
+  - recRz8HvDJwsWRmvx
+  - rec1QkccgLw2TFUld
+  - rec6jHBb1OIYBFhSt
+  - recX5cAhAZFbfeguu
+  - recRej7RjybCc0BCO
+  - recoyEEG6OjKAiMj7
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: American consumers in need of a credit card.
@@ -3720,6 +3885,8 @@
   organizations:
   - recRxeCb5vLf8PCMF
   pdf: 2023-CFPB.pdf
+  products_text: Bridge, CardGenius, Credit Hike, CreditBoost, Definitive Choice,
+    Limit
   sprint_order: 2
   sprint_text: 2023 Sprints
 - Background: "A significant number of young Americans are not aware of the risks\
@@ -3796,6 +3963,11 @@
     plans. '
   Full Title: Enabling the Use of Diagnostic Testing with Telehealth Platforms
   Name: Enabling the Use of Diagnostic Testing with Telehealth Platforms
+  Products:
+  - recSorwcNhErHdNgC
+  - rec74zxBFMIm8CzLg
+  - recBJ5GfDDHyjMXjT
+  - rec9nDfB3aogwuBX6
   Sprints:
   - recsOyNvLygRxmkg5
   Target audience / End user: 'Telehealth companies and telemedicine healthcare providers;
@@ -3811,6 +3983,8 @@
   organizations:
   - rec6qf5bwxnm9AWwl
   pdf: 2023-fda-telehealth.pdf
+  products_text: HealthCheck, OPS Self-Help Healthcare Diagnostic Tool, Health Awareness
+    Framework, Risk and Quality Solution for MCOs Driving ROI
   sprint_order: 4
   sprint_text: Diagnostic Data Exchange (FDA)
 - Full Title: Helping Families, Businesses, and Communities Respond to COVID-19
@@ -3861,6 +4035,11 @@
     is fully integrated into medical records and public health systems. '
   Full Title: Advancing Health Data Aggregation for Improved Patient Care
   Name: Advancing Health Data Aggregation for Improved Patient Care
+  Products:
+  - recfHtVN6KirIkFRa
+  - rec9cVrhxWltQN61K
+  - recyXMhNRhA5Ep9Ap
+  - recYd2YgrGpGdOz2Y
   Sprints:
   - recsOyNvLygRxmkg5
   Target audience / End user: 'Community health workers; healthcare providers; academics
@@ -3889,6 +4068,8 @@
   organizations:
   - rec6qf5bwxnm9AWwl
   pdf: 2023-fda-enabling-health-data-aggregation.pdf
+  products_text: SHAPE SDOH/At-Home Test Data Collection App , Guidehouse SDOH Mapping
+    Service, Social Determinants Indexing 1.0, Health Feature Store
   sprint_order: 3
   sprint_text: Diagnostic Data Exchange (FDA)
 - Challenge: Improve access to data for local policymakers, especially those facing
@@ -3896,6 +4077,12 @@
     place they live, work, or represent.
   Full Title: Improved Data Access for Local Policymakers
   Name: Improved Data Access for Local Policymakers
+  Products:
+  - recWBDws9Rs7G445P
+  - recO6PeJ1qi2X6KPv
+  - recpzBKrOpGvFf9sx
+  - recqpP2GaZJh8fWFj
+  - recCRTcNwwy5DA1rN
   Sprints:
   - recXBSKFq7AYEnaRX
   Target audience / End user: Local elected officials, local policymakers, and economic
@@ -3904,9 +4091,52 @@
   agency_text: U.S. Department of Commerce
   airtable_createdTime: '2023-07-10T19:21:26.000Z'
   airtable_id: reczViJ9R5i84HkLl
+  datasets copy:
+  - recqUfC3lNsSFiV7q
+  - recD1BtWi96mmITl5
+  - recm2SUqMJlskBQ3X
+  - recqFPOo4dyUaRa0T
+  - recM0ypn4glfYE907
+  - recQlMfxdjgz8EAUp
+  - recXx7mFAPNbgrseM
+  - recDZ9euQPpmXHg1l
+  - recZKGj1o18OPllW0
+  - recf0icXL8cOWhFoC
+  - recpmLHJBG5YOR72E
+  - recrOvjNP210SJEjl
+  - recw4DvgY39jiIl0U
+  - recrrg40XFvcyJa8f
+  - recYeRQibsnMHOIOj
+  - recIE4i2WidC4xC77
+  - recFMBKeI3KDHBqJS
+  - recjzmtcHqTdXvP0T
+  - recGlX6TMHDWHQ4Uc
+  - receOltJBNofrZora
+  - recZbuzc8gMM1g7oo
+  - recqEBFSXQOykEExz
+  - recFzjsUvmAcmmCRs
+  - rec1Xitv8iCVWovd4
+  - recdHcbIeWjW4e23Y
+  - rec96VSBOR5IZbbr1
+  - recu0nspuvI729KIZ
+  - recXFh4Eki8pFMAvk
+  - recpOlHVBkiKQaj0e
+  - recoGnqdQQVpeZRCA
+  datasets_text: American Community Survey (ACS), Small Area Income and Poverty Estimates
+    (SAIPE), Population and Housing Unit Estimates, Longitudinal Employer-Household
+    Dynamics, Economic Census, Community Resilience Estimates, Gini Index, Census
+    Business Builder, GDP, Regional Price Parities, Personal Income, Personal Consumption
+    Expentidures (PCE), Employment, Local Area Unemployment Statistics (LAUS), State
+    & Area Current Employment Statistics (CES), Prevailing Wage, Integrated Postsecondary
+    Education Data System, Higher Education Research & Development Survey (HERD),
+    CDC WONDER, Birth Data, Life Expectancy, Drug Overdose Deaths, Rural-Urban Continuum,
+    Rural Investments, FEMA Expected Annual Loss, Energy Sources and Estimates, Bipartisan
+    Infrastructure Law Investments, USA Spending, Justice40, Clean Investment Monitor
   organizations:
   - recTramMMKqiRnaob
   pdf: 2023-DOC.pdf
+  products_text: Civic Roundtable, Economic Developer GeoExplorer (EDGE), Polis, Sidekick,
+    The National Economic Resilience Data Explorer (NERDE)
   sprint_order: 4
   sprint_text: 2023 Sprints
 - Challenge: 'Develop digital products or physical/digital works of art that creatively

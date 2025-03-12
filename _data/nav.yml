@@ -26,6 +26,8 @@ primary:
     accordion:
       - text: Prize Challenge
         href: prize-challenge/
+      - text: Annual Innovation Event
+        href: summit/
 
 secondary:
   - text: Our Process
@@ -60,28 +62,42 @@ mobile:
     href: get-involved/
 
 footer:
-  - text: About
-    href: about/
-  # - text: Get Involved
-  #   href: get-involved/
-  - text: Process
-    href: our-process/
-  - text: Products
-    href: showcase/
-  - text: Datasets
-    href: data/
-  - text: TOPx Toolkit
-    href: topx-toolkit/
-  - text: Product Toolkit
-    href: product-development/toolkit/
-  # - text: data.census.gov
-  #   href: "https://data.census.gov"
-    # isExternal: true
-  - text: Our Team
-    href: https://coil.census.gov/
-    isExternal: true
-  - text: Press
-    href: press/
+  - subsection:
+      title: About
+      links:
+        - text: About TOP
+          href: about/
+        - text: Sprint Process
+          href: our-process/
+        - text: FAQs
+          href: faqs/
+        - text: Press
+          href: press/
+  - subsection:
+      title: Sprints
+      href: sprints/
+  - subsection:
+      title: Products
+      href: products/
+  - subsection:
+      title: Resources
+      links:
+        - text: Datasets
+          href: data/
+        - text: TOPx Toolkit
+          href: topx-toolkit/
+        - text: Product Toolkit
+          href: product-development/toolkit
+  - subsection:
+      title: More
+      links:
+        - text: Prize Challenge
+          href: prize-challenge/
+        - text: Annual Summit
+          href: summit/
+
+
+
 
 footer-bottom:
   # - text: Census Open Innovation Labs

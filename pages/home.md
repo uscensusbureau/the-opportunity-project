@@ -17,67 +17,52 @@ challenges:
 
   Explore how agencies have used TOP to address national challenges:'
   data:
-    - 
-      agency: 'State Department & The Wilson Center'
-      title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
+    -
+      agency: 'HUD & The White House'
+      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
+      problem-statement-name: Opportunity Zones
+      impact:
+        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
       products:
-        - title: Ocean Plastics Story Map
-          # team: Esri
-          text: storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
-        - title: Georgetown University Campus Plastic Initiative
-          # team: Georgetown University Beeck Center
-          text:  tracking plastic pollution on college campuses and educating students on its impact 
-        - title: The Ghost Gear Project
-          # team: Harvard University Institute of Politics
-          text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
-      impact: 
-        - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus
-      problem-statement-name: Ocean Plastics
+        - title: "City Builder,"
+          link: https://www.citi.com/ventures/city-builder.html
+          team: Citi Ventures
+          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
+        - title: "Mastercard's product:"
+          link: https://inclusivegrowthscore.com/
+          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
       image:
-        src: photos/home/widget/oceans.jpg
-        alt: Blue ocean waves crashing into a rocky coastline.
-    - 
+        src: photos/home/widget/neighborhood.jpg
+        alt: A neighborhood grid of buildings and streets as seen from above.
+    -
       agency: 'FEMA'
       title: 'FEMA Used Geospatial Data to Help People Prepare for Disasters'
       problem-statement-name: Disaster Preparedness
       products:
-        - title: Puerto Rico Land Grid
+        - title: "Puerto Rico Land Grid,"
+          link: https://landgrid.com/us/pr#b=admin
+          team:  Regrid
           text: assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
         - title: Disaster Awareness Games
-          team-text: University of California Santa Barbara
+          team: University of California Santa Barbara
           text: gamifying emergency preparation for young adults
         - title: Sille
+          team: Datel Ovela
           text: increasing stakeholders' awareness of likely catastrophic structural failure in their areas
       impact: 
         - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments
       image:
         src: photos/home/widget/hurricane.jpg
         alt: Satellite image of a hurricane cloud over a coastline.
-    - 
-      agency: 'HUD & The White House'
-      title: 'HUD & The White House Catalyzed Investment in Opportunity Zones'
-      problem-statement-name: Opportunity Zones
-      impact: 
-        - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
-      products:
-        - title: City Builder
-          text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
-        - title: Inclusive Growth Score
-          text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
-        - title: Inclusive Development Dashboards
-          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
-      image:
-        src: photos/home/widget/neighborhood.jpg
-        alt: A neighborhood grid of buildings and streets as seen from above.
-    
+
 cta-one:
   background-class: bg-primary
   title: 
     text: Ready to solve the nation's biggest challenges?
     class: font-sans-sm text-normal
   primary:
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
 
 impact:
@@ -105,15 +90,13 @@ process:
   footer:
     intro: 'Learn more about the [TOP process](SITE.BASEURL/our-process).'
     title: How to Get Started
-    text: "We can help your organization identify the next steps to facilitate a successful TOP sprint.
-
-If your agency is interested in using the TOP framework to address national challenges, please [complete this form](https://www.census.gov/forms/contact-top.html) to get started. A member of the [Census Open Innovation Labs (COIL)](https://coil.census.gov/) team will be in touch within one week.
+    text: "We can help your organization identify the next steps to facilitate a successful TOP sprint. If your agency is interested in using the TOP framework to address national challenges, please [email us](mailto:census.opportunityproject@census.gov). A member of the TOP team will be in touch within one week.
 
 
 Ready to get started?"
-  cta: 
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+  cta:
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
 
 vision:
@@ -126,8 +109,8 @@ cta-two:
     text: Ready to make an impact?
     class: font-sans-sm text-normal
   primary:
-    text: Get in Touch
-    href: https://www.census.gov/forms/contact-top.html
+    text: Email TOP
+    href: mailto:census.opportunityproject@census.gov
     isExternal: true
         
 ---

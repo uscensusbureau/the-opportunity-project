@@ -1,5 +1,6 @@
 ---
 short-name: work
-order: 6
+order: 7
 expandAllProblemStatements: true
+showPDF: true
 ---

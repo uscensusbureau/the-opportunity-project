@@ -2171,12 +2171,12 @@ main {
           }
         }
   }
-  $item-count: 6;
+  $item-count: 5;
 
   @keyframes scrollUp {
     @for $i from 1 through ($item-count - 1) {
 
-      #{($i * 11) - 6%},
+      #{($i * 11) - 5%},
       #{$i * 11%} {
         transform: translateY(calc(-100% / $item-count) * $i);
       }

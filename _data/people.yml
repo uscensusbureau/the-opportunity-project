@@ -1,1846 +1,405 @@
-- Role: Data Steward
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Population Data,Race and Ethnic Research
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec02caqx473K4V6q
-  email: Nicholas.A.Jones@census.gov
-  name: Nicholas Jones
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec1MjdRJqeBwav4p
+  datasets copy:
+  - recaf1ns1FhZHQ6QR
+  email: john.c.huggins@hud.gov
+  name: John Huggins
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec0AL9PhlyMuM4r5
-  email: Matthew.b.wilson@ostp.eop.gov
-  name: 'Matt Wilson '
+  - reccUsI2AM7YliJ2l
+  - recdwwZXqkYsafwsM
+  - reco5ccvDEvBt5dA0
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec1S78HJVLE8t0dV
+  datasets copy:
+  - recr5Vn8iowFkfP2A
+  - recyRYWG99a1eh09f
+  - recbW3DgJBYh9TZwF
+  email: eric.a.coyle@census.gov
+  name: Eric Coyle
   organizations:
-  - recpdcvxmOK2rHQax
-- Role: Census Expert
+  - rechawuxwXzzaEkFO
+  organizations 2:
+  - rechawuxwXzzaEkFO
+  sprints:
+  - reccBuKC57Rhz4lLs
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC,Local Partnerships
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec0NfusDpJMiMRhC
-  email: megan.c.kindelan@census.gov
-  name: Megan Kindelan
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec1Sz3Kjav37nBUq
+  datasets copy:
+  - recOvARqRVOnEDZaC
+  email: rogersc@iupui.edu
+  name: Carol Rogers
   organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
+  - recpH8JEgAYTgiT3U
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:21:03.000Z'
+  airtable_id: rec1Ua8iUYlR8aUzA
+  datasets copy:
+  - recDatXsYsCllS0F7
+  email: rourk.alexis@epa.gov
+  name: Alexis Rourk
+  organizations:
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec0babmJ76xj4OW5
-  email: Michael.akinyele@va.gov
-  name: 'Michael Akinyele '
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec1XeZyeKYDgZaPO
+  datasets copy:
+  - recE2RAVBmgPxvu2B
+  - recMhC6WIu4yZImHA
+  email: Michael.k.hollar@hud.gov
+  name: Mike Hollar
   organizations:
-  - recWzA4QJklQIkckF
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec0kHrZE6Mn4TvFE
-  datasets:
-  - recskuvdP4zRUfWfF
-  - recRBr1e8vcSPBz4l
-  - rece4hF1rUnwH4gpW
-  - recv72jVXuMS7zFD1
-  - recLNAO4VNt07rhn1
-  - receLK0UOItaGuHtS
-  - rec0LOcbnIaSv0kPz
-  datasets copy: 'Core Data: 2019 American Community Survey 1-Year Estimates,Supplemental:
-    2018 American Community Survey 1-Year Estimates,Supplemental: 2017 American Community
-    Survey 1-Year Estimates,Supplemental: COVID-19 Demographic and Economic Resources,American
-    Community Survey Demographic Data,American Housing Survey,American Community Survey'
-  email: amanda.m.klimek@census.gov
-  name: Amanda Klimek
-  organizations:
-  - recyYK7Ezm00JSEPC
-  treasury_datasets: American Community Survey
-- Role: Data Steward
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
   Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec0mPn4i7gJXeOIn
-  email: kim.Hicks@ed.gov
-  name: Kim Hicks
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec1dp3yuSLV75iCR
+  email: nikki.churchwell@ed.gov
+  name: Nikki Churchwell
   organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
+  - recJxCD8QEO8XYzze
+  organizations 2:
+  - recJxCD8QEO8XYzze
+  sprints:
+  - recjdd30fQXhPJBRs
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Digital Divide,Inclusion,Broadband Mapping
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec1Hp3ktF80fampR
-  email: etseng@ntia.gov
-  name: Emy Tseng
-  organizations:
-  - recdOguZEuM5Oz13D
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec1NAsDIBnU2STCH
-  datasets:
-  - recos25nUGssXF4Au
-  datasets copy: Asthma Surveillance Data
-  email: hbz4@cdc.gov
-  name: Dr. Hatice Zahran
-  natl env datasets: Asthma Surveillance Data
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec1gPzYPZyq0W7lv
-  datasets:
-  - recKUlQKelvq1hILY
-  - recJBm8sddyAT2jTf
-  datasets copy: National Environmental Public Health Tracking Network,National Environmental
-    Public Health Tracking
-  email: hks9@cdc.gov
-  name: Heather Strosnider
-  natl env datasets: National Environmental Public Health Tracking
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec1oxPLygxTWhnXP
-  datasets:
-  - recMlqXmWhpFiYzFB
-  - recerjjjia1xtTwht
-  datasets copy: Food Access Research Atlas,Atlas of Rural and Small-Town America
-  email: tparker@ers.usda.gov
-  name: Timothy Parker
-  organizations:
-  - recgu9rojBM877pZu
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec2nZvCQCksRxfF7
-  datasets:
-  - recSKtaYUhCidF9tF
-  - recnlybA9TIdEaJ8m
-  - reciV1Yt6eF882WH7
-  - recryDeQUdiZ8UQbr
-  - recKa9sQMCVHqZ5x9
-  - rec5JAbt9oJgWrekq
-  datasets copy: Local Area Unemployment Statistics (LAUS),State & Area Current Employment
-    Statistics (CES),Local Area Unemployment Statistics (LAUS),State & Area Current
-    Employment Statistics (CES),Prevailing Wage,Quarterly Census of Employment Wages
-    (QCEW)
-  email: krolik.thomas@bls.gov
-  name: Tom Krolik
-  organizations:
-  - recbCNAkaw9e3IdyL
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec3CwPRbL3SJzKIK
-  datasets:
-  - rec6xUUzqrmnSGldE
-  - recAMcEe5OwoiCCrs
-  datasets copy: EnviroAtlas Interactive Map,USGS National Map
-  email: daniel.jessica@epa.gov
-  name: Jessica Daniel
-  organizations:
-  - rec2t8CsWwMoLu9Kd
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico Census Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec3K1E76INRha4ak
-  email: maria.a.santos@census.gov
-  name: Maria (Angie) Santos
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec3doBExBXsuYu4q
-  datasets:
-  - recVcD99XeqnfsHI7
-  datasets copy: Recycling Demand Mapping in the Southeast
-  email: will.sagar@serdc.org
-  name: Will Sagar
-  natl env datasets: Recycling Demand Mapping in the Southeast
-  organizations:
-  - recd5gyFNrmEhuKSP
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: NOAA Imagery
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec3dztdDZvAJTrov
-  email: kim.valentine@noaa.gov
-  name: 'Kim Valentine '
-  organizations:
-  - rec4UjLyvs9OSqhYy
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: Federal Audit Clearinghouse
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec4BZDR21AkkcmuM
-  email: megan.e.minnich@census.gov
-  name: Megan Minnich
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Digital Literacy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec4BujHgn39XNgML
-  email: charley@datasociety.net
-  name: Charley Johnson
-  organizations:
-  - rec4793MdaDpICheO
-  sprints 2: 2020 Census
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec4O8StIgDoQqxI7
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec1fkiR5hhS3PL51
   email: Moon.Myung@dol.gov
   name: "Myung Moon \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec4Pn0YtS5s6CDJ3
-  email: aadler@isri.org
-  name: Adina Adler
-  natl env datasets: Recycling Commodities
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:02:54.000Z'
+  airtable_id: rec21aPbiteTLQi0E
+  datasets copy:
+  - recVAcy3hGrxaKHMy
+  - recUJMSndqRMjPaYz
+  email: hyon.b.shin@census.gov
+  name: Hyon Shin
   organizations:
-  - recqSb9JGOy1CwFde
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+  treasury_datasets:
+  - rechAvYfiuInUaYDo
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico Open Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec53DsfyhctVCmxN
-  email: alberto.velazquez@estadisticas.pr
-  name: Alberto Velazquez (Data Center Lead)
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec28Y8XUCyucBslN
+  datasets copy:
+  - recNncz5sQLPmoXy5
+  - recftyVJxEXDdcc5p
+  email: kohli.amrit@bls.gov
+  name: 'Amrit Kohli '
   organizations:
-  - recwOa4jdRSkJ4OvI
-- Role: Data Steward
+  - rec7tjWfiN4wtIn3m
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec5Ei3hlIjsdCrd3
-  email: koustovae@nida.nih.gov
-  name: Elena Koustova
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec2BjgPNGZp7FxrF
+  email: sadeshiy@nsf.gov
+  name: Dr. Samson Adeshiyan
   organizations:
-  - recI9gWWpL4lN5fJB
-- Role: Data Steward
+  - rec2bYC6cmGFvnBet
+- Role:
+  - Data Steward
   Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec5KfuHBdOs2FtSl
-  email: John.McLaughlin@ed.gov
-  name: John McLaughlin
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec2HZRylUsuD3xaS
+  email: Max.A.Bing-Grant@hud.gov
+  name: Max Bing-Grant
   organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: grants.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec5VsvRf6ssqAzKC
-  email: john.enggren@hhs.gov
-  name: "John Enggren \_\_"
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec2JmSHaKMULYLue
+  datasets copy:
+  - recwGorKcKSfePNuQ
+  email: tara.lawley@ed.gov
+  name: Tara Lawley
   organizations:
-  - reco8SlTqN3UExT1C
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec5XqEa3k5PjPjtH
-  datasets:
-  - reclkfsRBKDTLzB0A
-  - recubaMpjueneWg4D
-  datasets copy: AirNow,AirNow API for Developers
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Balitmore STEW-MAP
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec2fzkV017M14Niy
+  email: nsonti.fs@gmail.com
+  name: Nancy Sonti
+  organizations:
+  - recFc6nCFymTrQxns
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec3iKeWocSODQdus
+  email: Juliana_Crump@omb.eop.gov
+  name: Julie Crump
+  organizations:
+  - rechUP9zFvCQsWDWw
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Digital Divide
+  - Inclusion
+  - Broadband Mapping
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec3pXNYdag2DQdhH
+  email: swoods@ntia.gov
+  name: Scott Woods
+  organizations:
+  - recW02RSB5lEflHTP
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:29:20.000Z'
+  airtable_id: rec42vBlTgcmFx5RH
+  datasets copy:
+  - rec9VoTfaLn5PRFPF
+  - recDj0M1962vY6YTk
   email: white.johne@epa.gov
   name: Johne White
   natl env datasets: AirNow, AirNow API for Developers
   organizations:
-  - rec2t8CsWwMoLu9Kd
-- airtable_createdTime: '2025-01-10T16:37:36.000Z'
-  airtable_id: rec5dlWcFzoDgemqf
-  datasets:
-  - recwvOMewBtX9eaVK
-  - reckvQhViGlNbWksJ
-  name: Kevin Pierce
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec5odjy8etbr7vWN
-  datasets:
-  - recw5SggDqS4HmM9k
-  - recMEsCg0bw1eFuDU
-  datasets copy: Location of Energy Infrastructure,Open Energy Information
-  email: debbie.brodt.giles@nrel.gov
-  name: Debbie Brodt-Giles
-  organizations:
-  - recJGUzbj7s2TbWwc
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec5uGz5yxYwyb8YR
-  email: karl.leckrone@usda.gov
-  name: Karl Leckrone
-  organizations:
-  - rec17HlmcA9QBmyN9
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec6oNuqNhTdDCtPu
-  email: Amie.Didlo@ed.gov
-  name: Amie Didlo
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: NAIP Imagery
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec6wsoS4zBN5t4SZ
-  email: john.mootz@slc.usda.gov
-  name: John Mootz
-  organizations:
-  - recgu9rojBM877pZu
-- airtable_createdTime: '2025-01-10T16:37:36.000Z'
-  airtable_id: rec6yMWClHlqEzSo0
-  datasets:
-  - recmTYH8upQLSP4QB
-  - reczLcV8GRJKMfyGL
-  name: Amrit Kohli
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec6yv2YVmUjsnxlw
-  datasets copy: Occupational Outlook Handbook,Occupational Employment Statistics
-  email: kohli.amrit@bls.gov
-  name: 'Amrit Kohli '
-  organizations:
-  - recohxzmlcvX2WHda
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec7rOSExiwgo97em
-  datasets:
-  - rec9ww52tctdM2muu
-  - rectY9qjPpO0OiyI5
-  - recXsToRGZ41N5ul0
-  - rech6QFEER7I4aEhN
-  - recAck4J0QsFDQpFH
-  datasets copy: Computer and Internet Use,Deconstructing the Digital Divide,Computer
-    and Internet Use,Types of Internet Subscriptions,2018 FCC Broadband Deployment
-    Report
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec4ALoKiw1Xy0dGV
+  datasets copy:
+  - recZNFGjpitzE7KEC
+  - rec6ySqXKXvIBlxO3
+  - rec0A4UuO6qXPkQR9
+  - recyPSmntgt0GM5LC
+  - recOXtcCTQbCPaQN3
   email: michael.j.martin@census.gov
   name: Mike Martin
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: SAM.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec7rdADIMHiQS3NH
-  email: christy.hermansen@gsa.gov
-  name: Christy Hermansen
-  organizations:
-  - recVJjEPH9nXp8FxU
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: Legal
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8CvIOiyszGQZ1W
-  email: bruno.james@dol.gov
-  name: James Bruno
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8HWN7smPSWdr0q
-  datasets:
-  - recknArQexAH1tl79
-  datasets copy: NAIP public image service
-  email: joan.biediger@usda.gov
-  name: Joan Biediger
-  natl env datasets: NAIP public image dates, NAIP public image service
-  organizations:
-  - recgu9rojBM877pZu
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico Open Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8JUUnpGztSLHmF
-  email: francisco.pesante@estadisticas.pr
-  name: Francisco Pesante (Statistical Project Assitant)
-  organizations:
-  - recwOa4jdRSkJ4OvI
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8fbR7uM1afJspP
-  datasets:
-  - recykMWB26vuc95hF
-  datasets copy: Longitudinal Employer-Household Dynamics
-  email: patrick.hayward@census.gov
-  name: Patrick (Heath) Hayward
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  - recukKC4tJpTJtQCA
-  - recFTqPCG3W22jxKO
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8frXvgb6ojfu8u
-  datasets:
-  - recRBr1e8vcSPBz4l
-  - recRWcp9PdKvVyH9J
-  - rec29lSmjPIsIrR1c
-  datasets copy: American Community Survey - Population Data,American Community Survey
-    Demographic Data,Tribal Data Across Census Products
-  email: eric.a.coyle@census.gov
-  name: Eric Coyle
-  organizations:
-  - recyYK7Ezm00JSEPC
-  organizations 2: U.S. Census Bureau
-  sprints: 2017 Sprint 1 (ED HUD VA)
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8rWE5oNtRyUGRQ
-  email: sadeshiy@nsf.gov
-  name: Dr. Samson Adeshiyan
-  organizations:
-  - recjZcfdfL764BVoh
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Tribal/Native Hawaiian Pacific Islander Populations
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rec8zTJDeNX23jMTd
-  email: bina.k.saafi@census.gov
-  name: Bina Saafi
-  organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recAWfCmvz8Efl6PN
-  datasets:
-  - rec467FwHH1OGgOH9
-  datasets copy: Map of Commingled Residential MRFs in the United States
-  email: aburman@recyclingpartnership.org
-  name: Aaron Burman
-  natl env datasets: Map of Commingled Residential MRFs in the United States
-  organizations:
-  - recp9lnb5H3jeALD7
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  - recA1rG7ifoIoXV1g
-  Topics: Education
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recB5gtHZLQQQYO9g
-  email: Charles.Higgins@ed.gov
-  name: Chuck Higgins
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Community Ambassador,Children Undercount
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recBO24Zj7h48Trtk
-  email: dstein@foramericaschildren.org
-  name: Deborah (Deb) Stein
-  organizations:
-  - recuuifQZRd3adWyD
-  sprints 2: 2020 Census
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recBccRxZwDbDcdtB
-  datasets:
-  - recykMWB26vuc95hF
-  datasets copy: Longitudinal Employer-Household Dynamics
-  email: 'earlene.kp.dowell@census.gov '
-  name: Earlene Dowell
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recBqlk9sZNxJTmHK
-  datasets:
-  - recmTV0cNOC2YBim3
-  datasets copy: OpenDataPhilly
-  email: rzerbo@cleanair.org
-  name: Russell Zerbo
-  natl env datasets: OpenDataPhilly
-  organizations:
-  - recBMDNBNbVuBgZ7v
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recBv1lYqeoCo9RZq
-  datasets:
-  - recB7iOgW6mtEI5vJ
-  datasets copy: HUD EnVision Centers
-  email: Jennifer.Bert@hud.gov
-  name: Jennifer Bert
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recBvAsgnqIOh2bDv
-  email: pax1@cdc.gov
-  name: Paula Braun
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recCXP4aOCkZfdavv
-  datasets:
-  - recvKDNBMnQIvDmvX
-  datasets copy: CDC Health Data (WONDER)
-  email: seconomou@cdc.gov
-  name: Sigrid Economou
-  natl env datasets: CDC Health Data (WONDER)
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recD0Pjob2B7y6XuI
-  datasets:
-  - recnwGVi3alool6sp
-  datasets copy: 'CDFI Fund: Transaction Level Report (TLR) & Consumer Loan Report
-    (CLR) Data'
-  email: mckays@cdfi.treas.gov
-  name: Shannon A. McKay
-  organizations:
-  - recFzsEdj336OX3nl
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recDoLylVg45rOcK0
-  email: christian.bernardgomez@fema.dhs.gov
-  name: Christian Bernard
-  organizations:
-  - recatG1j9O95f4hHd
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Elevation & Hydrography
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recEDjbQI1x2ulkZK
-  email: jstoker@usgs.gov
-  name: Jason Stoker
-  organizations:
-  - recZ2b3pUW2jQXXH7
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recEOQP7RW5ZIWPgs
-  email: Joel.Cohen@nsc.eop.gov
-  name: Joel Cohen
-  organizations:
-  - recQiQ0WKud6Ym7An
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC,Digital Literacy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recES4luPQZCIBbCs
-  email: elizabeth.jeninga@census.gov
-  name: Liz Jeninga
-  organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recEYazOO0ToYvNX4
-  datasets:
-  - recmTYH8upQLSP4QB
-  - recIrolYXTkhQcRs4
-  datasets copy: O*NET Web Services,Occupational Employment Statistics
-  email: frugoli.pam@dol.gov
-  name: Pam Frugoli
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Census API,Visualizations
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recFAu8uOEUsWNJ9f
-  email: gerson.d.vasquez@census.gov
-  name: Gerson Vasquez
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recFBCsPFypih5Z6m
-  datasets:
-  - recfqgzq4WURn4InV
-  - recS3mqTecCOqtSHK
-  datasets copy: 'Supplemental: Measuring Household Experiences During the Coronavirus
-    Pandemic,COVID-19 Household Pulse Survey'
-  email: hyon.b.shin@census.gov
-  name: Hyon Shin
-  organizations:
-  - recyYK7Ezm00JSEPC
-  treasury_datasets: '"COVID-19 Household Pulse Survey, U.S. Census Bureau"'
-- Role: Census Expert
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recFr8RmR5VBYmzi0
-  datasets:
-  - recJHnNRxRzYd1yKH
-  - recto9SB8Jo1r9KNJ
-  - recOEQOwpim2iGrah
-  datasets copy: Small Area Income and Poverty Estimates (SAIPE),Population and Housing
-    Unit Estimates,Community Resilience Estimates
-  email: alexandra.s.barker@census.gov
-  name: Alexandra Barker
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recGOvI0mnoIfYEsj
-  datasets:
-  - rec1f23EREOUVJYhH
-  datasets copy: 'Supplemental: Survey of Income and Program Participation (SIPP)'
-  email: mark.a.klee@census.gov
-  name: Mark Klee
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recGlFigGmyoB98Bj
-  datasets:
-  - recRC2AKh3XXjaCpB
-  - reccRajxHZjzHYIHJ
-  datasets copy: 'HUD Enterprise GIS,HUD Community Assessment Reporting Tool (CART) '
-  email: ted.e.payne@hud.gov
-  name: Ted Payne
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recGy1XSw4B6vNi4t
-  datasets:
-  - recr7JQaBpqsPfmBo
-  - recGsF8XgimSk2Bdl
-  - recHyJkc8wqmpXqb3
-  datasets copy: Bipartisan Infrastructure Law Investments,USA Spending,Justice40
-  email: mbrown8@doc.gov
-  name: Meredith Brown
-  organizations:
-  - recafoZTP9RJqBuyZ
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recHSjGYvsc5vUHwO
-  email: tara.kunkel@ojp.usdoj.gov
-  name: Tara Kunkel
-  organizations:
-  - recFfoDYYBgoOLNvY
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: grants.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recHTN3yveAo84g5D
-  email: "Lakisa.carter@hhs.gov\_"
-  name: Lakisa Carter
-  organizations:
-  - reco8SlTqN3UExT1C
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recHv0qWEsq5xX5Es
-  datasets:
-  - reclkfsRBKDTLzB0A
-  - recubaMpjueneWg4D
-  - reciAz4KVSH8v8glZ
-  datasets copy: AirNow,AirNow API for Developers,Outdoor Air Quality Data
-  email: dickerson.phil@epa.gov
-  name: Phil Dickerson
-  natl env datasets: AirNow, AirNow API for Developers
-  organizations:
-  - rec2t8CsWwMoLu9Kd
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recIAe0TWI1Nlr8po
-  datasets:
-  - recDen4l9eWaJx7Le
-  datasets copy: Fair-Market Rent Data
-  email: peter.b.kahn@hud.gov
-  name: Peter Kahn
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recIJ7mnYukCjFtbS
-  email: hudson.hollister@datacoalition.org
-  name: Hudson Hollister
-  organizations:
-  - recur8laxDKOlWPTV
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: geoplatform.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recIS06A2AJF7Fgf0
-  datasets copy: Federal Geo-platform
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - geoplatform.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec4pFyKWrr2S7g6E
+  datasets copy:
+  - recm47KTRHojn3Eur
   email: joel.d.schlagel@usace.army.mil
   name: 'Joel Schlagel '
   natl env datasets: Federal Geo-platform
   organizations:
-  - recqibH9LZdIzFItq
-- Role: Data Steward
+  - rec9uX42IAMh0rojC
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Population Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recIWkWBufXSMh4qr
-  email: Benjamin.C.Bolender@census.gov
-  name: Ben Bolender
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recIa3sF9IStpY3s9
-  datasets:
-  - recoIQcx6OisWSpu6
-  datasets copy: Annual Mineral Commodity Summaries
-  email: escottsangine@usgs.gov
-  name: Beth Sangine
-  natl env datasets: Annual Mineral Commodity Summaries
-  organizations:
-  - recZ2b3pUW2jQXXH7
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recIl8FcrMSWNPkHi
-  email: alejandro.contreras@sba.gov
-  name: Alejandro Contreras
-  organizations:
-  - recGKcxgptsB6VZ4Q
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recJ5QbrB0Ui6FBKz
-  email: Hernandez_Eric@bah.com
-  name: Eric Hernandez
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recJFStqq2obxv93T
-  email: Victor.prikhodko@nih.gov
-  name: 'Victor Prikhodko '
-  organizations:
-  - recI9gWWpL4lN5fJB
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recJSuI3GR58FxLKL
-  datasets:
-  - recZBnMK1MX44jguT
-  datasets copy: 'Source Data: TIDES Coastal Cleanup'
-  email: ' skollar@oceanconservancy.org'
-  name: Sarah Kollar
-  natl env datasets: 'Source Data: TIDES Coastal Cleanup'
-  organizations:
-  - recJZfSTCggsKX1S5
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC,Community Outreach
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recJbtFpag9XCrecG
-  email: denice.ross@georgetown.edu
-  name: Denice Ross
-  organizations:
-  - reclA3YOLmM5qh1bG
-  sprints 2: 2020 Census
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Digital Divide,Inclusion,Broadband Mapping
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recJzHLb0XZOEs4kv
-  email: swoods@ntia.gov
-  name: Scott Woods
-  organizations:
-  - recdOguZEuM5Oz13D
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: 2020 Census Jobs,Enumerator
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recKU9iodogEWxmNA
-  datasets:
-  - recnxjeQFpK8M4yKl
-  datasets copy: Census Takers
-  email: sari.sue.jolly@census.gov
-  name: Sari Sue Jolly
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Hawaii
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recKx0562gt23j5LY
-  email: rebekah@akakaforests.org
-  name: Rebekah Ohara
-  organizations:
-  - recQ9YFgaAEbes2im
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recKx8kDOmFgLofzr
-  datasets:
-  - rectgn5Uutjy1YiPT
-  datasets copy: 'HUD: Section 184 Program Data'
-  email: jad.k.atallah@hud.gov
-  name: Jad Atallah
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  - recA1rG7ifoIoXV1g
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recLRi3Yhww0NvxCi
-  email: brown.brandon@dol.gov
-  name: Brandon Brown
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recLtvwKRH6WT33mD
-  email: jayne.morrow@nist.gov
-  name: Jayne Morrow
-  organizations:
-  - rec4bM7VPZ0cfKjck
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recM78RgOcozkYO7i
-  datasets:
-  - recBzyAmZUegx8G70
-  datasets copy: SBA Datasets
-  email: Joshua.dykema@sba.gov
-  name: Joshua Dykema
-  organizations:
-  - recGKcxgptsB6VZ4Q
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recMJrvkR9HmLOCjg
-  email: nikki.churchwell@ed.gov
-  name: Nikki Churchwell
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-  organizations 2: U.S. Department of Education
-  sprints: 2018 Sprint 1 (ED DOL OMB/Treasury)
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico Census Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recMkHmLwPhTb4y7t
-  email: giselle.m.laffitte@census.gov
-  name: Giselle Laffitte
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recMx3amVi3FBrgmZ
-  datasets:
-  - recdh2HRXBj0k8pZd
-  - recZgeGlKCOSX2Gje
-  - recVYn4ubgTb13ms2
-  - recqwjBi40vEnccv0
-  datasets copy: CDC WONDER,Birth Data,Life Expectancy,Drug Overdose Deaths
-  email: hhi0@cdc.gov
-  name: Farida Ahmed
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recNB4Yv62mSPMbQL
-  datasets:
-  - recUwrES9yVsQWb3j
-  datasets copy: 'Supplemental: Small Business Pulse Survey: Tracking Changes During
-    The Coronavirus Pandemic'
-  email: Catherine.D.Buffington@census.gov
-  name: Catherine D Buffington
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recNwhGaP41IeqHAd
-  datasets:
-  - recYRf0SLfeG1x6eX
-  datasets copy: Small Business Innovation Research (SBIR) Program Data
-  email: jverostek@dawnbreaker.com
-  name: JP Verostek
-  organizations:
-  - recGKcxgptsB6VZ4Q
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recOAGlSPto6s1WU4
-  datasets:
-  - recKUlQKelvq1hILY
-  - recJBm8sddyAT2jTf
-  datasets copy: National Environmental Public Health Tracking Network,National Environmental
-    Public Health Tracking
-  email: paw8@cdc.gov
-  name: Patrick Wall
-  natl env datasets: National Environmental Public Health Tracking
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recOPJi6dlJgeHjk9
-  datasets:
-  - rec467FwHH1OGgOH9
-  datasets copy: Map of Commingled Residential MRFs in the United States
-  email: ddethomas@recyclingpartnership.org
-  name: Dylan de Thomas
-  natl env datasets: Map of Commingled Residential MRFs in the United States
-  organizations:
-  - recp9lnb5H3jeALD7
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recOfGnX2rWVKbRin
-  email: dmitri@datasociety.co
-  name: 'Dmitri Adler '
-  organizations:
-  - recbtAfEcC7Mf3q0E
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: http://abrepr.org/
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recOiS7FtTPAzPaPy
-  email: aacruzpr@gmail.com
-  name: Arnaldo Cruz (Founder/Director)
-  organizations:
-  - recwOa4jdRSkJ4OvI
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recOjxsUw6joApHXI
-  datasets:
-  - recj7d0fcD9Jd8TzT
-  datasets copy: Higher Education Research & Development Survey (HERD)
-  email: mgibbons@nsf.gov
-  name: Michael Gibbons
-  organizations:
-  - recWsrOQjOrhFE1wb
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recOqraGsw61zOImK
-  datasets:
-  - rectCCdf3q3qnhh1a
-  datasets copy: Stats America
-  email: zipperr@iu.edu
-  name: Riley Zipper
-  organizations:
-  - recGvmmLjZpkPwddI
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Digital Divide,Broadband Mapping,Internet Use Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recPA5yDZDpmb1qPc
-  email: Michael.j.martin@census.gov
-  name: Michael Martin
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: Federal Audit Clearinghouse
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recPQgXuuXyqZpzsz
-  email: shelley.goss@census.gov
-  name: Shelley Goss
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recQ3nvxJVU0kmcVg
-  datasets:
-  - recNpnafpTlVE3Ixc
-  datasets copy: USDA Rural Gateway
-  email: james.barham@usda.gov
-  name: James Barham
-  organizations:
-  - rec17HlmcA9QBmyN9
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recQKSwd2U5us4Ivz
-  datasets:
-  - recY9R3ZdnUriEnOH
-  datasets copy: National Institutes of Health Awards
-  email: matthew.mcmahon@nih.gov
-  name: Matt McMahon
-  organizations:
-  - recTQFVAbtcOEpmCJ
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico Open Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recQbzK6WzEqkTH6g
-  email: mario.marazzi@estadisticas.pr
-  name: Mario Marazzi (Director)
-  organizations:
-  - recwOa4jdRSkJ4OvI
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recQdCdNdIdEsN4yd
-  datasets:
-  - recVZK7osLtuXJvj5
-  - recnZB6xZ0Fd7aZ8t
-  - recnCm26ZftNA7FDf
-  - recUEGmoIBUquG5mP
-  - reccRYnReBOOlPRuA
-  - recYE94BKfDnLehP1
-  - recC12fjzpJr6H0Ic
-  datasets copy: 'The Magic School Bus Gets Cleaned Up,Coloring Book titled Carl Gets
-    Some Rest,Idle-Free Schools Toolkit for a Healthy School Environment,Ports Primer
-    for Communities: An Overview of Ports Planning and Operations to Support Community
-    Participation,Learning and Teaching about the Environment Web Resource,National
-    Port Strategy Assessment: Reducing Air Pollution and Greenhouse Gases at U.S.
-    Ports,Reducing School Bus Idling: Clean Air Poster'
-  email: McCoy.Britney@epa.gov
-  name: Britney McCoy
-  natl env datasets: 'Coloring Book titled Carl Gets Some Rest, Ports Primer for Communities:
-    An Overview of Ports Planning and Operations to Support Community Participation,
-    Learning and Teaching about the Environment Web Resource, National Port Strategy
-    Assessment: Reducing Air Pollution and Greenhouse Gases at U.S. Ports, Reducing
-    School Bus Idling: Clean Air Poster, The Magic School Bus Gets Cleaned Up, Idle-Free
-    Schools Toolkit for a Healthy School Environment'
-  organizations:
-  - rec2t8CsWwMoLu9Kd
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recQqg3oIzW9aHWu9
-  datasets:
-  - rechIMoublArYgs1S
-  - rec1Cjf1WRwwlqrjn
-  - recLMpSjnojlhbSRN
-  datasets copy: USGS National Map, USGS Current Water Data for the Nation,The National
-    Map
-  email: burbanma@usgs.gov
-  name: Gita Urban-Mathieux
-  natl env datasets: USGS National Map
-  organizations:
-  - recZ2b3pUW2jQXXH7
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recRFXIzzUUM6Pxfj
-  datasets:
-  - recmb8Ev9e6hvmjVV
-  datasets copy: Regional Innovation Strategies (RIS) Program
-  email: emiller@eda.gov
-  name: Emily Miller
-  organizations 2: U.S. Economic Development Administration
-  sprints: Workforce
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recRLaqJ8kkGKFLnb
-  datasets:
-  - recrJtSEWj1zyf4xV
-  datasets copy: Local Area Transportation Characteristics for Households Data
-  email: clara.reschovsky@dot.gov
-  name: Clara Reschovsky
-  natl env datasets: Local Area Transportation Characteristics for Households Data
-  organizations:
-  - recftWiv4GQoFeVH5
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recRaNXCZYALBLCve
-  datasets:
-  - recH7jLkMhivvZQnJ
-  datasets copy: ERS GIS Map Services and API
-  email: alana.y.rhone@usda.gov
-  name: Alana Rhone
-  organizations:
-  - recgu9rojBM877pZu
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recRtIJhgYzB7aJdK
-  datasets:
-  - recnxjeQFpK8M4yKl
-  datasets copy: Census Takers
-  email: monica.k.dukes@census.gov
-  name: Monika Dukes
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recS3O30QDq9HPNr9
-  datasets:
-  - recEArbTGvOPiGJuj
-  - recJteZkwleGM6fcu
-  datasets copy: Economic Census,Census Business Builder
-  email: michael.j.sprung@census.gov
-  name: Michael Sprung
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Topics: veterans
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recS8JKfkF0SA53Eg
-  email: david.maron@va.gov
-  name: David Maron
-  organizations:
-  - recWzA4QJklQIkckF
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recSA874w5W9vqMb6
-  datasets:
-  - recBfgzUhOftl5IJJ
-  datasets copy: Homeless Point-in-Time (PIT) and Housing Inventory Count (HIC)
-  email: William.Snow@hud.gov
-  name: William Snow
-  organizations:
-  - recgvccBwBlf8xOnI
-  sprints 2: 2020 Census
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: 2020 Census Jobs,Enumerator
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recSrjAlmoHJ0f3dr
-  datasets:
-  - recnxjeQFpK8M4yKl
-  datasets copy: Census Takers
-  email: Anna.Parikos@census.gov
-  name: Anna Parikos
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Messaging Research
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recT9utTKdjtvvMMH
-  email: 'jennifer.hunter.childs@census.gov '
-  name: Jenny Hunter Childs
-  organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: performance.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recTD7boNZBlffjUT
-  email: amin.mehr@gsa.gov
-  name: Amin Mehr
-  organizations:
-  - recVJjEPH9nXp8FxU
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recTonEA9s4hL38KH
-  email: merav@datasociety.co
-  name: Merav Yuravlivker
-  organizations:
-  - recbtAfEcC7Mf3q0E
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Homeless
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recTtvCHGgf5qmJfJ
-  email: 'crystal.l.miller@census.gov '
-  name: Crystal Miller
-  organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico Census Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recUgSh8GEPverGzB
-  email: ana.maria.garcia@census.gov
-  name: Ana-Maria Garcia (Data Dissemination Specialist)
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recV9bkE71ULKqbW2
-  email: Adam_S_Lipton@omb.eop.gov
-  name: Adam Lipton
-  organizations:
-  - recyI3MGIU3h1aX6k
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recVymauQ6CzQeiot
-  datasets:
-  - recbGLnxVfMIy90CC
-  datasets copy: Traffic Volume Trends
-  email: patrick.zhang@dot.gov
-  name: Patrick Zhang
-  natl env datasets: Traffic Volume Trends
-  organizations:
-  - recftWiv4GQoFeVH5
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recW42EfJVepKDO0O
-  datasets:
-  - reckbz0cWRzzOlzwe
-  - recND8q0yXrBVUe3Y
-  datasets copy: 'Supplemental: State & Local Government Finance Historical Datasets
-    and Tables,Supplemental: State Government Tax Dataset'
-  email: Randy.A.Moore@census.gov
-  name: Randy Moore
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: TAGGS
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recWH3ztPMixD90lf
-  email: yolanda.jones@hhs.gov
-  name: Yolanda Jones
-  organizations:
-  - reco8SlTqN3UExT1C
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recWKcdIuskZ8hhhy
-  email: Natalie.M.McIntyre@ondcp.eop.gov
-  name: Natalie McIntyre
-  organizations:
-  - recwBvckTmL5T9LZy
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Education
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recX9o9bTUWCNLqsQ
-  email: Ivan.Metzger@ed.gov
-  name: Ivan Metzger
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recXCPQN6trETLjJd
-  datasets:
-  - recoIQcx6OisWSpu6
-  datasets copy: Annual Mineral Commodity Summaries
-  email: tcrafford@usgs.gov
-  name: Tom Crafford
-  natl env datasets: Annual Mineral Commodity Summaries
-  organizations:
-  - recZ2b3pUW2jQXXH7
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: SBA
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recXFKZBUzBVn7Du0
-  email: Emily.Knickerbocker@sba.gov
-  name: Emily Knickerbocker
-  organizations:
-  - recGKcxgptsB6VZ4Q
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recXLeBpOi6X3M1kM
-  datasets:
-  - recq9eQvgF4tnKR1G
-  - recmcuEyHv6TtTEmH
-  datasets copy: Low-Income Housing Tax Credit Qualified Census Tracts,Low-Income
-    Housing Tax Credit Database
-  email: Michael.k.hollar@hud.gov
-  name: Mike Hollar
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Philadelphia STEW MAP
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recXRng8SVmXFkXHA
-  email: Krista.Heinlen@davey.com
-  name: Krista Heinlen
-  organizations:
-  - recCTJa74hcc8iU2B
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recXjda79YVsr93iX
-  datasets:
-  - recGdQ7Cdadwh5ayz
-  datasets copy: "2020 Census Demographic Data Viewer \u2013 U.S. Census Bureau"
-  email: kevin.j.hawley@census.gov
-  name: Kevin Hawley
-  organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recYEZ23btEnXU879
-  datasets:
-  - recrxludkAc5vNpsA
-  datasets copy: Broadband USA
-  email: broadbandusa@ntia.gov
-  name: Karen Perry
-  organizations:
-  - recdOguZEuM5Oz13D
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recYV6QVpAImcRkja
-  datasets:
-  - recRC2AKh3XXjaCpB
-  datasets copy: HUD Enterprise GIS
-  email: john.c.huggins@hud.gov
-  name: John Huggins
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recYue4zcxDzP3Fww
-  datasets:
-  - recfqgzq4WURn4InV
-  - recS3mqTecCOqtSHK
-  - rec1f23EREOUVJYhH
-  datasets copy: 'Supplemental: Measuring Household Experiences During the Coronavirus
-    Pandemic,Supplemental: Survey of Income and Program Participation (SIPP),COVID-19
-    Household Pulse Survey'
-  email: Jason.M.Fields@Census.gov
-  name: Jason Fields
-  organizations:
-  - recyYK7Ezm00JSEPC
-  treasury_datasets: '"COVID-19 Household Pulse Survey, U.S. Census Bureau"'
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recZLB1PIEGulTdvy
-  email: Matthew.Greene@ed.gov
-  name: Matthew Greene
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
-  Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recZSRirzMEtTsNz6
-  email: Max.A.Bing-Grant@hud.gov
-  name: Max Bing-Grant
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recZxz5YmYJ72zD0V
-  email: matthew.mcmahon@nih.gov
-  name: 'Matt McMahon '
-  organizations:
-  - recTQFVAbtcOEpmCJ
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: Census ,Education
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recazPqvFzxaosIGa
-  email: 'Laura.C.Nixon@census.gov '
-  name: 'Laura Nixon '
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: https://centropr.hunter.cuny.edu/research/data-center
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recb7VVXJAWeQkAyA
-  email: jhinojos@hunter.cuny.edu
-  name: Jennifer Hinojosa (Research Associate & Data Center Coordinator)
-  organizations:
-  - recJTrlx19pxu6Xro
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Balitmore STEW-MAP
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recbTVNWXYJ2Yj36C
-  email: 'michelle.l.johnson.6@gmail.com; michelleljohnson@fs.fed.us '
-  name: Michelle Johnson
-  organizations:
-  - recW0k0JIXNk04Rxg
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reccOQVg3i6mOJmR2
-  datasets copy: Treasury ZIP Code Statistics of Income,Tax Stats
-  email: kevin.k.pierce@irs.gov
-  name: 'Kevin Pierce '
-  organizations:
-  - recouewf1J78AYPZn
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reccWPHVj1j0uvb0z
-  email: Qualter.Michael@dol.gov
-  name: "Michael Qualter \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: grants.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reccbZOdJaPQd8AtW
-  email: michael.peckham@hhs.gov
-  name: Michael Peckham
-  organizations:
-  - reco8SlTqN3UExT1C
-- Role: Data Steward
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reccrTvnyQrUyg9cu
-  email: Charles.Selby@va.gov
-  name: Charles Selby
-  organizations:
-  - recWzA4QJklQIkckF
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reccsbJPbARRxWH4W
-  datasets:
-  - recB7iOgW6mtEI5vJ
-  datasets copy: HUD EnVision Centers
-  email: Adam.R.Rumrill@hud.gov
-  name: Adam Rumrill
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recczZqhafjswjrJP
-  datasets:
-  - recz0TK5ZWGpnxGnB
-  - recCxehKRgLHDeFhx
-  datasets copy: CBAMS,"2020 Census Research, Operational Plans, and Oversight",Audience
-    Segment Descriptions
-  email: gina.k.walejko@census.gov
-  name: Gina Walejko
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recdCNQYzoZq2NVKI
-  datasets:
-  - rece2siZPLPD0Gt6L
-  datasets copy: Integrated Postsecondary Education Data System
-  email: tara.lawley@ed.gov
-  name: Tara Lawley
-  organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Balitmore STEW-MAP
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recdnXE1kX5faXaWs
-  email: nsonti.fs@gmail.com
-  name: Nancy Sonti
-  organizations:
-  - recW0k0JIXNk04Rxg
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recdtcvKaXp1iyaQP
-  datasets:
-  - recZrWWMz58C3QJdR
-  - receKUYcQGJffHUwK
-  - recPsJpvSfzxOeYU9
-  - rec8mdVFZfZPvSksl
-  - recwlv9PkWqNfef54
-  datasets copy: Picture of Subsidized Households,HUD Data Portal,American Housing
-    Survey,HUD Services Data ,HUD Data Portal
-  email: Lydia.B.Taghavi@hud.gov
-  name: Lydia Taghavi
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: 2020 Census Jobs,Enumerator
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: receBnkQHqDVx4YQx
-  email: Katrina.R.King@census.gov
-  name: Katrina King
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: receK0fqxdya3EjdL
-  datasets:
-  - recZKTLo2F2yNaDIr
-  datasets copy: List of Federal Efforts Supporting Entrepreneurship
-  email: areamer@gwu.edu
-  name: Anrew Reamer
-  organizations:
-  - recywa4zkywHcG36w
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: https://centropr.hunter.cuny.edu/research/data-center
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: receMobF4cs6Lmx95
-  email: edwin.melendez@hunter.cuny.edu
-  name: Edwin Melendez (Director)
-  organizations:
-  - recJTrlx19pxu6Xro
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: receVhDE1rvAqIuUb
-  datasets:
-  - recdTHvskKn2dFRS2
-  - recPnMrr1Cif5fsQb
-  datasets copy: Recycling Economic Information (REI) Report,"Facts and Figures about
-    Materials, Waste and Recycling"
-  email: Pillsbury.Hope@epa.gov
-  name: Hope Pillsbury
-  natl env datasets: Recycling Economic Information (REI) Report, "Facts and Figures
-    about Materials, Waste and Recycling"
-  organizations:
-  - rec2t8CsWwMoLu9Kd
-- Role: Data Steward
-  Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: grants.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rececXSSOx7vSVhSc
-  email: marc.pitts@hhs.gov
-  name: Marc Pits
-  organizations:
-  - reco8SlTqN3UExT1C
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: receiWBf89Pnx2rgr
-  datasets:
-  - rechxAgpsTcuVjCMt
-  datasets copy: American Community Survey (ACS)
-  email: caleb.m.hopler@census.gov
-  name: Caleb Hopler
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: receio4MBarQlfBkB
-  email: laura@brighthive.io
-  name: Laura Faulkner
-  organizations:
-  - recdse3BeifeC5Tt5
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Population Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recfdeAgwkiGRsOVG
-  email: Marc.J.Perry@census.gov
-  name: Marc Perry
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Elevation & Hydrography
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recfqhMMnBWIKUkCq
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Elevation & Hydrography
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec4ybUvKuuJ8vzHk
   email: rdollison@usgs.gov
   name: Rob Dollison
   organizations:
-  - recZ2b3pUW2jQXXH7
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recg80uvNVG63SMKV
-  datasets:
-  - rec1f23EREOUVJYhH
-  datasets copy: 'Supplemental: Survey of Income and Program Participation (SIPP)'
-  email: shalise.ayromloo@census.gov
-  name: Shalise Ayromloo
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Census Expert
+  - recIeXqiRxBShJDxj
+- Role:
+  - Census Expert
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Community Ambassador
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recgV3Ux5ohUjeHLG
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Community Ambassador
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: rec57tS0wahsipVJa
   email: austin.davis@baltimorecity.gov
   name: Austin Davis
   organizations:
-  - recnkBjh3U1ONBQXK
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recgchGmJgtiNyXAR
-  datasets:
-  - rec1rMIxJ321BItun
-  - recCVR0oHSecA3m9h
-  datasets copy: Recycling Market Development Platform,Can Manufacturers Institute
-    Statistics
-  email: sbreen@cancentral.com
-  name: Scott Breen
-  natl env datasets: Recycling Market Development Platform, Can Manufacturers Institute
-    Statistics
+  - rec6wnGa0vAnenwNW
+- Role:
+  - Data Steward
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec5DxuohQvDx2z1M
+  datasets copy:
+  - rectwsic1FROXAVoz
+  email: monica.k.dukes@census.gov
+  name: Monika Dukes
   organizations:
-  - rec7v6LoLcHgv7nbK
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rech4MrkKRi4HDmIL
-  datasets:
-  - recOyNODQusdK18W9
-  datasets copy: The Undercount of Young Children
-  email: eric.b.jensen@census.gov
-  name: Eric Jensen
-  organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rechibdd6ADL6Cutz
-  datasets:
-  - rec56HRSnM97bNxnl
-  datasets copy: 'The Quarterly Census of Employment and Wages (QCEW) '
-  email: hiles.dave@bls.gov
-  name: Dave Hiles
-  organizations:
-  - recohxzmlcvX2WHda
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reci8JwnOzbdaaJHx
-  datasets:
-  - recuzZRV5AcgUbh44
-  datasets copy: 'Supplemental: The Annual Survey of Manufactures (ASM)'
-  email: rollison.edewor@census.gov
-  name: Rollison Edewor
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+- Role:
+  - Census Expert
   Sprint:
-  - rectIGl9DbypUw3c9
-  - recukKC4tJpTJtQCA
-  - recA1rG7ifoIoXV1g
-  - recFTqPCG3W22jxKO
-  Topics: Census ,Economic Data,OnTheMap for Emergency Management
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reciHebdvnFg0L8Bj
-  datasets:
-  - recHwNn1fMZUsFzy6
-  - recJHe9TaiuKP2lYa
-  - recGqRbqqtlGmqb55
-  - recsmhkrZXybvGqfc
-  - recdBQ9LHdzaRN6iM
-  - recPCJpETqarQz3cp
-  - recwL1TPwMm9B3QfH
-  - recBblIyIcq3rlqD3
-  - recz6AVcwkhwBqHkh
-  - recrK1Dou8fyWoTxp
-  - rec77KWwXn40pNo8k
-  - recu8YKiZ5Q8bteQm
-  - recpBI2Ca8yITaJ5X
-  - recACmS1ArA4iDZ5h
-  - recTqwlJ7MFPVICJP
-  - recWXUa2LZzBK2yHl
-  - rec1w7GW3Yei5NuwX
-  datasets copy: Employment Data from Census by Geography,USA Trade Data,Zip Code
-    Business Patterns,Quarterly Workforce Indicators,County Business Patterns,Non-Employer
-    Statistics,Economic Census Data,Survey of Business Owners (SBO),Annual Survey
-    of Entrepreneurs,Business Formation Statistics,American Community Survey APIs,Monthly
-    Industry Indicators,Economic Census ,County Business Patterns,Business Formation
-    Statistics,Annual Business Survey,Nonemployer Statistics
-  email: Andrew.W.Hait@census.gov
-  name: Andy Hait
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Homeless
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: rec5HGdhh45OGN7ak
+  email: 'crystal.l.miller@census.gov '
+  name: Crystal Miller
   organizations:
-  - recyYK7Ezm00JSEPC
-  treasury_datasets: "\"COVID-19 Data Hub \u2013 Data Equity, U.S. Census Bureau \"\
-    ,Annual Business Survey"
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recind1OzXnnBU8TR
-  email: iris.friday@hud.gov
-  name: Iris Friday
-  organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Census Expert
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: ETA
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recireCdvcG1pwieZ
-  email: Uldricks.Nathan.R@dol.gov
-  name: Nathan Uldricks
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Homeless
+  - Native American Populations
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: rec5tLjbE4LibcnOt
+  email: william.snow@hud.gov
+  name: William Snow
   organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recizr70HDUk9EXvW
-  email: fitzpatrick_kevin@bah.com
-  name: Kevin Fitzpatrick
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - https://centropr.hunter.cuny.edu/research/data-center
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec5xK4SBYAerskJG
+  email: jhinojos@hunter.cuny.edu
+  name: Jennifer Hinojosa (Research Associate & Data Center Coordinator)
   organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recj2kooNBrtVUclA
-  datasets:
-  - recpGkD5yIt7P8n4n
-  datasets copy: USDA Rural Development Innovation Center Data
-  email: Kasey.Martin@usda.gov
-  name: Kasey Martin
-  organizations:
-  - recgu9rojBM877pZu
-- Role: Data Steward
+  - recs5dIqYKY6VSDhA
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recj410lwMvomL9rZ
-  datasets copy: Integrated Postsecondary Education Data System
+  - recjdd30fQXhPJBRs
+  Topics:
+  - grants.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec6FERja4LInGfBJ
+  email: john.enggren@hhs.gov
+  name: "John Enggren \_\_"
+  organizations:
+  - rec7kEIMnoCt5jzRO
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec6n9b70wKz3rRQ4
+  datasets copy:
+  - recwGorKcKSfePNuQ
   email: sarah.hay@ed.gov
   name: 'Sarah Hay '
   organizations:
-  - rec0lQgfT3fzwcTJ2
-- Role: Data Steward
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:25:59.000Z'
+  airtable_id: rec74RPDCm4A5N6a5
+  datasets copy:
+  - recnLvrltPmOQ8Szk
+  - recChqfYOwKjD7BCN
+  email: theresa.firestine@dot.gov
+  name: Theresa Firestine
+  natl env datasets: Local Area Transportation Characteristics for Households Data
+  organizations:
+  - recYFIFo1hpX60Bxh
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:23:15.000Z'
+  airtable_id: rec77xV22W8cmzvfr
+  datasets copy:
+  - recSK8F8W9MTmENvQ
+  - recUR2amUsIEtl8MC
+  email: hks9@cdc.gov
+  name: Heather Strosnider
+  natl env datasets: National Environmental Public Health Tracking
+  organizations:
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:18:01.000Z'
+  airtable_id: rec7Qv6dKCpkiOO3R
+  datasets copy:
+  - reczDBOMaslrm2OA7
+  - recWKG6Tk3h8W0wRl
+  - rec74zRdSXiyw8GSs
+  - recOPNtfUo2iKpuiG
+  email: bishen.singh@nih.gov
+  name: Bishen Singh
+  organizations:
+  - recC2rit84Ln5b2sV
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:29:59.000Z'
+  airtable_id: rec867rT4AH6cI8sI
+  datasets copy:
+  - rec9VoTfaLn5PRFPF
+  - recDj0M1962vY6YTk
+  - recsuMY9IqFxx5Zcv
+  email: dickerson.phil@epa.gov
+  name: Phil Dickerson
+  natl env datasets: AirNow, AirNow API for Developers
+  organizations:
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  - recFTqPCG3W22jxKO
-  Topics: OnTheMap for Emergency Management
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recj6rp41jFaiXX5F
-  datasets:
-  - recxvl0ovoB6H2Rqq
-  datasets copy: Census Business Builder
-  email: george.o.walker@census.gov
-  name: Chip Walker
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - http://abrepr.org/
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec8STLg6ogMR6QkN
+  email: aacruzpr@gmail.com
+  name: Arnaldo Cruz (Founder/Director)
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recjIMkAPMO5dyMRz
-  email: lung.tai@epa.gov
-  name: Tai Lung
-  organizations:
-  - rec2t8CsWwMoLu9Kd
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recjJFSYMpE9aLGGs
-  datasets:
-  - recZNM1mYtFvLUCYi
-  - recKrCTVvmMOdtXG6
-  datasets copy: 'U.S. Chronic Disease Indicators (CDI),"500 Cities: Local Data for
-    Better Health, 2019 release"'
-  email: 'hgl6@cdc.gov '
-  name: Hua Lu
-  natl env datasets: 'U.S. Chronic Disease Indicators (CDI), "500 Cities: Local Data
-    for Better Health, 2019 release"'
-  organizations:
-  - reckfO8zFNf8hS7Dz
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recjPVuGNzCXIvENV
-  datasets:
-  - rec1f23EREOUVJYhH
-  datasets copy: 'Supplemental: Survey of Income and Program Participation (SIPP)'
-  email: shelley.k.irving@census.gov
-  name: Shelley Irving
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recjpscvJKhkgdpAM
-  datasets:
-  - rec7G8Q7Qvoso86dL
-  - recnK3KWlyuOk4diH
-  - recbY9aaJ33dGsZWN
-  - recuuQLiak87Xedt1
-  - recUnAANpY8DSkKb2
-  - recUMOLxuABm1YQ2H
-  datasets copy: 'Integrated Data: Marine Debris Monitoring and Assessment Project,Earth
-    Challenge: Top 10 Most Common Plastics By Country Data,Earth Challenge: Open Data
-    Documentation,Earth Challenge: Citizen Science Cloud: Plastics Page,Earth Challenge:
-    Integrated Ocean Plastics Data,Earth Challenge 2020 Plastics Mobile  Widget Data '
+  - recf0WrcasrTaQulU
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:40:36.000Z'
+  airtable_id: rec8pjWAfuRGCTwyv
+  datasets copy:
+  - recZgkMmvFEU3UmmR
+  - rec1zdkhhenU7nlvi
+  - recvpP5sK7AvXRm9p
+  - recN5z2CHMgZYdRNU
+  - rec17A1VOfS59U3XQ
+  - recf7OceKPsBNTmxY
   email: 'anne.bowser@wilsoncenter.org '
   name: Anne Bowser
   natl env datasets: 'Integrated Data: Marine Debris Monitoring and Assessment Project,
@@ -1850,80 +409,1164 @@
     Clean Up, Earth Challenge: Integrated Ocean Plastics Data, Integrated Data: Marine
     Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget Data '
   organizations:
-  - recj9c68qg1yG2gjp
-- Role: Data Steward
+  - rec2lYt1nRA77OW9B
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  - recukKC4tJpTJtQCA
-  - recA1rG7ifoIoXV1g
-  - recFTqPCG3W22jxKO
-  - rectpInJ8wiI8iFVg
-  Topics: Census ,Census API
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reckqEKEZRaRnKNoF
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - FEMA Preparedness
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec99QsKV5obRresh
+  email: matthew.lyttle@fema.dhs.gov
+  name: 'Matt Lyttle '
+  organizations:
+  - recKCU373sCKBXdxg
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec9AvQGsxWqN1Kh1
+  email: Joel.Cohen@nsc.eop.gov
+  name: Joel Cohen
+  organizations:
+  - reczuCnPH5MFp8Nqz
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec9aaXv4D6XDZLRx
+  datasets copy:
+  - recOvARqRVOnEDZaC
+  email: zipperr@iu.edu
+  name: Riley Zipper
+  organizations:
+  - recpH8JEgAYTgiT3U
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Urban Tree Canopy Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec9i2mHgG5PIWsZH
+  email: 'jmgrove@gmail.com; morgangrove@fs.fed.us '
+  name: Morgan Grove
+  organizations:
+  - recFc6nCFymTrQxns
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:30:45.000Z'
+  airtable_id: rec9mso94wFAhugj0
+  datasets copy:
+  - recu0nspuvI729KIZ
+  - recXFh4Eki8pFMAvk
+  - recpOlHVBkiKQaj0e
+  email: mbrown8@doc.gov
+  name: Meredith Brown
+  organizations:
+  - recTramMMKqiRnaob
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rec9wrQsXxJoJlRNV
+  email: Natalie.M.McIntyre@ondcp.eop.gov
+  name: Natalie McIntyre
+  organizations:
+  - recfNhzdQXkEkVrPK
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recAU0oHEjRBGztaA
+  email: Karen.M.Deblasio@hud.gov
+  name: Karen Deblasio
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Census Expert
+  airtable_createdTime: '2023-10-16T21:09:35.000Z'
+  airtable_id: recBE5e4EdcxwgEUs
+  datasets copy:
+  - recD1BtWi96mmITl5
+  - recm2SUqMJlskBQ3X
+  - recQlMfxdjgz8EAUp
+  email: alexandra.s.barker@census.gov
+  name: Alexandra Barker
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:29:22.000Z'
+  airtable_id: recBNbbJZ1YZiHDSY
+  datasets copy:
+  - recGlX6TMHDWHQ4Uc
+  - receOltJBNofrZora
+  - recZbuzc8gMM1g7oo
+  - recqEBFSXQOykEExz
+  email: hhi0@cdc.gov
+  name: Farida Ahmed
+  organizations:
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Digital Divide
+  - Inclusion
+  - Broadband Mapping
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recBoQ2tkIcsQdiU1
+  email: etseng@ntia.gov
+  name: Emy Tseng
+  organizations:
+  - recW02RSB5lEflHTP
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:31:52.000Z'
+  airtable_id: recBtiKyPpAlwXIen
+  datasets copy:
+  - recZBBWHdXvEBKvSK
+  email: tcrafford@usgs.gov
+  name: Tom Crafford
+  natl env datasets: Annual Mineral Commodity Summaries
+  organizations:
+  - recIeXqiRxBShJDxj
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:25:27.000Z'
+  airtable_id: recByvCQTlZGlGVL5
+  datasets copy:
+  - recbZcZ3gL9bKPPzX
+  email: Kasey.Martin@usda.gov
+  name: Kasey Martin
+  organizations:
+  - recZGVOhgclHyT5PG
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC Populations
+  - Response Area Outreach Mapper
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recCbaaUBCIjQFXHN
+  datasets copy:
+  - reclrA9CxTYI7AmKt
+  email: suzanne.mcardle@census.gov
+  name: Suzanne McArdle
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recD9I1I9g7H5B6cq
+  email: 'tom@brighthive.io '
+  name: Tom Plagge
+  organizations:
+  - recWE0qubTON3Rzjh
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:42:12.000Z'
+  airtable_id: recDt942xOwmA5tpw
+  datasets copy:
+  - recK58L344ZC9oJQS
+  - recWNioGN2I7UEoOs
+  email: 'hgl6@cdc.gov '
+  name: Hua Lu
+  natl env datasets: 'U.S. Chronic Disease Indicators (CDI), "500 Cities: Local Data
+    for Better Health, 2019 release"'
+  organizations:
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Messaging Research
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recDz2Mc1yF0pAfd8
+  email: 'jennifer.hunter.childs@census.gov '
+  name: Jenny Hunter Childs
+  organizations:
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Population Data
+  - Race and Ethnic Research
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recE7EaIWYZ5BycGj
+  email: Nicholas.A.Jones@census.gov
+  name: Nicholas Jones
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:31:03.000Z'
+  airtable_id: recEcM0DyvD6Wl0m6
+  datasets copy:
+  - recTzOvE8ckrG9Hks
+  - recE8ATejdtcpBOuF
+  email: Amanda.Cayton@fiscal.treasury.gov
+  name: Amanda Cayton
+  organizations:
+  - recoLe16gECFfJJdx
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - TAGGS
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recElQFGInwHhECSu
+  email: yolanda.jones@hhs.gov
+  name: Yolanda Jones
+  organizations:
+  - rec7kEIMnoCt5jzRO
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recEnUonfmMHa9SM6
+  email: Hernandez_Eric@bah.com
+  name: Eric Hernandez
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - 'Census '
+  - Education
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recFCEfbOKdxkivIw
+  email: 'Laura.C.Nixon@census.gov '
+  name: 'Laura Nixon '
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:02:15.000Z'
+  airtable_id: recFEuLWdEAduA6cQ
+  datasets copy:
+  - recVAcy3hGrxaKHMy
+  - recBycJtWnqq8bfhk
+  - recUJMSndqRMjPaYz
+  email: Jason.M.Fields@Census.gov
+  name: Jason Fields
+  organizations:
+  - rechawuxwXzzaEkFO
+  treasury_datasets:
+  - rechAvYfiuInUaYDo
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - NAIP Imagery
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recFhTVXGD68GpeMF
+  email: john.mootz@slc.usda.gov
+  name: John Mootz
+  organizations:
+  - recZGVOhgclHyT5PG
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Digital Literacy
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recFu7iVSixXlsjJd
+  email: filippelli@newamerica.org
+  name: 'Maria Filipelli '
+  organizations:
+  - recHKZN7iwJfnu4f1
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recFzLkjhj1XfkHtk
+  email: dmitri@datasociety.co
+  name: 'Dmitri Adler '
+  organizations:
+  - recUFmCx9dGlGP6QQ
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:44:17.000Z'
+  airtable_id: recG2BqQxnxcMIeUv
+  datasets copy:
+  - recX1DorNN0UyAAny
+  email: birat.pandey@dot.gov
+  name: Birat Pandey
+  natl env datasets: Freight Analysis Framework
+  organizations:
+  - recYFIFo1hpX60Bxh
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recGH1EW3ZxWVNwDQ
+  email: daniel@espaciosabiertos.org
+  name: Daniel Santamaria (Research Director)
+  organizations:
+  - recfYpCEOFBzIZIgq
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC
+  - Digital Literacy
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recGHBxjaLmVCNP7u
+  email: elizabeth.jeninga@census.gov
+  name: Liz Jeninga
+  organizations:
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:45:37.000Z'
+  airtable_id: recGSqnluDAwi3xA2
+  datasets copy:
+  - rec0PJICH5aODa3FI
+  email: aburman@recyclingpartnership.org
+  name: Aaron Burman
+  natl env datasets: Map of Commingled Residential MRFs in the United States
+  organizations:
+  - rec8l7K42iCSFmrtj
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:32:39.000Z'
+  airtable_id: recGToBcOz6p3ZPmf
+  datasets copy:
+  - recZBBWHdXvEBKvSK
+  email: escottsangine@usgs.gov
+  name: Beth Sangine
+  natl env datasets: Annual Mineral Commodity Summaries
+  organizations:
+  - recIeXqiRxBShJDxj
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:30.000Z'
+  airtable_id: recGdztiYZaZdiT6d
+  datasets copy:
+  - reciP1VnzqGReOPEp
+  email: jad.k.atallah@hud.gov
+  name: Jad Atallah
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:57.000Z'
+  airtable_id: recH71v2BPYe2JI1M
+  email: iris.friday@hud.gov
+  name: Iris Friday
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recHHiufO1I5SkhUG
+  email: Matthew.b.wilson@ostp.eop.gov
+  name: 'Matt Wilson '
+  organizations:
+  - rec8pYSqjpjBStw0J
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - grants.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recHI38L6jDkxrKoK
+  email: marc.pitts@hhs.gov
+  name: Marc Pits
+  organizations:
+  - rec7kEIMnoCt5jzRO
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - Legal
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recHT2rwYAGjKQ2EO
+  email: bruno.james@dol.gov
+  name: James Bruno
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-16T21:10:40.000Z'
+  airtable_id: recHT4eugB58tCHXj
+  datasets copy:
+  - recqFPOo4dyUaRa0T
+  email: 'earlene.kp.dowell@census.gov '
+  name: Earlene Dowell
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:22:14.000Z'
+  airtable_id: recHZCDSjsOkA7xEp
+  datasets copy:
+  - recXyePnwDLujEgSx
+  - recBnP4FKccq8Sxrw
+  email: svi_coordinator@cdc.gov
+  name: Danielle Sharpe
+  organizations:
+  - rec3rAvsCoOHIENtL
+  treasury_datasets:
+  - recayQVnwLNhsOJzx
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recHeuViJwDlKJi1X
+  datasets copy:
+  - rectd3XlY5Ayhd7G2
+  - recftyVJxEXDdcc5p
+  email: frugoli.pam@dol.gov
+  name: Pam Frugoli
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC
+  - Community Outreach
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recIH5RtaI0OeFKNR
+  email: denice.ross@georgetown.edu
+  name: Denice Ross
+  organizations:
+  - rec4MPlHIXlER3H1S
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico Census Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recIQdw4WMgu9WgKz
+  email: giselle.m.laffitte@census.gov
+  name: Giselle Laffitte
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Hawaii
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recJ7hfZtRwfZlZLb
+  email: rebekah@akakaforests.org
+  name: Rebekah Ohara
+  organizations:
+  - reczlK297bdKFeI8y
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recJbJewfCXScUUpD
+  email: John.McLaughlin@ed.gov
+  name: John McLaughlin
+  organizations:
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:44:43.000Z'
+  airtable_id: recK2Dsem2iuadMgv
+  datasets copy:
+  - recyIqOsJaTyJK7Ox
+  email: ahoodmorley@plasticsindustry.org
+  name: Ashley Hood-Morley
+  natl env datasets: 'Plastics Data '
+  organizations:
+  - recUY8aZeIsPw5HQR
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Population Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recKeiR1u1ZIoJjsq
+  email: Benjamin.C.Bolender@census.gov
+  name: Ben Bolender
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:43:53.000Z'
+  airtable_id: recKk8RrLugGOx23m
+  datasets copy:
+  - rec2RxZjkQqhpibfP
+  email: hbz4@cdc.gov
+  name: Dr. Hatice Zahran
+  natl env datasets: Asthma Surveillance Data
+  organizations:
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recL3VpZCsowAbpmY
+  datasets copy:
+  - recXNx3nsEG31NKls
+  email: kevin.j.hawley@census.gov
+  name: Kevin Hawley
+  organizations:
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - FEMA Preparedness
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recL76z54PU5Wwsov
+  email: christi.collins@fema.dhs.gov
+  name: Christi Collins
+  organizations:
+  - recKCU373sCKBXdxg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:30:32.000Z'
+  airtable_id: recLjBCsaJvtVqGVG
+  datasets copy:
+  - recgZ5gQ0PcUAyRyy
+  email: broadbandusa@ntia.gov
+  name: Karen Perry
+  organizations:
+  - recW02RSB5lEflHTP
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recMIc1z4zSG6O2gG
+  email: Matthew.Greene@ed.gov
+  name: Matthew Greene
+  organizations:
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-19T21:56:30.000Z'
+  airtable_id: recMKEE7pLakXObYL
+  datasets copy:
+  - rect2QwDi8uG2TkDS
+  email: scorecarddata@rti.org
+  name: scorecarddata
+  organizations:
+  - rechukqTAt1Gd7TYp
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:16:48.000Z'
+  airtable_id: recMMqX89XPo5DEQd
+  datasets copy:
+  - recetotygGlEgh4Jj
+  email: Jennifer.Bert@hud.gov
+  name: Jennifer Bert
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  - recdwwZXqkYsafwsM
+  - recjdd30fQXhPJBRs
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - 'Census '
+  - Economic Data
+  - OnTheMap for Emergency Management
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recNJyokME6tK9ebG
+  datasets copy:
+  - rec0RiPMJ5621EICz
+  - recH9h1mjdaEfW9de
+  - rec8qwUGe1S6Dvcjp
+  - rec0BBC2ke95ms3ek
+  - receeJD0AB7m3tzIK
+  - recShnwWQ0vP295aA
+  - rec8htXFvGJgRANZ0
+  - recugLfN0UOIuj9Ic
+  - recqSueiNp3hgIZaJ
+  - recCMF21SIUtHp6iI
+  - recCHa6ugdxduEZ6m
+  - reccP8bbqFubPWv5n
+  - recQtEZ8WkPhe4oxW
+  - recOh9RX01KUEJs35
+  - recBKxqBjxJoJhrPz
+  - recYW5y7v9wDs2lIw
+  - recImUr4U9IcxpYsk
+  email: Andrew.W.Hait@census.gov
+  name: Andy Hait
+  organizations:
+  - rechawuxwXzzaEkFO
+  treasury_datasets:
+  - recgZ2I02OLzopRZs
+  - recGe8wApogYNX0lW
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recNNdSXv8eqsydB6
+  email: Victor.prikhodko@nih.gov
+  name: 'Victor Prikhodko '
+  organizations:
+  - recrl2jPmmDUeRVzN
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:01:24.000Z'
+  airtable_id: recNuQ32wkhtwBjYa
+  datasets copy:
+  - recT8R85CADNGAPL1
+  - recitKI3D947d4tPo
+  - recGZoKOJ5Z7f9gEf
+  - rec0xEmtoJ46bkt62
+  - recyRYWG99a1eh09f
+  - recfjlFUgS39wyhP4
+  - recifj3qWzMONTGTW
+  email: amanda.m.klimek@census.gov
+  name: Amanda Klimek
+  organizations:
+  - rechawuxwXzzaEkFO
+  treasury_datasets:
+  - recQrUhk5eBAAiijZ
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  - recdwwZXqkYsafwsM
+  - recjdd30fQXhPJBRs
+  - reco5ccvDEvBt5dA0
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - 'Census '
+  - Census API
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recOS31nXvuVq8GNR
   email: logan.t.powell@census.gov
   name: Logan Powell
   natl env datasets: APIs & Developer Resources
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reclyPqBKPOxhfNu5
-  datasets:
-  - reckbz0cWRzzOlzwe
-  - recND8q0yXrBVUe3Y
-  datasets copy: 'Supplemental: State & Local Government Finance Historical Datasets
-    and Tables,Supplemental: State Government Tax Dataset'
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:15:10.000Z'
+  airtable_id: recOoSIkASnCcNVEH
+  datasets copy:
+  - recNfvy7D79FlpssX
+  - recfHbMURBlYFpyUg
+  - recZLJYt4aiXjtf3C
+  - recFNFjsSElkmYfvk
+  - rec9vUlS3GQcbEvbe
+  email: Lydia.B.Taghavi@hud.gov
+  name: Lydia Taghavi
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:41:33.000Z'
+  airtable_id: recPm7thpwwfYQPag
+  datasets copy:
+  - rec0IKfVgiKRLp43x
+  email: joan.biediger@usda.gov
+  name: Joan Biediger
+  natl env datasets: NAIP public image dates, NAIP public image service
+  organizations:
+  - recZGVOhgclHyT5PG
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Education
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recQahUDuJl3WDn0h
+  email: Ivan.Metzger@ed.gov
+  name: Ivan Metzger
+  organizations:
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:21:55.000Z'
+  airtable_id: recQcRcFT7mSGS1G7
+  datasets copy:
+  - rec3TfJ30WloKPg2L
+  - recAIaI2VzxNs8HZA
+  email: daniel.jessica@epa.gov
+  name: Jessica Daniel
+  organizations:
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recRVEQh8F2WQvBhN
+  datasets copy:
+  - recUL85WHLQ0XPl3A
+  email: peter.b.kahn@hud.gov
+  name: Peter Kahn
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recRX7lgy4jd9kXBz
+  email: matthew.mcmahon@nih.gov
+  name: 'Matt McMahon '
+  organizations:
+  - recC2rit84Ln5b2sV
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recRdM6w0uA2LpXaf
+  email: koustovae@nida.nih.gov
+  name: Elena Koustova
+  organizations:
+  - recrl2jPmmDUeRVzN
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico Open Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recS6RaH1fXIp8aSX
+  email: mario.marazzi@estadisticas.pr
+  name: Mario Marazzi (Director)
+  organizations:
+  - recf0WrcasrTaQulU
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recSVglNygVkQpsCz
+  email: Michael.akinyele@va.gov
+  name: 'Michael Akinyele '
+  organizations:
+  - recFLmrJGVUp96SaR
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:47.000Z'
+  airtable_id: recTZQVourev9FOGh
+  email: laura@brighthive.io
+  name: Laura Faulkner
+  organizations:
+  - recWE0qubTON3Rzjh
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recThBtLVeatY6FIR
+  email: antonio.serbia@fema.dhs.gov
+  name: 'Antonio Serbia '
+  organizations:
+  - recTFsoc6pIEGQXxp
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - Federal Audit Clearinghouse
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recTp7zwkWk5LYVrJ
+  email: shelley.goss@census.gov
+  name: Shelley Goss
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:17:47.000Z'
+  airtable_id: recUsmcxPHz7N3Bgb
+  datasets copy:
+  - rec77jyfxyKigVadO
+  - reclykqnnUk6CQ2wg
+  email: Randy.A.Moore@census.gov
+  name: Randy Moore
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:23:46.000Z'
+  airtable_id: recUwDSUErQE6bRiK
+  datasets copy:
+  - recSK8F8W9MTmENvQ
+  - recUR2amUsIEtl8MC
+  email: paw8@cdc.gov
+  name: Patrick Wall
+  natl env datasets: National Environmental Public Health Tracking
+  organizations:
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC
+  - Local Partnerships
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recV3uq1DYjPikS82
+  email: megan.c.kindelan@census.gov
+  name: Megan Kindelan
+  organizations:
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - grants.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recV9UJd5Xr9j0bos
+  email: "Lakisa.carter@hhs.gov\_"
+  name: Lakisa Carter
+  organizations:
+  - rec7kEIMnoCt5jzRO
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - 2020 Census Jobs
+  - Enumerator
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recW3UZ8z7X5CBU6R
+  email: Katrina.R.King@census.gov
+  name: Katrina King
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recWHZ9iW4aVE4RDR
+  datasets copy:
+  - rec8dA8b3d94vpQV8
+  - recaR8lxhjjhQtIsO
+  email: debbie.brodt.giles@nrel.gov
+  name: Debbie Brodt-Giles
+  organizations:
+  - recsSGW4gI1BkXCmo
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:19:32.000Z'
+  airtable_id: recWc6YibYhLEOLDM
+  email: tedd.buelow@usda.gov
+  name: Tedd Buelow
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:26:50.000Z'
+  airtable_id: recXbzTTSUXL0vNm8
+  datasets copy:
+  - recM0ypn4glfYE907
+  - recDZ9euQPpmXHg1l
+  email: michael.j.sprung@census.gov
+  name: Michael Sprung
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:16:13.000Z'
+  airtable_id: recXgEHmZN3snfKs9
+  datasets copy:
+  - recBycJtWnqq8bfhk
+  email: mark.a.klee@census.gov
+  name: Mark Klee
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:19:37.000Z'
+  airtable_id: recY1Ivu0oWHbn08m
+  datasets copy:
+  - rec77jyfxyKigVadO
+  - reclykqnnUk6CQ2wg
   email: kristina.marie.pasquino.frates@census.gov
   name: Kristina Pasquino-Frates
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recmO0xlHWGkdTNjC
-  datasets:
-  - rectCCdf3q3qnhh1a
-  datasets copy: Stats America
-  email: rogersc@iupui.edu
-  name: Carol Rogers
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recYmd82F6zn0Imym
+  email: tara.kunkel@ojp.usdoj.gov
+  name: Tara Kunkel
   organizations:
-  - recGvmmLjZpkPwddI
-- Role: Data Steward
+  - recora0RVcPXfxtla
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: grants.gov
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recmVOV0wgPrfb5Dd
-  email: carolyn.beins@samhsa.hhs.gov
-  name: Carolyn Beins
+  - recjdd30fQXhPJBRs
+  Topics:
+  - grants.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recZJbIdliQExwrZ3
+  email: michael.peckham@hhs.gov
+  name: Michael Peckham
   organizations:
-  - reco8SlTqN3UExT1C
-- Role: Census Expert
+  - rec7kEIMnoCt5jzRO
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Homeless,Native American Populations
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recmn2sLIkqdzO2C7
-  email: william.snow@hud.gov
-  name: William Snow
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recZKLAIN53QiXxi5
+  datasets copy:
+  - recuDU7db51RKDe7a
+  - recgt0cy9CQaakhbP
+  email: kevin.k.pierce@irs.gov
+  name: 'Kevin Pierce '
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recmtNACyG6usYgbw
-  datasets:
-  - rec7G8Q7Qvoso86dL
-  - recnK3KWlyuOk4diH
-  - recbY9aaJ33dGsZWN
-  - recuuQLiak87Xedt1
-  - recUnAANpY8DSkKb2
-  - recUMOLxuABm1YQ2H
-  datasets copy: 'Integrated Data: Marine Debris Monitoring and Assessment Project,Earth
-    Challenge: Top 10 Most Common Plastics By Country Data,Earth Challenge: Open Data
-    Documentation,Earth Challenge: Citizen Science Cloud: Plastics Page,Earth Challenge:
-    Integrated Ocean Plastics Data,Earth Challenge 2020 Plastics Mobile  Widget Data '
+  - rec7G0T8YkGH1KvPz
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Census API
+  - Visualizations
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recZeGttOhdTaVBUP
+  email: gerson.d.vasquez@census.gov
+  name: Gerson Vasquez
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recZgidNVbbtJAkeO
+  email: Adam_S_Lipton@omb.eop.gov
+  name: Adam Lipton
+  organizations:
+  - rechUP9zFvCQsWDWw
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  - recjdd30fQXhPJBRs
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recaAshTHQrh6HGFU
+  email: brown.brandon@dol.gov
+  name: Brandon Brown
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recaN43nnm181yYEO
+  datasets copy:
+  - recZTIZpXcy8FoWuK
+  email: jverostek@dawnbreaker.com
+  name: JP Verostek
+  organizations:
+  - recpWYU9m41axHFU2
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:38:50.000Z'
+  airtable_id: recbPxVJvU4vhaUNw
+  datasets copy:
+  - recm78id2e5QWvDjJ
+  email: rzerbo@cleanair.org
+  name: Russell Zerbo
+  natl env datasets: OpenDataPhilly
+  organizations:
+  - reckYpauKMu322FXH
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:22:04.000Z'
+  airtable_id: recbknqXAxD7PJFWg
+  email: alejandro.contreras@sba.gov
+  name: Alejandro Contreras
+  organizations:
+  - recpWYU9m41axHFU2
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Digital Divide
+  - Broadband Mapping
+  - Internet Use Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recbxZHwqNaP1TcAK
+  datasets copy:
+  - recZNFGjpitzE7KEC
+  - rec6ySqXKXvIBlxO3
+  - rec0A4UuO6qXPkQR9
+  - recyPSmntgt0GM5LC
+  - recOXtcCTQbCPaQN3
+  email: Kurt.J.Bauman@census.gov
+  name: Kurt Bauman
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:37:10.000Z'
+  airtable_id: reccJkuTAGpDC025p
+  datasets copy:
+  - recrAnzpN9Nz52UWZ
+  - rec7cuXuLxkw632qh
+  email: sbreen@cancentral.com
+  name: Scott Breen
+  natl env datasets: Recycling Market Development Platform, Can Manufacturers Institute
+    Statistics
+  organizations:
+  - recQHS8hINgPWT31W
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - SAM.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reccx8nOxlFMVNI7x
+  email: christy.hermansen@gsa.gov
+  name: Christy Hermansen
+  organizations:
+  - recEV51IEKWwQUln6
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recdAGfldsTxjkJIm
+  datasets copy:
+  - recrlUfnXrNPZIVto
+  - recATF0AeAo8Sr2e7
+  email: DeMale.Michael.B@dol.gov
+  name: Mike DeMale
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:27:09.000Z'
+  airtable_id: recdE5HubghlMa4Fp
+  datasets copy:
+  - rec9sIEt5EFNYGptb
+  - recW7tb0eTbeqXJrB
+  - recaHZbVSr1gqcWcT
+  - rect6ayu5gh3x9Q83
+  - recKq3wkcO290cpBT
+  - receA6tCqaH0ipvox
+  - recPL8WwWLR0Eeu70
+  email: McCoy.Britney@epa.gov
+  name: Britney McCoy
+  natl env datasets: 'Coloring Book titled Carl Gets Some Rest, Ports Primer for Communities:
+    An Overview of Ports Planning and Operations to Support Community Participation,
+    Learning and Teaching about the Environment Web Resource, National Port Strategy
+    Assessment: Reducing Air Pollution and Greenhouse Gases at U.S. Ports, Reducing
+    School Bus Idling: Clean Air Poster, The Magic School Bus Gets Cleaned Up, Idle-Free
+    Schools Toolkit for a Healthy School Environment'
+  organizations:
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:45:10.000Z'
+  airtable_id: recdmRoCfyUOc5IHj
+  email: aadler@isri.org
+  name: Adina Adler
+  natl env datasets: Recycling Commodities
+  organizations:
+  - rec94XwCDp7A3il3q
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:39:48.000Z'
+  airtable_id: receEAaGQ23O4KQCg
+  datasets copy:
+  - recZgkMmvFEU3UmmR
+  - rec1zdkhhenU7nlvi
+  - recvpP5sK7AvXRm9p
+  - recN5z2CHMgZYdRNU
+  - rec17A1VOfS59U3XQ
+  - recf7OceKPsBNTmxY
   email: metis.meloche@wilsoncenter.org
   name: Metis Meloche
   natl env datasets: 'Integrated Data: Marine Debris Monitoring and Assessment Project,
@@ -1933,419 +1576,979 @@
     Clean Up, Earth Challenge: Integrated Ocean Plastics Data, Integrated Data: Marine
     Litter Watch, Earth Challenge 2020 Plastics Mobile  Widget Data '
   organizations:
-  - recj9c68qg1yG2gjp
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recmvz55XcERxU3ah
-  email: tedd.buelow@usda.gov
-  name: Tedd Buelow
-  organizations:
-  - rec17HlmcA9QBmyN9
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recn6d1ZhEv0Sa9Ib
-  datasets:
-  - recN1tloFTup5eWNS
-  - recFS2rxEJmkmBiIM
-  - rec3NVgzDcxYnaME8
-  - recYuJnt29Zj6uw66
-  datasets copy: '"Poverty Estimates, Trends, and Analysis",HHS Social Services Programs,HHS
-    Wellness Programs,HHS Annual Performance Report'
-  email: bishen.singh@nih.gov
-  name: Bishen Singh
-  organizations:
-  - recTQFVAbtcOEpmCJ
-- Role: Data Steward
+  - rec2lYt1nRA77OW9B
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recnJeJUqrXfMU5D0
-  email: tslaper@indiana.edu
-  name: Tim Slaper
+  - recjdd30fQXhPJBRs
+  Topics:
+  - performance.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: receJ7nbfMiG0F0XO
+  email: amin.mehr@gsa.gov
+  name: Amin Mehr
   organizations:
-  - recGvmmLjZpkPwddI
-- Role: Data Steward
+  - recEV51IEKWwQUln6
+- Role:
+  - Data Steward
   Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recnqxXcdD5zp4OGW
-  email: 'tom@brighthive.io '
-  name: Tom Plagge
+  - recjdd30fQXhPJBRs
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recegU07uS0jrFoHf
+  email: hudson.hollister@datacoalition.org
+  name: Hudson Hollister
   organizations:
-  - recdse3BeifeC5Tt5
-- Role: Data Steward
+  - recdDUI3uejnMIvJ7
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:24:11.000Z'
+  airtable_id: recehuSfYaqkJ9Hg9
+  datasets copy:
+  - recTpBHcFSt3UXT9E
+  email: alana.y.rhone@usda.gov
+  name: Alana Rhone
+  organizations:
+  - recZGVOhgclHyT5PG
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:04:14.000Z'
+  airtable_id: recfDD7qlwGmNKsDR
+  datasets copy:
+  - recQVYfoYN1Np1CoL
+  email: Catherine.D.Buffington@census.gov
+  name: Catherine D Buffington
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: FEMA Preparedness
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recoHWAoL2iFWbfFp
-  email: christi.collins@fema.dhs.gov
-  name: Christi Collins
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recfKrS1ZDAZDjWNP
+  datasets copy:
+  - recSxB582pd1Lpqpn
+  - recZoL0uz8Q6xaz2B
+  email: tparker@ers.usda.gov
+  name: Timothy Parker
   organizations:
-  - rec1q8Ge6R3babxH4
-- Role: Census Expert
+  - recZGVOhgclHyT5PG
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-16T21:10:18.000Z'
+  airtable_id: recfMpSmk5Chd4kB0
+  datasets copy:
+  - recqFPOo4dyUaRa0T
+  email: patrick.hayward@census.gov
+  name: Patrick (Heath) Hayward
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC,Community Outreach
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recofRivGLEPVJQVt
-  email: kyla@ncoc.org
-  name: Kyla Fullenwider
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Balitmore STEW-MAP
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recfTW8MUim37zL20
+  email: 'michelle.l.johnson.6@gmail.com; michelleljohnson@fs.fed.us '
+  name: Michelle Johnson
   organizations:
-  - recoVrLl1bWGJOzCd
-  organizations 2: U.S. Census Bureau
-  sprints: 2017 Sprint 1 (ED HUD VA)
-  sprints 2: 2020 Census
-- Role: Census Expert
+  - recFc6nCFymTrQxns
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:28:19.000Z'
+  airtable_id: recfYz2JJPzY9z0tE
+  datasets copy:
+  - recn8ckNZUVRZcp5S
+  - rec0nDZoEpF9JvvMg
+  email: Pillsbury.Hope@epa.gov
+  name: Hope Pillsbury
+  natl env datasets: Recycling Economic Information (REI) Report, "Facts and Figures
+    about Materials, Waste and Recycling"
+  organizations:
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:15:38.000Z'
+  airtable_id: recfgH3vm6HzKxRmt
+  datasets copy:
+  - recBycJtWnqq8bfhk
+  email: shalise.ayromloo@census.gov
+  name: Shalise Ayromloo
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:22:50.000Z'
+  airtable_id: recfkKFrN4qmouZOI
+  datasets copy:
+  - recVFBxoXzlxuKIx3
+  email: rollison.edewor@census.gov
+  name: Rollison Edewor
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Topics:
+  - veterans
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recfkQOub1BUHHYH7
+  email: david.maron@va.gov
+  name: David Maron
+  organizations:
+  - recFLmrJGVUp96SaR
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:46:11.000Z'
+  airtable_id: recfuwMgtaIRtrMum
+  datasets copy:
+  - rec0PJICH5aODa3FI
+  email: ddethomas@recyclingpartnership.org
+  name: Dylan de Thomas
+  natl env datasets: Map of Commingled Residential MRFs in the United States
+  organizations:
+  - rec8l7K42iCSFmrtj
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Community Ambassador
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recp5m5m9o6pbC0cQ
-  email: ksinha@civicga.org
-  name: Kevin Sinha
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - https://centropr.hunter.cuny.edu/research/data-center
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recgFPzhvRy7FvXes
+  email: edwin.melendez@hunter.cuny.edu
+  name: Edwin Melendez (Director)
   organizations:
-  - recdsmFjmk7cQPF2g
-- Role: Data Steward
+  - recs5dIqYKY6VSDhA
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recpiQfInzaHlr1UV
-  email: Velazquez.Jose.A@dol.gov
-  name: "Jose Velazquez \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recpptC9HVlL2JYnC
-  datasets:
-  - recQghWdZOdy7Nu7e
-  datasets copy: Freight Analysis Framework
-  email: birat.pandey@dot.gov
-  name: Birat Pandey
-  natl env datasets: Freight Analysis Framework
-  organizations:
-  - recftWiv4GQoFeVH5
-- airtable_createdTime: '2025-01-10T16:37:36.000Z'
-  airtable_id: recqCWUSBUp1DozOT
-  datasets:
-  - rece2siZPLPD0Gt6L
-  name: Sarah Hay
-- Role: Data Steward
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recgHs9ALDhi7S3Fn
+  datasets copy:
+  - rec4TF2LLKQGSaVWI
+  email: emiller@eda.gov
+  name: Emily Miller
+  organizations 2:
+  - recVal1KOBeL00l5j
+  sprints:
+  - reccUsI2AM7YliJ2l
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recqhFlSCd4vcCxVQ
-  email: Juliana_Crump@omb.eop.gov
-  name: Julie Crump
+  - recjdd30fQXhPJBRs
+  Topics:
+  - SBA
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recgUclOKATynHq5z
+  email: Emily.Knickerbocker@sba.gov
+  name: Emily Knickerbocker
   organizations:
-  - recyI3MGIU3h1aX6k
-- Role: Data Steward
+  - recpWYU9m41axHFU2
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recqo6p1ZRoDDTusT
-  email: stephanie.narvaezjimenez@fema.dhs.gov
-  name: Stephanie Narvaez
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico Open Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recgzNDOprLnuLaTZ
+  email: francisco.pesante@estadisticas.pr
+  name: Francisco Pesante (Statistical Project Assitant)
   organizations:
-  - recatG1j9O95f4hHd
-- airtable_createdTime: '2025-01-10T16:37:36.000Z'
-  airtable_id: recrW26aXsT6rtwNZ
-  datasets:
-  - rec6KmkxzxozIKIRw
-  name: Joel Schlagel
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recrY8lejaUMWMv34
-  datasets:
-  - recrAJdOGmvMfrihb
-  - rec6K4AnHHRuzCoWB
-  datasets copy: USASpending,USA Spending
-  email: Amanda.Cayton@fiscal.treasury.gov
-  name: Amanda Cayton
-  organizations:
-  - recFzsEdj336OX3nl
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recrbEKhFZUjOiqBk
-  datasets:
-  - recG0ZT9QmxQMp7fw
-  - recMZOmWRAw5SElPQ
-  datasets copy: 'Supplemental: Social Vulnerability Index (SVI),Social Vulnerability
-    Index'
-  email: svi_coordinator@cdc.gov
-  name: Danielle Sharpe
-  organizations:
-  - reckfO8zFNf8hS7Dz
-  treasury_datasets: Social Vulnerability Index
-- Role: Census Expert
+  - recf0WrcasrTaQulU
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Digital Literacy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recsLymCTr2JnOPcV
-  email: filippelli@newamerica.org
-  name: 'Maria Filipelli '
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rech86IpT9utG2Qop
+  email: jayne.morrow@nist.gov
+  name: Jayne Morrow
   organizations:
-  - recYydqelVaGWIopP
-- Role: Census Expert
+  - recNnyuOMAzLGwZ2w
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Community Ambassador
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recsRJrrwZzMF9B2T
-  email: bridget.m.johnson@2020census.gov
-  name: Bridget Johnson
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Population Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rechH5ZVvNAaK9uPl
+  email: Marc.J.Perry@census.gov
+  name: Marc Perry
   organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+- Role:
+  - Census Expert
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recseTtguexlSwtSW
-  email: daniel@espaciosabiertos.org
-  name: Daniel Santamaria (Research Director)
-  organizations:
-  - recwMDfLR420hd2qe
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recsiSBymABtPaAlA
-  email: patelnj@state.gov
-  name: Nicole Patel
-  organizations:
-  - recILlrUVEVclLpFK
-- Role: Data Steward
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Digital Divide,Broadband Mapping,Internet Use Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: rectYt0Jy798H9Dv3
-  datasets:
-  - rec9ww52tctdM2muu
-  - rectY9qjPpO0OiyI5
-  - recXsToRGZ41N5ul0
-  - rech6QFEER7I4aEhN
-  - recAck4J0QsFDQpFH
-  datasets copy: Computer and Internet Use,Deconstructing the Digital Divide,Computer
-    and Internet Use,Types of Internet Subscriptions,2018 FCC Broadband Deployment
-    Report
-  email: Kurt.J.Bauman@census.gov
-  name: Kurt Bauman
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Children Undercount
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recu64mWztZyCZo25
-  email: eric.b.jensen@census.gov
-  name: Eric Jensen
-  organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Puerto Rico
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recuAqNyE5TJ7hxZK
-  email: antonio.serbia@fema.dhs.gov
-  name: 'Antonio Serbia '
-  organizations:
-  - recatG1j9O95f4hHd
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recuQQeD71L6QwLzh
-  datasets:
-  - recBFMb4NwPwjpKce
-  - recrJtSEWj1zyf4xV
-  datasets copy: Rural Accessibility ,Local Area Transportation Characteristics for
-    Households Data
-  email: theresa.firestine@dot.gov
-  name: Theresa Firestine
-  natl env datasets: Local Area Transportation Characteristics for Households Data
-  organizations:
-  - recftWiv4GQoFeVH5
-- Role: Census Expert
-  Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: Race/Ethnicity/Citizenship Issues
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recvFGjBNd8VV5WpD
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Race/Ethnicity/Citizenship Issues
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: rechYwZL6mUPfEA5a
   email: merarys.rios@census.gov
   name: Merarys Rios
   organizations:
-  - recyYK7Ezm00JSEPC
-  sprints 2: 2020 Census
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC Populations,Response Area Outreach Mapper
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recvdcPY2yRdLs0hQ
-  email: amanda.m.moritz@census.gov
-  name: Amanda Moritz
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: rechiFLSH8caRldIn
+  email: pax1@cdc.gov
+  name: Paula Braun
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:39:28.000Z'
+  airtable_id: rechimiF6pfarilpV
+  datasets copy:
+  - recGjGmGCOE7kALXo
+  email: patrick.zhang@dot.gov
+  name: Patrick Zhang
+  natl env datasets: Traffic Volume Trends
+  organizations:
+  - recYFIFo1hpX60Bxh
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:28:30.000Z'
+  airtable_id: rechrpfLxNh1DeTDZ
+  datasets copy:
+  - recrrg40XFvcyJa8f
+  - recYeRQibsnMHOIOj
+  - recWtTYP50jrxS7ii
+  - recLvycbMSNIJhABX
+  - recn15Rw88yyM4SW4
+  - recauviDI0eIQO4oi
+  email: krolik.thomas@bls.gov
+  name: Tom Krolik
+  organizations:
+  - recUOzXd77INuuToX
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:37:37.000Z'
+  airtable_id: reci6GXx5cgAKHXkZ
+  datasets copy:
+  - recVaPfnoVmygG0PK
+  email: ' skollar@oceanconservancy.org'
+  name: Sarah Kollar
+  natl env datasets: 'Source Data: TIDES Coastal Cleanup'
+  organizations:
+  - recsb1fMzRP1bJHIh
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: FEMA Preparedness
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recvjepeGsSOHLG6C
-  email: matthew.lyttle@fema.dhs.gov
-  name: 'Matt Lyttle '
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reciAgA5aWQzaL1Rj
+  email: christian.bernardgomez@fema.dhs.gov
+  name: Christian Bernard
   organizations:
-  - rec1q8Ge6R3babxH4
-- Role: Data Steward
+  - recTFsoc6pIEGQXxp
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:35:24.000Z'
+  airtable_id: reciTuzX2alyndOlH
+  datasets copy:
+  - recChqfYOwKjD7BCN
+  email: clara.reschovsky@dot.gov
+  name: Clara Reschovsky
+  natl env datasets: Local Area Transportation Characteristics for Households Data
+  organizations:
+  - recYFIFo1hpX60Bxh
+- Role:
+  - Data Steward
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reciXIDWhlYplnjDM
+  email: Charles.Selby@va.gov
+  name: Charles Selby
+  organizations:
+  - recFLmrJGVUp96SaR
+- Role:
+  - Data Steward
   Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Opioid Crisis
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recw594ggEgwbwOhz
-  email: Cecelia_M_Spitznas@ondcp.eop.gov
-  name: Cecelia Spitznas
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Elevation & Hydrography
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reciXRRkPmuK1EiRH
+  email: jstoker@usgs.gov
+  name: Jason Stoker
   organizations:
-  - recwBvckTmL5T9LZy
-- Role: Data Steward
+  - recIeXqiRxBShJDxj
+- Role:
+  - Census Expert
   Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recwiQgsRTCfgSUiu
-  datasets:
-  - recMEsCg0bw1eFuDU
-  datasets copy: Location of Energy Infrastructure
-  email: jon.weers@nrel.gov
-  name: Jon Weers
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Community Ambassador
+  - Children Undercount
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recii6NDg9U27ad3c
+  email: dstein@foramericaschildren.org
+  name: Deborah (Deb) Stein
   organizations:
-  - recJGUzbj7s2TbWwc
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recwyZ4TnnfJSqB9i
-  datasets:
-  - recq7ikYVFQjUIiFg
-  - recY9SRddbnb0PWs4
-  - recm02K6k6ibZzSlN
-  - rechXYTpx0hbT2TxK
-  - recu4PgTpAN6rO9AE
-  datasets copy: GDP,Regional Price Parities,Personal Income,Personal Consumption
-    Expentidures (PCE),Employment
-  email: jake.dillon@bea.gov
-  name: Jake Dillon
-  organizations:
-  - recTZZpgBqZKwcfhS
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recxFz2wdSt0zLskK
-  datasets:
-  - receNBVHrObAEIwVq
-  datasets copy: 'Plastics Data '
-  email: ahoodmorley@plasticsindustry.org
-  name: Ashley Hood-Morley
-  natl env datasets: 'Plastics Data '
-  organizations:
-  - recbMmN6h7Tg5j10F
-- Role: Data Steward
+  - recdG4CJWsMCBZCoP
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
   Sprint:
-  - rectpInJ8wiI8iFVg
-  Topics: Policy
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recxKlX4vkEeEopTS
-  email: Karen.M.Deblasio@hud.gov
-  name: Karen Deblasio
+  - recjdd30fQXhPJBRs
+  Topics:
+  - Federal Audit Clearinghouse
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recj2cDv4xbTbpkep
+  email: megan.e.minnich@census.gov
+  name: Megan Minnich
   organizations:
-  - recgvccBwBlf8xOnI
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: Legal
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recxe6GZHZb6Uv1fb
-  email: Fairchild.C.Cleveland@dol.gov
-  name: Cleveland Fairchild
+  - recjdd30fQXhPJBRs
+  Topics:
+  - grants.gov
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recj71VBaZHBIqCDU
+  email: carolyn.beins@samhsa.hhs.gov
+  name: Carolyn Beins
   organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
+  - rec7kEIMnoCt5jzRO
+- Role:
+  - Census Expert
   Sprint:
-  - recukKC4tJpTJtQCA
-  Topics: HTC Populations,Response Area Outreach Mapper
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recxmBo9nILi7dErF
-  datasets:
-  - recPeDlIBWSUSL83V
-  datasets copy: Response Outreach Area Mapper (ROAM)
-  email: suzanne.mcardle@census.gov
-  name: Suzanne McArdle
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Community Ambassador
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recjKwWNT7XU6lh0f
+  email: bridget.m.johnson@2020census.gov
+  name: Bridget Johnson
   organizations:
-  - recyYK7Ezm00JSEPC
-- Role: Data Steward
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reckCLmaoTlLwXyu9
+  datasets copy:
+  - reclMSnr5UCwnYaWO
+  email: eric.b.jensen@census.gov
+  name: Eric Jensen
+  organizations:
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
   Sprint:
-  - recA1rG7ifoIoXV1g
-  Topics: DOL
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recyHXLNffeK8QRZK
-  datasets:
-  - rec56bzpjuBYVxOcz
-  - rechjz36nk1QTwk8R
-  datasets copy: CareerOneStop,Apprenticeship Finder
-  email: DeMale.Michael.B@dol.gov
-  name: Mike DeMale
-  organizations:
-  - recMn329NUUB96To4
-- Role: Data Steward
-  Sprint:
-  - recFTqPCG3W22jxKO
-  Topics: Urban Tree Canopy Data
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recyPo4ABWhomNXKC
-  email: 'jmgrove@gmail.com; morgangrove@fs.fed.us '
-  name: Morgan Grove
-  organizations:
-  - recW0k0JIXNk04Rxg
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recyvNwn0fcePTR0A
-  datasets:
-  - recQdOEblJjMj0nCB
-  datasets copy: Rural-Urban Continuum
-  email: john.cromartie@usda.gov
-  name: John Cromartie
-  organizations:
-  - rec17HlmcA9QBmyN9
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: recz4JSimRHp0FnrS
-  datasets:
-  - recQYoTAK1n3gecrS
-  datasets copy: EPA Smart Location Database
-  email: rourk.alexis@epa.gov
-  name: Alexis Rourk
-  organizations:
-  - rec2t8CsWwMoLu9Kd
-- Role: Data Steward
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reczH2y1eDkYLYPio
-  datasets:
-  - recSftLUxethsrjOE
-  datasets copy: College Scorecard
-  email: scorecarddata@rti.org
-  name: scorecarddata
-  organizations:
-  - recyiy30DSs7Mld8d
-- Role: Data Steward
-  Sprint:
-  - rectIGl9DbypUw3c9
-  airtable_createdTime: '2025-01-10T16:35:34.000Z'
-  airtable_id: reczUrmOCltdHPLV0
-  datasets:
-  - recMEsCg0bw1eFuDU
-  - recsSloX5nEnHIZhj
-  datasets copy: Location of Energy Infrastructure,Lab Partnering Service (LPS)
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reckIr27SiRfr7bNe
+  datasets copy:
+  - rec8dA8b3d94vpQV8
+  - rec1bDDg91Re1wQhd
   email: robert.bectel@ee.doe.gov
   name: Robert Bectel
   organizations:
-  - recD9c7wZ9BLiYCIM
+  - recmlYupWKakJKiyY
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reclNt03eXnJpZeys
+  email: merav@datasociety.co
+  name: Merav Yuravlivker
+  organizations:
+  - recUFmCx9dGlGP6QQ
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Digital Divide
+  - Broadband Mapping
+  - Internet Use Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reclPBF6FVyVVIBCy
+  email: Michael.j.martin@census.gov
+  name: Michael Martin
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:43:16.000Z'
+  airtable_id: reclpJxUdWWcEmYqX
+  datasets copy:
+  - rec75bOgjkSjzLqqt
+  - rec4rW2CNjSH8pnYo
+  - recV7tNjyRaptdSd3
+  email: burbanma@usgs.gov
+  name: Gita Urban-Mathieux
+  natl env datasets: USGS National Map
+  organizations:
+  - recIeXqiRxBShJDxj
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Tribal/Native Hawaiian Pacific Islander Populations
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: reclqClWqZcmDOgHr
+  email: bina.k.saafi@census.gov
+  name: Bina Saafi
+  organizations:
+  - rechawuxwXzzaEkFO
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - 2020 Census Jobs
+  - Enumerator
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recm1N6ogta3MC4Di
+  datasets copy:
+  - rectwsic1FROXAVoz
+  email: Anna.Parikos@census.gov
+  name: Anna Parikos
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Children Undercount
+  airtable_createdTime: '2020-03-24T17:14:57.000Z'
+  airtable_id: recm6kViDdzf1cjRi
+  email: eric.b.jensen@census.gov
+  name: Eric Jensen
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - ETA
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recmEmhlrMcqS9wDM
+  email: Uldricks.Nathan.R@dol.gov
+  name: Nathan Uldricks
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recmS2wHQGi5kCh2q
+  email: kim.Hicks@ed.gov
+  name: Kim Hicks
+  organizations:
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Philadelphia STEW MAP
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recn9IE5wG7QDJ9yK
+  email: Krista.Heinlen@davey.com
+  name: Krista Heinlen
+  organizations:
+  - recl5vx01SLLz4ASN
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recnUwmilzzKVnQY9
+  email: tslaper@indiana.edu
+  name: Tim Slaper
+  organizations:
+  - recpH8JEgAYTgiT3U
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:19:35.000Z'
+  airtable_id: recnjKTWjiVGKvtcd
+  email: patelnj@state.gov
+  name: Nicole Patel
+  organizations:
+  - recrX7ONSfuLMx5vW
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:17:15.000Z'
+  airtable_id: recnupQ6WC7XJSGYW
+  datasets copy:
+  - recetotygGlEgh4Jj
+  email: Adam.R.Rumrill@hud.gov
+  name: Adam Rumrill
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:30:19.000Z'
+  airtable_id: recnuvmtw7ozVpHnX
+  datasets copy:
+  - recFzjsUvmAcmmCRs
+  email: john.cromartie@usda.gov
+  name: John Cromartie
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Opioid Crisis
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recoB8vD6ialvkWiX
+  email: Cecelia_M_Spitznas@ondcp.eop.gov
+  name: Cecelia Spitznas
+  organizations:
+  - recfNhzdQXkEkVrPK
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:21:34.000Z'
+  airtable_id: recoYFoZhCRBe0Lym
+  datasets copy:
+  - reclqmKDADxgZRTDj
+  email: Joshua.dykema@sba.gov
+  name: Joshua Dykema
+  organizations:
+  - recpWYU9m41axHFU2
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - OnTheMap for Emergency Management
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recpBb1QUfqTjkG5N
+  datasets copy:
+  - recn1nNkU3ZZRZ8K4
+  email: george.o.walker@census.gov
+  name: Chip Walker
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:35:47.000Z'
+  airtable_id: recpStP9tGUxmPLd8
+  datasets copy:
+  - recaISNy9cHBGDHTV
+  email: james.barham@usda.gov
+  name: James Barham
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Digital Literacy
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recqBLuQoFRS924H0
+  email: charley@datasociety.net
+  name: Charley Johnson
+  organizations:
+  - recNjVqFaLcY9oX40
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico Census Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recqw8hLdwB67ZBV7
+  email: maria.a.santos@census.gov
+  name: Maria (Angie) Santos
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:18:41.000Z'
+  airtable_id: recqwCCgXTyqCxbR0
+  email: karl.leckrone@usda.gov
+  name: Karl Leckrone
+  organizations:
+  - recKjtIf9bIp28eDl
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  - recjdd30fQXhPJBRs
+  Topics:
+  - Education
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recsNorMzuDJ2rCha
+  email: Charles.Higgins@ed.gov
+  name: Chuck Higgins
+  organizations:
+  - recJxCD8QEO8XYzze
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recsa2H5ARO9cs0mH
+  email: Velazquez.Jose.A@dol.gov
+  name: "Jose Velazquez \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico Census Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recteh6MMrjs8VBhQ
+  email: ana.maria.garcia@census.gov
+  name: Ana-Maria Garcia (Data Dissemination Specialist)
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:36:09.000Z'
+  airtable_id: recuD8MzAoIsNLFYC
+  datasets copy:
+  - rec8SyuKcY6OPZgtB
+  email: seconomou@cdc.gov
+  name: Sigrid Economou
+  natl env datasets: CDC Health Data (WONDER)
+  organizations:
+  - rec3rAvsCoOHIENtL
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:24:53.000Z'
+  airtable_id: recuJuqIll0Bd9UmH
+  email: lung.tai@epa.gov
+  name: Tai Lung
+  organizations:
+  - recLFUZlT7lXcgPAp
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recuRbolzb34SJiqh
+  datasets copy:
+  - reckKa9kBZrOBaf7u
+  - rechUGbGZ07Yyv2zx
+  - recf1mNCHEbprKsZC
+  email: gina.k.walejko@census.gov
+  name: Gina Walejko
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico Open Data
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recuYr3G7dKHYN8fl
+  email: alberto.velazquez@estadisticas.pr
+  name: Alberto Velazquez (Data Center Lead)
+  organizations:
+  - recf0WrcasrTaQulU
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - Legal
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recubCip6m0JoHCdn
+  email: Fairchild.C.Cleveland@dol.gov
+  name: Cleveland Fairchild
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recufLCiUzAlJey0I
+  datasets copy:
+  - recaf1ns1FhZHQ6QR
+  - rec1yPvSWG8dLnLOU
+  email: ted.e.payne@hud.gov
+  name: Ted Payne
+  organizations:
+  - recZHYzutcUOzjudU
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recv0OY7Ft1KkOBAh
+  datasets copy:
+  - recdSczdXaBjXvFBU
+  email: William.Snow@hud.gov
+  name: William Snow
+  organizations:
+  - recZHYzutcUOzjudU
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:29:07.000Z'
+  airtable_id: recv8QNB0PLS0wNtn
+  datasets copy:
+  - recjzmtcHqTdXvP0T
+  email: mgibbons@nsf.gov
+  name: Michael Gibbons
+  organizations:
+  - recFEdbJgp0Q6qHmn
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - Puerto Rico
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recvYkEnAfSvaninR
+  email: stephanie.narvaezjimenez@fema.dhs.gov
+  name: Stephanie Narvaez
+  organizations:
+  - recTFsoc6pIEGQXxp
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC Populations
+  - Response Area Outreach Mapper
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recw0AxsLozuTb1uD
+  email: amanda.m.moritz@census.gov
+  name: Amanda Moritz
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-17T14:27:45.000Z'
+  airtable_id: recw8xiF4heXzLuPN
+  datasets copy:
+  - recZKGj1o18OPllW0
+  - recf0icXL8cOWhFoC
+  - recpmLHJBG5YOR72E
+  - recrOvjNP210SJEjl
+  - recw4DvgY39jiIl0U
+  email: jake.dillon@bea.gov
+  name: Jake Dillon
+  organizations:
+  - recCbLM9y1yjXYV74
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - HTC
+  - Community Outreach
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recwQpnJCylCgsBDx
+  email: kyla@ncoc.org
+  name: Kyla Fullenwider
+  organizations:
+  - rec77d8eYMvfaAfsp
+  organizations 2:
+  - rechawuxwXzzaEkFO
+  sprints:
+  - reccBuKC57Rhz4lLs
+  sprints 2:
+  - recdwwZXqkYsafwsM
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recxDLLxPelJiAeOv
+  email: Qualter.Michael@dol.gov
+  name: "Michael Qualter \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-11-17T15:20:01.000Z'
+  airtable_id: recxHFTSg570VVyxE
+  datasets copy:
+  - recGP5IvaBQl3eYzQ
+  email: mckays@cdfi.treas.gov
+  name: Shannon A. McKay
+  organizations:
+  - recoLe16gECFfJJdx
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T15:16:48.000Z'
+  airtable_id: recxiviqkgqfqQwZg
+  datasets copy:
+  - recBycJtWnqq8bfhk
+  email: shelley.k.irving@census.gov
+  name: Shelley Irving
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - 2020 Census Jobs
+  - Enumerator
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recxkP7iNwhZzy5PF
+  datasets copy:
+  - rectwsic1FROXAVoz
+  email: sari.sue.jolly@census.gov
+  name: Sari Sue Jolly
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recxmU79Xy5WLcju9
+  datasets copy:
+  - recwcoWOPcsRyJ3tp
+  email: matthew.mcmahon@nih.gov
+  name: Matt McMahon
+  organizations:
+  - recC2rit84Ln5b2sV
+- Role:
+  - Data Steward
+  airtable_createdTime: '2023-10-16T21:09:03.000Z'
+  airtable_id: recyFditAP6sdnN6v
+  datasets copy:
+  - recqUfC3lNsSFiV7q
+  email: caleb.m.hopler@census.gov
+  name: Caleb Hopler
+  organizations:
+  - rechawuxwXzzaEkFO
+- Role:
+  - Data Steward
+  Sprint:
+  - recjdd30fQXhPJBRs
+  Topics:
+  - DOL
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: recyHj6olCyS9LYWp
+  email: fitzpatrick_kevin@bah.com
+  name: Kevin Fitzpatrick
+  organizations:
+  - recvzPp2KvtaASzeg
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-19T21:48:32.000Z'
+  airtable_id: recyROU8nwaZqf654
+  datasets copy:
+  - rec0c0l9LmK1Ur8Mn
+  email: areamer@gwu.edu
+  name: Anrew Reamer
+  organizations:
+  - rechIWrsh95gDsJWI
+- Role:
+  - Census Expert
+  Sprint:
+  - recdwwZXqkYsafwsM
+  Topics:
+  - Community Ambassador
+  airtable_createdTime: '2020-03-24T17:14:59.000Z'
+  airtable_id: recyTzObwmkkj1yLl
+  email: ksinha@civicga.org
+  name: Kevin Sinha
+  organizations:
+  - recWE82cjVGLhBlSs
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-21T18:31:05.000Z'
+  airtable_id: recyUNu8vDQaogKeY
+  datasets copy:
+  - recrkqBneL3BeoInZ
+  email: will.sagar@serdc.org
+  name: Will Sagar
+  natl env datasets: Recycling Demand Mapping in the Southeast
+  organizations:
+  - recWh2VyK2VdIgqI1
+- Role:
+  - Data Steward
+  Sprint:
+  - reco5ccvDEvBt5dA0
+  Topics:
+  - NOAA Imagery
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reczKwXgiB3W8Annk
+  email: kim.valentine@noaa.gov
+  name: 'Kim Valentine '
+  organizations:
+  - recN658rs3InjcXOK
+- Role:
+  - Data Steward
+  airtable_createdTime: '2021-07-20T14:26:27.000Z'
+  airtable_id: reczRdRzvh6w5ILMg
+  datasets copy:
+  - recTiZJa6Cqzg4oow
+  email: hiles.dave@bls.gov
+  name: Dave Hiles
+  organizations:
+  - rec7tjWfiN4wtIn3m
+- Role:
+  - Data Steward
+  Sprint:
+  - reccUsI2AM7YliJ2l
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reczYj3aokCy9xzje
+  datasets copy:
+  - rec8dA8b3d94vpQV8
+  email: jon.weers@nrel.gov
+  name: Jon Weers
+  organizations:
+  - recsSGW4gI1BkXCmo
+- Role:
+  - Data Steward
+  Sprint:
+  - reccBuKC57Rhz4lLs
+  Topics:
+  - Policy
+  airtable_createdTime: '2020-03-24T17:13:49.000Z'
+  airtable_id: reczhooeYGZFf9oTN
+  email: Amie.Didlo@ed.gov
+  name: Amie Didlo
+  organizations:
+  - recJxCD8QEO8XYzze

@@ -1,0 +1,28 @@
+<section class="grid-container padding-y-8 toolkit-glossary">
+  <div class="grid-col">
+    {% for category in categories %}
+    <div class="usa-accordion usa-accordion--multiselectable padding-top-2 padding-bottom-5" data-allow-multiple>
+      {% for term in category.terms %}
+      <h4 class="usa-accordion__heading">
+        <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white"
+          aria-expanded="true" aria-controls="m-a{{ term.num }}">
+          {{term.term}}
+        </button>
+      </h4>
+
+      <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
+        <p class="grid-container padding-y-5 overflow-hidden">
+          {{ term.definition | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+        {% if term.link %}
+        <a href="{{ term.link }}"
+          class="toolkit-resource-link text-base-darkest padding-y-0 padding-x-2 margin-x-2 margin-y-1" target="_blank">
+          <strong>*Watch on YouTube</strong>
+        </a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

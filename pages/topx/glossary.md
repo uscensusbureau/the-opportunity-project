@@ -53,7 +53,7 @@ resources:
         definition: An initial design of a website or app at the structural level. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content is added.
   - category: TOP
     description: |-
-      These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
+      The TOP team has adopted these terms from the civic tech and product development community for use in the TOP sprint framework. Below are some key terms that are referenced in the toolkit:
     color: red-warm-50v
     terms:
       - link: 
@@ -89,21 +89,24 @@ resources:
         term: Sprint
         definition: The 12 - 14 week timeline in which tech teams build data-driven solutions to urgent problems identified by federal agencies and advocacy organizations.
       - num: 17
-        link: 
+        link:
         term: Sprint Leader(s)
         definition: A group of colleagues who are recruited by the agency within their agency to frame the problem statement, manage the TOP sprint, and work on day-to-day operations such as leading milestone sessions and coordinating with tech teams.
       - num: 18
-        link: 
+        link:
         term: Tech Team
         definition: A group of people, typically from a tech company or university, who build a product through the sprint — whether new or within an existing product or platform — that uses open data to solve a problem statement.
       - num: 19
-        link: 
+        link:
         term: User Research Milestone
         definition: Teams conduct user research and present what they’ve learned about their end user to cross-sector experts for feedback.
-        
-        
+
+
 
 ---
 
 {% include toolkit-hero-refresh.html %}
-{% include toolkit-glossary.html %}
+<section class="bg-orange-5">
+  {% assign categories = page.resources | sort: 'category' | reverse %}
+  {% include toolkit-glossary.html %}
+</section>

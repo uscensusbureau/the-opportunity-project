@@ -2,7 +2,7 @@
 
 sprints:
   hero-text:
-    en: 
+    en:
       'Learn about sprints and how we tackle national challenges.
 
 
@@ -13,7 +13,7 @@ sprints:
 
       Los sprints son ciclos de 12 semanas de desarrollo de productos que reúnen a equipos técnicos y a colaboradores para crear productos digitales orientados al público usando datos abiertos.'
   hero-callout-text:
-    en: '**We are currently seeking participants for these sprints in many roles.** See detailed descriptions of the problem statements below, and if you are interested in participating, please [complete this form](https://www.census.gov/forms/contact-top.html) to express interest.'
+    en: '**We are currently seeking participants for these sprints in many roles.** See detailed descriptions of the problem statements below, and if you are interested in participating, please [email the TOP team](mailto:census.opportunityproject@census.gov) to express interest.'
     esp: '**Actualmente estamos buscando participantes para estos sprints, en muchos roles.** A continuación vea las descripciones detalladas de los planteamientos de problemas, y si está interesado en participar, [complete este formulario](https://www.census.gov/forms/contact-top.html) para expresar su interés.'
   hero-callout-button:
     en: 'Join a Sprint'
@@ -29,7 +29,7 @@ sprints:
     esp: View in English
 
 problem-statement:
-  problem-statement: 
+  problem-statement:
     en: Problem Statement
     esp: Planteamiento del Problema
   agency:
@@ -56,7 +56,7 @@ problem-statement:
 
 # lookup table into Problem Statement data
 ps-fields:
-  name: 
+  name:
     en: 'Full Title'
     esp: 'name-esp'
   why-matters:
@@ -71,7 +71,7 @@ ps-fields:
   agency:
     en: agency_text
     esp: organization-esp
-  pdf: 
+  pdf:
     en: pdf
     esp: pdf-esp
-  
+

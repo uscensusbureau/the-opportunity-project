@@ -15,12 +15,15 @@
               <div class="challenge-widget__content-section">
                 <h4 class="challenge-widget__subheader">Solutions Included</h4>
                 {% for productTeam in item.products %}
-                  {% assign product = site.data.products | where: "title", productTeam.title | first %}
-                  {% assign teamText = productTeam.team-text | default: product.tech_team_text %}
-                  <p>
-                    <a class="usa-link" href="{{ product.link }}" target="_blank">
-                      {{ product.title }}</a>, 
-                    {{ teamText }}:
+                    {% if productTeam.link %}
+                    <a class="usa-link" href="{{ productTeam.link }}" target="_blank">
+                      {{ productTeam.title }}</a>
+                      {% else %}
+                        {{ productTeam.title }},
+                     {% endif %}
+                    {% if productTeam.team %}
+                     {{ productTeam.team }}:
+                     {% endif %}
                     {{ productTeam.text }}
                   </p>
                 {% endfor %}

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Note: when updating Ruby version update update .ruby-version file as well
 # to ensure Cloud.gov environment version of Ruby matches
-
+ruby '3.3.4'
 
 gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/7821/head"
 gem 'json'

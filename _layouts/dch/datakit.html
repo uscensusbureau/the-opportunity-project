@@ -28,10 +28,11 @@ layout: default
       {% assign filters = filters | push: tag %}
     {% endfor %}
   {% endfor %}
+  {% assign filters = filters | uniq %}
 {% endif %}
 
 {% assign featuredSets = display-datasets | where: "featuredDataset", "true" %}
-{% assign nonFeaturedSets = display-datasets | where_exp: "item", "item.featuredDataset == empty or item.featuredDataset == nil" %}
+{% assign nonFeaturedSets = display-datasets | where_exp: "item", "item.featuredDataset == nil" %}
 {% assign setGroups = "" | split: "," %}
 {% assign setGroups = setGroups | push: featuredSets %}
 {% assign setGroups = setGroups | push: nonFeaturedSets %}

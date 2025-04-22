@@ -28,7 +28,7 @@ layout: default
       {% assign filters = filters | push: tag %}
     {% endfor %}
   {% endfor %}
-  {% assign filters = filters | uniq %}
+<!--   {% assign filters = filters | uniq %} -->
 {% endif %}
 
 {% assign featuredSets = display-datasets | where: "featuredDataset", "true" %}

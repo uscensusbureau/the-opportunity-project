@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="19px" viewBox="0 0 87 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>3 Star</title>
+    <desc>Created with Sketch.</desc>
+    <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-487.000000, -872.000000)">
+            <g id="About---Mission" transform="translate(0.000000, 752.000000)">
+                <g id="Mission-statement" transform="translate(443.000000, 120.000000)">
+                    <g id="3-Star" transform="translate(44.000000, 0.000000)">
+                        <rect id="BG" fill="#0048AD" x="0" y="0" width="87" height="19"></rect>
+                        <polygon id="Path" fill="#FFD27F" points="18.5 3 20.03439 7.58360759 25 7.58360759 20.98274 10.4163924 22.51726 15 18.5 12.1672152 14.48274 15 16.01726 10.4163924 12 7.58360759 16.96561 7.58360759"></polygon>
+                        <polygon id="Path" fill="#FFD27F" points="43.5 3 45.03439 7.58360759 50 7.58360759 45.98274 10.4163924 47.51726 15 43.5 12.1672152 39.48274 15 41.01726 10.4163924 37 7.58360759 41.96561 7.58360759"></polygon>
+                        <polygon id="Path" fill="#FFD27F" points="68.5 3 70.03439 7.58360759 75 7.58360759 70.98274 10.4163924 72.51726 15 68.5 12.1672152 64.48274 15 66.01726 10.4163924 62 7.58360759 66.96561 7.58360759"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

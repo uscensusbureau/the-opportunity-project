@@ -38,7 +38,7 @@ For additional documentation check out the [documentation directory](/docs/READM
   - gulp (`npm i -g gulp`)
 4. Chrome v59 or higher (v60 if on Windows)
 
-We recommend using a universal verion manager such as `asdf` 
+We recommend using a universal verion manager such as `asdf`
 - [asdf Installation Guide](https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
 
 **NOTE: Ensure that `legacy_version_file = yes` has been added to your `.asdfrc` file in your home directory. Requires terminal restart.**
@@ -47,7 +47,7 @@ We recommend using a universal verion manager such as `asdf`
 
 <br/>
 
-### Optional Dependencies 
+### Optional Dependencies
 The following are necessary only if you are importing new data from Airtable. See `/_data/readme.md` for more information.
 1. [airtable-export](https://pypi.org/project/airtable-export/)
 2. [Python 3](https://www.python.org/downloads/)
@@ -110,16 +110,19 @@ The project uses gulp to compile assets, and many plugins for a smooth build pro
 
 Place all assets (images, js files, pdfs, etc.) in their respective root folders. Do *not* place them in `/assets` or `_site/assets`. The gulp files will find them :-)
 
+### Tracking assets in git
+Note that the USWDS and other assets are git-tracked to make builds for Github Pages easier. Otherwise custom build actions are needed to compile the USWDS styles before each deployment. Any additional asset updates will need to be recompiled and committed to ensure changes are properly deployed.
+
 <br/>
 
-### Processing images with `gulp-webp` 
-You can place `.png` and `.jpg` images right in `/img` and the build process will automatically create a `.webp` copy during the build. It is not necessary to create `.webp` images yourself. 
+### Processing images with `gulp-webp`
+You can place `.png` and `.jpg` images right in `/img` and the build process will automatically create a `.webp` copy during the build. It is not necessary to create `.webp` images yourself.
 
 If you use the `{% include image.html %}` include, that will also include a `<picture>` tag with a `webp` src and `png` / `jpg` fallback.
 
 We **do** recommend shrinking images with the great [squoosh.app](https://squoosh.app/) before including them, though.
 
-See `/config/gulp/images.js` for more details. 
+See `/config/gulp/images.js` for more details.
 
 
 <br/>
@@ -154,7 +157,7 @@ There are two commands set up in `package.json`:
 
 ### 3) Functionality & Content Tests
 
-There are functionality and content tests set up for key pages using `cypress` in the `/cypress/integration` folder. 
+There are functionality and content tests set up for key pages using `cypress` in the `/cypress/integration` folder.
 
 To run `cypress`, use the command `npm run cypress` and use the visual test runner.
 
@@ -172,7 +175,7 @@ See [the Cypress docs](https://docs.cypress.io/guides/overview/why-cypress) for 
 ## Building with Federalist
 
 This repository is hooked up to [Federalist](https://federalist.18f.gov/documentation/), an automatic build process used by many government websites.
-Whenever you push changes to Github, Federalist will make a new build (using the `federalist` command in `package.json`). 
+Whenever you push changes to Github, Federalist will make a new build (using the `federalist` command in `package.json`).
 
 Federalist will then provide a URL for this build which you can use for user testing. To get the URL for the build, click on the green check-mark next to the build status for whatever branch you just pushed to, and then click the "Details" link.
 

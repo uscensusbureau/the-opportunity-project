@@ -1,1 +1,0 @@
-{% include image.html src="prize/logo.png" alt="Illustration of a blue circle around text which says The Opportunity Project" %}

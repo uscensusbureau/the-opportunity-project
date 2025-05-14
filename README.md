@@ -52,6 +52,17 @@ The following are necessary only if you are importing new data from Airtable. Se
 1. [airtable-export](https://pypi.org/project/airtable-export/)
 2. [Python 3](https://www.python.org/downloads/)
 
+Note - if attempting to import records from behind an enterprise firewall with SSL inspection, you will need to use a custom extension of the Airtable Export plugin found here: [airtable-export](https://pypi.org/project/airtable-export/). Once you’ve cloned the package to your development directory and have selected your preferred Python environment for installation, you can install it from the current repo’s directory like so:
+
+```sh
+pip install ../airtable-export
+```
+
+To run the script, run the following:
+```sh
+npm run airtable -- --no-verify
+```
+
 
 <br/>
 

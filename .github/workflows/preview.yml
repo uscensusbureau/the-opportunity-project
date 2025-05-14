@@ -10,6 +10,8 @@ on:
 env:
   PR_NUMBER: ${{ github.event.number }}
 
+
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
     contents: read
@@ -26,6 +28,11 @@ jobs:
 
       - run: echo "PREVIEW_PATH=pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
 
+      - name: Set Repo Name
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY##*/}"
+          echo "REPO_NAME=$REPO_NAME" >> "$GITHUB_ENV"
+
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
@@ -33,9 +40,13 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
 
+      - uses: actions/setup-node@v4
+      - name: Install Node Dependencies
+        run: npm install
+
       - name: Install and Build
         if: github.event.action != 'closed' # Skip the build if the PR has been closed
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: gulp build && bundle exec jekyll build --baseurl "/${{ env.REPO_NAME }}/pr-preview/pr-${{ github.event.number }}"
         env:
           JEKYLL_ENV: preview
 

@@ -84,7 +84,7 @@ resources:
       - link:
         num: 7
         term: Who runs The Opportunity Project?
-        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau. Learn more about [COIL](http://coil.census.gov).
+        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau. Learn more about [COIL](https://coil.census.gov).
       - link:
         num: 8
         term: How long has TOP been around?

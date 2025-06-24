@@ -103,3 +103,4 @@ exclude:
   - gulpfile.js
   - circle.yml
   - css
+  - scripts

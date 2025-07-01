@@ -12,14 +12,14 @@ files:
 {% assign templateUrl = site.baseurl | append: "/assets/files/" | append: page.files.template %}
 {% assign guidanceUrl = site.baseurl | append: "/assets/files/" | append: page.files.guidance %}
 
-# Problem Statement Submission
+# Propose a Sprint Topic
 {: .text-base-darkest }
 
-The problem statement submission for The Opportunity Project (TOP) 2024 sprint cycle is now open!
+We are now accepting proposals for The Opportunity Project 2025 sprint cycle!
 
-**We will be reviewing submissions on a rolling basis until April 15, 2024.**
+**All 2025 sprints must begin by the week of September 15, 2025.**
 {: .font-sans-md }
 
-- Before you start drafting your problem statement proposal, please review the problem statement guidelines below
-- Optional: We encourage you to meet with our team before submitting a problem statement.  If you have not done so yet, please connect with us by emailing [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]).
-- To submit a topic, please download and complete the Problem Statement Proposal Template below and email it to [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]) with the subject line “Problem Statement Proposal - [name of organization]”.
+- Before you start drafting your sprint topic proposal, please review the guidelines below.
+- Optional: We encourage you to meet with our team before submitting a sprint topic. If you have not done so yet, please connect with us by emailing [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]).
+- To submit a topic, please download and complete the template below and email it to  [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]) with the subject line “Sprint Topic Proposal - [name of organization]”.

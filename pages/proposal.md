@@ -5,8 +5,8 @@ layout: ps-proposal
 
 files:
   federal:
-    template: 'problem-statement-proposal/2024/PS_Template_TOP2024.docx'
-    guidance: 'problem-statement-proposal/2024/PS_Guidelines_TOP2024.pdf'
+    template: 'problem-statement-proposal/SprintTopic_Template_TOP2025.docx'
+    guidance: 'problem-statement-proposal/SprintTopic_Guidelines_TOP2025.pdf'
 
 ---
 {% assign templateUrl = site.baseurl | append: "/assets/files/" | append: page.files.template %}

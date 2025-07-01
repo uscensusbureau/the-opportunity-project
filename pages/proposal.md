@@ -17,7 +17,7 @@ files:
 
 We are now accepting proposals for The Opportunity Project 2025 sprint cycle!
 
-**All 2025 sprints must begin by the week of September 15, 2025.**
+**We will be reviewing submissions on a rolling basis. All 2025 sprints must begin by the week of September 15, 2025.**
 {: .font-sans-md }
 
 - Before you start drafting your sprint topic proposal, please review the guidelines below.

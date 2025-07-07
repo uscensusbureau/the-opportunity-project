@@ -17,9 +17,9 @@ files:
 
 We are now accepting proposals for The Opportunity Project 2025 sprint cycle!
 
-**We will be reviewing submissions on a rolling basis. All 2025 sprints must begin by the week of September 15, 2025.**
+**We will review submissions on a rolling basis. All 2025 sprints must begin no later than the week of September 15, 2025.**
 {: .font-sans-md }
 
 - Before you start drafting your sprint topic proposal, please review the guidelines below.
-- Optional: We encourage you to meet with our team before submitting a sprint topic. If you have not done so yet, please connect with us by emailing [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]).
+- We encourage you to meet with our team before submitting a sprint topic. If you have not done so yet, please connect with us by emailing [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]).
 - To submit a topic, please download and complete the template below and email it to  [census.opportunityproject@census.gov](mailto:census.opportunityproject@census.gov]) with the subject line “Sprint Topic Proposal - [name of organization]”.

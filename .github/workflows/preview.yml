@@ -28,7 +28,7 @@ jobs:
 
       - run: echo "PREVIEW_PATH=pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
 
-      - name: Set Repo Name
+      - name: Set Repo Name # Set in case the custom domain is not configured and the repo name needs to be added to the baseurl
         run: |
           REPO_NAME="${GITHUB_REPOSITORY##*/}"
           echo "REPO_NAME=$REPO_NAME" >> "$GITHUB_ENV"
@@ -46,7 +46,7 @@ jobs:
 
       - name: Install and Build
         if: github.event.action != 'closed' # Skip the build if the PR has been closed
-        run: gulp build && bundle exec jekyll build --baseurl "/${{ env.REPO_NAME }}/pr-preview/pr-${{ github.event.number }}"
+        run: gulp build && bundle exec jekyll build --baseurl "/pr-preview/pr-${{ github.event.number }}"
         env:
           JEKYLL_ENV: preview
 

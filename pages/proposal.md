@@ -1,6 +1,6 @@
 ---
 permalink: /proposal/
-title: "Propose a Problem Statement"
+title: "Propose a Sprint Topic"
 layout: ps-proposal
 
 files:

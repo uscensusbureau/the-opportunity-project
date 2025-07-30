@@ -9,8 +9,8 @@ files:
     guidance: 'problem-statement-proposal/SprintTopic_Guidelines_TOP2025.pdf'
 
 ---
-{% assign templateUrl = site.baseurl | append: "/assets/files/" | append: page.files.template %}
-{% assign guidanceUrl = site.baseurl | append: "/assets/files/" | append: page.files.guidance %}
+{% assign templateUrl = site.baseurl | append: "/files/" | append: page.files.template %}
+{% assign guidanceUrl = site.baseurl | append: "/files/" | append: page.files.guidance %}
 
 # Propose a Sprint Topic
 {: .text-base-darkest }

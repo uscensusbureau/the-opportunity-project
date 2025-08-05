@@ -1,11 +1,11 @@
-<footer class="usa-footer site-footer bg-base-darkest" role="contentinfo">
-  <div class="usa-footer__secondary-section bg-base-darkest">
+<footer class="usa-footer site-footer" role="contentinfo">
+  <div class="usa-footer__secondary-section">
     <div class="grid-container footer-content padding-left-4 padding-right-3">
 
 
       <div class="grid-row">
         {% for section in site.data.nav.footer %}
-        <div class="usa-media-block__footer text-white tablet:grid-col-2">
+        <div class="usa-media-block__footer tablet:grid-col-2">
           <h3 class="padding-top-4 tablet:padding-y-4 desktop:padding-y-5 text-uppercase">
             {% if section.subsection.href %}
             <a href="{{ section.subsection.href }}" class="text-underline">{{ section.subsection.title }}</a>
@@ -26,8 +26,8 @@
           {% endfor %}
 
         <div class="usa-media-block__footer display-none tablet:display-block tablet:grid-col-2 subsection-subscribe">
-          <h3 class=" text-bold text-white padding-top-4 text-uppercase">Subscribe</h3>
-          <p class=" text-white margin-0">
+          <h3 class="text-bold padding-top-4 desktop:padding-top-5 text-uppercase">Subscribe</h3>
+          <p class="margin-0">
           Sign up to our email list to be notified of<br> news and opportunities.
           </p>
           <a href="{{ site.contacts.mailing-list }}" class="usa-button usa-button--secondary  site-button site-cta width-full">
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center text-white opacity-80 margin-top-5 tablet:margin-top-1 padding-bottom-5">
+  <div class="footer-section-bottom usa-media-block__footer grid-row display-flex flex-align-center opacity-80 margin-top-5 tablet:margin-top-1 padding-bottom-5">
     {% for bottomLink in site.data.nav.footer-bottom %}
     <a href="{% unless bottomLink.isExternal %}{{ site.baseurl }}/{% endunless %}{{ bottomLink.href }}" class="border-base-dark
              {% unless forloop.first %} border-left padding-left-2 {% endunless %}

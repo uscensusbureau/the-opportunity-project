@@ -2495,6 +2495,7 @@ div.toolkit-todo__resources {
 .site-footer {
   @include typeset("lang");
   clear: both;
+  background-color: #FFFEFD;
 
   h3 {
     margin-top: 0;
@@ -2521,7 +2522,7 @@ div.toolkit-todo__resources {
   .usa-footer__secondary-section {
     @include u-padding-bottom(0);
     @include u-padding-top(2);
-    background-color: color("base-lightest");
+    background-color: #FFFEFD;
 
     @include at-media("tablet") {
       padding-top: units(4);
@@ -2686,6 +2687,7 @@ div.toolkit-todo__resources {
 }
 
 .footer-section-bottom {
+  background-color: #FFFEFD;
   font-size: 10px;
   width: 90%;
   margin: 0 auto;
@@ -3508,19 +3510,20 @@ code {
   color: color("white");
   @include at-media("desktop") {
     .border-right {
-      border-right: solid 1px color("base-lightest");
+      border-right: solid 1px #3A2920;
     }
   }
 }
 
 .usa-media-block__footer {
+  background-color: #FFFEFD;
   a {
     text-decoration: none;
-    color: color("white");
+    color: #3A2920;
   }
 
   h3 {
-    color: color("white");
+    color: #3A2920;
   }
 }
 

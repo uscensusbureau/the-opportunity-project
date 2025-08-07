@@ -34,7 +34,7 @@ speakers:
   - name: Karen Dunn Kelley
     title: Former Deputy Secretary of Commerce
     img: img/featured-speakers-headshots/karen_dunn_kelley.png
-  - name: Steven Dillingham
+  - name: Dr. Steven Dillingham
     title: Former Census Bureau Director
     img: img/featured-speakers-headshots/steven_dillingham.png
   - name: Dr. Neil Jacobs
@@ -43,10 +43,10 @@ speakers:
   - name: Scott Turner
     title: Secretary of Housing and Urban Development (HUD), Former White House Advisor
     img: img/featured-speakers-headshots/scott_turner.png
-  - name: Sara Brenner
+  - name: Dr. Sara Brenner
     title: Acting Commissioner, Food and Drug Administration (FDA)
     img: img/featured-speakers-headshots/sara_brenner.png
-  - name: Ben Carson
+  - name: Dr. Ben Carson
     title: Former Secretary of HUD
     img: img/featured-speakers-headshots/ben_carson.png
   - name: Patrick Pizzella

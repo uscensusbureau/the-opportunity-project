@@ -5,20 +5,20 @@
 {% for data in data %}
 <div class="grid-container  padding-0 {% if data.custom.class %}{{ data.custom.class | slugify }}{% endif %}">
   {% if data.text.title %}
-  <h2 class="margin-y-0 {% if data.text.title %}{{ data.text.title | slugify }}{% endif %} text-white">{{ data.text.title }}
+  <h2 class="margin-y-0 font-family-serif {% if data.text.title %}{{ data.text.title | slugify }}{% endif %}">{{ data.text.title }}
   </h2>
   {% endif %}
 
   <div class="text-wrapper padding-205 tablet:padding-3 {%if data.role %} margin-bottom-3 desktop:margin-bottom-7 {% endif %} tablet:margin-top-205 desktop:padding-y-5 desktop:padding-x-5 bg-white">
     {% if data.text.subtitle %}
 
-    <h3 class="margin-0 margin-bottom-2">{{data.text.subtitle}}</h3>
+    <h3 class="margin-0 margin-bottom-2 font-family-serif">{{data.text.subtitle}}</h3>
 
     {% endif %}
 
     {% if data.role.title %}
 
-    <h3 class="margin-0">{{data.role.title}}</h3>
+    <h3 class="margin-0 font-family-serif">{{data.role.title}}</h3>
 
     {% endif %}
 
@@ -55,7 +55,7 @@
 
 
   {% if data.cta %}
-  <h3>{{data.blurb.title}}</h3>
+  <h3 class="font-family-serif">{{data.blurb.title}}</h3>
   {% endif %}
 
   {% if data.role-details %}

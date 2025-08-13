@@ -3520,6 +3520,12 @@ code {
   a {
     text-decoration: none;
     color: #3A2920;
+    &.usa-button {
+      color: white;
+      &:visited {
+        color: white;
+      }
+    }
   }
 
   h3 {

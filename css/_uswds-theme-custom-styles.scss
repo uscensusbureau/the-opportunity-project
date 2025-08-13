@@ -696,7 +696,7 @@ main {
 }
 
 .interior-hero {
-  background-color: #004280;
+  background-color: #0B5DAF;
   color: #ffffff;
   position: relative;
   z-index: 5;
@@ -1407,7 +1407,7 @@ main {
   .usa-hero__bg {
     width: 200px;
     min-height: 114px;
-    background-color: #121923;
+    background-color: #0B5DAF;
     @include at-media('tablet') {
       width: 343px;
       // min-height: ;
@@ -1440,6 +1440,7 @@ main {
       line-height: 17px;
       margin-bottom: 0;
       padding-bottom: 16px;
+      color: white;
 
       @include at-media('tablet') {
         font-size: 14px;

@@ -233,15 +233,16 @@ h1, h2, h3 {
     }
 
     .usa-accordion__button {
+      color: #3A2920;
       &[aria-expanded="false"] {
-        @include add-background-svg("angle-arrow-down-white");
+        @include add-background-svg("angle-arrow-down");
         &:hover {
-          @include add-background-svg("angle-arrow-down-primary");
+          @include add-background-svg("angle-arrow-down");
         }
       }
       &[aria-expanded="true"] {
         &:hover {
-          @include add-background-svg("angle-arrow-up-primary");
+          @include add-background-svg("angle-arrow-up");
         }
       }
     }
@@ -299,10 +300,10 @@ h1, h2, h3 {
   border-bottom: color("base-light");
   &--bordered {
     @include u-border-bottom('05');
-    @include u-border-color('primary');
+    border-color: #3A2920;
     align-items: baseline;
     @include at-media('desktop'){
-      @include u-border-color('secondary');
+      // @include u-border-color('secondary');
     }
   }
 
@@ -5018,7 +5019,7 @@ h6 + div:not(.usa-accordion__content) {
 
 .site-header-dark {
   .site-header-navbar {
-    background-color: color("base-darkest");
+    background-color: #FFFEFD;
   }
   .site-logo {
     a {
@@ -5595,7 +5596,7 @@ $theme-table-column-gap: 4;
 
     .usa-nav__primary-item {
       a {
-        color: color("white");
+        color: #3A2920;
         line-height: lh("lang", 2);
       }
     }
@@ -5612,8 +5613,12 @@ $theme-table-column-gap: 4;
     line-height: lh("lang", 2);
   }
 
+  .usa-nav__submenu {
+    // background-color: red !important;
+  }
+
   .usa-nav__submenu-item {
-    color: color("white");
+    color: #3A2920;
     @include typeset("lang", "2xs", 2);
   }
 
@@ -5621,13 +5626,23 @@ $theme-table-column-gap: 4;
     .usa-nav__primary button {
       color: color($theme-color-base-dark);
     }
-    .usa-nav__primary-item :hover{
+    .usa-nav__primary-item {
+      :hover {
       color: color($theme-color-primary-dark);
+      }
+      @include at-media('desktop') {
+        > a:hover {
+          background-color: red;
+        }
+      }
     }
   }
 }
 
 .usa-nav__primary-item {
+  a {
+    color: #3A2920;
+  }
   .nav-svg {
     // #5c5c5c
     filter: invert(32%) sepia(0%) saturate(4070%) hue-rotate(139deg) brightness(105%) contrast(88%);
@@ -5639,6 +5654,12 @@ $theme-table-column-gap: 4;
       filter: invert(22%) sepia(54%) saturate(1282%) hue-rotate(185deg) brightness(93%) contrast(96%);
     }
   }
+ .usa-nav__submenu {
+  background-color: #FFFEFD;
+  .usa-nav__submenu-item a {
+    color: #3A2920;
+  }
+ }
 }
 
 .site-banner {

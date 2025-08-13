@@ -233,15 +233,16 @@ h1, h2, h3 {
     }
 
     .usa-accordion__button {
+      color: #3A2920;
       &[aria-expanded="false"] {
-        @include add-background-svg("angle-arrow-down-white");
+        @include add-background-svg("angle-arrow-down");
         &:hover {
-          @include add-background-svg("angle-arrow-down-primary");
+          @include add-background-svg("angle-arrow-down");
         }
       }
       &[aria-expanded="true"] {
         &:hover {
-          @include add-background-svg("angle-arrow-up-primary");
+          @include add-background-svg("angle-arrow-up");
         }
       }
     }
@@ -299,10 +300,10 @@ h1, h2, h3 {
   border-bottom: color("base-light");
   &--bordered {
     @include u-border-bottom('05');
-    @include u-border-color('primary');
+    border-color: #3A2920;
     align-items: baseline;
     @include at-media('desktop'){
-      @include u-border-color('secondary');
+      // @include u-border-color('secondary');
     }
   }
 
@@ -696,7 +697,7 @@ main {
 }
 
 .interior-hero {
-  background-color: #004280;
+  background-color: #0B5DAF;
   color: #ffffff;
   position: relative;
   z-index: 5;
@@ -1407,7 +1408,7 @@ main {
   .usa-hero__bg {
     width: 200px;
     min-height: 114px;
-    background-color: #121923;
+    background-color: #0B5DAF;
     @include at-media('tablet') {
       width: 343px;
       // min-height: ;
@@ -1440,6 +1441,7 @@ main {
       line-height: 17px;
       margin-bottom: 0;
       padding-bottom: 16px;
+      color: white;
 
       @include at-media('tablet') {
         font-size: 14px;
@@ -1476,6 +1478,7 @@ main {
 .page-sprint-process {
   h2 {
     font-size: 14px;
+    color: #3A2920;
 
     @include at-media('tablet') {
       font-size: 20px;
@@ -1489,6 +1492,7 @@ main {
 
   h3 {
     font-size: 12px;
+    color: #3A2920;
     @include at-media('tablet') {
         font-size: 14px;
         line-height: 14px;
@@ -1502,6 +1506,7 @@ main {
   p {
     font-size: 12px;
     line-height: 17px;
+    // color: #3A2920;
     @include at-media('tablet') {
         font-size: 14px;
         line-height: 17px;
@@ -1516,6 +1521,7 @@ main {
   .how-it-works-bg, .roles-intro-bg {
     background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
     background-size: cover;
+    background-color: #CFE2F3;
   }
 
   div.header-text-hot-dog, div.how-it-works-details {
@@ -1572,12 +1578,26 @@ main {
             font-size: 24px;
             line-height: 24px;
           }
+        &.light {
+          background-color: #0F9D58;
+        }
+      }
+      li {
+        outline: 1px black dashed;
+      }
+    }
+    a.site-button {
+    box-shadow: 0 ;
+    border: .5px black solid;
+    transition: box-shadow .5s;
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
     }
   }
   .site-button.usa-button {
-    box-shadow: inset 0 0 0 1px black;
-    text-decoration: underline;
+    // box-shadow: inset 0 0 0 1px black;
+    // text-decoration: underline;
     font-size: 12px;
     line-height: 17px;
     @include at-media('tablet') {
@@ -1588,20 +1608,26 @@ main {
         font-size: 24px;
         line-height: 30px;
       }
-      &::hover {
-        text-decoration: underline;
+      &.usa-button--secondary {
+        box-shadow: 0;
+        transition: box-shadow 1s;
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: #ce482d;
       }
+    }
       @include at-media('desktop') {
         text-decoration: none;
         &:hover {
-            text-decoration: underline;
+            // text-decoration: underline;
           }
         &:visited {
-            color: black;
+            color: white;
           }
       }
   }
   .full-width-screen-spilt {
+    background-color: #FFFEFD;
     display: grid;
     // max width of grid-container is 64
     // padding in mobile is 1rem
@@ -1619,12 +1645,12 @@ main {
     .roles-downloads {
       a {
         text-decoration: underline;
-        color: black;
+        color: #3A2920;
         &:visited {
-          color: black;
+          color: #3A2920;
         }
         &:hover {
-          color: black;
+          color: #3A2920;
         }
       }
     }
@@ -3520,6 +3546,12 @@ code {
   a {
     text-decoration: none;
     color: #3A2920;
+    &.usa-button {
+      color: white;
+      &:visited {
+        color: white;
+      }
+    }
   }
 
   h3 {
@@ -4987,7 +5019,7 @@ h6 + div:not(.usa-accordion__content) {
 
 .site-header-dark {
   .site-header-navbar {
-    background-color: color("base-darkest");
+    background-color: #FFFEFD;
   }
   .site-logo {
     a {
@@ -5564,7 +5596,7 @@ $theme-table-column-gap: 4;
 
     .usa-nav__primary-item {
       a {
-        color: color("white");
+        color: #3A2920;
         line-height: lh("lang", 2);
       }
     }
@@ -5581,8 +5613,12 @@ $theme-table-column-gap: 4;
     line-height: lh("lang", 2);
   }
 
+  .usa-nav__submenu {
+    // background-color: red !important;
+  }
+
   .usa-nav__submenu-item {
-    color: color("white");
+    color: #3A2920;
     @include typeset("lang", "2xs", 2);
   }
 
@@ -5590,13 +5626,23 @@ $theme-table-column-gap: 4;
     .usa-nav__primary button {
       color: color($theme-color-base-dark);
     }
-    .usa-nav__primary-item :hover{
+    .usa-nav__primary-item {
+      :hover {
       color: color($theme-color-primary-dark);
+      }
+      @include at-media('desktop') {
+        > a:hover {
+          background-color: red;
+        }
+      }
     }
   }
 }
 
 .usa-nav__primary-item {
+  a {
+    color: #3A2920;
+  }
   .nav-svg {
     // #5c5c5c
     filter: invert(32%) sepia(0%) saturate(4070%) hue-rotate(139deg) brightness(105%) contrast(88%);
@@ -5608,6 +5654,12 @@ $theme-table-column-gap: 4;
       filter: invert(22%) sepia(54%) saturate(1282%) hue-rotate(185deg) brightness(93%) contrast(96%);
     }
   }
+ .usa-nav__submenu {
+  background-color: #FFFEFD;
+  .usa-nav__submenu-item a {
+    color: #3A2920;
+  }
+ }
 }
 
 .site-banner {

@@ -24,45 +24,30 @@ challenges:
       impact:
         - The Citi Ventures team, a 2019 Prize Challenge winner, has since participated in two additional sprints, continuing to build out the City Builder product by adding datasets and features
       products:
-        - title: City Builder
+        - title: "City Builder,"
+          link: https://www.citi.com/ventures/city-builder.html
+          team: Citi Ventures
           text: bringing transparency to the Opportunity Zone ecosystem for public and private investment
-        - title: Inclusive Growth Score
+        - title: "Mastercard's product:"
+          link: https://inclusivegrowthscore.com/
           text: ensuring community priorities inform Opportunity Zones strategies employed by decision-makers
-        - title: Inclusive Development Dashboards
-          text: helping workforce and economic development conveners to prioritize inclusive development in their regions
       image:
         src: photos/home/widget/neighborhood.jpg
         alt: A neighborhood grid of buildings and streets as seen from above.
     -
-      agency: 'State Department & The Wilson Center'
-      title: 'The State Department & The Wilson Center Worked to Reduce Plastic Waste in Oceans'
-      products:
-        - title: Ocean Plastics Story Map
-          # team: Esri
-          text: storytelling with newly compiled data sets to provide new insights and solutions to the problem of ocean plastic pollution
-        - title: Georgetown University Campus Plastic Initiative
-          # team: Georgetown University Beeck Center
-          text:  tracking plastic pollution on college campuses and educating students on its impact 
-        - title: The Ghost Gear Project
-          # team: Harvard University Institute of Politics
-          text: visualizing the location of ghost fishing gear in our oceans with accompanying mitigation techniques
-      impact: 
-        - The Campus Plastic Initiative product resulted in the creation of a Georgetown student organization and greater emphasis on recycling and reduction of plastic pollution on campus
-      problem-statement-name: Ocean Plastics
-      image:
-        src: photos/home/widget/oceans.jpg
-        alt: Blue ocean waves crashing into a rocky coastline.
-    - 
       agency: 'FEMA'
       title: 'FEMA Used Geospatial Data to Help People Prepare for Disasters'
       problem-statement-name: Disaster Preparedness
       products:
-        - title: Puerto Rico Land Grid
+        - title: "Puerto Rico Land Grid,"
+          link: https://landgrid.com/us/pr#b=admin
+          team:  Regrid
           text: assessing the occupancy, condition, land use, and needs of all 1.5 million properties in Puerto Rico
         - title: Disaster Awareness Games
-          team-text: University of California Santa Barbara
+          team: University of California Santa Barbara
           text: gamifying emergency preparation for young adults
         - title: Sille
+          team: Datel Ovela
           text: increasing stakeholders' awareness of likely catastrophic structural failure in their areas
       impact: 
         - The Sille product team fostered ongoing partnerships with FEMA, as well as with the Puerto Rican and NYC governments

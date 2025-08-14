@@ -467,9 +467,6 @@
 - Description (Old): Uses nationwide opportunity indexes to make search for opportunity
     more easily obtainable.
   Product Name: Opportunity Enabler
-  agencies:
-  - U.S. Department of Housing and Urban Development
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:03:33.000Z'
   airtable_id: rec4nM7ZZVUctcfhk
   category:
@@ -489,9 +486,6 @@
   image: opportunity-enabler.jpg
   image-alt: Map with red and green square icons. No visible legend or title.
   link: http://bit.ly/2aWs865
-  problem_statement:
-  - rec0hb8kwXPfY26YY
-  - recA8i9B5Zx0bEqZn
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -710,8 +704,6 @@
     Statistics, bus & rail transit routes to show commuter flows and gaps in access
     to transit.
   Product Name: Commuter Map
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:02:02.000Z'
   airtable_id: rec72VWvzKvRI3Gvq
   category:
@@ -727,8 +719,6 @@
   image: commuter-map.jpg
   image-alt: Map of Washington metro area commuter data
   link: http://split.us/opportunity-project
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -875,8 +865,6 @@
   year:
   - 2023
 - Product Name: Pollution Policy Watch
-  agencies:
-  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:53:51.000Z'
   airtable_id: rec83s58GA0onC6Eg
   category:
@@ -892,8 +880,6 @@
   image-alt: Screenshot of the Ocean Plastic Dashboard. You can filter by date, debris
     type, and state for policy enactment.
   link: https://science.gmu.edu/news/mason-students-build-data-science-tools-tackle-air-and-plastic-pollution
-  problem_statement:
-  - rec5Tsj3ELra0kwiF
   sprint:
   - recT1SVxeOYDYHrr2
   tech_team:
@@ -935,7 +921,7 @@
   - 2020
 - Product Name: FHIR to OMOP Data Mapping
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rec876BatpBWaqULd
   category:
@@ -1025,8 +1011,6 @@
     visualizations of hazardous traffic corridors for citizens and community decision
     makers.
   Product Name: Create
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:45.000Z'
   airtable_id: rec8qvWUz6m4BaaLC
   category:
@@ -1042,8 +1026,6 @@
   image-alt: Map with side panel containing information about road conditions and
     traffic accidents
   link: https://www.facebook.com/createrealestate/
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -1053,8 +1035,6 @@
   year:
   - 2016
 - Product Name: Heat Wave Education Website
-  agencies:
-  - Federal Emergency Management Agency
   airtable_createdTime: '2023-02-19T18:03:58.000Z'
   airtable_id: rec8tpxppTz7BZV7S
   category:
@@ -1069,8 +1049,6 @@
   image: heat-wav-ed.jpg
   image-alt: A screenshot with an image that reads "but it's a dry heat Arizona".
   link: https://uarizona-top.github.io/
-  problem_statement:
-  - recBl2peaCWfRFzhh
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -1152,7 +1130,7 @@
   - 2018
 - Product Name: HealthCheck
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rec9cF9jQG5Sgr7qq
   category:
@@ -1260,8 +1238,6 @@
     data (NTIA) to allow refugees to identify community resources near them during
     and after their resettlement period.
   Product Name: RefugeeAssist
-  agencies:
-  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-19T18:58:27.000Z'
   airtable_id: recAcV8ubFLdbE6LD
   category:
@@ -1277,8 +1253,6 @@
   image-alt: Screenshot with a title that says Refugee Assist. There are icons below
     that say 'Medical', 'Legal', 'Religious', etc.
   link: no-link
-  problem_statement:
-  - rec27vLYrWORAJyQn
   sprint:
   - recb97GlUcJpzlbbz
   tech_team:
@@ -1289,8 +1263,6 @@
   year:
   - 2020
 - Product Name: MSI COVID Relief Dashboard for Equity and Transparency
-  agencies:
-  - U.S. Department of the Treasury
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recAqo3FFg1sSooT5
   category:
@@ -1305,8 +1277,6 @@
   image-alt: Map of USA that shows the amount of financial relief received by minority
     serving institutions
   link: https://app.flow.gl/flow/kuo62d54
-  problem_statement:
-  - recsnW2qXubKd3fOQ
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -1536,8 +1506,6 @@
   year:
   - 2022
 - Product Name: Clean Air Hero
-  agencies:
-  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T16:24:26.000Z'
   airtable_id: recDUU75cqzDnuejW
   category:
@@ -1550,13 +1518,9 @@
     students, parents, and teachers to create healthier school environments
   details: Educates young students about air quality and bus emissions and encourages
     students, parents, and teachers to create healthier school environments
-  featured_in:
-  - rec5Tsj3ELra0kwiF
   image: Clean-Air-Hero_rutgers.png
   image-alt: Image of Clean  Air Hero Product
   link: https://www.figma.com/proto/VpqqzfTu9FeHba7G0s44YQ/Demo?node-id=1%3A17&scaling=min-zoom
-  problem_statement:
-  - rec5Tsj3ELra0kwiF
   sprint:
   - recT1SVxeOYDYHrr2
   tech_team:
@@ -1691,8 +1655,6 @@
   year:
   - 2019
 - Product Name: Payver
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2023-01-26T19:03:49.000Z'
   airtable_id: recEbD4hDRqWo3b5N
   category:
@@ -1709,8 +1671,6 @@
   image-alt: An image showing traffic cones and road closed signs highlighted in bright
     colors.
   link: https://blyncsy.com/payver/
-  problem_statement:
-  - recKtDMHZmcduSywO
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -2001,9 +1961,6 @@
   - 2023
 - Description (Old): A "ground-truthing" neighborhood navigator powered by local knowledge.
   Product Name: Streetwyze
-  agencies:
-  - U.S. Department of Health and Human Services, Office of the U.S. Surgeon General
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:16:49.000Z'
   airtable_id: recGwP2awdbTa8NQB
   category:
@@ -2020,9 +1977,6 @@
   image-alt: Demo of map with interaction that allows users to ground truth and submit
     information about what a location is
   link: http://www.streetwyze.com/
-  problem_statement:
-  - rec5AcJUvAG75vaRw
-  - recvrDs3VhrdS3IDG
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -2241,8 +2195,6 @@
     to measure gaps in access to educational opportunities across student groups to
     help advocates increase equity.
   Product Name: Opportunity Dashboard
-  agencies:
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:00:16.000Z'
   airtable_id: recIMno1EXetvAohv
   category:
@@ -2255,8 +2207,6 @@
   details: Measures gaps in access to educational opportunities across student groups
     to help advocates increased equity
   link: no-link
-  problem_statement:
-  - recvrDs3VhrdS3IDG
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -2297,9 +2247,6 @@
 - Description (Old): A tool from Socrata that allows for comparison and similarity
     detection of geographic regions.
   Product Name: OpenData Network
-  agencies:
-  - null
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:20.000Z'
   airtable_id: recITfITIgt19f6Zv
   category:
@@ -2312,9 +2259,6 @@
   image-alt: Map of Washington D.C. and Baltimore Metro Areas showing high school
     graduation rate
   link: https://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013
-  problem_statement:
-  - rec1DnmQSbVGfvwGG
-  - recvrDs3VhrdS3IDG
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -2326,8 +2270,6 @@
 - Description (Old): Brings together economic, health center, and community institution
     data to help school leaders find and develop community partnerships.
   Product Name: School ResourceMapper
-  agencies:
-  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:00:54.000Z'
   airtable_id: recIl74jBfHdefkKD
   category:
@@ -2349,8 +2291,6 @@
   image-alt: Map showing neighborhoods colored by median income and icons of public
     resources like schools, libraries, and museums
   link: https://learn.datasociety.com/kitamba-the-opportunity-project/
-  problem_statement:
-  - reclE5lof4ZQyx7Hi
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -2557,8 +2497,6 @@
 - Description (Old): This tool from Measure of America combines various data critical
     to the well being of New Yorkers.
   Product Name: Visualizing Youth Disconnection
-  agencies:
-  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-04T21:32:08.000Z'
   airtable_id: recL2rjrXwoQIRIzV
   category:
@@ -2576,8 +2514,6 @@
   image-alt: Map of the South Bronx and northern Manhattan with the Measure of America
     logo
   link: http://www.measureofamerica.org/SegregatedOpportunity/
-  problem_statement:
-  - reclE5lof4ZQyx7Hi
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -2649,8 +2585,6 @@
   year:
   - 2021
 - Product Name: Measuring Climate Risk and Resilience for Public Transit Tool
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2023-02-19T18:03:46.000Z'
   airtable_id: recM87qBmnD1Nu5sU
   category:
@@ -2668,8 +2602,6 @@
   image-alt: A screenshot of the website that reads "Urban Heat Island Effect Solutions
     and Funding".
   link: https://www.nlc.org/article/2023/02/13/urban-heat-island-effect-solutions-and-funding/
-  problem_statement:
-  - recKtDMHZmcduSywO
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -2769,8 +2701,6 @@
   year:
   - 2021
 - Product Name: Climunity Planning Tool
-  agencies:
-  - National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-12-16T21:18:24.000Z'
   airtable_id: recNGNIE2GsG8WMZf
   category:
@@ -2789,8 +2719,6 @@
   image: climunity_planner.png
   image-alt: Flood hazard map with charts and a map
   link: https://arcg.is/1CuniS0
-  problem_statement:
-  - recA3nfuASaLwUOw8
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -2896,24 +2824,6 @@
   title: Bloomberg DEVOP
   year:
   - 2018
-- Description (Old): A collaboration with Zillow to help families find housing near
-    high opportunity schools.
-  Product Name: GreatSchools
-  airtable_createdTime: '2020-02-10T16:04:27.000Z'
-  airtable_id: recNcFdoF6ul5u8lL
-  category:
-  - Education
-  description: '!!! Broken link'
-  details: '!!! Broken link'
-  link: no-link
-  sprint:
-  - recC3IejMHNZ1DJvx
-  tech_team:
-  - reca6INWLra1xOK8s
-  tech_team_text: Great Schools
-  title: GreatSchools
-  year:
-  - 2016
 - Product Name: CuraPatient
   agencies:
   - U.S. Department of Health and Human Services
@@ -2976,8 +2886,6 @@
     to assess suicide and other risk in patients and guide them through crisis to
     available support resources.
   Product Name: TextHelp
-  agencies:
-  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T16:02:55.000Z'
   airtable_id: recOAwG2qM94YYquA
   category:
@@ -2990,8 +2898,6 @@
   details: Assesses suicide and other risk in patients and guides them through crisis
     to available support resources
   link: no-link
-  problem_statement:
-  - rec7qkDzgElJw71qp
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -3034,8 +2940,6 @@
   - 2020
 - Product Name: 'GeoNode GeoStories for Building Code Adoption Analysis: Spatial Correlations
     Between BCAT, Flood Risk, and Equity'
-  agencies:
-  - Federal Emergency Management Agency
   airtable_createdTime: '2023-01-26T19:04:08.000Z'
   airtable_id: recOUOYHsRgxS6ujV
   category:
@@ -3060,8 +2964,6 @@
   image: geonode-buildingcode.jpg
   image-alt: An image of a multi-colored map of the United States at a county level
   link: https://www.geosolutionsgroup.com/blog/geonode-4-webinar-fema/
-  problem_statement:
-  - recBl2peaCWfRFzhh
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -3187,7 +3089,7 @@
   - 2020
 - Product Name: Social Determinants Indexing 1.0
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recPL0UUUG1wdDtKd
   category:
@@ -3256,12 +3158,12 @@
   - Discovery
   data_sets: ACS, CDC, and DOL data
   data_sets_text: ACS, CDC, and DOL data
-  description: Neurodiverse Wellbeing Index which helps to explore the challenges
-    faced when creating neurotypical-related policies, and how programs can benefit
-    from using digital tools for policymakers.
-  details: Neurodiverse Wellbeing Index which helps to explore the challenges faced
+  description: Neurodiverse Wellbeing Index helps to explore the challenges faced
     when creating neurotypical-related policies, and how programs can benefit from
     using digital tools for policymakers.
+  details: Neurodiverse Wellbeing Index helps to explore the challenges faced when
+    creating neurotypical-related policies, and how programs can benefit from using
+    digital tools for policymakers.
   image: rutgers-2024.jpg
   image-alt: A prototype of the wellbeing index.
   link: 'https://www.figma.com/proto/3cNW6U91H7ZGpzAJNjnL9U/Wellbeing-Prototype?node-id=0-1&t=yCnxbjUnzAmFLj3W-1  '
@@ -3276,8 +3178,6 @@
   year:
   - 2024
 - Product Name: Climate Resilient Communities Hub
-  agencies:
-  - Federal Emergency Management Agency
   airtable_createdTime: '2023-01-26T19:04:03.000Z'
   airtable_id: recPmMS9DTZHXrDX6
   category:
@@ -3294,8 +3194,6 @@
   image-alt: A screenshot of the Climate Resilient Communities Hub homepage that reads
     "Solutions for Climate Resilient Communities"
   link: https://community-climatesolutions.hub.arcgis.com/
-  problem_statement:
-  - recBl2peaCWfRFzhh
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -3345,8 +3243,6 @@
   year:
   - 2019
 - Product Name: Predictive Equity Index Model
-  agencies:
-  - U.S. Department of the Treasury
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recQFWTSTV4P0nUOv
   category:
@@ -3362,8 +3258,6 @@
   image: predictive-equity-index-model.jpg
   image-alt: Visualization of equity drivers, equity index and performance outcomes
   link: https://work.themomproject.com/predictiveequity
-  problem_statement:
-  - recsnW2qXubKd3fOQ
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -3472,8 +3366,6 @@
 - Description (Old): A tool that allows users to identify areas of opportunity by
     specifying their most important priorities.
   Product Name: PolicyMap Tool
-  agencies:
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:15:52.000Z'
   airtable_id: recRDPcOMSbNsN7Jd
   category:
@@ -3488,8 +3380,6 @@
   image: policymap-tool.jpg
   image-alt: Map with options to explore housing market and school districts
   link: https://opportunity.policymap.com/
-  problem_statement:
-  - rec5AFdZpa2jr56AN
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -3502,8 +3392,6 @@
     school districts and education foundations inform parents and the electorate about
     the need for more funding.
   Product Name: LiveStories
-  agencies:
-  - U.S. Department of Education, U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:01:20.000Z'
   airtable_id: recRLfPIbdOb1PDej
   category:
@@ -3516,8 +3404,6 @@
   details: Customizable data briefs that help local school districts and education
     foundations inform parents and the electorate about the need for more funding
   link: no-link
-  problem_statement:
-  - reclE5lof4ZQyx7Hi
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -3628,7 +3514,7 @@
   - 2021
 - Product Name: Health Awareness Framework
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recSxjjmG28ZS0htH
   category:
@@ -3658,8 +3544,6 @@
     that address accessibility of opportunity and emotional well-being for citizens
     across the county.
   Product Name: mySidewalk
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:01:34.000Z'
   airtable_id: recT3N6qI7KiyAnMB
   category:
@@ -3676,8 +3560,6 @@
   image-alt: Map of Kansas city with side panel displaying statistics on income, health
     insurance, and income to poverty ratio.
   link: https://theopportunityproject.mysidewalk.com/
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -3690,8 +3572,6 @@
     to rapidly and easily assess neighborhood family amenities and voucher amounts
     for Section 8 Housing Seekers.
   Product Name: Neighborhood Opportunity
-  agencies:
-  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:00:00.000Z'
   airtable_id: recT5ks2l7640KUN8
   category:
@@ -3709,8 +3589,6 @@
   image-alt: Screenshot showing fair market rent for 3 bedroom apartment in a Chicago
     neighborhood
   link: https://labs.mapbox.com/labs/opportunity/
-  problem_statement:
-  - rec0hb8kwXPfY26YY
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -3783,8 +3661,6 @@
     data from the Bureau of Labor Statistics to make career exploration easy and accessible
     for high school students.
   Product Name: CareerSpark
-  agencies:
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:04:03.000Z'
   airtable_id: recU5eii7A5dWIg1M
   category:
@@ -3799,8 +3675,6 @@
   image-alt: Screenshot of iPhone with app open with a job description of computer
     programmers
   link: https://itunes.apple.com/us/app/careerspark/id1146518762?mt=8
-  problem_statement:
-  - rec5AFdZpa2jr56AN
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -3975,8 +3849,6 @@
   year:
   - 2019
 - Product Name: City Builder
-  agencies:
-  - National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recVAuxQd9MYSuwiX
   category:
@@ -3991,8 +3863,6 @@
   image-alt: Screens of the city builder app, saying where private capital meets public
     growth
   link: https://www.citi.com/ventures/city-builder.html
-  problem_statement:
-  - recA3nfuASaLwUOw8
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -4196,8 +4066,6 @@
     and air pollution in the District of Columbia to explore the effect of transportation
     on air quality.
   Product Name: AirMotionDC
-  agencies:
-  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-19T18:49:03.000Z'
   airtable_id: recX5NL4Kil9gyiDJ
   category:
@@ -4219,8 +4087,6 @@
     and Traffic Volume'. The app is set for Washington, D.C., and you have the option
     to sort by the day, the ward, and the location.
   link: no-link
-  problem_statement:
-  - rec5Tsj3ELra0kwiF
   sprint:
   - recT1SVxeOYDYHrr2
   tech_team:
@@ -4263,8 +4129,6 @@
     and integrate open data on local hazards & resources to build a risk state detection
     algorithm that powers precise, life-saving mental health interventions.
   Product Name: EARS
-  agencies:
-  - U.S. Department of Veterans Affairs
   airtable_createdTime: '2020-02-10T16:02:37.000Z'
   airtable_id: recXrMdPaNmfm066G
   category:
@@ -4279,8 +4143,6 @@
     a risk state detection algorithm that powers precise, life-saving mental health
     interventions
   link: no-link
-  problem_statement:
-  - rec7qkDzgElJw71qp
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -4456,8 +4318,6 @@
   year:
   - 2021
 - Product Name: Child Care Planning Assessment Tool
-  agencies:
-  - U.S. Department of the Treasury
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recZbXXU6r2R0udDH
   category:
@@ -4475,8 +4335,6 @@
   image: child-care-planning.jpg
   image-alt: Interactive map of USA with numbers on child care resources
   link: https://top.kucppr.org/
-  problem_statement:
-  - recsnW2qXubKd3fOQ
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -4486,8 +4344,6 @@
   year:
   - 2021
 - Product Name: 'Bowie State University: The Opportunity Project'
-  agencies:
-  - U.S. Department of the Treasury
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: reca7qHT4iZa60DtI
   category:
@@ -4503,8 +4359,6 @@
   image: bowie-state-university-TOP.jpg
   image-alt: Scatter plot of series complete pct v. socioeconomic svi
   link: https://a.flow.gl/flow/3xfvr3 , https://docs.google.com/spreadsheets/d/1DxjDuopJli97RR7ftkyLMrX7Siuoc6pcSfKYZuacnMQ/edit#gid=0
-  problem_statement:
-  - recsnW2qXubKd3fOQ
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -4612,8 +4466,6 @@
 - Description (Old): Ushahidi Job Postings combines crowdsourced job reports to share
     alerts of local job openings.
   Product Name: Job Crowdsourcing Tool
-  agencies:
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-04T21:32:19.000Z'
   airtable_id: reccHhRbdVaWu9ejR
   category:
@@ -4626,8 +4478,6 @@
   image: job-crowdsourcing-tool.jpg
   image-alt: Map with the header 'Job Postings'
   link: https://jobpostings.ushahidi.io/
-  problem_statement:
-  - rec5AFdZpa2jr56AN
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -4759,8 +4609,6 @@
 - Description (Old): Uses data from eligible training provider lists (ETPL) to surface
     education options that lead to in-demand careers for job seekers.
   Product Name: Training Finder
-  agencies:
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:00:39.000Z'
   airtable_id: receFhSaugNKdzkt8
   category:
@@ -4773,8 +4621,6 @@
     seekers'
   details: ' Surfaces education options that lead to in-demand careers for job seekers'
   link: no-link
-  problem_statement:
-  - rec5AFdZpa2jr56AN
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -4848,9 +4694,6 @@
   year:
   - 2023
 - Product Name: Forerunner Floodplain Management Dashboard
-  agencies:
-  - National Oceanic and Atmospheric Administration
-  - Federal Emergency Management Agency
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: receaoUdUfomEwmTS
   category:
@@ -4865,9 +4708,6 @@
   image-alt: Floodplain dashboard with a map that indicates flood risk areas in Bay
     Head, NJ
   link: https://app.withforerunner.com
-  problem_statement:
-  - recA3nfuASaLwUOw8
-  - recBl2peaCWfRFzhh
   sprint:
   - recI4hykKnnw5Hznu
   - recmS57uvve75hyub
@@ -4936,7 +4776,7 @@
   - 2022
 - Product Name: Health Feature Store
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recf1gBnu5Q7M2TcM
   category:
@@ -5006,8 +4846,6 @@
     housing this tool combines transit access, walkability and school information
     into one unique feed of available properties.
   Product Name: FindHome
-  agencies:
-  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T15:59:25.000Z'
   airtable_id: recfLrnq2Ysla2mw7
   category:
@@ -5019,8 +4857,6 @@
     this tool combines transit access, walkability and school information into one
     unique feed of available properties
   link: no-link
-  problem_statement:
-  - rec0hb8kwXPfY26YY
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -5060,8 +4896,6 @@
 - Description (Old): This tool from Redfin shows jobs you can get to in 30 minutes,
     without a car, from any address.
   Product Name: Opportunity Score
-  agencies:
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:04:14.000Z'
   airtable_id: recfw5fOHUWirNcUW
   category:
@@ -5078,8 +4912,6 @@
   image: opportunity-score.jpg
   image-alt: Heatmap of Seattle indicating an opporunity score of 71
   link: https://labs.redfin.com/opportunity-score
-  problem_statement:
-  - rec5AFdZpa2jr56AN
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -5317,7 +5149,7 @@
   - 2019
 - Product Name: My Health Vault
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rechgwwFCeXNgX32p
   category:
@@ -5586,8 +5418,6 @@
 - Description (Old): Uses data from eleven federal agencies and twelve cities to facilitate
     finding, viewing and collaborating over data for Opportunity Project sprint participants.
   Product Name: Data.World Workspace
-  agencies:
-  - null
   airtable_createdTime: '2020-02-04T21:30:42.000Z'
   airtable_id: reckKPh2gHKoykabO
   category:
@@ -5607,8 +5437,6 @@
   image: dataworld-workspace.jpg
   image-alt: Screenshot of data dot world dashboard featuring The Opportunity Project
   link: https://data.world/opportunity
-  problem_statement:
-  - rec1DnmQSbVGfvwGG
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -5647,8 +5475,6 @@
     for families to supplement their housing costs through renting excess rooms or
     units.
   Product Name: Housing Calculator
-  agencies:
-  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T15:59:42.000Z'
   airtable_id: reckmCcdIeRbRayPC
   category:
@@ -5661,8 +5487,6 @@
   details: Identifies areas that present a high-opportunity for families to supplement
     their housing costs through renting excess rooms or units
   link: no-link
-  problem_statement:
-  - rec0hb8kwXPfY26YY
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -5703,11 +5527,7 @@
   title: STEWMAP Explorer
   year:
   - 2018
-- airtable_createdTime: '2024-12-09T15:24:19.000Z'
-  airtable_id: reclUOyiZ1RzqXUyM
 - Product Name: TREC
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2023-02-03T15:21:00.000Z'
   airtable_id: reclV0IOmvbAXoroW
   category:
@@ -5731,8 +5551,6 @@
   image-alt: An interactive map of New York City showing hospital and transit stop
     locations.
   link: http://trec.tsdataclinic.com
-  problem_statement:
-  - recKtDMHZmcduSywO
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -5837,15 +5655,9 @@
   title: Grant Success Toolkit
   year:
   - 2022
-- airtable_createdTime: '2024-12-09T15:24:27.000Z'
-  airtable_id: recmF1M1jjOqaEPyp
-- airtable_createdTime: '2024-12-09T15:24:23.000Z'
-  airtable_id: recmVsBYyLl9cwf9M
 - Description (Old): An interactive tool from Azavea for exploring transit accessibility
     to target resources from focus areas.
   Product Name: Transit Analyst
-  agencies:
-  - U.S. Department of Transportation
   airtable_createdTime: '2020-02-10T16:16:03.000Z'
   airtable_id: recmyZENvMwP8Sdg2
   category:
@@ -5869,8 +5681,6 @@
   image-alt: Map of Gloucester City and Camden, New Jersey displaying the accessibility
     and distance of Head Start locations
   link: https://transitanalyst.com/
-  problem_statement:
-  - reclVsRIccDmcRnr0
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -5979,8 +5789,6 @@
 - Description (Old): Uses labor/employment info from multiple federal data sources
     to help navigate careers in government for Americans.
   Product Name: Opportunity.hackernest.com
-  agencies:
-  - U.S. Department of Labor
   airtable_createdTime: '2020-02-10T16:03:17.000Z'
   airtable_id: recnXAHsTpdGR1Zog
   category:
@@ -5996,8 +5804,6 @@
   image-alt: Screenshot of Opportunity dot hackernest dot com with New York City map
     and overlaid photo of Grand Central Station
   link: http://opportunity.hackernest.com
-  problem_statement:
-  - rec5AFdZpa2jr56AN
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -6009,8 +5815,6 @@
 - Description (Old): A tool from Esri that shows where opportunities are for low income
     citizens with children.
   Product Name: Affordable Housing Finder
-  agencies:
-  - U.S. Department of Housing and Urban Development
   airtable_createdTime: '2020-02-10T16:17:31.000Z'
   airtable_id: recnnlHpvM9gbJCwc
   category:
@@ -6026,8 +5830,6 @@
   image-alt: Map that shows housing affordability index and relative proximity to
     jobs
   link: https://esrifederal.maps.arcgis.com/apps/Cascade/index.html?appid=2608e7148fc44cc781f26f7b49c1ad7d&adumkts=industry_solutions&aduse=national_government&aduc=industry_manager_outreach&utm_Source=industry_manager_outreach&aduca=optimizing_field_operations&adut=NYCstorymap&adulb=multiple&adusn=multiple&aduat=webpage&adupt=awareness&sf_id=70139000001NPg5AAG
-  problem_statement:
-  - rec0hb8kwXPfY26YY
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -6199,7 +6001,7 @@
   - 2018
 - Product Name: OPS Self-Help Healthcare Diagnostic Tool
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recoSNaIIb9NHQTV4
   category:
@@ -6283,8 +6085,6 @@
   year:
   - 2021
 - Product Name: FindHello
-  agencies:
-  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-19T21:56:03.000Z'
   airtable_id: recomGgKpRVG2HkVG
   category:
@@ -6301,8 +6101,6 @@
     select categories such as 'Legal Help', 'Resettlement Services', 'Housing & Food',
     and 'Community'.
   link: https://find.usahello.org
-  problem_statement:
-  - rec27vLYrWORAJyQn
   sprint:
   - recb97GlUcJpzlbbz
   tech_team:
@@ -6370,8 +6168,6 @@
   year:
   - 2017
 - Product Name: Climate Change Resiliency Dashboard
-  agencies:
-  - Federal Emergency Management Agency
   airtable_createdTime: '2023-02-19T18:03:56.000Z'
   airtable_id: recpIoXO4cwpQ6C1A
   category:
@@ -6388,8 +6184,6 @@
   image: climate-resiliency-dashboard.jpg
   image-alt: A screenshot that reads "Flooding in NYC".
   link: https://sites.google.com/view/columbiafall2022-topsprint/home?pli=1
-  problem_statement:
-  - recBl2peaCWfRFzhh
   sprint:
   - recmS57uvve75hyub
   tech_team:
@@ -6428,7 +6222,7 @@
   title: ECO Bloc
 - Product Name: COVID-19 Self-Test Outreach & Education Tool
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recpk49qALNBBcmiS
   category:
@@ -6458,7 +6252,7 @@
   - 2023
 - Product Name: Guidehouse SDOH Mapping Service
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recq094oAlMUp1qby
   category:
@@ -6485,8 +6279,6 @@
   year:
   - 2023
 - Product Name: Resettled Refugee Services and Data Explorer
-  agencies:
-  - USA for United Nations High Commissioner for Refugees
   airtable_createdTime: '2021-02-22T16:35:14.000Z'
   airtable_id: recqGk4ii75FkQTMy
   category:
@@ -6499,16 +6291,12 @@
     origin.
   details: Helps recently resettled refugees locate vital services within their area,
     and see the landscape of refugees around the United States by country of origin.
-  featured_in:
-  - rec27vLYrWORAJyQn
   image: Resettled-Refugee-Services.png
   image-alt: The Resettled Refugee Services and Data Explorer displays a map with
     locations on where different refugees has resettled. The app inclides list of
     the Top cities by Arrival. North Highlands, California is top on the list, with
     324 refugees that arrived in 2020.
   link: https://graphicacy.github.io/unhcr-refugee-project/
-  problem_statement:
-  - rec27vLYrWORAJyQn
   sprint:
   - recb97GlUcJpzlbbz
   tech_team:
@@ -6520,8 +6308,6 @@
 - Description (Old): A PolicyLink tool to allow comparison of disaggregated demographic
     indicators.
   Product Name: National Equity Atlas
-  agencies:
-  - U.S. Department of Education
   airtable_createdTime: '2020-02-10T16:17:05.000Z'
   airtable_id: recqUxhiu3ARLA2qy
   category:
@@ -6543,8 +6329,6 @@
   image: national-equity-atlas.jpg
   image-alt: Bar chart of Air Polution equity index in Los Angeles
   link: https://www.nationalequityatlas.org/
-  problem_statement:
-  - recvrDs3VhrdS3IDG
   sprint:
   - recC3IejMHNZ1DJvx
   tech_team:
@@ -6582,7 +6366,7 @@
   - 2021
 - Product Name: Risk and Quality Solution for MCOs Driving ROI
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recqbRSI6zPH5IV7U
   category:
@@ -6609,8 +6393,6 @@
   year:
   - 2023
 - Product Name: Community Resilience Data Guide
-  agencies:
-  - National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recqsBslHEY0KzftO
   category:
@@ -6629,8 +6411,6 @@
   image-alt: Hand holding a phone with an app that displays a map of DC about temperature
     risk
   link: https://reports.mysidewalk.com/93bdbee3fa
-  problem_statement:
-  - recA3nfuASaLwUOw8
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -6640,8 +6420,6 @@
   year:
   - 2021
 - Product Name: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
-  agencies:
-  - National Oceanic and Atmospheric Administration
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recrYhpe8cc4XWUDM
   category:
@@ -6658,8 +6436,6 @@
   image-alt: 3D Map that shows environmental risk areas and social media posts related
     to the disaster
   link: no-link
-  problem_statement:
-  - recA3nfuASaLwUOw8
   sprint:
   - recI4hykKnnw5Hznu
   tech_team:
@@ -6701,8 +6477,6 @@
     issues in each state, combining CDC health data with aggregated and anonymous
     Fitbit activity data from over 10 million users.
   Product Name: Fitbit
-  agencies:
-  - U.S. Department of Health and Human Services, Office of the U.S. Surgeon General
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: recsnq4JcjmNWR9Iu
   category:
@@ -6721,8 +6495,6 @@
   image-alt: Scatter plot of average steps vs. diabetes rate that shows an inverse
     correlation
   link: https://www.fitbit.com/us/activity-index
-  problem_statement:
-  - rec5AcJUvAG75vaRw
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -6767,8 +6539,6 @@
     DOT, and HUD to simplify funding eligibility with virtual story telling of our
     rural American communities.
   Product Name: Findyour.town
-  agencies:
-  - U.S. Department of Agriculture
   airtable_createdTime: '2020-02-10T16:02:12.000Z'
   airtable_id: rectVQJENyVs9jF7K
   category:
@@ -6786,8 +6556,6 @@
   image: findyourtown.jpg
   image-alt: Photo collage with text titled 'Find your American Story.'
   link: https://findyour.town
-  problem_statement:
-  - recwzfA7vUDiS48Mj
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -7003,11 +6771,7 @@
   title: GoodNeighUBors
   year:
   - 2023
-- airtable_createdTime: '2024-12-04T15:52:50.000Z'
-  airtable_id: recv0O2fO9yv3s773
 - Product Name: Air Aware
-  agencies:
-  - U.S. Environmental Protection Agency
   airtable_createdTime: '2021-02-22T16:56:47.000Z'
   airtable_id: recvSPsmrSIP9Qgld
   category:
@@ -7026,8 +6790,6 @@
   image-alt: The dashboard shows the air quality in certain areas along with transportation
     emissions, compared to housing statistics (e.g. house price and rent).
   link: https://science.gmu.edu/news/mason-students-build-data-science-tools-tackle-air-and-plastic-pollution
-  problem_statement:
-  - rec5Tsj3ELra0kwiF
   sprint:
   - recT1SVxeOYDYHrr2
   tech_team:
@@ -7202,7 +6964,7 @@
   - 2023
 - Product Name: 'SHAPE SDOH/At-Home Test Data Collection App '
   agencies:
-  - U.S. Food and Drug Administration (FDA)
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
   airtable_createdTime: '2023-10-30T19:21:34.000Z'
   airtable_id: recwvHyU99JShyZ1Y
   category:

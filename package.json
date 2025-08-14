@@ -16,7 +16,7 @@
     "url": "git+https://github.com/uscensusbureau/the-opportunity-project"
   },
   "scripts": {
-    "airtable": "(./scripts/airtable.sh)",
+    "airtable": "./scripts/airtable.sh",
     "build": "gulp build && bundle exec jekyll build",
     "build-css": "gulp build-sass",
     "build-css-components": "gulp build-sass-components",

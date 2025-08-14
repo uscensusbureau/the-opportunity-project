@@ -5,6 +5,9 @@ layout: default
 {% include announcement-banner.html %}
 {% include home/homepage-hero.html data=page.hero %}
 
+{% assign section = page.cta-one %}
+{% include home/cta.html data=section %}
+
 <section class="usa-section bg-base-darkest">
   <div class="grid-container">
     <div class="text-white margin-bottom-5">
@@ -16,9 +19,6 @@ layout: default
     {% include home/challenges-widget.html data = page.challenges.data %}
   </div>
 </section>
-
-{% assign section = page.cta-one %}
-{% include home/cta.html data=section %}
 
 {% include home/homepage-process.html data = page.process %}
 

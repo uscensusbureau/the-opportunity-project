@@ -16,9 +16,9 @@ annual_reports:
 
 banner:
 
-  text: "Propose a 2025 sprint topic!"
-  href: https://opportunity.census.gov/proposal/
-  isExternal: true
+  text: "Read a preview of our upcoming report: '10 Years of The Opportunity Project'"
+  href: /files/10-Years-of-TOP-Preview.pdf
+  isExternal: false
 
 
 

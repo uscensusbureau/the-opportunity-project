@@ -57,22 +57,22 @@ challenges:
 
 cta-one:
   background-class: bg-primary
-  title: 
-    text: Ready to solve the nation's biggest challenges?
+  title:
+    text: "To measure TOP’s impact on industry, government, and communities nationwide, our team has been gathering testimonials and impact data from past TOP participants. The full TOP impact report will be released in late 2025, so please stay tuned! Read a sneak peek of the report:"
     class: font-sans-sm text-normal
   primary:
-    text: Email TOP
-    href: mailto:census.opportunityproject@census.gov
-    isExternal: true
+    text: Download the Report Preview
+    href: /files/10-Years-of-TOP-Preview.pdf
+    isExternal: false
 
 impact:
   title: Our Impact
   data:
-    - title: '**40+** National Challenges'
+    - title: '**80+** National Challenges'
       subtitle: addressed, including ocean plastic pollution, COVID-19 economic recovery, disaster response, [and more](SITE.BASEURL/sprints)
-    - title: '**135+** Public-Facing Digital Products'
-      subtitle: launched [since 2016](SITE.BASEURL/showcase) through TOP's 12-week technology development sprints
-    - title: '**1300+** Alumni'
+    - title: '**250+** Public-Facing Digital Products'
+      subtitle: launched [since 2016](SITE.BASEURL/showcase) through TOP’s 12-week technology development sprints
+    - title: '**3300+** Sprint Participants'
       subtitle: participated in TOP sprints, including developers, designers, community leaders, data & policy experts, students, and government agencies
 
 participants:

@@ -69,11 +69,11 @@ impact:
   title: Our Impact
   data:
     - title: '**80+** National Challenges'
-      subtitle: addressed, including ocean plastic pollution, COVID-19 economic recovery, disaster response, [and more](SITE.BASEURL/sprints)
-    - title: '**250+** Public-Facing Digital Products'
+      subtitle: addressed, including disaster response, rural development, the opioid crisis, [and more](SITE.BASEURL/sprints)
+    - title: '**280+** Public-Facing Digital Products'
       subtitle: launched [since 2016](SITE.BASEURL/showcase) through TOP’s 12-week technology development sprints
     - title: '**3300+** Sprint Participants'
-      subtitle: participated in TOP sprints, including developers, designers, community leaders, data & policy experts, students, and government agencies
+      subtitle: including developers, designers, community leaders, data & policy experts, students, and government agencies
 
 participants:
   title: Past Participants

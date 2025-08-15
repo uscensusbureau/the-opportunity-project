@@ -58,7 +58,7 @@ challenges:
 cta-one:
   background-class: bg-primary
   title:
-    text: "To measure TOP’s impact on industry, government, and communities nationwide, our team has been gathering testimonials and impact data from past TOP participants. The full TOP impact report will be released in late 2025, so please stay tuned! Read a sneak peek of the report:"
+    text: "To measure TOP’s impact on industry, government, and communities nationwide, our team has been gathering testimonials and impact data from past TOP participants. The full TOP impact report will be released in late 2025, so please stay tuned!<br><br>Read a sneak peek of the report:"
     class: font-sans-sm text-normal
   primary:
     text: Download the Report Preview

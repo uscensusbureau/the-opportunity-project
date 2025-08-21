@@ -1705,7 +1705,7 @@ main {
 
   p,
   .coil-intro-container a.text-white,
-  .header-text-hot-dog a.text-underline {
+  .header-text-hot-dog a.usa-button {
     font-size: 12px;
     line-height: 17px;
 
@@ -1720,6 +1720,16 @@ main {
     }
   }
 
+  .header-text-hot-dog a.usa-button {
+    background-color: #fffefd;
+    box-shadow: 0;
+    border: .5px black solid;
+    transition: box-shadow .5s;
+
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  }
   .about-bg,
   .history-bg {
     // background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
@@ -3567,6 +3577,13 @@ code {
     color: #3A2920;
     &.usa-button {
       color: white;
+      box-shadow: none;
+      transition: box-shadow 1s, -webkit-box-shadow 1s;
+
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        background-color: #ce482d;
+      }
       &:visited {
         color: white;
       }

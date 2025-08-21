@@ -45,7 +45,7 @@ resources:
     description: |-
       These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
 
-    color: blue-warm-60v
+    color: top-green
     terms:
       - link: https://www.youtube.com/watch?v=0CHRd6YSXKA
         num: 1
@@ -71,7 +71,7 @@ resources:
   - category: "Revised Questions & Answers (pulled from current FAQ page)"
     description: |-
       These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
-    color: base-darkest
+    color: top-blue
     terms:
       - link:
         num: 6

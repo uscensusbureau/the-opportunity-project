@@ -1641,6 +1641,10 @@ main {
     .roles-content-block {
       grid-column: 1/2;
       grid-area: roles;
+
+      .grid-container{
+        outline: 1px #000 dashed;
+      }
     }
 
     .roles-downloads {
@@ -1841,7 +1845,7 @@ main {
         }
       }
       .radius-right-pill.semi-cta {
-      border: none;
+        border: dashed #3A2920 1PX;
     }
   }
 

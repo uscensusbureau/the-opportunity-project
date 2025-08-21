@@ -83,19 +83,19 @@ featured_products:
 <section class="vision full-width-screen-spilt bg-base-lighter">
   <div class="contained-container
   tablet:padding-top-10 desktop:padding-top-15 desktop:padding-bottom-8">
-    <h2 class="desktop:padding-left-1">Our Vision</h2>
+    <h2 class="desktop:padding-left-1 font-family-serif">Our Vision</h2>
   </div>
   <div
   class="padding-top-0 padding-bottom-8 tablet:padding-bottom-10 desktop:padding-bottom-15 display-flex flex-column flex-justify-end semi-cta-block width-full">
     <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-3 padding-left-4 padding-right-6 tablet:padding-left-0 tablet:margin-bottom-6 desktop:padding-left-9 desktop:margin-bottom-6">
       <div class="grid-container padding-x-0 tablet:padding-x-9  desktop:padding-bottom-0">
-      <h3>Collaboration, Simplified</h3>
+      <h3 class="font-family-serif">Collaboration, Simplified</h3>
         <p>TOP brings together government, technologists, problem solvers, and communities. Our tested innovation framework can be used by any government agency to encourage collaboration and ensure the public is at the heart of the results. </p>
       </div>
     </div>
     <div class="radius-right-pill semi-cta bg-white  padding-y-205 margin-bottom-4 padding-right-6 tablet:margin-bottom-9 padding-left-4 tablet:padding-left-0 desktop:padding-left-9 desktop:padding-bottom-3">
       <div class="grid-container padding-x-0 tablet:padding-x-9 desktop:padding-bottom-0">
-      <h3>Federal Data, Explained</h3>
+      <h3 class="font-family-serif">Federal Data, Explained</h3>
         <p>TOP unlocks the potential of open data. We believe that government data is a significantly under-tapped resource that can be transformed into products that solve important problems.</p>
       </div>
     </div>
@@ -125,7 +125,7 @@ featured_products:
 
 <section class="initiatives full-width-screen-spilt bg-base-lighter tablet:padding-top-2 desktop:padding-top-7">
   <div class="contained-container">
-  <h2 class="margin-bottom-2 tablet:margin-bottom-4 desktop:margin-bottom-8 text-center">Our Initiatives</h2>
+  <h2 class="margin-bottom-2 tablet:margin-bottom-4 desktop:margin-bottom-8 font-family-serif text-center">Our Initiatives</h2>
   <div class="initiatives-container grid-row grid-gap-lg
   flex-wrap flex-justify-center tablet:margin-bottom-3 desktop:margin-bottom-6">
     {% for product in page.featured_products %}

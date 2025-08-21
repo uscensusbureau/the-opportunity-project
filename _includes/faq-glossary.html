@@ -3,7 +3,7 @@
     {% for category in categories %}
     <div class="usa-accordion usa-accordion--multiselectable padding-top-2 padding-bottom-5" data-allow-multiple>
       {% for term in category.terms %}
-      <h4 class="usa-accordion__heading">
+      <h4 class="usa-accordion__heading font-family-serif">
         <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white"
           aria-expanded="true" aria-controls="m-a{{ term.num }}">
           {{term.term}}

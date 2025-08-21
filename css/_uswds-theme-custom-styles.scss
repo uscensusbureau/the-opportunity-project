@@ -1401,7 +1401,7 @@ main {
     padding-bottom: 60px;
 
     @include at-media("desktop") {
-      padding: 117px 0 124px;
+      padding: 88px 0 94px;
     }
   }
 
@@ -1519,7 +1519,7 @@ main {
 
 
   .how-it-works-bg, .roles-intro-bg {
-    background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
+    // background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
     background-size: cover;
     background-color: #CFE2F3;
   }
@@ -1536,6 +1536,7 @@ main {
   }
   div.grid-container div.text-wrapper {
     margin: 15.04px 0;
+    background-color: #fffefd;
 
     @include at-media('tablet') {
         margin: 30px 0 8px;
@@ -1640,6 +1641,10 @@ main {
     .roles-content-block {
       grid-column: 1/2;
       grid-area: roles;
+
+      .grid-container{
+        outline: 1px #000 dashed;
+      }
     }
 
     .roles-downloads {
@@ -1700,7 +1705,7 @@ main {
 
   p,
   .coil-intro-container a.text-white,
-  .header-text-hot-dog a.text-underline {
+  .header-text-hot-dog a.usa-button {
     font-size: 12px;
     line-height: 17px;
 
@@ -1715,10 +1720,21 @@ main {
     }
   }
 
+  .header-text-hot-dog a.usa-button {
+    background-color: #fffefd;
+    box-shadow: 0;
+    border: .5px black solid;
+    transition: box-shadow .5s;
+
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  }
   .about-bg,
   .history-bg {
-    background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
+    // background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
     background-size: contain;
+    background-color: #CFE2F3;
   }
 
   div.header-text-hot-dog,
@@ -1743,6 +1759,9 @@ main {
           @include u-padding-bottom(5);
         }
     }
+    .text-wrapper {
+      background-color: #fffefd;
+    }
     a {
     width: 200px;
     color: rgba(0, 0, 0, .8);
@@ -1753,7 +1772,7 @@ main {
     @include at-media('desktop') {
       width: 575px;
     }
-  }
+    }
   }
 
   #coil-intro {
@@ -1782,6 +1801,7 @@ main {
   }
 
   .full-width-screen-spilt {
+    background-color: #FFFEFD;
     display: grid;
     // max width of grid-container is 64
     // padding in mobile is 1rem
@@ -1835,7 +1855,7 @@ main {
         }
       }
       .radius-right-pill.semi-cta {
-      border: none;
+        border: dashed #3A2920 1PX;
     }
   }
 
@@ -1922,6 +1942,15 @@ main {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
     background-size: cover;
   }
+
+    .usa-accordion{
+      .bg-top-green {
+        background-color: #0F9D58;
+      }
+      .bg-top-blue {
+        background-color: #0B5DAF;
+      }
+    }
 
  #m-a13 ul li {
   max-width: none;
@@ -3548,6 +3577,13 @@ code {
     color: #3A2920;
     &.usa-button {
       color: white;
+      box-shadow: none;
+      transition: box-shadow 1s, -webkit-box-shadow 1s;
+
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        background-color: #ce482d;
+      }
       &:visited {
         color: white;
       }

@@ -45,7 +45,7 @@ resources:
     description: |-
       These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
 
-    color: blue-warm-60v
+    color: top-green
     terms:
       - link: https://www.youtube.com/watch?v=0CHRd6YSXKA
         num: 1
@@ -71,7 +71,7 @@ resources:
   - category: "Revised Questions & Answers (pulled from current FAQ page)"
     description: |-
       These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
-    color: base-darkest
+    color: top-blue
     terms:
       - link:
         num: 6
@@ -132,7 +132,7 @@ resources:
 <!-- video section -->
 {% assign section = page.phase-info-video %}
 <section class="video-section bg-gray-10 padding-top-8">
-  <h2 class="text-center">{{page.phase-info-video.title.text}}</h2>
+  <h2 class="font-family-serif text-center">{{page.phase-info-video.title.text}}</h2>
   <div class="iframe-content">
     <iframe width="640" height="360" src="https://www.youtube.com/embed/0CHRd6YSXKA" class="border-0"
       title="#ASKTOP: Does it Cost Money to Partner with TOP?" frameborder="0"
@@ -140,7 +140,7 @@ resources:
       allowfullscreen></iframe>
 
       <div class="bg-white text-black">
-      <h3>{{page.phase-info-video.blurb.title}}</h3>
+      <h3 class="font-family-serif">{{page.phase-info-video.blurb.title}}</h3>
 
       {% if page.phase-info-video %}
       <ul class="add-list-reset">

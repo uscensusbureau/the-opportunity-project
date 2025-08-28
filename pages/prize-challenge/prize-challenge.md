@@ -8,8 +8,8 @@ challenge-gov: https://www.challenge.gov/challenge/open-data-for-good-grand-chal
 submission-checklist: xyz
 
 hero:
-  text: 'The Open Data for Good Grand Challenge Awarded $260,000 in Prizes'
-  subtext: 'Submissions for the [Open Data For Good Challenge](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/){: .usa-link } are now closed. The Challenge awards funding to teams who built technology products with federal open data.'
+  text: 'Prize Challenge'
+  subtext: 'Learn about past prize challenges that awarded funding to teams who built technology products with federal open data.'
 
 banner-subheader:
   top:

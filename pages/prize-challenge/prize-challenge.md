@@ -97,7 +97,7 @@ winners:
   <div class="maxw-tablet margin-x-auto">
 
 ### What is It?
-{: .section-header }
+{: .section-header .font-family-serif .text-normal }
 
 The Open Data for Good Grand Challenge is a set of monetary and in-kind prizes awarded for teams who have created high-impact digital tools that solve problems for the public.
 
@@ -109,7 +109,7 @@ $260,000 in prizes were announced during The Opportunity Project Summit on Decem
 {: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-2 }
 
 ### Climate, Resilience, & the Natural Environment Awards
-{: .section-header .margin-top-6 }
+{: .section-header .margin-top-6 .font-family-serif .text-normal }
 
 U.S. Census Bureau awards the following prizes:
 
@@ -117,9 +117,9 @@ U.S. Census Bureau awards the following prizes:
 - Runner Up, $15,000: __Community Resilience Toolkit by mySidewalk__
 - Student Prize, $10,000: __R Story by Columbia University-based student team__
 
-    
+
 ### Society, Economy, & the Built Environment Awards
-{: .section-header .margin-top-6 }
+{: .section-header .margin-top-6 .font-family-serif .text-normal }
 
 U.S. Census Bureau awards the following prizes:
 
@@ -134,7 +134,7 @@ U.S. Census Bureau awards the following prizes:
     
     
 ### Climate Smart Community Challenge Awards
-{: .section-header .margin-top-6 }
+{: .section-header .margin-top-6 .font-family-serif .text-normal }
 
 National Oceanic and Atmospheric Administration awards the following prizes:
 
@@ -148,7 +148,7 @@ National Oceanic and Atmospheric Administration awards the following prizes:
 
 
 ### Health & COVID-19 Awards
-{: .section-header .margin-top-6 }
+{: .section-header .margin-top-6 .font-family-serif .text-normal }
 
 U.S. Department of Health & Human Services awards the following prizes:
 
@@ -160,7 +160,7 @@ U.S. Department of Health & Human Services awards the following prizes:
 
 
 ### In-Kind Awards
-{: .section-header .margin-top-6 }
+{: .section-header .margin-top-6 .font-family-serif .text-normal }
 
 - Orange Sparkle Ball awarded four individual start-up acceleration sessions and storytelling, customer acquisition, product launch, and pitch support to the __Vaccine Hesitancy Index by mySidewalk__
 - CivStart awarded consultation with CivStart staff on go-to-market strategies, introductions to select corporate partners and access to CivStart Community and resources to __Forerunner Floodplain Management Dashboard by Forerunner__
@@ -173,7 +173,7 @@ U.S. Department of Health & Human Services awards the following prizes:
 
 <section class="usa-section usa-section--dark bg-base-darkest border-bottom-1px">
 
-  <h2 class="text-center">
+  <h2 class="text-center font-family-serif text-normal">
     {{ page.past-title }}
   </h2>
 
@@ -181,12 +181,12 @@ U.S. Department of Health & Human Services awards the following prizes:
   {% include two-column-markdown.html content=page.judging %}
 
   <div class="grid-section margin-bottom-6">
-    <h3 class="margin-bottom-0 section-header section-header--light">{{ page.winners.title }}</h3>
+    <h3 class="margin-bottom-0 section-header section-header--light font-family-serif text-normal">{{ page.winners.title }}</h3>
     {% assign winners = site.data.products | where_exp: "item", "item.prize_status == 'Winner'" %}
     {% for winner in winners %}
       {% include prize-winner-product.html content=winner %}
     {% endfor %}
   </div>
 
-  
+
 </section>

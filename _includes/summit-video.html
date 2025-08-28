@@ -2,7 +2,7 @@
 {% assign video-data = include.video-data %}
 <section
   class="{% if data.class %} {{ data.class }} {% endif %} video-section">
-  <h2 class="font-family-serif {% if data.title.class %}{{ data.title.class }}{% endif %}">{{ data.title.text }}</h2>
+  <h2 class="font-family-serif text-top-black {% if data.title.class %}{{ data.title.class }}{% endif %}">{{ data.title.text }}</h2>
   <div class="iframe-content">
     <!-- mobile -->
     <iframe width="{{ data.video.mobile-width }}" height="{{ data.video.mobile-height }}" src="{{ data.video.src }}"
@@ -24,7 +24,7 @@
             allowfullscreen></iframe>
 
     <div class="video-section-text-container {{data.copy-class}}">
-      <h3 class="font-family-serif {{ data.blurb.class }}">{{ data.blurb.title }}</h3>
+      <h3 class="font-family-serif text-top-black text-normal {{ data.blurb.class }}">{{ data.blurb.title }}</h3>
       {% if data.blurb.p %}
       <p>{{ data.blurb.p }} </p>
       {% endif %}

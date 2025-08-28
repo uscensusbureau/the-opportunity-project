@@ -206,11 +206,11 @@ video-seven:
 
 <section class="impact text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
     <div class="grid-container">
-    <h2 class="text-center">10 Events</h2>
-      <div class="impact-numbers-container grid-row text-white flex-align-center margin-top-4 tablet:margin-top-5 desktop:margin-top-15">
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>33,352 Viewers</p></div>
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>481 Speakers</p></div>
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>107 Sessions</p></div>
+    <h2 class="text-center font-family-serif text-normal text-top-black">10 Events</h2>
+      <div class="impact-numbers-container grid-row flex-align-center margin-top-4 tablet:margin-top-5 desktop:margin-top-10 bg-top-lblue text-top-black">
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0 bg-top-white border-top-dashed"><p class="font-family-serif text-normal text-top-black">33,352 Viewers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0 bg-top-white border-top-dashed text-top-black"><p class="font-family-serif text-normal">481 Speakers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0 bg-top-white border-top-dashed"><p class="font-family-serif text-normal text-top-black">107 Sessions</p></div>
       </div>
     </div>
 </section>
@@ -227,7 +227,7 @@ video-seven:
 <!-- <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15"> main version? keeping to see which is prefered-->
 
   <div class="grid-container">
-    <h2 class="text-center text-white">Past Events</h2>
+    <h2 class="font-family-serif text-center text-top-black text-normal desktop:padding-bottom-8 desktop:margin-bottom-0">Past Events</h2>
     <div class="grid-row flex-column flex-align-center highlight-video-container">
       {% assign section = page.video-one %}
       {% include  summit-video.html data=section %}

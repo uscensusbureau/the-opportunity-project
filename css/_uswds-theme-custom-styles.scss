@@ -1746,7 +1746,7 @@ main {
 
   .header-text-hot-dog a.usa-button {
     background-color: #fffefd;
-    box-shadow: 0;
+    box-shadow: none;
     border: .5px black solid;
     transition: box-shadow .5s;
 
@@ -4011,6 +4011,23 @@ code {
 
     >p {
       margin-bottom: 0px;
+    }
+  }
+
+  main .usa-section--dark {
+    a {
+      color: #FFFEFD;
+    }
+
+    a.usa-button--secondary {
+      background-color: #FFFEFD;
+      color: #3a2920 !important;
+      box-shadow: none;
+      transition: box-shadow 1s;
+
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+      }
     }
   }
 

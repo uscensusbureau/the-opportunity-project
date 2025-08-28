@@ -4,13 +4,13 @@
     <div class="usa-accordion usa-accordion--multiselectable padding-top-2 padding-bottom-5" data-allow-multiple>
       {% for term in category.terms %}
       <h4 class="usa-accordion__heading font-family-serif">
-        <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white"
+        <button type="button" class="usa-accordion__button light bg-{{ category.color }} text-white text-normal"
           aria-expanded="true" aria-controls="m-a{{ term.num }}">
           {{term.term}}
         </button>
       </h4>
 
-      <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose">
+      <div id="m-a{{ term.num }}" class="usa-accordion__content usa-prose border-top-dashed">
         <p class="grid-container padding-y-5 overflow-hidden">
           {{ term.definition | markdownify | remove: "<p>" | remove: "</p>" }}
         </p>

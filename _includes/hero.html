@@ -90,7 +90,7 @@
   %}
 <section class="interior-hero {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-    <h1 class="usa-hero__title text-center font-family-serif">{{ page.hero.text}}</h1>
+    <h1 class="usa-hero__title text-center font-family-serif text-normal">{{ page.hero.text}}</h1>
     {% if page.class == "sprints" %}
     <div class="usa-hero__subtitle text-center">
       {{ site.data.messages.sprints.hero-text[page.lang] | newline_to_br | markdownify }}

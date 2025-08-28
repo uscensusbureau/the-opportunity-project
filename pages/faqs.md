@@ -131,16 +131,16 @@ resources:
 {% include hero.html %}
 <!-- video section -->
 {% assign section = page.phase-info-video %}
-<section class="video-section bg-gray-10 padding-top-8">
-  <h2 class="font-family-serif text-center">{{page.phase-info-video.title.text}}</h2>
+<section class="video-section bg-top-white padding-top-8">
+  <h2 class="font-family-serif text-center text-normal">{{page.phase-info-video.title.text}}</h2>
   <div class="iframe-content">
     <iframe width="640" height="360" src="https://www.youtube.com/embed/0CHRd6YSXKA" class="border-0"
       title="#ASKTOP: Does it Cost Money to Partner with TOP?" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
 
-      <div class="bg-white text-black">
-      <h3 class="font-family-serif">{{page.phase-info-video.blurb.title}}</h3>
+      <div class="bg-top-white text-top-black border-top-dashed">
+      <h3 class="font-family-serif text-normal">{{page.phase-info-video.blurb.title}}</h3>
 
       {% if page.phase-info-video %}
       <ul class="add-list-reset">

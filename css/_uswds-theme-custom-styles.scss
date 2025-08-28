@@ -127,6 +127,30 @@ h1, h2, h3 {
   }
 }
 
+.bg-top-white {
+  background-color: #FFFEFD;
+}
+
+
+.bg-top-lblue {
+  background-color: #CFE2F3;
+}
+
+.bg-top-green {
+  background-color: #0f9d58;
+}
+
+.border-top-dashed {
+  border: 1px black dashed;
+}
+
+.text-top-black {
+  color: #3a2920;
+}
+
+.text-top-white {
+  color: #FFFEFD;
+}
 // ========================================
 // 2. Site layout
 // ----------------------------------------
@@ -1722,7 +1746,7 @@ main {
 
   .header-text-hot-dog a.usa-button {
     background-color: #fffefd;
-    box-shadow: 0;
+    box-shadow: none;
     border: .5px black solid;
     transition: box-shadow .5s;
 
@@ -1937,7 +1961,8 @@ main {
 
 // FAQ page ----------------- //
 .page-faqs {
-  background: #E6E6E6;
+  background-color: #FFFEFD;
+
   .banner-background {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
     background-size: cover;
@@ -2276,7 +2301,7 @@ main {
         }
       }
       @media screen and (min-width: 1024px) {
-          background-color: white;
+          // background-color: white;
         }
     }
   }
@@ -3840,8 +3865,9 @@ code {
     background-size: cover;
   }
   .impact {
-    background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
+    // background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
     background-size: cover;
+    background-color: #CFE2F3;
     font-size: 14px;
     font-weight: 600;
     padding-top:48px;
@@ -3856,7 +3882,7 @@ code {
         width: 6.5em;
         height: 6.5em;
         border-radius: 50%;
-        background: color("base-darkest");
+
       }
     }
     p {
@@ -3865,8 +3891,9 @@ code {
       line-height: 18px;
     }
     @include at-media('tablet') {
-      background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
+      // background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
       background-size: cover;
+      background-color: #CFE2F3;
       font-size: 20px;
       padding-top:68px;
       padding-bottom:136px;
@@ -3891,12 +3918,12 @@ code {
       }
       p {
         line-height: 36px;
+        font-size: 24px;
       }
     }
   }
 
   .featured-speakers {
-    background: rgba(250, 243, 233, 1);
     .featured-speaker-individual {
       height: 288px;
       @include at-media("tablet") {
@@ -3914,10 +3941,10 @@ code {
     }
   }
 
-  .past-events {
-    background: rgba(19, 25, 47, 1);
+  // .past-events {
+  //   // background: rgba(19, 25, 47, 1);
 
-  }
+  // }
 
   h1 {
     font-size: 16px;
@@ -3987,6 +4014,23 @@ code {
 
     >p {
       margin-bottom: 0px;
+    }
+  }
+
+  main .usa-section--dark {
+    a {
+      color: #FFFEFD;
+    }
+
+    a.usa-button--secondary {
+      background-color: #FFFEFD;
+      color: #3a2920 !important;
+      box-shadow: none;
+      transition: box-shadow 1s;
+
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+      }
     }
   }
 

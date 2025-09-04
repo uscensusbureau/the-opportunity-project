@@ -126,28 +126,31 @@ h1, h2, h3 {
     @include u-color('white');
   }
 }
-
+$bg-bg-top-white: #FFFEFD;
 .bg-top-white {
   background-color: #FFFEFD;
 }
 
-
+$bg-top-lblue: #CFE2F3;
 .bg-top-lblue {
-  background-color: #CFE2F3;
+  background-color: #CFE2F3 !important;
 }
 
+$bg-top-green: #0f9d58;
 .bg-top-green {
   background-color: #0f9d58;
 }
-
+$border-top-dashed: 1px #3a2920 dashed;
 .border-top-dashed {
-  border: 1px black dashed;
+  border: 1px #3a2920 dashed;
 }
 
+$text-top-black: #3a2920;
 .text-top-black {
   color: #3a2920;
 }
 
+$text-top-white: #FFFEFD;
 .text-top-white {
   color: #FFFEFD;
 }
@@ -257,7 +260,7 @@ h1, h2, h3 {
     }
 
     .usa-accordion__button {
-      color: #3A2920;
+      color: $text-top-black;
       &[aria-expanded="false"] {
         @include add-background-svg("angle-arrow-down");
         &:hover {
@@ -324,7 +327,7 @@ h1, h2, h3 {
   border-bottom: color("base-light");
   &--bordered {
     @include u-border-bottom('05');
-    border-color: #3A2920;
+    border-color: $text-top-black;
     align-items: baseline;
     @include at-media('desktop'){
       // @include u-border-color('secondary');
@@ -1502,7 +1505,7 @@ main {
 .page-sprint-process {
   h2 {
     font-size: 14px;
-    color: #3A2920;
+    color: $text-top-black;
 
     @include at-media('tablet') {
       font-size: 20px;
@@ -1516,7 +1519,7 @@ main {
 
   h3 {
     font-size: 12px;
-    color: #3A2920;
+    color: $text-top-black;
     @include at-media('tablet') {
         font-size: 14px;
         line-height: 14px;
@@ -1545,7 +1548,7 @@ main {
   .how-it-works-bg, .roles-intro-bg {
     // background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
     background-size: cover;
-    background-color: #CFE2F3;
+    background-color: $bg-top-lblue;
   }
 
   div.header-text-hot-dog, div.how-it-works-details {
@@ -1560,7 +1563,7 @@ main {
   }
   div.grid-container div.text-wrapper {
     margin: 15.04px 0;
-    background-color: #fffefd;
+    background-color: $text-top-white;
 
     @include at-media('tablet') {
         margin: 30px 0 8px;
@@ -1604,7 +1607,7 @@ main {
             line-height: 24px;
           }
         &.light {
-          background-color: #0F9D58;
+          background-color: $bg-top-green;
         }
       }
       li {
@@ -1652,7 +1655,7 @@ main {
       }
   }
   .full-width-screen-spilt {
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
     display: grid;
     // max width of grid-container is 64
     // padding in mobile is 1rem
@@ -1674,12 +1677,12 @@ main {
     .roles-downloads {
       a {
         text-decoration: underline;
-        color: #3A2920;
+        color: $text-top-black;
         &:visited {
-          color: #3A2920;
+          color: $text-top-black;
         }
         &:hover {
-          color: #3A2920;
+          color: $text-top-black;
         }
       }
     }
@@ -1745,7 +1748,7 @@ main {
   }
 
   .header-text-hot-dog a.usa-button {
-    background-color: #fffefd;
+    background-color: $text-top-white;
     box-shadow: none;
     border: .5px black solid;
     transition: box-shadow .5s;
@@ -1758,7 +1761,7 @@ main {
   .history-bg {
     // background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
     background-size: contain;
-    background-color: #CFE2F3;
+    background-color: $bg-top-lblue;
   }
 
   div.header-text-hot-dog,
@@ -1784,7 +1787,7 @@ main {
         }
     }
     .text-wrapper {
-      background-color: #fffefd;
+      background-color: $text-top-white;
     }
     a {
     width: 200px;
@@ -1825,7 +1828,7 @@ main {
   }
 
   .full-width-screen-spilt {
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
     display: grid;
     // max width of grid-container is 64
     // padding in mobile is 1rem
@@ -1879,7 +1882,7 @@ main {
         }
       }
       .radius-right-pill.semi-cta {
-        border: dashed #3A2920 1PX;
+        border: $border-top-dashed;
     }
   }
 
@@ -1961,7 +1964,7 @@ main {
 
 // FAQ page ----------------- //
 .page-faqs {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
 
   .banner-background {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
@@ -1970,7 +1973,7 @@ main {
 
     .usa-accordion{
       .bg-top-green {
-        background-color: #0F9D58;
+        background-color: $bg-top-green;
       }
       .bg-top-blue {
         background-color: #0B5DAF;
@@ -2144,6 +2147,10 @@ main {
 .toolkit-header, .process-section, .process-section section {
   scroll-margin-top: 10rem;
   scroll-snap-margin-top: 10rem;  // for safari mobile
+}
+
+.process-section {
+ background-color: $bg-top-lblue;
 }
 
 .toolkit-header-refresh h2 {
@@ -2575,7 +2582,7 @@ div.toolkit-todo__resources {
 .site-footer {
   @include typeset("lang");
   clear: both;
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
 
   h3 {
     margin-top: 0;
@@ -2602,7 +2609,7 @@ div.toolkit-todo__resources {
   .usa-footer__secondary-section {
     @include u-padding-bottom(0);
     @include u-padding-top(2);
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
 
     @include at-media("tablet") {
       padding-top: units(4);
@@ -2767,7 +2774,7 @@ div.toolkit-todo__resources {
 }
 
 .footer-section-bottom {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
   font-size: 10px;
   width: 90%;
   margin: 0 auto;
@@ -3596,10 +3603,10 @@ code {
 }
 
 .usa-media-block__footer {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
   a {
     text-decoration: none;
-    color: #3A2920;
+    color: $text-top-black;
     &.usa-button {
       color: white;
       box-shadow: none;
@@ -3616,7 +3623,7 @@ code {
   }
 
   h3 {
-    color: #3A2920;
+    color: $text-top-black;
   }
 }
 
@@ -3867,7 +3874,7 @@ code {
   .impact {
     // background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
     background-size: cover;
-    background-color: #CFE2F3;
+    background-color: $bg-top-lblue;
     font-size: 14px;
     font-weight: 600;
     padding-top:48px;
@@ -3893,7 +3900,7 @@ code {
     @include at-media('tablet') {
       // background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
       background-size: cover;
-      background-color: #CFE2F3;
+      background-color: $bg-top-lblue;
       font-size: 20px;
       padding-top:68px;
       padding-bottom:136px;
@@ -4019,12 +4026,12 @@ code {
 
   main .usa-section--dark {
     a {
-      color: #FFFEFD;
+      color: $text-top-white;
     }
 
     a.usa-button--secondary {
-      background-color: #FFFEFD;
-      color: #3a2920 !important;
+      background-color: $text-top-white;
+      color: $text-top-black;
       box-shadow: none;
       transition: box-shadow 1s;
 
@@ -5099,7 +5106,7 @@ h6 + div:not(.usa-accordion__content) {
 
 .site-header-dark {
   .site-header-navbar {
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
   }
   .site-logo {
     a {
@@ -5676,7 +5683,7 @@ $theme-table-column-gap: 4;
 
     .usa-nav__primary-item {
       a {
-        color: #3A2920;
+        color: $text-top-black;
         line-height: lh("lang", 2);
       }
     }
@@ -5698,7 +5705,7 @@ $theme-table-column-gap: 4;
   }
 
   .usa-nav__submenu-item {
-    color: #3A2920;
+    color: $text-top-black;
     @include typeset("lang", "2xs", 2);
   }
 
@@ -5721,7 +5728,7 @@ $theme-table-column-gap: 4;
 
 .usa-nav__primary-item {
   a {
-    color: #3A2920;
+    color: $text-top-black;
   }
   .nav-svg {
     // #5c5c5c
@@ -5735,9 +5742,9 @@ $theme-table-column-gap: 4;
     }
   }
  .usa-nav__submenu {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
   .usa-nav__submenu-item a {
-    color: #3A2920;
+    color: $text-top-black;
   }
  }
 }

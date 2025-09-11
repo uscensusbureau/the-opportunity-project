@@ -913,11 +913,21 @@ main {
       font-size: font-size("sans", "xl");
       font-weight: 700;
       line-height: line-height("lang", 4);
-      color: color("white");
+      color: $text-top-white !important;
+
+      a {
+        color: $text-top-white !important;
+        &:visited {
+          color: $text-top-white;
+        }
+        &:hover {
+          color: $text-top-white;
+        }
+      }
     }
     p {
       font-size: font-size("sans", "sm");
-      color: color("white");
+      color: $text-top-white;
       line-height: line-height("lang", 3);
       margin-bottom: 2rem;
     }
@@ -1267,6 +1277,20 @@ main {
     font-weight: 400;
     font-size: font-size("sans", "sm");
     @include white-links;
+
+    a.usa-link {
+      color: $text-top-black;
+      &:visited {
+        color: $text-top-black;
+        &:hover {
+            color: $text-top-black;
+          }
+      }
+      &:hover {
+        color: $text-top-black;
+      }
+
+    }
   }
   &-p:last-child {
     border-bottom: none;
@@ -1648,7 +1672,7 @@ main {
     box-shadow: 0 ;
     border: .5px black solid;
     transition: box-shadow .5s;
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
     }
@@ -1669,7 +1693,7 @@ main {
       &.usa-button--secondary {
         box-shadow: 0;
         transition: box-shadow 1s;
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background-color: #ce482d;
       }
@@ -1783,7 +1807,7 @@ main {
     border: .5px black solid;
     transition: box-shadow .5s;
 
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
   }
@@ -3642,7 +3666,7 @@ code {
       box-shadow: none;
       transition: box-shadow 1s, -webkit-box-shadow 1s;
 
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
         background-color: #ce482d;
       }
@@ -4065,11 +4089,11 @@ code {
 
     a.usa-button--secondary {
       background-color: $text-top-white;
-      color: $text-top-black;
+      color: $text-top-black !important;
       box-shadow: none;
       transition: box-shadow 1s;
 
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
       }
     }

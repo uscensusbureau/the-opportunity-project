@@ -917,7 +917,7 @@ main {
   }
 
   .data-kit__active {
-    $datakitBoxShadow: 0 0 0 3px color('base-lightest');
+    $datakitBoxShadow: 0 0 0 3px #0B5DAF;
     .usa-card__container {
       transition: transform 400ms ease;
       &:focus-within {
@@ -966,11 +966,11 @@ main {
     right: 2rem;
   }
   .data-kit__stats {
-    color: color("primary-dark");
+    color: $text-top-black;
     font-weight: 400;
     letter-spacing: 0.8px;
     padding: 0.5rem 0.8rem;
-    background-color: color("white");
+    background-color: $bg-top-white;
     border-radius: 4px;
     position: absolute;
     bottom: 2rem;
@@ -1055,16 +1055,16 @@ main {
 }
 
 .dch__data-topic {
-  @include u-border(solid, 'accent-warm', 2px);
-  @include u-bg('primary-darker');
+  border: 1px solid #3A2920;
+  background-color: $bg-top-white;
   cursor: pointer;
   @include u-margin-x(0.5);
   @include u-radius(1);
-  @include u-color('white');
+  color: $text-top-black;
   &.selected {
-    @include u-bg('white');
-    @include u-color('ink');
-    @include u-border-color('primary-darker');
+    border: $border-top-dashed;
+    background-color: #3A2920;
+    color: $bg-top-white;
     cursor: initial;
   }
 }
@@ -1380,13 +1380,13 @@ main {
 }
 
 .datasets__card {
-    background-color: color("primary-vivid");
+    background-color: $bg-top-white;
     border: color("base-darkest");
     border-radius: 10px;
-    color: color("white");
+    color: $text-top-black !important;
     font-size: font-size("sans", "2xs");
     transition: border 400ms ease;
-    border: 2px solid color('primary-vivid');
+    border: 2px dashed #3A2920;
     h2 {
       padding-right: 2rem;
     }
@@ -3755,9 +3755,13 @@ code {
 }
 
 .page-curated-datasets {
-  @include u-bg('primary-vivid');
+  background-color: $bg-top-lblue;
   h1 {
     font-family: family('serif');
+    color: $text-top-black;
+  }
+  p {
+    color: $text-top-black;
   }
 }
 

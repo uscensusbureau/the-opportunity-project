@@ -150,6 +150,10 @@ $ps-breakpoint: 'mobile-lg';
   @include u-margin-bottom(2);
   @include u-bg('base-dark');
 
+  &.usa-card__container {
+    border-color: #3a2920 !important;
+  }
+
   .card-header {
     margin-top: 0;
     @include u-margin-x(0);

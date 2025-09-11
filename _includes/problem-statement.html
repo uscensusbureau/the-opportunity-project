@@ -6,23 +6,23 @@
 {% assign translations = site.data.messages.problem-statement %}
 {% assign lookups = site.data.messages.ps-fields %}
 
-<div class="problem-statement">
+<div class="problem-statement bg-top-white">
   <div class="grid-row">
 
     <div class="ps-left-col {{expandedClass}}">
       <span class="secondary-header">
         {{ site.data.messages.problem-statement.problem-statement[page.lang] }}
       </span>
-      <h2 class="text-light font-sans-xl font-family-serif line-height-sans-3 margin-top-1 margin-bottom-1">
+      <h2 class="text-light font-sans-xl font-family-serif line-height-sans-3 margin-top-1 margin-bottom-1 text-top-black">
         {% assign index = lookups.name[page.lang] %}
         {{ include.content[index] }}
       </h2>
       <div class="lhs-content {{ expandedClass }}">
-        <h3 class="problem-statement-subheader">
+        <h3 class="problem-statement-subheader text-top-black">
         {{ site.data.messages.problem-statement.challenge[page.lang] }}:
       </h3>
         {% assign index = lookups.challenge[page.lang] %}
-        <p>{{ include.content[index] | markdownify }}</p>
+        <p class="text-top-black">{{ include.content[index] | markdownify }}</p>
       </div>
     </div>
 
@@ -42,7 +42,7 @@
 
       <div class="ps-right-col-section ps-agency {{ expandedClass }}">
         <h3 class="secondary-header">{{ site.data.messages.problem-statement.agency[page.lang] }}</h3>
-        <p class="margin-top-1">
+        <p class="margin-top-1 text-top-black">
           {% assign index = lookups.agency[page.lang] %}
           {{ include.content[index] }}
         </p>
@@ -72,7 +72,7 @@
 
       <div class="ps-right-col-section ps-target-audience {{expandedClass}}">
         <h3 class="secondary-header">{{ site.data.messages.problem-statement.audience[page.lang] }}</h3>
-        <p>
+        <p class="text-top-black">
           {% assign index = lookups.audience[page.lang] %}
           {{ include.content[index] | markdownify }}
         </p>
@@ -83,10 +83,10 @@
   <div class="grid-row">
     <div class="ps-see-more">
       <button class="callout-button {{ expandedClass }}">
-        <span class="ps-see-more__less {% unless include.isExpanded %}display-none{% endunless %}">
+        <span class="ps-see-more__less {% unless include.isExpanded %}display-none{% endunless %} text-top-black">
             {{ translations.see-less[page.lang] }}
         </span>
-        <span class="ps-see-more__more {% if include.isExpanded %}display-none{% endif %}">
+        <span class="ps-see-more__more {% if include.isExpanded %}display-none{% endif %}  text-top-black">
           {{ translations.see-more[page.lang] }}
         </span>
       </button>

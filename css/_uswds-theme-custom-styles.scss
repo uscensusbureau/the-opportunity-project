@@ -126,20 +126,31 @@ h1, h2, h3 {
     @include u-color('white');
   }
 }
-$bg-bg-top-white: #FFFEFD;
+$bg-top-white: #FFFEFC;
 .bg-top-white {
-  background-color: #FFFEFD;
+  background-color: #FFFEFC;
 }
 
-$bg-top-lblue: #CFE2F3;
+$bg-top-lblue: #D2EBFF;
 .bg-top-lblue {
-  background-color: #CFE2F3 !important;
+  background-color: #D2EBFF !important;
 }
 
-$bg-top-green: #0f9d58;
-.bg-top-green {
-  background-color: #0f9d58;
+$bg-top-primary:#0555A4;
+.bg-top-primary {
+  background-color: #0555A4;
 }
+
+$bg-top-green: #0b9d58;
+.bg-top-green {
+  background-color: #0b9d58;
+}
+
+$bg-top-red: #D14B2C;
+.bg-top-red {
+  background-color: #D14B2C;
+}
+
 $border-top-dashed: 1px #3a2920 dashed;
 .border-top-dashed {
   border: 1px #3a2920 dashed;
@@ -150,9 +161,13 @@ $text-top-black: #3a2920;
   color: #3a2920;
 }
 
-$text-top-white: #FFFEFD;
+$text-top-white: #FFFEFC;
 .text-top-white {
-  color: #FFFEFD;
+  color: #FFFEFC;
+}
+
+.text-top-important {
+  color: inherit !important;
 }
 // ========================================
 // 2. Site layout
@@ -724,7 +739,7 @@ main {
 }
 
 .interior-hero {
-  background-color: #0B5DAF;
+  background-color: #0555A4;
   color: #ffffff;
   position: relative;
   z-index: 5;
@@ -1446,7 +1461,7 @@ main {
   .usa-hero__bg {
     width: 200px;
     min-height: 114px;
-    background-color: #0B5DAF;
+    background-color: #0555A4;
     @include at-media('tablet') {
       width: 343px;
       // min-height: ;
@@ -1987,7 +2002,7 @@ main {
         background-color: $bg-top-green;
       }
       .bg-top-blue {
-        background-color: #0B5DAF;
+        background-color: #0555A4;
       }
     }
 
@@ -6245,6 +6260,12 @@ h2.section-header, h3.section-header {
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
   font-size: $site-h2-size;
+}
+
+.page-prize {
+  h3.section-header {
+    font-size: 1.6rem;
+  }
 }
 
 .usa-section--dark, .usa-dark-background {

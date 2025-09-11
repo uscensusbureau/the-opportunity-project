@@ -171,7 +171,7 @@ U.S. Department of Health & Human Services awards the following prizes:
   </div>
 </section>
 
-<section class="usa-section usa-section--dark bg-base-darkest border-bottom-1px">
+<section class="usa-section usa-section bg-top-lblue border-bottom-1px text-top-black">
 
   <h2 class="text-center font-family-serif text-normal">
     {{ page.past-title }}

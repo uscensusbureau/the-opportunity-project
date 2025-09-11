@@ -38,11 +38,11 @@ layout: default
 {% assign setGroups = setGroups | push: nonFeaturedSets %}
 
 {% include hero.html %}
-<section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
+<section class="bg-top-lblue usa-section margin-bottom-0 padding-bottom-0">
   <div class="grid-container">
-    <h2 class="text-white">Explore Datasets</h2>
+    <h2 class="text-top-black font-family-serif text-normal">Explore Datasets</h2>
       <form id="data-search-form" class="usa-search usa-search--small tablet:width-tablet display-block" role="search">
-        <label class="text-white" for="search-field">Search by keyword</label>
+        <label class="text-top-black" for="search-field">Search by keyword</label>
         <div class="display-flex margin-top-05">
           <input class="usa-input" id="search-field" type="search" name="search">
           <button class="usa-button bg-primary-darkest" type="submit">
@@ -61,15 +61,15 @@ layout: default
   </div>
 </section>
 
-<section class="bg-primary-dark margin-top-0">
+<section class="bg-top-lblue margin-top-0">
   <section class="usa-section usa-graphic-list grid-container padding-top-4">
-    <h3 id="results-count" 
-      class="text-normal font-sans-md text-white">
+    <h3 id="results-count"
+      class="text-normal font-sans-md text-top-black">
         Showing {{display-datasets.size}} datasets
     </h3>
 
     <ul class="usa-card-group">
-    
+
     {% for group in setGroups %}
       {% assign groupSets = group | sort: "datakit_order" %}
       {% for item in groupSets %}

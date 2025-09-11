@@ -93,7 +93,7 @@ winners:
 {% include event-announcement.html data=page.event-announcement%}
 
 {::options parse_block_html="true" /}
-<section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
+<section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0 bg-top-white">
   <div class="maxw-tablet margin-x-auto">
 
 ### What is It?
@@ -171,7 +171,7 @@ U.S. Department of Health & Human Services awards the following prizes:
   </div>
 </section>
 
-<section class="usa-section usa-section--dark bg-base-darkest border-bottom-1px">
+<section class="usa-section usa-section bg-top-lblue border-bottom-1px text-top-black">
 
   <h2 class="text-center font-family-serif text-normal">
     {{ page.past-title }}

@@ -1,4 +1,4 @@
-$light-border: 1px solid color($theme-color-base-lighter);
+$light-border: 1px dashed #8c8c8c;
 $ps-breakpoint: 'mobile-lg';
 
 .sprint-hero-header {
@@ -38,7 +38,7 @@ $ps-breakpoint: 'mobile-lg';
 
   @include at-media($ps-breakpoint){
     @include grid-col(7);
-    border-right: none;  
+    border-right: none;
     border-bottom: $light-border;
   }
 
@@ -51,7 +51,7 @@ $ps-breakpoint: 'mobile-lg';
     }
     @include at-media('tablet-lg'){
       @include grid-col(7);
-      border-right: none;  
+      border-right: none;
       border-bottom: $light-border;
     }
   }
@@ -130,6 +130,16 @@ $ps-breakpoint: 'mobile-lg';
   &.ps-expanded {
     order: 100;
   }
+  a.ps-pdf {
+    box-shadow: inset 0 0 0 2px $text-top-black;
+    color: $text-top-black !important;
+    transition: box-shadow .5s;
+      &:hover {
+        box-shadow:
+        inset 0 0 0 2px #3a2920,
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  }
 }
 
 .ps-card {
@@ -139,6 +149,10 @@ $ps-breakpoint: 'mobile-lg';
   padding-top: 0;
   @include u-margin-bottom(2);
   @include u-bg('base-dark');
+
+  &.usa-card__container {
+    border-color: #3a2920 !important;
+  }
 
   .card-header {
     margin-top: 0;
@@ -200,11 +214,11 @@ $ps-breakpoint: 'mobile-lg';
   border-top: none;
 
   button {
-    &.ps-collapsed { 
+    &.ps-collapsed {
       display: inline;
       @include add-background-svg("angle-arrow-down");
     }
-    &.ps-expanded { 
+    &.ps-expanded {
       display: inline;
       @include add-background-svg("angle-arrow-up");
     }

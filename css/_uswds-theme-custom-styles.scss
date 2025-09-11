@@ -126,30 +126,48 @@ h1, h2, h3 {
     @include u-color('white');
   }
 }
-
+$bg-top-white: #FFFEFC;
 .bg-top-white {
-  background-color: #FFFEFD;
+  background-color: #FFFEFC;
 }
 
-
+$bg-top-lblue: #D2EBFF;
 .bg-top-lblue {
-  background-color: #CFE2F3;
+  background-color: #D2EBFF !important;
 }
 
+$bg-top-primary:#0555A4;
+.bg-top-primary {
+  background-color: #0555A4;
+}
+
+$bg-top-green: #0b9d58;
 .bg-top-green {
-  background-color: #0f9d58;
+  background-color: #0b9d58;
 }
 
+$bg-top-red: #D14B2C;
+.bg-top-red {
+  background-color: #D14B2C;
+}
+
+$border-top-dashed: 1px #3a2920 dashed;
 .border-top-dashed {
-  border: 1px black dashed;
+  border: 1px #3a2920 dashed;
 }
 
+$text-top-black: #3a2920;
 .text-top-black {
   color: #3a2920;
 }
 
+$text-top-white: #FFFEFC;
 .text-top-white {
-  color: #FFFEFD;
+  color: #FFFEFC;
+}
+
+.text-top-important {
+  color: inherit !important;
 }
 // ========================================
 // 2. Site layout
@@ -257,7 +275,7 @@ h1, h2, h3 {
     }
 
     .usa-accordion__button {
-      color: #3A2920;
+      color: $text-top-black;
       &[aria-expanded="false"] {
         @include add-background-svg("angle-arrow-down");
         &:hover {
@@ -324,10 +342,14 @@ h1, h2, h3 {
   border-bottom: color("base-light");
   &--bordered {
     @include u-border-bottom('05');
-    border-color: #3A2920;
+    border-color: $text-top-black;
     align-items: baseline;
     @include at-media('desktop'){
       // @include u-border-color('secondary');
+    .usa-nav__primary button[aria-expanded="true"] {
+        background-color: $text-top-black;
+        color: $text-top-white;
+      }
     }
   }
 
@@ -534,7 +556,7 @@ h1, h2, h3 {
     @include u-position('sticky');
     top: 3.1em;
     text-align: center;
-    background-color: color("white");
+    background-color: $bg-top-white;
     border-bottom: units($site-border-width) solid
       color($site-base-transparent-light);
     clear: both;
@@ -721,7 +743,7 @@ main {
 }
 
 .interior-hero {
-  background-color: #0B5DAF;
+  background-color: #0555A4;
   color: #ffffff;
   position: relative;
   z-index: 5;
@@ -772,6 +794,17 @@ main {
   font-size: font-size("mono", "3xs");
   width: 130px;
   text-align: center;
+
+    .page-showcase & {
+      padding: units(1);
+      background-color: $bg-top-white;
+      color: $text-top-black;
+      margin-top: -19px;
+      font-family: font-family("serif");
+      font-size: font-size("serif", "xl");
+      text-align: center;
+      width: 100%;
+    }
 }
 
 .tag-subheader {
@@ -880,11 +913,21 @@ main {
       font-size: font-size("sans", "xl");
       font-weight: 700;
       line-height: line-height("lang", 4);
-      color: color("white");
+      color: $text-top-white !important;
+
+      a {
+        color: $text-top-white !important;
+        &:visited {
+          color: $text-top-white;
+        }
+        &:hover {
+          color: $text-top-white;
+        }
+      }
     }
     p {
       font-size: font-size("sans", "sm");
-      color: color("white");
+      color: $text-top-white;
       line-height: line-height("lang", 3);
       margin-bottom: 2rem;
     }
@@ -914,7 +957,7 @@ main {
   }
 
   .data-kit__active {
-    $datakitBoxShadow: 0 0 0 3px color('base-lightest');
+    $datakitBoxShadow: 0 0 0 3px #0B5DAF;
     .usa-card__container {
       transition: transform 400ms ease;
       &:focus-within {
@@ -963,11 +1006,11 @@ main {
     right: 2rem;
   }
   .data-kit__stats {
-    color: color("primary-dark");
+    color: $text-top-black;
     font-weight: 400;
     letter-spacing: 0.8px;
     padding: 0.5rem 0.8rem;
-    background-color: color("white");
+    background-color: $bg-top-white;
     border-radius: 4px;
     position: absolute;
     bottom: 2rem;
@@ -1052,16 +1095,16 @@ main {
 }
 
 .dch__data-topic {
-  @include u-border(solid, 'accent-warm', 2px);
-  @include u-bg('primary-darker');
+  border: 1px solid #3A2920;
+  background-color: $bg-top-white;
   cursor: pointer;
   @include u-margin-x(0.5);
   @include u-radius(1);
-  @include u-color('white');
+  color: $text-top-black;
   &.selected {
-    @include u-bg('white');
-    @include u-color('ink');
-    @include u-border-color('primary-darker');
+    border: $border-top-dashed;
+    background-color: #3A2920;
+    color: $bg-top-white;
     cursor: initial;
   }
 }
@@ -1234,6 +1277,20 @@ main {
     font-weight: 400;
     font-size: font-size("sans", "sm");
     @include white-links;
+
+    a.usa-link {
+      color: $text-top-black;
+      &:visited {
+        color: $text-top-black;
+        &:hover {
+            color: $text-top-black;
+          }
+      }
+      &:hover {
+        color: $text-top-black;
+      }
+
+    }
   }
   &-p:last-child {
     border-bottom: none;
@@ -1377,13 +1434,13 @@ main {
 }
 
 .datasets__card {
-    background-color: color("primary-vivid");
+    background-color: $bg-top-white;
     border: color("base-darkest");
     border-radius: 10px;
-    color: color("white");
+    color: $text-top-black !important;
     font-size: font-size("sans", "2xs");
     transition: border 400ms ease;
-    border: 2px solid color('primary-vivid');
+    border: 2px dashed #3A2920;
     h2 {
       padding-right: 2rem;
     }
@@ -1432,7 +1489,7 @@ main {
   .usa-hero__bg {
     width: 200px;
     min-height: 114px;
-    background-color: #0B5DAF;
+    background-color: #0555A4;
     @include at-media('tablet') {
       width: 343px;
       // min-height: ;
@@ -1502,7 +1559,7 @@ main {
 .page-sprint-process {
   h2 {
     font-size: 14px;
-    color: #3A2920;
+    color: $text-top-black;
 
     @include at-media('tablet') {
       font-size: 20px;
@@ -1516,7 +1573,7 @@ main {
 
   h3 {
     font-size: 12px;
-    color: #3A2920;
+    color: $text-top-black;
     @include at-media('tablet') {
         font-size: 14px;
         line-height: 14px;
@@ -1545,7 +1602,7 @@ main {
   .how-it-works-bg, .roles-intro-bg {
     // background: url('../img/sprint-process-page/desktop-roles-background.png') no-repeat 0 0;
     background-size: cover;
-    background-color: #CFE2F3;
+    background-color: $bg-top-lblue;
   }
 
   div.header-text-hot-dog, div.how-it-works-details {
@@ -1560,7 +1617,7 @@ main {
   }
   div.grid-container div.text-wrapper {
     margin: 15.04px 0;
-    background-color: #fffefd;
+    background-color: $text-top-white;
 
     @include at-media('tablet') {
         margin: 30px 0 8px;
@@ -1604,7 +1661,7 @@ main {
             line-height: 24px;
           }
         &.light {
-          background-color: #0F9D58;
+          background-color: $bg-top-green;
         }
       }
       li {
@@ -1615,7 +1672,7 @@ main {
     box-shadow: 0 ;
     border: .5px black solid;
     transition: box-shadow .5s;
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
     }
@@ -1636,7 +1693,7 @@ main {
       &.usa-button--secondary {
         box-shadow: 0;
         transition: box-shadow 1s;
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background-color: #ce482d;
       }
@@ -1652,7 +1709,7 @@ main {
       }
   }
   .full-width-screen-spilt {
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
     display: grid;
     // max width of grid-container is 64
     // padding in mobile is 1rem
@@ -1674,12 +1731,12 @@ main {
     .roles-downloads {
       a {
         text-decoration: underline;
-        color: #3A2920;
+        color: $text-top-black;
         &:visited {
-          color: #3A2920;
+          color: $text-top-black;
         }
         &:hover {
-          color: #3A2920;
+          color: $text-top-black;
         }
       }
     }
@@ -1745,12 +1802,12 @@ main {
   }
 
   .header-text-hot-dog a.usa-button {
-    background-color: #fffefd;
+    background-color: $text-top-white;
     box-shadow: none;
     border: .5px black solid;
     transition: box-shadow .5s;
 
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
   }
@@ -1758,7 +1815,7 @@ main {
   .history-bg {
     // background: url('../img/sprint-process-page/desktop-roles-background.png') repeat 0 0;
     background-size: contain;
-    background-color: #CFE2F3;
+    background-color: $bg-top-lblue;
   }
 
   div.header-text-hot-dog,
@@ -1784,7 +1841,7 @@ main {
         }
     }
     .text-wrapper {
-      background-color: #fffefd;
+      background-color: $text-top-white;
     }
     a {
     width: 200px;
@@ -1825,7 +1882,7 @@ main {
   }
 
   .full-width-screen-spilt {
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
     display: grid;
     // max width of grid-container is 64
     // padding in mobile is 1rem
@@ -1879,7 +1936,7 @@ main {
         }
       }
       .radius-right-pill.semi-cta {
-        border: dashed #3A2920 1PX;
+        border: $border-top-dashed;
     }
   }
 
@@ -1961,7 +2018,7 @@ main {
 
 // FAQ page ----------------- //
 .page-faqs {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
 
   .banner-background {
     background: url("../img/photos/faqs/top-faq-banner.png") no-repeat 0 0;
@@ -1970,10 +2027,10 @@ main {
 
     .usa-accordion{
       .bg-top-green {
-        background-color: #0F9D58;
+        background-color: $bg-top-green;
       }
       .bg-top-blue {
-        background-color: #0B5DAF;
+        background-color: #0555A4;
       }
     }
 
@@ -2144,6 +2201,10 @@ main {
 .toolkit-header, .process-section, .process-section section {
   scroll-margin-top: 10rem;
   scroll-snap-margin-top: 10rem;  // for safari mobile
+}
+
+.process-section {
+ background-color: $bg-top-lblue;
 }
 
 .toolkit-header-refresh h2 {
@@ -2575,7 +2636,7 @@ div.toolkit-todo__resources {
 .site-footer {
   @include typeset("lang");
   clear: both;
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
 
   h3 {
     margin-top: 0;
@@ -2602,7 +2663,7 @@ div.toolkit-todo__resources {
   .usa-footer__secondary-section {
     @include u-padding-bottom(0);
     @include u-padding-top(2);
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
 
     @include at-media("tablet") {
       padding-top: units(4);
@@ -2767,7 +2828,7 @@ div.toolkit-todo__resources {
 }
 
 .footer-section-bottom {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
   font-size: 10px;
   width: 90%;
   margin: 0 auto;
@@ -3596,16 +3657,16 @@ code {
 }
 
 .usa-media-block__footer {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
   a {
     text-decoration: none;
-    color: #3A2920;
+    color: $text-top-black;
     &.usa-button {
       color: white;
       box-shadow: none;
       transition: box-shadow 1s, -webkit-box-shadow 1s;
 
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
         background-color: #ce482d;
       }
@@ -3616,7 +3677,7 @@ code {
   }
 
   h3 {
-    color: #3A2920;
+    color: $text-top-black;
   }
 }
 
@@ -3748,9 +3809,13 @@ code {
 }
 
 .page-curated-datasets {
-  @include u-bg('primary-vivid');
+  background-color: $bg-top-lblue;
   h1 {
     font-family: family('serif');
+    color: $text-top-black;
+  }
+  p {
+    color: $text-top-black;
   }
 }
 
@@ -3867,7 +3932,7 @@ code {
   .impact {
     // background: url("../img/photos/summit/mobile-impactnumbers-background.png") no-repeat 0 0;
     background-size: cover;
-    background-color: #CFE2F3;
+    background-color: $bg-top-lblue;
     font-size: 14px;
     font-weight: 600;
     padding-top:48px;
@@ -3893,7 +3958,7 @@ code {
     @include at-media('tablet') {
       // background: url("../img/photos/summit/tablet-impactnumbers-background.png") no-repeat 0 0;
       background-size: cover;
-      background-color: #CFE2F3;
+      background-color: $bg-top-lblue;
       font-size: 20px;
       padding-top:68px;
       padding-bottom:136px;
@@ -4019,16 +4084,16 @@ code {
 
   main .usa-section--dark {
     a {
-      color: #FFFEFD;
+      color: $text-top-white;
     }
 
     a.usa-button--secondary {
-      background-color: #FFFEFD;
-      color: #3a2920 !important;
+      background-color: $text-top-white;
+      color: $text-top-black !important;
       box-shadow: none;
       transition: box-shadow 1s;
 
-      &:hover {
+      &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
       }
     }
@@ -4463,6 +4528,11 @@ code {
 
 
 // Sprints page
+.page-sprints {
+  body {
+    background-color: $bg-top-white;
+  }
+}
 .tab-row {
   width: max-content;
   margin: units(5) auto;
@@ -5099,7 +5169,7 @@ h6 + div:not(.usa-accordion__content) {
 
 .site-header-dark {
   .site-header-navbar {
-    background-color: #FFFEFD;
+    background-color: $text-top-white;
   }
   .site-logo {
     a {
@@ -5676,7 +5746,7 @@ $theme-table-column-gap: 4;
 
     .usa-nav__primary-item {
       a {
-        color: #3A2920;
+        color: $text-top-black;
         line-height: lh("lang", 2);
       }
     }
@@ -5698,7 +5768,7 @@ $theme-table-column-gap: 4;
   }
 
   .usa-nav__submenu-item {
-    color: #3A2920;
+    color: $text-top-black;
     @include typeset("lang", "2xs", 2);
   }
 
@@ -5721,7 +5791,7 @@ $theme-table-column-gap: 4;
 
 .usa-nav__primary-item {
   a {
-    color: #3A2920;
+    color: $text-top-black;
   }
   .nav-svg {
     // #5c5c5c
@@ -5735,9 +5805,9 @@ $theme-table-column-gap: 4;
     }
   }
  .usa-nav__submenu {
-  background-color: #FFFEFD;
+  background-color: $text-top-white;
   .usa-nav__submenu-item a {
-    color: #3A2920;
+    color: $text-top-black;
   }
  }
 }
@@ -6218,6 +6288,12 @@ h2.section-header, h3.section-header {
   @include u-border-bottom(1px);
   @include u-border-bottom('base-light');
   font-size: $site-h2-size;
+}
+
+.page-prize {
+  h3.section-header {
+    font-size: 1.6rem;
+  }
 }
 
 .usa-section--dark, .usa-dark-background {

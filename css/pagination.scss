@@ -1,4 +1,21 @@
 .usa-pagination {
+  .usa-pagination__button {
+      background-color: #FFFEFC;
+      color: #3A2920;
+
+      &.usa-current {
+        background-color: #3A2920;
+        color: #FFFEFC;
+      }
+      &:hover {
+        border-color: #3A2920;
+      }
+    }
+  a.usa-pagination__link, .usa-pagination__link-text {
+    &:hover {
+      color: #3A2920;
+    }
+  }
   .usa-pagination__arrow {
     &.hidden {
       visibility: hidden;

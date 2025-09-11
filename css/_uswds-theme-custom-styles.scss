@@ -346,6 +346,10 @@ $text-top-white: #FFFEFC;
     align-items: baseline;
     @include at-media('desktop'){
       // @include u-border-color('secondary');
+    .usa-nav__primary button[aria-expanded="true"] {
+        background-color: $text-top-black;
+        color: $text-top-white;
+      }
     }
   }
 
@@ -552,7 +556,7 @@ $text-top-white: #FFFEFC;
     @include u-position('sticky');
     top: 3.1em;
     text-align: center;
-    background-color: color("white");
+    background-color: $bg-top-white;
     border-bottom: units($site-border-width) solid
       color($site-base-transparent-light);
     clear: both;

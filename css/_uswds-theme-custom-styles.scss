@@ -775,6 +775,17 @@ main {
   font-size: font-size("mono", "3xs");
   width: 130px;
   text-align: center;
+
+    .page-showcase & {
+      padding: units(1);
+      background-color: $bg-top-white;
+      color: $text-top-black;
+      margin-top: -19px;
+      font-family: font-family("serif");
+      font-size: font-size("serif", "xl");
+      text-align: center;
+      width: 100%;
+    }
 }
 
 .tag-subheader {
@@ -4474,6 +4485,11 @@ code {
 
 
 // Sprints page
+.page-sprints {
+  body {
+    background-color: $bg-top-white;
+  }
+}
 .tab-row {
   width: max-content;
   margin: units(5) auto;

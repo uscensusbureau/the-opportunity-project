@@ -93,7 +93,7 @@ winners:
 {% include event-announcement.html data=page.event-announcement%}
 
 {::options parse_block_html="true" /}
-<section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
+<section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0 bg-top-white">
   <div class="maxw-tablet margin-x-auto">
 
 ### What is It?

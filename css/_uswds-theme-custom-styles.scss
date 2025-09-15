@@ -1202,9 +1202,9 @@ main {
 .dch-radio {
   background-color: initial !important;
   .dch-radio__label {
-    @include u-border-color('white');
-    @include u-bg('primary-dark');
-    @include u-color('white');
+    border-color: $text-top-black;
+    background-color: $bg-top-white;
+    color: $text-top-black;
     @include u-padding-left(2);
     text-indent: 0;
     &::before {
@@ -1212,9 +1212,9 @@ main {
     }
   }
   input:checked+[class$=__label] {
-    @include u-bg('white');
-    @include u-text('ink');
-    @include u-border-color('primary-darker');
+    background-color: $text-top-black;
+    color: $text-top-white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
   }
 }
 
@@ -1252,8 +1252,8 @@ main {
 .dch-card__tag {
   background-color: transparent !important;
   border: 1px solid;
-  @include u-border-color('base-lightest');
-  @include u-color('base-lightest', !important);
+  border-color: $text-top-black;
+  color: $text-top-black;
   margin-right: .1rem;
   &.usa-tag--new {
     @include u-text('bold');
@@ -1468,8 +1468,8 @@ main {
   .datasets__featured-banner {
     border-radius: 10px 10px 0 0;
     @include u-padding-x(3);
-    @include u-color('accent-warm');
-    @include u-text('italic');
+    color: $bg-top-green;
+    font-weight: 600;
     @include u-margin-top(2);
   }
 

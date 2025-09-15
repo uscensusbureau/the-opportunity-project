@@ -45,7 +45,7 @@ layout: default
         <label class="text-top-black" for="search-field">Search by keyword</label>
         <div class="display-flex margin-top-05">
           <input class="usa-input" id="search-field" type="search" name="search">
-          <button class="usa-button bg-primary-darkest" type="submit">
+          <button class="usa-button bg-top-black" type="submit">
             <span class="usa-sr-only">Search</span>
           </button>
         </div>
@@ -80,17 +80,16 @@ layout: default
     {% endfor %}
     </ul>
 
-    {% include nav/pagination.html 
-      maxPages=5 
-      label="Datasets search results page" 
-      class="pagination--dark" 
+    {% include nav/pagination.html
+      maxPages=5
+      label="Datasets search results page"
       id="dch-pagination" %}
       
   </section>
   {% assign stripped_content = content | strip_newlines %}
   {% if stripped_content.size > 0 %}
-    <section class="usa-section grid-container padding-top-0 usa-dark-background font-sans-md text-white">
-      <hr class="margin-y-3 border-accent-warm">
+    <section class="usa-section grid-container padding-top-0 font-sans-md text-top-black">
+      <!-- <hr class="margin-y-3 border-accent-warm"> -->
       {{ content }}
     </section>
   {% endif %}

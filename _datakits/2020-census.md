@@ -40,7 +40,7 @@ data-experts:
     {% for contact in group.contacts %}
       <li>
         {{contact.name}},
-        <a class="usa-link" href="mailto:{{contact.email}}">{{contact.email}}</a>
+        <a class="usa-link text-top-black" href="mailto:{{contact.email}}">{{contact.email}}</a>
       </li>
     {% endfor %}
   </ul>

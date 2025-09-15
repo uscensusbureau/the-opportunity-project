@@ -1110,6 +1110,7 @@ main {
     background-color: #3A2920;
     color: $bg-top-white;
     cursor: initial;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
   }
 }
 
@@ -2641,6 +2642,7 @@ div.toolkit-todo__resources {
   @include typeset("lang");
   clear: both;
   background-color: $text-top-white;
+  border-top: $text-top-black solid 2px;
 
   h3 {
     margin-top: 0;

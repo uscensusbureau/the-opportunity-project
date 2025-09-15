@@ -28,8 +28,8 @@
           {% for link in links %}
             {% if link.accordion %}
               {% assign itemName = link.text | remove: " " %}
-              <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current font-sans-xs text-ls-2 text-light"
+              <li class="font-family-serif usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link  usa-current font-serif-sm text-ls-2 text-light"
                   aria-expanded="false"
                   aria-controls="extended-nav-section-{{itemName}}">
                   <span>{{ link.text }}</span></button>
@@ -47,7 +47,7 @@
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-sans-xs text-ls-2 text-light" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
+                <a class="usa-nav__link font-serif-sm text-ls-2 text-light" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
               </li>
             {% endif %}
           {% endfor %}
@@ -67,7 +67,7 @@
   </button>
 
   <div class="usa-nav__inner">
-    <ul class="usa-nav__primary usa-accordion">
+    <ul class="usa-nav__primary usa-accordion font-family-serif">
       {% include nav/sections.html sections=site.data.nav.primary %}
     </ul>
   </div>

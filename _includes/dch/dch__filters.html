@@ -22,14 +22,14 @@
       </ul>
     </div>
     <hr class="margin-top-3 margin-bottom-0 border-accent-warm">
-  
+
   {% else %}
-    
+
     <div class="grid-row grid-gap text-white margin-top-3">
       {% assign breakpoint = "tablet" %}
       <div class="{{breakpoint}}:grid-col-5">
         <fieldset class="usa-fieldset">
-          <legend class="usa-legend">Filter by category</legend>
+          <legend class="usa-legend text-top-black">Filter by category</legend>
           {% assign categoryHalf = data-topics.size | divided_by: 2.0 | ceil %}
           <div class="grid-container grid-row grid-gap padding-x-0">
             <div class="grid-col-6 padding-left-0">
@@ -57,7 +57,7 @@
         {% assign options = options | uniq | sort: "order" %}
         {% assign optionMidpoint = options.size | divided_by: 2.0 | ceil %}
         <fieldset class="usa-form dch__checkbox-group maxw-none" name="{{group}}">
-          <legend class="usa-legend">Filter by available {{group}}</legend>
+          <legend class="usa-legend text-top-black">Filter by available {{group}}</legend>
           <div class="grid-container grid-row grid-gap padding-x-0">
             <div class="grid-col-6 padding-left-0">
               {% for option in options limit:optionMidpoint %}

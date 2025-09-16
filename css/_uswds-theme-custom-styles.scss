@@ -297,6 +297,7 @@ $text-top-white: #FFFEFC;
   .usa-menu-btn {
     font-size: fs("lang", "3xs");
     width: initial;
+    background-color: $bg-top-primary;
   }
 }
 
@@ -425,12 +426,12 @@ $text-top-white: #FFFEFC;
 
 .site-logo {
   .logo-image-mobile{
-    max-width: 150px;
+    max-width: 60px;
   }
 
   &.logo-image-desktop {
     display: none;
-    width: 300px;
+    width: 100px;
   }
 
   @include at-media("desktop") {
@@ -5786,11 +5787,6 @@ $theme-table-column-gap: 4;
       :hover {
       color: color($theme-color-primary-dark);
       }
-      @include at-media('desktop') {
-        > a:hover {
-          background-color: red;
-        }
-      }
     }
   }
 }
@@ -5798,6 +5794,12 @@ $theme-table-column-gap: 4;
 .usa-nav__primary-item {
   a {
     color: $text-top-black;
+    @include at-media('desktop') {
+        &:hover, &:focus {
+          color: $text-top-white !important;
+          background-color: $text-top-black;
+        }
+      }
   }
   .nav-svg {
     // #5c5c5c

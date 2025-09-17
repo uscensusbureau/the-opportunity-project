@@ -5796,7 +5796,7 @@ $theme-table-column-gap: 4;
     color: $text-top-black;
     @include at-media('desktop') {
         &:hover, &:focus {
-          color: $text-top-white !important;
+          color: $text-top-white;
           background-color: $text-top-black;
         }
       }
@@ -5816,6 +5816,9 @@ $theme-table-column-gap: 4;
   background-color: $text-top-white;
   .usa-nav__submenu-item a {
     color: $text-top-black;
+    &:hover, &:focus {
+      color: $text-top-black !important;
+    }
   }
  }
 }

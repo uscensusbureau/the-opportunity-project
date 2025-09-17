@@ -5792,7 +5792,7 @@ $theme-table-column-gap: 4;
 }
 
 .usa-nav__primary-item {
-  a {
+  a, a.usa-nav__link {
     color: $text-top-black;
     @include at-media('desktop') {
         &:hover, &:focus {
@@ -5818,6 +5818,7 @@ $theme-table-column-gap: 4;
     color: $text-top-black;
     &:hover, &:focus {
       color: $text-top-black !important;
+      background-color: $bg-top-white;
     }
   }
  }

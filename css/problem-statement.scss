@@ -148,7 +148,7 @@ $ps-breakpoint: 'mobile-lg';
   justify-content: flex-start;
   padding-top: 0;
   @include u-margin-bottom(2);
-  @include u-bg('base-dark');
+  background-color: $bg-top-white;
 
   &.usa-card__container {
     border-color: #3a2920 !important;

@@ -12,7 +12,7 @@ hero:
 
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one
-  background-class: bg-blue-warm-60v
+  background-class: bg-top-green text-top-white
   title:
     text: Missed The Opportunity Project 2024 Product Showcase?
 
@@ -86,7 +86,7 @@ video-one:
     tablet-height: 170
     desktop-width: 510
     desktop-height: 273
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "Census Open Innovation Summit (January 2024)"
     class: text-center
@@ -104,7 +104,7 @@ video-two:
     tablet-height: 133
     desktop-width: 392
     desktop-height: 211
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "2022 TOP Summit (February 2023)"
     class: text-center
@@ -122,7 +122,7 @@ video-three:
     tablet-height: 133
     desktop-width: 392
     desktop-height: 211
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "2021 TOP Summit: Open Innovation for All"
     class: text-center
@@ -140,7 +140,7 @@ video-four:
     tablet-height: 133
     desktop-width: 392
     desktop-height: 211
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "2020 TOP Demo Week: A Virtual Tech, Data, and Community Conference"
     class: text-center
@@ -158,7 +158,7 @@ video-five:
     tablet-height: 133
     desktop-width: 392
     desktop-height: 211
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "2019 December Census Demo Day + TOP Summit at Georgetown University"
     class: text-center
@@ -176,7 +176,7 @@ video-six:
     tablet-height: 133
     desktop-width: 392
     desktop-height: 211
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "2018 TOP Demo Day (March 2019)"
     class: text-center
@@ -194,7 +194,7 @@ video-seven:
     tablet-height: 133
     desktop-width: 392
     desktop-height: 211
-  copy-class: bg-white
+  copy-class: bg-top-white text-top-black
   blurb:
     title: "2017 TOP Demo Day at the Census Bureau"
     class: text-center
@@ -204,30 +204,30 @@ video-seven:
 ---
 {% include hero.html %}
 
-<section class="impact text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15">
+<section class="impact text-white padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15 bg-top-lblue">
     <div class="grid-container">
-    <h2 class="text-center">10 Events</h2>
-      <div class="impact-numbers-container grid-row text-white flex-align-center margin-top-4 tablet:margin-top-5 desktop:margin-top-15">
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>33,352 Viewers</p></div>
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>481 Speakers</p></div>
-        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0"><p>107 Sessions</p></div>
+    <h2 class="text-center font-family-serif text-normal text-top-black">10 Events</h2>
+      <div class="impact-numbers-container grid-row flex-align-center margin-top-4 tablet:margin-top-5 desktop:margin-top-10 bg-top-lblue text-top-black">
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0 bg-top-white border-top-dashed"><p class="font-family-serif text-normal text-top-black">33,352 Viewers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0 bg-top-white border-top-dashed text-top-black"><p class="font-family-serif text-normal">481 Speakers</p></div>
+        <div class="impact-numbers-individual display-flex flex-align-center flex-justify-center margin-bottom-2 tablet:margin-0 bg-top-white border-top-dashed"><p class="font-family-serif text-normal text-top-black">107 Sessions</p></div>
       </div>
     </div>
 </section>
 
-<section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-10 padding-bottom-5 tablet:padding-bottom-15">
+<section class="featured-speakers text-base-darkest padding-top-6 tablet:padding-top-8 desktop:padding-top-15 padding-bottom-5 tablet:padding-bottom-15 bg-top-white">
   {% include featured-speakers.html data=section %}
 </section>
 
 {% assign section = page.cta-one %}
 {% include home/cta.html  data=section %}
 
-<section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15">
+<section class="past-events padding-top-6 tablet:padding-top-10 desktop:padding-top-15 padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15 bg-top-lblue text-top-black">
 
 <!-- <section class="past-events padding-bottom-9 tablet:padding-bottom-10 desktop:padding-bottom-15"> main version? keeping to see which is prefered-->
 
   <div class="grid-container">
-    <h2 class="text-center text-white">Past Events</h2>
+    <h2 class="font-family-serif text-center text-top-black text-normal desktop:padding-bottom-8 desktop:margin-bottom-0">Past Events</h2>
     <div class="grid-row flex-column flex-align-center highlight-video-container">
       {% assign section = page.video-one %}
       {% include  summit-video.html data=section %}

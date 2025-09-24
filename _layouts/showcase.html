@@ -6,7 +6,7 @@ layout: default
 
 <div id="all-products"
   class="border-base-lighter border-top display-flex flex-column flex-align-center desktop:margin-top-5 desktop:margin-bottom-5">
-  <h2 class="tag-header bg-base-darkest">ALL PRODUCTS</h2>
+  <h2 class="tag-header bg-top-white text-normal">All Products</h2>
 </div>
 
 <div class="display-flex flex-column flex-align-center">
@@ -14,7 +14,7 @@ layout: default
     class="usa-search usa-search--small margin-top-2 desktop:width-tablet">
     <label class="usa-sr-only" for="search-field">Search all TOP products</label>
     <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search all products">
-    <button class="usa-button bg-primary-darkest" type="submit">
+    <button class="usa-button bg-top-black" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
   </form>
@@ -48,7 +48,7 @@ layout: default
   {% assign products_no_link = site.data.products | where_exp: "item", "item.link == 'no-link'" %}
   {% assign products = products_http | concat: products_no_link | sort: "year" | reverse %}
 
-  <h3 id="results-count" class="text-normal font-sans-md">Showing {{products.size}} products.</h3>
+  <h3 id="results-count" class="text-normal font-sans-md text-top-black">Showing {{products.size}} products.</h3>
   <ul class="usa-card-group">
     {% for product in products %}
 
@@ -74,9 +74,9 @@ layout: default
           class="desktop:grid-col-3 tablet:grid-col-3 usa-card product-card product-card-active"
           name="productCard">
           <a class="text-no-underline" href="#product-modal" aria-controls="product-modal" data-open-modal>
-            <div class="usa-card__container clickable-card bg-base-darkest">
+            <div class="usa-card__container clickable-card bg-top-lblue">
               <header class="usa-card__header">
-                <h2 class="usa-card__heading text-white font-sans-md" value="{{product.title | slugify}}">
+                <h2 class="usa-card__heading text-top-black font-serif-md text-normal" value="{{product.title | slugify}}">
                   <span class="usa-sr-only">product name</span>{{ product.title }}
                 </h2>
                 {% if product.year %}<h3 class="pc-inactive">{{ product.year }}</h3>{% endif %}
@@ -97,7 +97,7 @@ layout: default
                 <span style="display:none" class="product-data-sets">{{ product.data_sets_text }}</span>
               </header>
               <div class="usa-card__body">
-                <p class="font-mono-xs text-white product-tech-team"><span class="usa-sr-only">team name</span>{{ product.tech_team_text | upcase | remove: '"' }}</p>
+                <p class="font-mono-xs text-top-black product-tech-team"><span class="usa-sr-only">team name</span>{{ product.tech_team_text | upcase | remove: '"' }}</p>
               </div>
               <div class="usa-card__img">
                 {% include image.html src=imgSrc alt=imageAlt class="maxh-15" %}
@@ -120,8 +120,8 @@ layout: default
         </div>
         <div class="modal-column">
 
-          <div class="usa-card__body">
-            <h2 class="usa-modal__heading font-sans-md" id="product-modal-heading">PRODUCT TITLE</h2>
+          <div class="usa-card__body text-top-black">
+            <h2 class="usa-modal__heading font-serif-md" id="product-modal-heading">PRODUCT TITLE</h2>
             <div id="modal-body">
               <p class="font-mono-xs modal-tech-team">{{ product.tech_team_text | upcase }}</p>
               <p class="modal-desc" id="modal-desc">{{ product.description }}</p>

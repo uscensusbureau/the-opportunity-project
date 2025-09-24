@@ -10,19 +10,19 @@
   &:nth-child(1) {
     .graph-fill {
       width: 33%;
-      @include u-bg('mint-30v');
+      background-color: $bg-top-green;
     }
   }
   &:nth-child(2) {
     .graph-fill {
       width: 85%;
-      @include u-bg('accent-warm-light');
+      background-color: $bg-top-red;
     }
   }
   &:nth-child(3) {
     .graph-fill {
       width: 50%;
-      @include u-bg('cyan-30v');
+      background-color: $bg-top-primary;
     }
   }
   .graph-fill.empty {

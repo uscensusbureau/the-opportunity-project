@@ -12,7 +12,7 @@
 <section class="grid-section">
   {% if include.content.title %}
     <h{{ include.content.heading-level | default: 2 }}
-      class="section-header">
+      class="section-header font-family-serif text-normal">
       {{ include.content.title }}
     </h{{ include.content.heading-level | default: 2 }}>
   {% endif %}
@@ -20,16 +20,16 @@
     {% unless include.content.skip-top-border %}border-top{% endunless %}
     {% unless include.content.skip-bottom-border %}border-bottom{% endunless %}
     border-base-light">
-    
+
     <div class="markdownify-column tablet:grid-col-{{ left-col-width }}
       {% if include.content.left-col-offset %}grid-offset-{{ include.content.left-col-offset }}{% endif %}">
       {% if include.content.left %}
         {% for section in include.content.left %}
           {% if section.title %}
             {% if include.content.title %}
-              <h3>{{ section.title | markdownify }}</h3>
+              <h3 class="font-family-serif text-normal">{{ section.title | markdownify }}</h3>
             {% else %}
-              <h2 class="font-sans-4">{{ section.title | markdownify }}</h2>
+              <h2 class="font-sans-4 font-family-serif text-normal">{{ section.title | markdownify }}</h2>
             {% endif %}
           {% endif %}
           {% if section.body %}
@@ -51,7 +51,7 @@
       {% if include.content.right %}
         {% for section in include.content.right %}
           {% if section.title %}
-            <h3>{{ section.title | markdownify }}</h3>
+            <h3 class="font-family-serif text-normal">{{ section.title | markdownify }}</h3>
           {% endif %}
           {% if section.body.size > 0 %}
             {{ section.body | markdownify }}

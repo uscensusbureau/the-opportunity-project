@@ -1,22 +1,22 @@
 {% assign maxPages = include.maxPages %}
 
-<nav 
-  aria-label='{{ include.label | default: Results Pagination }}' 
-  class="usa-pagination {{include.class}}" 
+<nav
+  aria-label='{{ include.label | default: Results Pagination }}'
+  class="usa-pagination {{include.class}}"
   id='{{ include.id | default: "pagination-nav"}}'
 >
   <ul class="usa-pagination__list">
     <li class="usa-pagination__item usa-pagination__arrow">
       <a
         href="javascript:void(0);"
-        class="usa-pagination__link usa-pagination__previous-page"
+        class="usa-pagination__link usa-pagination__previous-page text-top-black"
         aria-label="Previous page"
       >
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#navigate_before"></use>
         </svg>
 
-        <span class="usa-pagination__link-text"> Previous </span>
+        <span class="usa-pagination__link-text text-top-black"> Previous </span>
       </a>
     </li>
 
@@ -31,14 +31,14 @@
       </a>
     </li>
     {% endfor %}
-    
+
     <li class="usa-pagination__item usa-pagination__arrow">
       <a
         href="javascript:void(0);"
-        class="usa-pagination__link usa-pagination__next-page"
+        class="usa-pagination__link usa-pagination__next-page text-top-black"
         aria-label="Next page"
       >
-        <span class="usa-pagination__link-text"> Next </span>
+        <span class="usa-pagination__link-text text-top-black"> Next </span>
 
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="{{site.baseurl}}/assets/img/sprite.svg#navigate_next"></use>

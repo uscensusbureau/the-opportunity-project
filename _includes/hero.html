@@ -32,7 +32,7 @@
       </div>
     </div>
 {% elsif page.class == "datakit" %}
-<section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
+<section class="interior-hero bg-top-primary usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
     <div class="maxw-mobile-lg margin-top-2">
       <div>
@@ -42,7 +42,7 @@
         <a class="usa-link" href="{{ site.baseurl }}/data">All Data Kits</a>
         </div>
       <h1
-        class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white margin-top-6"
+        class="hero--heading line-height-sans-3 text-normal ls-2 font-serif-14 text-white margin-top-6"
       >
         {{ page.title }}
       </h1>
@@ -88,9 +88,9 @@
   or page.class == "sprint-process"
   or page.class =="summit"
   %}
-<section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
+<section class="interior-hero {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-    <h1 class="usa-hero__title text-center font-family-serif">{{ page.hero.text}}</h1>
+    <h1 class="usa-hero__title text-center font-family-serif text-normal">{{ page.hero.text}}</h1>
     {% if page.class == "sprints" %}
     <div class="usa-hero__subtitle text-center">
       {{ site.data.messages.sprints.hero-text[page.lang] | newline_to_br | markdownify }}

@@ -89,7 +89,7 @@ cta-one:
 ---
 
 {% include hero.html %}
-<section class="bg-blue how-it-works-bg md">
+<section class="how-it-works-bg md">
   <div class="header-text-hot-dog">
 {% include single-column-header-text-hot-dog-cta.html data=page.how-it-works %}
   </div>
@@ -99,20 +99,20 @@ cta-one:
 {% include how-it-works-details.html data=page.how-it-works utils='how-it-works' %}
 
 
-<section class="bg-blue roles-intro-bg" id="roles-intro">
+<section class="roles-intro-bg" id="roles-intro">
   <div class="header-text-hot-dog">
     {% include single-column-header-text-hot-dog-cta.html data=page.roles-intro %}
   </div>
 </section>
 
-<div class="bg-base-lighter full-width-screen-spilt roles-details-bg">
+<div class="full-width-screen-spilt roles-details-bg">
  <!-- padding-y-8 padding-x-4 tablet:padding-y-7 tablet:padding-x-9 -->
   <div class="roles-content-block padding-top-8">
   {% include single-column-header-text-hot-dog-cta.html data=page.roles-details %}
   </div>
   <div
   class="padding-top-3 padding-bottom-9 desktop:padding-bottom-10 display-flex flex-justify-end semi-cta-block">
-    <div class="radius-left-pill semi-cta bg-white margin-left-4 padding-y-205">
+    <div class="radius-left-pill semi-cta margin-left-4 padding-y-205">
       <div class="grid-container padding-x-4 desktop:padding-left-9 desktop:padding-bottom-3">
         <p>Interested in participating in a sprint?</p>
       <a href="mailto:{{ site.contacts.email }}" target="_blank"

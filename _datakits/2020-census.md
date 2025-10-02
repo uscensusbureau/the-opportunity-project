@@ -1,0 +1,47 @@
+---
+title: 2020 Census Data
+permalink: /data/2020-census/
+redirect_from:
+  - /data/indigenous-communities/
+class: datakit
+
+sprint-name: 2020 Census Data
+date: 2021-09-01
+
+lead: Datasets to help visualize 2020 Census data in new and creative ways
+
+image: /assets/img/data-kits/decennial-data.jpg
+image-alt: 'Overhead view of a city block with rooftops and cars on the street'
+
+data-experts:
+  - category: General Census Data Questions
+    contacts: 
+      - name: Eric Coyle
+        email: eric.a.coyle@census.gov
+      - name: Dissemination Outreach Branch
+        email: census.data@census.gov
+  
+  - category: Census API Questions
+    contacts:
+      - name: Logan Powell
+        email: logan.t.powell@census.gov
+  
+  - category: Census Data Visualization Questions
+    contacts:
+      - name: Gerson Vasquez
+        email: gerson.d.vasquez@census.gov
+---
+
+### Below are additional points of contact for Census data in the following topics:
+
+{% for group in page.data-experts %}
+  <p class="margin-bottom-0 text-bold">{{ group.category }}:</p>
+  <ul class="margin-top-0 usa-list--unstyled padding-left-4">
+    {% for contact in group.contacts %}
+      <li>
+        {{contact.name}},
+        <a class="usa-link text-top-black" href="mailto:{{contact.email}}">{{contact.email}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

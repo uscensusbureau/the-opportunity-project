@@ -32,7 +32,7 @@
       </div>
     </div>
 {% elsif page.class == "datakit" %}
-<section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
+<section class="interior-hero bg-top-primary usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
   <div class="grid-container">
     <div class="maxw-mobile-lg margin-top-2">
       <div>
@@ -42,7 +42,7 @@
         <a class="usa-link" href="{{ site.baseurl }}/data">All Data Kits</a>
         </div>
       <h1
-        class="hero--heading line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white margin-top-6"
+        class="hero--heading line-height-sans-3 text-normal ls-2 font-serif-14 text-white margin-top-6"
       >
         {{ page.title }}
       </h1>
@@ -51,18 +51,7 @@
       {% endfor %}
     </div>
   </div>
-{% elsif page.class == "sprints" %}
-  <section class="interior-hero bg-base-darkest usa-dark-background desktop:padding-bottom-9 padding-bottom-5">
-    <div class="grid-container maxw-none">
-      <div class="maxw-mobile-lg padding-left-2 tablet:grid-offset-2 tablet:padding-left-0">
-        <h1 class="hero--heading margin-top-10 line-height-sans-3 text-semi-bold ls-2 font-lang-13 text-white">
-          Sprints
-        </h1>
-        <div class="font-sans-md text-white">
-          {{ site.data.messages.sprints.hero-text[page.lang] | newline_to_br | markdownify }} 
-        </div>
-      </div>
-    </div>
+
 {% elsif page.class == "case-study" %}
   <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center padding-bottom-3">
@@ -73,7 +62,7 @@
       <h1 class="font-sans line-height-sans-3 text-semi-bold font-lang-13 margin-bottom-1">{{ page.hero.product}}</h1>
       <p class="font-mono-xs text-ls-2 text-white margin-top-0 opacity-70"> {{ page.hero.tech_team | upcase }}</p>
     </div>
-{% elsif page.class == "sprints" or page.class == "get-involved" %}
+{% elsif page.class == "get-involved" %}
   <section class="interior-hero bg-base-darkest usa-dark-background">
     <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
       <h1 class="usa-hero__title margin-bottom-1 padding-top-0 text-center">{{ page.hero.text}}</h1>
@@ -89,34 +78,33 @@
         <p class="usa-hero__subtitle text-center">{{ page.hero.subtext }}</p>
       </div>
     </div>
-{% elsif page.class == "prize" %}
-  <section class="interior-hero bg-base-darkest usa-dark-background">
-    <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-      <h1 class="usa-hero__title text-center">{{ page.hero.text}}</h1>
-      <div class="grid-col-4 usa-hero__subtitle text-center">
-        {{ page.hero.subtext | markdownify }}
-      </div>
-    </div>
-{% elsif page.class =="summit" %}
-<section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
+{%
+  elsif page.class == "about"
+  or page.class == "faqs"
+  or page.class == "impact"
+  or page.class =="prize"
+  or page.class =="showcase"
+  or page.class == "sprints"
+  or page.class == "sprint-process"
+  or page.class =="summit"
+  %}
+<section class="interior-hero {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-    <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
-    <div class="usa-hero__subtitle">
-      {{ page.hero.subtext | markdownify }}
+    <h1 class="usa-hero__title text-center font-family-serif text-normal">{{ page.hero.text}}</h1>
+    {% if page.class == "sprints" %}
+    <div class="usa-hero__subtitle text-center">
+      {{ site.data.messages.sprints.hero-text[page.lang] | newline_to_br | markdownify }}
     </div>
-  </div>
-{% elsif page.class == "sprint-process" or page.class == "about" %}
-<section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
-  <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-    <h1 class="usa-hero__title text-center">{{ page.hero.text}}</h1>
+    {% else %}
     <div class="usa-hero__subtitle text-center">
       {{ page.hero.subtext | markdownify }}
     </div>
+    {% endif %}
   </div>
 {% else %}
 <section class="interior-hero bg-base-darkest usa-dark-background {{page.background}}">
   <div class="grid-container usa-hero__bg display-flex flex-column flex-align-center">
-    <h1 class="usa-hero__title">{{ page.hero.text}}</h1>
+    <h1 class="usa-hero__title font-family-serif">{{ page.hero.text}}</h1>
     <div class="grid-col-6 tablet:grid-col-4 usa-hero__subtitle text-center">
       {{ page.hero.subtext | markdownify }}
     </div>

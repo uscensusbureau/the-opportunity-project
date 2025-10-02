@@ -15,9 +15,10 @@ annual_reports:
 
 
 banner:
-  text: "The Opportunity Project 2024 Product Showcase is December 11, 2024!"
-  href: https://top2024showcase.splashthat.com
-  isExternal: true
+
+  text: "Read a preview of our upcoming report: '10 Years of The Opportunity Project'"
+  href: /files/10-Years-of-TOP-Preview.pdf
+  isExternal: false
 
 
 
@@ -102,3 +103,4 @@ exclude:
   - gulpfile.js
   - circle.yml
   - css
+  - scripts

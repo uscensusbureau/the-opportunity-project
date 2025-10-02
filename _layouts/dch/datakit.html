@@ -32,20 +32,20 @@ layout: default
 {% endif %}
 
 {% assign featuredSets = display-datasets | where: "featuredDataset", "true" %}
-{% assign nonFeaturedSets = display-datasets | where_exp: "item", "item.featuredDataset == empty or item.featuredDataset == nil" %}
+{% assign nonFeaturedSets = display-datasets | where_exp: "item", "item.featuredDataset == nil" %}
 {% assign setGroups = "" | split: "," %}
 {% assign setGroups = setGroups | push: featuredSets %}
 {% assign setGroups = setGroups | push: nonFeaturedSets %}
 
 {% include hero.html %}
-<section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
+<section class="bg-top-lblue usa-section margin-bottom-0 padding-bottom-0">
   <div class="grid-container">
-    <h2 class="text-white">Explore Datasets</h2>
+    <h2 class="text-top-black font-family-serif text-normal">Explore Datasets</h2>
       <form id="data-search-form" class="usa-search usa-search--small tablet:width-tablet display-block" role="search">
-        <label class="text-white" for="search-field">Search by keyword</label>
+        <label class="text-top-black" for="search-field">Search by keyword</label>
         <div class="display-flex margin-top-05">
           <input class="usa-input" id="search-field" type="search" name="search">
-          <button class="usa-button bg-primary-darkest" type="submit">
+          <button class="usa-button bg-top-black" type="submit">
             <span class="usa-sr-only">Search</span>
           </button>
         </div>
@@ -61,15 +61,15 @@ layout: default
   </div>
 </section>
 
-<section class="bg-primary-dark margin-top-0">
+<section class="bg-top-lblue margin-top-0">
   <section class="usa-section usa-graphic-list grid-container padding-top-4">
-    <h3 id="results-count" 
-      class="text-normal font-sans-md text-white">
+    <h3 id="results-count"
+      class="text-normal font-sans-md text-top-black">
         Showing {{display-datasets.size}} datasets
     </h3>
 
     <ul class="usa-card-group">
-    
+
     {% for group in setGroups %}
       {% assign groupSets = group | sort: "datakit_order" %}
       {% for item in groupSets %}
@@ -80,17 +80,16 @@ layout: default
     {% endfor %}
     </ul>
 
-    {% include nav/pagination.html 
-      maxPages=5 
-      label="Datasets search results page" 
-      class="pagination--dark" 
+    {% include nav/pagination.html
+      maxPages=5
+      label="Datasets search results page"
       id="dch-pagination" %}
       
   </section>
   {% assign stripped_content = content | strip_newlines %}
   {% if stripped_content.size > 0 %}
-    <section class="usa-section grid-container padding-top-0 usa-dark-background font-sans-md text-white">
-      <hr class="margin-y-3 border-accent-warm">
+    <section class="usa-section grid-container padding-top-0 font-sans-md text-top-black">
+      <!-- <hr class="margin-y-3 border-accent-warm"> -->
       {{ content }}
     </section>
   {% endif %}

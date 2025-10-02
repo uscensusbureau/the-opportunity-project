@@ -68,7 +68,7 @@ publications:
         alt: Illustration of a woman taking a canoe out of a river
       details: The Partnership for Public Service Publication
     - title: 'Agile Problem Solving in Government: A Case Study of The Opportunity Project'
-      href: http://www.businessofgovernment.org/report/agile-problem-solving-government-case-study-opportunity-project
+      href: //www.businessofgovernment.org/report/agile-problem-solving-government-case-study-opportunity-project
       isExternal: true
       img: 
         src: photos/news/Background_IBM.jpg

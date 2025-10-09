@@ -55,57 +55,6 @@
     & Connections'
   sprint_order: 1
   sprint_text: 2022 Sprints
-- Challenge: Historically, certain groups of people are undercounted in the Census,
-    including the LGBTQ community, children under 5, people experiencing homelessness,
-    renters, and members of underrepresented minorities. An accurate count is vital
-    to ensuring these groups are represented and have access to federal resources.
-    Bring awareness of the 2020 Census to hard-to-count populations and increase response
-    rates.
-  Full Title: Reaching Hard-to-Count Communities
-  Name: Reaching Hard-to-Count Communities
-  Products:
-  - recBQlpjQCwwOK9Tu
-  - reco7Lrrv0j8uqSRp
-  - rec0PXYHvMqSoxLKu
-  Sprints:
-  - recukKC4tJpTJtQCA
-  Target audience / End user: Historically undercounted populations and organizations
-    that represent them. These populations include LGBTQ community, children under
-    5, people experiencing homelessness, renters, and members of underrepresented
-    minorities
-  Why this problem matters: Given that the population count from the Census determines
-    redistricting, the allocation of seats in the House of Representatives, and close
-    to $700 billion in federal funding are allocated to communities across the nation
-    for the next 10 years, ensuring an accurate count is essential. An undercount
-    has significant long-term implications for communities. For example, in the 2010
-    Census, nearly 1 million children (4.6% of children under the age of 5) were not
-    counted. This can contribute to inaccurate school enrollment projections  and
-    result in overcrowding and teacher shortages.
-  agency_text: U.S. Census Bureau
-  airtable_createdTime: '2020-01-30T19:49:35.000Z'
-  airtable_id: rec24ta98ogx6GGPu
-  category: 2020 Census
-  datasets:
-  - recPeDlIBWSUSL83V
-  - recz0TK5ZWGpnxGnB
-  - recCxehKRgLHDeFhx
-  - recOyNODQusdK18W9
-  - recwDpP27s6f44CL1
-  - recBfgzUhOftl5IJJ
-  datasets copy: The Undercount of Young Children, Response Outreach Area Mapper (ROAM),
-    "2020 Census Research, Operational Plans, and Oversight", Audience Segment Descriptions,
-    Annual Homeless Assessment Report (AHAR), Homeless Point-in-Time (PIT) and Housing
-    Inventory Count (HIC)
-  datasets_text: The Undercount of Young Children, Response Outreach Area Mapper (ROAM),
-    "2020 Census Research, Operational Plans, and Oversight", Audience Segment Descriptions,
-    Annual Homeless Assessment Report (AHAR), Homeless Point-in-Time (PIT) and Housing
-    Inventory Count (HIC)
-  featured_product:
-  - rec0PXYHvMqSoxLKu
-  organizations:
-  - recyYK7Ezm00JSEPC
-  products_text: Community Counts, Tract by Tract, Census Intelligence Center
-  sprint_text: 2020 Census
 - Challenge: Create digital collaboration platforms that enable low income families
     to holistically assess their needs and connect with the best federal, state and
     local programs to equip and empower them toward self-sufficiency and economic
@@ -999,6 +948,7 @@
   - recjm0bfMYKetEa2z
   - recPg2UL8lvwVvGCK
   - recRuxTB2qI4xqv3o
+  - recqu50YHXByd834r
   Sprints:
   - recHvWpLtcuFRNCH0
   Target audience / End user: 'Local government leaders and community members, with
@@ -1016,9 +966,30 @@
   pdf: 2024-Harvard-DOC-NLC.pdf
   products_text: Sidekick, mySidewalk Wellbeing Toolset, Greater Growth Initiative,
     Community Wellbeing Asset Mapping Tool (CWAM), Neurodiverse Wellbeing Index, Social
-    Data Indexing
+    Data Indexing, WellTrend
   sprint_order: 2
   sprint_text: 2024 Sprints
+- Challenge: Use data and technology to help improve access to credit and reduce the
+    origination cost of small dollar loans (<$150k) for housing-related needs (e.g.,
+    homeownership, renovations, equity drawdown, etc.) in rural communities.
+  Full Title: Increasing Access to Small Dollar Loans in Rural America
+  Name: Increasing Access to Small Dollar Loans in Rural America
+  Sprints:
+  - rec5JUacyBVelTejV
+  Target audience / End user: Rural Americans, those lending to rural Americans, or
+    technologies that enable lending to rural Americans who are in need of housing
+    finance for small dollar loans via government-backed programs, community banks,
+    credit unions, CDFIs, commercial banks, mortgage companies, etc.
+  agency_text: Consumer Financial Protection Bureau
+  airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recHWt3tPCey0MVDR
+  organization-esp:
+  - "Oficina para la Protecci\xF3n Financiera del Consumidor (CFPB)"
+  organizations:
+  - rec8lsfi8UcGH3WWt
+  pdf: 2025-cfpb.pdf
+  sprint_order: 2
+  sprint_text: 2025 Sprints
 - Background: State, local, and tribal governments, nonprofits, and universities complain
     that, despite the plethora of public data available, it can be dif cult to navigate
     information about federal programs, funding opportunities, and current awards
@@ -1303,42 +1274,6 @@
   products_text: Tech Talent Tracker, TeleCommunity, R Story, Maine Business Resources
   sprint_order: 7
   sprint_text: Earth
-- Challenge: "The Decennial Census is our nation\u2019s largest peacetime mobilization\
-    \ -- in 2020, the federal government will hire 500,000 Census takers to help count\
-    \ households across America that do not respond by mail or online. Help leverage\
-    \ the gig economy and new tech platforms for job search to better recruit this\
-    \ critical workforce."
-  Full Title: Promoting 2020 Census Jobs
-  Name: Promoting 2020 Census Jobs
-  Products:
-  - recnyrDlORAP9XtOH
-  Sprints:
-  - recukKC4tJpTJtQCA
-  Target audience / End user: Job seekers and those in the gig economy
-  Why this problem matters: Census takers (enumerators) serve as the last line of
-    defense for getting an accurate count, which is critical for federal funding and
-    fair political representation. In 2020, the Census Bureau projects that Census
-    takers may be responsible for recording up to 40 percent of the count. Enumerators
-    interview the residents of every household that has not responded via the online
-    or paper forms to collect Census information. Hiring local field staff will be
-    critical to ensuring a complete and accurate count, especially for hard-to-reach
-    communities. Local candidates bring relevant language skills and cultural familiarity
-    that allow them to access residents who might otherwise keep their doors closed
-    to Census takers from outside the neighborhood.
-  agency_text: U.S. Census Bureau
-  airtable_createdTime: '2020-01-30T19:49:23.000Z'
-  airtable_id: recMt9g6gLlrIz3Jo
-  category: 2020 Census
-  datasets:
-  - recnxjeQFpK8M4yKl
-  datasets copy: Census Takers
-  datasets_text: Census Takers
-  featured_product:
-  - recnyrDlORAP9XtOH
-  organizations:
-  - recyYK7Ezm00JSEPC
-  products_text: Census Taker
-  sprint_text: 2020 Census
 - Challenge: "Improving Indigenous communities\u2019 access to capital, investment,\
     \ and representation in financial data sets through community-led and data-driven\
     \ solutions."
@@ -1711,6 +1646,7 @@
   - recq094oAlMUp1qby
   - recPL0UUUG1wdDtKd
   - recf1gBnu5Q7M2TcM
+  - recvQHMZz18nlSj6j
   Sprints:
   - recJCMqCOXHi6AEqT
   Target audience / End user: 'Community health workers; healthcare providers; academics
@@ -1742,7 +1678,7 @@
   - reco8SlTqN3UExT1C
   pdf: 2023-fda-enabling-health-data-aggregation.pdf
   products_text: SHAPE SDOH/At-Home Test Data Collection App , Guidehouse SDOH Mapping
-    Service, Social Determinants Indexing 1.0, Health Feature Store
+    Service, Social Determinants Indexing 1.0, Health Feature Store, Oxen.ai
   sprint_order: 3
   sprint_text: Diagnostic Data Exchange (FDA)
 - Challenge: Use data to help stakeholders understand post-pandemic housing and migration
@@ -1877,6 +1813,24 @@
   pdf: 2023-fda-empowering-consumers.pdf
   sprint_order: 1
   sprint_text: Diagnostic Data Exchange (FDA)
+- Challenge: 'Improve the ability of Large Language Models (LLMs) to serve accurate
+    and reliable information involving federal open data, while making this data more
+    easily ingestible by LLMs.  '
+  Full Title: 'Preparing Federal Open Data for the Next Generation of AI Users '
+  Name: 'Preparing Federal Open Data for the Next Generation of AI Users '
+  Sprints:
+  - rec5JUacyBVelTejV
+  Target audience / End user: LLM developers and their downstream users making inquiries
+    about federal data.
+  agency_text: U.S. Department of Commerce, U.S. Census Bureau
+  airtable_createdTime: '2025-10-01T12:45:42.000Z'
+  airtable_id: recUGjTP2yqdJN57P
+  organizations:
+  - recafoZTP9RJqBuyZ
+  - recyYK7Ezm00JSEPC
+  pdf: 2025-doc-cb.pdf
+  sprint_order: 1
+  sprint_text: 2025 Sprints
 - Challenge: 'Develop (ideally open source) tools to help serve the increasingly multilingual
     community in NYC and in cities nationwide, enabling them to access government
     resources for an equitable recovery to the impacts of COVID-19. '
@@ -1997,6 +1951,9 @@
   pdf: 2018-ai.pdf
   products_text: Veteran Apprenticeship Matcher, Career Nav, Watson Employment Manager
   sprint_text: 2018 Sprint 1 (ED DOL OMB/Treasury)
+- Name: robert.schaper@gmail.com; rschaper@cloudraven.io
+  airtable_createdTime: '2025-08-20T15:27:24.000Z'
+  airtable_id: recaf4DV0InChT6gd
 - Background: "Homelessness affects a growing number of students nationwide. The number\
     \ of homeless students nationwide has nearly doubled from about 680 thousand homeless\
     \ children and youths enrolled in public schools in 2006-07, to more than 1.3\
@@ -2082,7 +2039,8 @@
   - recKdEHAA0uVjMkvW
   - recTQFVAbtcOEpmCJ
   pdf: 2024-NIBIB-NIH.pdf
-  products_text: GrantVEST, F.A.S.T. Internship Search, Minority Business Circle
+  products_text: Earlii (formerly GrantVEST), F.A.S.T. Internship Search, Minority
+    Business Circle
   sprint_order: 3
   sprint_text: 2024 Sprints
 - Challenge: 'Develop digital tools that help small business leaders and their workforces
@@ -2164,27 +2122,6 @@
     \ netos de trabajo en Florida desde el 2012 provino de compa\xF1\xEDas con menos\
     \ de 100 empleados, confirmando el papel fundamental de estas organizaciones para\
     \ la econom\xEDa del estado."
-- Challenge: For the first time in 2020, people will be able to complete the Census
-    online, presenting an opportunity to better count our nation, but also many challenges,
-    like fake or suspicious content and targeted disinformation. Increasing digital
-    literacy will be critical to combating disinformation and ensuring an accurate
-    count.
-  Full Title: Increasing Digital Literacy
-  Name: Increasing Digital Literacy
-  Products:
-  - rechHdImOUiwo3JTj
-  Sprints:
-  - recukKC4tJpTJtQCA
-  agency_text: U.S. Census Bureau
-  airtable_createdTime: '2020-01-30T19:49:14.000Z'
-  airtable_id: receI2b86NTLrPrMp
-  category: 2020 Census
-  featured_product:
-  - rechHdImOUiwo3JTj
-  organizations:
-  - recyYK7Ezm00JSEPC
-  products_text: '#WhyWeCount'
-  sprint_text: 2020 Census
 - Challenge: 'Create open data sets and engaging digital tools that complement existing
     citizen science plastics data, to help the public understand the amount of plastic
     on local beaches and in the ocean, where such plastic comes from, and actions
@@ -2755,34 +2692,6 @@
     \ Del mismo modo, el n\xFAmero de empresas propiedad de latinos descendi\xF3 en\
     \ un 32 % entre febrero y abril del 2020, mientras que los propietarios de empresas\
     \ que eran inmigrantes descendieron en un 36 por ciento.\n"
-- Challenge: The digital divide affects urban, rural, and tribal communities across
-    the U.S. Help increase digital access, to ensure that people who lack access to
-    broadband and related infrastructure are counted in 2020.
-  Full Title: Bridging the Digital Divide
-  Name: Bridging the Digital Divide
-  Products:
-  - rec1qTv3kAFdvnLzC
-  - recQ8IZ3xgiuhfau4
-  Sprints:
-  - recukKC4tJpTJtQCA
-  agency_text: U.S. Census Bureau
-  airtable_createdTime: '2020-01-30T19:49:07.000Z'
-  airtable_id: recrWiHRnNA2x6Ebg
-  category: 2020 Census
-  datasets:
-  - recXsToRGZ41N5ul0
-  - rech6QFEER7I4aEhN
-  - recAck4J0QsFDQpFH
-  datasets copy: Computer and Internet Use, Deconstructing the Digital Divide, 2018
-    FCC Broadband Deployment Report
-  datasets_text: Computer and Internet Use, Deconstructing the Digital Divide, 2018
-    FCC Broadband Deployment Report
-  featured_product:
-  - recQ8IZ3xgiuhfau4
-  organizations:
-  - recyYK7Ezm00JSEPC
-  products_text: Voatz, California Latino Power Map
-  sprint_text: 2020 Census
 - Challenge: Develop innovative digital solutions that connect domestic recycling
     facilities with manufacturers to enhance recycling markets and increase the use
     of recycled materials.
@@ -2999,8 +2908,8 @@
   - recpdcvxmOK2rHQax
   - recafoZTP9RJqBuyZ
   pdf: 2022-OSTP_DOC.pdf
-  products_text: Federal Grant Finder, Intergrants, Get Out the Lead, GrantVEST, Bridge,
-    Grant Guide, Grant Success Toolkit
+  products_text: Federal Grant Finder, Intergrants, Get Out the Lead, Earlii (formerly
+    GrantVEST), Bridge, Grant Guide, Grant Success Toolkit
   sprint_order: 7
   sprint_text: 2022 Sprints
 - Challenge: Create digital tools and resources to track federal financial assistance

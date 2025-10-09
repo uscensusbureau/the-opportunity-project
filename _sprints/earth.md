@@ -1,6 +1,6 @@
 ---
 short-name: earth
-order: 5
+order: 6
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

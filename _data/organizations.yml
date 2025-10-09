@@ -140,6 +140,8 @@
   problem statements:
   - recPvKmfTv0xxqQQC
   treasury_datasets: FEMA Funeral costs
+  treasury_datasets 2:
+  - recpwomW1dxoP7joj
 - airtable_createdTime: '2024-07-25T12:00:13.000Z'
   airtable_id: rec1zovFcdJBZJ9aF
   name: Natives Count Coalition
@@ -396,6 +398,8 @@
   airtable_id: rec6bNYWAO7IsmiAx
   name: Geographic identifier codes
   treasury_datasets: Gazetteer Files
+  treasury_datasets 2:
+  - rec3daZO9pLtefueF
 - airtable_createdTime: '2020-02-04T22:59:11.000Z'
   airtable_id: rec6t2FF6bw9kEBhC
   name: Panta Rhei Strategic Solutions
@@ -410,6 +414,8 @@
   airtable_id: rec6uuUWTjhRkQQ5f
   name: UDS Mapper
   treasury_datasets: Zip Code to ZCTA Crosswalk
+  treasury_datasets 2:
+  - recEHQufjMqFOUrjm
 - airtable_createdTime: '2020-02-04T21:14:58.000Z'
   airtable_id: rec6xYEKe16vn0VUi
   name: Visa
@@ -503,6 +509,11 @@
   - recRLfPIbdOb1PDej
   sprints:
   - receo1r4Tva3sDpPI
+- airtable_createdTime: '2025-08-20T15:30:46.000Z'
+  airtable_id: rec8RtQymgJ9Hlrb7
+  name: Oxen.ai
+  products:
+  - recvQHMZz18nlSj6j
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: rec8XzYuIMmLEUNZ8
   name: A Way Home America
@@ -521,6 +532,7 @@
   problem statements:
   - recEceI5ivt5UyQAk
   - recOlp3gojpNoxLL0
+  - recHWt3tPCey0MVDR
 - airtable_createdTime: '2021-07-21T18:24:28.000Z'
   airtable_id: rec8nsqyR8HENsBSl
   datasets: Global Alert - Floating Trash
@@ -713,6 +725,8 @@
   airtable_id: recCmR77GDESbCdqo
   name: area measurements
   treasury_datasets: Gazetteer Files
+  treasury_datasets 2:
+  - rec3daZO9pLtefueF
 - airtable_createdTime: '2021-07-21T18:23:29.000Z'
   airtable_id: recD3B2aslbkw5Dor
   datasets: The Business of Chemistry By the Numbers
@@ -787,6 +801,9 @@
   - rec4uIXYFWQ8OSYnj
   sprints:
   - rectIGl9DbypUw3c9
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recE9qlUIUdQvHJNq
+  name: those lending to rural Americans
 - airtable_createdTime: '2020-02-10T16:00:49.000Z'
   airtable_id: recECBizO1Gxijp9y
   name: LinkedIn
@@ -922,6 +939,9 @@
   - rec3N8sP8Z6iwJUp2
   treasury_datasets: USAspending.gov, Community Development Financial Institutions
     Fund (CDFI) Data
+  treasury_datasets 2:
+  - recMjWgFXfP6wP1nf
+  - recKntgSM2eXHyyiv
 - acronym: SBA
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recGKcxgptsB6VZ4Q
@@ -939,6 +959,8 @@
   - recM78RgOcozkYO7i
   - recIl8FcrMSWNPkHi
   treasury_datasets: PPP FOIA
+  treasury_datasets 2:
+  - recU7dwKx5OP3s7Zr
 - airtable_createdTime: '2023-02-19T18:04:19.000Z'
   airtable_id: recGPpFD7gNpvneM4
   name: Cityfi
@@ -1047,6 +1069,11 @@
   problem statements:
   - recCxldxjDrbUEvw2
   - recfYBaZBy9N5kMwc
+- airtable_createdTime: '2025-10-01T12:45:49.000Z'
+  airtable_id: recIoFXbl0hluPCVz
+  name: Use data and technology to help improve access to credit and reduce the origination
+    cost of small dollar loans (<$150k) for housing-related needs (e.g., homeownership,
+    renovations, equity drawdown, etc.) in rural communities.
 - airtable_createdTime: '2020-02-05T23:09:57.000Z'
   airtable_id: recIt2RoJdZN4ZEKv
   name: UnidosUS
@@ -1191,6 +1218,9 @@
   name: Philander Smith College
   products:
   - recFfCxO9lW5BGu8A
+- airtable_createdTime: '2025-08-20T15:27:24.000Z'
+  airtable_id: recM8mtN5JV7svhLp
+  name: WellTrend
 - airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recMFCsWtrcd445Hi
   name: Aerospike
@@ -1275,6 +1305,9 @@
   airtable_id: recNJhDqxT6OBHoSO
   name: National Association of State Budget Officers
   treasury_datasets: Fiscal Survey of States, Summaries of Proposed & Enacted Budgets
+  treasury_datasets 2:
+  - reci2cEHydUncs99i
+  - rec2KiyKcy3t0He6k
 - airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recNMKkMtyoARasPV
   name: Palantir Technologies
@@ -1314,6 +1347,9 @@
   name: University at Buffalo
   products:
   - recum0JqFwimW4WRH
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recNuNl5Ip32atamh
+  name: mortgage companies
 - airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recO0iMeGOiGBJ0HE
   name: Edquity
@@ -1381,6 +1417,8 @@
   airtable_id: recQ3LEii9KCfaq2v
   name: Girl Scouts
   treasury_datasets: Girl Scouts State of Girls
+  treasury_datasets 2:
+  - recf8C3lqkeb2UwLm
 - airtable_createdTime: '2020-02-04T21:14:57.000Z'
   airtable_id: recQ6bH9kSCoFRHd8
   name: Allogy
@@ -1405,6 +1443,9 @@
   sprints:
   - rectIGl9DbypUw3c9
   - recukKC4tJpTJtQCA
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recQgvxHjzcCt8joY
+  name: Rural Americans
 - acronym: NSC
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recQiQ0WKud6Ym7An
@@ -1502,6 +1543,9 @@
   name: White House Council of Economic Advisors
   problem statements:
   - recLJvZ8lzOmH6hzC
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recUMA3JYjqdyouf9
+  name: credit unions
 - airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recUMN7m0MW5zcEKR
   datasets: U.S. National Grid
@@ -1550,6 +1594,8 @@
   - recTD7boNZBlffjUT
   - rec7rdADIMHiQS3NH
   treasury_datasets: Contract Opportunities
+  treasury_datasets 2:
+  - recoJ1J4tZLBUKCli
 - airtable_createdTime: '2020-02-10T15:51:32.000Z'
   airtable_id: recVPbho312DAzeyb
   name: Spatial Networks
@@ -1810,6 +1856,7 @@
   - recQJwmgUuJzDVEV9
   - recATFJAwcuiE9UHE
   - recFLCXy9eppXYbrL
+  - recUGjTP2yqdJN57P
 - airtable_createdTime: '2021-05-10T20:31:44.000Z'
   airtable_id: recanT90NnVCjy8SQ
   name: Lifepoint Informatics
@@ -2036,6 +2083,11 @@
   products:
   - recI5x9UMolJNsc9N
   - recObUgQDdpT2Kqym
+- airtable_createdTime: '2025-10-01T12:45:49.000Z'
+  airtable_id: receiOxhDQiXDTGRK
+  name: 'Improve the ability of Large Language Models (LLMs) to serve accurate and
+    reliable information involving federal open data, while making this data more
+    easily ingestible by LLMs.  '
 - airtable_createdTime: '2021-08-13T21:36:05.000Z'
   airtable_id: recekSnWQVl7hAPef
   datasets: Wildland-Urban Interface Areas
@@ -2147,6 +2199,11 @@
   - recuDiAGCUVQ4BReV
   treasury_datasets: SNAP Data Tables, Child Nutrition Tables, Food Distribution Program
     Tables, Food and Nutrition Service Research and Analysis
+  treasury_datasets 2:
+  - reclMhNeZx6HJ0r2x
+  - recw6dpMMmj1LVgQ0
+  - recJa66pBsngGW2Jx
+  - recOfWoMhAmg7PBpf
 - acronym: HUD
   airtable_createdTime: '2021-07-20T17:13:07.000Z'
   airtable_id: recgvccBwBlf8xOnI
@@ -2208,6 +2265,8 @@
   - rechjwuKCcM57GRZX
   - rec9tqJowmrb1CQQd
   treasury_datasets: USPS Zip Code Crosswalk Files
+  treasury_datasets 2:
+  - recjH7NYKCw9xw8NX
 - airtable_createdTime: '2020-02-04T23:00:06.000Z'
   airtable_id: rechADxz6aRhfLnpd
   name: GreaterMSP
@@ -2235,6 +2294,8 @@
   airtable_id: rechRsAJEMVfcPgmP
   name: Medicaid
   treasury_datasets: Medicaid Enrollment Data
+  treasury_datasets 2:
+  - recatMSeN9T06QyJc
 - airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rechdSXJvdpSxGQBi
   name: Safe Health
@@ -2283,6 +2344,9 @@
   name: Interpret-DNA LLC
   products:
   - rechgwwFCeXNgX32p
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recidiVdMhOGJH8Dx
+  name: etc.
 - airtable_createdTime: '2023-01-26T19:03:05.000Z'
   airtable_id: recin40gHLiWQu9RC
   name: GrantVEST
@@ -2371,6 +2435,8 @@
   airtable_id: reck3yOVCOkxTRa2Z
   name: names
   treasury_datasets: Gazetteer Files
+  treasury_datasets 2:
+  - rec3daZO9pLtefueF
 - acronym: MRLC
   airtable_createdTime: '2021-08-16T14:05:15.000Z'
   airtable_id: reck425lrExa41VoJ
@@ -2425,6 +2491,8 @@
   - recCXP4aOCkZfdavv
   - recMx3amVi3FBrgmZ
   treasury_datasets: Social Vulnerability Index
+  treasury_datasets 2:
+  - rec6aZMqTHB6SZVzY
 - acronym: PRSTRT
   airtable_createdTime: '2023-08-08T17:57:04.000Z'
   airtable_id: reckiVHd89pt9vwGa
@@ -2620,6 +2688,8 @@
   sprints:
   - recJCMqCOXHi6AEqT
   treasury_datasets: Medical Expenditure Panel Survey
+  treasury_datasets 2:
+  - recgGeKvzfD2t1N5e
 - airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recoMoxNlMLvjGlwx
   name: Apartment List
@@ -2683,6 +2753,20 @@
     Modeled Wage Estimates, National Compensation Survey, Occupational Employment
     and Wage Statistics, Quarterly Census of Employment and Wages, Job Openings and
     Labor Turnover Survey
+  treasury_datasets 2:
+  - recm4d9LajKr5htja
+  - recxggjA6evsEgUYh
+  - recTF4YMKz5nF4zMy
+  - recOb8mGJ9SXOipAb
+  - recwkjWLidAQG5npX
+  - recYPS2GcelYlhgim
+  - rec46pYHCVA81NlYy
+  - recjoOyuGTYEXEkmu
+  - recDfD6LdtPMRE7o7
+  - recJRrGYeG24t4ajX
+  - reccFla80A83gGg2r
+  - recZ7HRkQ6OD8cGRJ
+  - recbQ9jfcV7U3jvy1
 - airtable_createdTime: '2024-01-03T18:58:44.000Z'
   airtable_id: recooRCZ8F1xUuW5h
   name: Oweesta Corporation
@@ -2707,6 +2791,11 @@
   - reccOQVg3i6mOJmR2
   treasury_datasets: Individual Income Tax ZIP Code Data, IRS Tax Statistics, Tax
     Stats - County Data, U.S. Population Migration Data
+  treasury_datasets 2:
+  - recH99fVGLVn2XGT2
+  - recHxdFP0qEDtFxKZ
+  - recU6Zi5Q4UnBULX3
+  - rec5o8RWvR1AHdN8d
 - airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recozy7YwmNSG7CbJ
   name: Carnegie Mellon University
@@ -2717,6 +2806,8 @@
   airtable_id: recp5RM47f9w1PEKP
   name: The New York Times
   treasury_datasets: NYT Covid 19 Data
+  treasury_datasets 2:
+  - recdXB2TXEouaQtvP
 - airtable_createdTime: '2020-02-07T17:44:12.000Z'
   airtable_id: recp6rKo0ctGNPOZk
   name: Community Health IT
@@ -2867,11 +2958,18 @@
   - recmyZENvMwP8Sdg2
   sprints:
   - recC3IejMHNZ1DJvx
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recsfwFTULeMz2tiy
+  name: commercial banks
 - airtable_createdTime: '2021-05-10T19:54:58.000Z'
   airtable_id: recsjkEb8tCWtD9F6
   name: Dovel Technologies
   products:
   - recYK9yg1jl9KAWsH
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recsoMjfMAvR8vYIQ
+  name: or technologies that enable lending to rural Americans who are in need of
+    housing finance for small dollar loans via government-backed programs
 - airtable_createdTime: '2020-02-10T16:16:56.000Z'
   airtable_id: recszs8TjANcxwCMw
   name: Streetwyze
@@ -2891,6 +2989,9 @@
   datasets 2:
   - recNNHN2Q1yPppoAK
   name: U.S. Patent and Trademark Office
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: rect5c6mWa68OPIqb
+  name: CDFIs
 - acronym: PR OMB
   airtable_createdTime: '2023-08-10T05:01:09.000Z'
   airtable_id: rectWscVDaefzI5zv
@@ -2936,6 +3037,9 @@
   - reco7Lrrv0j8uqSRp
   sprints:
   - recukKC4tJpTJtQCA
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recuEyjs4P8YopPyY
+  name: LLM developers and their downstream users making inquiries about federal data.
 - airtable_createdTime: '2020-02-07T17:39:56.000Z'
   airtable_id: recuTO8Ed9i8PlaFy
   name: Carnival
@@ -2957,6 +3061,11 @@
   - recBO24Zj7h48Trtk
   sprints:
   - recukKC4tJpTJtQCA
+- airtable_createdTime: '2025-08-20T15:27:44.000Z'
+  airtable_id: recvQwlhXQoLPhSjK
+  name: CloudRaven Labs
+  products:
+  - recqu50YHXByd834r
 - airtable_createdTime: '2021-02-22T17:37:25.000Z'
   airtable_id: recvUnnnYqklnF7m8
   name: Council Exchange Board of Trade
@@ -3060,6 +3169,8 @@
   airtable_id: recyAhXIJ2SI3lKpx
   name: and representative latitude and longitude coordinates.
   treasury_datasets: Gazetteer Files
+  treasury_datasets 2:
+  - rec3daZO9pLtefueF
 - airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recyEUKJ5HDEdJvaa
   name: Participant AI
@@ -3281,10 +3392,6 @@
   - recmn2sLIkqdzO2C7
   - recS3O30QDq9HPNr9
   problem statements:
-  - recrWiHRnNA2x6Ebg
-  - receI2b86NTLrPrMp
-  - recMt9g6gLlrIz3Jo
-  - rec24ta98ogx6GGPu
   - recuPAWpxAVtKM7JF
   - recpeZGe75cpDFBOI
   - recQ1jP2sTVCF36ZA
@@ -3293,17 +3400,34 @@
   - recPelcsZSSXy5Toz
   - rechjwuKCcM57GRZX
   - rec9tqJowmrb1CQQd
+  - recUGjTP2yqdJN57P
   treasury_datasets: "Community Resilience Estimates, TIGER Shapefiles, Current Population\
     \ Survey, Small Area Income and Poverty Estimates (SAIPE) Program, Business Formation\
     \ Statistics, \"Annual Survey of School System Finances \", American Community\
     \ Survey, \"COVID-19 Data Hub \u2013 Data Equity, U.S. Census Bureau \", \"COVID-19\
     \ Household Pulse Survey, U.S. Census Bureau\", COVID-19 Small Business Pulse\
     \ Survey, Annual Business Survey, Annual Survey of Entrepreneurs"
+  treasury_datasets 2:
+  - recTylJfHQD2lODe1
+  - reckmeTtRnmzDa5fN
+  - recu2G0ZDQsJ23xbT
+  - recP5K4xxDQLKQMdZ
+  - recaEvoIVePTfGs7d
+  - recMkmrHaWQahkzck
+  - recGmgB2izU1FgKnZ
+  - recudxZ2DD9yhQHJZ
+  - recLc9lgUbjCZqbX2
+  - recYJhTyI2iX9iffO
+  - recrFjl17NUCl4QQ9
+  - rec6sbCNyeKTbzfxJ
 - airtable_createdTime: '2020-02-07T17:49:16.000Z'
   airtable_id: recyYj0PGipG1EMzW
   name: GreatNonprofits
   sprints:
   - rectpInJ8wiI8iFVg
+- airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recyZSLiakztyhyna
+  name: community banks
 - airtable_createdTime: '2024-06-12T12:59:15.000Z'
   airtable_id: recya99evAip9CFqo
   name: National Urban Indian Family Coalition

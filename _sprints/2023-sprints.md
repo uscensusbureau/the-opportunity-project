@@ -1,6 +1,6 @@
 ---
 short-name: 2023-sprints
-order: 1
+order: 2
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

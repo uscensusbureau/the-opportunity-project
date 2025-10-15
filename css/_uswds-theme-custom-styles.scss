@@ -896,6 +896,10 @@ main {
 // datakit hub
 
 .data-kit {
+  #disaster-preparedness-card {
+    display: none;
+  }
+
   @include at-media("mobile") {
     padding: 0 5rem;
     margin-bottom: -1rem;

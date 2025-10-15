@@ -1,3 +1,18 @@
+- Name: Use data and technology to help improve access to credit and reduce the origination
+    cost of small dollar loans (<$150k) for housing-related needs (e.g., homeownership,
+    renovations, equity drawdown, etc.) in rural communities.
+  airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: rec4qOwUh0OkaeVfO
+- Name: 2025 Sprints
+  Year: 2025
+  airtable_createdTime: '2025-10-01T12:44:12.000Z'
+  airtable_id: rec5JUacyBVelTejV
+  lang: en
+  order-number: 1
+  problem_statements:
+  - recUGjTP2yqdJN57P
+  - recHWt3tPCey0MVDR
+  short-tag: 2025-sprints
 - Name: TOPx COVID-19
   Products:
   - recGjmI3M73IxalNN
@@ -311,7 +326,7 @@
   image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
   lang: en
-  order-number: 8
+  order-number: 9
   people:
   - rec53DsfyhctVCmxN
   - recUgSh8GEPverGzB
@@ -357,6 +372,11 @@
   - reconT5UBIg2QcZOz
   - recuPAWpxAVtKM7JF
   short-tag: geo
+- Name: 'Improve the ability of Large Language Models (LLMs) to serve accurate and
+    reliable information involving federal open data, while making this data more
+    easily ingestible by LLMs.  '
+  airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recGjhBhcW9Qe7KBP
 - Name: 2024 Sprints
   Products:
   - recHd3FNdoaIHtgP7
@@ -378,13 +398,14 @@
   - recJR8h80G1lwBkNr
   - recbIdNXxF18hEbNo
   - recRuxTB2qI4xqv3o
+  - recqu50YHXByd834r
   Year: 2024
   airtable_createdTime: '2024-04-19T15:52:31.000Z'
   airtable_id: recHvWpLtcuFRNCH0
   image-alt: A collaged image from the Census Bureau microfiche record archives.
   img: landing/2024-top-problem-statement-graphic.jpg
   lang: en
-  order-number: 1
+  order-number: 2
   problem_statements:
   - reccG62UBvl9xkpAv
   - recFLCXy9eppXYbrL
@@ -468,7 +489,7 @@
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   lang: en
-  order-number: 6
+  order-number: 7
   problem_statements:
   - recRVUitwXLxxoCqE
   - recEceI5ivt5UyQAk
@@ -514,7 +535,7 @@
   image-alt: An abstract illustration including light blue forms on a dark blue background.
   img: landing/2023-fda-diagnostic.jpg
   lang: en
-  order-number: 4
+  order-number: 5
   problem_statements:
   - recSBFthHVr819HWH
   - recDPBxKJGNRgAHlu
@@ -601,7 +622,7 @@
   image-alt: La Tierra vista desde el espacio con un cielo lleno de estrellas
   img: landing/Post-COVID.jpg
   lang: esp
-  order-number: 5
+  order-number: 6
   problem_statements:
   - recRVUitwXLxxoCqE
   - recEceI5ivt5UyQAk
@@ -764,7 +785,7 @@
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   lang: en
-  order-number: 7
+  order-number: 8
   problem_statements:
   - rectuEdl5hMJHyu3T
   - rec2O683toRtuO4Ey
@@ -945,6 +966,7 @@
   - recum0JqFwimW4WRH
   - recnQhPghLaIJuclP
   - rectM724LX3rIJbTQ
+  - recvQHMZz18nlSj6j
   Year: 2023
   airtable_createdTime: '2023-06-13T13:18:25.000Z'
   airtable_id: recep6nMtw1pdBu1L
@@ -993,7 +1015,7 @@
   image-alt: An illustrative photo collage of two hands shaking and a city skyline.
   img: landing/2023-summer-background.jpg
   lang: en
-  order-number: 2
+  order-number: 3
   problem_statements:
   - recOlp3gojpNoxLL0
   - recK4W3TydSa0Gkpf
@@ -1110,7 +1132,7 @@
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
-  order-number: 3
+  order-number: 4
   problem_statements:
   - rectZGkFVKiSTsl3N
   - rec3N8sP8Z6iwJUp2
@@ -1292,7 +1314,7 @@
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   lang: en
-  order-number: 9
+  order-number: 10
   people:
   - rec6yv2YVmUjsnxlw
   - reciHebdvnFg0L8Bj
@@ -1532,12 +1554,10 @@
   - recJzHLb0XZOEs4kv
   - recxmBo9nILi7dErF
   - recmn2sLIkqdzO2C7
-  problem_statements:
-  - recrWiHRnNA2x6Ebg
-  - receI2b86NTLrPrMp
-  - recMt9g6gLlrIz3Jo
-  - rec24ta98ogx6GGPu
   short-tag: 20cen
 - Name: Economic Development Administration
   airtable_createdTime: '2023-07-25T21:05:53.000Z'
   airtable_id: recvs0RUjbYsu1bMi
+- Name: Rob Schaper
+  airtable_createdTime: '2025-08-20T15:27:24.000Z'
+  airtable_id: reczwjO6WwJUtbJen

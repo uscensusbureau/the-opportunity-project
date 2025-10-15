@@ -4,12 +4,10 @@
     \ to run data-driven outreach campaigns and avoid an undercount."
   Participants: Paul Franz
   Product Name: Census Intelligence Center
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:01.000Z'
   airtable_id: rec0PXYHvMqSoxLKu
   category:
-  - Census
+  - Decennial Census
   data_sets: "Census Bureau American Community Survey; Census Barriers, Attitudes,\
     \ and Motivators; Civis Analytics\u2019 survey and message testing technology"
   data_sets_text: "Census Bureau American Community Survey; Census Barriers, Attitudes,\
@@ -20,14 +18,10 @@
     campaigns and avoid an undercount
   details: Empowers local leaders and Census coordinators to run data-driven outreach
     campaigns and avoid an undercount
-  featured_in:
-  - rec24ta98ogx6GGPu
   image: census-intelligence.jpg
   image-alt: Map of a region, with sub-districts colored in varying shades of blue.
     No legend or title is included.
   link: https://www.civisanalytics.com/census/
-  problem_statement:
-  - rec24ta98ogx6GGPu
   product_advisors: Paul Franz
   sprint:
   - recukKC4tJpTJtQCA
@@ -74,7 +68,7 @@
   airtable_id: rec1O3UON0eZ6I306
   category:
   - Federal Funding
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: grants.gov
   data_sets_text: grants.gov
   description: Minority Business Circle is a comprehensive ecosystem that simplifies
@@ -103,7 +97,7 @@
   airtable_createdTime: '2021-05-10T20:22:01.000Z'
   airtable_id: rec1R4YcZZkEFXNOq
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards
@@ -161,12 +155,10 @@
     are counted in future censuses.
   Participants: Tom Juarez
   Product Name: Voatz
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: rec1qTv3kAFdvnLzC
   category:
-  - Census
+  - Decennial Census
   data_sets: Number of Americans overseas; Number of individuals with disabilities;
     Smartphone penetration across the United States
   data_sets_text: Number of Americans overseas; Number of individuals with disabilities;
@@ -183,8 +175,6 @@
   image-alt: Hand holding up a mobile phone app reading 'How might mobile voting facilitate
     the future of the U.S. Census regarding identity and data security?'
   link: https://www.voatz.com
-  problem_statement:
-  - recrWiHRnNA2x6Ebg
   product_advisors: Tom Juarez
   sprint:
   - recukKC4tJpTJtQCA
@@ -293,7 +283,7 @@
   airtable_createdTime: '2023-02-19T18:06:47.000Z'
   airtable_id: rec2kbu0WoQdXNhW9
   category:
-  - Health
+  - Health & Wellbeing
   - Education
   data_sets: Census Data
   data_sets_text: Census Data
@@ -353,7 +343,7 @@
   airtable_createdTime: '2021-11-29T18:35:34.000Z'
   airtable_id: rec31u0qlPbql2gnZ
   category:
-  - Census
+  - Refugees
   data_sets: Census 2020 Decennial Data, ACS
   data_sets_text: Census 2020 Decennial Data, ACS
   description: Assists minority and disenfranchised communities with migration questions
@@ -438,7 +428,7 @@
   airtable_createdTime: '2021-05-10T20:33:08.000Z'
   airtable_id: rec4dDDxeabhRdaX9
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards, LOINC formats required by
     states, FHIR
   data_sets_text: HHS Diagnostic Data & Reporting Standards, LOINC formats required
@@ -471,7 +461,7 @@
   airtable_id: rec4nM7ZZVUctcfhk
   category:
   - Housing
-  - Health
+  - Health & Wellbeing
   - Transportation
   data_sets: Department of Housing and Urban Development; Census Bureau American Community
     Survey
@@ -504,7 +494,7 @@
   airtable_createdTime: '2020-02-04T21:28:11.000Z'
   airtable_id: rec4uIXYFWQ8OSYnj
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: Bureau of Labor Statistics; StatsAmerica; Census Bureau American Community
     Survey; Internal Revenue Service
   data_sets_text: Bureau of Labor Statistics; StatsAmerica; Census Bureau American
@@ -608,7 +598,7 @@
   airtable_createdTime: '2020-02-10T15:58:15.000Z'
   airtable_id: rec5diWHrelt9omye
   category:
-  - Census
+  - Decennial Census
   - Housing
   description: iOS application to support the logistical planning, coordination, execution,
     and data collection effort undertaken by Census Bureau employees conducting the
@@ -638,8 +628,7 @@
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: rec6IPlUZ43zupjsq
   category:
-  - Discovery
-  - Census
+  - Decennial Census
   data_sets: Census Bureau; US Bureau of Labor Statistics; New York State Departments
     of Health and of Agriculture and Markets; Food Bank for New York City and the
     NYU Furman Center
@@ -677,7 +666,7 @@
   airtable_createdTime: '2024-01-03T18:59:15.000Z'
   airtable_id: rec6IRYhw6KxznzFV
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: CDC PLACES, Census American Community Survey
   data_sets_text: CDC PLACES, Census American Community Survey
   description: Neighborhood Explorer reduces social isolation among Tulsa residents
@@ -790,7 +779,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: rec7Eg9EMoruTDpq4
   category:
-  - Census
+  - Refugees
   data_sets: Census Bureau 2020 Data, ACS
   data_sets_text: Census Bureau 2020 Data, ACS
   description: 'Enables community organizations working with immigrants from African
@@ -925,7 +914,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rec876BatpBWaqULd
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: Athena OHDSI Database
   data_sets_text: Athena OHDSI Database
   description: The FHIR to OMOP data mapping tool uses open-source health coding libraries
@@ -957,7 +946,7 @@
   airtable_createdTime: '2023-02-19T18:04:06.000Z'
   airtable_id: rec8OF6F3a5rRdktc
   category:
-  - Health
+  - Health & Wellbeing
   - Education
   data_sets: CDC, NCTSN, ABES
   data_sets_text: CDC, NCTSN, ABES
@@ -1100,7 +1089,6 @@
   airtable_createdTime: '2020-02-04T21:30:23.000Z'
   airtable_id: rec9VP6tQ6kOY50kb
   category:
-  - Discovery
   - Federal Funding
   data_sets: Census Bureau; USASpending.gov, SAM.gov; grants.gov; Department of Housing
     and Urban Development
@@ -1134,7 +1122,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rec9cF9jQG5Sgr7qq
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: 'Social Determinants of Health Database, Household Pulse Survey: Measuring
     Social and Economic Impacts during the Coronavirus Pandemic, Small Area Health
     Insurance Estimates (SAHIE) Program, CDC/ATSDR Social Vulnerability Index, NHANES
@@ -1169,7 +1157,7 @@
   airtable_createdTime: '2021-11-29T18:36:04.000Z'
   airtable_id: rec9eHWkUftkmuJrO
   category:
-  - Census
+  - Decennial Census
   data_sets: Census 2020 Decennial Data, ACS; IRS; DOE Education Demographic and Geographic
     Estimates
   data_sets_text: Census 2020 Decennial Data, ACS; IRS; DOE Education Demographic
@@ -1291,7 +1279,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recBCVqfzHdwluhAK
   category:
-  - Census
+  - Decennial Census
   data_sets: 'Census Bureau 2020 Data, ACS '
   data_sets_text: 'Census Bureau 2020 Data, ACS '
   description: Helps K-12 students, teachers, and education stakeholders build data
@@ -1347,12 +1335,10 @@
     to help Area Census Office Staff visualize and verify potential locations of individuals
     experiencing homelessness for enumeration.
   Product Name: Community Counts
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:48:05.000Z'
   airtable_id: recBQlpjQCwwOK9Tu
   category:
-  - Census
+  - Decennial Census
   data_sets: Department of Housing and Urban Development; Community partners
   data_sets_text: Department of Housing and Urban Development; Community partners
   datasets copy: Department of Housing and Urban Development; Community partners
@@ -1364,8 +1350,6 @@
   image-alt: Two open laptops with a web application open, with Community Counts,
     2020Census written below
   link: no-link
-  problem_statement:
-  - rec24ta98ogx6GGPu
   sprint:
   - recukKC4tJpTJtQCA
   tech_team:
@@ -1419,7 +1403,7 @@
   category:
   - Federal Funding
   - Economic Development
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: U.S. Census Bureau Data
   data_sets_text: U.S. Census Bureau Data
   description: |
@@ -1481,7 +1465,6 @@
   airtable_createdTime: '2023-01-26T19:02:06.000Z'
   airtable_id: recDOFA2hq82ONcd0
   category:
-  - Discovery
   - Federal Funding
   data_sets: Grants.gov
   data_sets_text: Grants.gov
@@ -1570,7 +1553,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recESw8E7quORnaw4
   category:
-  - Census
+  - Decennial Census
   data_sets: Census Bureau 2020 Data
   data_sets_text: Census Bureau 2020 Data
   description: Inclusively engages racial and ethnic minorities in hard-to-count communities
@@ -1597,7 +1580,8 @@
   airtable_createdTime: '2024-01-03T18:58:44.000Z'
   airtable_id: recEXAHVedNEGgRHy
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
+  - AI
   data_sets: "SBIR \nSolicitations API"
   data_sets_text: "SBIR \nSolicitations API"
   description: Funding Journey leverages AI to present curated solicitation for underrepresented
@@ -1659,6 +1643,7 @@
   airtable_id: recEbD4hDRqWo3b5N
   category:
   - Transportation
+  - AI
   data_sets: FEMA Expected Annual Loss
   data_sets_text: FEMA Expected Annual Loss
   description: 'Payver uses federal open data sets in conjunction with AI insights
@@ -1685,7 +1670,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recFNai0HbCL9i93o
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: Census Bureau ACS, County Business Patterns, Community Resilience Estimates;
     SBA Small Business Size Standards
   data_sets_text: Census Bureau ACS, County Business Patterns, Community Resilience
@@ -1744,7 +1729,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recFfCxO9lW5BGu8A
   category:
-  - Census
+  - Disasters
   data_sets: 'Census Bureau 2020 Data, ACS '
   data_sets_text: 'Census Bureau 2020 Data, ACS '
   description: 'Identifies risk and demographics of flood-vulnerable communities for
@@ -1799,7 +1784,7 @@
   airtable_createdTime: '2024-12-09T15:24:44.000Z'
   airtable_id: recFzRyJzAYUPtsuq
   category:
-  - Discovery
+  - Entrepreneurship & Small Business
   data_sets: U.S. Census Bureau data
   data_sets_text: U.S. Census Bureau data
   description: 'Greater Growth Initiative is a platform for accessing resources and
@@ -1828,7 +1813,7 @@
   category:
   - Federal Funding
   - Economic Development
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: U.S. Census Bureau data
   data_sets_text: U.S. Census Bureau data
   description: Philanthropono is a comprehensive training and certification program
@@ -1889,7 +1874,7 @@
   category:
   - Housing
   - Education
-  - Health
+  - Health & Wellbeing
   description: ' Provides visibility into the affordability of opportunity for children
     in U.S. metro areas'
   details: ' Provides visibility into the affordability of opportunity for children
@@ -1909,7 +1894,7 @@
   airtable_createdTime: '2021-05-10T14:41:35.000Z'
   airtable_id: recGjmI3M73IxalNN
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards
@@ -1938,6 +1923,7 @@
   airtable_id: recGnPnyRO7WettCl
   category:
   - Economic Development
+  - AI
   data_sets: Census, ACS, BLS, BEA, EPA, and USASpending
   data_sets_text: Census, ACS, BLS, BEA, EPA, and USASpending
   description: "Polis allows users to compute how similar jurisdictions are to each\
@@ -1996,6 +1982,7 @@
   airtable_id: recHCJRiKTs0ufuo6
   category:
   - Veterans
+  - AI
   data_sets: Department of Labor
   data_sets_text: Department of Labor
   datasets copy: Department of Labor
@@ -2025,7 +2012,7 @@
   airtable_createdTime: '2021-05-10T20:28:09.000Z'
   airtable_id: recHUBmtsyVW9Ps0Y
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards, FHIR, LOINC formats required
     by states
   data_sets_text: HHS Diagnostic Data & Reporting Standards, FHIR, LOINC formats required
@@ -2060,6 +2047,7 @@
   airtable_id: recHd3FNdoaIHtgP7
   category:
   - Economic Development
+  - AI
   data_sets: U.S. Census Bureau, Office of the Surgeon General; Department of Transportation
   data_sets_text: U.S. Census Bureau, Office of the Surgeon General; Department of
     Transportation
@@ -2130,7 +2118,7 @@
   airtable_createdTime: '2023-01-25T17:09:12.000Z'
   airtable_id: recHxqkY8I8oMoTHF
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: 2021 American Community Survey 5-Year Estimates
   data_sets_text: 2021 American Community Survey 5-Year Estimates
   description: 'Child Vulnerability Index Dashboard for Puerto Rico uses 2021 American
@@ -2164,7 +2152,6 @@
   airtable_id: recI5x9UMolJNsc9N
   category:
   - Environment
-  - Discovery
   data_sets: NOAA nowCOAST, Justice40, GRASP, CDC Social Vulnerability Index, EPA
     Toxics Release Inventory, USFS Cartographic 2016 Tree Canopy, National Hurricane
     Centers Inundation Areas, World Bank, Solar GIS
@@ -2203,10 +2190,11 @@
   data_sets_text: Department of Education college readiness data
   datasets copy: Department of Education college readiness data
   description: Measures gaps in access to educational opportunities across student
-    groups to help advocates increased equity
+    groups
   details: Measures gaps in access to educational opportunities across student groups
-    to help advocates increased equity
-  link: no-link
+  image: greatschools-zillow.jpg
+  image-alt: Screenshot of school data on Zillow.com.
+  link: https://zillow.zendesk.com/hc/en-us/articles/203534484-How-is-school-data-determined
   sprint:
   - receo1r4Tva3sDpPI
   tech_team:
@@ -2221,7 +2209,7 @@
   airtable_createdTime: '2021-05-10T20:31:32.000Z'
   airtable_id: recITSk235j9YPhKy
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards, FHIR
   data_sets_text: HHS Diagnostic Data & Reporting Standards, FHIR
   datasets copy: HHS Diagnostic Data & Reporting Standards, FHIR
@@ -2251,7 +2239,7 @@
   airtable_id: recITfITIgt19f6Zv
   category:
   - Housing
-  - Health
+  - Health & Wellbeing
   - Transportation
   description: Allows for comparison and similarity detection of geographic regions
   details: Allows for comparison and similarity detection of geographic regions
@@ -2307,7 +2295,7 @@
   airtable_createdTime: '2024-01-03T18:59:15.000Z'
   airtable_id: recIrPgUpotQc7yW9
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: "SBIR and STTR America\u2019s Seed Fund, GRANTS.GOV, Challenge.gov, USASpending.gov,\
     \ Federal Register, Federal Research and Development (R&D) Budget Data, Federal\
     \ Agency-Specific Funding Portals "
@@ -2472,7 +2460,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recKytGvbgFZaqoOx
   category:
-  - Census
+  - Economic Development
   data_sets: Census Bureau 2020 Redistricting Data, ACS, Community Resilience Estimates
   data_sets_text: Census Bureau 2020 Redistricting Data, ACS, Community Resilience
     Estimates
@@ -2500,7 +2488,7 @@
   airtable_createdTime: '2020-02-04T21:32:08.000Z'
   airtable_id: recL2rjrXwoQIRIzV
   category:
-  - Health
+  - Health & Wellbeing
   - Housing
   data_sets: Department of Housing and Urban Development; Census Bureau American Community
     Survey
@@ -2530,7 +2518,7 @@
   category:
   - Federal Funding
   - Economic Development
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: U.S. Census Bureau ACS & Decennial Data
   data_sets_text: U.S. Census Bureau ACS & Decennial Data
   description: Adding cities with high indigenous populations to the existing City
@@ -2620,7 +2608,7 @@
   airtable_createdTime: '2020-02-04T21:30:55.000Z'
   airtable_id: recMC48PtRDamsuV0
   category:
-  - Opioids
+  - Health & Wellbeing
   data_sets: US Census Bureau; Local emergency response data
   data_sets_text: US Census Bureau; Local emergency response data
   datasets copy: US Census Bureau; Local emergency response data
@@ -2651,7 +2639,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recMH1tnASsJnQn4f
   category:
-  - Census
+  - Decennial Census
   data_sets: 'Census Bureau 2010 and 2020 Data, ACS '
   data_sets_text: 'Census Bureau 2010 and 2020 Data, ACS '
   description: Uses data from the 2020 Census and the American Community Survey to
@@ -2679,7 +2667,7 @@
   airtable_createdTime: '2021-05-10T20:08:15.000Z'
   airtable_id: recMrGPqBEpJKxL4C
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards
@@ -2762,7 +2750,7 @@
   airtable_createdTime: '2021-05-10T19:49:50.000Z'
   airtable_id: recNM8Neg2uRCutP6
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards
@@ -2830,7 +2818,7 @@
   airtable_createdTime: '2021-05-10T20:43:03.000Z'
   airtable_id: recNnNPYr5vLumfA1
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards
@@ -2889,7 +2877,7 @@
   airtable_createdTime: '2020-02-10T16:02:55.000Z'
   airtable_id: recOAwG2qM94YYquA
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: "Department of Veteran\u2019s Affairs"
   data_sets_text: "Department of Veteran\u2019s Affairs"
   datasets copy: "Department of Veteran\u2019s Affairs"
@@ -2979,7 +2967,7 @@
   airtable_createdTime: '2024-01-03T18:58:44.000Z'
   airtable_id: recObUgQDdpT2Kqym
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: Community Resilience Estimates and the American Community Survey
   data_sets_text: Community Resilience Estimates and the American Community Survey
   description: Ecosystem Partner Portal is a visualization of network dynamics for
@@ -3006,7 +2994,7 @@
   airtable_createdTime: '2024-01-05T20:01:04.000Z'
   airtable_id: recP17Ozof0QOJaJF
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: My Tribal Area
   data_sets_text: My Tribal Area
   description: Lenderfit used My Tribal Area to build a geography-based story solution
@@ -3035,7 +3023,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recPAPX98Xy0GOOnv
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: Census Bureau Small Business Pulse Survey; Coral Gables Reopening of
     the Economy Report
   data_sets_text: Census Bureau Small Business Pulse Survey; Coral Gables Reopening
@@ -3093,7 +3081,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recPL0UUUG1wdDtKd
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: Census Bureau's American Community Survey, State of California's Open
     Data Health Portal
   data_sets_text: Census Bureau's American Community Survey, State of California's
@@ -3155,7 +3143,7 @@
   airtable_createdTime: '2024-12-09T15:26:24.000Z'
   airtable_id: recPg2UL8lvwVvGCK
   category:
-  - Discovery
+  - Health & Wellbeing
   data_sets: ACS, CDC, and DOL data
   data_sets_text: ACS, CDC, and DOL data
   description: Neurodiverse Wellbeing Index helps to explore the challenges faced
@@ -3208,12 +3196,10 @@
     for anyone who works to improve the quality of life for Latino and Hispanic residents
     of California.
   Product Name: California Latino Power Map
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2020-02-10T15:48:44.000Z'
   airtable_id: recQ8IZ3xgiuhfau4
   category:
-  - Census
+  - Decennial Census
   data_sets: "Public Use Microdata Sample of the Census Bureau\u2019s American Community\
     \ Survey"
   data_sets_text: "Public Use Microdata Sample of the Census Bureau\u2019s American\
@@ -3226,14 +3212,10 @@
   details: 'Showcases Latino leadership across California and helps anyone working
     to improve the quality of life for Latino and Hispanic residents of California
     to understand both the opportunities and the challenges Latino communities '
-  featured_in:
-  - recrWiHRnNA2x6Ebg
   image: california-latino-power-map.jpg
   image-alt: Map of western U.S. with regions of Calfornia colored in different shades
     of red
   link: https://latinocf.org/map
-  problem_statement:
-  - recrWiHRnNA2x6Ebg
   sprint:
   - recukKC4tJpTJtQCA
   tech_team:
@@ -3247,6 +3229,7 @@
   airtable_id: recQFWTSTV4P0nUOv
   category:
   - Federal Funding
+  - AI
   data_sets: Census Bureau 2020 Data, Annual Business Survey; SBA PPP Data
   data_sets_text: Census Bureau 2020 Data, Annual Business Survey; SBA PPP Data
   description: Uses machine learning and predictive analytics to analyze federal data
@@ -3306,7 +3289,7 @@
   airtable_id: recQg9St5PgL5EWUC
   category:
   - Federal Funding
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: NASA, USDA, the Smithsonian Institution, NOAA, U.S. Naval Research Lab,
     National Park Service, and USAJOBS
   data_sets_text: NASA, USDA, the Smithsonian Institution, NOAA, U.S. Naval Research
@@ -3339,7 +3322,7 @@
   airtable_createdTime: '2024-12-09T15:19:03.000Z'
   airtable_id: recR9s5dGnCKX9lXR
   category:
-  - Discovery
+  - Health & Wellbeing
   data_sets: U.S. Census Bureau, Office of the Surgeon General, Department of Transportation
   data_sets_text: U.S. Census Bureau, Office of the Surgeon General, Department of
     Transportation
@@ -3418,7 +3401,7 @@
   airtable_createdTime: '2024-12-09T20:15:00.000Z'
   airtable_id: recRuxTB2qI4xqv3o
   category:
-  - Discovery
+  - Health & Wellbeing
   data_sets: American Community Survey, State of California's Open Data Health Portal
   data_sets_text: American Community Survey, State of California's Open Data Health
     Portal
@@ -3489,7 +3472,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recSoet4OcOqMCIyX
   category:
-  - Census
+  - Decennial Census
   data_sets: Census Bureau 2020 Data, ACS, Current Population Survey Food Security
     Supplement
   data_sets_text: Census Bureau 2020 Data, ACS, Current Population Survey Food Security
@@ -3518,7 +3501,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recSxjjmG28ZS0htH
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: CDC's Telemedicine Use in the Last 4 Weeks
   data_sets_text: CDC's Telemedicine Use in the Last 4 Weeks
   description: The Health Awareness Framework uses the Telemedicine Use open data
@@ -3548,7 +3531,7 @@
   airtable_id: recT3N6qI7KiyAnMB
   category:
   - Transportation
-  - Health
+  - Health & Wellbeing
   data_sets: Office of the Surgeon General; Department of Transportation
   data_sets_text: Office of the Surgeon General; Department of Transportation
   datasets copy: Office of the Surgeon General; Department of Transportation
@@ -3749,7 +3732,7 @@
   airtable_createdTime: '2021-02-25T21:32:21.000Z'
   airtable_id: recUZNG7iWmlQJuDR
   category:
-  - Health
+  - Health & Wellbeing
   description: Uses US Department of Veterans Affairs API and CMS API to reduce physician
     burnout and hospital readmission rates for veteran heart failure patients.
   details: Uses US Department of Veterans Affairs API and CMS API to reduce physician
@@ -3779,8 +3762,7 @@
   airtable_createdTime: '2020-02-10T15:59:00.000Z'
   airtable_id: recUnEZ5XY4qUxjRB
   category:
-  - Discovery
-  - Census
+  - Decennial Census
   data_sets: Census Bureau
   data_sets_text: Census Bureau
   datasets copy: Census Bureau
@@ -3940,7 +3922,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recW6gAi3n38YY9j9
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: SBA
   data_sets_text: SBA
   description: Offers a step-by-step system to position companies to get approved
@@ -4101,7 +4083,7 @@
   airtable_createdTime: '2024-01-03T18:56:29.000Z'
   airtable_id: recX8IojbtwFNklaO
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: CDFI Fund list of Certified CDFIs
   data_sets_text: CDFI Fund list of Certified CDFIs
   description: Opportunity Map is an interactive map for Native Community Development
@@ -4132,7 +4114,7 @@
   airtable_createdTime: '2020-02-10T16:02:37.000Z'
   airtable_id: recXrMdPaNmfm066G
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: Data on local hazards & resources
   data_sets_text: Data on local hazards & resources
   datasets copy: Data on local hazards & resources
@@ -4235,8 +4217,7 @@
   airtable_createdTime: '2020-02-04T21:30:36.000Z'
   airtable_id: recYFlCq9CIEKm9EF
   category:
-  - Census
-  - Discovery
+  - Decennial Census
   data_sets: Census Bureau American Community Survey
   data_sets_text: Census Bureau American Community Survey
   datasets copy: Census Bureau American Community Survey
@@ -4267,7 +4248,7 @@
   airtable_createdTime: '2021-05-10T19:54:40.000Z'
   airtable_id: recYK9yg1jl9KAWsH
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards, Healthdata.gov
   data_sets_text: HHS Diagnostic Data & Reporting Standards, Healthdata.gov
   datasets copy: HHS Diagnostic Data & Reporting Standards, Healthdata.gov
@@ -4402,7 +4383,8 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recbabIPNL3Tefcv1
   category:
-  - Census
+  - Entrepreneurship & Small Business
+  - Economic Development
   data_sets: Census Bureau 2020 Data, ACS
   data_sets_text: Census Bureau 2020 Data, ACS
   description: 'An Instagram page that explains the Asian population and related Census
@@ -4435,8 +4417,7 @@
   airtable_createdTime: '2020-02-04T21:32:00.000Z'
   airtable_id: recbihioUspNFv277
   category:
-  - Discovery
-  - Census
+  - Decennial Census
   data_sets: Census Bureau; Federal Bureau of Investigation; Centers for Disease Control
     and Prevention
   data_sets_text: Census Bureau; Federal Bureau of Investigation; Centers for Disease
@@ -4492,7 +4473,7 @@
   airtable_createdTime: '2024-01-05T20:01:06.000Z'
   airtable_id: reccO0KkttztFEMJA
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: N/A
   data_sets_text: N/A
   description: "Cheyenne River Reservation Thriving Wage product solves the invisibility\
@@ -4525,7 +4506,7 @@
   airtable_id: reccgMlmwwiSZRosm
   category:
   - Education
-  - Health
+  - Health & Wellbeing
   data_sets: Various sources
   data_sets_text: Various sources
   description: This guide is for use by teachers, counselors, and staff working in
@@ -4636,7 +4617,7 @@
   airtable_createdTime: '2023-01-26T19:03:18.000Z'
   airtable_id: receNfHwmAEkIdwOx
   category:
-  - Health
+  - Health & Wellbeing
   - Economic Development
   - Environment
   data_sets: USASpending, Michigan.gov, Build.gov, Grants.gov, SAM.gov
@@ -4697,7 +4678,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: receaoUdUfomEwmTS
   category:
-  - Census
+  - Disasters
   data_sets: 'FEMA NFHL; NOAA NGS '
   data_sets_text: 'FEMA NFHL; NOAA NGS '
   description: Enables local government floodplain managers to effectively communicate
@@ -4724,7 +4705,7 @@
   airtable_createdTime: '2024-01-03T18:56:37.000Z'
   airtable_id: recelhHUwK29mUEJn
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: CDFI Fund list of Certified CDFIs
   data_sets_text: CDFI Fund list of Certified CDFIs
   description: Opportunity Map is an interactive map for funders looking to invest
@@ -4780,7 +4761,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recf1gBnu5Q7M2TcM
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: COVID-19 Reported Patient Impact & Hospital Capcity by State, COVID-19
     Community Vulnerability Crosswalk Rank Ordered by Score, COVID-19 Reported Patient
     Impact & Hospital Capacity by Facility, COVID-19 Case Surveillance Public Use
@@ -4871,7 +4852,7 @@
   airtable_createdTime: '2021-05-10T19:52:27.000Z'
   airtable_id: recfX1BGqFttX9LDu
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards
@@ -4957,7 +4938,7 @@
   airtable_createdTime: '2024-01-03T18:59:13.000Z'
   airtable_id: recg74esPn569Ebf3
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: NASA, DOE, NSF Commercialization Standards, USDA Rural Investment Data,
     Justice 40 Data, SBIR Open Topic Data , FLC IP Data, Bureau of Economic Analysis,
     and others
@@ -4989,7 +4970,7 @@
   airtable_createdTime: '2021-05-10T20:40:33.000Z'
   airtable_id: recgEZ1XcHesRQEk3
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: CDC AIMS Platform
   data_sets_text: CDC AIMS Platform
   datasets copy: CDC AIMS Platform
@@ -5018,7 +4999,7 @@
   airtable_createdTime: '2023-02-19T18:03:46.000Z'
   airtable_id: recgGJF5FCeKvmF69
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: N/A
   data_sets_text: N/A
   description: Bambini Health Inc. is a health technology start-up that provides evidence-based
@@ -5110,12 +5091,10 @@
     awareness of how the census impacts their lives.
   Participants: Jeff Meisel
   Product Name: '#WhyWeCount'
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:34.000Z'
   airtable_id: rechHdImOUiwo3JTj
   category:
-  - Census
+  - Decennial Census
   data_sets: Census Bureau Response Rates; Low Broadband Access; Barriers, Attitudes
     and Motivators Study
   data_sets_text: Census Bureau Response Rates; Low Broadband Access; Barriers, Attitudes
@@ -5130,14 +5109,10 @@
     relevant stories that community organizations can use to engage seniors and young
     adults from the Puerto Rican and Filipino diasporas and raise awareness of how
     the Census impacts their lives
-  featured_in:
-  - receI2b86NTLrPrMp
   image: whywecount.jpg
   image-alt: Seated, smiling woman. Below is the logo of Why We Count and text that
     reads Being Counted Saves Lives.
   link: no-link
-  problem_statement:
-  - receI2b86NTLrPrMp
   product_advisors: Jeff Meisel
   sprint:
   - recukKC4tJpTJtQCA
@@ -5153,7 +5128,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: rechgwwFCeXNgX32p
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: "GUDI, IVD Over the Counter (OTC), WATERS \n\n"
   data_sets_text: "GUDI, IVD Over the Counter (OTC), WATERS \n\n"
   description: "We used FDA\u2019s IVD Over-the-Counter (OTC) and GUDI Databases to\
@@ -5222,7 +5197,7 @@
   airtable_createdTime: '2024-01-03T18:59:15.000Z'
   airtable_id: rechiu01mCD9j7TyK
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: Census
   data_sets_text: Census
   description: The Native CDFI Workforce Resource Map provides information to Native
@@ -5294,7 +5269,7 @@
   airtable_id: reciK9U1OOtBhO0Zd
   category:
   - Education
-  - Health
+  - Health & Wellbeing
   data_sets: Various sources
   data_sets_text: Various sources
   description: The tools within the guide are intended to be used in combination with
@@ -5327,7 +5302,7 @@
   category:
   - Veterans
   - Housing
-  - Health
+  - Health & Wellbeing
   data_sets: Census Bureau; Department of Housing and Urban Development
   data_sets_text: Census Bureau; Department of Housing and Urban Development
   datasets copy: Census Bureau; Department of Housing and Urban Development
@@ -5392,7 +5367,7 @@
   airtable_createdTime: '2024-12-09T15:24:44.000Z'
   airtable_id: recjm0bfMYKetEa2z
   category:
-  - Discovery
+  - Health & Wellbeing
   data_sets: EPA's Environmental Justice screen
   data_sets_text: EPA's Environmental Justice screen
   description: 'Community Wellbeing Asset Mapping Tool (CWAM) addresses the problem
@@ -5422,7 +5397,7 @@
   airtable_id: reckKPh2gHKoykabO
   category:
   - Housing
-  - Health
+  - Health & Wellbeing
   - Transportation
   data_sets: Bureau of Labor Statistics; Department of Education; Institute of Museums
     and Library Services; other data from federal agencies and twelve cities
@@ -5570,7 +5545,7 @@
   airtable_createdTime: '2020-02-04T21:28:23.000Z'
   airtable_id: reclipT1HcxsohLGo
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: "Small Business Administration \u2018Find Local Assistance\u2019 resource"
   data_sets_text: "Small Business Administration \u2018Find Local Assistance\u2019\
     \ resource"
@@ -5663,7 +5638,7 @@
   category:
   - Transportation
   - Education
-  - Health
+  - Health & Wellbeing
   data_sets: Department of Health and Human Services; City of Philadelphia; Office
     of Management and Budget; Department of Housing and Urban Development; Southeastern
     Pennsylvania Transportation Authority; New Jersey Transit; State of Delaware
@@ -5819,7 +5794,7 @@
   airtable_id: recnnlHpvM9gbJCwc
   category:
   - Housing
-  - Health
+  - Health & Wellbeing
   - Transportation
   data_sets: Department of Housing and Urban Development
   data_sets_text: Department of Housing and Urban Development
@@ -5839,20 +5814,14 @@
   year:
   - 2016
 - Product Name: Census Taker
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2021-02-19T21:32:12.000Z'
   airtable_id: recnyrDlORAP9XtOH
   category:
-  - Census
+  - Decennial Census
   - Employment
-  featured_in:
-  - recMt9g6gLlrIz3Jo
   image: census-taker_amava.jpg
   image-alt: Screenshot of Census Taker's website
   link: no-link
-  problem_statement:
-  - recMt9g6gLlrIz3Jo
   sprint:
   - recukKC4tJpTJtQCA
   tech_team:
@@ -5902,12 +5871,10 @@
     allocation by predicting decennial Census response rates by day for each census
     tract, and comparing them to the true rates.
   Product Name: Tract by Tract
-  agencies:
-  - U.S. Census Bureau
   airtable_createdTime: '2020-02-04T21:29:41.000Z'
   airtable_id: reco7Lrrv0j8uqSRp
   category:
-  - Census
+  - Decennial Census
   data_sets: Census Bureau Response Rate
   data_sets_text: Census Bureau Response Rate
   datasets copy: Census Bureau Response Rate
@@ -5920,8 +5887,6 @@
   image-alt: Map of a region, with sub-districts colored in varying shades of green,
     yellow, and red.
   link: http://tractbytract.com/
-  problem_statement:
-  - rec24ta98ogx6GGPu
   sprint:
   - recukKC4tJpTJtQCA
   tech_team:
@@ -5936,7 +5901,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recoB1v8ihzw968bY
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: Census Bureau Small Business Pulse Survey, Coral Gables Reopening of
     the Economy Report
   data_sets_text: Census Bureau Small Business Pulse Survey, Coral Gables Reopening
@@ -6005,7 +5970,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recoSNaIIb9NHQTV4
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: Census Household Pulse Survey, CDC/ATSDR Social Vulnerability Index
   data_sets_text: Census Household Pulse Survey, CDC/ATSDR Social Vulnerability Index
   description: OPS provides an accurate, equitable, and private quick-check diagnostic
@@ -6226,7 +6191,8 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recpk49qALNBBcmiS
   category:
-  - Health
+  - Health & Wellbeing
+  - AI
   data_sets: COVID-19 Case Surveillance with Geography
   data_sets_text: COVID-19 Case Surveillance with Geography
   description: |-
@@ -6256,7 +6222,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recq094oAlMUp1qby
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: American Community Survey, Illinois Department of Public Health, Chicago
     Crime Data Portal
   data_sets_text: American Community Survey, Illinois Department of Public Health,
@@ -6343,7 +6309,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recqZVjwnKCJkzxPZ
   category:
-  - Census
+  - Education
   data_sets: 'Census Bureau 2020 Data, ACS '
   data_sets_text: 'Census Bureau 2020 Data, ACS '
   description: Enables librarians to better understand population distribution in
@@ -6370,7 +6336,7 @@
   airtable_createdTime: '2023-10-30T19:21:39.000Z'
   airtable_id: recqbRSI6zPH5IV7U
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: SVI, ACS, & SAHIE
   data_sets_text: SVI, ACS, & SAHIE
   description: Recuro has leveraged SVI, ACS and SAHIE datasets to improve member
@@ -6419,6 +6385,36 @@
   title: Community Resilience Data Guide
   year:
   - 2021
+- Product Name: WellTrend
+  agencies:
+  - Harvard Business School, U.S. Department of Commerce, National League of Cities
+  airtable_createdTime: '2025-08-20T15:27:23.000Z'
+  airtable_id: recqu50YHXByd834r
+  category:
+  - AI
+  - Health & Wellbeing
+  data_sets: American Community Survey (ACS)
+  data_sets_text: American Community Survey (ACS)
+  description: WellTrend enables community stakeholders, researchers, and policymakers
+    to build a customized community wellbeing index based on their specific needs
+    and priorities.
+  details: WellTrend enables community stakeholders, researchers, and policymakers
+    to build a customized community wellbeing index based on their specific needs
+    and priorities.
+  image: cloudraven-welltrend.jpg
+  image-alt: A screenshot of the WellTrend dashboard displaying "Explore Community
+    Wellbeing in Washington State."
+  link: https://wellbeing.cloudraven.io/
+  problem_statement:
+  - recFLCXy9eppXYbrL
+  sprint:
+  - recHvWpLtcuFRNCH0
+  tech_team:
+  - recvQwlhXQoLPhSjK
+  tech_team_text: CloudRaven Labs
+  title: WellTrend
+  year:
+  - 2024
 - Product Name: Mayday.ai Realtime Risk and Disaster Intelligence (Resilient USA 2.0)
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recrYhpe8cc4XWUDM
@@ -6480,7 +6476,7 @@
   airtable_createdTime: '2020-02-10T16:02:25.000Z'
   airtable_id: recsnq4JcjmNWR9Iu
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: Centers for Disease Control and Prevention; Aggregated and anonymous
     Fitbit activity data from over 10 million users
   data_sets_text: Centers for Disease Control and Prevention; Aggregated and anonymous
@@ -6510,7 +6506,7 @@
   airtable_createdTime: '2024-01-16T17:13:41.000Z'
   airtable_id: rectM724LX3rIJbTQ
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: 'United States Census Bureau, United States Summary; United States Census
     Bureau, State Profile: Puerto Rico; US Census Bureau: Detailed E-Commerce Statistics
     for Puerto Rico: 2017'
@@ -6610,7 +6606,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: rectkBky9JFCxGisC
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: FDIC; SBA
   data_sets_text: FDIC; SBA
   description: Simplifies the process of obtaining capital for minority entrepreneurs
@@ -6634,7 +6630,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: rectmOAOrnXKByu90
   category:
-  - Entrepreneurship & Small Businesses
+  - Entrepreneurship & Small Business
   data_sets: Census Bureau Small Business Pulse Data; City of Coral Gables data
   data_sets_text: Census Bureau Small Business Pulse Data; City of Coral Gables data
   description: Matches subject matter experts impacted by COVID-19 to opportunities
@@ -6690,7 +6686,7 @@
   airtable_createdTime: '2021-05-10T20:23:44.000Z'
   airtable_id: recuIAVwibAQd6Kai
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards, HUD, CDC/SVI
   data_sets_text: HHS Diagnostic Data & Reporting Standards, HUD, CDC/SVI
   datasets copy: CDC/SVI, HUD, HHS Diagnostic Data & Reporting Standards
@@ -6771,6 +6767,39 @@
   title: GoodNeighUBors
   year:
   - 2023
+- Product Name: Oxen.ai
+  agencies:
+  - U.S. Food and Drug Administration (FDA), U.S. Department of Health and Human Services
+  airtable_createdTime: '2025-08-20T15:30:43.000Z'
+  airtable_id: recvQHMZz18nlSj6j
+  category:
+  - AI
+  - Health & Wellbeing
+  data_sets: CDC/ATSDR Social Vulnerability Index; Access and Use of Telemedicine
+    During COVID-19; COVID-19 Community Vulnerability Crosswalk; COVID-19 Diagnostic
+    Laboratory Testing; COVID-19 Estimated Inpatient Beds Timeseries
+  data_sets_text: CDC/ATSDR Social Vulnerability Index; Access and Use of Telemedicine
+    During COVID-19; COVID-19 Community Vulnerability Crosswalk; COVID-19 Diagnostic
+    Laboratory Testing; COVID-19 Estimated Inpatient Beds Timeseries
+  description: Oxen.ai indexed federal open datasets into its platform in order to
+    show the value of version control for structured and unstructured data for data
+    scientists and engineers interacting with data over time.
+  details: Oxen.ai indexed federal open datasets into its platform in order to show
+    the value of version control for structured and unstructured data for data scientists
+    and engineers interacting with data over time.
+  image: oxen-ai-fda.jpg
+  image-alt: A screenshot of the dashboard displaying repositories using federal data.
+  link: https://www.oxen.ai/fda
+  problem_statement:
+  - recQpqUimWFPHLOBk
+  sprint:
+  - recep6nMtw1pdBu1L
+  tech_team:
+  - rec8RtQymgJ9Hlrb7
+  tech_team_text: Oxen.ai
+  title: Oxen.ai
+  year:
+  - 2023
 - Product Name: Air Aware
   airtable_createdTime: '2021-02-22T16:56:47.000Z'
   airtable_id: recvSPsmrSIP9Qgld
@@ -6798,7 +6827,7 @@
   title: Air Aware
   year:
   - 2020
-- Product Name: GrantVEST
+- Product Name: Earlii (formerly GrantVEST)
   agencies:
   - White House Office of Science and Technology Policy, U.S. Department of Commerce
   - National Institute of Biomedical Imaging and Bioengineering, National Institutes
@@ -6807,6 +6836,7 @@
   airtable_id: recvdwnyN98tUuAAt
   category:
   - Federal Funding
+  - AI
   data_sets: Grants.gov, sam.gov
   data_sets_text: Grants.gov, sam.gov
   description: GrantVEST leverages generative AI to help entrepreneurs and researchers
@@ -6828,7 +6858,7 @@
   tech_team:
   - recin40gHLiWQu9RC
   tech_team_text: GrantVEST
-  title: GrantVEST
+  title: Earlii (formerly GrantVEST)
   year:
   - 2022
   - 2024
@@ -6838,7 +6868,7 @@
   airtable_createdTime: '2021-11-24T19:53:22.000Z'
   airtable_id: recvpwMrDyce7DrZK
   category:
-  - Census
+  - Decennial Census
   data_sets: Census Bureau 2020 Data
   data_sets_text: Census Bureau 2020 Data
   description: Builds data literacy for students by increasing access to Census data
@@ -6907,7 +6937,7 @@
   airtable_id: recw5vMOEO1Z9ixX2
   category:
   - Housing
-  - Health
+  - Health & Wellbeing
   - Transportation
   description: ' Helps researchers and developers rapidly prototype and deploy tools
     that address a variety of problems surrounding access to opportunity'
@@ -6968,7 +6998,7 @@
   airtable_createdTime: '2023-10-30T19:21:34.000Z'
   airtable_id: recwvHyU99JShyZ1Y
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: "CDC\u2019s Social Vulnerability Index and AHRQ Social Determinants of\
     \ Health data sets"
   data_sets_text: "CDC\u2019s Social Vulnerability Index and AHRQ Social Determinants\
@@ -7162,7 +7192,7 @@
   category:
   - Housing
   - Education
-  - Health
+  - Health & Wellbeing
   description: Finds areas of opportunity through geographic visualizations and reports
   details: Finds areas of opportunity through geographic visualizations and reports
   link: no-link
@@ -7281,7 +7311,7 @@
   airtable_createdTime: '2021-05-10T20:37:11.000Z'
   airtable_id: reczEq4h07iXfIonu
   category:
-  - Health
+  - Health & Wellbeing
   data_sets: HHS Diagnostic Data & Reporting Standards
   data_sets_text: HHS Diagnostic Data & Reporting Standards
   datasets copy: HHS Diagnostic Data & Reporting Standards

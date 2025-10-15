@@ -10,7 +10,7 @@
   {{ titleString }}<span class="usa-sr-only"> Datasets</span>
 {% endcapture %}
 
-<li class="usa-card tablet:grid-col-6 desktop:grid-col-4 data-kit__card {% unless kit.upcoming %}data-kit__active{% endunless %}">
+<li id="{{kit-id}}-card"class="usa-card tablet:grid-col-6 desktop:grid-col-4 data-kit__card {% unless kit.upcoming %}data-kit__active{% endunless %}">
   <div
     class="usa-card__container"
     style="background-image: url('{{ kit.image | relative_url }}')">

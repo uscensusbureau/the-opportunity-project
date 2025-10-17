@@ -1,0 +1,15 @@
+{% assign data = include.data %}
+<div class="grid-container padding-x-8 tablet:padding-x-7">
+  <h2 class="text-center font-family-serif text-normal">Featured Past Speakers</h2>
+    <div
+      class="featured-speakers-container grid-row flex-justify-center text-base-darkest flex-align-center flex-row margin-top-4 tablet:margin-top-5 desktop:margin-top-10">
+      {% for speaker in page.speakers %}
+      <div
+        class="featured-speaker-individual tablet:grid-col-3 display-flex flex-column flex-justify-start flex-align-center margin-bottom-3 tablet:margin-bottom-1 tablet:margin-x-0 tablet:padding-x-1">
+        <img src="{{ site.baseurl}}/assets/{{ speaker.img }}" alt="portrait of {{speaker.name}}">
+        <p class="featured-speaker-name margin-x-0 text-center text-bold margin-top-2 desktop:margin-top-3 margin-bottom-1">{{speaker.name}}</p>
+        <p class="featured-speaker-title margin-0 text-center">{{speaker.title}}</p>
+      </div>
+      {% endfor %}
+  </div>
+</div>

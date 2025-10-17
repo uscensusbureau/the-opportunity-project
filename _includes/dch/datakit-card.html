@@ -10,15 +10,15 @@
   {{ titleString }}<span class="usa-sr-only"> Datasets</span>
 {% endcapture %}
 
-<li class="usa-card tablet:grid-col-6 desktop:grid-col-4 data-kit__card {% unless kit.upcoming %}data-kit__active{% endunless %}">
+<li id="{{kit-id}}-card"class="usa-card tablet:grid-col-6 desktop:grid-col-4 data-kit__card {% unless kit.upcoming %}data-kit__active{% endunless %}">
   <div
     class="usa-card__container"
     style="background-image: url('{{ kit.image | relative_url }}')">
 
     {% if kit.upcoming %}
-      <h2 class="z-200 text-no-underline" id="{{kit-id}}">{{ titleText }}</h2>
+      <h2 class="z-200 text-no-underline font-family-serif text-normal text-top-white" id="{{kit-id}}">{{ titleText }}</h2>
     {% else %}
-      <h2 class="z-200" id="{{kit-id}}"><a href="{{ kit-href }}">{{ titleText }}</a></h2>
+      <h2 class="z-200 font-family-serif text-normal text-top-white" id="{{kit-id}}"><a href="{{ kit-href }}">{{ titleText }}</a></h2>
     {% endif %}
     {% include 1px-transparent.html alt=kit.image-alt %}
     <p class="z-200">{{kit.lead}}</p>
@@ -37,16 +37,21 @@
         <img class="data-kit__icon-items" src="{{site.baseurl}}/assets/img/icons/items.svg" alt=""role="img" alt="" aria-hidden="true"/>
         {% assign sprint = site.data.sprints | where: "Name", kit.sprint-name | first %}
         {% assign data = site.data.datasets | where: "sprint", sprint.airtable_id %}
+        
         {% if kit.problem-statement-name == "Analyzing Equity in Federal COVID-19 Spending" %}
-        {% assign data = site.data.treasury_datasets %}
+          {% assign data = site.data.treasury_datasets %}
         {% elsif kit.problem-statement-name == "Developing Community-Informed National-Level Indicators of Well-Being"
         or kit.problem-statement-name == "Transforming Local Addressing Systems in Puerto Rico"
         or kit.problem-statement-name == "Improved Data Access for Local Policymakers"
         or kit.problem-statement-name == "Improving Access to Capital in Indigenous Communities through Data" %}
-        {% assign data = data | where_exp: "item", "item.ps_text == kit.problem-statement-name" %}
+          {% assign data = data | where_exp: "item", "item.ps_text == kit.problem-statement-name" %}
         {% endif %}
-        {% assign data = data | where_exp: "item", "item.link != empty and item.link != nil" %}
+
+
+        {% assign data = data | where_exp: "item", "item.link != empty" %}
+        {% assign data = data | where_exp: "item", "item.link != nil" %}
         {% assign data = data | where_exp: "item", "item.hideFromSite != true" %}
+
         <p class="text-ink">{{ data | size }}<span class="usa-sr-only"> datasets</span></p>
       </div>
     {% endif %}

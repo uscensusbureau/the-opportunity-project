@@ -1,3 +1,18 @@
+- Name: Use data and technology to help improve access to credit and reduce the origination
+    cost of small dollar loans (<$150k) for housing-related needs (e.g., homeownership,
+    renovations, equity drawdown, etc.) in rural communities.
+  airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: rec4qOwUh0OkaeVfO
+- Name: 2025 Sprints
+  Year: 2025
+  airtable_createdTime: '2025-10-01T12:44:12.000Z'
+  airtable_id: rec5JUacyBVelTejV
+  lang: en
+  order-number: 1
+  problem_statements:
+  - recUGjTP2yqdJN57P
+  - recHWt3tPCey0MVDR
+  short-tag: 2025-sprints
 - Name: TOPx COVID-19
   Products:
   - recGjmI3M73IxalNN
@@ -133,7 +148,6 @@
   Products:
   - rec6IPlUZ43zupjsq
   - recfw5fOHUWirNcUW
-  - recNcFdoF6ul5u8lL
   - recRDPcOMSbNsN7Jd
   - recmyZENvMwP8Sdg2
   - recGJGVFnBOVok4dU
@@ -312,7 +326,7 @@
   image-alt: A 3-D topographical wireframe over a blue field
   img: landing/Sprint-Background_05_Geo.jpg
   lang: en
-  order-number: 8
+  order-number: 9
   people:
   - rec53DsfyhctVCmxN
   - recUgSh8GEPverGzB
@@ -358,6 +372,11 @@
   - reconT5UBIg2QcZOz
   - recuPAWpxAVtKM7JF
   short-tag: geo
+- Name: 'Improve the ability of Large Language Models (LLMs) to serve accurate and
+    reliable information involving federal open data, while making this data more
+    easily ingestible by LLMs.  '
+  airtable_createdTime: '2025-10-01T12:45:45.000Z'
+  airtable_id: recGjhBhcW9Qe7KBP
 - Name: 2024 Sprints
   Products:
   - recHd3FNdoaIHtgP7
@@ -379,15 +398,14 @@
   - recJR8h80G1lwBkNr
   - recbIdNXxF18hEbNo
   - recRuxTB2qI4xqv3o
+  - recqu50YHXByd834r
   Year: 2024
   airtable_createdTime: '2024-04-19T15:52:31.000Z'
   airtable_id: recHvWpLtcuFRNCH0
-  description: TOP's 2024 sprints include challenges from new and ongoing partners,
-    as well as the first set of TOP sprints dedicated to Indigenous communities.
   image-alt: A collaged image from the Census Bureau microfiche record archives.
   img: landing/2024-top-problem-statement-graphic.jpg
   lang: en
-  order-number: 1
+  order-number: 2
   problem_statements:
   - reccG62UBvl9xkpAv
   - recFLCXy9eppXYbrL
@@ -463,28 +481,18 @@
   - recfNwVyLKJdA1ayu
   - recNbq7W9DPgG2a80
   - recLMpSjnojlhbSRN
-  description: "Since the onset of the COVID-19 pandemic, our economy and social systems\
-    \ have been tested in ways we\u2019ve never seen before. Businesses were forced\
-    \ to respond rapidly to a digital economy, social support systems faced greater\
-    \ needs than ever, and even the way we go about daily work and life activities\
-    \ changed dramatically. At the same time, the ways in which human activities affect\
-    \ the planet may shift as we prepare for life after the COVID-19 pandemic. \n\n\
-    Following our 2020 Earth sprints focused on the natural and built environment,\
-    \ TOP\u2019s 2021 sprints focused on a world post-COVID including society, economy,\
-    \ and environment.  Technologists, community and advocacy organizations, and government\
-    \ leaders developed digital products to tackle seven challenges related to preventing\
-    \ economic and climate crisis for the most vulnerable communities, shaping the\
-    \ future of business, and redefining infrastructure, inclusion, and accessibility\
-    \ in the world post-COVID."
+  description: "TOP\u2019s 2021 sprints focused on a world post-COVID including society,\
+    \ economy, and environment. Technologists, community and advocacy organizations,\
+    \ and government leaders developed digital products to tackle seven challenges\
+    \ related to preventing economic and climate crisis for the most vulnerable communities,\
+    \ shaping the future of business, and redefining infrastructure."
   image-alt: The Earth as seen from space with a sky full of stars
   img: landing/Post-COVID.jpg
   lang: en
-  order-number: 6
+  order-number: 7
   problem_statements:
   - recRVUitwXLxxoCqE
-  - recA3nfuASaLwUOw8
   - recEceI5ivt5UyQAk
-  - recsnW2qXubKd3fOQ
   - recr11uYYwwMuFJuM
   - recW2d2ujlZc9mkHm
   - recdndoAoqvRxqkVy
@@ -506,6 +514,7 @@
   - rec876BatpBWaqULd
   Tech Team Companies:
   - recnetIizWONIOgG9
+  - reco8SlTqN3UExT1C
   Year: 2023
   airtable_createdTime: '2023-03-09T18:57:38.000Z'
   airtable_id: recJCMqCOXHi6AEqT
@@ -526,7 +535,7 @@
   image-alt: An abstract illustration including light blue forms on a dark blue background.
   img: landing/2023-fda-diagnostic.jpg
   lang: en
-  order-number: 4
+  order-number: 5
   problem_statements:
   - recSBFthHVr819HWH
   - recDPBxKJGNRgAHlu
@@ -604,31 +613,19 @@
   - recfNwVyLKJdA1ayu
   - recNbq7W9DPgG2a80
   - recLMpSjnojlhbSRN
-  description: "Durante el \xFAltimo a\xF1o, nuestros sistemas econ\xF3mico y social\
-    \ fueron puestos a prueba de maneras que nunca antes hab\xEDamos visto. Las empresas\
-    \ se vieron forzadas a responder r\xE1pidamente a una econom\xEDa digital, los\
-    \ sistemas de apoyo social enfrentaron necesidades mayores que las del pasado,\
-    \ y hasta el modo en que realizamos nuestro trabajo diario y nuestras actividades\
-    \ habituales cambi\xF3 dr\xE1sticamente. Al mismo tiempo, las formas en las que\
-    \ las actividades humanas afectan el planeta pueden cambiar a medida que salgamos\
-    \ de la pandemia de COVID-19.\n\nDespu\xE9s de nuestros _sprints_ del 2020 sobre\
-    \ la Tierra, que estaban enfocados en el medio ambiente natural y el artificial,\
-    \ los _sprints_ de TOP del 2021 se enfocan en el mundo pos-COVID: la sociedad,\
-    \ la econom\xEDa y el medio ambiente. Los tecn\xF3logos, las organizaciones comunitarias\
-    \ y de defensa y los l\xEDderes gubernamentales desarrollar\xE1n productos digitales\
-    \ para enfrentar 7 desaf\xEDos relacionados con la prevenci\xF3n de crisis econ\xF3\
-    micas y clim\xE1ticas en las comunidades m\xE1s vulnerables. Esto le dar\xE1 forma\
-    \ al futuro de los negocios y redefinir\xE1 la infraestructura, la inclusi\xF3\
-    n y la accesibilidad en el mundo pos-COVID."
+  description: "Los _sprints_ de TOP del 2021 se enfocan en el mundo pos-COVID: la\
+    \ sociedad, la econom\xEDa y el medio ambiente. Los tecn\xF3logos, las organizaciones\
+    \ comunitarias y de defensa y los l\xEDderes gubernamentales desarrollar\xE1n\
+    \ productos digitales para enfrentar 7 desaf\xEDos relacionados con la prevenci\xF3\
+    n de crisis econ\xF3micas y clim\xE1ticas en las comunidades m\xE1s vulnerables.\
+    \ Esto le dar\xE1 forma al futuro de los negocios y redefinir\xE1 la infraestructura."
   image-alt: La Tierra vista desde el espacio con un cielo lleno de estrellas
   img: landing/Post-COVID.jpg
   lang: esp
-  order-number: 5
+  order-number: 6
   problem_statements:
   - recRVUitwXLxxoCqE
-  - recA3nfuASaLwUOw8
   - recEceI5ivt5UyQAk
-  - recsnW2qXubKd3fOQ
   - recr11uYYwwMuFJuM
   - recW2d2ujlZc9mkHm
   - recdndoAoqvRxqkVy
@@ -642,9 +639,9 @@
   description: "This year\u2019s sprints offer opportunities to help new audiences\
     \ access and use data, provide the public with more timely and accurate data through\
     \ government-tech collaboration, and support critical challenges in Puerto Rico.\n\
-    \nThis year\u2019s fall 2022 sprints focus on transit infrastructure and climate\
-    \ change, parental engagement opportunities for Puerto Rico schools, and workforce\
-    \ development in Puerto Rico."
+    \nThis year\u2019s fall 2022 sprints focus on transit infrastructure, parental\
+    \ engagement opportunities for Puerto Rico schools, and workforce development\
+    \ in Puerto Rico."
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
@@ -779,36 +776,23 @@
   - recoIQcx6OisWSpu6
   - rec1Cjf1WRwwlqrjn
   - recAMcEe5OwoiCCrs
-  description: "Natural environment: As stewards of our planet, we must work to limit\
-    \ our negative impacts on earth. Unfortunately, the public is often unaware of\
-    \ how their own decisions and actions affect the planet. In this sprint, tech\
-    \ teams including SAP, Esri, Code for America, OpenAQ, and others developed digital\
-    \ products to address a variety of natural environment challenges. These included\
-    \ tools to help the public understand the air quality and health effects of transportation\
-    \ emissions, as well as products to reduce ocean plastic pollution, strengthen\
-    \ recycling markets, and help farmers make decisions using aerial imagery data.\n\
-    \nBuilt environment: Our human-made environments require support and sustainment\
-    \ to ensure their longevity and inclusivity. Tech teams including Emsi, Center\
+  description: "Built environment: In this sprint, tech teams including Emsi, Center\
     \ on Rural Innovation, Julius Education, and others developed digital products\
-    \ aimed at improving the country\u2019s built environment. These included tools\
-    \ to connect low income families with resources to equip and empower them toward\
-    \ self-sufficiency; assistance for rural communities in implementing and evaluating\
-    \ solutions to economic, environmental, and human health challenges; products\
-    \ to connect recently resettled refugees with resources and services; and tools\
-    \ that track federal disaster response spending."
+    \ aimed at improving the country\u2019s built environment. \n\nNatural environment:\
+    \ In this sprint, tech teams including SAP, Esri, Code for America, OpenAQ, and\
+    \ others developed digital products to address a variety of natural environment\
+    \ challenges."
   image-alt: Waves crashing into a cliff as seen from above
   img: landing/Sprint-Background_02_Natural.jpg
   lang: en
-  order-number: 7
+  order-number: 8
   problem_statements:
   - rectuEdl5hMJHyu3T
   - rec2O683toRtuO4Ey
   - recfYBaZBy9N5kMwc
   - rechwML2LymxPtToN
   - recrXc5EDuHumanXl
-  - rec27vLYrWORAJyQn
   - recMKt89rUwO7l5VP
-  - rec5Tsj3ELra0kwiF
   short-tag: earth
 - Name: 2020 Census Data
   Products:
@@ -947,18 +931,6 @@
   airtable_createdTime: '2020-02-21T18:27:18.000Z'
   airtable_id: receo1r4Tva3sDpPI
   lang: en
-  problem_statements:
-  - reclVsRIccDmcRnr0
-  - reclE5lof4ZQyx7Hi
-  - recvrDs3VhrdS3IDG
-  - rec0hb8kwXPfY26YY
-  - rec5AcJUvAG75vaRw
-  - recA8i9B5Zx0bEqZn
-  - rec5AFdZpa2jr56AN
-  - recwzfA7vUDiS48Mj
-  - recqYLwNKlEqrUGOk
-  - rec7qkDzgElJw71qp
-  - rec1DnmQSbVGfvwGG
   short-tag: 2016-2
 - Name: 2023 Sprints
   Products:
@@ -994,6 +966,7 @@
   - recum0JqFwimW4WRH
   - recnQhPghLaIJuclP
   - rectM724LX3rIJbTQ
+  - recvQHMZz18nlSj6j
   Year: 2023
   airtable_createdTime: '2023-06-13T13:18:25.000Z'
   airtable_id: recep6nMtw1pdBu1L
@@ -1039,12 +1012,10 @@
   - recF35AftftDEJr9J
   - recrAJdOGmvMfrihb
   - recHyJkc8wqmpXqb3
-  description: Some of the 2023 TOP sprints focus on the theme of financial and economic
-    inclusion.
   image-alt: An illustrative photo collage of two hands shaking and a city skyline.
   img: landing/2023-summer-background.jpg
   lang: en
-  order-number: 2
+  order-number: 3
   problem_statements:
   - recOlp3gojpNoxLL0
   - recK4W3TydSa0Gkpf
@@ -1158,19 +1129,11 @@
   - rec5HuCO7oaqkqQHa
   - recwvOMewBtX9eaVK
   - rec3gRvEFrkuMr4Hk
-  description: "2022 sprints focused on measuring wellbeing across the nation, expanding\
-    \ access to grant funding for low-resourced communities, promoting climate resilience,\
-    \ and connecting transit infrastructure to climate resilience. 2022 also introduced\
-    \ TOP\u2019s first geographically-targeted sprints \u2013 TOP Puerto Rico \u2013\
-    \ focusing on renewable energy, local address challenges, promoting youth resilience,\
-    \ parental engagement opportunities in Puerto Rico schools, and workforce development\
-    \ in Puerto Rico."
   image-alt: A bitmapped image of waves
   img: landing/2022-TOP-background.jpg
   lang: en
-  order-number: 3
+  order-number: 4
   problem_statements:
-  - recBl2peaCWfRFzhh
   - rectZGkFVKiSTsl3N
   - rec3N8sP8Z6iwJUp2
   - rec1BypusXdWt38bg
@@ -1178,7 +1141,6 @@
   - rechjwuKCcM57GRZX
   - recuDiAGCUVQ4BReV
   - reciuHRtdZb7Qiknr
-  - recKtDMHZmcduSywO
   short-tag: 2022-sprints
 - Name: TOP Health
   Products:
@@ -1352,7 +1314,7 @@
   image-alt: Abstract pattern of blue and red light streaks
   img: landing/Sprint-Background_04_Workforce.jpg
   lang: en
-  order-number: 9
+  order-number: 10
   people:
   - rec6yv2YVmUjsnxlw
   - reciHebdvnFg0L8Bj
@@ -1592,12 +1554,10 @@
   - recJzHLb0XZOEs4kv
   - recxmBo9nILi7dErF
   - recmn2sLIkqdzO2C7
-  problem_statements:
-  - recrWiHRnNA2x6Ebg
-  - receI2b86NTLrPrMp
-  - recMt9g6gLlrIz3Jo
-  - rec24ta98ogx6GGPu
   short-tag: 20cen
 - Name: Economic Development Administration
   airtable_createdTime: '2023-07-25T21:05:53.000Z'
   airtable_id: recvs0RUjbYsu1bMi
+- Name: Rob Schaper
+  airtable_createdTime: '2025-08-20T15:27:24.000Z'
+  airtable_id: reczwjO6WwJUtbJen

@@ -3,8 +3,8 @@ title: FAQs
 permalink: /faqs/
 layout: default
 name: faqs
+class: faqs
 
-background: banner-background
 hero:
   text: FAQs
   subtext: Answers to the questions we hear most frequently.
@@ -45,7 +45,7 @@ resources:
     description: |-
       These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
 
-    color: blue-warm-60v
+    color: top-green
     terms:
       - link: https://www.youtube.com/watch?v=0CHRd6YSXKA
         num: 1
@@ -71,7 +71,7 @@ resources:
   - category: "Revised Questions & Answers (pulled from current FAQ page)"
     description: |-
       These terms are borrowed from the design community. Click the term for additional resources and the source of each definition. Below are some key terms that are referenced in the toolkit:
-    color: base-darkest
+    color: top-blue
     terms:
       - link:
         num: 6
@@ -84,7 +84,7 @@ resources:
       - link:
         num: 7
         term: Who runs The Opportunity Project?
-        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau. Learn more about [COIL](http://coil.census.gov).
+        definition: The Opportunity Project is a program of the Census Open Innovation Labs (a.k.a. ‘COIL’) at the U.S. Census Bureau. Learn more about [COIL](https://coil.census.gov).
       - link:
         num: 8
         term: How long has TOP been around?
@@ -131,16 +131,16 @@ resources:
 {% include hero.html %}
 <!-- video section -->
 {% assign section = page.phase-info-video %}
-<section class="video-section bg-gray-10 padding-top-8">
-  <h2 class="text-center">{{page.phase-info-video.title.text}}</h2>
+<section class="video-section bg-top-white padding-top-8">
+  <h2 class="font-family-serif text-center text-normal">{{page.phase-info-video.title.text}}</h2>
   <div class="iframe-content">
     <iframe width="640" height="360" src="https://www.youtube.com/embed/0CHRd6YSXKA" class="border-0"
       title="#ASKTOP: Does it Cost Money to Partner with TOP?" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
 
-      <div class="bg-white text-black">
-      <h3>{{page.phase-info-video.blurb.title}}</h3>
+      <div class="bg-top-white text-top-black border-top-dashed">
+      <h3 class="font-family-serif text-normal">{{page.phase-info-video.blurb.title}}</h3>
 
       {% if page.phase-info-video %}
       <ul class="add-list-reset">

@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign data=site.data.sprints | where: 'short-tag', page.short-name %}
 {% assign sprint = data[ 0 ] %}
-{% assign problems = site.data.problem_statements | sort:'sprint_order' | where: 'Sprints', sprint.airtable_id %}
+{% assign problems = site.data.problem_statements | where: 'Sprints', sprint.airtable_id | sort: "Name", "first" %}
 
 {% include hero.html %}
 {% include nav/sprints-nav.html %}
@@ -11,7 +11,12 @@ layout: default
 
 {% for statement in problems %}
   {% assign prodId = statement.featured_product[ 0 ] %}
-  {% assign product = site.data.products | where: 'airtable_id', prodId | first %}
+
+  {% assign product = nil %}
+  {% if prodId %}
+    {% assign product = site.data.products | where: 'airtable_id', prodId | first %}
+  {% endif %}
+
   {% assign showMore = false %}
   {% if forloop.index0 == 1 or page.expandAllProblemStatements == true %}
     {% assign showMore = true %}

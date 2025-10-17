@@ -1,6 +1,6 @@
 ---
 short-name: 2024-sprints
-order: 0
+order: 1
 expandAllProblemStatements: true
 isCurrent: false
 showPDF: true

@@ -11,12 +11,12 @@
     {% else %}
       <div class="usa-logo site-logo logo-image-mobile" id="logo-mobile">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span>{% include image.html src="top-logo-mobile.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile" %}</span>
+          <span>{% include image.html src="top-refresh-logo-final.png" alt="The Opportunity Project Logo" class="logo-image logo-image-mobile" %}</span>
         </a>
       </div>
       <div class="usa-logo site-logo logo-image-desktop margin-left-2 margin-right-5" id="logo">
         <a class="margin-right-05" href="{{ site.baseurl }}/" title="Home" aria-label="{{ site.title }} home">
-          <span>{% include image.html src="TOP-logo.png" alt="The Opportunity Project Logo" class="logo-image padding-top-105" %}</span>
+          <span>{% include image.html src="top-refresh-logo-final.png" alt="The Opportunity Project Logo" class="logo-image padding-top-105" %}</span>
         </a>
       </div>
     {% endif %}
@@ -28,18 +28,18 @@
           {% for link in links %}
             {% if link.accordion %}
               {% assign itemName = link.text | remove: " " %}
-              <li class="usa-nav__primary-item">
-                <button class="usa-accordion__button usa-nav__link  usa-current font-sans-xs text-ls-2 text-light text-white"
+              <li class="font-family-serif usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link  usa-current font-serif-sm text-ls-2 text-light"
                   aria-expanded="false"
                   aria-controls="extended-nav-section-{{itemName}}">
                   <span>{{ link.text }}</span></button>
-                <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu" hidden>
+                <ul id="extended-nav-section-{{itemName}}" class="usa-nav__submenu background-color-white" hidden>
                   {% for subnav in link.accordion %}
                     <li class="usa-nav__submenu-item">
                       {% if subnav.accordion %}
                         <
                       {% else %}
-                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-sans-xs text-white">{{ subnav.text }}</a>
+                        <a href="{{ site.baseurl }}/{{subnav.href}}" class="font-sans-xs">{{ subnav.text }}</a>
                       {% endif %}
                     </li>
                   {% endfor %}
@@ -47,7 +47,7 @@
               </li>
             {% else %}
               <li class="usa-nav__primary-item">
-                <a class="usa-nav__link font-sans-xs text-ls-2 text-light text-white" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
+                <a class="usa-nav__link font-serif-sm text-ls-2 text-light" href="{{ site.baseurl }}/{{ link.href }}"><span>{{ link.text }}</span></a>
               </li>
             {% endif %}
           {% endfor %}
@@ -67,7 +67,7 @@
   </button>
 
   <div class="usa-nav__inner">
-    <ul class="usa-nav__primary usa-accordion">
+    <ul class="usa-nav__primary usa-accordion font-family-serif">
       {% include nav/sections.html sections=site.data.nav.primary %}
     </ul>
   </div>

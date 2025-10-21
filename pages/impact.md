@@ -185,12 +185,11 @@ profiles:
   {% include impact/subnav.html %}
   <nav id="subnav" class="tablet:display-none">
     <div class="nav-content-container">
-      <a href="{{site.baseurl}}/impact#team-intro">Note From the Team</a>
-      <a href="{{site.baseurl}}/impact#years">Through the Years</a>
-      <a href="{{site.baseurl}}/impact#impact-numbers">By the Numbers</a>
-      <a href="{{site.baseurl}}/impact#sucess">Success Stories</a>
-      <a href="{{site.baseurl}}/impact#broader-impact">Broader Impact</a>
-      <a href="{{site.baseurl}}/impact#report-download">Report Download</a>
+      <a href="{{site.baseurl}}/impact#team-intro">Note</a>
+      <a href="{{site.baseurl}}/impact#years">Timeline</a>
+      <a href="{{site.baseurl}}/impact#impact-numbers">Numbers</a>
+      <a href="{{site.baseurl}}/impact#products">Products</a>
+      <a href="{{site.baseurl}}/impact#report-download">Download</a>
     </div>
   </nav>
   <h2>Note from the Team</h2>

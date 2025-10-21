@@ -2064,7 +2064,8 @@ main {
 
   h2 {
       font-size: 14px;
-
+      font-family: font-family("serif");
+      font-weight: 400;
       @include at-media('tablet') {
         font-size: 20px;
         line-height: 20px;
@@ -2212,23 +2213,24 @@ main {
   .grid-background {
     background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
       background-size: cover;
-      background-color: #fff9eaff;
+      background-color: $bg-top-white;
       .nav-content-container {
-        background-color: #fff9eaff;
+        background-color: $bg-top-white;
       }
 
       h2 {
-        color: white;
-        background: #DE4317;
+        color: $text-top-black;
+        background: $bg-top-lblue;
         width: fit-content;
         padding: 24px 20px;
-        box-shadow: -4px 4px 2px 1px #7A1B00;
+        border: $text-top-black dashed 1px;
       }
   }
   .shadow-box {
-    background-color: white;
-    border: black solid .6px;
-    box-shadow: 12px 12px 2px 1px #13192F;
+    background-color: $bg-top-white;
+    border: $text-top-black dashed 1px;
+    box-shadow: 12px 12px 2px 1px $text-top-black;
+    border-radius: 2%;
   }
 
   .nav-content-container {
@@ -2272,27 +2274,23 @@ main {
     }
   }
 
-  .success {
-    background: color('base-darkest');
-    color: white;
+  .products {
+    background: $bg-top-lblue;
+    color: $text-top-black;
     .nav-content-container {
-        border-color: white;
+        border-color: $text-top-black;
 
         a {
-          color: white;
+          color: $text-top-black;
         }
       }
       .individual-info {
         padding-top: 112px;
       }
-      .blurb-container {
-        border: 1px white solid;
-        padding: 26px;
-      }
   }
 
   .years {
-    color: white;
+    color: $text-top-white;
     .year-counter-container{
       background: #014280;
       .nav-content-container {
@@ -2303,10 +2301,18 @@ main {
       }
     }
     .year-timeline-container {
-      background: color('base-darkest');
+      background: $bg-top-lblue;
+      color: $text-top-black;
     }
     .individual-info {
       padding-top: 112px;
+
+      .info-content {
+        h3, .subtitle {
+          font-family: font-family("serif");
+          font-weight: 400;
+        }
+      }
     }
   }
 
@@ -2317,18 +2323,18 @@ main {
   }
 
   .report-download {
-    background: #014280;
-    color: white;
+    background: $bg-top-lblue;
+    color: $text-top-black;
     .nav-content-container {
-        border-color: white;
+        border-color: $text-top-black;
 
         a {
-          color: white;
+          color: $text-top-black;
         }
       }
 
     .individual-info-container p {
-      border: 1px white solid;
+      // border: 1px white solid;
       padding: 30px;
     }
   }

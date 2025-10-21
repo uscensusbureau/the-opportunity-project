@@ -2058,9 +2058,40 @@ main {
  }
 }
 
-// Press page ----------------- //
-.page-press {
-  h1.usa-hero__title {
+// Impact page ----------------- //
+.page-impact {
+  scroll-behavior: smooth;
+
+  h2 {
+      font-size: 14px;
+      font-family: font-family("serif");
+      font-weight: 400;
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+
+    h3 {
+      font-size: 12px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 14px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .info-content h3 {
       font-size: 14px;
 
       @include at-media('tablet') {
@@ -2073,7 +2104,242 @@ main {
         line-height: 32px;
       }
     }
+
+    p,
+    .content-container a.usa-button {
+      font-size: 12px;
+      line-height: 17px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+
+    .nav-content-container a {
+      font-size: 7px;
+      line-height: 9px;
+
+    @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+  .interior-hero {
+    padding-bottom: 60px;
+    background-size: cover;
+
+    @include at-media("desktop") {
+      background-size: cover;
+      padding: 117px 0 124px;
+    }
+  }
+
+  .usa-hero__bg {
+    width: 200px;
+    min-height: 114px;
+    background-color: #121923;
+
+    @include at-media('tablet') {
+      width: 343px;
+    }
+
+    @include at-media('desktop') {
+      width: 571px;
+    }
+
+    h1.usa-hero__title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      padding-top: 25px;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 30px;
+      }
+    }
+
+    div.usa-hero__subtitle {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 30px;
+      }
+
+      p {
+        margin: 8px 0 0px;
+
+        @include at-media('desktop') {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  div.content-container, .shadow-box {
+      padding: 52.64px 30.08px;
+
+      @include at-media('tablet') {
+        padding: 52.64px 67.68px;
+      }
+
+      @include at-media('desktop') {
+        padding: 112px 127.5px;
+      }
+    }
+  .grid-background {
+    background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
+      background-size: cover;
+      background-color: $bg-top-white;
+      .nav-content-container {
+        background-color: $bg-top-white;
+      }
+
+      h2 {
+        color: $text-top-black;
+        background: $bg-top-lblue;
+        width: fit-content;
+        padding: 24px 20px;
+        border: $text-top-black dashed 1px;
+      }
+  }
+  .shadow-box {
+    background-color: $bg-top-white;
+    border: $text-top-black dashed 1px;
+    box-shadow: 12px 12px 2px 1px $text-top-black;
+    border-radius: 2%;
+  }
+
+  .nav-content-container {
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    border: .5px black solid;
+    border-radius: 200px;
+
+    a {
+      color: black;
+      :active {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .impact-numbers div.content-container {
+
+    @include at-media("tablet") {
+      display: grid;
+
+    }
+  }
+
+  .individual-info {
+    // background-color: red;
+
+    .info-img-container {
+        width: fit-content;
+      }
+    .info-content {
+      width: 125%;
+    }
+    @include at-media("tablet") {
+      display: flex;
+
+      &.inverted {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  .products {
+    background: $bg-top-lblue;
+    color: $text-top-black;
+    .nav-content-container {
+        border-color: $text-top-black;
+
+        a {
+          color: $text-top-black;
+        }
+      }
+      .individual-info {
+        padding-top: 112px;
+      }
+  }
+
+  .years {
+    color: $text-top-white;
+    .year-counter-container{
+      background: #014280;
+      .nav-content-container {
+        border-color: white;
+        a {
+            color: white;
+        }
+      }
+    }
+    .year-timeline-container {
+      background: $bg-top-lblue;
+      color: $text-top-black;
+    }
+    .individual-info {
+      padding-top: 112px;
+
+      .info-content {
+        h3, .subtitle {
+          font-family: font-family("serif");
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .broader-impact {
+    .individual-info {
+        padding-top: 112px;
+      }
+  }
+
+  .report-download {
+    background: $bg-top-lblue;
+    color: $text-top-black;
+    .nav-content-container {
+        border-color: $text-top-black;
+
+        a {
+          color: $text-top-black;
+        }
+      }
+
+    .individual-info-container p {
+      // border: 1px white solid;
+      padding: 30px;
+    }
+  }
 }
+
 
 // TOOLKITS ----------------- //
 

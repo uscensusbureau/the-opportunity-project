@@ -58,6 +58,8 @@
   organizations:
   - recyYK7Ezm00JSEPC
   treasury_datasets: American Community Survey
+  treasury_datasets 2:
+  - recTylJfHQD2lODe1
 - Role: Data Steward
   Sprint:
   - rectpInJ8wiI8iFVg
@@ -609,6 +611,8 @@
   organizations:
   - recyYK7Ezm00JSEPC
   treasury_datasets: '"COVID-19 Household Pulse Survey, U.S. Census Bureau"'
+  treasury_datasets 2:
+  - recudxZ2DD9yhQHJZ
 - Role: Census Expert
   airtable_createdTime: '2025-01-10T16:35:34.000Z'
   airtable_id: recFr8RmR5VBYmzi0
@@ -1380,6 +1384,8 @@
   organizations:
   - recyYK7Ezm00JSEPC
   treasury_datasets: '"COVID-19 Household Pulse Survey, U.S. Census Bureau"'
+  treasury_datasets 2:
+  - recudxZ2DD9yhQHJZ
 - Role: Data Steward
   Sprint:
   - rectpInJ8wiI8iFVg
@@ -1735,6 +1741,9 @@
   - recyYK7Ezm00JSEPC
   treasury_datasets: "\"COVID-19 Data Hub \u2013 Data Equity, U.S. Census Bureau \"\
     ,Annual Business Survey"
+  treasury_datasets 2:
+  - reckmeTtRnmzDa5fN
+  - recGmgB2izU1FgKnZ
 - Role: Data Steward
   airtable_createdTime: '2025-01-10T16:35:34.000Z'
   airtable_id: recind1OzXnnBU8TR
@@ -2080,6 +2089,8 @@
   organizations:
   - reckfO8zFNf8hS7Dz
   treasury_datasets: Social Vulnerability Index
+  treasury_datasets 2:
+  - rec6aZMqTHB6SZVzY
 - Role: Census Expert
   Sprint:
   - recukKC4tJpTJtQCA

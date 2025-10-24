@@ -896,6 +896,10 @@ main {
 // datakit hub
 
 .data-kit {
+  #disaster-preparedness-card {
+    display: none;
+  }
+
   @include at-media("mobile") {
     padding: 0 5rem;
     margin-bottom: -1rem;
@@ -1236,10 +1240,10 @@ main {
 .dch-checkbox {
   background-color: transparent;
   label {
-    color: white;
+    color: $text-top-black;
     &::before {
       background-color: transparent;
-      box-shadow: 0 0 0 2px color('white');
+      box-shadow: 0 0 0 2px $text-top-black !important;
 
     }
   }

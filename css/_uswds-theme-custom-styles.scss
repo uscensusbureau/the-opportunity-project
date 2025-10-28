@@ -1496,7 +1496,8 @@ main {
 .page-showcase,
 .page-sprints,
 .page-sprint-process,
-.page-summit  {
+.page-summit,
+.page-impact  {
   .interior-hero {
     padding-bottom: 60px;
 
@@ -2131,73 +2132,6 @@ main {
       }
     }
 
-  .interior-hero {
-    padding-bottom: 60px;
-    background-size: cover;
-
-    @include at-media("desktop") {
-      background-size: cover;
-      padding: 117px 0 124px;
-    }
-  }
-
-  .usa-hero__bg {
-    width: 200px;
-    min-height: 114px;
-    background-color: #121923;
-
-    @include at-media('tablet') {
-      width: 343px;
-    }
-
-    @include at-media('desktop') {
-      width: 571px;
-    }
-
-    h1.usa-hero__title {
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      padding-top: 25px;
-
-      @include at-media('tablet') {
-        font-size: 20px;
-        line-height: 20px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-        padding-top: 30px;
-      }
-    }
-
-    div.usa-hero__subtitle {
-      font-size: 12px;
-      line-height: 17px;
-      margin-bottom: 0;
-      padding-bottom: 16px;
-
-      @include at-media('tablet') {
-        font-size: 14px;
-        line-height: 17px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-        padding-bottom: 30px;
-      }
-
-      p {
-        margin: 8px 0 0px;
-
-        @include at-media('desktop') {
-          margin-top: 20px;
-        }
-      }
-    }
-  }
 
   div.content-container, .shadow-box {
       padding: 52.64px 30.08px;
@@ -2211,8 +2145,8 @@ main {
       }
     }
   .grid-background {
-    background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") no-repeat 0 0;
-      background-size: cover;
+    background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") repeat 0 0;
+      background-size: contain;
       background-color: $bg-top-white;
       .nav-content-container {
         background-color: $bg-top-white;
@@ -2229,7 +2163,7 @@ main {
   .shadow-box {
     background-color: $bg-top-white;
     border: $text-top-black dashed 1px;
-    box-shadow: 12px 12px 2px 1px $text-top-black;
+    box-shadow: 12px 12px 0px 1px $text-top-black;
     border-radius: 2%;
   }
 

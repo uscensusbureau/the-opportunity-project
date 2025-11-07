@@ -2182,6 +2182,13 @@ main {
     }
   }
 
+  .quote-container {
+    .info-content {
+      border: $border-top-dashed;
+      border-radius: 2%;
+    }
+  }
+
   .impact-numbers div.content-container {
 
     @include at-media("tablet") {
@@ -2230,6 +2237,21 @@ main {
       }
       .individual-info {
         padding-top: 112px;
+        display: flex;
+        align-items: center;
+
+        h3 {
+          font-family: font-family("serif");
+          font-weight: normal;
+        }
+      }
+
+      .quote-container .info-content {
+        background-color: $bg-top-white;
+      }
+
+      .info-content p a {
+        color: $text-top-black;
       }
   }
 

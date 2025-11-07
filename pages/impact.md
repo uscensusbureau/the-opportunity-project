@@ -204,6 +204,13 @@ download-quote:
   </div>
 </section>
 
+<section class="quote">
+  <div class="quote-container grid-container">
+    {% assign section = page.note-quote %}
+      {% include impact/profile.html data=section %}
+  </div>
+</section>
+
 <section id="years" class="years">
   <div class="year-counter-container">
   <div class="grid-container content-container">
@@ -234,16 +241,26 @@ download-quote:
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
     <h2>Product Innovation in Action</h2>
+    <div class="quote-container">
+      {% assign section = page.products-quote %}
+      {% include impact/profile.html data=section %}
+    </div>
     <div class="blurb-container">
       <p>TOP has been instrumental in the development of many new tools that serve the public. Here are just a few notable outcomes:</p>
     </div>
-  <!-- <div class="profiles-container">
+  <div class="products-container">
     {% assign section = page.companies %}
     {% include impact/profile.html data=section %}
-  </div> -->
+  </div>
   </div>
 </section>
 
+<section class="quote">
+  <div class="quote-container grid-container">
+    {% assign section = page.download-quote %}
+    {% include impact/profile.html data=section %}
+  </div>
+</section>
 
 <section id="report-download" class="report-download">
   <div class="content-container grid-container">

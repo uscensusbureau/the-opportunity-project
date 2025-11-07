@@ -10,6 +10,15 @@ hero:
   text: Impact
   subtext: Learn about The Opportunity Project’s impact on industry, government, and communities nationwide.
 
+#note section
+note-quote:
+  - title: Suzette Kent
+    subtitle: Former Federal Chief Information Officer
+    blurb: “The Opportunity Project is an example of the things we should aspire to do on behalf of our citizens — because it represents a combination of deep and passionate experts from agencies, and collaboration from federal, state, local, Tribal [governments], our industry partners, academia, advocacy groups, and others to solve problems in ways that are challenging and more innovative ... The Opportunity Project is one of the most important accelerators in federal government.”
+    img:
+      src: /assets/img/impact-page/headshots/desktop-kent-headshot.png
+      alt: smiling headshot
+
 #years section
 years:
   - title: 2009
@@ -102,83 +111,77 @@ impact_numbers:
   - number: 450+
     title: Datasets
     blurb: leveraged by industry teams and improved through end user feedback
-  - number: XXX
-    title: Users
-    blurb: of federal data through TOP products
+  - number: 2 Million+
+    title: New Users
+    blurb: of federal data based on reported data from tech teams
+    class: small
 
-#sucess stories section
+#products section
+products-quote:
+  - title: Jack Dangermond
+    subtitle: President and Founder, Esri
+    class: inverted
+    blurb: “The world today is all about analytics, and the U.S. Census Bureau provides systematic and science-based information about the demographic profile of Americans. Census [Bureau] data is, in many ways, the lifeblood of these kinds of organizations.”
+    img:
+      src: /assets/img/impact-page/headshots/desktop-dangermond-headshot.png
+      alt: smiling headshot
+
 companies:
   - title: Opioids Analysis Insights
-    blurb: Esri developed the Opioids Analysis Insights prototype — an interactive, data-driven approach to support public health, public safety, law enforcement, and community partners in addressing the opioid epidemic.
+    blurb: Esri developed the [Opioids Analysis Insights](https://urbanobservatory.maps.arcgis.com/apps/Cascade/index.html?appid=f86499d99e4340b68229eaccfb02b29f) prototype — an interactive, data-driven approach to support public health, public safety, law enforcement, and community partners in addressing the opioid epidemic.
+    class: inverted
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-1.png
+      src: /assets/img/impact-page/logos/desktop-products-esri.png
       alt: company logo
   - title: City Builder
-    blurb: Developed by Citi Ventures, City Builder by Citi is a free, data-driven platform designed to help investors, developers, municipalities, and community members make impactful, place-based investments.
-    class: inverted
+    blurb: Developed by Citi Ventures, [City Builder](https://www.citi.com/ventures/city-builder.html) by Citi is a free, data-driven platform designed to help investors, developers, municipalities, and community members make impactful, place-based investments.
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-2.png
+      src: /assets/img/impact-page/logos/desktop-products-citi-ventures.png
       alt: company logo
   - title: City Health Dashboard
-    blurb: Built by the NYU Health Dashboard Initiatives Team, City Health Dashboard offers data on over 45 measures of health and drivers of health for over 1,200 cities across the U.S.
+    blurb: Built by the NYU Health Dashboard Initiatives Team, [City Health Dashboard](https://www.cityhealthdashboard.com/) offers data on over 45 measures of health and drivers of health for over 1,200 cities across the U.S.
+    class: inverted
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-3.png
+      src: /assets/img/impact-page/logos/desktop-products-city-health-dashboard.png
       alt: company logo
   - title: Sidekick
-    blurb: Kansas City-based company mySidewalk built Sidekick, an AI-powered data assistant that helps community leaders and changemakers find, visualize, and share data to inform decisions and improve outcomes.
-    class: inverted
+    blurb: Kansas City-based company mySidewalk built [Sidekick](https://www.mysidewalk.com/sidekick), an AI-powered data assistant that helps community leaders and changemakers find, visualize, and share data to inform decisions and improve outcomes.
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-4.png
+      src: /assets/img/impact-page/logos/desktop-products-my-sidewalk.png
       alt: company logo
   - title: Stemavator
-    blurb: Tech Levitate used U.S. Department of Education data on teacher skill shortage and teacher salaries to build Stemavator, which provides income-producing training opportunities for elementary and high school teachers.
+    blurb: Tech Levitate used U.S. Department of Education data on teacher skill shortage and teacher salaries to build [Stemavator](https://stemavator.com/), which provides income-producing training opportunities for elementary and high school teachers.
+    class: inverted
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-5.png
+      src: /assets/img/impact-page/logos/desktop-products-techlevitate.png
       alt: company logo
   - title: Substantial Damage Estimates (SDE)
-    blurb: Forerunner combined FEMA logic with property-level data to help communities complete substantial damage assessments quicker and more easily.
-    class: inverted
+    blurb: Forerunner combined FEMA logic with property-level data to help communities complete [substantial damage assessments](https://www.withforerunner.com/post/accelerate-your-disaster-recovery-with-the-new-substantial-damage-estimate-sde-feature) quicker and more easily.
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-6.png
+      src: /assets/img/impact-page/logos/desktop-products-forerunner.png
       alt: company logo
   - title: WellTrend
-    blurb: CloudRaven Labs used the Census Bureau’s American Community Survey (ACS) data to build WellTrend, which enables community stakeholders, researchers, and policymakers to build a customized community wellbeing index.
+    blurb: CloudRaven Labs used the Census Bureau’s American Community Survey (ACS) data to build [WellTrend](https://wellbeing.cloudraven.io/), which enables community stakeholders, researchers, and policymakers to build a customized community wellbeing index.
+    class: inverted
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-7.png
+      src: /assets/img/impact-page/logos/desktop-products-cloudraven.png
       alt: company logo
   - title: Pathway to Homeownership Video
-    blurb: Native Reach created an animated graphic video highlighting resources for prospective homebuyers. The video saw 196,800 total plays across all participating displays and 1,962,600 estimated impressions throughout its 25-day run.
-    class: inverted
+    blurb: Native Reach created an [animated graphic video](https://drive.google.com/file/d/1sikZlC4p5H-fosk47ZLhgJD3SVyJBQVW/view) highlighting resources for prospective homebuyers. The video saw 196,800 total plays across all participating displays and 1,962,600 estimated impressions throughout its 25-day run.
     img:
-      src: /assets/img/impact-page/logos/desktop-success-logo-8.png
+      src: /assets/img/impact-page/logos/desktop-products-native-reach.png
       alt: company logo
 
 
-#profile section
-profiles:
-  - title: On Communities
-    subtitle: name
-    org: org
-    class: inverted
-    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
+#download section
+download-quote:
+  - title: Garry Harris, User Advocate
+    subtitle: President/CEO, Center for Sustainable Communities
+    blurb: “I can’t wait for TOP to come around each year! ... It’s been great because we've been able to take these stories and issues which our communities are seeing, and translate them into tools, solutions, and opportunities. ... I'm also excited about it because it expands our approach to what we do ... using science, data and technology to [support] communities that need it most.”
     img:
-      src: /assets/img/impact-page/headshots/desktop-broader-community-headshot.png
+      src: /assets/img/impact-page/headshots/desktop-harris-headshot.png
       alt: smiling headshot
-  - title: On Data
-    subtitle: name
-    org: org
-    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
-    img:
-      src: /assets/img/impact-page/headshots/desktop-broader-data-headshot.png
-      alt: smiling headshot
-  - title: On Federal Agencies
-    subtitle: name
-    org: org
-    class: inverted
-    blurb: Dui sapien eget mi proin sed libero enim. Proin sagittis nisl
-    img:
-      src: /assets/img/impact-page/headshots/desktop-broader-federal-headshot.png
-      alt: smiling headshot
+
 ---
 {% include hero.html %}
 <section id="team-intro" class="team-intro grid-background">

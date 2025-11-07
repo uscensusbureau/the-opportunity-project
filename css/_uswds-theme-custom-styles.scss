@@ -2190,6 +2190,16 @@ main {
     }
   }
 
+  .impact-item {
+    display: flex;
+    .number {
+      font-size: 96px;
+      &.small {
+        font-size: 50px;
+      }
+    }
+  }
+
   .individual-info {
     // background-color: red;
 

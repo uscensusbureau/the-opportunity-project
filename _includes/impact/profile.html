@@ -6,14 +6,14 @@
     <img src="{{info.img.src}}" alt="{{info.img.alt}}">
   </div>
   <div class="info-content">
-    <h3>{{info.title}}</h3>
+    <h3>{{info.title | markdownify | remove: "<p>" | remove: "</p>"}}</h3>
     {% if info.subtitle %}
       <p class="subtitle">{{info.subtitle}}</p>
     {% endif %}
     {% if info.org %}
       <p class="org">{{info.org}}</p>
     {% endif %}
-    <p class="blurb">{{info.blurb}}</p>
+    <p class="blurb">{{info.blurb | markdownify | remove: "<p>" | remove: "</p>"}}</p>
   </div>
 </div>
 {% endfor %}

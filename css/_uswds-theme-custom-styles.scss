@@ -2146,7 +2146,7 @@ main {
     }
   .grid-background {
     background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") repeat 0 0;
-      background-size: contain;
+      background-size: auto;
       background-color: $bg-top-white;
       .nav-content-container {
         background-color: $bg-top-white;

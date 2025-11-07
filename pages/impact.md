@@ -277,7 +277,7 @@ download-quote:
   </div>
   </div>
   <div class="info-img-container">
-  <img src="/assets/img/impact-page/desktop_report download_report.png" alt="" />
+  <img src="/assets/img/impact-page/report-download-graphic.png" alt="" />
   </div>
   </div>
   </div>

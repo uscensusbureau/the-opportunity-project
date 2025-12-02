@@ -26,13 +26,13 @@ years:
     blurb: "[Data.gov](http://Data.gov), the U.S. Government’s open data website, launches in May with an initial 47 data sets — setting the stage for a modern era of digital open data."
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2015.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2009.png
       alt: something
   - title: 2015
     subtitle: College Scorecard Paves the Path to the TOP Model
     blurb: "The U.S. Department of Education’s [College Scorecard](https://collegescorecard.ed.gov/) launches, paving the path to the TOP model by inviting industry collaborators to create their own tools with new open data."
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2016.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2015.png
       alt: something
   - title: 2016
     subtitle: The Opportunity Project Officially Launches at the White House
@@ -40,56 +40,56 @@ years:
 
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2017.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2016.png
       alt: something
   - title: 2017
     subtitle: DOC Takes Over TOP
     blurb: The U.S. Department of Commerce officially takes over TOP, initially operating out of the Commerce Data Service and later the Census Bureau.
     # class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2018.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2017.png
       alt: something
   - title: 2018
     subtitle: TOP Joins the Census Open Innovation Labs
     blurb: "Now led out of [Census Open Innovation Labs](https://coil.census.gov/) at the Census Bureau, TOP launches the first sprints with themes, starting with the “geo-cohort”, focused on leveraging geospatial technology to solve a diverse set of problems."
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2019.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2018.png
       alt: something
   - title: 2019
     subtitle: The Evidence Act Enhances Access to Open Data
     blurb: "The [Foundations for Evidence-Based Policymaking Act](https://www.congress.gov/bill/115th-congress/house-bill/4174/text) (The Evidence Act) is signed into law, creating an expanded mandate for agencies to enhance access to and use of open data."
     # class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2020.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2019.png
       alt: something
   - title: 2020
     subtitle: Showcase Event Expands into Multi-Day Virtual Conference
     blurb: "During the height of the COVID-19 pandemic, TOP expands its annual Demo Day into a [multi-day virtual conference](https://www.youtube.com/watch?v=-c-DaW3ZHko&t=4s), bringing open data and innovation programming to audiences nationwide."
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2021.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2020.png
       alt: something
   - title: 2021
     subtitle: First Sprint to Create New Open Data
     blurb: TOP launches the TOPx COVID-19 sprint in partnership with the U.S. Department of Health and Human Services (HHS) — the first sprint in which teams help create new open data, in addition to using existing open data and data standards.
     # class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2022.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2021.png
       alt: something
   - title: 2022
     subtitle: TOP Addresses Puerto Rico-Specific Challenges
     blurb: TOP launches a new initiative — TOP PR — with sprints dedicated to Puerto Rico-specific challenges. TOP PR includes problem statements co-led by federal and PR government agencies, encouraging sprint participants from Puerto Rico.
     class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2023.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2022.png
       alt: something
   - title: 2023
     subtitle: TOPx Toolkit Relaunches as Interactive, Self-Service Resource
     blurb: In a significant move toward open sourcing, the "[TOPx Toolkit for Federal Agencies](https://opportunity.census.gov/topx-toolkit/)" is expanded and redesigned, as a self-service, online resource for any agency to run a sprint on their own timeline. The improved toolkit is "[launched](https://www.youtube.com/watch?v=onfDMv_pQnk&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme&index=5&t=6987s) at TOP’s annual virtual conference, TOP Summit 2023."
     # class: inverted
     img:
-      src: /assets/img/impact-page/timeline/desktop-timeline-2024.png
+      src: /assets/img/impact-page/timeline/desktop-timeline-2023.png
       alt: something
   - title: 2024
     subtitle: TOP Addresses Population-Specific Issues with Indigenous Communities-Focused Sprints
@@ -111,16 +111,11 @@ impact_numbers:
   - number: 450+
     title: Datasets
     blurb: leveraged by industry teams and improved through end user feedback
-  - number: 2 Million+
-    title: New Users
-    blurb: of federal data based on reported data from tech teams
-    class: small
 
 #products section
 products-quote:
   - title: Jack Dangermond
     subtitle: President and Founder, Esri
-    class: inverted
     blurb: “The world today is all about analytics, and the U.S. Census Bureau provides systematic and science-based information about the demographic profile of Americans. Census [Bureau] data is, in many ways, the lifeblood of these kinds of organizations.”
     img:
       src: /assets/img/impact-page/headshots/desktop-dangermond-headshot.png
@@ -190,7 +185,8 @@ download-quote:
   <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">Note from the Team</h2>
   <div class="note-item shadow-box">
     <p>We’ve seen firsthand the power of open innovation to inspire new ideas, unexpected partnerships, and meaningful solutions. The secret behind The Opportunity Project’s longevity and success isn’t just the process, it’s the people. Time and again, Americans have shown up with creativity, urgency, and purpose to help solve big problems.</p>
-    <p>This work has lasted because we’ve stayed true to our guiding principles: being radically responsive, efficient, and helpful. We’ve never lost sight of our responsibility to make the best use of every taxpayer dollar. That mindset has allowed us to move fast, work smarter, and deliver value that’s both immediate and long-lasting.</p>
+
+    <p class="margin-top-3">This work has lasted because we’ve stayed true to our guiding principles: being radically responsive, efficient, and helpful. We’ve never lost sight of our responsibility to make the best use of every taxpayer dollar. That mindset has allowed us to move fast, work smarter, and deliver value that’s both immediate and long-lasting.</p>
   </div>
   </div>
 </section>
@@ -207,7 +203,7 @@ download-quote:
   <div class="grid-container content-container">
     {% include impact/subnav.html %}
     <div class="">
-      <h2>Through the Years</h2>
+      <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">A History of TOP</h2>
     </div>
     </div>
   </div>

@@ -187,17 +187,8 @@ download-quote:
 <section id="team-intro" class="team-intro grid-background">
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
-  <nav id="subnav" class="tablet:display-none">
-    <div class="nav-content-container">
-      <a href="{{site.baseurl}}/impact#team-intro">Note</a>
-      <a href="{{site.baseurl}}/impact#years">Timeline</a>
-      <a href="{{site.baseurl}}/impact#impact-numbers">Numbers</a>
-      <a href="{{site.baseurl}}/impact#products">Products</a>
-      <a href="{{site.baseurl}}/impact#report-download">Download</a>
-    </div>
-  </nav>
-  <h2>Note from the Team</h2>
-  <div class="shadow-box">
+  <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">Note from the Team</h2>
+  <div class="note-item shadow-box">
     <p>We’ve seen firsthand the power of open innovation to inspire new ideas, unexpected partnerships, and meaningful solutions. The secret behind The Opportunity Project’s longevity and success isn’t just the process, it’s the people. Time and again, Americans have shown up with creativity, urgency, and purpose to help solve big problems.</p>
     <p>This work has lasted because we’ve stayed true to our guiding principles: being radically responsive, efficient, and helpful. We’ve never lost sight of our responsibility to make the best use of every taxpayer dollar. That mindset has allowed us to move fast, work smarter, and deliver value that’s both immediate and long-lasting.</p>
   </div>
@@ -205,7 +196,7 @@ download-quote:
 </section>
 
 <section class="quote">
-  <div class="quote-container grid-container">
+  <div class="quote-container content-container grid-container">
     {% assign section = page.note-quote %}
       {% include impact/profile.html data=section %}
   </div>
@@ -231,7 +222,7 @@ download-quote:
 <section id="impact-numbers" class="grid-background impact-numbers">
   <div class="content-container grid-container">
     {% include impact/subnav.html %}
-    <h2>By the Numbers</h2>
+    <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">By the Numbers</h2>
     {% assign section = page.impact_numbers %}
     {% include impact/numbers.html data=section %}
   </div>
@@ -240,7 +231,7 @@ download-quote:
 <section id="products" class="products">
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
-    <h2>Product Innovation in Action</h2>
+    <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">Product Innovation in Action</h2>
     <div class="quote-container">
       {% assign section = page.products-quote %}
       {% include impact/profile.html data=section %}
@@ -256,7 +247,7 @@ download-quote:
 </section>
 
 <section class="quote">
-  <div class="quote-container grid-container">
+  <div class="quote-container content-container grid-container">
     {% assign section = page.download-quote %}
     {% include impact/profile.html data=section %}
   </div>
@@ -265,13 +256,13 @@ download-quote:
 <section id="report-download" class="report-download">
   <div class="content-container grid-container">
   {% include impact/subnav.html %}
-  <h2>Impact Report: 10 Years of The Opportunity Project</h2>
-  <div class="individual-info">
+  <div class="individual-info desktop:margin-top-10">
   <div class="individual-info-container">
+  <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-3">Impact Report: 10 Years of The Opportunity Project</h2>
   <p>To measure TOP’s impact on industry, government, and communities nationwide, our team gathered testimonials and impact data from past TOP participants. Look back on a decade of impact in our report ‘10 Years of The Opportunity Project’.</p>
-  <div class="display-flex flex-justify-center margin-top-4">
+  <div class="display-flex margin-top-5">
     <a href="https://opportunity.census.gov/our-process/" target="_blank"
-      class="usa-button text-ink margin-top-2 tablet:padding-y-2 padding-x-205 usa-button--outline  .outline-1px.outline-black  tablet:margin-top-4 site-button bg-white text-underline">
+      class="usa-button text-ink tablet:padding-y-2 padding-x-205 desktop:padding-x-5 usa-button--outline  .outline-1px.outline-black site-button bg-white text-underline">
       Download the Report
     </a>
   </div>

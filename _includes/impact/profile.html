@@ -6,9 +6,9 @@
     <img src="{{info.img.src}}" alt="{{info.img.alt}}">
   </div>
   <div class="info-content">
-    <h3>{{info.title | markdownify | remove: "<p>" | remove: "</p>"}}</h3>
+    <h3 class="font-family-serif">{{info.title | markdownify | remove: "<p>" | remove: "</p>"}}</h3>
     {% if info.subtitle %}
-      <p class="subtitle">{{info.subtitle}}</p>
+      <p class="subtitle font-family-serif">{{info.subtitle}}</p>
     {% endif %}
     {% if info.org %}
       <p class="org">{{info.org}}</p>

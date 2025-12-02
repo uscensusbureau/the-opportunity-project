@@ -1499,8 +1499,11 @@ main {
 .page-summit,
 .page-impact  {
   .interior-hero {
-    padding-bottom: 60px;
 
+    padding-bottom: 30px;
+    @include at-media("tablet") {
+    padding-bottom: 60px;
+    }
     @include at-media("desktop") {
       padding: 88px 0 94px;
     }
@@ -1520,14 +1523,14 @@ main {
       }
 
     h1.usa-hero__title {
-      font-size: 14px;
+      font-size: 24px;
       margin: 0;
       padding: 0;
-      padding-top: 25px;
 
       @include at-media('tablet') {
         font-size: 20px;
         line-height: 20px;
+        padding-top: 25px;
       }
 
       @include at-media('desktop') {
@@ -1556,8 +1559,8 @@ main {
       }
 
       p {
-        font-size: 12px;
-        line-height: 17px;
+        font-size: 14px;
+        line-height: 16px;
         margin: 8px 0 0px;
 
         @include at-media('tablet') {
@@ -1566,8 +1569,8 @@ main {
         }
 
         @include at-media('desktop') {
-          font-size: 24px;
-          line-height: 30px;
+          font-size: 20px;
+          line-height: 24px;
           margin-top: 20px;
         }
       }
@@ -2064,22 +2067,20 @@ main {
   scroll-behavior: smooth;
 
   h2 {
-      font-size: 14px;
+      margin: 0;
       font-family: font-family("serif");
+      font-size: 20px;
+      line-height: 24px;
       font-weight: 400;
       @include at-media('tablet') {
-        font-size: 20px;
-        line-height: 20px;
-      }
-
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 24px;
       }
     }
 
     h3 {
       font-size: 12px;
+      font-weight: normal;
+      margin: 0;
 
       @include at-media('tablet') {
         font-size: 14px;
@@ -2093,51 +2094,71 @@ main {
     }
 
     .info-content h3 {
-      font-size: 14px;
+      font-size: 16px;
 
       @include at-media('tablet') {
         font-size: 20px;
         line-height: 20px;
       }
 
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
-      }
     }
 
     p,
     .content-container a.usa-button {
-      font-size: 12px;
-      line-height: 17px;
+      // p1
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0;
 
       @include at-media('tablet') {
-        font-size: 14px;
-        line-height: 17px;
+        font-size: 20px;
+        line-height: 26px;
       }
 
-      @include at-media('desktop') {
-        font-size: 24px;
-        line-height: 30px;
-      }
     }
 
     .nav-content-container a {
-      font-size: 7px;
-      line-height: 9px;
+      font-size: 12px;
+      line-height: 12px;
+      flex-wrap: wrap;
 
     @include at-media('tablet') {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
       }
     }
 
+    .info-content .subtitle {
+      // p1
+      font-size: 14px;
+      line-height: 18px;
+      @include at-media('tablet') {
+          font-size: 18px;
+          line-height: 24px;
+        }
+    }
 
-  div.content-container, .shadow-box {
-      padding: 52.64px 30.08px;
+    .info-content p, .info-content p a {
+      @include at-media('tablet') {
+          font-size: 16px;
+          line-height: 20px;
+        }
+    }
+    .info-content p a {
+      color: $text-top-black;
+    }
+
+    $p1-font-size-mobile: 14px;
+    $p1-line-height-mobile: 18px;
+    $p1-font-size-desktop: 20px;
+    $p1-line-height-desktop: 26px;
+
+
+  div.content-container, .note-item {
+      padding: 60px 32px;
 
       @include at-media('tablet') {
-        padding: 52.64px 67.68px;
+        padding: 75px 64px;
       }
 
       @include at-media('desktop') {
@@ -2146,7 +2167,7 @@ main {
     }
   .grid-background {
     background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") repeat 0 0;
-      background-size: auto;
+      background-size: contain;
       background-color: $bg-top-white;
       .nav-content-container {
         background-color: $bg-top-white;
@@ -2156,15 +2177,30 @@ main {
         color: $text-top-black;
         background: $bg-top-lblue;
         width: fit-content;
-        padding: 24px 20px;
         border: $text-top-black dashed 1px;
+        padding: 9px 12px;
+
+        @include at-media('tablet') {
+          padding: 22px 20px;
+        }
+        @include at-media('desktop') {
+          padding: 24px 20px;
+
+        }
       }
   }
+
   .shadow-box {
     background-color: $bg-top-white;
     border: $text-top-black dashed 1px;
     box-shadow: 12px 12px 0px 1px $text-top-black;
     border-radius: 2%;
+  }
+
+  #subnav {
+    @include at-media('desktop') {
+      margin-inline: 94.5px
+    }
   }
 
   .nav-content-container {
@@ -2173,19 +2209,114 @@ main {
     justify-content: space-evenly;
     border: .5px black solid;
     border-radius: 200px;
+    flex-wrap: wrap;
 
     a {
       color: black;
+      // padding: 20px;
       :active {
         font-weight: bold;
       }
     }
+    @include at-media('tablet') {
+      flex-wrap: nowrap;
+    }
+    @include at-media('desktop'){
+      padding: 14px 30px;
+    }
   }
 
-  .quote-container {
+.note-item {
+  margin-top: 45px;
+  padding: 30px 20px;
+  @include at-media('tablet') {
+    margin-top: 52px;
+    padding: 45px;
+  }
+  @include at-media('desktop') {
+      padding: 45px 59px;
+    }
+}
+
+.quote {
+  div.content-container.quote-container {
+
+    @include at-media('desktop') {
+      padding: 60px 100px;
+    }
+  }
+}
+
+  div.quote-container {
+    padding: 37px 32px 22px;
+    @include at-media('tablet') {
+      padding: 60px 64px;
+    }
+    .individual-info {
+      padding: 0;
+      @include at-media('tablet'){
+        flex-direction: column;
+      }
+      @include at-media('desktop') {
+        display: grid !important;
+        grid-template-columns: repeat(24, 1fr);
+
+        .info-img-container, .info-content {
+          grid-row: 1 / 2;
+          width: 100%;
+        }
+
+        .info-img-container {
+          grid-column: 1 / 9;
+          align-self: center;
+          z-index: 1;
+        }
+
+        .info-content {
+          grid-column: 8 / -1;
+        }
+      }
+    }
     .info-content {
       border: $border-top-dashed;
       border-radius: 2%;
+      margin-top: 22px;
+      padding: 30px 17px;
+      @include at-media('tablet') {
+        margin-top: 22px;
+        padding: 45px 47px;
+      }
+      @include at-media('desktop') {
+        margin-top:0;
+        padding-block:37.5px;
+        padding-right: 40px;
+        padding-left: 45px;
+      }
+
+      h3 {
+        margin-bottom: 7px;
+        line-height: 18px;
+        @include at-media('tablet') {
+            margin-top: 0px;
+            margin-bottom: 7.5px;
+          }
+      }
+
+      .subtitle {
+        margin-bottom: 15px;
+        @include at-media('tablet') {
+          margin-top: 0px;
+        }
+      }
+      .blurb {
+        // p2
+        font-size: 12px;
+        line-height: 16px;
+        @include at-media('tablet') {
+            margin: 0px;
+            font-size: 16px;
+          }
+      }
     }
   }
 
@@ -2199,11 +2330,62 @@ main {
 
   .impact-item {
     display: flex;
+    flex-direction: column;
+    padding: 22px 22px 15px;
+    margin-bottom: 45px;
+
+    @include at-media('tablet') {
+    display: grid !important;
+    grid-template-columns: repeat(12, 1fr);
+    padding-block: 45px;
+    padding-inline: 40px;
+    margin-bottom: 75px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .number, .report-details {
+      width: 100%;
+      @include at-media('tablet') {
+        grid-row: 1 / 2;
+      }
+    }
     .number {
-      font-size: 96px;
+      font-size: 48px;
+      @include at-media('tablet'){
+        grid-column: 1 / 6;
+        align-self: center;
+        font-size: 96px;
+      }
+
       &.small {
         font-size: 50px;
       }
+    }
+    .report-details {
+      @include at-media('tablet'){
+        grid-column: 6 / -1;
+      }
+
+      h3 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-block: 15px;
+        @include at-media('desktop'){
+          font-size: 20px;
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+      }
+      // .info {
+      //   font-size: $p1-font-size-mobile;
+      //   line-height: $p1-line-height-mobile;
+      //   @include at-media('tablet'){
+
+      //   }
+      // }
     }
   }
 
@@ -2211,16 +2393,24 @@ main {
     // background-color: red;
 
     .info-img-container {
-        width: fit-content;
+        width: 100%;
+        align-self: flex-end;
+        display: flex;
+        justify-content: start;
       }
     .info-content {
-      width: 125%;
+      @include at-media("desktop"){
+        width: 125%;
+      }
     }
     @include at-media("tablet") {
       display: flex;
 
       &.inverted {
-        flex-direction: row-reverse;
+        flex-direction: row-reverse !important;
+        .info-img-container {
+          justify-content: end !important;
+        }
       }
     }
   }
@@ -2235,24 +2425,85 @@ main {
           color: $text-top-black;
         }
       }
-      .individual-info {
-        padding-top: 112px;
-        display: flex;
-        align-items: center;
+    .individual-info {
+      margin-bottom: 52px;
+      display: flex;
+      align-items: center;
 
-        h3 {
-          font-family: font-family("serif");
-          font-weight: normal;
+      &:last-of-type{
+        margin-bottom: 0;
+      }
+
+
+      h3 {
+        font-family: font-family("serif");
+        font-weight: normal;
+      }
+
+      .info-content .blurb {
+        // p2
+        font-size: 12px;
+        line-height: 14px;
+        @include at-media("tablet") {
+          font-size: 16px;
+          line-height: 20px;
         }
       }
+    }
 
-      .quote-container .info-content {
-        background-color: $bg-top-white;
-      }
+    .blurb-container {
+      margin-bottom: 52px;
+    }
 
-      .info-content p a {
-        color: $text-top-black;
+    .quote-container {
+      margin-top: 8px;
+      padding-inline: 0px;
+      padding-block-end: 0px;
+      @include at-media('desktop'){
+        margin-top: 0px;
       }
+      .individual-info {
+        padding-top: 0px;
+        margin-bottom: 52px;
+        flex-direction: column;
+      }
+      .info-content {
+      background-color: $bg-top-white;
+    }
+  }
+
+    .products-container {
+      .individual-info {
+        flex-direction: column;
+        @include at-media('tablet') {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .info-img-container {
+          @include at-media('tablet') {
+            flex-basis: 48%;
+          }
+          @include at-media('desktop') {
+            flex-basis: auto;
+          }
+        }
+        .info-content {
+          @include at-media('tablet') {
+              flex-basis: 48%;
+            }
+
+          @include at-media('desktop') {
+            flex-basis: auto;
+          }
+        }
+      }
+      h3 {
+        margin: 22px 0 15px;
+        @include at-media('tablet') {
+          margin-bottom: 23px;
+        }
+      }
+    }
   }
 
   .years {
@@ -2271,12 +2522,70 @@ main {
       color: $text-top-black;
     }
     .individual-info {
-      padding-top: 112px;
+      margin-bottom: 52px;
+      @include at-media('tablet') {
+        justify-content: space-between;
+      }
+      &:last-of-type {
+        margin-bottom: 0;
+        @include at-media('desktop') {
+          margin-bottom: 75px;
+        }
+      }
+
+      .info-img-container {
+        @include at-media('tablet') {
+            flex-basis: 48%;
+          }
+
+        @include at-media('desktop') {
+          flex-basis: auto;
+        }
+      }
 
       .info-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        @include at-media('tablet') {
+          flex-basis: 48%;
+        }
+        @include at-media('desktop') {
+          flex-basis: auto;
+        }
         h3, .subtitle {
           font-family: font-family("serif");
           font-weight: 400;
+        }
+
+        h3 {
+          margin-top: 22px;
+          @include at-media('tablet') {
+            margin: 0;
+          }
+
+        }
+
+        .subtitle {
+          margin:7.5px 0px 15px;
+
+          @include at-media('tablet') {
+            margin: 0;
+          }
+          @include at-media('desktop') {
+            margin: 15px 0px 22px;
+          }
+        }
+        .blurb {
+          // p2
+          margin: 0;
+          margin-bottom: 7.5px;
+          font-size: 12px;
+          line-height: 14px;
+          @include at-media('tablet') {
+            font-size: 16px;
+            line-height: 20px;
+          }
         }
       }
     }
@@ -2299,10 +2608,38 @@ main {
         }
       }
 
-    .individual-info-container p {
-      // border: 1px white solid;
-      padding: 30px;
-    }
+      h2 {
+        @include at-media("desktop"){
+          line-height: 28px;
+        }
+      }
+
+      .individual-info {
+
+        @include at-media('tablet') {
+          justify-content: space-between;
+        }
+
+        .info-img-container {
+          @include at-media('tablet') {
+            flex-basis: 48%;
+          }
+
+          @include at-media('desktop') {
+            flex-basis: auto;
+          }
+        }
+
+        .individual-info-container {
+          @include at-media('tablet') {
+            flex-basis: 48%;
+          }
+
+          @include at-media('desktop') {
+            flex-basis: auto;
+          }
+        }
+      }
   }
 }
 

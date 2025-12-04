@@ -8,8 +8,8 @@ primary:
         href: our-process/
       - text: FAQs
         href: faqs/
-      - text: Press
-        href: press/
+      - text: Impact
+        href: impact/
   - text: Sprints
     href: sprints/
   - text: Products
@@ -71,8 +71,8 @@ footer:
           href: our-process/
         - text: FAQs
           href: faqs/
-        - text: Press
-          href: press/
+        - text: Impact
+          href: impact/
   - subsection:
       title: Sprints
       href: sprints/

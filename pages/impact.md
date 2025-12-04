@@ -200,7 +200,7 @@ download-quote:
 
 <section id="years" class="years">
   <div class="year-counter-container">
-    <div class="grid-container content-container">
+    <div class="grid-container content-container bg-timeline-container">
       {% include impact/subnav.html %}
       <div class="">
         <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">A History of TOP</h2>

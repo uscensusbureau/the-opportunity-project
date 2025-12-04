@@ -200,13 +200,13 @@ download-quote:
 
 <section id="years" class="years">
   <div class="year-counter-container">
-  <div class="grid-container content-container">
-    {% include impact/subnav.html %}
-    <div class="">
-      <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">A History of TOP</h2>
+    <div class="grid-container content-container">
+      {% include impact/subnav.html %}
+      <div class="">
+        <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">A History of TOP</h2>
+      </div>
     </div>
-    </div>
-  </div>
+    <div class="bg-timeline"></div>
   <div class="year-timeline-container">
   <div class="grid-container content-container">
     {% assign section = page.years %}

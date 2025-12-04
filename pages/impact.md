@@ -254,17 +254,23 @@ download-quote:
   {% include impact/subnav.html %}
   <div class="individual-info desktop:margin-top-10">
   <div class="individual-info-container">
-  <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-3">Impact Report: 10 Years of The Opportunity Project</h2>
-  <p>To measure TOP’s impact on industry, government, and communities nationwide, our team gathered testimonials and impact data from past TOP participants. Look back on a decade of impact in our report ‘10 Years of The Opportunity Project’.</p>
-  <div class="display-flex margin-top-5">
-    <a href="https://opportunity.census.gov/our-process/" target="_blank"
+  <h2 class="margin-bottom-2 tablet:margin-top-8 tablet:margin-bottom-3 desktop:margin-top-10">Impact Report Preview: 10 Years of The Opportunity Project</h2>
+  <p>To measure TOP’s impact on industry, government, and communities nationwide, our team gathered testimonials and impact data from past TOP participants. Look back on a decade of impact in our report preview ‘10 Years of The Opportunity Project’.</p>
+  <div class="display-none tablet:display-flex margin-top-5">
+    <a href="{{site.baseurl}}/files/10-Years-of-TOP-Preview.pdf" target="_blank"
       class="usa-button text-ink tablet:padding-y-2 padding-x-205 desktop:padding-x-5 usa-button--outline  .outline-1px.outline-black site-button bg-white text-underline">
-      Download the Report
+      Download the Report Preview
     </a>
   </div>
   </div>
-  <div class="info-img-container">
+  <div class="info-img-container margin-top-3 tablet:margin-top-8 desktop:margin-top-0">
   <img src="/assets/img/impact-page/report-download-graphic.png" alt="" />
+  </div>
+  <div class="display-flex tablet:display-none margin-top-4">
+    <a href="{{site.baseurl}}/files/10-Years-of-TOP-Preview.pdf" target="_blank"
+      class="usa-button text-ink tablet:padding-y-2 padding-x-205 desktop:padding-x-5 usa-button--outline  .outline-1px.outline-black site-button bg-white text-underline">
+      Download the Report Preview
+    </a>
   </div>
   </div>
   </div>

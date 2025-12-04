@@ -218,7 +218,7 @@ download-quote:
 <section id="impact-numbers" class="grid-background impact-numbers">
   <div class="content-container grid-container">
     {% include impact/subnav.html %}
-    <h2 class="tablet:margin-top-8 desktop:margin-top-10 desktop:margin-bottom-7">By the Numbers</h2>
+    <h2 class="margin-bottom-6 tablet:margin-top-8 tablet:margin-bottom-7 desktop:margin-top-10 desktop:margin-bottom-7">By the Numbers</h2>
     {% assign section = page.impact_numbers %}
     {% include impact/numbers.html data=section %}
   </div>

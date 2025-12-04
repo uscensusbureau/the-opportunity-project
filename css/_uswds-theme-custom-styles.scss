@@ -1564,13 +1564,12 @@ main {
         margin: 8px 0 0px;
 
         @include at-media('tablet') {
-          font-size: 14px;
-          line-height: 17px;
+          margin-top: 22px;
+          font-size: 20px;
+          line-height: 24px;
         }
 
         @include at-media('desktop') {
-          font-size: 20px;
-          line-height: 24px;
           margin-top: 20px;
         }
       }
@@ -2315,6 +2314,7 @@ main {
         @include at-media('tablet') {
             margin: 0px;
             font-size: 16px;
+            line-height: 20px;
           }
       }
     }
@@ -2331,15 +2331,20 @@ main {
   .impact-item {
     display: flex;
     flex-direction: column;
-    padding: 22px 22px 15px;
+    padding: 32px 22px 15px;;
     margin-bottom: 45px;
 
     @include at-media('tablet') {
-    display: grid !important;
-    grid-template-columns: repeat(12, 1fr);
-    padding-block: 45px;
-    padding-inline: 40px;
-    margin-bottom: 75px;
+      padding: 22px 22px 15px;
+      display: grid !important;
+      grid-template-columns: repeat(12, 1fr);
+      padding-block: 45px;
+      padding-inline: 15px;
+      margin-bottom: 75px;
+    }
+
+    @include at-media('desktop') {
+      padding-inline: 40px;
     }
 
     &:last-of-type {
@@ -2365,7 +2370,10 @@ main {
       }
     }
     .report-details {
-      @include at-media('tablet'){
+      @include at-media('tablet') {
+        grid-column: 7 / -1;
+      }
+      @include at-media('desktop') {
         grid-column: 6 / -1;
       }
 
@@ -2373,9 +2381,11 @@ main {
         font-size: 16px;
         line-height: 16px;
         margin-block: 15px;
-        @include at-media('desktop'){
+        margin-top: 30px;
+        @include at-media('tablet'){
           font-size: 20px;
           line-height: 20px;
+          margin-top: 0px;
           margin-bottom: 15px;
         }
       }
@@ -2508,14 +2518,24 @@ main {
 
   .years {
     color: $text-top-white;
-    .year-counter-container{
+    .year-counter-container {
       background: #014280;
+      .content-container {
+        padding-bottom: 0px;
+      }
+      .bg-timeline {
+        background: url('../img/impact-page/backgrounds/desktop-timeline-wheel-transparent-bg.gif') no-repeat 0 0;
+        background-size: cover;
+        background-position: center center;
+        height: 50vw;
+        }
       .nav-content-container {
         border-color: white;
         a {
             color: white;
         }
       }
+
     }
     .year-timeline-container {
       background: $bg-top-lblue;
@@ -2536,10 +2556,12 @@ main {
       .info-img-container {
         @include at-media('tablet') {
             flex-basis: 48%;
+            align-self: flex-start;
           }
 
         @include at-media('desktop') {
           flex-basis: auto;
+          align-self: flex-end;
         }
       }
 
@@ -2569,9 +2591,6 @@ main {
         .subtitle {
           margin:7.5px 0px 15px;
 
-          @include at-media('tablet') {
-            margin: 0;
-          }
           @include at-media('desktop') {
             margin: 15px 0px 22px;
           }
@@ -2609,6 +2628,10 @@ main {
       }
 
       h2 {
+        line-height: 26px;
+        @include at-media("tablet"){
+          line-height: 30px;
+        }
         @include at-media("desktop"){
           line-height: 28px;
         }
@@ -2623,10 +2646,13 @@ main {
         .info-img-container {
           @include at-media('tablet') {
             flex-basis: 48%;
+            align-self: flex-start;
+            justify-content: end;
           }
 
           @include at-media('desktop') {
-            flex-basis: auto;
+            flex-basis: 35%;
+            align-self: start;
           }
         }
 
@@ -2637,6 +2663,7 @@ main {
 
           @include at-media('desktop') {
             flex-basis: auto;
+            flex-basis: 65%;
           }
         }
       }

@@ -3,7 +3,7 @@
 {% for info in data %}
 <div class="individual-info {% if info.class%}{{info.class}}{%endif%}">
   <div class="info-img-container">
-    <img src="{{info.img.src}}" alt="{{info.img.alt}}">
+    <img src="{{info.img.src}}" {% if info.img.alt %}alt="{{info.img.alt}}"{%endif%}>
   </div>
   <div class="info-content">
     <h3 class="font-family-serif">{{info.title | markdownify | remove: "<p>" | remove: "</p>"}}</h3>

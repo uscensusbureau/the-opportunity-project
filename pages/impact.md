@@ -27,13 +27,13 @@ years:
     class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2009.png
-      alt: timeline image
+      alt:
   - title: 2015
     subtitle: College Scorecard Paves the Path to the TOP Model
     blurb: "The U.S. Department of Education’s [College Scorecard](https://collegescorecard.ed.gov/) launches, paving the path to the TOP model by inviting industry collaborators to create their own tools with new open data."
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2015.png
-      alt: timeline image
+      alt:
   - title: 2016
     subtitle: The Opportunity Project Officially Launches at the White House
     blurb: "In March, The Opportunity Project (TOP) [officially launches](https://obamawhitehouse.archives.gov/the-press-office/2016/03/07/fact-sheet-white-house-launches-opportunity-project-utilizing-open-data) at the White House with the first TOP Demo Day, introducing the first 12 sprint products."
@@ -41,63 +41,63 @@ years:
     class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2016.png
-      alt: timeline image
+      alt:
   - title: 2017
     subtitle: DOC Takes Over TOP
     blurb: The U.S. Department of Commerce officially takes over TOP, initially operating out of the Commerce Data Service and later the Census Bureau.
     # class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2017.png
-      alt: timeline image
+      alt:
   - title: 2018
     subtitle: TOP Joins the Census Open Innovation Labs
     blurb: "Now led out of [Census Open Innovation Labs](https://coil.census.gov/) at the Census Bureau, TOP launches the first sprints with themes, starting with the “geo-cohort”, focused on leveraging geospatial technology to solve a diverse set of problems."
     class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2018.png
-      alt: timeline image
+      alt:
   - title: 2019
     subtitle: The Evidence Act Enhances Access to Open Data
     blurb: "The [Foundations for Evidence-Based Policymaking Act](https://www.congress.gov/bill/115th-congress/house-bill/4174/text) (The Evidence Act) is signed into law, creating an expanded mandate for agencies to enhance access to and use of open data."
     # class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2019.png
-      alt: timeline image
+      alt:
   - title: 2020
     subtitle: Showcase Event Expands into Multi-Day Virtual Conference
     blurb: "During the height of the COVID-19 pandemic, TOP expands its annual Demo Day into a [multi-day virtual conference](https://www.youtube.com/watch?v=-c-DaW3ZHko&t=4s), bringing open data and innovation programming to audiences nationwide."
     class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2020.png
-      alt: timeline image
+      alt:
   - title: 2021
     subtitle: First Sprint to Create New Open Data
     blurb: TOP launches the TOPx COVID-19 sprint in partnership with the U.S. Department of Health and Human Services (HHS) — the first sprint in which teams help create new open data, in addition to using existing open data and data standards.
     # class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2021.png
-      alt: timeline image
+      alt:
   - title: 2022
     subtitle: TOP Addresses Puerto Rico-Specific Challenges
     blurb: TOP launches a new initiative — TOP PR — with sprints dedicated to Puerto Rico-specific challenges. TOP PR includes problem statements co-led by federal and PR government agencies, encouraging sprint participants from Puerto Rico.
     class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2022.png
-      alt: timeline image
+      alt:
   - title: 2023
     subtitle: TOPx Toolkit Relaunches as Interactive, Self-Service Resource
     blurb: In a significant move toward open sourcing, the "[TOPx Toolkit for Federal Agencies](https://opportunity.census.gov/topx-toolkit/)" is expanded and redesigned, as a self-service, online resource for any agency to run a sprint on their own timeline. The improved toolkit is "[launched](https://www.youtube.com/watch?v=onfDMv_pQnk&list=PLewV-zKXDZkghdjPUCmmU02T7xI2dUPme&index=5&t=6987s) at TOP’s annual virtual conference, TOP Summit 2023."
     # class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2023.png
-      alt: timeline image
+      alt:
   - title: 2024
     subtitle: TOP Addresses Population-Specific Issues with Indigenous Communities-Focused Sprints
     blurb: TOP launches Indigenous Communities-Focused sprints, a new initiative to leverage TOP’s efforts to serve Indigenous communities across the country.
     class: inverted
     img:
       src: /assets/img/impact-page/timeline/desktop-timeline-2024.png
-      alt: timeline image
+      alt:
 
 
 #impact numbers

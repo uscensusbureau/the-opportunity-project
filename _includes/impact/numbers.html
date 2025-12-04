@@ -1,0 +1,11 @@
+{% assign data = include.data %}
+
+{% for item in data %}
+<div class="impact-item shadow-box">
+  <p class="number text-bold {% if item.class%}{{item.class}}{%endif%}">{{item.number}}</p>
+  <div class="report-details">
+    <h3 class="title font-family-serif">{{item.title}}</h3>
+    <p class="info">{{item.blurb}}</p>
+  </div>
+</div>
+{% endfor %}

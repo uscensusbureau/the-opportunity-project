@@ -4407,8 +4407,100 @@ code {
 // Homepage styles --------------------- //
 
 .page-home {
+  h1 {
+    font-size: 28px;
+    @include at-media('desktop') {
+      font-size: 40px;
+      // line-height: 40px;
+    }
+  }
 
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+    @include at-media('desktop') {
+      font-size: 24px;
+    }
+    a {
+      color: inherit;
+    }
+  }
 
+  .product-text-container {
+    a h3 {
+      font-size: 16px;
+      line-height: 16px;
+      @include at-media('desktop') {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+
+    p {
+      // p2
+      font-size: 12px;
+      line-height: 16px;
+      @include at-media('desktop') {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .blurb-container p {
+    // p1
+    font-size: 14px;
+    line-height: 18px;
+    @include at-media('desktop') {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+    .usa-section p a {
+      // p2
+      font-size: 12px;
+      line-height: 14px;
+
+      @include at-media('desktop') {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    ul.products-container {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product-item {
+      margin-bottom: 32px;
+      border: $border-top-dashed;
+      display: flex;
+      flex-direction: column;
+    }
+
+    div.content-container {
+      padding: 60px 32px;
+
+      @include at-media('tablet') {
+        padding: 75px 64px;
+      }
+
+      @include at-media('desktop') {
+        padding: 112px 127.5px;
+      }
+    }
+
+  .hero {
+    background-color: $bg-top-primary;
+    color: $bg-top-white;
+  }
+
+  .companies {
+    background-color: $bg-top-lblue;
+  }
   // Override for 4x1 media grid when it collapses to 2x2
   @media screen and (max-width: units("desktop")) and (min-width: units("tablet")) {
     // scss-lint:disable SelectorDepth
@@ -4419,9 +4511,6 @@ code {
     }
   }
 
-  .usa-footer__secondary-section {
-    background-color: color("base-lighter");
-  }
 }
 
 .page-curated-datasets {

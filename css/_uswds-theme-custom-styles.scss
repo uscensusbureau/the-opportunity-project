@@ -4577,23 +4577,60 @@ code {
       }
     }
 
-    div.content-container {
-      padding: 75px 32px;
+  .companies {
+    background-color: $bg-top-lblue;
+
+    ul.logo-garden-container {
+      list-style: none;
+      border-radius: 1rem;
 
       @include at-media('tablet') {
-        padding: 112px 64px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
       }
-
       @include at-media('desktop') {
-        padding: 112px 102px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 200px;
       }
     }
 
-  .hero {
-    background-color: $bg-top-primary;
-    color: $bg-top-white;
-    .blurb-container p {
-      margin-bottom: 0;
+    li.logo-item {
+      &.mobile-bottom-dash {
+          border-bottom: $border-top-dashed;
+        @include at-media('tablet') {
+          border: none;
+        }
+      }
+      &.tablet-bottom-dash {
+        @include at-media('tablet'){
+          border-bottom: $border-top-dashed;
+        }
+        @include at-media('desktop') {
+          border: none;
+        }
+      }
+
+      &.tablet-right-dash {
+        @include at-media('tablet') {
+          border-right: $border-top-dashed;
+        }
+        @include at-media('desktop'){
+          border: none;
+        }
+      }
+
+      &.desktop-bottom-dash {
+        @include at-media('desktop') {
+          border-bottom: $border-top-dashed;
+        }
+      }
+      &.desktop-right-dash {
+        @include at-media('desktop') {
+          border-right: $border-top-dashed;
+        }
+      }
     }
   }
 
@@ -4976,40 +5013,6 @@ code {
     }
   }
 
-
-// Logo Garden
-
-.logo-garden-container {
-  display: none;
-  @include at-media("desktop") {
-    margin-top: units(6);
-    opacity: 0.5;
-    width: units('desktop');
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-.logo-garden-mobile {
-  opacity: 0.5;
-  @include at-media("desktop") {
-    display: none;
-  }
-}
-
-.logo-garden-item {
-  max-height: 30px;
-  max-width: auto;
-  display: inline-block;
-}
-
-.logo-garden-large {
-  max-height: 100px;
-  max-width: auto;
-  display: inline-block;
-  margin-left: 40px;
-  margin-right: 40px;
-}
 
 
 // process page header overlay banner

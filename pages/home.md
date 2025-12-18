@@ -59,6 +59,40 @@ products:
       src: /showcase/?search=mysidewalk
       isExternal: false
 
+logos:
+  - img:
+      src: /assets/img/home-page/logos/sap.png
+      alt: SAP
+      class: mobile-bottom-dash tablet-bottom-dash tablet-right-dash desktop-bottom-dash desktop-right-dash
+  - img:
+      src: /assets/img/home-page/logos/mastercard.png
+      alt: Mastercard
+      class: mobile-bottom-dash tablet-bottom-dash desktop-bottom-dash desktop-right-dash
+  - img:
+      src: /assets/img/home-page/logos/visa.png
+      alt: Visa
+      class: mobile-bottom-dash tablet-bottom-dash tablet-right-dash desktop-bottom-dash desktop-right-dash
+  - img:
+      src: /assets/img/home-page/logos/linkedin.png
+      alt: LinkedIn
+      class: mobile-bottom-dash tablet-bottom-dash desktop-bottom-dash
+  - img:
+      src: /assets/img/home-page/logos/redfin.png
+      alt: RedFin
+      class: mobile-bottom-dash tablet-bottom-dash tablet-right-dash desktop-right-dash
+  - img:
+      src: /assets/img/home-page/logos/ibm.png
+      alt: IBM
+      class: mobile-bottom-dash tablet-bottom-dash desktop-right-dash
+  - img:
+      src: /assets/img/home-page/logos/zillow.png
+      alt: Zillow
+      class: mobile-bottom-dash tablet-right-dash desktop-right-dash
+  - img:
+      src: /assets/img/home-page/logos/google.png
+      alt: Google
+      class:
+
 cta-one:
   container-class: display-flex flex-column flex-align-center text-center cta-one tablet:margin-bottom-5
   background-class: bg-top-green text-top-white

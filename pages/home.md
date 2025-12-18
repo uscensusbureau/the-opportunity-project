@@ -14,7 +14,7 @@ products:
     blurb: Predicts geographic areas where opioid emergencies are likely to occur to help public safety and health officials save lives.
     img:
       src: /assets/img/home-page/products/desktop-products-esri.png
-      alt: company logo
+      alt:
     href:
       src: /showcase/?search=insight+for+arcgis
       isExternal: false
@@ -22,7 +22,7 @@ products:
     blurb: Designed to help investors, developers, municipalities, and community members make impactful, place-based investments.
     img:
       src: /assets/img/home-page/products/desktop-products-citiventures.png
-      alt: company logo
+      alt:
     href:
       src: /showcase/?search=city+builder
       isExternal: false
@@ -30,7 +30,7 @@ products:
     blurb: Zillow integrates school ratings from GreatSchools.org, the preeminent ranking system of U.S. public schools.
     img:
       src: /assets/img/home-page/products/desktop-products-zillow.png
-      alt: company logo
+      alt:
     href:
       src: /showcase/?search=opportunity+dashboard
       isExternal: false
@@ -38,7 +38,7 @@ products:
     blurb: Helps Redfin’s understand the opportunities and tradeoffs in housing and employment when looking to relocate for work.
     img:
       src: /assets/img/home-page/products/desktop-products-redfin.png
-      alt: company logo
+      alt:
     href:
       src: /showcase/?search=job+opportunity+tool
       isExternal: false
@@ -46,7 +46,7 @@ products:
     blurb: Enables local government floodplain managers to effectively communicate flood risk and track changes in their community.
     img:
       src: /assets/img/home-page/products/desktop-products-forerunner.png
-      alt: company logo
+      alt:
     href:
       src: showcase/?search=floodplain+management
       isExternal: false
@@ -54,7 +54,7 @@ products:
     blurb: An AI-powered data assistant that helps community leaders find, visualize, and share data to inform decisions and improve outcomes.
     img:
       src: /assets/img/home-page/products/desktop-products-mysidewalk.png
-      alt: company logo
+      alt:
     href:
       src: /showcase/?search=mysidewalk
       isExternal: false

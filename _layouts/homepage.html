@@ -6,26 +6,32 @@ layout: default
 {% include home/homepage-hero.html data=page.hero %}
 
 <section class="products">
-  <div class="content-container grid-container">
+  <div class="content-container grid-container display-flex flex-column">
     <h2
-      class="font-family-serif margin-bottom-6 tablet:margin-top-8 tablet:margin-bottom-7 desktop:margin-top-10 desktop:margin-bottom-7">
+      class="font-family-serif margin-bottom-3 tablet:margin-top-0 tablet:margin-bottom-05 desktop:margin-top-0">
       Innovative Solutions to <a href="{{site.baseurl}}/sprints/">National Challenges</a></h2>
-    <div class="blurb-container">
+    <div class="blurb-container tablet:margin-top-0">
       <p>TOP has been instrumental in the development of many new tools that serve the public, tackling challenges like
         the opioid crisis, workforce development, entrepreneurship, disaster response, and rural development. Here are
         just a few notable examples:</p>
     </div>
-    <ul class="products-container padding-0">
+    <ul class="products-container padding-0 margin-top-5 tablet:margin-top-3 tablet:margin-bottom-0 desktop:margin-top-4">
       {% assign section = page.products %}
       {% include home/homepage-products.html data=section %}
     </ul>
+    <div class="display-flex margin-top-4 tablet:margin-top-3 flex-align-self-center desktop:margin-top-4">
+    <a href="{{site.baseurl}}/files/10-Years-of-TOP-Preview.pdf" target="_blank"
+    class="usa-button text-ink tablet:padding-y-2 padding-x-205 desktop:padding-y-205 desktop:padding-x-6 outline-1px outline-black site-button bg-white">
+    Explore More Examples
+    </a>
+    </div>
   </div>
 </section>
 
 <section class="companies">
   <div class="content-container grid-container">
     <h2
-      class="font-family-serif margin-bottom-6 tablet:margin-top-8 tablet:margin-bottom-7 desktop:margin-top-10 desktop:margin-bottom-7">
+      class="font-family-serif margin-bottom-3 tablet:margin-top-0 tablet:margin-bottom-3">
       Cross-Industry Collaboration</h2>
     <div class="blurb-container">
       <p>TOP brings together government agencies, technologists, NGOs, universities, community leaders, and data experts

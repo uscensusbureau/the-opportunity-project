@@ -4409,17 +4409,30 @@ code {
 .page-home {
   h1 {
     font-size: 28px;
-    @include at-media('desktop') {
+    width: min-content;
+    font-weight: normal;
+    @include at-media('tablet') {
+      width: auto;
       font-size: 40px;
-      // line-height: 40px;
+      line-height: 48px;
+      margin-top: 0;
+    }
+
+    span {
+      background-color: $bg-top-lblue;
+      color: $text-top-black;
+      padding-inline: 12px;
     }
   }
 
   h2 {
     font-size: 20px;
     line-height: 24px;
-    @include at-media('desktop') {
+    font-weight: normal;
+    @include at-media('tablet') {
       font-size: 24px;
+      line-height: 28px;
+      margin-top: 0;
     }
     a {
       color: inherit;
@@ -4427,12 +4440,20 @@ code {
   }
 
   .product-text-container {
+    padding-left: 15px;
+    padding-right: 17px;
+
+    @include at-media('desktop') {
+      padding-inline: 36px;
+    }
+
     a h3 {
       font-size: 16px;
-      line-height: 16px;
-      @include at-media('desktop') {
+      line-height: 20px;
+      margin-top: 18px;
+      @include at-media('tablet') {
         font-size: 20px;
-        line-height: 20px;
+        line-height: 24px;
       }
     }
 
@@ -4440,9 +4461,14 @@ code {
       // p2
       font-size: 12px;
       line-height: 16px;
-      @include at-media('desktop') {
+      margin-bottom: 20px;
+      @include at-media('tablet') {
         font-size: 16px;
         line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        margin-bottom: 32px;
       }
     }
   }
@@ -4451,7 +4477,7 @@ code {
     // p1
     font-size: 14px;
     line-height: 18px;
-    @include at-media('desktop') {
+    @include at-media('tablet') {
       font-size: 20px;
       line-height: 26px;
     }
@@ -4462,40 +4488,113 @@ code {
       font-size: 12px;
       line-height: 14px;
 
-      @include at-media('desktop') {
+      @include at-media('tablet') {
         font-size: 16px;
         line-height: 20px;
       }
     }
 
+    .cta-one {
+      p.cta-one {
+        font-size: 14px;
+        line-height: 18px;
+
+        @include at-media('tablet') {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+
+      a.site-cta {
+        max-width: 181px;
+        color: $text-top-black !important;
+
+        &:hover {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        }
+
+        @include at-media('tablet') {
+          max-width: 370px;
+        }
+      }
+
+    }
+
+    .products {
+      a.site-button {
+       max-width: 181px;
+       font-size: 12px;
+       line-height: 14px;
+
+      &:hover {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        }
+
+       @include at-media('desktop') {
+        font-size: 16px;
+        line-height: 16px;
+        max-width: fit-content;
+       }
+      }
+    }
     ul.products-container {
       list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .product-item {
-      margin-bottom: 32px;
-      border: $border-top-dashed;
-      display: flex;
-      flex-direction: column;
-    }
-
-    div.content-container {
-      padding: 60px 32px;
+      // display: flex;
+      // flex-wrap: wrap;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(241px, 380px));
 
       @include at-media('tablet') {
-        padding: 75px 64px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
       }
 
       @include at-media('desktop') {
-        padding: 112px 127.5px;
+        gap: 21px;
+      }
+    }
+
+    .product-item {
+      margin-bottom: 24px;
+      border: $border-top-dashed;
+      display: flex;
+      flex-direction: column;
+      border-radius: 1rem;
+
+      @include at-media('tablet') {
+        max-width: 241px;
+      }
+      @include at-media('desktop') {
+        max-width: 379px;
+      }
+
+      & img {
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+      }
+    }
+
+    div.content-container {
+      padding: 75px 32px;
+
+      @include at-media('tablet') {
+        padding: 112px 64px;
+      }
+
+      @include at-media('desktop') {
+        padding: 112px 102px;
       }
     }
 
   .hero {
     background-color: $bg-top-primary;
     color: $bg-top-white;
+    .blurb-container p {
+      margin-bottom: 0;
+    }
   }
 
   .companies {

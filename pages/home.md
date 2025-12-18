@@ -60,21 +60,21 @@ products:
       isExternal: false
 
 cta-one:
-  container-class: display-flex flex-column flex-align-center text-center cta-one
+  container-class: display-flex flex-column flex-align-center text-center cta-one tablet:margin-bottom-5
   background-class: bg-top-green text-top-white
   title:
     text: Use Open Data to Create Groundbreaking Solutions
 
-    class: text-normal font-family-serif cta-one padding-x-5 tablet:padding-x-9
+    class: text-normal font-family-serif cta-one padding-x-4 tablet:padding-x-9 margin-bottom-0
   blurb:
     text: |-
        We’re looking for leaders  in industry, academia, and communities across the United States to participate in TOP. Is that you?
-    class: text-normal cta-one padding-x-5 tablet:padding-x-9
+    class: text-normal margin-top-05 margin-bottom-2 cta-one padding-x-5 tablet:padding-x-9 tablet:margin-bottom-3 desktop:margin-top-0
   custom:
     text: See How TOP Works & How You Fit In
     href: /sprint-process/
     isExternal: false
-    class: usa-button--secondary margin-top-1
+    class: usa-button--secondary margin-top-1 outline-1px outline-black site-button bg-white
 
 ---
 

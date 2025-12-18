@@ -4439,6 +4439,18 @@ code {
     }
   }
 
+  div.content-container {
+    padding: 75px 32px;
+
+    @include at-media('tablet') {
+      padding: 112px 64px;
+    }
+
+    @include at-media('desktop') {
+      padding: 112px 102px;
+    }
+  }
+
   .product-text-container {
     padding-left: 15px;
     padding-right: 17px;
@@ -4520,6 +4532,15 @@ code {
 
     }
 
+  .hero {
+    background-color: $bg-top-primary;
+    color: $bg-top-white;
+
+    .blurb-container p {
+      margin-bottom: 0;
+    }
+  }
+
     .products {
       a.site-button {
        max-width: 181px;
@@ -4549,10 +4570,10 @@ code {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        justify-content: space-between;
       }
 
       @include at-media('desktop') {
+        justify-content: space-between;
         gap: 21px;
       }
     }
@@ -4634,9 +4655,6 @@ code {
     }
   }
 
-  .companies {
-    background-color: $bg-top-lblue;
-  }
   // Override for 4x1 media grid when it collapses to 2x2
   @media screen and (max-width: units("desktop")) and (min-width: units("tablet")) {
     // scss-lint:disable SelectorDepth

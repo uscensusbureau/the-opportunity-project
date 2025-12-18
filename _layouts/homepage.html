@@ -38,6 +38,11 @@ layout: default
         to rapidly prototype digital products that solve real-world problems with open data. Here are just a few notable
         companies that have participated in TOP:</p>
     </div>
+
+    <ul class="logo-garden-container padding-y-0 margin-top-5 padding-x-4 tablet:margin-top-3 tablet:margin-bottom-0 tablet:padding-y-5 desktop:margin-top-4 bg-top-white">
+      {% assign section = page.logos %}
+      {% include logo-garden.html data=section %}
+    </ul>
   </div>
 </section>
 

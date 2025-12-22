@@ -35,7 +35,7 @@ products:
       src: /showcase/?search=opportunity+dashboard
       isExternal: false
   - title: Job Opportunity Tool by RedFin
-    blurb: Helps Redfin’s understand the opportunities and tradeoffs in housing and employment when looking to relocate for work.
+    blurb: Helps Redfin understand the opportunities and tradeoffs in housing and employment when looking to relocate for work.
     img:
       src: /assets/img/home-page/products/desktop-products-redfin.png
       alt:
@@ -106,7 +106,7 @@ cta-one:
     class: text-normal margin-top-05 margin-bottom-2 cta-one padding-x-5 tablet:padding-x-9 tablet:margin-bottom-3 desktop:margin-top-0
   custom:
     text: See How TOP Works & How You Fit In
-    href: /sprint-process/
+    href: /sprint-process/#roles-intro
     isExternal: false
     class: usa-button--secondary margin-top-1 outline-1px outline-black site-button bg-white
 

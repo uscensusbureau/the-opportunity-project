@@ -4422,6 +4422,10 @@ code {
       background-color: $bg-top-lblue;
       color: $text-top-black;
       padding-inline: 12px;
+      padding-block: 4px;
+      @include at-media('tablet') {
+        padding-block: 12px;
+      }
     }
   }
 
@@ -4573,19 +4577,20 @@ code {
       }
 
       @include at-media('desktop') {
-        justify-content: space-between;
+        justify-content: space-evenly;
         gap: 21px;
       }
     }
 
     .product-item {
-      margin-bottom: 24px;
+      margin-bottom: 17px;
       border: $border-top-dashed;
       display: flex;
       flex-direction: column;
       border-radius: 1rem;
 
       @include at-media('tablet') {
+        margin-bottom: 24px;
         max-width: 241px;
       }
       @include at-media('desktop') {
@@ -4608,12 +4613,12 @@ code {
       @include at-media('tablet') {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 200px;
+        grid-auto-rows: 135px;
       }
       @include at-media('desktop') {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: 200px;
+        grid-auto-rows: 150px;
       }
     }
 
@@ -6666,6 +6671,10 @@ $theme-table-column-gap: 4;
   background-color: color("primary-lightest");
   color: color("primary-dark");
 
+  &.announcement-banner {
+      background-color: $bg-top-white;
+    }
+
   [href^="http"]:not([href*=".gov"])::after {
     display: none;
   }
@@ -6678,6 +6687,22 @@ $theme-table-column-gap: 4;
   .usa-banner__header-action,
   .usa-banner__button {
     @include typeset("lang", 1, 2);
+  }
+
+  .announcement-banner {
+    .usa-banner__header-text {
+      color: $text-top-white;
+
+
+
+      & a {
+        // color: $text-top-white !important;
+
+        @include at-media('desktop') {
+            font-size: 16px;
+          }
+      }
+    }
   }
 
   .usa-banner__content {

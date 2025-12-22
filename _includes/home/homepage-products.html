@@ -1,0 +1,15 @@
+{% assign data = include.data %}
+
+{% for info in data %}
+<li class="product-item">
+  <div class="product-img-content">
+    <img src="{{ info.img.src }}" class="" alt="{{ info.img.alt }}">
+  </div>
+  <div class="product-text-container {{info.class}}">
+    <a href="{{ info.href.src }}">
+      <h3 class="font-family-serif text-top-black text-normal">{{ info.title }}</h3>
+    </a>
+    <p>{{ info.blurb }}</p>
+  </div>
+</li>
+{% endfor %}

@@ -1,11 +1,11 @@
 {% assign banner = site.banner %}
-<section class="site-banner flex-align-center border-bottom-1px">
+<section class="site-banner announcement-banner border-bottom-1px padding-y-2 padding-right-2 text-center">
   <div class="usa-accordion">
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text font-sans-xs">
-            <a href="{% unless banner.isExternal %}{{site.baseurl}}{% endunless %}{{ banner.href }}">
+            <a class="text-top-white text-bold font-family-serif" href="{% unless banner.isExternal %}{{site.baseurl}}{% endunless %}{{ banner.href }}">
             {{ banner.text }}
             </a>
           </p>

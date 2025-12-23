@@ -1496,10 +1496,14 @@ main {
 .page-showcase,
 .page-sprints,
 .page-sprint-process,
-.page-summit  {
+.page-summit,
+.page-impact  {
   .interior-hero {
-    padding-bottom: 60px;
 
+    padding-bottom: 30px;
+    @include at-media("tablet") {
+    padding-bottom: 60px;
+    }
     @include at-media("desktop") {
       padding: 88px 0 94px;
     }
@@ -1519,14 +1523,14 @@ main {
       }
 
     h1.usa-hero__title {
-      font-size: 14px;
+      font-size: 24px;
       margin: 0;
       padding: 0;
-      padding-top: 25px;
 
       @include at-media('tablet') {
         font-size: 20px;
         line-height: 20px;
+        padding-top: 25px;
       }
 
       @include at-media('desktop') {
@@ -1555,18 +1559,17 @@ main {
       }
 
       p {
-        font-size: 12px;
-        line-height: 17px;
+        font-size: 14px;
+        line-height: 16px;
         margin: 8px 0 0px;
 
         @include at-media('tablet') {
-          font-size: 14px;
-          line-height: 17px;
+          margin-top: 22px;
+          font-size: 20px;
+          line-height: 24px;
         }
 
         @include at-media('desktop') {
-          font-size: 24px;
-          line-height: 30px;
           margin-top: 20px;
         }
       }
@@ -2058,22 +2061,615 @@ main {
  }
 }
 
-// Press page ----------------- //
-.page-press {
-  h1.usa-hero__title {
-      font-size: 14px;
+// Impact page ----------------- //
+.page-impact {
+  scroll-behavior: smooth;
+
+  h2 {
+      margin: 0;
+      font-family: font-family("serif");
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 400;
+      @include at-media('tablet') {
+        font-size: 24px;
+      }
+    }
+
+    h3 {
+      font-size: 12px;
+      font-weight: normal;
+      margin: 0;
+
+      @include at-media('tablet') {
+        font-size: 14px;
+        line-height: 14px;
+      }
+
+      @include at-media('desktop') {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .info-content h3 {
+      font-size: 16px;
 
       @include at-media('tablet') {
         font-size: 20px;
         line-height: 20px;
       }
 
-      @include at-media('desktop') {
-        font-size: 32px;
-        line-height: 32px;
+    }
+
+    p,
+    .content-container a.usa-button {
+      // p1
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0;
+
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 26px;
+      }
+
+    }
+
+    .nav-content-container a {
+      font-size: 12px;
+      line-height: 12px;
+      flex-wrap: wrap;
+
+    @include at-media('tablet') {
+        font-size: 16px;
+        line-height: 16px;
       }
     }
+
+    .info-content .subtitle {
+      // p1
+      font-size: 14px;
+      line-height: 18px;
+      @include at-media('tablet') {
+          font-size: 18px;
+          line-height: 24px;
+        }
+    }
+
+    .info-content p, .info-content p a {
+      @include at-media('tablet') {
+          font-size: 16px;
+          line-height: 20px;
+        }
+    }
+    .info-content p a {
+      color: $text-top-black;
+    }
+
+    $p1-font-size-mobile: 14px;
+    $p1-line-height-mobile: 18px;
+    $p1-font-size-desktop: 20px;
+    $p1-line-height-desktop: 26px;
+
+
+  div.content-container, .note-item {
+      padding: 60px 32px;
+
+      @include at-media('tablet') {
+        padding: 75px 64px;
+      }
+
+      @include at-media('desktop') {
+        padding: 112px 127.5px;
+      }
+    }
+  .grid-background {
+    background: url("../img/impact-page/backgrounds/desktop_broader-impact_background.png") repeat 0 0;
+      background-size: contain;
+      background-color: $bg-top-white;
+      .nav-content-container {
+        background-color: $bg-top-white;
+      }
+
+      h2 {
+        color: $text-top-black;
+        background: $bg-top-lblue;
+        width: fit-content;
+        border: $text-top-black dashed 1px;
+        padding: 9px 12px;
+
+        @include at-media('tablet') {
+          padding: 22px 20px;
+        }
+        @include at-media('desktop') {
+          padding: 24px 20px;
+
+        }
+      }
+  }
+
+  .shadow-box {
+    background-color: $bg-top-white;
+    border: $text-top-black dashed 1px;
+    box-shadow: 12px 12px 0px 1px $text-top-black;
+    border-radius: 2%;
+  }
+
+  #subnav {
+    @include at-media('desktop') {
+      margin-inline: 94.5px
+    }
+  }
+
+  .nav-content-container {
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    border: .5px black solid;
+    border-radius: 200px;
+    flex-wrap: wrap;
+
+    a {
+      color: black;
+      // padding: 20px;
+      :active {
+        font-weight: bold;
+      }
+    }
+    @include at-media('tablet') {
+      flex-wrap: nowrap;
+    }
+    @include at-media('desktop'){
+      padding: 14px 30px;
+    }
+  }
+
+.note-item {
+  margin-top: 45px;
+  padding: 30px 20px;
+  @include at-media('tablet') {
+    margin-top: 52px;
+    padding: 45px;
+  }
+  @include at-media('desktop') {
+      padding: 45px 59px;
+    }
 }
+
+.quote {
+  div.content-container.quote-container {
+
+    @include at-media('desktop') {
+      padding: 60px 100px;
+    }
+  }
+}
+
+  div.quote-container {
+    padding: 37px 32px 22px;
+    @include at-media('tablet') {
+      padding: 60px 64px;
+    }
+    .individual-info {
+      padding: 0;
+      @include at-media('tablet'){
+        flex-direction: column;
+      }
+      @include at-media('desktop') {
+        display: grid !important;
+        grid-template-columns: repeat(24, 1fr);
+
+        .info-img-container, .info-content {
+          grid-row: 1 / 2;
+          width: 100%;
+        }
+
+        .info-img-container {
+          grid-column: 1 / 9;
+          align-self: center;
+          z-index: 1;
+        }
+
+        .info-content {
+          grid-column: 8 / -1;
+        }
+      }
+    }
+    .info-content {
+      border: $border-top-dashed;
+      border-radius: 2%;
+      margin-top: 22px;
+      padding: 30px 17px;
+      @include at-media('tablet') {
+        margin-top: 22px;
+        padding: 45px 47px;
+      }
+      @include at-media('desktop') {
+        margin-top:0;
+        padding-block:37.5px;
+        padding-right: 40px;
+        padding-left: 45px;
+      }
+
+      h3 {
+        margin-bottom: 7px;
+        line-height: 18px;
+        @include at-media('tablet') {
+            margin-top: 0px;
+            margin-bottom: 7.5px;
+          }
+      }
+
+      .subtitle {
+        margin-bottom: 15px;
+        @include at-media('tablet') {
+          margin-top: 0px;
+        }
+      }
+      .blurb {
+        // p2
+        font-size: 12px;
+        line-height: 16px;
+        @include at-media('tablet') {
+            margin: 0px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+      }
+    }
+  }
+
+  .impact-numbers div.content-container {
+
+    @include at-media("tablet") {
+      display: grid;
+
+    }
+  }
+
+  .impact-item {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 22px 15px;;
+    margin-bottom: 45px;
+
+    @include at-media('tablet') {
+      padding: 22px 22px 15px;
+      display: grid !important;
+      grid-template-columns: repeat(12, 1fr);
+      padding-block: 45px;
+      padding-inline: 15px;
+      margin-bottom: 75px;
+    }
+
+    @include at-media('desktop') {
+      padding-inline: 40px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .number, .report-details {
+      width: 100%;
+      @include at-media('tablet') {
+        grid-row: 1 / 2;
+      }
+    }
+    .number {
+      font-size: 48px;
+      @include at-media('tablet'){
+        grid-column: 1 / 6;
+        align-self: center;
+        font-size: 96px;
+      }
+
+      &.small {
+        font-size: 50px;
+      }
+    }
+    .report-details {
+      @include at-media('tablet') {
+        grid-column: 7 / -1;
+      }
+      @include at-media('desktop') {
+        grid-column: 6 / -1;
+      }
+
+      h3 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-block: 15px;
+        margin-top: 30px;
+        @include at-media('tablet'){
+          font-size: 20px;
+          line-height: 20px;
+          margin-top: 0px;
+          margin-bottom: 15px;
+        }
+      }
+      // .info {
+      //   font-size: $p1-font-size-mobile;
+      //   line-height: $p1-line-height-mobile;
+      //   @include at-media('tablet'){
+
+      //   }
+      // }
+    }
+  }
+
+  .individual-info {
+    // background-color: red;
+
+    .info-img-container {
+        width: 100%;
+        align-self: flex-end;
+        display: flex;
+        justify-content: start;
+      }
+    .info-content {
+      @include at-media("desktop"){
+        width: 125%;
+      }
+    }
+    @include at-media("tablet") {
+      display: flex;
+
+      &.inverted {
+        flex-direction: row-reverse !important;
+        .info-img-container {
+          justify-content: end !important;
+        }
+      }
+    }
+  }
+
+  .products {
+    background: $bg-top-lblue;
+    color: $text-top-black;
+    .nav-content-container {
+        border-color: $text-top-black;
+
+        a {
+          color: $text-top-black;
+        }
+      }
+    .individual-info {
+      margin-bottom: 52px;
+      display: flex;
+      align-items: center;
+
+      &:last-of-type{
+        margin-bottom: 0;
+      }
+
+
+      h3 {
+        font-family: font-family("serif");
+        font-weight: normal;
+      }
+
+      .info-content .blurb {
+        // p2
+        font-size: 12px;
+        line-height: 14px;
+        @include at-media("tablet") {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .blurb-container {
+      margin-bottom: 52px;
+    }
+
+    .quote-container {
+      margin-top: 8px;
+      padding-inline: 0px;
+      padding-block-end: 0px;
+      @include at-media('desktop'){
+        margin-top: 0px;
+      }
+      .individual-info {
+        padding-top: 0px;
+        margin-bottom: 52px;
+        flex-direction: column;
+      }
+      .info-content {
+      background-color: $bg-top-white;
+    }
+  }
+
+    .products-container {
+      .individual-info {
+        flex-direction: column;
+        @include at-media('tablet') {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .info-img-container {
+          @include at-media('tablet') {
+            flex-basis: 48%;
+          }
+          @include at-media('desktop') {
+            flex-basis: auto;
+          }
+        }
+        .info-content {
+          @include at-media('tablet') {
+              flex-basis: 48%;
+            }
+
+          @include at-media('desktop') {
+            flex-basis: auto;
+          }
+        }
+      }
+      h3 {
+        margin: 22px 0 15px;
+        @include at-media('tablet') {
+          margin-bottom: 23px;
+        }
+      }
+    }
+  }
+
+  .years {
+    color: $text-top-white;
+    .year-counter-container {
+      background: #014280;
+      .bg-timeline-container {
+        // padding-bottom: 0px;
+      }
+      .bg-timeline {
+        background: url('../img/impact-page/backgrounds/desktop-timeline-wheel-transparent-bg.gif') no-repeat 0 0;
+        background-size: cover;
+        background-position: center center;
+        height: 50vw;
+        }
+      .nav-content-container {
+        border-color: white;
+        a {
+            color: white;
+        }
+      }
+
+    }
+    .year-timeline-container {
+      background: $bg-top-lblue;
+      color: $text-top-black;
+    }
+    .individual-info {
+      margin-bottom: 52px;
+      @include at-media('tablet') {
+        justify-content: space-between;
+      }
+      &:last-of-type {
+        margin-bottom: 0;
+        @include at-media('desktop') {
+          margin-bottom: 75px;
+        }
+      }
+
+      .info-img-container {
+        @include at-media('tablet') {
+            flex-basis: 48%;
+            align-self: flex-start;
+          }
+
+        @include at-media('desktop') {
+          flex-basis: auto;
+          align-self: flex-end;
+        }
+      }
+
+      .info-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        @include at-media('tablet') {
+          flex-basis: 48%;
+        }
+        @include at-media('desktop') {
+          flex-basis: auto;
+        }
+        h3, .subtitle {
+          font-family: font-family("serif");
+          font-weight: 400;
+        }
+
+        h3 {
+          margin-top: 22px;
+          @include at-media('tablet') {
+            margin: 0;
+          }
+
+        }
+
+        .subtitle {
+          margin:7.5px 0px 15px;
+
+          @include at-media('desktop') {
+            margin: 15px 0px 22px;
+          }
+        }
+        .blurb {
+          // p2
+          margin: 0;
+          margin-bottom: 7.5px;
+          font-size: 12px;
+          line-height: 14px;
+          @include at-media('tablet') {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .broader-impact {
+    .individual-info {
+        padding-top: 112px;
+      }
+  }
+
+  .report-download {
+    background: $bg-top-lblue;
+    color: $text-top-black;
+    .nav-content-container {
+        border-color: $text-top-black;
+
+        a {
+          color: $text-top-black;
+        }
+      }
+
+      h2 {
+        line-height: 26px;
+        @include at-media("tablet"){
+          line-height: 30px;
+        }
+        @include at-media("desktop"){
+          line-height: 28px;
+        }
+      }
+
+      .individual-info {
+
+        @include at-media('tablet') {
+          justify-content: space-between;
+        }
+
+        .info-img-container {
+          @include at-media('tablet') {
+            flex-basis: 48%;
+            align-self: flex-start;
+            justify-content: end;
+          }
+
+          @include at-media('desktop') {
+            flex-basis: 35%;
+            align-self: start;
+          }
+        }
+
+        .individual-info-container {
+          @include at-media('tablet') {
+            flex-basis: 48%;
+          }
+
+          @include at-media('desktop') {
+            flex-basis: auto;
+            flex-basis: 65%;
+          }
+        }
+      }
+  }
+}
+
 
 // TOOLKITS ----------------- //
 
@@ -3811,7 +4407,258 @@ code {
 // Homepage styles --------------------- //
 
 .page-home {
+  h1 {
+    font-size: 28px;
+    width: min-content;
+    font-weight: normal;
+    @include at-media('tablet') {
+      width: auto;
+      font-size: 40px;
+      line-height: 48px;
+      margin-top: 0;
+    }
 
+    span {
+      background-color: $bg-top-lblue;
+      color: $text-top-black;
+      padding-inline: 12px;
+      padding-block: 4px;
+      @include at-media('tablet') {
+        padding-block: 12px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    @include at-media('tablet') {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 0;
+    }
+    a {
+      color: inherit;
+    }
+  }
+
+  div.content-container {
+    padding: 75px 32px;
+
+    @include at-media('tablet') {
+      padding: 112px 64px;
+    }
+
+    @include at-media('desktop') {
+      padding: 112px 102px;
+    }
+  }
+
+  .product-text-container {
+    padding-left: 15px;
+    padding-right: 17px;
+
+    @include at-media('desktop') {
+      padding-inline: 36px;
+    }
+
+    a h3 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 18px;
+      @include at-media('tablet') {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+
+    p {
+      // p2
+      font-size: 12px;
+      line-height: 16px;
+      margin-bottom: 20px;
+      @include at-media('tablet') {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      @include at-media('desktop') {
+        margin-bottom: 32px;
+      }
+    }
+  }
+
+  .blurb-container p {
+    // p1
+    font-size: 14px;
+    line-height: 18px;
+    @include at-media('tablet') {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+    .usa-section p a {
+      // p2
+      font-size: 12px;
+      line-height: 14px;
+
+      @include at-media('tablet') {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    .cta-one {
+      p.cta-one {
+        font-size: 14px;
+        line-height: 18px;
+
+        @include at-media('tablet') {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+
+      a.site-cta {
+        max-width: 181px;
+        color: $text-top-black !important;
+
+        &:hover {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        }
+
+        @include at-media('tablet') {
+          max-width: 370px;
+        }
+      }
+
+    }
+
+  .hero {
+    background-color: $bg-top-primary;
+    color: $bg-top-white;
+
+    .blurb-container p {
+      margin-bottom: 0;
+    }
+  }
+
+    .products {
+      a.site-button {
+       max-width: 181px;
+       font-size: 12px;
+       line-height: 14px;
+
+      &:hover {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        }
+
+       @include at-media('desktop') {
+        font-size: 16px;
+        line-height: 16px;
+        max-width: fit-content;
+       }
+      }
+    }
+    ul.products-container {
+      list-style: none;
+      // display: flex;
+      // flex-wrap: wrap;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(241px, 380px));
+
+      @include at-media('tablet') {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+
+      @include at-media('desktop') {
+        justify-content: space-evenly;
+        gap: 21px;
+      }
+    }
+
+    .product-item {
+      margin-bottom: 17px;
+      border: $border-top-dashed;
+      display: flex;
+      flex-direction: column;
+      border-radius: 1rem;
+
+      @include at-media('tablet') {
+        margin-bottom: 24px;
+        max-width: 241px;
+      }
+      @include at-media('desktop') {
+        max-width: 379px;
+      }
+
+      & img {
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+      }
+    }
+
+  .companies {
+    background-color: $bg-top-lblue;
+
+    ul.logo-garden-container {
+      list-style: none;
+      border-radius: 1rem;
+
+      @include at-media('tablet') {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 135px;
+      }
+      @include at-media('desktop') {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 150px;
+      }
+    }
+
+    li.logo-item {
+      &.mobile-bottom-dash {
+          border-bottom: $border-top-dashed;
+        @include at-media('tablet') {
+          border: none;
+        }
+      }
+      &.tablet-bottom-dash {
+        @include at-media('tablet'){
+          border-bottom: $border-top-dashed;
+        }
+        @include at-media('desktop') {
+          border: none;
+        }
+      }
+
+      &.tablet-right-dash {
+        @include at-media('tablet') {
+          border-right: $border-top-dashed;
+        }
+        @include at-media('desktop'){
+          border: none;
+        }
+      }
+
+      &.desktop-bottom-dash {
+        @include at-media('desktop') {
+          border-bottom: $border-top-dashed;
+        }
+      }
+      &.desktop-right-dash {
+        @include at-media('desktop') {
+          border-right: $border-top-dashed;
+        }
+      }
+    }
+  }
 
   // Override for 4x1 media grid when it collapses to 2x2
   @media screen and (max-width: units("desktop")) and (min-width: units("tablet")) {
@@ -3823,9 +4670,6 @@ code {
     }
   }
 
-  .usa-footer__secondary-section {
-    background-color: color("base-lighter");
-  }
 }
 
 .page-curated-datasets {
@@ -4192,40 +5036,6 @@ code {
     }
   }
 
-
-// Logo Garden
-
-.logo-garden-container {
-  display: none;
-  @include at-media("desktop") {
-    margin-top: units(6);
-    opacity: 0.5;
-    width: units('desktop');
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-.logo-garden-mobile {
-  opacity: 0.5;
-  @include at-media("desktop") {
-    display: none;
-  }
-}
-
-.logo-garden-item {
-  max-height: 30px;
-  max-width: auto;
-  display: inline-block;
-}
-
-.logo-garden-large {
-  max-height: 100px;
-  max-width: auto;
-  display: inline-block;
-  margin-left: 40px;
-  margin-right: 40px;
-}
 
 
 // process page header overlay banner
@@ -5861,6 +6671,10 @@ $theme-table-column-gap: 4;
   background-color: color("primary-lightest");
   color: color("primary-dark");
 
+  &.announcement-banner {
+      background-color: $bg-top-white;
+    }
+
   [href^="http"]:not([href*=".gov"])::after {
     display: none;
   }
@@ -5873,6 +6687,22 @@ $theme-table-column-gap: 4;
   .usa-banner__header-action,
   .usa-banner__button {
     @include typeset("lang", 1, 2);
+  }
+
+  .announcement-banner {
+    .usa-banner__header-text {
+      color: $text-top-black;
+
+
+
+      & a {
+        // color: $text-top-white !important;
+
+        @include at-media('desktop') {
+            font-size: 16px;
+          }
+      }
+    }
   }
 
   .usa-banner__content {

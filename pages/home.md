@@ -34,7 +34,7 @@ products:
     href:
       src: /showcase/?search=opportunity+dashboard
       isExternal: false
-  - title: Job Opportunity Tool by RedFin
+  - title: Job Opportunity Tool by Redfin
     blurb: Helps Redfin understand the opportunities and tradeoffs in housing and employment when looking to relocate for work.
     img:
       src: /assets/img/home-page/products/desktop-products-redfin.png

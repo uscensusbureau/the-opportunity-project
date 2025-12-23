@@ -34,7 +34,7 @@ products:
     href:
       src: /showcase/?search=opportunity+dashboard
       isExternal: false
-  - title: Job Opportunity Tool by RedFin
+  - title: Job Opportunity Tool by Redfin
     blurb: Helps Redfin understand the opportunities and tradeoffs in housing and employment when looking to relocate for work.
     img:
       src: /assets/img/home-page/products/desktop-products-redfin.png
@@ -50,7 +50,7 @@ products:
     href:
       src: showcase/?search=floodplain+management
       isExternal: false
-  - title: Sidekick by MySidewalk
+  - title: Sidekick by mySidewalk
     blurb: An AI-powered data assistant that helps community leaders find, visualize, and share data to inform decisions and improve outcomes.
     img:
       src: /assets/img/home-page/products/desktop-products-mysidewalk.png
